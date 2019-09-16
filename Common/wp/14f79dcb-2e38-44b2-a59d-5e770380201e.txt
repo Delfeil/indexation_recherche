@@ -1,0 +1,90 @@
+JavaScript Object Notation (JSON) est un format de données textuelles dérivé de la notation des objets du langage JavaScript. Il permet de représenter de l'information structurée comme le permet XML par exemple. Créé par Douglas Crockford entre 2002 et 2005, il est décrit par la RFC 7159 de l'IETF.
+Un document JSON a pour fonction de représenter de l'information accompagnée d'étiquettes permettant d'en interpréter les divers éléments, sans aucune restriction sur le nombre de celles-ci.
+Un document JSON ne comprend que deux types d'éléments structurels : Des ensembles de paires nom - valeur ;; Des listes ordonnées de valeurs.
+Ces mêmes éléments représentent trois types de données : Des objets ;; Des tableaux ;; Des valeurs génériques de type tableau, objet, booléen, nombre, chaîne ou null.
+
+Exemple
+Format JSON :
+(
+ "menu": (
+ "id": "file",
+ "value": "File",
+ "popup": (
+ "menuitem": (
+ ("value": "New", "onclick": "CreateNewDoc"),
+ ("value": "Open", "onclick": "OpenDoc"),
+ ("value": "Close", "onclick": "CloseDoc")
+)
+)
+)
+)
+À titre de comparaison, le même exemple en XML :
+menu id-"file" value-"File"
+ popup
+ menuitem value-"New" onclick-"CreateNewDoc" -
+ menuitem value-"Open" onclick-"OpenDoc" -
+ menuitem value-"Close" onclick-"CloseDoc" -
+ -popup
+ -menu
+Ou encore en YAML :
+menu:
+ id: file
+ value: File
+ popup:
+ menuitem:
+ - value: New
+ onclick: CreateNewDoc
+ - value: Open
+ onclick: OpenDoc
+ - value: Close
+ onclick: CloseDoc
+Typage
+Les types de base du format JSON sont les suivants : Chaîne de caractères : une séquence de 0 ou plus caractères Unicode. A l'instar des clés, elles sont obligatoirement entourées de guillemets (non interchangeables avec des apostrophes).; Type null : une valeur vide, utilisant le mot clé null.; Booléen : True ou False sont utilisés pour définir l'état du booléen.; Tableau.; Nombre : un nombre décimal signé qui peut contenir une part fractionnable ou élevée à la puissance (notation E). Le Json n'admet pas les nombres inexistants (NaN), et ne fait aucune distinction entre un entier et un flottant.; Object.
+
+Commentaires
+Par définition, JSON est un format d'échange de données (data interchange format), donc les commentaires, qui sont par nature des métadonnées (metadata), ne sont pas admis dans le format JSON par la RFC. Les parsers JSON stricts généreront une exception lorsqu'ils rencontrent un caractère non prévu par la spécification, comme le - de -- ou -- qui débutent les commentaires JavaScript.
+Des initiatives de formats surchargeant de commentaires le JSON comme Hjson (Human JSON) et des logiciels permettant de retranscrire ces fichiers JSON avec commentaires en ôtant ceux-là existent. Toutefois, ces fichiers demandant alors une étape supplémentaire avant de pouvoir être lus par un interpréteur JSON standard, ils perdent légèrement en facilité d'interopérabilité.
+On peut toujours ajouter une propriété de l'objet représenté par le JSON, la nommer "-comment" (un usage qui se développe), et mettre un texte (le commentaire) dans le champ valeur :
+(
+ "-comment": "Imported from Wikidata 2015-05-27 10:13.",
+ "QID": "Q5502001",
+ "label": "Adèle",
+ "description": "late 18th century, early 19th century French brig"
+)
+Durant la mise au point du format, David Crockfrod constate que certains des premiers utilisateurs du JSON ajoutent des commentaires dans le but de donner des directives au parser, à l'image des instructions ifdef ou define du préprocesseur C. Il y voit un danger pour l'interopérabilité, une priorité du format, et décide de les retirer. En 2012, il s'explique sur ce choix et reconnait être conscient de la tristesse des utilisateurs de ne pouvoir commenter ces fichiers.
+
+Avantages
+Ces types de données sont suffisamment génériques et abstraits pour, d'une part, pouvoir être représentés dans n'importe quel langage de programmation, d'autre part, pouvoir représenter n'importe quelle donnée concrète.
+Le principal avantage de JSON est qu'il est simple à mettre en oeuvre par un développeur tout en étant complet.
+Au rang des avantages, on peut également citer : peu verbeux, ce qui le rend lisible aussi bien par un humain que par une machine ;; facile à apprendre, car sa syntaxe est réduite et non extensible (bien qu'il souffre de quelques limitations) ;; ses types de données sont connus et simples à décrire.
+
+Inconvénients
+Le JSON ne peut représenter que quelques types généraux, et il n'est pas possible d'en ajouter d'autres. Pour les dates ou les couleurs par exemple, il faut trouver des représentations sous forme de chaînes de caractères. C'est sa principale différence avec un langage comme le XML, où les données sont typées et extensibles, au prix d'une plus grande complexité.
+Ce typage faible affaiblit la sécurité et la fiabilité du langage. Par exemple il n'y a pas de limite fixe pour les valeurs des entiers, celle-ci dépend de l'interpréteur.
+D'un point de vue plus pratique, il ne peut pas y avoir de commentaires, ce qui est gênant quand on utilise des fichiers JSON dans une configuration. Certaines bibliothèques acceptent les commentaires au format JavaScript.
+
+Utilisation
+Bien qu'utilisant une notation JavaScript, JSON est indépendant du langage de programmation. Le site officiel présente (en juin 2013) des solutions d'intégration de JSON pour 55 langages de programmation. Il sert à faire communiquer des applications dans un environnement hétérogène. Il est notamment utilisé comme langage de transport de données par AJAX et les services Web. D'autres solutions sont possibles comme XML. Le type MIME application-json est utilisé pour le transmettre par le protocole HTTP.
+Vis-à-vis de JavaScript, un document JSON représente un objet, d'où son nom. Il est donc potentiellement plus facile à interpréter qu'un XML qui imposera le recours à des techniques, souvent plus lourdes qu'un accès direct, telle que le parcours hiérarchique de l'arbre DOM représenté par le document entier.
+Il peut aussi être utilisé pour : la sérialisation et désérialisation d'objets ;; l'encodage de documents ;; les fichiers de configuration.
+
+Évaluation
+En JavaScript, il est simple d'évaluer une expression JSON pour la transformer en objet natif :
+var donnees - eval('('+donnees-json+')');
+Cette méthode comporte toutefois des risques car la chaîne de caractères donnees-json peut contenir n'importe quel code JavaScript. Il existe une méthode plus sûre qui consiste à parser la chaîne de caractères donnees-json, seule solution disponible dans les autres langages de programmation, à l'exception de Python, la syntaxe de JSON correspondant à ses deux types principaux : les listes et les dictionnaires.
+À partir de 2009, les navigateurs commencent à intégrer un support natif du format JSON. Cela facilite sa manipulation, la sécurité (contre l'évaluation de scripts malveillants inclus dans une chaîne JSON), et la rapidité de traitement. Ainsi les navigateurs Firefox 3.5, IE 8 ou encore Opera 10.5 l'intègrent en natif.
+Évaluer en JavaScript une expression JSON pour la transformer en objet se fait alors de la manière suivante :
+var donnees - JSON.parse(donnees-json);
+Différentes bibliothèques javascript permettent de supporter des navigateurs plus anciens avec une syntaxe similaire.
+
+Sécurité
+Le format JSON est largement utilisé pour récupérer des informations concernant les utilisateurs d'un site web. Les expressions JSON sont alors envoyées au client suivant l'identité de l'utilisateur, identifié par une session. Théoriquement, JavaScript ne permet à la fonction XMLHttpRequest (utilisée pour les requêtes JSON) d'effectuer des requêtes que vers les URL de même origine, ce qui empêche qu'un site malveillant www.A.com visité par un utilisateur ne profite de la session de celui-ci sur un site www.B.com pour récupérer des informations sur l'utilisateur en faisant une requête AJAX vers http:--www.B.com-json.php. Toutefois, l'appel de script par la balise script src- est une exception à la politique de même origine de JavaScript. Une balise script src-"http:--www.B.com-json.php" insérée dans le code html d'une page de www.A.com, avec une routine JavaScript exécutée à chaque déclaration d'un nouvel objet, permettrait le vol de données de chaque utilisateur visitant www.A.com avec une session active sur www.B.com.
+Il est possible d'éviter cela en écrivant while(1); ou BLABLA au tout début de l'expression JSON. Ainsi, l'analyse du code JSON sur le site d'origine restera tout à fait fonctionnelle et l'exécution malveillante avec script depuis une page d'un domaine différent mènera à une boucle infinie ou une erreur de syntaxe.
+Cette technique ne fonctionne que si le document JSON n'est pas un objet (un objet n'est pas un script valide) et que le navigateur permet de modifier les constructeurs de tableau (ce qui ne fonctionne plus avec les navigateurs récents).
+
+Implémentations
+Des bibliothèques pour JSON existent dans la plupart des langages de programmation.
+
+L'extension JSONP
+JSONP pour JSON with padding (en français, "JSON avec formatage") est une extension dans laquelle le nom de la fonction de retour est indiqué. L'idée originale proviendrait du blog de Bob Ippolito en 2005 et est maintenant répandue dans les applications Web 2.0, telle que Google's toolkit Applications. Des améliorations sont prévues pour y ajouter des arguments.
+JSONP utilise des balises de scripts, les appels sont ouverts. Ainsi, JSONP peut être inapproprié pour transporter des informations confidentielles.

@@ -1,0 +1,10 @@
+Giga (symbole G) est le préfixe du Système international d'unités (SI) qui représente 10, soit un milliard de fois l'unité qui suit.
+
+Origine
+Confirmé en 1960, il provient du grec ancien (gígas), signifiant "géant".
+
+Informatique
+En informatique, il ne faut pas confondre le gibioctet Gio (en anglais GiB, pour "gibibyte"), qui vaut 2 octets, soit exactement 1 073 741 824 octets, et le gigaoctet Go (en anglais GB, pour "gigabyte"), qui vaut exactement 10 octets, c'est-à-dire 1 000 000 000 octets.
+Dans la pratique commerciale, ce nombre indique davantage un ordre de grandeur : une clé USB Sandisk vendue comme 32 Go est détectée par Windows comme ayant une capacité de 31 071 289 344 octets (ce qui est donc plus proche de 31 Go que de 32 Go) soit 28,9 Gio. Quelqu'un cherchant à en acheter par correspondance cherchera en effet des chiffres "ronds" au sens informatique : 16, 32, 64 ou 128 Gio et cette clé sera ainsi retrouvée lors d'une interrogation sur des moteurs de recherche ou le site d'un vendeur particulier.
+
+Voir aussi: Portail des sciences.

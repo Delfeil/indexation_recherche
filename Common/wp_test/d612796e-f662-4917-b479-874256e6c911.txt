@@ -1,0 +1,123 @@
+Une technique (du grec ou technè) est une ou un ensemble de méthode(s) ; dans les métiers manuels (menuiserie, forgerie...) , elle est souvent associée à un savoir-faire professionnel. La technique couvre l'ensemble des procédés de fabrication, de maintenance et de gestion, qui utilisent des méthodes issues de connaissances scientifiques ou simplement des méthodes dictées par la pratique de certains métiers. On peut alors parler d'art, dans son sens premier, et de science appliquée.
+La technique est l'une des grandes composantes du savoir-faire artisanal et industriel. Elle est le produit de l'ensemble de l'histoire de l'humanité, chaque peuple et chaque époque ayant apporté ses compétences.
+
+Étymologie, champ sémantique
+Étymologiquement, le mot "technique" est issu du mot grec ("technè"), qui désigne une "production" ou "fabrication matérielle."
+Le mot technologie, entré dans la langue française en 1657 signifie étude des techniques (du grec tekhnè, technique, et logos, discours ou étude). La confusion entre technique et technologie est courante. Elle est probablement due à une mauvaise compréhension du terme anglais technology. Dans un sens dérivé, et par extension, les techniques dont l'ensemble crée un domaine industriel nouveau sont nommés technologies. Quatre "technologies" au moins se sont par exemple succédé en technique de l'informatique : première génération : tubes à vide et programmation par câblage ;; deuxième génération : circuits imprimés, transistors et le langage assembleur ;; troisième génération : circuits intégrés et langages dits évolués ;; micro-informatique : microprocesseurs et dialogues par interfaces graphiques.
+
+Histoire
+Au Moyen Âge, la "techne" n'était pas considérée comme un savoir noble, parce qu'elle ne s'intéressait qu'au "comment". On s'intéressait bien davantage à la finalité des choses.
+L'époque moderne va marquer une rupture très importante, avec la révolution scientifique du XVIIe siècle que l'on appelle quelquefois révolution copernicienne. Francis Bacon et René Descartes remettent en cause les fondements de la connaissance hérités de la scolastique médiévale, le premier en introduisant la notion de progrès, au sens technique s'entend, le second en définissant une nouvelle métaphysique fondée sur le sujet pensant (Cogito ergo sum), en rupture avec la philosophie du Moyen Âge. Pour Descartes, les conséquences d'une telle révolution sont résumées dans ce célèbre extrait de la sixième partie du Discours de la méthode : "il est possible de parvenir à des connaissances qui soient fort utiles à la vie ; et au lieu de cette philosophie spéculative qu'on enseigne dans les écoles, on en peut trouver une pratique, par laquelle, connaissant la force et les actions du feu, de l'eau, de l'air, des astres, des cieux, et de tous les autres corps qui nous environnent, aussi distinctement que nous connaissons les divers métiers de nos artisans, nous les pourrions employer en même façon à tous les usages auxquels ils sont propres, et ainsi nous rendre comme maîtres et possesseurs de la nature".
+La démarche de Descartes consistera alors à partir de la métaphysique pour aller vers la physique (et partant les techniques), contrairement à la démarche de l'Antiquité et du Moyen Âge qui consistait à partir de la physique pour aller vers la métaphysique. Cette démarche a conduit à un paradigme dans lequel le sujet pensant et la technique ont une puissance très importante, dans le monde occidental du moins.
+
+Technique et économie
+
+Moteur de transformation sociale
+De nombreux économistes considèrent l'évolution de la technique (le progrès technique) comme le moteur de l'évolution de l'économie et de la société. Parmi les plus célèbres réflexions sur le rôle de la technique figurent celles de Karl Marx, qui considère que l'évolution technique entraîne celle de l'économie, ce qui forme l'"infrastructure" de la société. De cette infrastructure découlent des rapports de production et des rapports sociaux en général, ainsi que des systèmes de valeurs associés, qui forment la "superstructure" de la société.
+L'économiste Schumpeter a également beaucoup travaillé sur le rôle de la technique en économie à travers, notamment, le processus de destruction créatrice.
+
+Avancées techniques et avantage compétitif
+Pour les techniques fondées sur des percées scientifiques récentes, les expressions "haute technologie" ou "nouvelles technologies" sont employées. Ce domaine peut ou non apporter un avantage compétitif aux entreprises et zones géographiques (pôle de compétence) qui ont su y acquérir une avance : tout dépend du rapport performances- prix offert par l'avance en question, ainsi que de son triangle coûts- délais- qualité. Les exemples de sociétés ayant pris des faux-départs pour avoir eu trop d'avance sur le marché (Viatron, Exidy, Archimedes, AIXtron, etc.) semblent tout aussi spectaculaires que celles de sociétés ayant acquis au cours du temps une position dominante sans être arrivées pour autant premières chronologiquement sur le marché (IBM face à UNIVAC, par exemple). Être le premier procure des avantages mais aussi des risques importants.
+Les avantages incluent : l'absence de concurrence, la reconnaissance envers le pionnier, développement de l'humanité (satisfactions de ses besoins fondamentaux), facilitation de la vie et rapidité. Les inconvénients incluent : techniques jeunes et mal connues (il faut "essuyer des plâtres", entreprendre un effort d'information des clients potentiels) ; standards non-établis, ce qui peut obliger ensuite à de coûteuses reconversions pour mettre sa production en conformité ; lorsque les règles d'évaluation du retour sur investissement ne sont pas claires, cela peut désavantager des solutions qui s'avéraient intéressantes en théorie ; la technologie nouvelle peut être à l'origine de pollutions ; certaines technologies peuvent être dangereuses pour l'humanité.
+Par exemple : Pour s'être équipée avec retard en lignes téléphoniques, la France a pu se doter rapidement d'un réseau totalement temporel (multiplexé) sans être handicapée par le poids d'un trop important équipement spatial existant.; La forte implantation du Minitel en France a pendant plusieurs années retardé l'arrivée massive d'Internet dans les foyers français.; La nécessité d'amortir la très coûteuse technique à miroir tournant pour ses imprimantes à laser a fait perdre à IBM ce marché au profit de Canon et Xerox qui sont partis plus tard sur une idée de diodes laser fixes.; Cette même compagnie dut abandonner en cours d'études son projet FS qui n'eut que quelques retombées ultérieures sur certains produits dans le cadre des technologies existantes (imprimantes à laser, mémoires de masse à changement automatique, usage généralisé des bases de données relationnelles au système de fichiers, etc.).; L'avance de l'Angleterre et de la France dans le domaine du transport civil supersonique avec le superbe et performant Concorde, s'est révélée un échec commercial.; Celle de l'Europe dans le domaine du transport aérien (Airbus) ou des lanceurs de satellites (Ariane) qui ont en revanche constitué de francs succès, peut être remise en cause avec les déboires des débuts de l'Airbus A380.
+L'émergence d'attentes complexes de la société civile, concernant le développement durable et la responsabilité sociétale des entreprises, se traduit par des critères complexes sur trois piliers de performances : économiques, sociales et environnementales, auxquels il faut ajouter la gouvernance. Ces exigences de développement durable ont été transposées depuis une vingtaine d'années dans le concept de meilleure technique disponible. Le respect de ces critères permet d'assurer la durabilité des produits et services, qui est susceptible de procurer un avantage compétitif durable, à condition que les règles d'évaluation du retour sur investissement soient claires.
+L'avance technologique ne peut donc en aucun cas être considérée comme la balle d'argent qui fait gagner à tous les coups. Elle ne constitue qu'un facteur d'appréciation parmi d'autres. L'important est moins de suivre une mode (coûteuse vu les investissements) que d'anticiper le moins mal possible les besoins actuels et à venir.
+
+Histoire sommaire et philosophie
+
+Propre de l'homme
+La technique s'est développée avec l'humanité et fait partie d'elle. Elle constitue d'abord pour l'homme un instrument de maîtrise car elle le libère d'un certain nombre de contraintes naturelles : l'outil a pour vocation première d'être utile. Mais avec le temps, la technique est également vécue comme un instrument de puissance, voire de pouvoir. D'autant qu'elle procure au corps différents instruments qui en sont comme les prolongements. Destinées à augmenter ses capacités, ces prothèses finissent par relativiser la frontière entre la nature et l'artifice.
+Au XVIIe siècle, la technique constitue l'application de la science et l'homme devient de plus en plus conscient de son impact sur le quotidien. Le projet cartésien d'une science universelle ("connaissant la force et les actions du feu, de l'eau, de l'air, des astres, des cieux qui nous environnent, aussi distinctement que nous connaissons les divers métiers de nos artisans") a fait passer l'humanité dans une ère totalement nouvelle, l'homme se perçoit désormais "comme maître et possesseur de la nature". Au XVIIIe siècle, avec la révolution industrielle, se produit un essor considérable des techniques qui se traduit par la naissance d'un métier nouveau : l'ingénieur. Celui-ci transforme littéralement le paysage de l'homme, et par conséquent sa façon de voir le monde. Au XIXe siècle, le machinisme et l'urbanisme constituent les manifestations les plus spectaculaires de la technique. Karl Marx est le premier philosophe a pointer les effets pervers de la technique (concept d'aliénation). La formule "on n'arrête pas le progrès" signifie que la technique semble suivre son propre cours sans véritablement que l'homme en maîtrise tous les tenants et les aboutissants. Au XXe siècle, alors que le fordisme et le taylorisme transforment radicalement l'American Way of Life, le cinéaste Charles Chaplin est le premier artiste à développer la thèse d'une aliénation de l'homme par la technique. Mais c'est surtout un élan totalement technophile qui l'emporte, notamment avec les livres et les films de science-fiction.
+Un certain nombre d'intellectuels vont faire de la technique un objet d'étude à part entière. Parmi eux, aux États-Unis : l'historien Lewis Mumford ; en France : le sociologue Jacques Ellul. Par delà la diversité de leurs approches, les questions communes qui les animent sont celle de la place du contrôle de la technique par l'homme et également celle de ses finalités : la technique se met-elle seulement au service de l'homme (utilité) ou bien n'est-elle pas instrumentalisée pour satisfaire sa volonté de puissance Ces questions d'ordre éthique deviennent cruciales à l'orée du XXIe siècle alors qu'aux États-Unis le courant philosophique transhumaniste prend ouvertement position en faveur du remplacement de l'homme par une espèce toujours plus améliorée par les moyens techniques : le cyborg.
+En Allemagne le philosophe Martin Heidegger élargissant le débat comprend la technique comme un moment de l'histoire de la métaphysique. Ici il n'est plus question de débattre du contrôle de la technique qui embrasse tous les aspects du monde moderne jusque et y compris la compréhension de l'homme par lui-même. (voir sur ce sujet un article de Wikipedia qui en fait son sujet exclusif : Heidegger et la question de la technique)
+
+Éthique
+La complexité échappe aux hommes pris individuellement. Nous ne connaissons pas, pour la majorité d'entre nous, le fonctionnement interne des instruments que nous utilisons dans notre quotidien (voiture, four à micro-ondes, ordinateur, etc.).
+Des questions d'ordre moral surgissent : Quel est notre degré de dépendance envers la technique ; le progrès technique est incontestable. Mais, y a-t-il eu un progrès dans d'autres domaines également Les problèmes liés à l'humanité demeurent (famine, maladie, guerre). La science a fait des progrès mais ne permet pas de répondre aux questions existentielles ;; La technique crée un système de pouvoirs et de clivages. La technique informatique a facilité la mondialisation en même temps qu'elle a instauré une fracture numérique entre les connectés et les non-connectés : la technique concourt-elle au progrès ; Le rapport de l'homme à la nature n'a-t-il pas changé radicalement depuis la révolution industrielle L'homme n'a-t-il pas tendance à user des techniques pour asseoir une domination absolue de la nature, en surexploitant les ressources naturelles ; Sommes-nous conscients de l'impact de ces techniques sur notre identité et sur notre avenir.
+
+Réactions critiques
+Le début du XXe siècle est marqué par un ensemble de réactions critiques à l'endroit du progrès technique et, plus largement, de la survalorisation de la rationalité sur laquelle repose celui-ci. Les écrivains Ievgueni Zamiatine (Nous autres, 1921), Aldous Huxley (Le Meilleur des mondes, 1932), Georges Bernanos (La France contre les robots, 1947), George Orwell (1984, 1949), Ira Levin (Un bonheur insoutenable, 1970)... décrivent la société contemporaine comme de plus en plus marquée par un totalitarisme larvé, caractérisé par la suprématie de la technique au nom d'une certaine idée du bonheur. Plusieurs philosophes expriment également leurs inquiétudes, notamment Simone Weil (Réflexions sur l'oppression et la liberté, 1934), Günther Anders (Die Antiquiertheit des Menschen, 1956, traduit sous le titre L'Obsolescence de l'homme), les philosophes de l'École de Francfort. En France, Jacques Ellul (1912-1994), est probablement le penseur qui a le mieux étudié le phénomène du développement de la technique sous un angle socio-anthropologique.
+
+Analyse ellulienne
+Jacques Ellul considère que la technique a changé de statut au fil du XXe siècle : elle a cessé d'être ce qu'elle était depuis toujours, "un vaste ensemble de moyens assignés chacun à une fin", pour se muer en "milieu environnant à part entière", et elle est désormais un phénomène autonome, échappant de plus en plus au contrôle de l'homme et faisant au contraire peser sur lui un grand nombre de déterminations. Qualifiant notre société non pas d'industrielle ou de post-industrielle mais de technicienne, Ellul l'analyse principalement à travers trois livres : La Technique ou l'Enjeu du siècle (1954), Le système technicien (1977) et Le bluff technologique (1988).
+L'immense majorité des hommes, explique Ellul, considèrent que la technique est neutre, ni bonne ni mauvaise, et que "tout dépend de l'usage que l'on en fait". Or précise-t-il, cette dernière est devenue autonome et véhicule ses propres valeurs (le travail, l'utilité, l'efficacité, la croissance économique, le progrès...) en les substituant à toutes les anciennes valeurs, qu'elles soient chrétiennes (l'amour du prochain), humanistes (la morale) ou républicaines (la liberté, l'égalité et la fraternité). Tout le problème, conclut Ellul, c'est que l'homme a tellement intégré les valeurs portées par la technique qu'elles lui semblent aller de soi (il est absolument incapable de les remettre en question) tandis que les anciennes, de fait, sont complètement dévaluées, "ringardisées". C'est pourquoi, affirme-t-il, la technique est devenue autonome: elle s'impose à l'homme au point qu'elle devient un système et qu'il développe à son égard un grand nombre d'addictions (téléphone, automobile, télévision...) et qu'elle finit par l'aliéner.
+Les conséquences ne peuvent se limiter au registre psychologique, elles s'étendent à l'ensemble de la société. Ainsi Ellul considère que "le capitalisme est une réalité déjà historiquement dépassée. Il peut bien durer un siècle encore, cela n'a pas d'intérêt historique. Ce qui est nouveau, significatif et déterminant, c'est la technique.". Ellul ne se considérait pas comme un penseur technophobe car, disait-il, "ce n'est pas la technique qui nous asservit mais le sacré transféré à la technique". Selon lui, l'homme ne peut recouvrer sa liberté, son autonomie par rapport à la technique qu'au prix d'un cheminement spirituel et d'une véritable ascèse.
+
+Critique citoyenne
+Alors que le phénomène de la science est déjà l'objet d'une critique conséquente de la part de collectifs citoyens, notamment en France avec les associations Sciences citoyennes et Vivagora, la critique de la technique reste assez marginale, malgré les catastrophes nucléaires de Tchernobyl et Fukushima, par exemple, qui mettent en évidence la non-maîtrise de la technique à des niveaux de responsabilité élevés. Fondée en 2000, la Fondation Internet Nouvelle Génération, dont le site web est fréquenté et reconnu, se donne, entre autres missions, celle de "prendre part dans les nouveaux débats éthiques et sociétaux" mais elle confine sa réflexion au champ d'internet, et non de la technique dans sa globalité.
+Plus marginal, le collectif Pièces et main d'oeuvre adopte une position radicale : il voit dans les "nouvelles technologies" l'avènement prochain d'un contrôle social totalitaire d'autant plus considérable que celles-ci ne font pas l'objet d'un débat approfondi. Fondée en 2012 sur le mode fédératif, l'association Technologos est consacrée à l'analyse du phénomène technicien depuis les diagnostics de Jacques Ellul, Bernard Charbonneau, Ivan Illich, Martin Heidegger, Günther Anders et Hannah Arendt. Ses membres entendent mettre le concept d'autonomie de la technique "au centre des grands enjeux politiques".
+
+Listes
+
+Arts
+
+Cuisine
+
+Design
+
+Sciences appliquées
+
+Automatique: Informatique industrielle Informatique embarquée Automate Grafcet Gemma.
+
+Biologie: Médecine Imagerie médicale Radiographie Biotechnologie (technologies vertes) Bioremédiation Agronomie.
+
+Chimie: Pétrochimie Pharmacie Phytosanitaire; Polymérisation Vulcanisation; Injection des polymères (qui fait partie de la plasturgie); Pile à combustible.
+
+Communication: Télécommunications Téléphone Internet Radiodiffusion Télévision Haute définition (HD) Multimédia Radioamateur Imprimerie livre Journal (voir aussi NTIC) Satellite.
+
+Géologie: Géotechnique.
+
+Informatique
+Calculatrice solaire portable. Un "concentré" de technique, à prix dérisoire, dans une dizaine de grammes : cellule photovoltaïque, microprocesseur et afficheur à cristaux liquides (années 1980). Ingénierie informatique Informatique industrielle Génie logiciel Informatique embarquée Micro-informatique Réseau informatique Internet Ordinateur Électronique numérique (voir aussi NTIC).
+
+Technique d'affichage: Affichage mécanique Projection lumineuse Tube cathodique (CRT) Diode électroluminescente (LED) Écran à plasma Écran à cristaux liquides (LCD) Diode électroluminescente organique (OLED) Papier électronique.
+
+Sciences des matériaux
+
+Matériaux métalliques: Métallurgie.
+
+Fer et alliages de fer: Acier Acier inoxydable.
+
+Métaux et alliages non ferreux: Cuivre et alliages: Laiton; Bronze.; Laiton; Bronze; Aluminium et alliages (appelés également alliages légers): Alliages d'aluminium pour corroyage; Alliages d'aluminium pour fonderie.; Alliages d'aluminium pour corroyage; Alliages d'aluminium pour fonderie.
+
+Matériaux minéraux: Verres: fabrication floats; traitements "glass coating".; fabrication floats; traitements "glass coating"; Céramiques.
+
+Matériaux organiques: Bois; Papier: Histoire de la fabrication du papier; Caractéristiques mécaniques du papier; Machine à papier.; Histoire de la fabrication du papier; Caractéristiques mécaniques du papier; Machine à papier; Plastiques; Textiles; Élastomères; Composites.
+
+Autres concepts concernant les matériaux: Matériaux utilisables pour le frottement; Nanomatériau.
+
+Physique appliquée: Électronique Électricité Électrotechnique Production d'électricité; Optique.
+
+Mécanique: Rhéologie Tribologie, frottement, usure, lubrification; Amortissement.
+
+Mécanique industrielle, électrotechnique
+
+Généralités: Ajustement Isostatisme.
+
+Techniques nucléaires: Centrale nucléaire Moteur atomique.
+
+- Production, distribution et utilisation de la vapeur -: Machine à vapeur.
+
+Énergie hydraulique: Énergie pneumatique Turbine.
+
+- Électrotechnique -: Centrale électrique Pile à combustible Alimentation électrique Éclairage Électroménager (Four à micro-ondes...) Moteur électrique Générateur électrique Protection électrique.
+
+Moteurs thermiques: Moteur à combustion interne Moteur à combustion externe Moteur à réaction; Réfrigérateur Technologie du vide.
+
+Technique des fluides: Pompes.
+
+Obtention de pièces brutes: Emboutissage Extrusion Fonderie Forge Frittage Moulage Soudage Traitement thermique Traitement de surface Filage.
+
+Composants mécaniques, transmissions, manutention, etc. Ajustage; Assemblage; Assemblage mécanique : anneau élastique frettage; Ressort.
+
+Finition des pièces mécaniques par enlèvement de matière: Usinage Tournage Fraisage Filetage.
+
+Mécatronique
+(Liens : Mécanique et Électronique): Capteur Détecteur Transducteur Actionneur Effecteur.
+
+Audio: Radiodiffusion; Supports d'enregistrement sonore (cylindre phonographique, disque microsillon, cassette, DAT, MiniDisc, CD, SACD, disque dur, clé USB, etc.); Formats audio (MP3, Ogg, AAC, WMA, AIF, WAV, CDA, AIFF, MIDI, Hi-Fi, DDD-ADD-AAD, stéréo-mono, la FM, etc.); Connectique audio (HDMI, cinch-RCA-ligne, XLR-canon, jack, DIN-midi, etc.); Synthétiseur.
+
+Vidéo
+En audio, vidéo, et dans de nombreux secteurs, la technologie numérique remplace progressivement l'analogique depuis plusieurs années. Standards analogiques SÉCAM, PAL...; TNT TNT HD Télévision par câble; Haute définition (HD); Support vidéo : disque Blu-ray...
+
+Transport: Automobile Aviation Aéronautique Transport ferroviaire Escalier mécanique Tapis roulant Ascenseur Véhicule propre Logistique Marine marchande Transport maritime.

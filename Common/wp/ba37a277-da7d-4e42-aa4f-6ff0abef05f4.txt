@@ -1,0 +1,51 @@
+Téléphonie fut d'abord le nom donné par François Sudre, dans les années 1830, à son système de transmission de sons à distance, basé sur les notes de musique, pour l'échange de messages.
+La téléphonie est devenue ensuite un système de communication assurant essentiellement la transmission et la reproduction de la parole (et plus rarement d'autres signaux sonores), système qui regroupe un ensemble de fonctionnalités téléphoniques.
+Le téléphone est l'appareil électrique puis électronique qui sert à téléphoner, c'est-à-dire à tenir une conversation avec une personne qui est loin, plus exactement, trop loin pour pouvoir nous entendre de vive voix. La téléphonie courante est bidirectionnelle : les deux personnes en conversation peuvent se parler et s'entendre en même temps, comme dans une conversation en face à face. Ainsi, la téléphonie sert à titre privé, pour garder le contact avec ses proches où qu'ils soient et à titre professionnel, pour échanger des informations orales sans avoir à se rencontrer physiquement.
+La téléphonie permet également des services plus avancés tels que la messagerie vocale, la conférence téléphonique ou les services vocaux. La téléphonie transforme la voix de son correspondant, ou plutôt la dégrade, tout en gardant une grande intelligibilité. En effet, la téléphonie ne permet de transmettre qu'une partie des fréquences de la voix.
+
+Historique
+La téléphonie apparaît à partir du besoin exprimé de transport de la voix du XVIe siècle. Il existe des salles de téléphonie en Europe, (les parlors (parloirs) dans le monde anglo-saxon), où on diffusait des journaux et aussi par exemple des opéras en direct hors-salle dans des locaux peu éloignés, avec des "téléphones" non électriques à cornets et tuyaux , des systèmes à tubes acoustiques identiques aux systèmes de communication embarqués sur les navires utilisables jusqu'au milieu du XXe siècle. Avant que la téléphonie filaire et la téléphonie sans fil (radiocommunication et TSF) n'existent.
+
+Principes de fonctionnement
+
+Équipements principaux
+La téléphonie repose sur un réseau de télécommunications adapté à la téléphonie.
+Un réseau de téléphonie fixe est constitué de quatre types d'équipements principaux : les terminaux ;; les systèmes centraux ;; les serveurs annexes apportant des fonctionnalités supplémentaires et-ou spécifiques ;; les liaisons entre ces différents équipements.
+Les terminaux sont les appareils dont se servent les utilisateurs pour téléphoner, et donc en particulier le téléphone. Le fax ou télécopieur, le Minitel, le téléphone logiciel (soft-phone), le répondeur, le modem, le serveur vocal interactif sont d'autres types de terminaux.
+Les systèmes centraux (central téléphonique ou commutateur téléphonique) sont les systèmes qui disposent de l'intelligence pour établir les communications, les facturer et assurer toutes les fonctions nécessaires à la téléphonie et que les terminaux ne fournissent pas. La diffusion d'un message signalant à l'appelant que le numéro composé n'est plus attribué est un exemple des services rendus par un système central.
+Les liaisons sont les moyens, tels que les câbles de téléphone (cuivre), les fibres optiques ou les antennes de téléphonie mobile, qui permettent le transport de la communication d'un terminal à l'autre.
+Le client connecte ses équipements au réseau, dans le cas de téléphonie filaire en enfichant des connecteurs dans des prises notamment prise en T, RJ11, RJ45.
+
+Les réseaux
+Il existe deux types distincts de téléphonie : la téléphonie filaire; la radiotéléphonie.
+La téléphonie filaire (ou fixe) peut utiliser plusieurs technologies principales : le réseau téléphonique commuté (RTC), ou téléphonie analogique basé sur la modulation à basse fréquence d'un courant électrique porteur. L'émetteur et le récepteur sont fixes ou presque (téléphones sans fil : base + mobiles reliés selon les technologies CT0 ou DECT); le réseau numérique à intégration de services (RNIS), où la voix est numérisée dans le terminal téléphonique.; depuis le début du XXIe siècle, la voix sur IP (VoIP), utilisant les protocoles et technologies du réseau Internet.
+La radiotéléphonie et la téléphonie mobile utilisent la radioélectricité, c'est-à-dire les ondes hertziennes. Elle permettent à des émetteurs radio fixes, portatifs ou mobiles de dialoguer, en passant éventuellement par des antennes relais. Ce type de téléphonie a pris un essor important ces dernières années notamment avec l'implantation des réseaux de téléphonie mobile, initialement à la norme GSM. La radiotéléphonie a migré progressivement vers l'UMTS puis le LTE. On peut citer également les réseaux de téléphonie par satellite.
+Suivant le type de réseau utilisé la voix du correspondant est plus ou moins dégradée. La radiotéléphonie peut dégrader sensiblement la qualité de la voix comparé à la téléphonie filaire. Cependant, la téléphonie large-bande et les normes récentes de téléphonie mobile (VoLTE) permettent d'améliorer la qualité de la voix du correspondant en augmentant la bande-passante transmise.
+
+Les fonctions téléphoniques principales
+
+La communication de base
+La communication de base permet d'établir une liaison entre un utilisateur appelant et un utilisateur appelé. Un appel vu côté de l'utilisateur appelant est nommé Appel sortant, vu côté de l'appelé Appel entrant. En télécommunication, dans le cas de bidirectionnalité, on parle d'une technologie full-duplex (à l'inverse du talkie-walkie qui utilise une technologie half-duplex).
+La séquence permettant d'établir la communication est traditionnellement la suivante : Décrochage du combiné du terminal appelant. L'utilisateur entend alors une tonalité indiquant que le réseau est prêt à établir la communication.; Numérotation : pour donner au réseau la destination finale de l'appel, l'utilisateur saisit une séquence de chiffres (un numéro de téléphone), par exemple sur un clavier.; L'appel entrant est signalé à l'utilisateur appelé par exemple par une sonnerie.; L'utilisateur appelé peut établir la communication vocale en décrochant son combiné.; La fin de communication est déclenchée par le raccrochage du combiné de l'un ou de l'autre des interlocuteurs.
+L'augmentation des fonctionnalités des terminaux a pour conséquence que cette séquence est parfois réalisable d'autres façons. Par exemple : Utilisation sans décrocher le combiné (conversation en mains libres).; Assistance à la numérotation (mémoires, répertoires ou reconnaissance vocale), écrans tactiles.; etc.
+
+Les services complémentaires
+Le service rendu par la communication de base est apparu assez rapidement comme étant insuffisant, notamment en milieu professionnel. De nombreux services complémentaires ont été développés pour améliorer l'usage du téléphone.
+Quelques exemples : Le transfert permet à une personne en communication de passer son appel à un autre terminal en cours de communication. Il peut se dérouler de différentes façons, par exemple : Transfert aveugle : l'appel est envoyé sur le terminal de destination, que le correspondant soit disponible ou non.; Transfert supervisé : le correspondant initiateur du transfert établit une communication vers le nouveau destinataire, attend sa réponse et seulement à ce moment-là effectue le transfert.; Transfert aveugle : l'appel est envoyé sur le terminal de destination, que le correspondant soit disponible ou non.; Transfert supervisé : le correspondant initiateur du transfert établit une communication vers le nouveau destinataire, attend sa réponse et seulement à ce moment-là effectue le transfert.; Le renvoi permet à une personne appelée de renvoyer ses appels vers un autre terminal avant d'être en communication. Ce service peut être rendu dans différents cas (non-réponse, occupation, immédiat). En France, ce service est parfois appelé également transfert du fait de l'appellation commerciale du service Transfert d'appel de France Télécom.; La conf-call ou conférence téléphonique permet à plusieurs personnes de converser ensemble sur une même ligne, par exemple pour une réunion de travail.; Le reroutage permet à un opérateur de ré-acheminer une communication qu'il ne parvient à établir vers un autre terminal.; L'interception permet à un usager de répondre à un appel qui n'est pas destiné initialement à son terminal.; L'identification de l'appelant ou présentation du numéro (Calling Line Identification Presentation ou CLIP) permet à l'utilisateur appelé d'être informé (par affichage par exemple) du numéro ou du nom de l'appelant avant de répondre à l'appel; L'indication d'appel en instance (Call Waiting Indication) permet d'indiquer en cours de communication, par un signal sonore ou par affichage, qu'un autre correspondant appelle. Ce service est appelé Signal d'Appel en France par France Télécom (Orange).
+
+Impacts dans la société
+La téléphonie a eu depuis ses débuts un impact grandissant sur la société.
+
+Impacts politiques
+Très tôt, les états ont eu conscience de l'enjeu stratégique de la téléphonie, qui était le premier réseau de télécommunications moderne.
+La notion de service public, et d'autres considérations (secret de la correspondance, surveillance...) ont très souvent conduit à la création d'administrations d'état dédiées. On parlait alors en France des PTT. Depuis quelques années, dans le cadre du mouvement de déréglementation qui a touché également d'autres secteurs de l'économie, le modèle le plus souvent adopté dans les économies occidentales est celui d'un ensemble de sociétés à capitaux privés (Opérateur de télécommunications) offrant leurs services sous le contrôle d'autorités de régulation (par exemple l'Autorité de régulation des communications électroniques et des postes en France).
+
+Impacts économiques
+S'y attache un réseau économique (opérateurs, facturation, constructeurs d'équipements et de téléphones, etc.)
+
+Impacts sociaux: "Demoiselles du téléphone"; Possibilité d'écoute téléphonique.
+
+Impacts culturels
+Les pays scandinaves ont adopté avant tout le monde la téléphonie mobile ; les pays nord-américains ont adopté avant tout le monde la téléphonie filaire.
+
+Voir aussi: Téléphone. Portail de l'économie; Portail de l'électricité et de l'électronique; Portail des télécommunications.

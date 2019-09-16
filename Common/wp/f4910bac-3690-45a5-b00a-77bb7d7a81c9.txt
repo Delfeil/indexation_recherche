@@ -1,0 +1,20 @@
+Le module lexical est un module hypothétique basé sur la théorie de l'organisation modulaire selon la tradition de la linguistique générative. Le lexique spécifie les propriétés syntaxiques, sémantiques et phonologiques de chaque élément. De plus, il permet de généraliser des règles énonçant des généralisations sur la forme des items recensés.
+
+Les règles lexicales
+Selon cette approche, les règles lexicales soumettent l'ensemble des items lexicaux à des règles de bonne formation. Parmi ces items, on peut distinguer des éléments non complexes tels que voiture, bleu, à et des éléments complexes tels que mangeable, impoli et supporter.
+Représentations d'items lexicaux complexes
+Les éléments non complexes appartiennent à une catégorie grammaticale, ainsi on a : voiture : N (Nom); bleu : Adj. (Adjectif); à : Prép. (Préposition).
+Par contre, les éléments complexes sont les résultats de combinaisons en structure sous-jacente que l'on représente généralement par un branchement binaire. Selon cette analyse, il ressort que la catégorie lexicale Adj. est assignée au suffixe -able. De plus, on observe que la partie droite de l'item lexical détermine sa catégorie. Ainsi, selon la théorie de la gouvernance, on dit que les morphèmes porter et -able sont des têtes lexicales.
+
+Les entrées lexicales
+Selon sa définition, le lexique est composé d'un ensemble d'entrées lexicales spécifiant les propriétés non prédictibles des mots.
+Dans le programme génératif, de nombreux travaux ont été effectués sur ce sujet, et si de nombreux linguistes s'accordent à dire que le lexique est un composant autonome de la grammaire, les hypothèses sur les spécificités de ce module sont nombreuses.
+
+Représentation des mots
+Selon Noam Chomsky (1981), la représentation d'un mot décrit les propriétés de ce mot. On considère qu'il existe plusieurs types de propriétés : phonologiques, sémantiques, et syntaxiques. Les propriétés syntaxiques sont elles-mêmes représentées par un trait indiquant la catégorie grammaticale de cet élément, un trait spécifiant sa sous-catégorisation, et dans le cas d'un prédicat verbal, un rôle théta (Rôle-) associé au complément du verbe.
+Exemple : John lave la voiture. laver : (+V) (catégorie syntaxique de l'item, laver est un verbe (marqué (+V))): + (-- SN) : (argument obligatoire associé, le verbe laver est toujours suivi à un syntagme nominal (SN) : la voiture); (Rôle théta : objet).
+La sous-catégorisation
+La sous-catégorisation spécifie le type de structure syntaxique dans lequel peut être inséré un élément. Cette théorie proposée par Noam Chomsky contraint l'insertion des éléments lexicaux au niveau syntaxique. Certaines contraintes sont ajoutées afin que cette insertion ne soit pas trop libre. Par exemple, dans la structure ((Le clown) Verbe (les enfants)), on peut insérer l'item lexical amuser, mais pas sembler ou dormir : Exemples : Le clown amuse les enfants. (phrase syntaxiquement valide); Le clown ressemble les enfants. (phrase syntaxiquement invalide); Le clown dort les enfants. (phrase syntaxiquement invalide).
+On dit alors que le verbe amuser est obligatoirement sous-catégorisé et est automatiquement inséré dans la position --, dans (-- SN) qui précède le syntagme nominal complément d'objet.
+D'autre part, il existe des verbes qui ne sont pas systématiquement sous-catégorisés par un syntagme nominal. Par exemple, le verbe manger peut accepter un complément d'objet direct ou non. Exemples : John mange du pain. (sous-catégorisé); John mange. (non sous-catégorisé).
+De la même façon, les prépositions (Prép.) sont sous-catégorisées puisqu'obligatoirement suivies d'un syntagme nominal. Exemples : Il tape sur la porte. (phrase syntaxiquement valide); Il tape sur. (phrase syntaxiquement invalide). Portail de la linguistique.

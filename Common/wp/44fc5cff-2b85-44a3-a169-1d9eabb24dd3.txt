@@ -1,0 +1,10 @@
+Dans la nomenclature scientifique du monde vivant, les synonymes sont des noms scientifiques différents pour désigner un même taxon. Ils sont la conséquence des remaniements, parfois très nombreux, apportés par les scientifiques à la classification scientifique des espèces (genres fusionnés, sous-espèces promues au rang d'espèce, doublons, coquilles, etc.). Les autorités, dates et éléments de typographie associés sont indispensables à prendre en compte pour éviter les confusions et leur interprétation varie selon les codes de nomenclature.
+Le nom scientifique qui est validé en dernier n'est pas forcément celui qui a été publié le plus récemment. Par exemple Hyperolius viridiflavus admet de nombreux synonymes, dont les derniers sont postérieurs à 1970, alors que le nom actuellement valide est "Hyperolius viridiflavus (Duméril and Bibron, 1841)".
+
+Utilisation
+La liste de synonymes permet de conserver une traçabilité dans le temps, depuis le nom donné à l'origine (le basionyme ou protonyme), jusqu'au dernier taxon valide, y compris les doublons involontaires. Elle permet de s'assurer notamment que l'on parle bien d'une même espèce quel que soit l'ouvrage, même très ancien, et cela malgré les corrections fréquentes apportées à la classification et aux taxons.
+
+Règles nomenclaturales
+Les règles nomenclaturales, fixées notamment par le Code international de nomenclature pour les algues, les champignons et les plantes et le Code international de nomenclature zoologique, étant sensiblement différentes d'une discipline à l'autre, voir les articles suivants : Basionyme; Synonyme (botanique); Synonyme (zoologie).
+
+Voir aussi: Nom binominal; Taxinomie; Classification scientifique des espèces.

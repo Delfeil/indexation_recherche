@@ -1,0 +1,5 @@
+On appelle image d'une application f (de l'ensemble A vers l'ensemble B) l'image directe de A par f. C'est donc le sous-ensemble de B contenant toutes les images de tous les éléments de A et uniquement ces images. On le note Im(f). Im (f) - (y B x A , f (x) - y) - (f (x) x A) - f (A). (-displaystyle -operatorname (Im) (f)--(y-in B-mid -exists x-in A,f(x)-y-)--(f(x)-mid x-in A-)-f(A).).
+Exemple : l'image de l'application cosinus (de R vers R) est (-1;1).
+Une application est surjective si et seulement si son image coïncide avec son ensemble d'arrivée.
+
+Articles connexes: Image d'une application linéaire; Lemme des noyaux; Catégorie abélienne; Limite projective; Noyau (algèbre); Image d'une fonction multivaluée (autrement dit : d'une relation binaire). Portail des mathématiques.

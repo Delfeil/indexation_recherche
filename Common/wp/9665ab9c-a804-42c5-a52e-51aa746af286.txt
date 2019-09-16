@@ -1,0 +1,79 @@
+La conception assistée par ordinateur (CAO) comprend l'ensemble des logiciels et des techniques de modélisation géométrique permettant de concevoir, de tester virtuellement - à l'aide d'un ordinateur et des techniques de simulation numérique - et de réaliser des produits manufacturés et les outils pour les fabriquer.
+On confond souvent CAO et DAO (dessin assisté par ordinateur) : la CAO n'a pas pour fonction première l'édition du dessin. Il s'agit d'un outil informatique souvent lié à un métier, fonctionnant en langage dit objet, et permettant l'organisation virtuelle de fonctions techniques. Cela permet ensuite la simulation de comportement de l'objet conçu, l'édition éventuelle d'un plan ou d'un schéma étant automatique et accessoire. En DAO, un trait est un trait et le logiciel ne permet pas l'interprétation technique de l'ensemble.
+
+L'informatique et l'aide à la conception
+Tout système technique est l'association de fonctions. L'agencement de ces fonctions, leurs interactions, les incompatibilités éventuelles font partie du savoir de l'ingénieur. Lorsque le système est affecté d'un nombre trop grand de paramètres, il devient difficile de tout contrôler. La CAO permet de concevoir des systèmes dont la complexité dépasse la capacité de l'être humain comme en micro ou nanoélectronique. La conception virtuelle permet l'appréciation globale du comportement de l'objet créé avant même que celui-ci n'existe. En CAO, on ne dessine pas, on construit virtuellement un objet capable de réagir dans son espace non réel selon des lois régies par le logiciel. Le résultat, appelé maquette numérique constitue alors un véritable prototype évolutif.
+Chaque corps de métier peut disposer d'un outil CAO. En mécanique, on peut concevoir une pièce où chaque forme répond à un besoin de fonctionnement ainsi qu'un mécanisme regroupant plusieurs pièces. En électronique, on peut assembler des composants (résistances, capacités, éléments de logique...) simulables : on pourra par exemple "construire" un nouveau micro-processeur regroupant plusieurs millions de transistors (3,1 pour le Pentium). D'une certaine façon, la PAO s'inscrit dans cet ensemble d'outils d'aide à la conception (création de documents).
+
+Historique
+La CAO décolle dans les années 75-90, lorsque le coût de mise en place d'un poste se rapprocha du coût annuel d'un dessinateur. La mise en place fut un peu pénible au début en raison d'une nécessité de reprendre les plans existants. On s'aperçut à cette occasion que statistiquement près de 10 % des cotations sur les plans existants étaient inexactes, que des références de plans existaient en double, qu'une référence unique pouvait correspondre à plusieurs plans légèrement différents, etc. Au bout du compte, le gain de fiabilité de l'information se révéla constituer un argument supplémentaire important décidant à généraliser la CAO.
+
+Domaines connexes
+La conception assistée par ordinateur est à l'intersection de nombreux domaines : dessin par ordinateur, calcul scientifique, programmation par contrainte. Les systèmes de CAO peuvent alors se voir adjoindre des fonctionnalités périphériques, telles que la MFN qui permet de prendre en compte les équations de la thermodynamique pour étudier le comportement du système modélisé.
+
+Le matériel
+La CAO est connue pour être encore en 2008 une des applications informatiques les plus gourmandes en ressources informatiques. Après des années de seule présence de ces logiciels sur des stations de travail utilisant des systèmes d'exploitation et des architectures matérielles propriétaires (Sun, IBM, Computervision, HP, Apollo, SGI, anciennement Silicon Graphics...), il aura fallu le développement d'ordinateurs individuels (Windows ou Mac) suffisamment puissants pour assurer des fonctions très lourdes en calcul numérique : - modélisation numérique ; - simulation mécanique et calcul des matériaux ; - représentation graphique ; - dessin de plan ; - manipulation d'objets 3D ; - gestion de grands assemblages.
+Cela a fait de la CAO une application importante de l'informatique.
+Son importance stratégique conduit à lui faire utiliser des modèles permettant la communication des informations entre machines, au moyen de standards comme IGES, afin de ne dépendre ni d'un seul type de matériel, ni (trop) d'un seul logiciel. Nombre de projets de CAO font de surcroît intervenir des sous-traitants dispersés et il importe que les représentations soient parfaitement compatibles afin de permettre le travail en collaboration et à distance. C'est ce qui a été fait pour la modification d'architecture du CNIT en 1987.
+On prend vite conscience de l'importance de la CAO dans n'importe quel environnement urbain, formé d'objets qui tous sans exception ont été dessinés avant d'être un jour fabriqués.
+
+Domaine d'utilisation
+
+Mécanique
+Le domaine de la mécanique est historiquement l'un des premiers à s'être doté, dans les années 1960, de logiciels de CAO. Elle permet au concepteur d'exprimer et de modéliser un grand nombre de contraintes (fonctionnalités, matériaux, capacité d'assemblage, fabrication, etc.) pendant la phase de conception d'un ensemble mécanique. Les logiciels correspondants sont utilisés lors d'une ou plusieurs phases du développement (ex: spécifications produit-process, esquisses, dimensionnement, analyses cinématiques, analyses dynamiques, préparation de la fabrication...).
+Les logiciels modernes permettent une conception directe en trois dimensions et sont surtout intéressants pour les fonctionnalités proposées : aujourd'hui une pièce de tôlerie est modélisée directement en pliant virtuellement une tôle, un perçage est placé d'un simple clic sans avoir à réfléchir sur le choix des formes volumiques - au sens mathématique - à adopter pour modéliser son intention technologique. Si les premiers logiciels proposaient un historique figé (pas de retouche possible des formes déjà définies), les dernières versions utilisant la conception paramétrique autorisent toutes les modifications.
+Ces progrès fonctionnels et ergonomiques sont notamment dus aux évolutions des modèles produit-process sous-jacents, selon la progression temporelle suivante (Année des systèmes pionniers - Année des systèmes totalement vulgarisés) : - (1950-1970) 1re génération de CAO 2D : Graphic-based (ex. système graphique AutoCAD) ; - (1960-1980) 2e génération de CAO 2,5D : Depth-based (ex. systèmes de génie civil MicroStation, Cadwork),; - (1970-1990) 3e génération de CAO 3D : Geometry-based (ex. système de CSG Euclid),; - (1980-2000) 4e génération de CAO 3,5D : Feature-based (ex. système paramétrique Pro-Engineer),.
+et de manière récente : - (1990-2010) 5e génération de CAO 4D : Rule-based (ex. système à base de déductions Kadviser),. (2000-2020) 6e génération de CAO 5D : Induction-based (ex. système à base d'inductions KAD-Office).
+Ces logiciels aident non seulement à la création des pièces mécaniques, ou à la mise en oeuvre de leur fabrication, mais aussi à la simulation de leur comportement, et donc à la validation des solutions retenues. Une fois la création terminée, l'exécution automatique de plans, respectant les conventions de représentation et visuellement corrects est facile. Le passage en mode 2D n'est plus ressort du dessinateur à la différence avec le dessin assisté par ordinateur qui demande de maîtriser à la fois, et en même temps, le fond (ce qu'on veut représenter) et la forme (le trait sur le plan), notions qui sont indépendantes pour le logiciel. La réalisation de plans techniques permettant la compréhension du fonctionnement reste toujours plus laborieuse.
+La cotation fonctionnelle, et la cotation sur le principe de l'indépendance sont désormais plus faciles avec les outils logiciels en conception paramétrique. Ce qui a été pensé lors de la conception de la pièce est répercuté à la bonne cote lors de la mise en plan automatique. Ce travail est supplémentaire pour le technicien utilisant un outil de dessin assisté par ordinateur (DAO).
+
+Logiciels de CAO
+Exemples de logiciels de CAO pour la mécanique : PTC Creo Parametric; ESPRIT édité par DPtechnology; Solid Edge with Synchronous Technology édités par Siemens PLM Software; Alibre Design, édité par Alibre Inc; CATIA, DraftSight et SolidWorks édités par Dassault Systèmes; FreeCAD, de Juergen Riegel, logiciel multiplateforme (Linux-Windows) distribué sous licence libre; Inventor, édité par Autodesk; Kompas-3D; NX (Unigraphics) et Solid Edge, édités par Siemens PLM Software; Pro-Engineer, édité par PTC; TEll Softwares édité par AIM; TopSolid; SpaceClaim LTX; think3 thinkdesign; Bricscad de bricsys, CAO sous Windows. Clone de AutoCAD; GstarCAD; zwcad.
+
+Électronique
+Des produits existent également pour la conception de circuits électroniques ou de microprocesseurs. La conception d'un circuit électronique présente deux difficultés : la première concernant le comportement électrique ou logique souhaité, est certainement la plus facile à traiter. On obtient un modèle informatique du schéma construit comme sur un outil DAO. Cependant, chaque composant est affecté d'une loi de comportement, ce qui fournit un modèle virtuel permettant des tests de fonctionnement.; l'implantation réelle des composants sur le circuit imprimé est par contre un vrai problème technique; si les schémas simples trouvent facilement une solution, pour les circuits complexes la CAO est d'un grand secours. Le tracé des pistes doit parfois être établi sur une ou plusieurs couches.
+Ces outils informatiques sont souvent appelés suite de logiciels, parce que leur utilisation comprend des phases indépendantes : la saisie schématique du circuit (le modèle de représentation), la simulation (modèle mathématique), le placement des composants, et le routage (pistes conductrices).
+
+Logiciels d'électroniques
+Exemples de logiciels d'électroniques (assembleurs de composants) : Altium Designer; Design Architect; Eagle; Edwin; gEDA; Hyperlynx; KiCad; Proteus; OrCad; PADS, Mentor Graphics; PCAD; CR-5000 de Zuken; DesignSpark PCB; Ultiboard.
+La conception assistée peut parfois aller plus loin encore en proposant une aide à la création de "face" comme avec le logiciel "Front-Designer" ou "Front Panel Designer".
+
+Électrotechnique
+Les logiciels de conception permettent la réalisation de plans de câblage électrique pour les domaines de l'industrie, distribution d'énergie, automobile, aéronautique,..
+Le logiciel de CAO permet au concepteur une prise en charge globale du projet par un même outil (réalisation des plans, des liens entre composants et plans, des borniers et connecteurs, des nomenclatures, des implantations composants, des faisceaux de câblage...).
+Les logiciels de CAO électriques facilitent également les échanges entre les corps de métier amenés à collaborer sur certains projets tel que le bâtiment. Les plans d'architectes réalisés dans les formats standards sont ensuite importés et utilisés comme base par des logiciels spécialisés notamment dans les schémas d'implantation électrique. Ce type de logiciels ne vise pas la réalisation de schémas de fonctionnement mais permet à l'utilisateur la création d'installations électriques domestiques ou tertiaires et de visualiser les dépendances entre appareils (interrupteurs lampes...), le matériel nécessaire au projet (appareils, filerie, gaines...) ainsi que des contenus détaillés de chaque gaine ou des boites de dérivation.
+Dans ce domaine deux modes de conception existent : 1) Mode symbolique : utilisé depuis le début de la CAO électrotechnique (1984 en France avec SAFIRS), il consiste à prendre les symboles des plans comme éléments principaux contenant les informations de la CAO.; 2) Mode objet : créé en France depuis 1995, il consiste à prendre les objets (composants de nomenclature) comme éléments principaux contenant les informations de la CAO. Il permet ainsi de faire les créations et modifications depuis tout type de représentation (ou non) en assurant une mise à jour en temps réel sur le projet entier. (Il est possible de commencer par la nomenclature et finir par le schéma, de modifier un appareil ou des câbles sans avoir à régénérer les nomenclatures, borniers, carnet câble, etc.).
+
+Logiciels d'électrotechnique
+Exemples des logiciels en mode objet : Engineering Base, édité par Aucotec; E3.series, édité par Zuken; AxiomCAD, édité par Assigraph International.
+Exemples des logiciels en mode symbolique : SchemELECT, édité par FTZ; SAFIRS, édité par Assigraph International; Electre NT, édité par dassault systemes; Solidworks electrical, édité par dassault systemes; Elec'View édité par Algo'Tech Informatique; SEE Electrical Expert, édité par IGE-XAO; Eplan, édité par Eplan (Rital); Trace elec, édité par Trace software; SFEACad, édité par SDProget; AutoCad Electrical, édité par Autodesk; D-CALC Implantation, édité par JPK Logiciel; Caneco BT, édité par Alpi; WinRelais édité par INGEREA.
+
+Logiciels d'électromagnétisme
+Exemples de logiciels d'électromagnétisme : Flux2D-3D; Flux2D; InCa3D; FEMM; Maxwell; JMag; CST; Gmsh.
+
+Architecture, ingénierie et la construction (AEC)
+
+Urbanisme et planification urbaine
+La modélisation 3D du quartier de la Défense a été réalisée par l'Epad et la Société CCS à l'aide d'un logiciel de modélisation 3D capable de fédérer et de recaler des sources d'information 3D hétérogènes (cadastre, IGN, collectivités, sociétés d'autoroute, entreprises de travaux publics, photogrammétrie aérienne, Géomètres, DDE, etc.) dans un modèle 3D cohérent structuré par quartiers, avec une précision de 1 cm. 3D Turbo.
+
+Moléculaire: BKChem; BIOVIA; GChemPaint; Ghemical; Jmol; PyMOL; RasMol.
+
+Ameublement: Spazio3D, de la société BrainSoftware.
+Certaines enseignes, comme IKEA, proposent un outil permettant de concevoir son mobilier, et d'établir ainsi un devis plus précis et une commande plus rapide.
+
+Confection
+... de vêtements (par exemple Modaris de Lectra, Accumark de Gerber Technologie...), métier qui présente la particularité de la gestion des tailles...
+
+Orthopédie
+Les logiciels de CAO remplacent aujourd'hui peu à peu le plâtre dans le travail quotidien des orthopédiste-orthésiste. Le moulage plâtré du patient est en effet supplanté par des techniques de modélisation 3D (utilisant par exemple un appareil photo ou un scanner 3D adapté à l'orthopédie). La forme 3D obtenue est ensuite modifiée par un logiciel de CAO afin de concevoir l'appareillage orthopédique adapté au patient (corset, prothèse...).
+
+Autres corps de métiers
+... De jardins et même la visualisation spatiale de molécules (Rasmol). Ils reprennent alors le sigle de CAO auquel on appose souvent un qualificatif (comme dans CAO Électronique ou CAO moléculaire), ce qui montre le succès de cette terminologie.
+
+Formats d'échange standards: Pour échanger des fichiers entre systèmes de CAO incompatibles, on utilise des fichiers intermédiaires, dont les plus connus sont les formats DXF (et DWG) et IGES.; Le format STEP est reconnu et normalisé par la norme ISO 10303.; Le format IFC (Industry Foundation Classes) est un format de fichier orienté objet utilisé par l'industrie du bâtiment pour échanger et partager des informations entre logiciels.
+
+CAO mécanique
+
+CAO électronique
+
+CAO orthopédique: AAOP (American Academy of Orthoptists and Prothesists); UFOP (Union française des ortho-prothésistes).

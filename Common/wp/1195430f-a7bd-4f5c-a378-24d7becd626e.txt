@@ -1,0 +1,17 @@
+Le directeur des systèmes d'information (DSI), ou directeur informatique (DI), parfois directeur de l'organisation et des systèmes d'information (DOSI) ou encore plus récemment directeur des systèmes d'information et du numérique (DSIN) d'une organisation (entreprise, association, etc.) est responsable de l'ensemble des composants matériels (postes de travail, serveurs, équipements de réseau, systèmes de stockage, de sauvegarde et d'impression, etc.) et logiciels du système d'information, ainsi que du choix et de l'exploitation des services de télécommunications mis en oeuvre. Dans le cadre de la transformation numérique, la DSIN va aussi prendre en charge l'innovation et les services numériques dans une logique d'orientation et de parcours numérique client (utilisateurs).
+
+Parcours
+Il existe des parcours typiques menant à la fonction de DSI. Beaucoup sont issus d'une formation informatique ou ont été développeurs dans le passé, mais ce n'est pas une règle. Une expérience dans le management est aussi indispensable.
+La gestion de l'information prenant une part de plus en plus grande dans les affaires, le poste de DSI est devenu stratégique, bien que souvent considéré comme étant un centre de coûts. Typiquement, il rend compte au directeur général (ou au président-directeur général) et fait partie de la direction générale (généralement membre du comité de direction).
+Ce poste est souvent considéré comme un plafond : une progression dans l'entreprise implique généralement un déplacement latéral dans l'organigramme de l'entreprise.
+Dans les entreprises importantes ou dans les groupes il y a un seul directeur des systèmes d'information et généralement un directeur informatique par unité commerciale ou de production. A contrario dans les petites entreprises la fonction de DSI est assurée par la direction générale.
+Certaines PME qui croissent vite requièrent de plus en plus vite l'utilisation d'un DSI afin de développer leur entreprise mais celui-ci peut parfois représenter une charge forte pour l'entreprise, et l'utilisation d'un DSI en temps partagé ou d'un DSI en tant que manager de transition pour les évolutions majeures est parfois la solution pour ces entreprises.
+
+Rôle
+Il est chargé notamment : d'anticiper les évolutions imposées par la stratégie de l'entreprise, les évolutions du contexte, les lois ;; d'avoir un rôle d'assistance à la maîtrise d'ouvrage (et non pas seulement de maîtrise d'oeuvre) de l'informatique dans une organisation ;; de commander les projets auprès des prestataires (éventuellement internes) ;.
+Exemples de pôles d'activités : gérer les réseaux et postes administratifs : support technique, installations téléphoniques (PABX) et réseaux (Wi-Fi), gestion des profils ;; études et développements applicatifs.
+Thèmes actuellement à la mode : espace numérique de travail ;; urbanisation (informatique) des SI (donc cartographie des processus-métiers) ;; mise en place de VPN, IPsec ;; diminution des coûts fixes à travers l'appel à des SSII, l'externalisation, les freewares.
+
+Voir aussi
+
+Articles connexes: Association nationale des directeurs des systèmes d'information; Management du système d'information; Responsable de la sécurité des systèmes d'information (RSSI). Portail du travail et des métiers; Portail du management.

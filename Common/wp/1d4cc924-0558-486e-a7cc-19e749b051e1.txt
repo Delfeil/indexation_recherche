@@ -1,0 +1,26 @@
+XSLT (eXtensible Stylesheet Language Transformations), défini au sein de la recommandation XSL du W3C, est un langage de transformation XML de type fonctionnel. Il permet notamment de transformer un document XML dans un autre format, tel PDF ou encore HTML pour être affiché comme une page web.
+
+Description
+Les flux d'une transformation XSLT.
+L'objectif principal est la transformation d'un document XML vers un autre schema ou format (XHTML, XSL-FO, HTML, etc.). Cependant, le langage XSLT permet aussi les transformations vers tout autre type de document, au format texte ou dans un format binaire (bien que ceci ne soit pas nativement prévu par la recommandation XSLT). Étant donné deux entrées, un document XML à transformer et un document XSLT, un analyseur XSLT (XSLT processor) produit un fichier de sortie au format désiré.
+XSLT s'appuie sur XPath (une autre partie de la recommandation XSL) pour désigner une partie d'un arbre XML. En pratique, le langage XSLT est lui-même exprimé sous forme de document XML :
+xml version-"1.0"
+xsl:stylesheet xmlns:xsl-"http:--www.w3.org-1999-XSL-Transform" version-"2.0"
+xsl:output method-"xml" indent-"yes"-
+
+xsl:template match-"person"
+ name username-"(@username)"
+ xsl:value-of select-"name" -
+ -name
+-xsl:template
+
+-xsl:stylesheet
+L'une de ses principales particularités est d'être centré sur les données. Un XSLT doit s'appuyer sur un XML, c'est un couple obligatoire, et on ne peut créer en XSLT que des boucles parcourant des données sélectionnées par XPath.
+
+Exemple
+
+Implémentations d'analyseurs XSLT: AltovaXML : par Altova, implémentation gratuite de XSLT 1.0 et XSLT 2.0; DIXml : une bibliothèque Delphi; Gestalt : par Colin Paul Adams, implémentation en Eiffel de XSLT 2.0; Libxslt (en) : par GNOME, implémentation en C de XSLT 1.0; MSXML DOM : par Microsoft pour une utilisation en DCOM sous Windows et donc accessible aux langages de script tel vbScript et jScript; php-xsl.dll : inclus depuis PHP 5; QuiXSLT : par Innovimax et INRIA en Java pour XSLT 3.0 avec Streaming; Saxon XSLT (en) : par Michael Kay, Saxon existe en Java pour XSLT 1.0 et en Java et.Net pour XSLT 2.0 (avec validation de XML Schema); System.Xml.Xsl : en parallèle par Microsoft et Novell pour les différentes implémentation du Framework.NET; Xalan : par la fondation Apache, existe en Java, C et Perl et gère XSLT 1.0.
+
+Voir aussi
+
+Articles connexes: XPath; XQuery; XML; XSL et XSL-FO; HTML; SGML; XHTML.

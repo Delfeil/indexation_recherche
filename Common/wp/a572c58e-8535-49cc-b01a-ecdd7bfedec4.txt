@@ -1,0 +1,34 @@
+Une abréviation (du latin brevis, en français : "court", abrégé en "Abr.") est le raccourcissement d'un mot ou d'un groupe de mots, représentés alors par un caractère ou un groupe de caractères issus de ce mot. L'abréviation consiste donc toujours en une suppression, plus ou moins importante. Par exemple, "c'est-à-dire" peut s'abréger en "c.-à-d.". Il existe plusieurs méthodes pour abréger des groupes de mots, dont les plus courantes sont la siglaison et l'acronymie. Le point autre que celui de fin de phrase est souvent l'indice d'une abréviation. Il s'utilise quand la dernière lettre du mot abrégé est elle aussi supprimée : "Monsieur" s'abrège en "M." et "Maître" en "Me" ("e" étant bien la dernière lettre du mot). Si l'abréviation finit la phrase, le point abréviatif et le point final se confondent.
+
+Histoire
+
+Abréviations romaines
+La phrase Senatus populusque romanus signifie "Le sénat et le peuple romain". Cette expression est abrégée sous la forme du sigle S.P.Q.R. C'était le symbole de la République romaine. Sur les emblèmes romains les quatre lettres représentaient le pouvoir politique romain.
+Ces lettres symbolisaient l'union du Sénat et du peuple romain. On trouvait cette devise sous forme de sigle sur les monuments publics, comme les frontons des temples ou des arcs de triomphe. Elle était probablement également employée sur les bannières militaires. D'une manière générale, toute réalisation impériale était susceptible d'être revêtue de cette devise.
+
+Abréviations médiévales
+
+Abréviations modernes
+Parmi les nombreux symboles issus de ligatures ou de signes diacrités que l'on utilisait dans les manuscrits, certains se sont maintenus dans les écritures modernes. Les plus importants, étant maintenant intégrés dans quasiment toutes les langues et leurs écritures sont le point d'exclamation ("!", abréviation de interjectio) et le point d'interrogation (, abréviation de question). On peut aussi compter à ce titre l'esperluette (, ligature de et) ainsi que le croisillon (, abréviation de numerus, "numéro", soit N surmonté d'un titulus).
+
+Typologie des systèmes abréviatifs: Abréviation : raccourcissement du ou des mots et, éventuellement, suppression de voyelles. Exemple : mes. pour message.; Contraction : réduction du mot par la suppression de lettres conservant une ou plusieurs lettres initiales et finales, parfois avec les lettres finales en lettres supérieures. Exemple : Mlle pour Mademoiselle.; Acronyme : abréviation dont le résultat forme un mot prononcé sans l'épeler. Exemples : SIDA ou CAF.;
+Siglaison : consiste à prendre les initiales de plusieurs mots et les accoler ensemble. Exemple : Gaz de France GDF ou G.D.F. (selon charte rédactionnelle du support). Initiales : procédé équivalent à la siglaison mais limité aux noms propres. Exemples : PPDA pour Patrick Poivre d'Arvor, JJSS pour Jean-Jacques Servan-Schreiber ou DSK pour Dominique Strauss-Kahn, JFK pour John Fitzgerald Kennedy et Jean-François Kahn.
+(réf. nécessaire): Troncation : mot tronqué en sa fin et, éventuellement, terminé par la voyelle o. C'est la forme la plus courante pour la construction de diminutif. Exemples : prolo pour prolétaire, Canto pour Éric Cantona.; Mot-valise : réunion d'une syllabe ou d'une lettre entamant un mot avec la fin d'un autre mot. Exemples : aldol pour aldéhyde + alcool ou Bollywood pour Bombay + Hollywood.; Réticence de plume : consiste à masquer les lettres d'un mot, en général ordurier, par un signe de ponctuation qui est souvent le point. Exemple : M.... pour Merde.; Mot forme : la forme caractéristique de l'objet que le mot décrit est intégrée au mot et évite l'emploi d'une syllabe (surtout en anglais). Exemples : T-shirt pour Tee-shirt (chemise en forme de T) ou V-neck pour le col en V.; Phonétique : très usité en téléphonie mobile (SMS) il consiste à remplacer syllabes ou mots par des signes ayant la même sonorité. Exemples : C pour c'est, 2 pour de ou a+ pour à plus (tard).
+Il existe aussi beaucoup d'abréviations utilisées pour raccourcir des mots ou des groupes de mots. Aujourd'hui, l'utilisation des téléphones portables est très répandue, et il est courant d'abréger des expressions. Par exemple "mort de rire" se simplifie en "mdr".
+
+Typographie et abréviations
+Les abréviations doivent être définies avant d'être utilisées, soit en note de bas de page à la première occurrence, soit en préface ou postface.
+Les abréviations sont habituellement composées de l'initiale du mot abrégé (et éventuellement d'une ou deux lettres suivantes) suivie d'un point. naissance : n.; mariage : mar.; divorce : div.; Monsieur : M.
+Elles peuvent l'être aussi de la première et de la dernière lettre du mot, ou des deux dernières lettres : Docteur : Dr; Madame : Mme; Maître : Me; Professeur : Pr.
+Ce type d'abréviation, utilisant le début et la fin du mot abrégé, ne recourt pas au point abréviatif, puisque celui-ci est utilisé pour signaler la présence de lettres manquantes.
+Dans ces cas-là, on peut aussi utiliser les lettres supérieures (ou exposants) comme dernières lettres du mot : Docteur : Dr; Madame : Mme; Maître : Me; Professeur : Pr.
+Les abréviations de mots composés doivent respecter les tirets et espaces qui séparent ces mots. Les déterminants ne s'abrègent pas. Le trait d'union et l'espace doivent être insécables afin de ne pas risquer de retour à la ligne dans une abréviation. Jésus-Christ : J.-C.; Jules César : J. C.; sans objet : s. o.; Notre-Dame de Paris : N.-D. de P.; président-directeur général : P.-D.G.
+Lorsqu'une phrase se termine par une abréviation, on ne doit pas répéter le point final. On listera les charges, quantités, mesures, etc.; Il est né en 845 après J.-C.
+Il ne faut pas séparer les lettres abréviatives avec la barre de division. non applicable : N-A est impropre en typographie française. On utilisera de préférence n. a. ou, mieux, s. o. pour sans objet.
+
+Abréviations normées
+Il existe des abréviations normées dans de nombreux domaines, par exemple : Abréviations militaires; Liste des abréviations d'auteur en taxinomie végétale; Liste d'abréviations en médecine; Liste des constellations astronomiques et de leurs abréviations.
+
+Voir aussi
+
+Articles connexes: Abréviations de l'aéronautique; Abréviations en informatique; Abréviation (solfège); Acronymie; Alphabet latin; Esperluette; Linguistique; Sigle.

@@ -1,0 +1,21 @@
+Au sens strict, Interactive Message Access Protocol, devenu avec IMAP 4 Internet Message Access Protocol (IMAP, est un protocole qui permet d'accéder à ses courriers électroniques directement sur les serveurs de messagerie. Son fonctionnement est donc à l'opposé de POP qui, lui, récupère les messages localement (depuis le poste de travail) via un logiciel spécialisé. L'évolution des différentes versions d'IMAP (IMAP 4) en fait aujourd'hui un protocole permettant également de récupérer les messages localement.
+
+Fonctionnement
+Ce protocole permet de laisser les courriels sur le serveur dans le but de pouvoir les consulter de différents clients de messagerie ou webmail. Il comporte des fonctionnalités avancées comme la possibilité de créer des dossiers ou de manipuler les messages directement sur le serveur. Il offre aussi la possibilité de trier ses courriels sur le serveur. Le langage Sieve a été conçu pour permettre de filtrer des messages sur des serveurs sur lesquels l'utilisateur n'a pas le droit d'exécuter des tâches.
+Le fait que les messages soient archivés sur le serveur fait que l'utilisateur peut y accéder depuis n'importe où sur le réseau et que l'administrateur peut facilement faire des copies de sauvegarde.
+L'inconvénient est qu'IMAP requiert une connexion permanente. Cependant, depuis IMAP 4, de nombreux clients de messagerie proposent un mode "hors-ligne" pour pallier ce problème. D'autre part, il limite l'utilisation de la capacité du réseau car il permet de ne récupérer qu'une partie des messages (par exemple les entêtes, sans le corps du message). Les messages peuvent être déplacés ou effacés sans être entièrement récupérés par le client.
+IMAP utilise le port TCP 143. L'utilisation de TLS permet l'accès sécurisé au serveur. La RFC 2595, qui décrit le fonctionnement de TLS avec IMAP, déconseille l'utilisation du port 993 qui avait été préalablement enregistré pour IMAPS (IMAP over SSL).
+
+Logiciels client
+La plupart des clients de messagerie implémentent le protocole IMAP puisque celui-ci est largement utilisé par les différents fournisseurs d'accès à Internet.
+Quelques exemples : Logiciels libres : Balsa; Claws Mail; Evolution; IMP, composant du portal Horde; KMail; Mozilla Thunderbird; SeaMonkey; Mutt; Sylpheed.; Balsa; Claws Mail; Evolution; IMP, composant du portal Horde; KMail; Mozilla Thunderbird; SeaMonkey; Mutt; Sylpheed; Logiciels propriétaires : Mail (Apple); ContactOffice; Foxmail; IBM Lotus Notes; Microsoft Outlook; Outlook Express; Microsoft Windows Mail; Pegasus Mail; The Bat!.; Mail (Apple); ContactOffice; Foxmail; IBM Lotus Notes; Microsoft Outlook; Outlook Express; Microsoft Windows Mail; Pegasus Mail; The Bat!.
+
+Historique et controverses
+Le protocole IMAP a été mis au point par Mark Crispin en 1986. Plusieurs versions se sont succédé, jusqu'à la version 4rev1 encore en vigueur aujourd'hui, qui fut proposée par un groupe de travail de l'IETF en 1996 et mise à jour en 2003. Les premiers serveurs IMAP à voir le jour au début des années 1990 furent notamment Cyrus (1994), Qmail (1996), UW-IMAP (1996), Courier (en) (1999).
+Une controverse existe entre les auteurs des différentes implémentations, notamment entre Mark Crispin et Sam Varshavchik (le créateur de Courier), sur le respect des standards par les différents logiciels et sur la précision des textes des RFC définissant le protocole IMAP.
+
+Principaux logiciels serveurs IMAP: Dovecot; Microsoft Exchange Server; IBM Lotus Domino; Cyrus (logiciel).
+
+Voir aussi
+
+Articles connexes: Client de messagerie; Courrier électronique; Messagerie web (Webmail); Internet; POP; Protocole de communication; SMTP; SSL.

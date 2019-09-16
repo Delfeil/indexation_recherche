@@ -1,0 +1,20 @@
+Herman Hollerith, né le 29 février 1860 à Buffalo et mort le 17 novembre 1929 à Washington, est un ingénieur américain inventeur de la mécanographie.
+
+Biographie
+Il naît à Buffalo (États-Unis) de parents originaires du Palatinat rhénan en Allemagne qui se réfugient aux États-Unis à la suite de la révolution allemande de 1848.
+
+Études
+En 1879, il décroche son diplôme d'ingénieur de l'École des mines à l'université Columbia. Un de ses professeurs le recrute comme statisticien au Bureau du recensement des États-Unis (U.S. Census) à Washington. Il travaille au dépouillement du recensement de 1880 (durée : neuf ans) puis au Bureau américain des brevets. Après ses inventions, il est nommé docteur de l'université Columbia.
+
+Vers la machine mécanographique
+Carte Hollerith.
+Cette fin du XIXe siècle va connaître le passage "de la mécanique, trop lente et astreignante, à l'électromécanique". En réponse à un concours lancé par le Bureau américain du recensement Hermann Hollerith construit une machine à statistiques à cartes perforées qui exploite des cartes (126 cm.) regroupant les 210 cases nécessaires pour recevoir toutes les informations requises. Il dépose la demande de brevet correspondante le 8 juin 1887. Grâce à cette machine, le recensement (auparavant manuel) de 1890 est traité en trois ans "seulement".
+Par la suite, il s'inspire d'une idée de son collègue John Shaw Billings (en), directeur des statistiques de santé, qui lui suggère d'utiliser un métier à tisser Jacquard pour mécaniser la lecture des fiches de recensement et accélérer le traitement.
+Hollerith quitte l'administration et fonde en 1896 la Tabulating Machine Co. qui aura pour directeur en 1914 Thomas J. Watson et deviendra plus tard en 1917 l'International Business Machines Corporation plus connue sous le nom "IBM".
+
+Société Dehomag, prestataire de service des nazis
+La société Dehomag (acronyme de "Deutsche Hollerith Maschinen Gesellschaft") alors qu'elle est filiale du groupe IBM, va, dès sa création en 1934, contribuer par la fourniture de ses machines à la gestion administrative du régime nazi et y contribuer en améliorant la détention et la gestion des fichiers individuels à faciliter la logistique de la "Solution finale".
+
+Voir aussi
+
+Articles connexes: Carte Hollerith; IBM.

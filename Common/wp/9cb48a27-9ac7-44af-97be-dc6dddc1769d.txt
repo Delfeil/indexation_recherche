@@ -1,0 +1,7 @@
+Apache ZooKeeper est un logiciel open source de la Apache Software Foundation. Il s'agit d'un logiciel de gestion de configuration pour systèmes distribués. ZooKeeper est un sous projet de Hadoop mais il est un projet top-level à part entière.
+L'architecture de ZooKeeper supporte une haute disponibilité grâce à des services redondants. Les clients peuvent ainsi interroger un autre leader ZooKeeper si le premier ne répond pas. Les noeuds de ZooKeeper stockent leurs données dans un espace de noms hiérarchique, tout comme un système de fichiers ou une structure de données arborescente. Les clients peuvent lire et écrire dans les noeuds et ainsi avoir un service de configuration partagée. Les mises à jour sont totalement ordonnées.
+ZooKeeper est utilisé par des sociétés comme Rackspace, Yahoo!, Odnoklassniki et eBay ainsi que des systèmes de recherche open source comme Solr.
+
+Cas d'utilisation classique: Naming service; Configuration management; Synchronization; Leader election; Message Queue; Notification system.
+
+Articles connexes: Hadoop; Catégorie:Écosystème Hadoop.

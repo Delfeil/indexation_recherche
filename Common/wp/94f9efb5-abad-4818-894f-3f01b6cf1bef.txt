@@ -1,0 +1,41 @@
+8D est l'abréviation de huit disciplines (huit actions à réaliser).
+
+Enjeux de la démarche 8D
+Le 8D est une démarche qualité qui permet d'éradiquer un problème au sein d'une entreprise ou organisation.
+On parle aussi de l'extension du 8D vers le 9D. Cela consiste à se poser une question très intéressante avant de se lancer dans les étapes du 8D. La question étant "Est-il nécessaire de faire un 8D " ou "Faut-il vraiment faire un 8D ". Cette question est loin d'être anodine, elle est également posée dans l'évolution de la méthode 6 avec son passage au DMAIC et l'ajout de l'étape de "décision".
+Cette démarche se concrétise fréquemment par un rapport 8D.
+Le 8D permet de : Systématiser la résolution de problèmes.; Travailler en équipes transversales.; Faire de l'amélioration continue.; Pérenniser les résolutions de problèmes ponctuels.
+
+Démarche d'utilisation
+
+Action 1 : Préparer le processus 8D: Mettre en place une équipe qui a la connaissance, le temps, l'autorité et les compétences pour résoudre le problème : La taille de l'équipe dépendra de l'importance du problème.; Les personnes peuvent avoir des origines diverses (ingénierie, méthodes, qualité, fabrication, achats, logistique, fournisseur, client, etc.).; La taille de l'équipe dépendra de l'importance du problème.; Les personnes peuvent avoir des origines diverses (ingénierie, méthodes, qualité, fabrication, achats, logistique, fournisseur, client, etc.).; L'équipe désigne un pilote.; Clarifier les objectifs et les responsabilités.
+Nota : on verra dans la suite de l'article que le problème à résoudre est réellement clarifié au niveau de l'Action 2. Une fois la clarification du problème effectuée, la composition du groupe doit être confirmée et ajustée.
+
+Action 2 : Décrire le problème: Qui, Quoi, Où, Quand, Comment, Combien et Pourquoi (QQOQCCP).; Préciser les enjeux.; Identifier les contraintes.; Identifier opérationnellement et concrètement les conséquences du problème.
+S'il y a des conséquences et que celles-ci sont significatives : alors vous avez probablement identifié un problème qu'il faut analyser et résoudre par un 8D; Sinon, regardez s'il est nécessaire de faire un 8D.
+Note :
+Pour une bonne définition du problème les méthodes suivantes peuvent être appliquées : Les cinq pourquoi (5W).; Le diagramme d'Ishikawa (5M).; En fin d'Action 2, le problème étant validé, il est nécessaire de confirmer la composition du groupe de résolution. La composition de ce groupe est un facteur essentiel au succès du 8D.
+
+Action 3 : Identifier et mettre en place des actions immédiates
+L'objectif de cette étape est de contenir le problème dans l'attente de la mise en place de solutions définitives.
+En cas d'urgence, cette action peut se faire préalablement à la constitution d'une équipe pluridisciplinaire. Éviter la propagation du problème (isolation par exemple); Définir des actions curatives (i.e. qui corrigent le problème immédiat, sans toutefois s'attaquer aux causes du problème).; Mettre en place ces actions.; Mesurer l'efficacité des actions (disparition ou diminution du problème sur l'objet ou le système concerné).
+Quelques exemples d'actions immédiates: Tris.; Inventaires.; Isolations.; Contrôle renforcé.; Aides visuelles.
+Remarque : Cette étape est aussi l'occasion d'approfondir la bonne compréhension du problème.
+
+Action 4 : Identifier les vraies causes
+Cette étape se fait de manière récursive en émettant des hypothèses qui sont validées ou infirmées.
+Le point de départ est la définition du problème de l'Action 2. Identifier toutes les causes potentielles.; Vérifier chacune d'elles au regard des données disponibles sur le problème ou de tests.; Identifier toutes les causes assignables.; Définir les actions correctives alternatives aux actions immédiates (curatives), pour éliminer les vraies causes.
+Afin d'identifier les causes potentielles, différentes méthodes peuvent être appliquées: Brainstorming.; Diagramme d'Ishikawa.; Les cinq pourquoi (5W).; etc.
+
+Action 5 : Valider des actions correctives permanentes
+Cette action permet d'assurer que les actions correctives sélectionnées résolvent le problème et ne créent pas d'effets secondaires indésirables. Ajuster l'équipe 8D en fonction des compétences requises.; Confirmer réellement ou statistiquement que l'action corrective sélectionnée résout le problème. Pour ce faire, une série de tests et expériences pourra être définie et réalisée.; Définir des critères de sélection tels que le coût, les moyens matériels et humains, le délai, les impacts sur le processus et sur le client, la culture d'entreprise, etc.; Si nécessaires et après appréciation de la qualité des solutions précédentes, de nouvelles actions pourront être définies.
+
+Action 6 : Mettre en oeuvre les actions correctives permanentes: Ajuster la constitution de l'équipe en fonction des compétences nécessaires.; Rechercher des solutions. Ne pas censurer les idées originales dans une première étape (Brainstorming); Déterminer des critères de choix pour valider les solutions:. 1) coût; 2) facilité de mise en oeuvre; 3) délai de mise en oeuvre; 4) participation des personnes concernées au choix de l'action; 5) contraintes pour les personnes concernées; 6) portée de l'action (nombre de problèmes résolus); 7) efficacité de l'action (suppression ou diminution du problème). Planifier la mise en place des actions. Désigner systématiquement un porteur et une date de réalisation pour chaque action.; Organiser un suivi de la mise en oeuvre des actions.; Après mise en oeuvre, suivre l'évolution du problème afin de mettre en oeuvre d'éventuelles actions supplémentaires.; Après validation des actions correctives permanentes, supprimer les actions immédiates.
+
+Action 7 : Prévenir toute récidive: Identifier les possibilités de renouvellement du problème dans le futur ou à d'autres applications.; Définir des actions préventives pour les systèmes identifiés.; Actualiser la documentation (procédures, instructions, modes opératoires, plans, formations, organigrammes).
+
+Action 8 : Féliciter l'équipe: Etablir un bilan factuel sur un périmètre significatif; Présenter le bilan :. 1) Féliciter les efforts collectifs de l'équipe qui a participé au projet.; 2) Identifier les apprentissages faits pendant le projet et les capitaliser.; 3) Faciliter les échanges.; 4) Communiquer.
+
+Voir aussi: Chris S.P. Visser (2017), 8D Problem solving explained - Turning operational failures into knowledge to drive your strategic and competitive advantages,
+
+Articles connexes: Gestion de la qualité. Portail du management.

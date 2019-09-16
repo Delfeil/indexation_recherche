@@ -1,0 +1,9 @@
+Soup.io est un site autrichien de réseautage social et de microblogging.
+
+Présentation
+Soup.io permet de publier du texte (éditable en HTML), des images, des vidéos, des liens, des citations et des critiques. Il permet également de partager des fichiers (dans la limite de 10MB) et de créer des évènements. Son interface se réclame du principe KISS. En janvier 2010, Soup.io compte près de 37 000 membres.
+
+Fonctionnalités: Agrégation en temps réel de données issues de réseaux sociaux, blogs et flux RSS.; Auto-publication de données issues d'autres réseaux sociaux (notamment Digg, Flickr, Delicious, YouTube, Twitter, ou encore Tumblr); Défilement infini des contenus; Publication (par envoi d'email, via un favoris javascript, ou depuis soup.io) et édition possible en HTML; Re-postage de contenus issus d'autres blogs sur le service, à la manière de Tumblr; Groupes; Chaînes vidéos; Code CSS personnalisé; Intégration des noms de domaines; Accès semi-privé à un blog.
+
+Récompenses
+Soup.io a reçu un investissement au cours du Seedcamp 2008, a été classé par le Guardian dans les 100 sites incontournables de 2009, et a été nommé "Innovative IT-Challenger" par APA-IT en septembre 2009.

@@ -1,0 +1,24 @@
+Autonomy est une société multinationale d'édition de logiciels d'entreprise, filiale de Hewlett-Packard. Ses sièges sociaux se trouvent à Cambridge au Royaume-Uni et à San Francisco aux États-Unis.
+La société exploite plusieurs technologies issues des travaux de recherche de l'université de Cambridge. Elle développe des applications de recherche d'entreprise et de gestion des connaissances grâce à des techniques de reconnaissance de formes centrées sur l'inférence bayésienne en conjonction avec les méthodes traditionnelles.
+En mars 2009 Autonomy a acquis la société de gestion de contenu Interwoven, maintenant Autonomy Interwoven et Autonomy iManage. Auparavant indépendante, Autonomy a été acquise par Hewlett-Packard en octobre 2011.
+
+Histoire
+Autonomy a été créée en 1996 à Cambridge par le Dr Michael Lynch et Richard Gaunt à partir de Cambridge Neurodynamics.
+En 1998 la valeur du titre Autonomy sur le marché NASDAQ valait environ 30 pence. Au plus haut de la bulle Internet le prix du titre a atteint 30.
+En décembre 2005 Autonomy a acquis Verity, l'un de ses principaux concurrents, pour environ 500 millions de dollars US. En 2005, Autonomy a également acheté Neurodynamics.
+En mai 2007 Autonomy a racheté la start-up Blinkx pour 250 millions de dollars US. En juin, Autonomy rachète Zantaz, une société d'archivage d'emails et de support aux litiges, pour 375 millions de dollars US. En octobre 2007, Autonomy rachète Meridio Holdings Ltd, une entreprise britannique basée en Irlande du Nord et spécialisée dans les logiciels de Records Management pour 20 millions de dollars.
+En janvier 2009 Autonomy a racheté Interwoven, une société positionnée sur le marché de niche de la gestion de contenu, pour 775 millions de dollars US.
+En juin 2010 la société a annoncé acquérir une partie de CA Technologies. Les conditions de la vente n'ont pas été publiées.
+Le 5 mai 2011, l'équipe de Formule 1 Mercedes Grand Prix a annoncé être sponsorisée par Autonomy à hauteur de 8 millions de dollars US, et le 8 juillet 2010 Tottenham Hotspur FC a annoncé un contrat de sponsor de 2 ans avec Autonomy pour la Premier League. Pour la saison 2011-2012 de la Premier League, le t-shirt des Spurs mentionnera Aurasma, la technologie de réalité augmentée d'Autonomy. Le 16 mai 2011, Autonomy a racheté Iron Mountain Digital, pionnier de la découverte électronique et fournisseur de solutions de sauvegarde en ligne, pour 380 millions de dollars US.
+Le 18 août 2011, Hewlett-Packard a annoncé racheter Autonomy pour 42,11 par part, soit environ 10,2 milliards de dollars. La transaction a été approuvée à l'unanimité à la fois par le conseil d'administration d'HP et par celui d'Autonomy. Le conseil d'administration d'Autonomy a également recommandé à l'unanimité aux actionnaires d'accepter l'offre. Le 3 octobre 2011 HP a conclu l'accord en rachetant 87 % des actions d'Autonomy.
+
+Produits
+Théorème de Bayes sur néon bleu, dans les bureaux d'Autonomy à Cambridge
+La principale technologie, Intelligent Data Operating Layer (IDOL), permet la recherche et le traitement de texte extrait de bases de données, de flux audio, vidéo ou de fichiers texte. Le traitement de ces informations par IDOL est appelé Autonomy as Meaning-Based computing.
+Les tentatives d'Autonomy pour comprendre toute forme d'information non structurée (qu'il s'agisse de texte, d'audio ou de vidéo), sont du type "Vous aimez ceci, vous êtes susceptible d'aimer cela".
+
+Clients
+Autonomy a environ 400 partenaires OEMs et plus de 400 vendeurs et intégrateurs, dont Citrix, EDS, Symantec et Novell.
+
+Bureaux
+Autonomy comprend deux sièges sociaux jumeaux basés à Cambridge au Royaume-Uni et à San Francisco aux États-Unis. Des bureaux sont également déployés ailleurs aux États-Unis, au Royaume-Uni, au Canada, en France, au Japon, en Australie, en Allemagne, à Singapour. Des bureaux plus petits sont présents en Inde, en Europe et en Amérique latine.

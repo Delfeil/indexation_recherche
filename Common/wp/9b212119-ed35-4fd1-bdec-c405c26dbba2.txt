@@ -1,0 +1,5 @@
+Amazon SimpleDB est un Système de gestion de base de données écrit en Erlang par Amazon.com. Il est utilisé comme un Service Web de concert avec Amazon Elastic Compute Cloud (EC2) et Amazon S3 et fait partie d'Amazon Web Services. Il a été annoncé le 13 décembre 2007.
+
+Voir aussi: BigTable; NoSQL.
+
+Articles connexes: Système de gestion de base de données.

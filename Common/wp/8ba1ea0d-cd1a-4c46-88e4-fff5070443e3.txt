@@ -1,0 +1,39 @@
+DBpedia est un projet universitaire et communautaire d'exploration et extraction automatiques de données dérivées de Wikipédia. Son principe est de proposer une version structurée et sous forme de données normalisées au format du web sémantique des contenus encyclopédiques de chaque fiche encyclopédique. DBpedia vise aussi à relier à Wikipédia (et inversement) des ensembles d'autres données ouvertes provenant du Web des données : DBpedia a été conçu par ses auteurs comme l'un des "noyaux du Web émergent de l'open data" (connu également sous le nom de Web des données) et l'un de ses possibles points d'entrée. Ce projet est conduit par l'université de Leipzig, l'université libre de Berlin et l'entreprise OpenLink Software.
+
+Historique
+Le projet a été lancé par l'université libre de Berlin et l'université de Leipzig, en collaboration avec OpenLink Software. Le premier ensemble de données accessibles au public a été publié en 2007. Disponible sous licence libre, ces données peuvent être réutilisées.
+
+Structure du dépôt de données
+Représentation en carte heuristique des relations entre DBpedia et divers autres projets du Web.
+DBPédia adopte les normes du réseau linked open data et du Web sémantique. La ressource est donc livrée sous une forme de dépôt en format RDF regroupé au sein de documents dérivés de l'encyclopédie Wikipédia. Ainsi, pour chaque document encyclopédique, il existe une page de ressources contenant toutes les données sous formes de triplets RDF. Ces triplets peuvent représenter une information telle que, par exemple, la date de naissance d'une personne qui prendra la forme : (personne, date de naissance, date).
+
+Contenus
+En novembre 2010, la base de données décrivait 3,4 millions d'entités, incluant au moins : 312 000 personnes; 413 000 lieux; 94 000 albums de musique; 49 000 films; 15 000 jeux vidéo; 140 000 organisations (31 000 sociétés, 31 000 établissements d'enseignement); 146 000 espèces; 4 600 maladies; 1 461 000 liens vers des images; 5,54 millions de liens vers des pages extérieures; 4,87 millions de liens vers des datasets externes; 565 000 catégories Wikipédia; 75 000 catégories YAGO.
+
+Insertion dans le linked open data
+Dès son lancement, le projet DBpedia ambitionne de s'insérer dans la structure normalisée qui organise le web des données, le réseau linked open data. Pour atteindre cet objectif, les concepteurs de DBpedia complètent les extracteurs de données par un ensemble de correspondance entre les documents sources de Wikipédia utilisés pour extraire les données, et un ensemble de ressources du réseau linked open data en utilisant la balise standard sameAs du format RDF et du web sémantique. Il résulte de ce travail de mise en relation systématique et régulièrement enrichi au fil des années que DBpedia est interconnecté avec de très nombreux autres dépôts du web de données et que les objectifs initiaux de ses concepteurs ont été atteints. Les dépôts GeoNames, MusicBrainz, CIA World Factbook, le projet Gutenberg et Eurostat, entre autres, font partie de ces dépôts reliés par DBpedia.
+
+Éditions linguistiques
+La première version de DBPedia était extraite depuis la version anglophone de Wikipédia, les extracteurs d'informations n'étant conçus que pour être appliqués sur les infoboxes de cette version. Ce choix a eu pour conséquence que seules les entrées de la version anglophones bénéficiaient d'une représentation sous forme de données dans DBPedia : les entrées encyclopédiques qui ne se retrouvaient que localement (des hommes ou femmes politiques uniquement présentés dans d'autres éditions germanophones ou francophones de Wikipédia par exemple, ou encore des concepts spécifiques à une culture) n'étaient pas reflétés sous formes de données RDF dans DBPedia.
+Cette version originale de DBPedia, bénéficiant de la grande exhaustivité de la version anglophone de Wikipédia, a pu se contenter dans un premier temps de cette source d'extraction d'information restreinte, malgré sa non représentativité. Par nature, un dépôt RDF du web sémantique n'est pas contraint par une langue particulière puisqu'il organise des données uniquement d'après leur sens.
+Mais la création de données d'après une encyclopédie anglophone a rapidement montré des limites de couverture. Il a donc été décidé de poursuivre le développement d'éditions linguistiques de DBPedia.
+
+Version francophone
+Une version entièrement francophone, agrémentée de fonctionnalités nouvelles, a été officiellement révélée en mars 2012. Elle est développée par l'Inria avec le soutien du ministère de la Culture et l'expertise de l'association Wikimédia France.
+Elle est disponible à la fois sur le site de DBpedia (l'équipe qui le développe étant également responsable du "chapitre" francophone de DBpedia.org) et sur la plateforme SemanticPedia.org qui accueille différents projets de sémantisations de la galaxie Wikimédia, à commencer par DBpedia en français.
+Cet effort de recherche a fait l'objet d'une convention signée le 19 novembre 2012 par le ministère de la culture et de la communication, l'Inria et Wikimédia France. Il s'agit du premier partenariat entre ces trois institutions, de même qu'entre l'Inria et le ministère, et Wikimédia France et le ministère.
+
+Disponibilité
+Le contenu de la base est disponible sous double licence Creative Commons BY-SA 3.0 et GFDL depuis la version 3.4. Les bases de données qui constituent le dépôt peuvent être récupérées dans divers formats (tels SQL ou CSV). Il est ainsi possible de créer un dépôt miroir, ou encore d'intégrer les connaissances de DBpedia dans une application tierce, par exemple d'annotation sémantique.
+Bien que le contenu soit seulement dérivé de Wikipédia par des méthodes heuristiques et constitué de données structurées, les promoteurs adoptent depuis le lancement les mêmes licences que Wikipédia, ce qui améliore l'interopérabilité entre Wikipédia et DBpedia.
+L'accès aux dépôt de données se fait avec des requêtes sur la base de données via SPARQL. Les informations étant stockées avec Resource Description Framework (RDF), on peut aussi récupérer des documents ressource en relation avec un concept directement via une URI, avec les formats CSV ou RDF (notamment via les formats N-Triple, N3, JSON, XML.
+
+Applications
+La plupart des usages qui peuvent être faits des données du web sémantique sont valables avec DBpedia. Actuellement, les plus connues de ces applications sont celles réalisées avec des annotateurs sémantiques tels que DBpedia Spotlight ou Wikimeta. Ces applications permettent d'enrichir un document textuel avec des annotations sémantiques (c'est-à-dire qui représentent le sens exact d'un mot) utilisant les documents DBpedia en tant que point d'entrée.
+
+Technologies d'extraction
+Le moteur d'extraction de données est réalisé avec Scala, qui est un logiciel libre diffusé sous Licence publique générale GNU. Son code source est distribué : il est hébergé sur SourceForge.net et disponible via Subversion.
+
+Voir aussi
+
+Articles connexes: GlobalAtlas; Freebase; Web sémantique; Données ouvertes et liées; Semantic MediaWiki; Web des données; Carte heuristique; Base de connaissance; Interopérabilité; Annotation sémantique.

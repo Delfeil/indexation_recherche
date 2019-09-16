@@ -1,0 +1,71 @@
+File Transfer Protocol (protocole de transfert de fichier), ou FTP, est un protocole de communication destiné au partage de fichiers sur un réseau TCP-IP. Il permet, depuis un ordinateur, de copier des fichiers vers un autre ordinateur du réseau, ou encore de supprimer ou de modifier des fichiers sur cet ordinateur. Ce mécanisme de copie est souvent utilisé pour alimenter un site web hébergé chez un tiers.
+La variante de FTP protégée par les protocoles SSL ou TLS (SSL étant le prédécesseur de TLS) s'appelle FTPS.
+FTP obéit à un modèle client-serveur, c'est-à-dire qu'une des deux parties, le client, envoie des requêtes auxquelles réagit l'autre, appelé serveur. En pratique, le serveur est un ordinateur sur lequel fonctionne un logiciel lui-même appelé serveur FTP, qui rend publique une arborescence de fichiers similaire à un système de fichiers UNIX. Pour accéder à un serveur FTP, on utilise un logiciel client FTP (possédant une interface graphique ou en ligne de commande).
+FTP, qui appartient à la couche application du modèle OSI et du modèle ARPA, utilise une connexion TCP.
+Par convention, deux ports sont attribués (well known ports) pour les connexions FTP : le port 21 pour les commandes et le port 20 pour les données. Pour le FTPS dit implicite, le port conventionnel est le 990.
+Ce protocole peut fonctionner avec IPv4 et IPv6.
+
+Histoire
+FTP est issu de la RFC 114 créée le 16 avril 1971. Cette spécification fut remplacée par la RFC 765 en juin 1980. Elle fut elle-même rendue obsolète par la RFC 959 en octobre 1985, version finale de la spécification.
+Plusieurs RFC viennent compléter cette spécification, comme la RFC 2228 de juin 1997 pour l'ajout d'extensions de sécurité ou la RFC 2428 de septembre 1998 qui ajoute la prise en charge du protocole IPv6 et définit un nouveau type de mode passif.
+
+Interopérabilité
+Le protocole FTP ne permet pas toujours d'assurer l'interopérabilité entre plates-formes différentes et régions différentes par une gestion adéquate de l'encodage des noms de fichiers. Seuls les logiciels serveur et client respectant le standard RFC 2640 en donnent la garantie, grâce à l'utilisation de l'encodage UTF-8 et accessoirement d'une nouvelle commande LANG permettant de choisir la langue des messages retournés par le serveur lors de la session FTP. L'encodage UTF-8 permet d'encoder les noms des fichiers provenant de n'importe quel pays, bien qu'un encodage plus spécifique puisse toujours être utilisé localement par le serveur, la conversion vers l'UTF-8 restant à sa discrétion.
+
+Utilisation
+Pour accéder à un serveur FTP, on utilise un logiciel (client FTP). Ces logiciels existent avec ligne de commande ou avec une interface graphique. Le standard FTP est si répandu que ces logiciels sont à présent inclus avec les dernières distributions Windows et Linux.
+L'utilisation en ligne de commande, sous Windows comme sous Linux, se fait généralement au moyen de la commande ftp adresse-du-serveur saisie dans une console. (ici, ftp est le nom du logiciel, et le paramètre le nom du serveur)
+Dans les interfaces graphiques, comme les navigateurs Web, la forme usuelle est utilisée, à savoir : ftp:--adresse-du-serveur. Ici, ftp est le nom du protocole, suivi du nom du serveur.
+Sous Windows (Vista et 7), un logiciel client FTP est installé sur la machine, car inclus dans Windows. On peut y accéder à travers le dossier Ordinateur puis la commande Ajouter un emplacement réseau.
+
+Implémentations
+
+Logiciels clients de FTP
+
+Logiciels libres: GNU inetutils : paquet logiciel GNU contenant un client FTP en ligne de commande; ftp (en ligne de commande sous Unix-Linux-Windows); cURL (en ligne de commande sous Linux-OS X-Windows); Cyberduck (pour Mac OS X et Windows); FileZilla (pour Linux, Mac OS X et Windows); FireFTP (extension pour Firefox); gFTP (pour GNOME); NcFTP (Windows et systèmes de type UNIX); Yafc; WinSCP.
+
+Logiciels propriétaires: FTP Rush (Windows 2000, Windows XP (32-64 bits), Windows 2003 (32-64 bits), Windows Vista (32-64 bits), Windows 7(32-64 bits): FTP Rush prend en charge les protocoles FTP, FXP, SFTP et TFTP. C'est un partagiciel. WebDrive (Windows 2000, Windows XP (32-64 bits), Windows 2003 (32-64 bits), Windows Vista (32-64 bits), Windows 7(32-64 bits); CuteFTP (pour Mac OS X et Windows); Fetch (pour Mac OS X); Secure FTP Client (en) (pour Java SE); Steed (pour Windows); Transmit (en) (pour Mac OS X); Yummy FTP (en) (pour Mac OS X).
+
+Logiciels serveurs de FTP
+
+Logiciels libres: FileZilla Server; vsftpd; proftpd; pure-ftpd.
+
+Logiciels propriétaires: Titan FTP Server; AXWAY Gateway.
+
+Le protocole
+Le protocole utilise deux types de connexions TCP : Une connexion de contrôle initialisée par le client, vers le serveur (port 21 en général), pour transmettre les commandes concernant les fichiers (suppression de fichiers, renommage, liste des fichiers...).; Une connexion de données initialisée par le client ou le serveur pour transférer les données requises (contenu des fichiers, liste de fichiers).
+
+Établissement des connexions
+FTP peut s'utiliser de deux façons différentes.
+Mode actif :
+En mode actif, c'est le client FTP qui détermine le port de connexion à utiliser pour permettre le transfert des données. Ainsi, pour que l'échange des données puisse se faire, le serveur FTP initialisera la connexion de son port de données (port 20) vers le port spécifié par le client. Le client devra alors configurer son pare-feu pour autoriser les nouvelles connexions entrantes afin que l'échange des données se fasse. De plus, il peut s'avérer problématique pour les utilisateurs essayant d'accéder à des serveurs FTP lorsque ces utilisateurs sont derrière une passerelle NAT. Étant donnée la façon dont fonctionne le NAT, le serveur FTP lance la connexion de données en se connectant à l'adresse externe de la passerelle NAT sur le port choisi. Certaines passerelles NAT n'ayant pas de correspondance pour le paquet reçu dans la table d'état, le paquet sera ignoré et ne sera pas délivré au client.
+Mode passif :
+En mode passif, le serveur FTP détermine lui-même le port de connexion à utiliser pour permettre le transfert des données (data connexion) et le communique au client. En cas de présence d'un pare-feu devant le serveur, celui-ci devra être configuré pour autoriser la connexion de données. L'avantage de ce mode est que le serveur FTP n'initialise aucune connexion. Ce mode fonctionne sans problème avec des clients derrière une passerelle NAT. Dans les nouvelles implémentations, le client initialise et communique directement par le port 21 du serveur ; cela permet de simplifier les configurations des pare-feu serveur.
+
+La connexion de contrôle
+Cette connexion fonctionne en mode texte et est donc aisée à simuler avec Telnet.
+Le client envoie une commande sous la forme d'une ligne de texte terminée par un retour à la ligne (CR suivi de LF, soit -r-n,0D0A en hexadécimal, ou le caractère 13 et le caractère 10).
+Par exemple, la commande suivante demande le téléchargement du fichier "fichier.txt" :
+N.B.: Les commandes telles que GET ou PUT ne sont pas reconnues dans le protocole FTP, mais souvent utilisées par les logiciels de client FTP.
+À la suite de l'envoi de la commande, le client reçoit une ou plusieurs réponses du serveur. Chaque réponse est précédée d'un code décimal permettant au client FTP de traiter la réponse qui peut comporter une ou plusieurs lignes de texte.
+Pour l'exemple précédent, si le serveur trouve le fichier demandé, il envoie au client :
+Selon ce que le client et le serveur sont convenus, l'un des deux écoute sur le port TCP convenu, et l'autre s'y connecte pour établir la connexion de données. Puis le serveur envoie au client le contenu du fichier demandé, ferme la connexion de données, et envoie la réponse suivante sur la connexion de contrôle :
+La connexion de contrôle réutilise le protocole de contrôle du terminal NVT introduite au départ pour Telnet, sous une forme simplifiée. Cela signifie en particulier que le code de code décimal 255 sert à introduire des séquences de contrôle de l'affichage.
+
+La connexion de données
+Connexion de données.
+La connexion de données est établie pour la durée de transmission de données (contenu de fichiers, ou liste de fichiers). En général, elle est établie pour le transfert de données d'une seule commande, à moins qu'un autre mode de transmission soit sélectionné et supporté par le serveur.
+La commande PASV indique au serveur qu'il doit attendre passivement la connexion en écoutant un port TCP. Le port écouté par le serveur est indiqué dans la réponse :
+Où h1 à h4 sont 4 nombres entiers entre 0 et 255 représentant l'adresse IP du serveur, et p1 et p2 représentent le port TCP où le serveur attend la connexion, sous la forme de deux entiers entre 0 et 255 (port-TCP - p1 - 256 + p2).
+Dans le cas contraire où le client attend la connexion sur un port TCP, il indique sous la même forme le port écouté en envoyant la commande PORT :
+Si tout se passe bien, le serveur répond :
+
+Mode de transfert
+Lors du transfert de fichier sur la connexion de données, deux modes peuvent être utilisés : Le mode binaire : le fichier est transmis tel quel.; Le mode ASCII : uniquement destiné aux fichiers texte. Le fichier est examiné et des transformations apportées pour conserver un format correct. Par exemple, la fin de ligne est représentée par le caractère LF sur un système UNIX, et par la paire CRLF sous Windows. Une machine Windows recevant un fichier texte par FTP récupère donc finalement un fichier avec des CRLF en mode ASCII et des LF en mode binaire. Ce mode a donc ses avantages, mais peut être source de corruption de fichiers (non texte) pendant le transfert si on utilise un client ancien - en ligne de commande, incapable de s'adapter au type de fichier. Il faut alors basculer en mode binaire (en utilisant généralement la commande BIN) avant le transfert, afin de le conserver intact.
+
+Transfert entre deux serveurs
+La spécification du protocole FTP précise qu'il est possible d'effectuer un transfert de fichiers directement entre deux serveurs FTP.
+
+Voir aussi
+
+Articles connexes: Protocole réseau passant difficilement les pare-feu; Clients FTP; Autres protocoles de transfert de fichiers : Trivial File Transfer Protocol (TFTP); Secure File Transfer Protocol (SFTP); File Transfer Protocol over SSL (FTPS); File eXchange Protocol (FXP); CFT (Cross File Transfer).; Trivial File Transfer Protocol (TFTP); Secure File Transfer Protocol (SFTP); File Transfer Protocol over SSL (FTPS); File eXchange Protocol (FXP); CFT (Cross File Transfer); Variable d'environnement pour la langue.

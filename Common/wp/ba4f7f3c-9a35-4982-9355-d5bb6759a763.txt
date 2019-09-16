@@ -1,0 +1,19 @@
+L'interactivité est une activité nécessitant la coopération de plusieurs êtres ou systèmes, naturels ou artificiels, qui agissent en ajustant leur comportement.
+Elle est souvent associée aux technologies permettant des échanges homme-machine. Toutefois, l'interactivité est présente dans toutes les formes de communication et d'échange où la conduite et le déroulement de la situation sont liées à des processus de rétroaction, de collaboration, de coopération entre les acteurs qui produisent ainsi un contenu, réalisent un objectif, ou plus simplement modifient et adaptent leur comportement. Une communication interactive s'oppose à une communication à sens unique, sans réaction du destinataire, sans rétroaction.
+
+Pédagogie
+L'interactivité apparaît aussi en muséologie. Par exemple, dans des musées comme l'Exploratorium de San Francisco ou le Science Museum de Londres où les visiteurs peuvent manipuler certains objets pour mieux comprendre leur fonctionnement. Elle apparaît également dans des programmes pédagogiques comme La main à la pâte. Elle favorise l'apprentissage. Elle est aussi au coeur du langage de programmation Logo destiné aux enfants. (voir aussi la conception de l'apprentissage selon Jean Piaget)
+
+Interactivité en informatique
+En informatique, notamment en informatique de gestion, on divise les traitements informatiques en deux types : traitement interactif et traitement par lots (batch).
+Lorsque l'interactivité homme-programme est liée à de l'affichage en 3D, on parle de 3d interactive
+
+Interactivité dans les arts
+Histoire des arts interactifs
+
+Interactivité en littérature
+En littérature, des nouvelles formes apparaissent grâce à des applications permettant d'enrichir la lecture sur papier de réalité augmentée, par exemple. La littérature informatique ouvre aussi de nombreuses portes, en permettant notamment au lecteur d'influer sur le déroulement du récit.
+
+Interactivité dans les arts du spectacle
+
+Voir aussi: Interaction; Borne interactive; Interactions homme-machine; Interface utilisateur; Dialectique; École de Palo Alto. Portail de l'informatique; Portail de l'écologie; Portail de l'éducation; Portail des arts du spectacle.

@@ -1,0 +1,25 @@
+Mastodon est à la fois un logiciel libre de micro-blogage, et un réseau social décentralisé, créé en 2016, qui permet de publier des messages appelés "toots" ("pouets" dans la localisation française).
+
+Description
+Le réseau est créé en octobre 2016 par Eugen Rochko, un Allemand alors âgé de 24 ans.
+Contrairement aux réseaux sociaux privatifs, Mastodon ne dépend pas d'un système monopolistique. Il est constitué d'une fédération d'instances indépendantes, capables de communiquer entre elles. Comme pour les adresses de courriel, chaque compte est lié à une instance spécifique (@utilisateur@instance) choisie par l'utilisateur.
+Le réseau est le plus souvent présenté dans les médias par ses différences vis-à-vis de Twitter. Alors que sur Twitter, les messages sont limités à 140 caractères, ils peuvent atteindre 500 caractères sur Mastodon. L'absence de publicités est aussi mise en avant. Le fait de pouvoir créer sa propre instance du service, pouvant se connecter à l'ensemble du réseau, permet également de garder le contrôle de ses propres données.
+Mastodon propose deux fils d'actualités : un fil public local qui présente les messages des utilisateurs de l'instance de l'utilisateur, un fil public global qui présente les messages des utilisateurs de toutes les instances fédérées. Les utilisateurs peuvent communiquer à travers les instances connectées de Mastodon avec des noms d'utilisateurs en deux parties ; ainsi l'utilisateur @UbuntuFR@mamot.fr utilise le nom local UbuntuFR sur l'instance mamot.fr
+Des journaux généralistes tels que Le Monde (via l'instance GNU social, social.bitcast.info) ou Le Télégramme sont présents sur le réseau.
+
+Communauté
+Mascotte du réseau, un mastodonte utilisant un smartphone.
+En avril 2017, le réseau connaît une forte croissance. Un nombre important de Français commencent à s'inscrire suite à la sortie de plusieurs articles, dont un premier sur Numerama le 3 avril, date à laquelle le réseau compte 31 000 utilisateurs, puis sur Framasoft le 7 avril. Vers mi-avril, le réseau connaît une forte croissance : 152 000 comptes, le 12 avril, puis 306 000 comptes sur 848 instances actives, le 16 avril. Par la suite, la croissante reste soutenue ; le 30 avril 2017, Mastodon compte 551 707 abonnés sur 1 379 instances actives. Les mois suivants, la croissance se poursuit à un rythme plus modeste ; le 11 juin 2017, le réseau atteint 700 000 utilisateurs sur 1 481 instances.
+Le 5 avril, le serveur historique, mastodon.social hébergé par l'auteur du logiciel, doit clore les inscriptions pour ne pas dépasser ses limites techniques. Cependant de nombreuses instances voient le jour permettant l'inscription de nouveaux abonnés, notamment en France, comme mstdn.fr le 6 avril, puis mamot.fr l'instance de La Quadrature du Net le 9 avril et Framapiaf l'instance de Framasoft le 12 avril.
+Rapidement, des instances japonaises apparaissent, comme mstdn.jp, dont l'administrateur, pixiv, ouvre également l'instance Pawoo.net. Le 18 avril, le nombre d'utilisateurs japonais sur le réseau rejoint le nombre d'utilisateurs français avec environ 150 000 utilisateurs, puis le dépasse après quelques jours pour devenir le premier pays en nombre d'utilisateurs.
+Le 20 avril, la DINSIC (mission Etalab) lance une instance réservée aux agents publics de l'État français, créant ainsi la première utilisation du réseau par un gouvernement.
+
+Technologie
+Le serveur est développé en Ruby on Rails, et est proposé sous licence libre : son code et ses API sont disponibles. Le code source est publié sous licence AGPL 3-0.
+Les instances sont connectées via les standards OStatus (en) et ActivityPubActivityPub, rejoignant ainsi un ensemble de réseaux sociaux utilisant les mêmes protocoles, surnommé fediverse. L'autre réseau majeur de cette plateforme est GNU social, connu sous le nom de StatusNet avant juin 2013.
+Il existe également des clients pour plates-formes mobiles permettant d'accéder au service, dont deux logiciels, Tusky, un logiciel libre pour Android et Amaroq pour iOS ou encore Tooter pour Sailfish OS. Ce sont les plus populaires sur ces plates-formes.
+Mastalab est un logiciel libre (GPLv3) pour Android permettant d'exploiter simultanément plusieurs comptes Mastodon, disponible sur F-Droid depuis le 27 juillet 2017 et Google Play.
+
+Voir aussi
+
+Articles connexes: Réseaux sociaux.

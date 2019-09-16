@@ -1,0 +1,45 @@
+Une organisation est en sciences sociales un ensemble d'individus ou de groupes d'individus en interaction, ayant un but collectif, mais dont les préférences, les informations, les intérêts et les connaissances peuvent diverger : une entreprise, une administration publique, un syndicat, un parti politique, une association, etc.
+L'organisation de quelque chose désigne l'action d'organiser (structurer, délimiter, agencer, répartir ou articuler). En ce sens, il s'agit d'un processus social.
+Une organisation est le résultat d'actions régulées (une entreprise, un service public, une administration, une association, une armée, un événement, etc.).
+
+Étymologie
+Vient du substantif latin "organum" et du grec "organon" qui désigne au XIIe siècle XIVe siècle un instrument de musique, la voix, un organe du corps. Outre un sens musical, organiser signifie : "disposé de manière à rendre apte à la vie".
+
+Définitions
+L'organisation est une forme que prennent les interactions sociales. Elle se caractérise par une régulation plus ou moins formelle des rôles de chacun au sein de celle-ci.
+
+Les grands types d'organisation
+Dont des types particuliers
+
+L'entreprise, un type et une nature d'organisation formelle
+Une entreprise - vue comme une organisation - est alors un moyen structuré, constituant une unité de coordination, ayant des frontières identifiables, fonctionnant en continu, en vue d'atteindre un ensemble d'objectifs partagés par l'ensemble de ses membres (salariés, dirigeants, actionnaires, etc.)
+
+Les micro-organisations
+Un statut particulier doit être attribué aux micro-organisations auxquelles correspondent juridiquement les micro-entreprises (moins de 10 ou de 20 personnes suivant les législations) et toutes les équipes de sport etc. qui sont du ressort de la psycho-sociologie, cette distinction correspondant au langage courant. On réserve implicitement le "organisation" à des groupes de plus d'une quinzaine de personnes.
+
+Enjeux
+L'intérêt de l'organisation - tant dans sa conception que dans sa gestion - est de prendre en compte pour essayer de la réduire, la tension naturelle qui existe spontanément entre d'une part les finalités choisies, de l'autre les moyens disponibles et-ou réunis pour y parvenir. L'organisation parvient d'autant mieux à réguler cette tension qu'elle est capable de "faire système", c'est-à-dire d'être et d'agir comme un ensemble d'éléments en interaction, regroupés au sein d'une structure pilotée, ayant un système de communication pour faciliter la circulation de l'information, dans le but de répondre à des besoins et d'atteindre des objectifs déterminés.
+La recherche d'optimisation de l'organisation
+L'organisation peut être vue selon une approche structurelle ou managériale.
+
+Approche structurelle
+L'organisation tend à faciliter la circulation des flux et ainsi d'atteindre des objectifs déterminés. La circulation des flux sera améliorée s'il n'y a pas de déformations de ceux-ci et s'il est possible de les accélérer. Pour limiter la déformation, il faut augmenter le niveau d'uniformisation de ce qui encadre le flux (gestion de base de données, procédures, systèmes anti-erreurs...) ou la flexibilité de l'organisation. Pour augmenter la vitesse du flux, il faut mettre en oeuvre les synergies existantes au sein de l'organisation.
+Il est possible de distinguer quatre types de structure de l'organisation, et même, parfois, la possibilité de modifier celle-ci en cours d'utilisation. 1) La mutualisation : capacité à identifier un service rendu de l'organisation et à l'utiliser dans plusieurs contextes.; 2) La scalabilité : capacité de l'organisation à pouvoir grossir par un changement d'échelle, c'est-à-dire de supprimer des volumes plus importants de traitements sans remettre en cause l'architecture sous-jacente.; 3) La résilience : capacité d'une organisation à continuer de fonctionner en cas de panne.
+Il est donc possible de juger la qualité d'une organisation par divers indicateurs de flexibilité (ou d'uniformisation, de mise sous tension...) et des synergies du capital immatériel selon les perspectives (les segmentations) de l'organisation. Ils sont indispensables à la construction de la stratégie de l'organisation et permettent ainsi de lier les théories des organisations (économique et sociologique) avec sa pratique sur le terrain. La stratégie d'une organisation doit en effet tenir compte impérativement de toutes les dimensions qui la constituent pour être valide.
+
+Approche managériale
+Selon la norme internationale ISO 9000 (version 2005), l'organisation se définit comme un "ensemble de responsabilités, pouvoirs et relations entre les personnes". C'est l'un des outils du système de management d'une entreprise, lequel permet (selon ISO 9000) "d'établir une politique et des objectifs et d'atteindre ces objectifs".
+Optimiser une organisation, c'est d'une part optimiser sa structure organisationnelle et ses processus d'affaires transversaux, et d'autre part mobiliser le personnel de manière que tous les employés focalisent leur énergie vers l'atteinte des objectifs.
+
+Le choix des étalons de mesure
+L'organisation génère du capital immatériel source de synergies (ou de flexibilité).
+La décomposition de l'organisation à analyser est libre, mais plus ou moins pratique et liée à l'épistémologie utilisée. Afin de lier par exemple la théorie des organisations et sa pratique, l'organisation peut être d'abord segmentée pour l'évaluer par une approche relativement sociologique en: Technologie, Structure physique, Structure sociale, Culture.
+La valeur de l'organisation peut être obtenue par des moyens comptables pour sa part tangible, et par la mesure du capital immatériel pour sa part intangible. Ce capital immatériel est source de polémique et fonde de nombreuses analyses théoriques (économiques et sociologique). Il peut se mesurer dans la pratique en distinguant par exemple selon l'IFAC comme norme internationale : le capital humain, le capital relationnel, le capital structurel.
+À des fins d'analyse, il est aussi possible d'apprécier ce capital immatériel en fonction des compétences, routines ou conventions nécessaires à l'organisation en fonction des théories utilisées.
+Il est aussi possible d'évaluer l'organisation par l'étalon de mesure du passif immatériel, par exemple les coûts de transaction ou d'autres étalons de mesures. D'autre théorie prennent en compte pleinement, par exemple la rationalité limitée, des groupes ou individus ou d'autres formes de biais.
+
+Indicateur mathématique de base
+Pour tous les segments de l'organisation qui sont pertinents par rapport à la stratégie de l'organisation (ou du paradigme choisit théoriquement), il est possible d'évaluer les performances en comparant le gain obtenu à l'effort consenti (sous hypothèse que l'organisation est évaluable et recherche un gain). L'indicateur est alors le taux : gains des synergies ou flexibilités d'organisation-capital matériel et immatériel; Le gain du flux est variable en fonction de l'organisation et du segment analysé (et des approches théoriques).; Le capital est fonction du fait que :. - Les flux sont à stocker. - Les flux doivent être tendus. - Les chemins des flux sont complexes et négociés (en nombre et variations des interfaces faisant risquer une déformation du flux : coût de transaction). - La structure canalisant les flux est de qualité, maintenue ou dupliquée (pour limiter les risques de rupture et les coûts d'agence).
+Voir aussi
+
+Articles connexes: Organisation (sociologie); Management; Auto-organisation - Auto-gestion; Association à but non lucratif; Entreprise - Évaluation d'entreprise, pour d'autres moyens d'évaluation de l'entreprise.; Économie des organisations, pour l'étude économique théorique des organisations.; Sociologie des organisations, pour l'étude sociologique des organisations.; Théorie des organisations, pour un article sur l'épistémologie de l'organisation.; Management du système d'information, pour l'étude des flux d'informations dans l'organisation.; Réactivité industrielle, pour l'étude des synergies et de la flexibilité technologiques dans l'organisation.; Logistique, pour l'étude des flux de matière dans l'organisation.; Fonctionnement et organisation de l'entreprise, pour un schéma général de l'organisation de l'entreprise.; Gestion des ressources humaines, pour l'étude des organisations dans une perspective ressources humaines.; Organigramme (organisation), pour l'étude de la hiérarchie des organisations (perspective administrative).; Gestion de la connaissance, pour l'étude des flux de connaissance dans l'organisation.; Droit des sociétés, pour l'étude du droit des organisations.; Analyse décisionnelle des systèmes complexes.

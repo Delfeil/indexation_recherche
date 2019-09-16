@@ -1,0 +1,46 @@
+Un morphisme de groupes ou homomorphisme de groupes est une application entre deux groupes qui respecte la structure de groupe.
+Plus précisément, c'est un morphisme de magmas d'un groupe (G ,) (-displaystyle (G,-)) dans un groupe (G ' ,) (-displaystyle (G',-star)), c'est-à-dire une application f : G G ' (-displaystyle f:G-to G') telle que
+et l'on en déduit alors que: f(e) - e' (où e et e' désignent les neutres respectifs de G et G') et; x G f(x) - (f(x)).
+Démonstration: e e - e (-displaystyle e-e-e) donc f (e) f (e) - f (e) (-displaystyle f(e)-star f(e)-f(e)) ; en composant par l'inverse de f (e) (-displaystyle f(e)), on obtient f (e) - e ' (-displaystyle f(e)-e') (autrement dit, un morphisme de groupes conserve l'idempotence, et l'élément neutre d'un groupe est son unique élément idempotent).; x x 1 - x 1 x - e (-displaystyle x-x(-1)-x(-1)-x-e) donc f (x) f (x 1) - f (x 1) f (x) - e ' (-displaystyle f(x)-star f(x(-1))-f(x(-1))-star f(x)-e') ; ainsi f (x) (-displaystyle f(x)) et f (x 1) (-displaystyle f(x(-1))) sont inverses l'un de l'autre.
+Ces démonstrations s'appliquent dans un contexte plus général : voir les "Morphisme de monoïdes" et "Symétrique d'un élément" de l'article sur les monoïdes.
+Un morphisme d'un groupe G dans lui-même est appelé un endomorphisme de G.
+On dit que f (-displaystyle f) est un isomorphisme de groupes si f (-displaystyle f) est un morphisme bijectif. Dans ce cas, f 1 (-displaystyle f(-1)) est aussi un isomorphisme de groupes. Si de plus (G ,) - (G ' ,) (-displaystyle (G,-)-(G',-star)), autrement dit si l'isomorphisme f (-displaystyle f) est un endomorphisme, on dit que f (-displaystyle f) est un automorphisme du groupe G (-displaystyle G).
+Un morphisme de groupes transporte la loi de groupe, et va ainsi conserver toutes les propriétés liées à cette loi. Il est donc intéressant d'étudier comment se comportent les principaux objets de la théorie des groupes sous l'effet des morphismes.
+
+Exemples: Le morphisme trivial (en) de G dans G' est l'application constante x e'.; La fonction exponentielle complexe C C , z e z (-displaystyle -mathbb (C) -to -mathbb (C) (-),-,z-mapsto -mathrm (e) (z)), vérifie :e z + z ' - e z e z '. (-displaystyle -mathrm (e) (z+z')--mathrm (e) (z)-times -mathrm (e) (z').)C'est donc un morphisme de groupes de (ℂ, +) dans (ℂ-,) et - par restriction - de (ℝ, +) dans (ℝ+-,).
+
+Liens avec les sous-groupes
+Soit f : G G ' (-displaystyle f:G-to G') un morphisme de groupes. Alors : l'image réciproque f 1 (H ') (-displaystyle f(-1)(H')) de tout sous-groupe H ' (-displaystyle H') de G ' (-displaystyle G') est un sous-groupe de G (-displaystyle G), et si de plus H ' (-displaystyle H') est normal dans G ' (-displaystyle G') alors f 1 (H ') (-displaystyle f(-1)(H')) est normal dans G (-displaystyle G).; l'image directe f (H) (-displaystyle f(H)) de tout sous-groupe H (-displaystyle H) de G (-displaystyle G) est un sous-groupe de G ' (-displaystyle G'), et si de plus H (-displaystyle H) est normal dans G (-displaystyle G) alors f (H) (-displaystyle f(H)) est normal dans f (G) (-displaystyle f(G)) (donc dans G ' (-displaystyle G') si f (-displaystyle f) est surjectif).
+
+Noyau et image
+Comme pour toute application, l'image d'un morphisme de groupes f : G G ' (-displaystyle f:G-to G') est définie par : im (f) - f (G) , (-displaystyle -operatorname (im) (f)-f(G),).
+et f (-displaystyle f) est surjectif si et seulement si son image est égale à G ' (-displaystyle G').
+Le noyau (Kern en allemand, kernel en anglais) est plus spécifique aux morphismes. On appelle noyau du morphisme f (-displaystyle f) l'ensemble: ker (f) - f 1 ((e ')) , (-displaystyle -ker(f)-f(-1)(-(e'-)),).
+et f (-displaystyle f) est injectif si et seulement si son noyau est réduit à (e) (-displaystyle -(e-)).
+D'après le précédent, pour tout morphisme f : G G ' (-displaystyle f:G-to G'), im (f) (-displaystyle -operatorname (im) (f)) est un sous-groupe de G ' (-displaystyle G') et ker (f) (-displaystyle -ker(f)) est un sous-groupe normal de G (-displaystyle G). De plus, si S est une partie génératrice de G, alors f(S) est une partie génératrice de im(f).
+
+Isomorphismes de groupes
+Un isomorphisme de groupes est un morphisme de groupes qui est bijectif.
+Lorsqu'il existe un isomorphisme du groupe G (-displaystyle G) vers le groupe G ' (-displaystyle G'), sa bijection réciproque est un isomorphisme du groupe G ' (-displaystyle G') vers le groupe G (-displaystyle G) ; on dit alors que les deux groupes sont isomorphes, ce que l'on note G G ' (-displaystyle G-simeq G').
+
+Automorphismes de groupe
+Un automorphisme de groupe est un morphisme qui est à la fois un isomorphisme de groupes et un endomorphisme de groupe
+L'ensemble des automorphismes du groupe G est généralement noté Aut(G). C'est un sous-groupe du groupe des bijections de G dans G (muni de la loi de composition).
+
+Théorèmes d'isomorphisme
+Les trois théorèmes d'isomorphisme suivants sont généralisables à d'autres structures que les groupes. Voir notamment Algèbre universellePassage au quotient et théorèmes d'isomorphie.
+
+Premier théorème d'isomorphisme "f induit un isomorphisme du groupe quotient G - ker f (-displaystyle G--ker f-,) vers f (G) (-displaystyle f(G)-,)."
+On déduit de ce théorème fondamental deux autres théorèmes d'isomorphisme.
+
+Deuxième théorème d'isomorphisme
+Si N est un sous-groupe normal de G et H un sous-groupe de G, alors H N (-displaystyle H-cap N) est un sous-groupe normal de H et on a l'isomorphisme suivant : H - (H N) N H - N. (-displaystyle H-(H-cap N)-simeq NH-N.).
+
+Troisième théorème d'isomorphisme
+Soient N et M deux sous-groupes normaux de G tels que M soit inclus dans N. Alors N-M est un sous-groupe normal de G-M et on a l'isomorphisme suivant :
+
+Note
+
+Voir aussi
+
+Articles connexes: Automorphisme intérieur; Catégorie des groupes; Chiffrement homomorphe.

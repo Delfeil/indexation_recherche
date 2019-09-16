@@ -1,0 +1,262 @@
+Une métadonnée (mot composé du préfixe grec meta, indiquant l'auto-référence ; le mot signifie donc proprement "donnée de-à propos de donnée") est une donnée servant à définir ou décrire une autre donnée quel que soit son support (papier ou électronique).
+Un exemple type est d'associer à une donnée la date à laquelle elle a été produite ou enregistrée, ou à une photo les coordonnées GPS du lieu où elle a été prise.
+Les métadonnées sont à la base des techniques du Web sémantique. Elles sont définies dans le cadre du modèle Resource Description Framework (RDF).
+
+Historique
+Tous les établissements qui ont à gérer de l'information, bibliothèques, archives ou médiathèques ont déjà une longue pratique dans la codification du signalement ou des contenus des documents qu'ils manipulent. Avant l'arrivée de l'informatique on utilisait des fiches cartonnées dont la structure a été normalisée en 1954 sous la référence ISBD (International standard bibliographic description).
+Ces descriptions ont ensuite été informatisées sous la forme de notices bibliographiques et normalisées (voir par exemple les formats MARC en 1964 utilisant la norme ISO 2709 dont la conception a démarré en 1960). Elles facilitent la gestion interne des ressources documentaires et, côté usagers, permettent d'optimiser la recherche et la localisation des documents.
+Les bibliothèques numériques ont eu recours aux mêmes dispositifs pour gérer et localiser des documents électroniques. Dans les applications distribuées, on a rapidement normalisé l'échange d'éléments de données extraits de ces notices et en 1988, la Bibliothèque du Congrès, aux États-Unis, proposait un protocole pour la recherche d'information (Z39.50) qui fut revu en 1992.
+Le terme métadonnée (en anglais : metadata) est apparu dans le cadre de la description de ressources sur Internet dans les années 1990 et s'est ensuite généralisé.
+
+Généralisation
+Les langages de balisage de type GML, puis SGML et HTML, ont introduit une rupture dans la nature des métadonnées. Auparavant la distinction entre les fiches, les notices, d'une part, et les contenus, d'autre part, était quasiment absolue. Cette nouvelle structuration de l'information permit d'introduire des métadonnées dans les documents eux-mêmes. Les Communautés européennes adoptèrent le langage SGML dès 1984.
+La notion de métadonnées utilisables par les ordinateurs fut proposée assez tôt dans l'histoire du Web, dès 1994, par son inventeur Tim Berners-Lee, lors de la conférence WWW 94 où fut annoncée la création du W3C. Les métadonnées sont en effet au coeur de l'architecture Web.
+En 1995, les métadonnées firent l'objet d'un atelier à Dublin (Ohio), pour les méthodes de recherche d'information. En parallèle, la bibliothèque du Congrès proposait une 3e version du protocole Z39.50.
+En 1999, le W3C définit le cadre permettant de créer un réseau de métadonnées acceptant le langage XML : Resource Description Framework (RDF).
+Le tronc commun de métadonnées Dublin Core a été adopté par l'Union européenne en 2002.
+
+Une notion qui concerne tous les organismes
+
+Description
+Les notices contiennent des informations sur la source du document (titre, auteur, date, sujet, éditeur, etc.), la nature du document (monographie, périodique, etc.), son contenu informationnel (descripteurs, mots-clés, résumé) et sa localisation physique (la cote).
+Pour un document numérique, ces notices s'appellent des métadonnées et sont contenues dans le document lui-même. Les métadonnées sont aussi utilisées pour d'autres types de ressources informatiques contenant des images ou du son (CD-ROM, DVD-ROM).
+Les métadonnées sont, dans le cadre du Web sémantique, des données signifiantes qui permettent de faciliter l'accès au contenu informationnel d'une ressource informatique, une notice de contenu intégrée en quelque sorte (dans l'en-tête des documents HTML côté code source ou en tant que fichier XML autonome par exemple).
+Au moins quinze éléments, répartis autour de trois domaines, permettent d'identifier et de décrire les ressources documentaires : Contenu : titre, sujet, description, source, langue, relation, couverture.; Propriété intellectuelle : créateur, éditeur, contributeur, droits (droits d'auteur...).; Matérialisation : date, type, format, identifiant.
+Les métadonnées sont un élément essentiel de l'architecture Web.
+Toutefois, limiter les métadonnées aux ressources numériques de types documents, sons et images, serait une erreur : dans les bases de données relationnelles, les métadonnées incluent le nom de chaque table et le type de chaque colonne dans la table.
+
+Une notion essentielle à l'interopérabilité
+Les métadonnées correspondent à des marqueurs que l'on introduit dans les fichiers ou dans des langages de programmation appropriés, les langages de marquage XML.
+Les marqueurs ont pour effet d'améliorer l'efficacité des recherches d'information par rapport aux recherches plein texte.
+RDF (Resource Description Framework) crée les conditions d'interopérabilité, avec des réseaux de métadonnées, et l'utilisation du langage XML.
+Les ressources numériques balisées transportent avec elles leurs propres métadonnées lorsqu'elles sont téléchargées, copiées, répliquées ou transmises par des messageries électroniques. Ceci s'applique à tous les types de ressources numériques (texte, son, image, multimédia).
+Les métadonnées sont ainsi l'un des principaux éléments de l'étiquetage avec les tags, surtout dans le Web 2.0.
+Le potentiel des métadonnées est beaucoup plus important, car elles peuvent faire interopérer les ressources informatiques, dans la mesure où elles ont été paramétrées et structurées dans des dictionnaires de données (ou registres de métadonnées). On peut alors faire communiquer les bases de données classiques, utilisées dans les progiciels de gestion intégrés) et les données non structurées (documents, images, manipulés en gestion des connaissances...).
+
+Un impact économique dans tous les secteurs
+Pour un ensemble de raisons, tant historiques que juridiques, on n'a pas encore pris conscience, en Europe, de la sensibilité de la gestion des métadonnées pour les processus de décision dans les entreprises.
+Même aux États-Unis, cette prise de conscience a été difficile, la technicité du sujet cachant son caractère stratégique.
+L'expert américain Robert Steele a bien compris l'importance des métadonnées dans les sources ouvertes.
+Les métadonnées concernent tous les secteurs de l'économie à travers la gestion de contenu, puisque tous les organismes gèrent des ressources documentaires sous forme électronique : Administrations centrales et territoriales,; Entreprises,; Universités et grandes écoles,; Centres d'études et de recherches,; Médiathèques.
+Dans l'économie du savoir, il est important de protéger le patrimoine informationnel constitué par les ressources documentaires, car les documents électroniques contiennent souvent des données confidentielles.
+La circulation de documents sous forme électronique entre différents types d'organismes rend la protection du patrimoine informationnel complexe.
+
+Différence de perception entre l'Amérique et l'Europe
+Selon Robert Steele, expert américain en sources ouvertes, qui intervient à Bruxelles, les métadonnées sont appelées à jouer un rôle de plus en plus important pour la représentation avancée de contexte dans les modèles de contrôle d'accès et les langages de ressources Web actives.
+
+En Amérique
+Un certain nombre d'équipes impliquées dans la sémantique sur le Web ont organisé un atelier à Dublin (Ohio) en 1995 sur les métadonnées, en définissant le standard Dublin Core.
+Différents départements du gouvernement fédéral (DoD...) se sont dotés de registres de métadonnées, qui permettent de définir un champ commun de partage de connaissances entre des organisations travaillant sur des sujets de souveraineté : défense, justice, environnement.... La Bibliothèque du Congrès, située à Washington, joue un rôle moteur dans la définition des métadonnées aux États-Unis.
+Les standards de métadonnées sont l'un des trois éléments clés de la stratégie données en réseau centré (Net-Centric Data Strategy) du département de la Défense des États-Unis, avec les communautés d'intérêt et les services d'entreprise GIG.
+Le gouvernement canadien doit se conformer au Dublin Core depuis octobre 2001. Le gouvernement canadien a édicté des lignes directrices pour décrire les métadonnées utilisées dans les ressources Web.
+
+Dans l'Union européenne
+Au Royaume-Uni, l'UKOLN (United Kingdom Office for Library and Information Networking) est l'organisme le plus avancé sur la gestion de l'information numérique (métadonnées et interopérabilité). Il développe des projets pour la recherche et développement financés par l'Union européenne. Il a une influence sur la réglementation, l'"awareness", la recherche et développement, les techniques Web. Le gouvernement britannique a défini un standard de métadonnées pour le e-gouvernement (e-GMS)
+En France, par manque d'information ou de formation à ce propos, relativement peu de webmestres intègrent des métadonnées aux contenus numériques qu'ils publient. La raison est probablement que les métadonnées n'ont pas de valeur juridique normative au niveau européen et dans les États membres (en particulier en France), puisqu'il n'y a pas d'obligation légale, par contre des standards émergent comme le projet d'identifiant européen de la législation (ELI) adopté le 24 septembre 2012 par le Conseil de l'Union européenne. Les webmestres introduisent au coup par coup des métaéléments (meta tags, balises meta) dans les pages Web.
+Des organismes comme le Commissariat à l'énergie atomique et le CNES (membres de l'association ARISTOTE) emploient des métadonnées pour l'archivage à long terme, en utilisant les recommandations de l'OAIS.
+La CORES Resolution (standards interoperability forum Resolution on Metadata Element Identifiers 12-12-2002) a adopté en 2002 les identifiants uniformes de ressource (Uniform Resource Identifiers, URI) pour l'accès aux ressources Web, en s'appuyant sur des standards de métadonnées.
+"Nos standards de métadonnées ont des éléments - unités signifiantes - qui peuvent être comparés et mis en correspondance avec des éléments d'autres standards."
+Ce groupe de projet a travaillé pour la Commission européenne. Il est composé de personnes appartenant à : GILS : Government Information Locater Service (États-Unis); MARC21 : standards de la bibliothèque du Congrès américain (États-Unis); IEEE-LOM : Learning Object Metadata (États-Unis); DCMI : Dublin Core Metadata Initiative (États-Unis); DOI Foundation : Digital Object Identifier; ONIX : ONIX for books, diffusion de livres; CERIF : Common European Research Informade0031.htm Metadata-Taxonomy; la NASA : NASA taxonomy - Metadata.
+Les classifications étant structurées, il est plus aisé de gérer la traçabilité, d'agréger les données, et de protéger le patrimoine informationnel.
+Les métadonnées sont ainsi un élément essentiel du chantier de gestion de contenu en ingénierie des connaissances.
+
+Métadonnées et traçabilité : gestion de la preuve
+La gestion des documents d'archives doit pouvoir s'appuyer sur des données cohérentes le long du cycle de vie des données. Il existe donc des normes de gestion des documents d'archives (ISO 15489), et une norme particulière sur les métadonnées (ISO 23081).
+
+Métadonnées et agrégation des données : gouvernance
+Dans le domaine de la gouvernance en général (gouvernement, administrations, entreprises), les métadonnées stockées dans des métadictionnaires (ou repository ; référentiels) sont utilisées comme "données sur les données", ou données de référence.
+Les métadonnées permettent de décrire les données utilisées dans les analyses et prises de décisions : la définition exacte des données (sémantique); la source des données (date, origine); la façon dont elles sont calculées, agrégées... (règles de calcul); les règles métier qui s'y rapportent; le processus d'extraction, transformation et chargement qui a été mis en oeuvre (voir ETL et Intégration d'applications d'entreprise).
+Les métadonnées facilitent les analyses croisées dans la gouvernance d'entreprise : Les tableaux de bord de gestion et l'informatique décisionnelle (entrepôts de données et datawarehouse).; Les tableaux de bord prospectifs, encore peu employés en France.
+
+Cadre de référence
+Des travaux internationaux convergent pour utiliser "intelligemment" avec le Web les métadonnées avec des moteurs de recherche en décrivant les ressources numériques ou physiques et en établissant des relations avec d'autres ressources.
+
+Mise en oeuvre d'un registre de métadonnées
+Le pilotage d'organisations complexes (administrations centrales et locales, pôles de compétitivité, etc.) nécessite d'employer des informations d'autorité, qui sont contenues dans des référentiels de métadonnées appelés registres de métadonnées.
+Un registre de métadonnées est un "Système de gestion des métadonnées, c'est-à-dire un système formel qui fournit l'information d'autorité sur la sémantique et la structure de chaque élément. Pour chaque élément, le registre en donne la définition, les qualificatifs qui lui sont associés, ainsi que les correspondances avec des équivalents dans d'autres langues ou d'autres schémas".
+La norme ISO-CEI 11179, dont l'application est fortement conseillée par le gouvernement américain, inclut les recommandations pour la mise en oeuvre d'un registre de métadonnées. La partie 6 contient des recommandations organisationnelles. Par exemple, il faut mettre en place, au niveau adéquat, l'organisation qui convient (architectes de données, réseau de correspondants...).
+
+Référentiels de métadonnées généraux : Dublin Core
+Ce référentiel trouve son origine aux États-Unis (1995) et a été adopté par plus de huit gouvernements. Le "Dublin Core" est la principale initiative visant à la convergence des éléments de métadonnées à utiliser. C'est un schéma de métadonnées générique qui peut servir de base à des registres de métadonnées.
+Le Dublin Core pousse à une normalisation dans l'Union européenne, via les données employées dans les systèmes d'information. La Commission européenne emploie donc des métadonnées dans ses livres blancs, sur des sujets pouvant toucher à la souveraineté.
+Le programme IDABC de la Commission européenne (3e phase du programme IDA), concernant les services d'e-Gouvernement, s'appuie largement sur les métadonnées du Dublin Core. Il a donné naissance au projet MIReG, qui vise à développer un framework de métadonnées, concernant les extensions du Dublin Core aux informations gouvernementales, qui soit basé sur les recommandations nationales sur les métadonnées des informations du secteur public.
+La directive INSPIRE (2007) incite les États membres et la Communauté européenne à mettre en place des organisations publiques (services de jeux de données), chargées de créer et de mettre à jour les métadonnées (registres de métadonnées), au moins pour ce qui concerne les informations géographiques. Elle devrait faire évoluer le cadre législatif.
+Il existe un projet de traduction française de la norme internationale Dublin Core (voir site Web de Artist, 16 octobre 2006), mais aucun organisme ne semble prendre la responsabilité ou le leadership.
+
+Métadonnées et structuration des données
+
+Métadonnées et contenu des pages web
+Le contenu des pages web est structuré à l'aide de balises meta, en langage HTML. Les différentes balises employées permettent de structurer les informations selon différents thèmes (mots-clés, description, auteur, titre, sujet...).
+Dans les projets de données ouvertes (open data), l'organisation à but non lucratif The Open Data Foundation se consacre à l'adoption de normes de métadonnées globales et au développement de solutions open source qui utilisent des données statistiques.
+
+Métadonnées et validation des documents : DSDL
+Le langage XML a été conçu pour faire circuler de l'information porteuse de sémantique sur la Toile. Cette circulation permet de valider progressivement les informations pour en faire de la connaissance partagée entre des communautés de pratique. Partant du DTD de SGML, l'échelle de validation des Document Schema Definition Languages (DSDL) a été mise au point afin de valider les documents électroniques. Dans le cas d'XML, l'emploi de schémas XML permet de faire passer les documents XML du stade "bien-formé" au stade "valide".
+Les outils qui participent à cette validation progressive sont les moteurs de recherche, dont l'optimisation s'appuie largement sur les éléments méta du langage HTML employé pour les pages Web, les moteurs de règle, et les moteurs d'orchestration.
+Dans ce processus global, les liens (type d'élément link dans HTML) mettent à jour en permanence les liens entre pages web pour "optimiser" la connaissance.
+Par exemple, dans le commerce électronique, à partir d'une organisation en registre de métadonnées, l'utilisation conjointe du registre ebXML et du registre d'annuaires UDDI permet d'organiser une orchestration (en interne aux entreprises) et une chorégraphie (en externe aux entreprises).
+
+Métadonnées et classification : schémas de classification
+Les métadonnées permettent de structurer des classifications. On trouve des exemples de taxonomies employant des métadonnées : L'Income Revenue Service.; Le "Dublin Core" comprend 15 éléments de description : formels (titre, auteur, éditeur),; intellectuels (sujet, description, langue...); et relatifs à la propriété intellectuelle.; formels (titre, auteur, éditeur),; intellectuels (sujet, description, langue...); et relatifs à la propriété intellectuelle.
+Chaque élément de description a plusieurs raffinements possibles (version qualifiée).
+L'utilisation de ce référentiel doit impérativement être accompagnée d'une organisation en registre de métadonnées. Avant toute mise en oeuvre de ce référentiel, il faut être conscient de son caractère sensible sur le plan de la protection du patrimoine informationnel et des contraintes organisationnelles qui y sont liées. C'est la raison pour laquelle le gouvernement américain conseille fortement de s'appuyer sur les recommandations de la norme ISO-CEI 11179 (partie 6 sur l'enregistrement).
+Le moteur de recherche Google s'appuie sur le Dublin Core. La programmation network-centric utilise les métadonnées du Dublin Core. Le système de publication d'OpenWeb est basé sur ce tronc commun.
+La norme ISO 15836:2003 est la transposition normative de ce référentiel en version non qualifiée. Elle est utilisée par plus de huit gouvernements dans le monde. En France, on l'emploie dans la gestion électronique des documents (GED) ou dans les systèmes d'archivage électronique (SAE).
+Il n'existe pas de traduction officielle, complète, et unique du référentiel Dublin Core en français. Il existe plusieurs guides d'utilisation en français.
+Il existe d'autres référentiels de métadonnées : Le standard 5015.2 du département de la défense pour le records management,; Open Document Management API (ODMA), très orienté sur les documents électroniques,; X500 Green Pages.
+
+Autres référentiels de métadonnées: Bibliothèques:
+L'initiative la plus ancienne pour définir des troncs communs d'éléments standardisés de métadonnées remonte aux années 1960, avec le standard MARC développé par la bibliothèque du Congrès.
+Le schéma MODS, développé par la Bibliothèque du Congrès, est un compromis entre la complexité de MARC et la simplicité du Dublin Core. Archivage à long terme:
+L'archivage à long terme se fait selon le modèle OAIS, avec le schéma XML METS (Metadata Encoding and Transmission Standard). Il est utilisé par le Commissariat à l'énergie atomique et le CNES. Presse:
+L'IPTC recommande l'utilisation d'un référentiel international de métadonnées spécifique à la presse, IPTC Core.
+
+Cadre général : Web sémantique, RDF
+Les métadonnées trouvent leur pleine utilisation dans le Web sémantique. Celui-ci repose sur les standards généraux du Web. Les principaux standards du Web sémantique sont : Resource Description Framework (RDF) : ce cadre de référence comporte des modèles de graphe destinés à décrire de façon formelle les ressources Web et leurs métadonnées, de façon à permettre le traitement automatique de telles descriptions. RDF a été défini en 1999 par le W3C, c'est le référentiel de base du Web sémantique.; Les métadonnées peuvent également être utilisées dans des extensions de RDF : RDF Schema et OWL.
+
+Formats: XMP : format de métadonnées basé sur XML, utilisé dans les applications PDF, de photographie et de graphisme, applicable au Web. Il a été lancé par Adobe Systems en avril 2001.
+
+Normalisation
+La quasi-totalité des normes sur les métadonnées ne sont disponibles qu'en anglais. Les seules normes qui soient disponibles en langue française sont celle sur le Dublin Core (qui en réalité est très courte), et surtout la norme ISO 21127 sur le patrimoine culturel immatériel.
+La normalisation est importante sur différents aspects : la recherche d'information, la structuration d'ontologies dans le web sémantique, et la définition de règles métier.
+METS (Metadata Encoding and Transmission Standard) est un schéma XML développé à l'initiative de la Digital Library Federation (DLF), et autorisant la création et la description intégrale (données descriptives, administratives et structurelles) d'objets numériques textuels ou graphiques.
+Les normes sur les registres de métadonnées (ISO 11179, complétée par deux autres normes, Dublin Core) définissent les concepts et l'organisation.
+En plus de ces normes générales, il existe des normes particulières à certains domaines : L'archivage informatique ;; Le patrimoine culturel (ISO 21127) ;; Les informations géographiques ;; Le commerce électronique ;; La gestion des documents d'archives ;; Les documents électroniques ;; L'agriculture.
+
+Risques
+
+Risques liés aux métadonnées
+Les métadonnées sont utiles à l'interopérabilité, mais leur emploi sans précaution présente des risques. On a déjà souligné que la mise en oeuvre d'un registre de métadonnées nécessite de s'appuyer sur la norme idoine (ISO-CEI 11179) et certains experts préconisent d'enlever les métadonnées des documents électroniques.
+Le plus grand risque serait d'ignorer l'importance des métadonnées, et de ne pas percevoir qu'elles sont largement utilisées dans beaucoup de systèmes informatiques.
+Olivier Ertzscheid qualifie d'enclosure algorithmique l'exploitation des métadonnées laissées par les internautes lors de leur navigation sur le web, au moyen d'algorithmes. Dans un contexte d'économie de l'attention, ces métadonnées sont traitées à l'insu des usagers, posant des questions d'ordre juridique et éthique. L'enclosure algorithmique constitue donc une forme de rétention et de détournement des données des usagers, afin de les exploiter commercialement. Cette situation de non transparence informationnelle ne facilite pas les travaux de recherche scientifique, dans la mesure où les métadonnées en question ne sont pas accessibles aux chercheurs. L'exploitation de ces métadonnées conditionne également la recherche en ligne des usagers, qui n'ont pas toujours conscience des logiques marchandes mises en place notamment lors de l'affichage des résultats par les moteurs de recherche. C'est notamment ce qu'Eli Pariser nomme les"bulles cognitives ou"filter bubble. L'utilisation des métadonnées s'accroît et se diversifie. Désormais se met en place une véritable création d'opinions par l'exposition de contenus jouant sur l'affect des usagers , notamment par les réseaux sociaux où se créent très rapidement des phénomènes viraux.
+
+Utilisation par les langages informatiques
+Les métadonnées peuvent être utilisées dans les langages de marquage : SGML, HTML, XHTML.
+XML, et ses langages dérivés : Le Geography Markup Language (GML) ;; Langage multimédia SMIL 1.0 (élément meta) et SMIL 2.0 (élément metadata).
+Le langage SKOS, en cours de développement au W3C pour utilisation dans la Communauté européenne, prévoit d'employer des métadonnées dans le cadre RDF en environnement web sémantique.
+Le langage Java accepte également les métadonnées.
+
+Génération des métadonnées
+Les métadonnées peuvent être introduites de façon manuelle, mais aussi semi-automatique, ou automatique.
+
+Critiques
+Le concept de métadonnées peut avoir des inconvénients ; un des problèmes est de définir un noyau d'informations standards, l'ensemble des données possibles étant vaste. De plus, les métadonnées peuvent être subjectives et dépendantes du contexte, ce qui rend difficile leur exploitation (par exemple, la donnée "photo prise à 1:00" dépendra du temps local). Pour les documents multilingues, il faut assurer la traduction des métadonnées, ce qui accroît la complexité et les risques. La création des métadonnées peut donc dans certains cas être consommatrice de temps, ce qui pourrait donc décourager des entreprises (pour des questions d'argent), ou des particuliers (pour des questions de complexité).
+
+Utilisations par types de ressources
+
+Audio
+Pour un fichier audio numérique, les métadonnées peuvent être utilisées pour nommer, décrire, cataloguer et indiquer la propriété ou le droit d'auteur.
+
+Moteurs de recherche
+Le langage HTML permet de structurer la nature et le contenu des pages Web. C'est l'utilisation la plus classique. Cependant, les métadonnées ne sont plus véritablement pertinentes pour les moteurs de recherche. En effet, les éléments meta ne sont pratiquement plus pris en considération par la plupart des moteurs de recherche. Google par exemple, ne tient compte que de la meta description et de la meta robots. Cette situation est la conséquence du référencement abusif depuis 1999.
+
+Bases de données relationnelles
+Les bases de données relationnelles utilisent aussi des métadonnées dans les tables.
+C'est dans la phase d'alignement stratégique des projets de système d'information, en particulier d'urbanisation, que l'on est amené à étudier comment les données de sécurité se positionnent dans l'architecture de données des systèmes d'information.
+
+Systèmes de fichiers Unix
+Les systèmes de fichiers disposent de quelques informations de base sur les fichiers, qui sont à ce titre des métadonnées. Les principales sont le nom du fichier, sa taille, la date de création et de dernière modification.
+Dans les systèmes UNIX, les droits d'accès (en lecture, écriture et exécution selon l'utilisateur, le groupe, ou les autres) sont des métadonnées sensibles. Ces droits d'accès sont décrits dans ce que l'on appelle les inodes (contraction d'index-node, noeud d'index).
+Il semblerait que l'avenir de la localisation, de la lecture-repérage et de la collecte d'information dans les systèmes de fichiers passe par l'utilisation massive des métadonnées. Certains systèmes de fichiers en cours de développement comme la version 4 de ReiserFS ou WinFS ont pour objectif de rendre la recherche des fichiers plus simple et plus intuitive, et les métadonnées permettent d'y arriver. Tous les fichiers seront donc pourvus de métadonnées permettant de savoir ce qu'ils contiennent.
+Le principe n'est pas nouveau : le BeOS file system (BFS) était notamment réputé pour son support des métadonnées. Le ressource fork du système de fichiers utilisé par les anciennes version de Mac OS permettait également ce type de gestion.
+
+Fichiers bureautiques
+Des formats de fichiers tels que PDF, Word, Excel, le format OpenDocument utilisent des métadonnées. Elles sont visibles et peuvent être complétées à partir du menu Fichier propriétés du document dans l'interface des applications correspondantes.
+Le format de document OpenDocument (ou ODF), ouvert, contient des métadonnées dans le fichier meta.xml. Ce format a été recommandé par Bernard Carayon et a été adopté par l'Union européenne.
+
+Contenus multimédia: MPEG-7 est une norme de description de contenu qui intègre des métadonnées; MPEG-21; MXF est un conteneur vidéo. Il permet la prise en charge, dans un même fichier, d'un média vidéo et de ses métadonnées.
+
+Presse
+Les technologies applicables sont PRISM, NewsML (en), et NITF.
+
+Fichiers graphiques
+Chaque format d'image numérique implémente une façon spécifique de stocker les métadonnées, mais il existe certaines normes communes à plusieurs types, par exemple : le standard EXIF est utilisable à la fois dans les fichiers JPEG ou TIFF,; le standard IPTC Information Interchange Model,; le standard XMP est intégrable à une douzaine de types de fichier différents (JPEG, JPEG 2000, TIFF, GIF, PNG, etc.).; DIG35, et JPX.
+
+Fichiers Son
+Il y a plusieurs familles de métadonnées pour l'audiovisuel, les métadonnées d'identification destinées au grand public et d'autres destinées à l'univers professionnel de l'audio ou de l'audiovisuel. Les formats de son numérique intègrent des métadonnées : Dolby Digital EX; Dolby E; Fichiers MP3.
+Les métadonnées sont utilisées par le format MP3 dans les tags ID3. On peut en effet y insérer des informations comme le nom de la chanson, de l'interprète, ou encore la date de sortie.
+
+Utilisations par types d'applications
+
+Logiciels libres
+Les logiciels libres utilisent, comme tous les logiciels, des métadonnées. Par exemple, le système de gestion intégrée des documents du gouvernement du Québec emploie des métadonnées avec des composants d'indexation et de stockage.
+En France, dans le Cadre Commun d'Interopérabilité du Référentiel Général d'Interopérabilité du programme d'e-Gouvernement ADELE, les technologies du logiciel libre sont représentées par l'intermédiaire de Zope, qui a des capacités à interopérer via le langage DTML (Dynamic Template Markup Language). Ce langage emploie lui-même des métadonnées.
+
+Gestion des brevets
+Les droits de propriété intellectuelle sont l'un des éléments du Dublin Core. Les données sur les brevets peuvent être indexées dans des applications de gestion des brevets ou gestion des actifs novateurs (IPAM, Intellectual Property Asset Management, ou IAM), en utilisant des métadonnées.
+
+Progiciels de gestion intégrés
+Les grands progiciels de gestion intégrés (SAP, Oracle Corporation...) ont des fonctions permettant de gérer les métadonnées. On les appelle quelquefois gestion des données de référence ou Master Data Management (MDM).
+
+Gestion de contenu, gestion électronique des documents
+Les applications progicielles de gestion des connaissances ont, dans la gestion de contenu, des fonctions permettant de gérer les métadonnées. À ce titre, elles sont essentielles pour la gestion de la preuve (voir supra).
+La norme SCORM d'apprentissage en ligne utilise le schéma de description de ressources d'enseignement et d'apprentissage Learning Object Metadata.
+Les outils de gestion électronique des documents peuvent également utiliser des métadonnées pour le classement des documents (voir Classement des documents par type dans la GED).
+
+Interfaces de programmation (API)
+Les métadonnées peuvent être employées dans les spécifications J2EE du langage de programmation Java, en particulier dans les interfaces de programmation (API). Elles font l'objet de formats d'interface : JMI (Java Metadata Interface), spécifique au langage Java.
+XMI (XML Metadata Interchange) est un standard d'échanges de métadonnées UML.
+
+Moteurs de recherche
+Les moteurs de recherche peuvent s'appuyer sur des métadonnées pour améliorer les recherches d'information par rapport aux recherches plein texte. Dans les années 1995-1999, on utilisait beaucoup des métaéléments HTML pour optimiser les premiers moteurs de recherche, mais on s'est rendu compte qu'ils n'étaient pas toujours fiables.
+
+Services Web
+Les services Web (architecture SOA) compilent de grandes quantités de métadonnées. L'organisation WS-I (Web Services Interoperability) a développé une série de profils pour faire évoluer les futures normes impliquées dans l'interopérabilité des services Web.
+Les métadonnées servent à plusieurs choses : elles décrivent les formats de message que le service prend en charge et les modèles d'échange de messages valides pour un service, grâce à la spécification WSDL. Les métadonnées décrivent aussi les capacités et les exigences d'un service, grâce à la spécification WS-Policy. Cette dernière forme de métadonnée se nomme la "stratégie" d'un service. Parmi les spécifications qu'utilisent les services web pour les métadonnées, outre WSDL et WS-Policy, il faut citer WS-Security et WS-MetadataExchange.
+
+Informatique décisionnelle
+Les métadonnées permettent d'effectuer des analyses multidimensionnelles, dans les applications de gestion des ressources humaines, finances, gestion de la relation client. À ce titre, elles sont un élément essentiel de la gouvernance d'entreprise (voir supra).
+
+Commerce électronique
+Le projet Interoperability of Data in E-Commerce Systems ou INDECS (compatibilité des données dans les systèmes de commerce électronique) emploie des métadonnées.
+
+Monétique
+Les standards en monétique et en systèmes de paiements par cartes de crédit comportent des métadonnées.
+
+Systèmes d'exploitation
+Les métadonnées sont utilisées dans le système d'exploitation Microsoft Windows Vista, dont les conditions de sécurité sont controversées.
+
+Messageries électroniques
+Les courriels gérés par les messageries électroniques peuvent véhiculer des métadonnées. Jason R. Baron a fait une étude dans le cadre de l'IEEE en 1999 sur l'archivage des courriels de l'administration américaine.
+
+Systèmes de gestion de règles métier
+Les SGRM définissent des règles métier en employant des métadonnées.
+
+Syndication de contenu Web
+Les balises de syndication RSS contiennent des métadonnées.
+
+Authentification unique
+Lors du rapprochement de deux organisations différentes, il est nécessaire d'harmoniser les règles d'authentification unique entre les deux organisations. Ceci se fait généralement par l'échange des métadonnées qui permettent d'authentifier les individus concernés.
+
+Métadonnées dynamiques et contexte
+L'utilisation de métadonnées dynamiques permet de mieux interpréter le contexte.
+Voir : (PDF) Managing dynamic metadata as context; Dynamic metadata.
+Les métadonnées sont employées dans les stratégies réseau centré.
+
+Domaines d'application
+
+Bibliothèque numérique: Library of Congress Digital Repository Development Core Metadata Elements.
+
+Monde vidéo
+Dans l'industrie de la diffusion télévisée ou du cinéma, les métadonnées attachées aux contenus audio-vidéo sont naturellement indispensables pour : identifier le contenant : le nom du clip, de la playlist, sa durée, son code temporel, etc.; décrire le contenu : remarques concernant la qualité des images, description (par exemple, lors d'une compétition sportive, on associera à certains moments des mots comme goal, carton rouge, public...); classer les médias : les métadonnées permettent également un classement ou un tri pour retrouver rapidement des images (un journal télévisé peut, à la dernière minute, nécessiter des images d'archive pour un sujet urgent).
+Ces métadonnées ont pu être associés au contenu vidéo grâce à l'avènement des serveurs vidéo durant les dernières années. Les derniers évènements sportifs tels que la Coupe du monde de Football ou les Jeux olympiques utilisent énormément ces métadonnées pour distribuer les contenus à toutes les chaînes de télévision du monde entier via des mots clés. C'est souvent l'organisateur de l'évènement qui est chargé de l'organisation de ses métadonnées via son Centre de diffusion international (International Broadcast Centre) et ses centaines de serveurs vidéos gérant le contenu. Les métadonnées sont enregistrées en même temps que les images et entrées par des opérateurs de métadonnées (loggers) qui visionnent en direct l'évènement sportif et associe les métadonnées disponibles dans des grilles pré-établies (via des programmes associés aux serveurs vidéos tels que Multicam LSM ou IPDirector).
+
+Fonctions régaliennes
+
+Gouvernement et finances
+En France, les métadonnées sont employées dans le programme ADELE, dans les règles relatives aux Composants Communs (voir site de la DGME, règle C73), et pour l'archivage électronique selon la norme OAIS.
+
+Défense
+DITPR est un référentiel qui permet de déclarer les métadonnées dans le cadre d'architecture DoDAF.
+
+Renseignement
+Les nombreuses révélations d'Edward Snowden en 2013 ont démontré l'intérêt des métadonnées et leurs usages par les services de renseignements. Par exemple, le programme ICREACH de la NSA, dont l'existence a été révélée en août 2014, contenaient plus de 850 milliards de métadonnées (origine, destinataire, date, localisation, etc.) de communications (email, fax, conversations téléphoniques, sms, messageries instantanées, etc.) en 2007. La NSA a d'ailleurs normalisé le format des métadonnées interceptées, afin d'en faciliter le partage avec la CIA, le FBI, la Defense Intelligence Agency (DIA), la Drug Enforcement Administration (DEA) et les services de renseignements anglo-saxons.
+
+Justice
+En France : projet Solon de dématérialisation de la production normative juridique. Le périmètre défini en 2005 ne concerne que les décrets.
+
+Environnement, écologie, agriculture: Environnement: Environmental Protection Agency (EPA).; Agence européenne de l'environnement.; Série d'éléments de métadonnées agricoles.
+L'Agence de protection de l'environnement des États-Unis (EPA) a défini un langage informatique à base de métadonnées : Ecological metadata language. Développement durable: (PDF) Fiches techniques "diffusion des données" du Ministère de l'Écologie, de l'Aménagement et du Développement durable; Metadata development in China, Department of Information Management, université de Pékin, Chine, décembre 2004. Agriculture: AgMES sur le site de la FAO; AgMES (série d'éléments de métadonnées agricoles). Commerce électronique: Commerce électronique : le registre ebXML, géré au niveau des Nations unies, utilise des métadonnées. Recherche:
+Le site du Centre pour la communication scientifique directe (CCSD) donne les spécifications des métadonnées pour le référentiel des publications du CNRS : Les métadonnées associées à un dépôt sur HAL. Données géospatiales: États-Unis : Site du Federal geographic data committee; Union européenne : directive INSPIRE, sur les données spatiales et géographiques. Santé: United States health information knowledge base.
+
+Organismes francophones ayant des compétences sur les métadonnées
+Liste non exhaustive : Association française de normalisation (AFNOR) ;; Agence bibliographique de l'enseignement supérieur (ABES) ;; Institut de l'information scientifique et technique (INIST) ;; Institut national de recherche en informatique et en automatique (INRIA) ;; Secrétariat du Conseil du Trésor du Canada ;; Bibliothèque de l'Université Laval ;; École nationale supérieure des mines de Saint-Étienne ;; Université Claude-Bernard Lyon-1 ;; CNRS, laboratoire Creatis ;; Université Pierre-et-Marie-Curie, LIP6 ;; Bibliothèque nationale de France ;; Institut national de l'information géographique et forestière (IGN) ;; BRGM.

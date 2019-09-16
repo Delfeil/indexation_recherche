@@ -1,0 +1,2 @@
+daemontools est une collection d'utilitaires pour gérer les services (ou daemons) sous Unix. Elles ont été écrites par Daniel J. Bernstein pour améliorer la gestion de inittab, ttys, init.d ou rc.local en fournissant : Des facilités d'installation et de retrait des services,; des facilités pour le premier démarrage d'un service,; redémarrages fiables,; signalisation simple et fiable,; état des processus propre,; portabilité.
+Les daemontools sont dans le domaine public.

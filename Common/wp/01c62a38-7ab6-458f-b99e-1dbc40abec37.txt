@@ -1,0 +1,15 @@
+HTML dynamique, de l'anglais Dynamic HTML, souvent abrégé DHTML, est un nom générique donné à l'ensemble des techniques utilisées par l'auteur d'une page web pour que celle-ci soit capable de se modifier elle-même en cours de consultation dans le navigateur web. Ce nom était particulièrement en vogue à la fin des années 1990 lorsque ces techniques sont apparues. Elles sont maintenant couramment utilisées sans être aussi vantées.
+
+Technique
+Techniquement, les modifications portent sur la représentation interne que le navigateur se fait de la page web. Le navigateur reflète immédiatement ces modifications à l'écran. Les éléments constituant la page peuvent ainsi être modifiés, déplacés, créés ou effacés, automatiquement ou à la suite d'une action du visiteur. Les saisies dans les champs de formulaire peuvent également être contrôlées. En outre, une succession rapide de modifications des propriétés de certains éléments (leur couleur, leur taille, leur position, etc.) peut servir à créer une animation.
+
+Évolution des termes
+Le nom dynamic HTML n'a jamais désigné une technologie précise.
+Au début des années 1990, il désignait la génération "dynamique" de documents HTML par un serveur HTTP, généralement avec les technologies des CGI ou des Server Side Includes. Un tel document "dynamique" est créé à la demande pour répondre à la requête d'un seul visiteur. Souvent, il s'agissait de traiter les données saisies par le visiteur dans les champs d'un formulaire de page web. Par opposition, un document "statique" est conservé dans un fichier du serveur et servi à l'identique à tous les visiteurs.
+L'abréviation DHTML et le sens actuel sont apparus en 1997 lorsque Netscape et Microsoft l'utilisèrent pour qualifier les capacités de la quatrième version de leur navigateur web respectif. Il s'agissait principalement d'un slogan marketing vantant une évolution technologique. En effet, même si les langages de script comme JavaScript existaient depuis plus d'un an, leurs capacités de manipulation des documents étaient restées concentrées sur les formulaires.
+DHTML devait signifier que désormais toute la structure d'un document HTML était librement manipulable. Cependant, la norme Document Object Model du W3C définissant l'interface de programmation sous forme de modèle objet du document n'était qu'en cours d'élaboration. Les modèles de document concurrents mis en oeuvre par les navigateurs Netscape Communicator 4 et Internet Explorer 4 différaient donc significativement. Par conséquent, connaître DHTML consistait notamment à maîtriser toutes les subtiles connaissances techniques nécessaires à l'obtention d'un comportement similaire entre ces deux navigateurs.
+Avec la standardisation du DOM et l'apparition de nouvelles technologies comme XML, le nom dynamic HTML est un peu passé de mode. Les procédés restent cependant, et l'AJAX apparu en 1999 n'est pas fondamentalement différent de ce qui aurait été appelé DHTML une ou deux années auparavant.
+
+Voir aussi
+
+Articles connexes: AJAX; HTML; XHTML; JavaScript; CSS; DOM; Netscape Navigator et Internet Explorer; HTML Application.

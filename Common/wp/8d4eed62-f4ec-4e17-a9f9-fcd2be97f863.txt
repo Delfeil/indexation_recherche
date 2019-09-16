@@ -1,0 +1,139 @@
+Les conventions bibliographiques permettent de normaliser la présentation des oeuvres écrites publiées, que ce soit pour des listes d'ouvrages ou pour des références ponctuelles permettant de sourcer les articles (pour ce dernier cas, voir Wikipédia:Citez vos sources et Aide:Note).
+La norme adoptée depuis 2004 sur Wikipédia est une norme interne, ou wikinorme. La wikinorme s'inspire de la norme ISO 690 pour l'esprit de structure (distinction entre "monographie", "publication en série" et leurs sous-cas respectifs), néanmoins le rendu final est très différent.
+En plus d'une présentation exhaustive "traditionnelle" des entrées bibliographiques (en mentionnant toutes les informations liées à la publication), la wikinorme permet une présentation simplifiée des informations combinée à l'utilisation de l'espace référence (cf. section 3).
+Carl Spitzweg, Le Rat de bibliothèque, peint vers 1850.
+
+Rangement d'une bibliographie dans un article
+Raccourcis (+). WP:CBRANGEMENT WP:BIBLIORANGEMENT.
+Une bibliographie peut être placée dans une sous-section - dont le titre est "Bibliographie" - de la section "Annexes" (ou "Voir aussi") du bas de page d'un article ou dans une section à part entière située à la suite de la section "Notes et références".
+À l'intérieur de cette section ou sous-section, les ouvrages sont classés selon l'ordre alphabétique du premier nom d'auteur cité de chaque ouvrage et, pour un auteur donné, le classement est chronologique selon la date d'édition de ses différentes publications. Les revues pour lesquelles il n'y a pas de nom d'auteur explicite sont classées d'après leur titre.
+
+Monographies
+Telle que définie dans la norme ISO 690:1987, une monographie - en anglais : monograph - est une "publication non périodique, c'est-à-dire une publication qui est complète en un seul volume ou destinée à être complétée en un nombre limité de volumes" (ISO 690, section 3.9 - ISO 690-2, section 3.13). Sont ainsi couverts par cette définition : les ouvrages ;; les thèses et les mémoires, publiés ou non ;; les actes de manifestations scientifiques non périodiques (colloques, congrès) - non couverts ici ;; les rapports de recherche et les rapports techniques - non couverts ici.
+
+Syntaxe formelle
+Les champs facultatifs sont donnés entre crochets : "(((LienLangue)))(5) (Prénom(s) NomAuteur(, Prénom(s) NomAuteur...)((dir.))(6)((trad. Prénom(s) NomTraducteur(, Prénom(s) NomTraducteur...))))(7), "TitreOuvrage(: SousTitreOuvrage")(8)(("TraductionTitre"))(9)(, LieuPublication)(10)(, NomÉditeur(11)(, coll. "NomCollection(- NomSérie)"))(, DatePublication((réimpr. DatesRéimpressions)))(12)(, CommentaireÉdition((((1re))((éd.)) RéférencesPremièreÉdition)))(, PrésentationMatérielle)(13)(((ISBNNuméroISBN)))(14)(((lire en lignelien-URLTextedate-date de consultation)))(15)(, EmplacementPassage)(16)": Analyse:
+Un item bibliographique pour une monographie peut être divisé en 8 zones élémentaires : "(LienLangue) (Prénom(s) NomAuteur(, Prénom(s) NomAuteur...)((dir.)) ((trad. Prénom(s) NomTraducteur)(, Prénom(s) NomTraducteur...)))) , "TitreOuvrage(: SousTitreOuvrage)" (("TraductionTitre")) (, LieuPublication)(, NomÉditeur(, coll. "NomCollection(- NomSérie)")) (, DatePublication((réimpr. DatesRéimpressions))) (, CommentaireÉdition((((1re))((éd.)) RéférencesPremièreÉdition))) (, PrésentationMatérielle) (((ISBNNuméroISBN))) (((lire en lignelien-URLTextedate-date de consultation))) (, EmplacementPassage)"
+Légende : zone de la responsabilité principale ;; zone de(s) responsabilité(s) secondaire(s) ;; zone du titre ;.
+. zone de l'adresse bibliographique ;; zone de description physique ;; zone de l'identifiant normalisé ;.
+. zone des liens externes ;; zone d'emplacement d'un passage.
+.
+Exemples généraux (ouvrages)
+Syntaxe ((Albert Camus)), "((Le Mythe de Sisyphe))", Paris, Gallimard, ((coll.)) "Folio-Essais", 1985 ((ISBN2-0703-2288-2)) Résultat Albert Camus, Le Mythe de Sisyphe, Paris, Gallimard, coll. "Folio-Essais", 1985 (ISBN 2-0703-2288-2) Syntaxe ((de)) Hans-Herman Hertle, Konrad H. Jarausch et Christoph Klemann (dir.), ((langde"Mauerbau und Mauerfall")) ("Construction et chute du Mur"), Berlin, Links, 2002 ((ISBN3-8615-3264-6)) Résultat (de) Hans-Herman Hertle, Konrad H. Jarausch et Christoph Klemann (dir.), Mauerbau und Mauerfall ("Construction et chute du Mur"), Berlin, Links, 2002 (ISBN 3-8615-3264-6) Syntaxe ((Larry Wall)), Tom Christiansen et Jon Orwant (((trad.))Philippe Bruhat), "Programmation en Perl", O'Reilly, 2001, ((3e))((éd.)) (((1re))((éd.)) 1995), 1104((nb p.)) ((ISBN2-8417-7140-7)) ((lire en lignelien-http:--www.oreilly.fr-...texte-présentation en ligne)) Résultat Larry Wall, Tom Christiansen et Jon Orwant (trad. Philippe Bruhat), Programmation en Perl, O'Reilly, 2001, 3e éd. (1re éd. 1995), 1104 p. (ISBN 2-8417-7140-7) (présentation en ligne) Syntaxe ((Snorri Sturluson)) (trad., intr. et notes François-Xavier Dillmann), "((Edda de SnorriL'Edda : récits de mythologie nordique))", Paris, Gallimard, ((coll.)) "L'Aube des peuples", 1991 (réimpr. 1991, 1992, 1993, 1995, 1998, 2001, 2003, 2005), 231((nb p.)), broché, 14 ((unité22cm)) ((ISBN2-0707-2114-0)) Résultat Snorri Sturluson (trad., intr. et notes François-Xavier Dillmann), L'Edda : récits de mythologie nordique, Paris, Gallimard, coll. "L'Aube des peuples", 1991 (réimpr. 1991, 1992, 1993, 1995, 1998, 2001, 2003, 2005), 231 p., broché, 14 22 cm (ISBN 2-0707-2114-0)
+Il est possible d'utiliser le modèle ((Ouvrage)) pour l'ensemble des monographies : cela permet d'harmoniser automatiquement la présentation.
+
+Cas particuliers
+
+Thèses et mémoires
+Dans le cadre d'une thèse ou d'un mémoire non publié, la zone de l'édition est simplement remplacée par la mention de l'établissement de soutenance, suivi par la nature du travail et sa spécialité (entre parenthèses). La zone de l'identifiant peut indiquer une référence attribuée en interne par l'établissement.
+Syntaxe Évelyne Bourion, "L'Aide à l'interprétation des textes électroniques", Nancy, Université de Nancy ((II)) (thèse de doctorat en Sciences de langage), 2001, 272((nb p.)) Résultat Évelyne Bourion, L'Aide à l'interprétation des textes électroniques, Nancy, Université de Nancy II (thèse de doctorat en Sciences de langage), 2001, 272 p. Syntaxe Audrey Mondière (dir. Didier Pralon), "Les Naupactia. Les Vers d'Asios", Aix-en-Provence, Université de Provence (mémoire de maîtrise en Lettres classiques), 2001, 173((nb p.)) small(cote : DES gr 352 ; ((numéro))inv. UNIV13534)-small ((lire en lignelien-http:--biaa.mmsh.univ-aix.fr-...texte-fiche sur la BiAAdate-28 novembre 2007)) Résultat Audrey Mondière (dir. Didier Pralon), Les Naupactia. Les Vers d'Asios, Aix-en-Provence, Université de Provence (mémoire de maîtrise en Lettres classiques), 2001, 173 p. (cote : DES gr 352 ; no inv. UNIV13534) (fiche sur la BiAA (page consultée le 28 novembre 2007))
+Bandes dessinées
+La mention des responsabilités pour les bandes dessinées peut être délicate. Traditionnellement, seuls les scénaristes et dessinateurs sont concernés. Cependant, d'autres parties sont parfois intimement impliquées dans la création (présence du nom du coloriste en couverture par exemple) : dans ce cas, elles peuvent être mentionnées en responsabilité principale.
+Autre particularité : pour citer un extrait d'une bande dessinée, on utilise un numéro de planche (et non de page, car cela peut varier en fonction des éditions) et, si besoin est, un numéro d'ordre de case au sein de la planche.
+Syntaxe ((Manu Larcenet)) (scénario, dessin et lettrage) (couleur Patrice Larcenet), "((Le Combat ordinaire))", Paris, Dargaud, 2003 Résultat Manu Larcenet (scénario, dessin et lettrage) (couleur Patrice Larcenet), Le Combat ordinaire, Paris, Dargaud, 2003 Syntaxe ((Christophe Arleston)) (scénario), ((Didier Tarquin)) (dessin) et ((Claude Guth)) (couleur), "((Lanfeust de Troy))", ((t.II)) : "Thanos l'Incongru", Paris, Soleil productions, mars 2000 ((ISBN978-2-8776-4306-1)), ((nobrplanche 17)), ((nobrcase 3)) Résultat Christophe Arleston (scénario), Didier Tarquin (dessin) et Claude Guth (couleur), Lanfeust de Troy, t. II : Thanos l'Incongru, Paris, Soleil productions, mars 2000 (ISBN 978-2-8776-4306-1), planche 17, case 3
+Monographies en plusieurs volumes
+Pour les monographies publiées en plusieurs volumes, deux cas doivent être distingués : référence à la monographie complète (cf. 1er exemple) : les dates indiquées doivent correspondre à l'intervalle de temps entre la publication du premier et du dernier volume, le nombre de volumes étant indiqué dans la zone de description physique. Si la monographie comporte deux ou trois volumes, il est possible de mettre l'ISBN de chacun d'eux dans le modèle correspondant, au-delà de trois, il existe souvent un ISBN attribué à la collection complète et qu'il convient d'utiliser ;; référence à un seul volume (cf. 2e exemple) : le numéro de volume est indiqué à la suite du titre de la monographie complète, suivi par le titre du volume.
+Syntaxe ((Aristote)) (((trad.))et notes Jules Tricot), "Organon", Paris, Vrin, ((coll.)) "Bibliothèque des textes philosophiques", 1983-1990, ((nombre5((vol.)))) Résultat Aristote (trad. et notes Jules Tricot), Organon, Paris, Vrin, coll. "Bibliothèque des textes philosophiques", 1983-1990, 5 vol. Syntaxe ((Aristote)) (((trad.))et notes Jules Tricot), "Organon", ((t.III)) : "Les Premiers Analytiques", Paris, Vrin, ((coll.)) "Bibliothèque des textes philosophiques", 1983, 334((nb p.)) ((ISBN2-7116-0017-3)) Résultat Aristote (trad. et notes Jules Tricot), Organon, t. III : Les Premiers Analytiques, Paris, Vrin, coll. "Bibliothèque des textes philosophiques", 1983, 334 p. (ISBN 2-7116-0017-3)
+Parties d'une monographie
+Les parties (chapitres, sections, etc.) de monographies sont citées exactement comme des passages, la seule différence étant qu'elles sont explicitement nommées.
+Syntaxe Timothy Gantz, "Mythes de la Grèce archaïque", Paris, Belin, ((coll.)) "L'Antiquité au présent", 2004 (traduit de ((langen"Early Greek Myth")), ((langenJohns Hopkins University Press)), 1993) ((ISBN978-2701130675)), ((chap.))X ("Persée et Bellérophon") Résultat Timothy Gantz, Mythes de la Grèce archaïque, Paris, Belin, coll. "L'Antiquité au présent", 2004 (traduit de Early Greek Myth, Johns Hopkins University Press, 1993) (ISBN 978-2701130675), chap. X ("Persée et Bellérophon") Syntaxe Serge Lancel (préf. Mounir Bouchenakir, ill. Omar Daoud ((et al.))), "L'Algérie antique", Paris, Mengès, 2003 ((ISBN2-8562-0431-7)), ((nobrpartie ((II)))) ("Les Royaumes Numides"), ((p.36-69)) Résultat Serge Lancel (préf. Mounir Bouchenakir, ill. Omar Daoud et al.), L'Algérie antique, Paris, Mengès, 2003 (ISBN 2-8562-0431-7), partie II ("Les Royaumes Numides"), p. 36-69
+Contributions dans un ouvrage collectif
+Syntaxe à utiliser : "(LienLangue)(5) (Prénom(s) NomAuteurContribution(, Prénom(s) NomAuteurContribution...)(6)((trad. Prénom(s) NomTraducteurContribution)(, Prénom(s) NomTraducteurContribution...))))(7), "TitreContribution", dans RéférencesDocumentHôte"
+Exemples :
+Syntaxe Jean-Pierre Vernant, "Le Mythe prométhéen, le mythe des races et l'émergence de la Cité-État", dans Fabienne Blaise, Pierre Judet de la Combe et Philippe Rousseau (dir.), "Le Métier du mythe. Lectures d'Hésiode", Lille, Presses Universitaires du Septentrion, ((coll.)) "Cahiers de Philologie", 1996 ((ISBN2-8593-9508-3)), ((p.393-430)) Résultat Jean-Pierre Vernant, "Le Mythe prométhéen, le mythe des races et l'émergence de la Cité-État", dans Fabienne Blaise, Pierre Judet de la Combe et Philippe Rousseau (dir.), Le Métier du mythe. Lectures d'Hésiode, Lille, Presses Universitaires du Septentrion, coll. "Cahiers de Philologie", 1996 (ISBN 2-8593-9508-3), p. 393-430 Syntaxe ((en)) R.W. Sanders, "((langenThe Digilock Orthogonal Modulation))", dans A.V. Balakrishnan (dir.), ((langen"Advances in Communication Systems, Theory and Application")), ((vol.))1, New York, ((langenAcademic Press)), 1965, ((p.57-75)) Résultat (en) R.W. Sanders, "The Digilock Orthogonal Modulation", dans A.V. Balakrishnan (dir.), Advances in Communication Systems, Theory and Application, vol. 1, New York, Academic press, 1965, p. 57-75
+Le modèle ((Chapitre)) peut également être utilisé pour ce genre de cas.
+
+Publications en série
+Selon la définition originellement donnée par la norme ISO 3297, une publication en série - en anglais : serial - désigne "toute publication, sur toute forme de support, qui paraît en fascicules ou volumes successifs, s'enchaînant en général numériquement ou chronologiquement, pendant une durée non limitée à l'avance. Cette définition exclut les travaux destinés à être publiés en un nombre fini de parties" (ISO 690, section 3.11 - ISO 690-2, section 3.15). Sont donc comptées comme publications en série : les journaux et revues ;; l'intégrale des collections d'ouvrages illimitées ;; les actes de manifestations scientifiques périodiques (colloques, congrès) - non couverts ici ;; les bulletins d'information - non couverts ici.
+
+Syntaxe formelle
+Les champs facultatifs sont donnés entre crochets : "(LienLangue)(5) "TitrePublication(: SousTitrePublication)"(8)(("TraductionTitre"))(9)(, Prénom(s) NomAuteur(, Prénom(s) NomAuteur...)((dir.))(6)((trad. Prénom(s) NomTraducteur)(, Prénom(s) NomTraducteur...))))(7)(, LieuPublication)(10)(, NomÉditeur)(11)(, DatesPublication)(18)(, NaturePublication)(, PrésentationMatérielle)(13)(((ISSNNuméroISSN)))(19)(((lire en lignelien-URLTextedate-date de consultation)))(15)(, DésignationFascicule((DateParution)))(20)(, EmplacementPassage)(16)": Analyse:
+Un item bibliographique pour une publication en série peut être divisé en 8 zones élémentaires : "(LienLangue) "TitrePublication(: SousTitrePublication)" (("TraductionTitre")) (, Prénom(s) NomAuteur(, Prénom(s) NomAuteur...)((dir.)) ((trad. Prénom(s) NomTraducteur)(, Prénom(s) NomTraducteur...)))) (, LieuPublication)(, NomÉditeur) (, DatesPublication)(, NaturePublication) (, PrésentationMatérielle) (((ISSNNuméroISSN))) (((lire en lignelien-URLTextedate-date de consultation))) (, DésignationFascicule((DateParution))) (, EmplacementPassage)"
+La légende est la même que celle donnée plus haut.
+
+Exemples généraux (journaux et revues)
+Syntaxe "((Le Monde))", ((Jean-Marie Colombani)) (dir.), Paris, 18 déc. 1944-, quotidien ((ISSN0395-2037)) ((lire en lignelien-http:--www.lemonde.fr-)) Résultat Le Monde, Jean-Marie Colombani (dir.), Paris, 18 déc. 1944-, quotidien (ISSN 0395-2037) (lire en ligne) Syntaxe "Sémiotiques", ((Centre national de la recherche scientifiqueCNRS)) et Institut national de la langue française, Paris, Didier, ((coll.)) "Érudition", 1991-2001, revue biannuelle ((ISSN1160-9907)) Résultat Sémiotiques, CNRS et Institut national de la langue française, Paris, Didier, coll. "Érudition", 1991-2001, revue biannuelle (ISSN 1160-9907) Syntaxe ((en)) ((langen"Human factors")), ((langenHuman Factors Society of America)), New York, ((langenPergamon Press)), 1958- Résultat (en) Human factors, Human Factors Society of America, New York, Pergamon Press, 1958- Syntaxe "Tumultes", Centre de Sociologie des pratiques et des représentations politiques, Paris, Kimé, 1998- ((ISSN1243-549X)), ((numéro))14, avril 2000 Résultat Tumultes, Centre de Sociologie des pratiques et des représentations politiques, Paris, Kimé, 1998- (ISSN 1243-549X), no 14, avril 2000
+Cas particuliers
+
+Intégrales des collections d'ouvrages illimitées
+Au sein de chaque intégrale, une série ou un ouvrage donné sont naturellement décrits comme des monographies.
+Syntaxe "Travaux de la Faculté de Philosophie et Lettres", Bruxelles, Université libre de Bruxelles, Presses Universitaires de Bruxelles, 1936- Résultat Travaux de la Faculté de Philosophie et Lettres, Bruxelles, Université libre de Bruxelles, Presses Universitaires de Bruxelles, 1936- Syntaxe "((Encyclopaedia Universalis))", Paris, Encyclopaedia Universalis France, 1968- ((lire en lignelien-http:--www.universalis.fr-texte-site officiel)) Résultat Encyclopaedia Universalis, Paris, Encyclopaedia Universalis France, 1968- (site officiel)
+Articles dans une publication en série
+Syntaxe à utiliser ou modèle : "(LienLangue)(5) (Prénom(s) NomAuteurArticle(, Prénom(s) NomAuteurArticle...)(6)((trad. Prénom(s) NomTraducteurArticle(, Prénom(s) NomTraducteurArticle...))))(7), "TitreArticle", RéférencesDocumentHôte(17) (date (, p. xx))(21) ((, vol. xx) (, n yy), année (, p. xxx(-yyy)))(22)"
+Exemples :
+Syntaxe Anne-Marie Romero, "Enquête autour de la "Sixtine du Valois, "((Le Figaro))", 14 avril 2006 ((lire en lignelien-http:--www.lefigaro.fr-...date-28 novembre 2007)) Résultat Anne-Marie Romero, "Enquête autour de la "Sixtine du Valois, Le Figaro, 14 avril 2006 (lire en ligne (page consultée le 28 novembre 2007)) Syntaxe Louise Bruit-Zaidman, "Le temps des jeunes filles dans la cité grecque : Nausicaa, Phrasikleia, Timareta et les autres", "((Clio (revue)Clio))" ((ISSN1777-5299)), ((numéro))4, 1996, ((p.33-50)) ((lire en lignelien-http:--clio.revues.org-document431.htmldate-28 novembre 2007)) Résultat Louise Bruit-Zaidman, "Le temps des jeunes filles dans la cité grecque : Nausicaa, Phrasikleia, Timareta et les autres", Clio (ISSN 1777-5299), no 4, 1996, p. 33-50 (lire en ligne (page consultée le 28 novembre 2007))
+Il est possible d'alléger la présentation décrite ci-dessus quand cela est nécessaire et que cela ne gêne pas la compréhension ni la wikification normale de la référence. On peut ainsi placer le lien externe directement sur le titre de l'article. On peut aussi omettre la date de consultation quand il est clair que le document ne sera pas modifié et demeurera accessible longtemps après sa publication.
+Le modèle ((Article)) peut également être utilisé dans ce genre de cas.
+
+Présentation simplifiée (utilisation de l'espace référence)
+Il est possible également d'utiliser une présentation simplifiée, et de recourir pour les autres informations à l'espace référence ; cette méthode permet alors de se décharger de toutes les informations de publication relatives à l'ouvrage.
+Cette méthode est même recommandée dans certains cas : coexistence de plusieurs éditions pour un même ouvrage, sources récurrentes en fin d'articles, ouvrages existant dans plusieurs langues, limitation de l'encombrement... Même en utilisant l'espace référence, il reste possible de citer une édition particulière définie en dehors de l'article.
+
+Présentation d'un ouvrage avec l'espace référence
+
+Syntaxe formelle
+Les champs facultatifs sont donnés entre crochets : "(LienLangue)(5) (Prénom(s) NomAuteur(, Prénom(s) NomAuteur...)((dir.))(6), "TitreOuvrage"(8) ((détail des éditionsLienEspaceRéférence))(((lire en lignelien-URLTextedate-date de consultation)))(15)"
+Exemples
+Syntaxe ((Georges Dumézil)), "Loki" ((détail des éditionsRéférence:Loki (Georges Dumézil))) Résultat Georges Dumézil, Loki (détail des éditions) Syntaxe ((Hérodote)), "((Histoires))" ((détail des éditionsRéférence:Histoires (Hérodote))) ((lire en lignelien-http:--remacle.org-...)) Résultat Hérodote, Histoires (détail des éditions) (lire en ligne)
+Présentation d'une édition d'un ouvrage avec l'espace référence
+
+Syntaxe formelle
+Les champs facultatifs sont donnés entre crochets : "(LienLangue)(5) (Prénom(s) NomAuteur(, Prénom(s) NomAuteur...)((dir.))(6), "TitreOuvrage"(8), NomÉditeur, DatePublication(12) ((détail éditionLienEspaceRéférenceAncreÉdition))(((lire en lignelien-URLTextedate-date de consultation)))(15)"
+Exemples
+Syntaxe ((Georges Dumézil)), "Loki", Flammarion, 1986 ((détail éditionRéférence:Loki (Georges Dumézil)Nouvelle bibliothèque scientifique)) Résultat Georges Dumézil, Loki, Flammarion, 1986 (détail de l'édition) Syntaxe ((Hérodote)), "((Histoires))", Gallimard, 1985 ((détail éditionRéférence:Histoires (Hérodote)Folio 1)) Résultat Hérodote, Histoires, Gallimard, 1985 (détail de l'édition)
+Renvois bibliographiques (références Harvard et autres)
+Par "renvoi bibliographique", on entend ici toute référence brève permettant d'identifier une oeuvre - que ce soit sous la forme "Auteur Année" (on parle alors de "référence Harvard" dans le jargon wikipédien) ou bien sous la forme d'un acronyme (pour certaines publications très connues dans leur domaine). Les renvois bibliographiques sont de ce fait souvent utilisés dans les notes ou dans le corps d'un article, afin de ne pas les alourdir inutilement avec l'ensemble des informations bibliographiques (voir pour cela les modèles ((harv)) et ((harvsp)), ou encore le modèle ((sfn)) dérivé du modèle ((harvsp)) mais qui s'avère d'un maniement plus simple). Les références bibliographiques complètes sont alors regroupées en fin d'article, souvent dans une section "Bibliographie" ou "Références".
+Dans le cas où un texte contient des renvois bibliographiques, il est alors recommandé, pour en faciliter la lecture, de rappeler le texte utilisé pour le renvoi au début de la référence complète : cela permet de relier sans ambiguïté le renvoi à la référence bibliographique complète.
+
+Exemple
+Les 6 renvois dans le texte ou dans la section "Notes" se retrouvent en tête des références complètes de la section "Bibliographie".
+Un texte d'exemple utilisant de nombreuses références Harvard en notes, ainsi qu'une référence sfn. Les références peuvent aussi être dans le texte (Wall, Christiansen et Orwant, p. 57-58).
+Notes et références: Harv: sfn:
+Bibliographie: Alberto Bernabé,
+Poetarum epicorum Graecorum: Testimonia et fragmenta
+, Leipzig, 1987.; Louise Bruit-Zaidman, "
+Le temps des jeunes filles dans la cité grecque : Nausicaa, Phrasikleia, Timareta et les autres
+", Clio, no 4, 1996, p. 33-50.; (en) Darrel Richmond Frost, Taran Grant, Julián Faivovich, Raoul Harley Bain, Alexander Haas, Célio Fernando Baptista Haddad, Rafael Omar de Sá, Alan Channing, Mark Wilkinson, Stephen Charles Donnellan et Christopher John Raxworthy, "
+The amphibian tree of life
+", Bulletin of the American Museum of Natural History, no 297, 2006, p. 1-371.; Jean Tricoire,
+Un siècle de métro en 14 lignes. De Bienvenüe à Météor
+, Paris, Éditions La Vie du Rail, 1999.; Jean Tricoire,
+Le Métro de Paris. 1899-1911 : images de la construction
+, Paris, Paris Musées, 1999, 215 p. Larry Wall, Tom Christiansen et Jon Orwant (trad. Philippe Bruhat),
+Programmation en Perl
+, O'Reilly, 1993.
+
+Récapitulatif des modèles utilisables dans les bibliographies
+Voir aussi la catégorie des modèles pour bibliographie.
+
+((ISBN)) et ((ISSN))
+Mise en forme des ISBN-ISSN (jusqu'à trois numéros possibles).
+Syntaxe "GNU-Linux Magazine France", Arnaud Melzier (dir.), Paris, ((langenDiamond Editions)), septembre 1998-, revue mensuelle ((ISSN1291-7834)) Résultat GNU-Linux Magazine France, Arnaud Melzier (dir.), Paris, Diamond Editions, septembre 1998-, revue mensuelle (ISSN 1291-7834) Syntaxe ((Miguel de Cervantes)), "((Don QuichotteL'Ingénieux Hidalgo : Don Quichotte de la Manche))", Seuil, ((coll.)) "Points", ((t.((I)) et ((II))))((ISBN2-0202-2212-42-0202-2213-2)) Résultat Miguel de Cervantes, L'Ingénieux Hidalgo : Don Quichotte de la Manche, Seuil, coll. "Points", t. I et II (ISBN 2-0202-2212-4 et 2-0202-2213-2)
+Voir aussi les modèles ((Doi)), ((BNF)), ((OCLC)), ((LCCN)), ((ERIC)) et ((ASIN)).
+
+((lire en ligne))
+Mise en forme des liens externes vers un texte intégral, une présentation de l'ouvrage en ligne ou une ressource particulière (possibilité de spécifier une langue et un libellé alternatif).
+Syntaxe ((Caius Julius HyginusHygin)), "Fables" ((lire en lignelien-http:--www.fh-augsburg.de-...langue-la)) Résultat Hygin, Fables ((la) lire en ligne) Syntaxe ((de)) Joachim Mitdank, ((langde"Berlin zwischen Ost und West")), Berlin, Kai Homilius, 2004 ((lire en lignelien-http:--www.kai-berlin.de-...texte-présentation en ligne)) Résultat (de) Joachim Mitdank, Berlin zwischen Ost und West, Berlin, Kai Homilius, 2004 (présentation en ligne)
+((détail des éditions)) et ((détail édition))
+Mise en forme des liens vers l'espace référence pour désigner un ouvrage ou une édition (respectivement).
+Syntaxe ((Nicolas Grimal)), "Histoire de l'Égypte ancienne" ((détail des éditionsRéférence:Histoire de l'Égypte ancienne (Nicolas Grimal))) Résultat Nicolas Grimal, Histoire de l'Égypte ancienne (détail des éditions) Syntaxe ((Nicolas Grimal)), "Histoire de l'Égypte ancienne", Fayard, 1988 ((détail éditionRéférence:Histoire de l'Égypte ancienne (Nicolas Grimal)Fayard)) Résultat Nicolas Grimal, Histoire de l'Égypte ancienne, Fayard, 1988 (détail de l'édition)
+((commentaire biblio))
+Mise en forme des commentaires effectués sur un item bibliographique.
+Syntaxe - Collectif, "Lexique des règles typographiques en usage à l'Imprimerie nationale", Paris, Imprimerie nationale, 1990 ((ISBN2-1108-1075-0)). ((Commentaire biblioOuvrage de référence.)) Résultat Collectif, Lexique des règles typographiques en usage à l'Imprimerie nationale, Paris, Imprimerie nationale, 1990 (ISBN 2-1108-1075-0). Ouvrage de référence. Syntaxe - Pierre Rosenberg, "Chardin", ((éd.)) de la Réunion des Musées Nationaux, 1979. ((Commentaire biblioIl s'agit du "Catalogue de l'exposition au ((Grand Palais (Paris))), ((29 janvier))-((date30avril1979))".)) Résultat Pierre Rosenberg, Chardin, éd. de la Réunion des Musées Nationaux, 1979. Il s'agit du Catalogue de l'exposition au Grand Palais, 29 janvier-30 avril 1979.
+Voir aussi la variante ((Commentaire biblio SRL)) (sans retour à la ligne).
+
+Abréviations utiles dans une bibliographie
+L'usage d'abréviations est traditionnellement courant dans les bibliographies. Les plus répandues sont listées ci-dessous.
+
+Historique des révisions de la wikinorme
+Cette section ne liste que les principales révisions (altérations ou ajouts à la wikinorme). avril 2004 : établissement de l'usage de la wikinorme au détriment de l'ISBD et de l'ISO 690-AFNOR (débats, résultat du vote et mise en application).; mai 2006 : approfondissement de la wikinorme (débats et mise en application).; janvier 2011 : ajout d'une section dédiée aux renvois bibliographiques (discussions et mise en application).; mars 2011 : inversion de l'ordre des champs "Éditeur, Lieu" (sondage et mise en application).
+
+Voir aussi: Des modèles simplifiés : ((ouvrage)), ((article)), ((chapitre)), ((lien web)); Si la bibliographie est à refaire, apposer le bandeau : ((biblio)).
+
+Quelques exemples de bibliographies correctement saisies: Alimentation en Grèce antiqueBibliographie (basique); SparteSources historiques (avec deux niveaux); VraquierBibliographie (avec des commentaires); RadhanitesSources de l'article (avec des cas complexes); CénéeSources (avec la présentation simplifiée).
+
+Liens généraux
+
+Conventions en vigueur sur Wikipédia: Catégorie:Modèle pour bibliographie, et notamment les modèles ((Ouvrage)) et ((Article)), qui permettent la mise en forme automatique de monographies et de publications en série selon la wikinorme; Pour l'utilisation des majuscules dans les titres d'oeuvres, voir les conventions typographiques; Pour les filmographies, voir les conventions filmographiques.
+
+Conventions générales: La rédaction des références bibliographiques (PDF), par Yves Goubatian (Université Paris 11) : synthèse des normes ISO 690 et 690-2; La référence bibliographique : norme et praxis, par Rossitza Kyheng (Université Paris 10) : synthèse de la norme ISO 690.

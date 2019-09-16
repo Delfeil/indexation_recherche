@@ -1,0 +1,4 @@
+Askal (acronyme d'"Ask a librarian") est un logiciel Open Source utilisé par les bibliothèques pour répondre en ligne aux questions posées par des lecteurs.
+De nombreuses bibliothèques universitaires l'utilisent de par le monde. C'est le cas notamment en France dans les lieux suivants : université d'Angers ;; université Henri Poincaré ;; université de Toulouse-Le Mirail ;; université Paul Sabatier.
+
+Voir aussi: Service de référence virtuelle. Portail des logiciels libres; Portail sciences de l'information et bibliothèques.

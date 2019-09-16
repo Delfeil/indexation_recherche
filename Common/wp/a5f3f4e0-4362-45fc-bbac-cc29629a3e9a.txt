@@ -1,0 +1,151 @@
+HTML5 (HyperText Markup Language 5) est la dernière révision majeure du HTML (format de données conçu pour représenter les pages web). Cette version a été finalisée le 28 octobre 2014. HTML5 spécifie deux syntaxes d'un modèle abstrait défini en termes de DOM : HTML5 et XHTML5. Le langage comprend également une couche application avec de nombreuses API, ainsi qu'un algorithme afin de pouvoir traiter les documents à la syntaxe non conforme. Le travail a été repris par le W3C en mars 2007 après avoir été lancé par le WHATWG. Les deux organisations travaillent en parallèle sur le même document afin de maintenir une version unique de la technologie. Le W3C clôt les ajouts de fonctionnalités le 22 mai 2011, annonçant une finalisation de la spécification en 2014, et encourage les développeurs Web à utiliser HTML 5 dès ce moment. Fin 2016, la version 5.1 est officiellement publiée et présente plusieurs nouveautés qui doivent faciliter le travail des développeurs d'applications Web.
+Dans le langage courant, HTML5 désigne souvent un ensemble de technologies Web (HTML5, CSS3 et JavaScript) permettant notamment le développement d'applications (cf. DHTML).
+
+Contexte historique
+
+Changements par rapport à HTML 4.X et XHTML 1.X
+
+Spécifications
+Les spécifications sont publiées par le W3C http:--www.w3.org-TR-html5-
+
+Doctype
+Tout comme les pages HTML ou XHTML, les documents HTML5 nécessitent une déclaration Doctype indiquant la méthode standard de rendu par le navigateur. Dans le cas de HTML 5, il faut préciser "!DOCTYPE html" au début de tout document en HTML. Toutefois, pour les documents XML cette déclaration est facultative, le navigateur l'interprétant en mode standard par défaut. Pour utiliser la structure XML (XHTML 5), il faut préciser dans le header : "Content-Type: application-xhtml+xml".
+
+Exemple d'utilisation avec HTML5
+Exemple de code source !DOCTYPE html
+html lang-"fr"
+
+ head
+ meta charset-"utf-8"
+ titletitre de la page-title
+
+ !-- meta --
+ meta name-"description" content-
+ meta name-"author" content-
+
+ !-- mon icon --
+ link rel-"shortcut icon" href-"favicon.ico"
+
+ !-- mon template.css --
+ link rel-"stylesheet" href-"main.css" media-"screen"
+
+ -head
+
+ body
+
+ header
+ !-- menu du haut --
+ nav
+ ul
+ lia href-"mon-url" title-"titre-du-lien"nom de mon lien-a-li
+ lia href-"mon-url" title-"titre-du-lien"nom de mon lien-a-li
+ lia href-"mon-url" title-"titre-du-lien"nom de mon lien-a-li
+ -ul
+ -nav
+ -header
+
+ !-- contenu de ma page --
+ div
+ !-- article n1 --
+ article
+ h1titre de mon article-h1
+ ptexte de mon article-p
+ section
+ h2sous-titre mon article-h2
+ ptexte de mon sous-titre-p
+ figure
+ a href-"mon-url"img src-"url-de-mon-image" alt-"nom-de-mon-image"-a
+ -figure
+ -section
+ -article
+
+ !-- article n2 --
+ article
+ h1titre de mon article-h1
+ ptexte de mon article-p
+ section
+ h2sous-titre mon article-h2
+ ptexte de mon sous-titre-p
+ figure
+ a href-"mon-url"img src-"url-de-mon-image" alt-"nom-de-mon-image"-a
+ -figure
+ -section
+ -article
+ -div
+
+ footer
+ !-- menu du bas --
+ nav
+ ul
+ lia href-"mon-url" title-"titre-du-lien"nom de mon lien-a-li
+ lia href-"mon-url" title-"titre-du-lien"nom de mon lien-a-li
+ lia href-"mon-url" title-"titre-du-lien"nom de mon lien-a-li
+ -ul
+ -nav
+ -footer
+
+ -body
+
+-html
+Voir aussi : html5-profile
+La déclaration du Doctype n'est pas sensible à la casse et il n'y a plus de référence à une DTD (Document Type Definition, ou Définition de Type de Document, document permettant de décrire un modèle de document SGML ou XML).
+
+Encodage
+Le processus de détection de l'encodage a également été modifié et s'effectue dans l'ordre : 1) Vérification de la présence d'un header HTTP "Content-Type" ;; 2) Détection du BOM en début de fichier ;.
+
+Solutions
+Quelques produits (logiciels ou outils sur le Web), comme Google Web Designer (en) ou pixappy designer, permettent de créer plus ou moins facilement des contenus HTML5.
+
+XHTML5
+Pour les documents XHTML5, l'auteur doit spécifier l'encodage dans le prologue XML, mais aussi le type de contenu : "application-xhtml+xml". La globalité de la page doit être conforme à la syntaxe XML. De par le caractère extensible du langage XML, il est possible d'ajouter d'autres balises (exemple : mabalise-mabalise) ; une telle extension nécessite de déclarer les espace de noms correspondants, sans quoi la page sera en erreur et le navigateur pourrait ne pas être capable de l'afficher. C'est le mode le plus strict qui impose d'avoir une syntaxe quasi parfaite.
+xml version-"1.0" encoding-"UTF-8"
+!DOCTYPE html
+html xmlns-"http:--www.w3.org-1999-xhtml" xml:lang-"fr" lang-"fr" dir-"ltr"
+ head
+ titleExemple-title
+ -head
+ body
+ !-- Contenu de la page respectant la syntaxe XML. --
+ -body
+-html
+Nouveaux éléments: main : définit le contenu principal de la page, il doit être unique dans la page.; section : définit les sections du document, telles que les chapitres, en-têtes, pieds de page.; article : partie indépendante du site, comme un commentaire.; aside : associé à la balise qui le précède.; header : spécifie une introduction, ou un groupe d'éléments de navigation pour le document.; footer : définit le pied de page d'un article ou un document. Contient généralement le nom de l'auteur, la date à laquelle le document a été écrit et - ou ses coordonnées.; nav : définit une section dans la navigation.; figure : définit des images, des diagrammes, des photos, du code, etc.; figcaption : légende pour la balise figure.; audio : pour définir un son, comme la musique ou les autres flux audio (streaming).; video : permet d'insérer un contenu vidéo en streaming.; track : permet d'insérer un sous-titre (au format WebVTT) à une vidéo affichée avec la balise vidéo.; embed : définit un contenu incorporé, comme un plug in.; mark : définit un texte marqué.; meter : permet d'utiliser les mesures avec un minimum et maximum connus, pour afficher une jauge.; progress : définit une barre de progression sur le travail en cours d'exécution.; time : définit une date ou une heure, ou les deux. Cette balise a été abandonnée en octobre 2011 en faveur de la balise data avant d'être réintroduite.; canvas : utilisé pour afficher des éléments graphiques, il faut utiliser un script pour l'animer.; command : définit un bouton. Cette balise est uniquement supportée par Internet Explorer 9. Il n'est donc pas recommandé de l'utiliser.; details : précise les détails supplémentaires qui peuvent être masqués ou affichés sur demande.; keygen : permet de générer une clé (sécurisé).; output : représente le résultat d'un calcul.; ruby, rt et rp : annotations ruby.
+
+Nouveaux attributs
+Pour la balise a : media : permet de spécifier pour quel média ou appareil il est optimisé.; type : définit le MIME de la cible URL.
+Pour la balise area : hreflang : spécifie le langage de l'url.; media : permet de spécifier pour quel média ou appareil il est optimisé.; rel : indique la relation entre le document courant et l'URL cible.; type : définit le MIME de la cible URL.
+Pour la balise button : autofocus : indique que le bouton doit avoir le focus pendant le chargement de la page.; form : spécifie à quel formulaire le bouton appartient.; formaction : spécifie où envoyer le form-data quand un formulaire est soumis. Remplace l'attribut action du formulaire.; formenctype : indique comment le form-data doit être encodé avant d'être envoyé à un serveur. Remplace l'attribut enctype du formulaire.; formmethod : définit comment il faut envoyer le form-data.; formnovalidate : si présent, indique que le formulaire ne doit pas être validé quand il est envoyé.; formtarget : spécifie où ouvrir-exécuter l'action.
+Pour la balise fieldset : name : définit le nom du fieldset.; disabled : désactive le fieldset.; form : définit le formulaire du fieldset.
+Pour la balise form : autocomplete : auto complétion.; novalidate : si présent le formulaire n'est pas validé lorsqu'il est soumis.
+Pour la balise html : manifest : URL de déclaration (manifest) des fichiers pour un usage hors ligne.
+Pour la balise iframe : sandbox : spécifie des restrictions sur le contenu de l'iframe; seamless : indique que l'iframe doit être parfaitement intégrée dans le document.; srcdoc : le code HTML du document affiché dans l'iframe.
+Pour la balise input : autocomplete : auto complétion.; autofocus : définit le focus lors du chargement de la page.; form : spécifie à quel formulaire le champ appartient.; formaction : remplace l'attribut "action" du formulaire. Indique l'URL à laquelle envoyer les données du formulaire.; formenctype : remplace l'attribut "enctype" du formulaire. Indique comment la forme-données doit être encodé avant d'être envoyé au serveur.; formmethod : remplace l'attribut "method" du formulaire. Définit la méthode HTTP d'envoi des données à l'URL.; formnovalidate : remplace l'attribut "novalidate" du formulaire. S'il est présent le champ de saisie ne devrait pas être validé lors de son envoi.; formtarget : remplace l'attribut "target" du formulaire. Indique la fenêtre cible utilisée lorsque le formulaire est soumis.; height : définit la hauteur.; list : désigne un "datalist" contenant des options prédéfinies pour le champ de saisie.; max : indique la valeur maximale du champ d'entrée.; min : indique la valeur minimale du champ d'entrée.; multiple : si présent, l'utilisateur peut entrer plusieurs valeurs.; pattern : définit un motif.; placeholder : un conseil pour aider les utilisateurs à remplir le champ de saisie.; required : indique que la valeur du champ de saisie est nécessaire pour soumettre le formulaire.; step : indique l'intervalle entre les valeurs.; nouveaux types : datetime; datetime-local; date; month; week; time; tel; number; range; email; url; search; color.; datetime; datetime-local; date; month; week; time; tel; number; range; email; url; search; color.
+Pour la balise link : sizes : définit la taille, hauteur et largeur.
+Pour la balise menu : label : label visible du menu.; type : définit le type de menu à afficher. La valeur par défaut est "list".
+Pour la balise meta : charset : définit la table de caractères pour l'encodage de la page.
+Pour la balise ol : reversed : si présent, change l'ordre d'affichage.
+Pour la balise script : async : définit si le script doit être exécuté de manière asynchrone ou pas.
+Pour la balise select : autofocus : active le focus sur cet élément.; form : définit un ou plusieurs formulaires pour le "select".
+Pour la balise style : scoped : si présent, le style est appliqué uniquement sur le parent et les fils.
+Pour la balise textarea : autofocus : focus l'élément textarea.; dirname : indique le nom du textarea.; form : définit une ou plusieurs formulaires pour le textarea.; maxlength : nombre maximum de caractères.; placeholder : définit une astuce pour aider l'utilisateur.; required : indique que la valeur du champ de saisie est nécessaire.; wrap : définit comment le texte est affiché dans le textarea.
+Ainsi que les attributs globaux qui s'appliquent à toutes les balises : contenteditable; contextmenu; data--; draggable; hidden; on- (gestionnaires d'événements); spellcheck.
+
+Connexion et distribution P2P: HTML 5 se voit doté de la capacité de réaliser des connexions entre utilisateurs PeerToPeerConnection, et également grâce aux websockets.
+
+Changements dans les balises et attributs
+Les balises suivantes sont supprimées car leurs effets étaient purement représentatifs, ce qui est le rôle de CSS. basefont,; big,; center,; font,; strike,; tt,; u,.
+Les balises frame, frameset et noframes ont été supprimées elles aussi ; elles étaient déjà désuètes car elles créaient des problèmes d'accessibilité et d'utilisation pour l'utilisateur final.
+Les balises suivantes sont elles aussi supprimées : acronym n'est plus incluse car elle créait beaucoup de confusions ;; applet est remplacé par object ;; isindex, car elle peut être remplacée par l'utilisation des contrôleurs de formes ;; dir est obsolète en faveur de ul.
+Enfin, noscript n'est fourni que dans la version HTML, il n'est pas inclus dans la version XML.
+
+Obsolescence d'attributs: Sur la balise a: charset; coords; name (préférer l'attribut id); methods; rev; shape; urn. Sur la balise area: nohref. Sur la balise embed: name (préférer l'attribut id). Sur la balise form: accept. Sur la balise head: profile; nohref. Sur la balise html: version. Sur la balise iframe: longdesc. Sur la balise input: ismap; usemap. Sur la balise img: longdesc; lowsrc; name (préférer l'attribut id). Sur la balise link: charset; methods; rev; target; urn. Sur la balise meta: scheme. Sur la balise object: archive; classid; code; codebase; codetype; declare; standby. Sur la balise option: name (préférer l'attribut id). Sur la balise param: type; valuetype. Sur la balise script: event; for; language. Sur la balise table: datapagesize; summary. Sur la balise td: axis; scope. Sur la balise th: axis.
+
+API
+HTML5 introduit huit nouvelles API qui pourront aider à créer des applications web et qui peuvent être utilisées ensemble avec de nouveaux éléments introduits pour les applications dont : une API de dessin 2D utilisée avec la nouvelle balise canvas ;; une API pour jouer des vidéos et des sons-musiques utilisée avec les nouvelles balises video et audio ;; une API utilisée pour les applications hors-lignes ;; une API d'édition en combinaison avec le nouvel attribut contenteditable ;; une API de drag and drop en combinaison avec l'attribut draggable ;; une API qui permet l'accès à l'historique de navigation et permet aux pages d'en ajouter pour prévenir les problèmes de bouton retour-en-arrière.
+De plus, des API tierces viennent s'intégrer à ce standard, telles que WebGL du Khronos Group permettant d'ajouter aux pages du contenu 3D.
+
+Controverse - Verrou numérique
+Fin 2012, une campagne menée par plusieurs associations de défense des libertés numériques, dont la Free Software Foundation, tente d'attirer l'attention sur l'inclusion de verrous numériques (DRM) dans la norme HTML5.
+
+Voir aussi
+
+Articles connexes: Microformat, microdonnée; HTML5 sur terminaux mobiles; Identificateur de fragment; Polyfill.

@@ -1,0 +1,19 @@
+La représentation par sac de mots (ou bag of words en anglais) est une description de document (texte, image...) très utilisée en recherche d'information.
+
+Principe général
+On considère que le monde peut être décrit au moyen d'un dictionnaire (de "mots"). Dans sa version la plus simple, un document particulier est représenté par l'histogramme des occurrences des mots le composant: pour un document donné, chaque mot se voit affecté le nombre de fois qu'il apparaît dans le document (voir la notion de multi-ensemble, bag en anglais). Un document est donc représenté par un vecteur de la même taille que le dictionnaire, dont la composante i indique le nombre d'occurrences du i-ème mot du dictionnaire dans le document.
+La constitution du dictionnaire est ainsi une étape critique pour les performances des systèmes utilisant une telle représentation.
+Selon l'utilisation ultérieure du sac de mot, celui-ci peut être normalisé de différentes manières : ramené à une norme unitaire en divisant chaque composante par la norme (à choisir) du vecteur; binarisé, ce qui revient à indiquer seulement la présence ou l'absence d'un mot du dictionnaire; pondéré selon divers schémas, notamment dans le cas d'une utilisation dans un modèle vectoriel ou un modèle probabiliste de pertinence.
+
+Cas des textes
+Le dictionnaire est composé des mots du corpus considéré, pouvant éventuellement recouvrir la totalité de la langue. Il est généralement nécessaire de pré-traiter lesdits mots du dictionnaire afin de les normaliser (un traitement semblable est effectué sur les documents analysés). Deux normalisations classiques sont la Lemmatisation et la Racinisation (anglais: stemming). Il est aussi assez courant de définir une liste de rejet (stop words) de mots à ne pas considérer (tels les pronoms, les articles, etc) car trop nombreux dans les corpus textuels pour être discriminants. En plus des mots du dictionnaire, il est aussi possible de considérer des combinaisons de ceux-ci, autrement dit des N-grammes, augmentant alors la taille du dictionnaire.
+Une représentation des textes par sacs de mots aboutit à une représentation vectorielle de grande taille mais très creuse (ou parcimonieuse), du fait qu'un document donné ne contient qu'une infime partie des mots possibles dans le dictionnaire. De même, un mot donné du dictionnaire ne sera représenté généralement que dans un nombre très restreint de document d'un corpus donné. Cette dernière propriété est à la base du schéma de recherche d'information efficace dans les moteurs de recherche textuels.
+
+Cas des images
+Pour les images, le dictionnaire est généralement composé de caractéristiques locales. On parle alors de sac de mots visuels (ou bag of visterms).
+Ce modèle a été proposé en 2003 pour effectuer des recherches dans des grands corpus vidéo.
+Le sac de mots visuels est aussi une représentation des images pouvant être utilisée dans le cadre de la classification supervisée. L'intérêt premier est qu'une image représentée originellement par un nombre variable de caractéristiques locales est ramenée dans un espace vectoriel de dimension fixe, et peut ainsi "alimenter" un algorithme d'apprentissage.
+
+Voir aussi
+
+Articles connexes: modèle vectoriel; modèle probabiliste de pertinence.

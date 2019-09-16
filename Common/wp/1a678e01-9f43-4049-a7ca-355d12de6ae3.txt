@@ -1,0 +1,49 @@
+L'inventaire (latin inventus) est une liste exhaustive d'entités considérées comme un patrimoine ou une somme de biens, matériels ou immatériels, afin d'en faciliter l'évaluation ou la gestion.
+Le terme est souvent utilisé dans l'expression "faire l'inventaire" consistant à dénombrer le contenu d'un stock et effectué régulièrement (au moins annuellement) pour vérifier si la valeur du contenu des stocks est conforme à ce qui est comptabilisé lors du bilan. Il est généralement effectué à des moments particuliers : fin d'année ; début de bail (état des lieux) ; fin de vie (inventaire après décès), saisie immobilière, etc.
+Il peut aussi concerner un patrimoine naturel vivant (inventaires floristiques, faunistiques, mycologiques, écosystémiques...).
+
+Les inventaires naturalistes
+Ils se font dans la continuité des collections scientifiques et naturalistes accumulées par les sociétés savantes et Museums d'histoire naturelle depuis plusieurs siècles. Ils contribuent aujourd'hui aux inventaires nationaux (Inventaire national du patrimoine naturel en France), à l'inventaire mondial de la biodiversité qui est en cours.
+Il se fait par la réunion de nombreuses bases de données naturalistes préalablement rendues "interopérables".
+Cet inventaire devrait être accéléré en France à la suite du Grenelle de l'environnement et dans le monde à la suite de la Conférence mondiale sur la biodiversité, de Nagoya (2010). Il est accessible via le portail du GBIF (Global Biodiversity Information Facility).
+Les inventaires peuvent être hiérarchisé sur la base de critères patrimoniaux, de rareté, de service écologique, etc.
+Par exemple un Inventaire hiérarchisé des sites sensibles à protéger en priorité permet d'épargner les sites patrimoniaux dans le cadre d'une opération polmar. Un inventaire hiérarchisé des sites et paysages naturels en complément d'un inventaire des zones naturelles d'intérêt écologique, floristique et faunistique (ZNIEFF) ou d'un inventaire "Natura 2000" permet aux aménageurs d'avoir une vue globale et de savoir où sont les sites d'intérêt majeur ou de moindre intérêt du point de vue de l'environnement naturel (selon les critères retenus). En France, de tels inventaires ont été menés aux niveaux de départements (ex. Inventaire hiérarchisé des zones naturelles du département de la Moselle) ou de régions (inventaire hiérarchisé des sites et paysages naturels du Nord et du Pas de Calais). Ils peuvent aussi ne concerner qu'un type de milieu (ex : Inventaire hiérarchisé des milieux aquatiques régionaux du Nord-Pas-de-Calais). Ils facilitent aussi l'établissement des études d'impacts, des Agenda 21, des Profils environnementaux locaux, d'Atlas des paysages, etc.
+Pour les inventaires floristiques, dans les pays francophones, le réseau Tela botanica met à disposition de tous un annuaire et une cartographie de plus de 500 organismes en lien avec la botanique (début 2011) et une base de données des herbiers locaux.
+
+L'inventaire du patrimoine naturel
+Le patrimoine naturel et la protection de la biodiversité terrestre et marine de la planète sont maintenant considérés comme un bien commun, dont l'inventaire est à faire, notamment pour créer des zonages patrimoniaux (ZNIEFF, ZICO...) ou réglementaires (ZPS)..., ou encore pour établir et mettre à jour les listes rouges d'espèces menacées...).
+Il est basé sur un vaste programme d'inventaire et de cartographie, relayé en France par le CNRS et le Muséum national d'histoire naturelle, non seulement pour recenser la faune et la flore de chaque région et pays du monde, mais aussi pour analyser les différents écosystèmes et la sociologie des espèces vivantes (Phytosociologie...), repérer les espèces invasives ou celles en danger d'extinction. En France toujours, l'article L.411-5 du Code de l'Environnement permet depuis 2002 aux Régions de s'associées à la conduite de l'inventaire national menée par l'État (MNHN). Chaque collectivité peut aussi réaliser des inventaires locaux du patrimoine naturel.
+Au sein de chaque discipline des sciences de la nature, on voit se multiplier les contributions régionales à ces inventaires écologiques: inventaires botaniques, entomologiques, mycologiques, inventaire et cartographie des corridors biologiques, des réseaux écologiques, inventaires ZNIEFF, inventaire forestiers etc.
+La cartographie naturaliste est organisée en mailles territoriales plus ou moins fines, par exemple de 16 ou de 50 km2. Les progrès de l'informatique, des outils collaboratifs ont facilité les démarches de sciences citoyennes.
+Des observatoires de la biodiversité peuvent coordonner et confronter ces inventaires dont pour l'évaluation des politiques publiques, les études d'impacts, etc.
+
+Bibliothèques, archives et centre de documentation
+Pour une bibliothèque ou un centre de documentation, l'inventaire consiste à établir la liste des documents possédés par l'établissement. Dans les archives, inventaire désigne un type d'instrument de recherche décrivant chacune des pièces qui constituent un article, par exemple chacune des feuilles se trouvant dans une liasse ou un dossier. L'autre type d'instrument de recherche en usage dans les archives, le répertoire, décrit l'ensemble du contenu d'un article.
+La comparaison de la liste avec l'existant est appelée récolement.
+
+Entreprises à but lucratif
+Pour les entreprises à but lucratif, il doit être fait pour établir le bilan. Il permet de fixer la valeur du stock et de contrôler si aucune marchandise n'a disparu physiquement (par obsolescence, perte ou vol) ou comptablement (par erreur de gestion) et d'avoir donc une image des stocks réels au moment de l'inventaire.
+Pour cela, sont répertoriées toutes les marchandises existantes dans les entrepôts pour les comparer à la liste des achats et des ventes. Si tout se passe bien, les stocks à la date d'inventaire doivent correspondre à la différence entre les entrées et les sorties de stock depuis le dernier inventaire (en tenant compte aussi des stocks qui existaient lors de ce dernier inventaire). S'il manque des marchandises par rapport à ce calcul, il y a lieu de s'interroger sur l'origine des disparitions ou des erreurs de gestion.
+Il y a lieu par ailleurs d'apprécier les pertes de valeur marchande des marchandises devenues inutilisables ou obsolètes.
+Il est possible d'effectuer des inventaires tournants, portant sur une partie seulement des stocks (et non pas la totalité), afin de ne pas stopper l'activité de l'entreprise pendant cette opération.
+Le troisième type d'inventaire est l'inventaire permanent, les produits sont inventoriés après chaque entrée et-ou sortie. Ainsi les stocks physiques sont contrôlés plus régulièrement, les écarts analysés plus rapidement. Cependant cet inventaire n'est pas légalement reconnu, et ne dispense pas d'inventaire global ou annuel, et ne prend pas en compte les produits dormants ou stocks morts mais il facilite l'inventaire annuel en réduisant les anomalies.
+Un inventaire est souvent associé à une liste, des critères de classements ou un catalogue d'offres et de produits.
+
+Patrimoine individuel
+Les entreprises ne doivent pas se contenter d'inventorier régulièrement leurs stocks, mais l'ensemble de leurs actifs (biens existants et sommes à recevoir) et passifs (dettes et engagements financiers).Elles doivent établir un bilan et un compte de résultat; ce qui simplifie la comptabilité de gestion et la comptabilité financière.
+Les particuliers sont amenés eux aussi à inventorier leurs biens et dettes, de façon occasionnelle ou périodique, tant pour leur propre information régulière qu'à l'occasion de décisions financières (emprunts, placements, gros achats, projets...) ou de déclaration de revenus, et en cas de succession (par ex. inventaire après décès).
+
+Patrimoine collectif
+De ce point de vue patrimonial, le terme a tendance à se généraliser et l'on parle à présent d'inventaire des oeuvres littéraires, etc.
+Paradoxalement, les comptabilités nationales comportent rarement un inventaire actifs - passifs. Toutefois quelques pays ont été distingués pour leur organisation et leur mise en oeuvre d'inventaires spécifiques : la France avec l'Inventaire qui s'occupe des monuments et des objets d'art ;; l'Italie via l'ICCD - Istituto Centrale per il Catalogo e la Documentazione qui s'occupe d'architecture, d'archéologie, d'objets d'art et de biens démo-anthropologiques ;; l'Angleterre via le RCHME - Royal Commission on the Historical Monuments of England dont le rôle est d'enregistrer et de recenser le patrimoine national des monuments historiques et archéologiques.
+
+Poésie
+Les poètes surréalistes ont, à leur manière, utilisé l'inventaire comme forme poétique. L'inventaire le plus connu est celui de Jacques Prévert qui mêle délibérément des objets sans rapport apparent les uns avec les autres. De cette expérimentation littéraire est née une expression, on parle ainsi d'"un inventaire à la Prévert".
+
+Méthodologie
+Dans tous les cas, une solide méthodologie doit être mise en oeuvre pour effectuer un inventaire. On pourra en France utilement consulter l'exemple des informations nécessaires pour le Ministère de la Culture en France. (1)
+La masse de données à traiter est souvent telle que l'utilisation d'une base de données informatique ou d'un logiciel spécialisé peut être nécessaire.
+
+Voir aussi
+
+Articles connexes: Bien (économie), Bien public, Bien commun; Évaluation environnementale; Inventaire communal; Inventaire des monuments historiques; Inventaire des émissions; Inventaire général du patrimoine culturel; Inventaire national du patrimoine naturel; Inventaire forestier; Inventaire d'archives; Démarque.

@@ -1,0 +1,13 @@
+En mathématiques et plus particulièrement en algèbre linéaire et géométrie, les hyperplans d'un espace vectoriel E de dimension quelconque sont la généralisation des plans vectoriels d'un espace de dimension 3 : ce sont les sous-espaces vectoriels de codimension 1 dans E. Si E est de dimension finie n, ses hyperplans sont donc ses sous-espaces de dimension n - 1 : par exemple l'espace nul dans une droite vectorielle, une droite vectorielle dans un plan vectoriel, etc.
+
+Caractérisation
+Soient E un espace vectoriel et H un sous-espace. Les propositions suivantes sont équivalentes : H est un hyperplan de E.; Il existe dans E une droite vectorielle supplémentaire de H.; Toute droite vectorielle de E engendrée par un vecteur n'appartenant pas à H est un supplémentaire de H.; H est le noyau d'une forme linéaire non nulle.; H est défini par une équation linéaire homogène non triviale.
+
+Exemples: Dans le K-espace vectoriel des matrices carrées d'ordre n à coefficients dans un corps K, l'ensemble des matrices de trace nulle est un hyperplan.; Dans le K-espace vectoriel K(X) des polynômes à une indéterminée, l'ensemble des polynômes divisibles par X est un hyperplan, car c'est le noyau de la forme linéaire P P(0).
+
+Représentation des sous-espaces
+Pour tout entier naturel q et dans tout espace vectoriel (de dimension finie ou infinie), les sous-espaces de codimension q sont exactement les intersections de q hyperplans "indépendants".
+
+Hyperplans affines
+Soit E un espace affine de direction V. Les sous-espaces affines de E dont la direction est un hyperplan (vectoriel) de V sont appelés les hyperplans (affines) de E.
+Étant donné un hyperplan H de V, une partie F de E est donc un hyperplan de direction H si et seulement s'il existe un point A tel queH - (A M M F). (-displaystyle H--((-overrightarrow (AM))-mid M-in F-).) Un tel point A appartient alors nécessairement à F, et tout autre point de F vérifie la même propriété. Portail de l'algèbre.

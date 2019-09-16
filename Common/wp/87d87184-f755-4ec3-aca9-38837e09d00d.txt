@@ -1,0 +1,17 @@
+Un serveur d'applications est un logiciel d'infrastructure offrant un contexte d'exécution pour des composants applicatifs. Le terme est apparu dans le domaine des applications web. Au sens strict les composants hébergés par le serveur d'applications ne sont pas de simples procédures ou scripts mais de réels composants logiciels conformes à un modèle de composants (EJB, COM, Fractal, etc.).
+Les clients des serveurs d'application sont : des programmes autonomes (standalone application), des applets ou d'autres composants.
+La structuration en couches des différents composants mis à disposition par le serveur d'application permet une prise en compte des besoins métier, des interactions avec les utilisateurs, des connexions avec les bases de données, etc.
+Les serveurs d'applications sont des logiciels occupant la couche centrale dans une architecture multicouche, qu'elle soit classique trois tiers (postes clients, serveur d'applications, serveur de données) ou étendue N tiers lorsqu'elle intègre par exemple des serveurs d'acquisition (données de terrain, données de process, de back-office, etc.) ou des serveurs d'interface (gateways, systèmes coopérants externes, etc.).
+Dans un sens plus large, un serveur d'applications peut être une machine servant à héberger des applications, soit pour permettre leur exécution depuis un poste client (mode client-serveur de données, généralement partage de fichiers et politiques de gestion des accès), soit pour déporter l'affichage sur le poste client (mode client-serveur d'affichage).
+
+Historique
+Le premier serveur d'applications orienté-objet était WebObjects, une solution d'Apple. Jusqu'en 2001, il utilisait le langage de programmation Objective-C et actuellement c'est un serveur d'applications en pur Java.
+
+Principaux serveurs d'applications: 2X ApplicationServer; Borland Entreprise Server; Citrix; Apache Geronimo de la Fondation Apache; GlassFish serveur d'application Open Source de Oracle (anciennement Sun Java System Application Server); IBM Websphere Application Server; IBM Lotus Domino; JOnAS serveur d'application Open Source proposé par OW2; Microsoft ASP.NET; LTSP Cluster, une infrastructure libre pour le déploiement massif et centralisé de terminaux; Novell exteNd Application Server; Oracle Application Server; Oracle WebLogic Server; Orion Application Server (en); Resin Server (en) (Caucho); Sybase EAServer; WebDev PC SOFT; WildFly (version communautaire de JBoss); JBoss EAP (version Red Hat JBoss); Zope.
+
+Alternatives
+La norme CORBA 3 (CORBA Component Model, CCM) définit un standard ouvert qui est une alternative sérieuse aux EJB. Les ORB TAO (The ACE ORB) et MICO (acronyme récursif de Mico Is COrba) fournissent des implémentations fonctionnelles de CCM.
+
+Voir aussi
+
+Articles connexes: Serveur informatique; Java EE (serveurs d'application certifiés).

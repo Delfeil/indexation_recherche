@@ -1,0 +1,20 @@
+Une applet Java est une applet, fournie aux utilisateurs sous la forme de bytecode Java. Une applet Java peut fonctionner dans un navigateur web, grâce à une machine virtuelle Java (JVM), ou dans l'AppletViewer de Sun, un outil permettant de tester les applets Java. Les applets Java ont été introduites dans la première version du langage, de 1995. Les applets Java sont la plupart du temps écrites en langage Java, mais elles peuvent également être écrites dans n'importe quel langage qui se compile en bytecode, comme Jython, Groovy ou encore Scala.
+Les applets sont utilisées pour fournir au sein d'applications Web des fonctionnalités interactives qui ne peuvent pas être fournies par le langage HTML. Étant donné que le bytecode Java est multiplate-forme, les applets Java peuvent être exécutées sur différentes plates-formes, dont Windows, Unix, Mac OS et Linux. Il existe des outils open-source, comme applet2app, qui peuvent être utilisés pour convertir une applet en une application riche Java, ou en application native pour Windows ou Linux. Ce qui donne l'avantage de pouvoir lancer une applet Java en mode hors-ligne, ou en dehors d'un navigateur web.
+Beaucoup de développeurs Java influents, blogs et magazines recommandent l'utilisation de la technologie Java Web Start au lieu des applets Java.
+
+Informations techniques
+Les applets Java sont exécutées dans un environnement indépendant par la plupart des navigateurs, afin de les empêcher d'accéder aux données locales. Le code d'une applet est téléchargé depuis un serveur web et le navigateur lance l'applet dans la page HTML ou dans une nouvelle fenêtre. Une applet peut être affichée dans une page web en utilisant la balise HTML obsolète applet , ou l'élément recommandé object. Ces balises spécifient l'emplacement de l'applet.
+Une applet Java hérite de la classe java.applet.Applet, ou dans le cas d'une applet Swing, de la classe javax.swing.JApplet. La classe doit réécrire certaines méthodes de la classe Applet afin de définir son comportement (Applet est une sous classe de Panel, qui est une sous classe de Container).
+
+Avantages
+Une applet Java possède les avantages suivants : il est facile de faire fonctionner une applet sous Windows, Linux et Mac OS X; une même applet peut fonctionner sur toutes les versions de Java installées. Cependant, dans le cas où l'applet nécessite une version plus récente de Java, le client devra attendre le téléchargement de la nouvelle version.; les applets sont supportées par la plupart des navigateurs Web; une applet peut être mise en cache par le navigateur, afin d'accélérer les consultations futures; une applet peut avoir un accès complet à l'ordinateur client, si l'utilisateur l'autorise; une applet permet de déplacer certaines opérations d'un serveur vers les clients.
+
+Inconvénients
+Une applet Java présente cependant les inconvénients suivants : Un plugin Java est nécessaire, qui n'est pas forcément installé sur tous les navigateurs ;; Avant la version 6u12, Sun ne fournissait pas de version 64-bit de son plug-in, forçant les utilisateurs à utiliser un plugin 32 bits dans un navigateur 32 bits ;; Une applet ne peut pas démarrer tant que la machine virtuelle Java n'est pas démarrée, ce qui peut entraîner un temps de latence important au premier lancement ;; Une applet peut nécessiter une version spécifique de la machine virtuelle Java.
+
+Alternatives
+Des techniques alternatives existent (par exemple, DHTML, Flash, et Microsoft Silverlight).
+Une alternative aux applets pour développer des applications client pour Java est la technique Java Web Start, qui permet d'exécuter des applications en dehors du navigateur.
+La version 9 de Java considérera les applets comme dépréciées, et affichera un avertissement en cas d'utilisation.
+
+Voir aussi: JavaFX; Servlet; Java Web Start.

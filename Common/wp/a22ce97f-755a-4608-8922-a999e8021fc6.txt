@@ -1,0 +1,9 @@
+Le NeXT Cube est une station de travail haut de gamme, produite et vendue par NeXT de 1988 à 1993.
+Cette machine utilisait le système d'exploitation NeXTSTEP. Lors de sa sortie, dans les années 1990, le NeXT Cube était une machine au design moderne et futuriste. Plusieurs modèles ont été produits, y compris le NeXT Cube 030 (68030 à 25 MHz), 040 (68040 à 25 MHz) et le Turbo (68040 à 33 MHz). Il coûte à l'époque 6500 US. Le NeXT Cube était fourni avec un moniteur NeXT MegaPixel 17" (avec haut-parleurs intégrés), un clavier et une souris.
+Le processeur 68030 était épaulé par un FPU 68882 pour des calculs mathématiques rapides, un DSP 56001 pour le travail multimedia ainsi que deux contrôleurs 6-canaux à Accès direct à la mémoire (DMA), permettant de décharger le processeur principal d'un bon nombre d'opérations d'E-S et donc d'accélérer la vitesse d'exécution des tâches communes.
+Plus tard, NeXT sortit le NeXTdimension pour le Cube, une carte basée sur un chipset Intel i860, offrant un affichage couleur 32-bit PostScript. Le Cube fut commercialisé sans succès, certainement en raison de son prix élevé. Cependant, certains sont toujours utilisés dans le monde en tant que serveurs.
+Le NeXT de Tim Berners-Lee au CERN (1991)
+Le NeXT Cube reçut une certaine notoriété puisqu'il fut utilisé par Tim Berners-Lee en tant que premier serveur web, ainsi que pour la conception du premier navigateur web : WorldWideWeb. De son côté, John Carmack a utilisé un NeXT Cube pour développer ses deux jeux vedettes : Wolfenstein 3D et Doom.
+Le NeXTcube est considéré comme ayant inspiré l'Apple G4 Cube.
+
+Voir aussi: NeXTstation.

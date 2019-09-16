@@ -1,0 +1,7 @@
+Allen Newell, né le 19 mars 1927, mort le 19 juillet 1992 (à 65 ans), était un chercheur en informatique et psychologie cognitive à la compagnie RAND Corporation et à l'école d'informatique (School of Computer Science) de l'université Carnegie-Mellon. Il a contribué à la création du langage IPL (Information Processing Language) en 1956 et à l'écriture de deux des premiers programmes en IA, le Logic Theory Machine (1956) et le General Problem Solver (1957) (avec Herbert Simon).
+SOAR est une tentative de réaliser quelques-unes des considérations de Newell qui désirait une théorie unifiée de la connaissance, baptisée, "You can't play twenty questions with nature and win" (1973). Il existe d'autres architectures cognitives du même genre, notamment celle du psychologue cognitiviste John R. Anderson, la théorie ACT-R, laquelle est devenue une théorie unifiée populaire, utilisée aujourd'hui avec succès par les scientifiques cognitifs pour modéliser le comportement humain dans un large champ d'activité.
+Il remporta le prix Turing de l'ACM avec Herbert Simon en 1975 pour leurs efforts collectifs sur plus de 20 ans, initialement en collaboration avec J. C. Shaw et la compagnie RAND, puis après avec de nombreux collègues et étudiants de l'université Carnegie-Mellon, pour leurs contributions à la base de l'intelligence artificielle, la psychologie de la pensée (cognition), et la manipulation des listes.
+
+Livre: Allen Newell et Herbert A. Simon,
+Biographical Memoirs
+, National Academy of Sciences.

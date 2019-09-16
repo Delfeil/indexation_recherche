@@ -1,0 +1,12 @@
+La similarité cosinus (ou mesure cosinus) permet de calculer la similarité entre deux vecteurs à n (-displaystyle n) dimensions en déterminant le cosinus de l'angle entre eux. Cette métrique est fréquemment utilisée en fouille de textes.
+Soit deux vecteurs A (-displaystyle A) et B (-displaystyle B), l'angle cos (-displaystyle -cos -theta) s'obtient par le produit scalaire et la norme des vecteurs : cos - A B A B (-displaystyle -cos -theta -(-frac (A-cdot B)(-A--cdot -B-))).
+Comme la valeur cos (-displaystyle -cos -theta) est comprise dans l'intervalle (1 , 1) (-displaystyle (-1,1)), la valeur 1 (-displaystyle -1) indiquera des vecteurs résolument opposés, 0 (-displaystyle 0) des vecteurs indépendants (orthogonaux) et 1 des vecteurs similaires (colinéaires de coefficient positif). Les valeurs intermédiaires permettent d'évaluer le degré de similarité.
+
+Dans le cas d'une comparaison de documents textuels
+La similarité cosinus est fréquemment utilisée en tant que mesure de ressemblance entre deux documents. Il pourra s'agir de comparer les textes issus d'un corpus dans une optique de classification (regrouper tous les documents relatifs à une thématique particulière), ou de recherche d'information (dans ce cas, un document vectorisé est constitué par les mots de la requête et est comparé par mesure de cosinus de l'angle avec des vecteurs correspondant à tous les documents présents dans le corpus. On évalue ainsi lesquels sont les plus proches).
+La mesure d'angle entre deux vecteurs ne pouvant être réalisée qu'avec des valeurs numériques, il faut imaginer un moyen de convertir les mots d'un document en nombres. On partira d'un index correspondant aux mots présents dans les documents puis on attribuera à ces mots des valeurs. La forme la plus simple pourrait être de compter le nombre d'occurrences des mots dans les documents.
+En règle générale, pour mesurer finement la similarité entre des séquences de texte, les vecteurs sont construits d'après un calcul de type TF-IDF (term frequency-inverse document frequency) qui permet d'estimer l'importance d'un mot par rapport au document qui le contient, en tenant compte du poids de ce mot dans le corpus complet.
+
+Indice de Tanimoto
+L'indice de Tanimoto reprend cette idée dans le cas des attributs binaires. Il se définit comme suit : T (A , B) - A B A 2 + B 2 A B (-displaystyle T(A,B)-(-frac (A-cdot B)(-A-(2)+-B-(2)-A-cdot B))).
+Voir aussi: Indice et distance de Jaccard.

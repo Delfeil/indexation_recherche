@@ -1,0 +1,82 @@
+Le droit français est, actuellement, un droit de tradition civiliste régissant le droit appliqué en France mais en partie seulement.
+
+Définition du droit français
+Avant la Révolution et le Code civil, il n'existait pas de "droit français" en tant que tel, c'est-à-dire appliqué de façon uniforme dans tous les pays du royaume de France, distingués par l'usage du droit coutumier ou du droit écrit, ainsi qu'entre pays d'élection et pays d'états. Ici, un commentaire de la Coutume de Normandie par Étienne Le Royer de la Tournerie datant de 1778.
+La notion de droit français est apparue de manière doctrinale au XVIe siècle. L'édit de Saint-Germain-en-Laye d'avril 1679 décida de rendre obligatoire un enseignement du droit français dans les facultés, et créa des "professeurs de droit français" dans les universités du royaume. La notion de "droit français" désignait alors la branche du droit qui n'était ni canonique, ni romain, essentiellement constitué par les ordonnances royales, les coutumes, et la jurisprudence du parlement de Paris.
+Avec la Révolution française, l'émergence du nationalisme et la consolidation, sinon la constitution, de l'État-nation moderne, la définition du "droit français" perd son caractère matériel au profit d'un double critère géographique et idéologique. D'un point de vue géographique, le droit français est le droit applicable en principe sur le territoire de la France, sous la réserve de l'application résiduelle des statuts indigènes dans les territoires colonisés: le Code civil de 1804 marque ainsi l'unification du droit dans les différentes régions de France, alors que celles-ci vivaient avant la Révolution sous l'empire de différents systèmes juridiques (droit écrit ou droit coutumier, lequel était parfois formalisé comme pour la Coutume de Paris ou la Coutume de Normandie). D'un point de vue idéologique, le droit français est le droit codifié et ordonné issu du Premier Empire, qui s'oppose au droit coutumier et au droit romain dont le droit allemand prétendait s'être inspiré, en particulier sous l'influence de Savigny.
+Aujourd'hui, la notion de droit français conserve cette double composante matérielle et idéologique. D'un point de vue matériel il désigne au sens strict l'ensemble des règles de droit produites par des pouvoirs publics français. Au sens large, il désigne l'ensemble des règles de droit positif applicables en France. D'un point de vue idéologique, le droit français désigne un système juridique fondé sur une structure écrite et codifiée, qui s'oppose tout à la fois aux autres droits européens influencés par le droit romano-germanique et aux systèmes de common law.
+Le droit français correspond depuis le XXe siècle à un système de droit positif.
+
+Histoire du droit français
+
+Moyen Âge
+Une grande partie du droit coutumier des communautés de métiers médiévales a été codifiée sous forme de règlements royaux à partir du XIIIe siècle, comme l'atteste le Livre des métiers rédigé en 1268 en français par Étienne Boileau, prévôt de Paris, à la demande du roi saint Louis.
+
+Époque moderne
+Le droit français a été conforté par la décision du roi François Ier de choisir la langue française comme langue du droit et de l'administration (voir langue officielle), par l'ordonnance de Villers-Cotterêts (1539). À l'époque de la Renaissance, on réfléchissait sur les notions de souveraineté (Bodin, Machiavel).
+Le latin resta encore un certain temps la langue employée dans les facultés de droit des universités en France. Le latin restait en effet la langue employée dans les traités de philosophie jusqu'au fameux discours de la méthode de Descartes (1639). Ce ne fut qu'en 1679, avec l'édit de Saint-Germain-en-Laye, que l'on décida officiellement d'employer la langue française dans les enseignements du droit.
+Cela n'empêcha pas le pouvoir royal de commencer à promulguer des codes : Le code du commerce (1673) ;; Le code noir, qui instaurait l'esclavage dans les colonies.
+Le pouvoir royal reposait par ailleurs sur l'absolutisme qui était théorisé par Bossuet.
+Cependant, une partie du droit restait sous forme de droit canonique ou coutumier. À la fin de l'Ancien Régime, au siècle des Lumières, le système corporatif issu du Moyen Âge avait engendré certains abus, en particulier des inégalités entre les trois ordres noblesse, clergé et tiers-état. La France se trouvait dans une situation d'inadaptation de son système juridique par rapport à l'évolution des idées qui se produisit au siècle des Lumières. L'oeuvre de Montesquieu, particulièrement les Lettres persanes et de l'esprit des lois, témoigne de ce décalage entre la réalité du changement de représentation mentale et la situation d'une élite imbue de ses privilèges. Ce fut probablement l'une des causes de la Révolution française.
+
+Les Lumières, la Révolution, et l'Empire
+Jean-Jacques Rousseau élabore une théorie des droits naturels et une théorie du contrat, dans laquelle il insiste sur les valeurs de liberté et d'égalité. Dans le contrat social, il déclare qu'un contrat entre l'individu et la société émane d'une volonté générale qui doit définir des lois. Les idées de Rousseau ont inspiré les révolutionnaires français, notamment dans le fait que "la loi est l'expression de la volonté générale... Elle doit être la même pour tous" (article 6 de la déclaration de 1789). Cette conception est à l'origine de la suppression des corporations par l'Assemblée constituante avec le décret d'Allarde et la loi Le Chapelier en 1791, qui permettra au libéralisme économique de se développer en France, en affaiblissant durablement l'influence des corps intermédiaires.
+Sieyès s'interroge sur les droits du tiers état (qu'est-ce que le tiers état), invente le terme sociologie, et réfléchit aux notions de citoyenneté. Il propose un organe de vérification de la constitutionnalité des lois avec la jurie constitutionnaire, lors des discussions sur la constitution de l'an III (1795).
+La Révolution entraîne d'importants changements dans le droit privé et marque le début d'une courte période connue sous le nom de droit intermédiaire. Après les événements de la Terreur, le besoin de renouvellement du droit aboutit aux trois projets de Cambacérès de code civil (1793, 1794, 1796). Le coup d'État du 18 brumaire mené par Sieyès et Bonaparte permit à ce projet d'être validé entre 1800 et 1804, de sorte que le Code civil français est couramment appelé "code Napoléon", bien qu'en réalité il fut presque entièrement rédigé par Cambacérès.
+Dans la foulée, plusieurs codes furent promulgués par Bonaparte, comme le code pénal.
+
+Après la Révolution
+Dans la période post-révolutionnaire, les principes du droit français se sont affinés avec l'introduction d'une hiérarchie des normes juridique, et la constitution d'un très grand nombre de codes juridiques, aujourd'hui au nombre de 73.
+Deux rapports du Conseil d'État (1991 et 2006) ont dénoncé la complexité de ces codes comme source d'insécurité juridique. Le code du travail par exemple, héritier des anciens règlements des communautés de métiers du Moyen Âge, mais établi au niveau national, comporte environ 10 000 articles.
+
+Caractéristiques du droit français
+
+Deux grandes branches : droit public et droit privé
+Le droit français peut être divisé en deux grandes branches, droit public et droit privé, elles-mêmes respectivement subdivisées en deux branches du droit (droit administratif et droit constitutionnel ; droit civil et droit pénal).
+
+Emploi de la langue française
+La langue française étant la langue officielle, selon la Constitution française du 4 octobre 1958 sur les attributs de la souveraineté, certains articles des codes du droit français demandent explicitement la rédaction de documents en langue française.
+Par exemple, le code du travail demande en principe que les documents portant obligation aux salariés soient rédigés en français.
+La Loi relative à l'emploi de la langue française de 1994 (encore appelée loi Toubon, Jacques Toubon étant alors ministre de la culture et de la francophonie) dispose : en son article 1er : Langue de la République en vertu de la Constitution, la langue française est un élément fondamental de la personnalité et du patrimoine de la France.; Elle est la langue de l'enseignement, du travail, des échanges et des services publics.; Elle est le lien privilégié des États constituant la communauté de la francophonie.; Langue de la République en vertu de la Constitution, la langue française est un élément fondamental de la personnalité et du patrimoine de la France.; Elle est la langue de l'enseignement, du travail, des échanges et des services publics.; Elle est le lien privilégié des États constituant la communauté de la francophonie.; en son article 2 : Dans la désignation, l'offre, la présentation, le mode d'emploi ou d'utilisation, la description de l'étendue et des conditions de garantie d'un bien, d'un produit ou d'un service, ainsi que dans les factures et quittances, l'emploi de la langue française est obligatoire.; Dans la désignation, l'offre, la présentation, le mode d'emploi ou d'utilisation, la description de l'étendue et des conditions de garantie d'un bien, d'un produit ou d'un service, ainsi que dans les factures et quittances, l'emploi de la langue française est obligatoire.
+
+Sources du droit français
+
+Sources internes
+
+Bloc de constitutionnalité
+La Constitution française du 4 octobre 1958 est la norme suprême du droit interne français. Son préambule fait référence à la Déclaration des droits de l'homme et du citoyen de 1789, au Préambule de la Constitution du 27 octobre 1946 et la Charte de l'environnement de 2004. Or le Conseil constitutionnel a rendu, le 16 juillet 1971, une décision sur la Liberté d'association donnant au préambule, et au texte auquel il renvoie, une valeur constitutionnelle. Par ailleurs, le préambule cite les principes fondamentaux reconnus par les lois de la République qui acquièrent eux aussi une valeur constitutionnelle.
+
+Loi
+La loi désigne, au sens strict, la loi ordinaire votée par l'Assemblée nationale et le Sénat dans le cadre des compétences de l'article 34 de la Constitution.
+
+Règlement
+Les règlements sont l'ensemble des textes émis par les autorités exécutives dans le cadre de l'article 37 de la Constitution.
+Ils se distinguent en fonction de l'autorité dont ils émanent : les décrets du président de la République ou du Premier ministre, les arrêtés ministériels ou interministériels, les arrêtés préfectoraux et les arrêtés municipaux. On distingue aussi, en fonction du domaine les décrets d'application (qui complètent les lois) et les décrets autonomes (édictés dans le cadre des compétences propres de l'exécutif).
+
+Coutume
+La Coutume a tendu à disparaître avec la Révolution et l'adoption du Code civil. La loi de ventôse an XII a abrogé les anciennes coutumes "dans les matières régies par le Code". Elle a cependant pu subsister en dehors des matières traitées par le Code, ainsi, le Code de commerce de 1807 ne l'a pas abrogée.
+Pour exister, une coutume doit résulter d'un usage : ancien (période de temps conséquente, bien qu'aucune période minimale ne soit établie), constant (usage continu), général (par l'ensemble d'un groupe concerné), et notoire (usage connu de tous).
+
+Jurisprudence
+La difficulté de définir la jurisprudence comme source du droit résulte de la contradiction des articles 4 et 5 du Code civil. Les arrêts de règlement et l'autorité relative de la chose jugée cantonnent la jurisprudence au cas par cas. Cependant, l'obligation de juger et de motiver les décisions conduit à donner à la jurisprudence une fonction "créatrice de droit".
+
+Doctrine
+La doctrine est reconnue comme une manifestation d'opinions scientifiques faisant autorité. En revanche, elle n'est pas considérée comme une source du droit.
+
+Place des normes internationales et européennes en droit interne français
+
+Droit international
+Le 2 juin 2000, la Cour de cassation a rendu un arrêt en assemblée plénière, l'arrêt Fraisse, déclarant que "la Constitution possède, sans ambiguïté possible, une valeur juridique supérieure à celle qui est conférée aux traités internationaux".
+L'article 54 de la Constitution dispose : Si le Conseil Constitutionnel, saisi par le Président de la République, par le Premier Ministre, par le Président de l'une ou l'autre assemblée ou par soixante députés ou soixante sénateurs, a déclaré qu'un engagement international comporte une clause contraire à la Constitution, l'autorisation de ratifier ou d'approuver l'engagement international en cause ne peut intervenir qu'après révision de la Constitution.
+- Article 54 de la Constitution du 4 octobre 1958
+L'article 55 de la Constitution dispose : Les traités ou accords régulièrement ratifiés ou approuvés ont, dès leur publication, une autorité supérieure à celle des lois, sous réserve, pour chaque accord ou traité, de son application par l'autre partie.
+- Article 55 de la Constitution du 4 octobre 1958
+
+Droit de l'Union européenne
+L'application du droit de l'Union est, en France, marquée par la prépondérance de l'exécutif dans la transposition des normes en droit interne par rapport au législatif. Cependant, un avis du Conseil d'État du 22 mars 1973 a rétabli l'orthodoxie constitutionnelle en respectant le partage des compétences des articles 34 et 37.
+Du fait de l'appartenance à l'Union européenne, le statut des territoires d'outre-mer, hors de l'Union européenne a posé problème. L'article 74 de la Constitution a par conséquent été modifié et a donné aux lois statutaires des TOM un caractère organique et non plus ordinaire.
+
+Codes
+En France, les codes juridiques sont consultables sur le site Légifrance. Code de l'action sociale et des familles; Code de l'artisanat; Code des assurances; Code de l'aviation civile; Code du cinéma et de l'image animée; Code civil; Code de commerce; Code des communes; Code des communes de la Nouvelle-Calédonie; Code de la consommation; Code de la construction et de l'habitation; Code de la défense; Code de déontologie de la Police nationale; Code de déontologie des agents de Police municipale; Code de déontologie des architectes; Code de déontologie des professionnels de l'expertise comptable; Code disciplinaire et pénal de la marine marchande; Code du domaine de l'État; Code du domaine de l'État et des collectivités publiques applicable à la collectivité territoriale de Mayotte; Code du domaine public fluvial et de la navigation intérieure; Code des douanes; Code des douanes de Mayotte; Code de l'éducation; Code électoral; Code de l'énergie; Code de l'entrée et du séjour des étrangers et du droit d'asile; Code de l'environnement; Code de l'expropriation pour cause d'utilité publique; Code de la famille et de l'aide sociale; Code forestier; Code forestier de Mayotte; Code général de la propriété des personnes publiques; Code général des collectivités territoriales; Code général des impôts, doté de quatre annexes; Code des instruments monétaires et des médailles; Code des juridictions financières; Code de justice administrative; Code de justice militaire; Code de la Légion d'honneur et de la médaille militaire; Livre des procédures fiscales; Code des marchés publics; Code minier; Code monétaire et financier; Code de la mutualité; Code de l'organisation judiciaire; Code du patrimoine; Code pénal; Code des pensions civiles et militaires de retraite; Code des pensions de retraite des marins français du commerce, de pêche ou de plaisance; Code des pensions militaires d'invalidité et des victimes de la guerre; Code des ports maritimes; Code des postes et des communications électroniques; Code de procédure civile; Code de procédure pénale; Code de la propriété intellectuelle; Code de la recherche; Code des relations entre le public et l'administration; Code rural; Code rural et de la pêche maritime; Code de la santé publique; Code de la sécurité sociale; Code du service national; Code du sport; Code du tourisme; Code des transports; Code du travail; Code du travail applicable à Mayotte; Code du travail maritime; Code de l'urbanisme; Code de la voirie routière.
+
+Sources

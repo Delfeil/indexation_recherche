@@ -1,0 +1,23 @@
+La gestion de contenu d'entreprise (en anglais Enterprise Content Management : ECM) vise à gérer l'ensemble des contenus d'une organisation. Il s'agit de prendre en compte sous forme électronique les informations qui ne sont pas structurées, comme les documents électroniques, par opposition à celles déjà structurées dans les bases de données. Elle comprend les phases de création-capture, stockage, indexation, gestion, nettoyage, distribution, publication, recherche et archivage, en faisant le lien du contenu avec les processus métier.
+À titre d'exemple, une application de gestion de contenu servira à gérer l'ensemble des informations d'un dossier client : courriers papier, courriels, télécopie, contrats, etc., dans une même infrastructure.
+La définition officielle du terme a été créée par l'organisation internationale AIIM (Association for Information and Image Management) en 2000.
+
+Enjeux
+Dans l'économie moderne, on doit pouvoir gérer des informations électroniques de toute nature. Le passage aux normes IAS-IFRS demande que l'on comptabilise des informations touchant au capital intellectuel de l'entreprise. Il est donc nécessaire de structurer les données des entreprises, qui sont à la base de la création de valeur.
+Or il s'avère aujourd'hui que les entreprises et les administrations publiques doivent faire face à l'explosion du volume de contenus électroniques, non structurés ou semi-structurés, et à leur diversité, qu'ils soient issus de documents bureautiques (textes, tableaux, etc.), d'applications web (portails, intranets, extranets, sites web, etc.), de documentations techniques, des courriels, etc. Les enjeux majeurs de la gestion de contenu ont en effet trait à l'amélioration du travail collaboratif, à une meilleure accessibilité aux contenus, au partage des connaissances et à une recherche facilitée et accélérée.
+Une étude du CIGREF de 2006 montre qu'il est nécessaire de créer un référentiel afin que les données soient fiables et auditables.
+La gestion de contenu est l'un des chantiers de l'ingénierie des connaissances. La qualification des contenus doit se faire à partir d'une analyse rigoureuse des métadonnées, en tenant un registre des métadonnées.
+
+Champ d'application
+La gestion de contenu vise à couvrir l'ensemble du cycle de vie de l'information non structurée : sa collecte ou capture, son organisation, son utilisation, sa publication et sa disposition, son archivage à des fins de gestion de la preuve.
+Il existe un grand nombre de systèmes de gestion de contenu, en fonction des besoins des utilisateurs. La gestion de contenu vise à faire converger les différentes technologies disponibles dans de nombreux domaines : la gestion de contenu web (en anglais, Web Content Management, WCM), comprenant entre autres MediaWiki, moteur de wiki conçu pour répondre aux besoins de Wikipédia ;; la gestion électronique des documents (GED ou DM) ;; la gestion des ressources numériques ou gestion de documents multimédia) (en anglais Digital Asset Management ou DAM) ;; la gestion des documents d'archives (en anglais, Records management) ;; la gestion des courriels ;; le workflow ;; l'analyse de contenu de documents numériques (en anglais Content Analytics ou Content Analysis). Elle vise à valoriser les contenus gérés afin d'en faire ressortir les tendances et les signaux extraits par l'analyse de masses importantes de documents non structurés ;; l'exploration de données (en anglais, data mining).
+Cette convergence doit donc permettre aux utilisateurs d'interagir avec l'information non structurée d'une manière efficiente et efficace, tout en rendant l'information et les processus s'y rattachant conformes aux lois et règlements régissant cette information, dans un secteur où le droit est en perpétuelle évolution (voir droit de l'informatique).
+
+Spécifications
+Dans le domaine des contenus d'apprentissage, la norme SCORM (Sharable Content Object Reference Metadata) est une suite de spécifications techniques qui permet aux systèmes d'apprentissage en ligne de trouver, importer, partager, réutiliser, et exporter les contenus d'apprentissage, de manière normalisée. Cette suite de spécifications est basée sur des métadonnées.
+
+Voir aussi
+
+Articles connexes
+Gestion de contenu: Fournisseur de contenu; Système de gestion de contenu (CMS); Liste de systèmes de gestion de contenu XWiki.
+Autres: Big data; Dématérialisation; Donnée; Éditique; Gestion des ressources numériques (DAM); Gestion électronique de documents (GED); Normes sur les métadonnées; NoSQL (langage); Output management; Support d'information.

@@ -1,0 +1,50 @@
+Un convertisseur analogique-numérique (CAN, parfois convertisseur A-N, ou en anglais ADC pour Analog to Digital Converter ou plus simplement A-D) est un montage électronique dont la fonction est de traduire une grandeur analogique en une valeur numérique (codée sur plusieurs bits), proportionnelle au rapport entre la grandeur analogique d'entrée et la valeur maximale du signal.
+Le signal converti est le plus souvent une tension électrique.
+Il existe plusieurs techniques pour convertir un signal analogique en signal numérique. Elles sont classées ici dans l'ordre de la moins rapide à la plus rapide.
+
+Convertisseur à simple rampe
+On réalise au moyen d'un compteur et d'un convertisseur numérique-analogique une rampe de tension. Un comparateur arrête le compteur lorsque la tension créée par le CNA atteint la tension à convertir. Le compteur indique alors le résultat sur N bits, qui peut être stocké ou traité.
+Ces convertisseurs ont les mêmes performances en termes de stabilité que les convertisseurs à approximations successives, tout en étant nettement plus lents que ces derniers. De plus, leur temps de conversion qui évolue avec la tension à convertir les rend totalement absents du monde de l'électronique.
+
+Convertisseur à double rampe
+Cette évolution des convertisseurs à simple rampe permet de s'affranchir de la dérive naturelle des composants qui le composent. Son fonctionnement repose sur une comparaison entre une référence et le signal à convertir.
+La conversion se déroule en trois étapes : on charge une capacité avec un courant proportionnel au signal à convertir pendant un temps fixe (le temps du comptage complet du compteur) ;; on décharge ensuite la capacité, avec un courant constant issu de la tension de référence, jusqu'à annulation de la tension à ses bornes. Lorsque la tension devient nulle, la valeur du compteur est le résultat de la conversion ;; on annule enfin la tension aux bornes de la capacité par une série convergente de charges et de décharges (l'objectif étant de décharger totalement la capacité pour ne pas fausser la mesure suivante). On parle en général de phase de relaxation.
+Ces convertisseurs sont particulièrement lents (quelques dizaines de millisecondes par cycle, et parfois quelques centaines), et possèdent des résolutions souvent élevées (plus de 16 bits). Ils dérivent peu (dans le temps, comme en température).
+Simulation 3 bits CAN capacitif
+Convertisseur Sigma Delta
+Ce type de convertisseur est basé sur le principe du suréchantillonnage d'un signal d'entrée.
+Schéma de principe d'un convertisseur Delta-Sigma
+Un comparateur est en général utilisé pour convertir sur un bit (c'est-à-dire 0 ou 1) la différence (delta) entre le signal d'entrée et le résultat de la conversion (0-plus petit, 1-plus grand).
+Le résultat de la comparaison est alors entré dans un filtre appelé le décimateur, qui somme (sigma) les échantillons du signal d'entrée. Cela revient à calculer l'intégrale de la différence entre l'entrée et la sortie.
+Cela crée un système asservi (la sortie est rebouclée sur l'entrée) qui fait osciller la valeur de l'intégrale du signal à convertir autour d'une valeur de référence (le résultat de la conversion).
+La sortie numérique du comparateur est sur 1 bit à haute fréquence (la fréquence d'échantillonnage), qui est filtrée par le décimateur qui augmente le nombre de bits en réduisant la pseudo fréquence d'échantillonnage.
+L'intérêt de ce genre de convertisseur réside dans sa grande résolution de sortie possible (16, 24, 32 bits voire plus) pour des signaux d'entrée avec une bande passante modérée.
+Ces convertisseurs sont adaptés à la conversion de signaux analogiques issus de capteurs dont la bande passante est souvent faible (par exemple les signaux audio). Les convertisseurs Sigma-Delta sont, par exemple, utilisés dans les lecteurs de CD dans le cas d'une conversion numérique-analogique.
+Les technologies Sigma-Delta ont quasi totalement remplacé les technologies à simple ou double rampe.
+
+Convertisseur à approximations successives
+Schéma de principe d'un convertisseur à pesées successives
+Très proches en termes de composition des convertisseurs à simple rampe, les convertisseurs à approximations successives (aussi appelées pesées successives) utilisent un processus de dichotomie pour traduire numériquement une tension analogique.
+Un séquenceur (généralement nommé SAR pour Successive Approximation Register) (en), couplé à un CNA, produit une tension analogique, qui est comparée au signal à convertir. Le résultat de cette comparaison est alors introduit dans le SAR, qui va le prendre en compte, pour la suite du processus de dichotomie, jusqu'à complétion.
+Le convertisseur réalise donc sa conversion en positionnant en premier le bit de poids fort (MSB) et en descendant progressivement jusqu'au LSB.
+Les convertisseurs à approximations successives ont des temps de conversion de l'ordre de la dizaine de microsecondes, pour des résolutions d'une douzaine de bits environ.
+Exemple : Image ci-contre un modèle capacitif à approximations successives
+Le modèle capacitif (à redistribution de charge) est sans doute le plus fabriqué car il est plus facile à intégrer donc moins cher qu'un R2R. Il est de par sa structure rapide pour sa consommation.
+
+Convertisseur flash
+Structure d'un convertisseur flash
+Le principe est de produire 2 N 1 (-displaystyle 2(N)-1-;) tensions analogiques au moyen d'un diviseur de tension à 2 N (-displaystyle 2(N)-;) résistances.
+Les 2 N 1 (-displaystyle 2(N)-1-;) tensions obtenues aux bornes de chacune des résistances sont ensuite comparées dans 2 N 1 (-displaystyle 2(N)-1-;) comparateurs au signal à convertir.
+Un bloc logique combinatoire relié à ces comparateurs donnera le résultat codé sur N (-displaystyle N-;) bits en parallèle.
+Cette technique de conversion est très rapide, mais coûteuse en composants et donc utilisée pour les applications critiques comme la vidéo.
+Il est difficile d'assurer une bonne linéarité de la conversion, car cela nécessite que toutes les résistances soient égales avec une précision d'autant plus grande qu'il y a un grand nombre de résistances.
+Les convertisseurs Flash ont des temps de conversion inférieurs à la microseconde mais une résolution assez faible (de l'ordre de 8 bits) et sont souvent très chers.
+
+Convertisseurs semi-flash pipeline
+Schéma de principe d'un convertisseur Semi-Flash
+De manière à limiter le nombre total de comparateurs, ces convertisseurs utilisent plusieurs étages flash de précision réduite (typiquement 3 ou 4 bits) chaînés.
+Chaque flash pilote un convertisseur numérique-analogique dont la sortie est soustraite au signal analogique d'entrée.
+L'étage suivant code le résultat de la différence, améliorant ainsi la précision finale. Un convertisseur semi-flash effectue l'ensemble des opérations en un seul cycle d'horloge, ce qui limite sa vitesse au temps de propagation total le long de la chaîne.
+En revanche, un convertisseur pipeline utilise un cycle d'horloge par étage. Ce séquencement nécessite un échantillonneur-bloqueur et un registre par étage mais permet d'être plus rapide puisque plusieurs échantillons sont traités simultanément.
+Schéma de principe d'un convertisseur Pipeline
+Voir aussi: Convertisseur numérique-analogique; Échantillonnage (signal); Numérisation; Quantification (signal); Segmentation sur les DAC; Serveur vidéo. Portail de l'électricité et de l'électronique.

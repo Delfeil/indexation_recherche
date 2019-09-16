@@ -1,0 +1,12 @@
+La zone de chalandise d'un établissement commercial est sa zone géographique d'influence, d'où provient la majorité de la clientèle. Elle s'étend schématiquement sous la forme de courbes isochrones dont le centre est le point de vente, mais est en fait profondément modifiée à la marge par les implantations concurrentes et la sociologie des localités couvertes. Cette forme de courbe est surtout utilisée à des fins prévisionnelles lors d'une ouverture.
+Il existe deux types de zone de chalandise :
+- Isométrique : elle se base sur la distance "directe" entre deux points, à vol d'oiseau (La boutique et un autre endroit).
+- Isochrone : celle-ci se base sur le temps nécessaire pour se rendre jusqu'au point de vente (exemple : 10 minutes en voiture).
+Pour les points de vente en fonctionnement, la zone de chalandise est plus souvent divisée en fonction de la part de la population fréquentant le point de vente au sein de chaque zone. Ceci permet de définir l'attractivité du point de vente par rapport à sa concurrence.
+La zone de chalandise est l'objet d'étude principal du géomarketing.
+
+Calcul
+Grâce à quelques informations supplémentaires sur la zone dans laquelle elle se trouve, une entreprise peut calculer son chiffre d'affaires potentiel en fonction de sa zone de chalandise. Cette méthode est utilisée par les entreprises qui cherchent à s'implanter dans une zone. Elle s'appuie sur les IDC
+, indices de disparités de consommation des ménages, produits par CCI France et disponibles sur www.cciwebstore.fr.
+EXEMPLE:
+Les informations dont l'entreprise a besoin sont: Le nombre d'habitants de la zone: 60000 hab; Le nombre moyen de personnes par ménage dans cette zone: 2, 7 personnes; La consommation moyenne nationale des ménages pour le secteur d'activité de l'entreprise: 400 par an; L'indice de disparité de la consommation (IDC): 98; Le taux d'attraction commerciale (ou évasion commerciale selon le cas): +10 %; Le chiffre d'affaires des concurrents de la zone: 7000000.

@@ -1,0 +1,49 @@
+L'ACM (en anglais "Association for Computing Machinery", pouvant se traduire par "Organisme en système d'information" (littéralement "Association pour la machinerie informatique") est une organisation internationale à but non lucratif fondée en 1947, la première vouée à l'informatique.
+Sa mission consiste à développer et soutenir la recherche scientifique et l'innovation informatique. Elle siège dans la ville de New York aux États-Unis.
+
+Activités
+La structure organisationnelle de l'ACM se décline en trois antennes, thématiques, professionnelles et étudiantes.
+
+Antennes thématiques
+Les antennes thématiques de l'ACM forment des pôles d'intérêts communs autonomes, connus dans le vocabulaire anglophone sous l'appellation special interest group (SIG).
+
+Les différents pôles: SIGACCESS : Accessibilité; SIGACT : Algorithmique et Informatique théorique; SIGAda : Programmation Ada; SIGAPP : Informatique appliquée; SIGARCH : Architecture informatique; SIGART : Intelligence artificielle; SIGBED : Système embarqué; SIGCAS : Ordinateur personnel; SIGCHI : Interface homme-machine; SIGCOMM : Réseau et Télécommunications; SIGCSE : Enseignement assisté par ordinateur; SIGDA : Automation; SIGDOC : Design numérique; SIGecom : Commerce électronique; SIGEVO : Algorithme génétique; SIGGRAPH : Graphisme et Infographie; SIGIR : en Recherche d'information; SIGITE : Enseignement des TIC; SIGKDD : Exploration de données et Gestion des connaissances; SIGMICRO : Microarchitecture; SIGMIS : Management du système d'information; SIGMM : Multimédia; SIGMOBILE : Mobile (système, internet, nomadisme, etc.); SIGMOD : Gestion des données (de l'analyse au traitement); SIGOPS : Système d'exploitation; SIGPLAN : Langage de programmation; SIGSAC : Sécurité, Audit et Contrôle d'accès; SIGSAM : Calcul symbolique et mathématique; SIGSIM : Simulation et Modélisation; SIGSOFT : Génie logiciel; SIGSPATIAL : Système d'information géographique; SIGUCCS : informatique auprès des collèges et universités; ACM SIGWEB : Web, Hypertexte et Hypermédia.
+
+Antennes professionnelles: BACM : en anglais "Baltimore ACM Chapter", ((en) Site officiel).; GBCACM : en anglais "Greater Boston Chapter of the ACM", ((en) Site officiel).; DCACM : en anglais "Washington DC ACM Chapter", ((en) Site officiel).
+
+Antennes étudiantes
+Plusieurs structures étudiantes, parmi lesquelles l'université de l'Illinois à Urbana-Champaign.
+
+Services
+
+Conférences
+Chaque pôle d'intérêt commun organise des conférences technologiques et scientifiques dans son domaine de prédilection dont il publie ensuite les comptes rendus. SIGGRAPH, une conférence organisée par le SIGGRAPH. Cette conférence a rassemblé en 2007 près de 3000 visiteurs.; MobileHCI; OOPSLA.
+L'ACM a également une grande bibliothèque électronique de publications en informatique.
+
+Presse scientifique
+Elle édite par ailleurs un grand nombre de magazines et de journaux scientifiques, dont l'un, Communications of the ACM, a été l'organe de référence en recherche et en enseignement d'informatique (systèmes, langages et algorithmique) de 1960 à 1980. Le programme d'enseignement universitaire en quatre ans proposé par cette revue en 1973 a été adopté par la plupart des établissements occidentaux de cette époque.
+Une autre revue, Computing surveys, établissait de façon exhaustive l'état de l'art dans un domaine spécialisé différent pour chaque publication. Enfin, l'ACM a servi de point focal pour constituer une importante banque de sous-programmes, principalement scientifiques, d'abord en Algol, plus tardivement en Fortran, et enfin en langage C.
+
+Prix d'excellence
+L'ACM décerne également un certain nombre de prix scientifiques et technologiques, seule ou avec d'autres institutions scientifiques : prix Turing, le plus connus des prix ;; prix Paris Kanellakis; Prix Grace Murray Hopper; prix ACM du logiciel (en anglais "ACM Software System Award"), relatif aux contributions à des concepts informatique nouveaux. Parmi les lauréats, on peut citer: 1983 : Dennis Ritchie et Ken Thompson pour UNIX,; 1991 : Vint Cerf et Robert Kahn pour TCP-IP,; 1995 : Tim Berners-Lee et Robert Cailliau pour le World Wide Web,; 1998 : John Chambers pour le langage S,; 2002 : James Gosling pour le langage Java.; 1983 : Dennis Ritchie et Ken Thompson pour UNIX,; 1991 : Vint Cerf et Robert Kahn pour TCP-IP,; 1995 : Tim Berners-Lee et Robert Cailliau pour le World Wide Web,; 1998 : John Chambers pour le langage S,; 2002 : James Gosling pour le langage Java.; prix ACM en informatique (anciennement prix ACM-Infosys); prix SIAM-ACM en science informatique et ingénierie (en anglais "Prize in Computational Science and Engineering").
+
+Structure interne
+Siège de l'ACM à New York.
+Présidences de l'ACM: 1947 - 1948 : J.H. Curtiss; 1949 - 1950 : John William Mauchly; 1950 - 1952 : Franz L. Alt; 1952 - 1954 : Samuel B. Williams; 1954 - 1956 : A.S. Householder; 1956 - 1958 : J.W. Carr III; 1958 - 1960 : Richard Hamming; 1960 - 1962 : Harry D. Huskey; 1962 - 1964 : Alan Perlis; 1964 - 1966 : George E. Forsythe; 1966 - 1968 : Anthony G. Oettinger; 1968 - 1970 : Bernard A. Galler; 1970 - 1972 : Walter M. Carlson; 1972 - 1974 : Anthony Ralston; 1974 - 1976 : Jean E. Sammet; 1976 - 1978 : Herbert R.J. Grosch; 1978 - 1980 : Daniel D. McCracken; 1980 - 1982 : Peter J. Denning; 1982 - 1984 : David H. Brandin; 1984 - 1986 : Adele Goldberg; 1986 - 1988 : Paul W. Abrahams; 1988 - 1990 : Bryan S. Kocher; 1990 - 1992 : John R. White; 1992 - 1994 : Gwen Bell; 1994 - 1996 : Stuart H. Zweben; 1996 - 1998 : Charles House; 1998 - 2000 : Barbara Simons; 2000 - 2002 : Stephen Bourne; 2002 - 2004 : Maria M. Klawe; 2004 - 2006 : David Patterson; 2006 - 2008 : Stuart Feldman; 2008 - 2010 : Wendy Hall; 2010 - 2012 : Alain Chesnais; 2012 - 2014 : Vint Cerf; 2014 - 2016 : Alexander L. Wolf; 2016 - 2018 : Vicki L. Hanson.
+
+Adhésion
+N'importe qui peut devenir membre de l'association et le reste tant qu'il s'acquitte de sa cotisation annuelle. Celle-ci est de 99 dollars US pour les professionnels et 19 dollars pour les étudiants (en 2013). Néanmoins ces tarifs sont ajustés à la baisse pour les personnes résidentes dans un pays en voie de développement. Chaque membre reçoit la revue mensuelle Communication of the ACM ou peut la lire en format électronique. L'accès à la bibliothèque numérique contenant toutes les publications d'ACM (sauf les comptes rendus (proceedings) des conférences et les livres) est facturée 99 dollars. Il est possible de devenir membre d'un ou plusieurs SIG, le tarif variant de l'un à l'autre et inclut l'abonnement à la revue spécialisée dans le domaine couvert par le SIG, par exemple 25 dollars pour SIGPLAN.
+
+Classes
+L'ACM a plusieurs classes de membres, dans le but d'y distinguer les plus prestigieux.
+
+Membre senior
+La première classe distingue jusqu'à 25 % des membres de l'ACM, de par leurs performances.
+
+Membre éminent
+La seconde classe rassemble jusqu'à 10 % des membres de l'ACM. Elle est constituée de trois catégories : enseignement, ingénierie et science.
+
+Fellow
+La troisième classe existe depuis 1994. Elle a pour but de reconnaître les membres "pour leurs accomplissements exceptionnels en informatique et technologie de l'information et-ou leur service exceptionnel pour l'ACM et la communauté informatique dans son ensemble". Elle compte environ 900 membres.
+
+Voir aussi

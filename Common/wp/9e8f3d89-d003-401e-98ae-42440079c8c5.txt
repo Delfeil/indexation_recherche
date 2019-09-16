@@ -1,0 +1,120 @@
+Un registre de métadonnées est, selon la définition qu'en donne le Dublin Core dans l'ébauche finale du 24 février 2001, un "Système de gestion des métadonnées, c'est-à-dire un système formel qui fournit l'information d'autorité sur la sémantique et la structure de chaque élément. Pour chaque élément, le registre en donne la définition, les qualificatifs qui lui sont associés, ainsi que les correspondances avec des équivalents dans d'autres langues ou d'autres schémas.
+
+Utilisation des registres de métadonnées
+
+Exemples
+Les registres de métadonnées sont utilisés à chaque fois que des données doivent être utilisées de façon cohérente dans une organisation ou un groupe d'organisations : Administration et ses établissements déconcentrés ou décentralisés,; Informations géographiques,; Pôles de compétitivité,.
+etc.
+Voici quelques exemples où se présentent de telles situations : Les organisations qui transmettent des données en utilisant des structures comme XML, web services ou EDI.; Les organisations qui ont besoin de définitions cohérentes des données dans le temps, entre les organisations ou entre les processus. Par exemple lorsqu'une organisation construit un entrepôt de données.; Les organisations qui essaient de décomposer des "silos" d'informations saisies dans des applications ou des fichiers propriétaires.
+
+Un élément essentiel pour instaurer la confiance dans l'interopérabilité informatique
+La tenue de registres de métadonnées est un élément essentiel pour garantir la protection du patrimoine informationnel, dans des contextes où l'on doit échanger à grande échelle des informations, avec de fortes contraintes d'interopérabilité.
+Il est capital, dans une charte de projet de gestion des métadonnées, que le processus de création de relations de confiance avec les parties prenantes repose sur des définitions et des structures revues et approuvées par les parties prenantes appropriées.
+
+Description des registres de métadonnées
+
+Caractéristiques communes
+Un registre de métadonnées a typiquement les caractéristiques suivantes : 1) C'est une zone protégée où seules des personnes habilitées peuvent faire des modifications ;; 2) Il enregistre des éléments qui incluent à la fois la sémantique et les classes de représentations ;; 3) Les zones sémantiques d'un registre de métadonnées contiennent la signification d'un élément avec des définitions précises ;; 4) Les zones de représentation d'un registre de métadonnées définissent comment la donnée est représentée dans un format spécifique comme dans une base de données ou une structure de format de fichier comme XML.
+
+Distinction entre sémantique et contraintes spécifiques des systèmes
+Comme les registres de métadonnés sont utilisés à la fois pour enregistrer la sémantique (la signification des éléments) et les contraintes spécifiques des systèmes (par exemple, la longueur maximum d'un champ), il est important d'identifier ce que les systèmes imposent comme contraintes et de les documenter. Par exemple, la longueur maximum d'un champ ne doit pas changer la signification d'un élément.
+
+Organisation de la gestion des registres
+Le gouvernement américain conseille fortement d'appliquer la norme ISO-CEI 11179 pour la tenue d'un registre de métadonnées. La partie 6 de cette norme (enregistrement, 62 pages, disponible en anglais seulement), donne beaucoup d'informations sur l'organisation à mettre en place.
+
+Profils de responsabilité
+Un registre de métadonnées est souvent mis en oeuvre et administré par l'architecte de données ou l'équipe de modélisation des données d'une organisation.
+Les données élémentaires sont souvent assignées à des data stewards ou des équipes de data stewardship qui ont la responsabilité de mise à jour des données élémentaires.
+
+Flux de métadonnées
+La mise en oeuvre de registres de métadonnées doit être accompagnée de la rédaction de procédures formelles de soumission, d'approbation, et de publication.
+Chaque élément doit être accepté par une équipe de data stewardships et revue avant que les éléments ne soient publiés. Après la publication, des processus de contrôle du changement doivent être appliqués.
+
+Outils de navigation, de recherche et de publication
+Les registres de métadonnées sont souvent des structures importantes et complexes et nécessitent des outils de navigation, de visualisation et de recherche.
+L'utilisation d'outils de visualisation hiérarchiques est une partie essentielle d'un système de registre de métadonnées. La publication de métadonnées consiste à diffuser les définitions et les structures des données élémentaires aux personnes et aux systèmes informatiques.
+
+Dans l'Union européenne
+Il n'y a pas actuellement de registre propre à l'Union européenne, sauf pour les données environnementales. On remarquera que le gouvernement canadien est passé à une gestion des métadonnées depuis 2001 dans toutes les administrations, et ceci dans les deux langues officielles du Canada.
+La directive INSPIRE demande d'harmoniser les données géographiques, notamment les métadonnées, dans l'Union européenne.
+En France, le ministère de l'Écologie et du Développement durable a établi des fiches techniques "diffusion des données" applicables aux DIREN (actuellement intégrées aux DRIRE).
+Il semble évident que les registres de métadonnées concernent tout le monde. Les subtilités dialectiques ou juridiques consistant à savoir si la tenue d'un registre de métadonnées relève du service public, d'un service d'intérêt général, ou d'un service d'intérêt économique général, ne font pas l'objet de cet article.
+
+Cadre général
+
+Normes sur les registres de métadonnées
+L'Organisation internationale de normalisation (ISO) a publié les standards suivants sur les registres de métadonnées : ISO-CEI 11179 : Registres de métadonnées (en anglais seulement). ISO-CEI 19763 : Framework for Metamodel Interoperability (en anglais seulement). ISO-CEI TR 20943-1:2003 : Technologies de l'information - Procédures en vue d'obtenir la cohérence du contenu d'un registre de métadonnées - Partie 1 : Éléments de données (en anglais seulement). ISO 20944 : Metadata Registry Interoperability (en anglais seulement).
+Ces normes sont employées pour la tenue des registres de métadonnées des États-Unis.
+Voir aussi : Processus d'élaboration d'une norme ISO; Extended Metadata Registry.
+D'autres normes peuvent être employées, comme celle sur les terminologies : ISO 12620 : Catégories de données terminologiques qui seront utilisées pour représenter les unités d'information d'un langage de représentation de données terminologiques. Chaque catégorie de données est modélisée par un ensemble de propriétés décrites à l'aide du modèle RDF (Resource Description Framework).
+Référentiels
+La tenue d'un registre de métadonnées se base généralement sur un référentiel d'éléments de métadonnées, qui comporte les types de termes employés par des organismes ayant une communauté d'intérêts.
+Le référentiel Dublin Core mis au point par le gouvernement des États-Unis en 1995 a été adopté par un certain nombre de gouvernements pour les registres de métadonnées publics, ainsi que par des organisations intergouvernementales. Il comporte 15 éléments.
+L'Union européenne a adopté une résolution sur l'utilisation des URI et des métadonnées du Dublin Core, mais ne tient pas de registre de métadonnées conformément aux recommandations de la norme ISO-CEI 11179. Le gouvernement des États-Unis prend garde d'appliquer cette dernière norme pour tous ses registres de métadonnées.
+Voir : Communication par l'internet de la Commission européenne
+
+Spécifications techniques sur le commerce électronique
+Le commerce électronique a fait l'objet d'une spécification internationale, ebXML. Une organisation des Nations unies, l'UN-CEFACT, est chargée de développer, d'approuver et de maintenir les contenus d'affaires (composants communs et modèles de processus d'affaires) et les spécifications techniques associées conformément à ebXML.
+La gestion efficace des services web ne peut se faire que par l'utilisation conjointe d'ebXML et du registre d'annuaires UDDI.
+Le standard ebXML figure dans un site web dont le nom de domaine comporte.eu (réservé à l'Union européenne) et.org (but non lucratif).
+Voir : Centre des Nations unies pour la facilitation des procédures commerciales et le commerce électronique
+Version 2.1 du standard, mars 2004, en anglais: ISO-TS 15000-3 : standard de modèle d'information du registre (version 2.1 du standard, mars 2004, en anglais),; ISO-TS 15000-4 : standard de services de registre.
+Version 3.0 du standard adoptée au printemps 2005, traduite en français : Partie 1 : Modèle d'information du registre ebXML-OASIS, v 3.0 (1,1 Mo); Partie 2 : Services et protocole du registre ebXML-OASIS, v 3.0 (1,9 Mo).
+Voir aussi : Registre référentiel ebXML OASIS
+
+Exemples de registres de métadonnées publics, travaux en cours
+
+International: Registre de métadonnées de la marine.
+
+Union européenne
+Projet CORES
+Le groupe de projet qui a travaillé sur la CORES Resolution pour la Commission européenne, a adopté le Uniform Resource Identifier (URI) en novembre 2002 pour l'accès aux ressources web.
+Ce n'est pas un registre de métadonnées, mais ces informations peuvent servir de base pour l'établissement de registres publics.
+Voir la composition du groupe de travail dans Métadonnées dans l'Union européenne
+Projet CORES, financé par la Commission européenne.
+Forum sur le registre de métadonnées SCHEMAS, projet CORES.
+Projet MIReG
+Le projet Management Information Resources for eGovernment vise à établir un framework de métadonnées pour les informations gouvernementales, basé sur le Dublin Core. Seuls le Danemark, le Royaume-Uni, et le DCMI participent à ce projet.
+Environnement
+Sur l'environnement : General Multilingual Environmental Thesaurus (GEMET, European Environment Information and Observation Network) de l'Agence européenne de l'environnement, à Copenhague au Danemark.
+La personne qui tient le registre de l'agence européenne de l'environnement est Stefan Jensen.
+À vérifier : Ce registre fait partie du projet eXtended Metadata Registry, XMDR, il n'implémente que partiellement ISO-CEI 11179. (Bruce Bargmeyer est à la fois sur le registre de l'Environmental Protection Agency et celui de l'Agence européenne de l'environnement).
+Directive INSPIRE sur les données géographiques
+La directive INSPIRE demande que chaque État membre mette en place des registres pour les informations géographiques.
+
+Royaume-Uni: DESIRE metadata registry Development of a European Service for Information on Research and Education, UK Office for Library and Information Networking, université de Bath, 1999. Le projet DESIRE s'est déroulé entre 1998 et 2000, avec le projet SCHEMAS. Il a engendré les projets de registres : CORES Project et MEG Project (Metadata for Education Group). ROADS matadata registry (Resource Organisation And Discovery in Subject-based services), depuis 2000.; Highways Agency Metadata Registry; MEG Registry sur l'éducation.
+
+Allemagne: Registre de métadonnées allemand travaux commencés en 1996.
+Ce site ne constitue pas un site d'enregistrement officiel ou obligatoire pour les métadonnées, mais est plutôt un ensemble de ressources pour aider ceux qui sont intéressés par l'implémentation des métadonnées.
+
+Hongrie
+Application du projet CORES en Hongrie
+
+Canada: Site canadien d'accès à des registres de métadonnées (lien mort); Registre référentiel des services gouvernementaux du Québec (lien mort).
+
+États-Unis
+Le registre de métadonnées du département de la Défense est géré dans le cadre d'architecture DoDAF (voir exigence data-driven).
+Le Global Justice XML Data Model (GJXDM (en)) constitue un modèle de données de référence pour l'échange d'informations avec la justice et les communautés de sécurité publique. Intelligence community metadata registry, January 2003; Environmental Protection Agency - Environmental Data Registry; Département de la Défense des États-Unis Metadata Registry (requires sponsored registration); Cancer Data Standards Repository; Global Justice XML Data Model (GJXDM); National Information Exchange Model; National Science Digital Library.
+Le projet XMDR (eXtended MetaData Registry est un ensemble de registres suivis par le Lawrence Berkeley National Laboratory dans plusieurs domaines : Environnement; Biologie et médecine; Chimie (utilisé par les applications environnementales, biologiques et médicales); Systèmes d'informations géographiques (pour l'EPA, DOD et DOE); Ontologies bibliographiques; Terminologies générales; Ensemble de codes économiques; Ensemble de métadonnées et terminologies variées.
+
+Australie: Australian Institute of Health and Welfare.
+
+Nouvelle-Zélande: Réflexions en 2003.
+
+Japon: Information globale sur la biodiversité.
+
+Chine
+Metadata development in China (situation en décembre 2004)
+Les projets nationaux ou spécifiques à un domaine sont : Standard for the Metadata of Information Sharing for Sustainable Development of China; Specification for Learning Object Metadata (CELTS-3); Standard for the National Fundamental Geographic Information System (NFGIS) Metadata; Metadata specifications within the project Establishment of Standards and Specifications for the Chinese Digital Library (ESSCDL).
+
+Inde: Développement d'un registre de métadonnées en Marâthî (2002).
+
+France
+Il n'existe pas encore de registre de métadonnées officiel. Il n'existe pas de traduction officielle, unique, et complète de la norme Dublin Core en français : Projet de traduction française de la norme internationale de métadonnées Dublin Core, par Marie-Claude Côté, Conseil du Trésor canadien (16 octobre 2006).
+Il n'existe pas non plus de traduction en français d'autres normes relatives aux métadonnées : ISO-CEI TR 20943-1:2003 sur les registres de métadonnées,; gestion des documents d'archive...
+
+Voir aussi
+
+Articles connexes: Métadonnée; Dublin Core; ISO-CEI 11179; Metadata registry (Wikipédia anglophone).
+
+Source: (en) Cet article est partiellement ou en totalité issu de l'article de Wikipédia en anglais intitulé "Metadata registry".

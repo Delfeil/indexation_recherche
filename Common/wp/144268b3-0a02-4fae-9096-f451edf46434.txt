@@ -1,0 +1,97 @@
+Une facture est un document qui atteste de l'achat ou de la vente de biens ou services.
+C'est avant tout un document qui mentionne le mot "facture". Un document portant mention de "Bon de commande", "Bulletin de commande", "Bon de livraison", "Bulletin de livraison", n'est pas une facture.
+C'est une pièce comptable par laquelle un créancier (généralement un fournisseur) établit une créance vis-à-vis d'un débiteur (le plus souvent son client) en vue de déclencher le paiement d'une dette, soit le plus souvent se rétribuer de la fourniture d'un bien ou de la prestation d'un service faite à ce client.
+Il faut la mention "facture" sur toutes les factures.
+
+Enjeux de la facture
+La facture représente le document de comptabilité générale par excellence. Elle implique à sa réception l'obligation de payer à échéance et doit donc être comptabilisée à ce jour. Si elle concerne une immobilisation, il y a acquisition ou cession. Si elle concerne un achat ou une vente de biens ou services d'utilisation non durable, il y a produit. Pour pouvoir comptabiliser correctement, il faut aussi tenir compte à la réception de la facture de la date de paiement (au comptant ou non) et de la taxe sur la valeur ajoutée (TVA).
+
+Termes connexes: La comptabilité distingue la facture de "doit" (payée par le client) de la facture "d'avoir" (dû au client par la société).; En cas de retour de marchandise, une note de crédit doit être fournie au client lui accordant un avoir sur la facture.; Facture "pro-forma"; Facture d'acompte (avec régularisation lors de la délivrance de la marchandise. La TVA peut être facturée avec l'acompte); Facture d'avance (sans facture de régularisation, mais doit comporter des mentions complémentaire de lieu de stockage de la marchandise, et nécessite de gérer et distinguer en stock la marchandise appartenant au client. La TVA doit être facturée dès la facture d'avance); Facture de réservation (nécessite une facture de régularisation lors de la délivrance de la marchandise); Duplicata de facture; Avantages dits "hors facture".
+
+La production des factures
+
+Facturation en France
+Facture d'élctricité
+En France, le Code de commerce impose la facturation pour les achats de produits ou de prestations de service pour toute activité professionnelle.
+Le vendeur doit l'émettre, avec toutes les informations légales dès la réalisation de la vente ou la prestation, alors que l'acheteur doit la réclamer s'il ne la reçoit pas dans un délai raisonnable.
+Elle est établie en un exemplaire pour chacun, et doit être conservé(e), au minimum dix ans après le dernier paiement(3).
+
+Mentions obligatoires
+La production d'une facture est libre dans la forme mais le Code de commerce français oblige d'y mentionner : le nom des parties et leur adresse respective; la date de la vente ou de la prestation de service; la quantité et la dénomination précise des biens ou services en cause; le prix unitaire hors taxes des produits vendus et des services rendus; toute réduction de prix acquise à la date de la vente ou de la prestation de services et directement liée (sauf les escomptes non prévus); la date de règlement; la facture doit être conservée 10 ans après l'achat pour une preuve; les conditions d'escompte en cas de paiement anticipé; le taux des pénalités exigibles en cas de dépassement.; à compter du 1er janvier 2013, le montant de l'indemnité forfaitaire pour frais de recouvrement, due par le débiteur en cas de dépassement de la date de paiement indiquée sur la facture (montant fixé à 40 par le Décret n2012-1115 du 2 octobre 2012).
+Le règlement est réalisé dès que les fonds sont mis à la disposition du bénéficiaire par le client.
+De plus, le Code général des impôts ajoute la nécessité de mentionner : le numéro d'identification à la TVA du vendeur et du client (le numéro de TVA du client reste facultatif pour les opérations réalisées en France),; un numéro de facture unique basé sur une séquence chronologique et continue (des séries distinctes peuvent être utilisées pour des activités qui le justifient),; Si l'entreprise est assujettie à la TVA, le taux de TVA applicable à chacun des biens livrés ou services rendus ou, le cas échéant, bénéficiant d'une exonération ;; Si l'entreprise n'est pas assujettie à la TVA (régime : franchise de base), la mention "TVA non applicable, article 293 B du CGI" doit être inscrite ;; le montant de la taxe à payer et, par taux d'imposition, le total H.T. et la taxe correspondante (Si l'assujetti facture une TVA autre que française, il doit préciser qu'il s'agit de la taxe de tel ou tel pays étranger),; le cas échéant, la référence à la disposition pertinente du CGI ou à la disposition correspondante de la sixième directive de TVA du 17 mai 1977 ou à toute autre mention indiquant que l'opération bénéficie d'une mesure d'exonération, d'un régime d'auto liquidation ou du régime de la marge bénéficiaire,; si le contribuable est adhérent d'un centre de gestion agréé, la mention "Acceptant le règlement des sommes dues par chèques libellés à son nom en sa qualité de membre d'un centre de gestion agréé par l'administration fiscale".
+Chaque mention manquante ou inexacte peut faire l'objet d'une amende de quinze euros, étant précisé que cette dernière ne peut excéder le quart du montant de la facture litigieuse (article 1737 II du CGI).
+Cas particulier de l'avoir : L'avoir doit comporter le No de la facture concernée (ex : à annuler).
+
+Délais de paiement
+Les retards de paiement sont préjudiciables aux acteurs économiques, car souvent dus à une situation financière défavorable du débiteur et entraînant un risque d'insolvabilité. Les échéances de paiement sont variables en Europe selon les habitudes commerciales, entre 30 jours en France et en Suisse, 32 jours en Scandinavie et 78 jours en Europe du Sud.
+Les retards de paiement se sont dégradés en 2008 en s'établissant à 13,8 jours, en moyenne en Europe, au lieu de 12,7 jours un an avant: 23 jours au Portugal; 19,4 jours en Irlande; 17,3 jours en Italie; 15,8 jours au Royaume-Uni; 14,7 jours en Espagne; 13,7 jours en Belgique; 11,9 jours en France; 11,6 jours aux Pays-Bas; 10,4 jours en Allemagne.
+Pour éviter de subir les délais de paiement, il est possible d'avoir recours à l'affacturage à l'initiative du créancier ou à l'affacturage inversé à l'initiative du débiteur. Les créanciers ont la possibilité de demander des intérêts de retard, soit librement fixés contractuellement, soit en l'absence de précisions du taux de la BCE plus dix points, soit 0,75 + 10 - 10,75 % au 11 juillet 2011.
+En France, à compter du 1er janvier 2009, le délai de règlement est de trente jours en l'absence de convention spécifique. Le délai maximum est de quarante-cinq jours, fin de mois ou soixante jours. Dans certains secteurs, tels le transport routier ou la location de véhicules, les délais de paiement sont limités à trente jours. Les organisations professionnelles d'un secteur d'activité peuvent réduire ces délais, mais ne peuvent les augmenter que si des raisons économiques objectives et spécifiques à ce secteur l'imposent. L'accord doit prévoir la réduction progressive du délai dérogatoire vers le délai légal avant 2012. Pour certains produits alimentaires périssables, les délais maximum sont de : quarante jours pour les achats de produits alimentaires périssables et de viandes ou de poissons surgelés, de plats cuisinés et de conserves fabriqués à partir de produits alimentaires périssables; vingt jours pour les achats de bétail sur pied; trente jours fin du mois pour les alcools.
+
+Délai de conservation des factures
+
+En Belgique, toutes régions confondues
+La facture doit être conservée en règle générale 7 ans. Toutefois, pour des raisons de plus longue responsabilité, les factures dans le domaine de la construction sont à archiver 10 ans, ainsi que les factures avec des partenaires commerciaux situés dans des pays où, pour raison fiscale, le délai de conservation est plus long.
+
+En France
+Selon le produit et le service facturé, la durée de conservation des factures varie de 1 à 10 ans.
+
+En Suisse
+L'article 958f du Code des obligations, dans le titre (XXXIIème) consacré à la comptabilité commerciale, prévoit: Les livres et les pièces comptables ainsi que le rapport de gestion et le rapport de révision sont conservés pendant dix ans. Ce délai court à partir de la fin de l'exercice.
+Mais un créancier peut réclamer le paiement d'une facture et cela plusieurs années plus tard auprès du débiteur, même si celui-ci a honoré sa facture, d'où l'importance de conserver ses factures pendant un certain délai.
+Le Code des obligations le stipule au Titre troisième : De l'extinction des obligations, aux Art 114 à 142.
+Les délais standards sont indiqués aux Art 127 et 128: Art. 127 : Toutes les actions se prescrivent par dix ans, lorsque le droit civil fédéral n'en dispose pas autrement. Art 128 : Se prescrivent par cinq ans: 1. les loyers et fermages, les intérêts de capitaux et toutes autres redevances périodiques;; 2. les actions pour fournitures de vivres, pension alimentaire et dépenses d'auberge;; 3. les actions des artisans, pour leur travail, des marchands en détail, pour leurs fournitures; des médecins et autres gens de l'art, pour leurs soins, des avocats, procureurs, agents' de droit et notaires, pour leurs services professionnels ainsi que celles des travailleurs pour leurs services.
+Par redevances périodique, cela sous-entends les factures qui reviennent de manière répétitive. Factures d'électricité, d'assurance, téléphone, loyer etc.
+À noter que le délai de prescription peut être interrompu et recommencer à courir, lorsque le débiteur reconnaît la dette ou paie un acompte: le délai prévu par la loi recommence à partir de la date de la reconnaissance de dette ou du dernier acompte payé.
+Dans un autre cas, lorsque la créance non payée fait l'objet d'une procédure de mise en poursuites: la créance ne sera prescrite que 20 ans après la réception de l'acte de défaut de biens.
+
+La dématérialisation de factures
+Cette technique qui se répand de plus en plus consiste à supprimer le format papier de la facture, pour la transformer en facture numérique. Ce processus permet aux entreprises qui l'appliquent d'économiser jusqu'à 70 % de leurs frais liés à la facturation (impression, mise sous pli, envoi, et-ou ouverture, saisie, archivage). De plus, le processus de facturation est hautement accéléré, car l'envoi est instantané (contrairement à la facture papier qui subit les temps d'acheminement), le temps de saisie est annulé et les montants s'inscrivent automatiquement dans les écritures comptables (tout en annulant le risque d'une faute de saisie). Enfin, cette solution protège aussi l'environnement, car elle permet de ne plus utiliser de papier (protection des forêts), de ne plus acheminer les factures (réduction des émissions de CO2), et enfin en stockant les factures sous un format numérique sur support électronique, il y a une économie d'espace.
+Les décideurs interrogés dans une étude portant sur la dématérialisation de factures fournisseurs se disent motivés à automatiser l'ensemble de la chaîne d'achat et des documents associés à la facture en vue de : réduire les coûts de traitement des documents; diminuer les échanges administratifs avec les fournisseurs; automatiser les rapprochements commande-facture et bon de commande-bon de livraison; améliorer la qualité et de la fiabilité des informations ainsi que celle du contrôle interne.
+Les autres avantages attribués à la dématérialisation des factures sont : la réduction du temps de recherche des factures archivées; l'accélération des contrôles fiscaux; la limitation des erreurs de saisie des factures; la limitation des fraudes.
+On peut cependant noter un problème dans le cas d'une relation commerciale entre une entreprise et un particulier (consommateur), où la facturation par Internet peut être source d'ennuis, tout du moins pendant une certaine période d'adaptation. UFC - Que choisir considère que la dématérialisation de factures n'a aucun avantage financier pour le particulier et présente l'inconvénient de le rendre moins vigilant sur ses dépenses.
+De plus, certains consommateurs se plaignent de se retrouver en facture électronique sans le vouloir et de ne pas pouvoir revenir à la facture papier. Officiellement, et pour la Direction de la consommation et des fraudes, "la délivrance de la facture sur support papier est gratuite" pour le consommateur. La facture sur internet est plus difficile à consulter car un mot de passe est nécessaire, alors que l'information est disponible immédiatement sur une facture papier. Ainsi, pour l'association française des utilisateurs de télécommunications (Afutt), la facturation est la première cause de litige.
+Le coût d'impression de la facture est reporté sur le client. Au-delà de la durée de stockage de la facture par le fournisseur, le cout du stockage est à la charge du consommateur. De plus certaines sociétés, comme Free, contraignent leurs clients à "s'engager à (...) consulter tous les mois sa facture" sur internet.
+
+La Comptabilisation des factures
+
+selon les normes françaises
+
+Comptabilisation d'une facture courante
+Les factures courantes (simples) concernent les achats ou ventes de biens ou services et sont soumises à un taux de TVA de 20 % (en France). L'échéance est retardée, c'est pour cette raison qu'une facture n'engendre pas uniquement des enregistrements dans le compte de la banque ou la caisse de l'entreprise mais qu'elle peut aussi être constatée en tant que créance (client) ou une dette (fournisseur).
+
+Le calcul mathématique d'une facture courante
+Prix d'achat ou de vente: montant de la remise (% du prix); - Net Hors taxe (appelé souvent net commercial); + Net hors taxe - % de TVA (c'est-à-dire le montant de la taxe sur la valeur ajoutée); - Net à payer (toute taxe comprise TTC).
+
+Le schéma de comptabilisation
+Le schéma de comptabilisation classique d'une facture (exemple de 110 de prix d'achat avec 10 de remise soit un prix net hors taxe de 100 auxquels s'ajoute 20 de TVA en France) :
+Chez le fournisseur (qui vend) :
+Chez le client (qui achète) :
+
+Comptabilisation d'une facture composée
+La facture peut supporter des flux qui ne sont pas automatiquement ceux relatifs au simple fait d'acheter ou de vendre. La facture peut se complexifier pour délai de paiement réduit (en cas d'immobilisation l'escompte est directement déduit du prix d'acquisition). L'escompte peut aussi être constaté au paiement. de frais de port : si le transport est payé par le client.; d'emballages : si les emballages sont considérés comme récupérables. Les emballages récupérables doivent être constatés en comptabilité chez le fournisseur et le client. Voir aussi Les emballages en comptabilité française.
+
+Le calcul mathématique d'une facture composée
+Prix d'achat ou de vente (hors taxe): montant de la remise (% du prix); - Net Hors taxe (appelé souvent net commercial); Escompte (% du net hors taxe si réduction du délai de paiement); - Net financier; + Frais de port (si payé par client); + Emballage (si récupérables); - Net; + (net financier+frais de port) - % de TVA; - Net à payer (toute taxe comprise TTC).
+
+Le schéma de comptabilisation
+Le schéma de comptabilisation d'une facture composée type (exemple de 110 de prix d'achat - 10 de remise signifie un net hors taxe de 100 , suivi d'un escompte à 10 % (donc de 10), et 1 de frais de port et 1 d'emballage signifie un net de 92 et 18 de TVA à 20 %) est en France :
+Calcul : 110 - 10 - 100 ; 100 - 10 + 1 + 1 - 92 ; 92 + 18 - 110 (Pour les immobilisations ou dans le cas des normes IFRS, les escomptes sont déduits du prix d'acquisition et non indiqués en 665 et 765).
+Pour un achat :
+Pour une vente :
+
+Les avoirs: En comptabilité, le retour de produits ou marchandises vendus implique la constatation d'une écriture inverse de celle réalisée à la date de réception de la facture.
+En reprenant uniquement l'exemple précédent d'un achat. L'avoir pour retour d'achat s'enregistre comme ceci : L'écriture d'une ristourne ou rabais (réduction de prix d'un pourcentage soit pour avoir réalisé un chiffre d'affaires ou pour produits défectueux) et pour remise oubliée sur la première facture.
+Chez l'acheteur pour un rabais ou une ristourne de 100.
+Chez le vendeur pour un rabais ou une ristourne de 100.
+
+Comptabilisation des stocks
+Les stocks sont gérés de manière extra-comptable pour n'être régularisés qu'en fin d'exercice, souvent par l'expert comptable. Ainsi, la concordance des enregistrements par facture et la réalité physique des stocks est réalisée par écriture d'inventaire en fin de période, pour réaliser les comptes annuels.
+
+Comptabilisation selon les normes anglo-saxonnes
+En comptabilité anglo-saxonne, à supposer que le produit ait coûté 60 euros au fournisseur "F", l'écriture chez lui est complétée par "débit Coût des ventes 60,00" - "crédit stock 60,00", dégageant donc une marge brute de 40.00. Chez le client "C", "débit Achats 100,00" est remplacé par "débit Stocks 100,00" et l'opération ne constate donc ni enrichissement ni appauvrissement, l'actif augmentant de 100,00 (stock) + 20 (créance sur l'État) et le passif augmentant de 120 (dette vis-à-vis de F).
+
+Voir aussi
+
+Articles connexes: Affacturage; Affacturage inversé; Lettre de change. Portail de l'économie; Portail du management; Portail de la finance.

@@ -1,0 +1,23 @@
+Le National Advisory Committee for Aeronautics (NACA - traduisible par "Comité consultatif national pour l'aéronautique" en français) est l'agence fédérale américaine chargée de la recherche dans le domaine de l'aéronautique entre 1915 et 1958. L'agence spatiale américaine de la NASA a été créée en 1958 sur la base du NACA et a repris ses activités de recherche aéronautique, qui ne représentent toutefois qu'une faible fraction de son activité.
+
+Historique
+Ce centre de recherche a été créé le 3 mars 1915.
+Durant cette période, ce centre de recherche a publié un grand nombre de rapports et de notes techniques sur des sujets concernant l'aviation. Il a également conduit une bonne part des recherches des États-Unis en aéronautique. À l'origine, le but de ce comité était d'organiser la recherche aéronautique des États-Unis pour l'élever au niveau de l'aviation européenne. Certains de ses premiers rapports sont d'ailleurs des traductions de travaux allemands, tels que le rapport no 16 de 1918 ou la note technique 66 de 1920. Tous ces documents sont consultables sur le site des archives de la NACA.
+L'essentiel de ses activités concernait la recherche et le développement dans le but d'élaborer des solutions pratiques. En 1917, afin de combler le retard des États-Unis par rapport à l'Europe, le NACA établit le Langley Memorial Aeronautical Laboratory en Virginie.
+En plus des aspects techniques, le NACA a également émis des avis visant à organiser l'industrie aéronautique et l'exploitation civile de l'aviation. Ses recommandations, faites en 1925, ont inspiré l'Air Commerce Act de 1926.
+Le 1er octobre 1958, le NACA a été remplacé par la National Aeronautics and Space Administration (NASA).
+
+Résultats marquants (liste très partielle)
+Parmi les résultats des travaux effectués, l'on notera : diminution de la traînée par une forme appropriée des capots moteur (années 1920) ;; diminution de la traînée grâce à la disposition des moteurs sur le bord d'attaque (et non en nacelle) (années 1920) ;; étude et mesure des performances des familles de profils d'aile connus sous les désignations NACA à 4 ou 5 chiffres (années 1930) ;; étude et mesure de profils plus élaborés jusqu'aux profils supercritiques (séries NACA 6, 7 et 8) ;; recherche sur la prévention du givrage sur les ailes, les hélices et dans les carburateurs ;; expérimentation en vol des configurations de vol extrêmes (sortie de vrille avec différentes positions du centre de gravité) ;; étude des ailes en flèche (après la Seconde Guerre mondiale et après les Allemands) ;; juste après la Seconde Guerre mondiale : traduction des documents allemands décrivant les moteurs à réaction ;; étude du passage du mur du son : participation au programme X1 ;; établissement de la loi des aires (Richard Whitcomb, 1952), qui dispose que la traînée est minimale lorsque la courbe des aires (l'évolution des sections transversales de l'avion de l'avant à l'arrière) est continue. Il est donc recommandé de diminuer la section du fuselage à la hauteur des ailes : fuselage en "taille de guêpe".
+
+Profils NACA
+
+Profils NACA à quatre chiffres
+Les quatre chiffres décrivent la géométrie du profil. La longueur de la corde du profil comme unité ; la corde est la ligne droite qui joint le bord d'attaque au bord de fuite. Le premier chiffre donne la cambrure du profil en pourcentage de la longueur de la corde ;; Le second chiffre donne la position de la cambrure maximale en dixième de la corde ;; Les deux derniers chiffres donnent l'épaisseur maximale du profil en pourcentage de la corde.
+Par exemple, un profil NACA 2412 présente une cambrure de 2 % placée à 40 % de la corde et une épaisseur relative de 12 %.
+
+Profils NACA à cinq chiffres
+C'est essentiellement la famille des profils 23012. deuxième et troisième chiffres : double de l'abscisse d de la flèche max 100 d-l-15 %; derniers chiffres : épaisseur relative : e- 100 h-l-12 %.
+
+Profils NACA à six chiffres
+Ce sont les profils dits "laminaires".

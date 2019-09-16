@@ -1,0 +1,17 @@
+Dans un réseau informatique, un client est le logiciel qui envoie des demandes à un serveur. Il peut s'agir d'un logiciel manipulé par une personne, ou d'un bot. Est appelé client aussi bien l'ordinateur depuis lequel les demandes sont envoyées que le logiciel qui contient les instructions relatives à la formulation des demandes et la personne qui opère les demandes.
+L'ordinateur client est généralement un ordinateur personnel ordinaire, équipés de logiciels relatifs aux différents types de demandes qui vont être envoyées, comme un navigateur web, un logiciel client pour le World wide web.
+
+Le mode client-serveur
+Une application distribuée est une application informatique dans laquelle les traitements sont effectués de concert par plusieurs ordinateurs d'un réseau informatique. Un protocole de communication établit les règles selon lesquelles les ordinateurs communiquent, dans le cadre de l'application en question.
+Dans une application informatique en mode client-serveur les traitements sont effectués par l'exécution conjointe de deux logiciels différents et complémentaires placés sur des ordinateurs différents: le client et le serveur.
+un client léger est un client qui ne fait que formuler des demandes et présenter les résultats à l'utilisateur. Les traitements sont alors effectués entièrement par le serveur. Par opposition, un client lourd effectue une partie des traitements sans faire intervenir le serveur.
+client riche: les premiers navigateur web possédaient une maniabilité inférieure aux clients lourds. Apparue en 2002, l'évolution appelée client riche consiste en un ensemble de technologies telles que Adobe Flash ou Ajax, destinées à donner au navigateur web une maniabilité équivalente voire supérieure aux clients lourds.
+Le mode Pair-à-pair (anglais peer-to-peer ou P2P) est l'opposé du mode client-serveur.
+
+Liste de logiciels clients
+
+Par usage: Client de messagerie; Client HTTP (web); Client IRC (chat); Client FTP (transfert de fichiers); Client Jabber-XMPP (messagerie instantanée); Client SSH (connexion sécurisée).
+
+Par ressources: Client léger (pas de déploiement ou déploiement simple, voire automatique); Client riche (utilisation restreinte au cadre du web); Plateforme client riche ou encore Client lourd (déploiement complexe manuel, voire partiellement ou complètement automatisé).
+
+Voir aussi: Client-serveur; Serveur informatique. Portail de l'informatique; Portail des télécommunications.

@@ -1,0 +1,41 @@
+En algèbre linéaire, étant donnée une famille de vecteurs d'un même espace vectoriel, les vecteurs de la famille sont linéairement indépendants, ou forment une famille libre, si la seule combinaison linéaire de ces vecteurs qui soit égale au vecteur nul est celle dont tous les coefficients sont nuls. Cela revient à dire qu'aucun des vecteurs de la famille n'est combinaison linéaire des autres. Dans le cas où des vecteurs ne sont pas linéairement indépendants, on dit qu'ils sont linéairement dépendants, ou qu'ils forment une famille liée.
+
+Définitions
+Soient E un espace vectoriel et K son corps des scalaires.
+Une famille (finie ou infinie) (v i) i I (-displaystyle (v-(i))-(i-in I)) de vecteurs de E est dite libre, ou encore, la famille est constituée de vecteurs "linéairement indépendants", si la seule combinaison linéaire des vecteurs v i (-displaystyle v-(i)) égale au vecteur nul 0E est celle dont tous les coefficients sont nuls (autrement dit : si toute combinaison linéaire des v i (-displaystyle v-(i)) à coefficients non tous nuls est différente du vecteur nul). Lorsqu'il s'agit d'une famille finie (v i) 1 i n (-displaystyle (v-(i))-(1-leq i-leq n)), cette condition s'écrit : (a 1 ,.. a n) K n , (a 1 v 1 +... + a n v n - 0 E a 1 - a 2 -... - a n - 0). (-displaystyle -forall (a-(1),-ldots ,a-(n))-in K(n),-quad -left(a-(1)v-(1)+-cdots +a-(n)v-(n)-0-(E)-Rightarrow a-(1)-a-(2)--cdots -a-(n)-0-right).) ; Lorsque la famille (v i) i I (-displaystyle (v-(i))-(i-in I)) est quelconque (finie ou pas), la condition s'écrit : (a i) K (I) , (a i v i - 0 E i I , a i - 0) , (-displaystyle -forall (a-(i))-in K((I)),-quad -left(-sum a-(i)v-(i)-0-(E)-Rightarrow -forall i-in I,a-(i)-0-right),) où un élément de K est une famille, indexée par I, de scalaires tous nuls sauf un nombre fini.
+Dans le cas contraire, les vecteurs sont dits linéairement dépendants, ou encore la famille est dite liée. Ainsi, (v i) i I (-displaystyle (v-(i))-(i-in I)) est une famille de vecteurs liée s'il existe une famille (a j) j I (-displaystyle (a-(j))-(j-in I)) d'éléments de K tous nuls sauf un nombre fini non nul, telle que
+À partir des notions de famille libre ou liée, on définit celles de partie libre ou liée : une partie A de E est dite libre (resp. liée) si la famille (a) a A (-displaystyle (a)-(a-in A)) l'est.
+
+Exemples
+
+Exemple 0
+Dans l'espace vectoriel ℝ, les trois vecteurs (2, -1, 1), (1, 0, 1) et (3, -1, 2) forment une famille liée car (2, -1, 1) + (1, 0, 1) - (3, -1, 2) - (0, 0, 0).
+
+Exemple 1
+Dans l'espace vectoriel ℝ, les trois vecteurs (4, 2, 1, 3), (2, 0, 3, 0) et (6, 2, 4, -3) sont linéairement indépendants car leurs coordonnées, disposées en colonnes juxtaposées, forment une matrice: (4 2 6 2 0 2 1 3 4 3 0 3) (-displaystyle (-begin(pmatrix)426--202--134--30-3-end(pmatrix))).
+dont le rang est égal au nombre de vecteurs. En effet le 3-mineur: 2 0 2 1 3 4 3 0 3 - 36 (-displaystyle (-begin(vmatrix)202--134--30-3-end(vmatrix))--36).
+est non nul donc le rang de la matrice est 3.
+
+Exemple 2
+Toute base est (par définition) une famille libre, en particulier la base canonique du K-espace vectoriel K.
+
+Exemple 3
+Dans l'espace vectoriel réel des fonctions de ℝ dans ℝ, l'ensemble infini non dénombrable des fonctions f : t e t (-displaystyle f-(-lambda):t-mapsto (-rm (e))(-lambda t)) pour (-displaystyle -lambda) réel est libre.
+Démonstration
+Soit (a) R R (N) (-displaystyle (a-(-lambda))-(-lambda -in -mathbb (R))-in -mathbb (R) ((-mathbb (N)))) tel que
+ a f - 0. (-displaystyle -sum a-(-lambda)f-(-lambda)-0.)
+Si le nombre n des réels (-displaystyle -lambda) pour lesquels a 0 (-displaystyle a-(-lambda)-neq 0) est non nul, en les notant 1 ,.. n (-displaystyle -lambda -(1),-ldots ,-lambda -(n)) et en notant a 1 ,.. a n (-displaystyle a-(1),-ldots ,a-(n)) les coefficients associés, l'équation se réécrit :
+ k - 1 n a k f k - 0. (-displaystyle -sum -(k-1)(n)a-(k)f-(-lambda -(k))-0.)
+En posant x k - e k (-displaystyle x-(k)-(-rm (e))(-lambda -(k))) et en évaluant l'équation ci-dessus en les réels 0, 1, 2,.. n - 1, on obtient que la matrice de Vandermonde: (1 x 1 x 1 2... x 1 n 1 1 x 2 x 2 2... x 2 n 1 1 x 3 x 3 2... x 3 n 1........... 1 x n x n 2... x n n 1) (-displaystyle (-begin(pmatrix)1x-(1)x-(1)(2)-dots x-(1)(n-1)--1x-(2)x-(2)(2)-dots x-(2)(n-1)--1x-(3)x-(3)(2)-dots x-(3)(n-1)---cdots -cdots -cdots -cdots -cdots --1x-(n)x-(n)(2)-dots x-(n)(n-1)-end(pmatrix))).
+associée au n-uplet (x 1 ,.. x n) (-displaystyle (x-(1),-dots ,x-(n))) a ses lignes liées par les coefficients a k (-displaystyle a-(k)). Comme son déterminant est non nul, cela est absurde, donc n - 0, c'est-à-dire que tous les a (-displaystyle a-(-lambda)) sont nuls.
+On démontre de même que plus généralement, dans l'espace vectoriel complexe des fonctions de ℝ dans ℂ, l'ensemble des fonctions f : t e t (-displaystyle f-(-lambda):t-mapsto (-rm (e))(-lambda t)) pour (-displaystyle -lambda) complexe est libre.
+
+Propriétés: La famille (v) et la partie (v) sont libres si et seulement si le vecteur v est non nul.; La famille (v1,v2) est liée si et seulement si v1 et v2 sont colinéaires (en particulier, la famille (v,v) est toujours liée, que v soit nul ou pas).; Si l'une des sous-familles d'une famille est liée (en particulier si deux de ses vecteurs sont colinéaires ou si l'un d'entre eux est nul), alors cette famille est liée. Autrement dit, si une famille est libre, alors toutes ses sous-familles sont libres.; Une famille est liée si et seulement si l'un de ses éléments est combinaison linéaire des autres.; Comme une combinaison linéaire porte sur un nombre fini de termes, une famille infinie est libre si et seulement si toutes ses sous-familles finies le sont.; La famille vide et la partie vide sont libres.; Si K est le corps des fractions d'un anneau intègre A (par exemple si K - ℚ et A - ℤ), une famille de vecteurs de E est K-libre si et seulement si elle est A-libre (dans E vu comme A-module).
+
+Espace projectif des dépendances linéaires
+Une relation de dépendance linéaire de n (-displaystyle n) vecteurs v 1 ,.. v n (-displaystyle v-(1),-ldots ,v-(n)) peut être représentée par un n (-displaystyle n)-uplet (a 1 ,.. a n) (-displaystyle (a-(1),-ldots ,a-(n))) de n (-displaystyle n) scalaires, non tous nuls, tels que: a 1 v 1 +... + a n v n - 0 E. (-displaystyle a-(1)v-(1)+-cdots +a-(n)v-(n)-0-(E).).
+Si une telle relation de dépendance linéaire existe, alors les n (-displaystyle n) vecteurs sont linéairement dépendants. Il est alors possible d'identifier deux relations de dépendances linéaires si l'une est multiple non nul de l'autre relation, parce que dans ce cas les deux correspondent à la même dépendance linéaire des vecteurs entre eux. Sous cette identification, l'ensemble des n (-displaystyle n)-uplets décrivant les dépendances linéaires des vecteurs v 1 ,.. v n (-displaystyle v-(1),-ldots ,v-(n)) est un espace projectif.
+
+Voir aussi
+
+Articles connexes: Indépendance algébrique; Lemme de Steinitz; Matroïde (paragraphe généralisation du concept); Orthogonalité.

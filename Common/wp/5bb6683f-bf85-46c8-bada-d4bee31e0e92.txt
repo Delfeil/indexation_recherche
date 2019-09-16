@@ -1,0 +1,69 @@
+L'altitude est l'élévation verticale d'un lieu ou d'un objet par rapport à un niveau de base. C'est une des composantes géographique et biogéographique qui explique la répartition de la vie sur terre.
+L'altitude est aussi une grandeur qui exprime un écart entre un point donné et un niveau de référence ; par convention, sur Terre ce niveau est le plus souvent le niveau de la mer (ou "niveau zéro"). Les sommets sont associés à une altitude, calculée par divers moyens indirects (géodésie, triangulation). L'altitude est également une donnée exogène utile pour le calcul numérique dans divers domaines : météorologie, physique, biologie.
+En aéronautique, l'altitude est actuellement mesurée en pieds, sauf dans les pays de l'ex-Union soviétique et en Chine, où elle est exprimée en mètres.
+Histogramme (rétro-cumulé) d'élévation de la Terre, dit encore courbe hypsométrique terrestre.
+
+Effets de l'altitude
+Certains champs physiques varient en fonction de l'altitude : diminution de la pression atmosphérique variation de la température et du couple thermohygrométrique, des rayonnements solaires notamment. Des réactions particulières des organismes face à ces nouvelles conditions sont visibles, particulièrement chez les végétaux, mais aussi chez les animaux ou les champignons et lichens.
+Plutôt que d'effets de l'altitude, il conviendrait de parler de variations liées à l'élévation, car l'altitude est une donnée brute qui n'a aucune conséquence par elle-même. Il faut distinguer deux types d'effets : les changements brutaux et ponctuels dus à l'élévation rapide ;; les adaptations de moyen et long termes des organismes en altitude.
+Les premiers effets sont spectaculaires et bien connus des alpinistes ; les seconds sont plus discrets et affectent aussi bien les hommes que l'écosystème. En particulier, les sols d'altitude sont souvent plus pauvres, plus acides, moins épais (diminution de la réserve utile des sols et du taux de saturation, qui peut exacerber le phénomène de dépérissement forestier).
+
+Variations de champs physiques
+
+Température
+La variation de la température selon l'altitude dépend de l'endroit où l'on se situe dans l'atmosphère : troposphère, stratosphère, mésosphère ou encore la thermosphère.
+
+Pression atmosphérique
+Elle diminue avec l'altitude de manière exponentielle selon la formule du nivellement barométrique. Au niveau de la mer elle vaut 1 atmosphère (soit 760 mmHg soit 1013,25 mb) alors qu'à 1 000 m elle ne vaut plus que 89 859 Pa (674 mmHg), à 4 800 m 55 462 Pa (416 mmHg) et à 8 848 m 31 464 Pa (236 mmHg).
+
+Intensité de la pesanteur
+Celle-ci varie en fonction de la planète sur laquelle on se trouve et de l'altitude. Elle est inversement proportionnelle au carré de la distance par rapport au centre. Sur Terre sa valeur est 9,814 m s2 au niveau de la mer, 9,811 m s2 à 1 000 m et 9,802 m s2 à 4 000 m.
+Il s'agit là de l'attraction réelle de la pesanteur. Pour un corps immobile dans le repère terrestre (donc non sujet à l'accélération de Coriolis) la pesanteur apparente est égale à la précédente diminuée de l'accélération centrifuge r où est la vitesse de rotation de la terre (360 degrés par jour) et r la distance à l'axe des pôles. Cette accélération centrifuge est nulle aux pôles et vaut approximativement 0,034 m s2 à l'équateur ; la pesanteur apparente n'y est donc plus que d'environ 9,780.
+
+Adaptation du corps à l'altitude
+
+Réponse à court terme (quelques jours)
+Chez l'homme les effets de l'altitude sont principalement dus à la diminution de la pression partielle en dioxygène dans l'air inspiré, et à la baisse de température. En effet, au repos, ces éléments causent à court terme une hyperventilation (augmentation de la ventilation), une tachycardie (augmentation de la fréquence cardiaque), ainsi qu'une diurèse (élimination d'une partie du volume plasmatique (plasma sanguin) destiné à augmenter la proportion de globules rouges dans le sang).
+
+Réponses à long terme (plusieurs semaines)
+À plus long terme (à partir de 3 semaines environ), on observe une augmentation importante du nombre de globules rouges (hématocrite) permettant un transport de l'oxygène accru dans le sang. Ceci est la conséquence d'un pic d'EPO dans les premiers jours d'exposition à l'hypoxie d'altitude. La consommation maximale d'oxygène (également nommée VO2 max) baisse en fonction de l'altitude. Ainsi, au niveau de la mer, l'homme est à 100 % de ses possibilités, alors qu'à 4 809 mètres (sommet du mont Blanc), il ne peut en disposer que de 70 % et seulement 20 % à 8 848 mètres (sommet de l'Everest).
+L'effet "augmentation de la quantité de globules rouges" est particulièrement recherché par certains sportifs, c'est la raison majeure de l'organisation de stage en altitude, parfois à plus de 3 000 mètres. Toutefois, cette polyglobulie peut entraîner dans certains cas un excès de globules rouges et la formation de caillots sanguins peut alors obstruer les veines et causer une thrombose veineuse profonde (phlébite) qui peut entraîner la mort. La concentration en globules rouges (hématocrite) du sang de certaines populations vivant à haute altitude (Andes) est naturellement plus élevée.
+
+Peut-on vivre à 4 000 mètres d'altitude
+Un exemple : les habitants de Potosi en Bolivie andine sont perchés à 4 040 m. Ils sont tout à fait habitués à ces conditions : leur sang est plus riche en globules rouges qui acheminent l'oxygène jusqu'aux organes. Par contre, pour les visiteurs, c'est un peu plus compliqué. La pression de l'air et de l'oxygène diminuées, leur capacité physique se réduit de 30 à 40 % en dépit de l'accélération cardio-respiratoire. Il faut environ deux semaines d'adaptation. Entretemps, le visiteur peut souffrir du mal aigu des montagnes : maux de tête, nausées, oedèmes, etc.
+
+Cures d'altitude
+Des cures d'altitude - climatothérapie - sont aujourd'hui encore recommandées pour soulager temporairement certaines crises d'asthme surtout dans le cas d'asthmes d'origine allergénique. Concernant la tuberculose les avis sont partagés ; en 2008 toutefois une étude turque trouvait une corrélation négative entre altitude et tuberculose : l'influence de l'altitude sur l'incidence de la tuberculose proviendrait "en partie de la valeur de la pression partielle en oxygène dans la mesure où de fortes pressions en oxygène sont nécessaires à la propagation de Mycobacterium tuberculosis." Concernant la coqueluche, on a pu également recommander non seulement des séjours en altitude - peu documentés mais aussi des "vols coqueluche" (ou leur simulation en caisson hypobare).
+À l'inverse, les personnes souffrant de drépanocytose doivent éviter les hautes altitudes.
+
+Calcul de l'altitude
+Le calcul d'une altitude revient toujours à mesurer un écart entre un niveau de départ et le point dont on souhaite trouver l'élévation par rapport à ce niveau (dénivelé).
+Repère de nivellement IGN (Belgique)
+Dans les pays dotés d'un institut de géographie national (souvent militaire à l'origine), comme c'est le cas en Belgique et en France, il fut procédé par des géomètres à des nivellements généraux par cheminements altimétriques. La précision d'ensemble de ces nivellements est de l'ordre du centimètre. La précision relative entre deux repères voisins est millimétrique.
+Dans les régions où le cheminement est techniquement impossible (régions montagneuses ou avec un relief chaotique), les altitudes ont anciennement été déterminées en fonction de la gravité terrestre mais cette méthode est relativement difficile à mettre en oeuvre et très peu précise compte tenu des variations de gravité provoquées par les masses montagneuses ou bien en fonction de la variation de pression atmosphérique (méthode principalement utilisée au siècle passé par les alpinistes pour déterminer les altitudes des pics montagneux).
+Avec l'apparition de l'aviation, de nouvelles méthodes basées sur la photogrammétrie et les orthophotos-couples, ont vu le jour. Ces méthodes permettent de déterminer avec une précision de quelques mètres, les altitudes et ce, de façon indirecte, sans mesures sur le terrain.
+Certains satellites fournissent également des modèles numériques de terrain (MNT) sur l'ensemble de la planète avec, cependant, une précision de plusieurs centaines de mètres ou de plusieurs kilomètres.
+
+Impossibilité de définir correctement l'altitude
+Il a longtemps été très difficile de définir le concept d'altitude.
+Tout d'abord il fallait définir ce qu'est le niveau de base.
+Il était d'usage de considérer comme niveau de base le niveau des mers, dont la surface est difficile à mettre en équation : c'est une surface qui bouge en fonction d'éléments astronomiques comme la Lune, le Soleil ou les planètes (phénomène de marée), qui n'est pas une surface équipotentielle (à cause entre autres des courants et de la variation de salinité), donc n'est pas assimilable au géoïde terrestre, et qui de toute façon n'existe pas à la verticale d'un lieu terrestre donné.
+La méthode ancienne, qui consistait à cheminer entre le niveau moyen de la mer et un lieu donné en mesurant à chaque fois la différence de niveau dh, est mathématiquement problématique, parce que le résultat dépend du chemin suivi, en d'autres termes dh n'est pas une intégrale parfaite. En revanche, l'énergie à dépenser pour aller d'un point à un autre, qui est g dh, g étant la gravité en chaque point, ne dépend pas du chemin suivi. L'altitude était alors calculée en mesurant régulièrement g, et en divisant la valeur obtenue par un g0 moyen, le choix de ce g0 conditionnant bien sûr le résultat.
+En octobre 1957, l'avènement de l'ère spatiale a donné naissance à la géodésie spatiale, avec des satellites équipés de réflecteurs laser puis d'horloges ultra-stables (permettant des mesures très précises de temps de trajet ou de décalages Doppler). L'arrivée de systèmes spatiaux opérationnels (Transit, puis GPS, DORIS et, dans l'avenir, Galileo), a permis une autre définition de l'altitude : la distance du point à l'origine du référentiel terrestre utilisé par ces systèmes, qui coïncide à peu près avec le centre de gravité de la Terre. Le système spatial, (GPS ou DORIS), donne alors un triplet XYZ dans un repère orthonormé, et il suffit de projeter ce point dans un système cartographique pour obtenir l'altitude, le résultat dépendant, (au second ordre), de la projection choisie.
+
+Méthodes pratiques: Le calcul de la hauteur de la grande pyramide de Gizeh par Ératosthène est déjà une sorte de calcul d'altitude, entre le sommet du monument et le sol. La méthode utilisée, une application du fameux Théorème de Thalès, a été reprise pour le calcul de l'altitude de sommets dégagés. La marge d'erreur associée est assez importante.; Une méthode utilisée sur le terrain et qui ne nécessite pas d'outil fait intervenir la visée par approximation. En région montagneuse, on peut estimer qu'un sapin adulte est haut de trente mètres en moyenne. Par superposition, on peut estimer une altitude ou un écart avec une marge d'erreur moyenne, souvent acceptable.; En utilisant une carte géographique et une boussole graduée, la méthode de la triangulation permet de connaître l'altitude d'un point proche.; L'altimètre est un instrument qui mesure l'altitude en se basant sur la relation entre l'élévation et la pression atmosphérique. Cette relation n'est pas linéaire, et subit des variations non négligeables dues à l'évolution des masses d'air pendant la prise d'altitude par le marcheur qui utilise l'altimètre. C'est donc un moyen de mesure moins fiable qu'il n'y paraît : il faut veiller à étalonner aussi souvent que possible l'altimètre aux points dont l'altitude est connue. Les altimètres sont utilisés dans les ballons-sondes.
+
+Méthodes modernes
+Les mesures d'altitude par les instruments modernes sont d'une précision bien supérieure à ce qu'il est possible de faire à l'oeil ou au compas. Les satellites sont mis à profit pour calculer et mettre à jour les "hauteurs" des points de la planète, sommets ou non. À la différence des méthodes terrestres qui utilisent un référentiel dynamique tenant compte des variations locales du champ de pesanteur (le géoïde) et donnent par là-même de véritables "altitudes", les satellites fournissent une hauteur à partir d'un ellipsoïde de référence (IAG GRS80). Les écarts entre géoïde et ellipsoïde sont variables selon le lieu et peuvent atteindre la centaine de mètres. Des modèles de géoïde peuvent cependant être intégrés dans un programme de calcul qui permet alors de retrouver les altitudes à partir des mesures satellitaires. La précision dépend alors en grande partie de la finesse du modèle.
+
+Autres planètes ou satellites
+
+Lune
+Sur la Lune, on mesure les altitudes des sommets relativement à une distance donnée à son centre. Dans les années 1990, la mission Clementine a publié des valeurs basées sur le chiffre de 1 737 400 mètres.
+
+Mars
+Sur Mars, en l'absence d'océan, l'origine des altitudes a été fixée de façon arbitraire : c'est l'altitude ayant une pression atmosphérique moyenne de 615 pascals. Cette pression a été choisie parce qu'elle correspond à la pression du point triple de l'eau (273,16 K et 615 Pa), et que le niveau ainsi défini est proche du niveau moyen de la surface martienne (sur Terre, c'est la pression atmosphérique à 35 km d'altitude).
+
+Voir aussi
+
+Articles connexes: Mal aigu des montagnes lié à l'altitude; Niveau de la mer; Référent altimétrique; Cote Z; WGS 84.

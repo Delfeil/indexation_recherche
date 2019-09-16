@@ -1,0 +1,17 @@
+De façon générale un codage permet de passer d'une représentation des données vers une autre.
+
+Description
+Parmi les différents codages utilisés, on trouve : Le codage de source, qui permet de faire de la compression de données.; le codage de canal, qui permet une représentation des données de façon à être résistant aux erreurs de transmission.; Le codage de caractères pour représenter informatiquement l'ensemble des caractères, comme le code ASCII.; La transformation d'une source vidéo ou sonore en un format informatique déterminé. Coder en MP3, en AVI, etc. Dans ce cas, il ne s'agit en fait pas d'un codage, car il ne s'agit plus d'une opération mathématique bijective (réversible) ; malgré cela, l'expression encodage numérique est utilisée. Le passage d'un format audio ou vidéo à un autre peut aussi s'appeler transcodage.; Dans un ordinateur, au niveau matériel, tout est codé en binaire (c'est-à-dire à partir de 1 et de 0).
+Il existe une méthode qui permet de passer d'un codage en base 10 en remarquant par exemple que 9 - 1 2 3 + 0 2 2 + 0 2 1 + 1 2 0 (-displaystyle 9-1-times 2(3)+0-times 2(2)+0-times 2(1)+1-times 2(0)) ; ainsi le codage binaire de 9 est 1001. Les langages de programmation comme le C, le BASIC ou le Fortran sont assez proches du langage courant pour être lisibles; ils sont compilés et stockés sous forme binaire pour pouvoir être exécutés par les ordinateurs.
+En binaire, on utilise 8 bits pour former un octet. L'organisation des octets, pour représenter des nombres plus grands que 255, peut se faire en little endian ou big endian.
+Bien qu'il s'agisse d'un codage, on utilisera le terme chiffrement (le "cryptage", bien que fréquemment utilisé, n'ayant pas de légitimité en langue française) quand le codage utilisé cherche à masquer l'information contenue.
+
+Principaux types de codages informatiques
+Pour représenter des nombres, des caractères ou des instructions pour les microprocesseurs, on utilise principalement les types suivants de codage.
+Pour le nommage des nombres binaires plus grand que l'octet, bien que le type d'architecture utilisé puisse faire varier les appellations, on utilisera de préférence les noms suivants :
+2 octets - un mot.
+4 octets - un long mot.
+8 octets - un double long mot
+Un octet, un mot, et ses dérivés, peuvent, entre autres, représenter : 1) Des entiers non signés.; 2) Des entiers signés (un des bits sert à définir le signe).; 3) Des nombres flottants (avec une virgule).; 4) Un caractère ou une chaine de caractères.; 5) Une instruction du microprocesseur.
+
+Voir aussi: Cryptologie; Cryptographie; Cryptage; Décodage; Encodage; Transcodage. Portail de l'informatique.

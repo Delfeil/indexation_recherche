@@ -1,0 +1,13 @@
+La Licence publique générale limitée GNU, ou GNU LGPL (pour GNU Lesser General Public License) en anglais, est une licence utilisée par certains logiciels libres.
+Elle présente de grandes ressemblances avec la licence publique générale GNU (ou GNU GPL), rédigée par le même organisme, la Free Software Foundation, visant à promouvoir le développement de logiciels libres.
+Cette licence limitée, ou amoindrie, c'est-à-dire qu'elle est moins restrictive que la licence GNU GPL dont elle découle, a été créée pour permettre à certains logiciels libres de pénétrer tout de même certains domaines où le choix d'une publication entièrement libre de toute l'offre était impossible.
+Cette licence s'applique souvent aux bibliothèques. La signification originale du sigle LGPL est d'ailleurs Library General Public License. Le sens du L de LGPL a été modifié de Library en Lesser afin d'éviter les nombreuses inductions en erreurs. En effet, il arrivait souvent qu'un développeur, qui souhaitait publier sous licence libre une bibliothèque qu'il avait écrite, choisisse la LGPL en ignorant les limitations dans le copyleft (caractère héréditaire de la GPL, qui nécessite que tout programme utilisant une composante en GPL soit en GPL, notamment) par rapport à la GPL.
+
+Différences avec la GPL
+La LGPL autorise à lier le programme sous cette licence à du code non LGPL, sans pour autant révoquer la licence. Cette Licence LGPL permet donc de s'affranchir du caractère héréditaire de la licence GPL. C'est donc plus précisément la clause de copyleft fort que n'a pas la LGPL.
+Ainsi, il devient possible à un programmeur désireux de faire un logiciel propriétaire d'utiliser certains outils du monde libre (par exemple, la bibliothèque graphique GTK, SDL ou nouvellement Qt depuis la version 4.5) sans contraindre son logiciel à l'être également. Cependant, toute modification de code source dans la bibliothèque LGPL devra être également publiée sous la licence LGPL (on parle de "copyleft faible"). Ce cas d'utilisation est défini par le paragraphe 5 de la licence LGPL ("work that uses the library").
+Il est également autorisé de passer à la licence GPL par simple mise à jour des notifications de licences.
+
+Voir aussi
+
+Articles connexes: Licence de logiciel; Les termes de la licence publique générale GNU; La Licence CeCILL-C est à la licence CeCILL, ce que la LGPL est à la GPL.

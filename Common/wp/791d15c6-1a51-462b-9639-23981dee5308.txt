@@ -1,0 +1,19 @@
+Douglas Rayner Hartree (27 mars 1897 - 12 février 1958) est un mathématicien et physicien anglais. Il est connu pour son développement de l'analyse numérique et son application à la physique atomique.
+
+Sa jeunesse
+Douglas Hartree est né à Cambridge, Royaume-Uni. Son père William était maître de conférence en ingénierie à l'université, et sa mère Eva Rayner était présidente du conseil international des femmes et maire de sa ville. Un de ses grands-pères était Samuel Smiles. Il était l'aîné de trois fils, bien que ses deux plus jeunes frères n'aient pas atteint l'âge adulte. Il est allé à St John's College (Cambridge) mais la Première Guerre mondiale a interrompu ses études. Il a rejoint un groupe travaillant sur la balistique anti-aérienne sous la direction de A. V. Hill, où il a acquis un savoir-faire considérable et un intérêt demeurant pour le calcul pratique et les méthodes numériques, exécutant la majeure partie de son travail avec un crayon et du papier.
+
+La méthode Hartree-Fock
+À la fin de la Première Guerre mondiale, Hartree retourna à Cambridge. En 1921, une visite de Niels Bohr à Cambridge inspira Douglas d'appliquer ses connaissances sur l'analyse numérique à la solution des équations différentielles pour le calcul des fonctions d'onde atomique. Plus tard dans l'année, il a reçu un diplôme en sciences naturelles avec mention. Il obtint plus tard son Ph. D en 1926. Même à ce stade, il appliquait ses compétences numériques aux problèmes de mécanique quantique et développait ce qui est connu comme la méthode de Hartree-Fock, rendant possibles des calculs considérés précédemment comme insurmontables.
+
+Ses années à Manchester
+En 1929, il a été nommé professeur de mathématiques appliquées à l'université Victoria (Manchester). En 1933, il a rencontré Vannevar Bush au Massachusetts Institute of Technology et étudia de première main son analyseur différentiel. Dès son retour à Manchester, il commença à construire son propre analyseur à partir de Meccano. Voyant le potentiel pour exploiter plus loin ses méthodes numériques en utilisant la machine il l'emporte sur Sir Robert McDougall pour financer une machine plus robuste qui fut construite en collaboration avec Metropolitan-Vickers.
+La première application de la machine a reflété l'enthousiasme de Hartree pour les chemins de fer en calculant les horaires du London, Midland and Scottish Railway. La machine a également été utilisée dans des calculs balistiques et autres calculs militaires.
+
+Sa vie et son travail postérieur
+Analyseur différentiel développé par Douglas et exposé au Musée des Sciences et de l'Industrie de Manchester.
+Hartree s'intéresse à la physique théorique en 1937 avant de retourner à Cambridge pour occuper le poste de professeur de physique mathématique en 1946. Il travailla sur les systèmes de contrôle et s'impliqua dans l'application des calculateurs numériques, conseillant l'armée américaine sur l'utilisation de l'ENIAC pour calculer des tables balistiques.
+Le dernier étudiant en Ph. D de Hartree, Charlotte Froese Fischer, est devenu célèbre pour le développement et la mise en oeuvre de l'approche Champ multi-configurationnel auto-cohérent sur les calculs de la structure atomique et pour sa prédiction théorique concernant l'existence de l'ion calcium négatif.
+Il est mort d'un arrêt cardiaque à Addenbrooke's Hospital à Cambridge.
+
+Honneurs: Membre de la Royal Society, (1932); L'unité atomique d'énergie (Hartree) porte son nom.

@@ -1,0 +1,59 @@
+La gestion de versions (en anglais version control ou revision control) consiste à maintenir l'ensemble des versions d'un ou plusieurs fichiers (généralement en texte). Essentiellement utilisée dans le domaine de la création de logiciels, elle concerne surtout la gestion des codes source.
+Cette activité étant fastidieuse et relativement complexe, un appui logiciel est presque indispensable. À cet effet, il existe différents logiciels de gestion de versions qui, bien qu'ayant des concepts communs, apportent chacun leur propre vocabulaire et leurs propres usages. À titre d'exemple, on trouve un mécanisme rudimentaire de gestion de versions dans Wikipédia : pour chaque article, l'historique est disponible en cliquant sur le lien Afficher l'historique ; chaque ligne est une version de l'article. Un tel système est linéaire, par opposition à une gestion de contenu plus élaborée, selon une structure arborescente.
+
+Versions
+Les logiciels évoluant, chaque étape d'avancement est appelée version (ou revision). Les différentes versions sont nécessairement liées à travers des modifications (diff ou patch) : une modification est un ensemble d'ajouts, de modifications, et de suppressions de données.
+Schématiquement, on passera de la version N à la version N + 1 en appliquant une modification M. Un logiciel de gestion de versions applique ou retire ces modifications une par une pour fournir la version du fichier voulue.
+On préfère parfois le terme "révision" afin de ne pas confondre la version d'un fichier et la version d'un logiciel, qui est une étape de distribution sous forme "finie", c'est-à-dire principalement binaire.
+
+Modifications et ensemble de modifications
+Une modification constitue donc l'évolution entre deux versions. On peut donc aussi bien parler de la différence entre deux versions que de modifications ayant amené à une nouvelle version.
+On utilise généralement la gestion de versions à un ensemble de fichiers qui constitue un projet. De ce fait, il est courant de parler de modifications pour un seul fichier et d'ensemble de modifications (change set) lorsqu'il s'agit du projet (et donc de plusieurs fichiers). En effet, les deux n'évoluent pas au même rythme.
+Pour illustrer, prenons l'exemple d'un logiciel nommé "Toto". Il est constitué des fichiers A, B et C. À la version 1.0 de "Toto" correspondent les versions 1.0 de chacun des fichiers. Admettons que l'ajout d'une fonctionnalité à "Toto" impose la modification de A et de C. Présentons la situation à l'aide d'un tableau
+Du point de vue du projet, les modifications apportées à A et à C font partie du même ensemble.
+
+Dépôt et copies locales
+Les fichiers versionnés sont mis à dispositions sur un dépôt, c'est-à-dire un espace de stockage public géré par un logiciel de gestion de versions.
+Pour pouvoir effectuer des modifications, le développeur doit d'abord faire une copie locale des fichiers qu'il souhaite modifier, ou de tout le dépôt. Selon les systèmes de gestion de version, certains fichiers peuvent être verrouillés ou protégés en écriture pour tout le monde, ou pour certaines personnes.
+Le développeur fait ces modifications et effectue ses premiers tests localement, indépendamment des modifications faites sur le dépôt du fait du travail simultané d'autres développeurs. Il doit ensuite faire un commit (une soumission), c'est-à-dire soumettre ses modifications, afin qu'elles soient enregistrées sur le dépôt. C'est là que peuvent apparaître des conflits entre ce que le développeur souhaite soumettre et les modifications effectuées depuis la dernière copie locale effectuée. Ces conflits doivent être résolus (merge) pour que le patch soit accepté sur le dépôt.
+
+Branches
+Lorsque des modifications divergentes interviennent hors conflit, il se crée des branches. Le fait de vouloir rassembler deux branches est une fusion de branches.
+Les branches sont utilisées pour permettre : la maintenance d'anciennes versions du logiciel (sur les branches) tout en continuant le développement des futures versions (sur le tronc) ;; le développement parallèle de plusieurs fonctionnalités volumineuses sans bloquer le travail quotidien sur les autres fonctionnalités.
+Les correctifs de la dernière version doivent être faits sur le trunk.
+
+Conflit de modifications
+Dans le cas d'un développement en équipe, surtout si elles sont réparties dans le monde entier, il est nécessaire de partager une base commune de travail, et c'est tout l'intérêt des systèmes de gestion de version. Mais, il faut aussi veiller à coordonner les équipes de développement grâce à des outils de communication, un logiciel de suivi de problèmes, un générateur de documentation et-ou un logiciel de gestion de projets.
+Il n'est pas rare que certaines modifications soient contradictoires (par exemple lorsque deux personnes ont apporté des modifications différentes à la même partie d'un fichier). On parle alors de conflit de modifications car le logiciel de gestion de versions n'est pas en mesure de savoir laquelle des deux modifications il faut appliquer.
+Le contrôle de la concurrence (en), pour éviter ces conflits de modifications, est un problème classique en informatique : on le retrouve par exemple dans les systèmes de gestion de base de données ou en programmation système. Il peut être géré de deux manières différentes, qui ont toutes deux été appliquées à la gestion de version : Le contrôle de concurrence pessimiste impose à chaque utilisateur de demander un verrou avant de modifier une ressource ; ce verrou lui garantit qu'il sera le seul à modifier la ressource. Ce modèle s'impose quand on considère que le coût de résolution des conflits de modification (coût unitaire pondéré par leur probabilité d'occurrence) est plus important que celui de la gestion du verrou. En gestion de version, il correspond au modèle "verrouiller-modifier-déverrouiller" qui était utilisé par les systèmes les plus anciens. Il s'est avéré que la gestion manuelle des verrous par les utilisateurs n'était pas toujours satisfaisante : les outils de diff-merge s'améliorant, il est progressivement devenu moins pénalisant de corriger les conflits d'éditions simultanées que de traiter les problèmes de fichiers verrouillés en écriture.; Le contrôle de concurrence optimiste permet à chaque utilisateur de modifier les données sans contrainte. Au moment d'appliquer ces modifications le système vérifie si un autre utilisateur n'a pas déjà posté des modifications pour ces mêmes données : il demande alors à l'utilisateur de résoudre le conflit avant de re-soumettre ses données. En gestion de configuration, c'est le modèle "copier-modifier-fusionner" qui a été popularisé par CVS. Il est devenu le paradigme de base des systèmes de gestion décentralisés.
+
+Systèmes centralisés et décentralisés
+
+Gestion de versions centralisée
+Avec les logiciels de gestion de versions centralisée, comme CVS et Subversion (SVN), il n'existe qu'un seul dépôt des versions qui fait référence.
+Cela simplifie la gestion des versions mais est contraignant pour certains usages comme le travail sans connexion au réseau, ou tout simplement lorsque l'on travaille sur des branches expérimentales ou contestées.
+
+Gestion de versions décentralisée
+La gestion de versions décentralisée consiste à voir l'outil de gestion de versions comme un outil permettant à chacun de travailler à son rythme, de façon désynchronisée des autres, puis d'offrir un moyen à ces développeurs de s'échanger leur travaux respectifs. De fait, il existe plusieurs dépôts pour un même logiciel. Ce système est très utilisé par les logiciels libres.
+Par exemple, GNU Arch, Git et Mercurial sont des logiciels de gestion de versions décentralisée.
+Avantages de la gestion décentralisée : permet de ne pas être dépendant d'une seule machine comme point de défaillance ;; permet aux contributeurs de travailler sans être connecté au gestionnaire de version ;; permet la participation à un projet sans nécessiter les permissions par un responsable du projet (les droits de commit-soumission peuvent donc être donnés après avoir démontré son travail et non pas avant) ;; la plupart des opérations sont plus rapides car réalisées en local (sans accès réseau) ;; permet le travail privé pour réaliser des brouillons sans devoir publier ses modifications et gêner les autres contributeurs ;; permet toutefois de garder un dépôt de référence contenant les versions livrées d'un projet.
+Inconvénients : cloner un dépôt est plus long que récupérer une version pour une gestion de version décentralisée car tout l'historique est copié (ce qui est toutefois un avantage par la suite) ;; il n'y a pas de système de lock (ce qui peut poser des problèmes pour des données binaires qui ne se fusionnent pas).
+L'auteur de développement logiciel Joel Spolsky décrit la gestion de version décentralisée comme "probablement la plus grande avancée dans les technologies de développement logiciel dans les 10 (dernières) années.".
+
+Fonctionnalités particulières
+
+Étiquetage ou marquage
+Cela consiste à associer un nom à une version donnée. Pour certains outils de gestion de versions (comme CVS) qui gèrent les versions à une faible granularité (beaucoup de modifications non significatives), c'est un moyen de retrouver facilement une version significative.
+
+Verrouillage et notifications
+Pour le travail en équipe, certains logiciels de gestion de versions apportent des outils pour communiquer.
+Par exemple, le verrouillage permet d'interdire la modification d'un fichier, tandis que la notification émet un avertissement à tous les autres membres lorsqu'un fichier est modifié.
+
+Exemples de logiciels de gestion de versions
+Les logiciels de contrôle de versions sont nombreux. Sous UNIX, il y a eu SCCS qui a suscité un autre logiciel libre : GNU RCS devenu un standard de fait. CVS, qui gère mieux les arborescences de fichiers que RCS, est devenu extrêmement répandu dans le monde du logiciel libre et dans les entreprises, de par sa simplicité.
+Ils ont été progressivement remplacés par des alternatives plus modernes, comme Subversion puis Git, qui sont désormais plus utilisés que leurs prédécesseurs. D'autres logiciels, comme Bazaar ou Mercurial sont des alternatives à Git qui disposent de bases d'utilisateurs conséquentes.
+Dans le monde propriétaire, ClearCase et Synergy (de IBM), Serena Dimensions sont les plus répandus. Il y a aussi Visual Source Safe et Team Foundation Server (de Microsoft) qui s'intègrent avec Visual Studio. Il existe également AlienBrain, souvent utilisé dans le monde du jeu vidéo car particulièrement adapté à la gestion de ressources graphiques et sonores. L'AGL WinDev (de PCSoft) utilise sa propre implémentation de gestion de versions.
+
+Voir aussi
+
+Articles connexes: Gestion de configuration; Version d'un logiciel.

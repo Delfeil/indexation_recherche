@@ -1,0 +1,83 @@
+Ruby est un langage de programmation libre. Il est interprété, orienté objet et multi-paradigme. Le langage a été standardisé au Japon en 2011 (JIS X 3017:2011), et en 2012 par l'Organisation internationale de normalisation (ISO 30170:2012).
+
+Historique
+Yukihiro "Matz" Matsumoto est le créateur de Ruby. Frustré par son expérience en développement Smalltalk et Lisp, il débute la conception d'un nouveau langage en 1993 sous Emacs, puis publie une première version en 1995 sous licence libre. Il enchaîne depuis les nouvelles versions.
+Des changements de version majeurs ont eu lieu : le 25 décembre 1998 pour la version 1.2.0 ;; le 13 août 1999 pour la version 1.4.0 ;; le 19 septembre 2000 pour la version 1.6.0 ;; le 4 août 2003 pour la version 1.8.0 ;; le 30 janvier 2009 pour la version 1.9.1 (première version stable de la branche 1.9) ;; le 30 octobre 2011 pour la version 1.9.3 ;; le 24 février 2013 pour la version 2.0.0; le 25 décembre 2013 pour la version 2.1.0.; le 19 août 2015 pour la version 2.2.3.; le 24 décembre 2015 pour la version 2.3.0.
+La dernière version stable est la 2.4.0, publiée le 25 décembre 2016.
+Depuis l'arrivée d'une documentation anglophone, et du framework web Ruby on Rails en 2004, Ruby a connu un certain engouement qui n'a cessé de croître jusqu'en 2007 dans le monde de la programmation.
+
+Philosophie
+Ruby est fortement orienté objet et se rapproche ainsi du paradigme objet de Smalltalk : toute donnée est un objet, y compris les types ;; toute fonction est une méthode ;; toute variable est une référence à un objet ;.
+Malgré cet aspect exclusivement objet, la programmation procédurale est possible et fréquente. Ruby utilise une syntaxe simple, inspirée par Eiffel et Ada.
+Le langage est souvent présenté comme évitant au maximum les mauvaises surprises, selon le principe de moindre surprise. Mais puisqu'il n'est pas possible d'éviter la surprise de tous les utilisateurs, Yukihiro Matsumoto précise qu'il cherche surtout à éviter sa propre surprise. Ainsi, plus on connaît le langage, plus on connaît la logique de son auteur, et moins on s'étonne des fonctionnalités qu'on découvre.
+
+Fonctionnalités
+Les fonctionnalités principales sont : l'orientation objet omniprésente ;; le ramasse-miettes chargé de libérer automatiquement la mémoire ;; le système de gestion d'exceptions pour gérer les erreurs exceptionnelles ;; la possibilité de modifier les classes pendant l'exécution du programme, qu'elles soient définies par l'utilisateur ou non ;; l'intégration dans sa syntaxe des expressions rationnelles ;; les blocs qui servent d'itérateur et permettent de passer des morceaux de programme en paramètre ;; l'héritage simple ;; l'inclusion de modules dans les classes, une autre manière de concevoir l'héritage multiple (mixin) ;; l'écriture d'extensions en C relativement simple ;; les nombres entiers de taille illimitée avec conversion automatique lorsque c'est nécessaire ;; la portée des variables définie par leur forme : var est une variable locale, @var est une variable d'instance, @@var est une variable de classe, var est une variable globale, Var est une constante.; les threads indépendants du système d'exploitation ;; la réflexion, c'est-à-dire la possibilité pour les programmes et les objets de s'inspecter eux-mêmes et de se modifier.
+
+Implémentations
+L'interpréteur officiel, Ruby MRI, fonctionne sur de nombreux systèmes d'exploitation : UNIX, Linux, Microsoft Windows, MS-DOS, OS X, OS-2, ReactOS, AmigaOS, etc. Il est publié sous la double licence libre GNU GPL et la licence Ruby.
+Ruby est fourni avec irb, un interpréteur de commandes interactif pour tester en profondeur le fonctionnement du langage. Il existe une version web d'irb pour tester Ruby dans un navigateur.
+Depuis le 1er janvier 2007, le développement de Ruby (1.9) est basé sur l'interpréteur YARV écrit par Koichi Sasada. Ce nouvel interpréteur apporte un gain notable en performances.
+Outre YARV, il existe plusieurs autres interpréteurs Ruby : JRuby : il est écrit en Java et interprète directement du code source écrit en Ruby. XRuby : Il convertit du code Ruby en bytecode Java et est plus rapide sur certains tests de performance que la version 1.8.5 de l'interpréteur officiel. Rubinius : Une machine virtuelle simplifiée, inspirée de Smalltalk-80, implémentée en Ruby même. Cardinal : un interpréteur fonctionnant sous Parrot. Gardens Point Ruby.NET : Un interpréteur fonctionnant sur le framework.NET. IronRuby : un compilateur fonctionnant sur le DLR du framework.NET. Ruby for.Net : un compilateur fonctionnant sur le CLR du framework.NET qui a été abandonnée au profit de IronRuby. MacRuby : implémentation de Ruby 1.9 spécifique à OS X, fonctionnant par-dessus le runtime Objective-C, permettant un usage natif des composants Cocoa, contrairement aux bindings RubyCocoa.
+Il existe aussi une solution non-libre, commercialisée par HipByte basée sur le travail du projet MacRuby, appelé RubyMotion créée par Laurent Sansonetti
+La version 2.0 permet de créer des applications graphiques pour OS X et pour IOS.
+
+Interprètes embarqués
+Ruby possède une interface de programmation en langage C qui lui permet d'être intégré au sein d'autres logiciels. Ruby est notamment utilisable dans : Apache avec mod-ruby ou Phusion Passenger pour générer des pages web en Ruby ;; et PostgreSQL avec PL-ruby pour faire exécuter des commandes Ruby au serveur de base de données.
+Le logiciel de création de jeu vidéo RPG Maker intègre dans ses versions XP et VX une bibliothèque nommée RGSS, Ruby Game Scripting System permettant l'usage de scripts en Ruby.
+
+Bibliothèques
+Il existe de nombreuses bibliothèques de fonctionnalités adjoignables au langage. Le dépôt historique de ces bibliothèques est le Ruby Application Archive (RAA). Il contient des fonctionnalités supplémentaires pour Ruby comme des bibliothèques de classes et de modules, mais aussi des extensions permettant d'utiliser des bibliothèques tierces.
+Le RAA contient également des logiciels écrits en Ruby. Parmi ces logiciels on trouve notamment Rubygems qui est un outil d'empaquetage et d'installation pour les extensions Ruby. Il permet de déployer rapidement des bibliothèques et des programmes Ruby.
+Le site web Rubyforge est également un hébergeur important de programmes et de bibliothèques écrites en Ruby.
+
+Exemples
+Le classique Hello world :
+puts "Hello World!"
+Utilisation des objets :
+ Tout est objet, même les nombres:
+-199.abs 199
+"ruby is cool".length 12
+"Rick".index "c" 2
+"Nice Day Isn't It".downcase.split(--).sort.uniq.join " 'acdeinsty"
+Utilisation de Mixin et de l'Héritage
+module AnimalSkills
+ def eat
+ puts "I'm eating !"
+ end
+
+ def move
+ puts "I'm moving !"
+ end
+
+ def express; puts "I'm expressing !" end
+end
+
+class Animal
+ include AnimalSkills mixin
+
+ @@name - 'an animal' variable de classe
+
+ def initialize size, weight, color initialisation des variables d'instance
+ @size - size.to-i
+ @weight, @color - weight.to-i, color.to-s
+ end
+
+ def describe
+ puts "I'm (@@name) !"
+ puts "I'm (@size) meter tall, I weigh (@weight) kilograms and I'm " @color
+ end
+end
+
+class Zebra Animal héritage
+ @@name - 'a zebra' rédéfinition de la variable de classe: maintenant tous les animaux sont des zèbres !
+
+ def initialize(size, weight, color - 'black and white') surcharge
+ super appel de la méthode de la classe mère (Animal)
+ end
+end
+
+z - Zebra.new(1, 50)
+
+z.describe - I'm a zebra ! - I'm 1 meter tall, I weigh 50 kilograms and I'm black and white
+z.eat - I'm eating !

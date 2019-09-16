@@ -1,0 +1,71 @@
+Un boîtier de circuit intégré (ou package) est un boîtier servant d'interface mécanique entre le composant lui-même et le circuit imprimé (également appelé PCB (Printed Circuit Board)). Il est généralement composé de plastique, parfois de céramique, rarement de métal. Certains boîtiers possèdent des fenêtres transparentes permettant par exemple l'effacement par ultraviolet de certaines mémoires (EPROM).
+Boîtier Quad Flat package No leads 28 pins au pas de 0,5 mm avec une plage de dissipation thermique au centre.
+
+Fonctions
+Le boîtier a différentes fonctions : Assurer la jonction électrique avec l'extérieur. Plusieurs solutions sont possibles : Utilisation de pins qui vont être brasés au circuit imprimé, par exemple les boîtiers DIP ou QFP; Des plages dorées vont être brasées par apport de pâte à braser lors du processus de brasage, par exemple les boîtiers QFN; Utilisation de billes de brasage pour faire la jonction entre le boîtier et le PCB, ce sont les boîtiers BGA.; Utilisation de pins qui vont être brasés au circuit imprimé, par exemple les boîtiers DIP ou QFP; Des plages dorées vont être brasées par apport de pâte à braser lors du processus de brasage, par exemple les boîtiers QFN; Utilisation de billes de brasage pour faire la jonction entre le boîtier et le PCB, ce sont les boîtiers BGA.
+La jonction entre le composant et le boîtier peut se faire de deux manières :
+Exemple de bonding sur un circuit intégré Intel 8742: 1) Soit par bonding, c'est-à-dire l'utilisation de petits fils d'or ou d'aluminium de 15 à 50 m pour réaliser la jonction entre les plages d'accueil du die aux pins. L'ensemble est noyé dans une résine d'encapsulation.; 2) Soit par assemblage flip-chip : Les plages d'accueil du composant sont recouvertes de billes d'or (quelques m de diamètre), le tout est retourné et brasé sur le PCB. Assurer la dissipation thermique. Protéger la puce de l'environnement hostile (chocs, poussière, rayonnements); Adapter le composant aux contraintes de fabrication : on passe généralement d'un pas entre pins de l'ordre de la centaine de m au mm. Les contraintes de brasage sont également optimisées (température de brasure plus élevée, procédés standard de brasage par refusion-brasage à la vague).
+
+Classification
+Il existe plusieurs organismes de normalisation de renom international pour catégoriser les boîtiers de composants électroniques : JEDEC, EIAJ (Electronic Industries Association of Japan), Mil standards (Standards militaires US), SEMI (Semiconductor Equipment and Materials Institute), ANSI-IPC (Interconnecting and Packaging Electronic Circuits Standards).
+Le JEDEC spécifie des familles standard : BGA, CGA, DIM, DIP, DSO, DSB, LGA, PGA, QFF, QFJ, QFN, QFP, SIM, SIP, SOF, SOJ, SON, SVP, UCI, WLB, ZIP.
+Les boîtiers spécifiques sont définis suivant plusieurs paramètres.
+
+Style de contour
+Il s'agit du code basique définissant la famille de boîtier : cylindrique (CY), bouton (DB), grid array (GA), IM In-Line Module(IM), IP In-Line Package(IP), Press-Pack - Press-Fit (CP-PF, boîtier assemblé à la presse sans soudure), quad flatpack (QF, broches sur les 4 côtés du boîtier), small outline (SO, broches sur 2 côtés opposés du boîtier), CMS vertical (VP), boîtier sur Die-Wafer (DS-WL), montage sur collerette (FM), forme allongée (LF), assemblage microélectronique (MA), montage à clous (PM), boitier spécifique (SS), boîtier non classifié (UC).
+
+Fonctions spécifiques
+Certaines fonctionnalités non communes sont définies par la classification JEDEC sous la forme d'un préfixe de 0 à 6 lettres suivi d'un tiret, on trouve notamment les fenêtres optiques (C), les die empilés dans un même boîtier (A, stacked package assembly), les dissipateurs de chaleur (H), ainsi que des codes pour la hauteur du boîtier ou le pas entre broches lorsqu'ils ne sont pas conformes au standard.
+
+Matériaux
+Dans la classification JEDEC, on peut trouver des boîtiers céramique (C lorsque scellés par du métal, G lorsque scellés par du verre), des boîtiers métal (M), en plastique moulé (P), en silicone (S), ou en ruban polyimide (T). Cette lettre est généralement en préfixe.
+
+Broches
+La forme des broches est codifiée par la norme JEDEC sous forme d'une lettre généralement en suffixe : On trouve les billes (B), les pattes recourbées (C, par exemple le boitier PLCC, Gull-wing G, tels que sur les boîtiers SOIC), J-Bend, L-Bend, S-Bend, J-inversé), les oreilles pour la soudure de fils (D, H), à plat (F), isolés (I), sans pattes (N, avec des plages de soudure tels les QFN), pattes traversantes (P, T), à insertion rapide (Q, par exemple pour des relais électromécaniques), à wrapper (W), sortie filaire (W), ou à visser (Y).
+Pins P;
+Billes B;
+Pattes recourbées C;
+Sans pattes N;
+Gull-wing G;
+J-Bend J;
+Pins "through hole" T;
+Wrapping W;
+À oreilles D;
+À insertion rapide Q;
+À visser Y.
+
+Position des broches
+La norme JEDEC définit un préfixe représentant la position des broches par rapport à un circuit : rectangulaire ou carré : single (S, un seul côté), dual (D, sur 2 côtés opposés), quad (Q, sur les 4 côtés du boîtier), zig-zag (Z, en quinconce sur un côté), bottom (B), colonne (C), perpendiculaire (P); cylindrique : axiale (A), radiale (R), endcaps (E, extrémités de boîtiers cylindriques).
+Single S;
+Dual D;
+Quad Q;
+Zig-zag Z;
+Axial A - Radial R.
+
+Brochage
+En électronique tout comme en électrotechnique, le brochage d'un composant décrit le rôle de chacune des broches d'un connecteur ou d'un composant du plus simple au plus complexe des circuits intégrés. Le terme de brochage est synonyme de diagramme de connexion.
+Le brochage est plus ou moins complexe : Le brochage le plus simple est celui d'une diode (deux broches : anode et cathode) ensuite viennent les transistors (trois broches),; Les brochages les plus complexes sont ceux des microprocesseurs.
+Les différents types de boîtiers de circuits intégrés induisent des brochages très différents.
+
+Broches d'alimentation d'un circuit intégré
+Brochage d'un AOP
+La plupart des circuits intégrés possèdent au moins deux broches reliées au "bus d'alimentation" du circuit sur lequel ils sont installés.
+La broche d'alimentation positive repérée V C C + (-displaystyle V-(-mathrm (CC+))) est parfois aussi appelée V D D (-displaystyle V-(-mathrm (DD))), V C C (-displaystyle V-(-mathrm (CC))), ou VS+. La broche d'alimentation négative repérée V C C (-displaystyle V-(-mathrm (CC-))) est parfois aussi appelée V S S (-displaystyle V-(-mathrm (SS))), V E E (-displaystyle V-(-mathrm (EE))), ou VS.
+Le caractère doublé qui se trouve en indice de la lettre V fait référence au nom de la broche du transistor à laquelle cette alimentation sera généralement reliée. Ainsi, les appellations V C C (-displaystyle V-(-mathrm (CC))) et V E E (-displaystyle V-(-mathrm (EE))) sont généralement réservées aux AOP bipolaire tandis que les appellations V D D (-displaystyle V-(-mathrm (DD))) et V S S (-displaystyle V-(-mathrm (SS))) sont généralement réservées aux AOP à effet de champ.
+Le C de V C C (-displaystyle V-(-mathrm (CC))) signifie que l'alimentation est reliée au collecteur d'un transistor bipolaire tandis que le E de V E E (-displaystyle V-(-mathrm (EE))) signifie que l'alimentation est reliée à l'émetteur d'un transistor bipolaire. Le D de V D D (-displaystyle V-(-mathrm (DD))) fait référence au drain d'un transistor à effet de champ tandis que le S de V S S (-displaystyle V-(-mathrm (SS))) fait référence à la source de ce même transistor.
+
+Caractérisation
+
+Caractérisation électrique
+La technique du pontage entraîne l'apparition de circuits RLC dont les caractéristiques ne sont pas négligeables pour des composants travaillant en haute fréquence. Les modèles de simulation IBIS ou SPICE prennent en compte ce paramètre.
+Voici un ordre d'idées des caractéristiques d'un pontage standard, utilisant des fils d'or de 25,4 m de diamètre :
+
+Caractérisation thermique
+Cette caractérisation est très importante en électrotechnique, mais aussi en électronique numérique. Le facteur de dissipation du boîtier peut déterminer certaines caractéristiques qui sont liées à la température comme la vitesse d'exécution d'un processeur, ou le courant de commutation d'un transistor.
+
+Caractérisation électromagnétique
+Les boîtiers peuvent être conçus pour limiter le rayonnement électronique du composant qu'ils enveloppent (agresseur), ou au contraire limiter l'effet de l'environnement extérieur sur leur fonctionnement (victime). Certains secteurs d'activité tels que l'aéronautique, le spatial ou le secteur automobile font des études très poussées sur la caractérisation électromagnétique des boîtiers électroniques.
+
+Voir aussi
+
+Articles connexes: Composant électronique; Composant monté en surface; Liste des principaux fabricants de semi-conducteurs au fil des ans.

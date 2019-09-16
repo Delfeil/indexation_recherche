@@ -1,0 +1,17 @@
+OpenSearch est une collection de technologies permettant à des sites web et des moteurs de recherche de publier des résultats de recherche dans un format standardisé. OpenSearch 1.0 a été dévoilé en mars 2005, par Jeff Bezos à la conférence Web 2.0. Développé par A9, une branche d'Amazon.com, OpenSearch n'a pas connu d'évolution depuis la publication de brouillons d'une version 1.1, entre septembre et décembre 2005. OpenSearch est sous licence Creative Commons Attribution-ShareAlike 2.5. OpenSearch utilise l'XML, et les flux RSS.
+
+Principe
+Le but d'OpenSearch est d'établir un standard dans l'écriture des recherches sur Internet. Ces recherches normalisées peuvent donc faire l'objet d'agrégation dans des listes qui offrent l'avantage de rassembler plusieurs sites de recherche.
+Ainsi, il est possible de faire une recherche dans un dictionnaire, dans un site marchand, ou dans un moteur de recherche, avec la même requête, selon la même procédure. L'illustration principale et directe en est l'intégration des listes de sites de recherches dans les navigateurs web.
+Pour pouvoir être ajouté dans la liste d'un navigateur web, un site doit écrire un fichier XML qui décrit les particularités de l'outil de recherche proposé. Ce fichier doit ensuite être proposé au navigateur pour que ce dernier propose l'ajout de cet outil à la liste actuelle dans le navigateur.
+
+Technologie
+L'OpenSearch est composé : 1) des fichiers de description OpenSearch : les fichiers XML qui permettent d'identifier et de décrire un moteur de recherche.; 2) de la syntaxe d'interrogation OpenSearch : décrire l'endroit où récupérer les résultats de recherche.; 3) OpenSearch RSS (avec OpenSearch 1.0) ou OpenSearch Response (avec OpenSearch 1.1): format de présentation des résultats OpenSearch.; 4) des agrégateurs OpenSearch : sites pouvant afficher les résultats OpenSearch.; 5) balise de type OpenSearch : instruction HTML a inclure dans une page pour signaler la présence d'un plugin de recherche à l'utilisateur.
+OpenSearch Description Documents liste les résultats de recherche pour le site web. Alors que la version 1.0 d'OpenSearch ne retourne qu'une seule réponse au format RSS, la version 1.1 supporte les réponses multiples, qui peuvent être dans n'importe quel format. Bien que les formats RSS et Atom soient les seuls officiellement soutenus par les agrégateurs OpenSearch, d'autres formats tels que HTML sont parfaitement acceptables.
+
+Exemples: Exemple de fichier XML :. Exemple d'instruction à inclure dans une page pour proposer le fichier au navigateur :.
+À noter que le titre dans la balise link doit correspondre au contenu de la balise ShortName du fichier XML.
+
+Logiciels utilisant OpenSearch: Internet Explorer 7; Mozilla Firefox 2.0; Mozilla Firefox 3; Google Chrome 3; Arora; Cuil.
+
+Liens internes: Agrégateur; Syndication.

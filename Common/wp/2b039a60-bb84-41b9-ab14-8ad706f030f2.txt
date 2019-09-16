@@ -1,0 +1,59 @@
+Dans un système à base d'un processeur, d'un microprocesseur, d'un microcontrôleur ou d'un automate, on appelle entrées-sorties les échanges d'informations entre le processeur et les périphériques qui lui sont associés. De la sorte, le système peut réagir à des modifications de son environnement, voire le contrôler. Elles sont parfois désignées par l'acronyme I-O, issu de l'anglais Input-Output ou encore E-S pour Entrées-Sorties.
+Dans un système d'exploitation : Les entrées sont les données envoyées par un périphérique (disque, réseau, clavier...) à destination de l'unité centrale ;; Les sorties sont les données émises par l'unité centrale à destination d'un périphérique (disque, réseau, écran...).
+Exemple simplifié : taper sur les touches du clavier envoie une série de codes vers le processeur ; ces codes sont considérés comme des données d'entrée ;; le processeur affiche les résultats du traitement des données sur un écran ; ce sont des données de sortie. Habituellement, l'écran est géré par un programme de gestion d'affichage.
+
+Structure d'un système à microprocesseur
+Structure d'un système à microprocesseur.
+Un système à microprocesseur comporte nécessairement les éléments suivants : un processeur, qui est le cerveau du système ; il est capable d'effectuer des opérations arithmétiques et logiques et d'organiser des transferts de données entre les différents éléments du système ;; une zone de mémoire morte (ROM, EPROM, EPROM Flash) qui stocke le programme ;; une zone de mémoire vive (RAM) qui stocke les données pendant l'exécution du programme ; le contenu de cette mémoire est perdu lorsqu'on coupe l'alimentation du système ;; des périphériques ; leur nombre et genre dépendent de l'application.
+Les différents éléments du système sont reliés par 3 bus : le bus de données permet, comme son nom l'indique, la circulation des données, mais aussi des instructions, entre les 4 grands blocs ;; le bus d'adresse permet au processeur de désigner à chaque instant la case mémoire ou le périphérique auquel il veut faire appel ;; le bus de contrôle est également géré par le processeur et indique, par exemple, s'il veut faire une écriture ou une lecture dans une case mémoire, ou une entrée-sortie de ou vers un périphérique ; on trouve également, dans le bus de contrôle, une ou plusieurs lignes qui permettent aux circuits périphériques d'effectuer des demandes au processeur ; ces lignes sont appelées lignes d'interruptions matérielles (IRQ).
+L'évolution de la technologie fait que des systèmes qui, précédemment, nécessitaient plusieurs boîtiers, peuvent parfaitement être intégrés dans un seul boîtier qui regroupe les différentes fonctions ; voir par exemple la famille de processeurs ADuC d'Analog Devices.
+
+Exemple de système à microprocesseur
+Une machine à laver est un excellent exemple de système de contrôle piloté par microprocesseur. Les principaux éléments de la machine sont : un tambour dans lequel sera placé le linge à laver ;; un moteur pour faire tourner ce tambour à vitesse plus ou moins grande selon la phase du programme (lavage, essorage...) ;; une résistance chauffante pour chauffer l'eau ;; une électro-vanne pour autoriser l'entrée de l'eau de la distribution dans la cuve de lavage au début du cycle ;; une pompe pour vider l'eau en fin de cycle ;; un détecteur de niveau d'eau pour arrêter le remplissage de la cuve ;; un thermomètre électronique pour arrêter le chauffage lorsque l'eau a atteint la température désirée ;; un ou plusieurs commutateurs pour sélectionner le programme, la température de l'eau, la vitesse d'essorage ;; un bouton de mise en marche et d'arrêt de la machine ;; un ou plusieurs voyants ou indicateurs (témoin de marche, état d'avancement du programme...).
+Le processeur va recevoir des informations des périphériques d'entrée : commutateur(s) ;; détecteur de niveau ;; thermomètre électronique.
+En fonction de ces informations, il va envoyer des commandes aux périphériques de sortie : moteur ;; résistance chauffante ;; électro-vanne ;; pompe ;; voyants et indicateurs.
+
+Ports d'entrées-sorties
+Les périphériques sont reliés au reste du système par des circuits appelés ports d'entrées et ports de sortie (certains ports peuvent combiner les deux fonctions).
+Un port d'entrée est essentiellement composé de tampons trois états. Ceux-ci se comportent comme des interrupteurs électroniques qui font apparaître, au moment voulu, les niveaux logiques du périphérique d'entrée (choisi par le bus d'adresse) sur le bus de données ; ces niveaux seront mémorisés dans un registre du processeur (le registre est une case de RAM).
+Un port de sortie est essentiellement composé de bascules de type D. Celles-ci se comportent comme des petites mémoires. Leur entrée est reliée au bus de données. Le processeur vient écrire un niveau logique 0 ou 1 dans chacun des bascules. Les sorties des bascules contrôlent les périphériques, généralement via un étage de puissance.
+
+Périphériques d'entrée
+Une entrée est un flux de données provenant soit : du réseau,; d'une lecture d'information sur disque,; d'une saisie clavier, d'un mouvement de souris, d'un crayon optique; ou de tout autre périphérique prévu pour interagir avec un système informatique.
+Ces signaux d'entrée génèrent des Interruptions matérielles qui sont traitées en priorité par le gestionnaire d'interruptions du noyau du système d'exploitation.
+Dans les systèmes à microprocesseurs, tels la machine à laver évoquée ci-dessus, on trouve des boutons poussoirs, des commutateurs.
+De nombreux microcontrôleurs incorporent des compteurs ; les signaux mis en forme et appliqués aux entrées de comptage constituent aussi des signaux d'entrée du système.
+Dans les systèmes informatiques, le choix est bien plus vaste : clavier, souris, crayon optique, numériseur, convertisseurs analogiques-numériques...
+Insistons sur le fait que, pour être traités par le processeur, les signaux, quels qu'ils soient, doivent être convertis en signaux logiques compatibles avec le processeur. Dans certains cas, il faudra donc placer des convertisseurs de niveau ou des étages d'isolement (souvent des opto-coupleurs).
+
+Périphériques de sortie
+Les sorties sont associées à des trappes ou appels systèmes.
+Une sortie peut être (cette liste n'est pas exhaustive) : un signal (électrique, onde...) ;; un flux de données (réseau), une écriture sur disque ou une mise en mémoire ;; un affichage, un son.
+Dans les systèmes à microprocesseurs, on utilise des diodes électroluminescentes (DELs) ou des ampoules à incandescence comme voyants ou indicateurs, des afficheurs numériques ou alphanumériques à DELs ou à cristaux liquides pour l'affichage des messages du système, des relais (pour commander des charges nécessitant des courants et-ou des tensions élevés), des optocoupleurs...
+Dans les systèmes informatiques, le choix est vaste : écran pour l'affichage, imprimante pour la production de documents sur papier, convertisseurs numériques-analogiques...
+
+Périphériques d'entrées-sorties
+Flux d'entrées-sorties
+Un grand nombre de périphériques sont à la fois des périphériques d'entrée et de sortie. Le modem, par exemple, permet d'envoyer ou de recevoir des informations en provenance du monde extérieur : courrier électronique, navigation Internet, mais aussi envoi et réception de fax, téléphonie par ordinateur (VoIP, Voice over IP).
+Les cartes réseau permettent de relier entre eux plusieurs ordinateurs afin de réaliser un réseau local d'ordinateurs, ce qui permet de partager des fichiers ou des ressources telles une imprimante réseau, un numériseur...
+Il y a aussi toute la gamme des mémoires de masse : disque dur, carte mémoire, lecteur de disquette, lecteur de DVD, clé USB.
+De même, les moniteurs d'ordinateurs lorsqu'ils sont dotés d'écran tactile.
+
+Gestion des entrées-sorties
+On distingue principalement trois façons de gérer les entrées-sorties.
+
+Entrées-sorties programmées
+Pendant l'exécution de son programme principal, le microprocesseur va périodiquement lire l'état des périphériques d'entrée et modifie, si nécessaire, l'état des ports de sortie. C'est la technique la plus simple. Exemple : système de régulation de chauffage d'un bâtiment.
+
+Interruptions
+Cette technique est utilisée lorsque le processeur doit réagir rapidement à un changement d'état d'un port d'entrée. Le périphérique prévient le processeur par une ligne d'interruption prévue à cet effet. Le processeur interrompt la tâche en cours, saute dans le sous-programme destiné à gérer la demande spécifique qui lui est adressée ; à la fin du sous-programme, le processeur reprend l'exécution du programme principal là où il l'avait laissée et donne un résultat cohérent.
+
+Accès direct à la mémoire
+Cette technique, connue souvent par ses initiales DMA (Direct Memory Access), est utilisée lorsque l'on doit procéder à un transfert rapide d'un grand nombre de données entre, par exemple, un lecteur de CD et un disque dur. Plutôt que de transférer les octets d'abord vers un registre du processeur, puis seulement vers le disque dur, les octets sont transférés directement d'un périphérique à l'autre sans passer par les registres du processeur. Le transfert des données est organisé par un circuit spécial appelé contrôleur DMA, qui prend la place du processeur pendant le transfert et gère les bus d'adresses et de contrôle.
+
+Performances
+Les performances d'un ordinateur mesurent le temps qui lui est nécessaire pour effectuer un traitement donné. Trois éléments influencent ces performances : la puissance du processeur ;; la mémoire disponible ;; le temps consacré aux opérations d'entrées-sorties.
+Le temps nécessaire pour un traitement informatique quel qu'il soit est toujours déterminé par un de ces trois éléments mais celui des entrées-sorties est généralement prépondérant. En effet, le temps consacré aux opérations I-O se compte en millisecondes alors que celui consacré aux instructions effectuées par le processeur se compte en nanosecondes.
+La taille de la mémoire est surtout importante dans la mesure où elle permet de réduire le nombre d'opérations d'entrées-sorties, soit parce qu'une part plus importante des programmes applicatifs peut résider en mémoire, réduisant ainsi les phénomènes de pagination, soit parce qu'une partie de cette mémoire peut-être utilisée comme tampon (mémoire cache) pour le stockage des flux de données des opérations I-O.
+En programmation comme au niveau système (par exemple sur les mainframes), deux éléments matériels (entre autres) influencent les performances des entrées-sorties, c'est-à-dire leur vitesse : la charge du processeur (i.e. son taux d'occupation), qui fournit les données sortantes ou traite les données entrantes ;; la charge du dispositif d'entrée-sortie, qui émet ou reçoit les données (on parle généralement des lectures-écritures notamment pour les accès disques).
+Si les ressources CPU ou I-O sont insuffisantes lors de l'exécution d'un ou plusieurs traitements simultanés, on parle de saturation. Portail de l'informatique.

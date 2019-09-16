@@ -1,0 +1,33 @@
+Un modèle booléen est une méthode ensembliste de représentation du contenu d'un document. C'est l'un des premiers modèles utilisés en recherche d'information, permettant de fouiller automatiquement les grands corpus de bibliothèques. Il en existe un modèle étendu qui généralise également le modèle vectoriel.
+
+Modèle standard
+Le modèle booléen est une représentation mathématique du contenu d'un document, selon une approche ensembliste.
+Les documents sont représentés par des ensembles de termes et les requêtes traitées comme des expressions logiques. Considérant un vocabulaire T - t 1 ,.. t m (-displaystyle T-(t-(1),-dots ,t-(m))), un document est caractérisé par la présence ou l'absence de chaque t i (-displaystyle t-(i)) dans son contenu. La requête s'exprime alors avec des opérateurs logiques selon le formalisme de l'algèbre de Boole. Un document du corpus est ainsi considéré comme pertinent uniquement quand son contenu est vrai pour l'expression de la requête.
+
+Avantages et inconvénients
+La simplicité du modèle le rend aisément compréhensible pour un utilisateur. Dans le cas de corpus explorés par des spécialistes, ayant notamment une très bonne connaissance du vocabulaire, cela le rend très efficace.
+Cette simplicité le rend néanmoins peu adapté à des recherches sur des corpus généralistes, surtout lorsque les utilisateurs n'ont pas d'expertise sur ce dernier. En particulier, la formulation des requêtes devient vite laborieuse quand la requête se fait précise (donc longue). Un autre inconvénient majeur du modèle dans sa version la plus simple est l'impossibilité de rendre compte d'une correspondance partielle d'un document à une requête. Enfin, la pondération binaire des termes du vocabulaire limite la pertinence des résultats et ne permet pas de les ordonner.
+Une part des inconvénients du modèle booléen standard est corrigé avec l'utilisation du modèle vectoriel ou du modèle booléen étendu.
+
+Modèle étendu
+L'extension du modèle booléen standard généralise également le modèle vectoriel, et consiste principalement à pondérer les termes des documents au moyen d'un schéma tel celui du TF-IDF. Elle a été proposée par Salton, Fox et Wu en 1983.
+Si on munit l'espace (vectoriel) de représentation d'une métrique Lp, un document peut ainsi appartenir à l'intérieur de la boule ouverte définie par l'intersection de la boule unité et de R + (-displaystyle -mathbb (R) -(+)(-)) (autrement dit "entre 0 et 1 pour chaque dimension"), alors que le modèle booléen standard le contraint à appartenir à l'adhérence de celle-ci (i.e ses coordonnées ne peuvent être que 0 (-displaystyle 0) ou 1 (-displaystyle 1)).
+Dans le cas d'une requête comportant deux termes, une condition logique de type ET est alors représentée par la distance entre le document est les coordonnées "idéales" (1 , 1) (-displaystyle (1,1)) tandis qu'une condition de type OU est calculée par la distance du document à l'origine. Cette définition peut être généralisée à un nombre quelconque de termes.
+
+Formulation pour deux termes
+Similarité d'une requête de type ET (T 1 T 2 (-displaystyle T-(1)-land T-(2))) entre une requête q (-displaystyle q) et les documents D j (-displaystyle D-(j)) et D j + 1 (-displaystyle D-(j+1))
+Considérons le cas d'une requête ne comportant que deux termes T 1 (-displaystyle T-(1)) et T 2 (-displaystyle T-(2)) et examinons le cas des requêtes conjonctives (T 1 (-displaystyle T-(1)) ET T 2 (-displaystyle T-(2))) et disjonctives (T 1 (-displaystyle T-(1)) OU T 2 (-displaystyle T-(2))), le but étant d'ordonner les documents D j (-displaystyle D-(j)) en réponse à cette requête q (-displaystyle q).
+Dans le cas d'une requête q - T 1 T 2 (-displaystyle q-T-(1)-land T-(2)) (i.e T 1 (-displaystyle T-(1)) ET T 2 (-displaystyle T-(2))), le point idéal est (1,1) représentant le cas où les deux termes sont présents dans le document. Ainsi, la similarité de la requête q (-displaystyle q) à un document est donnée par: s i m (q a n d , d) - 1 (1 w 1) 2 + (1 w 2) 2 2 (-displaystyle sim(q-(and),d)-1-(-sqrt (-frac ((1-w-(1))(2)+(1-w-(2))(2))(2)))).
+Similarité d'une requête de type OU T 1 T 2 (-displaystyle T-(1)-lor T-(2)) entre une requête q (-displaystyle q) et les documents D j (-displaystyle D-(j)) et D j + 1 (-displaystyle D-(j+1))
+Dans le cas de la requête q - T 1 T 2 (-displaystyle q-T-(1)-lor T-(2)) (i.e T 1 (-displaystyle T-(1)) OU T 2 (-displaystyle T-(2))) il s'agit d'être le plus éloigné possible de l'origine (0 , 0) (-displaystyle (0,0)) qui représente le pire cas où aucun des deux termes n'est présent. Ainsi: s i m (q o r , d) - w 1 2 + w 2 2 2 (-displaystyle sim(q-(or),d)-(-sqrt (-frac (w-(1)(2)+w-(2)(2))(2)))).
+
+Généralisation à un nombre quelconque de termes
+Les requêtes conjonctives et disjonctives peuvent être généralisées aux cas où la requête comporte plus de deux termes (m (-displaystyle m) termes). On utilise pour cela les p-normes qui dépendent d'un paramètre p (-displaystyle p) pouvant varier dans l'ensemble des entiers naturels. La généralisation de la similarité conjonctive (OU) s'exprime ainsi: s i m (q o r , D j) - w 1 p + w 2 p +. + w m p m p (-displaystyle sim(q-(or),D-(j))-(-sqrt((p))(-frac (w-(1)(p)+w-(2)(p)+....+w-(m)(p))(m)))).
+Et la généralisation d'une requête disjonctive (ET) par: s i m (q a n d , D j) - 1 (1 w 1) p + (1 w 2) p +. + (1 w m) p m p (-displaystyle sim(q-(and),D-(j))-1-(-sqrt((p))(-frac ((1-w-(1))(p)+(1-w-(2))(p)+....+(1-w-(m))(p))(m)))).
+Quand le paramètre p-1 on retrouve le cas du modèle vectoriel tandis que lorsque p tend vers l'infini, on se ramène au cas du modèle booléen standard, avec des requêtes ET et OU strictes. En ce sens, le modèle booléen étendu est une généralisation de ces deux modèles.
+
+Combinaison de requêtes conjonctives et disjonctives
+La généralisation précédente s'applique à des requêtes conjonctives ou disjonctives "pures", c'est-à-dire ne comportant que l'un des opérateurs ET ou OU à l'exclusion de l'autre. Le modèle booléen étendu permet néanmoins de les combiner les opérateurs au moyen de regroupements récursifs.
+Par exemple, pour la requête q - (T 1 T 2) T 3 (-displaystyle q-(T-(1)-land T-(2))-lor T-(3)), la similarité entre la requête q (-displaystyle q) et un document D (-displaystyle D) comportant les trois termes pourra s'exprimer par: s i m (q , D) - (1 ((1 w 1) p + (1 w 2) p 2 p)) p + w 3 p 2 p (-displaystyle sim(q,D)-(-sqrt((p))(-frac (-left(1-(-sqrt((p))(((-frac ((1-w-(1))(p)+(1-w-(2))(p))(2)))))-right)(p)+w-(3)(p))(2)))).
+
+Voir aussi: Modèle vectoriel; Modèle probabiliste; Moteur de recherche; Système de recherche d'information.

@@ -1,0 +1,11 @@
+Lynx est un navigateur web en mode texte, et utilisant donc le clavier comme interface principale. Les protocoles supportés sont : Gopher, HTTP, HTTPS, FTP, WAIS, et NNTP.
+La navigation dans Lynx consiste à sélectionner le lien choisi à l'aide des touches fléchées, ou bien à faire afficher à Lynx un numéro correspondant à chaque lien et à taper le numéro du lien choisi. Les versions actuelles prennent en charge SSL et un grand nombre de caractéristiques du HTML, mais pas le JavaScript. Les cadres sont identifiés par leur nom et peuvent être explorés comme s'il s'agissait de pages distinctes.
+Lynx est un produit de l'Academic Computing Services de l'Université du Kansas et a été développé à l'origine en 1992 par Lou Montulli, Michael Grobe et Charles Rezac. Garret Blythe a créé DosLynk avant de travailler lui aussi sur Lynx. Foteos Macrides a porté une grande partie de Lynx sur VMS et l'a maintenu pendant un temps. Depuis 1995, Lynx est distribué sous la licence GNU GPL. Il est maintenant maintenu par un groupe de bénévoles.
+Lynx a été conçu pour les systèmes Unix et VMS, et tourne en particulier sur GNU-Linux. Des versions pour MS-DOS et pour Windows sont aussi disponibles. Il existe également une version appelée MacLynx pour Macintosh "Système 7 ou supérieur" qui n'est pas mise à jour régulièrement.
+Grâce à son interface facile à intégrer à un synthétiseur vocal, Lynx était très populaire auprès des déficients visuels, mais l'amélioration des synthèses vocales a réduit son intérêt pour les non-voyants.
+Lynx est toujours utilisé comme outil de développement web dans la mesure où il permet de consulter un document de la même manière que le ferait un robot d'indexation.
+Ses principaux homologues sont Links et w3m.
+
+Exemple de User-Agent Lynx: Lynx, version 2.8.4rel.1 : Lynx-2.8.4rel.1 libwww-FM-2.14; Lynx, version 2.8.8dev.15 : Lynx-2.8.8dev.15 libwww-FM-2.14 SSL-MM-1.4.1 GNUTLS-3.2.1.
+
+Articles connexes: Accessibilité; Liste de navigateurs Web; links; w3m.

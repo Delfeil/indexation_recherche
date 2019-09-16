@@ -1,0 +1,8 @@
+La géométrie affine est la géométrie des espaces affines : il s'agit grossièrement d'ensembles de points définis par des propriétés spécifiques permettant de parler d'alignement, de parallélisme, d'intersection. Les notions de longueur et d'angle lui sont toutefois étrangères : elles dépendent de structures supplémentaires, traitées dans le cadre de la géométrie euclidienne.
+Dissocier les notions propres à la géométrie affine est récent dans l'histoire des mathématiques. La définition formelle actuelle d'un espace affine présuppose la donnée d'un espace vectoriel, appelé l'espace directeur. Deux points d'un espace affine peuvent se soustraire pour donner un vecteur de l'espace directeur.
+Parmi les résultats remarquables de la géométrie affine, on peut citer : le théorème de Thalès,; l'associativité du barycentre,; le théorème de Ménélaüs,; le théorème de Ceva, etc.
+Un certain nombre de résultats de la géométrie affine s'étendent dans le cadre de la géométrie projective. Le complémentaire d'un hyperplan projectif dans un espace projectif apparait naturellement comme un espace affine.
+Le groupe de transformations d'un espace affine est appelé groupe affine. Il est engendré par les dilatations, les transvections, et les translations. Certaines transformations, comme les inversions, ne préservent pas les propriétés de la géométrie affine.
+En géométrie différentielle, la donnée d'une connexion plate équivaut à la donnée d'un atlas dont les applications de changement de cartes sont des transformations affines.
+
+Articles connexes: Application affine; Affinité (mathématiques) (un exemple d'application affine). Portail de la géométrie.

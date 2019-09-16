@@ -1,0 +1,8 @@
+Bolt, Beranek and Newman (BBN) est une société américaine créée en 1948 par deux professeurs du Massachusetts Institute of Technology (MIT) : Richard Bolt et Leo Beranek - et d'un ancien étudiant de Richard Bolt : Robert Newman.
+Cette société a été pionnière dans l'histoire de l'informatique, on lui doit pêle-mêle : le langage Logo ;; le système d'exploitation TENEX ;; la mise en place du réseau ARPANET ;; l'envoi du premier courrier électronique.
+L'histoire de cette société est profondément imbriquée, dans un premier temps, avec celle de l'université du MIT, puis dans un second temps avec celle de la société DEC, constructeur informatique.
+En 1967, la société embauche Dave Walden, Frank Heart et plusieurs de leurs collègues du "Lincoln Laboratory" du MIT. Entré comme programmeur, pour seconder William Crowther, le principal programmeur du projet arpanet, Dave Walden, deviendra directeur technique puis directeur général.
+
+Voir aussi
+
+Articles connexes: Daniel Murphy. Portail des entreprises; Portail de l'informatique.

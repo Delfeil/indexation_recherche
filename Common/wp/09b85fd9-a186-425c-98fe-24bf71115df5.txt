@@ -1,0 +1,144 @@
+Un livre numérique (terme officiellement recommandé en France dans le JORF du 4 avril 2012), aussi appelé par métonymie livre électronique, est un livre édité et diffusé en version numérique, disponible sous forme de fichier, qui peut être téléchargé et stocké pour être lu soit sur un écran tel que celui d'un ordinateur personnel, d'une liseuse ou d'une tablette tactile, soit sur une plage braille, soit sur un dispositif de lecture de livres audio. Il peut également être lu en ligne.
+
+Définition légale
+Selon la loi française (LOI n 2011-590) un livre numérique est "une oeuvre de l'esprit créée par un ou plusieurs auteurs (...) à la fois commercialisée sous sa forme numérique et publiée sous forme imprimée ou (...), par son contenu et sa composition, susceptible d'être imprimé, à l'exception des éléments accessoires propres à l'édition numérique"
+
+Histoire du livre numérique
+
+Années 1970-1990
+Michael Hart créait en 1971 le projet Gutenberg, dont le but est de numériser une grande quantité de livres afin de créer une bibliothèque en ligne libre d'accès. La volonté de Hart était de créer une nouvelle modalité de distribution (et éventuellement, de lecture) autrement que par papier. C'est ainsi qu'est apparu le premier document numérisé par le projet Gutenberg : la Déclaration d'indépendance des États-Unis dans un fichier de 5 ko, qui a d'ailleurs été publié un 4 juillet, jour de la fête nationale américaine. Toutefois, comme la communauté n'a pas encore majoritairement un accès à Internet, le projet avance lentement, mais à partir des années 1980, cette communauté commence à avoir un accès régulier à Internet et le projet va alors bon train et fête même son dixième livre numérisé avec The King James Bible en 1989. Ailleurs, la société Franklin réussit à mettre sur pied en 1986 le premier dictionnaire "consultable sur une machine de poche".
+
+Années 1990
+Pendant qu'il fêtait son centième livre numérisé en 1994 avec la mise en ligne de l'oeuvre complète de William Shakespeare, Michael Hart était presque le seul à se démarquer dans le livre numérique à l'époque, la dernière décennie du vingtième siècle est le moment ou d'autres personnes commencent à se joindre au projet numérique du livre.
+1993: En effet, en janvier 1993, John Mark Ockerbloom crée le Online Books Page. Contrairement à Hart qui publiait des livres sur la plateforme numérique, ce projet a pour but de répertorier uniquement des textes numériques anglophones déjà publiés, de manière à offrir un point d'accès commun à tous pour la lecture numérique.
+1995: Apparition d'Amazon.com, la première grande librairie électronique qui connaît rapidement un succès et qui est toujours la référence des libraires numériques au vingt-unième siècle. Dans la même année, au début d'avril 1995, Pierre François Gagnon fonde à Montréal Éditel (editel.com), première plateforme d'édition électronique, et la presse dans son sens large commence à se mettre en ligne.
+1996: Cylibris, première maison d'édition numérique francophone fondée par Olivier Gainon qui publie les livres numériques et imprimés sur Internet.
+1998: 00h00, une autre maison d'édition numérique, mais qui se limite aux livres numériques.
+
+Années 2000
+2000: Le Mobipocket est fondé. Ce logiciel de lecture "se spécialise d'emblée dans la lecture et la distribution sécurisée de livres pour assistant personnel.". Également, il y a Gemstar ebook qui devient la première tablette de lecture numérique officielle.
+2001: Adobe Flash Player lance son premier logiciel gratuit qui permet une lecture numérique d'un fichier. La même année débute le concept du mail-roman francophone qui consiste à publier, un chapitre à la fois, un roman par l'intermédiaire de courriels. Aussi, Cybook devient à la première tablette de lecture européenne à être lancée. C'est aussi l'année où le premier smartphone est créée : les téléphones portables sont aussi des formats permettant la lecture numérique.
+2004: La compagnie Sony produit sa propre tablette de lecture ou reader. Ceci marque le début de la popularisation des tablettes lectorielles numériques (ou "liseuses").
+2005: Open Content Alliance est créé par l'Internet Archive et Yahoo dans le but d'être en mesure de lire n'importe quel texte disponible sur n'importe quel moteur de recherche.
+2006: Google livres: Alors que Google avait échoué avec Google Print en 2004 et 2005, il réussit à lancer Google Books qui permet de lire des livres en ligne, de consulter les métadonnées (date de publication, auteur, éditeur, page consultée...) et d'effectuer des recherches dans le corps du texte.
+2007: Lancement d'Amazon Kindle, qui permet à Amazon de se spécialiser dans la lecture numérique alors qu'elle se concentrait seulement sur l'édition numérique en général. Dans la foulée, Amazon lance également sa propre liseuse, le Kindle.
+2008: En France apparaît 'publie.net', première coopérative d'auteurs pour l'édition et la diffusion numériques de littérature contemporaine, fondée par l'écrivain François Bon, ardent militant du livre numérique. Publie.net pousse les ressources du format ePub3 jusqu'à ajouter du son et de la musique ou des vidéos dans le cours du récit, et un système de navigation en hyperimages (pour l'instant uniquement accessibles sur iPad et iPhone).
+À partir de 2008, la qualité de lecture sur écran des liseuses s'étant considérablement améliorée, le livre numérique connait un nouvel essor auprès du grand public. En 2010, la progression en termes de parts de marché devient très significative aux États-Unis. De nombreux éditeurs commencent à distribuer, sous forme électronique, des livres tombés dans le domaine public. Au même moment, pour une question de coûts et de rentabilité, certains éditeurs préfèrent publier leurs auteurs de cette manière. À l'opposé, certains auteurs qui veulent se libérer des contraintes imposées par leur éditeur, ou dont les manuscrits n'ont jamais été publiés, décident de mettre à disposition leurs oeuvres en ligne, soit gratuitement, soit par l'intermédiaire de sites de téléchargement payants.
+
+ Différences de réception entre le livre numérique et le livre papier
+Avant que ne commence la production de livres numériques, il a toujours été question de livres en tant qu'objet matériel tel qu'il est défini sur la page Wikipédia Livre. C'est ainsi que lorsque sont parus les premiers livres numériques, une certaine partie du lectorat mondial a d'abord eu un mouvement de recul par rapport au fait d'avoir un texte en format numérique et non en format papier.
+Même le pionnier Michael Hart a éprouvé des doutes quant à l'aboutissement de son projet: "Nous considérons le texte électronique comme un nouveau médium, sans véritable relation avec le papier. Le seul point commun est que nous diffusons les mêmes oeuvres, mais je ne vois pas comment le papier peut concurrencer le texte électronique une fois que les gens y sont habitués, particulièrement dans les établissements d'enseignement". La question de l'habitude est donc primordiale lors de l'apparition sur le marché les premiers livres numériques : les lecteurs ne sont pas encore conditionnés à ce nouveau format de lecture. En effet, bien que le contenu reste le même, cela "ne signifie pas pour autant qu'il faut banaliser le livre numérique ; en effet, ce dernier se distingue de son acolyte en papier et demande ainsi une redéfinition de ses étapes de production". La réception est aussi intrinsèquement liée à l'accès au web des lecteurs. Ainsi, la création du web en 1990 permet un premier essor auprès des publics spécialisés, mais n'atteint pas encore le grand public. Un deuxième essor du livre numérique arrive une décennie plus tard, avec la généralisation du web et l'amélioration de la qualité des livres numériques.
+
+Appellations
+L'expression "livre numérique" et ses synonymes "livre électronique" et "livrel" (mot-valise) ont été proposés par l'Office québécois de la langue française comme traductions françaises des termes anglais "e-book", "electronic book" ou "digital book" (voir le Grand dictionnaire terminologique). Selon l'OQLF, la forme hybride "e-livre" (calque de l'anglais "e-book") est à éviter en français.
+Dans l'usage courant, les termes "livre électronique" et "livrel" désignent aussi bien le contenu (le texte lui-même) que, par métonymie, le contenant (le support permettant de visualiser le contenu). Ces deux expressions sont donc aussi synonymes de "liseuse". Cet usage est toutefois fautif puisque, comme sa définition l'indique, le livre numérique est un fichier numérique et non l'appareil électronique qui permet de le consulter.
+Si contenu et contenant sont souvent interchangés, il ne faut également pas confondre le livre numérique avec son format (ePub, mobipocket ou autre).
+
+Principaux types de livres numériques
+Il existe dans les faits plusieurs types de livres numériques. Fabrice Marcoux en relève trois dominants: homothétique, enrichi et "originairement numérique"
+
+Homothétique
+C'est la "transposition à l'identique d'un livre papier en version numérique". Il s'agit de la forme la plus répandue et de la première à être apparue.
+
+Enrichi
+Ce type de livre vient compléter la version imprimée grâce aux avantages que permettent le format numérique, tant au niveau de la forme que du contenu. On pense notamment aux hyperliens. Ainsi, par les possibilités d'enrichissement quasi infinies de l'oeuvre qu'il admet, il est de plus en plus exploité.
+
+"Originairement numérique"
+Marcoux écrit qu'il s'agit du livre "créé par ou pour le numérique", c'est-à-dire qu'il a été pensé en fonction du format numérique et de ses potentialités techniques. Pour cette raison, il possède une forte hypertextualité, mais il est plus récent et moins commun que les précédents.
+
+Qualités d'un livre numérique
+Trois qualités ont été identifiées par Marin Dacos et Pierre Mounier : lisibilité, maniabilité et citabilité.
+
+Lisibilité
+Le livre numérique doit être lisible. Cela suppose : qu'il soit décrit par un format ouvert, par opposition au format propriétaire (ou formats fermés); qu'il soit fluide et recomposable (reflowable); qu'il soit pérenne.
+
+Maniabilité
+Le livre numérique doit être manipulable, pour cela il faut que l'on puisse l'indexer et le rechercher. Plus on crée de livres applications, plus il est difficile de les indexer et de créer des outils d'indexation. Le texte doit également être copiable et collable, afin d'être rapidement inséré dans un autre contexte (procédure du copier-coller). Enfin, le texte doit aussi être annotable et inscriptible (annotations, remarques, jalons, etc.) dans des dispositifs ouverts.
+
+Citabilité
+Le livre doit être citable et ce, de façon simple. Le numérique conduit vers des solutions reposant sur la logique d'un identifiant unique (ID). Plusieurs dispositifs mis en place dans différents environnements et reposant sur des logiques différentes se sont développés. Dans le monde de l'édition du livre l'ISBN est en usage pour les livres et l'ISSN pour les périodiques, et ce depuis de nombreuses années. Ces identifiants uniques décrivent des objets éditoriaux, c'est-à-dire un titre d'ouvrage ou un titre de périodique. L'ISBN correspond à un niveau important de granularité puisque c'est le livre en entier qui est identifié.
+
+Intérêts et inconvénients
+
+Maniabilité
+
+Physique
+L'oeuvre écrite "complète" de Victor Hugo éditée chez Jean-Jacques Pauvert représente 40 millions de caractères. La Bible, telle qu'on peut la télécharger sur Internet, moins de 10 millions d'octets quelle que soit la langue considérée (environ 9,5 mégaoctets). Une simple carte SDHC de 32 Go permet donc d'emporter partout avec soi autour de 2 000 collections de textes de cette taille.
+
+Technique
+Un passage donné d'un ouvrage, lorsqu'on en connaît un mot spécifique, se retrouve rapidement même si le document ne possède pas d'index. Le texte peut être annoté et inscriptible (annotations, remarques, jalons, etc.) dans des dispositifs ouverts.
+
+Indépendance du dispositif de lecture
+Un livre numérique peut être consulté sur divers dispositifs de lecture (liseuse, ordinateur, tablette, téléphone intelligent, plage braille, lecteur de livres audio, etc.) Dans certains cas, si l'on est connecté à l'Internet, on retrouve le passage exact où l'on s'était arrêté en consultant un ouvrage, même depuis un autre support.
+
+Accessibilité
+
+Pratique
+Par rapport à la forme classique qu'est le livre sur papier, le livre numérique présente, pour les personnes handicapées, l'avantage d'une meilleure accessibilité. Le livre numérique peut en effet être restitué sur un appareil adapté, en affichage braille par exemple ou encore en restitution sonore. Il existe des normes de livres numériques destinés à un public ayant des limitations ; c'est notamment le cas de DAISY, norme de livres audio destinée spécifiquement à un public incapable de lire des documents imprimés (aveugles, malvoyants, dyslexiques, personne en situation de handicap physique motrice, etc.).
+
+Commerciale
+Le livre numérique tend également à être de plus en plus facile d'accès dans les pays en développement. Il permet ainsi à diverses populations de pouvoir s'ouvrir à la culture. Au cours des dernières années, une forte croissance des livres numériques a eu lieu dans divers pays en développement, notamment en Inde. Dans les pays comme le Brésil ou l'Inde, il y a une forte demande d'accès à la culture et notamment une demande d'accès aux livres. Le fait qu'internet et les smartphones soient de plus en plus accessibles permet de satisfaire leur désir de connaissance. Selon une étude réalisée en 2011, 18 % des Indiens et 24 % des Brésiliens ont déjà téléchargé un livre numérique, et ces chiffres sont en constante augmentation. Par ailleurs, un philosophe et éditeur argentin, Octavio Kulesz a réalisé une étude en 2011 intitulée L'édition numérique dans les pays en développement. Pour lui, le livre numérique est un réel atout qui va contribuer au développement des pays émergents. Les livres numériques ont un intérêt éducatif mais aussi économique. Kulesz soutient que les pays comme l'Inde, le Brésil ou la Chine devront tirer leur épingle du jeu pour s'approprier les nouvelles technologies des occidentaux. Il faut chercher comment commercialiser la liseuse à l'échelle nationale. Par exemple, pour combattre l'illettrisme, l'Inde a commercialisé une liseuse à un prix défiant toute concurrence. Le gouvernement indien via cette solution vient combattre ce fléau. Le livre numérique est donc un atout majeur au développement du pays. La totalité de son étude a été mise à disposition sur le site alliance-lab.org.
+
+Risques
+Richard Stallman, un militant du logiciel libre américain, a mis en garde contre plusieurs dangers possibles, notamment : puisqu'on doit s'identifier pour payer en ligne ou télécharger un livre sur un site commercial ou une bibliothèque numérique, les "autorités" peuvent avoir accès à votre liste de lecture ;; il y a plusieurs précédents d'effacement à distance d'ouvrages par au moins un distributeur (Amazon.com) sur les appareils de personnes les ayant téléchargés même si elles les avaient payés.
+Stallman note cependant que les ouvrages du projet Gutenberg et de quelques autres ne présentent pas ces risques.
+Comme pour tous les fichiers numériques, notamment ceux qui sont stockés sur un serveur externe par les utilisateurs (cloud), la question se pose à savoir ce que deviendrait votre bibliothèque au cas où un éditeur (ou un distributeur, voire un prestataire de service de stockage numérique) disparaîtrait.
+
+Modalités de lecture
+De par les concepts même d'hypertexte et d'hyperliens qu'il engage, le livre électronique modifie les modalités de lecture qui étaient admises par le papier. L'étendue de contenu qu'un livrel peut soliciter (surtout s'il est enrichi ou "originairement numérique") peut donner le vertige au lecteur s'il est mal intégré. Le livre électronique doit donc répondre à certaines conditions pour assurer sa "bonne" réception.
+
+Métaphore d'utilisation
+Afin d'éviter un découragement devant un trop grand nombre de références, de liens, d'images, etc., le livrel doit présenter son contenu au lecteur de manière à ce que ce dernier puisse prendre facilement compte de ce qui se présente à lui et se faire une idée de ce qui l'attend.
+
+Éléments d'interaction uniformes
+Il s'agit pour le lecteur de pouvoir retrouver une logique dans son interaction avec les documents mis à sa disposition par un livre numérique. Pour cette raison, les applications de lecture vont souvent offrir différentes options afin de faciliter la navigation entre les contenus. La réutilisation d'un paratexte plus conventionnel (page couverture, index ou table des matières, etc.) par le numérique est souvent un bon moyen de rendre le lecteur plus confiant.
+
+Participation du lecteur
+Des bases de données privées sont souvent mises à la disposition du lecteur afin qu'il puisse faire ses propres annotations, rajouts, surligner des passages importants, etc. De cette manière, il peut "personnaliser" le livre électronique pour lui-même, se l'approprier ou augmenter son processus de lecture sans imposer ses modifications aux autres.
+
+Formats
+Lors de la publication d'un livre numérique, les auteurs et les éditeurs sont amenés à choisir parmi plusieurs types de formats qui peuvent être des formats ouverts ou des formats propriétaires. Voici une liste de certains formats que peut prendre le livre numérique :
+Logo du format EPUB: Fichier texte.txt; HyperText Markup Language.html, htm; Portable Document Format (Adobe).pdf; PostScript.ps; EPUB.epub; FictionBook.fb2; PRC-MOBI (MobiPocket).mobi; AZW.azw; BBeB.BBeB; DOCX.docx.
+
+Gestion des droits d'auteur
+Au moment où le livre numérique commence à se populariser, certains s'y opposent en raison de conflits de droits d'auteur. Ainsi, les premières tentatives de Google autour de la publication numérique de livres imprimés ont connu des échecs en grande partie à cause de ce type de conflits. En réponse à ces enjeux apparaît en 2001 la licence Creative Commons, imaginé par Lawrence Lessig, qui permet de publier numériquement tout en protégeant les droits d'auteur.
+
+Gestion des droits numériques
+De la même façon que dans le domaine de la musique et des films, certains éditeurs et distributeurs utilisent des systèmes de gestion des droits numériques (DRM) pour tenter de protéger leurs oeuvres. La plupart de ces systèmes sont relativement inefficaces et pénalisent plus les lecteurs légitimes que les utilisateurs de contrefaçons, où les DRM ont été enlevées ou au moins désactivées.
+
+Tatouage numérique
+Certains livres numériques ne contiennent pas de système de gestion des droits numériques mais des tatouages numériques, en général le nom de l'acheteur et son adresse électronique.
+
+Livres libres de droits
+De très nombreuses oeuvres libres de droit (car tombées dans le domaine public) sont disponibles en téléchargement gratuit sur de nombreux sites Web, dont par exemple celui du Projet Gutenberg, de l'Open Library, de Manybooks ou encore Feedbooks-publicdomain...
+
+Exception au droit d'auteur en faveur des personnes handicapées
+Certaines associations agissant au service de personnes handicapées bénéficient de l'exception au droit d'auteur prévue par la loi DADVSI. Pour ces structures, il existe deux niveaux d'agrément : d'une part l'agrément simple qui donne le droit d'adapter les oeuvres et de les communiquer aux personnes handicapées, d'autre part l'habilitation à demander l'accès aux fichiers numériques des éditeurs déposés auprès de la Bibliothèque nationale de France (BNF) investie de cette mission par le décret du 6 février 2009.
+
+Marché
+
+En France
+Le premier revendeur de livres numériques en France en date est Mobipocket.com (filiale d'Amazon depuis avril 2005). Ses concurrents principaux sont Numilog.com (filiale d'Hachette Livre depuis le printemps 2008), ePagine (prestataire de solutions pour les librairies), immatériel.fr (distributeur et revendeur), Relay.com (également filiale de Hachette, mais côté presses), Eden Livres, E-Plateforme, YouScribe, Scribd, Youboox, iBooks, Cyberlibris (bibliothèque numérique sur abonnement), Needocs (livres professionnels, pratiques et académiques) et aussi Didactibook (libraire électronique spécialisée dans les livrels pratiques).
+Selon le magazine Challenges, la Fnac aurait vendu 40 000 livres numériques de novembre 2008 à novembre 2009. En 2011, le fabricant de liseuses Bookeen se lance à son tour dans la commercialisation de livres numériques avec bookeenstore.com. L'offre de livres numériques en français la plus riche du marché est proposée par Chapitre.com.
+Selon le quatrième Baromètre sur les usages du livre numérique, présenté le 21 mars 2014 au Salon du livre de Paris, on évalue la part des lecteurs numériques en France à 15 % de la population. Parmi les sondés, 39% pensent que l'utilisation de livres électroniques va augmenter, ce qui se vérifie par l'édition de mars 2016 puisque la part de lecteur a atteint les 20 % des personnes sondées. Aujourd'hui en France, bien que les utilisateurs d'ebooks pensent que les usages vont encore évoluer; ils sont encore beaucoup à combiner la lecture électronique avec celle de livres papiers.
+
+Aux États-Unis
+Pour le dernier trimestre 2010, Amazon.com a officiellement annoncé avoir vendu pour la première fois plus de livres numériques que de livres imprimés. Les genres les plus populaires sont alors les romances et les romances érotiques.
+Au premier trimestre 2012, les ventes de livres numériques dépassent en valeur les ventes de livres papier dans le pays.
+Selon le Pew Internet et American Life project, 28 % des Américains ont lu au moins un livre numérique en 2013. Selon le même institut, 50 % des Américains possédaient une tablette numérique ou une liseuse en janvier 2014.
+
+Au Québec
+Depuis décembre 2009, la Société de développement des entreprises culturelles (SODEC) offre un programme d'Aide à la numérisation qui rembourse aux éditeurs 50 % des frais de numérisation, plus 10 par titre, jusqu'à concurrence de 5 000 , ce qui pourrait aider ces derniers à offrir une plus grande portion de leur catalogue.
+Cependant, en dépit de ces efforts et même pour les livres disponibles dès leur sortie en format numérique, les ventes de livres numériques n'ont représenté qu'1,1 % des ventes de livres au Québec en 2014, alors qu'environ 80 % des livres mis en vente cette année-là étaient disponibles en format numérique.
+
+Coûts reliés au livre numérique
+Maintenant que les livres numériques ouvrent un nouveau marché, nous en sommes rendus à dépasser la simple reproduction d'une oeuvre papier en diffusant sur le web ce que nous apellons le "PDF-imprimeur". Il s'agit dorénavant d'adapter le contenu à la multitude de supports offerts (mise au format, structuration de données, définition de règles graphiques, liens hypertextes, enrichissement des contenus, etc.). Si le coût du PDF imprimeur (donc la version de base du livre numérique) est absorbé par les coûts usuels de production en papier, il n'en est toutefois pas de même pour le reste.
+
+Coûts de production
+Lors d'une numérisation (scan), les différents coûts impliquent les frais de scan, de recomposition (enrichissement typographique), de relecture et de correction, les frais de structuration d'un format Epub (il est essentiel d'intégrer les métadonnées indispensables à la vente du livre soit la couverture, le titre, le ISBN, etc.). Pour un roman "habituel" (grand format, 256 pages), une étude du MOTif (l'observatoire pour le livre et l'écrit en l'île-de-France) évaluait, en 2010, les coûts à environ 1 199.
+S'il s'agit d'une publication sans numérisation (scan), les dépenses sont légèrement différentes : pas besoin de numérisation, et les frais de relecture sont également moins élevés car cette étape est ici plus rapide (il y a moins de risque d'erreur que lors de la numérisation d'un support papier). Pour le même type de roman, les frais sont ainsi estimés à 665, soit presque deux fois moins cher!
+
+Coûts de distribution
+Les coûts impliqués par la distribution ne sont également pas exactement les mêmes que pour une distribution "traditionnelle" (entendons ici la distribution d'un livre papier). Il y a d'abord l'introduction des frais de marquage (DRM ou encore Watermarking), qui permettent de contrôler la circulation du livre électronique et de prévenir sensiblement le piratage. Le coût d'un marquage de type DRM était, en 2010, de 0,40 par exemplaire, ce qui n'est pas non négligeable, surtout considérant qu'Adobe demande un droit d'entrée aux distributeurs si élevé que cette solution est souvent inaccessible aux petites et moyennes entreprises. Le watermarking, ou tatouage numérique, est souvent leur solution, puisqu'elle est gratuite pour les éditeurs et permet également d'identifier le fichier par rapport à l'acheteur.
+La distribution est aussi potentiellement multipliée, puisque le fichier numérique peut apparaître sur le site de l'éditeur, du distributeur, d'une librairie X, etc. L'éditeur doit donc faire face à des frais de développement informatique, d'archivage et de maintenance afin de garder ses publications sur un site d'"entreposage" virtuel. S'ajoutent à cela les divers frais de promotion et de marketing; si avec l'avènement des réseaux sociaux cela semble être peu coûteux, organiser une politique marketing sur le web n'est pas gratuit, à l'instar de ceux qui se chargent de promouvoir la diffusion des oeuvres. Dans le cadre de l'étude pour le MOTif, plusieurs éditeurs ont été interrogés et ont répondu qu'ils estimaient à environ 3 à 4% du prix d'un livre leurs frais de communication et de marketing; néanmoins, à ce point de vue, les disparités sont évidemment très importantes. Finalement, il ne faudrait pas oublier les frais bancaires : la majorité des banques proposent entre 3% et 6% du prix de vente d'un livre pour un achat par Paypal, solution préconisée par les acheteurs en ligne qui se sentent rassurés de passer par ce service sécurisé (ces coûts sont toutefois assumés par les libraires, ou les portails de vente, et non pas par les éditeurs).
+S'il est vrai que la production d'un livre numérique est souvent moins coûteuse que la production d'un livre papier, il est toutefois important de garder en tête que dès le moment où un éditeur choisit de publier du contenu amélioré, les frais et les efforts impliqués sont loin d'être négligeables!

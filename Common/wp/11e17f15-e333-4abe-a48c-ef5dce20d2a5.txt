@@ -1,0 +1,115 @@
+Le High Definition Multimedia Interface (HDMI) (en français, "Interface Multimédia Haute Définition") est une norme et interface audio-vidéo totalement numérique pour transmettre des flux chiffrés constitués de données vidéo non compressées et des données audio pouvant être compressée ou pas. Elle est destinée au marché grand public.
+Le HDMI permet de relier une source audio-vidéo DRM - comme un lecteur Blu-ray, un ordinateur ou une console de jeu - à un dispositif compatible - tel un téléviseur HD, un vidéoprojecteur ou un casque de réalité virtuelle (renvoi d'informations via USB).
+
+Principes techniques et classification par niveaux
+Le standard HDMI permet d'exploiter différents formats vidéo numériques, parmi lesquels la définition standard (SD), la définition améliorée (ED) et la haute définition (HD) ainsi que le son multi-canal, en véhiculant les données complètes grâce à un seul câble. Certaines données complémentaires sont également véhiculées par ce standard (commutation, synchronisation, informations stéréoscopiques...). Plusieurs niveaux distinguent le standard HDMI; ils sont symbolisés par un nombre et éventuellement une lettre, associé au sigle ; par exemple : HDMI 1.0, HDMI 1.3, HDMI 1.4a, etc.
+HDMI est transparent aux différentes normes de télédiffusion ou transmissions numériques telles que la télévision numérique terrestre, l'IPTV, la télévision numérique par satellite ou par câble.
+Le format HDMI exploite un procédé qui conditionne et coordonne (encapsule) le flux des données vidéo par TMDS, pour leur transmission. Lors de la création du standard HDMI, le débit ou taux de transmission maximal a été fixé à 165 mégapixels-seconde. Ce taux a été estimé suffisant pour assurer une résolution vidéo jusqu'à 1 080 pixels à 60 Hz ou de la norme UXGA (1 6001 200); toutefois, l'amélioration du standard (HDMI 1.3 et supérieures) a permis de rendre compatible une transmission jusqu'à 340 mégapixels-seconde.
+Les dispositifs connectés en HDMI doivent implémenter l'espace de couleurs sRGB avec 8 bits par composants. La possibilité d'utiliser l'espace de couleurs YCbCr, ainsi que de plus importantes profondeurs de couleurs est optionnelle.
+HDMI permet également de véhiculer les signaux sonores comprenant jusqu'à 8 canaux numériques non compressés avec un taux d'échantillonnage de 192 kHz pour 24 bit-échantillon et autorise l'exploitation de flux audio compressés tels que DTS et Dolby Digital. Ces signaux sont également combinés et traités (encapsulés) conformément à la norme de transmission TMDS.
+Ces spécificités permettent une compatibilité avec le format Super Audio CD (SACD) procurant un débit pouvant atteindre 64 fois la performance du CD audio.
+Le standard HDMI 1.3 procure un flux audio de très haute performance - sans perte de qualité (en anglais lossless) - pouvant exploiter les formats Dolby TrueHD ou DTS-HD Master Audio.
+La version 1.4 du standard HDMI présente une évolution majeure qui permet la transmission de la 3D full HD (1080p), du DTS:X ainsi que du Dolby Atmos.
+
+Connectique A et B: Le connecteur HDMI standard de Type A comporte 19 broches.; La version du connecteur HDMI compatible pour les résolutions supérieures est de Type B.
+Le connecteur Type B possède 29 broches offrant une compatibilité avec les très hautes résolutions (avec une certaine évolutivité). Il est adapté aux résolutions supérieures au WQSXGA (3 2002 048).
+
+Compatibilité DVI-HDMI
+Le Type A est rétro-compatible avec le DVI Single-link (DVI-D, DVI-I mais pas DVI-A), lequel est largement utilisé pour les moniteurs informatiques et les cartes graphiques d'ordinateurs. Ainsi, avec un simple adaptateur, tout appareil source qui exploite la norme DVI-D est quasi compatible avec un écran à ce standard et vice versa; cependant, les données audio ne seront pas toujours transmises (norme TMDS, audio pendant le blanking) mais la connectique le permet et certains produits (cartes graphiques haut de gamme, démodulateurs satellites...) l'exploitent.
+En revanche, les données de contrôle à distance (broche CEC) propres au HDMI ne pourront être utilisées puisqu'elles n'existent pas pour la connectique DVI.
+Sur le même principe, le HDMI Type B est rétro-compatible avec la connectique DVI Dual-link.
+
+Verrouillage anti-copie
+La technologie propriétaire HDCP (High-bandwidth Digital Content Protection) - développée par Digital Content Protection LLC, filiale d'Intel - essaye d'empêcher la copie des flux HD. Ce verrouillage numérique est intimement lié au standard HDMI et ne peut pas être éliminé. En l'absence d'une compatibilité HDCP de l'un des appareils (source ou affichage), certains signaux vidéo HD ne pourront pas être restitués dans leur définition d'origine, mais en basse résolution, voire ne pas s'afficher du tout.
+Néanmoins, la clé de HDCP (la master key) a été publiée sur Internet en septembre 2010, ce qui permet le développement d'outils de déchiffrement, afin que les utilisateurs aient accès aux flux de vidéo en haute définition qui sortent des appareils utilisant la technologie HDCP.
+
+Fabricants impliqués
+Les fondateurs du HDMI sont les fabricants de produits électroniques suivants : Hitachi, Matsushita Electric Industrial (Panasonic-National-Quasar), Philips, Sony, Thomson (RCA), Toshiba, et Silicon Image.
+Le Digital Content Protection, LLC (filiale d'Intel) définit les spécifications du HDCP pour le HDMI.
+HDMI a le soutien des principaux studios de production comme Fox, Universal, Warner et Disney.
+
+Spécifications techniques
+
+Formats vidéos compatibles
+SDTV (de l'anglais Standard Definition TV) : 720480i (conforme au standard NTSC entrelacé numérique).; 720576i (conforme au standard PAL entrelacé numérique).
+EDTV (de l'anglais Enhanced Definition TV Résolution améliorée) : 640480p (VGA); 720480p (conforme au standard NTSC, affichage progressif).; 720576p (conforme au standard PAL, affichage progressif).
+HDTV (de l'anglais High Definition Television Haute Définition) : 1280720p (720p); 19201080i (1080i); 19201080p (1080p). Notes : p signifie progressif et i signifie entrelacé (interlaced); le standard prend en charge les différentes fréquences d'affichage (nombre d'images par seconde) : 24-25-30-50-60-100 Hz.
+
+Compatibilité universelle
+Le standard HDMI est compatible avec les trois niveaux de définition numérique (SD à TVHD) et permet une évolutivité du système pour les futures normes. La version 1.3 permet un flux de transfert vidéo numérique en quantification 10 bits par couleur ce qui procure une plus grande palette de couleurs et donc des dégradés de meilleur aspect. Cette évolution offre un niveau de 48 bit pour la profondeur des couleurs.; Largeur de bande pour le flux vidéo numérique : de 25 MHz à 340 MHz (Type A, norme 1.3) et jusqu'à 680 MHz (Type B). Les formats vidéos qui exploitent une bande passante inférieure à 25 MHz (exemple : 13,5 MHz pour 480i-NTSC) sont transmis en utilisant un schéma de répétition des pixels.; Le taux de rafraîchissement d'affichage peut atteindre 120 Hz selon les écrans et dispositifs exploités.
+
+Formats audio supportés
+Les formats audio supportés sont : Non compressé (PCM) : audio PCM jusqu'à 8 canaux à 24 bits de résolution et une fréquence d'échantillonnage allant jusqu'à 192 kHz.; Compressé : compatibilité avec tous les formats numériques compressés courants ; MP3, Dolby Digital 5.1 - 7.1, Dolby Digital +, Dolby True HD, Dolby Atmos, DTS, DTS-HD Master Audio, DTS:X, etc.; Super Audio CD; DVD-Audio (concurrent du Super Audio CD) : à partir du niveau HDMI 1.1; Sans perte de qualité (Lossless) : HDMI est compatible avec le Dolby TrueHD et le DTS-HD Master Audio, exploités notamment pour les Blu-ray et HD DVD.
+
+Transition Minimized Differential Signaling (TMDS)
+Procédé de multiplexage et transmission numérique développée par Silicon Image qui permet de véhiculer de très grandes quantités de données à travers un câble blindé. Le câble HDMI comprend trois canaux TMDS distincts; chacun d'eux permet de transférer un flux pouvant atteindre jusqu'à 3,4 Gbit-s - soit un total maximum de 10,2 Gbit-s par liaison HDMI.
+Le niveau HDMI 1.3 exploite une largeur de bande numérique doublée, passant de 165 MHz à 340 MHz. Le débit total exploité est passé de 4,95 Gbit-s à 10,2 Gbit-s.
+Un canal de synchronisation TMDS permet de multiplexer le flux de données par redondance et assure ainsi l'intégrité du message, même sur des longueurs de câbles supérieures à 3 mètres.
+
+DDC channel (Canal de données d'affichage): La source (exemple : une carte graphique ou un lecteur Bluray) récupère directement auprès du dispositif d'affichage (exemple : téléviseur HD, vidéoprojecteur ou moniteur) ses spécificités d'affichage (résolution, mode de balayage progressif ou entrelacé...); Un protocole ou standard de transmission de données de type IC (Inter Integrated Circuit) à une vitesse d'horloge de 100 kHz est exploité.; La structure des informations concernant l'affichage par EDID (Extended Display Identification Data) est définie par l'organisme VESA.
+
+Consumer Electronics Control (CEC) : contrôle "inter-éléments"
+Pour étendre les fonctionnalités d'un ensemble audio-vidéo, les éléments doivent être compatibles avec la norme optionnelle CEC. Les appareils compatibles peuvent communiquer dans les deux sens (écran vers lecteur et lecteur vers écran) et transmettre des commandes de contrôle. Ainsi, "la touche lecture universelle" (One Touch Play) permet d'allumer à la fois tous les appareils nécessaires à la lecture d'une source grâce à une seule touche de la télécommande ou sur la face d'un des appareils. De même, un caméscope relié à un écran de télévision peut être piloté par la télécommande du téléviseur.
+Fonctions optionnelles complémentaires : Câblage des différents éléments; Protocole AV-link; Défini pour le HDMI 1.0 et mis à jour avec le standard HDMI 1.2a.
+
+Types de connecteurs
+Connecteur HDMI type A (à gauche) et type C (mini-HDMI) à droite
+Il y a plusieurs types de connecteurs HDMI, les 3 plus courants étant le A, C et D : Type A : c'est le plus courant ; il se compose de 19 broches et est suffisant pour afficher en 1080p avec un son multicanal. Le standard de la prise HDMI ne définit aucune sécurité face au problèmes de connexion mécanique. On trouve des solutions de fixation avec une vis qui fonctionnent avec beaucoup d'appareils HDMI. Il utilise le fait que beaucoup d'appareils disposent d'une vis sous-au-dessus de la prise femelle HDMI pour des raisons de stabilité mécanique de la connexion. On trouve deux distances différentes entre la vis et la prise HDMI; une courte (5,6mm) et longue (7mm). Ce type de système est utilisé dans le monde professionnel afin garantir la connexion.; Type B : c'est l'équivalent du Dual-link DVI mais qui est en partie rendu obsolète par la version 1.3 du HDMI - qui double la bande passante sur un câble de type A. Il est quasiment absent du marché mais permettrait en théorie d'atteindre des transferts jusqu'à 20,4 Gbit-s.; Type C : apparu avec la version 1.3 du standard HDMI et aussi appelé mini-HDMI, le type C (10,42 mm 2,42 mm) est une version compacte du type A (avec donc 19 broches) spécialement dédié aux caméscopes, appareils photos numériques, tablettes tactiles.; Type D : apparu avec la norme 1.4 du HDMI et aussi appelé micro-HDMI, le type D est encore plus compact (2,8 mm 6,4 mm) et se trouve sur certaines tablettes, portables type ultrabook et smartphones.; Type E : Système de connexion pour l'automobile comporte une patte de verrouillage pour empêcher le câble de se détendre et une coquille pour empêcher l'humidité et la saleté d'interférer avec les signaux. Un connecteur de relais est disponible pour connecter des câbles consommateurs standard au type automobile.
+Connecteur de Type A (fiche femelle) :
+Type A (Réceptacle) HDMI
+Les versions
+Les appareils sont fabriqués pour adhérer aux différentes versions de la spécification, où chaque version reçoit un numéro. Chaque version de la spécification utilise le même type de câble, mais augmente la bande passante et-ou la capacité de ce qui peut être transmis dans le câble. Un produit ayant telle version ne signifie pas nécessairement qu'il aura toutes les fonctionnalités qui sont répertoriées pour cette version car quelques fonctionnalités sont facultatives tels que Deep Color et xvYCC.
+
+HDMI 1.0
+Spécification initiale, publié le 9 décembre 2002: Une seule interface de connexion pour la transmission audio et vidéo ;; Une bande passante de type TMDS de 4,9 Gbit-s maximum; Spécification Vidéo basée sur DVI 1.0. 480i-p, 576i-p, 720p, 1080i. Audio : Dolby Digital, DD EX, DTS, DTS ES, DTS 96-24, PCM 192-24 7.1 canaux.
+
+HDMI 1.1
+Publié le 20 mai 2004: Prise en charge du format DVD-Audio ;.
+
+HDMI 1.2
+Publié le 22 août 2005: Ajout du support pour un bit audio utilisé sur les Super Audio CD, jusqu'à 8 canaux ;; Disponibilité des connecteurs HDMI de Type A pour les équipements informatiques ;; Capacité à un ordinateur de conserver son espace de couleur sRGB quand il envoie son flux à une TVHD qui cependant garde son espace de couleur YCbCr ;; Prise en charge des sources à basse tension ;.
+
+HDMI 1.2a
+Publié le 14 décembre 2005: Spécifications des fonctions CEC (Consumer Electronic Control) ;; Conformité CEC ;.
+
+HDMI 1.3
+Publié le 22 juin 2006: Augmentation de la bande passante sur un simple lien HDMI de type A à 340 MHz (10,2 Gbit-s) ;; Support du Deep Color avec 30-bit, 36-bit et 48-bit sRGB ou YCbCr comparé au 24-bit sRGB ou YCbCr dans les précédentes versions HDMI ;; Prise en charge d'un espace de couleurs 1,8 fois plus large que le sRGB : xvYCC ;; Fonction Lip-sync pour une synchronisation automatique de l'image et du son ;; Support du Dolby TrueHD et DTS-HD Master Audio, format compressés sans perte de qualité des disques Blu-ray et HD DVDs ;; Câble de catégorie 1 et 2 définis. Câble de catégorie 1 correspond à une fréquence pixel max. de 74,25 MHz tandis que la catégorie 2 correspond à une fréquence pixel max. de 340 MHz ;; Disponibilité d'un nouveau mini-connecteur de Type C pour appareils portables ;.
+
+HDMI 1.3a
+Publié le 10 novembre 2006: Modification du câble et de la fiche de type C ;; Recommandations de terminaison de la source ;; Suppression des limites de manquements et durée maximum entre la disparition et la réapparition du signal ;; Changement des limites capacimétriques CEC ;; Clarification de l'intervalle de quantification en vidéo sRGB ;; Réintroduction sous une forme altérée des commandes CEC de contrôles de minuteurs, ajout des commandes de contrôles audio ;; Inclusion des spécifications concurrentes de tests de conformité.
+
+HDMI 1.3b
+Publié le 26 mars 2007: Révisions de conformité. N'a aucun effet sur les fonctionnalités, fonctions ou la performance sur la spécification HDMI 1.3a.
+
+HDMI 1.3b1
+Publié le 9 novembre 2007: Révisions de conformité qui ont ajouté des caractéristiques pour le mini-connecteur de Type C. N'a aucun effet sur les fonctionnalités, fonctions ou la performance sur la spécification HDMI 1.3a.
+
+HDMI 1.3c
+Publié le 24 août 2008: Révisions de conformité qui ont changé des caractéristiques pour activer les câbles. N'a aucun effet sur les fonctionnalités, fonctions ou la performance sur la spécification HDMI 1.3a.
+
+HDMI 1.4
+Publié le 28 mai 2009: Prise en charge du format des écrans 3D stéréoscopique (officiellement, mais le 1.3 est suffisant pour la 3D 1080i); Support de l'Audio Return Channel (appelé ARC) : gestion du retour audio qui permet de s'affranchir d'un câble supplémentaire lorsque l'on veut récupérer sur un ampli AV HD le son émis par une TV HD équipée d'un tuner TNT ou d'un lecteur DVD; Possibilité de servir de câble réseau Ethernet, bidirectionnel, à un débit de 100 Mbit-s. Cette fonction est désignée HEC (HDMI Ethernet Channel) ou HEAC (HDMI Ethernet Audio Control); Support des résolutions jusqu'à 40962160 (résolution du 4K) (24 Hz) et 38402160 (UHD) (24 Hz - 25 Hz - 30 Hz); Ajout d'espaces colorimétriques comme l'Adobe RGB; Nouveau connecteur micro-HDMI pour les appareils portables qui est 50 % plus petit que l'actuel mini-HDMI.
+
+HDMI 1.4a
+Publié le 4 mars 2010: diverses améliorations techniques (trames, échanges des données numériques, 3D, etc.).
+Le standard HDMI 1.4a nécessite que les dispositifs d'affichage 3D soient compatibles avec le format de configuration 3D aux résolutions : 720p50 et 1080p24 ou 720p60 et 1080p24, et cela conformément au procédé side-by-side (SBS, côte à côte) horizontal, soit à 1080i50 ou 1080i60, et au mode "top-and-bottom" ("haut-bas"), soit à 720p50 et 1080p24 ou 720p60 et 1080p24.
+
+HDMI 2.0
+Le 8 janvier 2013, HDMI Licensing, LLC a annoncé que le développement était produit par 83 membres du HDMI Forum, et prévoyait une finalisation pour le premier semestre de 2013.
+Basé sur le meeting de HDMI Forum, il est prévu d'augmenter le débit maximal TMDS par canal de 3,4 Gbit-s à 6 Gbit-s, ce qui permettrait une bande passante maximale de 18 Gbit-s. Cela permettra de la 4K cadencée à 60 IPS. Les autres fonctionnalités attendues sont : le support du 4:2:0 du sous-échantillonnage de la chrominance, support du 24 IPS pour les formats 3D, amélioration de la compatibilité 3D, support plus de 8 canaux audio, support des standards audio HE-AAC et DRA, synchronisation labiale dynamique et des fonctionnalités additionnels du CEC.
+Le HDMI Forum annonce la norme HDMI 2.0 le 4 septembre 2013, celle-ci supporte la 4K cadencée à 60 images par seconde.
+
+HDMI 2.0a
+Le 8 avril 2015, la norme HDMI 2.0a est officialisée par l'HDMI Forum, avec pour avancée la prise en charge du HDR (High Dynamic Range), un ensemble de techniques numériques permettant d'obtenir une grande plage dynamique dans une image.
+
+Comparaison des versions
+Support des fréquences selon les résolutions : La version 1.4b supporte le 1920 1080 à 120 Hz , 2560 1440 à 60 Hz, 3840 2160 à 30 Hz; La version 2.0 supporte le 1920 1080 à 240 Hz, 2560 1440 à 120 Hz, 3840 2160 à 60 Hz; La version 2.0a ajoute de l'HDR (high dynamic range).
+
+Choix du câble HDMI
+La principale limite concernant le choix du câble HDMI est la longueur de câble nécessaire entre la source du signal (box, lecteur de DVD, Blu-ray...) et le récepteur du signal (téléviseur, vidéoprojecteur...)
+En principe, la longueur de câble n'a pas d'effet en dessous d'une distance de 10 mètres. Au-delà de cette longueur, il est recommandé d'investir dans un câble amplificateur-répéteur pour éviter que le signal ne s'affaiblisse trop. Certains câbles auront un processeur répéteur intégré. Il est possible également d'opter pour des câbles à fils de cuivre larges de AWG20 ou AWG22 plutôt que le standard AWG30 même en cuivre de 99,99 %, recommandation 99,999 % de cuivre en AWG26.
+La norme est un maximum rarement atteint puisque celle-ci représente des flux chiffrés dans des conditions idéales. Certains fabricants changent la section AWG quand la longueur est plus grande : AWG30 jusqu'à 15 m , AWG28 pour 14 m, AWG26 pour 12,5-15 mètres puis AWG24 pour 12 m avec la même qualité en "triple blindage". D'autres fabricants restent sur le standard de qualité AWG24, et préfèrent vendre la même section de câble coupé de 0,5 à 100 m ce qui évite d'avoir trop de sections différentes mais plus de coupe. Finalement le prix pour 1 mètre est élevé mais pas autant que si on choisit un répéteur. Certains fabricants jouent la section avec des nominations commerciales plutôt que la longueur professionnelle.
+Des câbles "supérieurs" permettant "un transfert optimal du signal avec une image et un son multicanal d'une grande pureté" sont souvent mentionnés comme arguments commerciaux. Les certifications (ex. norme 1.3, 1.4 ou autre) peuvent également être utilisées comme telles.
+Il faut savoir que dans le cadre d'une transmission numérique, la qualité de transmission concerne un flux de données numériques, qui, si incomplet, est invalide, à l'inverse des transmissions analogiques. Le signal ne sera pas correctement reçu si l'atténuation est trop forte, car le signal sera parasité voire inutilisable.
+Un câble HDMI de "basse qualité" peut aussi bien fonctionner que d'autres modèles plus hauts de gamme pour transmettre un flux audio-vidéo, si sa longueur est relativement faible et les appareils de bonne qualité.
+Cependant, certains environnements nécessitent des précautions particulières : à proximité d'un transformateur électrique puissant (400 000 volts), le blindage du câble doit être de très haute qualité ;; lors d'une transmission de HDMI sur câble multi-paires (via deux adaptateurs) au-delà de 20 mètres entre la source et le dispositif de diffusion, il faut préférer des câbles de catégorie 5e ou 6 (voir ci-dessus).

@@ -1,0 +1,54 @@
+L'environnement client-serveur désigne un mode de communication à travers un réseau entre plusieurs programmes : l'un, qualifié de client, envoie des requêtes ; l'autre ou les autres, qualifiés de serveurs, attendent les requêtes des clients et y répondent. Par extension, le client désigne également l'ordinateur ou la machine virtuelle sur lequel est exécuté le logiciel client, et le serveur, l'ordinateur ou la machine virtuelle sur lequel est exécuté le logiciel serveur.
+En général, les serveurs sont des ordinateurs dédiés au logiciel serveur qu'ils abritent, et dotés de capacités supérieures à celles des ordinateurs personnels en ce qui concerne la puissance de calcul, les entrées-sorties et les connexions réseau. Les clients sont souvent des ordinateurs personnels ou des appareils individuels (téléphone, tablette), mais pas systématiquement. Un serveur peut répondre aux requêtes d'un grand nombre de clients.
+Il existe une grande variété de logiciels serveurs et de logiciels clients en fonction des besoins à servir : un serveur Web publie des pages Web demandées par des navigateurs Web ; un serveur de messagerie électronique envoie du courriel à des clients de messagerie ; un serveur de fichiers permet de partager des fichiers sur un réseau ; un serveur de base de données permet de récupérer des données stockées dans une base de données, etc.
+Caractéristiques d'un programme serveur : il attend une connexion entrante sur un ou plusieurs ports réseaux locaux ;; à la connexion d'un client sur le port en écoute, il ouvre un socket local au système d'exploitation ;; à la suite de la connexion, le processus serveur communique avec le client suivant le protocole prévu par la couche application du modèle OSI.
+Caractéristiques d'un programme client : il établit la connexion au serveur à destination d'un ou plusieurs ports réseaux ;; lorsque la connexion est acceptée par le serveur, il communique comme le prévoit la couche application du modèle OSI.
+Le client et le serveur doivent bien sûr utiliser le même protocole de communication au niveau de la couche transport du modèle OSI. On parle souvent d'un service pour désigner la fonctionnalité offerte par un processus serveur.
+
+Ordinateur central
+Avant que n'apparaisse l'environnement client-serveur, les réseaux informatiques étaient configurés autour d'un ordinateur central (mainframe en anglais) auquel étaient connectés des terminaux passifs (écran adjoint d'un clavier sans unité centrale). Tous les utilisateurs étaient alors connectés sur la même unité centrale.
+L'ordinateur central n'affichaient que du texte à l'écran sans graphisme (pas de bouton, pas de fenêtre). Il était spécialisé dans la gestion d'informations de masse auquel il pouvait appliquer des instructions simples (addition, soustraction, etc.) mais avec une grande vélocité. Ainsi, plusieurs milliers de personnes pouvaient travailler sur cette unité centrale sans ralentissement.
+Aujourd'hui, les anciens terminaux passifs ont été remplacés par des émulations logicielles installées sur des ordinateurs personnels.
+Pour pallier le manque de graphisme, différentes solutions existent dont l'intégration de l'ordinateur central dans une architecture à deux, trois ou N niveaux, en laissant à d'autres la fourniture d'une interface homme-machine.
+Cette architecture est déployée sur le MVS d'IBM mais aussi sur des serveurs sous Unix, Linux, etc.
+Avantages : 1) Gestion des données et des traitements centralisée.; 2) Maintenance matériel minime.; 3) Grande vélocité sur des grands volumes de données et de traitements.
+Inconvénients : 1) interface homme-machine minimaliste.; 2) Utilisation de langages de programmation anciens.; 3) Calcul scientifique complexe impossible.
+
+Environnement client-serveur
+Exemple d'architecture client-serveur : deux clients font leurs requêtes à un serveur via Internet.
+L'organisation d'un environnement client-serveur diffère selon le type d'architecture du réseau et le type de client.
+
+Types d'architecture
+
+Architecture pair à pair
+Une architecture pair à pair (peer-to-peer ou P2P en anglais) est un environnement client-serveur où chaque programme connecté est susceptible de jouer tour à tour le rôle de client et celui de serveur.
+
+Architecture à deux niveaux
+Une architecture à deux niveaux ou une architecture deux tiers (two-tier architecture en anglais) est un environnement client-serveur où le client demande une ressource au serveur qui la fournit à partir de ses propres ressources.
+
+Architecture à trois niveaux
+Une architecture à trois niveaux ou une architecture trois tiers (three-tier architecture en anglais) ajoute un niveau supplémentaire à l'architecture à 2 niveaux, permettant de spécialiser les serveurs dans une tâche précise, ce qui donne un avantage de flexibilité, de sécurité et de performance : un client qui demande une ressource via une interface utilisateur (généralement un navigateur web) chargée de la présentation de la ressource ;; un serveur d'application (appelé middleware) qui fournit la ressource, mais en faisant appel aux ressources d'un autre serveur ;; un serveur de données qui fournit au serveur d'application les ressources requises pour répondre au client.
+
+Architecture à N niveaux
+Une architecture à N niveaux ou architecture N tiers (N-tier architecture en anglais) ajoute encore des niveaux supplémentaires à l'architecture à 3 niveaux, permettant de spécialiser les serveurs davantage.
+
+Types de client
+
+Client léger
+Un client léger est une application où le traitement des requêtes du client (applications Web n'utilisant pas ou peu de JavaScript côté client, terminaux Terminal Services, Secure Shell, Apple Remote Desktop, Citrix XenApp, TeamViewer, etc.) est entièrement effectué par le serveur, le client recevant les réponses "toutes faites".
+
+Client lourd
+Un client lourd est une application où le traitement des requêtes du client (applications de bureau, applications mobile) est partagé entre le serveur et le client.
+
+Client riche
+Un client riche est une application où le traitement des requêtes du client (applications Web utilisant beaucoup de JavaScript côté client) est effectué majoritairement par le serveur, le client recevant les réponses "semi-finies" et les finalisant. C'est un client léger plus évolué permettant de mettre en oeuvre des fonctionnalités comparables à celles d'un client lourd.
+
+Comparaison des architectures centralisées et distribuées
+
+Avantages des architectures centralisées: Toutes les données sont centralisées sur un seul serveur, physique ou virtuel, ce qui simplifie les contrôles de sécurité, l'administration, la mise à jour des données et des logiciels.; La complexité du traitement et la puissance de calculs sont à la charge du ou des serveurs, les utilisateurs utilisant simplement un client léger sur un ordinateur terminal qui peut être simplifié au maximum.; Recherche d'information : les serveurs étant centralisés, cette architecture est particulièrement adaptée et véloce pour retrouver et comparer de vastes quantités d'informations (moteur de recherche sur le Web), par rapport à l'architecture distribuée beaucoup plus lente, à l'image de Freenet.
+
+Inconvénients des architectures centralisées: Si trop de clients veulent communiquer avec le serveur au même moment, ce dernier risque de ne pas supporter la charge (alors que les architectures distribuées fonctionnent mieux en ajoutant de nouveaux participants).; Si le serveur n'est plus disponible, plus aucun des clients ne fonctionne (les architectures distribuées continuent à fonctionner, même si plusieurs participants quittent le réseau).; Les coûts de mise en place et de maintenance peuvent être élevés.; En aucun cas les clients ne peuvent communiquer entre eux, entrainant une asymétrie de l'information au profit des serveurs.
+
+Exemples: La consultation de pages sur un site Web fonctionne sur une architecture client-serveur. Un internaute connecté au réseau via son ordinateur et un navigateur Web est le client, le serveur est constitué par le ou les ordinateurs contenant les applications qui fournissent les pages demandées. C'est le protocole de communication HTTP ou XML socket qui est utilisé. Les courriels sont envoyés et reçus par des clients et gérés par un serveur de messagerie. C'est le protocole de communication SMTP, POP ou IMAP qui est utilisé. Le système X Window fonctionne sur une architecture client-serveur. En général le client (une application graphique, xeyes par exemple) tourne sur la même machine que le serveur mais peut être aussi bien lancé sur un autre ordinateur faisant partie du réseau. L'organisation en client léger - façon terminal-serveur - a donné naissance à des projets innovants comme le projet LTSP ou la technologie NX.
+
+Voir aussi: Architecture trois tiers; Projet LTSP; Technologie NX; Client lourd; Architecture SOA; Architecture EDA. Portail de l'informatique.

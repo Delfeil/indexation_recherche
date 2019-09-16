@@ -1,0 +1,9 @@
+Magnus Hestenes, né en 1906 à Bricelyn dans le Minnesota et décédé le 31 mai 1991, est un mathématicien américain spécialisé dans l'optimisation. Il est, avec Cornelius Lanczos et Eduard Stiefel, l'inventeur de la méthode du gradient conjugué.
+
+Biographie
+Hestenes passa son doctorat de mathématiques à l'université de Chicago en 1932. Sa thèse portait sur l'énoncé de "Conditions suffisantes pour le problème de Mayer généralisé avec frontières libres." D'abord professeur associé à l'université de Chicago, il fut recruté comme professeur (1947) puis même titulaire de la chaire de mathématiques de l'université de Californie à Los Angeles (1950-1958). Il y exerça jusqu'à sa retraite en 1973. Il travaillait également pour le National Institute of Standards and Technology : c'est à ce poste qu'il publia la méthode du gradient conjugué en 1951.
+Hestenes fut bénéficiaire des bourses Guggenheim (1954) et Fulbright. Il a été vice-président de l'American Mathematical Society, et orateur invité du Congrès international des mathématiciens à Amsterdam en 1954.
+
+Sources: Dianne P. O'Leary (dir.),
+Linear and nonlinear Conjugate gradient-related Methods
+, AMS-SIAM, 1996, "Conjugate gradient and related KMP algorithms : the Beginnings"; Éloge funèbre dans Numerical Analysis Digest.

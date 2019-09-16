@@ -1,0 +1,33 @@
+En physiologie, la sensation est la première étape d'une chaîne d'événements biochimiques et neurologiques allant du stimulus énergétique d'un organe sensoriel à la perception.
+Bien que la classification des sensations varie selon le contexte culturel et selon la physiologie, les systèmes sensoriels de l'être humain sont décrits en biologie selon trois catégories : Extéroception, incluant vision, audition, somesthésie générale, olfaction et gustation.; Proprioception (ou kinesthésie), les sensations de tension musculaire, de position et de mouvement, d'équilibre et de déplacement.; Intéroception, soit la somesthésie végétative ainsi que les modalités sensorielles inconscientes.
+
+Extéroception
+L'extéroception, par opposition à la proprioception, regroupe les sensations causées par des stimuli extérieurs.
+Modalité sensorielle. Stimulus. Organes. Récepteurs. Vision. Lumière. Oeil - rétine. Photorécepteurs. Audition. Sons. Oreille - cochlée. Mécanorécepteurs. Olfaction. Chimiques. Bulbe olfactif. Chimiorécepteurs. Gustation. Chimiques. Papille gustative. Chimiorécepteurs. Somesthésie générale. Mécaniques. Peau, derme et épiderme. Mécanorécepteurs.
+Vue
+La lumière pénètre l'oeil à travers la cornée. Elle traverse la pupille et est réfractée par le cristallin. La rétine possède deux types de récepteurs, à cônes et à bâtonnets. Les récepteurs à bâtonnets sont sensibles au noir et blanc, les récepteurs à cône, très présents dans la fovéa, aux couleurs. Les récepteurs à cône distinguent le rouge, le bleu et le vert : toute autre couleur est combinaison de ces trois.
+
+Audition
+
+Somesthésie
+La somesthésie (dite aussi sensibilité (esthesis) du corps (soma)) constitue un des systèmes sensoriels de l'organisme. Cette sensibilité a son siège dans le plus grand organe du corps humain : la peau. Elle se subdivise en sensibilité cutanée (chaud, froid, pression, douleur) et en sensibilité musculaire (ou proprioception). La sensibilité cutanée présente une sensibilité thermo-algésique, dite de protection et une sensibilité vibrotactile, dont les organes sensoriels sont les mécanorécepteurs : les disques de Merkel (adaptation lente - pour ne pas lâcher un objet saisi par la main - localisés dans l'épiderme), les corpuscules de Meissner (adaptation rapide, localisés dans l'épiderme), les corpuscules de Rufini (adaptation lente, localisés dans le derme) et enfin les corpuscules de Pacini, les plus gros d'un diamètre d'environ 0,5 mm (adaptation rapide - pour saisir - localisés dans le derme). L'équilibre postural est un sous-ensemble résultant de la proprioception.
+
+Olfaction
+L'odeur est perçue par le bulbe olfactif, connecté au cerveau par le nerf olfactif.
+
+Gustation
+La langue est parsemée de papilles gustatives. Sans aucun lien avec la théorie de cinq saveurs de base (sucré, salé, acide, amer et umami), chaque molécule sapide est spécifiquement reconnue par le cerveau.
+
+Proprioception
+Ce sont les sensations de tension musculaire, de position, de mouvement, d'équilibre, de déplacement.
+Les stimuli en sont mécaniques : vibrations, étirement, tension, variation de position, accélération linéaire et angulaire.
+Les organes impliqués sont les muscles, les tendons, les articulations, le labyrinthe du vestibule.
+
+Intéroception
+
+Stimuli mécaniques
+Ces stimuli sont température, distensions, pressions, et lésions de tissus. Il s'agit de la somesthésie végétative, dont les organes sont les viscères et les vaisseaux sanguins. On distingue mécanorécepteurs, barorécepteurs et nocirécepteurs, responsables de la perception de la douleur.
+
+Stimuli chimiques
+Ces stimuli chimiques sont la pression osmotique, la variation du glucose ou encore d'oxygène et de carbone. Les organes sont l'hypothalamus ainsi que la carotide. On distingue osmorécepteurs, glucorécepteurs et chimiorécepteurs.
+La modalité sensorielle est particulière : il s'agit de la somesthésie inconsciente. Il n'y a pas conscience de la perception, mais il y a pourtant bien perception, susceptible de modifier le comportement.

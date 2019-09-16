@@ -1,0 +1,36 @@
+Une boîte noire, ou boîte opaque, est la représentation d'un système sans considérer son fonctionnement interne (que ce soit un objet mécanique ou électronique, un organisme, une personne, un mode d'organisation sociale, ou n'importe quel autre système).
+Ce fonctionnement interne est soit inaccessible (ce qui est semble-t-il l'utilisation première, qui reste courante), soit omis délibérément (c'est alors un outil théorique qui permet de choisir d'étudier exclusivement les échanges extérieurs).
+Le fonctionnement de la boîte noire n'est donc appréhendé que sous l'angle de ses interactions : "Ce qui - en dernière analyse - justifie l'attitude ludique, c'est que le seul moyen concevable de dévoiler une boîte noire, c'est de jouer avec." (René Thom).
+Schématisation : les entrées et les sorties sont représentées, mais ce qui fait le lien entre les deux est "masqué par la boîte noire".
+La boîte noire est représentée de façon élémentaire en affichant les entrées et les sorties mais en masquant le fonctionnement interne. Tout peut être représenté sous forme d'une boîte noire : un transistor, un algorithme, un réseau comme internet, le fonctionnement d'une entreprise ou les relations humaines au sein d'un groupe.
+Le contraire d'une boîte noire, dit boîte blanche, est un système dont les mécanismes sont visibles et permettent d'en comprendre le fonctionnement. Une bicyclette illustre bien ce type de système parce que, contrairement à ce qui se passe avec une boîte noire, les mécanismes de propulsion, de guidage, d'adhérence et de freinage sont visibles au premier coup d'oeil.
+
+Théorie
+
+Origine
+L'origine couramment acceptée se situe dans la langue anglaise à l'époque de la deuxième guerre mondiale, elle est liée aux techniques des télécommunications militaires, reprenant l'expression utilisée pour désigner "des appareils ennemis capturés qui ne pouvaient pas être ouverts" car ils pouvaient être piégés et ils devaient donc être examinés sans que leur conception interne soit visible.
+Les idées sur lesquelles reposent les méthodes de décryptage de cette boîte noire sont parfois attribuées aux intuitions de Wilhelm Cauer (vers 1941) et à Franz Breisig.
+Mais c'est en 1948 qu'une théorisation précise du principe est proposée par Norbert Wiener dans son essai "Cybernétique et société", sous l'impulsion de la demande de nombreux chercheurs (notamment pour diffuser ce qui est ressorti des réflexions des conférences Macy).
+
+Rapport à la cybernétique et aux représentations symboliques
+La boîte noire, en tant que notion formalisée, est établie en même temps que la cybernétique (en 1948) et présentée dans le même ouvrage, puisque ç'en est un des outils fondamentaux : dans cette première moûture, la cybernétique est une modélisation de l'étude exclusive des échanges et la boîte noire est le moyen de le faire. Autrement dit, dans le sens exposé dans ce premier ouvrage, utiliser le concept de la boîte noire revient à faire de la cybernétique au sens le plus élémentaire.
+Devant la difficulté d'expliciter cette idée, Norbert Wiener utilise l'exemple d'une machine se substituant à un organisme pour imager la possibilité de remplacer un système par un autre sans connaître le détail de l'architecture du système considéré. Mais cette idée reprise en science-fiction aura surtout tendance à accentuer l'incompréhension et l'appréhension (que l'on retrouve dans le terme cyborg), même s'il y eut des retours étonnants à la science puisque c'est par ce biais qu'est apparu le terme de robotique (inventé sans le savoir par Isaac Asimov).
+
+Applications
+L'étude porte sur les valeurs des sorties en fonction des valeurs des entrées. Les caractéristiques étudiées sont généralement le retard, la constante de temps, la réponse en fréquence, le gain.
+
+Informatique
+En informatique, on applique cette notion de boîte noire dans de nombreux contextes. On désigne ainsi les programmes dont le fonctionnement ne peut pas être connu (comme un programme compilé dont nous ne disposons pas des fichiers sources - typiquement, qui n'est pas Open Source - ou un programme qui est exécuté à distance sur un réseau informatique). En cryptologie, soit pour concevoir des algorithmes cryptographiques avec des propriétés idéales, soit pour concevoir et traiter les capacités d'un adversaire inconnu. Le test de la boîte noire est utilisé pour vérifier que les sorties obtenues sont bien celles prévues pour des entrées données. Le terme de boîte noire est utilisé car on teste la réponse aux spécifications sans s'occuper de la manière dont le programme est écrit.
+
+Psychologie
+En psychologie cette théorisation est utilisée pour désigner l'être conscient qui répond aux stimulations de l'environnement et dont on ne souhaite pas étudier le fonctionnement interne menant à cette réponse.
+Il a la particularité dans cette discipline d'être souvent rattaché aux principes du comportementalisme (ou béhaviorisme) qui est pourtant antérieur et distinct du concept de boîte noire. Elle est parfois confondue par erreur avec la boîte de Skinner (conçue en 1930), mais il n'y a aucun rapport. La notion de boîte noire n'a été intégrée au comportementalisme qu'à partir de la théorisation proposée par Norbert Wiener en 1948.
+
+Dans les transports
+L'utilisation du terme boîte noire dans les transports est sensiblement différente puisqu'elle renvoie à un dispositif qui enregistre certaines données du fonctionnement de l'appareil, et c'est en fait l'appareil (par exemple l'avion) qui est analysé comme une boîte noire, en fonction de certaines données clefs.
+C'est pourtant bien le boîtier qui enregistre ces données qui est appelé boîte noire dans les transports. Il est utilisé à l'origine dans les avions pour pouvoir déterminer les causes d'un éventuel accident, puis le terme est appliqué à tous les systèmes d'enregistrement de l'état des machines dans le domaine des transports y compris maritime et ferroviaires.
+
+Économie
+Dans la théorie néoclassique, l'entreprise est vue comme une "boîte noire", on ne s'intéresse qu'à ce qui entre (input) et à ce qui sort (output).
+
+Autres domaines: En électronique, un élément scellé d'un équipement remplaçable.; En modèle mathématique, c'est un cas de limitation.; En matière de gestion des stocks, il existe des programmes de boîte noire basés sur des algorithmes spécifiques.

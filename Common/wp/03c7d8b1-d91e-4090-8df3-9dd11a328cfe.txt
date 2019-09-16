@@ -1,0 +1,15 @@
+Un harceliciel (de l'anglais : nagware), logiciel harcelant ou encore agaciel est un logiciel (généralement un partagiciel) qui rappelle fréquemment à l'utilisateur qu'il en emploie une copie non enregistrée, qu'il doit s'inscrire et régler le montant de la licence pour bénéficier désormais de celui-ci, après une période de test gratuit autorisé.
+À chaque lancement ou fermeture du logiciel, ou parfois même pendant son utilisation, l'utilisateur est dérangé ou retardé par des messages qui s'affichent constamment (forme de harcèlement), ou par des écrans de rappel invitant à enregistrer le produit.
+
+Terminologie
+Le terme "harceliciel", mot-valise issu de la contraction des mots "harceler" et "logiciel", a été proposé par l'Office québécois de la langue française (OQLF) comme équivalent des termes anglais "nagware" et "hassleware".
+Le terme "agaciel", de source orale, correspond au terme anglais annoyware ("to annoy" - agacer, importuner) et porte un jugement un peu moins sévère sur le logiciel en question. Quant au terme anglais "guiltware", il met en évidence l'idée de "culpabilité" pouvant alors être ressentie par l'utilisateur qui profite d'un partagiciel non enregistré.
+
+Exemples
+WinRAR est un exemple d'harceliciel, à la fin de la période d'essai, il est rappelé à chaque lancement que l'utilisateur est prié d'acheter sa licence.
+mIRC est aussi un autre exemple d'harceliciel, une fois la période d'essai terminée, il est toujours possible d'utiliser le logiciel mais au démarrage, un message invitant l'utilisateur à acheter le logiciel s'affiche et un temps de plusieurs secondes doit être attendu pour pouvoir utiliser le programme.
+Windows 7 est un autre exemple; à la fin de la période d'activation un message s'affiche à chaque démarrage et l'utilisateur se retrouve avec un fond d'écran noir.
+
+Voir aussi
+
+Articles connexes: Licence de logiciel; Logiciel; Partagiciel; Gratuiciel.

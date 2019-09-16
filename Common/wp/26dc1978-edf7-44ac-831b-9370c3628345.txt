@@ -1,0 +1,44 @@
+En informatique, un réseau de stockage, ou SAN (de l'anglais Storage Area Network), est un réseau spécialisé permettant de mutualiser des ressources de stockage.
+
+Définition
+Différence entre SAN et NAS.
+Un réseau de stockage se différencie des autres systèmes de stockage tels que le NAS (Network attached storage) par un accès bas niveau aux disques. Pour simplifier, le trafic sur un SAN est très similaire aux principes utilisés pour l'utilisation des disques internes (ATA, SCSI). C'est une mutualisation des ressources de stockage.
+Dans le cas du NAS, la ressource de stockage est directement connectée au réseau IP de l'entreprise. Le serveur NAS intègre le support de multiples systèmes de fichiers réseau, tels que Common Internet File System (CIFS) protocole de partage de Microsoft et de Samba, Network File System (NFS) qui est un protocole de partage de fichiers Unix, ou encore AFP (AppleShare File Protocol) qui est l'équivalent pour la technologie Apple. Une fois connecté au réseau, il peut jouer le rôle de plusieurs serveurs de fichiers partagés.
+Dans le cas du SAN, les baies de stockage n'apparaissent pas comme des volumes partagés sur le réseau. Elles sont directement accessibles en mode bloc par le système de fichiers des serveurs. En clair, chaque serveur voit l'espace disque d'une baie SAN auquel il a accès comme son propre disque dur. L'administrateur doit donc définir très précisément les Logical Unit Number (LUN, unités logiques), le masking et le zoning, pour qu'un serveur Unix n'accède pas aux mêmes ressources qu'un serveur Windows utilisant un système de fichiers différent.
+
+Avantages
+L'un des premiers intérêts du SAN est de ne plus avoir à se préoccuper de faire évoluer la quantité de disques autrefois dévolus à un serveur particulier ou de désallouer de l'espace non utilisé d'un serveur surdimensionné en espace disque.
+L'espace disque n'est plus limité par les caractéristiques des serveurs, et est évolutif à volonté par l'ajout de disques ou de baies de stockage sur le SAN. L'espace de stockage physique mutualisé pour les serveurs permet d'optimiser la gestion des disques, et de rendre plus aisées les sauvegardes de données.
+Les ressources de stockage ainsi mutualisées (SAN ou NAS) donnent la possibilité de mettre en oeuvre des fonctions de réplication (copie de données synchrone ou asynchrone entre deux baies) et de snapshot (duplication d'un volume pour l'utiliser sur un autre serveur ou pour le sauvegarder par exemple). Ces fonctions permettent de sécuriser les données (implantation physique dans des locaux distants) et d'optimiser la disponibilité des applications. Ces fonctions sont réalisées de façon transparente pour les serveurs, et la réplication et la copie de données n'affectent pas les ressources du serveur, puisqu'elles sont réalisées au niveau des contrôleurs SAN ; l'impact sur les temps de réponse est en général négligeable.
+Réplication distante : certaines solutions SAN disposent de possibilité de transfert de données à distance, typiquement sur un site distant dans le cadre d'un plan de continuité d'activité (PCA).
+
+Caractéristiques du SAN: La Qualité de service (QoS):
+Le commutateur garantit un débit fixe de 16 Gbit-s (précédemment 1 Gbit-s, 2, 4 et 8) par lien en fibre optique, et assure le fait que la requête envoyée par un serveur a bien été reçue et prise en compte par les systèmes de stockage.
+Exemple d'accès de deux serveurs à une baie de disque par deux fabric. La disponibilité:
+Le SAN peut assurer la redondance du stockage, c'est-à-dire l'accessibilité au système de stockage en cas de panne de l'un de ses éléments, en doublant au minimum chacun des éléments du système (haute disponibilité). L'hétérogénéité:
+Le SAN peut fonctionner dans un environnement complètement hétérogène : les serveurs Unix, Windows, Netware... peuvent tous rejoindre le SAN. Performances variables:
+La performance de l'accès aux disques par un hôte varie en fonction des sollicitations de la part des autres hôtes sur les ressources partagées, elles peuvent donc varier dans le temps.
+
+Types de SAN
+Switch SAN QLogic et connecteurs fibre optique LC.
+Les SAN sont construits dans le but de fournir de l'espace disque rapide et fiable. La technologie la plus répandue pour y parvenir est l'utilisation du protocole Fibre Channel, qui permet d'atteindre des débits élevés (16 Gigabits-s). Cette technologie induit la mise en oeuvre de switchs ou de directors (gros switches de plus de 64 ports, garantissant une disponibilité maximale et une évolutivité par ajout de cartes contenant des ports de connexion). Le réseau de stockage ainsi constitué est appelé un fabric.
+D'autres technologies ont fait leur apparition : iSCSI : ce sont les mêmes commandes SCSI mais sur TCP-IP ;; FCoE (Fibre channel Over Ethernet) : les trames du protocole Fibre Channel sont transmises sur un réseau Ethernet.
+Le protocole le plus utilisé et standardisé reste toutefois le Fibre Channel.
+
+Compatibilité
+La principale difficulté dans la conception et l'exploitation d'un SAN est de s'assurer à chaque évolution de la compatibilité des différents composants qui sont mis en oeuvre : cartes Fibre Channel avec leur version de firmware, pilote (driver), logiciel de multipath éventuel, firmware des switchs, version de contrôleur des baies de stockage. Il est fondamental de respecter les préconisations des constructeurs ou de l'intégrateur (matrice de compatibilité) pour garantir le bon fonctionnement et les performances des applications hébergées dans le SAN.
+
+SAN en action
+Schéma d'un SAN.
+Il y a encore peu de temps (vers 2005), on ne trouvait des SAN que dans les grands centres informatiques de sociétés ayant besoin d'un grand volume de stockage très sécurisé. Les prix devenant plus raisonnables, des centres informatiques plus modestes s'équipent d'architectures SAN plus simples (tel que représenté dans le schéma).
+Un site plus grand mettra en place une architecture plus complexe, composée de plusieurs SAN reliés entre eux, chaque SAN pouvant être équipé d'un grand nombre de baies de disques pouvant être hétérogènes.
+L'identification de tous les éléments physiques constitutifs d'un SAN se fait grâce au World Wide Name (WWN), une identification unique de l'équipement.
+L'ensemble des commutateurs (switch) reliés entre eux constituent un objet virtuel nommé fabrique. Au sein d'une seule et même fabrique, les informations de zoning (autorisations d'accès) sont connues de tous les commutateurs.
+Le masking, quant à lui, est une action réalisée sur la baie de stockage et qui a pour but de mettre en corrélation les autorisations d'accès aux unités logiques créées.
+Le SAN est aussi un gros risque pour les SGBD et les besoins en IO des bases doivent être finement mesurés. Certains éditeurs comme Microsoft pour Exchange ou SQL Server recommandent de dédier une baie SAN à leur unique usage.
+
+Voir aussi
+
+Articles connexes: Fibre Channel : le protocole le plus utilisé pour les SAN; iSCSI : le protocole basé sur TCP-IP; FCoE : Fibre Channel sur Ethernet; Network attached storage : une alternative plus répandue de stockage en entreprise.; RAID : les méthodes d'optimisations et de sécurisations du stockage sur disques; SCSI : le standard utilisé pour communiquer avec les disques; SMI-S: norme de gestion de stockage; Hyperviseur de stockage; Connecteur fibre optique : différents types de connecteurs.
+
+Constructeurs: Dell; EMC; Hitachi; HP; Huawei; IBM; NetApp; Network Appliance.

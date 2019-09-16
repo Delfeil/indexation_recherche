@@ -1,0 +1,22 @@
+En mathématiques, et plus particulièrement en analyse, on appelle espace de Banach un espace vectoriel normé sur un sous-corps K de ℂ (en général, K - ℝ ou ℂ), complet pour la distance issue de sa norme. Comme la topologie induite par sa distance est compatible avec sa structure d'espace vectoriel, c'est un espace vectoriel topologique. Les espaces de Banach possèdent de nombreuses propriétés qui font d'eux un outil essentiel pour l'analyse fonctionnelle. Ils doivent leur nom au mathématicien polonais Stefan Banach.
+
+Caractérisation par les séries
+Un espace vectoriel normé est un espace de Banach si et seulement si, dans cet espace, toute série absolument convergente est convergente.
+
+Exemples: Tout espace vectoriel de dimension finie sur ℝ (resp. ℂ) muni de n'importe quelle norme, par exemple une norme euclidienne (resp. hermitienne).; Pour tout ensemble non vide X et tout espace de Banach E, l'espace B(X, E) des applications bornées de X dans E, muni de la norme de la convergence uniforme.; Tout sous-espace vectoriel fermé d'un espace de Banach. Par exemple, si X est un espace topologique et E un espace de Banach : le sous-espace de B(X, E) des fonctions à la fois continues et bornées, en particulier l'espace C(K, E) des fonctions continues sur un espace compact K. (En fait, d'après le théorème de Banach-Alaoglu-Bourbaki, tout espace de Banach est un sous-espace fermé d'un C(K, ℝ).); Les espaces de Hilbert.; Plus généralement, pour 1 p , l'espace Lp(X) des classes de fonctions mesurables (à valeurs réelles ou complexes) sur un espace mesuré X, et dont la puissance p-ième est intégrable (ou qui sont bornées, si p -).; Tout espace vectoriel normé quotient d'un espace de Banach par un sous-espace fermé - grâce à la caractérisation par les séries ci-dessus. (En fait, tout espace de Banach séparable est un tel quotient de ℓ1.).
+
+Théorème de l'application ouverte et ses variantes
+Soient E et F deux espaces de Banach et f une application linéaire continue de E dans F. Si f est surjective alors elle est ouverte, c'est-à-dire que l'image par f de tout ouvert de E est un ouvert de F.; Si f est bijective alors c'est un homéomorphisme.; La bijection linéaire continue associée à f, de E-ker(f) dans f(E), est un homéomorphisme si et seulement si f(E) est fermé dans F.; Théorème du graphe fermé : toute application linéaire de E dans F dont le graphe est fermé dans EF est continue.
+
+Propriété des fermés emboîtés
+Comme tout espace métrique complet, un espace de Banach vérifie la propriété suivante : "Soit une suite décroissante de fermés non vides dont la suite des diamètres tend vers 0. Alors l'intersection des fermés est non vide et réduite à un singleton."
+Cette propriété permet de démontrer que tout espace métrique complet (en particulier tout espace de Banach) est de Baire, et d'en déduire le théorème de Banach-Steinhaus ci-dessous.
+
+Théorème de Banach-Steinhaus
+Soient E (-displaystyle E) un espace de Banach, F (-displaystyle F) un espace vectoriel normé, (u i) i I (-displaystyle -left(u-(i)-right)-(i-in I)) une famille d'éléments de ℒ(E,F) et A (-displaystyle A) l'ensemble des vecteurs x (-displaystyle x) de E (-displaystyle E) tels que sup i I u i (x) + (-displaystyle -sup -(i-in I)-left-u-(i)(x)-right-(+-infty)). Alors, ou bien A (-displaystyle A) est maigre, c'est-à-dire réunion dénombrable d'ensembles rares (un ensemble étant rare si son adhérence est d'intérieur vide) et son complémentaire est dense, ou bien sup i I u i + (-displaystyle -sup -(i-in I)-left-u-(i)-right-(+-infty)) (où u i (-displaystyle -left-u-(i)-right-) désigne la norme d'opérateur de u i (-displaystyle u-(i))). En particulier, si A - E (-displaystyle A-E), seule la seconde éventualité est possible.
+
+Note
+
+Voir aussi
+
+Articles connexes: Application contractante; Base de Schauder; Dual topologique; Espace d'interpolation; Espace réflexif; Espace de Sobolev; Produit tensoriel topologique (en); Propriété d'approximation; Théorème de Banach-Stone. Portail de l'analyse.

@@ -1,0 +1,32 @@
+QQOQCCP, pour "Qui Quoi Où Quand Comment Combien Pourquoi ", est un sigle résumant une méthode empirique de questionnement.
+Sa simplicité, son caractère logique et systématique font que beaucoup l'utilisent aussi pour structurer la restitution des résultats de leurs analyses.
+Ce concept est notamment utilisé en journalisme. En anglais, cette méthode est abrégée en Five W's ("cinq W", pour "Who, What, Where, When, Why ", ou "who did what, where and when, and why" c'est-à-dire : "qui a fait quoi, où, quand et pourquoi ").
+Les cinq W sont particulièrement utilisés en agence de presse, qui exige que les réponses aux cinq questions soient données dès le début de la dépêche, ce qui permet un découpage de l'information par priorité.
+
+Origine et histoire
+Du latin : "Quis, Quid, Ubi, Quibus auxiliis, Cur, Quomodo, Quando" qui sont les 7 questions qui définissent les "circonstances" d'une situation (en latin : "circum-stare" désigne "ce qui se tient autour de").
+Plusieurs origines historiques sont évoquées : les "circonstances" définies par le rhéteur grec Hermagoras de Temnos et transmises par saint Augustin : Quis, quid, quando, ubi, cur, quem ad modum, quibus adminiculis.. Elles sont parfois faussement attribuées à Cicéron ;; l'hexamètre dit de Quintilien, in De institutione oratoria, pose les "circonstances" suivantes : la personne ; le fait ; le lieu ; les moyens ; les motifs ; la manière ; le temps ;; Boèce introduit l'usage des "circonstances" dans l'instruction criminelle : quel est le coupable quel est le crime où l'a-t-on commis par quels moyens ou avec quels complices pourquoi de quelle manière à quel moment.
+
+Redécouverte et utilisation par le journalisme
+Les cinq W sont assimilés aux "règles fondamentales du reportage", à partir du "journalisme américain du XXe siècle". Elle est mise en évidence pour témoigner de l'apparition d'un style journalistique bien différent du style littéraire, à une époque où la professionnalisation des journalistes s'accentue.
+La règle des "Cinq w du journalisme" était en particulier exigée par Roy W. Howard, rédacteur en chef et président, de 1912 à 1923, de l'United Press, la seconde agence de presse américaine et mondiale.
+En 1917, cette méthode d'écriture, consistant à inclure les cinq W dans le premier paragraphe d'une dépêche, est enseignée dans les plus prestigieuses écoles de journalisme. La méthode des cinq W oblige le journaliste à une hiérarchisation de l'information sous la forme de la description d'un événement. Elle le contraint à faire un choix. Elle peut se révéler réductrice dans les cas d'une réalité plus diffuse ou plus complexe. Il est dans ce cas prévu d'apporter des développements dans les paragraphes suivants. Le cinquième W, qui répond à la question "pourquoi", s'inscrit à la charnière du récit de l'événement lui-même et des éléments de contexte qui suivent. Cette charnière permet d'expliquer, de comprendre, et de savoir en quoi cet événement modifie la donne, apporte quelque chose de nouveau. Lorsque l'événement est d'une importance relative, une dépêche d'agence de presse doit pouvoir être coupée après le 1er paragraphe, pour faire l'objet d'une "brève" de quelques lignes dans un journal quotidien ou un journal radio.
+
+Redécouverte et utilisation en résolution de problème
+Ce questionnement est redécouvert par Edward Deming en 1945
+
+Utilisation de la méthode
+Toute démarche d'analyse implique en effet une phase préalable de "questionnement systématique et exhaustif" dont la qualité conditionne celle de l'analyse proprement dite, en vue de collecter les données nécessaires et suffisantes pour dresser l'état des lieux et rendre compte d'une situation, d'un problème, d'un processus.
+Faire le tour d'une question conduit à se poser et à répondre à de nombreuses - de 5 à 10 suivant les auteurs -, telles que : "Que fait-on Avec quoi le fait-on Qui est concerné Qui le fait Et pourquoi cette personne Où le fait-on Quand le fait-on Avec quelle quantité Combien ça coûte Comment le fait-on Pourquoi Pourquoi y a-t-il ce problème Pourquoi agit-on ainsi Pourquoi est-ce important Pourquoi est-ce situé ici ou là ", etc.
+
+Présentation sous forme de liste
+D'où l'idée de résumer et d'ordonner ce questionnement - au premier abord désordonné parce que foisonnant en tous sens - en une liste méthodique et mnémotechnique :
+
+Sous forme de tableau
+Une variante d'utilisation structure le questionnement non plus sous forme de liste, mais sous forme de tableau.
+En ligne, les 4 questions de base.
+En colonne, la réponse ces 4 questions est complétée par la réponse aux 3 modalités : Comment Combien et Pourquoi
+
+Exemples d'application
+La méthode est utilisée dans un grand nombre de domaines : Dans le cadre des activités de prospection des clients : avant de proposer des produits ou services, il s'agit de "découvrir" et de comprendre l'activité, le besoin du client.
+L'analyse QQOQCCP peut ainsi être appliquée aussi bien à la cible visée qu'à ses concurrents (et si cela est possible, présenter les résultats sous forme comparative comme dans un benchmarking) ; En gestion de la qualité, en qualité totale (en anglais, TQM, Total Quality Management) : combinée avec les étapes de la roue de Deming, (méthode PDCA, Plan, Do, Check, Act) elle contribue à préparer un plan de qualité... qualitatif ;; En animation de réunion : ainsi, au début d'une session de formation la méthode peut servir de plan d'exposé pour la phase d'accueil. L'accueil doit en effet répondre aux interrogations des participants : qui est qui qu'allons nous faire où sommes nous quel est l'horaire prévu , etc.; En créativité.

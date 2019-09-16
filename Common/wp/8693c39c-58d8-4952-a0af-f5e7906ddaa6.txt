@@ -1,0 +1,9 @@
+Huma-Num est une infrastructure de recherche dédiée aux lettres, sciences humaines et sociales et aux humanités numériques mise en oeuvre par le Ministère de l'Enseignement supérieur et de la Recherche et portée par le Centre national de la recherche scientifique, Aix-Marseille université et le Campus Condorcet. Elle propose des services numériques pour les programmes de recherche et anime un réseau de consortiums en humanités numériques. Créée en 2013, elle est issue de la fusion des infrastructures Adonis et Corpus-IR qui préexistait depuis 2007 et 2011.
+
+Description
+Huma-num propose : Des consortiums disciplinaires travaillant sur les enjeux du numériques dans les domaines des lettres, sciences humaines et sociales et archives scientifiques; Une infrastructure de services numériques pour le stockage, le traitement, la diffusion et le partage des données et documents de la recherche en SHS; Une plateforme d'archivage et d'exposition de données : NAKALA; Une plateforme et un moteur de recherche en SHS : Plateforme Isidore.
+
+Voir aussi
+
+Articles connexes
+Plateforme Isidore

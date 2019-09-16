@@ -1,0 +1,37 @@
+Un groupe abélien (du nom de Niels Abel), ou groupe commutatif, est un groupe dont la loi de composition interne est commutative. Vu autrement, un groupe commutatif peut aussi être défini comme un module sur l'anneau commutatif ℤ des entiers relatifs ; l'étude des groupes abéliens apparaît alors comme un cas particulier de la théorie des modules.
+On sait classifier de façon simple et explicite les groupes abéliens de type fini à isomorphisme près, et en particulier décrire les groupes abéliens finis.
+
+Définition
+On dit qu'un groupe (G ,) (-displaystyle (G,-star)) est abélien, ou commutatif, lorsque la loi de composition interne du groupe est commutative, c'est-à-dire lorsque :
+
+Notation additive
+La loi d'un groupe commutatif est parfois notée additivement, c'est-à-dire par le signe +. Quand cette convention est adoptée, l'élément neutre est noté 0, le symétrique d'un élément x du groupe est noté -x et, pour tout entier relatif n, on note : n x - (x + x +... + x n f o i s si n 0 , (n x) - n (x) - x x... x n f o i s si n 0 , 0 si n - 0. (-displaystyle nx--left-((-begin(matrix)-underbrace (x+x+-ldots +x) -(n- -mathrm (fois))(-text(si))n0,---(nx)-n(-x)--underbrace (-x-x--ldots -x) -(n- -mathrm (fois))(-text(si))n0,--0(-text(si))n-0.-end(matrix))-right.).
+
+Exemples: Les groupes monogènes, c'est-à-dire le groupe additif (ℤ, +) des entiers et le groupe additif (ℤ-nℤ, +) des entiers modulo n.; Le groupe additif (ℝ, +) des nombres réels et le groupe multiplicatif (ℝ-,).; Un point O étant fixé dans le plan, l'ensemble des rotations de centre O muni de la composition est un groupe abélien.; Tout sous-groupe d'un groupe abélien est abélien. Il est par ailleurs distingué et on peut donc considérer le groupe quotient, qui est également abélien.; Soit G un groupe (pas nécessairement abélien) et H un groupe abélien noté additivement. Pour f et g applications de G vers H, on définit leur somme f + g par (f + g)(x) - f(x) + g(x). Muni de cette opération, l'ensemble Hom(G, H) de tous les morphismes de groupes de G vers H est lui-même un groupe abélien.
+
+Les groupes abéliens comme modules sur l'anneau des entiers
+Pour x élément d'un groupe abélien noté additivement et n entier relatif, on a défini plus haut l'élément nx du groupe. Le groupe apparaît ainsi comme un module sur l'anneau ℤ des entiers. Réciproquement, tout ℤ-module s'obtient de cette façon.
+Ce procédé permet de concevoir la théorie des groupes commutatifs comme un cas particulier de la théorie des modules ; en sens opposé certains résultats énoncés dans le cadre des groupes commutatifs peuvent être généralisés à des classes de modules plus larges, notamment la classe des modules sur un anneau principal. Ainsi un recyclage de la preuve du théorème de structure des groupes abéliens de type fini permet de prouver un théorème analogue valable sur un anneau principal quelconque, lui-même applicable à de tout autres questions -notamment la classification à similitude près des matrices à coefficients dans un corps commutatif.
+
+Classes remarquables de groupes abéliens
+
+Groupes abéliens libres
+On appelle groupe abélien libre un groupe abélien qui est libre en tant que ℤ-module (et non pas en tant que groupe), c'est-à-dire qui possède une base.
+Comme les espaces vectoriels, les groupes abéliens libres sont classifiés (à isomorphisme près) par leur rang, défini comme le cardinal d'une base, et tout sous-groupe d'un groupe abélien libre est lui-même abélien libre. Tout groupe abélien est donc isomorphe au quotient d'un groupe abélien libre par un sous-groupe abélien libre.
+
+Groupes abéliens de type fini
+Ce sont, par définition, les groupes abéliens qui possède une partie génératrice finie : ainsi notamment les groupes abéliens finis et les réseaux d'un espace euclidien.
+Les produits finis, les quotients, mais aussi les sous-groupes des groupes abéliens de type fini sont eux-mêmes de type fini. Un théorème de structure des groupes abéliens de type fini permet d'expliciter la liste complète de ces groupes à isomorphisme près ; il montre notamment que tout groupe abélien de type fini est un produit fini de groupes cycliques. En particulier, un groupe abélien de type fini qui n'a aucun élément d'ordre fini (hormis le neutre) est abélien libre.
+
+Groupes divisibles
+Un groupe abélien G est dit divisible lorsque pour tout entier n 0, G - nG. Les archétypes en sont le groupe additif ℚ des nombres rationnels et les p-groupes de Prüfer. Un théorème de structure des groupes abéliens divisibles montre que tout groupe divisible est somme directe (finie ou infinie) de copies de ces modèles.
+
+La catégorie des groupes abéliens
+La catégorie de tous les groupes abéliens est le prototype d'une catégorie abélienne.
+
+Décidabilité
+Wanda Szmielew (de), étudiante de Tarski, a démontré en 1955 que la théorie du premier ordre des groupes abéliens est décidable (contrairement à la théorie du premier ordre des groupes).
+
+Voir aussi
+
+Articles connexes: Abélianisé; Rang d'un groupe abélien (en); Torsion.

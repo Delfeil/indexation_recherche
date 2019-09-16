@@ -1,0 +1,5 @@
+Walter Pitts (23 avril 1923 - 14 mai 1969) est un scientifique américain étudiant la psychologie cognitive.
+Il proposa une formulation théorique de l'activité neuronale et des processus emergents, influent dans de nombreux domaines comme la psychologie, la philosophie, les neurosciences, l'informatique, la cybernétique ou encore l'intelligence artificielle.
+Il fut l'élève de Nicolas Rashevsky (professeur de neurologie à Chicago) qui entreprit de poser les bases d'une "biophysique mathématique" et étudia la logique symbolique avec Rudolf Carnap.
+Il est connu pour avoir écrit avec Warren McCulloch un article intitulé "Un calculateur logique des idées immanentes dans l'activité nerveuse" (A Logical Calculus of Ideas Immanent in Nervous Activity) en 1943.
+De 1946 à 1953, il participe aux conférences interdisciplinaires dites Conférences Macy.

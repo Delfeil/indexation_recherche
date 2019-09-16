@@ -1,0 +1,43 @@
+Le prêt entre bibliothèques (PEB) est un service qui permet à un réseau de bibliothèques et centres de documentation d'effectuer ou de recevoir des demandes de fourniture de documents, qu'il s'agisse de reproductions ou d'originaux.
+L'appellation traditionnelle prêt inter-bibliothèques (PIB) n'est plus guère d'usage courant mais l'expression familière prêt-inter subsiste.
+Les services de PEB collaborent au niveau international.
+
+En Belgique
+Le prêt interbibliothèques est une pratique courante dans les bibliothèques publiques de la Communauté française. Il "a pour objectif de fournir dans les meilleurs délais le document recherché par un lecteur d'une bibliothèque locale auprès de laquelle il s'est renseigné et qu'elle ne peut pas lui prêter". Le prêt interbibliothèques suppose une réciprocité totale et concerne tous les documents qui figure dans les collections (sauf ceux qui se trouvent en salle de consultation, ceux qui appartiennent à des fonds spéciaux, etc.).
+Ce type de prêt suit un processus défini. La demande de la bibliothèque locale doit d'abord être adressée à sa bibliothèque principale (et aux autres bibliothèques du réseau). Si elle ne peut fournir le document, elle fera suivre la demande à la bibliothèque centrale. Le cas échéant, la centrale fera suivre la demande vers les autres réseaux.
+La bibliothèque emprunteuse est responsable des documents qui lui sont prêtés. Si le document est détérioré ou n'est pas restitué par le lecteur, elle devra rembourser le document selon les règles établies par la bibliothèque prêteuse.
+Un service de PEB existe notamment à la Bibliothèque royale, à l'Académie royale et à l'Université de Namur.
+
+Au Canada
+Un service de PEB existe notamment à la Bibliothèque nationale du Canada, à Bibliothèque et Archives nationales du Québec et dans la plupart des universités, notamment, au Québec, dans les universités membres de la Conférence des recteurs et des principaux des universités du Québec (CREPUQ). La BN du Canada répond aux demandes de prêt de documents (prêt ou copie) ou en donnant une liste de bibliothèques qui pourraient détenir le document. Le service de PEB de la Bibliothèque nationale du Canada est offert aux bibliothèques ou à des organismes semblables qui lui fournissent des données bibliographiques de base pour les documents requis.
+Les réseaux de bibliothèques municipales comme celui de la ville de Québec, ou encore certaines bibliothèques dans une même Commission scolaire offrent ce service.
+Les Réseaux BIBLIO du Québec, anciennement appelés Centre de services aux bibliothèques publiques (CRSBP), ont mis en place depuis de nombreuses années un système permettant le PIB et le PEB dans chaque réseau, entre réseaux et d'un réseau à une bibliothèque d'un autre type dans tout le Québec. Près de 800 petites bibliothèques affiliées à ces Réseaux BIBLIO sont ainsi reliées et échangent des livres entre elles dans tout le Québec. Comme, dans le reste du Canada, ce service s'appuie sur un transport des livres par Postes Canada à tarifs préférentiels.
+
+En France
+L'originalité du système français est de combiner deux réseaux de prêt entre bibliothèques : le réseau de PEB, constitué d'universités et établissements assimilés qui participent globalement ou partiellement à la production du Système universitaire de documentation (Sudoc) ;; le réseau dit PIB, qui regroupe des bibliothèques publiques et utilise le Catalogue collectif de France (CCFr).
+Le service de fourniture de documents de l'INIST complète ce dispositif.
+
+Le réseau PEB du Sudoc
+
+Pour les établissements déployés
+Les établissements déployés dans le Sudoc utilisent le module Supeb qui est une composante du logiciel WinIBW distribué par l'Agence bibliographique de l'enseignement supérieur.
+Supeb offre un grand nombre de fonctionnalités avec tout particulièrement : l'articulation totale entre la recherche documentaire du catalogue et le déclenchement d'une demande de PEB dans le réseau ;; la circulation automatique d'une demande de PEB ;; le chaînage entre bibliothèques qui dépendent d'un même établissement, de façon à centraliser le PEB dans une bibliothèque donnée ;; la possibilité d'habiliter des usagers à déclencher eux-mêmes leurs demandes PEB via un accès Web tout en conservant un certain contrôle sur les transactions.
+
+Pour les établissements Sudoc-PS
+Pour les bibliothèques qui ont un faible volume de transactions ou encore pour les bibliothèques qui déclarent leurs collections de périodiques dans le Sudoc mais qui ne possèdent pas le logiciel WinIBW (les établissements Sudoc-PS), un accès professionnel au réseau PEB via le Web de Sudoc est disponible mais pour la fonction demandeur uniquement.
+
+Demandes directes des lecteurs
+Seuls les établissements qui participent au Sudoc peuvent utiliser le PEB. Cependant, comme indiqué plus haut, un établissement peut habiliter un lecteur à faire des demandes de PEB. Aussi, via l'accès Web du Sudoc et grâce à un login et un mot de passe qui lui aura été remis par sa bibliothèque de rattachement, un lecteur pourra déclencher une demande de PEB à la suite d'une recherche documentaire.
+
+Le réseau PIB
+Le réseau PIB regroupe les bibliothèques publiques en recourant notamment au Catalogue collectif de France, qui dispose lui aussi d'une interface Web permettant aux bibliothèques participantes de déposer leurs demandes en ligne et d'y répondre par le même biais. C'est la Bibliothèque nationale de France qui pilote ce réseau à travers le CCFr.
+
+Interconnexion des réseaux
+Les deux réseaux PEB et PIB fonctionnent en partenariat, de sorte qu'une bibliothèque universitaire peut fournir des documents à une bibliothèque publique et inversement, d'autant que les documents signalés dans le Sudoc le sont également dans le CCFr et que les périodiques des bibliothèques publiques sont généralement signalés dans le Sudoc.
+Pour info, la Bibliothèque nationale de France propose depuis 2006 à ses lecteurs du rez-de-jardin de faire des demandes de PEB à l'extérieur. Elle-même ne fournit de documents que s'ils ne sont pas conservés ailleurs, et les demandes sont traités par le service de reproduction.
+
+Au Royaume-Uni
+Si de nombreuses bibliothèques britanniques assurent le prêt entre bibliothèques, le service le plus connu est le British Library Document Supply Center (BLDSC), géré par la British Library. Ce service est utilisé par de nombreuses bibliothèques européennes.
+
+En Suisse
+le Réseau des bibliothèques de Suisse occidentale (RERO) propose à ses usagers un système de PEB avec pour fonctionnalité principale la commande en ligne d'ouvrages, articles et autres documents parmi les quelque trois millions de documents enregistrés sur son catalogue collectif (http:--opac.rero.ch).

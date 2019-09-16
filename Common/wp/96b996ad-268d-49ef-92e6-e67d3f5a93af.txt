@@ -1,0 +1,29 @@
+Edsger Wybe Dijkstra (prononciation :), né à Rotterdam le 11 mai 1930 et mort à Nuenen le 6 août 2002, est un mathématicien et informaticien néerlandais du XXe siècle. Il reçoit en 1972 le prix Turing pour ses contributions sur la science et l'art des langages de programmation et au langage Algol. Juste après sa mort, en 2002, il reçoit le prix PoDC de l'article influent, pour ses travaux sur l'autostabilisation. L'année suivant sa mort, le prix sera renommé en son honneur prix Dijkstra.
+
+Biographie
+Après des études de physique théorique, il s'engage dès 1955 dans le domaine de l'informatique alors naissante, dont il est l'un des pionniers les plus éclairés.
+Dijkstra avait une très belle écriture manuscrite et a toujours refusé d'utiliser un traitement de texte, malgré son domaine d'activité, préférant la lettre manuscrite photocopiée. Luca Cardelli a créé une fonte "Dijkstra" en son honneur, qui imite son écriture régulière. Dijkstra référençait toutes ses lettres par EWD suivi d'un nombre, la dernière étant la lettre EWD 1318.
+
+Le système d'exploitation THE
+Enseignant à l'université technique d'Eindhoven, il commence à se faire connaître en matière de systèmes avec THE Operating system, un système construit en couches d'abstraction successives et idéal pour l'enseignement ("THE" est un jeu de mot sur l'acronyme de son université Technische Hogeschool Eindhoven, école polytechnique d'Eindhoven). Fort de l'expérience d'écriture de ce système, il formalise le concept, avant lui diffus, de sémaphore puis introduit le concept de "section critique" avec deux exemples devenus classiques : le problème des lecteurs et des rédacteurs et le dîner des philosophes.
+
+L'instruction GOTO
+Constatant les dégâts provoqués par l'usage incontrôlé de l'instruction goto en programmation, il rédige en 1968 pour les Communications of the ACM un article qu'il nomme "A Case against the GOTO Statement" ("Un Procès contre l'instruction GOTO"). Voulant publier rapidement l'article sous la forme d'une lettre à l'éditeur, l'éditeur Niklaus Wirth le rebaptise "Go To Statement Considered Harmful" ("L'Instruction Go To considérée comme nuisible").
+Ce nouveau titre, tout autant que le propos de l'article, devient alors célèbre dans le milieu de l'informatique. Les titres de la forme "X considered harmful" se multiplient, jusqu'à un "Dijkstra considered harmful.
+L'instruction goto est rapidement marginalisée, et presque éliminée, par la programmation structurée (concept de Wirth et Dijkstra, présenté entre autres dans EWD 268). En programmation structurée, le goto est remplacé par des instructions comme if... then... else..., while... do, repeat... until qui furent introduites par Wirth dans Algol W : chaque instruction contient une seule entrée et une seule sortie, ce qui rend enfin possible des tests systématiques exhaustifs impossibles avec le "code spaghetti".
+Des conditions peuvent aussi être imposées à l'entrée unique et des caractéristiques postulées à la sortie unique, ce qui ouvre la porte à des outils ajoutés à la syntaxe, comme assert (voir Logique de Hoare) et plus tard à la programmation par contrat du langage Eiffel.
+
+Algorithmique
+Dijkstra avait joué un rôle important dans le développement du langage Algol à la fin des années 1950 et développé ensuite "la science et l'art des langages de programmation", contribuant grandement à notre compréhension de leur structure, de leur représentation et de leur implémentation. C'est aussi un adepte du bel algorithme, y compris pour des sujets difficiles à traiter en programmation structurée comme les perles de Dijkstra (disposer une par une des perles de trois couleurs sur un fil de façon à ce qu'il n'y ait jamais deux séquences adjacentes identiques).
+Il est également à l'origine de l'algorithme éponyme, l'algorithme de Dijkstra, permettant de calculer des plus courts chemins dans un graphe orienté.
+
+Prix Turing
+Le discours qu'il prononce en 1972 lorsqu'il reçoit le prix Turing, The Humble Programmer, est également resté célèbre. Il s'agit également d'un exercice d'autodérision, le professeur Dijkstra s'étant toujours montré très conscient de la valeur de ses travaux.
+En 1974, Dijkstra publie l'article fondateur de l'autostabilisation, propriété d'un système réparti à retrouver un comportement correct après toute défaillance transitoire. En 2002, il reçoit le prix PoDC de l'article influent pour cet article. Il meurt peu après. Ce prix est renommé prix Dijkstra en son honneur dès l'année suivante.
+
+Citations
+Dijkstra, connu pour son caractère difficile et son intransigeance, était réputé pour ses aphorismes, lesquels résumaient sa vision de la science informatique. "La programmation par objets est une idée exceptionnellement mauvaise qui ne pouvait naître qu'en Californie."; "Les progrès ne seront possibles que si nous pouvons réfléchir sur les programmes sans les imaginer comme des morceaux de code exécutable."; "La recherche du chemin le plus court est une quête qui ne peut être accomplie qu'en l'absence de toute perturbation intrinsèque."; "Le plus court chemin d'un graphe n'est jamais celui que l'on croit, il peut surgir de nulle part, et la plupart du temps, il n'existe pas."; L'aphorisme "L'informatique n'est pas plus la science des ordinateurs que l'astronomie n'est celle des télescopes." souvent attribué à Dijkstra, est en fait une phrase de Michael R. Fellows et Ian Parberry dans un article du journal Computing Research News.Voir aussi; "Les ressources d'un individu sont plus à même de s'accumuler lorsque ses capacités de macrogestion sont déplorables."; "Le test de programmes peut être une façon très efficace de montrer la présence de bugs mais est désespérément inadéquat pour prouver leur absence".
+
+Voir aussi
+
+Articles connexes: Autostabilisation; Algorithme de Dijkstra.

@@ -1,0 +1,43 @@
+La représentation mentale est une représentation que l'on se fait, par la pensée, d'une projection sensorielle, d'un concept ou d'une situation. Une représentation mentale peut être de l'ordre du réel ou du fictif.
+
+Généralités
+La représentation mentale ne doit pas être confondue avec les techniques d'imagerie cérébrale.
+Une représentation mentale ou représentation cognitive est l'image qu'un individu se fait d'une situation. Elle est au confluent des sensations et de la mémoire. Dans une situation donnée, les sensations vont susciter l'activation d'informations contenues en mémoire ce qui provoquera les réactions du sujet. Comme toute activité humaine est organisée en vue d'une fin, la notion de représentation est proche de celle d'état mental, et donc du concept d'intentionnalité.
+Du point de vue du matérialisme identité, une représentation sera un état du système nerveux, ayant des relations avec des objets - états de l'organisme ou environnement.
+
+Statut de la représentation
+Les représentations sont variées : images, mémoire, concepts, émotions... On peut distinguer plusieurs représentations : image mentale, reconstitution de la forme physique d'un objet; mémoire sémantique; concepts et catégories.
+Il est également possible de distinguer représentations du monde et représentations de soi.
+La psychologie cognitive considère que toutes les représentations ne sont pas conscientes, bien que ce point diffère de la notion d'inconscient en psychanalyse.
+Le statut de la représentation reste discuté, et appelle plusieurs points théoriques.
+
+Représentations intentionnelles
+L'intentionnalité décrit les états mentaux comme adoptant la forme : je crains, je crois, je désire que.. P, ou P est une proposition.
+On peut distinguer deux aspects d'une représentation : intentionnelle et intrinsèque.
+
+Informations
+L'information peut être emmagasinée sous la forme de code. L'objet de la psychologie cognitive sera ce traitement de l'information.
+La représentation oppose deux aspects, cognitif et intrinsèque, ou cognitif désigne une quantité d'information, une précision de l'information.
+
+Symbolisme
+La pensée symbolique n'est pas toute l'activité cognitive. Il existe des représentations non symboliques.
+
+Global et modulaire
+La distinction entre global et modulaire est soumise à un large débat.
+
+Représentations modulaires
+Les représentations modulaires sont spécifiques d'une modalité sensorielle, par exemple la vue.
+
+Représentation globale
+Une représentation globale est polysensorielle ; par excellence ceci désigne la pensée abstraite.
+
+Fonctions des représentations mentales
+Les représentations mentales ont des relations avec la représentation sociale, pour ce qui touche à l'imaginaire collectif, l'organisation sociale, et la construction de systèmes symboliques.
+Certaines personnalités dans différentes disciplines, comme Georges Duby en Histoire, et Marc Augé en anthropologie, ont reconnu et explicité la fonction de la représentation dans la constitution des ordres et des rapports sociaux, l'orientation des comportements collectifs et la transformation du monde social.
+
+Le concept adapté à l'industrie
+Dans le domaine industriel, notamment pour les entreprises confrontées à des risques particulièrement importants (aviation, nucléaire...) des recherches ont été menées pour permettre aux opérateurs d'avoir la représentation mentale la plus proche de la réalité.
+Un des exemples les plus frappants est l'accident nucléaire de Three Mile Island, dû à une erreur de manipulation par des opérateurs qui avaient une représentation mentale de l'état de l'installation différente de la réalité. Ayant mal interprété un signal, ils ont cru à tort qu'une vanne était fermée, ce qui les a conduit à engager des opérations qui ont provoqué finalement la fusion du réacteur nucléaire.
+Ces recherches, basées notamment sur la théorie de la communication, ont conduit à l'amélioration de l'ergonomie des interfaces homme-machine, l'organisation du travail et la culture de travail pour limiter les possibilités de mauvaise interprétation et les corriger.
+
+Voir aussi: Représentation; Représentation sociale; Image mentale; Méditation. Portail des neurosciences; Portail de la psychologie.

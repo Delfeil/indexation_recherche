@@ -1,0 +1,37 @@
+Un système géodésique est un système de référence permettant d'exprimer les positions au voisinage de la Terre.
+
+Définition
+
+Système de coordonnées cartésiennes
+Un système géodésique est, initialement, un repère tridimensionnel défini par : son centre O (choisi à proximité du centre de gravité terrestre); trois axes orthonormés Ox, Oy et Oz, définis par leur orientation. Ox et Oy se trouvent pratiquement dans le plan équatorial terrestre, et Oz est orienté approximativement suivant l'axe de rotation terrestre.
+Dans un système géodésique ainsi défini, un point est localisé par ses coordonnées cartésiennes, exprimées par trois valeurs (X, Y, et Z) relatives aux trois axes du repère.
+Les données spatialisées sont rarement stockées sous cette forme, mais on peut avoir recours à ce système de données cartésiennes pour convertir des données d'un système géodésique à un autre.
+
+Système géodésique par ellipsoïde
+La plupart des systèmes reposent sur un ellipsoïde de révolution conventionnel (choisi de manière à approcher le géoïde) dont les paramètres de définition sont généralement : son centre O; son demi grand axe a; son coefficient d'aplatissement f.
+
+Système de coordonnées géodésiques
+Dans un système géodésique ainsi défini, un point est localisé par ses coordonnées géographiques (ou géodésiques), exprimées en valeurs angulaires par la latitude L, la longitude G, et la hauteur géodésique h mesurée suivant la normale à l'ellipsoïde (h est petit à proximité de la surface terrestre).
+
+Historique
+Historiquement, les systèmes géodésiques étaient déterminés à partir de mesures angulaires et de quelques mesures de longueur. Un système géodésique était associé à un réseau géodésique, ensemble de points dont les coordonnées avaient été déterminées à partir des mêmes mesures de base.
+La constitution d'un réseau géodésique comprenait alors les étapes suivantes : détermination par mesures astronomiques (astrolabe ou instrument équivalent) de la position d'un point, dit "point fondamental", et d'une direction de référence en ce point (orientation); mesure très précise d'une longueur (dite "base"), généralement à l'aide d'une référence de longueur en fil invar; expansion à l'aide de mesures angulaires horizontales (triangulation à l'aide de théodolites) à partir de ces éléments (points de base, longueur de base) : le réseau de points ainsi déterminés constituait le "réseau d'ordre 1"; ce réseau pouvait être ensuite densifié progressivement localement par triangulation : le "réseau d'ordre 2" s'obtenait à partir d'angles mesurés depuis des points d'ordre 1, etc.
+Il y avait autant de systèmes géodésiques (dits "locaux") que de réseaux déterminés indépendamment : un par pays, généralement, et souvent un par île.
+
+Systèmes géodésiques modernes
+Les techniques spatiales ont permis de définir des systèmes géodésiques "mondiaux" ou "globaux", en combinant les méthodes d'orbitographie précise de satellites, et des mesures d'angles ou de distances (ou plutôt, de temps de propagation de signaux) entre ces satellites et des points du globe ; le "réseau" géodésique est désormais virtuel, et ce sont les éléments orbitaux des satellites et les positions des stations de trajectographie qui définissent désormais le système géodésique. Le premier système géodésique ainsi défini a été le WGS 72 (World Geodetic System 72), associé aux satellites américains TRANSIT.
+Contrairement aux systèmes géodésiques classiques, bidimensionnels (la position n'était connue dans ces systèmes que par ses deux coordonnées horizontales, la coordonnée verticale étant donnée dans un autre système de référence, dit... vertical), les systèmes globaux sont tridimensionnels.
+
+Systèmes géodésiques les plus connus
+
+Dans le monde: Le système géodésique le plus utilisé dans le monde est le système WGS 84, associé au système de positionnement GPS. En Amérique du Nord, outre le WGS84, on utilise Le NAD83 (pour North American Datum) qui a succédé au NAD27. Le nombre indique l'année de la généralisation du système.
+
+En France
+Des repères de nivellement étaient fréquemment implantés sur des édifices publics (mairies et églises) ou des bornes routières, comme ici: Le système traditionnel en France jusqu'à la fin du XXe siècle était la Nouvelle triangulation de la France (NTF) : système géodésique classique associé à un réseau géodésique terrestre ; il était associé à la projection de Lambert ; la coordonnée verticale se référait au système Nivellement général de la France (NGF).; Un autre système couramment utilisé (notamment en mer et pour les cartes marines) était le système EUROPE 50, ou ED 50 (pour European Datum 50), utilisable dans toute l'Europe, et généralement associé à la projection de Mercator en mer, à la projection UTM à terre.; En métropole, le RGF93, qui a succédé à la NTF, est le système géodésique officiel, à utiliser pour toutes les applications précises (pour les applications courantes, le RGF93 peut être confondu avec le WGS 84). Les systèmes de référence des DOM sont détaillés à la page Système de coordonnées (cartographie).
+Ces systèmes sont rattachés à l'ITRF (International Terrestrial Reference Frame), qui unifie les références terrestres et astronomiques.
+
+Note
+Les systèmes géodésiques traditionnels n'étaient associés qu'à de faibles zones du globe, généralement situées sur la même plaque tectonique ; leur précision était beaucoup plus faible que celle des systèmes géodésiques actuels (il était très difficile par exemple, à partir des positions déterminées dans ces systèmes, de connaître à mieux que quelques dizaines de centimètres une distance de quelques centaines de kilomètres). La variation relative des coordonnées due à la déformation du réseau du fait des mouvements tectoniques était donc négligeable.
+Les systèmes géodésiques modernes sont très précis, et permettent d'exprimer dans le même système les coordonnées de points situés sur des plaques tectoniques différentes : les mouvements relatifs de ces plaques (jusqu'à plusieurs centimètres par an) ne peuvent plus être négligés... L'ITRS (International Terrestrial Reference System), qui constitue le système géodésique le plus précis à l'échelle mondiale (précision centimétrique), évolue donc en permanence ; chacune de ses réalisations (ITRF, pour International Terrestrial Reference Frame), constituée par un réseau de stations terrestres dont les coordonnées et les vitesses de déplacement sont fixées, est ainsi datée : l'ITRF90 correspond à la valeur de ces éléments pour l'époque 1990,0.
+
+Voir aussi: Géodésique; Système de positionnement par satellites; Système d'information géographique; International Earth Rotation and Reference Systems Service (IERS), organisme établissant l'ITRF et l'ITRS.

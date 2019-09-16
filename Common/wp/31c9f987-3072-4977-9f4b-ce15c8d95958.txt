@@ -1,0 +1,34 @@
+Le terme secteur économique regroupe deux définitions : celle de multiples domaines d'activité économique, et pour laquelle chaque secteur économique regroupe des familles de produits assez proches pour être commercialisés ensemble (par exemple, le "secteur des petits produits électroménagers"); celle de la répartition de l'ensemble de l'activité économique en trois grands secteurs économiques (primaire, secondaire, tertiaire).
+Par ailleurs, le terme secteur professionnel ou industriel regroupe lui aussi deux définitions : celle de multiples domaines d'activité économique, et pour laquelle chaque secteur professionnel regroupe des familles de métiers assez proches pour être considérées comme un appareil de production unique (par exemple, le "secteur du bâtiment, de la pêche, du textile et de la confection, de la banque et des assurances); celle de branches industrielles d'activité (code APE), et pour laquelle chaque secteur professionnel regroupe les entreprises ou les administrations qui sont assujetties à une même règlementation sociale, fiscale et professionnelle (par exemple de la sidérurgie, du bâtiment et des Travaux publics, du Commerce et de la grande distribution, de la Fonction publique territoriale). Leur regroupement n'est pas non plus arbitraire.
+
+Secteur économique comme regroupement d'activités proches
+
+Les trois grands secteurs économiques
+Avec Jean Fourastié, l'économiste anglais Colin Clark a mis en oeuvre son idée de définir trois secteurs économiques principaux, selon la nature de l'industrie : le secteur primaire concerne la collecte et l'exploitation de ressources naturelles (matériaux, énergie, et certains aliments) ;; le secteur secondaire implique les industries de transformation des matières premières ;; le secteur tertiaire regroupe les industries du service (essentiellement immatériel : conseil, assurance, inter-médiation, formation, études et recherche, administration, services à la personne, sécurité, nettoyage, etc.).
+Cette classification n'est pas rigide, l'agriculture par exemple ayant été à l'origine classée comme du secteur secondaire (le cultivateur transforme des graines en produits consommables, par exemple), par opposition à la chasse et la simple cueillette.
+
+Secteur primaire
+Le secteur primaire correspond aux activités liées à l'extraction des ressources naturelles. Il comprend l'agriculture, la pêche, l'exploitation forestière et l'exploitation minière. On désigne parfois les trois dernières industries par "autres industries primaires".
+
+Secteur secondaire
+Le secteur secondaire correspond aux activités liées à la transformation des matières premières, qui sont issues du secteur primaire. Il comprend des activités aussi variées que l'industrie du bois, l'aéronautique et l'électronique, le raffinage du pétrole, la production industrielle, la construction,..
+
+Secteur tertiaire
+Le secteur tertiaire regroupe toutes les activités économiques qui ne font pas partie des deux autres, essentiellement des services. Par exemple, le conseil, l'assurance, l'enseignement, la grande distribution, le tourisme, la restauration et les agences immobilières font partie du secteur tertiaire.
+
+Conséquence sur les modes de travail
+Le décalage progressif des activités vers le secteur tertiaire (théorie du déversement développée par Alfred Sauvy, théorie des vagues de développement d'Alvin Toffler) a accru le nombre de "travailleurs intellectuels" selon la définition de Peter Drucker. Mais cet enrichissement des tâches ne s'est pas pour l'instant produit de façon massive, contrairement à ce que certains avaient cru vers les années 1960. Certains emplois de vigile, employé de guichet, gardien d'immeuble ou caissière de supermarché appartiennent bien au tertiaire, sans nécessairement représenter un gain en qualité de vie.
+Cela maintient certains débouchés pour les personnes peu qualifiées, encore que l'objectif éducatif dans de nombreux pays, y compris des pays émergents, soit d'accroître les qualifications et les capacités créatives. Cet objectif est considéré crucial pour faire face aux évolutions concurrentielles dans le cadre de l'économie à la fois mondialisée et tournée de plus en plus vers la connaissance (économie du savoir). Cette orientation vers le tertiaire et la technologie fait que c'est vers des bassins de main d'oeuvre peu qualifiée et peu rémunérée et encore peu touché par le tertiaire que se délocalisent certains emplois (mais, il est vrai, pas l'essentiel de la valeur ajoutée).
+
+Difficulté d'appréciation
+Il importe de distinguer secteur global d'une entreprise et répartition des activités à l'intérieur de celle-ci. Une entreprise du secteur secondaire (fabrication de lingots d'acier, par exemple) doit bien par la force des choses posséder des services administratifs, qui font pour leur part partie du tertiaire. Des exemples classiques des écoles de commerce sont les anciennes marques Téléavia et Caravanair, difficiles à imputer à un des secteurs plutôt qu'à l'autre.
+On parle parfois de secteur quaternaire qui regrouperait les industries hi-tech, (technologies informatiques, aérospatiale (lancement de satellites), bioindustrie, etc.) et les services très sophistiqués (recherche et éducation de pointe, conseil stratégique, ingénierie financière, médecine de pointe, etc.) généralement pour les pays les plus industrialisés (États-Unis, Union européenne, Japon, etc.).
+
+Nomenclatures: Les Nomenclatures des secteurs économiques; La nomenclature d'activités française (NAF); La Classification générale des activités économiques (NOGA), en Suisse.
+
+Contribution des secteurs économiques au développement durable
+Tous les secteurs sont concernés par le développement durable : Secteur primaire : voir Agriculture durable; Secteur secondaire : à développer (Voir Lean Manufacturing (réduction des gâchis industriels), Eco-conception et économie circulaire).; Secteur tertiaire : voir Services et développement durable.
+
+Voir aussi
+
+Articles connexes: Secteurs institutionnels, utilisés dans les comptabilités nationales.; Division du travail. Portail de l'économie.

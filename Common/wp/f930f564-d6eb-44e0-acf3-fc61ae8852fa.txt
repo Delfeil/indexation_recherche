@@ -1,0 +1,6 @@
+Le National Center for Supercomputing Applications est un centre américain de recherche et d'exploitation des superordinateurs. Il est situé sur le campus de l'Université de l'Illinois à Urbana-Champaign.
+Ce centre est notamment connu dans le monde de l'Internet pour ses logiciels : NCSA Telnet, un client telnet ;; NCSA Mosaic, le navigateur web qui popularisa le World Wide Web ;; NCSA HTTPd, un serveur HTTP, ancêtre du serveur Apache ;; Common Gateway Interface, interface standard de programmation inventée sur NCSA HTTPd.
+
+Voir aussi
+
+Article connexe: Cyberinfrastructure.

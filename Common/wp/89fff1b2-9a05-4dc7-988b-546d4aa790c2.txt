@@ -1,0 +1,7 @@
+Network News Transfer Protocol (NNTP) est un protocole réseau correspondant à la couche application du schéma OSI. Il est spécifié par la RFC 977.
+L'URL est de type news:--.
+Ce protocole a été remanié et complété en octobre 2006. La RFC 3977 rend obsolète la RFC 977.
+NNTP est utilisé en particulier par les forums de discussion Usenet.
+Les serveurs NNTP écoutent habituellement sur le port 119, ou 563 pour les échanges chiffrés par SSL-TLS (sous l'appellation NNTPS).
+
+Voir aussi: (en) RFC 977 (février 1986), décrivant le protocole NNTP; (en) RFC 3977 (octobre 2006), remplaçant le précédent. Portail des réseaux informatiques; Portail des télécommunications; Portail de l'informatique.

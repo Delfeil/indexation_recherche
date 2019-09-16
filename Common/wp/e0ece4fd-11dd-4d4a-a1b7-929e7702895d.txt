@@ -1,0 +1,94 @@
+Les représentations de molécules sont utilisées en chimie pour décrire les molécules (ou, par extension, d'autres espèces chimiques) et leurs structures. Ces représentations graphiques permettent de décrire les liaisons moléculaires, le nombre et le type d'atomes qui composent une molécule, sa forme dans l'espace ou simplement de décrire sommairement la molécule de manière simple et rapide. La plupart de ces représentations sont surtout utilisées en chimie organique ou en biochimie.
+
+Formule, représentation et projection
+Différents termes sont utilisés pour désigner les représentations graphiques de molécules : on parle ainsi de formule brute, de représentation de Cram ou de projection de Fischer. Les formules sont utilisées pour décrire le nombre et le type d'atomes dans la molécule (formule brute), montrer comment ils sont liés entre eux (formule de Lewis, développée...). Les formules servent surtout à représenter simplement et sommairement les molécules et sont donc souvent utilisées dans les équations chimiques.; La représentation de Cram permet de décrire directement la structure tridimensionnelle d'une molécule, par un schéma qui permet de visualiser la molécule telle qu'elle existe dans l'espace.; Les projections de molécules ne les représentent pas directement : les molécules sont projetées et aplaties sur deux dimensions (une feuille) de différentes manières selon la projection employée. Elles permettent de représenter indirectement des parties de molécules telles qu'elles existent dans l'espace en appliquant des règles strictes de projection.
+
+Notion de liaison chimique
+Ce paragraphe n'a pas pour but d'expliquer en détail ce qu'est une liaison chimique, ni de lister toutes les liaisons chimiques existantes. Plus d'informations à ce sujet dans l'article liaison chimique
+Dans cet article nous parlerons surtout des liaisons covalentes et des liaisons ioniques. Dans la réalité, une liaison chimique est très rarement purement covalente (c'est le cas d'une liaison entre deux atomes identiques comme dans la molécule de dihydrogène) ou purement ionique. La liaison réelle est un mélange de ces deux caractères.
+
+Liaison covalente
+Lorsque deux atomes sont liés par covalence il y a mise en commun d'un ou plusieurs doublets d'électrons, c'est-à-dire que deux (ou plus) électrons vont appartenir en même temps aux deux atomes. Il existe deux types de liaisons de covalence : La covalence pure : il y a mise en commun d'un doublet d'électrons, chaque atome apporte un électron initialement à l'état célibataire ; on utilise un simple trait pour représenter cette liaison ;; La covalence dative : il y a mise en commun d'un doublet d'électrons, un seul des deux atomes apportera le doublet ; on utilise souvent une flèche du donneur vers l'accepteur d'électron pour représenter cette liaison.
+
+Liaison ionique
+Les liaisons ioniques sont dues aux différences d'électronégativité (capacité à attirer les électrons) des atomes présents dans la molécule.
+Pour comprendre ce qu'est une liaison ionique il faut considérer deux atomes liés entre eux. Si l'un est plus électronégatif alors il attirera les électrons de l'autre. L'atome plus électronégatif sera alors un peu chargé négativement, l'autre un peu positivement. Cette différence de charge créera une force électrostatique qui attirera les deux atomes (une charge positive et une charge négative s'attirent). Si cette différence d'électronégativité est très importante alors on parle de liaison ionique. La plupart des liaisons mettant en jeu deux éléments différents sont en partie ioniques, le caractère ionique étant généralement d'autant plus important que la différence d'électronégativité est importante.
+
+Représentations non spécifiques à la chimie organique
+Ces représentations sont applicables à toutes les molécules et tous les ions existants. Elles sont assez simples d'utilisation.
+
+Formule brute
+La formule brute renseigne uniquement sur la composition chimique des molécules (ou des ions), c'est-à-dire sur le nombre et le type d'atomes qui les composent, et sur la charge électrique des composés si ce sont des ions. Elle ne renseigne pas sur l'agencement spatial des atomes, ni sur le type des liaisons chimiques.
+Pour écrire une formule brute on indique l'élément chimique à l'aide de son symbole (cf. tableau périodique des éléments), et la quantité de cet élément par un nombre en indice à la droite de l'élément concerné. La charge électrique du composé, s'il en a une, est indiquée en Exposant à la fin de la formule. Le nombre de charges élémentaires est indiqué par un nombre suivi d'un + si le composé est chargé positivement (s'il lui manque un ou plusieurs électrons), ou d'un - si le composé est chargé négativement (s'il a un excès d'électrons).
+
+Exemples
+Ces exemples ne seront pas tous repris dans chaque section. Chimie inorganique: L'eau : H2O; L'acide sulfurique : H2SO4; L'ion oxonium : H3O+ (globalement ce composé est chargé positivement, sa charge est de +e, avec e la charge élémentaire); L'ion tétraaminecuivre (II) : Cu(NH3)42+ (les parenthèses signifient qu'il y a quatre molécules d'ammoniac liées à l'atome central de cuivre).; L'eau : H2O; L'acide sulfurique : H2SO4; L'ion oxonium : H3O+ (globalement ce composé est chargé positivement, sa charge est de +e, avec e la charge élémentaire); L'ion tétraaminecuivre (II) : Cu(NH3)42+ (les parenthèses signifient qu'il y a quatre molécules d'ammoniac liées à l'atome central de cuivre). Chimie organique: Le glucose : C6H12O6; L'éthanol : C2H6O ou C2H5OH (cette deuxième version de la formule brute, qui ne respecte pas exactement les règles d'écriture exposées ci-dessus, est utilisée pour mettre en avant la fonction alcool); Le benzène : C6H6; L'acétone : C3H6O.; Le glucose : C6H12O6; L'éthanol : C2H6O ou C2H5OH (cette deuxième version de la formule brute, qui ne respecte pas exactement les règles d'écriture exposées ci-dessus, est utilisée pour mettre en avant la fonction alcool); Le benzène : C6H6; L'acétone : C3H6O.
+
+Formule de Lewis
+La formule de Lewis a été créée par Gilbert Newton Lewis au début du XXe siècle. Elle permet de représenter les liaisons assemblant les atomes entre eux (liaisons covalentes et ioniques), mais aussi les électrons de valence ne participant pas aux liaisons. Le modèle de Lewis permet de représenter la structure d'une molécule, mais ne permet pas de montrer la forme de la molécule dans l'espace.
+La représentation de Lewis est basée sur des règles simples. De ce fait elle ne permet pas de décrire toutes les molécules, notamment les complexes de métaux (comme la rouille).
+
+Formule de Lewis de l'atome
+La méthode décrite ci-dessous fonctionne globalement pour les éléments des trois premières périodes (ligne du tableau) du tableau périodique des éléments
+Pour établir la formule de Lewis d'un atome il faut établir sa configuration électronique. Pour cela il existe une méthode simple : Définir le nombre d'électrons de la couche de valence de l'élément. Pour cela on compte la place de l'élément en partant de la gauche du tableau. L'hydrogène a ainsi un électron dans sa couche de valence, le carbone en a quatre, l'azote cinq et le chlore sept.; Définir le nombre d'électrons célibataires et de doublets non-liants de l'élément. Il suffit pour cela de savoir que : si un élément a au plus quatre électrons dans sa couche de valence, alors ils sont tous célibataires ; ainsi l'hydrogène a un électron célibataire, le carbone en a quatre, lorsqu'il y a plus de quatre électrons de valence, tous les électrons se rajoutant aux quatre célibataires forment un doublet non liant ; le chlore a trois doublets non-liants et un électron célibataire et l'azote un doublet non liant et trois électrons célibataires. si un élément a au plus quatre électrons dans sa couche de valence, alors ils sont tous célibataires ; ainsi l'hydrogène a un électron célibataire, le carbone en a quatre, lorsqu'il y a plus de quatre électrons de valence, tous les électrons se rajoutant aux quatre célibataires forment un doublet non liant ; le chlore a trois doublets non-liants et un électron célibataire et l'azote un doublet non liant et trois électrons célibataires.
+Une fois la configuration électronique de l'atome établie, on représente sa formule de Lewis. L'élément est représenté par son symbole. Autour de ce symbole on place les électrons célibataires, représentés par un point, et les doublets non-liants, représentés par un trait.
+
+Formule de Lewis de la molécule
+Pour les molécules, la formule de Lewis est basée sur des règles empiriques simples (qu'il n'est pas toujours possible de respecter), notamment la règle de l'octet ou du duet.
+La règle de l'octet implique que chaque atome, de la deuxième et troisième période, doit s'approcher de la configuration électronique des gaz rares (de grande stabilité) en ayant huit électrons dans sa couche de valence. La règle du duet ne s'applique qu'à l'atome d'hydrogène, celui-ci doit avoir deux électrons dans sa couche de valence.
+Pour établir le modèle de Lewis d'une molécule il faut d'abord établir la formule de Lewis de chacun de ses atomes. Ensuite on relie ces atomes de manière que chacun d'eux respecte la règle de l'octet ou du duet. Pour cela on met d'abord en commun les électrons célibataires de chaque atome. Puis si cela ne suffit pas, on utilise des liaisons de covalence dative ou on divise certains doublets non liants pour obtenir deux électrons célibataires. (Voir les exemples)
+
+Exemples: Ici, les électrons célibataires sont simplement mis en commun, une seule possibilité. Cet ion est chargé positivement, il lui manque donc un électron, d'où le rectangle vide sur l'oxygène qui représente un électron manquant. Pour former cet ion, un des deux doublets non liant de l'oxygène a été cassé, en résulte deux électrons célibataires, l'un forme un doublet avec le troisième hydrogène, l'autre est absent ce qui correspond à la charge positive. Une molécule dont la formule de Lewis comporte un électron célibataire est appelée "radical". Cette configuration est très instable, les radicaux sont donc très réactifs.
+Molécule d'éthanol: exemple de composé organique.
+Modèle de l'acide sulfurique: les doublets non liants du soufre ont dû être cassés pour former ce composé.
+
+Formule développée plane
+La formule développée plane permet de représenter de manière très simple et rapide la structure d'une molécule, ainsi que les liaisons chimiques. Mais elle ne permet pas de représenter la forme de la molécule dans l'espace.
+La formule développée plane est en quelque sorte une formule de Lewis simplifiée. En effet, la représentation est quasiment identique, mais on ne montre pas les doublets non-liants pour simplifier et alléger l'écriture. Généralement les liaisons sont représentées à 90, mais sont parfois représentées sous des angles différents pour s'approcher de la structure réelle de la molécule dans l'espace (par exemple 120 autour d'une double liaison carbone-carbone).
+
+Exemples: Molécule de butane :.
+
+Représentation de Cram
+La représentation de Cram permet de montrer la forme dans l'espace d'une molécule, et sa structure. En revanche elle ne représente pas les liaisons chimiques (pas de différence en liaison multiple et liaison simple).
+Pour illustrer la forme de la molécule les différentes directions que peuvent prendre ses liaisons chimiques sont codifiées de cette manière : une liaison dans le plan (de la feuille) est représentée par un trait simple; une liaison qui est dirigée vers le lecteur est représentée par un triangle plein, pointé vers le plan; une liaison qui s'éloigne du lecteur est représentée par un triangle hachuré pointé vers le plan.
+On représente de manière plus précise l'orientation des liaisons chimique en faisant varier les angles entre les liaisons pour coller au plus près à la réalité. Cette représentation permet notamment de visualiser les atomes de carbone asymétriques et de déterminer si une molécule est chirale.
+
+Exemple
+Représentation de Cram de la molécule d'éthanol.
+
+Représentations spécifiques à la chimie organique
+Ces représentations sont spécifiques à la chimie organique car elles utilisent des règles spécifiques aux liaisons carbone-carbone ou carbone-hydrogène.
+
+Formule semi-développée (plane)
+La formule semi-développée, comme son nom l'indique, est une forme condensée de la formule développée. On ne représente plus les liaisons Carbone-Hydrogène qui sont condensées sous forme de : CHn (avec n le nombre d'atomes d'hydrogène liés à l'atome de carbone). On représente les liaisons carbone-carbone et on distingue liaison simple et liaisons multiples.
+
+Exemples: CH3-CH2OH, la molécule d'éthanol, de la famille des alcools.; CH3-CO-CH3, la molécule d'acétone, de la famille des cétones.
+
+Formule topologique
+La formule topologique est une manière simplifiée et rapide de représenter la structure d'une molécule organique.
+On ne représente plus les atomes de carbone ni les atomes d'hydrogène portés par ces derniers. Les atomes d'hydrogène portés par des hétéroatomes (éléments autres que le carbone et l'hydrogène) sont représentés. Les liaisons carbone-carbone sont représentées par un trait oblique. Dans une formule topologique les atomes de carbone sont ainsi situés à l'intersection de deux segments. On fait la distinction entre liaisons multiples et liaisons simples : une liaison simple sera représentée par un trait, une liaison double par deux segments parallèles.
+On représente la liaison entre les hétéroatomes, ou les groupes fonctionnels, et les carbones auxquels ils sont liés par un segment; on place le groupe fonctionnel, ou l'hétéroatome, à l'extrémité de ce segment. Les atomes d'hydrogène portés par les atomes de carbone n'étant pas représentés, un segment dont une extrémité n'est liée à aucun groupe fonctionnel correspond en fait à -CH3.
+
+Exemples: formule topologique de la molécule d'éthanol ; formule topologique de la molécule de mémantine ; formule topologique de quelques polymères importants.
+
+Projection de Newman
+La projection de Newman est très utile pour étudier les différentes conformations (on passe d'un conformère à un autre par rotation autour d'une liaison simple carbone-carbone) d'un composé organique. Cette projection est généralement utilisée uniquement avec des carbones tétravalents (liés à quatre autres atomes).
+Pour représenter une molécule dans une projection de Newman il faut regarder la molécule dans l'axe d'une liaison simple carbone-carbone, on ne représente pas ces deux carbones dans une projection de Newman, mais les liaisons.
+Les liaisons du carbone au premier plan sont représentées par trois segments partant du même point, les angles entre chacun de ces segments sont de 120 comme dans la réalité. Le carbone en arrière-plan est représenté par un cercle sur lequel on place les trois liaisons restantes. (voir l'exemple)
+Cette représentation permet de visualiser aisément les effets d'interactions stériques entre des groupements portés par deux carbones adjacents. Elle permet également de déterminer facilement la conformation Z ou E de l'alcène résultant d'une réaction d'élimination.
+
+Exemple: Schéma descriptif du passage de la représentation de Cram à la représentation de Newman pour la molécule d'éthanol.
+
+Projection de Fischer
+La projection de Fischer est surtout utilisée pour représenter les sucres et les acides aminés. Elle fut inventée par Hermann Emil Fischer.
+On ne représente pas les atomes de carbone, ils sont situés à l'intersection des segments horizontaux et du trait vertical. La chaîne carbonée est représentée par la ligne verticale de manière que les liaisons représentées sur la verticale s'éloignent du lecteur. Les liaisons représentées sur l'horizontale sortent du plan de la feuille vers le lecteur(voir l'exemple). Le carbone le plus oxydé se trouve en début de chaîne (en haut ici C-O).
+Cette représentation permet de différencier facilement les énantiomères chiraux L ou D.
+
+Exemple: Schéma du passage de la représentation de Cram à la projection de Fischer pour la molécule de D-Glucose.
+
+Projection de Haworth
+La projection de Haworth permet de représenter la structure cyclique des oses (ou monosaccharides) avec une simple perspective tridimensionnelle.
+Dans cette projection, on ne représente ni les atomes de carbone ni ceux d'hydrogène mais par contre, les liaisons carbone - carbone sont représentées par un trait. De plus, les liaisons les plus proches du lecteur sont en gras.
+
+Exemple
+Projection de Haworth du -D-glucopyranose: Portail de la chimie.

@@ -1,0 +1,24 @@
+suivre - modifier Portail des bases de données
+Une base de données est un lot d'informations stockées dans un dispositif informatique. Les technologies existantes permettent d'organiser et de structurer la base de données de manière à pouvoir facilement manipuler le contenu et stocker efficacement de très grandes quantités d'informations.
+suivre - modifier
+Logiciels
+Logiciels libres
+Firebird Kexi MySQL Infobright PostgreSQL Ingres Derby HSQLDB SQLite OpenOffice.org Base Buzhug MariaDB Neo4j SkySQL
+Logiciels propriétaires
+4D FileMaker Pro Microsoft Access Microsoft SQL Server Oracle Sybase DB2 Paradox Progress Informix InterBase Teradata Oracle Application Express SQL Server Express
+Logiciels précurseurs
+Adabas IBM System R Btrieve suivre - modifier
+Théorie: Langage d'interrogation de données; Schéma conceptuel; Table (base de données); Modèle entité-relation; Propriétés ACID.
+suivre - modifier
+Utilisations: Système d'information; Entrepôt de données (data warehouse); Système d'information géographique.
+suivre - modifier
+Lumière sur...
+Un système de gestion de base de données (SGBD) est un ensemble de programmes qui permet la gestion et l'accès à une base de données. Un SGBD héberge généralement plusieurs bases de données, qui sont destinées à des logiciels ou des thématiques différentes. On distingue couramment les SGBD classiques, dits SGBD-R ou SGBD relationnels, des SGBD-O ou SGBD orientés objet. Lire l'article suivre - modifier
+Catégories
+ Base de données Application de base de données Identifiant Ingénierie décisionnelle Interface de programmation pour les bases de données Logiciel pour les bases de données NoSQL Personnalité en bases de données Wikipédia:ébauche bases de données Portail:Bases de données suivre - modifier
+Voir aussi: La Commission nationale de l'informatique et des libertés (CNIL) est une autorité administrative indépendante française chargée de veiller à la protection des données à caractère personnel et de la vie privée.; Le CODASYL est l'organisme américain de codification des systèmes de bases de données.; La protection juridique des bases données.
+suivre - modifier
+Projets connexes
+Portail de l'informatique Sciences de l'information et bibliothèques Sur Wikilivres Textes et manuels Sur Wiktionnaire Définitions Sur Wikimedia Commons Images et médias
+Autres portails thématiques
+Rafraîchir cette page

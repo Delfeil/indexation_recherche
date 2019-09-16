@@ -1,0 +1,98 @@
+Un circuit imprimé (ou PCB de l'anglais printed circuit board) est un support, en général une plaque, permettant de maintenir et de relier électriquement un ensemble de composants électroniques entre eux, dans le but de réaliser un circuit électronique complexe. On le désigne aussi par le terme de carte électronique.
+Un circuit imprimé
+Il est constitué d'un assemblage d'une ou plusieurs fines couches de cuivre séparées par un matériau isolant. Les couches de cuivre sont gravées par un procédé chimique pour obtenir un ensemble de pistes, terminées par des pastilles. Le circuit imprimé est souvent recouvert d'une couche de vernis coloré qui protège les pistes de l'oxydation et d'éventuels courts-circuits.
+Les pistes relient électriquement différentes zones du circuit imprimé. Les pastilles, une fois perforées, établissent une liaison électrique, soit entre les composants soudés à travers le circuit imprimé, soit entre les différentes couches de cuivre. Dans certains cas, des pastilles non perforées servent à souder des composants montés en surface.
+
+Histoire
+Les premières ébauches de circuit imprimé sont consécutives au développement industriel du télégraphe, du téléphone et de la radio, au début du XXe siècle.
+En 1903 à Londres, Albert Hanson, berlinois d'origine, déposa un brevet pour un système de fils conducteurs collés sur un papier de paraffine, pour améliorer les centraux téléphoniques de l'époque. Bien que ce ne fut pas encore un circuit réellement imprimé, il s'agissait déjà d'un assemblage de conducteurs sur un matériau isolant. Cet inventeur avait posé les jalons du circuit imprimé moderne double face, en ajoutant des trous dans l'isolant pour permettre une connexion électrique entre les fils des deux faces. Il évoqua aussi la possibilité de formation de conducteurs en surface par électrodéposition ou en utilisant un matériau à base de poudre métallique.
+L'américain Thomas Edison s'est intéressé au problème du tracé des pistes conductrices sur le papier isolant. Dans sa réponse au fondateur de Sprague Electric Co., il proposa plusieurs idées comme le dépôt chimique d'un métal ou le revêtement d'une feuille d'or sur une matière adhésive.
+En 1913, le britannique Arthur Berry breveta un procédé de fabrication de circuits pour radiateur électrique qui consistait à déposer une couche de cuivre pour ensuite la graver. L'américain Max Schoop déposa en 1918 un brevet sur un procédé de projection thermique de métal à travers un masque. En 1925, Charles Ducas breveta un procédé d'électrodéposition de cuivre, permettant de créer des pistes conductrices sur les deux faces du diélectrique. Ducas y décrivait aussi des circuits multicouches et comment relier électriquement les couches entre elles. Le français César Parolini déposa en 1927 un brevet sur l'impression de motifs adhésifs sur un diélectrique et dépôt de poudre de cuivre en surface, mettant en application une idée d'Edison en y associant un procédé de Ducas.
+
+Types de circuits imprimés
+Les circuits imprimés peuvent se classer en différentes catégories selon : leur nombre de couches conductrices; leur rigidité; la présence ou non de liaisons métallisées entre plusieurs couches conductrices; le nombre de stratifications nécessaires à leur fabrication.
+
+Nombre de couches
+Circuit imprimé simple face. La couche conductrice est visible par transparence.
+Le circuit imprimé le plus simple est un circuit appelé simple face, avec une seule couche conductrice en cuivre, sur laquelle peuvent être soudés les composants électroniques. Celle-ci est associée à une couche de matière isolante qui lui sert de support. En général ce type de circuit comporte des trous qui permettent l'insertion des composants électroniques.
+Circuit imprimé double face, vu de dessus et de dessous.
+Le circuit imprimé double face comporte deux couches conductrices isolées par une couche isolante. Il peut avoir deux types de trous : les trous d'insertion permettant de maintenir les composants dans le circuit,; les vias permettant d'établir une connexion électrique entre les deux couches conductrices.
+Circuit imprimé multicouches à 4 couches avec ses différents types de vias, vu en coupe.
+Le circuit imprimé multicouches comporte au moins trois couches conductrices, séparées chacune par des couches isolantes. On distingue les deux couches conductrices appelées couches externes et les couches conductrices internes. Ce type de circuit peut avoir plusieurs types de trous : les trous d'insertion permettant de maintenir les composants dans le circuit,; les vias traversants (1) permettant d'établir une connexion électrique entre l'ensemble des couches conductrices,; les vias borgnes (2) pour établir une liaison électrique entre une couche conductrice externe et une couche conductrice interne proche,; les vias enterrés (3) établissant une liaison électrique entre deux couches conductrices internes.
+
+Rigidité
+Circuit imprimé câblé avec connecteur et PCB flex.
+Le circuit imprimé le plus courant est appelé rigide, constitué en général de couches isolantes en époxy renforcé par une trame de fibres de verre, lui conférant une grande solidité. En plus d'une fonction de connexion électrique des composants électroniques, il assure ainsi une fonction mécanique de maintien des composants. Il existe des circuits rigides simple face, double face et multicouche.
+Un autre type de circuit imprimé est dit souple ou flexible, fabriqué à partir de matière isolante fine, très souvent en polyimide. Il a une fonction de liaison électrique, comme un câble électrique qui relie deux connecteurs. Il existe des circuits souples simple face, double face et multicouche.
+Le circuit appelé flex-rigide est quant à lui un mélange des deux types précédents, comportant à la fois des parties rigides sur lesquelles sont fixés des composants, reliées entre elles par des parties souples. Le circuit flex-rigide est un circuit multicouche.
+
+Liaisons métallisées
+Trou traversant métallisé, vu de dessus
+Il existe deux types de circuits imprimés selon qu'ils possèdent des trous métallisés ou non. La métallisation des trous consiste, une fois le trou percé, à déposer une fine couche de cuivre à l'intérieur du trou, par un procédé de cuivrage chimique puis électrolytique. Une fois métallisé, le trou fait la connexion électrique entre les couches qu'il traverse.
+Le circuit imprimé simple face n'a pas de trous métallisés. Les liaisons électriques se font dans l'unique couche conductrice.
+Certains circuits double face n'ont pas de trous métallisés et la liaison électrique entre les deux couches se fait par la soudure des pattes de composants insérés dans le circuit. Leur fabrication s'en trouve simplifiée par rapport au circuit appelé double face trous métallisés.
+Le circuit multicouche a des trous métallisés qui permettent d'établir une connexion électrique entre ses différentes couches.
+
+Stratification
+Circuit imprimé à 4 couches.
+La stratification est un procédé de pressage à pression et température contrôlées qui permet d'assembler plusieurs ensembles double face afin de réaliser un circuit multicouche.
+Ainsi, les circuits imprimés simple face et double face n'ont aucune étape de stratification dans leur fabrication. La matière première constituée de la ou des couches conductrices associée(s) à la couche isolante est fournie déjà assemblée, que ce soit dans le cas d'une fabrication artisanale ou industrielle.
+Les circuits imprimés multicouche rigides sont le résultat de la stratification de plusieurs double face rigides. Les circuits imprimés multicouche flex-rigides résultent de la stratification de double face rigides et de double face souples. Les circuits imprimés multicouche souples sont le résultat de la stratification de plusieurs double face souples.
+
+Fabrication
+Circuit imprimé câblé simple. Circuit imprimé câblé complexe. Coupe de circuit imprimé : 4 couches, trame de fibres de verre, vernis vert, pastilles avec soudure Rivets tubulaires pour la réparation de circuits double faces et les petites séries.
+Anciens circuits
+Avant l'apparition des supports époxy (couleur blanc-verdâtre translucide), les circuits étaient fabriqués en bakélite (de couleur marron) qui était beaucoup plus cassante. Ces circuits ne pouvaient supporter que deux couches et étaient utilisés dans la plupart des anciens appareils électroniques (i.e. 1960-1970). Les composants étaient le plus souvent soudés du côté opposé au cuivre, mais il arrivait parfois, pour remédier au manque de couches, d'avoir des jonctions spatiales ou des composants volants soudés à même le cuivre.
+
+Fabrication artisanale
+Le circuit imprimé est fait à partir de résine époxy ou de fibre de verre, doublée d'une fine couche de cuivre d'un ou des deux côtés et recouverte d'un vernis photo-sensible.
+La couche de vernis protégeant le cuivre est insolée, par transfert photographique du dessin du cuivre à travers un typon avec une insoleuse. Le vernis ayant été exposé aux UV est éliminé avec un révélateur composé d'une solution oxalique d'hydroxyde de sodium. Les zones de cuivre mises à nu sont alors attaquées chimiquement permettant ainsi la fabrication de circuits électriques à la demande.
+L'attaque chimique du cuivre peut être réalisée par du perchlorure de fer liquide et chaud, ou un mélange de chlorure de cuivre, d'acide chlorhydrique et d'eau oxygénée (ce qui a l'avantage de recycler le cuivre ayant réagi, alors sous forme de chlorure de cuivre, en tant que réactif pour une gravure suivante).
+Le cuivre restant sur le support époxy est alors débarrassé de son vernis protecteur photosensible et étamé soit par une solution d'étain à froid dans un bain soit à chaud dans une étameuse. Ce film d'étain permet d'assurer une protection du cuivre et une meilleure adhésion des soudures.
+Après perçage des trous de passage, il permet d'implanter par brasure (communément appelée soudure à l'étain) les composants électroniques (diodes, résistances, condensateurs, transistors, circuits intégrés, etc.).
+La finition du circuit se fait en recouvrant les soudures par un vernis dit vernis-épargne (souvent de couleur verte). Il est destiné d'abord à épargner les pistes lors du soudage à la vague ou au bain (d'étain). Accessoirement, il assurera une protection des pistes contre l'oxydation et l'humidité.
+Ce type de circuit imprimé fabriqué de cette manière peut être simple face ou double face (cuivre des deux côtés) en fonction du support initial.
+Les liaisons entre les pistes des différentes couches et les composants sont assurées par de minuscules rivets conducteurs ou maintenant par des trous métallisés (dépôt de cuivre chimique, puis électrolytique car le bain de cuivre chimique ne permet pas un dépôt suffisamment épais) appelés vias.
+
+Fabrication industrielle
+Avec l'apparition des technologies liées à l'informatique, des circuits de plus en plus complexes ont vu le jour. Les circuits imprimés ont vu le nombre de leurs couches se multiplier, pouvant atteindre jusqu'à 30 couches pour des applications très complexes et où le coût peut être considéré comme secondaire. Dans une carte mère de micro-ordinateur par exemple, les couches sont au nombre de six, voire plus. Une couche est réservée à la masse ou alimentation 0 V, une à l'alimentation 5 V, les autres sont distribuées en fonction des besoins.
+
+Circuit double face
+
+Matière
+Le point de départ de la fabrication d'un circuit double face est une feuille de résine epoxy collée entre deux fines couches de cuivre.
+Les épaisseurs du diélectrique constitué par la résine sont en général un multiple de 50 m.
+Les épaisseurs des feuilles de cuivre les plus courantes sont de 9, 18, 35, 70, 105 m. Les entreprises américaines utilisent couramment une unité de masse, l'once (oz) pour définir l'épaisseurs des feuilles de cuivre. Il s'agit de la quantité de cuivre nécessaire pour faire une feuille de cuivre de un pied carré. Donc 1 oz (environ 28 g) de cuivre pour un pied carré (environ 30,5 cm par 30,5 cm) correspond à une feuille de 35 m d'épaisseur.
+Des épaisseurs de cuivre plus importantes peuvent être utilisées pour des couches dites drain qui ont une fonction de dissipation thermique, alors que les autres couches sont destinées à établir soit une liaison électrique entre deux pastilles (couches signal), soit une liaison à un potentiel donné (couches masse).
+Le matériau isolant le plus utilisé est une résine epoxy appelée FR-4 pour des applications basses fréquences. Pour les applications à plus hautes fréquences, d'autres types de résines sont utilisées comme la résine polyimide ou des matériaux à base de téflon.
+
+Perçage
+Lorsque des connexions électriques sont nécessaires entre les deux couches de cuivre, on réalise un perçage traversant les deux couches de cuivre et la couche d'isolant, qui sera ensuite métallisé. Le diamètre des trous va en général de 0,2 à 6 mm. Au-delà les trous sont réalisés par fraisage.
+
+Métallisation
+Une fois le circuit percé et afin de créer une liaison électrique entre les couches traversées par le perçage, le circuit est métallisé, on dit parfois rechargé. Une fine couche de cuivre (de l'ordre de 15 à 25 m) est déposée par des procédés chimiques puis électrolytiques, en surface des couches et à l'intérieur des trous (vias). L'épaisseur finale des pistes sur les couches externes est d'environ 35 m pour un cuivre de base de 18 m, et de 55 m pour un cuivre de base de 35 m.
+
+Gravure
+Afin de réaliser l'ensemble des pistes et pastilles d'une couche à partir d'une surface de cuivre pleine, on procède en général de la manière suivante : 1) laminage d'un film photosensible à la surface de cuivre; 2) insolation du film par une source de lumière UV qui permet de polymériser le film et constituer ainsi des zones de protection. Le système d'insolation permet un alignement sur les trous traversants déjà réalisés.; 3) développement des zones non insolées, dans lesquelles le cuivre se retrouve à nu; 4) gravure chimique du cuivre dans les zones non protégées par le film; 5) strippage du film pour enlever le film de protection restant sur les pistes et pastilles de la couche; 6) inspection optique automatisée pour détecter d'éventuels défauts, par exemple des courts-circuits entre deux pistes.
+
+Circuit multi couches
+La technique de réalisation de ces circuits multi-couches est similaire à celle des circuits simple ou double face (insolation, développement, gravure chimique du cuivre, puis nettoyage de celui-ci). Les couches ainsi obtenues sont collées entre elles sous haute pression avec une résine époxy similaire à celle qui compose le substrat du circuit.
+
+Normes et spécifications
+En France en 1989 fut établie la norme française NF C 93-713 de spécification des circuits imprimés. Les circuits sont catégorisés en différentes classes en fonction de leur utilisation et donc de la finesse de fabrication. À cette époque, la technologie se limite à la classe 6 correspondant par exemple à une largeur de piste de 120 à 150 m.
+En 2015, cette norme est encore utilisée mais tend à être supplantée par le standard IPC (en) d'origine américaine et accepté comme une référence internationale par l'ensemble des fabricants de circuits imprimés du monde.
+Parmi les nombreuses normes IPC définissant les standards de conception, de performance et de test des circuits imprimés, on peut citer les plus importantes : IPC-2221, normes génériques de conception; IPC-4101, normes sur les matières utilisées (pré-imprégnés et stratifiés); IPC-A-600, critères d'acceptabilité; IPC-TM-650, définitions des méthodes de test.
+
+Exemples d'utilisation
+Presque tous les domaines de l'électronique utilisent maintenant des circuits imprimés : ordinateur personnel ;; imprimante ;; calculatrice ;; appareillage électroménager, hi-fi ;; carte que l'on trouve dans les jeux d'arcade....
+Certains composants d'ordinateur sont (par construction) des circuits imprimés : la carte mère ;; les barrettes mémoires ;; les cartes d'extension de micro-ordinateur PCI et ISA ;; les clés USB.
+
+Évolutions
+Avec la décroissance des coûts de fabrication, le nombre de couches utilisées par des circuits imprimés destinés à des applications grand public ne cesse d'augmenter. Alors que dans les années 1990, l'industrie automobile considérait que seuls des circuits imprimés simple face étaient industriellement acceptables, il n'est plus surprenant (en 2005) de rencontrer des circuits à quatre couches dans les appareils grand public, et de 10 à 14 couches pour des applications spécifiques. Généralement, on alterne des couches véhiculant les signaux et des couches plus homogènes (plan de masse et plan d'alimentation) afin de distribuer les tensions d'alimentation sur toute la carte et améliorer la compatibilité électromagnétique (en abrégé, CEM). Les différentes couches sont interconnectées par des trous métallisés appelés vias. Des techniques récentes permettent de réaliser des vias borgnes (ne traversant pas toutes les couches) et même des vias enterrés (ne débouchant pas sur les couches externes).
+Avec le besoin de réduction de la taille, le circuit imprimé planéiforme peut être un obstacle à l'intégration. On observe donc l'utilisation de circuits imprimés flexibles (flex circuits) qui peuvent être tracés sur un support souple (généralement avec seulement une ou deux couches de cuivre). Un environnement où le circuit flexible est courant est celui des appareils photographiques où cela permet de contourner les contraintes de placement qui sont imposées par l'optique et le design industriel. Mais des raisons de coût peuvent également amener les industriels à choisir cette technologie de circuits souples : bien que plus chers à la fabrication, ils offrent l'indéniable avantage de ne nécessiter aucun système de connectique pour l'interconnexion entre différentes cartes, économisant par là même la main d'oeuvre et la matière de cette opération, et fiabilisant l'ensemble.
+Le détail des techniques de circuit imprimé a évolué avec l'apparition du CMS (composant monté en surface) qui a permis de réduire considérablement la taille des composants. De ce fait, la miniaturisation a induit l'augmentation des fréquences d'utilisation, la diminution des tensions utilisées et de la chaleur produite par le passage du courant électrique, mais ceci a imposé des adaptations spécifiques comme l'augmentation du nombre moyen de traversées mais aussi l'apparition de traversées "in-pad" (faites au laser), c'est-à-dire intégrées dans la plage où le composant vient se braser. Cette technique permet également d'éviter une fuite de soudure au montage des composants.
+Dans certains cas extrêmes, le support peut sortir totalement de l'ordinaire (tout en reprenant les mêmes principes). Par exemple, certaines applications militaires ou spatiales qui sont soumises à des environnements thermiques très éprouvants utilisant des circuits imprimés en céramique.
+
+Voir aussi
+
+Articles connexes: Brasage à la vague; Détourage; Gerber (format de fichier); Graveuse horizontale; Insoleuse; Perceuse; Perfboard; Platine d'expérimentation; Typon; Veroboard.

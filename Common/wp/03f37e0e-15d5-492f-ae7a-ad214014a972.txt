@@ -1,0 +1,37 @@
+Le bit est l'unité la plus simple dans un système de numération, ne pouvant prendre que deux valeurs, désignées le plus souvent par les chiffres 0 et 1. Un bit ou élément binaire peut représenter aussi bien une alternative logique, exprimée par faux et vrai, qu'un chiffre du système binaire.
+Dans la théorie de l'information, un bit est la quantité minimale d'information transmise par un message, et constitue à ce titre l'unité de mesure de base de l'information en informatique. La quantité d'information effectivement transmise s'exprime en shannons, et ne peut dépasser la taille du message en bits.
+Les systèmes numériques traitent exclusivement des informations réduites en bits, en général associés dans des groupes de taille fixe appelés bytes (-bait-).
+
+Usages
+Le mot "bit" est la contraction des mots anglais binary digit, qui signifient "chiffre binaire", avec un jeu de mot sur bit, "petit morceau". On en doit la popularisation à Claude Shannon, qui en attribue l'invention à John Tukey.
+
+Élément binaire
+Le bit ou élément binaire est l'élément constitutif du système de numération binaire. Ce système, le plus analytique de tous les systèmes de numération, est à la base de presque tous les systèmes informatiques.
+Un bit ne peut prendre que deux valeurs. En logique (algèbre de Boole), ces valeurs sont vrai et faux, ou quelquefois oui et non. En arithmétique, ce sont 0 et 1.
+De nombreux moyens techniques permettent de coder une information binaire. La polarisation magnétique, la charge électrique servent au stockage, le courant ou la tension électriques, l'intensité lumineuse sont couramment utilisés pour la transmission. L'essentiel est de distinguer avec une très bonne fiabilité les deux états de manière à limiter les erreurs. La correspondance entre chacun des deux états et une valeur du bit correspondant est affaire de convention. Un Interrupteur peut être soit ouvert, soit fermé pour coder 0 ou 1 ; l'autre état code l'autre valeur. Il en va de même pour la tension ou le courant électriques, la polarisation magnétique, la lumière allumée ou éteinte.
+
+Unité d'information
+Selon la théorie mathématique de l'information de Shannon, lorsque l'on reçoit l'information correspondant à l'occurrence d'un évènement ayant 1 chance sur 2 de se produire, on reçoit un bit d'information.
+Exemple - Pile ou face :
+Lors du tir à pile ou face de l'engagement d'un match de football, quand l'arbitre indique que la pièce est tombée sur pile, il transmet un bit d'information aux 2 capitaines des équipes en compétition, parce qu'avant cette annonce, la probabilité d'obtenir l'un ou l'autre résultat était égale.
+Le nom de l'unité élémentaire d'information est le shannon, symbole Sh.
+Dans un encodage idéal de l'information, tout bit (élément binaire) porterait un shannon d'information. Ce n'est pas le cas, parce que les informations environnant un bit dans un flux peuvent affecter sa probabilité d'avoir l'une ou l'autre valeur. L'information contenue dans un flux de n bits est au maximum de n shannons. Elle est en général moindre, parce que toutes les combinaisons ne correspondent pas à des messages valides de probabilité égale.
+Exemple - bit de parité :
+Pour assurer une détection d'erreur, on transmet volontairement des informations excédentaires, qui se déduisent des données transmises. Un des systèmes les plus simples consiste à coder sur 8 bits un mot de 7 bits, le huitième, appelé bit de parité, étant calculé de telle sorte que le nombre total de 1 dans l'ensemble soit toujours soit pair, soit impair, selon la convention en vigueur.
+Un tel ensemble de 8 octets n'a que 2 valeurs possibles, et transporte 7 et non 8 shannons.
+Outre ces redondances volontaires, introduites dans le but de corriger les erreurs de transmission, les encodages contiennent une part de répétition que l'on conserve parce qu'elles facilitent le traitement des données numériques.
+Exemple - Nombre en virgule flottante :
+En informatique, on code souvent les grandeurs en nombres à virgule flottante. La norme IEEE 754 fixe, pour le codage sur 32 bits, un encodage qui détermine 4 286 578 689 valeurs valides sur les 2, soit 4 294 967 296 possibles.
+Un nombre en virgule flottante de 32 bits apporte ainsi 31,997 et non 32 shannons d'information.
+En outre, les communications humaines contiennent une part involontaire de répétition, qui peut être partiellement réduite par l'analyse statistique. La compression de données vise à rapprocher le nombre de bits d'un message de la quantité d'information qu'il transmet, élevant ainsi le nombre de shannons par bit.
+Lorsqu'on ne se préoccupe pas de l'efficacité de l'encodage, un bit et un shannon sont pratiquement équivalents.
+Si on souhaite renoncer à cette correspondance éventuellement trompeuse entre l'unité de codage et celle d'information, on peut exprimer la quantité d'information en nats, basés sur le logarithme naturel et non comme le bit sur le logarithme en base 2. Un nat est égal à un shannon multiplié par le logarithme naturel de 2, soit environ 0,7.
+
+Ensembles ordonnés de bits
+Il ne faut pas confondre un bit avec un byte, mot anglais qui se prononce -bait- et se traduit par multiplet, suite de bits. En informatique, le byte est généralement une suite de 8 bits, ce qui dans ce cas fait un octet. Quand le nombre d'éléments binaires qui le compose est différent, cela est normalement précisé. On peut ainsi trouver les formes "doublet", "triplet", et plus généralement, "n-uplet".
+
+Abréviation et symbole
+Il n'y a pas de norme universellement acceptée au sujet des abréviations de bit et byte. bit : Dans l'IEC 60027 (en), la Commission électrotechnique internationale définit bit comme étant le symbole de l'unité binaire (par exemple, kbit pour kilobit). Le standard harmonisé ISO-IEC IEC 80000-13:2008 (en) annule et remplace les articles 3.8 et 3.9 de la norme IEC 60027-2:2005 (relatifs à la théorie de l'information et aux préfixes binaires). b : L'IEEE donne dans IEEE 1541 (en) b comme symbole d'unité pour bit. Cette convention est fréquemment utilisée en informatique, mais le Système international d'unités, dont le bit ne fait pas partie, utilise b est déjà utilisé pour une autre unité, le barn, dans un domaine spécialisé différent. D'autre part, bit est déjà l'abréviation de binary digit il y a peu de raison de l'abréger encore. B : Les textes cités de la CIE et de l'IEEE donnent B comme abréviation pour le byte. La CIE, comme l'Union internationale des télécommunications acceptent o pour octet au lieu de byte. Le terme octet est plus précis, ne dépend pas d'une base matérielle, et est plus courant dans les pays francophones. Dans le Système international d'unités, le symbole d'une unité s'écrit en minuscules sauf si son nom provient de celui d'une personne ont un symbole abrégé en majuscule. Hors Système international d'unités, B désigne le bel ; mais on n'utilise que son sous-multiple le décibel (dB), qu'il est peu probable de confondre avec un décibyte, puisqu'on n'emploie que des multiples du byte en télécommunications et en informatique.
+Voir aussi
+
+Articles connexes: Débit binaire; Préfixe binaire; Système binaire; Octet; Byte; Algèbre de Boole (logique).

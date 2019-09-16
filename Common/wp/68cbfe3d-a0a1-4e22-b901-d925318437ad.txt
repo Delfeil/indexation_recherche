@@ -1,0 +1,147 @@
+En mathématiques, et plus précisément en algèbre et en géométrie vectorielle, le produit scalaire est une opération algébrique s'ajoutant aux lois s'appliquant aux vecteurs. À deux vecteurs elle associe un scalaire, c'est-à-dire un nombre tel que ceux qui définissent cet espace vectoriel - réel pour un espace vectoriel réel, complexe pour un espace vectoriel complexe : Si u et v sont deux vecteurs d'un espace vectoriel E sur un corps K, alors le produit scalaire de u par v est un scalaire (c'est-à-dire un élément de K), noté u v, (uv), uv, ou u, v.
+Le produit scalaire permet d'exploiter les notions de la géométrie euclidienne traditionnelle : longueurs, angles, orthogonalité en dimension deux et trois, mais aussi de les étendre à des espaces vectoriels réels de toute dimension, et aux espaces vectoriels complexes.
+Cette opération s'appelle "produit" en raison de certaines propriétés (distributivité sur l'addition, bilinéarité), mais il ne s'agit pas du seul produit qu'on puisse associer à deux vecteurs - voir par exemple le produit vectoriel, dont certaines propriétés sont liées au produit scalaire.
+Comme il existe deux grandes manières de définir les vecteurs, soit par une approche purement algébrique (voir l'article "Espace vectoriel"), soit par une approche géométrique à l'aide des bipoints (ou couple de points, voir "Vecteur"), il existe de même deux manières de présenter le produit scalaire : une manière algébrique (objet de l'article "Espace préhilbertien") et une manière géométrique, à l'aide de bipoints.
+Historiquement, le produit scalaire s'est présenté de manière géométrique dans un espace euclidien traditionnel avant que la notion ne s'étende à tout espace vectoriel réel.
+
+Aperçu des applications du produit scalaire
+Le produit scalaire possède de multiples applications. En physique, il est, par exemple, utilisé pour modéliser le travail d'une force.
+En géométrie analytique il permet de déterminer le caractère perpendiculaire de deux droites ou d'une droite et d'un plan. Ce domaine est le sujet de cet article. Dans le cas de la dimension finie quelconque, il dispose de nombreuses applications algébriques : il permet de classifier les quadriques, offre des outils pour la réduction d'endomorphismes ou encore est à la base de multiples techniques statistiques comme la méthode des moindres carrés ou l'analyse en composantes principales. En géométrie, il confère à l'espace vectoriel une structure d'espace métrique disposant de nombreuses propriétés comme la complétude.
+Le produit scalaire est aussi utilisé dans des espaces de dimension infinie, il permet alors de résoudre des équations aux dérivées partielles. La théorie devient plus subtile et de nombreux résultats, vrais en dimension finie, prennent une autre forme.
+Enfin, l'article "Géométrie euclidienne" propose une synthèse de l'histoire, des implications et applications du produit scalaire en dimension finie.
+
+Fragments d'histoire
+Élément important de calcul en géométrie euclidienne, le produit scalaire apparaît cependant assez tard dans l'histoire des mathématiques. On en trouve trace chez Hamilton en 1843 lorsqu'il crée le corps des quaternions et chez Grassmann. Peano le définit ensuite associé à un calcul d'aire ou de déterminant. Roberto Marcolongo et Cesare Burali-Forti le définissent seulement à l'aide du cosinus d'un angle et lui donnent le nom de produit intérieur ou produit scalaire. C'est sous cette forme qu'il apparaît par la suite. Sa qualité de forme bilinéaire symétrique sera ensuite exploitée en algèbre linéaire et, de propriété, deviendra définition.
+La notation du produit scalaire à l'aide d'un point ou d'une croix provient de Josiah Willard Gibbs, dans les années 1880.
+Pourtant, l'expression produit scalaire apparaît pour la première fois dans une publication scientifique dans un livre de William Kingdon Clifford daté de 1878. Cette paternité est néanmoins remise en cause par M. J. Crowe, pour qui le travail de Clifford est une transition entre l'algèbre des quaternions décrite par Hamilton et la formalisation des espaces vectoriels.
+
+Définitions et premières propriétés
+Dans cette section, on considèrera un espace traditionnel tel qu'il est défini par Euclide : plan ou espace formé de points dans lequel les notions de distance et d'angle sont connues. On sait aussi calculer le cosinus de tout angle géométrique. Sont également utilisables le théorème de Pythagore, la loi des cosinus et le théorème de Thalès. La construction géométrique des vecteurs dans un tel espace est détaillée dans l'article "Vecteur".
+Soient deux vecteurs représentés par des bipoints de même origine (O, A) et (O, B). De tels représentants existent quel que soit le choix des vecteurs. Dans le reste de l'article, la longueur du bipoint (O, A) est notée OA ou parfois OA, c'est donc un nombre réel positif.
+Le produit scalaire de deux vecteurs non nuls et représentés par des bipoints OA et OB est le nombre défini par OAOBcos. "Étant donnés des points O (-displaystyle O), A (-displaystyle A) et B (-displaystyle B), on considère les vecteurs O A (-displaystyle (-overrightarrow (OA))) et O B (-displaystyle (-overrightarrow (OB))).
+Lorsque ces vecteurs sont non nuls le produit scalaire est le nombre réel O A O B cos (-displaystyle OA-times OB-times -cos(-theta)), où (-displaystyle -theta) représente une mesure de l'angle géométrique A O B (-displaystyle (-widehat (AOB))).
+Si l'un des vecteurs est nul alors le produit scalaire est nul.
+Dans tous les cas, on note ce produit scalaire : O A O B (-displaystyle (-overrightarrow (OA))-cdot (-overrightarrow (OB)))"
+Dans le cas où aucun des vecteurs n'est nul, cette définition prend la forme suivante :
+Ici, cos désigne la fonction mathématique cosinus et A O B (-displaystyle (-widehat (AOB))) représente l'angle géométrique de sommet O dessiné par les points A, O et B.
+Dans le cas où les deux vecteurs sont égaux, la notation suivante est utilisée :
+La valeur du produit scalaire correspond alors à l'aire d'un carré de côté OA. "La norme euclidienne d'un vecteur représenté par un bipoint AB est la distance qui sépare A de B. En général, elle est notée A B (-displaystyle -left-(-overrightarrow (AB))-right-). Elle est égale à la racine carrée du produit scalaire du vecteur avec lui-même :
+ A B - A B A B (-displaystyle -left-(-overrightarrow (AB))-right--(-sqrt((-overrightarrow (AB))-cdot (-overrightarrow (AB))))). "
+Une inégalité évidente est vérifiée par le produit scalaire ainsi défini :
+Inégalité de Cauchy-Schwarz - Soient O, A et B trois points du plan, la valeur absolue du produit scalaire des deux vecteurs d'extrémités O, A et O, B est toujours inférieure ou égale au produit des normes des deux vecteurs. Cette majoration s'écrit :
+ O A O B O A O B. (-displaystyle -left(-overrightarrow (OA))-cdot (-overrightarrow (OB))-right-leqslant -left-(-overrightarrow (OA))-right--times -left-(-overrightarrow (OB))-right-.)
+L'égalité a lieu si et seulement si les trois points sont alignés.
+Cette majoration provient du fait que la fonction cosinus prend ses valeurs dans l'intervalle (-1, 1). Pour que l'égalité ait lieu, il faut et il suffit que le cosinus ait pour valeur soit 1, soit -1, c'est-à-dire que l'angle soit nul ou plat, ce qui signifie bien que les trois points sont alignés. Une fois encore, cette inégalité est l'objet de l'article "Inégalité de Cauchy-Schwarz", qui suppose encore une formalisation algébrique différente de celle choisie ici.
+
+Propriétés géométriques
+
+Projeté
+Travail d'une force résistante.
+La définition précédente suppose connue la définition de la fonction cosinus. Il est possible d'éviter de faire appel à cette fonction.
+Soit A, B et C trois points distincts, la trigonométrie du triangle rectangle permet de calculer le produit scalaire grâce à une projection orthogonale. En effet, si H est le projeté orthogonal de C sur la droite (AB), le produit scalaire est alors en valeur absolue égal au produit des distances AH et AB. Si A se trouve entre H et B, le produit scalaire est négatif et positif sinon. On remarque que si H est confondu avec A, alors le produit scalaire est nul.
+A B A C - A B A H - A B A H (-displaystyle (-overrightarrow (AB))-cdot (-overrightarrow (AC))-(-overline (AB))-times (-overline (AH))-AB-times AH)
+.
+A B A C - A B A H - A B A H (-displaystyle (-overrightarrow (AB))-cdot (-overrightarrow (AC))-(-overline (AB))-times (-overline (AH))--AB-times AH)
+.
+Le produit scalaire est parfois utilisé sous cette forme pour déterminer le travail d'une force lors d'un déplacement : le travail de la force F selon le trajet u est le produit scalaire des deux vecteurs. Dans la seconde illustration, ce travail est égal à -AB AH.
+
+Loi des cosinus
+Il existe une manière plus générale d'exprimer le théorème de Pythagore connue sous les noms de théorème d'Al-Kashi (en France) ou encore théorème de Pythagore généralisé. Elle traite le cas d'un triangle quelconque. Avec les notations de la figure de droite, ce résultat, nommé loi des cosinus s'exprime de la manière suivante :
+Une démonstration se trouve dans l'article détaillé. Ce résultat s'exprime en termes de produit scalaire :
+Loi des cosinus - Soient A, B et C trois points quelconques, alors la formule suivante est toujours vérifiée :
+A B A C - 1 2 (A B 2 + A C 2 B C 2) (-displaystyle (-overrightarrow (AB))-cdot (-overrightarrow (AC))-(-dfrac (1)(2))-left((-overrightarrow (AB))(2)+(-overrightarrow (AC))(2)-(-overrightarrow (BC))(2)-right)).
+Le caractère plus général de cette formulation permet d'expliciter et de démontrer simplement les propriétés algébriques du produit scalaire. Le théorème de la médiane est un cas particulier.
+
+Produit scalaire comme une aire
+Définition du produit scalaire par les aires.
+L'expression par le produit scalaire de la loi des cosinus suggère une formulation du produit scalaire en termes d'aire. Le produit scalaire, en utilisant les notations du paragraphe sur le projeté, correspond à l'aire du rectangle de base AH et de hauteur AB.
+Considérons le produit scalaire dans un plan orienté, de x vers y dans la figure de droite. Le produit scalaire des vecteurs x et y est égal à l'aire orientée du parallélogramme construit grâce aux vecteurs y et xr. Le vecteur xr est l'image du vecteur x par une rotation d'angle droit direct. Cette approche est celle de Peano. Pour ce faire, il utilise un outil appelé déterminant, et utilise la formulation suivante du produit scalaire, par construction géométrique, équivalente à celle de l'article :
+Sur le dessin, les parallélogrammes ont été déformés en rectangles de même aire par la propriété de cisaillement. L'aire verte correspond à un produit scalaire positif et l'aire rose à un produit scalaire négatif.
+Cette forme géométrique possède un avantage certain, elle permet d'établir les propriétés algébriques du produit scalaire. Ces propriétés sont utiles, à la fois pour établir une expression analytique utile à la résolution de nombreux problèmes et pour établir une nouvelle formulation à la fois plus générale et plus opérationnelle.
+
+Orthogonalité, colinéarité et angle
+De telles définitions du produit scalaire donnent des outils intéressants pour vérifier une orthogonalité, une colinéarité ou déterminer un angle géométrique.
+Orthogonalité : les vecteurs O A (-displaystyle (-overrightarrow (OA))) et O B (-displaystyle (-overrightarrow (OB))) sont orthogonaux si l'un ou l'autre des vecteurs est nul ou si l'angle géométrique AOB est droit. En termes de produit scalaire, cela se traduit par une seule condition O A (-displaystyle (-overrightarrow (OA))) et O B (-displaystyle (-overrightarrow (OB))) sont orthogonaux si et seulement si O A O B - 0 (-displaystyle (-overrightarrow (OA))-cdot (-overrightarrow (OB))-0).
+Colinéarité : les vecteurs O A (-displaystyle (-overrightarrow (OA))) et O B (-displaystyle (-overrightarrow (OB))) sont colinéaires si et seulement si les points O, A et B sont sur une même droite. En termes de produit scalaire, cela se traduit par O A (-displaystyle (-overrightarrow (OA))) et O B (-displaystyle (-overrightarrow (OB))) sont colinéaires si et seulement si O A O B - O A O B (-displaystyle (-overrightarrow (OA))-cdot (-overrightarrow (OB))-OA-times OB). Cette définition se lit aussi ainsi : deux vecteurs sont colinéaires si la valeur absolue de leur produit scalaire est égale au produit de leurs longueurs.
+Angle géométrique : si O A (-displaystyle (-overrightarrow (OA))) et O B (-displaystyle (-overrightarrow (OB))) sont deux vecteurs non nuls, l'angle géométrique AOB est déterminé par l'égalité cos (A O B) - O A O B O A O B (-displaystyle -cos((-widehat (AOB)))-(-dfrac ((-overrightarrow (OA))-cdot (-overrightarrow (OB)))(OA-times OB))).
+
+Propriétés algébriques
+Pour une raison de simplicité, d'autres notations sont utilisées. Les vecteurs ne sont plus notés comme des bipoints, comme A B (-displaystyle (-overrightarrow (AB))) mais simplement avec une lettre : v (-displaystyle (-vec (v))). Le produit scalaire est alors toujours noté par un point : u v (-displaystyle (-vec (u))-cdot (-vec (v))). Il arrive aussi que les vecteurs soient notés sans flèches, pour éviter la confusion entre le produit d'un scalaire par un vecteur et le produit scalaire entre deux vecteurs, le produit scalaire est alors noté (u, v) ou encore u v (-displaystyle -left-langle uv-right-rangle). Une convention, pas toujours suivie consiste à choisir des lettres grecques pour les scalaires, permettant ainsi d'éviter des confusions. Dans la suite de l'article, la convention suivie est celle du vecteur surmonté d'une flèche et du produit scalaire noté par un point.
+Le terme de produit scalaire suggère l'existence d'une opération qui, à deux vecteurs, associe un scalaire. Dans un espace vectoriel, les scalaires sont les coefficients par lesquels on a le droit de multiplier les vecteurs. Dans une approche élémentaire, ces scalaires sont des réels. Le fait d'appeler cette opération un produit suggère l'existence de propriétés que l'on attend généralement d'un produit (commutativité, distributivité par rapport à l'addition...).
+
+Symétrie
+Symétrie de l'application bilinéaire.
+La symétrie est une propriété qui s'applique aux fonctions de deux variables prises dans un même ensemble. Soit un ensemble E et une fonction f définie dans EE. Elle est dite symétrique si et seulement si :
+Le cadre de cette définition est celui du produit scalaire, qui à deux vecteurs associe un nombre.
+Comme la longueur du segment (B, C) est celle du segment (C, B), le théorème d'Al-Kashi établit la symétrie du produit scalaire :
+Symétrie du produit scalaire - Le produit scalaire défini sur un espace vectoriel E est symétrique, c'est-à-dire que la proposition suivante est toujours vérifiée :
+ (x , y) E 2 x y - y x (-displaystyle -forall ((-vec (x)),(-vec (y)))-in E(2)-quad (-vec (x))-cdot (-vec (y))-(-vec (y))-cdot (-vec (x))).
+Bilinéarité
+Compatibilité de l'addition.
+Le produit scalaire dans un espace vectoriel E est compatible à droite avec l'addition. Cette propriété signifie que le produit scalaire d'un vecteur par une somme de deux vecteurs est égal à la somme des deux produits scalaires :
+La figure de gauche (où y 1 - y 2 - y (-displaystyle (-vec (y-(1)))-(-vec (y-(2)))-(-vec (y)))) illustre cette compatibilité. Elle est la conséquence du fait que la translation laisse invariante l'aire d'une surface. Une application de cette nature, laissant invariant les angles, les longueurs et par voie de conséquence les surfaces est appelée isométrie. Chacun des deux rectangles hachurés en vert a pour surface le produit scalaire de x (-displaystyle (-vec (x))) avec y (-displaystyle (-vec (y))), le rectangle rouge a pour surface le produit scalaire de x (-displaystyle (-vec (x))) avec y ' (-displaystyle (-vec (y'))). La somme des deux surfaces est bien égale à la surface du rectangle coloré (rouge et rose) qui est le produit scalaire de x (-displaystyle (-vec (x))) avec y + y ' (-displaystyle (-vec (y))+(-vec (y'))). En effet, la translation laisse invariante la surface. L'égalité recherchée est bien vérifiée.
+La symétrie du produit scalaire ainsi que la compatibilité à droite démontre la compatibilité à gauche de l'addition :
+Compatibilité de la multiplication.
+Il est de même possible de parler de compatibilité à droite pour le produit par un scalaire. Cette propriété prend la forme suivante :
+Le point désigne ici à la fois la multiplication par un scalaire et le produit scalaire. L'usage des flèches pour désigner des vecteurs ainsi que des lettres grecques pour désigner des nombres permet d'éviter l'ambigüité.
+Cette compatibilité est une conséquence du théorème de Thalès. La figure de droite illustre cette propriété. Le rectangle violet possède une hauteur égale à celle du triangle vert, et sa base est égale à OD. Les deux triangles OAB et OCD sont semblables il est donc possible d'appliquer le théorème de Thalès, il démontre que comme OC - OA, alors OD - OB. Sa surface est donc bien multipliée par.
+Comme précédemment, la symétrie possède pour conséquence la compatibilité à gauche :
+Ainsi, l'application, pour un x (-displaystyle (-vec (x))) qui au vecteur y (-displaystyle (-vec (y))) associe le nombre x y (-displaystyle (-vec (x))-cdot (-vec (y))) vérifie la propriété suivante :
+On dit alors que l'application produit scalaire est linéaire à droite, elle est de même linéaire à gauche. Une telle application est dite bilinéaire. L'application a pour valeurs des nombres, on parle alors de forme. "Le produit scalaire est une forme bilinéaire."
+Caractère défini positif
+Le produit scalaire d'un vecteur avec lui-même est égal à l'aire d'un carré de côté la longueur d'un de ses représentants. En conséquence, le produit scalaire d'un vecteur avec lui-même est toujours positif. Cette valeur est nulle si et seulement si le vecteur est nul car seul le vecteur nul possède un représentant de longueur nulle. On en déduit la définition et la proposition suivantes : Une forme à deux variables est dite définie positive si et seulement si pour tout vecteur non nul x, l'image de (x,x) est strictement positive. Le produit scalaire est une forme définie positive.
+Bilan : produit scalaire réel
+Un produit scalaire est une forme bilinéaire symétrique définie positive sur un espace vectoriel sur les nombres réels.
+Les propriétés algébriques vues dans le cas de la dimension 2 ou 3 sont suffisantes pour définir un produit scalaire dans un espace vectoriel réel quelconque.
+Soit E un espace vectoriel réel.
+On dit qu'une application: E E R (x , y) (x y) (-displaystyle (-mid):(-begin(array)(lcl)E-times E-rightarrow -mathbb (R) --(x,y)-mapsto (x-mid y)-end(array))).
+est un produit scalaire si elle est : bilinéaire : (-displaystyle -phi) est linéaire relativement à chaque argument (l'autre étant fixé) ;; symétrique : (x , y) E 2 (y x) - (x y) (-displaystyle -forall (x,y)-in E(2)-quad (y-mid x)-(x-mid y)) ;; positive : x E (x x) 0 (-displaystyle -forall x-in E-quad (x-mid x)-geqslant 0) ;; définie : (x x) - 0 x - 0 (-displaystyle (x-mid x)-0-Rightarrow x-0).
+Il est naturel de se poser la question réciproque : est-il possible de définir une géométrie à l'aide d'un espace vectoriel et d'un produit scalaire La longueur est alors donnée par la norme, et l'angle entre deux vecteurs non nuls x (-displaystyle (-vec (x))) et y (-displaystyle (-vec (y))) par la formule :
+Une telle géométrie vérifie les inégalités triangulaire et de Cauchy-Schwarz et les théorèmes de Thalès et de Pythagore.
+
+Espace euclidien
+Un espace euclidien est un espace vectoriel sur ℝ, de dimension finie et muni d'un produit scalaire.
+Un tel espace possède de nombreuses propriétés à la fois algébriques et géométriques. Le produit scalaire met en évidence des applications linéaires particulières aux propriétés multiples. Elles permettent, entre autres, de définir de nombreuses structures additionnelles, souvent elles aussi euclidiennes. Elle offre un cadre géométrique qui permet de généraliser bon nombre de résultats vrais sur les nombres réels. Il devient ainsi possible d'appliquer des résultats de l'analyse réelle à la géométrie différentielle.
+
+Expression analytique
+
+Base orthonormale
+Dans un espace vectoriel de dimension finie, les propriétés algébriques permettent d'exprimer le produit scalaire à l'aide d'un système de coordonnées. L'expression est simplifiée lorsque la base choisie est orthonormale (les vecteurs de base sont de norme égale à 1 et sont orthogonaux deux à deux).
+Par exemple, en notant (e 1 (-displaystyle (-vec (e-(1)))), e 2 (-displaystyle (-vec (e-(2)))), e 3 (-displaystyle (-vec (e-(3))))) une base orthonormale en dimension 3, si les deux vecteurs x (-displaystyle (-vec (x))) et y (-displaystyle (-vec (y))) ont pour coordonnées respectives (x1, x2, x3) et (y1, y2, y3), on obtient alors la formule :
+Elle découle du développement du produit scalaire des deux vecteurs exprimés dans la base :
+qui, par les propriétés de bilinéarité et de symétrie, s'écrit :
+avec pour tout i, e i e i - 1 (-displaystyle (-vec (e-(i)))-cdot (-vec (e-(i)))-1), et pour tout i différent de j, e i e j - 0 (-displaystyle (-vec (e-(i)))-cdot (-vec (e-(j)))-0).
+
+Écriture matricielle
+Dans une base orthonormée, il existe une manière simple d'exprimer le produit scalaire, à l'aide de matrices. Les deux vecteurs x (-displaystyle (-vec (x))) et y (-displaystyle (-vec (y))) du paragraphe précédent prennent alors la forme suivante :
+Les matrices X et Y représentent les deux vecteurs. À l'aide de l'opération transposée et de la multiplication des matrices, on obtient l'égalité :
+
+Base quelconque
+Si la base (b 1 (-displaystyle (-vec (b-(1)))), b 2 (-displaystyle (-vec (b-(2)))), b 3 (-displaystyle (-vec (b-(3))))) est choisie quelconque, l'expression du produit scalaire est plus complexe. Notons (1, 2, 3) et (1, 2, 3) les coordonnées des vecteurs x (-displaystyle (-vec (x))) et y (-displaystyle (-vec (y))) dans cette nouvelle base. On a alors l'égalité :
+La matrice M est appelée la matrice de Gram du produit scalaire dans la base (b 1 , b 2 , b 3) (-displaystyle -left((-vec (b-(1))),(-vec (b-(2))),(-vec (b-(3)))-right)). Elle possède de nombreuses propriétés : elle est symétrique réelle donc diagonalisable ; de plus, ses valeurs propres sont toutes strictement positives. Une telle matrice est dite définie positive.
+Une base d'un espace vectoriel réel E de dimension n étant fixée, on définit par cette méthode une bijection entre les produits scalaires sur E et les matrices symétriques réelles définies positives de taille n.
+
+Généralisation aux espaces vectoriels complexes
+
+Produit scalaire hermitien
+Pour adapter la définition du produit scalaire réel aux espaces vectoriels complexes, nous avons besoin de la notion de "semi-linéarité" :
+Une application f d'un espace vectoriel complexe E dans ℂ est dite semi-linéaire si elle vérifie : (x , y) E 2 f (x + y) - f (x) + f (y) (-displaystyle -forall (x,y)-in E(2)-quad f(x+y)-f(x)+f(y)); x E , C f (x) - f (x). (-displaystyle -forall x-in E,-forall -lambda -in -mathbb (C) -quad f(-lambda x)-(-overline (-lambda))f(x).).
+Soit donc maintenant E un espace vectoriel complexe.
+On dit qu'une application (-displaystyle (-mid)) : E E C (-displaystyle E-times E-to -mathbb (C)); (x , y) (x y) (-displaystyle (x,y)-mapsto (xy)).
+est un produit scalaire hermitien à gauche (ou simplement un produit scalaire) si elle est : sesquilinéaire à gauche : c'est-à-dire. linéaire relativement au second argument (le premier étant fixé). (x y) - (x y) (-displaystyle (x-mu y)--mu (xy)),. semi-linéaire relativement au premier argument (le second étant fixé). (x y) - (x y) (-displaystyle (-lambda xy)-(-overline (-lambda))(xy)). symétrique hermitienne : (x , y) E 2 (y x) - (x y) (-displaystyle -forall (x,y)-in E(2)-quad (yx)-(-overline ((xy)))) ;; positive : x E (x x) R + (-displaystyle -forall x-in E-quad (xx)-in -mathbb (R) -(+)) ;; définie : (x x) - 0 x - 0 (-displaystyle (xx)-0-Rightarrow x-0).
+Remarque : la convention de linéarité à droite, semi-linéarité à gauche n'est pas universelle, certains auteurs utilisent la convention inverse. Dans un espace vectoriel complexe, muni d'un tel produit scalaire, sont encore vérifiés le théorème de Pythagore, l'inégalité de Cauchy-Schwarz et l'inégalité triangulaire.
+
+Espace préhilbertien
+Un espace préhilbertien est un espace vectoriel réel ou complexe, généralement de dimension infinie, que l'on a muni d'un produit scalaire. La définition du produit scalaire quitte alors le champ de la géométrie traditionnelle.
+
+Exemples: Dans l'espace ℝ, on définit le produit scalaire canonique : ((x 1 , x n) (y 1 , y n)) - x 1 y 1 +... + x n y n (-displaystyle (-big (x-(1),...,x-(n))(y-(1),...,y-(n))(-big))-x-(1)y-(1)+-cdots +x-(n)y-(n)).; Dans l'espace ℂ, on définit le produit scalaire canonique : ((z 1 , z n) (w 1 , w n)) - z 1 w 1 +... + z n w n (-displaystyle (-big (z-(1),...,z-(n))(w-(1),...,w-(n))(-big))-(-overline (z-(1)))w-(1)+-cdots +(-overline (z-(n)))w-(n)).; Soit E le ℝ-espace vectoriel des fonctions continues de l'intervalle (a, b) dans ℝ. L'application E E R , (f , g) f g (-displaystyle E-times E-to -mathbb (R) ,(f,-,g)-mapsto -int f-times g) est un produit scalaire sur E. Soit F le ℂ-espace vectoriel des fonctions continues de l'intervalle (a, b) dans ℂ. L'application : F F C , (f , g) f g (-displaystyle F-times F-rightarrow -mathbb (C) ,(f,g)-mapsto -int (-overline (f))-times g) est un produit scalaire sur F.
+Espace hermitien
+Un espace hermitien est un espace vectoriel défini sur les nombres complexes, de dimension finie et disposant d'un produit hermitien, correspondant à une généralisation du cas réel. Le terme de produit scalaire est aussi utilisé dans ce contexte. Les résultats et propriétés des espaces euclidiens se traduisent souvent simplement dans cet espace.
+
+Espace de Hilbert
+Un espace de Hilbert peut être réel ou complexe. Il correspond exactement aux deux cas précédents, à la différence que la dimension n'est pas nécessairement finie. Si la théorie et les démonstrations sont différentes de la situation en dimension finie, certains résultats se généralisent. Une hypothèse est néanmoins souvent nécessaire, celle de la complétude de l'espace métrique associé. Pour cette raison, un espace de Hilbert est par définition complet.
+Cet espace est utilisé pour résoudre des problèmes d'analyse fonctionnelle, particulièrement des équations aux dérivées partielles.
+
+Voir aussi
+
+Articles connexes: Espace quadratique; Groupe orthogonal; Dérivation vectorielle; Mesures secondaires.

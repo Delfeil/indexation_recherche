@@ -1,0 +1,2 @@
+Le Circuit Switched Data (CSD) est la méthode originale de transfert de données développée pour les systèmes de téléphone mobiles basés sur la technologie TDMA (Accès multiple à répartition dans le temps) comme le GSM.
+Il a un fonctionnement similaire à celui d'un appel vocal où une bande de fréquence radio est allouée ; il est utilisé pour les SMS et était utilisé pour le protocole WAP. Le débit constant est de 9,6 kbit-s en GSM. Ce protocole a ensuite évolué vers le HSCSD dans les réseaux EDGE et UMTS. Portail des télécommunications.

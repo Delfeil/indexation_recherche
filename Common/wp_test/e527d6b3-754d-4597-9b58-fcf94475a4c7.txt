@@ -1,0 +1,28 @@
+Le perceptron est un algorithme d'apprentissage supervisé de classifieurs binaires (c'est-à-dire séparant deux classes). Il a été inventé en 1957 par Frank Rosenblatt au laboratoire d'aéronautique de l'université Cornell. C'est un modèle inspiré des théories cognitives de Friedrich Hayek et de Donald Hebb. Il s'agit d'un neurone formel muni d'une règle d'apprentissage qui permet de déterminer automatiquement les poids synaptiques de manière à séparer un problème d'apprentissage supervisé. Si le problème est linéairement séparable, un théorème assure que la règle du perceptron permet de trouver une séparatrice entre les deux classes.
+
+Définition
+Les entrées i1 à in sont multipliées avec les poids W1 à Wn, puis sommées, avant qu'une fonction d'activation soit appliquée.
+Le perceptron peut être vu comme le type de réseau de neurones le plus simple. C'est un classifieur linéaire. Ce type de réseau neuronal ne contient aucun cycle (en anglais feedforward neural network). Dans sa version simplifiée, le perceptron est mono-couche et n'a qu'une seule sortie à laquelle toutes les entrées sont connectées et les entrées et la sortie sont booléennes. Plus généralement, les entrées peuvent être des nombres réels.
+Un perceptron à n entrées (x 1 ,.. x n) (-displaystyle (x-(1),-dots ,x-(n))) et à une seule sortie o est défini par la donnée de n poids (ou coefficients synaptiques) (w 1 ,.. w n) (-displaystyle (w-(1),-dots ,w-(n)))et un biais (ou seuil) (-displaystyle -theta) par: o - f (z) - (1 s i i - 1 n w i x i 0 s i n o n (-displaystyle o-f(z)--left-((-begin(matrix)1-mathrm (si) -sum -(i-1)(n)w-(i)x-(i)-theta --0-mathrm (sinon) -end(matrix))-right.).
+La sortie o résulte alors de l'application de la fonction de Heaviside au potentiel post-synaptique z - i - 1 n w i x i (-displaystyle z--sum -(i-1)(n)w-(i)x-(i)), avec: f (z) - (0 s i z 0 1 s i z 0 (-displaystyle f(z)--left-((-begin(matrix)0-mathrm (si) z-leq 0--1-mathrm (si) z0-end(matrix))-right.).
+Cette fonction non linéaire est appelée fonction d'activation. Une alternative couramment employée est f - t a n h (-displaystyle f-tanh).
+
+Règle de Hebb
+La règle de Hebb, établie par Donald Hebb, est une règle d'apprentissage des réseaux de neurones artificiels dans le contexte de l'étude d'assemblées de neurones.
+Cette règle suggère que lorsque deux neurones sont excités conjointement, il se crée ou renforce un lien les unissant.
+Dans le cas d'un neurone artificiel seul utilisant la fonction signe comme fonction d'activation cela signifie que : W i ' - W i + (Y. X i) (-displaystyle W'-(i)-W-(i)+-alpha (Y.X-(i))).
+où W i ' (-displaystyle W'-(i)) représente le poids i (-displaystyle i) corrigé et (-displaystyle -alpha) représente le pas d'apprentissage.
+Cette règle n'est malheureusement pas applicable dans certains cas bien que la solution existe.
+
+Règle d'apprentissage du perceptron
+Le perceptron de Frank Rosenblatt est très proche de la règle de Hebb, la grande différence étant qu'il tient compte de l'erreur observée en sortie.
+Cette fonction est recommandée lorsque la tangente hyperbolique (tanh) est utilisée comme fonction d'activation. W i ' - W i + ((Y t Y) R) X i (-displaystyle W'-(i)-W-(i)+-alpha ((Y-(t)-Y)R)X-(i)).
+W i ' (-displaystyle W'-(i)) - le poids i (-displaystyle i) corrigé
+Y t (-displaystyle Y-(t)) - sortie attendue
+Y (-displaystyle Y) - sortie actuelle
+ (-displaystyle -alpha) - le taux d'apprentissage
+X i (-displaystyle X-(i)) - l'entrée du poids i (-displaystyle i) pour la sortie attendue Y t (-displaystyle Y-(t))
+W i (-displaystyle W-(i)) - le poids i (-displaystyle i) actuel
+R (-displaystyle R) - le taux d'apprentissage (nombre décimal de 0 à 1)
+
+Voir aussi: Réseau neuronal artificiel; perceptron multicouche.

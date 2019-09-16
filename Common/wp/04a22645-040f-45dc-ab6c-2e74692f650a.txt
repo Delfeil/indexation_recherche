@@ -1,0 +1,13 @@
+En science de l'information, une autorité (ou notice d'autorité ou forme d'autorité) sert à identifier sans ambiguïté des personnes, des choses ou des concepts. La forme retenue fait autorité, d'où son nom, calqué par ailleurs sur l'expression anglaise d'origine, "authority control".
+
+Origine et principe
+Les bibliothèques rencontrent diverses difficultés pour cataloguer les oeuvres et divers documents ainsi que les auteurs. Ces derniers, ainsi, peuvent utiliser des pseudonymes, leur nom et leurs prénoms peuvent être orthographiés de façons diverses au fil des différentes publications.
+Les objectifs de l'autorité sont doubles : faire en sorte qu'une même réalité soit toujours indiquée de la même manière ;; éviter qu'une même désignation ne s'applique à deux personnes ou à deux lieux.
+Pour ces raisons, une liste d'autorité est contrôlée. Selon le cas, ou bien il est possible de créer de nouvelles autorités, mais en respectant des normes qui indiquent la forme à suivre (par exemple nom, prénom (date de naissance-date de décès)), ou bien la liste est confiée à un organisme chargé de la suivre, et seules les personnes travaillant dans cet organisme peuvent modifier la liste, au contraire d'une liste d'index.
+
+Types d'autorités
+Les notices d'autorité peuvent être utilisées pour identifier les personnes, les collectivités, les noms géographiques, les oeuvres, les objets et les concepts.
+
+Domaines d'application
+Les autorités sont utilisées dans les catalogues de bibliothèques, les fichiers, les bases de données et les systèmes d'information.
+Initialement utilisées dans les bibliothèques, les autorités sont également employées dans la description des documents d'archives ou dans la gestion des droits numériques.

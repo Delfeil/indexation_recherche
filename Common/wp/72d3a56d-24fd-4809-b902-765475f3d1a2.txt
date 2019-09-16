@@ -1,0 +1,1 @@
+Queries per second (anglais : "requêtes par seconde"), abrégé en QPS, est un terme informatique correspondant au nombre de requêtes qu'un serveur informatique accepte de traiter par seconde. Portail de l'informatique.

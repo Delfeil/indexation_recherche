@@ -1,0 +1,35 @@
+La bureautique est l'ensemble des techniques et des moyens tendant à automatiser les activités de bureau et, principalement, le traitement et la communication de la parole, de l'écrit et de l'image.
+
+Histoire
+Le mot "Bureautique" a été proposé pour la première fois en 1976 à Grenoble par un groupe de chercheurs dont Louis Naugès était un des animateurs.Le problème était traduire les mots anglais "office automation". On avait hésité entre "bureaumatique" qui avait été jugé trop proche de "bureaucratique". Ce mot regroupait alors tout ce qui concerne l'information en rapport avec le travail de bureau.
+
+Définitions
+Selon la définition du Journal officiel de la République française (arrêté du 22 décembre 1981) du 17 février 1982, la bureautique est l'ensemble des techniques et des moyens tendant à automatiser les activités de bureau et principalement le traitement et la communication de la parole, de l'écrit et de l'image.
+Selon l'Association des sciences et technologies de l'information (anciennement AFCET), le terme bureautique regroupe l'ensemble des techniques et des outils tendant à automatiser les activités de bureau. Elle désigne une assistance aux activités de bureau. À ce titre, elle prend en compte les aspects organisationnels dont ceux de la coopération entre des individus actifs à l'intérieur d'un bureau.
+La bureautique se définit aussi comme la technique de production et de communication de documents (textes, audio, images). Les outils bureautiques se classent en trois grandes catégories : les outils de production de document, tel que le traitement de texte, les tableurs et tous les outils spécialisés de production basés sur un métier, les outils de communication principalement les logiciels de courriel, et finalement les outils de conservation tel que les logiciels de gestion documentaire. Ces trois catégories représentent les surfaces traditionnelles du travail de bureau, soit la surface de production, les paniers de réception et d'expédition, et finalement les classeurs.
+Un système bureautique (en anglais OSS pour Office Support System) désigne l'ensemble des personnes d'un bureau et des moyens mis à leur disposition pour les assister dans l'accomplissement des tâches tertiaires.
+
+Logiciel bureautique
+Un logiciel bureautique est un logiciel qui gère des applications dans le domaine de la bureautique. Selon le Grand dictionnaire terminologique, c'est un logiciel qui informatise les travaux courants sur ordinateur.
+Les logiciels bureautiques les plus utilisés
+
+Exemples de logiciels bureautiques
+
+Logiciels de traitement de texte
+OpenOffice.org Writer: Microsoft Word est le plus utilisé; LibreOffice Writer (The Document Foundation); Logiciels IBM: Lotus Symphony Documents.; Lotus Symphony Documents; ONLYOFFICE Document Editor; Pages (Apple); Logiciels Sun Microsystems: OpenOffice.org Writer; StarOffice Writer.; OpenOffice.org Writer; StarOffice Writer; WordPerfect (Corel); Google Docs (Google).
+
+Tableurs: Microsoft Excel est le plus utilisé; LibreOffice Calc (The Document Foundation); Logiciels IBM: Lotus Symphony Spreadsheets; Lotus 1-2-3.; Lotus Symphony Spreadsheets; Lotus 1-2-3; Numbers (Apple); ONLYOFFICE Spreadsheet Editor; Quattro Pro (Corel); Logiciels Sun Microsystems: OpenOffice.org Calc; StarOffice Calc.; OpenOffice.org Calc; StarOffice Calc; Google Sheets (Google).
+
+Logiciels de PAO: Microsoft Publisher; Logiciels Adobe; QuarkXPress; Scribus.
+
+Logiciels de Présentation assistée par ordinateur (PréAO): Microsoft Powerpoint; LibreOffice Impress; Keynote (Apple); ONLYOFFICE Presentation Editor; Prezi; Google Slides.
+
+Clients de messagerie et gestionnaires d'informations personnelles: Microsoft Outlook; Logiciels Apple: Carnet d'adresses; iCal; Mail.; Carnet d'adresses; iCal; Mail; Evolution; Lotus Notes (IBM); Logiciels Mozilla: Mozilla Lightning; Mozilla Sunbird; Mozilla Thunderbird.; Mozilla Lightning; Mozilla Sunbird; Mozilla Thunderbird; GMail.
+
+Logiciels de comptabilité et de gestion de projet: GnuCash; Ciel; EBP; HomeBank; Marware Project X; Microsoft Project; Reconnaissance optique de caractères (OCR): FineReader; GOCR.; FineReader; GOCR; Reconnaissance vocale: IBM ViaVoice; Dragon Naturally Speaking.; IBM ViaVoice; Dragon Naturally Speaking; DataStudio (Google).
+On parle également de suites bureautiques (iWork, Microsoft Office, LibreOffice, Apache OpenOffice, etc.) pour évoquer des ensembles de logiciels destinés au travail de bureau.
+On trouve une suite bureautique dès 1983 chez Psion.
+
+Voir aussi
+
+Articles connexes: Catégorie suite bureautique; Bureau virtuel.

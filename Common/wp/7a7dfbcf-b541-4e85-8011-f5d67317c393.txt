@@ -1,0 +1,65 @@
+Le téléphone est un appareil de communication initialement conçu pour transmettre la voix humaine et permettre une conversation à distance.
+Pour fonctionner, le téléphone nécessite une infrastructure terrestre ou spatiale, le réseau téléphonique. Après y avoir raccordé son terminal fixe ou mis en marche son appareil mobile, l'utilisateur ayant souscrit un abonnement auprès d'un opérateur de télécommunications peut passer un appel téléphonique à un destinataire également raccordé en composant son numéro attitré, ce qui déclenche généralement la sonnerie de l'appareil de destination. Si la personne appelée accepte l'appel, une conversation téléphonique peut commencer.
+Exception faite des appels d'urgence passés à des numéros spéciaux, les appels passés via un téléphone ont un coût, lequel est déterminé par des tarifs d'appel établis en fonction de leur durée, de la localisation du destinataire et de la qualité du numéro. La téléphonie représente ainsi un marché important du secteur des télécommunications.
+
+Histoire
+En France, Charles Bourseul, agent de l'administration des télégraphes posa le principe du téléphone. Il publia un article dans L'Illustration du 26 août 1854, sous le titre "Transmission électrique de la parole".
+Un grand nombre d'inventeurs ayant participé de près ou de loin à l'invention et l'amélioration du téléphone (lire l'article "invention du téléphone" sur le Wikipédia anglophone), sa paternité fut et est encore l'objet de nombreuses controverses. On notera en particulier : Philipp Reis, dans une déclaration à la Société de physique de Francfort-sur-le-Main, prononce le mot "téléphone" le 26 octobre 1861. En 1863, son dispositif expérimental aurait permis de transmettre la voix avec une bonne qualité, quoique d'une faible intensité.; L'américain James Fold créa un appareil similaire au téléphone.; L'italo-américain Antonio Meucci aurait fabriqué plusieurs dispositifs téléphoniques entre 1849 et 1870, et déposé un brevet descriptif (patent caveat) le 28 décembre 1870. Il aurait confié ses prototypes à Edward B. Grant, vice-président de l'American District Telegraph Company of New York, qui les aurait par la suite perdus dans le laboratoire où travaillait Alexander Graham Bell... Le 11 juin 2002, la Chambre des représentants des États-Unis a reconnu le rôle d'Antonio Meucci dans l'invention du téléphone, en soulignant que "si Meucci avait été capable de payer les 10 de frais pour maintenir la promesse de brevet après 1874, aucun brevet n'aurait pu être délivré à Bell".; Elisha Gray déposa un brevet pour une invention équivalente deux heures plus tôt, le même jour que Graham Bell. Le brevet de Bell aurait cependant été examiné immédiatement à la demande de son avocat, tandis que celui de Gray ne le fut lui que le lendemain. Tous les procès intentés par ce dernier pour faire reconnaître sa paternité se soldèrent par un avis en sa défaveur, et la paternité officielle de l'invention fut attribuée à Alexander Graham Bell.
+Le téléphone a été exploité commercialement aux États-Unis dès 1877 et, en France dès 1879. En 1912, on compte 12 millions de postes téléphoniques dans le monde dont 8 millions aux États-Unis. Il y avait en cette même année un abonné pour 12 habitants aux États-Unis, 1 pour 71 en Grande-Bretagne et dans l'Empire allemand et 1 pour 183 en France.
+Le téléphone de campagne est largement utilisé par les belligérants pendant les deux guerres mondiales. Il est branché soit sur le réseau civil, soit sur des câbles posés spécialement.
+
+Le téléphone manuel
+L'ancêtre des téléphones
+À ses débuts , le réseau téléphonique était entièrement manuel. L'appel d'un correspondant était effectué par la procédure suivante : l'abonné décroche le combiné de son téléphone,; cette action provoque la chute d'un volet annonciateur au central, parfois l'allumage d'un voyant,; une opératrice répond à l'abonné, note le numéro du correspondant à appeler : si le correspondant dépend du même central, la connexion avec l'abonné se fera en "local",; sinon, l'opératrice appelle une autre opératrice chargée du central de rattachement de la personne appelée.; si le correspondant dépend du même central, la connexion avec l'abonné se fera en "local",; sinon, l'opératrice appelle une autre opératrice chargée du central de rattachement de la personne appelée.
+Le "bouton d'appel" a été progressivement remplacé par une "magnéto" (1898). Son rôle est de produire une tension électrique destinée à faire chuter le volet annonciateur du central. L'avantage par rapport au bouton d'appel est la suppression d'une des piles présentes chez l'abonné dont l'entretien était particulièrement coûteux.
+
+Le téléphone automatique
+Le téléphone automatique a été inventé par Almon Strowger, aux États-Unis vers 1891. Celui-ci, entrepreneur de pompes funèbres, soupçonnant les opératrices de privilégier son concurrent, voulait éliminer les opérations manuelles lors de l'établissement d'une communication. Le commutateur automatique sera testé en France dès 1912 à Nice.
+L'intérêt du téléphone automatique est d'appeler directement un correspondant sans passer par une opératrice. L'usager décroche le combiné de son téléphone puis transmet à une machine, à l'aide d'un cadran mobile, la série de chiffres identifiant son correspondant (son numéro de téléphone).
+Lors du passage à l'automatique en région parisienne, un numéro à trois chiffres a été associé à chaque central téléphonique. Les abonnés devaient composer ces trois chiffres, puis le numéro de leur correspondant. Comme les abonnés avaient en mémoire les noms des centraux de leurs correspondants, on écrivit sur les cadrans de numérotation des appareils, quelques lettres de l'alphabet pour chaque chiffre, ce qui permit de conserver longtemps l'habitude, en donnant son numéro, de donner le nom du central, par exemple DANTON et non le numéro 326 correspondant. Il fallait néanmoins appeler l'opératrice par le 16 pour les relations "interurbaines" et par le 19 pour les relations "internationales"
+
+La téléphonie mobile
+La téléphonie mobile est née dans les années 1950 aux États-Unis. Les premiers réseaux nécessitaient l'allocation d'une fréquence par communication, et les secteurs géographiques étaient larges (peu d'abonnés par unité de surface). Par la suite, les réseaux cellulaires ont permis un usage plus rationnel des fréquences, augmentant ainsi de façon considérable la capacité des réseaux.
+Outre la communication téléphonique classique, le téléphone mobile a développé d'autres fonctionnalités telles que l'envoi de textes courts (SMS) et l'accès à internet (Web).
+
+VoIP
+Depuis la fin du XXe siècle, la téléphonie se sert d'Internet, s'appuyant sur des protocoles spécifiques, tel que SIP, pour transmettre la voix sur réseau IP (VoIP).
+
+Équipement et installation
+
+Téléphone fixe
+Personne utilisant un téléphone fixe dans les années 1980.
+Le téléphone se compose historiquement de deux blocs : un boîtier contenant les organes de transmission de la parole, très souvent un système de sonnerie pour signaler un appel et un cadran ou un clavier permettant un dialogue avec le central téléphonique. Ce dialogue est effectué en composant le numéro d'un autre abonné. Le commutateur du central y répond en envoyant des tonalités d'acceptation, de refus ou d'acheminement. En France, la tonalité d'acheminement a été supprimée le 18 octobre 1996 à 23 heures, en même temps que la numérotation est passée à dix chiffres ;; un combiné qui permet d'échanger les sons de la voix entre les deux interlocuteurs sur la ligne téléphonique. Le bloc combiné est composé de deux parties : une partie microphone qui se place devant la bouche et une partie haut-parleur qui se place à proximité de l'oreille. Le combiné est une invention relativement récente : dans les premiers temps, l'interlocuteur parlait devant une plaque de bois solidaire du boîtier ou, selon le cas, dans un petit entonnoir, en portant à son oreille l'écouteur relié au boîtier par un fil.
+Avec l'évolution de l'électronique HF et des techniques numériques, les téléphones d'intérieur sont désormais sans fil le plus souvent. Un (ou plusieurs) combiné de taille réduite communique par une liaison radio sur une porteuse UHF ou VHF avec une base reliée à la ligne téléphonique. Cette liaison peut être numérique, par exemple pour les postes DECT.
+Les téléphones peuvent être dotés d'écrans texte affichant diverses informations.
+Ils n'utilisent plus forcément le Réseau téléphonique commuté (RTC), et peuvent se connecter sur les réseaux IPv4 et IPv6.
+
+Téléphone intelligent de bureau
+Depuis 2010, on voit apparaître sur le marché des appareils d'un nouveau genre qui permettent une convergence entre téléphonie fixe et mobile. Ces appareils sont gérés par un smartphone et fusionnent les appels et les carnets d'adresse, comme le NVX620 d'invoxia
+
+Modèles de postes français
+Poste téléphonique S63 mural: M24; U43; S63; Alto; Chorus; Digitel 2000; Fidélio; invoxia prix de la meilleure innovation au CES 2012, ce téléphone de bureau illustre la nouvelle convergence entre téléphonie mobile et fixe.
+
+Téléphone mobile
+Un téléphone mobile est un appareil électronique autonome de dimension réduite permettant initialement de transmettre la voix à l'aide d'ondes radio. Avec l'amélioration des réseaux de télécommunications et la miniaturisation des composants électroniques, le téléphone mobile a évolué pour acquérir au début du XXIe siècle des fonctionnalités proches de celles des PDA.
+
+Fonctionnement et utilisation
+
+Appel téléphonique
+
+Conversation téléphonique
+
+Économie
+
+Abonnements
+
+Tarifs d'appel
+
+Opérateur
+
+Symboles
+En Unicode, les symboles sont : U+260E téléphone noir (HTML : 9742;); U+260F téléphone blanc (HTML : 9743;); U+2121 symbole téléphone (HTML : 8481;); U+2706 symbole d'emplacement du téléphone (HTML : 9990;).
+
+Voir aussi
+
+Articles connexes: Histoire du téléphone en France; Histoire des télécommunications; Alphabet téléphonique français; Cité des télécoms; France Télécom; PTT; Télécommunications; Téléphonie; Numéro de téléphone; Cordon de téléphone en spirale.

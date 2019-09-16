@@ -1,0 +1,4 @@
+Netlib est un site qui offre une collection de bibliothèques de fonctions pour le calcul numérique. La plupart des bibliothèques sont écrites en Fortran ou en C.
+Le statut de toutes les bibliothèques n'est pas toujours clair. Certaines d'entre elles sont dans le domaine public (par exemple SLATEC), d'autres (comme BLAS et LAPACK) sont libres ; d'autres enfin n'ont aucune information de copyright et de licence.
+
+Voir aussi: BLAS; LAPACK; LINPACK; EISPACK.

@@ -1,0 +1,100 @@
+Hewlett-Packard Company, officiellement abrégée en HP, est jusqu'à sa scission en 2015, une entreprise multinationale américaine initialement d'électronique et d'instrumentation qui évolue au cours du temps vers l'informatique, les imprimantes, les serveurs et réseaux, le logiciel et le multimédia.
+Avant sa disparition, elle fait partie des 40 plus grosses entreprises du monde. Ses principaux produits sont les imprimantes et périphériques, les ordinateurs de toutes tailles (de poche, portables, de bureau ainsi que les serveurs) et les services aux entreprises. La société a son siège à Palo Alto dans la Silicon Valley, en Californie.
+En 2008, son chiffre d'affaires annuel était de 118 milliards USD, et HP est le premier constructeur d'ordinateurs au monde, devant Acer, Lenovo, Dell et Asus. HP produit alors environ la moitié des imprimantes du monde, ce qui représente approximativement le quart de son chiffre d'affaires.
+Le 1er novembre 2015, HP se divise en deux entités distinctes : HP Inc. et Hewlett Packard Enterprise.
+
+Histoire
+Le 1er janvier 1939, la société Hewlett-Packard est fondée, à Palo Alto, par deux grands amis, ingénieurs en électronique à l'université Stanford promotion 1934, William Hewlett (dit Bill) et David Packard (dit Dave). Leur première entreprise est créée dans un garage à quelques kilomètres de San Francisco, en Californie, dans ce qui ne s'appelle pas encore la Silicon Valley, avec 538 dollars. Bill et Dave ont déterminé à pile ou face si leur société allait s'appeler Hewlett-Packard ou Packard-Hewlett et Bill a gagné.
+
+Instruments des années 1940
+Hewlett-Packard conçoit, fabrique et commercialise des instruments d'essais et de mesures avec pour premier produit un oscillateur audio de précision, le modèle 200A, innovant grâce à l'utilisation d'une ampoule électrique à titre de résistance stabilisée en température dans le circuit, ce qui leur permet de simplifier l'utilisation de l'appareil et de baisser le coût de vente à 54,40 dollars au lieu de 200 dollars pour des versions moins stables. Leur premier client, les studios Walt Disney Pictures, leur achètent alors huit oscillateurs basse fréquence modèle 200B, à 71,50 dollars chacun, pour synchroniser les effets sonores de leur film Fantasia et développer le système Fantasound, précurseur du Dolby Surround.
+En fin d'année 1939, une demi-douzaine de nouveaux produits d'électronique de mesure sont commercialisés, dont un analyseur d'ondes qui rencontre un gros succès commercial, donnant ainsi à Hewlett-Packard une réputation de sérieux, de qualité et de fiabilité.
+
+Années 1940 à 1970 : de l'instrumentation à l'informatique
+Hewlett-Packard 9100A ordinateur personnel
+Des années 1940 à 1960 HP est focalisé sur les instruments de mesures mais progressivement HP se rend compte que l'acquisition des données est indispensable lorsque l'on possède de nombreux appareils de mesures. Du fait de la technologie disponible à l'époque, tous les appareils sont développés au moyen de composants discrets et des premiers circuits intégrés spécialisés. HP développe ses premiers mini-ordinateurs et des ordinateurs personnels dédiés a l'acquisition des mesures et au traitement de données. Ce développement se fera dans deux directions : En 1966, HP produit son premier mini ordinateur, le HP-2116 a une structure 16 bits afin de servir de concentrateur, pour ses appareils de mesures, et de calculateur scientifique. Il est suivi par le "HP-2115" en 1967 et le "HP-2114" en 1968.; en 1968, de grosses calculatrices programmables HP-9100 servent pour la centralisation et le traitement des données, suivies par une série du même type les 98xx.
+
+Informatique, périphériques et services des années 1970
+Dans les années 1970 HP développe différentes gammes d'ordinateurs aussi bien technique que de gestion, des ordinateurs personnels essentiellement technique et d'acquisition de mesures, mais aussi les premières calculettes scientifiques "de poche".
+
+Ordinateurs de bureau
+À partir de 1971 HP développe la gamme des stations de travail HP-98xx, ainsi que certains périphériques qui sont, initialement, l'interface entre les appareils de mesure et les utilisateurs mais qui évoluent ensuite vers l'acquisition de données et vers des ordinateurs "techniques" (calcul scientifique, type Série de Fourier).
+
+Ordinateurs
+À partir de 1972, HP développe: la gamme HP3000, un "mini-ordinateur" dédié à l'informatique de gestion "temps réel", "multi-tâches", "multi-utilisateurs" alors que la plupart des autres constructeurs faisaient alors uniquement de l'informatique en "temps différé" et en "traitement par lots" (batch processing). Son système d'exploitation est un logiciel propriétaire le MPE (en). La série HP-1000 : mini-ordinateur technique et scientifique. Son système d'exploitation est un logiciel propriétaire temps réel : le RTE (en).
+Au cours des années 1970, la société commercialise des tables traçantes. En 1978, HP sort un mini-ordinateur de gestion, le HP-300, qui ne trouvera pas de marché et dont la fabrication sera arrêté assez rapidement.
+
+Calculatrices
+En 1972, Hewlett-Packard invente la calculatrice scientifique de poche avec son premier modèle, la HP35 scientifique utilisant la notation polonaise inverse.
+Dans les années 1975 à 1985, Hewlett-Packard commercialise des calculatrices scientifiques, financières et programmables qui définissent les standards : la HP-65, sa première programmable avec mémoire de masse, la HP-70 dédiée aux applications financières et bancaires, la HP-41C première calculatrice avec un affichage alphanumérique en 1979. Après un creux dans les années 1980, Hewlett-Packard revient sur le devant de la scène des calculatrices en 1990 avec la série HP-48 qui révolutionne le domaine avec un affichage graphique et une programmation orientée objets. La HP-12C, calculatrice financière programmable de format poche née en 1981 et toujours commercialisée, presque à l'identique, en 2017, est l'un des produits informatiques qui possèdent la plus longue longévité au monde avec plus de trente ans de carrière.
+
+Mini-ordinateurs
+En 1972, Hewlett-Packard commercialise les mini-ordinateurs 21XX et en 1976, le HP 3000, un mini-ordinateur capable de gérer des milliers d'utilisateurs en multitâche temps réel sous MPE, un "operating system" propriétaire, vendu à plusieurs dizaines de milliers d'exemplaires dans le monde.
+
+Micro ordinateur
+HP-250
+En 1978, HP développe un micro-ordinateur de gestion, le HP-250 en utilisant les mêmes micro-processeurs que ceux utilisés sur les ordinateurs de bureau de la gamme HP-98XX.
+
+Imprimantes
+En 1978, pour faciliter la mise au point de ces matériels et permettre leur évolutivité, le langage graphique HP-GL est créé. C'est le premier langage d'imprimante codé par un fichier formaté.
+En 1978, après quarante ans de carrière, William Hewlett et David Packard prennent leur retraite et passent le relais à John A. Young en conservant des fonctions honorifiques dans le groupe.
+
+Micro-informatique et périphériques des années 1980 à 1990
+Imprimante A4 noir et blanc HP Laserjet 1022. Ordinateur portable HP Pavilion DV6.
+Pour compléter sa gamme informatique, HP étoffe ses gammes de périphériques, de micro-informatique et de stations de travail.
+En 1982, HP lance une station de travail performante, le HP-9020A au prix de 28 250 dollars.
+En 1984, HP lance sa première version d'Unix dénommée HP-UX.
+En 1984, Hewlett-Packard commercialise : son premier Ordinateur personnel avec le HP-110 ;; sa première imprimante à jet d'encre (Thinkjet) ;; sa première imprimante laser, le HP LaserJet.
+En 1985, Hewlett-Packard commercialise une station de travail (trans)portable sous Unix, nommée HP Integral. Elle pèse 10 kg, mais intègre HP-UX en rom, un clavier et une souris, une imprimante à jet d'encre, un écran plasma monochrome et un bus HP-IB permettant la connexion de disques durs et d'instruments de mesure.
+En mars 1986, Hewlett-Packard enregistre le domaine "hp.com" ; c'est alors la neuvième société au monde à posséder un domaine internet, ce qui lui permet de choisir une adresse internet très courte.
+En 1988, Hewlett-Packard commercialise sa gamme de station de travail et serveur multi utilisateurs HP 9000 à base de microprocesseur RISC sous Unix, concurrent de Sun Microsystems, d'Apollo et d'IBM AS400
+En 1989, HP rachète la société Apollo.
+En 1993, HP se lance sur le marché grand public des PC.
+En 1994, c'est la sortie des imprimantes Officejet, imprimante personnelle-fax-photocopieur.
+
+Acquisition et restructuration depuis 1999
+
+1999-2005
+Le 28 juillet 1999 Hewlett-Packard se sépare de toute son activité instrumentation, qui devient la société Agilent.
+De 1999 à 2005, la PDG Carly Fiorina est chargée d'acheter et de faire fusionner Compaq avec Hewlett-Packard (mai 2002) et de restructurer le groupe en réduisant l'effectif de 15 000 employés (10 % de l'effectif total).
+Le 9 février 2005, limogée par le conseil d'administration, elle touche près de 42 millions de dollars d'indemnités.
+
+2005-2010
+En juillet 2005, le nouveau PDG Mark Hurd poursuit la tâche de restructuration et d'optimisation du groupe par réduction des effectifs en supprimant 10 % des emplois.
+Le centre RD de HP dans le parc d'activités de Courtaboeuf (Paris-Saclay).
+En janvier 2008, Hewlett-Packard annonce le rachat de la société Exstream Software (en), éditeur de la solution "éditique Dialogue".
+En mai 2008, HP rachète EDS ce qui représente la plus importante opération de rachat d'une SSII jamais réalisée jusque là avec un montant de 13,9 milliards de dollars.
+Le 11 novembre 2009, Hewlett-Packard annonce l'acquisition de 3Com pour la somme de 2,7 milliards de dollars américain, opération concrétisée le 12 avril 2010.
+Le 28 avril 2010, HP rachète la société Palm pour 1,2 milliard de dollars. Le 9 février 2011, aucun des nouveaux modèles de smartphones de la gamme Palm, annoncés par HP, ne portent la marque Palm. Sur le site de Palm, les références à Palm ont toutes été remplacées par des références à la marque HP.
+Le 1er juin 2010, HP annonce un licenciement qui s'effectuera sur plusieurs années pour conduire à la suppression de 9 000 postes. HP mise sur des centres de données automatisés afin de "réinvestir dans la croissance et améliorer la valeur pour les actionnaires".
+Le 6 août 2010, Mark Hurd est contraint de démissionner. Cathie Lesjak, la directrice financière, assure l'intérim au poste de PDG.
+
+2010-2011
+Le 2 septembre 2010, HP annonce le rachat du constructeur américain de stockage 3PAR, après une bataille avec Dell, pour un montant de 2,4 milliards de dollars. Le 13 septembre 2010, HP annonce l'acquisition de ArcSign, société spécialisée en sécurité, pour 1,3 milliard USD.
+Le nouveau PDG, Léo Apotheker, prend ses fonctions le 30 septembre 2010.
+Le 18 août 2011, HP annonce le rachat de l'éditeur britannique Autonomy Corporation, spécialisé dans le cloud computing, pour un montant de 10,24 milliards de dollars réévalué en octobre à 12 milliards de dollars.
+
+2011-2013
+En août 2011, HP annonce la fin de la production de PC pour la fin de l'année, après l'échec de sa tablette, mais le 28 octobre 2011, HP annonce qu'elle conserve sa division PC du fait de la valeur ajoutée qu'elle représente.
+Le 22 septembre 2011, HP annonce le remplacement de Léo Apotheker par Meg Whitman, ancienne patronne d'eBay.
+Le 6 décembre 2011, HP annonce le rachat de la société allemande Hiflex, spécialisée dans les solutions logicielles de web-to-print et MIS pour les industries graphiques (en juillet 2013, HP et Hiflex annoncent l'arrêt de la commercialisation de la solution).
+Le 23 mai 2012, HP annonce une réduction d'effectif de 27 000 employés. Le 27 septembre 2012, ce plan social est revu a la hausse et touche 29 000 personnes
+Le 20 novembre 2012, HP annonce une perte de 12,6 milliards de US pour l'année 2012 dont 8,8 milliards de US liée à l'acquisition de la société Autonomy Corporation en 2011
+Au troisième trimestre 2012, HP aurait perdu son rang de numéro un mondial des PC au bénéfice de Lenovo; cependant HP conteste cette affirmation.
+
+2014-2015
+En mai 2014, HP annonce un nouveau plan de réduction d'effectifs de 11 000 à 16 000 personnes, s'ajoutant au 34 000 précédemment annoncés.
+En octobre 2014, HP annonce la scission de ses activités entre d'une part ses activités d'assembleurs de PC et de fabricants d'imprimantes sous le nom de HP Inc. et d'autre part ses activités dans les serveurs et dans les services informatiques sous le nom de Hewlett Packard Enterprise. HP annonce en parallèle la suppression de 5 000 postes.
+En mars 2015, HP acquiert Aruba Networks, une entreprise californienne spécialisée dans le Wi-Fi pour 2,7 milliards de dollars. En mai 2015, HP vend 51 % de sa filiale chinoise H3C Technologies à Tsinghua Unigroup pour 2,3 milliards de dollars.
+En septembre 2015, la firme annonce la suppression de 25 000 à 30 000 postes dans sa division de services aux entreprises.
+La séparation entre HP Inc et Hewlett Packard Enterprise est effective au 1er novembre 2015. Seuls les revenus liés aux activités de serveurs et stockage ont progressé, alors que ceux provenant des PC et imprimantes ont baissé de 14%.
+
+Depuis novembre 2015 - Nouvelles sociétés
+Depuis novembre 2015 Hewlett-Packard a été scindé en deux entités : HP Inc. pour tout ce qui concerne la microinformatique et l'impression ;; Hewlett-Packard Enterprise pour le reste des activités.
+
+RD, fabrication et distribution
+En 2014, HP a investi 3,4 milliards de dollars en recherche et développement. Serveurs (processeurs x86, PA-RISC); Réseaux informatiques, solutions de stockage, Gestion électronique des documents; Micro ordinateurs professionnels et grands publics; Périphérique informatique d'impressions, imprimantes, table traçante, imprimantes photos personnelles et professionnels; scanners et appareils photo numériques; Graveurs CD et graveurs DVD, lecteur DVD; Écran à cristaux liquides TFT, vidéo projecteurs; Calculatrices HP.; Lecteur de musique numérique; Soutien et développement de Linux et des logiciels libres : elle a engagé Bruce Perens, un ancien leader de Debian et cocréateur de l'Open Source Initiative. HP est devenu membre de platine de la Linux Foundation dans les années 2010; Logiciel de gestion de réseau et de monitoring "Openview (en)" et logiciels pour les réseaux de télécommunications "HP OpenCall (en)". Cette activité est en pleine croissance chez HP avec l'acquisition de "Peregrine (en)" en 2005 et de "Mercury Interactive (en)" en 2006.; En 2014, HP se lance dans le développement d'un nouveau genre d'ordinateur sous le nom de code : The Machine.
+
+Voir aussi
+
+Articles connexes: Garage Hewlett-Packard (musée des origines de Hewlett-Packard); HP-UX, le système d'exploitation UNIX développé par HP; Calculatrices HP; HP Linux Imaging and Printing (HPLIP), ensemble de pilotes pour imprimantes HP et outil de configuration associé.

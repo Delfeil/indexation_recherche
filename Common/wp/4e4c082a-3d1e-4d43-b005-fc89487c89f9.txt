@@ -1,0 +1,14 @@
+Kenneth Lane Thompson dit Ken Thompson (né le 4 février 1943 à La Nouvelle-Orléans) est un informaticien américain, concepteur des systèmes UNIX et Plan 9 ainsi que des langages B et Go.
+
+Biographie
+Après avoir obtenu ses diplômes à l'université de Californie à Berkeley, il rejoint les Laboratoires Bell en 1966. Il y travaille sur les systèmes d'exploitation à temps partagé, notamment Multics, puis Unix à partir de 1969 et plus tard Plan 9. En 1970, il met au point le langage B, précurseur du C.
+Il participe à de nombreuses évolutions du système Unix : portage sur PDP-11, réécriture en langage C, et introduction des pipes.
+Dans les années 1970, il crée Belle avec Joseph Condon, un ordinateur spécialisé dans le jeu d'échecs. Belle remporte à plusieurs reprises le championnat nord-américain des ordinateurs d'échecs entre 1978 et 1986. Il est également à l'origine des recherches sur les tables de finales.
+En 1979, ATT publie dbm, un moteur de base de données qu'il a initié.
+Il est également l'inventeur de l'éditeur ed et avec Rob Pike du codage de caractères UTF-8. Il reçoit conjointement avec Dennis Ritchie le prix Turing de l'ACM en 1983, et la médaille nationale de la technologie des États-Unis en 1998 pour leur travail sur le système Unix.
+Il a pris sa retraite des Bell Labs en 2000. Il a travaillé à Entrisphere comme conseiller scientifique jusqu'en 2006 et travaille désormais chez Google.
+C'est chez Google qu'il participe à la création d'un nouveau langage de programmation, issu du C appelé Go : "Chez Google, nous pensons que la programmation devrait être rapide, productive et surtout, 'fun'. C'est pourquoi nous sommes ravis de proposer ce nouveau langage de programmation expérimental. Les opérations de compilation sont presque instantanées, et le code compilé propose une vitesse de fonctionnement proche de celle du C".
+Il est corécipiendaire avec Dennis Ritchie du prix japonais de 2011.
+De par ses contributions, Ken Thompson est considéré par certains comme un demi-dieu ou übergeek.
+
+Récompenses: 1983 : prix Turing; 1998 : National Medal of Technology (États-Unis); 1999 : médaille Richard Hamming (IEEE); 1999 : prix Tsutomu Kanai (en) (Japon); 2011 : prix japonais dans la catégorie de l'Information et des Télécommunications.

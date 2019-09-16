@@ -1,0 +1,107 @@
+La planification est l'organisation dans le temps de la réalisation d'objectifs : dans un domaine précis ;; avec différents moyens mis en oeuvre ;; et sur une durée (et des étapes) précise(s).
+La caractéristique principale de la planification est la dimension temps. On peut également optimiser des éléments et des ressources sans utiliser la notion de "temps" ou de "durée". Optimiser le nombre de cartons dans un camion ne demande pas la dimension temporelle, a priori. Mais la notion de planification est indissociable de la notion de temps.
+Souvent ébauchée par une liste des choses à faire, elle se concrétise ensuite par un plan répondant de façon détaillée et concrète aux principaux aspects opérationnels du type QQOQCC : qui, quoi, où, quand, comment, combien.
+Le plan peut faire partie d'une stratégie, celle-ci étant plus générale et permanente et moins détaillée. On parle toutefois de planification stratégique lorsqu'une stratégie est particulièrement concrète et précise.
+Parmi les outils de planification, on trouve l'analyse (par exemple méthodes QQOQCCP, SWOT...), la prévision, le budget, les scénarios (entre lesquels choisir), les probabilités, les solutions alternatives ou de repli (pour être préparé en cas d'obstacle lors de l'exécution du plan), etc.
+
+Domaines d'applications
+De manière générale, une planification est faite pour programmer les actions liées à un projet. On peut donc la retrouver: stratégie militaire, ex: plan de bataille, plan de débarquement;; management d'entreprise ou d'autre organisation, ex : plan marketing, plan informatique, plan de financement, et plus généralement plan d'affaire - plan d'entreprise;; planification économique, ex : plan de développement, plan de redressement, plan d'austérité;; urbanisme, ex : plan d'urbanisation, schéma d'urbanisme;; planification patrimoniale: démarche d'anticipation et d'organisation du patrimoine d'un particulier, d'une entreprise ou d'un entité fiduciaire;; planification stratégique:; planification opérationnelle (ou planification tactique):; planification familiale:; et dans bien d'autres domaines d'activité (spectacle, sport, voyages...).
+
+La planification comme première fonction du management
+La planification - la "prévoyance" comme disait Henri Fayol - consiste à fixer des objectifs et à déterminer les actions permettant de les réaliser. La planification se fonde en général sur une analyse de la trajectoire passée de l'organisation, des ressources à sa disposition, de sa situation actuelle et des buts à atteindre.
+Outre la dimension principale qui est le temps (Quand), la planification prend forme selon ses autres dimensions que sont le périmètre des objectifs du projet (Quoi), les ressources (Qui), la manière et le chemin (Comment) et les obstacles possibles (Risques). 1) Analyse des opportunités et des menaces de l'environnement, ainsi que des forces et des faiblesses de l'entreprise (utilisation du modèle SWOT) ;; 2) Examen des options possibles et détermination de la stratégie appropriée ;; 3) Déclinaison de cette stratégie en plans opérationnels et en budgets ;; 4) Élaboration des plans détaillés ;; 5) Vérification régulière de l'atteinte des objectifs fixés par le plan ;; 6) Mise à jour du plan en fonction des évènements réels et actions correctives décidées en cas d'écart par rapport au plan initial.
+
+Dimensions d'une planification
+La planification est la première étape de la roue de Deming. Elle peut permettre, suivant les informations qui y sont documentées : de gérer l'enchaînement logique des tâches et de les répartir dans le temps ;; d'analyser les charges de travail demandées aux ressources ou moyens s'ils sont limités ;; d'exprimer un besoin en ressources ou moyens s'ils ne sont pas limités ;; de prendre en compte des contraintes extérieures au projet (commande client, livraison fournisseur, etc.) ;; de comparer les événements réels aux activités prévues (anticipation ou retard sur le début d'une activité, etc.) ;; d'analyser les conséquences d'un écart entre évènements réels et prévus (quelle conséquence sur le délai final de livraison, à la suite d'un retard sur une activité);; d'identifier des dates de début au plus tard, ou de fin au plus tôt, des activités;; de simuler des hypothèses optimistes (au plus court), pessimistes (au plus long), ou la plus probable (utilisation de la Méthode de Monte-Carlo) ;; d'analyser l'impact d'un aléa ou d'un risque s'il se transformait en problème ;; de prioriser les tâches.
+Une planification associée à un projet : "Outre la dimension principale qui est le temps (Quand), la planification prend forme selon ses autres dimensions que sont le périmètre des objectifs du projet (Quoi), les ressources (Qui), la manière et le chemin (Comment) et les obstacles possibles (Risques)."
+
+Techniques de planification
+Tout l'enjeu d'une planification est d'optimiser les cinq paramètres primordiaux pour un projet (QCDP : Qualité, Coût, Délai, Performance, Risques), sachant que : les ressources peuvent être limitées ;; la durée doit être souvent la plus courte possible ;; le coût de réalisation est toujours une contrainte ;; le bénéficiaire du projet exigera toujours une qualité correspondant à son besoin ;; la maîtrise des risques reste primordiale.
+
+Découpage en tâches
+Les différentes techniques de planification reposent toutes sur un découpage du projet en tâches élémentaires. Ces tâches sont ensuite ordonnancées, c'est-à-dire positionnées dans l'ordre logique de réalisation ou de fabrication (ex: on doit plâtrer les murs d'une maison avant d'appliquer les peintures).
+Ce sont ensuite ces différentes tâches qui font l'objet d'une planification. Il est donc essentiel que le découpage soit le plus pertinent possible : on pourra se tromper sur l'estimation de la charge d'une tâche et sur sa planification avec une marge d'erreur plus ou moins grande, mais si une tâche a été "oubliée" lors du découpage, la marge d'erreur sera alors de 100 %.
+
+Charge et délai
+Une fois le découpage en tâches obtenu (il peut être réalisé de manière itérative) on procède : à l'estimation de la tâche : quelle en sera la charge, le délai, le coût ;; à la planification de la tâche : de façon absolue (quand débute-t-elle, quand se termine-t-elle Le début d'une tâche peut être déterminé par la disponibilité de la ressource affectée à cette tâche) ou de façon relative (quelles sont les activités devant précéder cette tâche Quelles sont les activités succédant à cette tâche) ;; à l'allocation des ressources : par qui est-elle réalisée, avec quels moyens.
+L'estimation peut se faire, de manière complémentaire : en charge : combien de temps faut-il pour mener à bien cette tâche (par exemple, il faut 9 mois pour faire un bébé) ;; en délai : si les ressources étaient quasi-infinies mais utilisées de manière conventionnelle et usuelle, combien de temps s'écoulerait-il "raisonnablement" entre le début et la fin de la tâche (dans notre exemple, même si l'on disposait de nombreuses mamans, il faudrait toujours 9 mois pour faire un bébé).
+
+Utilisation de fourchettes
+Une planification est composée de tâches (le périmètre fonctionnel). Cette décomposition peut être réalisée récursivement pour obtenir des sous-tâches, qui prises en compte individuellement ont une durée de réalisation qui est connue ou envisageable.
+Pour limiter les risques de dépassement de planification, on va donner pour chacune de ces tâches : une durée minimale (optimiste) ;; une durée idéale ;; une durée défavorable (pessimiste).
+Ainsi, la durée globale prévue par la planification sera délimitée temporellement par ces trois types d'estimations.
+Ces estimations peuvent ensuite être ajustées selon plusieurs étapes (dérivées de la méthode COCOMO pour COnstructiv COst MOdel) : obtenir une cotation théorique du projet grâce à une métrique et une pondération selon la nature des tâches à réaliser et leur complexité ;; adapter cette cotation théorique au contexte du projet avec une grille d'évaluation de critères multiplicateurs fournissant des coefficients d'ajustement ;; répartir la cotation ajustée sur les différentes phases du projet grâce à une série de ratios de ventilation.
+
+Estimation des temps
+L'estimation de la charge ou du délai d'une tâche n'est pas une science exacte et repose la plupart du temps sur l'expérience des planificateurs.
+Cependant, quelques "lois" sont fréquemment observées : la loi de la chronobiologie : la durée de toute tâche planifiée aura une tendance naturelle à se rapprocher de l'échéance chrono-biologique la plus proche et l'horloge chrono-biologique est "discrète" et avance par à coups (les unités de temps chrono-biologique sont la journée, la semaine, la saison (congés), l'année). Illustrations : tout travail prévu pour trois jours prendra une semaine, inutile de planifier une étude de 8 jours : le travail sera fini le vendredi suivant, tout lancement prévu en mai se fera pendant l'été, etc.; le syndrome de l'échéance : une échéance officielle, prévue et annoncée, organisée suffisamment longtemps à l'avance, peut se transformer en échéance biologique pour les acteurs du projet et peut donc, en conséquence, être respectée. Mais le stress doit être suffisant pour vaincre les tendances biologiques internes, avec un caractère officiel (réunion de validation,..), public (réunion avec des tiers, présentation de résultats,..), incontournable (objet concret à produire, dossier, démonstration,..), et enfin, irréversible : les convocations sont parties depuis longtemps...; la théorie CQFD, ou "Ce qu'il fallait démontrer" : toute tâche commencée atteint un niveau d'avancement de 90 % environ, beaucoup plus rapidement que prévu... mais s'y stabilise beaucoup plus longtemps que prévu. Pour contrer cette dérive, un autre extrême (utilisé dans de très gros projets) consiste à mesurer l'avancement des tâches de façon binaire : finie - pas finie.
+
+Allocation des ressources
+Toute planification élaborée à l'aide de ces différentes techniques ou méthodes (souvent utilisées conjointement) doit être vérifiée sous un autre aspect : le taux d'occupation des ressources.
+Pour ce faire, on traduit la planification générale du projet en autant de planifications détaillées individuelles que de ressources affectées sur le projet, ces planifications individuelles permettent de vérifier un certain nombre de contraintes d'organisation du projet : les ruptures de charge : les personnes affectées sont-elles occupées à 100 % durant tout le temps où l'on a besoin d'elles (voir lissage et nivellement avec la méthode PERT) ;; le taux de charge : certaines ressources ne sont peut-être pas utilisables à 100 % de leur temps (réunions extérieures, fonctions de support, affectations partielles,..) ;; la montée en charge progressive : l'arrivée et la mobilisation des effectifs sur le projet doit suivre une courbe "en cloche" afin de faciliter la gestion des ressources humaines (intégration dans les équipes, formation ou apprentissage,..).
+Lorsque le besoin d'une ressource, partagée entre plusieurs tâches, est supérieur à la ressource disponible, il est nécessaire de lisser l'utilisation de cette ressource. Cela notamment en utilisant la marge des tâches non critiques (voir concepts de marges, tâches critiques et tâches non critiques dans PERT)
+Voici quelques solutions : Considérer que la contrainte n'en est pas une, en allouant ponctuellement de la ressource supplémentaire (travail intérimaire, location de matériel...) ;; Séquencer l'utilisation de la ressource : l'allouer d'abord aux tâches prioritaires (tâches critiques), puis après réalisation de celles-ci aux autres tâches ;; Allouer moins de ressource aux tâches non critiques et étaler la réalisation de celles-ci sur plus de temps ;; Combiner les précédentes solutions, par exemple :. 1) allouer la ressource nécessaire à la réalisation des tâches critiques ;; 2) pendant la réalisation des tâches critiques, allouer la ressource résiduelle aux tâches non critiques ;; 3) après réalisation des tâches critiques allouer toute la ressource aux tâches non critiques...
+Certaines tâches initialement non critiques peuvent alors devenir critiques.
+
+Critères d'évaluation d'un planning
+En gestion de projet, un planning doit refléter le compromis entre les attendus techniques, les coûts, les délais, la maîtrise des ressources, des risques et de l'environnement. Les tâches élémentaires à réaliser doivent être listées, ordonnancées et liées (WBS, PERT,...) en tenant compte des contraintes appliquées à chaque ressource. Des enchaînements de tâches sont alors obtenus, fixant la durée globale du projet. La suite de tâches dont la marge est nulle est alors appelée " le chemin critique du projet ". Tout retard sur une tâche critique (appartenant donc au chemin critique) est intégralement répercuté sur la durée du projet et donc sa date de fin.
+Afin de déterminer si votre planning est réaliste et sera un réel outil de pilotage de votre projet, 3 indicateurs simples peuvent être utilisés' :
+-1- Votre planning doit comprendre un chemin critique. (Priorité 1 : travaux à favoriser et dont les ressources peuvent être augmentées selon les enjeux).
+-2- Votre planning doit vous donner instantanément les marges (totale ou libre) de chaque travail. (Plus les marges sont faibles, plus les travaux sont prioritaires).
+-3- Votre planning, doit pouvoir être un outil de communication, simple et visuel (par exemple : commencer en haut à gauche pour finir en bas à droite).
+
+Différents types de planifications
+
+Planifications dynamiques
+Ils permettent de visualiser des prévisions et de suivre leur réalisation, les informations utilisées sont variables.
+
+La planification à gouttières
+C'est un panneau qui comporte des gouttières plus ou moins profondes destinées à recevoir des bandelettes de longueur variable.
+Il possède une partie pour mettre des fiches à épaules (fiche en T), une partie comportant l'échelle du temps en haut et un indicateur mobile pour repérer la date.
+Il est utilisé pour contrôler des absences du personnel, les congés payés, l'avancement de travaux ou la création d'un produit, etc.
+
+La planification à fond perforé ou à fils
+En partie gauche l'on place souvent des fiches à épaules (fiche en T). À chaque fiche correspond une ligne de perforations pour les prévisions et une autre pour les réalisations. Un fil élastique partant du bord gauche et tiré jusqu'à la position voulue permet de visualiser l'information.
+On l'utilise pour surveiller les stocks, les livraisons, la réalisation de travaux, etc.
+
+La planification magnétique
+C'est un panneau métallique quadrillé sur lequel on pose des éléments magnétiques de formes et de couleurs variées.
+On l'utilise pour visualiser l'occupation de locaux, l'entretien du matériel, etc.
+
+Planifications statiques
+Ils visualisent un état ou une situation à un moment donné, les informations sont figées.
+
+La planification pour fiches à épaules
+Ce panneau est constitué de bandes verticales métalliques en plastiques placées les unes à côté des autres. Ces bandes comportent des fentes dans lesquelles l'on place des fiches à épaules (fiches en T).
+On l'utilise pour les emplois du temps, pour les réservations de locaux ou de véhicules, etc.
+
+La planification électronique
+Aujourd'hui l'écran informatique a remplacé la planification murale. Il existe de nombreux logiciels de planification.
+Voici une liste des logiciels de planification les plus répandus dans le monde de l'entreprise : Planisware ;; Clarity ;; Primavera ;; Microsoft Project ;; MisterMind ;; DirectPlanning ;; Visual Planning.; Netside Planning.
+
+Un peu d'humour: loi de Weinberg : pour savoir combien de temps prend la réalisation d'un travail, faites votre estimation la plus fiable, ajoutez un, multipliez par deux, et arrondissez à la dizaine supérieure.; loi de Golub no 7 : un projet mal planifié prendra trois fois plus de temps que prévu pour son achèvement ; un projet soigneusement planifié prendra seulement deux fois le temps prévu.; loi de Murphy : S'il existe une façon de faire planter un système, alors ce système plantera tôt ou tard.; Loi de Hofstadter (Loi de glissement de planification) : Il faut toujours plus de temps que prévu, même en tenant compte de la Loi de Hofstadter.; Loi de Parkinson : le travail s'étale de façon à occuper le temps disponible pour son achèvement.
+
+Heuristiques utilisées en génie logiciel: COCOMO; Point de Fonction; Base de Connaissance constituée de métriques sur des développements antérieurs et similaires.
+
+Planification économique en politique
+La planification économique (ou économie planifiée) est un essai de rationalisation des projets économiques d'un pays censé répondre à l'idéal d'une parfaite coordination permettant la satisfaction de tous.
+Ses exigences en termes d'information (le planificateur doit littéralement tout connaître) et de contrôle (une fois le plan conçu, il doit être appliqué et suivi par l'ensemble des acteurs) correspondait notamment aux approches centralisatrices, qu'il s'agisse du jacobinisme ou du socialisme collectiviste "à la française".
+La méthode, initialement militaire et industrielle, a donc parfois été étendue à la société tout entière dans la première moitié du XXe siècle et jusqu'aux années 1980. À l'époque, les avantages "évidents" en termes de coordination et donc de réduction du gaspillage et des conflits faisaient penser que le modèle libéral était épuisé et que le modèle planifié (capitalisme soumis à la planification incitative ou fordisme d'un côté, Gosplan de l'autre) l'emporterait.
+La planification "pure" a disparu avec la régression du système soviétique à l'Est et le passage du fordisme vers le néolibéralisme à l'Ouest.
+
+Planification en intelligence artificielle
+La planification est une discipline de l'intelligence artificielle qui vise le développement d'algorithmes produisant une liste de tâches à accomplir pour résoudre un problème donné. Les logiciels de planification qui incorporent ces algorithmes se nomment planificateurs. Classiquement, un planificateur prend trois entrées définissant ainsi le problème : une description de l'état initial de l'environnement, une description d'un but à atteindre, et un ensemble d'actions possibles. Il peut alors en extraire une solution.
+
+Planification en psychologie
+La psychologie possède, dispose, de plusieurs termes pour parler de la planification.
+
+La structuration du temps en analyse transactionnelle
+Tout être humain est confronté, chaque jour, à la réalisation de ses besoins (voir la pyramide de Maslow comme exemple), notamment les besoins d'appartenance, de reconnaissance et de développement de soi en : minimisant les ressources nécessaires pour l'obtenir et en veillant aux dangers et aux risques de l'activité.; maximisant les chances de réussite, et donc obtenir, donner, éviter des signes de reconnaissance (positifs et négatifs).
+Pour cela il va plus ou moins consciemment structurer son temps. Eric Berne donne une clef utilisée par l'individu en proposant les 6 possibilités de structuration du temps de l'analyse transactionnelle : le retrait, le rituel, les passe-temps, l'activité, les jeux psychologiques, l'intimité classées par ordre croissant de signes de reconnaissance, d'implication émotionnelle de l'individu et de risques psychologiques.
+
+Voir aussi
+
+Citations
+Plans are nothing; planning is everything. (Les plans ne sont rien ; la planification est tout.) - Dwight D. Eisenhower
+
+Articles connexes: Gosplan (planification économique en URSS); Rétro-planification; Gestion du risque; Loi de Hofstadter; Diagramme de cycle; Diagramme de Gantt; Graphicage et habillage; Gestion de projet. Portail de l'économie; Portail du management; Portail du temps; Portail des neurosciences.

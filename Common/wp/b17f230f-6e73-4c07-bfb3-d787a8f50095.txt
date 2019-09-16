@@ -1,0 +1,21 @@
+Un Mutex (anglais : Mutual exclusion, Exclusion mutuelle) est une primitive de synchronisation utilisée en programmation informatique pour éviter que des ressources partagées d'un système ne soient utilisées en même temps. Son implémentation varie selon les systèmes (masquage des interruptions, lecture-écriture en un cycle, etc.)
+Ces algorithmes permettent de réguler l'accès aux données, en permettant par exemple qu'une seule routine y accède à la fois.
+
+Définition
+Un Mutex M.M.S est une primitive de synchronisation utilisée en programmation informatique pour éviter que des ressources partagées d'un système ne soient utilisées en même temps.
+Certains algorithmes utilisent un état pour commander l'exécution : les mutex doivent savoir si les programmes concernés sont occupés (busy) ou s'ils ont terminé et sont en attente (wait). De tels algorithmes sont par exemple : l'algorithme de Dekker ;; l'algorithme de Peterson ;.
+La plupart des mutex ont des effets secondaires, par exemple les sémaphores (mutex avec un compteur) qui peuvent bloquer l'exécution, créer des goulots d'étranglement, voire ne pas remplir leur rôle en permettant tout de même l'accès aux données protégées. Un autre effet est le blocage total des ressources, si le programme qui les utilisait n'a pas informé le système qu'il n'en avait plus besoin.
+
+Interblocage
+L'interblocage (de l'anglais deadlock) se produit, par exemple, lorsqu'un thread T1 ayant déjà acquis la ressource R1 demande l'accès à une ressource R2, pendant que le thread T2, ayant déjà acquis la ressource R2, demande l'accès à la ressource R1. Chacun des deux threads attend alors la libération de la ressource possédée par l'autre. La situation est donc bloquée.
+Plusieurs méthodes existent pour les éviter : imposition de l'ordre d'acquisition des ressources ;; élimination lors de la conception par une analyse détaillée des algorithmes ;; système préventif qui détecte un risque d'interblocage avant que celui-ci ne se produise durant l'exécution ;; système de récupération si un interblocage se produit, le système doit pouvoir repartir dans un état valide.
+Le deadlock ne se limite pas qu'aux primitives de synchronisation comme les mutex, il peut également survenir lors d'inversions de priorité dans le cadre de l'ordonnancement des tâches.
+
+Un problème concret : Mars Pathfinder
+En 1997, la mission Mars Pathfinder rencontre un problème alors que le robot est déjà sur Mars. Après un certain temps, des données sont systématiquement perdues. Les ingénieurs découvrent alors un bug lié à la synchronisation de plusieurs tâches. Les éléments incriminés étaient les suivants : une mémoire partagée était protégée par un mutex; une gestion de bus sur la mémoire partagée, cette routine avait une grande priorité; une écriture en mémoire partagée (récupération de données), cette écriture avait la priorité la plus basse; une troisième routine de communication, avec une priorité moyenne qui ne touchait pas à la mémoire partagée.
+Il arrivait parfois que l'écriture (priorité faible) s'approprie le mutex. La gestion du bus (priorité haute) attendait ce mutex. La commutation de tâches laissait alors la routine de communication (priorité moyenne) s'exécuter. Or pendant ce temps, le mutex restait bloqué puisque les ressources étaient allouées à la routine de priorité basse. La gestion de bus ne pouvait donc plus s'exécuter et après un certain temps d'attente (une protection insérée par les ingénieurs via un chien de garde), le système effectuait un redémarrage. Un tel problème est connu sous le nom d'inversion de priorité.
+Le problème n'était pas critique et le code fut corrigé à distance. Toutefois dans d'autres situations, les conséquences auraient pu être catastrophiques. On a ensuite constaté le fait que le problème était déjà survenu lors des essais sans avoir été corrigé.
+
+Voir aussi
+
+Articles connexes: Les sémaphores d'Edsger Dijkstra ;; Mutex réentrant ;; Futex ;; Algorithmes Lock-free et wait-free ;; Algorithme de Naimi-Trehel ;; Calcul parallèle ;; Record locking.

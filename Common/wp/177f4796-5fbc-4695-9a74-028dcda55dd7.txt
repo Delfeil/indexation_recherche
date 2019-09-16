@@ -1,0 +1,51 @@
+Le Creative Problem Solving est une méthode créative de résolution de problème élaborée par Alex Osborn et Sid Parnes.
+Elle allie à la fois un processus structuré, des techniques, et des rôles attribués aux différents intervenants dans ce processus.
+
+Creative Problem Solving (résolution de problèmes par la créativité)
+En 1942, le publicitaire Alex Osborn décrit dans son livre How To Think Up, puis dans Applied Imagination en 1953, le brainstorming ("l'attaque d'un problème dans un style commando") qui est à l'origine du Creative Problem Solving. Cette méthode, imaginée pour aider des "créatifs" en panne d'inspiration, deviendra, avec l'aide de Sidney Parnes, une méthode créative de résolution de problème.
+Le modèle a évolué : il est parfois décrit en 6 étapes (Creative Education Foudation), parfois en 8 étapes, parfois plus, mais le processus reste le même, les grandes étapes restant identiques, seules les sous-étapes et leur positionnement dans le processus variant parfois.
+Le Creative Problem Solving est utilisé : pour la résolution de problèmes ;; pour l'innovation ;; comme méthode de travail pour gérer des projets seuls, en petits groupes ou en grands groupes ;; comme check list pour ne pas négliger les étapes que nos tendances personnelles et culturelles nous font zapper.
+
+Principe et méthode
+
+Trois bulles : Clarifier l'objectif, Produire des solutions, Se préparer à l'action
+Les grandes étapes du Creative Problem Solving que sont la clarification de l'objectif, la recherche de solutions et la préparation à l'action proviennent du mariage de deux processus, décrits par Henri Poincaré (processus créatif scientifique : imprégnation, incubation, illumination et expérimentation) d'une part, et par Graham Wallas et Richard Smith d'autre part (processus créatif artistique : préparation, incubation, intimation, illumination, vérification).
+
+8 étapes (selon le modèle d'Olwen Wolfe, validé par Sid Parnes)
+Les huit étapes principales sont : 1) Besoins; 2) Données; 3) Objectifs; 4) Idées; 5) Critères; 6) Solutions; 7) Adhésion; 8) Plan d'action.
+
+2 respirations : divergence et convergence
+Autre caractéristique majeure du Creative Problem Solving, chaque étape, comme chaque sous-étape, est systématiquement scindée en deux respirations. "Chaque étape du CPS est comme une grande respiration. D'abord l'inspiration avec la large récolte, puis l'expiration avec le filtrage pour garder ce qui est bénéfique." nous dit Olwen Wolfe. C'est ce qu'on appelle la divergence et la convergence. L'inspiration, comme l'expiration ont leurs règles : à l'inspiration (divergence), on suspend le jugement, on vise la qualité par la quantité, on cherche les idées inédites, on combine les idées, et enfin, on note tout; à l'expiration (convergence), on se réfère aux objectifs, on améliore les idées, on juge constructivement, on cherche l'inédit et on est déterminé.
+Il est particulièrement important que ces deux temps ne soient pas mélangés : cela permet de s'obliger à explorer le champ des possibilités et permet de mieux fonctionner en groupe.
+
+3 rôles principaux
+Trois grands rôles sont définis dans le Creative Problem Solving :
+
+Le client
+Le client est le détenteur du problème, le porteur du projet. C'est lui qui porte le besoin de départ. Il est recommandé, dans l'application du Creative Problem Solving, de faire intervenir le client tout au long du processus, afin qu'il soit impliqué et motivé.
+
+L'animateur
+L'animateur ou facilitateur, qui gère le processus, est garant de la bonne application de la méthode et du choix des techniques, ainsi que des différentes stratégies de convergence et de définition du groupe ressource, en fonction de l'objectif du client.
+
+Le groupe ressource
+Le groupe ressource va aider le client à différentes étapes, en fonction des choix faits par l'animateur et le client. Le groupe ressource intervient assez classiquement dans la bulle "Produire des solutions", mais il peut aussi participer à la collecte de données et à la formulation de l'objectif, ou bien apporter sa contribution au moment de la préparation à l'action. Tout au long du processus, le groupe ressource peut varier, en taille et en types de participants (équipe projet, équipe projet étendue, groupe ressource "externe", etc.). Différentes stratégies peuvent être définies pour l'utilisation et la participation du groupe ressource : uniquement dans les moments de divergence, à certains moments de convergence, à tout moment, conjointement avec le client, séparément du client, etc.
+
+Techniques
+On peut citer notamment :
+
+Techniques de clarification
+L'échelle d'abstraction : faire glisser alternativement le problème sur une échelle, vers le plus général, puis vers le plus précis. On relance chaque phrase plutôt avec des "pourquoi " vers l'abstrait, avec des "comment " vers le concret.
+Le story boarding
+Le Wing tunnel
+
+Techniques d'idéation
+Le consultant virtuel
+La connexion à une image
+Les pires idées et les bonnes idées
+
+Techniques de développement
+Le PPCO (Plus, Potentiels, Craintes, Options)
+La cible
+Le manager de risques
+
+Voir aussi: J'innove comme on respire; The Art Of Thought.

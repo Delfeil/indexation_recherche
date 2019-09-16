@@ -1,0 +1,119 @@
+En mathématiques, un ensemble fini est un ensemble qui possède un nombre fini d'éléments, c'est-à-dire qu'il est possible de compter ses éléments, le résultat étant un nombre entier. Un ensemble infini est un ensemble qui n'est pas fini.
+Ainsi l'ensemble des chiffres usuels (en base 10): (0,1,2,3,4,5,6,7,8,9).
+qui possède 10 éléments, est fini. De même l'ensemble des lettres de l'alphabet qui possède 26 éléments.
+L'ensemble de tous les nombres entiers naturels: (0,1,2,3,.. 10,.., 100,..).
+est, lui, infini : on peut toujours aller au-delà d'un nombre entier. De même, l'ensemble de tous les mots que l'on peut former avec les 26 lettres de l'alphabet, sans se préoccuper de leur signification, et sans restreindre leur longueur, est lui aussi infini.
+Plus formellement, un ensemble E est dit fini s'il existe un entier naturel n et une bijection entre E et l'ensemble des entiers naturels strictement plus petits que n. Cet entier n, qui est alors unique, est appelé le nombre d'éléments, ou cardinal, de l'ensemble fini E. Établir une telle bijection revient à étiqueter les éléments de E avec les entiers de 0 à n - 1 ou, ce qui revient au même, avec les entiers de 1 à n.
+Une propriété importante des ensembles finis est donnée par le principe des tiroirs de Dirichlet : une fonction d'un ensemble fini dans un ensemble fini de cardinal strictement inférieur ne peut être injective. Cette propriété est utile en particulier en combinatoire, qui plus généralement étudie les structures finies.
+La définition d'ensemble fini fait référence aux entiers naturels, mais certains mathématiciens et logiciens ont souhaité fonder les mathématiques sur la notion d'ensemble, qui leur semblait plus primitive. Des définitions d'ensemble fini ou d'ensemble infini ont été proposées, qui ne faisaient pas référence aux entiers. La première d'entre elles est celle de Dedekind, qui s'appuie sur le principe des tiroirs : un ensemble est fini au sens de Dedekind s'il ne peut pas être mis en bijection avec l'une de ses parties propres. Mais les ensembles finis au sens de Dedekind ne sont finis au sens usuel que dans une théorie des ensembles munie d'une forme faible de l'axiome du choix.
+Les développements de la théorie des ensembles, après sa première axiomatisation par Ernst Zermelo, ont permis ensuite de définir les entiers dans celle-ci, et donc la définition donnée en termes d'entiers peut se voir finalement comme une définition purement ensembliste. Par ailleurs, d'autres caractérisations d'ensemble fini ont été données, comme celle d'Alfred Tarski, dont l'équivalence avec la définition usuelle n'utilise pas l'axiome du choix.
+
+Cardinal d'un ensemble fini
+
+Définitions
+Pour tout entier naturel n, on va noter, dans ce paragraphe et les suivants, Nn - (x N x n) - (0,.. n - 1) l'ensemble des n premiers entiers naturels (N désigne l'ensemble des entiers naturels). On dit que "E est un ensemble fini de cardinal n, quand E est équipotent à Nn, c'est-à-dire en bijection avec cet ensemble."
+En particulier, l'ensemble vide est l'unique ensemble fini de cardinal 0. Pour n non nul, il est équivalent de dire que E est équipotent à l'ensemble (1,.. n) des n premiers entiers naturels non nuls.
+Cette notion est stable par équipotence : un ensemble en bijection avec un ensemble fini de cardinal n est lui-même fini de cardinal n, la composée de deux bijections étant une bijection.
+On dit alors que "E est un ensemble fini quand il existe un entier naturel n tel que E soit fini de cardinal n."
+Un ensemble qui n'est pas fini est dit infini. On va voir que la classe des ensembles finis est stable par les opérations usuelles de la théorie des ensembles : on ne peut introduire d'ensemble infini par ces opérations, sauf à utiliser un ensemble dont on sait déjà qu'il est infini.
+Mais il est plus commode de montrer d'abord les propriétés les plus évidentes des ensembles finis et de leurs cardinaux, en particulier l'unicité du cardinal c'est-à-dire, pour un ensemble E fini, l'unicité de l'entier n tel que E est équipotent à Nn. Cette unicité, qui permet de parler du cardinal d'un ensemble fini E, est l'objet du paragraphe suivant.
+La définition d'ensemble fini choisie présuppose l'existence (ou la définition ensembliste) des entiers, et l'on utilise dans la suite, en plus des propriétés fondamentales comme la récurrence, quelques propriétés arithmétiques élémentaires, à commencer par celles de la relation d'ordre usuelle.
+
+Unicité du cardinal
+Le premier objectif est de montrer l'unicité du cardinal d'un ensemble fini. Pour cela, on démontre le lemme suivant, dont l'énoncé ne présuppose pas cette unicité.
+Lemme. - S'il existe une injection d'un ensemble fini de cardinal p dans un ensemble fini de cardinal n alors p n.
+À bijection près, il s'agit simplement de démontrer que s'il existe une injection de Np dans Nn alors p n. On procède par récurrence sur n. Si n - 0, le résultat se déduit du fait qu'il n'existe aucune application d'un ensemble non vide dans l'ensemble vide. On suppose le résultat pour Nn. Soit j une injection de Np dans Nn+1. On doit montrer que p n + 1, ce qui est immédiat si p - 0. Supposons donc p 0. Si j(p - 1) - n, j définit par restriction une injection de Np-1 dans Nn donc, par hypothèse de récurrence, p - 1 n. Sinon, on se ramène à ce cas en composant j avec la transposition qui échange n et j(p - 1).
+Ce lemme peut être vu comme une formulation du principe des tiroirs de Dirichlet, dont l'énoncé usuel est plutôt la contraposée :
+On en déduit immédiatement l'unicité du cardinal. En effet, si un ensemble est à la fois de cardinal n et p alors, d'après le lemme, p n et n p.
+Proposition. - Si E est un ensemble fini, alors il existe un unique entier naturel n tel que E soit de cardinal n.
+Cet entier est appelé le cardinal de E (ou son nombre d'éléments), et on le note dans la suite de cet article card E (la notation pour le cardinal varie suivant les ouvrages, on trouve n - card(E), n - E, n - E, ou même la notation originelle de Georg Cantor n - E).
+
+Comparaison des cardinaux
+Toute partie d'un ensemble fini est finie. Plus généralement :
+Proposition. - S'il existe une injection d'un ensemble F dans un ensemble fini E, alors F est fini et card F card E.
+Il suffit (à bijection près) de démontrer que toute partie de Nn est finie (son cardinal sera nécessairement inférieur ou égal à n, d'après le paragraphe précédent). On procède à nouveau par récurrence sur n. Si n - 0, c'est-à-dire si Nn - , le résultat est immédiat. On suppose le résultat pour Nn. Soient F une partie de Nn + 1 et G - F-(n). Par hypothèse de récurrence, G est fini. Notons q son cardinal. Si n F, F - G. Si n F, F est égal à G(n), qui est fini de cardinal q + 1 (on complète la bijection de G dans Nq en associant à n l'élément q de Nq+1).
+Toute image (par une application) d'un ensemble fini de cardinal n est un ensemble fini, de cardinal inférieur ou égal à n. Ou, ce qui est équivalent :
+Proposition. - S'il existe une surjection d'un ensemble fini E dans un ensemble F, alors F est fini et card F card E.
+En effet, on peut se restreindre sans perte de généralité au cas où E - Nn. On construit alors une réciproque à droite de la surjection, en associant à tout élément de F son plus petit antécédent (ce sont des entiers). On a ainsi une injection de F dans Nn, d'où le résultat, d'après la proposition précédente.
+
+Clôture sous les opérations usuelles
+Une première remarque est que, comme tout sous-ensemble d'un ensemble fini est fini, on obtient directement la clôture par toute opération qui conduit à construire un sous-ensemble d'un des ensembles d'origine, comme l'intersection, ou la différence ensembliste.
+
+Union
+On va montrer que la réunion de deux ensembles finis est finie, mais pour cela on envisage d'abord l'union disjointe (la réunion de deux ensembles disjoints), pour laquelle le cardinal correspond à l'addition :
+
+Union disjointe
+Si E et F sont deux ensembles finis disjoints, E de cardinal n et F de cardinal p alors leur réunion E F est finie et de cardinal n + p. Si E F - , alors card(E F) - card E + card F.
+Si f est une bijection de E dans Nn et g une bijection de F dans Np et si E et F sont disjoints alors l'application de E F dans Nn + p qui à x associe f(x) si x appartient à E et n + g(x) si x appartient à F est une bijection.
+
+Différence et intersection
+Si E est un ensemble fini et F un ensemble quelconque, leur intersection E F, ainsi que leur différence E-F, sont des sous-ensembles de E donc finis. Comme E est la réunion disjointe de ces deux ensembles, on en déduit que : card E - card (E F) + card (E-F).
+
+Union binaire
+L'union de deux ensembles finis E et F peut se ramener à une réunion disjointe d'ensembles dont nous avons vu qu'ils étaient finis. En effet: E F - (E-F) (E F) (F-E).
+On en déduit donc que si E et F sont deux ensembles finis, leur réunion est finie. De plus : card(E F) - card E + card F - card(E F).
+Union finie
+On en déduit par récurrence qu'une réunion finie d'ensembles finis est finie. La formule obtenue pour le cardinal de la réunion se généralise.
+
+Produit cartésien
+Si E et F sont finis, de cardinaux respectifs n et p, leur produit cartésien E F est fini de cardinal np.
+Il suffit de montrer le résultat pour les ensembles d'entiers Nn et Np. On vérifie que l'application qui au couple (x, y) associe x+ny établit une bijection de Nn Np dans Nnp.
+
+Ensemble des parties
+L'ensemble des parties P(E) d'un ensemble fini E de cardinal n est un ensemble fini de cardinal 2.
+De façon analogue aux cas précédents on peut se ramener à E - Nn, puisque si f est une bijection d'un ensemble A dans un ensemble B, elle induit une bijection de P(A) dans P(B), en associant à un sous-ensemble X de A le sous-ensemble de B des images par f des éléments de X.
+On donne deux démonstrations de ce résultat, la première présuppose un peu plus de connaissances arithmétiques. À un ensemble X de Nn on associe par f l'entier dont la représentation binaire aura 1 comme i-ème chiffre quand i appartient à X, 0 sinon : f (X) - i X 2 i (-displaystyle f(X)--sum -(i-in X)2(i)).
+La valeur maximale atteinte par f l'est pour E (tous les chiffres de la représentation à 1) et f(E)-2 - 1. Un entier strictement inférieur à 2 à une représentation binaire de longueur inférieure à n. L'écriture binaire d'un entier est unique. On en déduit que La fonction f établit donc une bijection de P(E) dans N2n.
+On peut aussi se servir uniquement de la définition par récurrence de la fonction exponentielle :sur les entiers naturels. La fonction qui à un entier naturel n associe l'entier naturel 2 est l'unique fonction de N dans N qui satisfait les équations : 2-1 ; 2-22.
+Il suffit donc de montrer que la fonction qui à un ensemble E de cardinal n associe le cardinal de son ensemble des parties P(E) satisfait ces équations.
+C'est vrai pour l'ensemble vide, seul ensemble de cardinal 0, dont l'ensemble des parties est le singleton ayant pour seul élément cet ensemble.
+Soit E un ensemble de cardinal n +1, et qui a donc au moins un élément soit e. Un sous-ensemble de E a ou n'a pas e pour élément. Ceci permet de partager en deux l'ensemble des parties de E : P (E) - P (E (e)) (X (e) X P (E (e))) (-displaystyle (-mathcal (P))(E)-(-mathcal (P))(E-setminus -(e-))-cup -left-(X-cup -(e-)-,-mid -,X-in (-mathcal (P))(E-setminus -(e-))-right-)).
+Ces deux ensembles sont disjoints et de même cardinal, par la bijection qui consiste à ajouter e, d'où le résultat. On a bien montré que, si e n'appartient pas à A de cardinal fini : c a r d P - 1 ; c a r d P (A (e)) - 2 c a r d P (A) (-displaystyle -mathrm (card) -,(-mathcal (P))(-varnothing)-1- ;- - -mathrm (card) -,(-mathcal (P))(A-cup -(e-))-2-cdot -mathrm (card) -,(-mathcal (P))(A)).
+et donc si E est un ensemble fini : c a r d P (E) - 2 c a r d E (-displaystyle -mathrm (card) -,(-mathcal (P))(E)-2(-mathrm (card) -,E)).
+Ensemble des applications d'un ensemble fini dans un ensemble fini
+L'ensemble des applications d'un ensemble fini de cardinal n dans un ensemble fini de cardinal p, est un ensemble fini de cardinal p.
+Il y a une bijection évidente de l'ensemble des parties d'un ensemble E dans l'ensemble des applications de E dans (0,1) en associant à un sous-ensemble de E sa fonction caractéristique. C'est le cas particulier p - 2. Le cas général se traite de façon analogue à ce qui a été fait pour l'ensemble des parties.
+
+Axiomatisation
+
+Diverses caractérisations des ensembles finis
+
+Les entiers et les bons ordres
+Si l'on reprend la définition d'ensemble fini en théorie des ensembles d'un point de vue plus axiomatique, elle repose sur la définition qu'on y donne des entiers. Dans la théorie de Zermelo ou de Zermelo-Fraenkel, l'ensemble des entiers naturels, noté , est le plus petit ensemble auquel appartient 0 et clos par successeur, où 0 est l'ensemble vide et le successeur d'un ensemble x est l'ensemble obtenu en lui ajoutant x comme élément : le successeur de x est x (x). On montre que l'ensemble des entiers naturels est bien ordonné par l'appartenance (comme ordre strict), et donc ses éléments, qui sont aussi des sous-ensembles, le sont aussi. L'ordre large correspondant est l'inclusion ensembliste.
+Une caractérisation plus directe, et qui ne nécessite pas l'axiome de l'infini, est de définir les entiers comme les ordinaux finis : Un ordinal est fini quand tout ordinal non nul qui lui est inférieur ou égal a un prédécesseur(2).
+ou, ce qui est équivalent, quand toute partie non vide de cet ordinal admet un plus grand élément, autrement dit : Un ordinal est fini quand son ordre opposé est un bon ordre.
+On appellera dans la suite entiers de von Neumann les ordinaux finis. En présence de l'axiome de l'infini (déjà dans la théorie de Zermelo), ce sont les éléments de.
+Tout ensemble fini, c'est-à-dire en bijection avec un entier de von Neumann, est muni, en transférant l'ordre par la bijection, d'un bon ordre dont l'opposé est un bon ordre. Réciproquement, tout ensemble muni d'un tel ordre est fini, car tout bon ordre est isomorphe à un ordinal. Par conséquent : Un ensemble est fini si et seulement s'il existe un bon ordre sur celui-ci dont l'ordre opposé est aussi un bon ordre.
+Tous les ordres totaux sur un ensemble fini étant isomorphes, on en déduit : Un ensemble bien ordonné est fini si et seulement si l'ordre opposé est aussi un bon ordre.
+Les définitions de Tarski et de Russell-Whitehead
+Alfred Tarski a donné en 1924 une définition des ensembles finis (reprise dans certains ouvrages plus récents) qui ne réfère pas à une définition préalable des entiers et qui s'avère équivalente à la précédente dans une théorie des ensembles sans axiome du choix : Un ensemble E est fini au sens de Tarski quand toute famille non vide de parties de E admet un élément minimal pour l'inclusion,.
+ou encore (par passage aux complémentaires) quand toute famille non vide de parties de E admet un élément maximal pour l'inclusion.
+Cette définition est équivalente à une caractérisation inductive des ensembles finis, donnée par Russell et Whitehead dans le volume II (1912) des Principia Mathematica : Un ensemble E est fini (au sens de Russell et Whitehead) quand E appartient à toute famille S de parties de E qui vérifie les deux conditions : S (l'ensemble vide appartient à S) ;; Si A S et x E, alors A (x) S (si A appartient à S, toute partie obtenue en ajoutant un élément de E à A appartient également à S).
+On montre l'équivalence entre les trois définitions données d'ensemble fini : en bijection avec un entier de von Neumann, fini au sens de Tarski, fini au sens de Russell-Whitehead, et ceci dans une théorie des ensembles faible (la théorie de Zermelo sans l'axiome de l'infini), en particulier sans l'axiome du choix.
+Preuve de l'équivalence entre les trois définitions
+Montrons d'abord, par récurrence, que tout entier de von Neumann n - donc aussi tout ensemble en bijection avec n - est fini au sens de Tarski. L'entier 0 (l'ensemble vide) est évidemment fini au sens de Tarski. Supposons maintenant que n - m (m) avec m fini au sens de Tarski, et soit S une famille de parties de n. Notons S' la sous-famille constituée des parties de m qui appartiennent à S, et S" la famille des parties E de m telles que E (m) appartient à S. Si S est non vide alors S' ou S" est non vide. Dans le premier cas, S' admet un élément minimal, qui est aussi minimal dans S. Dans le second cas, S" admet un élément minimal E, et E (m) est un élément minimal de S.
+Montrons maintenant que si E est fini au sens de Tarski, alors E est fini au sens de Russell-Whitehead. Soit S une partie de E vérifiant les deux conditions de Russell-Whitehead. Comme S, S est non vide ; elle a donc un élément maximal I. D'après la seconde condition de Russell-Whitehead, I - E, c'est-à-dire que E appartient à S.
+Enfin, pour tout ensemble E, l'ensemble S des parties finies de E (ses parties équipotentes à un entier de von Neumann) satisfait les deux conditions de Russell-Whitehead, donc si E est fini au sens de Russell-Whitehead alors il est équipotent à un entier de von Neumann.
+
+La définition de Dedekind
+Un ensemble E est dit fini au sens de Dedekind (en) s'il ne peut pas être mis en bijection avec l'une de ses parties propres (ou encore : toute injection de E dans lui-même est surjective). Dedekind est le premier à donner une définition des ensembles infinis, en 1888 dans Was sind und was sollen die Zahlen, et celle-ci revient à prendre le principe des tiroirs de Dirichlet comme caractérisation des ensembles finis.
+Si E est fini (au sens utilisé précédemment), alors E est fini au sens de Dedekind, mais la réciproque nécessite un axiome supplémentaire (plus faible cependant que l'axiome du choix dénombrable).
+
+Les propriétés de clôture du point de vue des axiomes de la théorie des ensembles
+On peut réinterpréter et étendre les propriétés de clôture de la classe des ensembles finis au regard des axiomes de la théorie des ensembles. Pour obtenir des propriétés vraiment satisfaisantes, il faut considérer la classe des ensembles héréditairement finis, c'est-à-dire les ensembles qui sont non seulement finis, mais dont les éléments sont aussi des ensembles finis et ainsi de suite.
+
+Les premiers axiomes
+En dehors de l'axiome d'extensionnalité et de l'axiome de fondation, les axiomes de la théorie des ensembles ZFC peuvent s'interpréter comme des propriétés d'existence d'ensembles, ou de clôture sous certaines constructions.
+Les ensembles finis satisfont le schéma d'axiomes de compréhension, puisque tout sous-ensemble d'un ensemble fini est fini (en particulier l'ensemble vide), l'axiome de la paire, puisqu'une paire de deux ensembles quelconques est finie, l'axiome de l'ensemble des parties, comme vu ci-dessus, mais pas l'axiome de la réunion, puisqu'il n'y a pas de raison que les éléments d'un ensemble fini soient des ensembles finis. Si cette condition est satisfaite on a vu que l'axiome est réalisé.
+
+Le schéma de remplacement
+L'image d'un ensemble fini par une classe fonctionnelle est un ensemble fini : c'est la version pour les ensembles finis du schéma d'axiomes de remplacement. Celui-ci a pour conséquence que la classe fonctionnelle en question est une fonction, et nous avons vu que l'image d'un ensemble fini par un ensemble fini est fini. cependant, dans le cas des ensembles finis, le schéma de remplacement n'ajoute rien. On peut démontrer directement, en utilisant l'axiome de la paire et de la réunion, que la classe fonctionnelle est finie, et donc le schéma de remplacement est superflu (il faut également le schéma de compréhension).
+
+L'axiome du choix
+Étant donné un ensemble fini E - (A1... An) d'ensembles non vides, une fonction de choix f sur E associe à Ai un élément ai est une fonction de graphe fini. L'existence d'une fonction de choix pour un ensemble fini se démontre sans utiliser l'axiome du choix. La fonction se définit par récurrence, en utilisant à chaque étape que l'élément de E en jeu est un ensemble non vide. Il est juste besoin de supposer que l'ensemble sur lequel est défini la fonction de choix est fini.
+En revanche, on ne peut se passer de l'axiome du choix pour obtenir une fonction de choix sur un ensemble infini même s'il est constitué seulement d'ensembles finis.
+
+Les ensembles héréditairement finis
+Les ensembles héréditairement finis sont des ensembles non seulement finis, mais dont les éléments sont eux-mêmes finis, et ainsi de suite. Plus formellement, dans la théorie des ensembles de Zermelo-Fraenkel, la classe des ensembles hériditairement finis est la plus petite classe contenant l'ensemble vide et close par passage à l'ensemble des parties. On montre que c'est un ensemble en utilisant l'axiome de l'infini et le schéma de remplacement. On la note V, c'est le niveau de la hiérarchie de von Neumann, plus précisément : V0 - ; Vn+1 - P(Vn); V - n N Vn.
+L'entier de von Neumann n appartient à Vn+1, les entiers de von Neumann sont donc héréditairement finis. L'ensemble V des héréditairement finis est lui-même dénombrable, au sens de la théorie, c'est-à-dire que l'on montre l'existence d'une bijection entre V et.
+On montre que, dans un modèle de ZF, V muni de l'appartenance du modèle restreinte à V est un modèle de tous les axiomes de ZF excepté l'axiome de l'infini. Celui-ci n'est donc pas démontrable à partir des autres axiomes de ZF.

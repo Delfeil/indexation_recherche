@@ -1,0 +1,4 @@
+Le micro-forum est un dérivé allégé du forum, qui permet d'interagir facilement et rapidement avec d'autres internautes sur un sujet via une plateforme de micro-forum généraliste.
+Il s'agit d'un hybride entre le chat (simple et rapide d'utilisation, une seule file par thème) et le forum (les messages persistent on peut donc communiquer sans être connecté en même temps).
+La principale différence avec le microblog étant qu'il s'agit du sujet qui attire les participants (qui n'étaient pas forcément en contact avant la discussion) et non l'inverse.
+Le but d'une plateforme de micro-forum est donc de rassembler de nombreux sujets, du plus général au plus particulier, au sein d'une seule plateforme et de faciliter ainsi l'accès aux connaissances les plus diverses. Portail d'Internet.

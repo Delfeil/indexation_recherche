@@ -1,0 +1,10 @@
+En informatique, on nomme lien matériel (en anglais hard link) un pointeur sur des données physiques d'un volume de stockage. Ce pointeur est relatif au volume physique ou logique considéré, ce qui permet le changement de support sans rupture du lien en question.
+La plupart des anciens systèmes de fichiers, ne possédaient que des liens matériels. Avec l'introduction des systèmes de type Unix, il est devenu possible d'associer plusieurs noms aux mêmes données. Bien que possédant différents noms, les données réelles sont uniques. Un compteur de références permet de savoir combien de noms pointent sur les mêmes données, et donc de savoir si l'effacement d'un nom doit être suivi d'une récupération de l'espace alloué aux données ou non : c'est le cas uniquement lorsqu'on efface le dernier nom du fichier.
+Les liens matériels ne peuvent correspondre qu'à des données existantes sur le même système de fichiers. Cette difficulté est contournée par un autre dispositif, celui des liens symboliques.
+
+Utilisation
+Sur les systèmes de type Unix (Linux, OS X, BSD, etc.), les liens matériels sont créés par l'appel système link ou la commande ln :
+Sur Windows, les liens matériels peuvent être créés uniquement sur les systèmes de fichiers NTFS avec la commande fsutil hardlink ou mklink. Il existe cependant des utilitaires qui peuvent simplifier la gestion de ce type de liens.
+La suppression de fichier (unlink ou rm dans les systèmes de type Unix) désassocie le nom des données présentes sur le disque. Les données sont toujours accessibles tant qu'au moins un lien pointe dessus. Lorsque ce dernier lien est supprimé, l'espace disque où se trouvaient les données est considéré comme libre, et est alors, seulement à ce moment-là, physiquement récupéré.
+
+Voir aussi: Lien symbolique; ln (Unix). Portail de l'informatique.

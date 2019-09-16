@@ -1,0 +1,65 @@
+En mathématiques, une distance est une application qui formalise l'idée intuitive de distance, c'est-à-dire la longueur qui sépare deux points. C'est par l'analyse des principales propriétés de la distance usuelle que Fréchet introduit la notion d'espace métrique, développée ensuite par Hausdorff. Elle introduit un langage géométrique dans de nombreuses questions d'analyse et de théorie des nombres.
+À partir de la définition d'une distance, vue comme une application satisfaisant à certains axiomes, d'autres notions de distance peuvent être définies, comme la distance entre deux parties, ou la distance d'un point à une partie, sans que ces dernières répondent à la définition première d'une distance.
+
+Définition
+En mathématiques, on appelle distance sur un ensemble E toute application d définie sur le produit E - EE et à valeurs dans l'ensemble ℝ des réels positifs,
+vérifiant les propriétés suivantes :
+Un ensemble muni d'une distance s'appelle un espace métrique.
+
+Propriétés simples: Si E est un sous-ensemble de F et si d : FF ℝ est une distance sur F, alors la restriction de d à EE est une distance sur E.; Si d1 et d2 sont respectivement des distances sur E1 et E2 et si F est le produit E1E2, alors l'application d : FF ℝ définie pard ((a 1 , a 2) , (b 1 , b 2)) - d 1 (a 1 , b 1) + d 2 (a 2 , b 2) (-displaystyle d((a-(1),a-(2)),(b-(1),b-(2)))-d-(1)(a-(1),b-(1))+d-(2)(a-(2),b-(2)))est une distance sur F. Pour des généralisations, voir Produit d'espaces métriques.; Si d1 et d2 sont des distances sur E alors d1 + d2 aussi (d'après les deux points précédents, en identifiant E à la diagonale de EE).
+
+Cas particuliers
+
+Distance ultramétrique
+La distance est dite ultramétrique si de plus :
+Un exemple de telle distance intervient de façon cruciale dans la théorie des valuations p-adiques. L'interprétation géométrique de l'inégalité triangulaire dans un espace ultramétrique amène à dire que tous les triangles sont isocèles ; de plus, toutes les boules de rayon donné définies sur cet ensemble constituent une partition de cet ensemble ; en faisant croître ce rayon depuis 0, l'espace se trouve doté d'une structure hiérarchique de proximité, utilisable en classification automatique, en particulier pour le clustering hiérarchique.
+
+Exemples de distances classiques
+
+Distance sur des espaces vectoriels
+Distance de Manhattan (chemins rouge, jaune et bleu) contre distance euclidienne en vert.
+Dans un espace vectoriel normé (E ,) (-displaystyle (E,--cdot -)), on peut toujours définir de manière canonique une distance d à partir de la norme. En effet, il suffit de poser : (x , y) E E , d (x , y) - y x. (-displaystyle -forall (x,y)-in E-times E,- d(x,y)--y-x-.)
+En particulier, dans ℝ, on peut définir de plusieurs manières la distance entre deux points, bien qu'elle soit généralement donnée par la distance euclidienne (ou 2-distance). Soit deux points de E, (x1, x2,..,xn) et (y1, y2,..,yn), on exprime les différentes distances ainsi :
+La 2-distance permet de généraliser l'application du théorème de Pythagore à un espace de dimension n. C'est la distance la plus "intuitive".
+La p-distance est rarement utilisée en dehors des cas p - 1, 2 ou. L'-distance présente la particularité amusante de permettre la définition en toute rigueur de sphères cubiques (voir oxymore). La 1-distance permet de définir des sphères octaédriques.
+
+Distance sur une sphère
+
+Distances entre deux permutations
+Il est également possible de définir des distances entre des permutations. L'exemple suivant est très utilisé dans le réarrangement de génomes. Soit S un ensemble de permutations modélisant diverses opérations ; alors la distance entre deux permutations et est la longueur d'une séquence minimale formée du produit d'éléments de S telle que cette séquence transforme en.
+Ces distances peuvent également servir à mesurer, de diverses manières, le désordre présent dans une séquence. On utilise alors ces mesures pour analyser les performances de divers algorithmes de tri, ou pour construire de nouveaux algorithmes de tri qui effectuent un nombre de comparaisons optimal par rapport à la mesure de désordre choisie.
+
+Distance de Levenshtein
+La distance de Levenshtein est un exemple de distance définie sur l'ensemble des chaînes de caractères. Elle est définie pour deux chaînes A et B comme le nombre minimal d'opération d'ajout-suppression-remplacement de caractères pour transformer la chaîne A en la chaîne B.
+Exemples: Levenshtein('BONJOUR', 'BONSOIR')-2 (il est nécessaire et suffisant de remplacer 'J' par 'S' et 'U' par 'I').; Levenshtein('DEBUT', 'FIN')-5; Levenshtein('DUNKERQUE', 'PERPIGNAN')-9. Le résultat n'est pas proportionnel à la distance géographique.
+Ce type de distance est couramment utilisé pour des applications de filtrage-correction d'erreurs, par exemple la correction automatique pour des programmes de traitement de texte (le programme va rechercher dans un dictionnaire les mots présentant les distances les plus faibles avec le mot mal orthographié), l'appareillement de lectures optiques de plaques minéralogiques...
+Il existe des variantes de cette distance, telles que la distance de Damerau-Levenshtein.
+Le même principe général peut être utilisé pour les applications de reconnaissance de formes.
+
+Exemples d'autres emplois du terme distance
+Le terme distance est parfois utilisé pour désigner des applications ne répondant pas à la définition classique pour les espaces métriques, présentée en début d'article.
+
+Distance entre deux ensembles
+Soient E1 et E2 deux parties non vides d'un espace métrique E muni d'une distance d, on définit la distance entre ces deux ensembles comme : d (E 1 , E 2) - inf (d (x , y) (x , y) E 1 E 2). (-displaystyle d(E-(1),E-(2))--inf-(d(x,y)-mid (x,y)-in E-(1)-times E-(2)-).)
+C'est un réel positif, comme borne inférieure d'un ensemble non vide de réels positifs. N.B.Cette "distance" n'est pas une distance sur l'ensemble des parties de E au sens des axiomes définis plus haut. En particulier si la distance entre deux ensembles est nulle, on ne peut pas en déduire que ces ensembles sont égaux, ni même que leurs adhérences se rencontrent.
+Néanmoins, il est possible de définir une vraie distance entre les parties compactes d'un espace métrique. Pour cela, voir : distance de Hausdorff.
+
+Distance d'un point à une partie
+On peut particulariser la définition précédente en prenant l'un des deux ensembles réduit à un point.
+Si A est une partie non vide d'un espace métrique E, et si x est élément de E, on définit la distance de x à A comme une borne inférieure :
+d (x , A) - inf (d (x , a) a A). (-displaystyle d(x,A)--inf-(d(x,a)-mid a-in A-).)
+C'est le rayon de la plus grande boule ouverte de centre x qui ne rencontre pas A.
+On prendra garde au fait que d(x, A) - 0 n'implique pas en général que x soit élément de A. Par exemple, dans ℝ muni de la valeur absolue, la distance de 0 à l'intervalle ouvert)0, 1(est nulle, ou la distance de tout réel à l'ensemble des rationnels est nulle également.
+On peut démontrer plus précisément que la distance de x à A est nulle si et seulement si x est un point adhérent à A (autrement dit : l'implication précédente est vraie si et seulement si A est fermé). Plus généralement, la distance de x à A est égale à la distance de x à l'adhérence de A.
+L'application de E dans ℝ qui à tout élément x de E associe d(x, A) est continue, et même 1-lipschitzienne : x , y E d (x , A) d (y , A) d (x , y). (-displaystyle -forall x,y-in E-quad d(x,A)-d(y,A)-leq d(x,y).)
+Démonstration
+De a A d (x , a) d (x , y) + d (y , a) (-displaystyle -forall a-in A-quad d(x,a)-leq d(x,y)+d(y,a)) on déduit d (x , A) d (x , y) + d (y , A) (-displaystyle d(x,A)-leq d(x,y)+d(y,A)), ou encore : d (x , A) d (y , A) d (x , y) (-displaystyle d(x,A)-d(y,A)-leq d(x,y)).
+De même,: d (y , A) d (x , A) d (y , x) - d (x , y) (-displaystyle d(y,A)-d(x,A)-leq d(y,x)-d(x,y)).
+Finalement, d (x , A) d (y , A) d (x , y) (-displaystyle d(x,A)-d(y,A)-leq d(x,y)).
+
+Distance algébrique
+Soit deux points A et B d'un espace affine par lesquels passe une droite orientée (une droite munie d'un sens, c'est-à-dire engendrée par un vecteur v (-displaystyle (-vec (v))) non nul). On appelle distance algébrique de A vers B le réel tel que : sa valeur absolue soit la distance (définie ci-dessus) entre A et B; si la valeur est non nulle : le réel soit positif dans le cas où le vecteur A B (-displaystyle (-overrightarrow (-rm (AB)))) est de même sens que v (-displaystyle (-vec (v))), c'est-à-dire égal à k v (-displaystyle k(-vec (v))), avec k 0 (-displaystyle k0),; négatif sinon.; le réel soit positif dans le cas où le vecteur A B (-displaystyle (-overrightarrow (-rm (AB)))) est de même sens que v (-displaystyle (-vec (v))), c'est-à-dire égal à k v (-displaystyle k(-vec (v))), avec k 0 (-displaystyle k0),; négatif sinon.
+On peut démontrer que la distance algébrique de A vers B (notée d a (A , B) (-displaystyle d-(a)(-mathrm (A) ,-mathrm (B)))) vaut : d a (A , B) - A B. v v (-displaystyle d-(a)(-mathrm (A) ,-mathrm (B))-(-frac ((-overrightarrow (-mathrm (AB))).(-vec (v)))(-(-vec (v))-))).
+Attention, la distance algébrique n'est pas une distance, puisqu'elle est non symétrique : d a (A , B) - d a (B , A) (-displaystyle d-(a)(-mathrm (A) ,-mathrm (B))--d-(a)(-mathrm (B) ,-mathrm (A))).
+
+Voir aussi: Distance angulaire; Distance de la convergence uniforme; Distance entre deux points sur le plan cartésien; Distance focale; Distance zénithale; Distance d'un point à un plan; Distance d'un point à une droite; Espace vectoriel normé et norme; Espace pramétrique; Espace semimétrique; Espace hémimétrique; Espace pseudométrique; Espace quasimétrique.

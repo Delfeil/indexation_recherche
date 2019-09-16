@@ -1,0 +1,29 @@
+Dans la théorie des probabilités et la théorie de l'information, l'information mutuelle de deux variables aléatoires est une quantité mesurant la dépendance statistique de ces variables. Elle se mesure souvent en bit.
+L'information mutuelle d'un couple (X , Y) (-displaystyle (X,Y)) de variables représente leur degré de dépendance au sens probabiliste. Ce concept de dépendance logique ne doit pas être confondu avec celui de causalité physique, bien qu'en pratique l'un implique souvent l'autre.
+Informellement, on dit que deux variables sont indépendantes si la réalisation de l'une n'apporte aucune information sur la réalisation de l'autre. Le coefficient de corrélation est une mesure du cas particulier de dépendance dans lequel la relation entre les deux variables est strictement linéaire.
+L'information mutuelle est nulle si et seulement si les variables sont indépendantes, et croit lorsque la dépendance augmente.
+
+Définition
+Soit (X , Y) (-displaystyle (X,Y)) un couple de variables aléatoires de densité de probabilité jointe données par P (x , y) (-displaystyle P(x,y)) (on fait, dans cet article, l'abus de notation P (x) (-displaystyle P(x)) pour représenter la probabilité de l'événement X - x (-displaystyle X-x)). Notons les distributions marginales P (x) (-displaystyle P(x)) et P (y) (-displaystyle P(y)). Alors l'information mutuelle est dans le cas discret: I (X , Y) - x , y P (x , y) log P (x , y) P (x) P (y) , (-displaystyle I(X,Y)--sum -(x,y)P(x,y)-log (-frac (P(x,y))(P(x)-,P(y))),-!).
+et, dans le cas continu: I (X , Y) - R R p (x , y) log p (x , y) p (x) p (y) d x d y. (-displaystyle I(X,Y)--int -(-mathbb (R))-int -(-mathbb (R))p(x,y)-log (-frac (p(x,y))(p(x)-,p(y)))-;dxdy.-!).
+où p (x , y) (-displaystyle p(x,y)), p (x) (-displaystyle p(x)) et p (y) (-displaystyle p(y)) sont respectivement les densités des lois de (X , Y) (-displaystyle (X,Y)), X (-displaystyle X) et Y (-displaystyle Y).
+
+Cas gaussien
+L'information mutuelle dans le cas d'une distribution gaussienne s'écrit sous la forme suivante: I (X , Y) - 1 2 log det (P (X)) det (P (X - Y)) (-displaystyle I(X,Y)-(-dfrac (1)(2))-log (-dfrac (-det(P(X)))(-det(P(X-Y))))-!).
+Avec P dénote dans ce cas la matrice de covariance
+
+Propriétés: I (X , Y) - 0 (-displaystyle I(X,Y)-0) si et seulement si X et Y sont des variables aléatoires indépendantes.; L'information mutuelle est positive ou nulle.; L'information mutuelle est symétrique.; Data processing theorem: si g 1 (-displaystyle g-(1)) et g 2 (-displaystyle g-(2)) sont deux fonctions mesurables alors I (g 1 (X) , g 2 (Y)) I (X , Y) (-displaystyle I(g-(1)(X),g-(2)(Y))-leq I(X,Y)). Ceci signifie qu'aucune transformation sur les données brutes ne peut faire apparaître de l'information.; Lorsque la distribution jointe des variables aléatoires X (-displaystyle - X) et Y (-displaystyle - Y) suit une loi normale multidimensionnelle N (,) (-displaystyle (-mathcal (N))(-mu ,-,-Sigma)), il a été montré que l'information mutuelle est directement reliée au coefficient de corrélation (-displaystyle - -rho) entre ces deux variables : I (X , Y) - 1 2 log (1 2) (-displaystyle I(X,Y)--(-frac (1)(2))-log(1--rho (2))).
+Plusieurs généralisations de cette quantité à un nombre plus grand de variables ont été proposées, mais aucun consensus n'a encore émergé.
+
+Liens avec la théorie de l'information
+
+Entropie
+L'information mutuelle mesure la quantité d'information apportée en moyenne par une réalisation de X sur les probabilités de réalisation de Y. En considérant qu'une distribution de probabilité représente notre connaissance sur un phénomène aléatoire, on mesure l'absence d'information par l'entropie de cette distribution. En ces termes, l'information mutuelle s'exprime par: I (X , Y) - H (X) H (X Y) - H (Y) H (Y X) - H (X) + H (Y) H (X , Y). (-displaystyle I(X,Y)-H(X)-H(XY)-H(Y)-H(YX)-H(X)+H(Y)-H(X,Y).).
+où H(X) et H(Y) sont des entropies, H(XY) et H(YX) sont des entropies conditionnelles, et H(Y, X) est l'entropie conjointe entre X et Y.
+Ainsi on voit que I (X , Y) - 0 (-displaystyle I(X,Y)-0) ssi le nombre de bits nécessaires pour coder une réalisation du couple est égal à la somme du nombre de bits pour coder une réalisation de X et du nombre de bits pour coder une réalisation de Y.
+
+Divergence de Kullback-Leibler
+L'information mutuelle peut aussi être exprimée par la divergence de Kullback-Leibler. On a: I (X , Y) - K L (P (X , Y) , P (X) P (Y)) - P (X , Y) log P (X , Y) P (X) P (Y). (-displaystyle I(X,Y)-(-mathit (KL))(P(X,Y),P(X)P(Y))--sum P(X,Y)-log (-frac (P(X,Y))(P(X)P(Y))).).
+Ainsi I (X , Y) (-displaystyle I(X,Y)) mesure une sorte de "distance" entre les distributions P (X , Y) (-displaystyle P(X,Y)) et P (X) P (Y) (-displaystyle P(X)-P(Y)). Comme, par définition, deux variables sont indépendantes ssi ces deux distributions sont égales, et comme K L (p , q) - 0 (-displaystyle (-mathit (KL))(p,q)-0) ssi p - q (-displaystyle p-q), on retrouve l'équivalence entre I (X , Y) - 0 (-displaystyle I(X,Y)-0) et indépendance.
+Intuitivement P (X , Y) (-displaystyle P(X,Y)) porte plus d'information lorsque les variables sont dépendantes que lorsqu'elles ne le sont pas. Si les deux variables sont discrètes à N cas, il faut, au pire, N 2 1 (-displaystyle N(2)-1) coefficients pour spécifier P (X , Y) (-displaystyle P(X,Y)), contre seulement 2 N 1 (-displaystyle 2N-1) si P (X , Y) - P (X) P (Y) (-displaystyle P(X,Y)-P(X)P(Y)).
+La divergence K L (-displaystyle (-mathit (KL))) donne le nombre de bits d'information apportés par la connaissance de P (X , Y) (-displaystyle P(X,Y)) lorsqu'on connait déjà P (X) (-displaystyle P(X)) et P (Y) (-displaystyle P(Y)).

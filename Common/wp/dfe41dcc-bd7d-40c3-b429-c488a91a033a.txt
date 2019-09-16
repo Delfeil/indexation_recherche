@@ -1,0 +1,21 @@
+Le traitement visuel des mots implique des mouvements oculaires lors de la lecture. L'oeil humain possède une acuité maximale sur une petite zone du champ visuel correspondant à la partie la plus sensible de la rétine, la fovéa. De fréquents mouvements oculaires lors de la lecture permettent de repositionner cette zone d'un mot à l'autre.
+
+Mouvements oculaires et perception visuelle
+Les mouvements oculaires lors de la perception visuelle se font à 2 à 4 fixations par seconde. Cela est aussi valable pour la lecture. Un bon lecteur lit généralement avec une vitesse entre 3 et 4 fixations par seconde, un débutant avec 2 à 3.
+Pendant une fixation, la vision fovéale du lecteur se concentre sur les détails inconnus du texte tandis que la vision périphérique permet de reconnaître des syllabes ou des mots entiers à une acuité réduite.
+
+Histoire
+
+Pionniers
+Au XIe siècle le médecin perse Ibn al Haytham, a observé que la lecture demandait des mouvements oculaires rapides. Il semble avoir fait la distinction entre la vision périphérique et la vision fovea.
+Leonard de Vinci: l'oeil a une ligne de vue centrale et tout ce qui passe dans l'oeil par cette ligne du centre est nettement visible.
+Leonard de Vinci, (1452-1519) analysait le premier les caractéristiques de l'oeil humain par un procédé expérimental. Il a anatomisé l'oeil humain et a fait des expériences avec des boules de cristal remplies d'eau. Son commentaire : Plusieurs auteurs ont donné une description de la fonction de l'oeil. Mais j'ai trouvé que c'est complètement différent.
+Il a en effet découvert la différence entre la vision fovéale et périphérique.
+Un autre pionnier des mouvements oculaires était Hermann von Helmholtz avec son livre sur l'optique physiologique. Helmholz s'est occupé de la manière physiologique comment l'oeil humain peut accomplir ses mouvements. Il était déçu de sa qualité optique.
+En 1879 le médecin français Émile Javal a utilisé un miroir pour observer les mouvements oculaires lors de la lecture silencieuse. Il a utilisé le premier le mot saccade pour designer le mouvement rapide entre deux fixations.
+
+Oculométrie
+Les premiers systèmes d'enregistrement étaient mécaniques ou réflectifs. Pour une analyse exacte de la lecture leurs résultats n'était pas assez précis.
+En 1922, Schott a inventé le système électro-oculographique (EOG), une méthode pour enregistrer le potentiel entre la cornée et la rétine.
+Ce système était beaucoup plus précis et fiable et s'utilisait pendant des décades.
+Les systèmes modernes pour analyser les mouvements oculaires lors de la lecture utilisent la réflexion de la lumière infra-rouge pour déterminer la position exacte du regard lors de la lecture.

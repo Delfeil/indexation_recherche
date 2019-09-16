@@ -1,0 +1,7 @@
+Paul Baran, né le 29 avril 1926 à Grodno, alors en Pologne, mort le 27 mars 2011 (à 84 ans) à Palo Alto, est un informaticien, un physicien et un mathématicien américain qui a co-inventé avec Donald Davies la communication sur réseau de données par paquets en s'appuyant sur les recherches du professeur Leonard Kleinrock, premier chercheur sur la transmission de données par paquets, travaillant à l'époque au MIT et ayant fourni son premier texte de thèse sur le sujet Information Flow in Large Communication Nets.
+Fondateur d'entreprises multiples, Paul Baran a aussi activement participé à la création de portiques de sécurité, de réseau internet sans fil ou de technologies de diffusion de la télévision par internet.
+Il a travaillé au sein de la RAND Corporation, think tank créé par le département de la Défense des États-Unis
+
+Biographie
+Paul Baran est né en 1926 à Grodno, dans une famille juive polonaise qui migre aux États-Unis deux ans plus tard. En 1949, il obtient son diplôme d'ingénieur en électricité puis un diplôme d'ingénieur en informatique en 1959. C'est en 1964 qu'il publie ses premiers résultats sur la communication de données par paquets, préfigurant les bases du réseau militaire ARPANET ainsi que le principe de transmission par ADSL.
+Il a reçu de nombreux prix et récompenses au cours de sa carrière. En 2012, il est admis, à titre posthume, au temple de la renommée d'Internet, dans la catégorie des pionniers.

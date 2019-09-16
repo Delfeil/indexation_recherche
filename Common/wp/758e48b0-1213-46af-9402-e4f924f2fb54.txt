@@ -1,0 +1,69 @@
+L'ISO 690 est une norme internationale élaborée par le comité technique ISO-TC 46, sous-comité SC 9 de l'ISO.
+Elle donne des principes directeurs pour la rédaction de références bibliographiques et de citations. Elle s'applique à tout type de ressources ayant fait l'objet d'une publication, y compris sous forme électronique. Elle exclut de son périmètre les documents manuscrits ou non publiés, et ne s'applique ni aux citations analysables par une machine ni aux citations réglementaires.
+Elle prescrit la liste des éléments à préciser pour citer ou faire référence à chaque type de ressources, ainsi que leur ordre d'agencement, mais ne contient pas de consigne de mise en forme. Le style et la ponctuation utilisés dans les exemples donnés n'ont pas de caractère normatif.
+La version en vigueur est la 3e édition publiée par l'ISO en 2010 (ISO 690:2010). Sa traduction française a été homologuée en France par l'AFNOR sous la référence NF ISO 690, dans cadre de classement Z 44-005, d'abord en 1987 et 1998 (pour les parties 1 et 2 de la 2e édition), puis en août 2010 (pour la 3e édition).
+
+Historique
+La première édition de la norme a été publiée en 1975 sous la référence ISO 690:1975 (Documentation -- Références bibliographiques -- Éléments essentiels et complémentaires).
+La 2e édition publiée en 1987 a notamment intégré des éléments propres aux citations de brevets, rendant obsolète la norme ISO 3388:1977 qui leur était consacrée.
+En 1997, l'ISO a publié une seconde partie, consacrée à la citation des documents électroniques.
+De 1997 à 2010, la norme ISO 690 était donc constituée de deux documents : ISO 690:1987 (Documentation - Références bibliographiques - Contenu, forme et structure) traitant des documents en général ;; ISO 690-2:1997 (Information et documentation - Références bibliographiques - Partie 2: Documents électroniques, documents complets ou parties de documents) traitant des documents électroniques en particulier.
+En 2010, ces deux documents ont fait l'objet d'une révision technique et d'une fusion dans un document unique, constituant la 3e édition de la norme: ISO 690:2010 (Information et documentation -- Principes directeurs pour la rédaction des références bibliographiques et des citations des ressources d'information).
+
+Utilisation
+La norme ISO 690 est utilisée pour l'insertion de citations dans des travaux académiques (articles, ouvrages, thèses et mémoires, etc.), mais son usage est marginal dans certaines disciplines qui ont recours à d'autres styles de citation, notamment celui de l'APA, de la MLA, de Chicago ou de Vancouver.
+D'autre part, elle est reconnue comme une norme nationale en France et dans d'autres pays, mais certains organismes de normalisation ont développé leurs propres normes, plus ou moins liées à l'ISO 690. C'est le cas de la norme américaine NISO Z39.29.
+Plusieurs guides consacrés à l'utilisation de la norme ISO 690 existent en français ou en anglais. Ils sont parfois basés sur la 3e édition de 2010, ou sur la 2e de 1987-1997.
+Ces guides peuvent diverger sur des points mineurs, car la norme n'a pas d'exigence stricte en matière de ponctuation et de choix typographiques, définit certains éléments comme facultatifs (notamment les auteurs secondaires ou le nombre de page des ouvrages), et permet des variantes notamment en ce qui concerne le nombre des auteurs à mentionner dans une référence (à partir de trois auteurs, il est possible mais non obligatoire d'omettre les auteurs suivants en ajoutant la mention "et al.").
+
+Construction d'une référence
+
+Sources des données
+La norme définit les sources à partir desquelles recueillir les données nécessaires à la construction de la référence : les données doivent en priorité provenir de la ressource elle-même ;; les données ne provenant pas de la ressource doivent figurer entre crochets ;; les sources à privilégier, sont, par ordre de préférence : la page de titre ou son équivalent (étiquette d'un disque, page d'accueil d'un site, etc.),; le verso de la page de titre, l'entête, etc.,; la couverture ou l'étiquette associée de manière permanente au document, la légende, etc.,; le conteneur,; la documentation d'accompagnement.; la page de titre ou son équivalent (étiquette d'un disque, page d'accueil d'un site, etc.),; le verso de la page de titre, l'entête, etc.,; la couverture ou l'étiquette associée de manière permanente au document, la légende, etc.,; le conteneur,; la documentation d'accompagnement.
+
+Ponctuation et typographie
+La norme ne pose que deux exigences : utiliser un système cohérent de ponctuation et de typographie dans toute la liste de référence ;; séparer nettement chaque élément de l'élément suivant par un signe de ponctuation ou une variation typographique.
+Les choix faits dans les exemples de la norme n'ont pas de valeur normative (éléments sont séparés par des points, noms de famille en majuscule, etc.)
+
+Ordre des éléments
+La norme précise que "l'ordre habituel des éléments est le suivant": 1) Nom(s) du-des créateur(s) ;; 2) Titre ;; 3) Indication de support, si nécessaire ;; 4) Édition ;; 5) Lieu et éditeur ;; 6) Date (peut être déplacée après le nom du créateur si la méthode de citation "auteur-date" est utilisée) ;; 7) Titre de publication en série, s'il s'applique ;; 8) Numérotation dans la ressource ;; 9) Numéro normalisé, s'il s'applique (ISBN, ISSN, DOI, etc.) ;; 10) Disponibilité, accès ou information relatives à la localisation ;; 11) Informations générales complémentaires.
+La nature précise des éléments peuvent varier selon les types de ressources citées.
+
+Livre ou autre ressource monographique, imprimé ou en ligne
+
+Contribution dans un livre ou une autre ressource monographique, imprimé ou en ligne
+
+Publication en série complète, ou livraison d'une publication en série, imprimée ou en ligne
+
+Contribution dans une publication en série, imprimée ou en ligne
+
+Messages électroniques, listes de discussion, forums de discussion, etc.
+
+Méthodes de citation
+L'annexe A propose trois méthodes permettant de lier une citation faite dans un texte à la référence correspondante, c'est-à-dire à la description bibliographique de la ressource. Ces méthodes sont données par la norme à titre informatif, et n'ont pas de valeur normative en tant que tel. Il en va de même pour le style des références données en exemples (extraites des références proposées par la norme). Système "du nom et de la date" (dit "de Harvard").
+Les citations sont faites en indiquant entre parenthèses dans le corps du texte le nom de famille de l'auteur et l'année de publication de la ressource citée. Si le nom de l'auteur est utilisé dans la phrase, il est sorti de la parenthèse. La pagination précise peut également être indiquée après l'année. Si plusieurs ressources du même auteur ont été publiées la même année, elles sont distinguées par une lettre minuscule adjointe à la date. Si plusieurs ressources sont citées, elles sont incluses dans la même parenthèse, séparées par un point-virgule.
+Exemples : Stieg (1981b, p. 556) ; (Crane 1972) ; (Smith 1980 ; Chapman 1981)
+Les références complètes des ressources citées sont présentées sous forme de liste, classée par ordre alphabétique d'auteur. La référence de chaque ressource comprend le nom du créateur, l'année de publication éventuellement précisée par une lettre minuscule, puis le reste de la description (sans l'année).
+Exemple : STIEG, M.F., 1981b, The Information Needs of Historians. College and Research Libraries. 42(6). p. 549-560: Système numérique.
+Les citations sont faites en indiquant entre parenthèses, entre crochets ou en exposant des numéros incrémentés à chaque nouvelle ressource citée. En cas de citation ultérieure d'une ressource citée plus haut dans le texte, le même numéro est utilisé. La pagination précise peut également être indiquée après le numéro. Si plusieurs ressources sont citées, les numéros correspondant sont indiqués à la suite, séparés par une virgule.
+Exemples : 1 ; 2 ; 3 ; 2 ; 1,4
+Les références complètes des ressources citées sont présentées sous forme de liste, classée par ordre numérique, selon l'ordre dans lequel elles sont citées dans le texte. La référence de chaque ressource comprend le numéro d'ordre, le nom du créateur, puis le reste de la description.
+Exemple : 2. STIEG, M.F., The Information Needs of Historians. College and Research Libraries. 1981. 42(6). p. 549-560: Notes courantes.
+Les citations sont faites en indiquant entre parenthèses, entre crochets ou en exposant des numéros renvoyant des notes numérotées en fonction de leur ordre d'apparition dans le texte. Ces notes contiennent des références aux ressources citées. Une même note peut contenir des références à plusieurs ressources. En cas de citation ultérieure d'une ressource citée plus haut dans le texte, une nouvelle note sera créée, avec un nouveau numéro.
+Exemples : 1 ; 2 ; 3 ; 2 ; 1,4
+Les références complètes des ressources citées sont présentées dans les notes. Si une note renvoie à une ressource citée dans une note précédente, elle peut soit répéter la référence intégrale, soit donner le nom de l'auteur et la référence de la note précédente, en précisant si nécessaire la pagination.
+Exemples : 2. STIEG, M.F., The Information Needs of Historians. College and Research Libraries. 1981. 42(6). p. 549-560
+3. STIEG, réf. 2. p. 555
+
+Exemples de références
+L'annexe C contient une série d'exemples de références, fournies à titre informatif. Livre imprimé ou publication monographique similaire (rapport, texte de loi, etc.).
+LOMINANDZE, DG. Cyclotron waves in plasma. Traduit par AN. Dellis ; édité par SM. Hamberger. 1re éd. Oxford : Pergamon Press, 1981. 206 p. International series in natural philosophy. Traduction de : Ciklotronnye volny v plazme. Livre en ligne ou publication monographique similaire (rapport, texte de loi, etc.).
+KAFKA, Franz. The Trial (en ligne). Translated by David WYLLIE. Project Gutenberg, 2005. Updated 2006-03-08 15:35:00. (consulté le 5 juin 2006). Format texte en clair, 462 ko. Disponible à l'adresse: http:--www.gutenberg.org-dirs-etext05-ktria11.txt: Contribution dans une publication monographique imprimée.
+WRINGLEY, EA. Parish Registers and the Historian. In STEEL, DJ. National Index of Parish Registers. Londres : Society of Genealogists, 1968, vol. 1, p. 155-167. Contribution dans une publication monographique en ligne. Publication en série imprimée.
+Communication Equipment Manufacturers. Manufacturing an Primary Industries Division, Statistics Canada. Preliminary Edition, 1970-. Ottawa : Statistics Canada, 1971-. Annual census of manufacturers. Texte en anglais et français. ISSN 0700-0758. Contribution dans une publication en série imprimée.
+WEAVER, William. The Collectors : Command Performances. Photographies par Robert Emmet Bright. Architectural Digest, décembre 1985, vol. 42, no 12, p. 126-133. Contribution dans une publication en série en ligne. Intégralité d'un site électronique. Contributions spécifiques ou parties d'un site électronique. Messages électroniques. Logiciels. Films, vidéos, émissions de télévision. Passage d'un ouvrage simple:
+PARKER, TJ. et HASWELL, WD. A Text-book of Zoology. 5e éd., vol. 1. révisée par WD. Lang. Londres : Macmillan, 1930. Section 12, Phyllum Mollusca, p. 663-782. Partitions. Brevets.
+
+Voir aussi
+
+Articles connexes: BibTeX.

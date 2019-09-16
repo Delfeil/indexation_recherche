@@ -1,0 +1,62 @@
+En mathématiques, et plus précisément en algèbre générale, une algèbre sur un corps commutatif K, ou simplement une K-algèbre, est une structure algébrique (A, +,) telle que : 1) (A, +,) est un espace vectoriel sur K ;; 2) la loi est définie de A A dans A (loi de composition interne) ;; 3) la loi est bilinéaire.
+
+Définitions
+Une algèbre sur un corps commutatif K est un K-espace vectoriel A muni d'une opération binaire (c'est-à-dire que le "produit" xy de deux éléments de A est un élément de A) bilinéaire, ce qui signifie que pour tous vecteurs x, y, z dans A et tous scalaires a, b dans K, les égalités suivantes sont vraies : (x + y) z - x z + y z ;; x (y + z) - x y + x z ;; (a x) (b y) - (a b) (x y).
+Les deux premières égalités traduisent la distributivité de la loi par rapport à la loi +.
+On dit que K est le corps de base de A. L'opérateur binaire est souvent désigné comme la multiplication dans A.
+Un morphisme entre deux algèbres A et B sur K est une application f : A B telle que
+Deux algèbres A et B sur K sont dites isomorphes s'il existe une bijection de A dans B qui soit un morphisme d'algèbres.
+
+Généralisation
+Dans la définition, K peut être un anneau commutatif unitaire, et A un K-module. Alors, A est encore appelée une K-algèbre et on dit que K est l'anneau de base de A.
+
+Algèbres associatives, algèbres commutatives et algèbres unifères: Une algèbre associative est une algèbre sur un anneau dont la loi de composition interne est associative. Lorsque cet anneau est un corps, il s'agit donc d'une algèbre associative sur un corps.; Une algèbre commutative est une algèbre sur un anneau dont la loi de composition interne est commutative.; Une algèbre unifère est une algèbre sur un anneau dont la loi de composition interne admet un élément neutre, noté 1.
+
+Bases et tables de multiplication d'une algèbre sur un corps
+Une base d'une algèbre A sur un corps K est une base de A pour sa structure d'espace vectoriel.
+Si a - (a i) i I (-displaystyle a-(a-(i))-(i-in I)) est une base de A, il existe alors une unique famille (c i , j k) i , j , k I (-displaystyle (c-(i,j)(k))-(i,j,k-in I)) d'éléments du corps K tels que :
+Pour i et j fixés, les coefficients sont nuls sauf un nombre fini d'entre eux. On dit que (c i , j k) i , j , k I (-displaystyle (c-(i,j)(k))-(i,j,k-in I)) sont les constantes de structure de l'algèbre A par rapport à la base a, et que les relations a i a j - k I c i , j k a k (-displaystyle a-(i)-times a-(j)--sum -(k-in I)c-(i,j)(k)a-(k)) constituent la table de multiplication de l'algèbre A pour la base a.
+
+Exemples d'algèbres de dimension finie
+
+Algèbres associatives et commutatives
+
+Nombres complexes
+L'ensemble des nombres complexes (ℂ, + ,) est une ℝ-algèbre associative, unifère et commutative de dimension 2. Une base de l'algèbre ℂ est constituée des éléments 1 et i. La table de multiplication est constituée des relations :
+
+Corps finis
+Tout corps fini est une algèbre associative, unifère et commutative de dimension n sur son sous-corps premier (Fp - ℤ-pℤ), donc son ordre est pn.
+Par exemple le corps fini F4 est une algèbre de dimension 2 sur le corps F2 - ℤ-2ℤ dont la table de multiplication dans une base (1, a) est :
+
+Algèbres quadratiques
+On peut démontrer que toute algèbre unifère de dimension 2 sur un corps est associative et commutative. Sa table de multiplication dans une base (1, x) est de la forme :
+Une telle algèbre est appelée algèbre quadratique de type (a, b) (le type pouvant dépendre de la base choisie).
+Par exemple : ℂ est une ℝ-algèbre quadratique de type (-1, 0) pour la base (1, i) et F4 est une F2-algèbre quadratique de type (1, 1).
+
+Algèbres associatives et non commutatives
+
+Matrices carrées
+L'ensemble (M n (R) , + ,) (-displaystyle -left((-mathcal (M))-(n)(-mathbb (R)),+,-cdot ,-times -right)) des matrices carrées d'ordre n 2 à coefficients réels est une ℝ-algèbre associative, unifère et non commutative de dimension n.
+
+Quaternions
+L'ensemble (ℍ, + ,) des quaternions est une ℝ-algèbre associative, unifère et non commutative de dimension 4.
+
+Biquaternions
+L'ensemble (B , + ,) (-displaystyle -scriptstyle (-mathbb (B) ,+,-cdot ,-times)) des biquaternions est une ℂ-algèbre associative, unifère et non commutative de dimension 4 qui est isomorphe à l'algèbre (M 2 (C) , + ,) (-displaystyle -left((-mathcal (M))-(2)(-mathbb (C)),+,-cdot ,-times -right)) des matrices carrées d'ordre 2 à coefficients complexes.
+
+Algèbre unifère non associative
+L'ensemble des octonions (O , + ,) (-displaystyle -scriptstyle (-mathbb (O) ,+,-cdot ,-times)) est une ℝ-algèbre unifère non associative et non commutative de dimension 8.
+
+Algèbres non associatives et non unifères
+
+Produit vectoriel
+L'espace euclidien ℝ muni du produit vectoriel, (R 3 , + ,) (-displaystyle (-mathbb (R) (3),+,-cdot ,-wedge)), est une ℝ-algèbre non associative, non unifère et non commutative (elle est anti-commutative) de dimension 3.
+La table de multiplication dans une base orthonormale directe (u (-displaystyle (-vec (u))), v (-displaystyle (-vec (v))), w (-displaystyle (-vec (w)))) est :
+
+Crochet de Lie
+L'ensemble des matrices carrées d'ordre n 2 à coefficients réels, muni du crochet de Lie : (M , N) - M N N M (-displaystyle (M,N)-MN-NM), (M n (R) , + , (,)) (-displaystyle -left((-mathcal (M))-(n)(-mathbb (R)),+,-cdot ,(,)-right)) est une ℝ-algèbre non associative, non unifère et non commutative de dimension n. Elle est anti-commutative et possède des propriétés qui font de l'algèbre une algèbre de Lie.
+
+Contre-exemple
+La ℝ-algèbre (ℍ, + ,) des quaternions est un ℂ-espace vectoriel, mais n'est pas une ℂ-algèbre car la multiplication n'est pas ℂ-bilinéaire : i.(j k) j (i.k).
+
+Voir aussi: Algèbre de Clifford; Algèbre géométrique; Algèbre de Lie.

@@ -1,0 +1,18 @@
+La visualisation des données est un ensemble de méthodes de représentation graphique, en deux ou trois dimension, utilisant ou non de la couleur, des trames. Les moyens informatiques ont permis de représenter des ensembles complexes de données, de manière plus simple, didactique et pédagogique.
+Exemple de visualisation en carte heuristique des données de Wikipédia Visulalisation d'un condensat de Bose-Einstein
+
+Statistiques
+Elle est utilisée en statistique avec des procédés en grande partie développées par John Tukey à partir des années 1940.
+
+Typologies de représentation
+On peut répertorier : les histogrammes,; les boîte à moustaches,; les représentations graphiques associées à l'ACP et à l'AFC,; Voir aussi les représentations graphiques de données statistiques en mathématiques élémentaires.
+
+Outils de visualisation
+Il existe de nombreux logiciels, adaptés à différents types de visualisation. exemples de visualisation;
+Un réseau;
+Un crash asymétrique frontal;
+Un mélange de deux liquides de densité différente.
+.
+Voir aussi
+
+Articles connexes: Représentation graphique; Visualisation scientifique.

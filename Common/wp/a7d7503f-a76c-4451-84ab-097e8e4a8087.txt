@@ -1,0 +1,5 @@
+Le Special Interest Group on Programming Languages (SIGPLAN) est le pôle d'intérêt commun de l'ACM dans le domaine de la programmation informatique.
+
+Conférences: POPL (en anglais "Principles of Programming Languages); PLDI (en anglais "Programming Language Design and Implementation); ISMM (en anglais "International Symposium on Memory Management); LCTES (en anglais "Languages, Compilers, and Tools for Embedded Systems); PPoPP (en anglais "Symposium on Principles and Practice of Parallel Programming); ICFP (en anglais "International Conference on Functional Programming); OOPSLA (en anglais "Object-Oriented Programming, Systems, Languages, and Applications); SPLASH (en anglais "Systems, Programming, Languages and Applications: Software for Humanity), successeur de OOPSLA; HOPL (en anglais "History of Programming Languages); DLS (en anglais "Dynamic Languages Symposium).
+
+Prix d'excellence: 2010 : Chris Lattner, pour ses travaux sur le projet LLVM, une infrastructure de compilation comprenant notamment le compilateur Clang.; 2009 : Rod Burstall; 2008 : Barbara Liskov; 2007 : Niklaus Wirth; 2002 : John McCarthy.

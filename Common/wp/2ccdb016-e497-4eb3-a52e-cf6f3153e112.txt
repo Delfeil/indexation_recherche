@@ -1,0 +1,16 @@
+Le haut débit en France est caractérisé par la fracture numérique qui divise la France entre les campagnes et les zones densément peuplées qui bénéficient de débits montant et descendant en constante augmentation, notamment grâce au déploiement de la fibre optique, un des objectifs d'investissement de l'État, concrétisé par les fonds alloués depuis le grand emprunt 2010. Ainsi, outre les zones non couvertes, des débits très faibles (moins d'un Mb-s) sont à comparer aux 100 Mb-s proposés dans les grandes agglomérations.
+Cet article décrit la situation de l'internet Haut débit en France.
+
+Marché du haut débit en France
+
+Acteurs: Grands opérateurs nationaux : Orange; Free; Bouygues Telecom; OVH Télécom; SFR; Numericable.; Orange; Free; Bouygues Telecom; OVH Télécom; SFR; Numericable. Opérateurs locaux; collectivités territoriales, dans le cadre de politiques d'aménagement numérique du territoire; État, notamment en accompagnement des collectivités; ARCEP (Autorité de régulation des communications électroniques et des postes).
+
+Technologies: technologie dominante : ADSL et variantes (ADSL2+, ReADSL); technologies alternatives : Câble (en zone urbaine); Wi-Fi; WiMAX; Fibre optique jusqu'à l'abonné (FTTx); Satellite de télécommunications.; Câble (en zone urbaine); Wi-Fi; WiMAX; Fibre optique jusqu'à l'abonné (FTTx); Satellite de télécommunications.
+
+Statistiques
+Ce tableau donne l'évolution du nombre (en millions) d'abonnements à l'internet haut-débit.
+Source Arcep
+Source Arcep
+
+Aménagement du territoire
+Selon le site de l'atelier Aménagement numérique des territoires du Ministère de l'Écologie, de l'Énergie, du Développement durable et de l'Aménagement du territoire, il y avait en 2007 : 2 % de lignes téléphoniques en Zone blanche pour le DSL,; 68 % de la population est couvert par le dégroupage,.

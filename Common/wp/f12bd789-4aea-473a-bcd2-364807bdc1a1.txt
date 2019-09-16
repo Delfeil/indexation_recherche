@@ -1,0 +1,26 @@
+La licence BSD (Berkeley Software Distribution License) est une licence libre utilisée pour la distribution de logiciels. Elle permet de réutiliser tout ou une partie du logiciel sans restriction, qu'il soit intégré dans un logiciel libre ou propriétaire.
+La version originale de la licence BSD incluait une clause de publicité particulièrement contraignante qui obligeait la mention du copyright dans toute publicité ou document fourni avec le logiciel, ce qui pouvait provoquer quelques problèmes en cas d'utilisation d'un grand nombre de composants sous cette licence. La nouvelle version de cette licence ne contient plus cette clause de publicité.
+
+Texte de la licence
+Le texte de la licence (en anglais) est dans le domaine public et peut être modifié sans restrictions. Pour correspondre à des besoins particuliers d'une organisation ou d'une personne, les termes originaux de "Regents of the University of California", "University of California, Berkeley", et "Regents" peuvent être remplacés. Il s'agit ici de la version sans la clause concernant la publicité, cette dernière ayant été retirée en 1999.
+
+Différence par rapport au domaine public
+La licence BSD est l'une des moins restrictives dans le monde informatique et s'approche de la notion de "domaine public". Il faut toutefois noter des différences importantes : la notion de domaine public varie selon les législations. En général, l'auteur doit être mort depuis un certain nombre d'années pour que son oeuvre entre officiellement dans le domaine public. La licence BSD définit un cadre d'utilisation clair ;; la licence BSD impose certaines contraintes lors de la redistribution, ce qui n'est généralement pas le cas d'une oeuvre dans le domaine public ;; elle permet de protéger les auteurs quant à l'emploi de leur nom dans des produits dérivés ;; elle décharge les auteurs des éventuels problèmes connus ou inconnus liés à l'utilisation du code.
+
+Utilisation dans des logiciels propriétaires
+Le code source publié sous licence BSD peut être incorporé dans des solutions propriétaires. De ce fait, des modifications de code BSD peuvent être propriétaires. Parmi les exemples notoires, on peut citer l'utilisation par Sun de code réseau sous BSD, et des composants en provenance de FreeBSD dans Mac OS X.
+La licence BSD et ses dérivés sont donc considérés comme des licences libres mais non copyleft, le copyleft requérant que le code libre le reste dans toutes les modifications ultérieures.
+
+Compatibilité avec d'autres licences libres
+Le code sous licence BSD peut être publié sous licence GPL sans le consentement des auteurs originaux puisque les termes de la licence GPL respectent tous ceux de la licence BSD. Néanmoins la redistribution doit tenir compte de la première clause de la licence BSD. De plus, Theo de Raadt (leader d'OpenBSD) pense que l'on ne peut décider de la licence d'un logiciel que si l'on est l'auteur (ou un des auteurs) du code en question. Si un auteur A écrit un code sous licence BSD, qu'un deuxième auteur B apporte des changements significatifs, alors il peut choisir de mettre son code sous GPL. Mais le code de A serait toujours sous licence BSD.
+Par contre, du code sous licence GPL ne peut pas être mis sous licence BSD sans l'autorisation des auteurs car la licence BSD ne respecte pas toutes les contraintes imposées par la licence GPL. En publiant du code GPL sous licence BSD, on autoriserait par exemple la redistribution sans fournir le code source alors que c'est interdit par les termes de la licence GPL.
+La licence BSD contenait avant 1999 une clause "publicitaire" qui posait plusieurs problèmes pratiques :
+L'apposition de "University of California, Berkeley" n'était pas obligatoire mais devait être remplacée par les auteurs. En 1997, le code de NetBSD comportait 75 variantes de cette phrase (une pour chaque intervenant), ce qui impliquait d'écrire 75 fois de suite une clause similaire dans le cadre d'une publicité.
+
+Licence BSD Modifiée
+Lors de la révision de la licence BSD, le directeur de l'Office of Technology Licensing de l'Université de Californie a confirmé le 22 juillet 1999 que cette clause (no 3) était "retirée dans son intégralité". Cette version est souvent appelée "Nouvelle Licence BSD" (en anglais "New BSD License") ou "Licence BSD Modifiée" (en anglais "Modified BSD License").
+
+Licence FreeBSD
+La licence FreeBSD est une licence BSD modifiée, éditée par le projet FreeBSD, mais amendée d'un commentaire stipulant que "les opinions et les conclusions contenues dans le logiciel et la documentation sont celles des auteurs et ne devraient pas être interprétés comme représentant les politiques officielles du projet FreeBSD, qu'elle soient explicites ou implicites". Cette licence a été étudiée comme une licence à part entière par le projet Gentoo-FreeBSD.
+
+Articles connexes: Logiciel libre; Liste de logiciels libres.

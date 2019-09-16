@@ -1,0 +1,5 @@
+L'aide au dépannage (en anglais troubleshooting) désigne un processus de recherche logique et systématique de résolution de problèmes. Ce processus passe par la recherche de la cause d'un problème jusqu'à sa résolution et la remise en marche du procédé ou du produit.
+Ce type de processus est nécessairement mis en place dans le développement et la maintenance de systèmes complexes, dans lesquels un même problème peut avoir des causes multiples ou différentes. L'aide au dépannage est utilisée par exemple en ingénierie, en électronique, dans le développement de programmes informatiques (où il prend le nom didactique de débogueur), dans la gestion de réseaux informatiques et en diagnostic médical.
+L'aide au dépannage consiste initialement en l'identification des dysfonctionnements par élimination progressive des causes connues.
+
+Source: (it) Cet article est partiellement ou en totalité issu de l'article de Wikipédia en italien intitulé "Troubleshooting". Portail de la logique; Portail de l'informatique.

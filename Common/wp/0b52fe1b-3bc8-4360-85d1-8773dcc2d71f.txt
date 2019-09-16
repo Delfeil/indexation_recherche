@@ -1,0 +1,71 @@
+Cette page présente une liste d'exemples d'espaces vectoriels. Vous pouvez consulter l'article "Espace vectoriel" pour y trouver les définitions des notions employées ci-dessous.
+Voyez également les articles sur la dimension, les bases.
+Nous noterons K un corps commutatif arbitraire tel que le corps ℝ des réels ou le corps ℂ des complexes.
+
+Espace vectoriel trivial ou nul
+L'exemple le plus simple d'espace vectoriel est l'espace nul (0), qui ne contient que le vecteur nul (voir l'axiome 3. des espaces vectoriels). L'addition vectorielle et la multiplication par un scalaire sont triviales. Une base de cet espace vectoriel est l'ensemble vide, -. Ainsi (0) est l'espace vectoriel de dimension 0 sur K. Tout espace vectoriel sur K contient un sous-espace vectoriel isomorphe à celui-ci.
+
+Le corps
+Le prochain exemple simple est le corps K lui-même. L'addition vectorielle est simplement l'addition du corps et la multiplication par un scalaire est la multiplication du corps. Tout élément non nul de K forme une base de K et ainsi le triplet (K, +,) est une K-droite vectorielle, c'est-à-dire un espace vectoriel de dimension 1 sur le corps K.
+K a seulement deux sous-espaces : (0) et K lui-même.
+
+Espace des n-uplets
+L'exemple le plus important d'espace vectoriel est sans doute celui qui suit. Pour tout entier naturel strictement positif n, l'ensemble des n-uplets d'éléments de K forme un espace vectoriel de dimension n sur K appelé l'espace des n-uplets, noté Kn. Un élément de Kn s'écrit : x - (x 1 , x 2 ,.. x n) (-displaystyle x-(x-(1),x-(2),-ldots ,x-(n))-,).
+où chaque x i (-displaystyle x-(i)) est un élément de K. Les opérations sur Kn sont définies par : x + y - (x 1 + y 1 , x 2 + y 2 ,.. x n + y n) (-displaystyle x+y-(x-(1)+y-(1),x-(2)+y-(2),-ldots ,x-(n)+y-(n))-,); x - (x 1 , x 2 ,.. x n) (-displaystyle -alpha x-(-alpha x-(1),-alpha x-(2),-ldots ,-alpha x-(n))-,).
+L'élément neutre pour l'addition est : 0 - (0 , 0 ,.. 0) (-displaystyle 0-(0,0,-ldots ,0)-,).
+et l'opposé d'un élément x - (x 1 , x 2 ,.. x n) (-displaystyle x-(x-(1),x-(2),-ldots ,x-(n))) est le vecteur: x - (x 1 , x 2 ,.. x n). (-displaystyle -x-(-x-(1),-x-(2),-ldots ,-x-(n)).).
+Les cas les plus fréquents sont ceux où K est ou bien le corps des nombres réels donnant l'espace euclidien ℝ, ou bien le corps des nombres complexes donnant ℂ.
+Les ensembles des quaternions et des octonions sont respectivement des espaces vectoriels de dimension quatre et huit sur le corps des nombres réels.
+L'espace vectoriel Kn est muni d'une base naturelle appelée base canonique : e 1 - (1 , 0 ,.. 0) (-displaystyle e-(1)-(1,0,-ldots ,0)-,); e 2 - (0 , 1 ,.. 0) (-displaystyle e-(2)-(0,1,-ldots ,0)-,);.. (-displaystyle -vdots -,); e n - (0 , 0 ,.. 1) (-displaystyle e-(n)-(0,0,-ldots ,1)-,).
+où 1 désigne l'élément neutre multiplicatif de K.
+
+Espaces de matrices
+Étant donnés deux entiers naturels m et n fixés, l'ensemble Mm, n(K) des matrices à coefficients dans K à m lignes et n colonnes, muni de l'addition des matrices et de la multiplication par un scalaire des matrices (consistant à multiplier chaque coefficient par un même scalaire) est un espace vectoriel sur K. Le vecteur nul n'est autre que la matrice nulle.
+Cet espace est isomorphe à l'espace Kmn : en mettant bout à bout les m lignes (n-uplets) d'une matrice on forme un mn-uplet. Par cet isomorphisme, la base canonique de Kmn correspond à la base canonique de Mm, n(K), constituée des matrices ayant un seul coefficient égal à 1 et tous les autres coefficients égaux à 0. La dimension de Mm, n(K) est donc égale à mn.
+
+Espaces de suites
+On munit l'ensemble Kℕ des suites d'éléments de K d'une structure d'espace vectoriel en définissant une addition et une multiplication par un scalaire terme à terme, comme sur l'espace vectoriel des n-uplets.
+Dans cet espace K, le sous-ensemble K des suites à support fini constitue un sous-espace vectoriel. Ce sont les suites dont tous les termes sont nuls sauf un nombre fini d'entre eux. Plus explicitement, si nous écrivons un élément de K sous la forme x - (x0, x1, x2,..) alors la suite x appartient à K si seulement un nombre fini d'indices n correspondent à un terme xn non nul (autrement dit les coordonnées du vecteur x deviennent nulles à partir d'un certain rang).
+L'espace vectoriel K est de dimension infinie dénombrable. Sa base canonique est formée par les vecteurs ei qui comportent un 1 à la i-ième place et des 0 partout ailleurs. Cet espace vectoriel est la somme directe d'un nombre dénombrable de copies de l'espace vectoriel K.
+Contrairement à ce sous-espace K des suites à supports fini, l'espace K des suites quelconques est de dimension infinie non dénombrable et il n'y a pas de choix évident de bases. Puisque leurs dimensions sont différentes, les espaces K et K ne sont pas isomorphes.
+K est le produit direct d'un nombre dénombrable de copies de K. C'est donc l'espace dual de K. Ceci explique cela car - contrairement à un espace de dimension finie - un espace vectoriel de dimension infinie n'est jamais isomorphe à son dual.
+
+Espaces des polynômes
+
+à une indéterminée
+L'ensemble K(X) des polynômes à coefficients dans K, muni des opérations usuelles, est un espace vectoriel sur K isomorphe à K donc de dimension infinie dénombrable. Si l'on ne garde que les polynômes dont le degré reste inférieur ou égal à n alors nous obtenons l'espace vectoriel Kn(X) qui est de dimension n + 1.
+La base canonique de cet espace est constituée des monômes Xn pour tout entier naturel n.
+
+à plusieurs indéterminées
+Pour tout entier naturel n, l'ensemble K(X1, X2,.., Xn) des polynômes à n indéterminées à coefficients dans K est un espace vectoriel sur K.
+
+Espaces fonctionnels
+L'espace K des suites à valeurs dans K se généralise en remplaçant l'ensemble ℕ des indices de suites par un ensemble de départ X quelconque et-ou l'ensemble d'arrivée K par un espace vectoriel arbitraire E sur K. L'ensemble EX de toutes les applications de X dans E est un espace vectoriel sur K avec l'addition et la multiplication par un scalaire des fonctions.
+Ces lois sont définies de la manière suivante : considérons f : X E (-displaystyle f:X-rightarrow E) et g : X E (-displaystyle g:X-rightarrow E) deux fonctions, et K (-displaystyle -alpha -in K) on a: x X , (f + g) (x) - f (x) + g (x) (-displaystyle -forall x-in X,(f+g)(x)-f(x)+g(x)-,); x X , (f) (x) - f (x) (-displaystyle -forall x-in X,(-alpha f)(x)--alpha f(x)-,).
+où les lois + et apparaissant dans le second membre sont celle de E. Le vecteur nul est la fonction constante nulle envoyant tous les éléments de X sur le vecteur nul de E.
+Si X est fini et E est un espace vectoriel de dimension finie alors l'espace vectoriel des fonctions de X dans E est de dimension X d i m E (-displaystyle X-times (-rm (dim))E), sinon l'espace vectoriel est de dimension infinie (non dénombrable si X est infini).
+Lorsque X - , on retrouve l'espace nul.
+Lorsque E - K, on retrouve pour X - (1,.. n) l'espace de n-uplets Kn, donc pour X égal au produit cartésien (1,.. m)(1,.. n), l'espace de matrices Mm,n(K).
+Beaucoup d'espaces vectoriels considérés en mathématiques sont des sous-espaces d'espaces fonctionnels. Donnons d'autres exemples.
+
+Généralisation des espaces de suites à support fini
+La généralisation naturelle du sous-espace K de K est le sous-espace E(X) de EX constitué de toutes les applications de X dans E qui s'annulent partout sauf en nombre fini de points de X.
+Si X est l'ensemble des entiers compris entre 1 et n alors cet espace peut facilement être assimilé à l'espace des n-uplets En.
+En particulier pour E - K, une base naturelle de K est l'ensemble des fonctions fx où x appartient à X, telles que: f x (y) - (1 x - y 0 x y (-displaystyle f-(x)(y)-(-begin(cases)1-quad x-y--0-quad x-neq y-end(cases))).
+La dimension de K est ainsi égale au cardinal de X. Par conséquent : pour tous ensembles A et B, les K-espaces vectoriels K et K sont isomorphes si et seulement si A et B sont en bijection ;; on peut construire un K-espace vectoriel de n'importe quelle dimension ;; tout K-espace vectoriel E est isomorphe à un espace de la forme K : il suffit de choisir un ensemble X de cardinal égal à la dimension de E ; tout choix d'une base de E déterminera alors un isomorphisme envoyant cette base sur la base canonique de K.
+
+Applications linéaires
+Un exemple important issu de l'algèbre linéaire est l'espace vectoriel des applications linéaires. Soit L(E, F) l'ensemble des applications linéaires de E dans F (E et F étant des espaces vectoriels sur le même corps commutatif K). Alors L(E, F) est un sous-espace vectoriel de l'espace des applications de E vers F puisqu'il est stable pour l'addition et la multiplication par un scalaire.
+Remarquons que L(Kn, Km) peut être identifié à l'espace vectoriel de matrices Mm, n(K) de manière naturelle. En fait, en choisissant une base des espaces vectoriels de dimension finie E et F, L(E, F) peut aussi être identifié à Mm, n(K). Cette identification dépend naturellement du choix des bases.
+
+Applications continues
+Si X est un espace topologique, tel que l'intervalle unité (0, 1), alors nous pouvons considérer l'espace vectoriel des applications continues de X dans ℝ. C'est un sous-espace vectoriel de toutes les fonctions réelles définies sur X puisque la somme de deux applications continues quelconques est continue et le produit par un scalaire d'une application continue est continue.
+
+Équations différentielles
+Le sous-ensemble de l'espace vectoriel des applications de ℝ dans ℝ formé d'applications satisfaisant des équations différentielles linéaires est aussi un sous-espace vectoriel de ce dernier. Cela vient du fait que la dérivation est une application linéaire, c'est-à-dire (a f + b g) ' - a f ' + b g ' (-displaystyle (af+bg)'-af'+bg') où ' (-displaystyle ') désigne cette application linéaire (aussi appelée opérateur linéaire).
+
+Extensions de corps
+Supposons que K soit un sous-corps de L (voir extension de corps). Alors L peut être vu comme un espace vectoriel sur K en restreignant la multiplication par un scalaire à l'ensemble K (l'addition vectorielle étant définie normalement). La dimension de cet espace vectoriel est appelée degré de l'extension. Par exemple l'ensemble ℂ des nombres complexes forme un espace vectoriel de dimension deux sur le corps ℝ des réels. C'est donc une extension de degré 2 sur ℝ.
+Quant à l'ensemble ℝ des nombres réels, il forme un espace vectoriel de dimension infinie non dénombrable sur le corps ℚ des rationnels.
+Si E est un espace vectoriel sur L, alors E peut être aussi vu comme un espace vectoriel sur K. Les dimensions sont liées par la formule : d i m K E - (d i m L E) (d i m K L) (-displaystyle (-rm (dim))-(K)E--left((-rm (dim))-(L)E-right)-left((-rm (dim))-(K)L-right)).
+Par exemple ℂ peut être considéré comme un espace vectoriel sur le corps des réels, de dimension 2n.

@@ -1,0 +1,11 @@
+En algèbre linéaire, la matrice d'une application linéaire est une matrice de scalaires qui permet de représenter une application linéaire entre deux espaces vectoriels de dimensions finies, étant donné le choix d'une base pour chacun d'eux.
+
+Définition
+Soient : E et F deux espaces vectoriels sur un corps commutatif K, de dimensions respectives n et m ;; B une base de E, C une base de F ;; et une application de E dans F.
+L'application est linéaire si et seulement s'il existe une matrice de Mm,n(K) telle que pour tout vecteur x de E, la colonne des coordonnées dans C de (x) soit le produit à gauche par cette matrice de la colonne de coordonnées de x dans B. Une telle matrice est alors unique. Elle est appelée la matrice de dans le couple de bases (B,C) et notée matB,C, ou parfois MCB.
+Plus formellement, matB,C est caractérisée par :
+
+Propriétés: Si B - (e1,.. en), les n colonnes de matB,C sont les coordonnées dans C des n vecteurs (e1),.. (en) de F, qui engendrent l'image de. Quant au noyau de , c'est le sous-espace vectoriel de E constitué des vecteurs dont les coordonnées dans B sont les solutions X du système linéaire homogène matB,C X - 0.; L'application de L(E, F) dans Mm,n(K) qui à chaque associe sa matrice dans (B, C) est un isomorphisme d'espaces vectoriels.; Si est une deuxième application linéaire, de F dans un troisième espace vectoriel G de base D, alors, relativement aux bases B, C, D, la matrice de la composée est égale au produit des matrices de et. Plus précisément : m a t B , D - m a t C , D m a t B , C. (-displaystyle mat-(B,D)(-psi -circ -varphi)-mat-(C,D)(-psi)-times mat-(B,C)(-varphi).) En effet, pour tout vecteur x de E, en notant y - (x), z - (y) et X, Y, Z les coordonnées respectives de ces trois vecteurs dans les bases B, C, D, on a Z - mat(C,D).Y - mat(C,D).mat(B,C).X.; Pour toute matrice M de Mm,n(K), l'application X MX du K-espace vectoriel Mn,1(K) dans le K-espace vectoriel Mm,1(K) est linéaire et sa matrice dans les bases canoniques est M. En conséquence, il arrive souvent que l'on identifie la matrice M avec cette application linéaire. On parlera alors de noyau de la matrice, d'espaces propres de la matrice, d'image de la matrice, etc.
+
+Article connexe
+Matrice de passage: Portail de l'algèbre.

@@ -1,0 +1,83 @@
+Le dollar des États-Unis ou dollar américain ou dollar US ou USD est la monnaie nationale des États-Unis et de ses territoires d'outre-mer (comme Porto Rico) ; c'est aussi celle de l'Équateur, du Zimbabwe, de la Micronésie, des Îles Marshall, des Palaos, du Panama, du Salvador, du Timor oriental, des Îles Turques-et-Caïques, des Îles Vierges britanniques et des Îles BES. Il est divisé en 100 cents.
+Son code ISO 4217 est "USD", avec le nom "dollar des États-Unis". Son symbole est "US" ou simplement (caractère Unicode U+0024). Cependant ce dernier symbole est utilisé localement pour désigner d'autres monnaies nationales (par exemple le peso au Mexique).
+Le dollar des États-Unis est la monnaie la plus utilisée au monde pour les transactions, et, depuis décembre 2006, la deuxième derrière l'euro en termes de monnaie en circulation.
+
+Rôle économique
+En monnaie scripturale, le dollar est : la principale monnaie de réserve utilisée dans le monde ;; la devise la plus utilisée dans le commerce international ;; la principale devise traitée sur le marché des changes, présente en 2004 dans 89 % des transactions, contre 37 % pour l'euro (source : BRI) ;; la devise possédant les marchés financiers les plus importants, même si cette prépondérance est en train d'être remise en cause par l'euro dans plusieurs domaines.
+Selon le Fonds monétaire international, le dollar comptait à hauteur de 72 % en 2002 dans les réserves des banques centrales à travers le monde, avant de décliner par la suite pour s'établir à 64 % de ces réserves mondiales en septembre 2007.
+Enfin, certes pour des montants beaucoup moins importants, c'est une monnaie fiduciaire d'un usage très répandu dans le monde, et plus de la moitié de son encours en billets est en fait détenu hors de son pays d'origine.
+
+Responsabilité
+La valeur externe du dollar est du ressort exclusif du gouvernement fédéral américain, et c'est le Secrétaire au Trésor qui en a la responsabilité. La banque centrale américaine, la Réserve fédérale des États-Unis, en particulier, ne jouit d'aucun mandat pour communiquer sur la valeur de la devise.
+
+Histoire
+
+Étymologie et colloquialismes
+L'appellation "dollar" est une déformation du nom d'une monnaie d'argent européenne, le thaler. Cette pièce avait connu plusieurs variations à partir du Joachimsthaler créé en Bohême au XVe siècle. Le thaler a été utilisé aux XVIe et XVIIe siècles dans divers états allemands, jusqu'au thaler de Marie-Thérèse frappé du XVIIIe au XXe siècle. C'est finalement la pièce de huit réaux de l'empire espagnol, inspirée du Joachimsthaler et appelée par les Anglais spanish dollar, qui servira d'étalon pour établir le dollar américain.
+Les Français appelleront ces pièces en argent, sensiblement de même titrage et poids, "piastre", terme qui est resté chez les francophones d'Amérique du Nord pour désigner le dollar.
+Enfin, aux États-Unis comme dans d'autres pays ayant une monnaie de même nom, l'usage familier préfère souvent au terme "dollar" celui de buck, qui désigne un cervidé mâle (colloquialisme). Cet emploi, attesté dès 1856, vient peut-être d'une abréviation de buckskin, "balle de peaux de cerf", dont l'usage en tant qu'unité de valeur remonte au moins à 1748 : en un temps où le numéraire était rare, une balle de peaux pouvait faire office de monnaie dans le commerce colonial entre Amérindiens et Européens ; si cette pratique s'est progressivement éteinte à partir de l'introduction du dollar en 1792, le nom serait resté, passant au nouveau moyen d'échange. Une autre origine possible est un terme de poker.
+
+XVIIIe siècle
+Le premier billet à avoir été imprimé sur le sol américain date de 1690, par la colonie britannique du Massachusetts. Il était alors exprimé en livre sterling. De 1709 à 1755, les treize colonies imprimèrent différents types de billets, toujours en livres. Après le début de la guerre d'indépendance des États-Unis, à partir de 1776, sont fabriqués sous l'égide du Congrès continental des billets exprimés en dollars continentaux, le Continental dollar (Continental ou Continental currency dollar), imprimés de façon excessive jusqu'en 1782, et engendrant une quasi banqueroute puis la création de la Banque de l'Amérique du Nord.
+Le dollar est finalement adopté par le Congrès de la Confédération le 6 juillet 1785 et devient la monnaie officielle des États-Unis en vertu du Mint Act en 1792. Le système décimal est alors choisi : 1 dollar - 10 dimes - 100 cents - 1000 mils.
+La valeur faciale des premières pièces de un dollar frappés en 1794 est indexée sur l'argent : 1 dollar équivaut à 26,96 g d'argent au titre de 892-1000. Ce poids a été calqué sur la pièce espagnole de 8 reales, appelée aussi pièce de huit (peso de ocho) pesant 27,0674 g d'argent au titre de 896-1000 qui était couramment utilisée dans les échanges internationaux au XVIIIe siècle et qui circulait sur le sol américain sous le nom de dollar espagnol (Spanish dollar).
+En 1800, par comparaison, la pièce de 5 francs français pesait 25 g au titre de 900-1000, la pièce de 1 couronne britannique (5 shillings soit 1-4 de) pesait 28,2759 g au titre de 925-1000.
+
+XIXe siècle
+En 1861, les premiers billets verts apparaissent. La maxime "In God We Trust" ("En Dieu nous croyons" ou "Nous avons confiance en Dieu") apparaît pour la première fois en 1864 sur la pièce de 2 cents. Approuvée en 1955 par un acte du Congrès, elle est depuis 1957 systématiquement imprimée sur tous les billets américains.
+
+Début du XXe siècle
+Les dernières pièces de 1 dollar en argent, dits peace dollar ayant véritablement circulé sont frappés en 1935 et pèsent 26,73 grammes au titre de 900-1000. Les sous-multiples de 1-2 (half dollar) 25 cents (quarter) et 10 cents (dime) furent frappés jusqu'en 1964 au titre de 900-1000.
+
+1944-1971 : le Gold Exchange Standard
+Le système monétaire mondial dit du Gold Exchange Standard (étalon de change or) a été mis en place par les accords de Gênes en 1922 jusqu'en 1933 (Roosevelt décide de suspendre la convertibilité du dollar en or pour le dévaluer) puis par les accords de Bretton Woods en 1944 et donne une place prépondérante au dollar. Il repose sur deux piliers principaux : un système de changes fixes entre monnaies (avec de très faibles marges de fluctuations); la reconnaissance du dollar comme monnaie de réserve internationale (as good as gold), qui reste convertible en or, mais seulement dans le cadre des échanges entre banques centrales.
+Si le système fonctionne correctement dans les années 1950, l'accumulation dans les années 1960 des déficits américains encore accrus par les dépenses afférentes à la guerre du Viêt Nam entraînait tout au début de la décennie 1970 de très fortes pressions sur la monnaie américaine. Or sa fonction de monnaie de réserve mondiale gênait fort peu les États-Unis et ne les incitait pas à mieux contrôler leurs déficits.
+
+1971-1973 : période de transition
+C'est le 15 août 1971 que le président Richard Nixon décide l'inconvertibilité du dollar par rapport à l'or, à la suite des tensions permanentes sur cette monnaie. Cette décision est prise sans consulter les partenaires (autres pays occidentaux et Japon). Elle s'explique par le danger sérieux et croissant que les autres pays exigent la conversion en or de leurs excédents de dollars, puisque le dollar était convertible en or, tout au moins dans les échanges entre banques centrales.
+Avec ce "diktat" américain le système de Bretton Woods entrait en agonie, puisque la valeur de chacune des monnaies y était déterminée par référence à un poids d'or. Les pressions sur le dollar ne pouvaient qu'empirer, ce qui se produisit.
+Plusieurs réunions eurent lieu pour s'accorder sur une dévaluation de la devise américaine et tenter un replâtrage du système. Elles débouchèrent sur les "accords de Washington", dits aussi "accords du Smithsonian Institution", conclus le 18 décembre 1971 par les ministres des finances et banquiers centraux du "Groupe des Dix" (la CEE, la Suède, les États-Unis, le Canada et le Japon) qui établirent des parités centrales et des marges de fluctuation de 2,25 %.
+C'est de cette époque que date la formule attribuée au secrétaire américain au Trésor, John Connally : "The dollar is our currency and your problem" ("Le dollar est notre monnaie et votre problème").
+Le 13 février 1973, la faiblesse de la monnaie américaine conduisait à un réajustement des parités, le dollar étant dévalué de 10 %, mais cela se révéla immédiatement insuffisant.
+
+Depuis 1973 : le régime des changes flottants
+Évolution historique du taux au jour-le-jour (Fed Funds) du marché monétaire aux États-Unis. Reconstitution du taux de change euro-dollar de janvier 1972 à janvier 1999 à partir des taux de change du franc français et du Deutsche mark.
+Le 19 mars 1973, le "Groupe des Dix" décidait l'abandon de la fixité des taux de change des diverses monnaies par rapport à l'étalon dollar, ce qui permettait aux banques centrales des autres pays de cesser d'acheter du dollar pour maintenir sa parité, selon les règles du jeu du système en vigueur. Un nouveau système monétaire international dit de "changes flottants" voyait donc le jour. Il est toujours en vigueur.
+Les accords de la Jamaïque entérineront formellement cette situation le 8 janvier 1976.
+De 1973 à 1979, le dollar continue sur sa lancée et se déprécie régulièrement et considérablement par rapport au Deutsche Mark, perdant près de 50 % de sa valeur (cf graphique ci-contre à gauche).
+La violente remontée des taux d'intérêt décidée à la fin de 1979 par le nouveau gouverneur de la banque centrale américaine, Paul Volcker, pour combattre - avec succès - l'inflation, inverse la tendance. Le remède est sévère : pour une inflation de l'ordre de 9 % en taux annuel en 1980, les taux d'intérêt à court terme montent jusqu'à 19 %. Les taux d'intérêt réels atteignent des sommets sans précédent et, au prix d'une sévère récession, l'inflation disparaît : en 1983, elle n'est plus qu'à 3,2 % (Cf. graphique ci-contre à droite).
+Ces taux d'intérêt réels provoquent un afflux de capitaux aux États-Unis, et le dollar s'apprécie pendant cinq ans, jusqu'à revenir, en mars 1985, à son niveau d'avant 1973, ce qui est manifestement exagéré.
+
+Septembre 1985 : les accords du Plaza
+À l'hôtel Plaza de New York, le 22 septembre 1985, les pays dits du G5 (c'est-à-dire ceux du G7 moins le Canada et l'Italie) s'entendent publiquement pour intervenir sur le marché des changes et organiser un repli du dollar. 10 milliards de US sont ainsi dépensés, avec un effet immédiat et spectaculaire. En à peine quinze mois, le dollar efface tous ses gains par rapport au Deutsche Mark et, fin 1986, il se retrouve à son plus bas niveau historique, celui de 1979.
+
+Février 1987 : les accords du Louvre
+Désireux de stopper la machine infernale qu'ils ont mise en route, les pays du G5, rejoints par le Canada, signent à Paris le 22 février 1987 les accords du Louvre, destinés à enrayer la baisse du dollar. Seulement, cette fois-ci, cela ne marche pas et, après une pause dans le courant de l'année 1987, le dollar va continuer pendant dix ans, tendanciellement, à se déprécier.
+
+Les conséquences économiques des interventions
+De façon fort visible et assez rapide, les déséquilibres nés de la cacophonie des accords du Plaza et du Louvre vont conduire à une forte hausse des taux d'intérêt à long terme et au krach conjoint le 19 octobre 1987 des marchés obligataires et des marchés d'actions.
+À plus long terme, les conséquences les plus importantes des accords du Plaza ont lieu sur l'économie japonaise : très dépendante des exportations, celle-ci est immédiatement et particulièrement sensible à la baisse du dollar et, pour lutter contre une récession qu'elle juge inévitable, la Banque du Japon baisse 5 fois son taux d'escompte entre janvier 1986 et février 1987, le ramenant de 5,0 à 2,5 %.
+Mais l'économie japonaise est également sensible aux modalités de la baisse du dollar : le pays a accumulé une épargne extérieure importante, principalement en dollars, justement, et son rapatriement tout au long de 1986 alors que les taux d'intérêt domestiques baissent amène une augmentation importante du prix des autres placements disponibles : actions et immobilier. La bulle financière japonaise de la fin des années 1980 est en train de naître.
+Depuis l'épisode malheureux et surtout mal maîtrisé de 1986-1987, le G7 est devenu prudent et une intervention concertée sur le marché des changes n'est plus concevable que pour assurer la "stabilité du marché", selon la formule consacrée, et non pour tenter d'inverser une tendance.
+
+2007 : baisse du dollar
+Variation du taux de change euro-dollar de janvier 1999 à octobre 2009.
+En raison de la crise des subprimes, du double déficit des États-Unis, ainsi que de la baisse des taux de la FED, le dollar a baissé au point où 1 euro vaut 1,45 dollar américain, le 1er novembre 2007.
+
+2008 : le dollar au plus bas
+En raison de la persistance des troubles conjoncturels cités précédemment, le dollar atteint son plus bas taux historique face à l'euro le 15 juillet 2008 1 - 1,6038. Depuis cette date, le dollar remonte et le taux de change euro-dollar se stabilise autour de 1 - 1,45 vers la fin de l'année (cf graphique ci-contre).
+
+2010 : remontée du dollar
+La dégradation de la notation de la dette publique grecque entraine la baisse de l'euro face au dollar. À la mi-février le taux de change euro-dollar s'établit à 1 - 1,36 pour descendre à 1,1917 le 7 juin.
+Selon la journaliste Myret Zaki, le dollar a perdu 97 % de sa valeur depuis 1913. Comparé à l'or, le dollar perd 98 % de sa valeur entre 1971 et 2010. L'once d'or est passé en 40 ans de 35 à 1 250 dollars.
+
+Pièces et billets
+Du 18 décembre 1934 au 9 janvier 1935, des billets de 100 000 ont été émis. Ils furent utilisés par les banques de la réserve fédérale pour les transactions entre elles. Les billets de 500, 1 000, 5 000 et 10 000 dollars n'ont pas été imprimés depuis 1946.
+
+Utilisation artistique
+Le dollar américain a été utilisé comme symbole de richesse, notamment par Salvador Dalí dans L'Apothéose du dollar.
+En 1994, l'artiste français Klaus Guingand transforme le mot dollar en dollart pour créer son oeuvre le 100 dollarts billet.
+
+Voir aussi
+
+Articles connexes: In God We Trust, devise écrite sur la monnaie des États-Unis; Euro-dollar; Pièces de monnaie des États-Unis; Superdollar; Dollar gap; Dollar glut.

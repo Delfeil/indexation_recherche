@@ -1,0 +1,4 @@
+Les langages documentaires sont des langages artificiels créés pour indexer des documents. Ils permettent de représenter "de manière univoque les notions identifiées dans ces documents et dans les demandes des utilisateurs, en prescrivant une liste de termes ou d'indices, associée à des règles d'utilisation". Ils sont utilisés dans les outils de repérage de l'information, comme les catalogues de bibliothèques ou de centres documentaires, ou encore dans les banques de données.
+
+Typologie des langages documentaires
+On peut distinguer trois types de langages documentaires : Les langages classificatoires (la classification de Dewey, la classification décimale universelle, etc.); Les langages combinatoires (les thésaurus...); Les langages syntagmatiques (les classifications à facettes, Rameau, etc.).

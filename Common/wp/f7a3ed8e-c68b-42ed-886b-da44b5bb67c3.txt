@@ -1,0 +1,7 @@
+Un port matériel est conçu pour brancher un certain type de périphérique, soit directement, soit au moyen d'un câble. Il est soumis à des normes aussi bien sur ses caractéristiques physiques (forme, considérations électriques ou optiques) que logiques (à quoi sert chaque quel fil-patte-connecteur, que signifie tel ou tel signal en entrée, en sortie).
+Les ports matériels se répartissent en : ports internes destinés soit à relier à une carte mère des périphériques internes au boîtier de l'ordinateur (disques, barrettes de mémoire ou même processeur en considérant un socket comme un port matériel) soit à insérer une carte d'extension enfichable sur un bus interne (on parle alors de connecteur d'extension).; ports externes permettant de communiquer avec différents périphériques, souvent via un câble, quoiqu'on trouve aussi notamment dans le cas des portables des connecteurs d'extension reliés à un bus (par exemple PC-Card).
+
+Origine du mot
+Port, en informatique, est une traduction d'un des sens de l'anglais port, dont l'étymologie est le latin "portus" qui signifie passage.
+
+Voir aussi: Liste des ports matériels; Matériel informatique. Portail de l'informatique.

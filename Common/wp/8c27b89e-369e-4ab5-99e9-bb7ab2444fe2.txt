@@ -1,0 +1,16 @@
+Extensible Metadata Platform ou XMP est un format de métadonnées basé sur XML utilisé dans les applications PDF, de photographie et de graphisme. Il a été lancé par Adobe Systems en avril 2001 en étant intégré à la version 5.0 d'Adobe Acrobat.
+Étant basé sur XML, il gère un ensemble de tags dynamiques pour l'utilisation dans le cadre du Web sémantique.
+XMP permet d'enregistrer sous forme d'un document XML des informations relatives à un fichier : titre, auteur, historique des modifications, etc. XMP définit différentes méthodes pour stocker ce document XML au sein même de fichiers JPEG, JPEG 2000, GIF, PNG, HTML, TIFF, Adobe Illustrator, PSD, PostScript, etc.
+Bien qu'ouvert à tout type de données pouvant intégrer un document XML, XMP prédéfinit la façon de stocker un certain nombre d'informations les plus courantes, en reprenant en particulier des éléments de Dublin Core et d'EXIF.
+
+Avantages
+Le format XMP présente un certain nombre d'avantages sur d'autres solutions d'enregistrement des métadonnées : Stocker les métadonnées au sein même du fichier permet de garantir l'association métadonnées-fichier et facilite les échanges; Grâce à XML, le format est aisément extensible sans créer de problème de compatibilité; L'usage d'Unicode permet l'intégration de texte en n'importe quelle langue (ce qui n'est pas le cas avec des solutions concurrentes et plus anciennes comme IPTC ou EXIF).
+
+Licence
+Adobe possède la marque XMP et le contrôle sur ses spécifications.
+
+Utilisation
+Différents logiciels permettent d'utiliser et d'éditer des métadonnées au format XMP. En particulier, le système d'exploitation Microsoft Windows Vista utilise XMP nativement pour stocker des métadonnées sur les images JPEG (titre, mots clés, appréciation, etc.) et il peut les indexer automatiquement pour effectuer des recherches.
+Logiciels compatibles XMP : Applications Adobe : voir Adobe applications that support XMP; Iview Media Pro (racheté il y a peu par Microsoft).; Extensis Portfolio; Canto Cumulus; PlainViewer (dernière version : 2007 pour Vista); XnView à partir de la version 1.90; Konvertor; ExifTool par Phil Harvey, open source PERL module et outil en ligne de commande; Exiv2 outil en ligne de commande et bibliothèques C++ faciles à intégrer (XMP IPTC EXIF, GNU-linux); F-Spot (uniquement GNU-Linux); DigiKam (un logiciel libre multiplate-forme de gestion d'images pour KDE); Kalimage (XMP IPTC Core FR et EN); Metamachine (XMP IPTC Mac); PDF Longlife (Windows,UNIX,Linux); XMP PHP Toolkit par Mathias VITALIS, extension PHP intégrant les fonctions XMP d'Adobe.; Fotostation de FotoWare : logiciel commercial permettant une grande personnalisation des modes de saisie des métadonnées; Picasa à partir de la version 3.8; Picty; Shotwell; GIMP (version 2.10 à venir); Darktable.
+
+Voir aussi: (en) Page principale d'Adobe sur XMP. Portail de l'imagerie numérique.

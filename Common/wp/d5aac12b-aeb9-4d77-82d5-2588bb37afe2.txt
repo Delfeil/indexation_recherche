@@ -1,0 +1,40 @@
+En informatique, le mode texte, peut désigner plusieurs choses en fonction du contexte (accès à un fichier, mode de fonctionnement d'une carte graphique, principe d'interface homme-machine, etc.). Cet article traite essentiellement du mode texte d'une carte graphique.
+.
+Le mode texte (d'une carte graphique), par opposition au mode graphique, est un type d'affichage sur écran constitué uniquement de caractères. Il a pour principal objet l'implémentation d'environnements en mode texte, ce dernier concept d'interface utilisateur étant par ailleurs plus large.
+
+Principe
+Le mode texte a été créé avec les débuts de l'informatisation. Le principe réside dans le concept qu'un écran ou une feuille de papiers peuvent être considérés comme un quadrillage, dans lequel chaque carré permet d'afficher une lettre ou un caractère semi-graphique.
+Cela interdit en principe l'affichage d'image, mais nécessite moins de mémoire pour afficher le rendu d'un texte, et fournit de facto un alignement vertical des textes.
+Avec ce principe la couleur d'un point peut être déterminée de manière très simple et immédiate, à partir des numéros de colonne et de ligne du pixel, et du dessin du caractère affiché dans cette case, sans aucune autre forme de traitement ou de calcul.
+
+Histoire
+
+Histoire des PC
+Codage du texte sur 80 colonnes.
+Au début du XXe siècle, la saisie du texte s'est standardisée de facto autour des cartes perforées à 80 colonnes, numérotées de 1 à 80.
+Les standards les plus célèbres furent le Monochrome Display Adapter et le Hercules Graphics Card.
+Un écran d'affichage en caractères est composé de 40 ou 80 colonnes, et chaque commande ou action génère un retour à la ligne. Lorsque la ligne atteint la base de l'écran, toutes les lignes sont décalées d'un cran vers le haut et la nouvelle ligne s'inscrit en bas de l'écran. (Scrolling)
+Un écran d'ordinateur compatible PC peut accepter 25, 43 et 50 lignes et 40 ou 80 colonnes, selon le mode texte choisi, - ceci permet un affichage maximal de 80 50 - 4 000 caractères à l'écran ; ceux-ci peuvent prendre différentes couleurs (par exemple, 16 couleurs + clignotement) sur différents fonds (16 couleurs). Par contre, le tracé et la chasse (la largeur) des caractères est fixée par le système.
+Le mode texte ne permet donc pas l'affichage d'image numérique, sauf par des moyens très détournés comme l'art ASCII. Ce mode était couramment employé sur les ordinateurs compatibles PC durant les années 1980, jusqu'à ce que Windows prenne le pas sur MS-DOS. Les Macintoshs, conçus dès le départ comme ayant une interface graphique, n'ont acquis de terminaux en mode texte qu'avec la sortie de Mac OS X, lequel est désormais un système Unix, fonctionnant sur un matériel compatible PC.
+
+Modes textes communs
+Les modes de texte disponibles sont une caractéristique de la carte graphique utilisé. Différents standards ont coexisté sur IBM PC compatible:
+
+Histoire du multimedia
+Ce concept a notamment été utilisé par les technologies Minitel, Télétexte, et Vidéotext.
+Elles faisaient un usage intensif des caractères semi-graphiques.
+
+Usages
+Si les interfaces graphiques sont devenues une référence avec des environnements de travail comme Windows ou X Window, l'existence de logiciels utiles et pratiques n'ayant pas d'équivalents en mode graphique a perduré au travers de terminaux virtuels tels que xterm, rxvt et la fenêtre dans laquelle Windows lance les exécutables compilés en mode dit console (comme cmd.exe) qui reproduisent le fonctionnement des terminaux physiques dans une fenêtre de l'écran.
+Les programmes en mode texte les plus utilisés sont actuellement les terminaux : des interfaces en texte seulement, ouvertes directement sur la machine hôte, simulées dans une interface graphique.
+
+Environnement lignes de commande
+De par sa souplesse, en matière d'écriture de scripts de commandes notamment, le mode texte reste en 2016 très employé par les utilisateurs des systèmes Unix, notamment, grâce à l'essor de GNU-Linux. En effet, de par la faible complexité et la petite quantité d'informations transmises dans un sens comme dans l'autre lors de l'envoi de commandes à l'ordinateur et des réponses à celles-ci, la réactivité d'une machine - même pilotée à distance - est sans commune mesure avec celle d'un système de puissance équivalente mais forcé de dédier une partie - souvent importante - de ses ressources à l'affichage de l'interface graphique. Cela explique notamment le choix de nombreux administrateurs de sites webs à utiliser des distributions GNU-Linux vierges de toute interface graphique, pour n'avoir à allouer de la mémoire qu'au contenu hébergé, la maintenance des serveurs se faisant par lignes de commandes.
+
+BIOS
+Il est aussi utilisé au démarrage de l'ordinateur par le BIOS pour afficher l'état d'avancement de l'initialisation des périphériques et pour en régler les paramètres.
+
+Ecran bleu
+Il est aussi utilisé par les écrans bleus de Windows.
+
+Articles connexes: Environnement en mode texte; Navigateur Web en mode texte; Curses (bibliothèque spécialisée dans le mode texte).; VT100; art ANSI.

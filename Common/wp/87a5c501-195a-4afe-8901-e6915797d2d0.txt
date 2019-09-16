@@ -1,0 +1,6 @@
+Le SIGGRAPH est un séminaire américain sur l'infographie. Elle est organisée annuellement par le Special Interest Group on Computer Graphics and Interactive Techniques (SIGGRAPH) de l'ACM. La première édition eut lieu en 1974. De nombreux professionnels et experts s'y retrouvent pour présenter leurs recherches et les progrès dans le domaine de l'infographie et la programmation graphique.
+À noter que depuis 2008, une seconde conférence annuelle SIGGRAPH se tient en Asie. Alors que la conférence SIGGRAPH se tient traditionnellement en milieu d'année, SIGGRAPH Asia a lieu vers la fin d'année.
+
+Historique
+
+Articles connexes: Special Interest Group on Computer Graphics and Interactive Techniques; Eurographics.

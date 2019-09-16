@@ -1,0 +1,88 @@
+La connectique regroupe toutes les techniques liées aux connexions physiques des liaisons électriques ainsi que des transmissions de données, c'est-à-dire les connecteurs et prises.
+La connectique est omniprésente dans nos vies que ce soit pour relier nos appareils électriques à des prises d'alimentation électrique ou pour relier les différents éléments de nos systèmes informatiques, nos systèmes audio ou vidéo.
+Le défi des manufacturiers et des ingénieurs est de maximiser la standardisation des connexions tout en conservant la fonctionnalité de ces connexions. La maximisation de la standardisation réduit les coûts et facilite la vie des consommateurs, mais cette standardisation ne doit pas se faire au détriment de la puissance et de la fonctionnalité des appareils.
+
+Électrotechnique
+Le Connecteur industriel ou d'électrotechnique est un type de connecteur pouvant tolérer de fortes contraintes. Ces connecteurs sont utilisés dans le monde industriel dans de nombreuses installations comme les chaines de production, les robots, les transports ou dans l'énergie. Ces connecteurs ont la particularité d'être extrêmement robustes et de tolérer de fortes tensions.
+
+Prises
+Il existe différents types de prises électriques de puissance, répondant à différentes normes. Leur but est d'assurer la transmission correcte d'un courant certain, sans arc électrique, ni résistances parasites, tout en garantissant la sécurité de la personne qui effectue la connexion. Très souvent les prises comportent un conducteur de sécurité (la terre), lequel est connecté en premier et déconnecté en dernier.
+Les prises de puissance peuvent être spécialisées par certains critères techniques. Par exemple certaines prises utilisées en extérieur seront étanches, d'autres utilisées dans des environnements explosifs contiendront des chambres de confinement pour limiter le risque d'explosion créé lors d'une connexion à chaud, d'autres ont tout simplement des parties servant à maintenir le câble solidaire mécaniquement de la prise pour ne jamais exercer une force de traction sur la partie connexion électrique.
+Désormais même les points lumineux des logements et bureaux doivent être munis de connecteurs de sécurité. Différents types de prises;
+Prise mâle 10 A monophasé sans terre (domestique).;
+Prise femelle 10 A avec terre (domestique).;
+Connecteur DCL (domestique).;
+Prise mâle 16 A triphasé (industrie).
+.
+Connecteurs d'alimentation: Prise électrique, utilisée en bout de câble pour alimenter les appareils fonctionnant avec un courant alternatif; Connecteurs courant continu; Connecteur d'appareillage, principalement utilisé pour alimenter les appareils portatifs; MagSafe; Connecteur de type domestiques et industriels légers: CEI 60320. Différents types de connecteurs;
+Connecteur secteur type CEE22;
+IEC C5;
+IEC C7.
+.
+Cosses
+Une cosse est sertie sur les fils multibrins, la cosse est conçue pour assurer une qualité de connexion maximale, tout en assurant un montage et un démontage sans problème. Sans cosse ou embout des brins peuvent sortir de la connexion et provoquer des courts-circuits avec les autres bornes. Certains modèles : Faston et Tube, offrent en plus un montage ainsi qu'un démontage ultra-rapides. Différents types de cosses;
+Cosses Faston : mâle et femelle;
+Cosses pour batterie d'automobile;
+Différents types de cosses à sertir.
+.
+Borniers
+Borniers à vis, pour fil nu ou muni de cosse. Plusieurs types de borniers existent dont : le bornier pour fixer, avec serrage du fil ou de la cosse, sous une plaque serrée par une vis, voire avec serrage directement sous le bout plat de la vis de pression. Types de Borniers;
+Connexions à vis;
+Connexions dans une armoire d'automate;
+Barrette de connexion découpée (en"dominos ou"sucres).
+. Bornier mobile isolé extérieurement, comprenant un tube en laiton muni de deux vis permettant de connecter ensemble plusieurs fils. Ce type de bornier est sécable à la demande, il permet des liaisons volantes que l'on protège par des boîtes en plastique. Ces borniers mobiles sont aussi appelés "domino", ou "sucre" par les électriciens.; De plus en plus souvent on utilise des bornes sans vis (type wago), la connexion est assurée par une lame ressort qui bloque le fil monobrin ou multibrin, contre une forme spéciale empêchant le retrait et assurant le contact électrique. Raccordement et connecteurs;
+Vue éclatée borne Wago;
+Raccordement d'une boite de jonction à l'aide de wago;
+Connecteur à six conducteurs type Wago.
+.
+Connectiques spécifiques: Connecteurs d'alimentation de PC.
+
+Électronique
+Picots et fiches femelles associées.
+En électronique ont utilise : Picot; Pince crocodile; Broche Pogo.
+
+Connecteur de carte à carte standard: Pins header (version simple ou double rangée au pas de 1,27 à 2,54 mm); Socket (version simple ou double rangée au pas de 1,27 à 2,54 mm).
+
+Connecteur de carte à cable standard: HE10; HE13; Mini Module (pas de 1.27 décalé) de type Wurth.
+
+Connecteurs de données
+
+Micro-informatique
+Le domaine de la connectique est particulièrement développé en micro-informatique, les connecteurs y sont extrêmement diversifiés.
+
+Sur la carte mère
+Connecteurs: 1:Souris PS-2 2:Clavier PS-2 3:RJ45 4:USB 5:port COM 6:port LPT 7:VGA 8:MIDI 9:Audio mini-jack. ISA; EISA; MCA; VLB; PCI; AGP; PCI Express; PCI-X; Sata; ATA; EIDE (l'IDE étant identique à l'ATA à ne pas confondre avec le SATA, différent); IDE (Par des connecteurs type IDC); ATAPI extension de l'ATA servant à connecter d'autres périphériques comme les lecteurs de CD-DVD.
+
+Autres connecteurs internes: SCSI; Connecteurs Molex pour l'alimentation des périphériques et de la carte mère; MPC3.
+
+Connecteurs externes: USB pour la connexion de différents périphériques (principalement les disques durs externes, clé USB, claviers, souris, appareil photo, caméra, etc.) réalisé par Intel. L'USB est de type 2.0, 3.0 et 3.1.; FireWire destiné à connecter des disques durs externes; RJ45 pour les réseaux Ethernet et les prises téléphoniques (norme CEI 60603-7, appliquée en France depuis fin 2003); la gamme D-sub, notamment utilisée jusqu'au début des années 2000 sur micro-ordinateurs pour les ports série et parallèle; eSata pour la connexion des disques durs externes external SATA; Light Peak est une future connectique en cours de réalisation par Intel sur commande d'Apple (source non sure) capable de connecter tous les périphériques; Connecteur fibre optique pour les équipements raccordés en fibre optique; Connecteur HDMI.
+
+Connecteurs audio: Connectique RCA, également utilisée pour la vidéo; Connectique Jack; Connectique DIN; Connectique Speakon; Connectique XLR; TOSLINK : connecteur optique.
+
+Connecteurs vidéo
+Il existe diffrents types de conecteurs vidéo : Péritel; S-Video; RCA, également utilisé pour l'audio; VGA; DVI; UDI; HDMI, également utilisé pour la vidéo; DisplayPort, également utilisé pour la vidéo; Prise antenne TV; BNC. Types de connecteurs audio-vidéo;
+Connecteurs mâle et femelle sur câble coaxial 75 ohms.;
+Connectique pour câble coaxial (antenne et parabole).
+.
+Connecteurs de télécommunications
+Connecteur RJ11 et son adaptateur ancienne norme française.
+En téléphonie ont utilise deux types de connecteurs : la petite prise est une RJ11 standard européen actuel de connectique des téléphones;; la grosse prise en T cette dernière était utilisée qu'en France jusqu'en 2003, et est encore très présente dans les habitations.
+
+Connectique professionnelle
+Bien qu'un certain nombre de professionnels utilisent une marque pour parler d'un connecteur (un Cannon, un Socapex, un LEMO (en), un Harting, un Musa (en), un Deutsch...) cette dénomination est à bannir. En effet, même s'ils sont à l'origine d'un connecteur, les fabricants ont - pour assurer leur diffusion - transformé leurs spécifications en normes. Ainsi, les spécifications ont été ouvertes aux autres fabricants et actuellement il y a quasiment toujours plusieurs fournisseurs pour un même modèle.
+Autre abus de langage fréquent, utiliser le nom du protocole au lieu du nom du connecteur. Cet usage est également à proscrire car si l'application majoritaire d'un connecteur est de véhiculer un protocole informatique sur un protocole physique, on peut tout à fait utiliser ce même connecteur pour d'autres applications. Ainsi l'Attachment Unit Interface (AUI) est véhiculé sur un DA-15, mais ce même connecteur peut être utilisé sur un satellite ou dans un avion pour d'autres protocoles.
+Il faut donc s'astreindre à utiliser une nomenclature claire pour parler d'un connecteur.
+Cette nomenclature va la plupart du temps détailler 5 critères : la taille de l'enveloppe mécanique (le shell); le type de l'enveloppe mécanique : prise (plug) ou embase (socket); le nombre et l'arrangement des contacts; le type de contacts : mâle (pins) ou femelle (socket); le détrompage (keying).
+Les connecteurs utilisés en Europe occidentale sont pour la plupart issus de normes américaines aussi les tailles (de l'enveloppe mécanique, des contacts, de l'espacement entre contacts ou du pas de vis) sont des valeurs basées sur les unités de mesures américaines (en pouces). De même la taille des fils prévus pour entrer dans les contacts est exprimée en gauge. Par contre les connecteurs suivant les normes russes sont eux totalement en système métrique.
+On peut distinguer deux grandes familles de connecteurs : les connecteurs circulaires et les connecteurs rectangulaires. Connecteurs en télécomunication;
+Connecteur MIL-DTL-38999 à 16 pins;
+Connecteur Micro Ribbon à 36 pins.
+.
+Les connecteurs circulaires ont la plupart du temps un verrouillage à vis ou à baïonnette mais il en existe également en verrouillage push-pull (connecteurs largables)
+Exemples de connecteurs circulaires : Connecteurs MIL-DTL-38999; Connecteurs MIL-DTL-26482; Connecteurs DBAS (largables); Connecteurs BNC (Bayonet Neill-Concelman) et TNC (Threaded Neill-Concelman).
+Les connecteurs rectangulaires (comprenant quelques modèles carrés) ont la plupart du temps un verrouillage par des vis latérales ou par un clips latéral
+Exemples de connecteurs rectangulaires : Connecteurs Sub-D; Connecteurs Mil DTL 55302; Connecteurs DIN 43650 pour pilotage d'électrovannes; Connecteur FRB pour fond de panier; Connecteur Micro Ribbon (usage Centronics pour imprimante, GPIB...).
+
+Voir aussi
+
+Articles connexes: Brochage; Boîtier de circuit intégré; Capuchon de connexion; Connecteur SMA, Connecteur SMB; Connecteur auto-dénudant. Portail de l'électricité et de l'électronique.

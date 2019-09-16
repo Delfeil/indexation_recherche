@@ -1,0 +1,92 @@
+Un certificat électronique (aussi appelé certificat numérique ou certificat de clé publique) peut être vu comme une carte d'identité numérique. Il est utilisé principalement pour identifier et authentifier une personne physique ou morale, mais aussi pour chiffrer des échanges.
+Il est signé par un tiers de confiance qui atteste du lien entre l'identité physique et l'entité numérique (virtuelle).
+Le standard le plus utilisé pour la création des certificats numériques est le X.509.
+
+Rappels sur le chiffrement
+Le principe de fonctionnement des certificats électroniques est basé sur le chiffrement d'informations et sur la confiance. Pour cela, il existe deux méthodes de chiffrement : symétrique et asymétrique.
+
+Chiffrement symétrique
+Cette méthode est la plus simple à comprendre : si Anne (A) veut envoyer un message chiffré à Bob (B) elle doit lui communiquer un mot de passe (clé de chiffrement). Comme l'algorithme de chiffrement est symétrique, on a la relation suivante :
+TexteCodé - chiffrement du message par la clé
+Ainsi, Anne peut aussi déchiffrer un message en provenance de Bob avec la même clé. Mais il faut au préalable trouver un moyen sûr de transmettre la clé à l'abri des regards. La situation peut cependant devenir complexe, si Anne doit envoyer un message chiffré à Bob et à Charlie mais qu'elle ne souhaite pas donner la même clé à Charlie. Plus le nombre de personnes est grand, plus il est difficile de gérer les clés symétriques. D'autant qu'il faut au préalable trouver un moyen sûr de transmettre la clé.
+
+Chiffrement asymétrique
+La propriété des algorithmes asymétriques est qu'un message chiffré par une clé publique n'est lisible que par le propriétaire de la clé privée correspondante. À l'inverse, un message chiffré par une clé privée sera lisible par tous ceux qui possèdent la clé publique correspondante.
+Ainsi avec sa clé privée, Anne : signe ses messages ;; lit (déchiffre) les messages qui lui sont adressés.
+
+La problématique des clés publiques
+En se référant au précédent paragraphe nous voyons rapidement que, lorsqu'une entité (entreprise, association, individu, service public, etc.) veut sécuriser ses communications (entrantes et sortantes) auprès d'un large public, le chiffrement le plus simple est l'asymétrique à clé publique : l'entité n'a qu'à diffuser sa clé publique à l'ensemble de son audience.
+Le problème vient de la transmission de la clé publique. Si celle-ci n'est pas sécurisée, un attaquant peut se positionner entre l'entité et son public en diffusant de fausses clés publiques (par le biais d'un faux site web par exemple) puis intercepter toutes les communications, lui permettant d'usurper l'identité du diffuseur de clés publique et de créer une attaque de l'homme du milieu.
+Dans un cadre fermé et relativement restreint (entreprise, service public...) la diffusion de clés sécurisées est relativement simple et peut prendre de nombreuses formes, mais quand le diffuseur souhaite s'adresser à un public plus large avec lequel il n'a pas eu de contact préalable (grand public, public international) elle nécessite un cadre normalisé.
+Les certificats résolvent le problème du canal sécurisé grâce à la signature de tiers de confiance.
+
+Présentation du principe
+
+Définition
+Un certificat électronique est un ensemble de données contenant : au moins une clé publique ;; des informations d'identification, par exemple : nom, localisation, adresse électronique ;; au moins une signature (clé privée) ; de fait quand il n'y en a qu'une, l'entité signataire est la seule autorité permettant de prêter confiance (ou non) à l'exactitude des informations du certificat.
+Les certificats électroniques et leur cycle de vie (voir liste de révocation de certificats et protocole de vérification de certificat en ligne) peuvent être gérés au sein d'infrastructures à clés publiques.
+Certificat utilisateur de contenu
+Différents types
+Les certificats électroniques respectent des standards spécifiant leur contenu de façon rigoureuse. Les deux formats les plus utilisés aujourd'hui sont : X.509, défini dans la RFC 5280 ;; OpenPGP, défini dans la RFC 4880.
+La différence notable entre ces deux formats est qu'un certificat X.509 ne peut contenir qu'un seul identifiant, que cet identifiant doit contenir de nombreux champs prédéfinis, et ne peut être signé que par une seule autorité de certification. Un certificat OpenPGP peut contenir plusieurs identifiants, lesquels autorisent une certaine souplesse sur leur contenu, et peuvent être signés par une multitude d'autres certificats OpenPGP, ce qui permet alors de construire des toiles de confiance.
+
+Utilité
+Les certificats électroniques sont utilisés dans différentes applications informatiques dans le cadre de la sécurité des systèmes d'information pour garantir : la non-répudiation et l'intégrité des données avec la signature numérique ;; la confidentialité des données grâce au chiffrement des données ;; l'authentification ou l'authentification forte d'un individu ou d'une identité numérique.
+
+Exemples d'utilisation: Serveur web (voir TLS et X.509) ;; Courrier électronique (voir OpenPGP) ;; Poste de travail (voir IEEE 802.1X) ;; Réseau privé virtuel (VPN, voir IPsec) ;; Secure Shell (SSH), TLS ;; Code Mobile ;; Documents électroniques.
+
+Les autorités de certification
+Les autorités de certification sont des organismes enregistrés et certifiés auprès d'autorités publiques et-ou de gouvernance de l'Internet qui établissent leur viabilité comme intermédiaire fiable. Ces organismes diffusent leurs propres clés publiques. Étant certifiées fiables ces autorités sont en contact direct avec les principaux producteurs de systèmes d'exploitation et de navigateurs web (tels que Mozilla Firefox, Google Chrome, Microsoft Internet Explorer, etc.) qui incluent nativement les listes de clés des autorités de certification. C'est cette relation qui est à la base de la chaîne de confiance. Ces clés sont appelées clés publiques racines ou certificats racines et sont utilisées pour identifier les clés publiques d'autres organismes.
+
+Serveur de clés
+Les certificats peuvent être stockés par des serveurs de clés, qui peuvent aussi faire office d'autorité d'enregistrement et de certification (repère A).
+Ils recensent et contrôlent les certificats. Ils possèdent souvent une liste (repère B) des certificats révoqués.
+
+L'interopérabilité
+Dans certains cas, le certificat peut être associé à l'élément "identifiant" des registres de métadonnées (10e élément dans le Dublin Core) pour l'interopérabilité.
+
+Certificats et navigation Internet
+Les certificats sont très largement utilisés sur les sites de commerce en ligne, webmails ou autres sites sensibles (banques, impôts, etc.). Plusieurs niveaux de chiffrement existent et plusieurs fonctionnalités associées rendent la compréhension des certificats complexe.
+
+Certificats X.509 standards
+Ce sont les certificats classiques, qui existent depuis plusieurs années. Le chiffrement varie entre 40 bits et 256 bits. Cela est dû en partie à la capacité des navigateurs et à la législation en vigueur. Généralement, les sociétés éditrices de certificats proposent 40 bits ou 128 bits garantis.
+
+Certificats X.509 étendus
+Ce sont les certificats qui sont pris en charge dans les navigateurs récents et qui permettent l'affichage d'un fond vert (indiquant ainsi un site de confiance garantie). L'abréviation EV signifie Extended Validation (en).
+
+Certificats X.509 omnidomaines
+Un certificat omnidomaine ou wildcard permet de rendre générique une partie du nom de domaine certifié : -.societe.fr www.societe.fr, toto.societe.fr, titi.societe.fr (mais ni societe.fr, ni www.toto.societe.fr ; voir la RFC 2818).
+
+Certificats X.509 multisites
+Ces certificats contiennent une liste de noms. Cette solution se base sur le champ subjectAltName.
+Dans le cas des serveurs web, ces certificats sont utiles pour fournir plusieurs sites HTTPS sur une seule adresse IP. En effet, en HTTPS, l'échange du certificat se fait avant que le navigateur client ait transmis le nom de domaine qui l'intéresse. Or, si le certificat fourni par le serveur ne contient pas le nom requis par le client, celui-ci déclenche une alerte de sécurité (voir indication du nom du serveur pour une autre possibilité technique).
+
+Certificats OpenPGP
+Alors que les premiers sites web sécurisés ne pouvaient utiliser que des certificats X.509, l'exploitation de la RFC 6091 permet désormais d'utiliser des certificats OpenPGP afin de faire du HTTPS.
+
+Certificats et courriels
+L'utilisation des certificats pour chiffrer, ou signer des courriels se fait en utilisant le standard S-MIME qui permet l'encapsulation des données cryptographiques dans le format MIME des courriels.
+Lorsqu'un utilisateur est certifié, une icône permet généralement de le savoir :
+Leur utilisation est controversée, car la signature est ajoutée comme élément supplémentaire au contenu du courriel. Par conséquent, l'utilisation de certificats sur des listes de diffusion peut résulter en l'invalidation de la signature, du fait des modifications effectuées par le moteur traitant la liste.
+De plus, de nombreuses messageries en ligne et clients de messagerie ne gèrent pas le format S-MIME, ce qui perturbe parfois les utilisateurs voyant une pièce jointe "smime.p7m" apparaître dans leurs messages.
+Dans le cadre des messageries en ligne, une problématique supplémentaire est en cause, celle de la confiance dans l'opérateur. En effet, utiliser son certificat sur une messagerie en ligne implique obligatoirement que le fournisseur de ce service partage les éléments secrets du certificat (clé privée et mot de passe), sans quoi il ne peut réaliser la signature, ou le chiffrement. Et cela implique qu'il doit aussi fournir un moteur de cryptographie.
+
+Fonctionnement type pour un certificat X.509
+
+Création d'un certificat
+Lorsqu'un diffuseur d'information veut diffuser une clé publique, il effectue une demande de signature auprès d'une autorité de certification. L'autorité de certification reçoit la clé publique et l'identité du diffuseur. Après avoir vérifié la clé publique et l'identité du diffuseur par des moyens conventionnels, elle les place dans un conteneur qu'elle signe en utilisant sa clé privée. Le fichier résultant est le certificat. Il est alors renvoyé au diffuseur qui le conserve pour ses communications (par exemple sur son site internet) avec des utilisateurs.
+
+Utilisation du certificat
+Un utilisateur demande une ressource numérique au diffuseur, ce dernier lui envoie son certificat ainsi que la ressource en question. Si la signature du certificat du diffuseur correspond à une autorité de certification en qui l'utilisateur a confiance, c'est-à-dire si le certificat racine de l'autorité est inclus dans le navigateur web de l'utilisateur, alors l'utilisateur vérifie l'intégrité du certificat du diffuseur avec la clé publique du certificat racine. Cette vérification lui assure que l'identité du diffuseur est authentique, c'est-à-dire que la clé publique et l'identité contenues dans le certificat du diffuseur sont liées par l'autorité de certification. Si le certificat du diffuseur est authentifié, l'utilisateur peut alors utiliser la clé publique du certificat du diffuseur pour vérifier l'intégrité de la ressource numérique reçue.
+
+Chaîne de confiance
+En pratique, la certification peut s'effectuer en cascade : un certificat peut permettre d'authentifier d'autres certificats jusqu'au certificat qui sera utilisé pour la communication.
+
+Vulnérabilités
+Le système de certificats ne présente pas de vulnérabilité technique théorique sous réserve que toutes ses étapes soient correctement implémentées. Le principal risque peut provenir de la compromission des gestionnaires du système (autorités de certification et gestionnaires de clés) : le contrôle des demandeurs de certification peut être insuffisant ou compromis, permettant à des attaquants de faire certifier des clés publiques frauduleuses ;; des clés privées peuvent être volées chez le diffuseur final ou chez les autorités de certification.
+Les attaques des diffuseurs ou autorités de certification peuvent être électroniques ou conventionnelles (intrusion physique, corruption, etc.).
+Des experts de la sécurité informatique ont mis en garde contre l'insuffisance de la sécurité et des contrôles de nombreuses autorités de certification. Le ver Stuxnet utilisé contre le programme nucléaire iranien exploitait plusieurs certificats volés.
+
+Voir aussi
+
+Articles connexes: Alice et Bob; Authentification forte; Chiffrement; Cryptographie asymétrique; X.509 (format); HTTP Strict Transport Security; Identité numérique; Infrastructure à clés publiques; EJBCA (solution logicielle); Signature numérique.

@@ -1,0 +1,11 @@
+Les normes du Web sont différentes technologies et protocoles utilisés sur le Web et en particulier ceux définis par le W3C sous forme de recommandations.
+Cette expression a été popularisée à partir de la fin des années 1990, à travers des ouvrages de designers tels que Designing With Web Standards de Jeffrey Zeldman, ainsi que l'action d'associations de professionnels du Web comme le Web Standards Project (WaSP), ou encore en France le collectif Openweb.
+Elle se réfère principalement aux technologies formant le socle principal d'un document web : le HTML et le XHTML, les feuilles de style en cascade (CSS) et le DOM (Document Object Model) ainsi que sa manipulation avec Javascript. Cependant, elle peut également, selon les contextes, s'étendre à un ensemble plus vaste, dont : AJAX (Asynchronous Javascript and XML); HTTP (Hypertext Transfer Protocol); PNG (Portable Network Graphics); RDF (Resource Description Framework); SVG (Scalable Vector Graphics); SMIL (Synchronized Multimedia Integration Language); URI (Uniform Resource Identifier); XML (Extensible Markup Language); WCAG (Web Content Accessibility Guidelines).
+
+Organismes de standardisation
+Il existe de nombreux organismes de standardisation, d'importances diverses. Parmi les plus notables se trouvent l'IETF (protocoles...), le W3C (langages de balisage, langages de présentation, accessibilité, respect de la vie privée...), l'ISO et le Consortium Unicode (codages de caractères...), l'ECMA (JavaScript...), l'IANA (noms de domaine, types MIME...)...
+Certains organismes ne s'adressent qu'à un public limité (géographiquement, par exemple), comme le faisait l'Agence pour le développement de l'administration électronique en France.
+
+Voir aussi
+
+Articles connexes: Normes sur les métadonnées; Standard Internet.

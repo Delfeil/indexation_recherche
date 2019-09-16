@@ -1,0 +1,55 @@
+Objective-C est un langage de programmation orienté objet réflexif. C'est une extension du C ANSI, comme le C++, mais qui se distingue de ce dernier par sa distribution dynamique des messages, son typage faible ou fort, son typage dynamique et son chargement dynamique. Contrairement au C++, il ne permet pas l'héritage multiple mais il existe toutefois des moyens de combiner les avantages de C++ et d'Objective-C.
+Aujourd'hui, il est principalement utilisé dans les systèmes d'exploitation d'Apple : macOS et son dérivé iOS, basés sur la bibliothèque de classes Cocoa mais il existe aussi une bibliothèque de classes libre GNUstep sous GNU-Linux. Cocoa et GNUstep sont les successeurs de l'API OpenStep, utilisée dans les systèmes d'exploitation NeXTSTEP et OPENSTEP.
+
+Historique
+La fin des années 1970 est marquée par la popularité naissante et rapide du langage C inventé plus tôt dans la décennie par Dennis Ritchie aux Laboratoires ATT Bell. Cette popularité est entretenue par une autre encore plus grande, celle du système d'exploitation UNIX totalement écrit en C. À la charnière des décennies 1970-1980, la pratique courante du génie logiciel est basée sur la programmation structurée. L'implémentation de la programmation structurée est utilisée dans le but de scinder de gros programmes en des parties plus petites, de complexité moins grande et donc plus faciles à programmer. Cependant, alors que la résolution de problèmes devient de plus en plus grande et compliquée, la programmation structurée devient moins utile au fur et à mesure que de plus en plus de procédures doivent être écrites, ce qui mène à des structures de contrôle complexes et à une faible réutilisation de code. À l'époque, beaucoup voient dans l'orienté-objet une possible solution à ce problème.
+Plusieurs personnes créent alors des extensions au C pour y ajouter l'orienté-objet. C'est le cas de Bjarne Stroustrup qui développe le C++ en 1979 dans les mêmes laboratoires que ceux dans lesquels le C de Dennis Ritchie a vu le jour. La naissance de l'Objective-C arrive dans le même contexte. Brad Cox le met au point au début des années 1980. Le langage est basé sur un autre, le Smalltalk-80, et est destiné à être une couche supplémentaire au C pour permettre la création et la manipulation d'objets.
+Le code compilé Objective-C s'exécute dans un environnement d'exécution (runtime) léger écrit en C, qui ajoute peu à la taille de l'application.
+Le premier système d'exploitation à utiliser Objective-C fut NeXTSTEP, de la société NeXT, fondée par Steve Jobs.
+Objective-C est beaucoup utilisé sur Macintosh, notamment pour les API Cocoa de Mac OS X et, plus récemment, pour le développement d'applications iPhone, le smartphone d'Apple.
+Il existe également une implémentation libre du framework d'OpenStep, appelée GNUstep, qui est multiplateforme et fonctionne notamment sous GNU-Linux, Microsoft Windows et la plupart des UNIX.
+
+Descriptif du langage
+En Objective-C, tout est objet tout comme en Smalltalk dont il s'inspire fortement. C'est donc un langage fortement orienté objet. L'héritage simple induit un arbre d'héritage avec une racine : la classe NSObject, dans le cas de Cocoa-NeXTSTEP, ou Object dans le cas de GNUstep. C'est à partir d'elle que vont dériver toutes les classes. Par exemple, un objet de classe NSString, ou NSArray, dérive de la classe NSObject (indirectement). NSMutableArray dérive de la classe NSArray, qui est donc sa superclasse. D'après certains de ses utilisateurs, c'est là que la puissance d'Objective-C apparaît : au contraire de C++ ou autres langages ne l'incluant pas, le typage faible permet de manipuler plus simplement des données.
+En effet, plutôt que de devoir manipuler de nombreux types, il n'y en a que quelques-uns, par exemple dans le cas de Cocoa : id qui est un pointeur vers n'importe quel type d'objet.; BOOL qui est identique à char de C, mais utilisé comme une valeur booléenne. 0 est considéré comme faux, et tout ce qui n'est pas 0, est considéré comme vrai (A, a, 1, 2, etc.); YES qui vaut 1.; NO qui vaut 0.; IBOutlet est une macro qui ne sert qu'à indiquer à Interface Builder qu'il est en face d'un "Outlet".; IBAction qui équivaut à void, et qui indique à Interface Builder qu'il est une action (ou méthode de classe) devant être appelée par exemple par un bouton pressé.; nil qui est identique à NULL. Il sera préféré à celui-ci, car un "message" envoyé à nil ne crée pas une exception, et donc un plantage du programme, mais ne renvoie "rien", donc "nil".
+De plus, toutes les variables d'instances de classe sont par défaut protégées, et les méthodes de classe publiques. Il permet donc aux programmeurs d'avoir une programmation plus rigoureuse, tout en étant plus rapide, et en respectant les concepts de la POO.
+Un autre aspect est celui du modèle de conception KVC (Key-Value Coding), lui aussi inspiré de Smalltalk, qui définit l'accès à une variable par son nom. Par exemple, dans le cas d'une classe Personne, avec une variable d'instance Surname, de type NSString :
+@interface Personne : NSObject
+(
+ -- variables d'instance
+ NSString -surname;
+)
+-- methodes
+@property (copy) NSString -surname;
+@end
+Objective-C permet la création rapide d'objet NSString grâce au "@", de la même manière que le C avec les chaînes de caractères. Les NSString sont encodés en unicode, c'est-à-dire que, contrairement au C, les caractères ne sont pas limités aux codes ASCII. Nous pouvons donc fixer la valeur de la variable surname d'une instance de Personne de cette façon :
+-- On crée un pointeur vers un objet de la classe Personne, qu'on a d'abord alloué dans l'espace mémoire, et initialisé.
+Personne -exemple - ((Personne alloc) init);
+--On envoie un message au pointeur exemple qui va le rediriger vers l'objet vers lequel il pointe, pour fixer la valeur de la clef surname.
+(exemple setValue:@"Paul" forKey:@"surname");
+Messages
+En Objective-C, tout appel de méthode d'une classe est un passage de message. Pour appeler un message sur un objet, on place entre crochet l'objet puis le message. On peut chaîner les appels très facilement. Ainsi dans l'exemple, methode renvoie un objet et sur cet objet on appelle methode2.
+-- passage de message
+(objet methode:argument);
+-- chaînage de message
+((objet methode:argument) methode2:argument2);
+La syntaxe des méthodes, un peu déroutante au premier abord, a été pensée pour qu'elle ressemble plus au langage humain. Chaque argument est séparé par ":" ainsi qu'un commentaire.
+-- déclaration d'une méthode
+- (void)eatWith:(NSString-)name andSpeakAbout:(NSString-)subject;
+
+-- exemple d'appel de la méthode sur un objet
+(Paul eatWith:@"Pauline" andSpeakAbout:theSubject);
+Chaque instance d'objet possède un pointeur isa, c'est-à-dire un pointeur sur un objet metaclass qui décrit les méthodes accessibles par l'objet. Une class ayant un parent, les metaclass représentent un arbre avec toute la hiérarchie des classes actuellement en mémoire. Ainsi lorsqu'on tente de passer un message, l'environnement Objective-C récupère le pointeur isa de l'objet, ensuite parcourt l'arborescence de la metaclass pour obtenir le pointeur de la méthode appelée. Ce mécanisme est évidemment coûteux mais un dispositif de mise en cache lors du premier appel le rend très performant.
+-- définition du type id qui contient le pointeur isa
+typedef struct objc-class -Class;
+typedef struct objc-object (
+ Class isa;
+) -id;
+Variantes du langage
+
+Objective-C++
+Objective-C++ est un frontal pour GCC, lequel compile une combinaison de code C++ et Objective-C. Objective-C++ ajoute à C++ les extensions que le langage Objective-C ajoute au C.
+
+Voir aussi
+
+Articles connexes: Programmation objet; ANSI C.

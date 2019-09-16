@@ -1,0 +1,5 @@
+Decnet est une architecture réseau en couches, sur un protocole défini par Digital Equipment Corporation. Les plus malicieux disent "Do Expect Cuts" (attendez-vous à des coupures).
+DECnet est aussi un groupe de produits de communications de données comportant une suite de protocoles développée et soutenue par Digital Equipment Corporation (Digital).
+La première version de DECnet, 1975, a permis à deux mini-ordinateurs PDP-11 de communiquer conjointement. Ces dernières années, Digital a ajouté la prise en charge de protocoles non propriétaires, mais DECnet reste la plus importante des offres du réseau de Digital. Ses deux grands concurrents étaient l'IBM Systems Network Architecture et la DSA, de CII-Honeywell-Bull, présentée en 1976 mais intensément développée dès 1971 sous forme de New Network Architecture, avec des liaisons du Réseau cyclades dès 1972.
+
+Articles connexes: Network Control Program, un des composants de SNA; IBM Systems Network Architecture; Distributed System Architecture; New Network Architecture.

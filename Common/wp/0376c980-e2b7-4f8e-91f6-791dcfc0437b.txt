@@ -1,0 +1,11 @@
+Le prix Paris-Kanellakis est décerné par l'ACM depuis 1996, pour honorer les avancées théoriques ayant un impact important et démontrable sur l'informatique pratique. Il est nommé en l'honneur de Paris Kanellakis (en).
+
+Lauréats
+
+1996-2000: 1996 : Leonard Adleman, Whitfield Diffie, Martin Hellman, Ralph Merkle, Ronald Rivest, Adi Shamir : pour l'invention et la mise en place de la cryptographie à clef publique. 1997 : Abraham Lempel et Jacob Ziv, pour leur travail en compression de données. 1998 : Randal Bryant (en), Edmund Clarke, Allen Emerson, Kenneth McMillan, pour l'invention de la vérification de modèles. 1999 : Daniel Sleator (en) et Robert Tarjan, pour l'invention de l'arbre splay, une structure de données. 2000 : Narendra Karmarkar, pour son travail autour de la méthodes de points intérieurs.
+
+2001-2010: 2001 : Eugene Myers (en), pour son travail sur le séquençage; 2002 : Peter Franaszek (en), pour son travail sur le codage en ligne; 2003 : Gary L. Miller, Michael Rabin, Robert Solovay, Volker Strassen, pour leurs algorithmes probabilistes; 2004 : Yoav Freund, Robert Schapire, pour Adaboost en apprentissage automatique; 2005 : Gerard Holzmann (en), Robert Kurshan, Moshe Vardi, Pierre Wolper, pour leur travail en vérification formelle; 2006 : Robert Brayton, pour son travail en synthèse logique; 2007 : Bruno Buchberger, pour le développement de la théorie des bases de Groebner; 2008 : Corinna Cortes (en), Vladimir Vapnik, pour le concept de machine à vecteurs de support; 2009 : Mihir Bellare (en) et Phillip Rogaway (en), pour les preuves de sécurité; 2010: Kurt Mehlhorn, pour son travail en algorithmique.
+
+2011-: 2011 : Hanan Samet, pour son travail autour des structures de données, notamment le quatree.; 2012 : Andrei Broder, Moses Charikar (en) et Piotr Indyk (en), pour le locality sensitive hashing.; 2013 : Robert D. Blumofe et Charles E. Leiserson, pour le calcul distribués et parallèle robuste, notamment la stratégie Work stealing (en).; 2014 : James Demmel (en), pour ses travaux en algèbre linéaire numérique (en).; 2015 : Michael Luby (en), pour ses travaux autour de la notion d'erasure code (en).
+
+Voir aussi

@@ -1,0 +1,51 @@
+Flickr, de l'anglais to flick through, feuilleter, est un site web de partage de photographies et de vidéos gratuit, avec certaines fonctionnalités payantes. En plus d'être un site web populaire auprès des utilisateurs pour partager leurs photos personnelles, il est aussi souvent utilisé par des photographes professionnels. En août 2011, le site a franchi la barre des six milliards de photos hébergées. En février 2017, le site héberge approximativement treize milliards de photos pour cent-vingt-deux millions de membres et deux millions de groupes.
+
+Historique
+Flickr a été développé par Ludicorp (en), une société canadienne de Vancouver fondée en 2002 par Stewart Butterfield et Caterina Fake.
+Il apparait en février 2004 sous la forme d'un ensemble d'outils prévus pour un jeu informatique multi-utilisateur sur Internet : Game Neverending. Le jeu fut finalement abandonné, mais le projet de Flickr survécut.
+Les premières versions de Flickr sont basées sur une chat room pour le partage des photos. Les versions ultérieures se concentrent davantage sur le téléchargement et le classement des photos.
+En mars 2005, Ludicorp est rachetée par Yahoo!. Pendant la semaine du 28 juin, tout le contenu de Flickr est transféré depuis les serveurs canadiens vers des serveurs américains, ce qui a comme implication que son contenu est désormais soumis aux lois américaines.
+En octobre 2006, le site est en phase gamma.
+Le site héberge plus de 2 milliards de photos en novembre 2007, 3 milliards en novembre 2008, 4 milliards en novembre 2009, 5 milliards en septembre 2010, et depuis août 2011 le site héberge plus de 6 milliards de photos. Il comptait alors plus de 54 millions de visiteurs uniques à travers le monde (selon Comscore).
+Longtemps disponible uniquement en anglais, depuis le 12 juin 2007 Flickr propose sept langues supplémentaires : le chinois, le coréen, l'allemand, l'espagnol, l'italien, le français et le portugais.
+Une image provenant du projet "Commons" de Flickr (le pont Alexandre III, Paris, France, en 1900).
+Le projet Flickr Commons, lancé en janvier 2008, permet aujourd'hui aux organismes institutionnels de s'associer à Flickr pour diffuser leurs contenus iconographiques à toutes les communautés Flickr. Les membres Flickr peuvent ainsi apporter leurs contributions à cette indexation sociale aux archives via les "tags" (étiquettes de mots clefs) et commentaires. Le premier projet pilote en France a été lancé le 26 juin 2008 avec la bibliothèque de Toulouse.
+Depuis avril 2008, Flickr accepte les vidéos d'une durée maximale de 90 secondes.
+
+Fonctionnalités
+Les fonctionnalités de base reposent sur du HTML et du HTTP standard, permettant ainsi une bonne compatibilité entre plates-formes et navigateurs web. Flickr diffuse aussi des flux RSS et Atom pour chaque utilisateur et offre une Interface de programmation (API) permettant à des programmeurs indépendants de développer des services.
+L'interface de Flickr utilise AJAX et permet de gérer ses photos de manière rapide et interactive : il est ainsi possible de saisir les tags, titre et descriptif de chaque image et de voir la page finale mise à jour immédiatement, sans avoir besoin de recharger quoi que ce soit. Une application web interne à Flickr nommée Organizr (et qui permet de gérer ses photos par lots) imite d'ailleurs l'interface d'une application de type client lourd.
+Les éventuelles métadonnées IPTC et EXIF (y compris les coordonnées géographiques de prises de vue) sont reconnues et importées automatiquement.
+Il est aussi possible de géotagger (ou géolocaliser) les photos ; les membres placent alors les photos sur un planisphère. Il existe une carte mondiale avec toutes les photos géolocalisées publiques. Une autre solution consiste à faire une recherche par ville ou pays pour consulter l'une des 100 000 fiches (ou lieux) mises à disposition des internautes.
+Un utilisateur peut ajouter une photo en favori.
+
+Groupes
+Une possibilité supplémentaire consiste à participer à des groupes thématiques précis, ceux-ci existant par milliers : on y trouve les grands genres de la photographie - portrait, paysages, nature, nu, etc. - ou des groupes rassemblant des photographes sur des sujets de photo plus pointus, ou encore des groupes d'utilisateurs d'un même type d'appareil photo. Il est ensuite facile de faire des recherches à l'intérieur des groupes ou de circuler visuellement d'une photo à une autre. L'interface affiche en permanence à quels groupes appartient une image, ainsi que les tags qui y sont associés.
+La censure est moins active que par exemple sur Facebook. Il existe donc des groupes ouverts, comme pour le nu artistique, sans être importuné ou harcelé par une censure des membres.
+
+Contrôle d'accès
+Le site permet à la fois un stockage public et privé. Un utilisateur chargeant une image sur le site (upload) peut ainsi déterminer qui aura accès à son image en réglant les contrôles d'accès. Ces réglages peuvent être catégorisés privé, pour les amis, pour la famille ou bien public. Il est également possible d'effectuer des réglages privés pour tout un groupe.
+Par défaut, les autres utilisateurs peuvent laisser des commentaires sur toute image qu'ils ont le droit de voir et parfois peuvent ajouter des mots-clés pour cette image.
+
+Protection des droits d'auteur : liberté de choix des utilisateurs sur leurs propres photos
+Répartition des licences Creative Commons en 2009.
+En plus du régime par défaut Tous droits réservés, Flickr propose aux photographes la possibilité de licencier leurs photos avec un contrat Creative Commons, qui est une organisation à but non lucratif proposant une alternative au copyright complet. Les licences Creative Commons disponibles sont les suivantes : paternité ;; paternité-pas de modification ;; paternité-pas d'utilisation commerciale-pas de modification ;; paternité-pas d'utilisation commerciale ;; paternité-pas d'utilisation commerciale-partage selon les conditions initiales ;; paternité-partage selon les conditions initiales.
+
+Architecture logicielle
+Cal Henderson, un développeur de Flickr, a révélé un certain nombre des technologies utilisées pour développer ce site web lors d'une présentation en 2005 à la Vancouver PHP Association : PHP; Smarty; PEAR; Perl; ImageMagick (depuis cette présentation, GraphicsMagick est utilisé); MySQL 4.0; Java; Apache 2; Macromedia Flash.
+
+Types de compte
+Flickr offre trois types de compte : gratuit, sans publicité (Ad Free) et Doublr.
+
+Compte gratuit
+Un utilisateur d'un compte gratuit dispose d'un espace d'un téraoctet pour stocker des photos et des vidéos. Il existe des limites par photo et par vidéo : 200 Mo par photo, 1 Go par vidéo. Les vidéos sont aussi limitées à 3 min en durée, leur définition maximale étant celle du 1080p. Les photos peuvent être stockées dans leur définition originale.
+
+Comptes payants
+Deux comptes payants, dénommés Ad Free et Doublr, coûtent respectivement 49,99 et 499 par an et permettent la suppression de la publicité, un espace de stockage doublé (Doublr).
+En revanche, Flickr ne garantit pas l'intégrité des données de ses clients et un compte peut être supprimé sans avertissement préalable ni justification auprès du client.
+Depuis le 20 mai 2013, le site a changé d'aspect et a modifié la page d'accueil, la présentation des galeries, des photos, des albums, et la page de recherche.
+En plus des changements visibles, les tarifs changent aussi, les comptes Pro disparaissent ; les membres Pro peuvent toutefois renouveler leur abonnement.
+
+Voir aussi
+
+Articles connexes: Liste des visionneuses d'images; Partage de photographies; Fotolog; Ipernity; MediaGoblin; Picasa; Zooomr.

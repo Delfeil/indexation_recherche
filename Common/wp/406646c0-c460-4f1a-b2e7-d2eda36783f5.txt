@@ -1,0 +1,17 @@
+Un éditeur HTML (ou éditeur Web) est un logiciel conçu pour faciliter la préparation et la modification de documents écrits en Hypertext markup language (HTML). Un document HTML est le principal composant d'une page web. Il existe deux catégories d'éditeur : Les éditeurs tel-tel (WYSIWYG); Les éditeurs de texte.
+L'édition des images, des animations ou du son sont effectuées avec les logiciels appropriés. Un éditeur HTML ne sert qu'à disposer ces ressources dans une page Web.
+Les pages offrant des services en plus de simples informations sont généralement générées à la demande par des logiciels propres au site web. Ces logiciels utilisent fréquemment les technologies PHP, ASP, JSP, CGI ou Perl et sont édités avec les logiciels appropriés.
+
+Éditeurs de type WYSIWYG seul
+Un éditeur WYSIWYG permet d'éditer une page Web à peu près telle qu'elle apparaît dans les navigateurs courants. Il propose les fonctions classiques des traitements de texte WYSIWYG. Ses deux principaux avantages sont la facilité d'utilisation et l'observation immédiate du rendu graphique. Ses deux principaux désavantages sont le manque de maîtrise sur la qualité du document HTML produit et les risques d'incompatibilité avec des navigateurs non prévus par l'éditeur (plus récents, plus anciens, ou moins courants). Adobe GoLive; Adobe Dreamweaver (anciennement Macromedia Dreamweaver); Easy Web Composer; Komodo; KompoZer; Microsoft Expression (anciennement Microsoft FrontPage); Mozilla Composer; Netlor; OPEN BEXI HTML Builder; TOWeb; Webacappella.
+
+Éditeurs de type mode texte seul
+Ces éditeurs éditent directement en langage HTML : le code y apparaît et y est traité comme du texte. Ils requièrent donc une compétence dans ce langage. En contrepartie, ils permettent à un utilisateur compétent de s'assurer de la qualité du document produit. Bluefish; Ecoder; Htmledit; HTML Kit; Isofting eWriter Wisto; Notepad++; PSPad; Quanta+; SciTE; Smultron.
+
+Éditeurs WYSIWYG avec accès au mode texte
+Ces éditeurs permettent de combler le principal inconvénient des éditeurs WYSIWYG dont l'inconvénient majeur est le degré de liberté de personnalisation de mise en page trop restreint en combinant les deux éditeurs présentés ci-dessus. éditeur html: Dreamweaver; BlueGriffon; Microsoft Expression (anciennement Microsoft FrontPage); HoTMetaL; KompoZer (arrêté en 2010); LibreOffice; Nvu (la dernière version date de 2005); phpDesigner.
+éditeur xhtml-xml voir Éditeur XML
+
+Voir aussi
+
+Articles connexes: Éditeur de texte. Portail de l'informatique.

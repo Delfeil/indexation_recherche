@@ -1,0 +1,88 @@
+En informatique, un fichier texte ou fichier texte brut ou fichier texte simple est un fichier dont le contenu représente uniquement une suite de caractères; il utilise nécessairement une forme particulière de codage de caractère qui peut être une variante ou une extension du standard local des États-Unis, l'ASCII. Il n'existe aucune définition officielle, et les différentes interprétations de ce qu'est un fichier texte partagent des propriétés essentielles. Les caractères considérés sont généralement les caractères imprimables, d'espaces et de retours à la ligne. Certains codages de caractères normalisés incluent également certains caractères de contrôle, séquence d'échappementou marqueurs qui peuvent faire l'objet de différences d'appréciations. La notion de fichier texte est donc subjective et dépend notamment des systèmes de codage de caractère considérés (windows-1252 et ISO-8859-1 n'offrant pas les mêmes plages de valeurs "imprimables".)
+Un fichier "non texte" est appelé "fichier binaire", dans le sens où les bits contenus dans le fichier ne représentent pas une simple suite de caractères imprimables, d'espaces et de retours à la ligne.
+
+Histoire
+Un fichier en carte perforée Extrait d'un programme écrit en BASIC Copie papier d'un code source (en Fortran) des années 1970, imprimé sur du papier continu, dédié aux fichiers textes.
+La notion de fichier texte a évolué avec l'histoire de l'informatique.
+Le mot fichier ("file" en anglais) a été utilisé publiquement dans le contexte d'un enregistrement informatique déjà en février 1950. Une publicité de la radio Radio Corporation of America de Popular Science Magazine décrivant une nouvelle mémoire à tube à vide qu'elle avait développée, expliquait : "...the results of countless computations can be kept "on file" and taken out again. Such a "file" now exists in a "memory" tube developed at RCA Laboratories. Electronically it retains figures fed into calculating machines, holds them in storage while it memorizes new ones - speeds intelligent solutions through mazes of mathematics.".
+En 1952 un fichier était utilisé pour désigner l'information enregistrée sur une carte perforée.
+Or il se trouve que les cartes perforées partageaient certaines propriétés: Chaque carte représentait une ligne de 80 colonnes (en général); Les programmes (code source) étaient écrits en assemblant des lignes de textes; Les cartes perforées qui ne contenaient pas de texte étaient donc déjà différentes.
+En 1971, le RFC 265 indique qu'un fichier peut être ASCII, coeur d'exécutable, ou autre. Il mentionne notamment l'EBCDIC.
+En juillet 1972, le RFC 354, discutant des échanges de texte par le protocole réseau NVT-ASCIIFTP, indique que les fichiers textes sont enregistrés de manières différentes selon les systèmes: Le PDP-10 enregistre le NVT-ASCII en 7-bits justifiés à gauche dans des mots de 36 bits;; Le 360's enregistre le texte avec un codage EBCDIC 8-bit;; Multics enregistre le texte avec quatre caractère de neuf bits dans des mots de 36 bits;.
+Il indique donc que pour le bon transfert des textes, il est nécessaire que les deux parties effectuent leur part respective de la conversion dans un codage commun; il s'agit à cette époque de l'ASCII 8 bits, dit NVT.
+Cette même année, la RFC fait apparaître le besoin d'une unité commune pour transmettre des données binaires entre systèmes dont les mots n'ont pas la même taille, et suggère l'utilisation de byte de 8 bits, c'est-à-dire, de ce que l'on appelle aujourd'hui des octets, tout en permettant l'utilisation de bytes-mots différents si négocié.
+En 1980, le RFC 765 en spécifiant le protocole FTP indique les trois raisons occasionnant le transfert d'un fichier : l'impression, l'archivage, et le traitement. Constatant, que le seul encodage n'est pas une métainformation suffisante, il spécifie le reste et notamment les différents mécanismes de changement de ligne à travers des caractères de contrôle ou de défilement de lignes. En page 12, le RFC clarifie que les fichiers textes sont tout aussi bien des fichiers ASCII que des fichiers EBCDIC.
+En 1985, lors de l'élaboration du protocole FTP de transfert de fichier, il a été recommandé de considérer comme fichier texte (en anglais "text" files), deux formats de fichiers : les fichiers file structure, où le fichier est considéré être une séquence continue de lignes.; les fichiers record-structure, où le fichier est constitué d'enregistrements séquentiels.
+De même les types ASCII et EBCDIC ont été acceptés comme fichier texte.
+
+Texte brut
+Texte brut Unicode (Unicode plain text)
+De nos jours, l'Unicode est de plus en plus reconnu comme format de texte brut. Le standard Unicode définit selon ses propres termes ce qu'est le texte brut, sous le terme de plain text, dans sa version anglaise.
+La notion de fichier texte se rapproche donc des propriétés que le standard Unicode attribue au format nommé plain text en langue anglaise et signifiant texte brut.
+Généralités et controverses
+La notion de texte brut (plain text) a comme la notion de texte enrichi (fancy text) été introduite par Unicode.
+La notion de plain text peut être traduite par texte en clair, pur texte, texte pur, ou texte brut.
+Linux Information Project en donne une vision restrictive.
+Format de codage
+Si l'encodage est inconnu, un texte brut quelconque est inexploitable.
+Texte brut approché en mathématiques
+Alors que les mathématiques sont un langage international, en tout ou partie, leur représentation informatique a pu être négligée lors de la création de différents systèmes de codage des caractères. Toutefois, ces symboles ont bénéficié d'une forte prise en charge par l'Unicode , offrant de nouvelles perspectives.
+Histoire
+La notion de texte brut est implicitement assez ancienne puisque vraisemblablement elle remonte sans doute au moins si ce n'est à la notion de machine à écrire, aux premiers langages de programmation utilisant cette technologie.
+Dans son aspect réseau, elle est consignée dans de nombreux RFC.
+Protocole et fichier
+L'usage du texte brut peut varier entre protocole et ficher. Ceci peut généralement être invisible à l'utilisateur lorsqu'il copie un texte d'un logiciel à un autre.
+Dans un protocole, le protocole spécifie généralement l'encodage utilisé, d'une manière ou d'une autre; la longueur du texte peut ne pas être limité, en fonction du protocole.
+Un fichier a généralement une taille limitée, il est généralement admis qu'un système de fichier ne fournit pas d'information sur l'encodage utilisé pour encoder un texte brut donné. Cette information essentielle est alors déterminée à travers un ensemble d'heuristiques.
+
+Apports et limitations
+Le fichier texte est un élément déterminant en ce qu'il offre la possibilité de décrire des codes sources et de faciliter la programmation des ordinateurs.
+Toutefois, il souffre de facto de nombreux problème d'interopérabilité.
+
+Apports
+Le fichier texte, lorsqu'il apparait apporte la possibilité de permettre à un humain de soumettre un texte au traitement automatique d'une machine. Il offre également la possibilité de supprimer et d'ajouter une ligne, et cela dès les cartes perforées. Cette fonctionnalité a été reprise par des logiciels comme ed ou edlin.
+
+Limitations
+Un fichier texte est limité dans sa taille, comme le sont tous les fichiers, par le système de gestion de fichiers.
+De plus par convention on limite volontairement le nombre de colonnes. Une convention commune est ancienne est d'environ 80 ou 132 colonnes. Cela correspondait aux standards de terminaux physiques aujourd'hui dépassés. Les éditeurs modernes savent souvent gérer des lignes plus longues bien que cela ne soit pas conseillé pour des questions de présentation.
+Le fichier texte peut poser de nombreux problèmes d'interopérabilité (pour cause d'encodage différents) entre pays, entre fournisseurs de logiciels, notamment.
+
+Usage
+Les fichiers texte sont utilisés par de nombreux logiciels pour conserver les données de configuration. Ils sont également utilisés pour contenir les textes écrits en langages de programmation. En outre, la plupart des langages de programmation offrent des fonctions prédéfinies pour manipuler du texte brut, ce qui rend la gestion des fichiers textes particulièrement accessible.
+Le logiciel utilisé pour éditer un fichier texte est un éditeur de texte. Dans le cas général, un traitement de texte ne produit pas des fichiers texte. En effet, un traitement de texte n'a pas seulement besoin de manipuler du texte brut, mais également des informations sur la fonte de caractère utilisée, la disposition des caractères dans des pages, les styles typographiques, etc. Toutefois, les traitements de texte peuvent ouvrir ou sauvegarder un fichier texte, aucune information de mise en forme n'étant conservée, sauf le cas échéant les sauts de ligne.
+Un fichier texte peut être la structure sous-jacente d'un fichier journal.
+
+Structure et propriétés
+La structure d'un fichier texte est une séquence de lignes. Toutefois, historiquement, chaque caractère est aligné verticalement, c'est encore le cas aujourd'hui, dans un éditeur de texte en ligne ou local.
+
+Séquence de lignes
+Le concept de séquence de lignes reste une caractéristique forte d'un fichier texte.
+Un fichier texte peut simplement contenir du texte dans une langue quelconque. Dans ce cas, aujourd'hui, il ne respecte plus aucune structure particulière.
+Un fichier texte peut également contenir une donnée structurée qui peut être analysée par un logiciel et affichée sous une forme plus évoluée, par exemple une page web :
+
+Alignement vertical
+Un fichier texte est généralement rendu visible avec des polices à chasse fixe alignant le texte verticalement. L'arrivée d'un grand nombre de caractères Unicode dans les fichiers textes peut questionner ce concept.
+Enfin, et de manière plus anecdotique, le propos d'un fichier texte peut être détourné pour contenir une image, c'est ce qu'on appelle l'art ASCII :
+Cet art nécessite toutefois que tous les caractères affichés aient la même largeur.
+Cette technologie a notamment été utilisée pour spécifier des protocoles de transfert de fichier.
+Utilisation de l'art-ASCII comme élément de spécification du "FILE TRANSFER PROTOCOL" RFC 765; année 1980:
+
+Standardisation et normalisation
+Les fichiers textes peuvent connaitre des problèmes d'interopérabilité: Différence de traitement des changements de lignes: CR; LF, NL; CR+LF; Présence ou absence éventuelle du marqueur magique BOM; Différence de codage des caractères; Différence de traitement des séquences d'échappement éventuelles.
+Les variations de formats sont notamment liées aux intérêts régionaux: présence de caractères accentués ou d'alphabets particuliers. Les industries souhaitent également offrir de nouveaux caractères, en respectant tous les standards avec une rigueur inégale.
+
+Codage des caractères
+Comme tout fichier informatique, un fichier texte contient fondamentalement des bits. La particularité d'un fichier texte est que l'ensemble du fichier respecte un standard de codage de caractères. Il existe de nombreux standards de codage de caractères, ce qui peut rendre problématique la compatibilité des fichiers texte.
+
+Rôle de l'ASCII
+La dénomination "fichier ASCII" est souvent confusément (et-ou abusivement) utilisée à propos de fichiers texte n'utilisant pas le codage de caractères ASCII, soit pour marquer une opposition à l'EBCDIC, soit pour interdire l'utilisation de langues autre que l'anglais. Cela tient aussi à une histoire compliquée liée à l'influence et aux intérêts des États-Unis, pays de langue anglaise, et au fait qu'actuellement les fichiers textes sont généralement compatibles ASCII tout en ne se limitant pas à ces caractères. Ainsi des fichiers textes UTF-8 bénéficient d'une certaine interopérabilité avec des logiciels qui nécessitent des fichiers compatibles ASCII, contrairement aux fichiers textes UTF-16, qui nécessitent des logiciels spécifiquement adaptés à l'UTF-16.
+
+Rôle du BOM
+Le BOM est une invention du standard Unicode. Il est parfois présent en début de fichier pour indiquer visuellement l'encodage d'un fichier (ce code dans un fichier UTF8 sera visualisé "ï en iso8859-1). À ce titre, il s'agit d'un Nombre magique au même titre que le shebang. Mais il est aussi et surtout utilisé pour déterminer l'ordre des octets (endianness) et cela peut poser des problèmes à certains logiciels.
+
+Séquence d'échappement
+Les séquences d'échappement peuvent également être traitées de manière inégales, alors que leur utilisation est impérative en ISO-2022, conduisant à l'apparition de mojibake au sens premier du mot.
+
+Voir aussi
+
+Articles connexes: Fichier binaire; Éditeur de texte; Format de fichier; Fichier. Portail de l'informatique; Portail de l'écriture.

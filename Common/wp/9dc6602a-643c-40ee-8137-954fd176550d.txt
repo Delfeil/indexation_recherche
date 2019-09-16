@@ -1,0 +1,30 @@
+La souscription à du contenu Web est une forme de souscription dans laquelle une partie d'un site est accessible depuis d'autres sites. Cela est possible en y ajoutant une licence accordée à ses utilisateurs.
+Bien souvent, la souscription à du contenu consiste à mettre à disposition un flux de données (par exemple RSS) comportant l'en-tête du contenu récemment ajouté au site web (par exemple, la dernière nouvelle (news en anglais) ou le dernier message (post en anglais) du forum).
+L'expression "souscription à du contenu" ne doit pas être confondue avec le format de données RSS qui a popularisé l'expression durant la décennie 2000.
+
+Définition
+La syndication de contenu est un système permettant à un éditeur ou un producteur de contenu web de mettre à disposition un fichier structuré au format RSS-XML. Cela permet ensuite à un internaute de récupérer les dernières informations publiées sur un site grâce à l'intégration du lien vers le fichier structuré dans un logiciel spécifique appelé agrégateur.
+Ce principe a été mis au point en 1999 par l'entreprise Netscape et amélioré par la société UserLand Software.
+
+Avantages et conséquences
+Avantages : ce système permet de ne pas avoir à retourner régulièrement sur tous les sites que l'on consulte régulièrement. L'information vient directement vers l'utilisateur par push.
+Conséquences : ce système permet une automatisation et donc un gain de temps. Il permet aussi d'avoir une meilleure lisibilité des nouveautés et donc d'avoir un tri plus rapide de l'information. Enfin il permet une surveillance globale efficace (par push et par pull).
+
+Intérêt pour l'utilisateur final
+Dans un dossier réalisé en 2007 par le site web d'informatique Clubic, le rédacteur résume l'intérêt de la souscription à du contenu (en l'occurrence le format de données RSS) ainsi : "Pour un utilisateur lambda, le terme "flux RSS" peut paraître barbare. Pourtant, derrière cette appellation peu encourageante se cache une technologie largement utilisée sur le web, et peu connue du grand public : la possibilité de surveiller l'activité de ses sites d'actualités préférés en un clin d'oeil en obtenant une vue d'ensemble des dernières actualités, des posts d'un blog, ou encore des nouveaux logiciels répertoriés, mise à jour régulièrement. Bref, un moyen idéal de survoler l'actualité lorsqu'on n'a pas le temps de parcourir un site, ou afin de faire un tri parmi les informations qui nous intéressent."
+
+Comment cela marche-t-il
+Lorsqu'on a un site Web dynamique, le contenu est géré indépendamment de l'affichage. De ce fait, il est possible de générer une page qui contient une description des derniers articles publiés sur le site. Seuls le titre, l'auteur et l'URL sont indiqués pour chaque article.
+Un site destiné à afficher le contenu en question doit récupérer le fichier et le traiter de telle sorte que les informations s'affichent d'une manière élégante.
+Différents formats de souscription sont exploitables. Les plus connus sont les formats RSS et Atom, un concurrent du RSS.
+
+Où trouver du contenu
+Les plates-formes de blogs génèrent souvent un flux RSS et-ou Atom par blog, afin que les lecteurs puissent suivre l'évolution d'un blog.
+Durant la décennie 2000, des annuaires spécialisés répertorient les flux RSS disponibles. Voir une liste sur le site Dmoz.
+Depuis la décennie 2010, les sites web proposant à leurs lecteurs de la souscription à du contenu l'indiquent par une icône sur leur site web (ex: celle du format de données RSS).
+
+Les logiciels de lecture de flux de souscription à du contenu
+Plusieurs lecteurs sont disponibles : 1) sous forme de logiciel à télécharger (une liste est disponible sur le site Dmoz),; 2) ou sous forme d'application web.
+Tous ces logiciels lecteurs sont aussi appelés agrégateurs car ils agrègent le contenu de plusieurs flux de souscription, afin de permettre de lire leurs titres en un coup d'oeil.
+
+Anonymement: Syndie (lié au réseau anonyme I2P) est un des rares logiciels permettant de la souscription à du contenu (lecture et écriture) de façon anonyme. Il opère sur de nombreux réseaux anonymes et-ou non anonymes (au choix).

@@ -1,0 +1,7 @@
+zetta (symbole Z) est le préfixe du Système international d'unités (SI) qui représente 10, soit mille milliards de milliards, un trilliard.
+Adopté en 1991, il provient du grec , sept, car égal à (10 3) 7 (-displaystyle ((10(3)))(7)).
+Un préfixe de la même valeur, hepta, avait été introduit de façon non officielle avant la promulgation de zetta. Il était formé sur le chiffre grec sept ; il n'a cependant jamais été officiellement reçu, et est maintenant obsolète.
+Peu de grandeurs utilisent ce préfixe, mais on remarquera les zetta-particules dont l'énergie se mesure en ZeV (zetta-électron-volts).
+On estime par ailleurs la quantité d'information numérique sur la Terre à plus d'un Zio (zébioctet) en 2010, et que celle-ci atteindrait 1,8 Zio en 2011 et 35 Zio en 2020.
+
+Voir aussi: zepto.

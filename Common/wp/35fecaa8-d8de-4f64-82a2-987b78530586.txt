@@ -1,0 +1,17 @@
+Curve25519 est une courbe elliptique offrant 128 bits de sécurité et conçue pour être utilisée par le protocole d'échange de clés Diffie-Hellman basé sur les courbes elliptiques (ECDH). C'est une courbe elliptique permettant des performances très élevées, n'étant protégé par aucun brevet connu et moins impactée par les générateurs de nombres pseudo-aléatoires défaillants.
+
+Propriétés mathématiques
+La courbe est de la forme y - x + 486662x + x, une courbe de Montgomery, sur corps fini définie par le nombre premier 2 - 19, utilisant le point de coordonnée x - 9
+La courbe est conçue de manière à éviter de nombreux pièges potentiel dans son implémentation. Par conception, elle offre une grande résistance aux attaques par canal auxiliaire ainsi qu'aux générateurs de nombres pseudo-aléatoires défaillants.
+La courbe est une équivalente birationnelle à la courbe de Mongtomery, connu sous le nom de "Ed25519".
+
+Popularité
+La courbe a été publiée pour la première fois par Daniel J. Bernstein en 2005 mais son intérêt a considérablement augmenté en 2013 avec les révélations d'Edward Snowden et la découverte de la porte-dérobée implémentée dans le générateur de nombres pseudo-aléatoire "Dual-EC-DRBG". Bien que n'étant pas directement relié, des suspicions ont émergées s'agissant des constantes utilisées pour les courbes elliptiques "P" certifiés par le NIST (P-224, P-256, P324), suspectant que la NSA aurait choisie ces valeurs dans le but de faciliter la factorisation des clés publiques.
+Ces craintes ont été cristallisées par les déclarations de Bruce Schneier, un proéminent chercheur en sécurité: "I no longer trust the constants. I believe the NSA has manipulated them through their relationships with industry." Je ne crois plus aux constantes. Je pense que la NSA les a manipulées au travers de ses liens avec l'industrie.
+Depuis, la Curve25519 est devenue une alternative à la courbe P-256 et est utilisée dans une large gamme d'applications. En 2014, le logiciel OpenSSH l'utilise par défaut pour l'algorithme ECDH.
+
+Bibliothèques: libssh; NaCl; GnuTLS; mbed TLS (anciennement PolarSSL); wolfSSL; Botan.
+
+Applications: OpenSSH : Les clés échange de clé Curve25519 sont gérés à partir d'OpenSSH 6.7 indépendamment de la compilation avec OpenSSL.; OpenBSD (utilisée pour signer les versions et les paquets); Tor; I2P; DNSCurve; TextSecure; GNUnet - 0.10.0 ; iOS; Peerio; minilock.
+
+Articles connexes: Ed25519; ECDSA. Portail de la cryptologie.

@@ -1,0 +1,17 @@
+SourceForge.net est une forge logicielle, c'est-à-dire un site web hébergeant la gestion du développement de logiciels majoritairement libres, opéré par Geeknet (anciennement "SourceForge, Inc.") et qui utilise la forge Apache Allura (en) (auparavant SourceForge).
+
+Caractéristiques
+SourceForge.net permet aux développeurs d'héberger des projets logiciels et propose des outils pour leur gestion. Il fournit plusieurs systèmes de gestion de versions comme CVS, SVN, Bazaar, Git ou Mercurial. Le site propose aussi un wiki, assure l'accès à une base de données MySQL et offre un sous-domaine pour chaque projet (comme "nom-de-projet.sourceforge.net").
+En mars 2016 le site revendique 3,7 millions de développeurs utilisant la plateforme, 430 000 projets hébergés et 4,8 millions de téléchargements de logiciels par jour.
+Les logiciels publiés sont distribués via un réseau de serveurs miroirs fournis, début mars 2017, par une quinzaine de structures publiques ou privées, issues d'une douzaine de pays : Afrique du Sud, Allemagne, Brésil, Bulgarie, États-Unis, France, Inde, Japon, Kenya, Royaume-Uni, Taïwan et Ukraine.
+
+Publicité, malwares et accaparement de projets
+Selon la politique de SourceForge, ses services ne sont pas disponibles pour les utilisateurs des pays qui sont sanctionnés par l'Office of Foreign Assets Control des États-Unis, comme Cuba, l'Iran, la Corée du Nord, le Soudan et la Syrie. Depuis 2008, l'accès au site est bloqué pour les utilisateurs de ces pays. En janvier 2010, tous les accès au site (téléchargements) sont bloqués pour ces utilisateurs. Ce qui veut dire que les personnes ayant des adresses IP appartenant à ces pays n'ont pas le droit d'utiliser les services du site. SourceForge.net a été critiqué pour ces restrictions par la communauté des logiciels libres, qui a pour principe de rendre les logiciels disponibles pour tout le monde.
+Durant l'année 2013, à la suite du rachat de Geeknet (propriétaire de SourceForge) par l'entreprise Dice, des adwares (ou "publiciels") sont détectés par des utilisateurs dans certains logiciels (ex. FileZilla, dont le publiciel change le moteur de recherche du navigateur web de l'ordinateur pour Ask.com). Cela est rendu possible par l'initiative DevShare (conditions d'utilisation entre SourceForge et les programmeurs l'utilisant).
+Certains des projets qui ont abandonné SourceForge à cause de la présence jugée envahissante de publicités et de malwares (GIMP et FileZilla entre autres) ont été récupérés par Sourceforge, sans l'accord des développeurs de ces projets, afin de profiter du succès de ces programmes.
+
+Blocage
+La République populaire de Chine a bloqué l'accès au site pour ses habitants en 2002, le site redevient disponible dans le pays en 2003. Elle a de nouveau bloqué l'accès entre le 26 juin et le 24 juillet 2008, à la suite du boycott des Jeux olympiques de Pékin par l'éditeur de texte Notepad++, hébergé par SourceForge.
+
+Attaques subies
+Le site a plusieurs fois été la cible d'attaques de pirates. En 2006, des pirates ont attaqué la base de données du site, et tous les utilisateurs ont été invités à modifier leur mot de passe. En décembre 2007, le site a été en panne pour quelque temps à cause d'une nouvelle attaque.

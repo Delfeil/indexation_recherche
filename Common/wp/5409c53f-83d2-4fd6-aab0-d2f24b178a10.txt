@@ -1,0 +1,12 @@
+Le prix Turing ou ACM Turing Award, en hommage à Alan Turing (1912 - 1954), est attribué tous les ans depuis 1966 à une personne sélectionnée pour sa contribution de nature technique faite à la communauté informatique. Les contributions doivent être d'une importance technique majeure et durable dans le domaine informatique.
+
+Organisation et financement
+La récompense est décernée par l'Association for Computing Machinery (ACM).
+Cette récompense a été créée par l'InterTrust Technologies Corporation's Strategic Technologies and Architectural Research Laboratory (STAR Lab). Elle est parfois considérée comme étant l'équivalent du prix Nobel en informatique. Le lauréat de ce prix se voit remettre la somme de 250 000 USD, dont une partie est offerte par Intel et Google.
+
+Lauréats
+
+Remarques générales
+Le prix a été attribué de très nombreuses fois à des chercheurs américains. Le prix Gödel et le prix Donald E. Knuth sont deux autres prix remis par l'ACM pour récompenser des travaux en informatique.
+
+Voir aussi

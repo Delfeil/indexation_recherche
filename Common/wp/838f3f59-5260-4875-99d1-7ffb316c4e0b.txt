@@ -1,0 +1,54 @@
+Une épidémie désigne l'augmentation rapide de l'incidence d'une maladie en un lieu donné sur un moment donné, sans nécessairement comporter une notion de contagiosité. En pratique, ce terme est très souvent utilisé à propos d'une maladie infectieuse contagieuse, mais aussi par exemple pour l'obésité, la fracture du col du fémur ou le suicide.
+
+Étymologie et sens
+Bien que par son étymologie grecque (Demos signifiant peuple), ce mot s'applique initialement aux maladies touchant les humains, il est fréquemment utilisé dans le langage courant pour parler des maladies touchant des groupes d'animaux (zoonoses).
+En effet, le terme approprié, épizootie, est moins connu, et il est fréquent que des phénomènes médicaux identiques chez l'animal et chez l'humain soient désignés par les mêmes mots dans le langage courant.
+En pathologie végétale, on parle parfois d'épiphytie.
+L'emploi du terme dans le langage courant a également tendance à ignorer ou à confondre l'incidence et la prévalence de la maladie. Ainsi par exemple le qualificatif d'épidémie est souvent restreint à tort aux seules circonstances où la prévalence est importante, lorsqu'il y a de nombreux individus malades sans tenir compte de leur nombre initial, et donc ignorant l'incidence normale. Le terme est ainsi utilisé également, par exemple par l'Organisation mondiale de la santé (OMS) pour d'autres phénomènes que des maladies infectieuses, par exemple pour le développement rapide de l'obésité sur la planète.
+
+Déroulement
+
+Endémie, épidémie, pandémie
+Une endémie, qui est la présence habituelle d'une maladie dans une zone géographique (incidence positive, prévalence stable) peut se développer en épidémie si les conditions environnementales le permettent.
+Par la suite : soit l'épidémie s'étend et devient une pandémie si elle touche plusieurs continents (cas du VIH),; soit l'épidémie régresse, l'incidence devenant très faible, nulle ou négative. Si elle reste localisée dans l'espace, elle devient une endémie limitée à certaines régions (cas actuel de la polio). Elle peut aussi éventuellement disparaître à la fin.
+Une épidémie peut également surgir sans qu'il y ait d'endémie préalable, par exemple à la suite d'un accident provoquant la dissémination du vecteur pathogène dans un environnement où il était jusqu'alors inexistant (prévalence et incidence initialement nulles). Dans de telles circonstances, seuls quelques cas suffisent pour provoquer un accroissement très significatif de l'incidence de la maladie et lui donner le caractère d'épidémique.
+
+Cycles et vagues
+Les épidémies sont souvent cycliques ; la grippe est un parfait exemple d'épidémie cyclique, avec un cycle dit annuel ou saisonnier.
+Les épidémies peuvent survenir en une ou plusieurs vagues, comme ce fut le cas avec la grippe espagnole en 1918-1919.
+La méningite à méningocoques en Afrique sub-saharienne est un parfait exemple d'épidémie saisonnière et cyclique : les épidémies surviennent tous les 8 à 12 ans, et durent 2 ou 3 ans, s'interrompant lors de la saison des pluies (juillet à novembre).
+
+Diffusion
+Marc Barthélémy, chercheur au CEA et dans une équipe mixte CEA-CNRS-Indiana University qui a modélisé la diffusion des épidémies à partir des bases de données de l'IATA, conclut en 2008 que "l'avion est le facteur clé de propagation (des épidémies) au niveau mondial. (...) Les lignes sur lesquelles il y a de gros flux de passagers créent des chemins préférentiels pour la maladie. Le Sras est arrivé en France et au Canada par des vols en provenance de Hong Kong". Pour autant, il estime que même "si l'on diminuait de 90 % le trafic aérien - ce qui semble illusoire -, cela limiterait à peine le nombre de cas d'infection."
+Chez les animaux, les épidémies sont notamment portées par les animaux migrateurs (voir l'exemple de la grippe aviaire).
+
+Suivi
+Au XXIe siècle, une veille épidémiologique est entretenue par des réseaux de médecins généralistes ou hospitaliers, des pharmaciens et-ou des villes dites sentinelle, sur la base de protocoles standardisés, aux échelles locales, régionales, nationales et continentales, voire mondiales pour le cas de maladies telles que la grippe.
+Les experts estiment que les maladies émergentes, notamment d'origine animale, prendront une importance croissante, avec la croissance démographique, la promiscuité urbaine, les modifications climatiques, l'augmentation des déplacements de biens et personnes, l'augmentation des facteurs mutagènes, et le contact avec de nouveaux microbes.
+
+Seuil épidémique
+Un seuil épidémique, correspondant à un nombre minimal de malades à l'instant T est défini pour les grandes maladies, afin de pouvoir comparer les évolutions épidémiologiques entre villes, régions, pays ou continents, à différentes époques.
+Sous ce seuil, on ne parle pas d'épidémie. Au-dessus, des mesures de prévention et précaution peuvent être décidées ou sollicitées par les autorités sanitaires. Le nombre des malades dans le temps décrit généralement une courbe en cloche.
+L'épidémie correspond à l'augmentation d'une maladie endémique ou à l'apparition d'un grand nombre de malades là où la maladie était absente. Elle peut aussi traduire la mise en évidence de la mutation d'un pathogène qui rend visible par la gravité des symptômes une maladie qui était auparavant asymptomatique.
+La définition de la valeur de seuil épidémique est souvent arbitraire. Pour des infections endémiques telles que la grippe, il est défini comme un écart à partir des valeurs hors épidémie. On peut aussi définir ce seuil comme le nombre d'infections nécessaires pour que la dynamique du nombre de personnes infectées ne soit plus stochastique, c'est-à-dire que la propagation de l'infection soit quasiment certaine. Ce nombre est de l'ordre de 1 - log (R 0) (-displaystyle 1--log(R-(0))), où R0 est le taux de reproduction de base du parasite.
+
+Modélisation
+Les chercheurs tentent d'anticiper les épidémies pour mieux les contrer. Pour cela ils tentent de développer et valider des modèles mathématiques.
+Ce travail est rendu difficile par la capacité de certains pathogènes à rapidement muter (virus à ARN, dont la grippe par exemple) en changeant rapidement leurs caractéristiques (dont contagiosité, virulence...). L'épidémiologie évolutive est une discipline qui étudie conjointement l'évolution et la propagation des agents infectieux.
+Il semble que les conurbations et leur promiscuité modifient l'écologie de certains pathogènes en leur permettant d'être actif toute l'année, bien que de manière discrète (on parle alors parfois de "bruit de fond").
+
+Traitement et prévention
+Outre l'application du traitement spécifique à la maladie, parmi les moyens de lutte contre les épidémies figurent :
+
+Prévention: La vaccination des sujets sains ;; La recherche de fonds ;; La constitution de stocks préventifs de vaccins et de traitement par les États ;; L'application de règles de vigilance sanitaire.
+
+Limitation de la contagion
+La limitation de la contagion passait historiquement par l'isolement physique des victimes : quarantaine; cordon sanitaire etc.; enterrement massif et accéléré des morts dans un charnier (tombe).
+Elle peut faire l'objet au XXIe siècle de mesures plus ciblées selon le mode de contamination, telles que : séparation physique des hommes et des animaux dans le cas de maladies transmises par les animaux (grippe, grippe aviaire, etc); Port d'équipements individuels : masque respiratoire et gant jetable contre les maladies qui se transmettent à l'air libre tel le SRAS; port du préservatif dans le cas du VIH,.; masque respiratoire et gant jetable contre les maladies qui se transmettent à l'air libre tel le SRAS; port du préservatif dans le cas du VIH,; la décontamination (par exemple la décontamination des chaussures dans les aéroports contre la propagation de la maladie de la vache folle), etc.
+
+Fonds culturel
+Dans la mythologie grecque, c'est une épidémie pestilentielle qu'envoie le dieu Apollon pour se venger du roi de Troie Laomédon de l'avoir trompé.
+
+Voir aussi
+
+Articles connexes: Épidémiologie; Endémie; Épiphytie, pour les plantes; Épizootie; Grippe aviaire; Grippe A (H1N1); Épidémie de méningite en Afrique de l'Ouest de 2009-2010; Épidémie de fièvre hémorragique Ebola en Afrique de l'Ouest en 2014; Pandémie; Peste; Risque phytosanitaire; contagion. Portail de la médecine.

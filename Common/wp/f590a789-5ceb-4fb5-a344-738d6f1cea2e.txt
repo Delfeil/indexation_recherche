@@ -1,0 +1,9 @@
+Robert Cailliau, né le 26 janvier 1947 à Tongres, est un ingénieur et informaticien belge qui a codéveloppé le World Wide Web avec Sir Tim Berners-Lee.
+
+Biographie
+Robert Cailliau suit des études d'ingénieur à l'Université de Gand, puis l'Université du Michigan.
+À partir de 1974, il travaille au CERN à Genève. En 1990, il rejoint son collègue Tim Berners-Lee sur un projet de système hypertexte destiné à améliorer le partage des documents au CERN. Contrairement à d'autres personnes contactées par Tim Berners-Lee, il s'enthousiasme immédiatement pour le projet. Il collabore à la seconde version du document décrivant le projet dont le résultat sera le World Wide Web.
+Il collabore également au développement et à la promotion des prototypes de logiciel pour le Web créés par Tim Berners-Lee sur NeXTSTEP. En 1992, il commence le développement du premier navigateur Web pour Macintosh, avant que NCSA Mosaic ne prenne le pas. En décembre 1993, il lance les "Web Conferences".
+Il est actuellement membre actif de Newropeans pour lequel il publie le 12 mars 2009 une proposition pour une politique européenne de la société de l'information.
+
+Décorations: Depuis le 17 septembre 2009, Robert Cailliau est docteur honoris causa de l'Université de Liège. En 2012, Robert Cailliau entre au temple de la renommée d'Internet, dans la catégorie des innovateurs.

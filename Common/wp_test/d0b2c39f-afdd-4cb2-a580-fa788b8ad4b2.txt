@@ -1,0 +1,97 @@
+En mathématiques, et plus précisément en arithmétique, la division euclidienne ou division entière est une opération qui, à deux entiers naturels appelés dividende et diviseur, associe deux autres entiers appelés quotient et reste. Initialement définie pour deux entiers naturels non nuls, elle se généralise aux entiers relatifs.
+Cette division est à la base des théorèmes de l'arithmétique élémentaire, comme celle de l'arithmétique modulaire qui donne lieu à la création des congruences sur les entiers.
+La méthode actuellement utilisée en France pour effectuer une division euclidienne "à la main" est décrite dans l'article division posée.
+On peut aussi définir une division euclidienne sur d'autres ensembles comme l'anneau des polynômes ou d'autres anneaux.
+
+En arithmétique
+
+Première approche
+Lire le média Comment distribuer 30 billes entre 7 personnes Distribuer 4 billes à chacun et il reste 2 billes. 30 - 7 4 + 2.
+La division euclidienne permet de répondre à des questions du type: Distribution équitable : Comment distribuer équitablement 30 billes entre 7 personnes. On donne 1 bille à chacune des 7 personnes.On a alors distribué 7 billes. Il reste 23 billes. On recommence en distribuant encore 1 bille à chacune des 7 personnes. Celles-ci possèdent alors chacune 2 billes et il en reste 16 dans le sac;..; À la dernière étape, chaque personne possède 4 billes et il en reste 2 dans le sac. Nombre de parts de taille donnée : Combien de règles de longueur 7 peut-on placer dans une règle de longueur 30. Selon le même raisonnement, on conclut que l'on peut placer 4 règles et qu'il reste 2 cases.
+On dit que la division de 30 par 7 a pour quotient 4 et pour reste 2 et l'on écrit: 30 - 7 4 + 2 (-displaystyle 30-7-times 4+2-,).
+On aurait pu, à chaque étape, écrire: 30 - 7 1 + 23 , 30 - 7 2 + 16 , 30 - 7 3 + 9 (-displaystyle 30-7-times 1+23,-qquad 30-7-times 2+16,-qquad 30-7-times 3+9).
+qui sont des égalités justes mais ne correspondent pas à une division euclidienne car la distribution n'est pas complète. La distribution ne sera complète que lorsque le nombre de billes restantes sera inférieur à 7
+Ainsi, effectuer la division euclidienne de 30 par 7 c'est écrire que 30 - 7 4 + 2 après avoir vérifié que 2 7.
+Lire le média Dans une règle de longueur 30, on peut placer 4 règles de longueur 7 et il reste deux cases.
+Le principe même de cette division interdit que l'on puisse diviser un nombre par 0.
+La division euclidienne est, avec l'addition, la soustraction, et la multiplication une des quatre opérations élémentaires sur les nombres entiers.
+Le nom de division euclidienne est un hommage rendu à Euclide qui en explique le principe par soustractions successives dans ses Éléments. Mais elle apparait très tôt dans l'histoire des mathématiques. Caveing en signale la présence dans les mathématiques égyptiennes où il s'agit par exemple de mesurer 30 avec l'unité 7. La présence d'un reste les conduit d'ailleurs à travailler sur le concept de fraction. Une démarche analogue existe dans les mathématiques babyloniennes. On retrouve cette opération décrite dans les mathématiques chinoises avec un algorithme proche du système actuel consistant à poser une division. Les Chinois ont un mot pour désigner le dividende, le diviseur et le quotient en cours de calcul.
+
+Division euclidienne dans les entiers positifs
+À deux entiers naturels a et b, avec b non nul, la division euclidienne associe un quotient q et un reste r, tous deux entiers naturels, vérifiant : a - bq + r ;; r b.
+L'affirmation de l'existence et de l'unicité du reste et du quotient est appelée le théorème de la division euclidienne pour les entiers naturels. C'est un cas particulier du théorème suivant :
+
+Division euclidienne dans les entiers relatifs
+À deux entiers (relatifs) a et b, avec b non nul, la division euclidienne associe un quotient q et un reste r, tous deux entiers, vérifiant : a - bq + r ;; 0 r b.
+Le théorème de la division euclidienne pour les entiers affirme qu'il existe un unique couple (q, r) d'entiers relatifs vérifiant ces deux propriétés. Si b 0 alors le quotient q est le plus grand entier relatif k tel que bk soit inférieur ou égal à a, c'est-à-dire la partie entière du nombre rationnel a-b.; Si de plus a 0 alors q 0, et l'on retrouve la division euclidienne dans les entiers positifs.
+
+Utilisations
+La division euclidienne est un outil de base de l'arithmétique. Elle permet de déterminer le PGCD de deux nombres en utilisant l'algorithme d'Euclide. Elle est également utilisée pour écrire un entier en base b.
+Elle est à l'origine d'une branche de l'arithmétique, l'arithmétique modulaire, dans laquelle on s'intéresse non pas au quotient de la division de a par n mais à son reste. On dit que deux nombre a et a' sont congrus modulo n si et seulement s'ils ont même reste dans la division par n.
+Cette propriété se transmet à la somme et au produit : si a et a' ont même reste modulo n et s'il en est de même de b et b', alors ab a même reste que a'b' modulo n et a + b a même reste que a' + b' modulo n.
+Cette transmissibilité permet le développement d'une arithmétique sur les restes et la création d'un ensemble nouveau, l'anneau ℤ-nℤ.
+
+Mise en oeuvre informatique
+Les divisions entières peuvent réserver parfois des surprises lorsqu'on utilise les fonctions intégrées dans les langages de programmation.
+Ainsi la formule "-MOD(-201;23)" dans une cellule de feuille de calcul du tableur Excel a pour résultat le reste 6 de la division de -201 par 23, conformément à la définition, alors qu'en VBA l'instruction "R - -201 MOD 23" donne pour résultat -17. Il y a donc lieu d'être très vigilant à cet égard.
+Remarque : La fonction du tableur est appelée MOD en référence à l'opération modulo qui calcule le reste.
+
+Division euclidienne dans d'autres ensembles
+
+Division euclidienne dans l'ensemble des polynômes
+Si les polynômes ont pour coefficients des éléments d'un corps commutatif K, on peut définir une division euclidienne sur les polynômes appelée division selon les puissances décroissantes.
+À deux polynômes A et B à coefficients dans un corps K, avec B non nul, la division euclidienne associe un quotient Q et un reste R, tous deux polynômes, vérifiant : A - B Q + R (-displaystyle A-BQ+R) ;; deg (R) deg (B). (-displaystyle -operatorname (deg) (R)-operatorname (deg) (B).).
+L'unicité du couple (Q, R) vérifiant ces propriétés est ici garantie, en revanche il est nécessaire que K soit un corps pour que l'existence le soit aussi. Sinon la division est encore parfois possible, si par exemple le coefficient du monôme dominant de B est égal à 1, ou plus généralement si ce coefficient est inversible.
+
+Division euclidienne dans un anneau
+La construction d'une division euclidienne dans un anneau intègre A nécessite l'existence d'une application de A-(0) dans ℕ appelée stathme euclidien et vérifiant, pour tous éléments a et b non nuls: si b divise a alors (b) (a) ;; si b ne divise pas a alors il existe q et r dans A vérifiant les deux propriétés: a - bq + r; (r) (b).; a - bq + r; (r) (b).
+S'il existe un stathme euclidien sur l'anneau A, l'anneau est appelé anneau euclidien. Ainsi dans l'anneau des entiers relatifs, le stathme choisi était la valeur absolue et dans celui des polynômes, le stathme était le degré du polynôme.
+La définition d'un stathme euclidien diffère d'un auteur à l'autre. Les rapports logiques entre les différentes définitions sont abordés dans l'article détaillé.
+
+Algorithmes de calcul
+On s'intéresse au calcul de division euclidienne de deux entiers, connaissant au préalable les opérations d'addition, de soustraction, de multiplication, et de comparaison, entre des nombres entiers. Il est facile de ramener le problème à deux entiers positifs, et on se restreint à ce cas.
+Les algorithmes décrits ci-dessous calculent le quotient de la division euclidienne ; il est bien clair que le reste s'en déduit. Attention, le contraire ne serait pas vrai.
+La première méthode, naturelle mais naïve, demande beaucoup trop de calculs pour des grands nombres. On présente ensuite deux méthodes courantes, de complexité semblable : la première convient pour des calculs en base 2, et donc pour une programmation informatique ; la deuxième méthode, essentiellement équivalente, est une adaptation pour la base de numération habituelle, la base décimale, et convient donc pour des calculs à la main. C'est l'algorithme enseigné à l'école.
+
+Méthode naïve
+C'est la méthode décrite par Euclide. Elle procède par soustractions successives. Pour effectuer la division euclidienne de a par b, on soustrait b à a, et on recommence tant que cela est possible.
+On construit ainsi une suite arithmétique strictement décroissante (ai) de raison -b : a 0 - a (-displaystyle a-(0)-a) ; a i + 1 - a i b - a (i + 1) b (-displaystyle a-(i+1)-a-(i)-b-a-(i+1)-times b).
+Il existe donc un plus petit entier I (-displaystyle I) tel que a I b (-displaystyle a-(I)b), c'est-à-dire vérifiant: a I b b a (I 1) b (-displaystyle a-I-times bb-leq a-(I-1)-times b),.
+ce qui s'écrit encore: 0 a I b b (-displaystyle 0-leq a-I-times bb).
+Le quotient de la division cherchée est donc I (-displaystyle I), et le reste a I b (-displaystyle a-I-times b).
+Le nombre de pas de cet algorithme est donc I (-displaystyle I), c'est-à-dire la partie entière de a b (-displaystyle (-frac (a)(b))) ; chaque étape requiert une soustraction et une comparaison. La complexité de calcul croît linéairement avec a, c'est-à-dire exponentiellement avec la taille de a - si l'on convient de mesurer la taille d'un entier par le nombre de chiffres que requiert son développement binaire (ou décimal si on préfère, cela ne modifie les choses que d'une constante), cette taille est de l'ordre du logarithme de l'entier.
+
+Méthode binaire
+Ce principe est à l'origine de la technique de la division dans l'Égypte antique. Il s'appuie sur une construction à l'envers d'une multiplication égyptienne et consiste à remplir un tableau donnant les puissances de 2 et leur produit par b. On s'arrête juste avant de dépasser a dans la seconde colonne. On essaie ensuite de constituer le plus grand multiple de b inférieur à a en sommant certaines cases de la seconde colonne. En sommant les cases correspondantes de la première colonne on obtient le quotient de la division.
+Ainsi pour diviser 93 par 7 on remplit le tableau suivant :
+Pour construire le plus grand multiple de 7 inférieur à 93, il faut prendre: 56 ;; 28 ce qui donne pour somme 56 + 28 - 84 ;; pas 14 car 84 +14 dépasse 93 ;; 7 ce qui donne pour somme 84 + 7 - 91 ;.
+le quotient est donc 8 + 4 + 1 - 13 et le reste est 2.
+L'algorithme de dichotomie suivant utilise le même principe mais économise la place mémoire car il est inutile de conserver tous les puissances de 2 et leur produit par b.
+Au lieu de parcourir comme dans la méthode naïve, tous les entiers depuis 0 en attendant de tomber sur le bon quotient, on va commencer par trouver rapidement un entier dont on sera sûr qu'il est plus grand que le quotient cherché ; dans la liste finie de quotients possibles restants, on fera une recherche dichotomique.
+Le premier calcul se fait simplement en considérant la suite géométrique 2 n (-displaystyle 2(n)). Tant que 2 n b a (-displaystyle 2(n)-times b-leq a), on incrémente n de 1 à chaque étape. Soit N (-displaystyle N) le plus petit entier tel que: 2 N b a (-displaystyle 2(N)-times ba).
+Le nombre d'étapes pour trouver cet entier est de l'ordre de log 2 (a b) (-displaystyle -log -(2)-left((-frac (a)(b))-right)). Chacune de ces étapes ne demande qu'une multiplication par deux (encore plus facile qu'une addition, pour une écriture binaire), et une comparaison.
+Pour le deuxième calcul, on construit deux suites (n) (-displaystyle (-alpha -(n))) et (n) (-displaystyle (-beta -(n))) ; l'une stockera des minorants du quotient cherché, l'autre des majorants stricts. On pose donc: 0 - 2 N 1 (-displaystyle -alpha -(0)-2(N-1)).
+et: 0 - 2 N (-displaystyle -beta -(0)-2(N)),.
+puis par récurrence : si n + n 2 b a (-displaystyle (-frac (-alpha -(n)+-beta -(n))(2))-times b-leq a), alors on peut affiner le minorant, et on pose donc n + 1 - n + n 2 (-displaystyle -alpha -(n+1)-(-frac (-alpha -(n)+-beta -(n))(2))) et n + 1 - n (-displaystyle -beta -(n+1)--beta -(n)) ; en revanche, si n + n 2 b a (-displaystyle (-frac (-alpha -(n)+-beta -(n))(2))-times ba), on peut affiner le majorant, et on pose n + 1 - n + n 2 (-displaystyle -beta -(n+1)-(-frac (-alpha -(n)+-beta -(n))(2))), et n + 1 - n (-displaystyle -alpha -(n+1)--alpha -(n)).
+On montre facilement par récurrence qu'à chaque étape n de ce deuxième calcul, n (-displaystyle -alpha -(n)) et n (-displaystyle -beta -(n)) sont deux entiers, tous deux multiples de 2 N 1 n (-displaystyle 2(N-1-n)) et dont la différence vaut 2 N 1 n (-displaystyle 2(N-1-n)). Cette remarque permet notamment de montrer que les suites sont bien définies jusqu'à n - N 1 (-displaystyle n-N-1), et que N 1 (-displaystyle -alpha -(N-1)) et N 1 (-displaystyle -beta -(N-1)) ne diffèrent que de 1 (-displaystyle 1) ; puisqu'ils sont respectivement un minorant large et un majorant strict du quotient, N 1 (-displaystyle -alpha -(-mathrm (N) -1))est le quotient cherché.
+Le nombre maximal d'étapes pour ce calcul est de l'ordre de log 2 (a b) (-displaystyle -log -(2)-left((-frac (a)(b))-right)) - une des dichotomies a pu donner le bon quotient avant la (N 1) (-displaystyle (N-1))-ième étape, c'est le cas d'égalité de la comparaison, auquel cas on peut arrêter l'algorithme avant -, qui chacune n'exige qu'une addition, une division par deux (facile en écriture binaire, ce n'est évidemment pas une division euclidienne cachée), une multiplication (qui peut être évitée, en gérant plus de variables), et une comparaison.
+En concaténant les résultats des deux calculs, on voit que cet algorithme a une complexité qui croît logarithmiquement avec a b (-displaystyle (-frac (a)(b))), et donc linéairement avec la taille de a. L'amélioration est donc très nette.
+
+Méthode décimale
+C'est la méthode utilisée dans les civilisations ayant adopté le système décimal. Elle est à l'origine de la technique enseignée dans les écoles primaires pour poser une division. Elle est présente en Chine très tôt. Elle consiste à effectuer la division en commençant par les poids forts.
+La méthode chinoise présente l'algorithme dans un tableau à trois lignes: dans la première ligne se constituera progressivement le quotient; dans la seconde ligne sera écrit le dividende qui évolue au cours du calcul; la troisième ligne est consacrée à placer le diviseur.
+On commence par placer le diviseur le plus à gauche possible et on effectue la division en ne s'occupant pas de ce qui est à droite, le quotient se place dans la première ligne, le reste de cette première division vient remplacer les chiffres correspondants du dividende et on recommence l'opération
+Ainsi pour diviser 3 564 par 17, on remplit le tableau de la manière suivante :
+et on effectue la division de 35 par 17, quotient 2 reste 1
+On déplace le diviseur sur la droite jusqu'à ce qu'une nouvelle division soit possible.
+On effectue la division de 164 par 17, quotient 9 reste 11.
+La formulation générale de cet algorithme est la suivante : soit deux entiers naturels a et b non nul. On cherche à effectuer la division de a par b.
+On commence par trouver la plus petite puissance de 10 telle que b 10 N 1 + 1 a (-displaystyle b-cdot 10(N-(1)+1)a) ; d'après le théorème de division euclidienne, il existe alors un unique entier 0 q 1 10 (-displaystyle 0-leq q-(1)10) tel que : q 1 10 N 1 b a (q 1 + 1) 10 N 1 b (-displaystyle q-(1)-times 10(N-(1))-times b-leq a(q-(1)+1)-times 10(N-(1))-times b).
+On pose alors: a 1 - a q 1 10 N 1 b (-displaystyle a-(1)-a-q-(1)-times 10(N-(1))-times b).
+et on effectue la division de a1 par b. L'inégalité précédente montre que la première puissance de 10 telle que 10 N 2 b (-displaystyle 10(N-(2))-times b) excèdera a1 sera strictement plus petite que 10 N 1 + 1 (-displaystyle 10(N-(1)+1)) ; on la note 10 N 2 + 1 (-displaystyle 10(N-(2)+1)).
+On construit ainsi une suite d'entiers naturels (N i) (-displaystyle (N-(i))) strictement décroissante ; elle vaut donc 0 à un certain rang. On construit la suite d'entiers 0 q i 10 (-displaystyle 0-leq q-(i)10) associée de la même façon qu'on a construit q 1 (-displaystyle q-(1)). Le quotient cherché sera: i q i 10 N i (-displaystyle -sum -(i)q-(i)10(N-(i))).
+en effet l'inégalité qui donne q r (-displaystyle q-(r)) pour la première occurrence de N r - 0 (-displaystyle N-(r)-0) sera : 0 a b i q i 10 N i 10 N r b - b (-displaystyle 0-leq a-b-times -sum -(i)q-(i)10(N-(i))10(N-(r))-times b-b),.
+ce qui est bien la définition du quotient.
+On remarque que cette méthode se divise comme la précédente en deux étapes : d'abord une recherche d'une puissance assez grande, ce qui demande à nouveau un nombre de calcul logarithmique en a, c'est-à-dire linéaire en la taille de a ; ensuite un calcul de tous les coefficients q i (-displaystyle q-(i)) associés aux différentes puissances de 10 inférieures à la puissance assez grande obtenue. Pour chaque calcul de q i (-displaystyle q-(i)), l'algorithme demande en fait un calcul de division euclidienne intermédiaire ; mais le quotient est à chercher seulement parmi les entiers de 0 à 9 ; il se fait donc rapidement en utilisant des tables.
+
+Articles connexes: À lire avant: Divisibilité. À lire après: Arithmétique modulaire. Autres: Division. Portail des mathématiques.

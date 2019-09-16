@@ -1,0 +1,54 @@
+Une licence de logiciel est un contrat par lequel le titulaire des droits d'auteur sur un programme informatique définit avec son cocontractant (exploitant ou utilisateur) les conditions dans lesquelles ce programme peut être utilisé, diffusé ou modifié.
+
+Principe
+Une licence de logiciel est un contrat "par lequel le titulaire des droits du logiciel autorise un tiers à poser des gestes qui autrement les enfreindraient."
+Pour avoir le droit d'utiliser un logiciel, il faut que le titulaire des droits l'autorise. La licence est le document dans lequel il énumère les droits qu'il accorde au licencié (installer le logiciel, l'utiliser, faire une copie de sauvegarde). Utiliser sans licence un logiciel dont on n'est pas l'auteur revient à violer le droit d'auteur.
+Souvent, le titulaire des droits ne se contente pas de concéder la licence, il ajoute également des exigences comme l'interdiction d'utiliser le logiciel à plusieurs, d'étudier le logiciel, de publier des mesures de ses performances, etc. Pour le grand public, l'achat d'un logiciel revient en fait à obtenir une licence, puis à accepter le contrat de licence utilisateur final (CLUF).
+Mais l'obtention d'une licence ne confère que des droits d'utilisation du logiciel (appelé aussi "progiciel" lorsqu'il s'agit d'un logiciel standard) : "quelle que soit la forme du contrat l'utilisateur ne bénéficie que d'une concession de droits d'utilisation. De ce fait l'utilisateur ne devient en aucun cas titulaire d'un quelconque droit intellectuel sur le progiciel mais dispose uniquement de certaines prérogatives qui constituent la contrepartie de ses obligations vis-à-vis du distributeur ou de l'éditeur. Il en va évidemment de même lorsque le progiciel est diffusé sous ce que l'on appelle communément une licence libre".
+Le principe de la licence d'utilisation est fondé sur une approche théorique classique du droit du logiciel qui repose sur le paradigme de l'immatérialité et de la conception monolithique de la chose logicielle. Cette théorie classique est restée la théorie de la doctrine majoritaire jusqu'en 2012 nonobstant l'existence d'une doctrine minoritaire que l'on peut qualifier de théorie matérialiste du droit du logiciel qui défend une qualification dualiste et matérialiste de la chose logicielle.
+L'arrêt de la CJUE du 3 juillet 2012, C-128-11 Usedsoft c- Oracle, condamne la licence d'utilisation et la théorie classique du droit du logiciel en consacrant l'existence de l'exemplaire logiciel comme étant une chose ayant son propre régime juridique distinct de celui de l'oeuvre logicielle régie par le droit d'auteur. Par voie de conséquence, la Cour consacre la qualification de vente pour toutes licences qui seraient conclues pour une durée illimitée à un prix forfaitaire. Cet arrêt consacre ainsi l'application effective de la théorie de l'épuisement des droits dont il résulte l'existence d'un véritable marché de l'occasion de l'exemplaire logiciel. Ainsi, l'utilisation du logiciel ne résulte plus d'un pseudo droit d'utilisation concédé sur le fondement du droit d'auteur par le truchement d'une licence d'utilisation, mais de la propriété légitime de l'exemplaire logiciel fondée sur une vente ou d'une location d'une chose corporelle si l'utilisateur n'a conclu qu'un contrat de location. Le droit du logiciel est assurément bouleversé depuis cet arrêt historique de 2012 qui s'inscrit ainsi dans la mouvance de la théorie matérialiste. À l'instar de la disparition de la notion de licence d'utilisation, la notion d'utilisateur final, qui n'a plus de sens, est remplacée par celle d'"utilisateur légitime" qui peut être un propriétaire ayant acheté un exemplaire logiciel ou un locataire ayant loué un exemplaire logiciel.
+
+Contrat de licence utilisateur final
+Schéma de classification des CLUF.
+Le terme "Contrat de Licence Utilisateur Final" (CLUF) est une traduction du terme anglais EULA soit End User License Agreement.
+Il s'agit d'un contrat liant une personne installant un logiciel affecté par ce type de licence sur un-son ordinateur et l'éditeur du logiciel. La plupart d'entre elles, que l'on dénomme aussi licences de logiciels propriétaires, limitent le nombre de machines sur lesquelles on peut installer le logiciel, le nombre d'utilisateurs qui peuvent utiliser le logiciel, et contiennent d'autres limitations qui ne sont pas inhérentes à la technologie.
+Les produits logiciels ont un coût minimal de reproduction (coût marginal quasi nul), alors que les coûts initiaux de recherche et de développement se chiffrent en mois, voire plus souvent en "années-hommes". Pour rentabiliser leur investissement, de nombreux éditeurs de logiciels vendent la conclusion du contrat de licence accompagnant leur produit et interdisant sa diffusion ou reproduction (entre autres). C'est ainsi que des sociétés (exemple Microsoft avec Windows, ou certaines sociétés de jeux) ont réussi à faire des bénéfices considérables. Il est donc stratégique pour de nombreux éditeurs de logiciels de distribuer leur produits avec ce type de licence.
+Ces enjeux entraînent un certain nombre de pratiques controversées : la manière qu'a un utilisateur d'agréer le contrat qui le lie à un éditeur du logiciel ;; le contenu du contrat lui-même.
+
+Méthode d'agrément du contrat
+Deux modes d'agréments, très couramment utilisés, sont critiqués car souvent considérés comme de la vente forcée : il peut y avoir un encart sur l'emballage du logiciel précisant que lorsqu'on ôte le cellophane ou un sceau autocollant, on accepte de fait le contrat qui est dans la boîte (qui n'a donc pas été lu). Elles sont nommées shrink-wrap licences en anglais ;; pour les logiciels pré-installés ou ceux qui sont téléchargés à partir d'Internet, au moment de l'installation un écran informe de l'acceptation d'un texte écrit dans la fenêtre avant de pouvoir continuer. Certains logiciels d'installation refusent de continuer si l'on n'a pas fait défiler le texte jusqu'en bas (équivalent logiciel du "si vous n'avez pas tourné toutes les pages du contrat"). Elles sont nommées click-through licences en anglais.
+La première méthode est juridiquement controversée : il peut exister des contrats oraux de vente, mais pas de licence. Il se pose aussi la question de la validité de la méthode d'agrément du contrat selon les pays. En Belgique, il est par exemple considéré qu'un contrat n'est valide que s'il est signé à l'encre ou s'il est signé par signature électronique qualifiée (voir la législation belge relative à l'e-ID belge et à la signature électronique). Le cas s'est par exemple posé pour les systèmes d'exploitation Windows de Microsoft. Si quelques revendeurs ont procédé à des remboursements de leur propre initiative, la société Microsoft n'a jamais accepté de reprendre un produit dont l'acheteur aurait refusé le contrat de licence. En France, la loi reconnaît, sous certaines conditions, la validité de la signature électronique, ce qui autorise de contracter par inscription sur un site Internet, par exemple.
+
+Contrat lié à l'utilisation d'un logiciel
+Les droits patrimoniaux accordant aux propriétaires d'une oeuvre des droits d'exploitation exclusifs, ces droits ne sont limités que par l'accord des parties à l'accepter et à leur validité dans le droit national. Elles visent à protéger avant tout la propriété intellectuelle du détenteur. La plupart du temps cela correspond à interdire la rétro-ingénierie, à demander un paiement en échange de l'utilisation du logiciel et à interdire sa copie.
+
+Protection face aux vices cachés
+On retrouvera fréquemment une clause "as is" ; il est impossible de déterminer à la livraison si un logiciel n'est pas bogué c'est-à-dire défectueux. L'éditeur du logiciel décline donc couramment toute garantie en cas de fonctionnement défectueux et se réserve le droit de faire payer les corrections.
+En droit français cette pratique est contradictoire avec la volonté des éditeurs de placer les produits logiciels dans le domaine des oeuvres manufacturées (poursuite pénale pour le vol en cas de duplication). La législation prévoit en effet pendant une durée illimitée la responsabilité du fabricant en cas de vice caché ayant entraîné un préjudice.
+
+Autres clauses
+Enfin, on peut trouver, selon les contrats, d'autres clauses : des clauses spécifiant que les utilisateurs donnent le droit au propriétaire d'enregistrer des données les concernant ;; des clauses limitant l'utilisation en fonction du pays (par exemple pour se conformer à la législation des États-Unis qui assimilait les logiciels de cryptographie à des armes de guerre) ou du lieu d'utilisation (centrale nucléaire pour certains logiciels grand public) ;; des clauses sur les créations produites avec leurs logiciels : interdiction de créer des contenus avec le logiciel disant du mal de l'éditeur ou copyright automatique sur les oeuvres créées avec leurs logiciels ;; des clauses sur la modification unilatérale du contrat sans remise en cause de l'agrément. AOL a perdu un procès pour l'avoir utilisée.
+
+Types de licences
+
+Licence fixe
+La licence fixe est conçue pour être installée sur un ordinateur particulier. Elle peut utiliser une caractéristique spécifique à cet ordinateur, comme son adresse Media Access Control (MAC) pour vérifier et contraindre la conformité de l'usage de la licence.
+
+Licence nominative
+
+Licence flottante
+La licence flottante fonctionne avec un ordinateur serveur de licence(s). Celui-ci décompte le nombre de licences utilisées à un instant "T" sur le réseau. Tant qu'au moins une licence reste disponible, tout ordinateur du réseau réclamant une licence se la verra affecter temporairement durant le temps d'utilisation du logiciel concerné.
+
+Shareware
+La licence shareware, ou partagiciel, attribue un droit temporaire et-ou avec des fonctionnalités limitées d'utilisation. Après cette période d'essai, l'utilisateur devra rétribuer l'auteur pour continuer à utiliser le logiciel ou avoir accès à la version complète.
+
+Licences libres
+Les licences de logiciel libre sont une forme particulière de licence : les licences libres.
+
+Liste non exhaustive de licences
+Licences de logiciels libres : GPL ;; Licence BSD ;; Licence Apache ;; Licence X11 ;; Licence Publique Eclipse.
+Licences sur les "contenus" libres et-ou ouverts : GFDL ;; Licence Art Libre ;; Licence Creative Commons ;; Skyolicense ;; (en) Public Documentation License.
+
+Voir aussi
+
+Articles connexes: Logiciel libre; Logiciel propriétaire; Propriété intellectuelle; Freeware; Logiciel d'occasion.

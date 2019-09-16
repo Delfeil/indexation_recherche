@@ -1,0 +1,14 @@
+Un Terminal mobile est un appareil portable permettant le traitement et l'échange de données. Cela inclut les smartphones, les tablettes tactiles, ainsi que les appareils de communication avec un central de dispatching utilisés dans les véhicules professionnels (par exemple : les voitures de police, les taxis, les coursiers, les flottes de camion, les flottes de pêche, les services militaires de logistique, les services d'urgence, etc.).
+Dans ce dernier cas, cela s'appelle un Terminal de Données Mobiles (TDM), ou Mobile Data Terminal (MDT) en anglais. Il est doté d'un écran sur lequel apparaissent les informations envoyées par le central ou bien saisies sur le clavier de l'ordinateur ou le clavier du terminal, mais il peut tout aussi bien être connecté à différents périphériques. Les périphériques standard sont un modem GPRS et un taximètre, le tout pour assister informatiquement le dispatching.
+
+Technologies des TDM
+Dans le passé, la plupart des TDM étaient des équipements développés sur mesure pour des besoins spécifiques et connectés par radio. Avec la généralisation des services de dispatching comme dans le milieu du taxi, des produits standardisés ont commencé à faire leur apparition, abandonnant parfois la communication radio pour de la communication IP sans fils ou directement sur les réseaux Wi-Fi. Dialie (Dialie) a été le premier à migrer sur une solution utilisant les réseaux wifi gratuits de certaines villes.
+Mais pour des raisons de coût évidentes pour les entreprises déjà équipées, le leader (seul pour les 15 000 taxis parisiens) DDS (DDS) a choisi de rester sur une offre utilisant les réseaux de radio privés.
+
+Caractéristiques courantes des TDM: 9 VDC à 36 VDC pour l'alimentation, généralement 12V car branché dans la voiture.; Protection des parasites selon la norme ISO 7637.; Port série pour connecter au satellite ou au récepteur radio.; Tolérance aux températures de -10 à 70 C, voir mieux.
+Le TDM est souvent connecté à une boîte noire qui contient un récepteur GPS, un transmetteur téléphone portable, ou d'autres outils radio. Certains sont même équipés d'un système d'exploitation, souvent de type windows CE avec les applications de l'intégrateur.
+
+Utilisation des TDM
+Le TDM est souvent associé à un véhicule. Son ergonomie est importante pour la sécurité du chauffeur.
+
+Fabricants de TDM et d'autres: (US) DDS; (US) Dialie; (US) Mobile-Knowledge; (fr) Wipath. Portail de l'informatique; Portail de l'automobile; Portail des télécommunications.

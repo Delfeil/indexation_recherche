@@ -1,0 +1,6 @@
+Xapian est un moteur de recherche open source, diffusé sous licence GPL. Il est écrit en C++, avec des extensions qui permettent de l'utiliser à partir de langages tels que Perl, Python, PHP, Java, Tcl, C, et Ruby.
+Xapian se veut un outil souple et s'intégrant facilement avec d'autres applications pour leur adjoindre des fonctions d'indexation et de recherche très sophistiquées.
+Il met en oeuvre l'approche probabiliste en recherche d'information et fournit un ensemble d'opérateurs booléens.
+Xapian peut être utilisé pour indexer le contenu d'un site web ou pour d'un système de fichiers sur un poste de travail (par exemple via recoll ou Baloo, sous Linux).
+
+Voir aussi: Moteur de recherche; Liste de moteurs de recherche.

@@ -1,0 +1,41 @@
+WebGL est une spécification d'interface de programmation de 3D dynamique pour les pages et applications HTML5 créée par le Khronos Group. Elle permet d'utiliser le standard OpenGL ES au sein d'une page web, d'un livre numérique au format ePUB, d'un diaporama ou bien d'une application basée sur le standard HTML5, en s'aidant du langage JavaScript, des données au format JSON et de l'accélération matérielle pour les calculs et le rendu 3D à l'aide des pilotes OpenGL ES du ou des processeurs graphiques du terminal informatique (Ordinateur, smartphone, tablette numérique, etc.). OpenGL ES a été choisi pour son large support au sein des architectures embarquées et mobiles.
+
+Fonctionnement
+WebGL permet d'afficher, de créer et de gérer dynamiquement des éléments graphiques complexes en 3D dans la fenêtre du navigateur web d'un client. Il est actuellement implémenté dans la plupart des grands navigateurs modernes, mais cette implémentation est récente, d'où le fait que cette technologie reste assez méconnue du grand public.
+Lorsqu'un élément graphique de type WebGL est inclus dans une page web, le navigateur exécute un programme en JavaScript utilisant l'interface WebGL. La bibliothèque WebGL appelle à son tour le pilote OpenGL ES du système d'exploitation qui se chargera de faire les calculs nécessaires à l'affichage sur l'écran, en exploitant si possible l'accélération matérielle du ou des processeurs graphiques du terminal.
+
+Implémentations
+Si, en septembre 2009, aucun navigateur web ne permettait l'affichage 3D directement dans le navigateur sans greffon, ce n'est plus le cas aujourd'hui: Firefox le supporte depuis sa version 4 (6 juillet 2010), il utilise pour cela OpenGL ES dans sa version Android et OpenGL dans sa version Linux, MacOS et Windows et depuis la version 50 du 15 novembre 2016 WebGL est disponible pour plus de 98% des utilisateurs sur Windows 7 ou une version ultérieure ; Google Chrome à partir de la version 9 (3 février 2011). La version ChromeOS utilise OpenGL ES, la version Linux utilise OpenGL depuis la version 45 environ.; Safari propose le support de WebGL depuis sa version 5.1 (20 juillet 2011); Opera, depuis la version 12 (14 juin 2012); Internet Explorer est le dernier des grands navigateurs, avec la version 11 sortie le 17 octobre 2013.; Les versions mobiles de Firefox, Opera et du navigateur de Blackberry supportent également WebGL.
+
+Limitations
+WebGL est basé sur OpenGL ES 2.0 (OpenGL for Embedded Systems), une version d'OpenGL destinée aux systèmes embarqués. Elle n'a pas les fonctions d'appel fixe d'OpenGL 1.0 qui sont également dépréciées dans OpenGL 3.0 : par exemple, plutôt que de créer les objets, face par face, avec un appel de fonction à chaque face, une seule fonction soumet une liste de faces au moteur. Il est toujours possible de modifier les paramètres de la liste par la suite. Cela permet d'améliorer les performances en réduisant la bande passante entre le processeur principal (CPU) et le processeur graphique (GPU).
+Comme WebGL est basé sur OpenGL ES, certaines fonctionnalités d'OpenGL y sont absentes, dont : Le tampon de sélection (selection buffer, permettant de sélectionner un objet par un simple clic) ; des techniques alternatives, plus gourmandes en calcul, existent cependant.; Les textures 3D (technique de textures en volume) : bien qu'OpenGL ES 2.0 possède une extension Texture 3D, celle-ci n'existe pas en WebGL. La bibliothèque webgl-texture3d tente de remédier à ce problème.; Le geometry shader : WebGL dispose du vertex shader et du fragment shader, mais pas du geometry shader.
+Khronos Group prépare depuis 2012 le brouillon de la norme WebGL 2.0, basée sur OpenGL ES 3.0. En janvier 2017 sont rendus disponibles Firefox 51 et Chrome 46, supportant ce qui est fixé de WebGL 2.0.
+
+Problèmes de jeunesse
+Certains problèmes de compatibilité étant apparus à ses débuts, de nombreuses cartes graphiques avaient été bloquées dans WebGL, les différents constructeurs ont donc fait des efforts sur les pilotes afin de rendre leurs cartes compatibles.
+
+Microsoft en retard sur la concurrence
+En juin 2011, Microsoft a renouvelé sa défiance vis-à-vis de cette technologie, d'après ses dires, principalement pour des raisons de sécurité. WebGL restait alors exclu d'Internet Explorer alors qu'il était supporté par la plupart des navigateurs. Mike Shaver, vice-président de la stratégie technique de la fondation Mozilla répond que les critiques de Microsoft valent pour toutes les technologies 3D web (Silverlight de Microsoft inclus), s'appuyant sur l'accélération 3D matérielle.
+En juin 2013, Microsoft confirme que son prochain navigateur Internet Explorer 11 aura la prise en charge de la technologie WebGL.
+
+Projets et réalisations
+Malgré la finalisation récente de WebGL et en raison de son fort potentiel, les projets utilisant cette technologie se multiplient.
+Des compilateurs C-C++ vers JavaScript tels qu'Emscripten, Mandreel ou Duetto, permettent de faciliter le portage d'applications préexistantes.
+Parmi les projets et réalisations en WebGL, on notera en particulier la contribution de Google concernant la création de multiples applications en WebGL (Google Map en 3D par exemple), Chrome Experiments, démonstrations régulièrement mises à jour à partir du site The Chromium Projects.
+Du côté des jeux vidéo, le portage de Quake 2 est à noter, ainsi que quelques projets de jeux amateurs.
+Et enfin les possibilités de la visualisation 3D en ligne pour imagerie médicale ou scientifique, comme la visualisation de l'anatomie humaine ou plus généralement animale, de molécules.
+Différents outils de cartographie, comme l'ancienne application de cartographie 3D Nokia Maps 3D WebGL qui représentait des villes entières dont les bâtiments avaient été reconstruit par des procédés automatiques d'imagerie numérique. F4map qui se base sur les données 3D fournies par OpenStreetMap, c'est également le cas plus récemment du moteur WikiMiniAtlas de Wikipedia.
+Il existe également des sites regroupant des collections d'objets 3D à télécharger et permettant de visualiser les objets disponibles directement dans l'interface web. On peut citer Sketchfab. C'est le cas aussi du "FlightGear Scenery Model Directory" du simulateur de vol libre FlightGear Flight Simulator.
+Experience Curiosity: prendre un selfie.
+La NASA a développé une application web interactive appelé "Experience Curiosity" pour célébrer le 3e anniversaire de atterrissage du rover Curiosity sur Mars. This Blend4Web-based app. L'application permet de contrôler le rover, ses caméras, son bras articulé et de reproduire les événements importants de la mission Mars Science Laboratory. L'application a été présentée au début de la section WebGL au SIGGRAPH 2015.
+
+Bibliothèques orientées 3D
+Il existe de plus en plus de bibliothèques pour faciliter le développement en WebGL. Three.js est l'une des plus répandues.
+On peut également citer Babylon.js, Blend4Web, GLGE, CopperLicht, C3DL, SceneJS, SpiderGL et OSGJS, qui permettent l'implémentation d'objets ou de scènes en trois dimensions dans le navigateur. Certaines sont même dédiées à la visualisation scientifique et médicale, telle que XTK.
+Les moteurs de jeu professionnels offrent maintenant la possibilité aux développeurs d'exporter directement dans les navigateurs en WebGL , ouvrant ainsi la porte au développement de jeux AAA sur WebGL.
+
+Bibliothèques orientées 2D
+Différents frameworks dynamiques 2D utilisent également WebGL, pour tirer parti de son accélération matérielle, c'est le cas par exemple des bibliothèques WebGL-2d, enchant.js ou encore pixi.js, qui permettent également d'ajouter quelques éléments tridimensionnels dans des applications bidimensionnelles. Pixi.js est par exemple utilisée sur les sites promotionnels de la chaîne de restauration rapide américaine McDonald's.
+
+Voir aussi: Web3D; WebCL; O3D; Liste de bibliothèques 3D; Liste de frameworks WebGL.

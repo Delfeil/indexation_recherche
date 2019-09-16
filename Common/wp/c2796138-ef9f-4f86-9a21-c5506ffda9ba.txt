@@ -1,0 +1,54 @@
+Un classement ou système de classement est un système organisé et hiérarchisé de catégorisation d'objets.
+De nombreux domaines établissent des classements suivant les objets à catégoriser : les espèces vivantes, les maladies, les produits ou services, les étoiles, les documents d'une bibliothèque,..
+Les classements portant sur un domaine limité sont généralement bien admises par les spécialistes du domaine. Les classifications à vocation universelle ne peuvent faire abstraction d'un point de vue et sont, de ce fait, l'objet de nombreuses critiques. Elles apportent cependant un éclairage sur la nature de la connaissance.
+Les classements sont des outils essentiels pour organiser les connaissances et le travail de chacun au sein de l'ensemble. Classer les objets ou les connaissances revient à les situer les uns par rapport aux autres. Plusieurs points de vue complémentaires peuvent être considérés.
+Les classements se distinguent en fonction du formalisme apporté soit aux classes (taxons, nomenclature, catégories de sujets), soit aux relations entre ces classes et à l'arborescence qui en résulte.
+
+Classements issus du monde des sciences de la nature
+
+Physique et chimie de l'atmosphère: Classification des aérosols atmosphériques (par taille, par famille, par impact radiatif,..); Système général harmonisé de classification et d'étiquetage des produits chimiques.
+
+Biologie: Classification scientifique des espèces ou systématique. Elle a débuté au XVIIIe siècle avec la classification de nos jours dite classique ou traditionnelle, mais depuis la seconde moitié du XXe siècle cette classification se voit de plus en plus remplacée par la classification phylogénétique.; Classification classique du monde du vivant. Issue de la classification du vivant établie par Carl von Linné et basée sur les caractéristiques morphologiques (par comparaison), elle divise le monde vivant en deux types de catégories, les taxons et les rangs de taxon. Les taxons sont les noms des groupes d'espèces formés par la classification (primates, vertébrés, crustacés etc) et les rangs de taxon sont le niveau hiérarchique que chaque taxon occupe dans la classification (genre, famille, ordre, classe, règne etc). Chaque taxon appartient à un rang et chaque rang fait partie d'un rang qui lui est supérieur. Il en résulte un emboîtement des taxons les uns à l'intérieur des autres mais aussi une hiérarchie des rangs.; Classification phylogénétique. C'est la classification actuelle. Elle conserve le principe d'emboîtement des taxons et le critère de classification est toujours basé sur la comparaison des caractères. Les deux différences majeures, très importantes, sont que les taxons ne sont plus rangés en une hiérarchie (il n'y a plus de rangs de taxon) et les seuls caractères admis comme étant valables pour l'attribution de taxons sont uniquement ceux qui expriment les relations de parenté. C'est donc une classification sans réelle hiérarchie si ce n'est celle de l'emboîtement lui-même. Cette classification recherche une représentation du vivant traduisant son histoire évolutive, elle ne cherche pas à prouver une quelconque supériorité entre espèces. Des groupes entiers d'êtres vivants ont déjà été classés en suivant cette méthode, comme les plantes à fleurs de la Classification APG III.
+
+Médecine
+La Famille des Classifications Internationales (FCI): Classification Internationale des Maladies - 10 Révision (CIM-10); Classification internationale du Fonctionnement, du handicap et de la santé, 2001; Classification internationale des soins primaires, 2000; Classification Internationale des Interventions en Santé - ICHI (International Classification of Health Interventions); Classification internationale du fonctionnement, du handicap et de la santé pour les enfants et les jeunes, 2007 (ICF-CY, selon son acronyme anglais).
+De nombreuses autres classifications sont utilisées dans le milieu médical et pharmaceutiques, certaines avec une certaine utilisation internationale. Système de Classification Anatomique, Thérapeutique et Chimique (ATC), utilisé pour classer les médicaments (OMS).; Common Toxicity Criteria (CTC).
+
+Astronomie: Classification des étoiles; Classification des météorites.
+
+Chimie: Tableau périodique des éléments. Également appelé table de Mendeleïev, classification périodique des éléments, ou simplement tableau périodique, il représente tous les éléments chimiques connus, groupés par leur numéro atomique, car ce numéro rend compte des propriétés chimiques spécifiques de l'élément.; Nomenclature IUPAC est un système pour nommer les composés chimiques et pour décrire la science de la chimie en général.
+
+Minéralogie: La classification des minéraux repose sur leur composition chimique et leur structure cristalline.
+
+Classifications issues du monde des sciences ou de l'activité socio-économique
+À côté de classifications "sujets" comme la classification JEL, il existe de nombreuses classifications à visée d'études économiques, sociologiques, financières,...
+Les systèmes de classification standardisés (sur une échelle d'un pays, d'un groupe de pays ou au niveau international), des activités et des produits essentiellement utilisés à leurs origines à des fins statistiques, étendent leurs usages à des fonctions administratives et de gestion. On les désigne souvent (en France en particulier) sous le terme de nomenclature des secteurs économiques ou nomenclatures industrielles.
+
+Nomenclature des activités et produits: La NACE est la nomenclature statistique des activités économiques produite par l'Union Européenne.; La nomenclature d'activités française produite par l'Insee; La North American Industry Classification System (NAICS) produite et utilisée par le Canada, les USA et le Mexique.
+
+Nomenclature des professions et catégories socio-professionnelles
+Des nomenclatures des catégories socio-professionnelles identifient des listes de professions ou catégories socio-professionnelles à des fins d'études. Par exemple : Les familles professionnelles (FAP), nomenclature créée par le Ministère du Travail et de l'Emploi (France).; Le Répertoire opérationnel des métiers et des emplois (ROME-v3), nomenclature des métiers créée par l'ANPE (France).
+
+Nomenclature du secteur de la finance: Le GICS (Global Industry Classification Standard), classification de secteurs industriels à des fins d'études financières.
+
+Nomenclature du secteur de l'éducation: La classification internationale type de l'éducation ou CITE (ISCED pour International Standard Classification of Education) est une classification établie par l'Unesco des différents niveaux d'éducation qui peut s'appliquer pour tous les pays.; La nomenclature des niveaux de diplômes est utilisée en France notamment à des fins statistiques.; La nomenclature des spécialités de formation en usage en France a pour vocation de couvrir l'ensemble des formations quel qu'en soit le niveau.
+
+Classifications issues du monde des bibliothèques et des archives: Classification décimale de Dewey (CDD); Classification décimale universelle (CDU). Issue de la CDD.; BBK. Classification à point de vue marxiste-léniniste, issue de la CDU, en usage du temps de l'URSS.; Classification de la Bibliothèque du Congrès (LCC); Classification à facettes de Ranganathan; Principes de classement des documents musicaux (PCDM); Classification musicale; Classement Freinet, imaginé par Célestin Freinet; Cadre de classement (des archives) : un système d'organisation archivistique de séries primaires dans un dépôt ou service d'archives.
+
+Classification dans le monde du web sémantique
+Des millions de documents sont "installés" sur le web. Mais l'accessibilité à ces documents n'est que très partielle. Un moteur de recherche usuel permet un accès non sémantique. Un accès "sémantique" sera réalisé lorsque les mots entrés par l'internaute dans son moteur de recherche seront décodés en termes de sens puis reliés à des documents eux-mêmes indexés selon leur sens, grâce à des marqueurs spéciaux dans les pages web ("balises" permettant de relier les pages). C'est ce que l'on nomme le web sémantique. Pour cela il faut développer un langage de traitement-classification sémantique par exemple à base d'ontologie.
+
+Classification de défense
+
+Classifications sportives relatives aux sports adaptés ou handisports
+Les athlètes sont répartis dans un système de classes en fonction de leur handicap, qui définissent soit les compétitions auxquelles ils peuvent s'inscrire soit des restrictions limitant les interventions de joueurs valides (ou à handicap plus léger). Classification des joueurs en basket-ball en fauteuil roulant; Classifications du paratriathlon.
+
+Processus de classification et classifications comparées
+La sociologie, la psychologie sociale et l'anthropologie utilisent le terme de classification pour désigner l'activité sociale qui consiste à classer, catégoriser, ordonner les objets de l'environnement.
+L'étude des classifications, en tant que représentations collectives, est un domaine fertile et relativement ancien de la sociologie et de l'anthropologie. Des anthropologues comme Marcel Mauss, Emile Durkheim, Mary Douglas, Claude Levy-Strauss, et des sociologues comme Pierre Bourdieu, Harold Garfinkel, ont utilisé et exploré le concept.
+À titre d'exemple, la sociologie peut s'intéresser: Aux facteurs sociaux qui influent sur l'adoption, la disparition, l'extension sociale d'une classification.; À l'impact social de l'adoption d'une classification par un groupe social (cf. Pierre Bourdieu).; À la construction socio-historique des classifications, et aux enjeux sociaux qui prévalent dans cette construction.; Au processus d'incorporation des classifications dans la réalisation des activités sociales (cf. ethnométhodologie).; Aux conflits qui peuvent naître entre différentes classifications (cf. Mary Douglas).; Aux relations entre pouvoir et classifications (ex. Michel Foucault).; À la comparaison géographique et temporelle entre des classifications établies.
+La règle qui prévaut généralement en sociologie est de considérer une classification comme un fait social, sans préjuger de son adéquation au réel et de sa pertinence scientifique.
+
+Autres classifications: Classification automatique (catégorisation algorithmique d'objets); Hiérarchie de Chomsky (classification des langages formels); Classification des locomotives; Classification chaotique (permet de retrouver sans trier); Classification Thibaudeau (Typographie); Classification Vox-Atypi (Typographie).
+
+Voir aussi: Catégorisation; Classification automatique; Théorie du prototype; Classification type des industries; Classification classique; Nomenclature; Thésaurus.

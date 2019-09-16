@@ -1,0 +1,130 @@
+En mathématiques, une suite est une famille d'éléments - appelés ses "termes" - indexée par les entiers naturels. Une suite finie est une famille indexée par les entiers strictement positifs inférieurs ou égaux à un certain entier, ce dernier étant appelé "longueur" de la suite.
+Lorsque tous les éléments d'une suite (infinie) appartiennent à un même ensemble E (-displaystyle E), cette suite peut être assimilée à une application de N (-displaystyle -mathbb (N)) dans E (-displaystyle E). On note classiquement une suite (u n) n N (-displaystyle (u-(n))-(n-in -mathbb (N))), ou en abrégé : (u n) (-displaystyle (u-(n))).
+En particulier, on parle de suite "entière", suite "réelle" et suite "complexe", quand E (-displaystyle E) est un sous-ensemble de Z (-displaystyle -mathbb (Z)), R (-displaystyle -mathbb (R)) et C (-displaystyle -mathbb (C)), respectivement.
+
+Fragments d'histoire
+Les suites numériques sont liées à la mathématique de la mesure (mesures d'un phénomène prises à intervalles de temps réguliers) et à l'analyse (une suite numérique est l'équivalent discret d'une fonction numérique). La notion de suite est présente dès qu'apparaissent des procédés illimités de calcul. On en trouve, par exemple, chez Archimède, spécialiste des procédés illimités d'approximation (séries géométriques de raison 1-4) pour des calculs d'aires et de volumes, ou en Égypte vers 1700 av. J.-C. et plus récemment au Ier siècle apr. J.-C. dans le procédé d'extraction d'une racine carrée par la méthode de Héron d'Alexandrie : Pour extraire la racine carrée de A (-displaystyle A) , choisir une expression arbitraire a (-displaystyle a) et prendre la moyenne entre a (-displaystyle a) et A a (-displaystyle A -over a) et recommencer aussi loin que l'on veut le processus précédent.
+En notation moderne, cela définit la suite de nombres (u n) (-displaystyle (u-(n))) telle que: u 0 - a (-displaystyle u-(0)-a) et, pour tout entier n (-displaystyle n-;), u n + 1 - 1 2 (u n + A u n) (-displaystyle u-(n+1)-(1 -over 2)-left(u-(n)+(A -over u-(n))-right)).
+On retrouve ensuite cette préoccupation plusieurs siècles plus tard (à partir du XVIIe siècle) avec la méthode des indivisibles (Cavalieri, Torricelli, Pascal, Roberval). Dans l'Encyclopédie Raisonnée de d'Alembert et Diderot (1751), une grande part est laissée aux suites et séries dont le principal intérêt semble être leur convergence : Suite et série : se dit d'un ordre ou d'une progression de quantités qui croissent ou décroissent suivant quelques lois. Lorsque la suite va toujours en s'approchant de plus en plus de quelque quantité finie (...) on l'appelle suite convergente et si on la continue à l'infini, elle devient égale à cette quantité.
+C'est ainsi que l'on voit Bernoulli, Newton, Moivre, Stirling et Wallis, s'intéresser aux suites pour approcher des valeurs numériques. C'est à Lagrange que l'on doit, semble-t-il, la notation indicielle. L'étude des suites ouvre la porte à celle des séries entières dont le but est d'approcher, non plus des nombres, mais des fonctions. Dans la seconde moitié du XXe siècle, le développement des calculateurs et des ordinateurs donne un second souffle à l'étude des suites en analyse numérique grâce à la méthode des éléments finis. On en retrouve l'usage aussi dans les mathématiques financières.
+Parallèlement à ces études de suites pour leur convergence, se développe un certain goût pour l'étude de la suite non tant pour sa convergence mais pour son terme général. C'est le cas par exemple d'un grand nombre de suites d'entiers comme la suite de Fibonacci, celle de Lucas ou, plus récemment, celle de Syracuse. Sont aussi particulièrement étudiées les suites de coefficients dans des séries entières ou les suites de nombres découvertes lors de dénombrements.
+
+Notations
+L'ensemble des suites d'éléments de E (-displaystyle E) indexées par une partie A (-displaystyle A) de N (-displaystyle -mathbb (N)) se note F (A , E) (-displaystyle (-mathcal (F))-left(A,E-right)) ou E A (-displaystyle E(A)).
+Soit A (-displaystyle A) une partie de N (-displaystyle -mathbb (N)). Soit u E A (-displaystyle u-in E(A)) une suite d'éléments de E (-displaystyle E). On note u n (-displaystyle u-(n)) l'image u (n) (-displaystyle u(n)) de l'entier n (-displaystyle n) par u (-displaystyle u).
+Ainsi, les images de 0 , 1 , 2 ,.. n (-displaystyle 0,1,2,-dots ,n) sont notées u 0 , u 1 , u 2 ,.. u n (-displaystyle u-(0),u-(1),u-(2),-dots ,u-(n)).
+On dit que u n (-displaystyle u-(n)) est le terme de rang n (-displaystyle n), ou d'indice n (-displaystyle n) de la suite u (-displaystyle u).
+On note en général la suite u (-displaystyle u) : (u n) n A (-displaystyle (u-(n))-(n-in A)) qui est donc une application.
+Lorsque A - N (-displaystyle A--mathbb (N)), on note plus simplement la suite : (u n) (-displaystyle (u-(n))).
+Lorsque A - N n :- (1 , n) N - (1 , 2 ,.. n) (-displaystyle A--mathbb (N) -(n):-(1,n)-cap -mathbb (N) --(1,2,-dots ,n-)), on peut noter la suite (u k) 1 k n (-displaystyle (u-(k))-(1-leq k-leq n)) ou encore (u 1 , u 2 ,.. u n) (-displaystyle (u-(1),u-(2),-dots ,u-(n))).
+
+Remarque
+Il ne faut pas confondre la suite u - (u n) n N (-displaystyle u-(u-(n))-(n-in -mathbb (N))) avec l'ensemble des valeurs de la suite (u n n N) (-displaystyle -(u-(n)-mid n-in -mathbb (N) -)) qui est l'image directe de N (-displaystyle -mathbb (N)) par u (-displaystyle u). Par exemple, considérons la suite ((1) n) (-displaystyle -left((-1)(n)-right)), l'ensemble des valeurs de la suite est (1 , 1) (-displaystyle -(-1,1-)).
+
+Exemples
+La suite nulle est la suite dont tous les termes sont nuls : (0 , 0 , 0 , 0 ,..) (-displaystyle -left(0,0,0,0,-dots -right)).
+Plus généralement, si (u n) (-displaystyle (u-(n))) est une suite et que N N n N u n - 0 (-displaystyle -exists N-in -mathbb (N) -quad -forall n-geq N-quad u-(n)-0), alors on dit que (u n) (-displaystyle (u-(n))) est une suite "presque nulle", ou "nulle à partir d'un certain rang".
+Pour des raisons de commodité, pour tout élément k (-displaystyle k) de E (-displaystyle E) on peut identifier k (-displaystyle k) et la suite : (k , k , k ,..) (-displaystyle -left(k,k,k,-dots -right)).
+Posons n N , u n - 1 n + 1 (-displaystyle -forall n-in -mathbb (N) ,u-(n)-(1 -over (n+1))) ; u - (u n) n N (-displaystyle u-(u-(n))-(n-in -mathbb (N))) est la suite des inverses des nombres entiers. Celle-ci peut être représentée par : (1 , 1 2 , 1 3 , 1 4 , 1 5 , 1 6 ,..) (-displaystyle -left(1,(-frac (1)(2)),(-frac (1)(3)),(-frac (1)(4)),(-frac (1)(5)),(-frac (1)(6)),-cdots -right)).
+Terme général et récurrence
+Une suite étant une application de A (partie de N (-displaystyle -mathbb (N))) dans E, il est intéressant, voire primordial, de connaître l'image de n pour tout n de A. Si u n (-displaystyle u-(n)) est donné comme expression de n et permet un calcul direct du nombre, on dit que l'on connait le terme général de u n (-displaystyle u-(n)).
+Cependant, si A - (n N n n 0) (-displaystyle A--(n-in -mathbb (N) -mid n-geq n-(0)-)), la nature de l'ensemble de départ permet de définir la suite par une relation de récurrence : le terme d'indice n est donné comme fonction de n et des termes d'indices k, k n. La propriété de récurrence permet d'affirmer qu'il suffit alors de donner u n 0 (-displaystyle u-(n-(0))) pour en déduire tous les termes. En pratique, la détermination de u n (-displaystyle u-(n)) va nécessiter le calcul de tous les termes de u n 0 (-displaystyle u-(n-(0))) à u n 1 (-displaystyle u-(n-1)), soit une opération bien longue. En programmation, cette récurrence a donné lieu à la création des fonctions récursives. Une partie de la recherche sur les suites va consister à déterminer le terme général d'une suite connaissant sa relation de récurrence. Exemple: La suite (u n) (-displaystyle (u-(n))) définie par u 0 - 1 (-displaystyle u-(0)-1) et, pour tout entier n, u n + 1 - (n + 1) u n (-displaystyle u-(n+1)-(n+1)u-(n)) est la suite des factorielles : u n - n ! (-displaystyle u-(n)-n!).
+Somme des termes d'une suite
+Si E (-displaystyle E) est un groupe additif, on note : n - p q u n (-displaystyle -sum -(n-p)(q)u-(n)) ou p n q u n (-displaystyle -sum -(p-leq n-leq q)u-(n)) la somme : u p + u p + 1 +... + u q. (-displaystyle u-(p)+u-(p+1)+-cdots +u-(q).).
+
+Exemples de suites
+
+Suite arithmétique
+C'est une suite à valeurs dans un groupe additif, définie par récurrence par : (u n 0 - a n n 0 u n + 1 - u n + r (-displaystyle (-begin(cases)u-(n-(0))-a---forall n-geq n-(0)-quad u-(n+1)-u-(n)+r-end(cases)))
+où r (-displaystyle r) est une constante. Son terme général est alors : u n - a + (n n 0) r. (-displaystyle u-(n)-a+(n-n-(0))r.).
+
+Suite géométrique
+C'est une suite à valeurs dans un monoïde, définie par récurrence par : (u n 0 - a n n 0 , u n + 1 - q u n (-displaystyle (-begin(cases)u-(n-(0))-a---forall n-geq n-(0),-quad u-(n+1)-qu-(n)-end(cases)))
+où q (-displaystyle q) est une constante. Son terme général est alors : u n - a q n n 0. (-displaystyle u-(n)-aq(n-n-(0)).).
+
+Suites arithmético-géométriques
+C'est une suite à valeurs dans un corps commutatif, définie par récurrence par : (u n 0 - U n n 0 , u n + 1 - a u n + b. (-displaystyle (-begin(cases)u-(n-(0))-U---forall n-geq n-(0),-quad u-(n+1)-au-(n)+b.-end(cases))): Si a - 1 (-displaystyle a-1), la suite est une suite arithmétique.; Si a 1 (-displaystyle a-neq 1), son terme général est alors :. u n - b 1 a + a n n 0 (U b 1 a). (-displaystyle u-(n)-(-frac (b)(1-a))+a(n-n-(0))-left(U-(-frac (b)(1-a))-right).).
+
+Suites récurrentes linéaires à coefficients constants
+Une suite récurrente linéaire est définie par une relation de récurrence : u n + p - a 0 u n + a 1 u n + 1 +... + a p 1 u n + p 1 (-displaystyle u-(n+p)-a-(0)u-(n)+a-(1)u-(n+1)+-cdots +a-(p-1)u-(n+p-1)).
+où a 0 (-displaystyle a-(0)), a 1 (-displaystyle a-(1)),..a p 1 (-displaystyle a-(p-1)) sont p (-displaystyle p) scalaires (a 0 0 (-displaystyle a-(0)-neq 0)).
+L'entier p est appelé l'ordre de la récurrence. Les suites à récurrence linéaire d'ordre 1 sont les suites géométriques ; une suite récurrente linéaire d'ordre 2 célèbre est la suite de Fibonacci. L'étude des suites récurrentes linéaires d'ordre p fait appel à la notion d'espace vectoriel et au calcul matriciel, et on dispose de méthodes permettant le calcul du terme général de n'importe quelle suite de ce type.
+
+Quelques suites célèbres
+C'est dans l'univers des suites d'entiers que l'on trouve les suites les plus célèbres : la suite de Fibonacci où chaque terme est la somme des deux termes qui le précèdent et dont on connaît le terme général et sa relation avec le nombre d'or ;; la suite de Conway, où chaque terme est la description à voix haute du terme précédent ;; la suite de Syracuse ou de Collatz définie par une relation de récurrence simple : le terme suivant est obtenu en prenant, ou bien la moitié du terme précédent si celui-ci est pair, ou bien le triple du terme précédent augmenté de 1 (-displaystyle 1) si celui-ci est impair. Le comportement de cette suite reste encore une énigme pour les mathématiciens.
+
+Limite de suite
+
+Suite convergente
+La définition de limite d'une suite est classique en topologie. La convergence des suites dans R (-displaystyle -mathbb (R)) ou dans C (-displaystyle -mathbb (C)) est un cas particulier de cette définition : elle se formule à l'aide de la distance (sur laquelle la topologie de ces espaces est construite).
+Intuitivement, une suite possède une (valeur) limite si ses points se rapprochent toujours plus de cette limite lorsque l'indice augmente indéfiniment.
+Définition générale :
+Soient E (-displaystyle E) un espace topologique et (u n) (-displaystyle (u-(n))) une suite à valeurs dans E (-displaystyle E). On dit qu'un élément ℓ (-displaystyle -ell) de E (-displaystyle E) est une limite de la suite (u n) (-displaystyle (u-(n))) si: pour tout ouvert O (-displaystyle O) contenant ℓ (-displaystyle -ell), il existe N N (-displaystyle N-in -mathbb (N)) tel que n N u n O (-displaystyle -forall nN-quad u-(n)-in O).
+Suite réelle convergente
+On dit qu'une suite réelle (u n) (-displaystyle (u-(n))) converge vers ℓ (-displaystyle -ell) lorsque pour tout R + (-displaystyle -varepsilon -in -mathbb (R) -(+)(-)), il existe N N (-displaystyle N-in -mathbb (N)) tel que pour tout entier n N (-displaystyle nN) : u n ℓ. (-displaystyle u-(n)--ell -leq -varepsilon.)On dit alors que (u n) (-displaystyle (u-(n))) tend vers ℓ (-displaystyle -ell), et on le note : lim n + u n - ℓ (-displaystyle -lim -(n-rightarrow +-infty)u-(n)--ell).
+Suite complexe convergente
+La définition dans ℝ s'applique dans ℂ en remplaçant la valeur absolue par le module.
+
+Limites infinies
+Pour les suites réelles, on élargit le champ des limites possibles aux deux limites infinies + et - :
+
+Propriétés
+Les propriétés sur les limites : unicité; opération; complétude.
+vont dépendre de l'espace sur lequel on travaille et sont détaillées dans l'article "Limite d'une suite".
+
+Suites réelles et relation d'ordre
+
+Suites monotones
+
+Définition
+Une suite réelle monotone est une fonction monotone (c'est-à-dire croissante ou décroissante) de ℕ dans ℝ. De même, une suite réelle est dite strictement monotone lorsqu'elle est strictement croissante ou strictement décroissante.
+
+Propriétés
+On démontre qu'une suite réelle (u n) (-displaystyle (u-(n))) est : croissante si (et seulement si) n N u n + 1 u n (-displaystyle -forall n-in -mathbb (N) -quad u-(n+1)-geq u-(n)) ;; strictement croissante si (et seulement si) n N u n + 1 u n (-displaystyle -forall n-in -mathbb (N) -quad u-(n+1)u-(n)) ;; décroissante si (et seulement si) n N u n + 1 u n (-displaystyle -forall n-in -mathbb (N) -quad u-(n+1)-leq u-(n)) ;; strictement décroissante si (et seulement si) n N u n + 1 u n (-displaystyle -forall n-in -mathbb (N) -quad u-(n+1)u-(n)).
+
+Exemples
+La suite (u n) (-displaystyle (u-(n))) définie par n N u n - 2 n + 1 (-displaystyle -forall n-in -mathbb (N) -quad u-(n)-2n+1) est strictement croissante. En effet, n N u n + 1 u n - (2 (n + 1) + 1) (2 n + 1) - 2 0. (-displaystyle -forall n-in -mathbb (N) -quad u-(n+1)-u-(n)-(2(n+1)+1)-(2n+1)-20.)
+
+Critères de monotonie
+
+Limites de suites monotones
+Suite monotone bornée
+D'après le théorème de la limite monotone :
+Si une suite réelle (u n) (-displaystyle (u-(n))) est croissante (resp. décroissante) et majorée par M (-displaystyle M) (resp. minorée par m (-displaystyle m)), alors elle est convergente et lim n + u n M (-displaystyle -lim -(n-to +-infty)u-(n)-leq M) (resp. lim n + u n m (-displaystyle -lim -(n-to +-infty)u-(n)-geq m)).
+De cette propriété, découle la remarque suivante :
+Soient (u n) (-displaystyle (u-(n))) et (v n) (-displaystyle (v-(n))) deux suites réelles. Si : (u n) (-displaystyle (u-(n))) est croissante ;; (v n) (-displaystyle (v-(n))) est décroissante ;; N N n N u n v n (-displaystyle -exists N-in -mathbb (N) -quad -forall nN-quad u-(n)-leq v-(n)) ;.
+alors : (u n) (-displaystyle (u-(n))) et (v n) (-displaystyle (v-(n))) sont convergentes et lim n + u n lim n + v n (-displaystyle -lim -(n-to +-infty)u-(n)-leq -lim -(n-to +-infty)v-(n)).
+Suite monotone non bornée
+Encore d'après le théorème de la limite monotone :
+Si une suite réelle (u n) (-displaystyle (u-(n))) est croissante (resp. décroissante) et non majorée (resp. non minorée), alors elle tend vers + (-displaystyle +-infty) (resp. (-displaystyle --infty)).
+
+Suites adjacentes
+Deux suites réelles (a n) (-displaystyle (a-(n))) et (b n) (-displaystyle (b-(n))) sont dites adjacentes lorsque : l'une est croissante ;; l'autre est décroissante ;; la suite (a n b n) (-displaystyle (a-(n)-b-(n))) converge vers 0 (-displaystyle 0).
+L'intérêt des suites adjacentes est qu'elles permettent d'une part de prouver l'existence d'une limite, d'autre part de fournir un encadrement de celle-ci aussi fin qu'on le souhaite. Ceci grâce aux deux propriétés suivantes : Si deux suites réelles (a n) (-displaystyle (a-(n))) et (b n) (-displaystyle (b-(n))) sont adjacentes, alors elles convergent et ont la même limite ℓ (-displaystyle -ell).; De plus, en supposant (a n) (-displaystyle (a-(n))) croissante et (b n) (-displaystyle (b-(n))) décroissante on a : n N a n a n + 1 ℓ b n + 1 b n. (-displaystyle -forall n-in -mathbb (N) -quad a-(n)-leq a-(n+1)-leq -ell -leq b-(n+1)-leq b-(n).).
+
+Suites particulières
+
+Suites de Cauchy
+Dans ce paragraphe, il s'agit de suites à valeurs dans un espace métrique (E , d) (-displaystyle (E,d)).
+Une suite (u n) (-displaystyle (u-(n))) est dite de Cauchy lorsque : R + N N p N q N (p N (-displaystyle -forall -eta -in -mathbb (R) -(+)(-)-quad -exists N-in -mathbb (N) -quad -forall p-in -mathbb (N) -quad -forall q-in -mathbb (N) -quad (p-geq N) et q N) d (u p , u q) (-displaystyle q-geq N)-Rightarrow d(u-(p),u-(q))-leq -eta).
+On démontre que : toute suite convergente est de Cauchy ;; toute suite de Cauchy est bornée.
+On appelle espace complet un espace où toute suite de Cauchy est convergente.
+
+Suites extraites
+Soit (u n) (-displaystyle (u-(n))) une suite.
+Si : N N (-displaystyle -sigma :-mathbb (N) -to -mathbb (N)) est une fonction strictement croissante (une telle fonction s'appelle une extractrice), on dit que la suite (u (n)) n N (-displaystyle (u-(-sigma (n)))-(n-in -mathbb (N))) est une suite extraite (ou sous-suite) de la suite (u n) n N (-displaystyle (u-(n))-(n-in -mathbb (N))).
+Grosso modo, c'est la suite (u n) (-displaystyle (u-(n))) pour laquelle on n'a gardé que certains termes (une infinité quand même).
+Ces suites extraites se révèlent intéressantes quand on cherche à déterminer des valeurs d'adhérence.
+
+Suites équivalentes et suites négligeables
+Définition
+Soient (u n) (-displaystyle (u-(n))) et (v n) (-displaystyle (v-(n))) deux suites réelles. On dit que (u n) (-displaystyle (u-(n))) est négligeable devant (v n) (-displaystyle (v-(n))), et l'on note u n - o (v n) (-displaystyle u-(n)-o(v-(n))), si : (n) lim n n - 0 (-displaystyle -exists ((-varepsilon)-(n))-quad -lim -(n-to -infty)(-varepsilon)-(n)-0) et u n - n v n (-displaystyle u-(n)--varepsilon -(n)v-(n)). Remarque: Si v n 0 (-displaystyle v-(n)-neq 0) à partir d'un certain rang, alors u n - o (v n) (-displaystyle u-(n)-o(v-(n))) si et seulement si lim n u n v n - 0 (-displaystyle -lim -(n-to -infty)((u-(n)) -over (v-(n)))-0).
+Exemple
+Considérons u n - 1 n 2 (-displaystyle u-(n)-(1 -over n(2))) et v n - 1 n (-displaystyle v-(n)-(1 -over n)).
+Posons n - 1 n (-displaystyle (-varepsilon)-(n)-(1 -over n)). On a alors : u n - n v n (-displaystyle u-(n)-(-varepsilon)-(n)v-(n)) ;; lim n 1 n - 0 (-displaystyle -lim -(n-to -infty)(1 -over n)-0).
+D'où 1 n 2 - o (1 n) (-displaystyle (1 -over n(2))-o-left((1 -over n)-right)) et 1 n 2 + 1 n 1 n (-displaystyle (1 -over n(2))+(1 -over n)-sim (1 -over n)).
+Définition
+Deux suites réelles (u n) (-displaystyle (u-(n))) et (v n) (-displaystyle (v-(n))) sont dites équivalentes si u n v n - o (v n) (-displaystyle u-(n)-v-(n)-o(v-(n))). On note alors u n v n (-displaystyle u-(n)-sim v-(n)). Remarque: Si v n 0 (-displaystyle v-(n)-neq 0) à partir d'un certain rang, alors u n v n (-displaystyle u-(n)-sim v-(n)) si et seulement si lim n u n v n - 1 (-displaystyle -lim -(n-to -infty)((u-(n)) -over (v-(n)))-1).
+Voir aussi
+
+Articles connexes: Adhérence (mathématiques); Encyclopédie en ligne des suites de nombres entiers; Suite (mathématiques élémentaires); Suite d'entiers; Suite généralisée; Vitesse de convergence des suites.

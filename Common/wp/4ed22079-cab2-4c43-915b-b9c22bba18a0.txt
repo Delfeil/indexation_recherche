@@ -1,0 +1,64 @@
+L'algorithme d'Euclide est un algorithme permettant de déterminer le plus grand commun diviseur (PGCD) de deux entiers sans connaître leur factorisation. Il a été décrit pour la première fois dans le livre VII des Éléments d'Euclide sous la forme de l'anthyphérèse.
+
+Remarque historique
+Au début, Euclide a formulé le problème de façon géométrique : comment trouver une "unité de mesure" commune pour deux longueurs de segments. Il procède par soustractions répétées de la longueur du plus court segment sur la longueur du plus long. Cela correspond à une adaptation de la méthode naïve de calcul de la division euclidienne, telle que décrite dans l'article consacré.
+
+Description
+
+Explications géométriques
+Dans la tradition grecque, en comprenant un nombre entier comme une longueur et un couple d'entiers comme un rectangle, leur PGCD est la longueur du côté du plus grand carré permettant de carreler entièrement ce rectangle. L'algorithme décompose ce rectangle en carrés, de plus en plus petits, par divisions euclidiennes successives, de la longueur par la largeur, puis de la largeur par le reste, jusqu'à un reste nul.
+Dans le rectangle de dimensions L - 21 par l - 15 représenté à droite, par exemple, on peut glisser un carré de côté 15 mais il reste un rectangle de côtés 15 et 6, dans lequel on peut glisser deux carrés de côté 6 mais il reste un rectangle de côtés 6 et 3 que l'on peut carreler entièrement de carrés de côté 3. Les carrés de côté 6 ou 15 peuvent aussi se carreler en carrés de côté 3. Le rectangle entier peut se carreler en carrés de côté 3. Il n'existe pas de carré plus grand permettant un tel carrelage.
+
+Explications arithmétiques
+On sait que PGCD(a, 0) - a et que PGCD(a, b) - PGCD(b, a mod b). On progresse dans l'algorithme en diminuant à chaque étape les nombres considérés par calcul du modulo.
+
+Généralisation
+Cet algorithme repose sur la structure d'anneau euclidien de l'anneau Z des entiers relatifs, plus particulièrement sur la propriété de division euclidienne. Il se généralise donc à bien d'autres anneaux, en particulier les anneaux de polynômes à coefficients dans un corps. L'algorithme se généralise pour permettre le calcul des coefficients de Bézout.
+L'algorithme est effectif à condition de disposer d'un algorithme effectif de division euclidienne. La possibilité de disposer d'un tel algorithme rend de nombreux autres calculs effectifs, notamment, en algèbre linéaire, le calcul de facteurs invariants.
+
+Remarque préliminaire
+Puisque l'algorithme a pour objet le calcul d'un PGCD, il est possible de se restreindre aux entiers positifs, un PGCD de deux entiers relatifs étant égal au PGCD de leurs valeurs absolues.
+
+Description de l'algorithme
+Soient deux entiers naturels a et b, dont on cherche le PGCD. Le cas où a ou b est nul ne nécessite aucun algorithme ; on l'exclut. Une suite d'entiers (an)n est définie par récurrence de pas 2, plus précisément par divisions euclidiennes successives ; la suite est initialisée par a0 - a, a1 - b, puis propagée par la règle de récurrence : tant que an+1 est non nul, an+2 est défini comme le reste de la division euclidienne de an par an+1.
+On commence donc par calculer le reste de la division de a par b, qu'on note r ; puis on remplace a par b, puis b par r, et on réapplique le procédé depuis le début.
+On obtient ainsi une suite, qui vaut 0 à un certain rang ; le PGCD cherché est le terme précédent de la suite.
+Si a b, la première itération de la boucle a pour effet de "permuter a et b". Plus précisément : dans ce cas, la division euclidienne de a par b s'écrit a - b.0 + a donc a2 - a, si bien que la suite produite par l'algorithme appliqué au couple (a, b) commence par a, suivie de la suite produite par l'algorithme appliqué au couple (b, a).
+Algorithme d'Euclide. Exemple: Calculons, par exemple, le PGCD de 1071 et de 1029 à l'aide de l'algorithme d'Euclide : 1071 - 1029 1 + 42; 1029 - 42 24 + 21; 42 - 21 2 + 0; Il faut prendre le dernier reste avant le zéro, donc PGCD(1071 ; 1029) - 21.
+Démonstration de sa finitude et de son exactitude
+La définition même de la suite (a n) (-displaystyle (a-(n))) par division euclidienne montre que, pour tout n (-displaystyle n) tel que a n + 1 (-displaystyle a-(n+1)) est non nul, il existe un entier q n + 2 (-displaystyle q-(n+2)) tel que : a n - q n + 2 a n + 1 + a n + 2 e t 0 a n + 2 a n + 1. (-displaystyle a-(n)-q-(n+2)-times a-(n+1)+a-(n+2)-quad (-rm (et))-quad 0-leq a-(n+2)a-(n+1).) La suite d'entiers naturels (a n) (-displaystyle (a-(n))) est donc strictement décroissante (tant qu'elle est non nulle) à partir du rang 1, et donc vaut 0 à un certain rang. L'existence d'un dernier reste non nul est ainsi établie.
+Soit N l'indice de ce dernier reste non nul. Il faut montrer que aN est bien le PGCD de a et b. Il suffit pour cela de remarquer qu'à chaque étape, le PGCD des deux derniers ai calculés est inchangé :
+puisque tout diviseur commun à an et an+1 divise aussi an - qn+2an+1 - an+2 et qu'inversement, tout diviseur commun à an+1 et an+2 divise aussi qn+2an+1 + an+2 - an. On a donc bien :
+
+Le théorème de Lamé
+Le théorème de Lamé stipule que le nombre d'étapes de l'algorithme d'Euclide exécuté sur deux entiers est borné (supérieurement) par cinq fois le nombre de chiffres nécessaire à écrire (en base 10) le plus petit de ces deux entiers.
+On peut en fait être légèrement plus précis : le nombre d'étapes de l'algorithme d'Euclide exécuté sur deux entiers a (-displaystyle a) et b (-displaystyle b), avec b a (-displaystyle b-leq a), est borné par la partie entière de ln (b) - ln (-displaystyle -ln(b)--ln(-varphi)), où ln (-displaystyle -ln) désigne le logarithme naturel et (-displaystyle -varphi) est le nombre d'or.
+Comme le nombre de chiffres de l'écriture de b (-displaystyle b) en base 10 est ln (b) - ln (10) (-displaystyle -ln(b)--ln(10)) et que la quantité ln (10) - ln (-displaystyle -ln(10)--ln(-varphi)) est inférieure à 5 (-displaystyle 5) (elle vaut environ 4,78497), on retrouve bien le théorème de Lamé.
+De plus, cette majoration est la meilleure possible, puisqu'elle est atteinte quand a (-displaystyle a) et b (-displaystyle b) sont deux nombres de Fibonacci consécutifs.
+
+Algorithme étendu aux coefficients de Bézout
+Le théorème de Bachet-Bézout assure l'existence de deux entiers u et v tels que : a u + b v - a N - P G C D (a , b) (-displaystyle au+bv-a-(N)-PGCD(a,b)). L'algorithme d'Euclide convenablement adapté permet de calculer de tels coefficients.
+
+Description
+Pour cela, on introduit deux suites (u n) (-displaystyle (u-(n))) et (v n) (-displaystyle (v-(n))) telles que pour tout n, on ait la relation : a u n + b v n - a n (-displaystyle au-(n)+bv-(n)-a-(n)). Si de telles suites existent, les termes u N , v N (-displaystyle u-(N),v-(N)) constitueront une paire de coefficients de Bézout pour a et b.
+On choisit u 0 - 1 , v 0 - 0 (-displaystyle u-(0)-1,v-(0)-0) et u 1 - 0 , v 1 - 1 (-displaystyle u-(1)-0,v-(1)-1) (afin que a u n + b v n - a n (-displaystyle au-(n)+bv-(n)-a-(n)) soit vrai pour n - 0 et pour n - 1), puis la relation de récurrence de pas 2 entre les a n (-displaystyle a-(n)) montre :
+a n + 2 - a n q n + 2 a n + 1 - a u n + b v n q n + 2 (a u n + 1 + b v n + 1) - a (u n q n + 2 u n + 1) + b (v n q n + 2 v n + 1) (-displaystyle a-(n+2)-a-(n)-q-(n+2)a-(n+1)-au-(n)+bv-(n)-q-(n+2)(au-(n+1)+bv-(n+1))-a(u-(n)-q-(n+2)u-(n+1))+b(v-(n)-q-(n+2)v-(n+1)))
+On peut ainsi définir (u n) (-displaystyle (u-(n))) par la relation de récurrence de pas 2 : u n + 2 - u n q n + 2 u n + 1 (-displaystyle u-(n+2)-u-(n)-q-(n+2)u-(n+1)) et l'initialisation précédente, et (v n) (-displaystyle (v-(n))) par v n + 2 - v n q n + 2 v n + 1 (-displaystyle v-(n+2)-v-(n)-q-(n+2)v-(n+1)) et l'initialisation précédente ; et on obtient bien la relation annoncée pour tout n.
+
+Commentaires
+L'algorithme étendu s'implémente comme l'algorithme classique ; il suffit de rajouter des variables correspondant aux coefficients u et v à calculer, et de faire une multiplication et une soustraction supplémentaires, pour calculer chacun des deux nouveaux coefficients, à chaque étape.
+
+Fractions continues
+Les quotients successifs qui apparaissent quand l'algorithme d'Euclide est appliqué aux données a et b, sont précisément les nombres qui apparaissent dans la représentation sous forme de fraction continue de a-b. Considérons l'exemple de a - 1071 et b - 1029 utilisé ci-dessus.
+Voici le calcul avec les quotients soulignés (successivement 1, 24 et 2): 1071 - 1029 1 + 42; 1029 - 42 24 + 21; 42 - 21 2 + 0.
+De cela on tire : 1071 1029 - 1 + 1 24 + 1 2 (-displaystyle (-frac (1071)(1029))--mathbf (1) +(-frac (1)(-mathbf (24) +(-frac (1)(-mathbf (2)))))).
+Dans l'égalité précédente, le second membre s'appelle la fraction continue ou continuée du quotient 1071-1029.
+On peut en déduire les 3 approximations suivantes de la fraction, classées par ordre de précision croissante : 1071 1029 1 - 1 1 (-displaystyle (-frac (1071)(1029))-simeq -mathbf (1) -(-frac (1)(1))); 1071 1029 1 + 1 24 - 25 24 (-displaystyle (-frac (1071)(1029))-simeq -mathbf (1) +(-frac (1)(-mathbf (24)))-(-frac (25)(24))); 1071 1029 - 1 + 1 24 + 1 2 - 51 49 (-displaystyle (-frac (1071)(1029))--mathbf (1) +(-frac (1)(-mathbf (24) +(-frac (1)(-mathbf (2)))))-(-frac (51)(49))).
+Cette méthode peut également être utilisée pour des nombres réels a et b ; comme dans le cas de deux entiers, la suite de quotients calculés représente la "décomposition en fraction continue" de a-b et fournit une suite d'approximations successives, de qualité croissante, du quotient a-b. Dans le cas où ce quotient est irrationnel, l'algorithme d'Euclide ne se termine pas et la suite des approximations obtenues est donc elle-même infinie !
+nota : La décomposition en fraction continuée (et la série d'approximations successives correspondante) peut être appliquée, non seulement à un nombre réel quelconque, mais également à une fonction : cette démarche consiste à rechercher les approximants de Padé, dont on peut définir le principe comme suit : Au voisinage d'un point, le développement en série de Taylor d'une fonction donnée fournit un polynôme qui réalise une approximation de la fonction. Mais on peut également chercher une fraction rationnelle qui satisfasse les mêmes conditions que la partie polynomiale du développement de Taylor : l'égalité des dérivées de la fonction et de son approximation, jusqu'à un certain ordre donné.
+La comparaison de ces deux types de développements permet de très intéressants développements, comme la démonstration de l'irrationalité de (3).
+
+Voir aussi
+
+Article connexe
+Liste de notions nommées d'après Euclide (en)

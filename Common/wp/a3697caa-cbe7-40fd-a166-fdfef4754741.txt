@@ -1,0 +1,154 @@
+La mise en page, ou mise en pages, est l'opération de disposition graphique d'un contenu informationnel dans un espace donné (feuille de papier, planche de bande dessinée, pages web, etc.).
+Elle succède au travail de collecte et de composition du contenu (composition de texte "au kilomètre", collection des composants), et précède souvent le travail d'impression. Elle peut le précéder dans la mesure où elle est prédéfinie (dimensions des colonnes, styles du texte, placement des illustrations, etc.).
+Elle vise à représenter le contenu (textes, images, animations...) de manière hiérarchique et harmonieuse (équilibre des zones, des couleurs et des espaces, contrastes), afin de faciliter un parcours de lecture à plusieurs niveaux, avec un souci constant d'ergonomie.
+Elle comprend les techniques : de polices de caractères ;; de typographie ;; de mise en forme et d'espacement ;; de titrage et de lettrines ;; d'illustration et de leur habillage.
+Elle peut utiliser un thème en rapport avec le contenu (par exemple une numérotation de page en forme de perles pour un document sur les colliers, ou un filigrane d'une encyclopédie sur le fond d'un article encyclopédique...).
+
+Historique
+Mise en page manuscrite.
+La mise en page des documents a subi plusieurs transformations avec la multiplicité des supports d'écriture qui sont apparus au cours de l'histoire. En effet, depuis l'apparition de l'écriture, de nombreux procédés ont été mis au point pour réaliser des textes longs : codification de tablettes d'argile pour en comprendre la succession, liens reliant des planchettes de bois, assemblage de feuilles de papyrus formant le rouleau qui reste longtemps la forme la plus répandue.
+Le parchemin s'enroule aussi à ses débuts. Plus mince, plus souple et résistant que le papyrus, il provoque l'émergence d'une nouvelle organisation : le codex, ancêtre du livre actuel. D'abord marginal, il se trouve en situation de monopole dès le Ve siècle. Désormais, les feuilles sont pliées, assemblées en cahiers reliés à leur tour. L'écriture devient possible sur les deux faces (deux fois plus qu'un rouleau de papyrus). Depuis l'époque des tablettes d'argile jusqu'à l'apparition du codex, la mise en page était effectuée à la main par les copistes dans les livres, intégrant les enluminures, les marges, les titres, le texte principal, les gloses, les notes et jusqu'aux appels de pages à l'usage des relieurs mais aussi pour faciliter la lecture, cette préparation étant préalable à l'écriture de chaque page : elle était alors déjà considérée comme un art à part entière.
+L'arrivée de l'imprimerie a apporté de nouvelles méthodes et règles : la composition en plomb perdait en fantaisie et en liberté, mais gagnait en rigueur et en lisibilité. Pratiquée empiriquement, la mise en page a bénéficié d'une longue expérience qui n'a jamais interdit la fantaisie. Ce n'est qu'au XXe siècle, notamment avec les théoriciens du Bauhaus, tels Jan Tschichold, et leurs successeurs, que la mise en page fait l'objet d'une étude spécifique. Des tendances et des écoles apparaissent, comme la très célèbre typographie suisse des années 1960, toute en rigueur et clarté, qui prône l'usage des linéales sans capitales, des compositions en colonnes alignées "au fer", etc. bien illustrée par le changement de formule de la revue mensuelle Réalités
+Enfin, avec l'avènement de l'informatique, la publication assistée par ordinateur (PAO) permet des variations à l'infini.
+
+Méthodes de mise en page
+Deux typomètres en matière plastique, années 1980.
+Pour la mise en page d'un texte dans un journal, un livre, et d'autres types de publications, un gabarit est choisi : des lignes de repère horizontales et verticales sont placées sur l'espace généralement rectangulaire de la page, définissant des blocs dans lesquels du texte ou des images viendront se positionner.
+D'autres blocs que ceux définis par le gabarit peuvent évidemment être choisis pour le texte, et les illustrations peuvent venir soit à l'arrière du texte (un effet de filigrane doit être appliqué afin de garder un niveau de contraste permettant une lecture facile du texte), soit entre deux lignes de texte (en espaçant ces lignes d'une hauteur équivalente à la hauteur de l'image), soit en habillage rapproché : le texte épouse avec un certain espacement les bordures latérales de l'image.
+Avant l'informatique, la mise en page manuelle impose le calcul de la longueur et de l'encombrement du texte. Il se base sur le nombre de signes du manuscrit, et la comparaison avec des modèles de typographie qui permettent pour la police choisie de déterminer le corps en fonction de la place disponible, ou inversement, l'encombrement en fonction du corps. Le typomètre est l'outil de base. Le texte est alors envoyé à la composition avec toutes les indications nécessaires et revient, pour l'impression typographique, sous forme de blocs de caractères assemblés, auxquels s'ajoutent les clichés des illustrations ; pour l'impression offset, les textes composés arrivent sous forme de tirages papier ou de films, qui seront découpés et collés selon le gabarit prédéfini, avec les autres éléments graphiques (illustrations, photographies) pour constituer le document final qui sera imprimé.
+Voir Maquette.
+
+Facteurs influençant les choix de la mise en page
+
+Papier ou numérique
+Le passage au numérique a significativement modifié la manière dont l'information est organisée sur un document. Les possibilités de mise en page offertes par les logiciels d'édition de texte diffèrent de celles que les scripteurs peuvent réaliser manuellement. En effet, les pratiques d'écriture manuelle ont été profondément transformées par les supports numériques.
+Le but étant de fournir un document lisible et bien structuré, la prise en considération du mode d'édition du texte (édition manuelle ou édition numérique) est primordiale pour faire les bons choix de la mise en page.
+Ainsi, améliorer la mise en page, c'est respecter certaines règles graphiques (pour les textes écrits à la main) et typographiques (pour les textes imprimés). Par exemple, pour un texte manuscrit, il faut éviter de trop serrer les lettres et les mots. L'aération de la page à travers les marges et les alinéas est fortement recommandée. La mise en valeur de certaines parties du texte manuscrit peut être faite par un soulignement. Cependant, pour un texte imprimé, nous disposons d'une grande variété de polices de caractère, de signes typographiques et d'alignement dont le choix dépendra du type de texte à écrire (informatif, incitatif...).
+
+Le type du document
+La mise en forme dépend aussi du type du document à écrire. Quelle que soit la langue dans laquelle le texte est écrit, numérique ou manuscrit, il existe des normes qui définissent la mise en page de certains types de documents. Tel est le cas des documents formels : ils obéissent tous à des normes prédéfinies qui permettent de les identifier avant même de lire leur contenu. Dans ce contexte, on peut citer l'exemple de la lettre. La lettre est un document qui doit obéir à une certaine structure de base dans les différentes langues et cultures. Ceci dit, tout autre document informel laisse une marge de liberté par rapport au choix de la mise en page.
+
+Les livres
+Des livres format de poche aux encyclopédies.
+
+La presse
+Quotidiens et hebdomadaires
+
+Les magazines illustrés
+La mise en pages comprend alors un titre, des sous-titres, du texte, des légendes et des photos.
+Jean-Louis Swiners en a proposé en 1965 une classification.
+Il distinguait alors :
+A. LES MISES EN PAGES POUR DONNER À VOIR
+1. Les mises en page "commerciales" Vignette lustrative (qui donne du lustre)
+2. Une mise en page "typographique" a) Facilité matérielle b) Facilité intellectuelle c) Facilité esthétique
+3. Les mises en page "illustratives"
+a) Soit explicative ou pédagogique
+b) Soit confirmative ou rhétorique
+4. Les mises en page "esthétiques"
+a) Académique
+b) Hyperbolique
+c) Novatrice
+B. LES MISES EN PAGES POUR DONNER À PENSER
+5. Les mises en page "sémiologiques"
+a) La mise en page musico-cinémato-graphique
+b) La mise en page symbolique
+c) La mise en page sémantique
+
+Les bandes dessinées
+Avec des mises en page très différentes suivant que ce sont des bandes dessinées franco-belges, des comics, des mangas, etc.
+
+Les documents pédagogiques
+Par exemple, les documents pédagogiques, qui doivent respecter une certaine organisation pour faciliter l'apprentissage (les livres de cours, les tutoriels...). Deux éléments indispensables dans la mise en forme de ce type de document sont la table des matières - ou le sommaire -, qui facilitent l'accès aux différentes parties du document du texte et de la lecture. La hiérarchisation du contenu ainsi que la clarté de la police d'écriture et des illustrations sont aussi des éléments importants qui permettent de faciliter l'apprentissage. La mise en page est également un élément constitutif du texte poétique. Elle met en valeur l'aspect visuel, ou même pictural, du texte. Le choix de la typographie et la présence d'interlignes qui marquent le début et la fin des strophes participent au sens du poème et permettent d'identifier le type du texte sans lire son contenu.
+
+Sens de l'écriture
+La direction de l'écriture est également l'un des facteurs qui influencent la mise en page de documents. De nos jours, dans les langues sémitiques (hébreu, arabe, syriaque), l'alphabet est écrit en lignes horizontales, de droite à gauche, alors que dans les langues occidentales (grec, latin, russe), l'alphabet est écrit en lignes horizontales dirigées de la gauche vers la droite.
+De ce fait, la mise en page et la hiérarchie du texte dans ces deux types d'écritures sont présentées d'une façon qui leur est propre. Certaines préférences par rapport à la disposition des différents éléments (images, titres, paragraphes...) sur le support d'écriture ont été mises en place pour les deux types d'écritures. Pour les langues sémitiques, il est préférable que les illustrations soient placées à gauche et que la partie textuelle soit placée à droite pour des raisons d'ergonomie. Cependant, pour les langues occidentales, il est préférable que le contenu textuel soit placé à gauche et que toutes les illustrations accompagnant le texte soient placées à droite, ceci afin que les débuts de lignes soient tous alignés, facilitant ainsi la lecture.
+
+Mise en page des documents numériques
+
+Outils d'édition
+De très nombreux outils permettent de mettre en page du contenu numérique, qu'il soit textuel ou multimédia. En général, ces logiciels sont orientés vers la production d'un type de document particulier ; on peut citer par exemple les suites LibreOffice ou Microsoft Office qui suivent une logique bureautique, ou encore Dreamweaver qui est orienté vers la publication web.
+
+Nomenclature selon la logique d'édition
+
+Logiciels WYSIWYG
+La première catégorie est souvent qualifiée de WYSIWYG, qui signifie What You See Is What You Get. Ces logiciels maintiennent une forte analogie avec la composition de documents papier et tirent parti des possibilités offertes par les interfaces graphiques : un document vierge ou un modèle est affiché à l'écran et peut être modifié par l'utilisateur à l'aide d'une série d'outils proposés par le logiciel.
+Le résultat de ces modifications est visualisé en temps réel par l'utilisateur qui a donc une idée précise de ce à quoi ressemblera le document une fois terminé. Microsoft Word et Photoshop sont des exemples caractéristiques de cette catégorie de logiciels.
+
+Logiciels WYSIWYM
+La seconde catégorie est désignée par l'acronyme WYSIWYM, What You See Is What You Mean. Ces logiciels mettent l'accent sur le fait que l'utilisateur ne devrait pas décrire l'aspect du document mais la nature de son contenu, et laisser le soin au logiciel de réaliser une mise en page adaptée.
+Ces logiciels utilisent le plus souvent une séparation du contenu et les règles de mise en forme et suivent une logique déclarative.
+On peut citer les langages HTML-CSS et LaTeX comme représentants de cette seconde catégorie de technologies.
+
+Nomenclature selon les fonctionnalités proposées
+On peut distinguer trois familles de logiciels de mise en page : Les traitements de texte : ils permettent de mettre en pages et de formater du texte s'étalant sur plusieurs pages, d'y ajouter des images et d'imprimer le document généré.; Les logiciels de PAO : ils vont plus loin en offrant des fonctionnalités graphiques et des options d'impression avancées (en particulier la gestion CMJN, la défonce des caractères, etc.).; Les logiciels de graphisme : plus orientés vers la création graphique, ils sont parfaitement adaptés à la mise en page de documents dans lequel le texte ne se poursuit pas de page en page (tract, affiche, packaging, etc.).
+Les logiciels de type éditeur de texte ne rentrent pas dans la catégorie des logiciels de mise en page, car ils ne permettent ni le formatage du texte, ni le positionnement d'images.
+
+Traitement de texte
+Ces logiciels assurent le formatage de texte et le positionnement d'images. Ils sont adaptés à la création et l'impression de tout type de document (brochure, lettre, livre, etc.). Leur prise en main est aisée. Longtemps mal adaptés avec les standards des imprimeurs, le support récent du format PDF par certains d'entre eux tend à corriger ce manque. OpenOffice.org Writer (supporte nativement le PDF); Microsoft Word; Microsoft Works; Microsoft Publisher; AbiWord; Pages.
+Il existe de nombreux autres Logiciels de traitement de texte.
+
+Logiciels de PAO
+Les logiciels de mise en page les plus couramment utilisés par les professionnels ne sont pas très nombreux ; on distingue principalement : XPress de la société Quark.; InDesign de la société Adobe Systems, qui connaît un fort engouement depuis quelques années et est devenu un standard de fait, utilisé par toutes les agences de communication, les éditeurs de presse et les maisons d'édition.; Scribus, logiciel libre et gratuit, développé originellement pour GNU-Linux et désormais porté sous Mac OS, ainsi que sous Windows, depuis janvier 2006.
+
+Logiciels de graphisme
+Ils se divisent en deux catégories : matriciels et vectoriels.
+Les logiciels de graphisme matriciel sont assez mal adaptés à la mise en page pour l'impression, car ils ont tendance à "pixéliser" les textes : Adobe Photoshop; Gimp; Paint Shop Pro, etc.
+Les logiciels de graphisme vectoriel conviennent pour l'élaboration d'illustrations et sont déconseillés pour la mise en page, même pour les documents où les textes ne se suivent pas de page en page (tract, affiche, document recto-verso, etc.), car l'absence d'options comme les fonds perdus dans les paramètres d'exportation, ou la mauvaise gestion des fichiers bitmap peut s'avérer handicapante pour le graphiste. Adobe Illustrator; OpenOffice.org Draw; Inkscape, etc.
+
+Mise en page automatique
+
+Approche par modèles
+Très présents dans les logiciels de bureautique grand public, les modèles fournissent des patrons de mise en page comportant tableaux, colonnes, et autres éléments de présentation déjà organisés. Une charte graphique prédéfinie est généralement associée. Outre leur très bonne intégration aux logiques de type WYSIWYG, les modèles ont l'avantage de nécessiter très peu d'apprentissage de la part de l'utilisateur. En contrepartie, le modèle a tendance à contraindre très fortement le contenu produit ; il est en général représentatif d'un genre (lettre, carte de voeux, rapport, etc.) dont il ne peut s'écarter.
+On notera également que les éditeurs de magazines utilisent des gabarits afin de proposer des mises en page cohérentes entre leurs numéros ; ces gabarits peuvent être apparentés à des modèles taillés sur mesure pour les besoins de l'éditeur.
+
+Approche déclarative
+Plutôt que de remplir un gabarit pré-établi comme le fait l'approche par modèle, l'approche déclarative suit une logique de construction qui se décompose le plus souvent en quatre phases.
+Après une première phase de rédaction (on parle souvent de texte écrit "au kilomètre" dans le monde de l'édition), la mise en page est réalisée en déclarant la nature des différents composants (paragraphe, titre, tableau, image, etc.) et les relations qui entretiennent entre eux (une note de bas de page référence un mot particulier, un titre s'applique à une section particulière...). On obtient à la fin de cette deuxième phase un modèle qui représente la structure logique du document. La troisième consiste en la réalisation d'un ensemble de règles qui vont décrire la manière dont le modèle documentaire doit être mis en page (par exemple une note de bas de page doit être présente sur la même page que le mot qu'elle référence). Ensuite, la quatrième et dernière phrase fait intervenir un processus (le plus souvent automatisé) qui génère un document final à partir du modèle documentaire et de la base de règles de mise en forme.
+On notera que cette approche établit une séparation stricte du contenu (les informations et leur structure) et de la forme du document. Cette distinction comporte un certain nombre d'avantages : Une même base de règle peut servir à la mise en page de nombreux documents. Cela permet une grande homogénéité graphique de ces documents et un gain de temps substantiel lors de leur création.; Le contenu du document reste facilement accessible à d'autres formes de traitement automatisés (création d'un graphique pour les éléments d'un tableur par exemple), car il n'est pas "pollué" par des informations de mise en page.; La création de modèles documentaires complets permet un archivage facilité de l'information.
+De plus la possibilité d'appliquer dynamiquement différents ensembles de règles peut s'avérer très utile, puisqu'elle permet de : Visualiser rapidement le résultat de différentes politiques de mise en page, sans avoir à appliquer chaque propriété graphique manuellement aux éléments du document.; Adapter dynamiquement la mise en page au contexte de consultation.
+On remarquera que l'usage des styles dans les logiciels de bureautique ou le logiciel LaTeX suivent une logique déclarative.
+Enfin, cette approche comporte également certains inconvénients : elle demande en particulier de mener une réflexion approfondie a priori de la structure du document, et peut se révéler coûteuse en temps s'il n'existe pas de base de règles de mise en page pour le type de document que l'on souhaite réaliser.
+
+Mise en page dynamique
+Au contraire des processus statiques qui produisent des mises en page figées dans le temps, la mise en page dynamique vise à générer une mise en page particulière à chaque fois que c'est nécessaire (par exemple à chaque consultation), en fonction du contexte.
+Les mises en pages dynamiques permettent notamment d'adapter un même contenu au média de restitution sur lequel il est affiché ; en effet, il n'est pas pertinent d'adopter la même mise en page sur un média papier, une tablette ou un écran d'ordinateur, car ces supports divergent trop par leur caractéristiques physiques leur caractéristiques physiques.
+On pourrait également imaginer des documents dont la mise en page s'adapterait en fonction des capacités sensorielles de l'utilisateur (pour prendre en compte un handicap visuel par exemple).
+Étant donné le grand nombre de possibilités, les processus de mise en page dynamique sont généralement automatisés et se basent sur des processus de séparation de la forme et du fond.
+Les procédés de mise en page dynamique sont fortement utilisés sur le Web, et font appel à de nombreuses technologies parmi lesquelles PHP, JSP, CSS, HTML.
+Dans le domaine de la publication numérique, on peut également citer la technologie de liquid layout d'Adobe.
+
+Contraintes des supports numériques
+
+Contraintes liées aux dispositifs d'affichage
+
+Résolution
+Quel que soit le mode de représentation des données sur le support de stockage, la visualisation des documents numériques s'effectue dans la majorité des cas sous forme d'image matricielle ; autrement dit, la partie visible par l'utilisateur du document est convertie en une suite de pixels qui sont affichés sur son écran. Cette approche est naturellement entachée d'erreurs ; il arrive en effet qu'un élément du document ne puisse pas se décomposer en un nombre entier de pixels. Une ligne fine peut être d'épaisseur inférieure à un pixel, alors que le point d'un i peut dépasser légèrement la taille d'un pixel. On comprend cependant que plus les pixels sont petits, plus l'erreur est faible, et meilleure est la qualité de la visualisation.
+La résolution est une mesure du nombre de pixels affichable par le support dans une même unité de surface. La résolution est généralement exprimée en pixels par pouce pour un écran ou points par pouce pour une imprimante.
+Pour le concepteur de documents numériques, deux problèmes principaux sont liés à la résolution. Le premier est lié à la faible résolution des écrans d'ordinateurs, qui sont un média de restitution très répandu ; en effet, au début de l'informatique personnelle, les écrans disposaient d'une résolution de 72 ppp, qui a peu évolué depuis (bien que leur résolution et leur taille aient fortement augmenté). Cette résolution est relativement faible comparée à celle des supports papier (une imprimante laser atteint facilement 300 ou 600 ppp), ce qui a un impact important sur le confort de lecture. Si le document est conçu pour être visualisé sur un ordinateur, il faudra adapter sa mise en page en conséquence, en particulier en ce qui concerne le choix des polices.
+Ce problème est cependant beaucoup moins présent sur les smartphones, les tablettes et les liseuses électroniques, où la tendance est à la hausse forte de la résolution, au point s'approcher de celle des supports papier (ici un exemple en note de bas de page).
+Le second problème est récent et réside dans la très grande disparité de résolution entre les différents supports : si le document numérique doit être affiché sur des supports variés (ordinateur personnel, tablette, liseuse, etc.), alors les contraintes techniques de ces différents supports risquent de rentrer en concurrence au moment de la mise en page ; ainsi, le choix d'une police sans empattements peut être pertinent pour un écran à faible résolution alors qu'une police avec empattement aurait facilité la lecture sur un écran à haute résolution.
+
+Ratio d'affichage
+Depuis leur apparition, le rapport hauteur-largeur des écrans d'ordinateur a évolué relativement lentement ; il était initialement de 4-3 et à tendance à diminuer avec le temps (dû à un élargissement progressif des écrans). Cependant, la connaissance de la forme du support de restitution est particulièrement importante au moment de la mise en page ; en effet, plus le format de l'écran sera proche de celui du document, moins l'utilisateur aura besoin de faire appel au défilement.
+Avant l'arrivée des dispositifs mobiles, les designers web adoptaient en général une approche conservatrice, en prévoyant leurs mises en page de manière à se qu'elles s'affichent correctement sur un écran 4-3, quitte à ne pas tirer parti des écrans plus larges dont les utilisateurs pourraient être équipés.
+La vague de mobilité a cependant fortement changé la donne ; entre un écran d'ordinateur, de tablette ou de smartphone, il n'existe pas de dénominateur commun utilisable. Il est donc nécessaire de proposer plusieurs mises en page, ou de générer dynamiquement une mise en page adaptée au format du support.
+
+Rétro-éclairage
+Le rétroéclairage est connu pour accentuer la fatigue visuelle, ce qui explique que l'essentiel des liseuses (qui sont des dispositifs adaptés à une lecture prolongée) en soient dépourvus. Cependant, l'absence d'un tel éclairage peut poser des problèmes de lisibilité dans les environnements sombres. Cela doit être pris en compte au moment de la mise en page du document, notamment pour le choix du contraste entre les différents éléments (fond, titre, texte, etc.).
+
+Contraintes liées à la mise en page de certaines langues
+Bien que le passage à l'écriture numérique ait contribué à l'évolution du monde de l'écriture et de l'imprimerie, il est à signaler que cette transition a eu un impact négatif sur certaines langues, notamment les langues sémitiques. Dans ce contexte, il y a l'exemple de l'arabe, une des langues qui n'ont pas significativement bénéficié du passage à l'écriture numérique. Beaucoup plus que dans d'autres langues, l'ordinateur a gravement endommagé la typographie dans les pays arabes. Et ceci parce que, de sa nature, l'écriture arabe est complexe et nécessite des outils de composition horizontale et verticale. Plus que dans toute autre écriture, il y a une différence énorme entre l'arabe tapé à la machine à écrire et l'arabe imprimé, qu'il soit composé au plomb, à la Monotype ou à la Linotype. L'ordinateur, suite logique de la machine à écrire, a de ce fait contribué à l'appauvrissement esthétique de l'imprimé arabe. On peut aussi évoquer l'exemple du syriaque, une autre langue sémitique, dont les méthodes et outils informatiques développés ne sont pas opérationnels. D'où le besoin de créer de nouveaux outils spécifiques pour l'analyse de la structure des documents écrits dans les langues sémitiques, ainsi que des outils de reconnaissance adaptés.
+Il y a quelques années, Apple a décidé de faire face à ces problèmes du codage de l'écrit en proposant un système d'exploitation adapté à toutes les langues, quel que soit le sens de l'écriture et quelle que soit la complexité des signes (arabe, écritures extrême-orientales).
+
+Autres supports de mise en page
+Bien que, traditionnellement, la mise en page concerne les documents à imprimer, son champ d'action s'étend à d'autres domaines : écran de télévision, de cinéma et, bien sûr, pages web.
+
+Animation
+En animation, la mise en page, ou agencement (parfois le terme layout est conservé), désigne l'étape durant laquelle des artistes définissent les angles de prise de vue, les mouvements, les zones d'éclairage et la position des personnages ou autres éléments mobiles par rapport au décor. Officiellement, ces artistes ne sont pas désignés par le terme animateur.
+
+Pages web
+Pour un modèle de présentation, on parle ici le plus souvent de template.
+Le principe des dernières évolutions des standards consiste à effectuer une séparation du contenu et de leur mise en forme et de leur mise en page : le contenu en (X)HTML appelle des feuilles de style en cascade.
+
+Articles connexes: Graphisme; Imprimerie; Lelivrescolaire.fr; Typographie; Web design. Portail de l'écriture.

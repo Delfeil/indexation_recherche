@@ -1,0 +1,70 @@
+Un arbre des causes (arbre des faits) est un schéma se présentant sous la forme d'une arborescence, utilisé dans le domaine des risques professionnels pour mieux identifier a posteriori tous les faits nécessaires ayant abouti à un évènement indésirable (accident du travail, mais aussi défaillance d'un processus, etc.). Il s'agit donc surtout d'établir un diagramme de causes et effets.
+Il existe deux méthodologies en matière d'analyse des risques : une démarche a priori (démarche à visée ergonomique) : l'incident ou l'accident n'a pas encore eu lieu : on évalue le rapport entre le travail prescrit et le travail réel afin d'en tirer les conséquences pour améliorer la situation de travail, ou encore dans le cas d'un processus : l'analyse des modes de défaillance de leurs effets et de leur criticité (AMDEC),; une démarche a posteriori (arbre des causes, analyse des causes profondes, etc.) : l'incident ou l'accident ayant eu lieu, on en recherche les liens de causalité explicites et-ou implicites).
+Ces deux démarches sont complémentaires.
+Cet article s'intéresse à la méthode de l'arbre des causes. Celle-ci est notamment utilisée dans les entreprises pour déterminer, de manière exhaustive, les causes d'un accident ou d'un incident, pour en établir les liens de causalité en vue de proposer des mesures de prévention qui éviteront la reproduction du même accident.
+
+La métaphore de l'arbre des causes
+Parce qu'il n'existe pas d'accident à cause unique, les causes d'un accident sont souvent aussi nombreuses que les branches d'un arbre.
+On peut aussi voir l'arbre des causes comme la métaphore d'un arbre généalogique : l'arbre des causes présente graphiquement la genèse de l'accident au travers de la relation qu'il établit entre les causes critiques, parentes, grands-parents, etc.
+L'arbre des causes est une méthodologie élaborée dans les années 1970 par l'INRS. Axée sur les faits, elle permet d'établir la filiation des causes à leurs effets.
+
+L'organisation de l'arbre des causes
+
+Qui y participe
+Les acteurs importants de la prévention des risques dans l'entreprise sont collectivement invités : le conseiller ou assistant de prévention,; le CHSCT, ou délégué du personnel à défaut,; le responsable hiérarchique de l'accidenté,; toute personne pouvant apporter des éléments de réponse : accidenté lui-même, les témoins, les experts ou spécialistes, etc.,; un garant de la méthode dite de "l'arbre des causes".
+
+Les règles de base
+Un arbre des causes vise d'abord à identifier les causes d'un accident en remontant le plus en amont possible au niveau de l'organisation du travail et du fonctionnement de l'entreprise. Il est important de connaître les quelques points suivants :
+ L'arbre des causes n'est pas une fin mais un moyen. C'est-à-dire que connaître les causes n'a d'intérêts que si des actions préventives sont mises en place.
+ L'arbre des causes est un complément de méthodes d'analyse a priori en les enrichissant de faits réels.
+ Le but de l'arbre des causes n'est pas d'expliquer complètement l'accident mais de trouver les facteurs sur lesquels il faut agir pour que l'accident ne se reproduise plus.
+ C'est un travail collectif. Toutes les informations possibles doivent être collectées.
+ On ne recherche pas de responsable et en aucun cas les attaques personnelles n'ont de place dans une telle enquête. Il faut avancer de manière objective dans la compréhension du processus qui a conduit à l'accident.
+
+Le matériel nécessaire
+Un grand paper-board, des feutres, du ruban adhésif, et des murs pour afficher les pages au fur à mesure du noircissement. Idéalement, disposer de feuilles de papier de couleur sur lesquelles on peut noter les faits (voir infra).
+
+La réalisation de l'arbre des causes
+La construction de l'arbre des causes passe par quatre phases distinctes : 1) Le recueil des faits; 2) L'organisation des faits récoltés et la construction de l'arbre; 3) La formulation des actions de prévention possibles; 4) Le choix des actions à mener selon des critères d'efficacité.
+
+Le recueil des faits
+La première étape consiste à recueillir les faits. Les faits sont les différents éléments connus qui ont trait de près ou de loin à l'accident et doivent être concrets, observables, concis et le plus précis possible. Le recueil des faits doit se faire le plus rapidement possible après l'événement et sur le lieu même de l'accident afin que les éléments techniques ou matériels ayant contribué à celui-ci ne soient pas corrigés, enlevés ou déplacés.
+Différentes méthodes peuvent être utilisées pour que ce recueil soit aussi exhaustif que possible : le remue-méninges (en anglais brainstorming),; la carte heuristique (en anglais mind map),; le diagramme de causes et effets, ou diagramme d'Ishikawa, ou arête de poisson, ou encore 5M (pour méthode, moyen, main-d'oeuvre, matière, milieu).; la méthode I TA MA MI L'idéal est de récolter des informations dans les quatre domaines suivants :. - I : Individu (Qui). - TA : Tâche (Fait quoi). - MA : Matériel (Avec quoi). - MI : Milieu (Où, Avec qui).
+Il existe deux grandes catégories de faits. On distingue en effet : les états : Faits habituels (Tom se déplace à pied); les variations : Faits inhabituels (Le sol est humide).
+Le fait récolté, comme cité précédemment, doit être : concret : Tom était tête nue; précis : Tom était tête nue; avéré - indiscutable; nécessaire à la réalisation de l'accident.
+Il ne doit donc pas être une opinion (A mon avis..), un jugement (Il a mal accompli sa tâche) ou une hypothèse (il me semble de Tom était en retard). Il en est de même pour les faits que l'on appelle négatifs (Absence de..., Manque de...). Ils correspondent à ce qu'il aurait fallu faire selon la personne pour éviter l'accident (Pierre ne portait pas de chaussures de sécurité Il portait des baskets).
+
+L'organisation des faits récoltés et la construction de l'arbre
+De manière conventionnelle, on construit l'arbre de droite à gauche, c'est-à-dire du pourquoi au comment, afin que le sens de lecture (de gauche à droite) corresponde à l'enchaînement logique des faits.
+À droite du tableau, on note l'accident. C'est le point de départ.
+On détermine la ou les causes critiques (primaires) en se posant la question "Qu'a-t-il fallu pour qu'advienne l'accident ". Ensuite, pour chaque cause trouvée, on détermine les causes relatives (secondaires) en se posant les deux questions suivantes : "Est-ce que le fait X a été nécessaire pour que le fait suivant Y apparaisse ". Cette étape permet de supprimer toutes les informations inutiles.; "Est-ce que le fait X a été suffisant pour que le fait suivant Y apparaisse ". Cette étape permet d'assurer l'exhaustivité des informations utiles.
+Maintenant que les faits sont organisés, l'arbre des causes peut être construit. Les faits sont liés entre eux à l'aide de 3 types de liens logiques :
+Lorsqu'un fait X a été nécessaire et suffisant pour que le fait Y se produise, on parle d'enchaînement.
+Lorsqu'un fait possède plusieurs antécédents, il s'agit d'une conjonction.
+Un antécédent peut avoir plusieurs conséquences différentes. C'est une disjonction.
+De manière conventionnelle, un fait habituel (état) est représenté par un rectangle et un fait inhabituel (variation) par un cercle. Un seul fait est écrit par rectangle ou par cercle. Lorsqu'il y a un doute sur la façon dont la variation a pu se créer, on représente la ligne en pointillés.
+Une question est susceptible de revenir très souvent : "Où s'arrêter dans la recherche des causes ". On arrête de chercher les causes des causes dans les cas suivants : l'action ou l'état est "normal", par exemple :.
+Il pleut Le sol est humide. Le fait qu'il pleuve est un état normal dans une région tempérée, il est inutile d'en chercher les causes. Ou encore : L'agent d'entretien a nettoyé le sol Le sol est humide. L'entretien faisant partie de son travail, c'est une action normale, il est inutile d'en chercher les causes.
+Par contre : Le bidon d'eau est percé Le sol est humide : "percé" n'est pas l'état normal d'un bidon en utilisation, il convient d'en chercher la cause. L'action ou l'état concerne la vie privée d'un agent :.
+Il a fait la fête la veille il est fatigué Il n'est pas concentré. Ce genre de suite de causes n'a pas lieu d'apparaître dans l'arbre, d'autant plus qu'aucun plan d'action ne pourra être mis en place sur des sujets en dehors du champ de compétence de l'entreprise. La cause n'est pas trouvée.
+On peut marquer un point d'interrogation : Le président a dissous l'assemblée.
+Il est conseillé de rester pragmatique car l'objectif de l'arbre des causes est de proposer des mesures de prévention réalisables. Voici finalement à quoi ressemble, d'une manière générale, un arbre des causes :
+Arbre des causes
+La Formulation des actions de préventions possibles
+L'arbre des causes permet de visualiser l'ensemble des faits qui ont conduit à l'accident. Pour chacun d'entre eux, il faut rechercher s'il existe des moyens de le supprimer ou d'en éviter ses conséquences. Compte tenu de la structure de l'arbre, il suffit de supprimer un seul fait pour éviter l'accident. Toutes les mesures peuvent être à priori prises en compte et c'est pourquoi ce travail de recherche doit être l'oeuvre d'un travail collectif. On peut ainsi cumuler les connaissances et les expériences de chacun afin d'obtenir des résultats plus variés.
+
+Le choix des mesures de prévention selon des critères d'efficacité
+Les mesures sont choisies par la direction de l'entreprise en fonction du rapport efficacité-coût. Elles sont sélectionnées selon les critères de choix suivants : Conformité à la réglementation : une mesure qui n'est pas conforme à la réglementation sera rejetée automatiquement.; Stabilité de la mesure dans le temps : Celle-ci peut-elle perdre son effet dans le temps ; Coût pour l'opérateur (physiologique, financier, ou temps); Déplacement du risque possible : Il faut toujours envisager les répercussions d'une mesure dans les divers systèmes où elle s'insère. Une nouvelle mesure de prévention peut créer de nouveaux risques.; Portée de la mesure : Est-elle répétable sur plusieurs postes Supprime-t-elle un facteur d'accident commun à plusieurs accidents ; Action sur les causes profondes Selon l'éloignement du fait par rapport à l'accident, les mesures de prévention n'auront pas le même effet. Par exemple, si le fait supprimé se trouve proche de l'accident (à droite de l'arbre), il aura pour effet d'éviter celui-ci mais les situations dangereuses restent présentes. Si par contre, celui-ci est supprimé bien avant le moment de l'accident (à gauche de l'arbre), on évitera l'existence même de situations dangereuses.; Délais d'exécution : Une mesure qui peut être appliquée immédiatement évite le retour du même accident et présente l'avantage d'avoir des effets rapidement sensibles. Mais, il ne faut pas écarter des actions de prévention qui ne sont envisageables qu'à moyen ou à long terme mais qui peuvent avoir une portée plus grande.
+À la suite de l'accident, un plan d'action correctives et préventives est construit sous la forme d'un tableau et des responsables d'action sont désignés pour mettre en place ces actions avant la date d'échéance fixée.
+
+Exemple d'arbre des causes
+L'histoire(4) :
+Ce matin, une panne d'électricité a eu lieu dans l'usine provoquant l'arrêt de la production. Or il y a une importante commande à achever, ce qui agace le chef de production. Il ordonne alors l'intervention immédiate d'un électricien. Cependant, Fabrice, l'électricien de l'entreprise, n'est pas disponible car il est déjà très occupé. Le Chef de production donne l'ordre de placer Fabrice sur la ligne de production pour réparer la panne. Pendant ce temps, Fabrice est en effet en plein travail et est appelé d'urgence sur la ligne de production. Il laisse alors son matériel au sol, abandonne son travail en cours et quitte précipitamment la pièce A pour aller vers la ligne de production. En passant dans le couloir, Pierre voit un fax arriver dans la pièce A. Il entre alors dans celle-ci pour le récupérer mais ne voit pas les outils de l'électricien sur le sol et marche dessus. Il glisse et se fracture la cheville.
+L'arbre des causes :
+Les conclusions de l'arbre des causes : Une fois les causes racines identifiées, on peut donc mettre en place les actions correctives pour éviter la réitération de l'accident.
+Ainsi dans notre exemple, nous pourrons identifier les actions suivantes : Lors d'une commande importante, il faut prévenir pour ne pas être saturé; Pas d'abandon de travail dans la précipitation; Les outils doivent être bien rangés.
+L'arbre des causes est la méthode la plus utilisée dans une entreprise pour l'analyse d'un accident. Elle permet de visualiser clairement les causes et d'en déduire des moyens de prévention afin d'éviter un nouvel accident.
+
+Voir aussi
+
+Articles connexes: Management de la qualité; Sûreté de fonctionnement.

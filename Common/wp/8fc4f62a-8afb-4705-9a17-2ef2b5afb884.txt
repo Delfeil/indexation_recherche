@@ -1,0 +1,142 @@
+Une souris est un dispositif de pointage pour ordinateur. Elle est composée d'un petit boîtier fait pour tenir sous la main, sur lequel se trouvent un ou plusieurs boutons, et une molette dans la plupart des cas.
+La souris a été inventée en 1963 par Douglas Engelbart du Stanford Research Institute et présentée au public en 1968.
+Pendant de nombreuses années les souris informatiques ne communiquaient avec l'ordinateur que par l'intermédiaire d'un fil, ce qui les faisait ressembler à des souris domestiques. Depuis, des modèles dont les communications avec l'ordinateur se font par ondes radio ou par liaisons infra-rouge sont courants.
+Les dernières générations de souris offrent maintenant 6 degrés de liberté (avec une coque pivotante) afin de naviguer plus intuitivement dans les environnements logiciels 3D (conception, médical...).
+
+Historique
+La souris a été inventée en 1963 et présentée au public en 1968 par Douglas Engelbart du Stanford Research Institute après des tests d'utilisation basés sur le trackball. Elle a été améliorée par Jean-Daniel Nicoud à l'EPFL dès 1979 grâce à l'adjonction d'une boule et de capteurs ; il fabriqua la souris Depraz qui fut à l'origine de l'entreprise Logitech.
+Pendant plusieurs décennies, les souris étaient des trackballs inversées. La friction de la boule contre la table permettait le mouvement du pointeur sur l'écran. Les souris à boules ont été majoritairement remplacées par les souris optiques. Le système mécanique à boule avait en effet tendance à ramasser la poussière de la surface horizontale et à encrasser les rouleaux capteurs, ce qui exigeait un nettoyage interne régulier.
+
+Utilisation
+
+Pointage absolu et relatif
+De nombreux systèmes ont été imaginés pour déterminer les actions qui seront effectuées à l'écran : crayon optique, écran tactile, boule, joystick, tablette tactile, molettes diverses, tablette graphique, trackpoint.
+Alors que certains d'entre eux donnent un pointage absolu (les écrans tactiles, par exemple), la souris détecte un déplacement. Celui-ci, par sommation, fournit donc une position relative : par exemple, un mouvement de la souris vers la droite provoque un mouvement du pointeur à l'écran vers la droite, indépendamment de la position absolue de la souris sur le plan de travail. Si le pointeur se trouve déjà à droite de l'écran, un mouvement de la souris vers la droite n'aura aucun effet (l'environnement graphique veille en effet à ce que le pointeur ne puisse apparaître que dans des zones autorisées).
+La souris ne permettait au départ de fournir que deux informations de position (x et y). Ce dispositif ne convenait donc pas pour un déplacement spatial de précision exigeant trois coordonnées (x, y et z) quand ce n'était pas six (en y ajoutant les trois angles d'attaque). D'autres dispositifs, plus onéreux (ring, bat) ont été créés à cet effet. L'ajout d'une molette à la souris a cependant permis d'ajouter dans une certaine mesure cette troisième dimension qui lui manquait.
+Des outils de pointage plus récents et plus abordables complètent la souris au lieu de chercher à la concurrencer.
+
+Tenue en main
+Position du clavier par rapport au corps et souris dans la main gauche Souris dans la main droite, le bras est dirigé vers la droite à cause du pavé numérique à droite du clavier.
+Une souris se tient le corps dans la paume, les boutons sous les doigts (le fil, s'il y en a un, étant à l'opposé de l'utilisateur). Pour la tenue de la souris de la main gauche, l'index se situe sur le clic droit, le majeur sur le bouton molette centrale et l'annulaire sur le clic gauche. Le pouce et l'auriculaire se placent de chaque côté de la souris. Le mouvement sur la table est reproduit à l'écran. Il est bien de poser les coudes sur les accoudoirs afin de reposer les muscles. L'avant du bras et la main sont alignés et le poignet est non cassé.
+Certains spécialistes conseillent de tenir la souris de la main gauche car la tension musculaire est plus faible de plus cela libère la main droite pour taper sur le clavier numérique. Quoique les claviers soient loin de tous avoir un pavé numérique (par exemple début 2009, Apple vend des claviers avec ou sans, et exclusivement sans pour les sans-fil), ce qui est le cas de certains ordinateurs portables. Il existe des pavés numériques externes qui peuvent être placés à gauche ou à droite du clavier alphabétique en fonction des préférences de placement de la souris.
+
+Support
+Il est utile d'avoir un support bien homogène afin que la souris glisse facilement et régulièrement. On nomme ce support un tapis de souris, il peut être en papier, plastique, tissu, etc.
+Des plaques de déplacement pour souris, faisant office de "tapis" rigides, furent fournies en standard avec les premières souris optiques au milieu des années 1980, ainsi avec la souris (optionnelle) "5277" de l'écran IBM 3179-G pour mainframe : elles étaient métalliques, vernies, et pourvues de cannelures noires permettant à l'électronique de l'époque de suivre le mouvement de la souris.
+Le verre et les surfaces brillantes ou trop sombres ne sont pas recommandés pour les souris optiques. Si le pointeur à l'écran ne reproduit pas les mouvements de la souris, il est recommandé de placer une feuille rigide de papier clair sous la souris afin de réfléchir les rayons lumineux.
+
+Souris symétriques et asymétriques
+Les interfaces graphiques modernes (Windows, Gnome, KDE, etc.) permettent aux gauchers d'inverser les boutons s'ils le désirent : le bouton droit devient le bouton principal, tandis que le bouton gauche devient le bouton accessoire. Il faut toutefois pondérer cet éventuel confort par la perte de généralité de l'interface, qui peut déstabiliser les quelques fois où on travaille sur un autre poste de travail que le sien. Quelques droitiers tiennent leur souris de la main gauche, ce qui est censé provoquer moins de troubles musculo-squelettiques.
+Certaines souris sont symétriques (c'est le cas de toutes les souris fabriqués par Apple), se prêtant facilement à l'inversion des boutons (accessible dans la configuration du système), d'autres sont asymétriques, et les gauchers devront veiller à choisir des souris inverses des droitiers.
+Les documentations mentionnant historiquement des boutons gauche et droit, il revient aux gauchers qui ont inversé les leurs d'inverser aussi ces termes.
+
+Souris et handicap
+
+Utilisation par les personnes déficientes
+Certaines souris à retour de force sont conçues pour donner une sensation de résistance ou de dureté : lors du franchissement du bord des fenêtres ;; lors du passage sur une zone cliquable ;; etc.
+Ces souris permettent un usage plus commode par des personnes ayant des problèmes de vue.
+Un paramètre du pilote aujourd'hui répandu permet de simuler le clic ou le double-clic au moyen de mouvements saccadés particuliers.
+
+Source de handicap
+Souris avec boule de commande (Logitech TrackMan), que le marketing de cette société présente comme étudiée pour minimiser les inconvénients dus à une utilisation intensive. Le modèle représenté est pour droitier, il existe également pour gaucher.
+La souris est un accessoire peu dangereux quand le poste de travail est correctement configuré (bras de l'utilisateur à l'horizontale et surtout pas montant, même très légèrement). Comme tout ustensile utilisé intensivement, elle peut provoquer des lésions, en l'occurrence des tendinites. On peut en atténuer le risque en alternant l'usage de la main droite et de la main gauche, ce qui demande cependant un entraînement. Les activités professionnelles exigeant un usage permanent de la souris peuvent induire le syndrome du canal carpien, voire la formation de callosités, ou de capsulite rétractile de l'épaule, et même des déformations de la main et du poignet. Les constructeurs essaient avec plus ou moins de succès des formes de souris plus ergonomiques, existant en version droitier et gaucher.
+Selon des chercheurs néerlandais, l'ensemble main-bras ou cou-épaule est affecté de manière proportionnelle au nombre d'heures passées en utilisant la souris, avec un risque plus important pour le bras et la main que pour la région cou-épaule. La souris aurait par ailleurs plus d'impacts négatifs sur la santé que l'utilisation de l'ordinateur sans souris, ou que le seul clavier sans souris.
+
+Connecteurs de souris
+
+Avec fil
+Les premières souris Macintosh avaient leur propre connecteur ; elles utilisèrent ensuite l'ADB (Apple Desktop Bus).
+Les premières souris pour PC utilisaient soit un connecteur sur un port spécifique (VisiCorp), soit un port série (ou port RS-232) ; à partir d'avril 1987, celui-ci commença à être remplacé par le port PS-2. Par la suite ce port a été coloré en vert pour la souris et en violet pour le clavier.
+Depuis 1998, les souris pour Mac et PC sous Windows ou Linux utilisent le port USB ; ce type de connexion devient depuis le standard pour toutes les souris à câble.
+Sous Unix, et particulièrement sous les systèmes X-Window, il est parfois nécessaire d'indiquer le périphérique et son protocole au fichier de configuration du serveur X. Ainsi, pour une souris USB, on indiquera le périphérique -dev-input-mice ; pour une souris PS-2 -dev-psaux ; et pour une souris Série -dev-tty0 à tty4 suivant le port.
+
+Sans fil
+Souris sans fil avec son boitier de réception.
+Les technologies actuelles permettent de s'affranchir d'une connexion physique entre la souris et l'ordinateur, en passant par une liaison infra-rouge ou radio. Un boîtier est relié au port classique destiné à la souris et transforme les signaux reçus par le capteur infra-rouge ou radio en signaux compréhensibles par le protocole standard de la souris. La technologie radio offre l'avantage de passer par-dessus les obstacles, par rapport aux infra-rouges. On utilise un système de canaux radio pour ne pas mélanger les signaux de différents appareils.
+L'avenir semble à la technologie Bluetooth, standardisée pour tout type de périphérique, qui évite la profusion d'émetteurs-récepteurs et malgré les problèmes liés à la source d'énergie. La plupart des souris sans fils sont alimentées soit par des piles, soit par une batterie-accumulateurs (souvent appelés "piles rechargeables"), qui se rechargent lorsqu'on pose la souris sur son réceptacle. Les souris sans fil peuvent avoir un temps de réponse plus long que les souris filaires, selon la technologie employée. On parle aussi de latence ou de "lag" dans le jargon des joueurs.
+La souris sans fil optique M1-400 de Trust et sa clé USB à brancher dans le port USB d'un ordinateur.
+Sans fil et avec pile
+Le gros inconvénient des souris sans fil est la nécessité de les alimenter en énergie, ce qui conduit à remplacer régulièrement les piles ou à les recharger. Il existe des souris magnétiques, qui nécessitent un tapis spécial relié au port USB et alimenté par lui. Le tapis est chargé de détecter les mouvements de la souris et les transmet à l'ordinateur.
+Les tablettes graphiques peuvent aussi utiliser une souris à la place du stylet, mais la zone de détection reste limitée à celle du tapis ou de la tablette.
+
+Boutons et leur utilisation
+Souris à 1 bouton Souris à 3 boutons
+Le geste du doigt sur les boutons droit et gauche d'une souris, appelé un 'clic de souris' s'effectue en deux phases: l'appui, effectué par un léger effort du doigt, et la relâche, pendant laquelle le doigt cesse d'appuyer et un ressort accompagne le retour du bouton vers sa position de repos. Un son distinctif nommé 'clic' accompagne chacune des deux phases du geste; un 'clic de souris' (le geste) fait donc entendre deux 'clics' (sons). Certains clics s'effectuent sans déplacement de la souris; d'autres actions exigent un déplacement de la souris pendant que le bouton est enfoncé. Dans tous les cas, le fait de relâcher le bouton envoie à l'ordinateur un signal qui termine l'action en cours. La succession rapide de clics, 'double-clic' ou 'triple-clic', est un raccourci utilisé dans les interfaces graphiques.
+Souris avec plusieurs boutons
+Les souris standard pour PC ont aujourd'hui une molette en plus de leurs deux boutons ; la molette (un bouton spécial) qui peut aussi bien être tournée (molettes mécaniques) que pressée (trackpoint, donnant respectivement un et deux degrés de liberté aux souris correspondantes) s'est répandue.
+Les souris avec plus de deux boutons (voire deux molettes) remplissent différentes fonctions assignées à chacun par les applications, le pilote ou le système d'exploitation.
+Par exemple, un utilisateur du bureau Windows, GNOME ou KDE utilisera le bouton de gauche dans le navigateur web pour suivre les liens, alors que celui de droite fera apparaître un menu contextuel permettant à l'utilisateur de copier des images ou un lien, d'imprimer, etc.
+Apple a longtemps continué de produire des ordinateurs avec des souris ne comptant qu'un seul bouton, car leurs études montraient que les souris à un bouton sont plus faciles à utiliser. Pour obtenir le menu contextuel, ouvert par le bouton droit sur les PC, il faut maintenir la touche Contrôle - souvent Ctrl - appuyée pendant le clic. Néanmoins, en août 2005, Apple a sorti une souris à quatre boutons (droite, gauche, un trackpoint à la place d'une molette un double-bouton latéral). En pratique, tous les Mac reconnaissent d'emblée n'importe quelle souris USB à deux boutons.
+Dans le monde UNIX ou Linux (plus généralement utilisant X Window System), le troisième bouton est traditionnellement utilisé pour la fonction de collage : un simple balayage d'une zone de texte avec le bouton gauche enfoncé copie du texte, un clic sur le bouton central le colle.
+Du fait que le troisième bouton est quasiment standard sous Unix, on lui a attribué de nombreuses autres fonctions dans les bureaux graphiques évolués : un clic central sur de nombreux éléments du bureau ou des fenêtres donne un accès facile à de nombreuses fonctions.
+Sous la plupart des navigateurs web récents, un clic central sur un lien ouvre la page dans un nouvel onglet, un clic central sur un onglet ferme celui-ci.
+Pour les souris qui n'ont que deux boutons, il est possible de simuler un troisième bouton par appui simultané sur les deux boutons.
+Pour la plupart des souris actuelles, le troisième bouton se présente sous la forme d'une molette cliquable permettant de faire défiler les pages sans déplacer la souris.
+On trouve facilement des souris ayant les deux boutons classique, une molette que l'on peut cliquer (soit déjà 5 actions possibles, que l'on appelle 5 boutons), plus encore deux boutons "précédent" et "suivant". Ces deux derniers boutons servent par exemple à consulter la page précédente ou suivante dans un navigateur web ou un explorateur de fichiers. Ils sont parfois intégrés à la molette, qui peut basculer à droite et à gauche. Ce principe introduit par Apple (Mighty Mouse) pour Mac OS X a été reproduit par de nombreux fabricants (comme le méconnu Bazoo ou Trust). Il est possible d'appliquer des actions à effectuer comme ouvrir des applications lorsque l'on clique sur un bouton.
+Il existe également des souris ayant une multitude de boutons (une quinzaine par exemple). Ce genre de souris reste toutefois réservée au contrôle de certains jeux ou logiciels spécialisés, permettant d'accéder aux différentes fonctions depuis la souris.
+
+Entretien
+Les souris sans boule demandent peu d'entretien.
+Les modèles à boule doivent être fréquemment démontés, car de la poussière se met sur les rouleaux, gênant leur rotation. Cela se fait facilement à la main, mais il peut être nécessaire, dans les cas d'encrassement sévère, de recourir pour cette opération à un accessoire de nettoyage, tel qu'un coton-tige légèrement humide. Dans tous les cas, il est important de ne pas laisser tomber de saletés à l'intérieur du boitier de la souris, augmentant ainsi le risque de problèmes futurs.
+De la saleté peut également se déposer sur les patin glisseurs, causant ainsi des problèmes de déplacements gênant les mouvements de la souris. Les patins en Téflon, sont fréquemment utilisés pour minimiser ce problème de frottement.
+Les phénomènes d'encrassement sont diminués par les tapis en tissu, ou par une forme spéciale des rouleaux. Les rouleaux ont la fine zone directement en contact avec la boule d'un diamètre un peu plus grand que le reste du rouleau. La poussière se dépose donc autour de cette zone, lorsque le mouvement de la boule le permet. Le déplacement dans un axe de la souris nettoie le rouleau détectant le mouvement perpendiculaire.
+Par précaution, un nettoyage périodique de celui-ci est toujours le bienvenu pour limiter l'encrassement des organes mécaniques de la souris.
+Il peut aussi arriver que la molette d'une souris s'encrasse. La poussière s'introduit progressivement sur la roue codeuse chargée de détecter la rotation. Dans ce cas, un démontage plus profond de la souris est nécessaire.
+
+Extensions du modèle de la souris
+L'usage d'applications en OpenGL qui demandent six degrés de liberté au lieu de trois conduisent à rechercher des dispositifs de pointage permettant de rentrer de façon analogique six informations simultanées (trois de position et trois d'orientation) : Spaceball, The bat, anneau radio orientable porté au doigt, etc.
+Certains dispositifs s'ajoutent à la souris au lieu de la concurrencer. Par exemple le 3D SpaceNavigator, qui procure six degrés de liberté, s'utilise avec la main gauche tandis que la souris à molette continue à fournir trois degrés de liberté à la main droite. Des logiciels comme Google Earth ou Google Sketchup supportent en standard ce dispositif, mais leur utilisation première se destine aux logiciels de CAO 3D, tels que CATIA ou ProEngineer.
+D'autres dispositifs de navigation en 3D sont maintenant directement intégrés dans la souris, ce qui permet de ne pas mobiliser la seconde main. Par exemple la Lexip-3D, conçue par la société française E-Concept et qui a reçu la médaille d'or au concours Lépine européen 2014.
+
+Représentation graphique : le pointeur
+Sélection de quatre icônes par déplacement du pointeur en bas à droite.
+Le pointeur de la souris est un graphisme (ou sprite) sur l'écran. Lorsque l'utilisateur déplace la souris, le pointeur se déplace. Sa représentation dépend des opérations offertes à l'utilisateur. Son apparence de base est une flèche. Il prend l'apparence de la capitale I lorsqu'il permet de sélectionner du texte. Sous Windows, il prend l'apparence d'une montre ou d'un sablier lorsqu'il faut attendre la fin d'un calcul. Après avoir déplacé le pointeur sur un élément (caractère, mot, bouton, image...) affiché à l'écran, l'utilisateur peut ensuite le sélectionner d'un clic.
+Pointeur de souris classique en forme de flèche;
+Pointeur de positionnement du curseur d'édition;
+Témoin d'occupation;
+Indicateur de lien web.
+
+Mesure des mouvements de la souris
+Plusieurs technologies sont ou ont été utilisées pour mesurer les mouvements de la souris.
+
+Technologie mécanique
+Souris à boule : 1 : Mouvement de la boule 2 : Rouleau transmettant les mouvements latéraux de la souris 3 : Disque perforé 4 : Diode électroluminescente 5 : Capteur optique Souris optique Sun avec son tapis
+La souris contient une boule en contact avec le support où elle est utilisée. Deux rouleaux perpendiculaires entre eux actionnés par cette boule permettent de capter les déplacements de la souris sur le sol. Un troisième rouleau permet de stabiliser la boule. Les rouleaux sont solidaires d'un axe au bout duquel se trouve un disque perforé laissant passer la lumière d'une diode électroluminescente ou au contraire la bloquant. Une cellule photoélectrique recevant cette lumière fournit quand la souris se déplace un signal alternatif, grossièrement sin (x) (-displaystyle -sin(x)), de fréquence proportionnelle à la vitesse. À l'aide d'un trigger de Schmitt, on peut obtenir un signal en créneaux, chaque impulsion créneau correspondant à une perforation, et on peut calculer la vitesse de déplacement de la souris selon chaque axe.
+La résolution de la direction du déplacement (gauche-droite vs droite-gauche) se fait en utilisant deux cellules de réception décalées d'une demi perforation. Après conversion en signal en créneaux binaires (0 - pas de lumière, 1 - lumière), les booléens fournis par le couple de cellule prennent forcément la suite de valeurs (0, 0), (0, 1), (1, 1), (1, 0) dans cet ordre ou dans l'ordre inverse ; l'ordre indique la direction du déplacement. En effet, le placement décalé des deux cellules fait que l'on ne peut jamais passer directement d'un état où les deux sont éclairées à un état où les deux ne sont pas éclairées, ou vice-versa ; en d'autres termes, lorsque la souris se déplace, un seul des deux signaux booléens peut varier à la fois (Code Gray sur deux bits). On obtient ainsi une résolution de perforation.
+Pour obtenir une position absolue sur l'écran, la solution la plus immédiate est de totaliser les impulsions (déplacement relatif de 1 en abscisse ou en ordonnée) ; ceci est généralement fait par logiciel. Certains systèmes permettent des manipulations plus complexes, comme un comportement non-linéaire vis-à-vis de l'accélération, censé faciliter la traversée de grandes zones d'écran par la souris sans fatigue de la main de l'utilisateur, les mouvements rapides (et peu précis) étant amplifiés plus que les mouvements lents.
+Les premières souris comportaient des cylindres à la place de la boule. Cela rendait la souris moins précise car les déplacements horizontaux et verticaux s'effectuaient moins facilement quand ils étaient associés lors d'un déplacement oblique.
+Le principal inconvénient de la souris mécanique est le dépôt de poussières qui s'accumulent sur les rouleaux, modifiant aléatoirement le transfert des mouvements de la boule aux rouleaux. En raison de ce phénomène, la plaque trouée supportant la boule dans la partie inférieure de la souris est démontable, permettant à l'utilisateur de nettoyer les rouleaux. Un chiffon imbibé d'eau savonneuse y suffit pour la boule, des bâtonnets à bout de coton du commerce sont en général nécessaires pour les rouleaux.
+
+Technologie optique Mouse Systems
+Développée par Mouse Systems (en) vers 1982, elle utilise un tapis métallique, solide, rigide et quadrillé. En envoyant un rayon de lumière et en captant le retour, la souris arrive à savoir qu'un déplacement a eu lieu.
+Elle a été utilisée sur des PC, et quelque temps par IBM sur son écran 3179-G, mais surtout par Sun Microsystems pour ses stations de travail. Un inconvénient est que la mesure du mouvement dépend de l'alignement du tapis. Cette technique n'est plus utilisée.
+
+Technologie optique DEL
+En 1999, Agilent commercialise la première souris optique. Une micro-caméra filme le support et un processeur interprète le défilement des aspérités comme un mouvement. Cette technologie ne nécessite pas de tapis spécial, mais il faut quand même éviter les supports réfléchissants (verre, plastique brillant, bois vernis...) ou trop sombres.
+
+Technologie laser
+Inventée par les ingénieurs de Logitech. Ils ont remplacé la DEL de la souris optique par un petit laser, ainsi la source de lumière est plus intense et plus ciblée, permettant d'obtenir un meilleur cliché de la surface.
+
+Technologie optique infrarouge
+La Diamondback Plasma de Razer.
+Inventée par les ingénieurs de Razer. Utilisée notamment sur les souris de la même marque, comme les Diamondbacks.
+
+Technologie BlueTrack
+La technologie BlueTrack a été développée par Microsoft et mise la première fois sur le marché en 2008. BlueTrack a été pensé pour remplacer les souris qui utilisent les technologies laser, infrarouge et LED car elles posaient problème pour fonctionner sur certaines surfaces. Les souris BlueTrack peuvent fonctionner sur presque tous les types de surfaces (par exemple, le granit, tapis, bois, etc.) sauf le verre clair et les miroirs. La LED utilisée par la technologie BlueTrack n'est plus rouge mais bleue car cette couleur est moins sensible à la poussière et aux taches que le rouge, fournit également des images avec un contraste et une résolution plus élevés ce qui assure une meilleure précision sur les surfaces granuleuses. Enfin, le faisceau utilisé par cette technologie est quatre fois plus grand afin que la lumière couvre une surface plus grande, ce qui entraîne une meilleure réflexion et représentation de la surface du capteur.
+La tendance actuelle est aux souris commutables instantanément du doigt entre trois sensibilités différentes. On peut ainsi à la fois bénéficier de déplacements très rapides du pointeur et d'une excellente précision sans effort de tension nerveuse chaque fois que l'on en a besoin.
+
+Performances
+Les performances d'une souris dépendent du rapport du nombre de mesures effectuées par la souris sur la distance parcourue par celle-ci, le DPI (Dots Per Inch, Points par Pouce). Un nombre élevé de DPI permet une précision accrue lors du déplacement du pointeur, pour un usage bureautique et ordinateur portable une précision d'environ 800 à 1600 DPI suffit ; beaucoup de souris ont des performances plus élevées pour les jeux, de 2000 DPI à 12000 DPI.
+
+Gadgets
+Certaines souris disposent d'un ventilateur au centre avec un bouton sur un côté pour l'activer ou l'éteindre. Certains ont introduit des souris "sensibles" : au passage d'un objet (lien hypertexte, bouton, changement de fenêtre...) la souris vibre légèrement, donnant une impression de relief. Une souris-stylo est un stylo numérique.; Une souris de présentation, presenter Mouse en anglais, est une souris informatique ayant des possibilités de pilotage multi-media.; Une souris d'air (traduction du terme anglais air mouse) est une souris d'ordinateur sans fil à détection de mouvements dans l'espace (trois dimensions). Elle est utilisable pour des simulations de mouvement ou des jeux vidéo. Elle peut permettre, par exemple, de simuler une partie de tennis ou un combat de boxe quand on dispose du logiciel adéquat.
+
+Souris scanner
+Il existe des modèles de souris équipées d'un scanner permettant de numériser des documents (texte ou image). Cela peut par exemple être utile pour les enfants dyspraxiques, ces modèles étant suffisamment légers pour être transportés dans un sac d'école.
+
+Fabricants de souris
+La plupart des constructeurs de souris sont américains (Microsoft, Apple, Dell...). Il y a quelques constructeurs asiatiques (les Japonais Sony et Toshiba, le Coréen Samsung, le Taïwanais Acer), et un important constructeur suisse (Logitech).
+
+Voir aussi
+
+Articles connexes: Dispositif de pointage; Glisser-déposer; Logitech; Périphérique (informatique); Pointer-et-cliquer; Souris SNES; Tapis de souris. Portail de l'informatique.

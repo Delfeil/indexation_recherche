@@ -1,0 +1,27 @@
+En algèbre linéaire, la base duale est une base de l'espace dual E- d'un espace vectoriel E de dimension finie, construite à partir d'une base de E. Il est rappelé que E- est l'espace des formes linéaires sur E. La réduction des formes quadratiques est un exemple dans lequel les bases duales peuvent intervenir. Elles interviennent aussi pour transporter des structures géométriques d'un espace vectoriel réel ou complexe sur son espace dual, ce qui intervient notamment en géométrie différentielle.
+
+Définition
+Soit E un espace vectoriel de dimension finie n sur un corps K. Soit B - (e1,.. en) une base de E, c'est-à-dire que tout vecteur v de E s'écrit de manière unique comme une combinaison linéaire des vecteurs ei : v - i - 1 n e i (v) e i , (-displaystyle v--sum -(i-1)(n)e-(i)(-)(v)e-(i)-,,).
+où e i (v) (-displaystyle e-(i)(-)(v)) est un scalaire (un élément du corps K). L'application v e i (v) (-displaystyle v-mapsto e-(i)(-)(v)) est une forme linéaire sur E. L'application e i (-displaystyle e-(i)(-)) peut aussi être définie comme l'unique forme linéaire sur E vérifiant, pour tout entier j entre 1 et n, e i (e j) - i j (-displaystyle e-(i)(-)(e-(j))--delta -(ij)) où i j (-displaystyle -delta -(ij)) est le symbole de Kronecker (qui vaut 1 ou 0 suivant que i et j sont égaux ou non). "La famille (e1-,.. en-) forme une base de l'espace dual E-, appelée la base duale de B et notée B-."
+De plus, toute forme linéaire u sur E s'écrit : u - i - 1 n u (e i) e i. (-displaystyle u--sum -(i-1)(n)u(e-(i))e-(i)(-).) (1).
+Cette construction suffit à montrer qu'un espace vectoriel de dimension finie et son dual ont la même dimension.
+
+Base duale de la base duale
+Il existe une injection canonique de E dans son bidual E-- (le dual du dual de E), donnée par l'évaluation des formes linéaires en les vecteurs : (v) - (v). (-displaystyle -iota (v)(-lambda)--lambda (v).) Comme E, E- et E-- ont même dimension finie, cette application linéaire injective est un isomorphisme. Une autre manière de prouver sa surjectivité est la suivante. Soit (e1--,.. en--) la base duale de (e1-,.. en-). L'équation (1) se traduit par : (e i) - e i (-displaystyle -iota (e-(i))-e-(i)(--)).
+On parle aussi d'injection naturelle, à la suite de l'article fondateur de la théorie des catégories de Samuel Eilenberg et Saunders MacLane : les auteurs partent en effet du constat qu'il existe certes un isomorphisme entre un espace vectoriel et son espace dual, mais que cet isomorphisme ne peut être formulé indépendamment de la base particulière que l'on choisit ; tandis qu'il existe, d'un espace vectoriel dans son bidual, une injection linéaire "naturelle", dans le sens où elle est indépendante de la base adoptée.
+
+Changement de bases
+Soient B et C deux bases de E et B- et C- leurs bases duales. Si P est la matrice de passage de B à C, alors celle de B- à C- est P.
+En effet, en notant C - (f1,.. fn) et C- - (f1-,.. fn-), l'équation (1) donne: e j - i - 1 n e j (f i) f i - i - 1 n P j , i f i , (-displaystyle e-(j)(-)--sum -(i-1)(n)e-(j)(-)(f-(i))f-(i)(-)--sum -(i-1)(n)P-(j,i)f-(i)(-),).
+ce qui signifie que la matrice de passage de C- à B- est la transposée de P. Celle de B- à C- est l'inverse.
+
+Applications
+
+Réduction de Gauss
+Soit Q une forme quadratique sur un espace vectoriel réel E. Alors il existe une base (e1,.. en) de E, telle que Q - l 1 2 +... + l p 2 l p + 1 2... l p + q 2 (-displaystyle Q-l-(1)(2)+-dots +l-(p)(2)-l-(p+1)(2)--dots -l-(p+q)(2)) où (l1,.. ln) est la base duale de (e1,.. en).
+L'espace vectoriel défini par les p + q équations li - 0 pour i p + q est le noyau de Q. Les entiers p et q ne dépendent pas du choix de la base e, et le couple (p, q) s'appelle la signature de Q.
+
+Envoyeurs de Ménard
+Soit B - (x1,.. xn) une base d'un espace vectoriel E de dimension n et soit (x1-,.. xn-) sa base duale. On définit la famille d'endomorphismes (e i j) 1 i , j n (-displaystyle (e-(ij))-(1-leq i,j-leq n)) appelés envoyeurs de Ménard par :
+Cette famille forme une base de l'espace L(E) des applications linéaires de E dans E, et la matrice de ei j dans la base B est l'unité matricielle (en) Ei,j qui présente un 1 à l'intersection de la i-ième ligne avec la j-ième colonne et des 0 partout ailleurs.
+Plus généralement (cf. Produit tensoriel de deux applications linéaires), à partir d'une base du dual d'un espace vectoriel E de dimension finie et d'une base d'un espace F de dimension quelconque, on construit de même une base de l'espace des applications linéaires de E dans F.

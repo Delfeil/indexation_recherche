@@ -1,0 +1,37 @@
+En médecine, un symptôme (du grec , "rencontrer") ou signe fonctionnel est un signe clinique qui représente une manifestation d'une maladie, tel qu'exprimé et ressenti par un patient. En général, pour une pathologie donnée, les symptômes sont multiples, et parfois il peut ne pas y avoir de symptôme : la maladie est dite dans ce cas asymptomatique. Inversement, un même symptôme peut très souvent être attribué à différentes maladies : on ne peut donc en général pas conclure automatiquement qu'un symptôme (par exemple, le mal de gorge) est dû à une maladie donnée (par exemple, la grippe) ; ce serait commettre le sophisme de l'affirmation du conséquent.
+
+Étymologie
+Le mot , en grec, signifie "accident", "coïncidence" ; il est constitué du préfixe , "avec" et de , "arriver", "survenir". Le symptôme est donc, à l'origine, "ce qui survient ensemble", ce qui "concourt" ou "co-incide", au sens littéral du terme.
+
+Description
+Les symptômes sont les signes cliniques dont le malade se plaint (comme la douleur, la toux, le vertige, la tristesse). Les symptômes sont les éléments d'alerte d'un processus pathologique en cours, motivant ainsi le recours à une consultation médicale permettant d'objectiver la plainte en retrouvant des signes, qui, rassemblés en syndrome, puis en maladie en établissant un diagnostic, permettront de guider l'attitude thérapeutique.
+Les symptômes sont donc à différencier : des autres signes cliniques : les signes physiques, découverts en examinant le malade : contracture abdominale, souffle cardiaque ;; certains signes généraux : fièvre, hypotension artérielle ;.; les signes physiques, découverts en examinant le malade : contracture abdominale, souffle cardiaque ;; certains signes généraux : fièvre, hypotension artérielle ;; des signes paracliniques obtenus à l'aide d'examens complémentaires : les signes radiologiques à la suite de radiographies ;; les signes biologiques à la suite de prélèvements.; les signes radiologiques à la suite de radiographies ;; les signes biologiques à la suite de prélèvements.
+Par exemple, dans l'arthrose de hanche, le patient peut se plaindre de douleur à la marche (symptôme), et le praticien pourra objectiver à l'examen une limitation de mobilité de la hanche (signe physique), et sur une radiographie du bassin (signe radiologique).
+
+En psychologie sociale
+Du point de vue psychosociologique, le symptôme est la façon particulière dont un individu trouve sa place dans le monde et règle son rapport à celui-ci, en fonction des contraintes et des stimulations psychosociales qui lui parviennent. Le symptôme est un prolongement de la personnalité, qui permet à cette dernière d'appréhender le monde mais aussi de s'en distancier, par un ensemble de protections constitutives dudit symptôme.
+Ainsi le symptôme est-il, du point de vue du sujet : stratégie d'individualisation,; matériau de la personnalité,; interprétation continue du monde,; modalité comportementale dynamique,; dispositif protecteur du Moi (ou ego),; routine pathologique sitôt qu'il étouffe la créativité du sujet ou porte atteinte à l'intégrité d'autrui.
+
+Interprétation psychanalytique
+
+Exemples
+Le symptôme peut être une manifestation somatique : une paralysie, des troubles du langage.
+Il peut être aussi une manifestation psychique : angoisse, hydrophobie.
+
+Historique: 1) En étudiant le cas d'Anna O. (Bertha Pappenheim), une hystérique soignée par Josef Breuer grâce à la méthode cathartique, Freud a d'abord vu dans le symptôme un résidu mnésique d'expériences émotives (c'est-à-dire de traumatismes psychiques).; 2) Ensuite, en formulant sa nouvelle compréhension du système psychique, il a interprété différemment le symptôme.
+L'appareil psychique est composé de différentes instances en conflit : le moi, le ça et le surmoi. Quand une représentation (pulsionnelle) tombe sous le coup d'un interdit, elle est refoulée dans l'Inconscient par la censure opérée par le moi, mais jamais anéantie. Un processus alors de tentative de réapparition des éléments refoulés se met en place : c'est le retour du refoulé. Il y a plusieurs façons de déjouer la censure : le rêve, les lapsus, les oublis et les actes manqués ou bien les symptômes. Ces formations substitutives sont des formes de déguisement de la représentation, rendus acceptables pour la conscience pour pouvoir réinvestir son champ. Ainsi, ils permettent la satisfaction du désir sans éveiller la censure en formant un compromis entre les désirs et les interdits. Ce sont tous ces déguisements qui sont investigués, interprétés dans la cure psychanalytique. Remarque : il y a des liaisons associatives entre le symptôme et ce à quoi il se substitue.
+
+Définition
+Le symptôme est le substitut de représentations tombées sous le coup d'un interdit et refoulées dans l'Inconscient. Il est le déguisement de ces représentations pour qu'elles puissent réinvestir le champ de la conscience, en étant acceptable. Et, il apporte une satisfaction de remplacement au désir inconscient, sans éveiller la censure et même en satisfaisant les exigences défensives. Cette double-satisfaction explique la capacité de résistance du symptôme car il est maintenu des deux côtés.
+Récapitulatif : Il est formation de compromis en tant qu'il est le produit du conflit défensif.; Il est formation substitutive dans la mesure où c'est le désir qui cherche à se satisfaire.; Il est formation réactionnelle dans la mesure où c'est le processus défensif qui prévaut.
+
+Notion de bénéfices
+Le symptôme est satisfaction, décharge pulsionnelle, il offre un bénéfice primaire. On ne saurait chercher à retirer au malade mental son symptôme, en ce qu'il en jouit, et que le psychologue doit reconnaitre comme jouissance.
+Ce bénéfice primaire correspond à la signification que porte le symptôme, signification qui seule permet l'expression d'un désir inconscient - le symptôme se rattache donc à la représentation, voire au discours. Pour Jacques Lacan, le symptôme est donc métaphore (Le symptôme est une métaphore que l'on veuille ou non se le dire).
+Le symptôme peut également engendrer un bénéfice secondaire, plaisir supplémentaire qui ne se relie donc pas directement au sens que veut énoncer ce signe de la maladie, mais qui provient plus d'un hasard relatif cette fois à la nature même du symptôme. Ainsi, le procédurier paranoïaque ralliant à lui un mouvement de soutien.
+
+Sources, notes et références: Cet article est partiellement ou en totalité issu de l'article intitulé "Symptôme fonctionnel".
+
+Voir aussi
+
+Articles connexes: Liste des symptômes en médecine humaine; Sémiologie médicale; Tableau clinique; Signe physique. Portail de la médecine.

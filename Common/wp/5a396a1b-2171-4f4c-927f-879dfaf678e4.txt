@@ -1,0 +1,37 @@
+Simple Mail Transfer Protocol (SMTP, littéralement "protocole simple de transfert de courrier") est un protocole de communication utilisé pour transférer le courrier électronique (courriel) vers les serveurs de messagerie électronique.
+SMTP est un protocole assez simple (comme son nom l'indique). On commence par spécifier l'expéditeur du message, puis le ou les destinataires d'un message, puis, en général après avoir vérifié leur existence, le corps du message est transféré. Il est possible de tester un serveur SMTP en utilisant la commande telnet sur le port 25 d'un serveur distant.
+Le SMTP commence à être largement utilisé au début des années 1980. Il est alors un complément à l'UUCP, celui-ci étant plus adapté pour le transfert de courriers électroniques entre des machines dont l'interconnexion est intermittente. Le SMTP, de son côté, fonctionne mieux lorsque les machines qui envoient et reçoivent les messages sont interconnectées en permanence.
+Le logiciel Sendmail est l'un des premiers, sinon le premier serveur de messagerie électronique à utiliser SMTP. Depuis, la plupart des clients de messagerie peuvent utiliser SMTP pour envoyer les messages. Certains nouveaux serveurs sont apparus, comme Postfix, Qmail de Daniel J. Bernstein, Exim et Exchange de Microsoft.
+Comme le protocole utilisait du texte en ASCII (7 bits), il ne fonctionnait pas pour l'envoi de n'importe quels octets dans des fichiers binaires. Pour pallier ce problème, des standards comme MIME ont été développés pour permettre le codage des fichiers binaires au travers de SMTP. Aujourd'hui, la plupart des serveurs SMTP acceptent le MIME sur 8 bits, ce qui permet de transférer des fichiers binaires presque aussi facilement que du texte simple.
+SMTP utilise TCP pour le transfert des données.
+SMTP ne permet pas de récupérer à distance des courriels arrivés dans une boîte aux lettres sur un serveur. Les standards Post Office Protocol (POP) et IMAP ont été créés dans ce but.
+
+Principes d'envoi
+Principe d'envoi via SMTP
+Le transfert de messages entre serveurs de messagerie électronique se fait généralement sur le port 25 qui est le port standard enregistré auprès de l'IANA. Les serveurs utilisent les enregistrements MX des serveurs DNS pour acheminer le courrier.
+Les clients de messagerie utilisaient aussi le port 25 (smtp) pour soumettre des messages en utilisant le protocole SMTP. Mais la nécessité de mieux contrôler les envois des clients, en particulier par l'authentification, a conduit à l'attribution du port 587 (submission).
+Les administrateurs de serveur peuvent choisir si les clients utilisent le port TCP 25 (SMTP) ou le port 587 (soumission), tel que formalisé dans la RFC 6409 (RFC 2476 précédemment), pour relayer le courrier sortant vers un serveur de messagerie. Les spécifications et de nombreux serveurs supportent les deux. Bien que certains serveurs prennent en charge le port 465 (historique) pour le SMTP sécurisé en violation des spécifications, il est préférable d'utiliser les ports standard et les commandes ESMTP (Extended SMTP) standard selon la RFC 3207, si une session sécurisée doit être utilisée entre le client et le serveur.
+
+Syntaxe type d'une session SMTP
+Le test par telnet mentionné ci-dessus donnerait un dialogue du genre (les messages du serveur sont en rouge) :
+Notons que la fin du texte est repérée par un point seul sur sa ligne. Lorsque le texte doit contenir un point seul sur sa ligne, il est donc nécessaire de le doubler (CRLF..CRLF).
+
+Les codes retour SMTP
+Comme on le constate dans l'exemple ci-dessus, il existe une syntaxe précise pour envoyer les messages et une série de codes retour sur trois chiffres pour indiquer le statut de la demande. Le premier chiffre du code retour indique le statut global de la demande, les deux autres chiffres donnent le détail du statut : code 2 : la demande a été exécutée sans erreur ;; code 3 : la demande est en cours d'exécution ;; code 4 : indique une erreur temporaire ;; code 5 : la demande n'est pas valide et n'a pas pu être traitée.
+Messages les plus courants :
+
+Sécurité et problème du spam
+Une des limitations de SMTP vient de l'impossibilité d'authentifier l'expéditeur. Pour ceci, l'extension SMTP-AUTH a été définie. Malheureusement, l'impossibilité d'imposer largement SMTP-AUTH a rendu ce protocole impuissant face au phénomène du spam.
+Le spam est dû à un certain nombre de facteurs dont : l'implémentation de logiciels Mail Transfer Agent (MTA) ne respectant pas les standards, les failles de sécurité dans les systèmes d'exploitation autorisant les spammeurs à contrôler à distance des PC utilisateurs pour leur faire envoyer du spam et enfin un manque d'intelligence de certains MTA.
+Afin de lutter efficacement contre ce phénomène, il existe deux approches : modifier profondément SMTP (voire le remplacer) ou bien lui adjoindre d'autres protocoles pour combler ses lacunes. Modifier SMTP de manière importante, ou le remplacer complètement, ne paraît pas faisable, à cause de l'importance du réseau de serveurs déjà installé. Malgré tout, des solutions alternatives ont été développées comme Internet Mail 2000 (en) ou ePost.
+Une autre approche consiste à créer des systèmes visant à assister les opérations du protocole SMTP. Le groupe de recherche anti-spam (ASRG) de l'IRTF (en), travaille actuellement sur l'authentification des courriers électroniques dans le but de fournir un système flexible, léger, extensible, et évolutif. L'ensemble de ces recherches ont abouti au protocole MARID (en) en 2004 ainsi qu'au protocole DomainKeys Identified Mail en 2006.
+
+Blocage du port 25 par les fournisseurs d'accès
+En 2006, l'AFA recommande aux fournisseurs d'accès internet (FAI) de bloquer les paquets TCP-IP sortant à destination du port 25. L'idée développée est qu'"un utilisateur résidentiel ne devrait pouvoir émettre ses messages électroniques que via le serveur de son fournisseur de messagerie électronique."
+À l'époque entre 50 % et 80 % du spam était généré par des ordinateurs infectés.
+En France et au Canada, les principaux FAI ont suivi cette recommandation : Orange, Bell, Videotron et CCAPcable bloquent le port 25 depuis juin 2007, Free depuis décembre 2006 (c'est une option, le blocage peut être désactivé), AOL depuis 2003.
+La pratique aujourd'hui est la soumission du message par l'utilisateur au serveur de messagerie en utilisant du SMTP authentifié (port 587). Le port 25 sert uniquement aux serveurs SMTP entre eux.
+
+Voir aussi
+
+Articles connexes: courrier électronique; exim; IMAP; POP; LMTP; Postfix; qmail; sendmail.

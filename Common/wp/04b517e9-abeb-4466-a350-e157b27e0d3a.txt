@@ -1,0 +1,88 @@
+Resource Description Framework (RDF) est un modèle de graphe destiné à décrire de façon formelle les ressources Web et leurs métadonnées, de façon à permettre le traitement automatique de telles descriptions. Développé par le W3C, RDF est le langage de base du Web sémantique. L'une des syntaxes (ou sérialisations) de ce langage est RDF-XML. D'autres syntaxes de RDF sont apparues ensuite, cherchant à rendre la lecture plus compréhensible ; c'est le cas par exemple de Notation3 (ou N3).
+En annotant des documents non structurés et en servant d'interface pour des applications et des documents structurés (par exemple bases de données et GED) RDF permet une certaine interopérabilité entre des applications échangeant de l'information non formalisée et non structurée sur le Web.
+
+Principes fondamentaux
+Un document structuré en RDF est un ensemble de triplets.
+Un triplet RDF est une association (sujet, prédicat, objet) : le "sujet" représente la ressource à décrire ;; le "prédicat" représente un type de propriété applicable à cette ressource ;; l'"objet" représente une donnée ou une autre ressource : c'est la valeur de la propriété.
+Le sujet, et l'objet dans le cas où c'est une ressource, peuvent être identifiés par une URI ou être des noeuds anonymes. Le prédicat est nécessairement identifié par une URI.
+Les documents RDF peuvent être écrits en différentes syntaxes, y compris en XML. Mais RDF en soi n'est pas un dialecte XML. Il est possible d'avoir recours à d'autres syntaxes pour exprimer les triplets. RDF est simplement une structure de données constituée de noeuds et organisée en graphe. Bien que RDF-XML - sa version XML proposée par le W3C - ne soit qu'une syntaxe (ou sérialisation) du modèle, elle est souvent appelée RDF. Un abus de langage désigne à la fois le graphe de triplets et la présentation XML qui lui est associée.
+Un document RDF ainsi formé correspond à un multigraphe orienté étiqueté. Chaque triplet correspond alors à un arc orienté dont le label est le prédicat, le noeud source est le sujet et le noeud cible est l'objet.
+La sémantique d'un document RDF peut être exprimée en théorie des ensembles et en théorie des modèles en se donnant des contraintes sur le monde qui peuvent être décrites en RDF. RDF hérite alors de la généricité et de l'universalité de la notion d'ensemble. Cette sémantique peut être aussi traduite en formule de logique du premier ordre, positive, conjonctive et existentielle : (sujet, objet, prédicat) prédicat(objet, sujet).
+ce qui est équivalent à : objet, sujet tq prédicat(objet, sujet).
+Le W3C a prévu un mécanisme d'inférence pour la sémantique de RDF déduisant exclusivement et intégralement les conséquences des prédicats, sans que ce mécanisme ne fasse l'objet d'une recommandation.
+
+Vocabulaires RDF
+La structure de RDF est extrêmement générique et sert de base à un certain nombre de schémas ou vocabulaires dédiés à des applications spécifiques. Une partie de ces vocabulaires est spécifiée par le W3C, comme les langages d'ontologie RDFS et OWL, ou le vocabulaire SKOS pour la représentation des thésaurus et autres vocabulaires structurés. D'autres vocabulaires RDF, sans être spécifiés par le W3C, sont néanmoins utilisés largement et constituent des standards de fait dans la communauté du Web Sémantique, comme FOAF qui est destiné à la représentation des personnes.
+
+Langages de requête
+De nombreux langages de requête destinés à interroger les graphes RDF ont été développés. Le langage SPARQL, développé par le W3C, est destiné à devenir le standard en ce domaine.
+Voici un exemple de requête SPARQL :
+PREFIX foaf: http:--xmlns.com-foaf-0.1-
+SELECT name mbox
+WHERE
+ (x foaf:name name.
+ x foaf:mbox mbox)
+Si on applique cette requête au graphe RDF suivant (dans le format Turtle) :
+On obtient alors le résultat suivant :
+Pour en savoir plus : cours Wikiversité sur SPARQL
+
+Exemples
+
+Exemple 1 : description RDF d'une personne nommée Eric Miller
+L'exemple suivant est tiré du site du W3C qui décrit une ressource avec les déclarations "il y a une personne qui a comme identifiant http:--www.w3.org-People-EM-contactme, dont le nom est Eric Miller, dont l'adresse email est em@w3.org, et qui a le titre de Docteur".
+Un graphe RDF décrivant Eric Miller.
+La ressource "http:--www.w3.org-People-EM-contactme" est le sujet.
+L'objet est : "Eric Miller" (avec le prédicat "quel est son nom"),; em@w3.org (avec le prédicat "quel est son email"), et; "Dr." (avec le prédicat "quel est son titre").
+Le sujet est une URI.
+Les prédicats sont aussi des URIs. Par exemple, l'URI pour chaque prédicat est : "quel est son nom" est http:--www.w3.org-2000-10-swap-pim-contactfullName,; "quel est son email" est http:--www.w3.org-2000-10-swap-pim-contactmailbox,; "quel est son titre" est http:--www.w3.org-2000-10-swap-pim-contactpersonalTitle.
+De plus, le sujet a le type (avec le prédicat http:--www.w3.org-1999-02-22-rdf-syntax-nstype) personne (with URI http:--www.w3.org-2000-10-swap-pim-contactPerson).
+Par conséquent, les suivants "sujet, prédicat, objet", c'est-à-dire les suivants triplets RDF peuvent être exprimés : http:--www.w3.org-People-EM-contactme, http:--www.w3.org-2000-10-swap-pim-contactfullName, "Eric Miller"; http:--www.w3.org-People-EM-contactme, http:--www.w3.org-2000-10-swap-pim-contactpersonalTitle, "Dr."; http:--www.w3.org-People-EM-contactme, http:--www.w3.org-1999-02-22-rdf-syntax-nstype, http:--www.w3.org-2000-10-swap-pim-contactPerson; http:--www.w3.org-People-EM-contactme, http:--www.w3.org-2000-10-swap-pim-contactmailbox, em@w3.org.
+
+Exemple 2 : abréviation postale de New York
+Certains concepts en RDF sont tirés de la logique et de la linguistique, où les structures sujet-prédicat et sujet-prédicat-objet ont des significations semblables, mais distinctes. Cet exemple démontre :
+En langue française la déclaration 'New York a l'abréviation postale NY' aurait ' New York' comme sujet, ' a l'abréviation postale ' serait le prédicat et 'NY ' serait l'objet.
+Codé comme un triplet RDF, le sujet et le prédicat devraient être nommés par des ressources URI. L'objet pourrait être une ressource ou un élément littéral. Par exemple, dans la Notation3 sous forme de RDF, la déclaration pourrait ressembler à :
+urn:x-states:New%20York http:--purl.org-dc-terms-alternative "NY".
+Dans cet exemple, "urn:x-states:New%20York" est l'URI d'une ressource qui représente l'État américain New York, "http:--purl.org-dc-terms-alternative" est l'URI du prédicat (dont voici la définition), et "NY" est une chaîne littérale. Notez que les URI choisies ici ne sont pas standard, et n'ont pas besoin de l'être, tant que leur signification est lisible et accessible.
+N-Triples est l'un des formats standard de sérialisation du RDF. Le triplet ci-dessus peut également être représenté de manière équivalente avec le standard RDF-XML comme ci-dessous :
+rdf:RDF
+ xmlns:rdf-"http:--www.w3.org-1999-02-22-rdf-syntax-ns"
+ xmlns:dcterms-"http:--purl.org-dc-terms-"
+ rdf:Description rdf:about-"urn:x-states:New%20York"
+ dcterms:alternativeNY-dcterms:alternative
+ -rdf:Description
+-rdf:RDF
+Toutefois, en raison des restrictions sur la syntaxe de QNames (comme dcterms:alternative ci-dessus), il y a certains graphes RDF qui ne sont pas représentables avec RDF-XML.
+
+Exemple 3 : article de Wikipédia sur Tony Benn
+D'une manière similaire, étant donné que "http:--en.wikipedia.org-wiki-Tony-Benn" identifie une ressource particulière (indépendamment du fait que l'URI est un lien hypertexte, ou encore que la ressource est en réalité l'article Wikipédia sur Tony Benn) pour dire que le titre de cette ressource est "Tony Benn" et que son éditeur est "Wikipédia", on aurait deux assertions qui pourraient être exprimés comme des déclarations RDF valides. Dans le format N-Triples de RDF, ces déclarations pourraient ressembler aux éléments suivants:
+http:--en.wikipedia.org-wiki-Tony-Benn http:--purl.org-dc-elements-1.1-title "Tony Benn".
+http:--en.wikipedia.org-wiki-Tony-Benn http:--purl.org-dc-elements-1.1-publisher "Wikipedia".
+Et ces déclarations pourraient être exprimées en RDF-XML comme:
+rdf:RDF
+ xmlns:rdf-"http:--www.w3.org-1999-02-22-rdf-syntax-ns"
+ xmlns:dc-"http:--purl.org-dc-elements-1.1-"
+ rdf:Description rdf:about-"http:--en.wikipedia.org-wiki-Tony-Benn"
+ dc:titleTony Benn-dc:title
+ dc:publisherWikipedia-dc:publisher
+ -rdf:Description
+-rdf:RDF
+Pour une personne qui parle français, la même information peut être représentée simplement ainsi : Le titre de cette ressource, qui est publiée par Wikipédia, est "Tony Benn".
+Toutefois, RDF intègre les informations d'une manière formelle pour qu'une machine puisse le comprendre. L'objectif de RDF est de fournir un encodage et le mécanisme de l'interprétation afin de représenter les ressources pour les logiciels. Autrement dit, afin que les logiciels puissent accéder et utiliser des informations qui autrement ne pourraient pas être utilisées.
+Les deux versions des déclarations ci-dessus sont verbeux, car une exigence pour une ressource RDF (comme un sujet ou un prédicat), c'est qu'il soit unique. Les ressources soumises doivent être uniques pour permettre d'identifier exactement les ressources décrites. Le prédicat doit être unique afin de réduire les chances de confondre la notion de titre ou d'Éditeur par un logiciel. Si le logiciel reconnaît http:--purl.org-dc-elements-1.1-title (une spécifique définition pour le concept d'un titre établi par le Dublin Core Metadata Initiative), il doit aussi savoir que ce titre est différent d'un titre foncier ou un titre honorifique ou tout simplement les lettres t-i-t-r-e mises ensemble.
+L'exemple suivant montre comment représenter cette information en combinant plusieurs vocabulaires RDF. Ici, nous ajoutons en plus le thème principal de la page Wikipédia qui est une "personne" dont le nom est "Tony Benn":
+rdf:RDF
+ xmlns:rdf-"http:--www.w3.org-1999-02-22-rdf-syntax-ns"
+ xmlns:foaf-"http:--xmlns.com-foaf-0.1-"
+ xmlns:dc-"http:--purl.org-dc-elements-1.1-"
+ rdf:Description rdf:about-"http:--en.wikipedia.org-wiki-Tony-Benn"
+ dc:titleTony Benn-dc:title
+ dc:publisherWikipedia-dc:publisher
+ foaf:primaryTopic
+ foaf:Person
+ foaf:nameTony Benn-foaf:name
+ -foaf:Person
+ -foaf:primaryTopic
+ -rdf:Description
+-rdf:RDF
+Exemples d'applications: SKOS, dont l'objectif est de permettre la publication facile de vocabulaires structurés pour leur utilisation dans le cadre du Web sémantique.; Dublin Core pour le classement bibliographique.; RSS version 1.0 est basé sur RDF.; Mozilla Firefox : le navigateur utilise RDF pour les marque-pages, pour la localisation.; Wikipédia : en avril 2006, le contenu des espaces de noms 0 et 14 (catégories) des versions anglaises, allemande et française a été rendu disponible sous la forme de 47 millions de triplets.; XUL : langage d'interface utilisant RDF pour les données.; DBpedia: une collection de ressources RDF issues de Wikipédia.

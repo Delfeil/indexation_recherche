@@ -1,0 +1,22 @@
+Ogg est le nom du principal projet de la fondation Xiph.org dont le but est de proposer des formats et codecs multimédias ouverts, libres et dégagés de tout brevet.
+C'est aussi le nom du format de fichier conteneur proposé par ce même projet. L'extension.ogg est une des extensions possibles pour les fichiers au format Ogg. Par abus de langage, on appelle couramment "fichier Ogg" un fichier audio au format Ogg contenant des données audio compressées en Vorbis, l'un des codecs du projet Ogg.
+La fondation Xiph.Org a pourtant créé un ensemble d'extensions pour les différents types de contenus : oga pour les fichiers audio uniquement ;; ogv pour la vidéo (généralement encodée avec Theora) ;; ogx pour les applications.
+
+Projet Ogg
+Les travaux du projet Ogg sont les suivants : le format de fichier conteneur Ogg, qui peut contenir des pistes audio (en général Vorbis), vidéo (en général Theora) et texte (sous-titres). Il peut y avoir plusieurs pistes de chaque type pour, par exemple, proposer des médias multilingues. L'extension habituelle du format Ogg est.ogg, que le fichier contienne uniquement de l'audio, ou de l'audio et de la vidéo ;; le format de compression audio Vorbis et les codecs associés ;; le format de compression vidéo Theora dont le codec est basé sur celui de VP3, libéré par la société On2 Technologies ;; le format de compression audio sans pertes FLAC ;; le format de compression audio Speex, spécialisé dans la compression de la voix ;; le projet de format de compression vidéo Tarkin, basé sur la technologie de compression par ondelettes, est définitivement abandonné.
+
+Étymologie
+Le projet original se nomme Squich, cependant, peu après sa mise en ligne, l'auteur reçoit une notification stipulant que ce nom est déjà déposé. Le projet est rebaptisé OggSquich, Ogg étant le nom attribué à une manoeuvre tactique du jeu vidéo Netrek (en).
+Avec le temps, Ogg reste le nom du format d'encapsulation.
+
+Logiciels compatibles
+
+Lecteurs: Amarok (lecteur multimédia de l'environnement de bureau KDE de GNU-Linux) ;; Audacious (lecteur audio libre, fork de BMP) ;; Banshee (lecteur multimédia de l'environnement de bureau GNOME de Linux) ;; Clementine (lecteur audio multiplate-forme) ;; Exaile (lecteur audio pour l'environnement de bureau GNOME de GNU-Linux) ;; foobar2000 (lecteur audio pour Windows) ;; Kaffeine (lecteur multimédia de l'environnement de bureau KDE de Linux) ;; Mplayer (lecteur multimédia multiplate-forme) ;; Rhythmbox (lecteur audio pour l'environnement de bureau GNOME de GNU-Linux) ;; Songbird (lecteur multimédia multiplate-forme) ;; Totem (lecteur multimédia de l'environnement de bureau GNOME de GNU-Linux) ;; VLC media player (lecteur multimédia multiplate-forme) ;; Winamp (lecteur multimédia pour Windows) ;; Xfmedia (lecteur multimédia de l'environnement de bureau Xfce de GNU-Linux).
+Des plugins pour QuickTime Player et Windows Media Player sont disponibles sur le site de Xiph.org.
+Certains navigateurs web compatibles avec les balises audio et video du HTML5 peuvent lire nativement les composants multimédia Ogg Vorbis et Theora : Chrome ;; Chromium ;; IceCat ;; Mozilla Firefox (à partir de la version 3.5) ;; Opera (à partir de la version 10.5) ;; Safari (à partir de la version 4 avec le plugin de Xiph.org).
+
+Convertisseurs: Audacity (permet aussi l'édition) ;; Avidemux ;; Bigasoft WTV Converter ;; CDex ;; dir2ogg (Permet de convertir rapidement de nombreux fichiers vers ogg); FFmpeg (ligne de commandes) ;; FormatFactory (permet également de convertir d'autres formats) ;; Gstreamer (ligne de commandes) ;; Konvertor (convertisseur multi-formats) ;; Miro convertisseur vidéo ;; OGMRip ;; SoundConverter ;; Sound Normalizer ;; Streaming Video Recorder ;; VLC ("Convertir - Enregistrer", choix du format de sortie) ;; WinFF ;; WinLame ;; XCFA.
+
+Voir aussi
+
+Articles connexes: Format conteneur; Compression de débit audio; Rockbox : un firmware pour rendre certains baladeurs mp3 compatibles Ogg.

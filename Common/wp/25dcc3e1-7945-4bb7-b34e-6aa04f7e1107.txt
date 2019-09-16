@@ -1,0 +1,15 @@
+Le publipostage (ou mailing) est la technique légale de marketing qui consiste à envoyer en nombre des informations ou prospectus publicitaires, par voie postale ou électronique, pour assurer la promotion d'un produit, d'un service ou d'une enseigne. Cette forme de promotion est fréquente dans la vente par correspondance.
+Des entreprises sont spécialisées dans le routage par voie postale. L'essor d'Internet et la diffusion des logiciels de publipostage ont facilité le développement des envois en nombre par voie électronique.
+Le terme publipostage désigne aussi une fonction des logiciels de traitement de texte permettant de personnaliser automatiquement les termes d'une lettre-type envoyée à un ensemble de clients ou de prospects. Les informations individuelles contenues dans le fichier des clients sont intégrées (on dit aussi fusionnées) dans la lettre-type, ce processus permettant d'éditer autant de lettres personnalisées qu'il y a de clients enregistrés dans le fichier (cf. infra éléments d'un publipostage).
+
+Enjeux du publipostage
+Le publipostage est utilisé en mercatique d'entreprise à entreprise (Business to Business ou BtoB en anglais) et en mercatique de producteur à consommateur final (Business to Consumer ou BtoC).
+
+Éléments d'un publipostage
+Le publipostage est composé : d'un message personnalisé ;; d'une base de données d'adresses ;; de documents joints ou de liens (exemples : présentation d'une offre promotionnelle, nouveauté produit, etc.).
+
+Aspects déontologiques
+La facilité et le faible coût de l'envoi des courriels, dès lors que l'on connaît les adresses électroniques des destinataires, a engendré une multiplication chaotique des messages publicitaires qui polluent les boîtes aux lettres des utilisateurs informatiques, entreprises, administrations, ou individuels.
+Pour lutter contre cette pollution, en France, l'Union Française du Marketing Direct a publié en 2005 un nouveau code professionnel, destiné à fournir un cadre à la prospection commerciale directe. Le code a été approuvé par la CNIL. Ce code émane d'une réflexion sur les évolutions récentes de la législation touchant la protection et le traitement des données à caractère personnel (LCEN, nouvelle loi Informatique et Libertés) : la première partie énonce des principes en matière de collecte et d'utilisation des données, qui interprètent les textes de loi ;; la deuxième partie propose des exemples pratiques et des modèles, en application des règles précédentes ;; la troisième partie traite du parrainage et de la collecte de "noms d'amis" ;; la quatrième partie fournit les références des principaux textes juridiques relatifs à la prospection électronique.
+
+Articles connexes: routage courrier; Annuaire d'entreprises; Courrier électronique; Cybermercatique; Impression à données variables. Portail du commerce.

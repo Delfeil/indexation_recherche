@@ -1,0 +1,166 @@
+Une norme, du latin norma "équerre, règle", désigne un état habituellement répandu, moyen, considéré le plus souvent comme une règle à suivre. Ce terme générique désigne un ensemble de caractéristiques décrivant un objet, un être, qui peut être virtuel ou non. Tout ce qui entre dans une norme est considéré comme "normal", alors que ce qui en sort est "anormal". Ces termes peuvent sous-entendre ou non des jugements de valeur. Dans le domaine philosophique, médical ou psychique des auteurs considèrent qu'il n'existe pas de norme, tel Georges Canguilhem, Michel Foucault ou Sigmund Freud.
+
+Extension de la notion de norme
+
+Historique
+La norme est traditionnellement l'un des modes d'expression privilégiés de la souveraineté. En France en particulier, la monnaie, pouvoir régalien par excellence, mais aussi les poids et mesures, délimitent l'un des champs d'application les plus anciens de la normalisation, même si le terme, sinon le concept, apparaît ultérieurement.
+
+Émergence de la notion de norme dans les sciences physiques
+Historiquement, la notion explicite de norme a été établie dans les sciences sous la forme du système métrique sur proposition de l'Assemblée nationale constituante en 1790, remplacé par le système MKSA (1946) et plus récemment par le Système international (1960).
+
+Extension à l'industrie, à l'économie, et aux services
+Dans sa présentation, de la norme à l'attention du grand public, l'Organisation internationale de normalisation (ISO) évoque deux dates : 1906, avec la mise en place de la Commission électrotechnique internationale (CEI) ; 1926, année de création de la Fédération internationale des associations nationales de normalisation (ISA, AFNOR). Si une telle mise en perspective n'est pas inexacte, elle fait l'économie des accords qui, passés dans le dernier quart du XIXe siècle, ont préparé la démarche actuelle de normalisation internationale appliquée à l'économie en général.
+Ainsi la signature en 1865 de la première Convention télégraphique internationale et la création de l'Union du même nom, permit dès cette année la mise en oeuvre d'un Règlement télégraphique puis, à partir de 1885, l'élaboration d'une législation internationale dans le domaine de la téléphonie et, plus tard, des communications radiotélégraphiques, de la radiodiffusion, des télécommunications spatiales. De même, exemple d'un produit nécessitant la mise en place d'un certain nombre de normes en raison de son usage transnational, le timbre-poste apparu dans sa forme moderne au Royaume-Uni en 1840 (et adopté dans la décennie par la Suisse, le Brésil, les États-Unis, la France et la Belgique), donna lieu dès 1874, par traité, à la création de l'Union générale des postes, devenue l'Union postale universelle. Enfin, en 1875, la Convention du Mètre, signée dans la forme d'un traité diplomatique auquel 51 États sont aujourd'hui partie, constitue un autre exemple d'une structure permanente dédiée à la coopération internationale en matière de normes.
+Après la Seconde Guerre mondiale, le processus d'élaboration des normes s'est considérablement développé dans l'industrie, l'économie, et les systèmes d'information. En fait, le terme de normalisation évoque le plus souvent la normalisation dans l'industrie et les services. En raison de son influence déterminante sur les économies contemporaines, la normalisation vue sous cet angle peut être considérée comme un instrument commercial pour étendre l'influence d'une puissance économique, en utilisant des techniques de lobbying et les réseaux d'organisations non gouvernementales par exemple (voir plus loin, au chapitre Relations internationales, la question de l'hégémonie appliquée à la norme).
+Au 31 décembre 2012 l'ISO a publié 19 573 normes, dont 1 280 en 2012 et ce depuis 1947.
+
+Extension aux sciences humaines
+Même si la recherche implicite d'une certaine normalisation était déjà ancienne, en Europe par exemple, en ce qui concerne les règles sur la langue française (grammaire française), la notion de norme s'est élargie depuis quelques décennies pour englober les sciences humaines.
+Vers le milieu du XXe siècle, la normalisation a touché le domaine juridique, avec la notion de hiérarchie des normes, même si le droit positif était à cette époque marqué par une certaine idéologie.
+On constate d'autre part que la normalisation concerne aussi les domaines culturels et linguistiques, comme on peut le constater avec le patrimoine culturel et les questions sémantiques sous-jacentes.
+
+Approches respectives États-Unis - Europe
+La standardisation'a fait l'objet d'une attention très soutenue aux États-Unis depuis les années 1980. L'approche des États-Unis est très commerciale et financière. Elle consiste à définir des communautés d'intérêt, puis à en déduire les standards (en particulier sur les données sémantiques), et enfin à définir les services d'entreprise adéquats. Cette démarche structurée, appuyée par un ensemble d'organismes le plus souvent privés (Oasis, W3C) permet aux États-Unis d'acquérir une certaine domination par la connaissance.
+L'attention portée au sujet de la normalisation en Europe est à la fois différente et plus récente.
+Tout d'abord, les Européens font la distinction entre un standard (qui n'est pas nécessairement une norme mais peut le devenir) et une norme (qui a fait l'objet d'un processus officiel à l'ISO).
+D'autre part, les Européens semblaient dans un premier temps moins sensibles a priori à l'intérêt des normes (le mot "standard" est dissonant par rapport à certaines formes d'individualisme). Le monde industriel est paradoxalement demandeur de standardisation pour ses propres besoins (rationalisation économique) et demandeur de moins de normes, qui sont parfois considérées comme entrave au commerce. Certaines normes établies par les industriels (comme la durée de 1000 heures pour les lampes, initiée par le cartel Phoebus) posent des problèmes éthiques et de développement durable avec le développement d'une obsolescence programmée compatible avec les normes.
+Une directive européenne a instauré, pour les États-membres, l'obligation d'informer leurs partenaires européens de leurs projets de réglementations techniques ou de normes. Elle couvre les produits industriels et agricoles, ainsi que les services de la société de l'information. Les réglementations sur les services sont également concernées si elles ont une incidence sur les produits.
+En France, la normalisation a fait l'objet d'un rapport particulier du député Bernard Carayon en 2006. Des ontologies commencent à être étudiées sur le plan normatif pour les archives et le patrimoine culturel (ISO 21127). L'Europe dispose d'un Centre d'information sur les normes et règlements techniques (CINORTECH), dont le point d'information national a été en France confié à l'AFNOR.
+
+Droit
+
+Constitution et lois
+Les normes dans un système juridique sont les règles obligatoires qu'elles proviennent de lois, des codes, d'une coutume voire du droit naturel. Les codes sont de deux types : les codes adoptés comme tels, et modifiés, par les organes délibérants, ou bien les codes rassemblés par les éditeurs (Dalloz et Litec en France).
+Le terme "norme" désigne au sens large l'ensemble des règles obligatoires édictées par les autorités publiques : la Constitution, la législation, les ordonnances, décrets, règlements et arrêtés (ministériels, préfectoraux, ou communaux).
+Les situations normatives sont assez différentes entre les États-Unis (système juridique de common law) et l'Europe continentale (système juridique de droit civil), qui représentent l'essentiel des systèmes juridiques des États dans le monde.
+Dans les deux systèmes juridiques, la Constitution se trouve au plus haut niveau.
+Dans l'Union européenne, depuis les années 1990, le droit communautaire modifie en profondeur les droits nationaux des différents États-membres, les directives et règlements, ainsi que les traités internationaux s'interposant entre les Constitutions et les lois (ou codes), avec la hiérarchie des normes.
+
+Hiérarchie des normes
+En droit positif, une hiérarchie ordonne les normes (voir hiérarchie des normes). Par exemple : La constitution est au plus haut niveau de la hiérarchie.; Au-dessous, on trouve les lois organiques, les traités internationaux et les directives européennes.; Encore au-dessous, on trouve les lois, qui peuvent être regroupées dans des codes : en France par exemple, on trouve à ce niveau le code civil français, le code pénal, le code de commerce, le code général des collectivités territoriales, le code de l'environnement, etc.
+Le principe de hiérarchie des normes est beaucoup plus développé en Europe continentale, et particulièrement en France, qu'aux États-Unis, qui disposent d'une souplesse jugée quelquefois excessive en Europe continentale grâce à la soft law (droit mou).
+La question de l'écologie se trouve au plus haut niveau en France, la charte de l'environnement étant dans le préambule de la constitution de 1958 depuis 2005.
+
+Sciences humaines
+
+Philosophie
+En philosophie, une norme est un critère, principe discriminatoire auquel se réfère implicitement ou explicitement un jugement de valeur.
+Par la volonté de certains acteurs, ou tout simplement de par son éducation et par le jeu de ses habitudes, l'être humain a tendance à édicter des normes précisant ce qui est normalement attendu et ce qui ne l'est pas. Ces normes varient fortement avec les époques, les individus et de manières plus générales les sociétés.
+
+Caractéristiques
+Une caractéristique majeure des normes est que, au contraire des propositions, elles ne sont ni vraies ni fausses puisqu'elles ne proposent pas de décrire quelque chose, mais de prescrire, de créer ou de changer certaines caractéristiques d'une chose.
+Si elles ne proposent pas de décrire la validité d'une assertion, alors on ne peut pas lui attribuer des critères de réussite ou d'échec. Suivre la norme n'est pas une philosophie mais repose sur la recherche d'un consensus. Si une personne veut être guidée par une éthique véritable, elle ne peut généralement pas utiliser cette méthode.
+
+Réflexions sur la norme
+La norme sous-entend une notion de pouvoir. En effet, pour qu'une norme, une règle de vie entre en vigueur dans une société, elle doit être acceptée par la majorité (loi du plus grand nombre) ou imposée par un pouvoir.
+Dans la marge
+Une personne vivant hors de la norme est rejetée par l'ensemble. Elle se retrouve alors dans la marge. La personne est ostracisée. Les normes ne sont souvent pas visibles à ceux qui les portent. Dès qu'une personne n'entre pas dans le moule, une personne ou un groupe, parfois même de façon inconsciente, va rejeter cette personne. Cela va jusqu'à ressentir de l'antipathie pour une telle personne. Sans qu'on se rende compte des raisons, c'est la norme plus ou moins inconsciente qui entre ici en ligne de compte. Par exemple, la norme de la société en termes de couple traditionnel est constitué d'un homme et d'une femme. Ce couple fait face à une personne seule dont il sait l'histoire personnelle. Inconsciemment, il adoptera des comportements discriminatoires.
+La marge, l'ostracisme, la persécution sont des notions se rapportant à la norme. Par le passé, l'excommunication permettait à l'Église catholique de rejeter la personne qui ne se pliait pas à ses normes. Même si la religion a nettement reculé, la norme est encore aussi forte. Elle ne s'appelle plus au péché. Elle n'est plus brandie par l'Église. La norme aujourd'hui est plus sécularisée, et tend à devenir plus libre dans le domaine du couple. Les normes varient donc d'une époque à l'autre. Le procédé demeure le même. Pour bien vivre en société, il faut en accepter les normes.
+
+Éthique normative
+En éthique, il existe une discipline qui s'appelle l'éthique normative, qui vise à établir des normes concernant l'examen critique des fondements et formes de l'action juste. Il s'agit de textes fondamentaux qui peuvent s'appliquer à des domaines plus particuliers en relation avec l'éthique appliquée (voir par exemple éthique sociale). L'éthique normative a des rapports avec le droit.
+On désigne par méta-éthique l'étude des fondement sur lesquels bâtir une éthique normative.
+
+Culture
+La culture est un domaine particulièrement difficile à normer, en raison précisément de la diversité culturelle des populations et communautés humaines qui habitent la planète.
+L'Unesco a établi des listes de patrimoines mondiaux, puis, défini plus récemment des instruments normatifs.
+
+Listes de patrimoines mondiaux
+Les efforts de protection du patrimoine culturel menés depuis le XIXe siècle, tout d'abord en France (Prosper Mérimée), puis, de manière mondialisée par l'Unesco (dont le siège est à Paris) à partir de 1945 ont abouti à la définition de plusieurs listes du patrimoine mondial : la liste du patrimoine mondial (1972),; la liste Mémoire du monde (1992),; le patrimoine oral et immatériel de l'humanité (1997).
+
+Instruments normatifs sur le patrimoine culturel
+Les critères ayant été identifiés par l'UNESCO pour structurer les données qui sont à la base de ces listes ont permis d'élaborer une déclaration universelle sur la diversité culturelle, qui sert de base à des instruments normatifs pour définir un patrimoine culturel immatériel, autrement dit, géré sous une forme électronique.
+Plus de détails, voir : Instruments normatifs de l'Unesco sur les cultures et traditions
+
+Linguistique
+En linguistique, les normes d'usage d'une langue sont constituées par l'orthographe et la grammaire. Ces normes sont consignées dans des dictionnaires et des ouvrages de grammaire. La norme est partagée entre grammaticalité et acceptabilité.
+
+Sociologie
+Une norme, au sens sociologique du terme, représente un comportement généralement observé dans un contexte donné.
+La conception de normalité ou d'anormalité en sociologie est vierge de tout jugement de valeur et se rapporte plutôt au concept sociologique de déviance.
+Il existe deux types de normes en sociologie. La première, la norme formelle, est une loi ou une règle officielle régie par des personnes influentes. La seconde, la norme informelle, est une façon de se comporter dans la société qui n'est pas obligatoire, mais dont les membres de la collectivité trouvent nécessaire à son bon fonctionnement.
+
+Relations internationales
+
+Norme et hégémonie, un enjeu des relations internationales
+Dans le domaine industriel et technologique, mais également dans celui des concepts, dresser la liste des normes existantes permettrait probablement de montrer l'extrême richesse de leurs domaines d'application ; la multiplicité de leurs niveaux de mise en oeuvre - national, transnational (on pense à l'Union européenne), international (le Protocole de Kyoto de mars 1998, par exemple) - ; la diversité de leur présence au quotidien. Pour ces raisons, vouloir établir un lien entre normes et hégémonie n'est pas a priori irrecevable, y compris dans le domaine des concepts : prenant l'exemple du droit international issu de la Renaissance européenne, Bertrand Badie montrait en 1992 dans "L'État importé" que le régime des capitulations accordées à la France par l'Empire ottoman eut pour conséquence "l'unification du Système international et sa construction autour d'un centre que le monde occidental pouvait d'autant mieux prétendre incarner qu'il en était le producteur de norme". En 2004, l'ancien secrétaire d'État américain Zbigniew Brzezinski observait, à l'occasion d'un débat au Carnegie Hall ("The Choice : Global Domination or Global Leadership"), que "notre société (...) est capable de transformer le monde. De ce fait, elle a un effet déstabilisant parce que nous sommes économiquement intrusifs et culturellement attractifs. Elle est une source d'envie, de ressentiment et d'hostilité que, pour beaucoup, la mondialisation ne fait qu'exacerber. Car en proposant cette mondialisation au reste du monde, en la véhiculant et en la projetant avec force comme modèle de société au niveau international, les États-Unis ont (...) jeté les bases de quelque chose de totalement nouveau".
+
+Une définition de l'hégémonie
+L'apparition du mot hégémonie dans le langage de la science politique est attesté au milieu du XIXe siècle en France (1840), mais ce n'est qu'après la défaite de 1870 que l'usage s'en répand, essentiellement dans un sens alors politique et militaire. Au début du XXe siècle, le philosophe italien Antonio Gramsci revisite le terme dans une acception plus proche de la sociologie politique inspirée du marxisme. L'hégémonie peut donc se définir comme la domination d'un État par sa puissance politique, militaire, économique et culturelle sur d'autres États. Encore cette domination n'est-elle pas absolue : en 1990, dans Bound to Lead, The Changing Nature of American Power, Joseph Nye remarquait que l'hégémonie correspond à des situations où le pouvoir est distribué de manière "inégale" entre les différents pays. On pourrait donc tout aussi bien employer les termes de prééminence ou de suprématie, lesquels conviennent également pour évoquer la notion de puissance et de son exercice.
+Évidemment, lorsqu'on parle aujourd'hui d'"hégémonie" dans les relations internationales, les regards se tournent le plus souvent vers les États-Unis. Or, ceux-ci, réfutant les termes d'"empire" et d'"impérialisme" qui leur sont souvent accolés, préfèrent ceux de "leader" et de "leadership", qui appartiennent à la rhétorique de l'administration américaine depuis plusieurs années. Quelques textes en témoignent : le discours sur l'état de l'Union prononcé par le président Clinton le 3 février 1998 ou celui du président Bush le 31 janvier 2006 : "La seule voie pour protéger notre peuple, la seule pour assurer la paix, la seule pour maîtriser notre destin, c'est d'exercer notre leadership. C'est pourquoi, les États-Unis continueront de diriger (lead) le monde"). Plus récemment, Barack Obama, le soir de son élection disait, au Parc Grant de Chicago le 5 novembre 2008 en s'adressant aux peuples du monde : "Nous avons chacun nos histoires mais nous partageons le même destin, et voici qu'une aube nouvelle est en train de se lever sur le leadership américain" (Our stories are singular, but our destiny is shared, and a new dawn of American leadership is at hand). On notera au passage que le "leadership" renoue avec l'origine du mot hégémonie, issu du grec hegemon, le chef.
+
+Le lien entre norme et hégémonie : l'exemple américain
+En mars 1992, dans un rapport très éclairant (Global Standards, Building Blocks for the Future), le Bureau d'évaluation technologique du Congrès des États-Unis dressait un cadre plutôt pessimiste du positionnement des normes américaines à l'époque : "De nombreux changements structurels se sont fait jour dans l'économie, qui posent la question de savoir si notre système peut continuer à être toujours aussi efficace à l'avenir. Parmi ces changements figure(nt) le développement d'une économie mondiale hautement compétitive que les États-Unis ne peuvent plus espérer dominer". Le rapport ajoutait : "(Certains) s'inquiètent de surcroît du fait que d'autres pays dans le monde sont mieux organisés et mieux à même d'influencer les procédures d'adoption des normes internationales, et ceci au détriment des relations commerciales américaines". Enfin : "Certaines normes seront probablement plus importantes que d'autres en termes d'intérêt national. Dans une économie de l'information mondialisée, les technologies de réseau apportent les éléments de base qui contribuent à la productivité et à la croissance. Or, ces technologies formeront le socle des infrastructures utiles à l'ensemble de l'économie. Dès lors, si les réseaux futurs ne parviennent pas à s'interconnecter par suite d'une normalisation déficiente, la nation risque de subir des pertes économiques considérables et d'être menacée dans sa sécurité. C'est pourquoi, même si le gouvernement (fédéral) manifeste peu d'intérêt pour le développement de certaines normes industrielles, il importera qu'il se penche avec un intérêt particulier sur d'autres, comme celles qui soulèvent la question de l'interopérabilité". Ces propos, au demeurant prophétiques pour ce qui concerne les réseaux et l'interopérabilité, illustrent la conscience qu'avait le législateur du lien existant entre norme et "domination" (pour reprendre l'expression utilisée dans le rapport), en d'autres termes entre norme et hégémonie.
+
+Norme contre norme, ou l'hégémonie en position d'arbitre
+Dans le domaine de l'Internet, dont les normes ont été élaborées et diffusées par des entreprises ou des consortiums américains, les États-Unis avaient opposé une fin de non-recevoir aux tentatives de création d'une véritable gouvernance de la Toile lancées par certaines organisations non gouvernementales au sommet des Nations unies sur la société de l'information (Tunis, 2005). Désireux de conserver la maîtrise du fonctionnement et de l'avenir des communications par le biais d'Internet et faisant face à la contestation de leur hégémonie dans l'organisation et la maîtrise des réseaux électroniques d'échanges de données, les représentants américains n'avaient pas hésité à renier une norme pourtant d'inspiration américaine elle aussi (la gouvernance), et de surcroît recommandée pour le fonctionnement des grandes structures internationales.
+
+Les différentes approches des politiques de normalisation ou l'hégémonie partagée
+Depuis bientôt un siècle (fin de la Première Guerre mondiale et effondrement des empires d'Europe centrale), le "centre économique du monde" s'est déplacé vers les États-Unis. Il est par conséquent, impossible de ne pas évoquer la politique américaine de normalisation pour mieux la confronter à d'autres aires économiques : le Japon, dont la production de normes a peut-être été inférieure à ce qu'elle aurait pu être au regard de sa créativité et de son dynamisme commercial, et l'Union européenne, grande productrice de normes s'il en est. États-Unis, Europe, Japon : en citant ces trois zones géographiques tour à tour alliées et concurrentes, on voit bien qu'en matière de normes, notamment techniques, l'hégémonie est partagée.
+
+Les paradoxes de la normalisation à l'américaine
+Malgré le poids longtemps écrasant de l'économie américaine, la normalisation a toujours été vécue de manière ambivalente, du moins dans le secteur industriel.
+Un premier paradoxe réside dans le fait que le système se réclame de la primauté du marché, tout en accordant une place considérable au gouvernement fédéral (en 2005, ce dernier était à l'origine de la création ou de l'utilisation de plus de 44 000 normes, contre 50 000 créées par le secteur privé).
+Le second paradoxe est le fruit de l'histoire : les États-Unis sont à la fois l'un des pays où la mise en oeuvre de la normalisation est la plus ancienne (citons l'industrie du médicament, qui mit en place dès 1829 des normes unifiées surtout le territoire ; les chemins de fer, dont l'interconnexion des années 1890 a nécessité les efforts de plus de mille exploitants privés ; l'automobile enfin, dont le héraut, Henry Ford lança en 1913 le premier modèle de voiture "standard"), mais c'est aussi l'un des rares où celle-ci a été longtemps la moins cohérente. De fait, si la création de l'American National Standards Institute (ANSI) remonte à 1918, date d'installation de son ancêtre, cette instance de normalisation n'avait même pas, au début des années 2000, de charte officielle ou de statut d'agence du gouvernement fédéral : simple organe de coordination, elle est surtout chargée de certifier et de mettre à disposition les normes écrites par d'autres (600 organisations sectorielles dont la puissante ASTM, American Society for Testing Materials, ou l'IEEE, Institute of Electrical and Electronics Engineers).
+Le troisième paradoxe n'est pas le moindre et nous ramène à l'hégémonie : les industriels américains se plaignent volontiers que l'ISO soit sous influence européenne. L'ANSI avait d'ailleurs publié il y a quelques années (janvier 2005) une mise en garde dans laquelle elle indiquait qu'"Une préoccupation fréquemment exprimée (aux États-Unis) est le sentiment d'une domination européenne au sein de l'ISO et le fait que les normes sont écrites dans l'optique de la réglementation propre à l'Union européenne. (Or), toute influence indue en provenance d'une région du monde est de nature à se traduire par la mise en oeuvre de normes internationales qui peuvent ne pas correspondre aux exigences de régions caractérisées par d'autres régimes légaux et réglementaires, ou qui sont incorporées à des technologies ou à des pratiques différentes".
+La "privatisation" du processus de normalisation au cours des années 1990 et suivantes, même limité à l'industrie de l'électronique, ne fut-il pas une réponse à ces craintes et à ces insatisfactions
+
+Mathématiques et sciences physiques
+
+Mathématiques
+En mathématiques, les normes correspondent à une manière de traduire une information d'un élément d'une structure plus ou moins complexe vers une structure plus simple. Un exemple est celui qui à un segment associe sa longueur. En topologie, une norme associe à un vecteur un nombre réel comparable à une longueur. Cette norme généralise la valeur absolue ou encore le module d'un nombre complexe.
+Dans le cadre de l'arithmétique ou de la théorie de Galois la norme associe à un élément d'un corps ou d'un anneau un élément d'un corps ou d'un anneau plus petit. Par exemple, à un nombre de la forme a - b.1-2(1 + 5), où a et b sont des entiers, on associe le nombre a + a.b - b qui est un entier. Cet exemple est développé dans l'article Anneau des entiers de Q(5).
+
+Sciences physiques
+Dans les sciences physiques les normes sont définies par le Système international.
+
+Économie et industrie
+L'article Normes et standards industriels, précise les différences entre norme et standard et donne des explications détaillées sur : La définition d'une norme,; Les types de normes,; Le processus d'élaboration d'une norme dans le cadre de l'ISO.
+Le mot norme est d'origine latine et le mot standard est d'origine anglaise. En langue française, les deux mots sont utilisés et le mot standard n'a pas le même sens que le mot norme. Les anglophones n'ont qu'un seul mot pour désigner ces deux notions.
+C'est ainsi qu'en informatique, on emploie souvent abusivement le mot standard. Il s'agit d'un anglicisme.
+Une norme doit faire l'objet d'un processus de normalisation dans un organisme national ou international indépendant des industriels. L'ISO est le principal organisme mondial de normalisation.
+
+Objectif des normes et standards industriels
+Les normes permettent de remplacer aisément un produit par un équivalent quand on rencontre une difficulté d'approvisionnement quelconque. De plus, elles permettent une interopérabilité des systèmes et produits industriels entre eux. Quoique volontaires par nature, elles sont donc devenues indispensables.
+Une norme peut être largement adoptée par l'industrie (exemples : IEEE 802.3 CSMA-CD Ethernet, IEEE 802.11 Wi-Fi, ISO 9002), ou être délaissée par celle-ci (exemple : norme OSI de l'ISO).
+Exemple de norme : STEP.
+En règle générale, une norme n'est pas obligatoire : son application résulte d'un choix du fabricant ou des exigences d'un client. Dans certains cas, pour des raisons d'ordre public de santé, de sécurité, de partage d'une ressource rare, de préservation de l'environnement, les pouvoirs publics peuvent imposer une norme d'origine volontaire ou considérer que son application donne une présomption raisonnable de conformité à des exigences réglementaires obligatoires.
+
+Quelques exemples de normes dans l'économie
+
+Agroalimentaire
+Le Codex alimentarius est le système de normalisation pour les produits alimentaires. Il a été défini par l'Organisation des Nations unies pour l'alimentation et l'agriculture (FAO).
+Site du Codex alimentarius.
+
+Environnement, risques et responsabilité sociétale
+Au niveau microéconomique, il existe : la norme ISO 14000, spécifiquement sur l'environnement,; des standards n'ayant pas valeur de norme.
+Les secteurs industriels font l'objet de normes particulières (par exemple Norme européenne d'émission Euro pour la pollution automobile).
+La responsabilité sociétale fait l'objet d'un projet de norme général : ISO 26000.
+Voir : liste de normes ISO par domaines
+Au niveau macroéconomique, le modèle Pression-État-Réponse de l'OCDE fournit une représentation des pressions exercées par les entreprises sur l'environnement, et des réponses apportées par les organisations.
+Aux États-Unis, les normes édictées par l'Environmental Protection Agency (EPA) dont la mission est de protéger la santé humaine et de sauvegarder les éléments naturels (l'air, l'eau et la terre) essentiels à la vie. Ces normes sont largement reprises et-ou utilisées comme bases dans de nombreux pays.
+
+Systèmes d'information, télécommunications
+Dans les systèmes d'information, du fait du grand nombre de matériels et de logiciels d'origine américaine, on emploie assez fréquemment le mot standard.
+Voir : Normes dans les technologies de l'information et de la communication
+Il existe des normes : dans la sécurité des systèmes d'information. ISO-CEI 17799 : Sécurité de l'information (BS 7799),; ISO 27000 : Série de normes dédiées à la sécurité de l'information.; ISO-CEI 17799 : Sécurité de l'information (BS 7799),; ISO 27000 : Série de normes dédiées à la sécurité de l'information. (voir Normes de sécurité des systèmes d'information). dans les télécommunications,; dans la gestion des documents d'archive (record management) et les métadonnées, en ingénierie des connaissances et en ingénierie documentaire.
+En Europe, l'organisme chargé de la normalisation dans les télécommunications est l'ETSI.
+Voir aussi l'article communication sur les enjeux liés aux moyens de télécommunications.
+
+Comptabilité des entreprises
+
+Comptabilité publique et analyse économique
+Dans l'économie moderne, le développement, depuis les années 1930, de modèles économétriques basés sur les mathématiques statistiques a permis de mettre au point des normes pour l'évaluation des biens et services produits ou achetés.
+Ceux-ci sont répartis en biens et services marchands et en services non marchands.
+D'autre part, les systèmes de comptes nationaux sont harmonisés autour de normes communes, et les États européens par exemple, utilisent le même cadre comptable : le SEC (système européen de comptabilité).
+Pour les besoins des comptabilités publiques, on a pu définir des secteurs d'activité normatifs, afin de comptabiliser les échanges de biens et services, ainsi que toutes les ressources employées dans ces échanges.
+Ainsi, les systèmes de comptabilité nationale répartissent les agents économiques en six secteurs institutionnels, cinq étant considérés comme résidents, et un non résident.
+Voir : Typologie élémentaire de l'économie,; Comptabilité nationale et la catégorie des articles Comptabilité nationale,; Unité institutionnelle.
+En statistiques et en analyse économique, les nomenclatures normalisées sont très utilisées, pour la construction des agrégats. Exemples : la nomenclature économique de synthèse, NES,; la nomenclature générale des produits, NGP,; la nomenclature combinée, NC,; la nomenclature statistique des activités économiques dans la Communauté européenne, NACE.
+Voir : http:--www.insee.fr-fr-nom-def-met-definitions-html-accueil.htmN
+
+Organismes de normalisation
+Pour essayer de fédérer l'industrie, des organismes publics ou privés, à but non lucratif en général, fondés et soutenus par un syndicat d'industriels concernés, réfléchissent et proposent des référentiels appelés normes ou recommandations.
+Toutefois, les organismes de normalisation, qu'ils soient industriels ou surtout ceux spécialisés dans les systèmes d'information (OASIS) touchent, à travers la sémantique notamment, à des domaines qui ne sont pas exclusivement industriels et financiers.
+
+Voir aussi: Généralités : Recommandation ; Gestion de la qualité; Liste de normes ISO ; Liste de normes ISO par domaines; Recommandation ; Gestion de la qualité; Liste de normes ISO ; Liste de normes ISO par domaines; Droit : Hiérarchie des normes.; Hiérarchie des normes; Culture : Patrimoine culturel immatériel; ISO 21127.; Patrimoine culturel immatériel; ISO 21127; Comptabilité : Comptabilité nationale; IAS-IFRS.; Comptabilité nationale; IAS-IFRS; Industrie services : Normes et standards industriels; Normalisation.; Normes et standards industriels; Normalisation; Technologies de l'information : Norme de métadonnées; Interopérabilité; norme fmt.; Norme de métadonnées; Interopérabilité; norme fmt; Organisme de normalisation.

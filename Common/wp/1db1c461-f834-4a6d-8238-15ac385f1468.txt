@@ -1,0 +1,56 @@
+Dans le sens commun, la notion de dimension renvoie à la taille ; les dimensions d'une pièce sont sa longueur, sa largeur et sa profondeur-son épaisseur-sa hauteur, ou bien son diamètre si c'est une pièce de révolution.
+En physique et en mathématique, la notion de dimension signifie d'abord le nombre de directions indépendantes, puis a été étendue.
+
+Technique
+Dans l'absolu, les dimensions d'une pièce peuvent être choisies de manière totalement arbitraire, l'important étant qu'elles soient compatibles avec l'utilisation finale de la pièce. Dans un but de normalisation, il est toutefois préférable d'utiliser comme dimensions linéaires nominales des valeurs de la "série de Renard". objet de 350 250 255 mm.; description : (L)ongueur (l)argeur (h)auteur.; forme : D - (L l h).
+
+Physique
+En physique, le terme "dimension" renvoie à deux notions complètement différentes.
+
+Dimension d'un espace vectoriel
+La physique utilise beaucoup la notion mathématique d'espace vectoriel. On peut simplifier sa définition en disant que la dimension d'un espace est le nombre de variables qui servent à définir un état, un événement. Ainsi, on dit classiquement que notre univers est à quatre dimensions, puisqu'un événement se définit par la position dans l'espace (x, y, z) et l'instant t auquel cet événement survient. Un objet volumique constant (c'est-à-dire dont les propriétés sont indépendantes du temps, du moins durant l'étude) est dit à trois dimensions, car il faut trois nombres (x, y, z) pour désigner un de ses points ;; un objet plan (comme une feuille de papier) dont on néglige l'épaisseur est dit à deux dimensions, car il faut deux nombres (x, y) pour désigner un de ses points ;; un objet linéaire (comme un fil) dont on néglige l'épaisseur est dit à une dimension, car il suffit d'un seul nombre x pour désigner un de ses points (abscisse curviligne) ;; un objet ponctuel (comme un point) dont on néglige la taille est dit de dimension zéro, car une fois que l'on a désigné le point, on n'a besoin d'aucun paramètre supplémentaire pour le trouver.
+Ces concepts sont repris en modélisation informatique (objet 2D, 3D).
+Cette notion est la traduction de la notion mathématique de dimension (voir plus bas).
+
+Dimension d'une grandeur
+Il est possible de classer les grandeurs physiques en différentes catégories selon la règle suivante : si deux grandeurs peuvent s'exprimer en fonction de la même unité, alors elles appartiennent à une même catégorie appelée dimension. Une grandeur ne peut appartenir à deux dimensions différentes : on parle donc de la dimension d'une grandeur. Si une grandeur peut s'exprimer en fonction d'aucune unité (sa valeur est un nombre réel), elle est dite adimensionnée : c'est le cas des angles, définis sur un cercle comme le rapport de la longueur d'un arc de cercle donné sur le rayon de ce cercle.
+En exemple, on peut citer la longueur d'un fil, le diamètre d'un cercle, la distance entre deux points de l'espace : ces trois grandeurs peuvent s'exprimer en mètres et sont donc de même dimension.
+La dimension d'une grandeur physique est exprimée par rapport aux dimensions des sept unités de base du Système International. Par exemple, la vitesse a la dimension d'une longueur divisée par un temps (par conséquent, l'unité de vitesse dans le Système International est le mètre par seconde). Si on reprend l'exemple précédent, les trois grandeurs mentionnées ont la dimension d'une longueur.
+Ne sont pas à confondre dimension d'une grandeur et unité choisie pour exprimer le résultat de sa mesure. En effet, là ou la première renseigne globalement sur la nature de ladite grandeur, la seconde voit sa portée restreinte au cas de la mesure et est choisie en fonction de cette dernière pour des raisons d'ordre de grandeur.
+
+Dimensions supplémentaires
+
+Mathématiques
+
+Dimension d'un espace vectoriel
+En algèbre linéaire, la dimension d'un espace vectoriel E sur un corps K est le cardinal commun à toutes les bases de E. Une base est une famille libre maximale ou une famille génératrice minimale. Si ce cardinal est fini, il représente le nombre de vecteurs de base à introduire pour écrire les coordonnées d'un vecteur. Cette notion conduit à la classification des espaces vectoriels : deux espaces vectoriels sur K sont isomorphes s'ils ont la même dimension.
+Par exemple, l'espace vectoriel réel des suites réelles est de dimension infinie. Dans un tel espace, il existe des familles libres finies arbitrairement grandes, mais aucune famille génératrice finie.
+La dimension d'un espace affine et la dimension d'un convexe sont dérivées de cette notion de dimension.
+
+Dimension d'une variété topologique ou d'une variété différentiable
+La dimension d'une variété topologique est une généralisation courbée de la notion de dimension d'un espace vectoriel. Comme une variété topologique est définie par recollement de morceaux homéomorphes à des ouverts des espaces vectoriels R n (-displaystyle -mathbb (R) (n)) ou C n (-displaystyle -mathbb (C) (n)), on dit que cette variété est de dimension n (-displaystyle n). Il en est de même pour la dimension d'une variété différentielle : sa dimension est la dimension de l'espace vectoriel dans lequel on choisit les ouverts pour fabriquer les cartes locales.
+
+Dimension fractale
+Construction de la courbe de von Koch
+En géométrie fractale, la dimension fractale est une grandeur qui a vocation à traduire la façon qu'a un ensemble de remplir l'espace, à toutes les échelles. Dans le cas des fractales, elle est non entière et supérieure à la dimension topologique.
+Ce terme est un terme générique qui recouvre plusieurs définitions. Chacune peut donner des résultats différents selon l'ensemble considéré. Les définitions les plus importantes sont la dimension de Hausdorff, la dimension de Minkowski (ou "box-counting"), et la dimension de corrélation.
+
+Dimension topologique
+La dimension topologique, définie par récurrence, associe à chaque partie P de R un entier, égal à la dimension algébrique si P est un sous-espace affine, à n si P est d'intérieur non vide, à 1 si P est une courbe régulière, à 2 si P est une surface régulière, etc. De manière générale elle attribue à un ensemble usuel sa dimension intuitive qui est le nombre de variables indépendantes nécessaire pour le décrire.
+
+Dimension en algèbre commutative et en géométrie algébrique
+En géométrie algébrique, l'espace topologique sous-jacent à une variété algébrique ou un schéma est relativement grossier (ne comporte pas beaucoup de parties ouvertes). La notion adéquate est celle de dimension de Krull qui mesure la longueur maximale de chaines de parties fermées irréductibles. Elle correspond à l'intuition (dimension vectorielle; dimension topologique) le cas échéant (espace affine; variétés sans point singulier sur le corps des nombres réels).
+Pour un anneau commutatif unitaire A, sa dimension est la dimension de Krull du spectre premier Spec A. Par exemple, un corps est de dimension 0, alors que l'anneau des polynômes à coefficients dans un corps et à n variables est de dimension n.
+
+Dimensions d'un graphe
+Le graphe de Möbius-Kantor dessiné dans un plan (dimension 2) avec des arêtes de longueur 1.
+En théorie des graphes, la dimension d'un graphe est le plus petit nombre entier n (-displaystyle n) tel qu'une représentation classique du graphe dans l'espace affine euclidien E n (-displaystyle E(n)) de dimension n (-displaystyle n) ne comporte que des segments de longueur 1.
+Dans la représentation classique d'un graphe, les sommets sont représentés par des points et les arêtes par des segments de droite.
+Dans le cas d'un graphe complet, où tous les sommets sont reliés, la dimension du graphe coïncide avec la dimension du simplexe associé. Les autres graphes comportent moins d'arêtes et arrivent souvent à utiliser moins de dimensions que ce cas limite.
+
+Dans les oeuvres de science-fiction
+Dans le domaine de la science-fiction, la quatrième dimension désigne, soit une quatrième dimension spatiale (en ajout avec la longueur, la largeur et la hauteur) qui serait responsable de faits insolites (cf: Théorie d'Everett); soit une autre dimension, celle-ci, temporelle et non spatiale : c'est-à-dire l'espace-temps à travers lequel les protagonistes pourraient voyager (cf : vitesse supraluminique). Par extension, le terme "dimension" a finalement été utilisé pour caractériser les mondes dits "parallèles", c'est-à-dire par lesquels on ne peut pas accéder en voyageant dans l'espace ; on ne peut y accéder qu'en utilisant un appareil ouvrant une "faille" entre les "dimensions", ou bien à l'occasion d'un événement accidentel. On dit que le monde parallèle est situé dans une "autre dimension".
+
+Voir aussi
+
+Articles connexes: Fléau de la dimension; Topologie en basses dimensions. Portail des mathématiques.

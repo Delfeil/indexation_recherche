@@ -1,0 +1,55 @@
+Un corpus est un ensemble de documents, artistiques ou non (textes, images, vidéos, etc.), regroupés dans une optique précise. On peut utiliser des corpus dans plusieurs domaines : études littéraires, linguistiques, scientifiques, philosophie, etc.
+
+Le corpus en linguistique
+La branche de la linguistique qui se préoccupe plus spécifiquement des corpus s'appelle logiquement la linguistique de corpus. Elle est liée au développement des systèmes informatiques, en particulier à la constitution de bases de données textuelles. Depuis 2001, la revue universitaire CORPUS est dédiée à ce domaine.
+On parle de corpus pour désigner l'aspect normatif de la langue : sa structure et son code en particulier. "Corpus" est généralement opposé à "status" (ou statut), qui correspond aux conditions d'utilisation de la langue. Cette opposition est commune dans l'étude des politiques linguistiques.
+
+Le corpus en littérature
+Le corpus regroupe un ensemble de textes ayant une visée commune. Un corpus peut être constitué de documents différents (tableau, extrait de texte...) et ces documents divers ont un point en commun. En général, c'est le thème qui fait figure de leur ressemblance. Il faut avoir une technique particulière pour le déchiffrer.
+
+Le corpus dans la science
+Les corpus sont des outils indispensables et précieux en traitement automatique du langage naturel. Ils permettent en effet d'extraire un ensemble d'informations utiles pour des traitements statistiques.
+D'un point de vue informatif, ils permettent d'extraire des tendances et notamment de construire des ensembles de n-grammes.
+D'un point de vue méthodologique, ils apportent une objectivité nécessaire à la validation scientifique en traitement automatique du langage naturel. L'information n'est plus empirique, elle est vérifiée par le corpus. Il est donc possible de s'appuyer sur des corpus (à condition qu'ils soient bien formés) pour formuler et vérifier des hypothèses scientifiques.
+
+Corpus bien formé
+Plusieurs caractéristiques sont à prendre en compte pour la création d'un corpus bien formé : la taille ;; le langage du corpus ;; le temps couvert par les textes du corpus ;; le registre.
+
+Taille
+Le corpus doit évidemment atteindre une taille critique pour permettre des traitements statistiques fiables. Il est impossible d'extraire des informations fiables à partir d'un corpus trop petit (voir Statistique).
+
+Langage
+Un corpus bien formé doit nécessairement couvrir un seul langage, et une seule déclinaison de ce langage. Il existe par exemple de subtiles différences entre le français de France et le français parlé en Belgique. Il ne sera donc pas possible de tirer des conclusions fiables à partir d'un corpus franco-belge sur le français de France, ni sur le français de Belgique.
+
+Temps couvert par les textes du corpus
+Le temps joue un rôle important dans l'évolution du langage : le français parlé aujourd'hui ne ressemble pas au français parlé il y a 200 ans ni, de façon plus subtile, au français parlé il y a 10 ans, à cause notamment des néologismes. C'est un phénomène à prendre en compte pour toutes les langues vivantes. Un corpus ne doit donc pas contenir de textes rédigés à des intervalles de temps trop larges, ou il doit les dater (pour un usage par les historiens de la langue ou des concepts).
+
+Registre de langage
+Il ne faut pas non plus mélanger des registres différents et le scientifique ne peut s'autoriser à extraire des informations d'un corpus destiné à un certain registre en les appliquant à un autre. Un corpus construit à partir de textes scientifiques ne peut être utilisé pour extraire des informations sur les textes vulgarisés, et un corpus mélangeant des textes scientifiques et vulgarisés ne permettra de tirer aucune conclusion sur ces deux registres.
+
+Méthodologie
+Il serait maladroit d'un point de vue méthodologique d'appliquer des traitements statistiques sur le corpus qui a permis de faire ressortir un classement ou une modélisation du langage.
+Lorsque l'on travaille avec des corpus, il convient donc de séparer un corpus initial en deux sous-corpus : le corpus d'apprentissage, qui sert à retirer un modèle ou un classement à partir d'un nombre suffisant d'information ;; le corpus de test, qui sert à vérifier la qualité de l'apprentissage à partir du corpus d'apprentissage.
+Le calibrage des volumes des corpus se discute en fonction du problème, mais il est fréquent d'utiliser les 2-3 du corpus initial pour l'apprentissage et le tiers restant pour effectuer les tests.
+Lorsque le volume du corpus initial n'est pas suffisant, il est possible de croiser les corpus de tests et d'apprentissage sur plusieurs expérimentations. Par exemple, si l'on découpe le corpus initial en 10 sous-corpus, numérotés de 1 à 10: Expérience 1 : utilisation des corpus 1 à 8 en apprentissage, et 9 et 10 pour les tests;; Expérience 2 : utilisation des corpus 1 à 6 et 9 et 10 en apprentissage, 7 et 8 pour les tests;;..
+La mesure de qualité des résultats (précision ou rappel) est alors plus précise, mais en aucun cas les corpus d'apprentissage et de tests n'ont été mélangés.
+
+Corpus parallèles et corpus comparables
+
+Corpus parallèles
+On appelle corpus parallèle un ensemble de couples de textes tel que, pour un couple, un des textes est la traduction de l'autre. Il est intéressant d'aligner ces corpus, c'est-à-dire de faire correspondre chaque unité du texte en langue source avec chaque unité de texte en langue cible (au niveau des paragraphes, phrases et mots) pour disposer d'un jeu de données bilingues, en particulier dans des domaines spécialisés où le vocabulaire et l'usage des mots et des expressions évoluent rapidement.
+À titre d'exemple, au 26 octobre 2006, les versions française et anglaise des articles Déclin de l'Empire romain d'Occident et Decline of the Roman Empire sont des textes parallèles. Le texte source est la version anglaise, la version française est la cible, issue de la traduction.
+Bien que les textes soient dits parallèles, la traduction engendre des différences structurelles entre les textes. Certaines expressions peuvent-être traduites par un nombre différent de mots. Par exemple "Theories about the decline and fall of the Roman Empire" est composé de 10 mots alors que sa traduction "Théories du déclin de l'Empire romain" n'est composée que de 7 mots. De la même façon, des phrases dans le texte source sont susceptibles d'être regroupées dans la traduction, ou, à l'inverse, scindées. Le parallélisme n'est donc jamais parfait et les méthodes d'alignement doivent en tenir compte.
+Les corpus de textes parallèles sont toutefois relativement rares. À titre d'exemple, citons le Hansard canadien, qui est le compte rendu des Débats de la Chambre des communes canadienne, publié en français et en anglais.
+
+Corpus comparables
+La linguistique de corpus ayant besoin de jeux de données volumineux pour travailler, les corpus parallèles sont certes très précieux, mais trop rares pour suffire à tous les usages.
+Les corpus comparables sont largement plus répandus. Déjean et Gaussier (2002) donnent la définition suivante de corpus comparable Deux corpus de deux langues l 1 (-displaystyle l-(1)) et l 2 (-displaystyle l-(2)) sont dits comparables s'il existe une sous-partie non négligeable du vocabulaire du corpus de langue l 1 (-displaystyle l-(1)), respectivement l 2 (-displaystyle l-(2)), dont la traduction se trouve dans le corpus de langue l 2 (-displaystyle l-(2)), respectivement l 1 (-displaystyle l-(1)).
+Un corpus comparable est donc composé de textes dans des langues différentes, mais partageant une partie du vocabulaire employé, ce qui implique généralement que les textes parlent d'un même sujet, à la même époque et dans un registre comparable. Une sélection d'articles de journaux dans différentes langues, traitant d'une même actualité internationale et à la même époque constitue un bon exemple de corpus comparable.
+L'alignement ne peut donc plus s'appuyer sur la structure du texte (qui n'a pas à être identique d'une langue à l'autre) et les approches proposées cherchent plutôt à prendre en compte le contexte de chaque terme à aligner, c'est-à-dire la façon dont ils sont employés et les mots avec lesquels ils concourent dans le texte.
+
+Autres sens: Le genre Corpus désigne un groupe d'insectes.; Le Corpus Omnium est une dénomination américaine d'une image tirée d'un manuscrit anglais du XVIe siècle. Cette image est appelée tablette de Nalvage en français.
+
+Voir aussi
+
+Articles connexes: Linguistique; Linguistique comparée; Linguistique structurale; Analyse lexicale; Analyse littéraire; Langue française; Traitement automatique du langage naturel.

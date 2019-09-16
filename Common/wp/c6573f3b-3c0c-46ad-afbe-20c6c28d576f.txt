@@ -1,0 +1,4 @@
+BigTable est un système de gestion de base de données compressées, haute performance, propriétaire, développé et exploité par Google.
+C'est une base de données orientée colonnes, dont se sont inspirés plusieurs projets libres, comme HBase, Cassandra ou Hypertable.
+Chez Google, BigTable est stockée sur le système de fichiers distribué GoogleFS.
+Google ne distribue pas sa base de données mais propose une utilisation publique de BigTable via sa plateforme d'application Google App Engine.

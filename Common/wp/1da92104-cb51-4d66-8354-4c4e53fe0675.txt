@@ -1,0 +1,23 @@
+Le référencement local est une technique d'optimisation web qui est apparue vers la fin de 2006.
+Cette technique consiste à créer une fiche d'entreprise sur la section carte des moteurs de recherche et de profiter ainsi d'affichage optimisée dans les pages de résultats de recherche, mais aussi sur les cartes.
+
+Intérêt
+Le référencement local offre de nombreux avantages aux petites entreprises qui n'ont ni budget, ni d'expertise importante et qui souhaitent être présents sur le web sans forcément avoir de site. Le service de référencement local est gratuit sur la grande majorité des moteurs de recherche; Il est très facile d'utilisation et requiert peu d'expertise; De plus en plus d'utilisateur d'internet font des recherches dites locales avec la démocratisation des mobinautes; Le référencement local ne requiert pas l'obligation de posséder un site web d'entreprise.; La recherche locale permet des résultats de recherche beaucoup plus précis car les entreprises sont classifiés géographiquement, ainsi que par catégories de services.
+Bien que les moteurs de recherche locaux aient déjà intégré de nombreuses entreprises automatiquement, il est primordial pour celles-ci de modifier les renseignements les concernant et de les personnaliser afin d'offrir un référencement optimal.
+Depuis que l'usage des téléphones mobiles a évolué vers les smartphones et les connexions à haut-débit en itinérance (4G, WiFi public etc.), l'intérêt d'un bon référencement local sur mobile est devenu plus important.
+
+Principales plates-formes de référencement local
+
+Google My Business
+Google My Business (anciennement Google Local Business Center, Google Adresses (en 2010), Google Plus Local), la plate-forme de référencement local de Google est la plus connue à ce jour. Celle-ci permet à des millions d'entreprises à travers le monde de s'afficher sur les résultats locaux de Google. D'après le blog officiel de Google, plus de 20 % des recherches sur Google sont des recherches locales. Google My Business a automatiquement intégré des millions d'entreprises locales sur son moteur, en utilisant notamment les informations d'entreprises tels que les Pages jaunes. Les entreprises qui utilisent ce service ont la possibilité de recevoir un autocollant à placer sur leur porte indiquant leur référencement sur le site Google Maps. Les données étaient validées par MapMaker et sa communauté entre 2008 et le 31 mars 2017. Il est maintenant remplacé par le service Local Guide.
+
+Bing Business Portal
+Bing Business Portal est une contre-attaque de Microsoft envers Google. Ce service de référencement local a vu le jour en avril 2011. Ce moteur de recherche local offre moins de visibilité aux entreprises canadiennes car moins de 10 % des recherches au Canada sont effectués sur ce moteur, comparativement à près de 30 % aux États-Unis.
+
+Pages Jaunes
+Les pages jaunes ont pour but de rassembler un maximum d'informations sur les professionnels d'un espace géolocalisé.
+
+Foursquare
+Foursquare est un réseau social permettant aux gérants d'entreprises locales (boulangeries, restaurants, usines, bureaux...) d'échanger avec leur consommateurs.
+
+Articles connexes: Référencement; Optimisation pour les moteurs de recherche. Portail d'Internet.

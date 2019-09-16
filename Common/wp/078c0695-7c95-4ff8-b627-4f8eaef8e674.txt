@@ -1,0 +1,7 @@
+Jaiku était un outil de réseau social et de microblog comparable à Twitter. Jaiku a été fondé en février 2006 par Jyri Engeström et Petteri Koponen. Il a été lancé au mois de juillet de cette même année. Jaiku a été racheté par Google le 9 octobre 2007, puis fermé le 15 janvier 2012.
+
+Histoire
+Jaiku a été fondé en février 2006 par Jyri Engeström et Petteri Koponen. Le siège de Jaiku se trouve à Helsinki en Finlande. Le nom Jaiku a été donné à cette startup car les messages que l'on retrouve sur le site sont semblables à des Haïkus japonais. Toutefois, cherchant à renforcer la présence et les usages sur le net de son propre réseau social Google+, la société Google a décidé de mettre un terme à sa première tentative en la matière Google Buzz ainsi que Jaiku qu'elle avait racheté en octobre 2007. Jaiku n'est plus en service depuis le 15 janvier 2012.
+
+Présentation
+Jaiku est un service de microblogging accessible aux téléphones mobiles et au minitel. Contrairement à Twitter, aucune limitation de caractères n'est imposée. Jaiku utilise Twisted, un framework basé sur Python.

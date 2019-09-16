@@ -1,0 +1,3 @@
+OpenRefine (anciennement Google Refine) est un logiciel libre de nettoyage et de mise en forme de données.
+
+Voir aussi: manuel sur la page de la School of data de l'OKF; dépôt du code source. Portail du logiciel; Portail des probabilités et de la statistique; Portail des logiciels libres.

@@ -1,0 +1,12 @@
+Un Autonomous System (abrégé AS), ou système autonome, est un ensemble de réseaux informatiques IP intégrés à Internet et dont la politique de routage interne (routes à choisir en priorité, filtrage des annonces) est cohérente.
+Un AS est généralement sous le contrôle d'une entité ou organisation unique, typiquement un fournisseur d'accès à Internet.
+Au sein d'un AS, le protocole de routage est qualifié d'"interne" (par exemple, Open shortest path first, abrégé en OSPF). Entre deux systèmes autonomes, le routage est "externe" (par exemple Border Gateway Protocol, abrégé en BGP).
+Chaque AS est identifié par un numéro de 16 bits (ou 32 depuis 2007, selon la RFC 4893) , appelé "Autonomous System Number" (ASN). Ce numéro est utilisé par le protocole de routage Border Gateway Protocol (BGP). Il est affecté par les organisations qui allouent les adresses IP, les Registres Internet régionaux (RIR). En Europe, c'est le RIPE-NCC qui assume cette charge.
+En général, l'ASN n'apparait pas dans les protocoles de routage internes puisque, par définition, ils sont limités à un seul AS. Cependant, certains protocoles de routage internes, tels que Enhanced Interior Gateway Routing Protocol (EIGRP), sont configurés pour n'établir d'adjacence qu'avec les routeurs qui annoncent le même système autonome.
+Le nombre d'AS composant Internet dépassait 5 000 en 1999, 30 000 fin 2008, 35 000 mi-2010, plus de 45 000 en mai 2013.
+
+Numéros d'AS spéciaux
+Les numéros réservés pour un usage personnel ne doivent pas être utilisés pour un réseau relié à Internet.
+Lors de l'introduction des numéros d'AS à 4 octets, certains équipements (appelés "old speakers") n'étaient compatibles qu'avec les numéros d'AS à 2 octets. Pour pallier ce problème, l'ASN23456 (également appelé AS-TRANS) a été réservé pour permettre l'appairage entre les routeurs de bordure compatibles avec les ASN de 4 octets ("new speakers") et ceux qui sont incompatibles.
+
+Voir aussi: Default-free zone; Border Gateway Protocol (BGP); Enhanced Interior Gateway Routing Protocol (EIGRP); Open Shortest Path First (OSPF). Portail de l'informatique; Portail des télécommunications.

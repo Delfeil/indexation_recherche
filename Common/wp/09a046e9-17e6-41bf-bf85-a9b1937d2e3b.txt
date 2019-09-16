@@ -1,0 +1,27 @@
+Penguin (ou Google Penguin) est le nom de code d'une mise à jour de l'algorithme PageRank de Google qui a été annoncée le 24 avril 2012.
+La mise à jour avait pour objectif de réduire le positionnement des sites Web qui violaient les Google's Webmaster Guidelines en utilisant des techniques de référencement abusif (spamdexing), tels que le keyword stuffing, le cloaking, la participation à des échanges de liens, la duplication délibérée de contenu et autres.
+
+Nom de la mise à jour
+La mise à jour Penguin a été introduite le 24 avril 2012. Google ne lui a donné un nom officiel que 2 jours plus tard.
+
+Effets de penguin sur les résultats du moteur de recherche
+Selon les estimations de Google, Penguin touche environ 3,1 % des requêtes en anglais et environ 3 % des requêtes dans des langues comme l'allemand, le chinois et l'arabe. L'impact est plus grand pour les langues où le référencement abusif est plus fréquent.
+
+Différences entre Penguin et les mises à jour précédentes
+Avant Penguin, Google a publié des mises à jour de son algorithme PageRank sous le nom de code Panda. La première de ces mises à jour a été publiée en février 2011. Le but des mises à jour Panda était de réduire le positionnement des sites Web qui fournissaient une expérience utilisateur médiocre. Pour identifier ces sites, un algorithme d'apprentissage automatique développé par l'informaticien Navneet Panda était utilisé, d'où le nom de code des mises à jour. L'algorithme avait été développé par des techniques d'intelligence artificielle à partir d'évaluations faites par des humains sur l'expérience utilisateur d'un grand nombre de sites.
+En janvier 2012, une mise à jour basée sur la mise en page des sites a été publiée. Cette mise à jour visait a réduire le positionnement des pages qui affichaient peu d'information sur la partie de la page visible sans utilisation de la barre de défilement.
+Penguin vise aussi à améliorer l'expérience utilisateur, mais en mettant plutôt l'accent sur la réduction du positionnement des sites utilisant le référencement abusif. Les mises à jour Panda ne se préoccupaient pas des référencements abusifs. Google cherche donc à empêcher les webmasters de faire du Black hat pour offrir aux internautes des contenus de qualité.
+
+Formulaires de rétroaction
+Deux jours après l'introduction de la mise à jour, Google a publié un formulaire de rétroaction destiné à deux catégories d'utilisateur : ceux qui veulent signaler un site qui pratique le référencement abusif (spamdexing) et qui est encore bien positionné malgré l'introduction de la mise à jour ;; ceux qui pensent que leur site est mal positionné injustement par l'algorithme.
+Google avait aussi précédemment publié un formulaire de réexamen dans les Google Webmaster Tools pour les 700,000 sites qui avaient reçu un message électronique indiquant que ces sites présentaient des liens suspects.
+
+Évolution de Google Penguin
+Une première mise à jour de cet algorithme a eu lieu 26 mai 2012. Cette mise à jour, selon Matt Cutts, devait toucher moins d'un dixième d'un pour cent des recherches en langue anglaise.
+Google Penguin 2.0 a été déployé le 22 mai 2013. Il s'agit du quatrième lancement du filtre. La mise à jour impacterait 2,3 % des résultats de recherche anglophones. Cette version intègre désormais l'algorithme Penguin aux mises à jour quotidiennes de Google.
+Google Penguin 2.1 a été déployé le 4 octobre 2013. Cette version de Penguin apparaît comme la suite de la version précédente et semble être mineure. D'après Matt Cutts, elle n'impacterait qu'environ 1% de l'ensemble des résultats de recherche.
+Google Penguin 3.0 a été déployé le 17 octobre 2014. L'objectif de cette version est d'améliorer encore la détection d'abus de liens et notamment la détection de réseaux de sites développés uniquement dans le but de créer des liens artificiels. Cette mise à jour a été déployée sur une longue période puisque Google a indiqué au début du mois de décembre 2014 que les mouvements remarqués par les webmasters étaient dus à la mise à jour Google Penguin 3.0 lancée six semaines plus tôt.
+
+Source: (en) Cet article est partiellement ou en totalité issu de l'article de Wikipédia en anglais intitulé "Google Penguin".
+
+Voir aussi

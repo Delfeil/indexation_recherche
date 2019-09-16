@@ -1,0 +1,13 @@
+L'Internet Society (ISOC) est une association de droit américain à vocation internationale créée en janvier 1992 par les pionniers de l'Internet pour promouvoir et coordonner le développement des réseaux informatiques dans le monde. Elle est en 2005 l'autorité morale et technique la plus influente dans l'univers du réseau Internet.
+
+Histoire
+En 1992, l'Internet poursuivait sa croissance rapide avec un doublement des différents indicateurs tous les 12 à 15 mois. Mais cette croissance était encore largement concentrée en Amérique du Nord. Parallèlement, on assistait au retrait progressif des institutions publiques américaines qui avaient jusqu'alors assuré son financement. Dans l'esprit de ses créateurs, il s'agissait dès lors pour l'ISOC d'encourager la croissance du réseau qui s'amorçait à l'échelle mondiale en débordant le cadre initial de la recherche. Dès sa création, l'ISOC a joué un rôle important dans la coordination, l'échange d'expériences et l'extension du réseau au-delà de la zone des pays les plus riches : Europe de l'Est, Asie, Amérique du Sud et Afrique.
+
+Fonctionnement
+L'ISOC apporte à l'Internet Engineering Task Force (IETF) un support organisationnel et financier. En retour, L'IETF doit nommer trois administrateurs de son bureau selon une procédure échelonnée sur trois ans et au rythme d'une nomination par an.
+L'IETF, dont les normes sont issues de ses travaux, regroupe des ingénieurs et chercheurs du monde entier. Ils sont chargés de faire évoluer les standards de communication en prônant le consensus et la démonstration de solutions opérationnelles. Par ailleurs, elle organise le rassemblement annuel des internautes. Ainsi, même si l'Internet a une dynamique qui lui est propre, l'ISOC veille à sa progression et à sa bonne marche.
+L'association regroupe 28 000 membres (personnes physiques) venant de 170 pays, ainsi que plus de 80 organisations et 90 filiales réparties dans le monde entier. L'ISOC fédère aussi près de 85 chapitres (sections nationales ou régionales), dont un chapitre français (l'Internet Society France), un chapitre luxembourgeois (l'Internet Society Luxembourg) et un chapitre québécois.
+Une grande partie du financement de l'ISOC provient des organisations membres, de l'organisation des 3 conférences annuelles de l'IETF et du Public Interest Registry (PIR) qui est l'organisme sous contrôle de l'ISOC chargé de gérer le registre du domaine Internet ".org".
+Le Conseil d'administration dirige l'ISOC.
+
+Articles connexes: Internet Architecture Board; Internet Assigned Numbers Authority; Internet Engineering Steering Group.

@@ -1,0 +1,21 @@
+La polysémie est la caractéristique d'un mot ou d'une expression qui a plusieurs sens ou significations différentes (on le qualifie de polysémique).
+Il ne faut pas confondre polysémie et homonymie. Deux mots homonymes ont la même forme (phonique ou graphique) mais sont des mots totalement différents, c'est-à-dire qu'ils n'ont pas la même étymologie. Ils ont deux entrées distinctes dans le dictionnaire. Polysémie et homonymie sont des cas particuliers d'ambiguïté.
+
+Exemples: Opéra : la pâtisserie, le lieu, l'art; Théâtre : l'art, le lieu, la production littéraire; Rouge : la couleur, le vin, la colère, le communisme, le sang; Vivre : exister, subsister, habiter, expérimenter, traverser; Indien: habitant de l'Inde, autochtone des Amériques; Américain : qui vient de l'Amérique, qui vient des États-Unis; Clarté : lumière, transparence, intelligibilité, blancheur; Souris : Tipp-Ex, souris d'ordinateur, l'animal, la viande d'agneau, sourire, jeune fille; Folie : Anomalie de la conscience, élément architectural inattendu.
+Il arrive même qu'un mot désigne à la fois une chose et son contraire (on parle alors d'énantiosémie ou de mot énantiossémique) : Apprendre signifie selon les cas enseigner, ou acquérir une connaissance ;; Hôte, désigne selon le contexte celui qui reçoit ou celui qui est reçu ;; Regret, désigne la plainte ou la nostalgie. ex "Je regrette mon enfance".; Louer : donner ou, au contraire, prendre en location ;; Plus : il y en a plus (il y en a davantage) ou il n'y en a plus (il n'en reste pas).; Trouvaille : idée astucieuse et invention ridicule; Doute : désigne selon le contexte, le doute ou la certitude. Ex "douter de quelque chose" ou "se douter de quelque chose".; Trouvailleur : inventeur de talent et Géo trouvetout.
+L'évolution du langage (due au fait qu'il faut bien décrire soit un monde qui évolue, soit un monde dont au moins notre connaissance évolue) conduit à utiliser parfois un mot dans un nouveau sens, le plus souvent par extension de sens. On parlera par exemple d'une feuille de papier ou du pied d'un arbre, par analogie avec une feuille d'arbre ou avec le pied d'un animal (voir métaphore et catachrèse).
+
+Chaînes sémantiques
+Utilisées par le linguiste Pierre Parisot, et établies au moyen de cheminements sur ordinateur, des chaînes sémantiques permettent souvent, en jouant sur la polysémie, de passer de synonyme en synonyme d'un mot à son contraire. Exemple : léger inconséquent maladroit gauche lourd.
+On peut passer de même de "vie" à "mort", d'"homme" à "femme", etc., le plus souvent par des chaînes ne comportant pas plus de dix mots. L'astuce réside dans le fait que si A est synonyme de B dans un certain contexte, et B synonyme de C dans un autre contexte, cela n'implique nullement que A soit synonyme de C dans quelque contexte que ce soit : la relation de synonymie n'est pas transitive.
+Voir aussi : Oulipo.
+
+Polysémie et néosémie
+La néosémie est le mécanisme de création d'un nouveau sens pour un mot. Elle accroit donc sa polysémie.
+
+Cas particulier des mathématiques
+Les mathématiciens, plutôt que de créer des mots nouveaux, aiment souvent reprendre des mots existants en leur donnant un sens particulier dans le contexte de leur discipline, comme les mots groupe, anneau, corps, adhérence, distribution, clôture, etc. Cela conduit parfois à des formulations qui peuvent sembler curieuses au profane, comme "un espace topologique est discret si et seulement si toutes ses parties sont ouvertes et fermées".
+
+Voir aussi
+
+Articles connexes: Ambiguïté; Faux-ami; Homonymie.

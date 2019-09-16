@@ -1,0 +1,33 @@
+qmail est un serveur de messagerie électronique (Mail Transport Agent) pour Linux et autres dérivés d'Unix, créé par le cryptologue Daniel J. Bernstein. Il permet de mettre en place un service SMTP (Simple Mail Transfert Protocol) permettant l'envoi de courriels.
+qmail a la même utilité que sendmail ou encore postfix et exim, mais il possède une architecture modulaire, comportant un ensemble de commandes simples, selon la règle du KISS (garder les choses simples et stupides), le rendant efficace et sécurisé.
+
+Historique
+Au départ, Qmail était disponible gratuitement, le code était accessible et tout le monde avait l'autorisation de redistribuer les sources. En revanche, il était interdit de redistribuer une version compilée de qmail (même si des modifications avaient été effectuées). Les conséquences de cette restriction pour qmail ont été l'absence de fonctionnalités relativement courantes en standard. Dans de nombreux cas, cela rendant obligatoire l'application de patchs. L'ajout de ces patchs rendaient l'installation plus complexe. netqmail, une distribution de qmail contenant les patchs a été créée pour contourner cela.
+La version 1.03 de qmail est par contre passée dans le domaine public, il est donc devenu un véritable logiciel libre.
+
+Interfaces
+
+Ligne de commande
+qmail est avant tout dédié aux serveurs de mail. Les différentes commandes de qmail peuvent donc être exécutées dans un shell afin d'en faciliter la gestion et l'automatisation.
+
+SMTP
+qmail gère en natif le SMTP.
+
+vpopmail
+vpopmail, un outil de gestion des comptes pop permet de créer et modifier les comptes au format qmail.
+
+Qmailadmin
+Qmailadmin est une interface HTML tierce à utiliser dans un navigateur web. Elle permet de créer, modifier et supprimer des boites, des renvois de mails, et des robots, tels que les répondeurs automatiques.
+
+IMAP
+Le serveur IMAP courrier-imap, par exemple, peut facilement s'interfacer avec qmail.
+
+Clients de messageries compatibles
+Lorsqu'un serveur POP ou IMAP sont déjà installé autour de qmail, la majorité des outils respectant les standard IMAP et-ou POP peuvent servir de clients de messagerie avec qmail.
+
+Webmail
+Il est possible de configurer à peu près n'importe quel webmail pour qu'il puisse s'y interfacer. Il existe par exemple SqWebMail, Roundcube...
+
+Notes et références
+
+Voir aussi

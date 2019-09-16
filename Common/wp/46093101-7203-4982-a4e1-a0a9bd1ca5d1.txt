@@ -1,0 +1,26 @@
+La plupart des structures algébriques permettent de construire de façon très simple une structure produit sur le produit cartésien des ensembles sous-jacents. Plus généralement, on peut appeler produit direct un produit qui commute avec le foncteur d'oubli. C'est le cas de la topologie produit dans la catégorie des espaces topologiques.
+
+Produit direct de deux magmas
+Soient E un ensemble muni d'une loi de composition interne T et F un ensemble muni d'une loi de composition interne (-displaystyle -star). On peut définir une loi de composition interne (-displaystyle -) sur le produit cartésien EF de la façon suivante :
+
+Propriétés: Si T et (-displaystyle -star) sont associatives, alors la loi (-displaystyle -) est associative.; Si T et (-displaystyle -star) sont commutatives, alors la loi (-displaystyle -) est commutative.; Si T admet un élément neutre e et si (-displaystyle -star) admet un élément neutre f, alors (e , f) (-displaystyle (e,f)) est neutre pour (-displaystyle -). Si de plus x admet un symétrique x' pour T et si y admet un symétrique y' pour (-displaystyle -star), alors (x, y) admet (x', y') comme symétrique.; Si de plus x admet un symétrique x' pour T et si y admet un symétrique y' pour (-displaystyle -star), alors (x, y) admet (x', y') comme symétrique.
+
+Produit direct de magmas
+Soit (Ei)iI une famille d'ensembles, chaque Ei étant muni d'une loi de composition interne i (-displaystyle -star -(i)). On peut définir une loi de composition interne (-displaystyle -) sur le produit cartésien iI Ei de la façon suivante :
+Cette construction est valable que I soit un ensemble fini ou infini.
+
+Propriétés: Si chaque loi i (-displaystyle -star -(i)) est associative, la loi (-displaystyle -) est associative.; Si chaque loi i (-displaystyle -star -(i)) est commutative, la loi (-displaystyle -) est commutative.; Si chaque loi i (-displaystyle -star -(i)) possède un élément neutre ei (respectivement neutre à droite, respectivement neutre à gauche), la famille (ei)iI est neutre (respectivement neutre à droite, respectivement neutre à gauche) pour (-displaystyle -).; Si chaque loi i (-displaystyle -star -(i)) possède un élément neutre et si dans chaque Ei, un élément quelconque xi possède un symétrique (respectivement symétrique à droite, respectivement symétrique à gauche) yi, alors la famille (xi)iI admet la famille (yi)iI comme symétrique (respectivement symétrique à droite, respectivement symétrique à gauche).
+En particulier, le produit direct d'une famille de groupes est un groupe.
+
+Produit direct d'anneaux
+Soit (Ei)iI une famille d'ensembles, chaque Ei étant muni de deux lois + i (-displaystyle +-(i)) et i (-displaystyle --(i)). On peut comme précédemment définir une loi + (-displaystyle +), produit direct des + i (-displaystyle +-(i)) et une loi (-displaystyle -), produit direct des lois i (-displaystyle --(i)).
+Si chaque loi i (-displaystyle --(i)) est distributive par rapport à la loi + i (-displaystyle +-(i)), alors la loi (-displaystyle -) est distributive par rapport à la loi + (-displaystyle +).
+En particulier, si chaque Ei est muni d'une structure d'anneau, on construit ainsi un anneau produit direct.
+
+Produit direct d'espaces vectoriels
+Soit une famille (Ei)iI d'espaces vectoriels sur un même corps K. Les lois suivantes font du produit cartésien iI Ei un K-espace vectoriel, appelé produit de la famille (Ei)iI :
+Le vecteur nul est la famille (0)iI formée par les vecteurs nuls des espaces Ei.
+Lorsque tous les Ei sont égaux à un même K-espace vectoriel E (par exemple à K, vu comme K-droite vectorielle), iI Ei est l'espace vectoriel EI des applications de I dans E.
+
+Article connexe
+Somme directe: Portail des mathématiques.

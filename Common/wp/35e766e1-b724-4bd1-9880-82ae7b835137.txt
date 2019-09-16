@@ -1,0 +1,55 @@
+L'expertise en écritures est distincte de la graphologie, dont le statut épistémologique est contesté. L'expertise en écritures vise notamment à évaluer l'authenticité d'un document (par exemple celui d'un testament) et, plus généralement, à examiner des documents écrits afin d'en tirer certaines conclusions, relatives à l'identité ou à l'état du sujet (graphopathologie), à des inscriptions effacées (techniques de lecture des tracés en sillons), etc. L'expertise des écritures manuscrites proprement dite est distincte de l'expertise scientifique des documents contestés.
+
+L'expertise des écritures manuscrites
+
+Les titres
+
+En France
+En France l'expert judiciaire a un statut qui découle de la loi n 71.498 du 29 juin 1971 modifiée par la loi n 2004-130 du 11 février 2004. Le titre est protégé par l'article 4 de la loi du 11 février 2004 puisque toute personne qui usurperait l'identité d'expert agréé par la Cour de Cassation, d'expert près l'une des Cours d'appel ou d'expert près le Tribunal administratif serait passible des peines prévues à l'article 259 du Code pénal.
+L'activité d'expert est réglementée en matière pénale comme en matière civile par certains articles des codes de procédure. L'expert doit observer une indépendance absolue ne cédant à aucune pression ou influence de quelque nature qu'elle soit. Un expert judiciaire est un professionnel spécialisé dans une technique donnée qui met sa compétence au service de la justice lorsqu'elle le sollicite. Au-delà du serment prêté, l'expert adhérant à une compagnie s'engage à respecter les règles de déontologie établies par le Conseil National des Compagnies d'Experts de Justice. Dans tous les cas, l'expert est désigné pour une mission bien définie et ne doit pas sortir de son cadre sans autorisation du demandeur (juridiction ou magistrat).
+Enfin, l'expert judiciaire peut se prévaloir de son titre pour se voir chargé d'une expertise officieuse, c'est-à-dire d'une consultation demandée en dehors de toute instance judiciaire dans le cas d'une vérification d'écritures. Toute consultation privée effectuée par une personne non inscrite est sans valeur probante. C'est l'inscription sur la liste qui constitue, en quelque sorte, la garantie de compétence du technicien qui effectue l'expertise officieuse.
+
+Aperçu historique
+Contrairement à la graphologie, l'expertise en écritures n'est pas une pratique récente. En effet nous trouvons sa trace certaine sous l'empereur Constantin le Grand, 3 siècles apr. J.-C. En fait, l'Italie est bien le berceau des premiers principes d'identification des écritures avec les travaux de Prosper Aldesirius (1594) et de Jean Frigioli (1610). En France le premier traité sur cette matière sensible est celui de François Demelle : Advis pour juger des inscriptions en faux... en 1604 suivi en 1639 par celui de Robert Preudhomme et surtout en 1666 par celui de Jacques Raveneau : Traité des inscriptions en faux, ouvrage qui obtint un grand succès à l'époque et dont l'influence durera plus de deux siècles (Alphonse Bertillon disait en 1898 : "Malgré l'aide apportée par la photographie et le microscope, l'expertise en écritures n'a guère progressé depuis Raveneau").
+Dans les années 1920, le docteur Locard, criminologue célèbre, instaura l'analyse distributionnelle. Considérant 23 variables dans l'écriture, il prit 100 mesures pour chacune d'elles et dressa les histogrammes correspondants.
+Solange Pellat fut l'un des créateurs de la graphonomie, l'autre étant le philosophe André Lalande. Dès le début du XXe siècle, en véritable scientifique, elle procédait à une analyse très fine des mouvements de l'écriture. Un peu plus tard, elle s'engageait dans une recherche sur les lois fondamentales de l'écriture.
+
+La formation
+
+En France
+En 1914, S. Pellat fonde la Société Technique des Experts en Ecritures et une école est installée dans les locaux de la Sorbonne avec un cycle de deux années d'études. Cette société connut un grand prestige tant en France qu'à l'étranger. Pourtant, en 1931, à la mort de S. Pellat, cette société cessa toute activité. En 1963, à l'initiative de Suzanne Hotimsky, une nouvelle association fut créée sous le même nom. Elle devait former un corps de techniciens capables de procéder scientifiquement à l'identification des écritures. Au décès de Suzanne Hotimsky en 1984, la Société tomba en sommeil.
+Actuellement, en France il y a très peu d'enseignements spécialisés, à savoir : un diplôme universitaire Techniques en analyse de documents et en comparaison d'écritures manuscrites à l'Université Paris Descartes (Paris 5) sous la direction d'un professeur de médecine légale et un cours privé de spécialisation dans le domaine de l'analyse des écritures et des documents. De ce fait, les experts sont recrutés parmi les chartistes, les universitaires intéressés par le sujet; les graphométriciens, (voir plus bas : la graphométrie), employant des méthodes de traitement statistiques sur des mesures effectuées sur les écritures (de question ainsi que de comparaison), qui sont naturellement les plus qualifiés au plan des techniques analytiques scripturaires.
+
+La validation
+L'expertise en écritures entre dans le domaine de la graphistique, terme générique qui regroupe la graphonomie et la graphométrie.
+
+La graphonomie
+C'est l'étude des phénomènes graphiques considérés en eux-mêmes sur leur aspect objectif indépendamment des écritures où on les observe. Elle se fonde en particulier sur la théorie décrite par Pellat en 1929.
+Par ailleurs, dans les cas difficiles de l'application de la méthode générale dite des concordances et des discordances, l'expert dispose de tests statistiques (Buquet, Manchon 1989) qui l'aide à évaluer la fiabilité probable de son examen, ou encore le pourcentage de risques de se tromper.
+
+La graphométrie
+C'est une science mathématique qui mesure les différentes dimensions de l'écriture, les met en corrélation avec des interprétations statistiques par le moyen de puissantes méthodes d'analyse multi-variées, positionne les scripteurs sur des échelles de référence. C'est une méthode expérimentale et reproductive. Tout y est affaire de traitement informatique (par l'application de la mathématique), des mesures effectuées sur les écritures sous forme de relevés obtenus par cumulation et comparaison.
+La graphométrie est validée par les travaux de Locard (1920), Théa Stein-Lewinson (1942), Jacques Salce et Marie-Thérèse Prenat (1968) et plus récemment Buquet, Manchon (1984-1985) qui préconisent dans les cas délicats la méthode de l'analyse de variance sur les caractéristiques graphométriques des écritures. Aujourd'hui, Catherine BOTTIAU, dans le sillon tracé par Marie-Thérèse PRENAT (disparue en janvier 2010) continue les recherches en graphométrie avec une équipe de graphologues et graphométriciens.(CIR2G)
+Dans un sens plus moderne, adapté à l'informatisation de l'écriture, la graphométrie peut également désigner des statistiques sur les emplois de caractères textuels. Le but reste identique, l'authentification d'un texte.
+
+L'expertise clinique judiciaire
+
+En France
+En 1991 l'expertise clinique judiciaire voit le jour suite à des désignations en dualité d'experts et une collaboration étroite entre Salce et Buquet.
+
+Le grapho-diagnostic
+Il concerne l'étude des "écritures spéciales" (Buquet - 1999), c'est-à-dire sortant du cadre de l'écriture dite "normale" par suite de déformations présumées d'ordre moteur et-ou mental. Ces écritures sont porteuses de signes graphiques particuliers. La recherche détaillée des phénomènes scripturaux résultant des états pathologiques, l'étude des déformations grapho-motrices et des signes d'altération ou de dégradation lus dans les écritures permettent l'identification d'une écriture d'alcoolique, de vieillard, de déprimé, de cardiaque, d'asthmatique, de convalescent, de "simulateur" ou de toxicomane.
+
+L'expertise scientifique des documents
+
+En France
+Dans la nomenclature du décret n 2004-1463 du 23 décembre 2004, l'arrêté du 10 juin 2005 stipule à la rubrique G:4 (documents et écriture) et G:5 (documents informatiques). Cela confirme que l'expertise d'écritures manuscrites ne peut être dissociée de l'expertise des documents en général (sorties informatiques, télécopies, photocopies, supports magnétiques divers, etc.). Par ailleurs l'étude des documents a toujours été une spécialité de la criminalistique au même titre que les empreintes digitales, la balistique ou les explosifs, etc.
+Elle fait appel aux méthodes scientifiques de laboratoire dont les résultats s'avèrent dans bien des cas déterminants pour formuler ou nuancer une conclusion.
+Parmi les méthodes les plus employées, nous citerons : les méthodes microscopiques (microscope stéréoscopique, microscope électronique à balayage (M.E.B.); les méthodes de lecture de tracés latents en sillons (photographies en lumière rasante, appareil ESDA); les méthodes de visions par rayonnements électromagnétiques dans l'invisible (caméra UV ou IRR, comparateur vidéospectral); les méthodes physico-chimiques d'analyse (chromatographie sur couche mince haute performance C.C.M.H.P., spectrométrie infrarouge à transformée de Fourier SIRTF); les méthodes de rugosimétrie de surface en 2D ou 3D.
+
+Vérification automatisée des écritures et des signatures
+Dans le domaine de la recherche, il faut citer la vérification automatisée des écritures et des signatures. Pour le cas des écritures cursives liées qui est le plus délicat, le Système Mathetique-Perceptron (SMP) paraît avoir réglé le problème. Ce système est basé sur le principe qui doit être mathétique c'est-à-dire susceptible d'un apprentissage dynamique judicieux utilisant une architecture "perceptron-multicouche" qui permet d'ajuster les décisions au moyen d'algorithmes interactifs (Buquet, 2001)
+
+Voir aussi
+
+Articles connexes: Criminalistique; Graphopathologie; Documents écrits à main guidée; Techniques de lecture des tracés en sillons.

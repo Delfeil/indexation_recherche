@@ -1,0 +1,44 @@
+En informatique, l'émulation consiste à substituer un élément de matériel informatique - tel un terminal informatique, un ordinateur ou une console de jeux - par un logiciel.
+La définition du terme émuler est "chercher à imiter". Il faut voir dans l'émulation une imitation du comportement physique d'un matériel par un logiciel, et ne pas la confondre avec la simulation, laquelle vise à imiter un modèle abstrait. L'émulateur reproduit le comportement d'un modèle dont toutes les variables sont connues, alors que le simulateur tente de reproduire un modèle mais en devant extrapoler une partie des variables qui lui sont inconnues (exemple : la simulation du comportement d'un trou noir). Le recours à un émulateur, selon le contexte, permet de faciliter le développement ou le débogage d'un système ou de remplacer un système obsolète ou inutilisable par un autre. Dans ce cadre, il est possible de faire fonctionner le nouveau système, l'émulateur, de la même manière que le système imité.
+
+Applications
+Émulation d'un système Unix par Cygwin.
+On peut discerner plusieurs applications principales.
+
+Émulateur de terminal
+L'émulation d'un terminal informatique est pratiquée depuis les années 1970. En effet, les terminaux physiques sont devenus rares, mais le mode d'interaction est resté. Ainsi on utilise un émulateur de terminal comme xterm pour émuler une console VT100.
+
+Émulation d'ordinateur
+Pour une imitation logicielle d'un ordinateur, on stocke le contenu des périphériques de stockage (disque durs...) dans des fichiers images (reflets) des périphériques d'origine. Ces fichiers images peuvent être à taille fixe (qui ne grandira pas) ou à taille dynamique (qui grandira au fur et à mesure que l'on y stocke des données dans la limite de la taille du disque dur physique sur lequel ce fichier image se trouve). Parfois, ces émulateurs d'ordinateurs utilisent certains lecteurs physiques comme les lecteurs de CD rom ce qui permet d'utiliser directement les supports de stockage sans être obligé de transférer leurs données dans des fichiers images qui prennent de la place sur le disque dur.
+
+Émulation en conception électronique
+Dans le domaine de l'électronique de l'informatique embarquée, le terme émulateur désigne un dispositif matériel (électronique) qui permet de faire du développement et du débogage. Dans ce cadre, et afin de marquer la différence, on parle de simulateur pour un logiciel qui émule le comportement d'un microprocesseur.
+L'émulateur remplace physiquement le microprocesseur (ou le microcontrôleur) à l'aide d'une sonde (connecteur dont le brochage est compatible avec ce dernier). L'électronique pilotée de l'émulateur remplace ainsi (idéalement strictement à l'identique) le microprocesseur d'un point de vue électrique et numérique. La sonde est interfacée (généralement via une carte périphérique spécifique) avec un ordinateur de développement pour permettre à l'ingénieur de contrôler et d'observer le fonctionnement du microprocesseur émulé.
+On parle d'émulateur temps-réel lorsque celui-ci respecte les contraintes temporelles du microprocesseur (cycles d'écriture, temps de réponse...).
+Ce type de matériel est très coûteux en comparaison du circuit émulé, coût lié au développement complexe d'un tel dispositif et au fait qu'il ne fait pas l'objet d'une utilisation massive : l'émulateur est utilisé dans le développement, le microprocesseur-microcontrôleur est utilisé pour la production (de masse). De plus, il n'existe généralement des émulateurs que pour les "petits" microcontrôleurs (8 bits). Pour les autres, il est plus fréquent de voir ce que l'on appelle un "in-circuit emulator" (ICE) : l'émulateur est alors intégré au microprocesseur lui-même et est connecté à l'ordinateur de développement via une interface plus simple (comme le célèbre JTAG).
+
+Émulation de jeu
+
+Émulation de système de jeux vidéo
+L'émulation d'un jeu consiste à reproduire sur une machine le comportement d'un jeu qui a été programmé pour un autre type de machine.
+Sur la machine appropriée (console ou borne d'arcade), le programme n'est pas émulé, et on dit que le jeu fonctionne en natif. Il est stocké généralement dans des mémoires mortes (soit sur la carte mère, soit dans des cartouches enfichables) ; leur contenu est ainsi appelé ROM dans l'usage courant.
+Un émulateur fonctionne de la même façon que cette machine, en chargeant cette ROM et en exécutant le programme (jeu) qui y est stocké, en s'adaptant aux ressources disponibles (périphériques d'entrées-sorties, vitesse d'exécution, etc.).
+Plus récemment, le contenu des jeux stockés sur CD-ROM ou DVD peut être copié dans un fichier image appelé ISO ; sur le même principe que l'émulation de ROMs, on peut émuler un jeu stocké en fichier ISO.
+Les émulateurs de jeux ont été au départ une alternative pour faire perdurer la vie d'un jeu malgré la désuétude du matériel qui était censé le faire fonctionner ; il s'agissait d'une pratique pirate. Cependant l'usage se répand dans les récentes consoles de jeu, avec pour objectif commercial de permettre une plus large gamme de jeux pouvant être exécutés sur une même plateforme. Ainsi sur une PlayStation, un émulateur permet de jouer aux jeux NES (Nintendo Entertainment System) ; la Nintendo 3DS propose une console virtuelle pour Game Boy, Game Boy Color, NES et Game Gear.; Depuis peu, on peut aussi noter l'existence d'émulateurs Game Boy et Game Boy Color pour les calculatrices Texas Instruments TI-Nspire et TI-NSpire X-Cas.; Le projet MAME se distingue dans l'émulation de systèmes inclus dans les bornes d'arcade.
+
+Jeux émulés et distribution
+Les avantages de l'émulation sont devenus très populaires au milieu des années 1990, notamment du fait de la facilité d'échanger et de copier des fichiers contrairement au matériel (ROMs, cartouches, CD-ROMs...). Avec l'essor d'Internet, une grande communauté de fans et de programmeurs s'est formée sur Internet, et de nombreux sites webs se sont spécialisés dans la distribution (légale ou illégale) d'émulateurs et de jeux.
+Les jeux anciens forment à présent une culture que certains sites web tentent de pérenniser, notamment à l'aide d'émulateurs (le matériel initial n'étant plus disponible).
+
+Légalité de l'émulation
+Les jeux, quel que soit leur format de stockage (en mémoire mortes, sur une cartouche, ou sous forme de fichiers ROM-ISO), ainsi que leur concept, sont couverts par le droit d'auteur, jusqu'à ce que celui-ci cède ses droits ou que ceux-ci expirent. Tant qu'un jeu est soumis à droit d'auteur ou à copyright, toute copie est illégale et est assimilable à de la contrefaçon, sauf exceptions (comme une copie privée tant que vous n'avez pas cédé votre licence d'utilisation).
+La création et la redistribution d'un jeu (modifié ou non) sous forme de ROM s'apparentent à la contrefaçon. Le propriétaire d'une ROM est autorisé à effectuer une copie pour son propre usage.
+Les auteurs de l'émulateur MAME recommandent d'attendre au minimum 3 ans depuis le début de la commercialisation du jeu, cependant cette règle empirique n'a aucune base juridique.
+
+Distribution légale: Certains auteurs autorisent la distribution gratuite et la copie de ROMs de leurs jeux (par exemple, Gridlee et Robby Rotto).; Certains jeux en fin de vie (plus disponibles dans le commerce) ou dont le droit d'auteur ou le copyright a expiré sont mis à disposition sous forme de ROM téléchargeable gratuitement (par exemple, les éditeurs Capcom et Atari ; Poly Play (de), dont l'auteur VEB Polytechnik Karl-Marx-Stadt (de) n'existe plus).
+
+Contrefaçon: De nombreux jeux sous forme de ROMs sont échangés par partage de fichiers en pair à pair (P2P) ou via Usenet, avec le risque que certains soient infectés de virus.; Il existe des sites web mettant ces ROMs à disposition de façon illégale ; un certain nombre d'entre eux ont été fermés.; On trouve parfois des CD ou des DVD contenant des copies illégales de ROM sur des sites de vente en ligne (eBay).
+
+Voir aussi
+
+Articles connexes: Machine virtuelle; Émulateurs d'ordinateur; Émulateur de console de jeux; Translation de code. Portail de l'informatique; Portail du logiciel; Portail du jeu vidéo.

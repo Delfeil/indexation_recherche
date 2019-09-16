@@ -1,0 +1,18 @@
+La licence Apache est une licence de logiciel libre et open source. Elle est écrite par l'Apache Software Foundation, qui l'applique à tous les logiciels qu'elle publie. Il existe plusieurs versions de cette licence (1.0, 1.1, 2.0). Cette licence n'est pas copyleft.
+
+Résumé et philosophie
+Les caractéristiques majeures de la licence Apache sont, d'une part, d'autoriser la modification et la distribution du code sous toute forme (libre ou propriétaire, gratuit ou commercial) et, d'autre part, d'obliger le maintien du copyright lors de toute modification (et également du texte de la licence elle-même).
+
+Exemples
+Un exemple typique et simple de l'application de cette licence est le serveur web éponyme. En effet, Apache a été réutilisé comme base pour le développement d'un greffon du serveur applicatif WebSphere de chez IBM.
+
+Descriptif: Licence : Une copie de la licence doit être fournie avec le code source. Modification : Chaque fichier modifié doit clairement mentionner le fait qu'il a été modifié. Marques et brevets : Il doit être fait mention de tous les brevets, marques déposées, copyright et note d'attribution, à l'exception de ceux qui ne concernent pas le code que vous distribuez. NOTICE : Si le code source original contient un fichier NOTICE, il est obligatoire de faire figurer dans votre propre développement une version lisible de ce même fichier sous une des formes suivantes : sous la forme d'un fichier texte NOTICE ;; dans un écran généré (par l'application) ;; dans la documentation du code source.
+Le contenu de ce fichier doit être uniquement à titre informatif et ne doit en aucun cas modifier la licence.
+Il est bien évidemment autorisé d'ajouter son propre copyright aux modifications ajoutées. Ces modifications peuvent être placées sous la même licence ou sous les termes d'une autre licence. Si aucune déclaration explicite n'est incluse, la licence Apache sera la licence régissant les modifications.
+Cette licence ne donne pas le droit d'utiliser les marques déposées en dehors d'un usage raisonnable lors de la description des origines du logiciel.
+Une version modifiée ne peut avoir le même nom que le logiciel original.
+Le nom des auteurs-contributeurs ne peut être utilisé pour promouvoir un produit dérivé.
+
+Voir aussi
+
+Article connexe: Apache Software Foundation.

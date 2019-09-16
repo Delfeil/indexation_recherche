@@ -1,0 +1,35 @@
+En informatique, une structure de données est une manière d'organiser les données pour les traiter plus facilement. Une structure de données implémente concrètement un type abstrait.
+
+Objectifs
+Pour prendre un exemple de la vie quotidienne, on peut présenter des numéros de téléphone par département, par nom, par profession (comme les Pages jaunes), par numéro téléphonique (comme les annuaires destinés au télémarketing), par rue et-ou une combinaison quelconque de ces classements. À chaque usage correspondra une structure d'annuaire appropriée.
+En organisant d'une certaine manière les données, on permet un traitement automatique de ces dernières plus efficace et rapide.
+Le fait d'utiliser une structure de données appropriée à un traitement informatique peut également faire baisser de manière significative la complexité d'une application informatique et ainsi contribuer à diminuer le taux d'erreurs.
+
+Exemples
+Différentes structures de données existent pour des données différentes ou répondant à des contraintes algorithmiques différentes : Structures finies : constantes,; variables,; enregistrements,; structures composées finies ;.; constantes,; variables,; enregistrements,; structures composées finies ;; Structures indexées : tableaux (sur (1..n)),; tableaux multidimensionnels (e.g. tableaux bidimensionnels: sur (1..n, 1..m); sinon, tableaux de tableaux: sur (1..n)(1..m)),; tableaux associatifs,; vecteurs ;.; tableaux (sur (1..n)),; tableaux multidimensionnels (e.g. tableaux bidimensionnels: sur (1..n, 1..m); sinon, tableaux de tableaux: sur (1..n)(1..m)),; tableaux associatifs,; vecteurs ;; Structures récursives : listes,; arbres,; graphes.; listes,; arbres,; graphes.
+
+Types de collections
+
+Séquentielles
+Une collection séquentielle permet de ranger des objets dans un ordre arbitraire.
+On parle de collection indexée quand on peut accéder à chaque élément de la collection par un numéro d'ordre (l'index). Le choix d'une implémentation particulière dépend d'un certain nombre de compromis, comme l'occupation mémoire ou les performances requises pour diverses opérations de base : itération, ajout d'un élément (au début, à la fin ou encore dans un emplacement quelconque de la collection), indexation, suppression d'un élément, décompte du nombre d'éléments, etc.
+Il existe deux grands types de collections séquentielles : les listes,; les tableaux ou vecteurs.
+Un certain nombre de structures de données sont des restrictions de collections séquentielles, qui n'autorisent qu'un sous-ensemble des opérations de base : Pile; File.
+
+Files à priorités
+Le type abstrait file à priorités est une collection d'éléments indexés par des clés sur lesquels on peut effectuer deux opérations: l'insertion d'un élément et l'extraction de l'élément de plus grande clé. Tas ou tas binaire.
+On peut implémenter une union sur les files à priorité : Tas binomial; Tas de Fibonacci.
+
+Tables de symboles
+Ce type de collection nommé tableau associatif, dictionnaire ou map permet de ranger des objets en fonction d'une clef dans une table de symboles. La clef doit généralement respecter un certain nombre d'invariants pour être valide (valeur de hachage ou résultats de la comparaison par exemple). Table de hachage; Arbre binaire de recherche ou ABR; Arbre équilibré: Arbre AVL; Arbre 2-3-4; Arbre rouge-noir ou arbre SBB (symetric binary tree); Arbre B ou B-tree.; Arbre AVL; Arbre 2-3-4; Arbre rouge-noir ou arbre SBB (symetric binary tree); Arbre B ou B-tree.
+
+Autres collections: Buffer tournant; Graphes; Ensemble; Bag aussi appelé multisensemble ou sac; skip list; Union-find.
+
+Collections et typage
+Les collections posent des problèmes de typage des données stockées. Comment garantir le type d'un objet qui est stocké dans une liste par exemple
+Ce problème n'est pas rédhibitoire dans les langages informatiques à typage dynamique, où le type exact de l'objet peut être vérifié à l'exécution par introspection. Il est plus gênant dans les langages informatiques à typage statique puisqu'il oblige le programmeur, soit à devoir programmer une classe conteneur spécialisée pour chaque type de donnée à traiter, soit à violer la sûreté de typage en utilisant des conversions de type (en anglais : coercions).
+Cette difficulté a conduit de nombreux langages informatiques à permettre la programmation générique pour définir des types paramétrés. Par exemple en C++, la commande std::liststd::string définit une liste doublement chaînée pouvant contenir des chaines de caractères.
+
+Articles connexes: Donnée; Métadonnée; Sécurité de l'information; Critères communs; Modèle entité-relation; Structure de contrôle; ASN.1.
+
+Voir aussi: Structures et types sur Wikilivres. Portail de l'informatique; Portail de la programmation informatique.

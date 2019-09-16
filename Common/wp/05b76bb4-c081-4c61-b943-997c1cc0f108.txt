@@ -1,0 +1,13 @@
+Listes de portails : Culture. Société. Histoire. Géographie. Science et technologie
+Portail de l'Algèbre693 articles et 0 catégories
+Portails associés :
+Mathématiques Algèbre Analyse et systèmes dynamiques Arithmétique et théorie des nombres Géométrie Informatique théorique Logique Probabilités et statistiques: Projet; Arborescence; Bibliographie; Le Thé.
+Présentation
+L'algèbre, de l'arabe al-jabr , est une branche des mathématiques qui permet d'exprimer les propriétés des opérations et le traitement des équations et aboutit à l'étude des structures algébriques.
+(modifier)
+Panorama
+Notions fondamentales: Équation Inconnue Solution Système d'équations; Opération Développement Factorisation; Théorème fondamental de l'algèbre.
+Histoire de l'algèbre: Chronologie de l'algèbre; Antiquité : Papyrus Rhind - Diophante d'Alexandrie; Moyen Âge : Al-Khwarismi - Abu Kamil - Leonardo Fibonacci; Renaissance : Scipione del Ferro - Tartaglia - Cardan - Bombelli - Viète; Lumières : D'Alembert - Gauss - Euler - Lagrange - Vandermonde; XIXe siècle : Abel - Galois - Boole - Cayley - Hamilton - Dedekind; XXe siècle : Hilbert - Poincaré - Peano - Bourbaki - Grothendieck.
+Divisions de l'algèbre: Babylonienne Arabe; Rhétorique Syncopée Géométrique Nouvelle; Classique Générale Commutative Linéaire Matricielle Multilinéaire Tensorielle Homologique Relationnelle Universelle; Théorie des ensembles Théorie des anneaux Théorie des groupes Théorie des catégories; Géométrie algébrique Groupe algébrique; Topologie algébrique; Théorie de Galois; Combinatoire Combinatoire algébrique; Théorie des graphes.
+Structures algébriques: Structure algébrique Monoïde Groupe Anneau Corps (mathématiques) Corps commutatif Corps gauche Espace vectoriel Algèbre.
+.

@@ -1,0 +1,43 @@
+L'informatique médicale est l'application des techniques issues de l'informatique au domaine médical. L'informatique médicale est une science à part entière ; aux confluents des sciences de l'information et de la médecine, c'est aussi l'une des technologies nécessaire au développement de l'E-médecine. Elle permet d'affiner et d'accélérer ou automatiser certains moyens d'investigation médicale et de diagnostic. Elle apporte de nouveaux mécanismes et moyens d'interprétation et de raisonnement médical, d'abstraction et d'élaboration des connaissances, de mémorisation et d'apprentissage ; parfois en s'appuyant sur des démarches Open Source, notamment dans le domaine de la "recherche en santé Informatique translationnelle".
+La science du traitement de l'information médicale touche aux fondements de la médecine et impose de nouvelles pluridisciplinarités.
+
+Pourquoi une science de l'information médicale
+Comment mieux stocker et réutiliser l'information biomédicale, épidémiologique et médicale Comment modéliser les savoirs et savoir-faire médicaux Peut-on imaginer un système de traitement de l'information capable de gérer toutes les spécialités médicales (génétique, médecine clinique, imagerie, biologie moléculaire, biologie, etc.) Comment partager l'information médicale tout en protégeant le secret médical Quel est le processus qui permet de passer du signe au diagnostic puis à la décision médicale Peut-on définir une bioéthique du traitement de l'information médicale Existe-t-il une connaissance de référence toujours valide Comment intégrer des mécanismes biologiques et leurs interactions alors que nous n'en connaissons pas toute la nature Comment faire évoluer les connaissances des systèmes d'information Voilà quelques questions auxquelles les sciences de l'information médicale tentent de répondre afin de proposer et de mettre en oeuvre des solutions informatiques innovantes qui répondent aux exigences des personnels de la santé en termes d'utilisabilité, aux populations en termes de soin et de service rendu, et qui permettent aux chercheurs de découvrir de nouvelles connaissances.
+
+Traitement et stockage de l'information médicale
+Une médecine moderne et de qualité nécessite un traitement rationnel et sûr de l'information médicale. En effet, la complexité croissante de la médecine occidentale actuelle (spécialisation des médecins, quantité d'information à traiter, optimisation de la posologie des médicaments, guides de bonnes pratiques, etc.) pousse de manière naturelle à la mise en place de systèmes d'informations robustes étant capable d'aider le praticien dans ses tâches quotidiennes.
+Pour cela, l'informatique médicale se nourrit des avancées faites dans des domaines comme l'ingénierie des connaissances, l'intelligence artificielle ou bien l'ingénierie des modèles, qui apportent à l'informatique médicale des méthodes, des techniques et des outils permettant d'améliorer la formalisation des données et des connaissances dans les systèmes d'information en santé à des fins de meilleur prise en charge du patient.
+L'ingénierie des modèles permet aux systèmes d'information le stockage et le partage d'information au sein d'un ou de plusieurs systèmes d'information hospitaliers, l'ingénierie de la connaissance permet la formalisation et l'intégration de la connaissance au sein du SIH et l'intelligence artificielle permet de mettre en oeuvre des méthodes de raisonnement pour gérer la connaissance.
+
+Les modèles d'information
+
+Les données complexes
+Textes-Images-Sons
+
+Les terminologies et les classifications
+"La terminologie, considérée comme une science, s'intéresse au recensement des concepts d'un domaine et des termes qui le désignent pour faciliter l'échange de connaissances dans une langue et d'une langue à l'autre." Une terminologie implique la normalisation des termes d'un domaine afin de pouvoir les organiser les uns par rapport aux autres. Le principal intérêt d'une terminologie est de réduire l'ambiguïté qui existe entre les termes d'un domaine et de pouvoir donc, mieux partager de l'information. Charlet défini une classification comme l'action de distribuer par classes et par catégories les concepts d'un domaine. C'est une répartition systématique par classes ou catégories ayant des caractères communs dans un contexte précis. La structure et la profondeur de la classification dépend de l'objectif du concepteur.
+La classification internationale des maladies (CIM) qui vise à classer les maladies en fonction de leur nature ou de l'endroit anatomique est un exemple de classification.
+Les relations entre les différents concepts d'une classification peut être de type spécification-généralisation (de type "est-un" ou "is-a", par exemple : "escherichia coli est une bactérie") ou de type partition ("fait-partie-de" ou "part-of", comme dans : "le coeur fait partie de l'appareil circulatoire"). Les hiérarchies mono-axiales ont une seule racine et doivent couvrir l'ensemble du domaine d'étude sans doublons. Ce qui est très compliqué à mettre en oeuvre, voire impossible dans beaucoup de classifications de la médecine. C'est pourquoi des classifications multi-axiales ont été proposées rapidement, comme le MeSH ou l'ATC.
+Une terminologie de référence, par exemple l'ATC (Anatomical Therapeutic Classification system) est une terminologie de référence pour le classement des médicaments en fonction de leur usage dans le corps. Le premier niveau de l'ATC défini le groupe anatomique principal. L'ATC est donc une terminologie où les termes qui permettent de nommer les médicaments sont spécifiés, mais présente aussi les propriétés d'une classification suivant 5 niveaux (groupe anatomique, groupe thérapeutique principal, sous-groupe thérapeutique ou pharmacologique, sous-groupe chimique ou thérapeutique ou pharmacologique et enfin la substance chimique, le médicament). Par exemple, l'exemple suivant montre la classification de l'Amoxicilin dans la branche des anti-infectieux pour usage systémique.
+L'Amoxicilin peut se trouver classifiée dans une autre branche de l'ATC. Ce qui médicalement et en fonction des axes de classification est normal, mais qui représente un problème lorsqu'on veut par exemple utiliser la relation de subsomption pour déduire le sous-groupe chimique auquel la substance appartient.
+
+Les ontologies
+
+Construction d'ontologies à partir de textes
+
+Partage de l'information médicale
+
+Les messages
+
+L'interopérabilité sémantique
+
+Assistance à la décision en médecine
+
+L'aide à la prescription
+Les outils informatique mis à disposition des médecins pour la réalisation de leur activité professionnelle peuvent être définis par 2 termes : - les Logiciels de Gestion de Cabinet (LGC) - les Logiciels d'Aide à la Prescription (LAP)
+Du point de vue sémantique, le LGC permet la gestion complète des activités du médecin libéral : agendas de consultations, comptabilité, facturation SESAME-VITALE et télétransmission, patientèle.
+Le LAP fait figure de sous-partie du LGC puisqu'il se concentre sur la gestion de la patientèle, en termes de pathologies, diagnostics, examens, prescriptions médicamenteuses. Le périmètre du LAP inclut toutes les fonctionnalités permettant au médecin de pouvoir consulter l'historique physiopathologique d'un patient, d'enregistrer un diagnostic et une prescription médicamenteuse.
+La convention médicale signée entre la Sécurité Sociale et les Médecins libéraux le 19 juillet 2011 prévoit une rémunération additionnelle du professionnel de santé s'il s'équipe d'un LAP certifié selon le référentiel HAS. La liste des LAP certifiés à ce jour est disponible sur le site de la HAS.
+La loi du 29 décembre 2011 prévoit également, dans son article 32 , que la certification des logiciels utilisés par les professionnels de santé (dont les LAP), soit obligatoire à compter du 1er janvier 2015.
+
+Voir aussi: E-médecine; télémédecine; E-santé; Médecine translationnelle.

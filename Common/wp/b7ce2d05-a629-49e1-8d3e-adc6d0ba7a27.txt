@@ -1,0 +1,10 @@
+Ben Shneiderman, né le 21 août 1947 à Bethesda, est un scientifique américain, professeur au Human-Computer Interaction Laboratory (HCIL) à l'université du Maryland, à College Park. Il a réalisé des travaux pionniers et fondamentaux dans les domaines de l'interaction homme-machine et de la visualisation d'informations, développant de nouveaux outils et méthodes, telles que la manipulation directe ou les treemap.
+Il a également co-inventé (avec Isaac Nassi) et donné son nom aux diagrammes de Nassi-Shneiderman, qui permettent la représentation graphique de structures logicielles.
+Il a obtenu son diplôme de doctorat à l'université d'État de New York à Stony Brook en 1973.
+Parmi ses nombreuses distinctions, il a été nommé membre de l'Association for Computing Machinery en 1997, membre de l'Association américaine pour l'avancement de la science en 2001, membre de la National Academy of Engineering en 2010, et membre de l'IEEE en 2012.
+
+Publications: (en) Ben Schneiderman, "
+Tree visualization with tree-maps: 2-d space-filling approach
+", ACM Transactions on Graphics, vol. 11, no 1, janvier 1992, p. 92-99 ; (en) Stuart Card, Jock Mackinlay et Ben Shneiderman,
+Readings in Information Visualization: Using Vision to Think
+, Morgan Kaufmann Publishers, 1999.

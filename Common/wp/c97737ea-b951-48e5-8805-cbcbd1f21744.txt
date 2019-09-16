@@ -1,0 +1,9 @@
+En psychologie cognitive, l'amorçage désigne une famille de paradigmes expérimentaux basés sur la présentation préalable d'un stimulus (l'amorce) pour influencer le traitement d'un autre stimulus (la cible). Il y a un effet d'amorçage quand, par exemple, la cible est reconnue plus rapidement par les personnes exposées à l'amorce que par celles non exposées à l'amorce.
+
+Caractéristiques
+On peut distinguer différents types d'amorçage en fonction du type de stimulus (mot, image), de la modalité sensorielle (visuelle, auditive), de la tâche visée (reconnaissance lexicale, complétion de mot) et de la relation entre la cible et l'amorce (identiques, proches phonologiquement ou sémantiquement). Ces différents types d'amorçage tombent tous sous des catégories qui décrivent l'effet d'amorçage sur la vitesse de traitement. L'amorçage positif entraîne une augmentation de la vitesse de traitement alors que l'amorçage négatif entraîne une diminution.
+Stimulus Onset Asynchrony : l'intervalle de temps entre l'amorce et la cible dans une procédure d'amorçage.
+
+Exemples: Si une personne voit une image préalablement, elle sera en mesure de la reconnaître plus rapidement si elle la voit à nouveau. Elle a donc été amorcée positivement la première fois qu'elle a été en contact avec la photo.
+
+Voir aussi: Petit traité de manipulation à l'usage des honnêtes gens, de Robert-Vincent Joule et Jean-Léon Beauvois. Portail de la psychologie.

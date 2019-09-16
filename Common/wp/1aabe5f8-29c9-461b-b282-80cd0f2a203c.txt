@@ -1,0 +1,108 @@
+Microsoft Office est une suite bureautique propriétaire de la société Microsoft fonctionnant avec les plates-formes fixes et mobiles. Elle s'installe sur ordinateur et fournit une suite de logiciels comme : Word, Excel, PowerPoint, OneNote, Outlook, Access et-ou Publisher selon les suites choisies.
+Microsoft Office propose une version web qui s'utilise directement en ligne depuis un navigateur web. Office existe également pour les appareils mobiles : Windows Phone, iPhone, iPad, téléphones ou tablettes Android. On l'appelle selon l'appareil utilisé : Office Mobile, Office pour iPad, Office pour iPhone ou Office pour Android.
+En 2015, Microsoft annonce que Office est utilisé par plus de 1,2 milliard de personnes.
+
+Historique
+Microsoft Office fait son apparition en 1989, et était au commencement une sorte de paquet comprenant des applications qui étaient vendues séparément auparavant. L'avantage de la suite sur les logiciels séparés était le moindre coût. La première version de la suite bureautique contenait Word, Excel et PowerPoint. Il a également existé une offre commerciale "Pro" qui incluait Microsoft Access et Microsoft Schedule Plus. Au cours des années, les applications bureautiques se sont développées, partageant certains composants comme un correcteur orthographique, la possibilité d'intégrer un élément OLE et les scripts en VBA.
+Microsoft Office est actuellement la suite bureautique la plus connue et la plus utilisée dans le monde. Depuis la version 2003, Microsoft a rajouté le mot "Office" devant le nom de chaque logiciel de la suite. Au fil des années et des lancements des nouvelles versions de la suite, Microsoft Office s'impose comme le leader de la suite bureautique avec de plus en plus de fonctionnalités visant à simplifier les usages bureautique, aussi bien dans le monde professionnel que privé. Ainsi : Office 2007, sorti fin janvier 2007, dévoile une interface utilisateur très différente des versions précédentes, avec comme principal point le remplacement des menus et des barres d'outils par un bandeau contenant les icônes d'outils et diverses fonctions appelé "Ribbon" ou "Ruban" en français, ce qui sera alors une révolution.
+Office 2010, Office 2011 pour Mac puis Office 2013 arrivent ensuite. Les fonctionnalités les plus récentes étant par exemple : l'intégration de vidéos issues du web dans Word, le mode lecture dans Word, la possibilité de modifier un document PDF dans Word, les graphiques recommandés dans Excel, le remplissage instantané dans Excel, le mode présentateur évolué de PowerPoint, la pipette dans PowerPoint etc.
+La version mac de Microsoft Office ne sait pas lire le format ODF
+
+Identité visuelle (logo)
+Le premier logo de Microsoft Office était un puzzle, apparu dans Office 97. Il fut remplacé par un ensemble de quatre rectangles arrondis dès la version 2003 avant d'être retouché en 2007 puis refait en 2010. Il y a également un nouveau logo pour Office 2013.
+Logo de Microsoft Office 2003 et 2007;
+Logo de Microsoft Office 2010;
+Logo de Microsoft Office 2013 et 2016.
+
+Les logiciels
+Il existe huit éditions différentes de Microsoft Office 2007 et six éditions de Microsoft Office 2010. Trois de ces éditions sont destinées à un usage principalement personnel et incluent un certain nombre des logiciels considérés aujourd'hui comme les logiciels de base de Microsoft Office System.
+
+Microsoft Office Word
+Microsoft Office Word est un logiciel de traitement de texte. Il est considéré comme le programme central de Microsoft Office. Il domine le marché du logiciel de traitement de texte.
+Son format par défaut est le ".doc", qui existe en différentes versions correspondant aux versions de Word. La demande grandissante d'interopérabilité dans les environnements de bureautique a conduit Microsoft à tenter de proposer un format basé sur XML (format XML2003) puis l'Open XML (format Microsoft Office 2007), standard ISO depuis avril 2008. Toutefois Office 2007 et Office 2010 ne sont pas compatibles avec cette norme ISO.
+Word est aussi disponible dans certaines versions de Microsoft Works Suite. Il est disponible sur Windows et Macintosh.
+Depuis Word 2013, il est également possible de créer des sites web. Il peut servir de lecteur d'ebooks sur tablette. Word 2013 est également doté d'un système de stockage de fichiers en ligne.
+
+Microsoft Office Excel
+Microsoft Office Excel est un tableur qui, comme presque tous les tableurs, sait également faire des graphiques, d'où son nom de tableur-grapheur. Comme Microsoft Word, il domine le marché. Il a été dès le début le concurrent de Lotus 1-2-3 mais il est devenu rapidement le logiciel dominant du marché. Il est disponible pour Windows et Macintosh.
+Microsoft Excel connaît de nombreuses évolutions et voit aujourd'hui ses possibilités s'étendre grâce à Power Bi au Big data.
+
+Microsoft Office Outlook
+Microsoft Office Outlook, à ne pas confondre avec Microsoft Outlook Express est un gestionnaire d'informations personnelles (également connu sous le nom de PIM, acronyme anglais de Personal Information Manager) et un client de communication par courriel. Désigné comme remplaçant de Windows Mail, il fait son arrivée dans la version d'Office 97. Il inclut un calendrier, un client de courriel, un gestionnaire de tâches et un carnet d'adresses.
+Microsoft Office Outlook a radicalement changé d'apparence et d'organisation lors du passage de la version XP (2002) à la version 2003 : la barre Outlook permettant de naviguer dans les fonctions principales du logiciel a disparu pour laisser place à un "volet de navigation" voulu plus ergonomique.
+En 2007, Live, filiale Web de Microsoft, s'inspire fortement d'Outlook pour développer la nouvelle version de MSN Hotmail, devenu alors Windows Live Hotmail, rapidement suivi d'une version cliente connue sous le nom de Windows Live Mail Desktop.
+Sur Macintosh, Outlook a remplacé Entourage dans la version 2011 de Microsoft Office.
+Microsoft Office Outlook existe aussi sur Windows Mobile.
+
+Microsoft Office PowerPoint
+Microsoft Office PowerPoint est un logiciel de présentation (succession de diapositives) pour Windows et Mac. Il est utilisé pour créer des présentations avec du texte, avec des images, sons, vidéos et autres objets, qui peuvent être visualisées sur un écran ou projetées grâce à un projecteur appelé également beamer. Windows Mobile 2005 contient une version réduite.
+Une visionneuse gratuite téléchargeable sur Internet permet de montrer des présentations. Microsoft a repris l'idée de visionneuse gratuite pour Word et Excel.
+
+Microsoft Office OneNote
+Microsoft Office OneNote est un logiciel destiné à la prise de notes pouvant être utilisé sur les Tablettes PC ou sur les PC de bureau.
+
+Logiciels spécialisés
+Ces logiciels ne sont commercialisés que dans certaines éditions de la suite Office ou sont commercialisés séparément.
+
+Microsoft Office Access
+Microsoft Office Access est un système de gestion de base de données. Il nécessite quelques connaissances, en modélisation de données et interrogation de tables, pour être utilisé efficacement.
+
+Microsoft Office Publisher
+Microsoft Office Publisher est un logiciel de publication assistée par ordinateur, qui crée des lettres d'information, cartes de visite, papiers volants, cartes de voeux ou encore des cartes postales.
+Il a été conçu pour aider des "non-professionnels" à créer et mettre en forme des publications. Publisher est aussi un support pour créer de grands travaux d'impression.
+infopath
+Microsoft Office InfoPath
+Microsoft Office InfoPath est une application qui permet à des utilisateurs de concevoir des formulaires basés sur le XML.
+
+Microsoft Office Sharepoint Designer
+Microsoft Office SharePoint Designer est un éditeur HTML, un logiciel permettant de créer des pages web. Il a remplacé Microsoft Office Frontpage à partir de la version 2007 d'Office System. Ce logiciel est principalement destiné à la conception de pages pour Microsoft Office Sharepoint. Il est désormais distribué librement.
+
+Microsoft Office Visio
+Microsoft Office Visio est un outil de création de diagrammes.
+
+Microsoft Office Project
+Microsoft Office Project est un logiciel de gestion de projets.
+
+Microsoft Office Lync
+Microsoft Office Lync est un logiciel de messagerie instantanée, qui permet aux utilisateurs de passer également des appels téléphoniques via Internet, faire des transferts de fichiers et même de la visioconférence. Entièrement compatible avec Skype depuis son rachat par Microsoft. Intégré à la suite 2013 et également disponible pour les détenteurs d'une licence Microsoft Office 2011 Entreprise. Début 2015, Microsoft annonce sa fusion avec Skype Entreprise.
+
+Outils Microsoft Office
+Microsoft Office contient quelques outils intégrés au reste de la suite.
+
+Microsoft Office Producer
+Cet outil est en fait un complément gratuit pour Microsoft Office qui permet de faire des présentations multimédias en fusionnant PowerPoint et Windows Movie Maker 2. Ce logiciel est disponible sur le site web de Microsoft, mais il nécessite Microsoft Office PowerPoint 2002 ou 2003 pour fonctionner. Bien que son interface ressemble à celle de Microsoft Office XP, ce logiciel est bien intégré à Office 2003.
+
+Microsoft Office Mix
+Cet outil est un complément gratuit, successeur de Microsoft Producer, inclus dans les versions 2013 et 2016 de Office, intégrant Microsoft PowerPoint.
+
+Microsoft Office Docs.com
+Docs.com est un outil de publication de documents faisant partie de Microsoft Office - accessible uniquement en ligne - où les utilisateurs d'Office peuvent découvrir, télécharger et partager des fichiers Word, Excel, PowerPoint, Sway et PDF sur leur page de profil. Depuis la version 2016, il est possible de sauvegarder directement sur Docs.com.
+
+Autres programmes intégrés dans les éditions pour Mac: Microsoft Entourage - logiciel de gestion d'informations et client de messagerie (n'existe plus depuis la sortie de Microsoft Office 2011).
+
+Logiciels anciennement inclus: Microsoft Office FrontPage était un éditeur HTML, un logiciel permettant de créer des pages web. Il a disparu à partir de la version 2007 d'Office System où il a cédé sa place à Microsoft Office Sharepoint Designer, un outil prévu pour la conception de page pour Microsoft Office SharePoint. Il existe deux successeurs à FrontPage : Microsoft Expression Web, qui ne fait pas partie de la suite Office, et Microsoft Office Sharepoint Designer, prévu avec l'utilisation avec Office 365.; Le Classeur Office (Microsoft Binder) était un outil qui permettait d'insérer plusieurs fichiers Office en un seul fichier qui n'a pas continué au-delà de Office 2000 à cause des nombreuses failles de sécurité qu'il contenait. Cependant, les exécutables Microsoft Binder étaient restés jusqu'à la version 11.0, 2003.; Le Gestionnaire Microsoft Office était une barre d'outils ancrée là où on le voulait, qui contenait non seulement des liens vers les logiciels d'Office, mais également des liens directs vers les fonctions de création d'éléments Outlook, comme la création d'un nouveau message ou d'un nouvel élément du calendrier. La dernière version dans laquelle il était présent est Office XP.; Microsoft Schedule Plus était un logiciel intégré dans Office 95. Il incluait un planificateur, une liste de tâches à accomplir et un carnet d'adresses. Ces fonctions ont été réintégrées dans Microsoft Office Outlook.; Microsoft Mail était un client de messagerie qui était présent dans Office jusqu'à la version 97 où il a été remplacé par Microsoft Office Outlook, ou la fusion entre Schedule Plus et Mail. Ce logiciel est disponible dans une version épurée et remodelée (un peu à la manière de Outlook Express) dans Microsoft Windows Vista avec un nom à peine différent : Windows Mail, à ne pas confondre avec Windows Live Mail Desktop.; Microsoft Outlook Express - client de messagerie intégré dans Office 98 Macintosh Édition, plus tard remplacé par Microsoft Entourage. Il est toujours présent dans Windows XP aux côtés de Internet Explorer, mais est voué à disparaître au profit de Windows Mail pour les utilisateurs de messageries POP3 et Windows Live Mail Desktop pour les utilisateurs de la messagerie Windows Live Mail, anciennement MSN Hotmail.; Microsoft Photo Editor - éditeur de graphiques dans les anciennes versions d'Office jusqu'à la version XP. Depuis la version 2003, il a été remplacé par Microsoft Office Picture Manager.; Microsoft PhotoDraw - Ce programme est apparu dans Office 2000 Premium. Une version 2 a même été développée pour Office 2000 SR1. Il a été ensuite abandonné au profit de Microsoft Photo Suite (Microsoft Picture It! en France), aujourd'hui lui-même abandonné au profit de Microsoft Expression Design, qui offrait des options plus riches).; Microsoft Vizact 2000 - programme ajoutant de l'animation aux pages HTML.; Microsoft Office Picture Manager est un logiciel secondaire présent dans toutes les éditions de Microsoft Office System et fait non seulement office de classeur de photos simplifié, mais il sait également retoucher légèrement les photos en modifiant les tons de couleurs, de luminosité, de saturation, etc. Il a succédé à Microsoft Photo Editor. En 2013, il a été retiré.; Microsoft Office MapPoint est un logiciel de cartographie destiné aux professionnels. Sa version dérivée pour le grand public est Microsoft Autoroute Express.; Microsoft Office Groove est un outil de collaboration simplifié pour les petites entreprises.; Microsoft Office Communicator est un client de messagerie instantanée servant à se connecter sur les composants Microsoft Office communication Server. Il a été remplacé par Skype Enterprise.
+
+Licence
+Microsoft Office étant un logiciel propriétaire, sa redistribution est supposément interdite (un jugement de la Cour européenne de justice rend cependant légale la revente) et pour chaque matériel équipé, le propriétaire et-ou l'usager est redevable du paiement d'une licence. Les licences sont commercialisées soit sous forme monoposte, soit en version multilicences, l'installation sur plus d'un ordinateur étant fréquente dans les grandes sociétés ou certains organismes publics.
+Microsoft Office est également compris dans les abonnements Office 365 et peut être installé sur plusieurs appareils sous un format locatif.
+
+Les éditions de Microsoft Office
+Les dernières éditions de la suite Microsoft Office sont les suivantes dans leur millésime Office 2016 : Office Standard 2016 : Word, Excel, PowerPoint, OneNote, Outlook, Publisher; Office Famille et Étudiant 2016 : Word, Excel, PowerPoint, OneNote; Office Famille et Petite Entreprise 2016 : Word, Excel, PowerPoint, OneNote, Outlook; Office Professionnel 2016 : Word, Excel, PowerPoint, OneNote, Outlook, Access et Publisher; Office Professionnel Plus 2016 : Word, Excel, PowerPoint, OneNote, Outlook, Access, Publisher, InfoPath, Skype Entreprise.
+
+Les éditions de Microsoft Office : Mac: Microsoft Office pour Mac (1.0); Microsoft Office 1.5 pour Mac; Microsoft Office 3.0 pour Mac; Microsoft Office 4.2 pour Mac; Microsoft Office 98 Édition Macintosh; Microsoft Office 2001; Microsoft Office v.X; Microsoft Office 2004 pour Mac; Microsoft Office 2008 pour Mac; Microsoft Office 2011 pour Mac; Microsoft Office 2016 pour Mac.
+
+Versions
+
+Versions pour Microsoft Windows: Office 3.0 (Word 2.0c, Excel 4.0a, PowerPoint 3.0, Mail) - sorti le 30 août 1992 (dénommé Office 92).; Office 4.0 (Word 6.0, Excel 4.0, PowerPoint 3.0) - sorti le 17 janvier 1994.; Office 4.2 (Word 6.0, Excel 5.0, PowerPoint 4.0, "Microsoft Office Manager") - sorti le 3 juillet 1994.; Office 4.3 (Word 6.0, Excel 5.0, PowerPoint 4.0, Pro:Access 2.0) - sorti le 2 juin 1994.; Office 95-7.0 (Word 95, etc.) - sorti le 30 août 1995.; Office 97-8.0 (Word 97, etc.) - sorti le 30 décembre 1996 (a été livré aussi bien sur CD que sur disquette).; Office 2000-9.0 (Word 2000, etc.) - sorti le 27 janvier 1999.; Office XP-10.0 (Word 2002, etc.) - sorti le 31 mai 2001.; Office 2003-11.0 (Word 2003, etc.) - sorti le 17 novembre 2003.; Office 2007-12.0 (Word 2007, etc.) - sorti le 30 janvier 2007.; Office 2010-14.0 (Word 2010, etc.) - sorti le 12 mai 2010 pour les entreprises, 15 juin 2010 pour le grand public.; Office 2013-15.0 (Word 2013, etc.) - sorti le 29 janvier 2013.; Office 2016-16.0 (Word 2016, etc.) - sorti le 22 septembre 2015.
+
+Service Pack
+Microsoft propose régulièrement des "service pack" permettant la mise à jour gratuite d'Office. Par exemple, pour Office 2003, le dernier service pack est le sorti le 17 septembre 2007 ainsi que le pour Office 2007, sorti le 25 octobre 2011.
+
+Versions pour Apple Macintosh: Office 1 (Word 3, etc.) - sorti en 1990.; Office 2 (Word 4, etc.) - sorti en 1992.; Office 3 (Word 5, etc.) - sorti en 1993.; Office 4.2 (Word 6.0, etc.) - sorti le 2 juin 1994 (la première version pour Power-Mac).; Office 98 (Word 98, etc.) - sorti le 15 mars 1998.; Office 2001 (Word 2001, etc.) - sorti le 11 octobre 2000.; Office v.X (Word X, etc.) - sorti le 19 novembre 2001.; Office Mac 2004 (Word 2004, etc.) - sorti le 11 mai 2004.; Office Mac 2008 (Word Mac 2008, etc) - sorti le 16 janvier 2008. (première version compilée pour Mac Intel); Office Mac 2011 (Word Mac 2011, etc) - sortie le 26 octobre 2010.; Office Mac 2016 (Word Mac 2016, etc) - sortie le 9 juillet 2015.
+
+Add-ons
+Un dispositif important permet aux applications de Microsoft Office d'ajouter des programmes extérieurs (add-ons). Component Object Model (COM) sont des programmes supplémentaires qui prolongent les possibilités d'une application en ajoutant des commandes qui peuvent s'adapter à diverses tâches.
+
+Voir aussi: Microsoft; Microsoft Windows; Microsoft Word; Microsoft Excel; Microsoft PowerPoint; Microsoft Outlook; Microsoft Binder.
+
+Articles connexes: Suite bureautique; Microsoft Office Web Applications; LibreOffice, une suite bureautique libre et gratuite dérivée d'OpenOffice.org 3.2.; OpenOffice.org, une suite bureautique libre et gratuite basée sur le code StarOffice. NeoOffice, suite bureautique basée sur le code d'OpenOffice.org et optimisé pour Mac OS X.; StarOffice, suite bureautique propriétaire basée sur le code d'OpenOffice.; NeoOffice, suite bureautique basée sur le code d'OpenOffice.org et optimisé pour Mac OS X.; StarOffice, suite bureautique propriétaire basée sur le code d'OpenOffice.; Corel's WordPerfect Office.; iWork, la suite d'Apple qui est réservée aux Mac.; KOffice, une suite libre et gratuite faisant partie de l'environnement KDE.; Lotus SmartSuite, créée par IBM.; SoftMaker Office (en).; ThinkFree.

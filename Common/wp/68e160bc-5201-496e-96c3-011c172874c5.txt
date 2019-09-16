@@ -1,0 +1,58 @@
+En mathématiques, le groupe général linéaire - ou groupe linéaire - de degré n d'un corps commutatif K (ou plus généralement : d'un anneau commutatif unifère) est le groupe des matrices nn inversibles à coefficients dans K, muni de la multiplication matricielle. On le note GLn(K), ou GLn (ici GL(n,K)). Ces groupes sont importants dans la théorie des représentations de groupes et apparaissent lors de l'étude des symétries et des polynômes.
+GL(n, K) et ses sous-groupes sont souvent appelés "groupes linéaires" ou "groupes matriciels". Le groupe spécial linéaire, noté SL(n,K) et constitué des matrices de déterminant 1, est un sous-groupe normal de GL(n,K).
+
+Description
+Pour tout anneau commutatif unifère R, GL(n, R) est un groupe pour la multiplication des matrices : c'est le groupe des unités de l'anneau des matrices n n à coefficients dans R.
+Si n 2, GL(n, R) n'est pas abélien (sauf bien sûr si R est nul).
+Pour tout corps commutatif K, GL(n, K) est engendré par les matrices élémentaires de transvections et de dilatations (car les transvections engendrent le groupe spécial linéaire).
+
+Groupe général linéaire
+
+Groupe général linéaire d'un espace vectoriel
+Si E est un espace vectoriel sur le corps K, on appelle groupe général linéaire de E et on note GL(E) ou Aut(E), le groupe des automorphismes de E muni de la composition des applications.
+Si E est de dimension n, alors GL(E) et GL(n, K) sont isomorphes. Cet isomorphisme n'est pas canonique et dépend du choix d'une base de E. Une fois cette base choisie, tout automorphisme de E peut être représenté par une matrice n n inversible qui détermine l'isomorphisme.
+
+Sur les réels et les complexes
+Si le corps K est ℝ (les nombres réels) ou ℂ (les nombres complexes), alors GL(n, K) est un groupe de Lie réel ou complexe de dimension n. En effet, GL(n) est constitué des matrices de déterminant non nul. Le déterminant étant une application continue (et même polynomiale), GL(n) est un sous-ensemble ouvert non vide de la variété M(n) des matrices nn, or cette variété est de dimension n.
+L'algèbre de Lie associée à GL(n) est M(n).
+GL(n) est dense dans M(n).
+GL(n, ℂ) est connexe mais pas simplement connexe : son groupe fondamental est monogène infini.
+GL(n,ℝ) possède deux composantes connexes : les matrices de déterminant positif et celles de déterminant négatif. Les matrices nn réelles de déterminant positif forment un sous-groupe de GL(n, ℝ), noté GL(n, ℝ). Ce dernier est également un groupe de Lie de dimension n et possède la même algèbre de Lie que GL(n,ℝ). Son groupe fondamental est monogène : trivial pour n - 1, infini pour n - 2 et d'ordre 2 pour n 2.
+
+Sur les corps finis
+Si K est un corps fini à q éléments, alors on écrit parfois GL(n, q) à la place de GL(n, K). C'est un groupe fini d'ordre (qn - 1)(qn - q)(qn - q)... (qn - q), ce qui peut être prouvé en comptant les bases d'un espace vectoriel fini.
+
+Groupe spécial linéaire
+Le groupe spécial linéaire d'ordre n sur l'anneau commutatif R, noté SL(n,R), est constitué des matrices de déterminant 1.
+C'est un sous-groupe normal de GL(n,R), puisque c'est le noyau du morphisme de groupes "déterminant", de GL(n, R) dans le groupe multiplicatif R des éléments inversibles de R. D'après le premier théorème d'isomorphisme, le groupe quotient GL(n,R)-SL(n,R) est isomorphe à R. En fait, GL(n,R) est un produit semi-direct de SL(n,R) par R : GL(n, R) - SL(n, R) R.
+Pour un corps K, SL(n,K) est engendré par les matrices élémentaires de transvections.
+SL(n, K) est le groupe dérivé de GL(n, K), sauf si n - 2 et K - F2.
+Démonstration
+Tout commutateur (u, v) - uvuv de deux éléments de GL(n, K) est de déterminant 1, donc D(GL(n, K)) SL(n, K). Pour prouver l'inclusion réciproque, il suffit de montrer que toute transvection différente de l'identité (avec n 2) est un commutateur. Comme elles sont toutes conjuguées, il suffit même de le montrer pour l'une d'entre elles. Si n 3, alors I n + E 1 , 2 - (I n + E 1 , 3 , I n + E 3 , 2). (-displaystyle I-(n)+E-(1,2)-(I-(n)+E-(1,3),I-(n)+E-(3,2)).) ; Si la caractéristique de K est différente de 2, alors I n + E 1 , 2 - (I n + E 1 , 2 , D i a g (1 2 , 1 ,.. 1)). (-displaystyle I-(n)+E-(1,2)--left(I-(n)+E-(1,2),-mathrm (Diag) -left((-frac (1)(2)),1,-ldots ,1-right)-right).) ; Si Card(K) 3, alors, pour un élément a de K différent de -1, 0 et 1, on a I n + E 1 , 2 - (I n + a 2 1 a 2 E 1 , 2 , D i a g (a , a 1 , 1 ,.. 1)). (-displaystyle I-(n)+E-(1,2)--left(I-(n)+(-frac (a(2))(1-a(2)))E-(1,2),-mathrm (Diag) (a,a(-1),1,-ldots ,1)-right).).
+Tous les cas sont donc couverts, à plusieurs titres pour la plupart. Quant au groupe GL(2,F2)-SL(2,F2), il est isomorphe au groupe symétrique S3, dont le groupe dérivé est le groupe alterné A3.
+Les mêmes techniques permettent de montrer que tous les groupes SL(n, K) sont parfaits, sauf SL(2,F2) et SL(2,F3).
+Lorsque K est ℝ ou ℂ, SL(n) est un sous-groupe de Lie de GL(n) de dimension n-1. L'algèbre de Lie de SL(n) est formée des matrices nn à coefficients réels ou complexes de trace nulle.
+Le groupe spécial linéaire SL(n,ℝ) peut être vu comme le groupe des transformations linéaires de ℝ préservant le volume et l'orientation.
+
+Groupe projectif linéaire
+Le groupe projectif linéaire (en) PGL(E) d'un espace vectoriel E sur un corps commutatif K est le groupe quotient GL(E)-Z(E), où Z(E) est le centre de GL(E), c'est-à-dire le sous-groupe formé des homothéties non nulles. Le groupe projectif spécial linéaire PSL(E) d'un espace E de dimension finie est le groupe quotient de SL(E) par son centre SZ(E), c'est-à-dire par le sous-groupe formé des homothéties de déterminant 1. Si E - Kn, ils sont notés respectivement PGL(n, K) et PSL(n, K). Le groupe projectif spécial linéaire PSL(n, Fq) d'un corps fini Fq est parfois noté Ln(q).
+Cette dénomination de "groupe projectif" vient de la géométrie projective, où le groupe projectif agissant sur les coordonnées homogènes (x0:x1:.. xn) est le groupe sous-jacent de cette géométrie (en conséquence, le groupe PGL(n+1,K) agit sur l'espace projectif de dimension n). Le groupe projectif linéaire généralise donc le groupe PGL(2) des transformations de Möbius, parfois appelé le groupe de Möbius.
+Tous les groupes PSL(n, K) pour n 2 sont simples, sauf PSL(2, F2) et PSL(2, F3).
+
+Sur les entiers relatifs
+Une matrice carrée à coefficients dans un anneau commutatif R est inversible (i.e. possède une matrice inverse également à coefficients dans R) si et seulement si son déterminant est inversible dans R (si R n'est pas un corps, il ne suffit donc pas que le déterminant soit non nul). Les éléments de GL(n, ℤ) sont donc les matrices n n à coefficients entiers de déterminant égal à 1 ou -1. Le groupe modulaire est le groupe PSL(2, ℤ).
+
+Sous-groupes
+
+Diagonaux
+L'ensemble des matrices diagonales de déterminant non nul forme un sous-groupe de GL(n, K) isomorphe à (K). Il est engendré par les dilatations.
+Une matrice scalaire est une matrice d'homothétie, c'est-à-dire une matrice diagonale qui est le produit de la matrice identité par une constante. L'ensemble des matrices scalaires non nulles, parfois noté Z(n,K), forme un sous-groupe de GL(n, K) isomorphe à K. Ce groupe est le centre de GL(n, K). Il est donc normal dans GL(n, K) et abélien.
+Le centre de SL(n,K), noté SZ(n,K), est simplement l'ensemble des matrices scalaires de déterminant 1. Il est isomorphe au groupe des racines n-ièmes de 1.
+
+Classiques
+Les groupes classiques sont les sous-groupes de GL(E) qui préservent une partie du produit interne sur E. Par exemple : le groupe orthogonal, O(E), qui préserve une forme bilinéaire symétrique sur E ;; le groupe symplectique, Sp(E), qui préserve une forme bilinéaire antisymétrique (dite aussi alternée) sur E ;; le groupe unitaire, U(E), qui préserve une forme hermitienne sur E (quand K est ℂ).
+Ces groupes sont des exemples importants de groupes de Lie.
+
+Groupe général linéaire infini
+Le groupe général linéaire "infini", ou "stable", d'un anneau unitaire A est la limite inductive de la suite des GL(n, A), pour les inclusions par blocs supérieurs gauches :
+On le note GL(A) ou GL(, A). On peut voir ses éléments comme les matrices infinies inversibles qui ne diffèrent de la matrice identité (infinie) que par un nombre fini de leurs coefficients. Le lemme de Whitehead permet de calculer son groupe dérivé.

@@ -1,0 +1,31 @@
+L'agrégation web, aussi connue sous le terme francisé de "curation", est l'action de regrouper, sélectionner et, éventuellement, valider des pages concernant un sujet précis et de les présenter, mises en forme, dans un blog ou un outil dédié.
+Le mot curation semble un phénomène de mode exploité par un marketing efficace.
+Mais il demeure que l'Agrégation Web répond a des besoins forts des internautes : disposer de pages (URL) consacrées à un sujet et éclairées, éventuellement, par de réels spécialistes ;; réduire l'investissement nécessaire à la publication construite sur le web ;; commenter ou critiquer ces pages.
+
+Perspectives
+
+Presse
+Il n'est pas besoin d'être compétent dans les outils du Web pour créer et faire vivre son agrégat.
+L'important est l'information et sa validation selon des méthodes et une éthique journalistique.
+D'autre part, les professionnels des relations avec la Presse comme Marie Laure Vie n'hésitent pas à parler de "relations avec les curateurs comme on parle de relations presses"
+
+Marketing
+S'agissant d'un espace média ouvert sur le Web, les stratèges marketing ont intégré immédiatement le potentiel des outils d'agrégation et en suivent l'évolution très attentivement.
+Des outils de mesure d'audience, d'impact et d'engagement sont d'ailleurs mis en oeuvre par les services disposant d'une version payante.
+
+Blogueurs
+L'agrégation Web n'est pas la fin des blogs puisque les contenus d'un agrégat sont issus de blogs ou de sites web.
+Il semble même que la création d'agrégats incite les blogueurs à mieux connaitre et apprécier le contenu de leurs homologues et réciproquement !
+Par contre, il est possible que les métiers du référencement évoluent afin de prendre en compte les nouvelles exigences nées des outils d'agrégation.
+
+Sémantique du mot agrégation
+arcs sémantiques de "agrégation"
+Pour apaiser le débat sémantique entre 'curation' et 'agrégat', une étude de proximité sémantique d'Agrégation, employant Prox-It du CNRS-CLLE montre nettement l'adaptation de agrégat ou agrégation a ce nouveau domaine du Web.
+Alors que le curateur désigne, de nos jours, un mandataire de justice ou un commissaire d'exposition, agrégateur apporte l'indispensable aspect social, collaboratif et humain.
+Dans le monde anglo-saxon, Aggregator (en) tend aussi à reprendre ses droits.
+
+Outils d'agrégation web: netvibes; scoop.it établir des interactions.; tumblr cité par Alexa dans les 50 premiers sites mondiaux.; aggregage organisation en hubs (orienté marketing).; stor.i.fy commenter, interagir et raconter une histoire.; fancy mettre en avant et organiser des visuels.; curate.us agréger sans interaction ni commentaires.; kweeper historisation des contenus d'une communauté.; bagtheweb mises en forme élaborées.; pearltrees la communauté des éditeurs du Web.; curators; shareezy; Reportlinker agrège, organise et structure des documents de sources publiques.
+
+Agrégateur automatique: qwiki complet, rapide et doué de parole (en anglais seulement)!; paper.li : pour créer un journal automatique en ligne, à partir de ses sources d'informations (Twitter, RSS...).
+
+Comparateur social: socialcompare créez un tableau comparateur que la communauté va abonder.

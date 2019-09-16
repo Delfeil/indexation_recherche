@@ -1,0 +1,199 @@
+La culture libre est un mouvement social et une sous-culture qui promeut la liberté de distribuer et de modifier des oeuvres de l'esprit sous la forme d'oeuvres libres par l'utilisation d'internet ou, plus rarement, d'autres formes de médias. Il puise sa philosophie dans celle du logiciel libre en l'appliquant à la culture et à l'information, dans des domaines aussi variés que les arts, l'éducation, les sciences, etc.
+La culture libre défend notamment l'idée que les droits d'auteurs ne doivent pas porter atteinte aux libertés fondamentales du public. Les DRM sont par exemple dénoncés comme une entrave à la liberté d'usage du produit légalement acquis, alors que la protection du fonctionnement du produit (code source du programme, partition de musique, etc.) empêche l'utilisateur de modifier l'oeuvre pour en faire sa propre version. Les mécanismes juridiques des licences libres attachées à la culture sont inspirés du logiciel libre : l'utilisation des licences art libre ou Creative Commons a ainsi permis l'émergence de la musique libre et de l'art libre.
+Face à cela, les défenseurs de la culture libre, appelés libristes, utilisent de façon détournée les monopoles accordés par les droits d'auteur en créant leurs propres licences libres, cela afin d'autoriser précisément les usages que les lois sur les droits d'auteur prescrivent par défaut. L'immense majorité des défenseurs de la culture libre prennent également position pour le droit à la vie privée, l'accès libre à l'information et la liberté d'expression sur Internet. Certains militants ont aussi pu commettre des actes illégaux au cours de leur combat, comme l'infraction au copyright (The Pirate Bay, Aaron Swartz) ou bien la divulgation de données confidentielles qu'ils considèrent comme d'intérêt public (Edward Snowden).
+
+Histoire
+Tu dis : "Cette pensée est à moi." Non mon frère, Elle est en toi, rien n'est à nous. Tous l'ont eue ou l'auront. Ravisseur téméraire, Au domaine commun bien loin de la soustraire, Rend-la comme un dépôt : Partager est si doux !
+- Henri-Frédéric Amiel, Rien n'est à nous(3)
+
+La culture libre avant l'informatique
+Les débats et controverses sur les licences et la protection légale des créations n'ont vraiment éclaté qu'au moment où les coûts et le temps de reproduction d'une oeuvre chutèrent subitement dans les années 1980 en même temps qu'augmentait la puissance des processeurs. Si La Joconde de Léonard de Vinci est une oeuvre de commande, unique puisqu'elle ne peut être admirée qu'à un seul endroit, le musée du Louvre, il suffit au XXIe siècle de moins d'une seconde pour répandre un morceau de musique ou une photographie à travers le monde via internet et chacun peut en posséder sa copie.
+Comme le précise Richard Stallman, "le cas des logiciels aujourd'hui est très différent de celui des livres il y a un siècle. Le fait que la manière la plus facile de copier un programme soit entre voisins, le fait qu'un programme ait à la fois un code source et un code objet, bien distincts, et le fait qu'un programme soit utilisé plutôt que lu pour le plaisir, concourent à créer une situation dans laquelle celui qui fait appliquer un droit d'auteur fait du tort à la société, matériellement et spirituellement ; une situation dans laquelle personne ne doit agir ainsi, que ce soit ou non autorisé par la loi."
+
+Naissance de l'informatique (1952-1984)
+
+Le logiciel libre à l'ère des premiers ordinateurs (1952-1969)
+
+Les premiers conflits de propriété (1969-1984)
+Expansion de la durée moyenne du droit d'auteur aux États-Unis.
+À la fin des années 1960, alors que les systèmes d'exploitation et les compileurs de langage de programmation évoluent et se complexifient, les coûts de production des logiciels croissent rapidement. L'industrie du logiciel, en pleine croissance, affronte alors les constructeurs de matériels qui vendent des ordinateurs déjà équipés. Au terme du procès United States vs. IBM, le gouvernement américain décrète en janvier 1969 que les ordinateurs vendus avec le système d'exploitation sont une concurrence déloyale. De plus en plus de logiciels deviennent ainsi payants avec des licences contraignantes pour l'utilisateur.
+
+Fragmentation de la culture hacker
+À partir de la fin des années 1970, les vendeurs d'ordinateurs et les éditeurs de logiciels commencent à facturer à leurs clients les licences des programmes. Ils imposent des restrictions légales sur les nouveaux développements de logiciels au moyen du droit d'auteur, de marques déposées et de contrats de leasing
+En 1976, Bill Gates écrit une lettre dans laquelle il exprime sa frustration de voir se répandre son programme Altair BASIC dans la communauté des hobbyistes, alors même qu'ils ne payaient pas de licence d'exploitation. Dès cette époque, la culture hacker commence à se diviser entre les partisans d'un échange libre du code source et les défenseurs des droits d'auteur. En 1979, ATT décide de vendre le système UNIX, jusqu'alors gratuit mais interdit de redistribution, et renforce ses licences de logiciels. La même année, le programmeur Brian Reid place une bombe à retardement, c'est-à-dire qu'après un certain temps le logiciel ne fonctionne plus, dans le langage Scribe pour restreindre l'accès du logiciel à une certaine durée. Richard Stallman proclame qu'il s'agit là d'un "crime contre l'humanité." Il décide alors d'écrire un programme concurrent, mais cette fois libre, qu'il achève en 1986 : textinfo.
+En 1980, Stallman se voit refuser l'accès au code source du logiciel de l'imprimante laser Xerox 9700 du AI Lab. Le hacker se souvient alors d'avoir modifié le programme de l'ancienne imprimante, à l'époque où le code était encore ouvert, pour qu'elle envoie automatiquement un message à l'employé lorsque son document était imprimé. Alors que l'imprimante est située à un étage différent de la plupart de ses utilisateurs, Stallman comprend que le fait de ne pas pouvoir modifier librement le code source d'un logiciel peut représenter un inconvénient pour tout le monde. En février 1984, il quitte son emploi au MIT pour se consacrer au développement d'un système d'exploitation entièrement libre, le projet GNU.
+
+La naissance du projet GNU et de la culture libre (1984-1991)
+Le point de départ de la culture libre, telle qu'on la connaît aujourd'hui, est la création du mouvement du logiciel libre et du projet GNU par Richard Stallman en 1984. Une véritable communauté se crée autour du logiciel libre dans laquelle commence à se développer un ensemble de références culturelles.
+Le manifeste GNU a été écrit par Richard Stallman en 1985 pour demander un soutien au développement du système d'exploitation GNU. GNU, l'acronyme de GNU's Not Unix (GNU N'est pas Unix), est le nom du système complet de logiciels, compatible avec Unix, que je suis en train d'écrire pour pouvoir le donner (give away free) à qui en aura l'usage. J'ai l'aide de plusieurs autres bénévoles. Les contributions en temps, en argent, en logiciel et en équipement nous sont indispensables.
+- Richard Stallman,
+Manifeste GNU
+
+L'essor d'internet et la naissance des logiciels libres (1991-2004)
+
+GNU-Linux : naissance du premier système d'exploitation libre (1991-1999)
+
+Les premiers projets collaboratifs à distance (1999-2004)
+
+Confrontation avec Microsoft durant l'hégémonie de Windows XP (début des années 2000)
+
+Guerre contre le piratage
+The Pirate Bay, eMule, isoHunt
+
+Essor des logiciels libres dans l'industrie (2004-)
+
+Ubuntu (2004) et Android (2008), les premiers systèmes grand public
+À partir des années 2000, des logiciels libres comme HandBrake, VLC, OpenOffice, GIMP ou Firefox connaissent progressivement une grande popularité auprès du grand public.
+
+Adoption du logiciel libre par les multinationales
+Collaboration entre les multinationales et la communauté du libre
+Google : Chromium, Android, Chromium OS, Google Developers, Projet Ara, Google Summer of Code
+Fondation Linux
+
+La musique, la photographie et la connaissance
+Au vu du succès du logiciel libre, les licences libres ont été appliquées à d'autres domaines, avec la création de l'encyclopédie Wikipédia en 2001, puis avec la naissance de l'art libre, et notamment de la musique libre avec la création du site musique-libre.org en 2004, puis Jamendo en 2005. En parallèle, une partie de la communauté du libre s'attache à défendre un internet libre, avec notamment la création du collectif La Quadrature du Net en 2008.
+WPLOS (2000), OpenMap (2004), Encyclopedia of Life (2008)
+
+Protection de la vie privée, surveillance globale et neutralité du net
+Wikileaks, TOR, TrueCrypt, SecureDrop, Tails
+DuckDuckGo (2008), Trisquel (2007)
+
+Émergence du matériel libre (2010-)
+
+Acteurs de la culture libre
+
+Philosophes
+
+Développeurs
+
+Artistes
+
+Associations
+
+Hacktivistes et libristes
+
+Hackers
+
+Crackers
+
+Journalistes
+
+Consommateurs
+
+Communauté scientifique
+
+Entreprises
+
+Services publics
+
+Culture libre et Internet libre
+Le réseau internet est le vecteur privilégié de propagation de la culture libre. Inversement l'existence d'internet repose sur les logiciels libres. Ainsi selon Benjamin Bayart, Internet et logiciels libres "sont deux facettes d'un même objet".
+
+Communautés
+Communautés Linux
+4chan, anonymous
+Team Warez : YiFy
+
+Vocabulaire hacker
+Warez
+Culture hacker
+cracking
+
+Collaboration et entraide
+Forum et boards : Reddit
+
+Culture populaire libre
+Hacker Freedom Song (2)
+
+Médias et audiovisuel
+TPB AFK, Citizen Four, Revolution OS
+
+Économie de la création libre
+
+L'oeuvre est libre, le service payant
+
+Dans le logiciel libre
+RHLE,
+Android, Chrome OS
+
+Dans l'industrie musicale
+Concert, merchandising
+
+Économie du don volontaire
+PayPal, Campagnes de don Wikipedia
+
+Émergence des services de crowdfunding
+
+Sociétés de l'économie du libre
+Google, Red Hat, Canonical
+
+Difficultés
+Le mouvement libre ne s'oppose pas aux transactions commerciales tant que les libertés définies dans la licence libre sont respectées. On retrouve une approche économique assez classique selon laquelle la suppression des barrières à l'entrée due à la rétention d'information doit concourir à la création d'un prix équitable.
+Les licences qui restreignent les droits accordés aux utilisateurs à d'autres fins que la préservation des libertés conférées, notamment des restrictions commerciales, ne sont donc pas des licences libres.
+Le libre n'est pas conditionné par la gratuité, et la gratuité n'implique rien vis-à-vis du libre. Cette erreur est d'autant plus difficile à dissiper que le mot libre est parfois synonyme de gratuité (entrée libre, etc.). Cet amalgame est encore plus marqué dans les pays anglophones où le mot "free" est homonyme de libre et de gratuit.
+Enfin du fait même des libertés caractérisant le mouvement du libre, tout acquéreur d'une oeuvre libre peut en distribuer autant de copies qu'il le souhaite, au prix qu'il le veut. Chaque possesseur d'une copie d'une oeuvre libre peut donc partager des copies gratuites. Pour le libre la gratuité n'est donc pas un objectif, mais un simple effet de bord.
+La confusion s'est également grandement amplifiée depuis l'apparition de Creative Commons qui diffuse les populaires licences éponymes. Certaines de ces licences sont libres, et d'autres non, car elles interdisent par exemple la diffusion commerciale, ou les modifications. Les tensions créées par l'emploi de l'expression de licence libre pour désigner de telles licences ont engendré de nombreux et longs débats houleux sur internet, avec des interrogations sur "la liberté du mot libre". Les partisans de ces licences plus restrictives emploient désormais généralement le terme de licences de libre diffusion. Elle correspondent en définitive plus à des licences de gratuiciel. Creative Commons signale les licences libres par le logo "approved for free cultural works" (ndt : "approuvé pour les oeuvres culturelles libres") dans les résumés de celles-ci, mais ne présente pas de logo contraire pour ses autres licences.
+
+Société de l'information
+
+Quatre libertés du logiciel libre (R. Stallman): Liberté 0 : liberté d'utiliser le logiciel, pour quelque usage que ce soit; Liberté 1, "s'aider soi-même" : liberté d'étudier le fonctionnement du programme, et de l'adapter à vos propres besoins; Liberté 2, "aider son voisin" : liberté de redistribuer des copies; Liberté 3, "aider sa communauté" : liberté d'améliorer le programme et de publier des améliorations.
+
+Liberté d'accès l'information
+
+Droit à la confidentialité et à la vie privée
+
+Le mouvement libre en politique
+La communauté du libre est engagée politiquement, pour combattre les lois ou projets de lois pouvant porter atteinte à la diffusion d'oeuvres libres, comme les brevets logiciels, mais également les lois visant à contrôler le réseau Internet ou menaçant sa neutralité (comme ACTA , Hadopi, Loppsi 2). La communauté propose inversement des lois visant à défendre la neutralité d'internet.
+Des outils ont été développés par les acteurs du libre afin de faciliter l'action politique. C'est par exemple le cas du site candidats.fr développé par l'April, et de Mémoire Politique développé par la quadrature du net.
+On peut aussi nommer le parti Pirate qui reprend de nombreuses idées de la culture libre.
+
+Projets principaux
+Les projets suivants sont devenus de véritables références au sein de la communauté du libre :
+
+Logiciels
+Le logiciel libre nait en 1984 avec la création par Richard Stallman du Projet GNU et du manifeste GNU. S'il existe aujourd'hui plusieurs milliers de projets libres à travers le monde, les logiciels suivants ont été largement adoptés par le monde de l'informatique en y introduisant des progrès techniques, des solutions ou des standards nouveaux.
+
+Systèmes d'exploitations
+Les systèmes d'exploitations libres occupent 2 % du marché des ordinateurs, 53 % des smartphones, 34 % des tablettes et 36 % des serveurs. De plus, 98 % des superordinateurs utilisent le noyau libre Linux. Ne sont indiqués que les systèmes les plus influents, qu'ils soient populairement adoptés ou bien reconnus dans leur domaine :
+
+Langages de programmation
+
+Applications grand public
+Les navigateurs web libres occupent 59 % des parts de marché mondiales en décembre 2015.
+VLC, eMule, OpenOffice-LibreOffice, Firefox, AdBlock et Google Chrome, tous des logiciels libres, figurent parmi les applications les plus populaires de tous les temps.
+
+Solutions professionnelles
+
+Internet et réseaux
+
+Sites web
+
+Créations artistiques
+
+Licences et formats
+
+Formats
+.pdf, png, gif, svg, ogg, flac, mkv, tar, odt, epub, markdown, HTML
+
+Licences et pratiques
+Les licences libres sont une forme de concrétisation de la culture libre. Une oeuvre sous licence libre possède quatre caractéristiques fondamentales : la liberté d'utiliser l'oeuvre pour tous les usages ;; la liberté de la copier et de diffuser des copies ;; la liberté de l'étudier ;; la liberté de la modifier et de diffuser des copies de l'oeuvre résultante.
+Si la liberté d'étudier une oeuvre est acquise pour un texte, elle est plus complexe et contraignante dans le cas d'autres oeuvres, car elle implique que l'auteur distribue aussi les documents permettant de reproduire l'oeuvre. Par exemple, pour une oeuvre musicale, cela implique la distribution non seulement de l'interprétation de l'oeuvre musicale, mais aussi de la partition musicale et des autres détails de l'enregistrement de l'oeuvre. Pour un logiciel informatique, la liberté d'étudier implique la distribution du code source du logiciel.
+Un certain nombre d'acteurs du logiciel libre estiment que les libertés données par les licences libres doivent s'adapter au type d'oeuvre. Ainsi Richard Stallman, promeut l'usage des licences libres uniquement pour la première des trois catégories d'oeuvres qu'il distingue : 1) les oeuvres à usages pratiques ;; 2) l'expression d'opinion ;; 3) l'art.
+Ce point de vue est contesté par les personnes attachées à une idée plus large de la culture libre.
+
+Biens matériels: Électronique : Arduino ;; Ordinateur : Novena (2014) ;; Machines industrielles : Open Source Ecology, RepRap, Open Compute Project ;; Téléphone : Ara ;; Robot : iCub, OpenROV; Environnement : WikiHouse ;; Boisson : Free Beer, OpenCola.
+
+Associations: Droits et libertés sur internet : La Quadrature du Net, Creative Commons, Electronic Frontier Foundation, French Data Network ;; Logiciel libre : Fondation Linux, Free Software Foundation, Open Source Initiative, Open Whisper ;; Partis politiques : Parti Pirate ;.
+
+Personnalités
+La communauté s'organise autour de personnages clefs, qui ont acquis une certaine influence, et qui sont une référence dans le milieu du libre : Peter Murray-Rust (1941-), scientifique et militant pour le libre accès et l'Open data ;; John Perry Barlow (1947-), fondateur de l'Electronic Frontier Foundation et rédacteur de la Déclaration d'indépendance du cyberespace ;; Peter Suber (1951-), philosophe du libre accès ;; Richard Stallman (1953-), fondateur des logiciels libres et du projet GNU ;; Tim Berners-Lee (1955-), inventeur du World Wide Web ;; Eben Moglen (1959-), coauteur de la licence publique générale GNU ;; Lawrence Lessig (1961-), fondateur des licences Creative Commons ;; Jimmy Wales (1966-), cofondateur de Wikipédia ;; Linus Torvalds (1969-), créateur du noyau Linux ;; Julian Assange (1971-), fondateur de Wikileaks ;; Mark Shuttleworth (1973-), fondateur d'Ubuntu ;; Benjamin Bayart (1973-), président de French Data Network de 1997 à 2013 ;; Ian Murdock (1973-2015), fondateur de Debian ;; Bram Cohen (1975-), fondateur de BitTorrent ;; Peter Sunde (1978-), cofondateur de The Pirate Bay ;; Jérémie Zimmermann, cofondateur de La Quadrature du Net ;; Edward Snowden (1983-), à l'origine des révélations de surveillance globale ;; Jacob Appelbaum (1983-), un des principaux artisans du projet Tor ;; Aaron Swartz (1986-2013), impliqué dans le développement de RSS, du Markdown et de Creative Commons.
+
+Perceptions
+La bataille du copyright autour des licences libres, des licences propriétaires et du domaine public
+Étant donnée l'émergence récente du libre, il en existe différentes perceptions. Les deux principales perceptions de la culture libre sont : 1) La perception qui se concentre sur les questions de production et diffusion des créations artistiques. On parle ici de culture au sens culture artistique, de nouveaux enjeux de la propriété intellectuelle, de nouveaux modes de création.; 2) La perception qui aborde les enjeux de la société de l'information et de l'économie du savoir dans sa globalité environnementale, sociale et économique, en incluant aussi les aspects de la création artistique. On parle ici de culture au sens comportement social. Le comportement culturel dit libre est fondé sur les valeurs et les modèles de gestion du libre, tels la hiérarchie de contribution (approche dite bazar, qui s'oppose aux modèles dits cathédrale), les médias participatifs (sur des plates-formes de type blogs, wiki, sites web communautaires...), la certification par les pairs, l'autoformation permanente par la veille....
+Ces deux perceptions (artistique-comportementale) de la libre culture sont complémentaires. Toutes deux agissent principalement en détournant l'aspect juridique du droit d'usage d'une information : les licences libres, qui offrent une alternative sérieuse aux licences propriétaires.
+Selon le milieu (économique, pédagogique, milieux de la création artistique), le public comprendra libre culture plutôt sous son angle art-artiste, et plutôt sous son angle au sens art-manière.
+
+Voir aussi
+
+Articles connexes: Branches du libre: La catégorie "Culture libre"; Contenu libre; Savoir libre; Logiciel libre; Matériel libre; Musique libre; Art libre. Sujets connexes: Économie de l'abondance; Biens anti-rivaux; Licence libre - Licence Ouverte; Copyleft - Copyright; Culture alternative; Libertaire; Framasoft.

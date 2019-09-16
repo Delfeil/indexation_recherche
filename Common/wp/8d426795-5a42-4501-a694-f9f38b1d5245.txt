@@ -1,0 +1,12 @@
+Lilo est un moteur de recherche qui finance des projets sociaux et environnementaux grâce à la moitié des revenus générés par la publicité.
+Lilo propose également un service de messagerie mail avec un faible impact énergétique.
+
+Fonctionnement
+Lilo est un moteur de recherche qui finance des projets sociaux et environnementaux. Il permet de faire participer l'utilisateur qui gagne une goutte d'eau à chaque recherche. Il choisit ensuite le projet auquel il souhaite contribuer, répartissant les gouttes d'eau collectées sur le site. Lilo transforme ensuite le nombre total de gouttes d'eau en argent pour le projet. Les projets proposés aux utilisateurs sont au début choisis par l'équipe. Chaque semaine, un nouveau projet passe en financement. L'argent collecté est reversé mensuellement aux projets.
+
+Technologie
+Lilo est un métamoteur : sa technologie utilise d'autres moteurs de recherche tels que Google, Bing et Yahoo. Les revenus publicitaires permettant la redistribution proviennent de différentes régies publicitaires notamment celle de Bing, Yahoo et Google, mais Lilo travaille également en direct avec ses propres annonceurs. Par ailleurs, Lilo ne collecte pas les données personnelles des utilisateurs et agit contre le tracking publicitaire (ciblage comportemental).
+
+Histoire
+Fondée en 2014, la start-up collecte des fonds sur la plateforme de financement participatif Ulule pour son lancement.
+Le 15 Septembre 2017, les utilisateurs de Lilo avaient récolté 418 245 euros.

@@ -1,0 +1,2 @@
+Le Special Interest Group on Computer-Human Interaction (SIGCHI) est le pôle d'intérêt commun de l'ACM dans le domaine de l'interface homme-machine.
+Ce pôle participe aux conférences MobileHCI organisées par le SIGMOBILE.

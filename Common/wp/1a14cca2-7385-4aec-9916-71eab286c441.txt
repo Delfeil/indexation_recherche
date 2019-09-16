@@ -1,0 +1,55 @@
+Adobe Acrobat DC est une famille de logiciels mis au point par Adobe Systems, pour manipuler des documents électroniques au format PDF.
+Le programme Adobe Acrobat Reader DC (auparavant appelé Adobe Acrobat Reader, puis Adobe Reader) est disponible gratuitement sur le site Web d'Adobe et permet l'affichage et l'impression des fichiers PDF. Les nombreux programmes commerciaux de la gamme Acrobat permettent d'effectuer quelques modifications minimales et d'ajouter des fonctionnalités aux documents PDF (formulaire PDF par exemple). En outre, ils sont fournis avec d'autres modules comprenant notamment un pilote d'imprimante pour créer des fichiers PDF à partir d'applications Macintosh, Microsoft Windows et GNU-Linux.
+Au début des années 1990, Adobe Acrobat Reader DC avait de nombreux concurrents, qui utilisaient chacun leur propre format de documents, par exemple : AnyView de Binar Graphics ;; Common Ground de No Hands Software ;; Envoy de WordPerfect Corporation ;; Folio de NextPage ;; Microsoft Reader de Microsoft ;; Replica de Farallon Computing ;; WorldView de Interleaf.
+À la fin des années 1990, le format PDF est devenu un standard de fait. En retour, cette ouverture a conduit à une plus grande concurrence pour Adobe Acrobat, avec l'apparition de logiciels commerciaux mais aussi de logiciels libres.
+En 2010, il existe quantité de programmes de tiers qui peuvent créer et manipuler des PDF, par exemple Ghostscript, OpenOffice.org ou LibreOffice. Adobe autorise également le développement d'extensions ajoutant des fonctions supplémentaires au programme Acrobat, comme Enfocus Pitstop. Les spécifications du format sont publiques et des ressources sont disponibles librement et gratuitement.
+
+Noms des produits
+Adobe change régulièrement le nom des produits de la famille Acrobat et cela en subdivisant ses produits, en les regroupant ou même en en abandonnant certains. Par conséquent, il y a une grande confusion, non seulement pour choisir un produit de la famille, mais jusque dans les statistiques d'utilisation des produits.
+Depuis 2004, les principaux membres de la gamme Adobe Acrobat sont : Adobe Reader 8 (anciennement Adobe Acrobat Reader), un logiciel gratuit de lecture et d'impression de fichiers PDF ;; Adobe Acrobat Standard 8 et Adobe Acrobat Professional 8, des logiciels commerciaux pour créer et manipuler des PDF (qui ne formaient qu'un seul et même produit appelé simplement Adobe Acrobat, entre les versions 3 et 5) ;; Une collection grandissante de serveurs et de produits spécialisés.
+Pour ajouter à la confusion, Acrobat incorporait auparavant un pilote d'imprimante appelé PDFWriter.
+
+Historique des produits Acrobat
+
+Version 1 (15 juin 1993): Acrobat Reader 1.0 pour DOS, Windows 3.1 et Macintosh, qui n'était pas disponible à l'unité et qui était payant à l'origine, mais, après quelque temps, l'IRS (le fisc américain) acheta une licence pour distribuer Reader 1.0, le rendant effectivement gratuit pour ceux qui l'obtenaient de cette manière ;; Acrobat Exchange 1.0, qui comprenait le pilote d'imprimante PDFWriter et l'application Acrobat Exchange ;; Acrobat Distiller 1.0, qui créait des PDF à partir de PostScript ;.
+
+Version 2 (septembre 1994): Acrobat Reader 2.0 pour Windows et Macintosh, désormais gratuit ;; Acrobat Exchange 2.0, même composition que 1.0 ;; Acrobat Professional 2.0, qui regroupait les composants d'Adobe Exchange et de Distiller ;; Mise à jour portant le numéro de version 2.1 ;; Lancement d'Acrobat Catalog utilisant la technologie Verity pour créer des index de recherche pour les fichiers PDF qui nécessitaient une version spéciale d'Acrobat Reader (payante cette fois) ou Acrobat Exchange ;.
+
+Version 3 (1996): Acrobat Reader 3.0. Le premier à afficher les fichiers PDF dans le navigateur Web et le premier à supporter le remplissage de formulaires.; Lancement d'une version gratuite mais confidentielle de Reader permettant la recherche (confidentielle puisqu'elle n'était pas proposée au téléchargement par défaut) ;; Acrobat 3.0, successeur de Acrobat Professional 2.1, comprenant Acrobat Catalog ainsi qu'un pilote d'imprimante appelé Distiller ;; Mises à jour 3.01 et 3.02, cette dernière introduisant notamment des capacités évoluées de formulaires ainsi que le JavaScript ;; Première version pour Windows 95 et suivants ; dernière version à supporter Windows 3.1 ;.
+
+Version 4 (1999): Acrobat Reader 4.0 ;; Acrobat 4.0 ;; Mises à jour jusqu'à 4.05 ;; Lancement de Distiller Server 4.0, identique au Distiller normal à l'exception de la licence, qui est multiutilisateur (Windows, Linux, Solaris) ;; Acrobat Business Tools 4.0, une version limitée d'Acrobat ;.
+
+Version 5 (mai 2001): Acrobat Reader 5.0 ;; Acrobat 5.0 dont on supprime PDFWriter de la version Macintosh ;; Mises à jour jusqu'à 5.05 ;; Distiller Server 5.0 ;; Acrobat Approval 5.0, une version limitée d'Acrobat, principalement vendue aux personnes désirant signer numériquement leur PDF ou sauvegarder des formulaires remplis ;.
+
+Version 6 (avril 2003): Adobe Reader 6.0 ;; Acrobat Professionnal, le remplaçant d'Acrobat 5.0 avec de nouvelles fonctionnalités et les changements suivants : Le pilote d'imprimante Distiller devient Adobe PDF,; PDFWriter disparaît pour de bon,; Nouvelle version de Catalog intégrée, incompatible avec les produits antérieurs pour la recherche ;.; Le pilote d'imprimante Distiller devient Adobe PDF,; PDFWriter disparaît pour de bon,; Nouvelle version de Catalog intégrée, incompatible avec les produits antérieurs pour la recherche ;; Acrobat Standard 6.0, une version limitée de Acrobat Professional, comprenant Distiller mais dépourvue de fonctions comme Catalog, la conception de formulaire ou le support du prépresse ;; Mises à jour 6.01 et 6.02 ;; Abandon du support de Windows 95, Windows 98 Première Édition, Mac OS 9 et précédents, mais ajout du support de Mac OS X, c'est-à-dire que Acrobat Professionnel était compatible avec Windows NT, 2000 et XP, et Mac OS X ;; Distiller Server 6.0 ;; Acrobat Elements 6.0, permettant seulement la création de PDF et visant le marché des sociétés (avec un minimum de 1000 licences, sous Windows seulement car Mac OS X intègre en standard un système d'enregistrement au format PDF) ;; Acrobat Elements Server, version client-serveur d'Acrobat Elements ;; Technologie for Reader enabling, permettant à Adobe Reader de sauvegarder, de signer ou d'annoter des fichiers PDF si le licencié a activé le droit correspondant dans les fichiers ;.
+
+Version 7 (décembre 2004): Adobe Reader 7.0 ;; Acrobat Professional 7.0, qui contient Adobe LiveCycle Designer gérant les formulaires XML (pour Windows seulement) ;; Acrobat Standard 7.0 ;; Acrobat Elements 7.0 (maintenant vendu avec un minimum de 100 licences) ;; Pour Windows 2000, Windows XP, Linux et Mac OS X ;.
+
+Version 8 (novembre 2007): Adobe Reader 8.0 ;; Acrobat Elements 8.0 ;; Acrobat Standard 8.0 ;; Acrobat Professional 8.0 ;; Acrobat 3D 8.0 ;.
+
+Version 9 (2 juin 2008): Adobe Reader 9.0 ;; Acrobat Standard 9.0 ;; Acrobat Pro 9.0 ;; Acrobat Pro Extended 9.0 ;.
+Pour un tableau comparatif des différentes versions
+
+Version 9.2 (14 octobre 2009): Adobe Reader 9.2.
+Plusieurs fonctionnalités annoncées ou améliorées, parmi lesquelles un lancement plus rapide, l'intégration de vidéos FLV, un nouvel assistant de création de formulaires... et, pour la version Pro Extended, l'intégration d'objets 3D et de cartes interactives.
+
+Version 9.3 (12 janvier 2010)
+Cette version corrige un certain nombre de vulnérabilité de sécurité.
+
+Version 9.4 (5 octobre 2010)
+Cette version corrige un certain nombre de vulnérabilité de sécurité.
+
+Version 10 (19 novembre 2010)
+Nouvelle version majeure du lecteur PDF, comprend notamment l'ajout d'un mode protection renforcée qui ouvre les PDF dans une zone isolée du système, doit permettre la diminution des risques d'infection par un fichier infecté.
+
+Version 11 (14 octobre 2012)
+Acrobat XI.
+L'interface graphique de la version 10 est reprise.
+À la date de 2013, Adobe Acrobat XI est disponible pour Microsoft Windows (XP-7-8) et Apple OS X (10.6-10.7-10.8), mais pas pour Windows Vista.
+
+Version DC 2015 (6 avril 2015)
+Mise à jour de l'interface, et du Cloud. Changement de nom: Adobe Acrobat et Adobe Reader deviennent respectivement Adobe Acrobat DC et Adobe Acrobat Reader DC (DC acronyme de Document Cloud). Il est disponible pour Windows 7, 8, 10 en 32 et 64 bits et Windows Server 2008 et 2012, et 2012 R2 en 64 bits ainsi que Apple OS X (10.9, 10.10, 10.11).
+
+Voir aussi
+
+Articles connexes: PDF; Formulaire PDF; Evince (logiciel libre de visualisation de PDF pour GNU-Linux); Sumatra PDF (logiciel gratuit et léger de lecture de PDF).

@@ -1,0 +1,36 @@
+Un problème dans son acception la plus courante, est une situation dans laquelle un obstacle empêche de progresser, d'avancer ou de réaliser ce que l'on voulait faire. Un problème naît lorsqu'il y a une différence entre l'état des choses et celui souhaité, ou lorsqu'il y a anormalité, c'est le cas en industrie ou en physiologie.
+
+Étymologie
+Le problème est issu du grec (próblema), quelque, qui a été présenté, donné.
+
+Philosophie
+La philosophie est une vision des faits à laquelle peu de penseurs adhèrent tellement chacun est pris dans ses débats d'école. Nous pouvons pourtant affirmer qu'elle devrait être à la racine de toute philosophie. Sans "problèmes", il ne saurait y avoir de réflexion. Que l'on aille du problème de la méthodologie à la conceptualisation d'une problématique, le "problème" fait figure de noedème autour duquel toute pensée doit s'épanouir. Or une philosophie, si nous regardons bien, est absente de notre corpus de pensée contemporain. Même chez les plus grands philosophes nous ne pouvons que déduire implicitement les présupposés d'une telle philosophie, mais celle-ci n'est jamais explicitement exprimée.
+
+Industrie
+Un problème est usuellement défini comme l'occurrence d'événements qui perturbent le fonctionnement habituel d'un système robotique ou productique.
+Il s'ensuit souvent une résolution.
+
+Analyse fonctionnelle
+Dans le domaine de l'analyse fonctionnelle, on définit un problème comme étant un écart (une différence) observable entre un résultat attendu et le résultat constaté.
+
+Informatique théorique
+En informatique théorique, on considère des problèmes, qui sont des questions auxquelles un ordinateur pourrait répondre. Un cas particulier classique est celui des problèmes de décision.
+
+Psychologie cognitive
+En lien à la notion de résolution de problème, un problème y est communément défini comme une Tâche à réaliser dans des conditions définies et pour laquelle on ne connaît pas de solution ou de méthode systématique de résolution: on sait quel est le but à atteindre, on connaît le contexte (lois ou règles à respecter, outils ou transformations licites,..), mais on ne connaît pas explicitement la procédure à suivre. La résolution du problème consiste alors autant à inventer (ou définir) la méthode à appliquer (les étapes à suivre) qu'à les mettre en oeuvre.
+Bien évidemment, une fois le problème résolu, la (ou une) méthode est connue. Le problème n'en est alors plus un.
+
+Physiologie
+Un problème physiologique résulte d'un dysfonctionnement ou anormalité d'un composant ou système d'un organisme vivant.
+
+Expressions liées
+Avoir un chat dans le mur : Expression française originaire du département du Nord, employée lorsqu'une personne rencontre un obstacle quelconque. Exemple : Je ne peux pas démarrer ma voiture, j'ai un chat dans le mur.
+
+Jeux
+Problème est le terme générique qui englobe les énigmes et autres jeux dont la presse écrite fait un large usage. Les plus répandus de ces problèmes sont probablement ceux de mots croisés, de mots fléchés et de sudoku. D'autres problèmes sont basés sur des jeux classiques. Citons les problèmes de Scrabble, de bridge, des jeux d'échecs et de dames.
+L'aspect ludique naît de la satisfaction que le lecteur éprouve en résolvant ces problèmes.
+Un problème est une création, appelée aussi composition, élaborée par des passionnés du jeu en question, qui ont ainsi l'occasion de faire apprécier la beauté de leur jeu. En raison de la complexité et de la lourdeur du travail d'élaboration à fournir, lorsque la chose est possible, la tâche est confiée à un ordinateur (Sudoku, Scrabble).
+En plus du respect des règles du jeu considéré, les caractéristiques essentielles d'un problème sont l'unicité de la solution, et la non-redondance de moyen utile à sa résolution.
+Pour les jeux d'échecs et de dames, la construction d'un problème est régie par des règles spécifiques, permettant de mettre en valeur la beauté d'une combinaison, d'un thème. La création de problème est appelée problémisme aux dames et composition échiquéenne au jeu d'échecs.
+
+Voir aussi: Portail de la philosophie.

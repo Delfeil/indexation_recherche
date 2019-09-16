@@ -1,0 +1,22 @@
+AltaVista ou Alta Vista (littéralement "vue haute" en espagnol) était un moteur de recherche du World Wide Web. Il fut mis en ligne à l'adresse web altavista.digital.com en décembre 1995 et développé par des chercheurs de Digital Equipment Corporation. Il fut le plus important moteur de recherche textuelle utilisé avant l'arrivée de Google qui le détrôna.
+Bien qu'il y ait une polémique concernant l'auteur de l'idée originale, on s'accorde à dire que les deux principaux contributeurs ont été Louis Monier, qui a écrit le Robot, et Michael Burrows, qui a écrit l'indexeur.
+AltaVista a été le premier moteur de recherche capable d'indexer rapidement une bonne partie des pages web existantes et devint immédiatement très populaire. Il fut également le premier moteur de recherche multilingue (la version française fut ouverte le 15 février 2000), ainsi qu'à lancer la recherche d'images, de fichiers audio et de vidéos. Le site offrait aussi un service internet gratuit au public.
+AltaVista fonctionnait, en 1998, sur 20 serveurs multiprocesseurs 64 bits Digital Alpha. Au total ces machines étaient dotées de 130 gigaoctets de mémoire RAM, de 500 gigaoctets d'espace de disque, et répondaient à 13 millions de requêtes par jour.
+
+Rachats, fusions et transformation
+En 1998, Compaq racheta Digital, transforma AltaVista en portail, racheta le domaine altavista.com à la société AltaVista Technology pour 3,3 millions de dollars, puis AltaVista fut filialisé en une société séparée en 1999. Une majorité du capital fut racheté en 1999 par la société d'investissement CMGI.
+Au début des années 2000, par suite de la perte de qualité des résultats, de la préférence apportée à une stratégie portail au détriment de la recherche, la popularité d'AltaVista déclina progressivement, pour finir par se retrouver au niveau d'un moteur de recherche quelconque et surtout dont la pertinence est dépassée par Google.
+Il est toutefois resté utilisé pour quelques fonctions très spécifiques comme les recherches sur racine (Exemple "jeune- infirmi-" fera rechercher les pages comportant jeune infirmier, jeune infirmière, jeunes infirmiers et jeunes infirmières en une seule interrogation).
+En 2003, la société Overture racheta AltaVista. Puis en 2004, Yahoo! racheta Overture. À la suite de cette acquisition, le moteur d'AltaVista fut abandonné et le site Internet éponyme utilise désormais les fonctionnalités d'Inktomi, le moteur de recherche de Yahoo!.
+Fin 2010, Yahoo! décide se recentrer sur ses activités premières et supprime des emplois. Après que son moteur de recherche Yahoo! Search eut cessé d'utiliser sa propre technologie, une circulaire mise en ligne sur Internet montre que Yahoo! a l'intention de se séparer de l'entreprise.
+Durant l'été 2013, Yahoo annonce officiellement la fermeture de plusieurs services web au cours de l'année, dont le moteur de recherche AltaVista pour le 8 juillet 2013.
+Services de traduction
+AltaVista propose un service de traduction gratuit, sous l'appellation Babelfish, qui permet de convertir automatiquement le texte entre plusieurs langues (technologie Systran). Depuis mai 2008, ce service a été renommé Yahoo! Babelfish.
+
+Remarques
+Il ne faut pas confondre AltaVista avec Astalavista, site de warez qui a eu naguère son heure de gloire.
+Les pères fondateurs d'AltaVista, Louis Monier et Michael Burrows, ont travaillé pour d'autres sociétés en particulier Microsoft et Google.
+
+Voir aussi
+
+Articles connexes: Louis Monier (AltaVista); Paul Flaherty; Michael Burrows. Portail des entreprises; Portail d'Internet.

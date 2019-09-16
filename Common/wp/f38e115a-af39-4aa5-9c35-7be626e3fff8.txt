@@ -1,0 +1,38 @@
+Seymour Papert, né le 29 février 1928 à Pretoria en Afrique du Sud et mort le 31 juillet 2016 à Blue Hill aux États-Unis, est un mathématicien, informaticien et éducateur au Massachusetts Institute of Technology (MIT). Il est l'un des pionniers de l'intelligence artificielle, ainsi que l'un des créateurs du langage de programmation Logo.
+
+Biographie
+
+Formation et carrière
+Papert a fréquenté l'université du Witwatersrand, où il a obtenu un baccalauréat en arts en 1949 et un doctorat en mathématiques en 1952. Il obtint ensuite un autre doctorat, également en mathématiques, à l'université de Cambridge en 1959. Il fut l'une des personnalités de premier plan du cercle socialiste révolutionnaire regroupé autour de la Socialist Review pendant son séjour à Londres dans les années 1950. Il a travaillé en tant que chercheur dans un grand nombre d'institutions, comme le St John's College (Cambridge), l'Institut Henri-Poincaré à l'université de Paris, l'université de Genève et le National Physical Laboratory à Londres, avant de devenir chercheur associé au MIT en 1963, poste qu'il conserva jusqu'en 1967. Il fut ensuite professeur en mathématiques appliquées et directeur du Laboratoire d'intelligence artificielle du MIT jusqu'en 1981. De 1974 à 1981, il enseigna également à l'Institut Cecil et Ida Green.
+
+Recherches et théories
+Au MIT Media Lab, Papert crée le Groupe de Recherche sur l'Épistémologie et l'Apprentissage. Il y développa une théorie originale de l'apprentissage, appelée le constructionnisme, qui était basée sur la théorie du constructivisme de Jean Piaget et devait avoir une grande influence. Papert collabora avec Piaget dans les années 1960 et est généralement reconnu comme le plus brillant et celui qui a le mieux réussi parmi les protégés de Piaget ; celui-ci aurait dit à une occasion que "personne ne comprenait ses idées aussi bien que Papert". Papert a repensé la manière dont les écoles devraient fonctionner à partir de ces théories de l'apprentissage.
+Papert a aussi acquis une grande renommée pour l'intérêt qu'il a accordé à l'impact des nouvelles technologies sur l'apprentissage en général et les établissements d'enseignement en particulier. À cette fin, Papert utilisa les travaux de Piaget pour développer au MIT le langage de programmation Logo. Logo était conçu comme un outil destiné à améliorer chez les enfants la manière de penser et de résoudre les problèmes. Un petit robot, appelé la Tortue Logo, fut réalisé et les enfants furent encouragés à l'utiliser pour la résolution des problèmes. L'un des objectifs principaux du groupe de recherche de la Logo Foundation est de renforcer la capacité d'acquisition de la connaissance. Papert insiste sur l'idée qu'un langage ou un programme qui peut être appris par des enfants - tel que Logo - ne doit pas présenter de carences fonctionnelles pour des utilisateurs experts.
+Dans le cadre de ses travaux sur la technologie, Papert a proposé l'idée de la Machine de la Connaissance (Knowledge Machine). Il est aussi l'un des principaux acteurs du projet "Un ordinateur portable par enfant" (One Laptop per Child), dont le but est de fabriquer et de distribuer la "Machine des Enfants" (The Children's Machine) dans les pays en voie de développement. Il a également collaboré avec la société Lego dans le domaine de ses kits robotiques (Lego Mindstorms) programmables en Logo.
+Papert est marié à Suzanne Massie Papert, érudite russe auteur de Pavlovsk, Life of a Russian Palace et Land of the Firebird. Papert a été appelé par Marvin Minsky "le plus grand éducateur en mathématiques vivant".
+
+L'accident de Hanoï
+Le 5 décembre 2006, alors qu'il participait à une conférence à Hanoï, Papert est renversé par une moto en traversant la rue à proximité de son hôtel. Le lendemain, il subit une opération chirurgicale du cerveau à l'Hôpital français de Hanoï. Le 12 décembre, son état s'était stabilisé mais restait critique. Le 16 décembre, il est transféré par avion-ambulance à Boston, et le 23 janvier 2007 dans un hôpital du Maine, l'état où il réside. Il subit une réadaptation intensive mais, bien qu'il ait repris conscience, il n'est pas en mesure de s'exprimer clairement, ni de se déplacer par lui-même.
+Le 31 juillet 2016, Papert meurt chez lui, à Blue Hill dans le Maine, après avoir passé la majeure partie de son temps à l'hôpital ces dernières années.
+
+Influence
+Les travaux de Papert ont eu une grande influence sur d'autres chercheurs dans les domaines de l'éducation et de l'informatique. Parmi eux, on peut mentionner : Uri Wilensky, concepteur de NetLogo, langage de programmation multi-agents et environnement de modélisation intégré (Papert a collaboré avec lui pour l'étude des restructurations de la connaissance); Andrea diSessa, qui a développé des "tortues dynamiques" (dynaturtles); Idit Harel Caperton, avec lequel il collabora et publia des articles ainsi que l'ouvrage intitulé Constructionism (Papert a été Président du Conseil Consultatif de la société MaMaMedia, dirigée par Caperton).; Alan Kay, concepteur du Dynabook (ordinateur portable à usage créatif pour enfants), avec lequel il a travaillé sur divers projets.
+
+Publications: (en)
+Counter-free automata
+, 1971.; (en)
+Mindstorms: Children, Computers, and Powerful Ideas (Traduction française : "Jaillissement de l'esprit. Ordinateurs et apprentissage")
+, Flammarion, 1980.; (en) avec Marvin Minsky,
+Perceptrons
+, MIT Press, 1988.; (en) Papert, S. et Harel, I.,
+Constructionism: research reports and essays 1985 - 1990
+, Norwood, New Jersey, Epistemology and Learning Research Group, the Media Lab, Massachusetts Institute of Technology, Ablex Pub. Corp, 1991.; (en)
+The Children's Machine: Rethinking School in the Age of the Computer (Traduction française : "L'enfant et la machine à connaître. Repenser l'école à l'ère de l'ordinateur")
+, Dunod, 1994.; (en)
+The Connected Family: Bridging the Digital Generation Gap
+, 1996.; (de)
+Trauen wir uns, die Bruchrechnung abzuschaffen Ein Lackmustest für die Anhänger der Bildungstechnologie
+, 2007 ; en anglais : Do We Dare Propose Dumping Fractions A Litmus Test For The Educational Technology Community. Publié originellement en allemand in H. Mitzlaff (Hrsg.), 2007, Internationales Handbuch Computer (ICT), Grundschule, Kindergarten und Neue Lernkultur, p. 19-29, Schneider Verlag Hohengehren.
+Voir aussi : Liste de publications de Seymour Papert
+
+Source: (en) Cet article est partiellement ou en totalité issu de l'article de Wikipédia en anglais intitulé "Seymour Papert". Portail des mathématiques; Portail des TIC pour l'enseignement; Portail de l'informatique théorique; Portail de l'Afrique du Sud.

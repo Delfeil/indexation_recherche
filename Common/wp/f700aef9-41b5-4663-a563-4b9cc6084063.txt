@@ -1,0 +1,24 @@
+L'ergonomie cognitive est l'un des domaines de l'ergonomie. Elle se différencie de l'ergonomie physique qui traite l'ensemble des facteurs physiologiques humains (postures, activité, accessibilité, etc.). Ergonomie : adaptation d'un produit ou d'une situation de travail à un utilisateur.; Cognitif : relatif aux grandes fonctions de l'esprit (perception, langage, mémoire, raisonnement, décision, mouvement...).
+L'ergonomie cognitive est donc l'étude des interactions avec un dispositif ou un produit (essentiellement informationnel) qui nécessite l'utilisation des grandes fonctions mentales de l'homme (perception, mémoire, traitement). Elle étudie également les problèmes éventuels de charge mentale qui résultent de cette interaction.
+
+Histoire
+L'ergonomie existe depuis 1949 (le terme est créé à cette date en Grande-Bretagne). En France, sous son approche cognitive, on peut dire qu'elle s'est systématisée à partir des années 60 dès que les situations en relation avec l'information se sont généralisées. En particulier, l'analyse du travail du contrôleur aérien, qui est toujours en cours, contribua largement à cette approche. Les travaux de Sperandio peuvent être signalés à cet égard.
+En parallèle, avec l'utilisation de plus en plus généralisée des ordinateurs, une ouverture nouvelle voit le jour. En 1982, la première Conférence Européenne en Ergonomie Cognitive se déroule à Amsterdam sous l'impulsion de Thomas Green et Gerrit Van Der Veer, entre autres.
+Cette nouvelle discipline va connaître un accroissement proportionnel à la hausse de l'utilisation des ordinateurs et des interfaces informatisées. Petit à petit, au fur et à mesure que l'électronique ou l'informatique s'immiscent dans les produits, l'ergonomie cognitive prend sa place.
+Aujourd'hui, l'enjeu est de taille. En effet, un produit (électroménager, automobile, site internet...) qui ne satisferait pas le client en termes de facilité d'utilisation ou de compréhension, risquerait fortement de ne pas se vendre et même de générer une baisse de popularité de la marque.
+
+Comprendre l'Homme
+Pour arriver à comprendre comment fonctionne l'ergonomie cognitive, il faut connaitre l'Homme. Il faut savoir que le cerveau de l'homme peut aller à une vitesse de calcul de 0,001 s, alors qu'un processeur d'ordinateur peut aller jusqu'à 0,000 000 001 s pour un même calcul.
+Mais l'avantage de l'Homme est qu'il est capable de travailler en parallèle là où l'ordinateur travaille en séquentiel. Il peut jouer sur sa sensibilité lorsque l'ordinateur gère la surveillance. L'homme a des capacités de perception et de prise de décision alors que l'ordinateur ne peut traiter que la routine et les protocoles.
+La question de l'automatisation de système fait donc entrer en jeu cette ergonomie cognitive. Outre les facilités d'utilisation physiologiques d'un produit, il est important que l'utilisateur ou l'opérateur ne soit pas en surcharge (ou en sous-charge) de travail.
+En effet, un poste de travail sur lequel apparaissent routine ou inutilité peut s'avérer dangereux pour l'opérateur (surveillance ou contrôle qualité par exemple). Il est bon de noter d'ailleurs que la routine est souvent la première cause des erreurs humaines.
+Le paradigme cognitif peut expliquer le principe suivant : Le cerveau reçoit des signaux des récepteurs sensoriels (vue, ouïe, odorat, toucher, goût, extéroception, proprioception, intéroception et nociception), qu'il transmet à un processeur, qui échange avec la case mémoire. Puis ces informations sont transmises à l'effecteur qui peut agir en conséquence.
+En effet, le cerveau est constitué de trois sous-systèmes de traitement de l'information : 1) le sous-système perceptif,; 2) le sous-système cognitif,; 3) le sous-système moteur.
+L'erreur est humaine et doit être prise en compte lors de la conception de produit quel qu'il soit.
+
+Principes généraux d'ergonomie cognitive
+
+Applications de l'ergonomie cognitive
+Globalement, toutes les situations de la vie quotidienne (dont le travail) dans lesquelles un utilisateur ou un opérateur doit interagir avec un système. Pour agir, il est nécessaire que l'utilisateur ait une bonne compréhension de ce qu'attend ou va faire le dispositif. L'interface Homme-Machine du système doit être pensée en conséquence en termes de présentation de l'information et des interactions. Cette problématique se retrouve dans tout ce qui est synoptiques et écrans, interfaces d'ordinateurs, téléphonie mobile, documentation électronique, dispositifs multimedia, sites web, etc.
+
+Sources: L'ergonomie du travail mental, Jean-Claude Sperandio, Paris, Masson (1984).; L'ergonomie cognitive, un compromis nécessaire entre des approches centrées sur la machine et des approches centrées sur l'homme, Jean-Michel Hoc, CNRS, UVHC, LAMIH, PERCOTEC.; Ergonomie Cognitive et Design Industriel, Florence Bazzaro, UTBM, ERCOS.

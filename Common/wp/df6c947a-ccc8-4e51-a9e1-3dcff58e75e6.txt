@@ -1,0 +1,31 @@
+La généralisation est un procédé qui consiste à abstraire un ensemble de concepts ou d'objets en négligeant les détails de sorte qu'ils puissent être considérés de façon comparable. Si la généralisation s'effectue de façon discrète, elle s'accompagne d'une transition à un niveau où la granularité des éléments de la structure considérée est plus grande. À l'inverse, la spécialisation permet de se focaliser davantage sur certains objets ayant des caractéristiques communes.
+
+La généralisation dans les sciences
+
+En cartographie
+La généralisation cartographique est l'opération qui permet de réduire la quantité d'information figurée sur une carte lors de la réduction de l'échelle.
+Supposons en effet qu'une surface donnée d'une carte contienne n informations. Lorsqu'on réduit l'échelle d'un facteur 2, la surface correspondante sur la nouvelle carte est divisée par 4 : il devient matériellement impossible de faire figurer sur la nouvelle carte toutes les informations qui figuraient sur la carte à grande échelle. La généralisation est le processus de sélection des informations conservées ; c'est une opération complexe, qui dépend de la fonction de la carte (les informations secondaires peuvent être supprimées, les informations essentielles doivent être conservées).
+La généralisation peut combiner des techniques très diverses : sélection (exemple : parmi plusieurs objets, on conserve le plus important); symbolisation (exemple : le contour d'un objet peut être remplacé par un symbole); simplification (exemple : les contours d'une courbe peuvent être simplifiés par réduction du nombre de points...); déplacement (les objets dont la localisation est secondaire sont déplacés pour éviter le recouvrement avec des objets dont la position est une information essentielle...).
+
+En informatique: En programmation objet, la généralisation est la factorisation dans une super-classe d'attributs et de méthodes de ses sous-classes. Les éléments généralisés sont alors réutilisables dans toutes les sous-classes de la super-classe. L'avantage est que le code source n'est plus dupliqué. Le coût de la généralisation est lié aux gommage des spécificités du code source vis-à-vis de la ou les sous-classes dont il est extrait.
+
+Mathématiques et logique
+Il arrive souvent dans l'histoire des mathématiques qu'une notion apparaisse d'abord dans un domaine précis, puis se voie transposée à d'autres domaines, et enfin généralisée à un domaine plus large, dont le domaine primitif ne soit qu'un cas particulier.
+Exemples : la notion d'espace, limitée à trois dimensions en géométrie classique, a été ensuite généralisée à n dimensions ;; la logique polyvalente généralise la notion de valeur de vérité par rapport à la logique bivalente ;; passage des nombres complexes aux nombres hypercomplexes ;; la relation de Chasles peut être extraite de son domaine originel, celui des vecteurs, pour porter sur les intégrales, les angles orientés...; dans son article sur le problème des sept ponts de Königsberg, Euler part d'un cas particulier, celui de Königsberg, puis généralise la solution à toute question de ce type ;; la notion de tangente est généralisée par les notions de cercle osculateur, de courbe surosculatrice ; ou encore par les développements limités.
+
+En psychologie: En psychologie sociale la généralisation est la tendance des individus à classer leurs semblables en catégories plus ou moins stéréotypées.; En psychologie comportementale, la généralisation est le fait de donner dans différentes situations la même réponse que celle apprise dans une situation précise.
+
+En sciences
+Il peut s'agir d'une conclusion par induction, celle-ci n'étant pas logiquement assurée de façon certaine (voir Généralisation hâtive (en)).
+
+Critique
+
+Critique de la généralisation à outrance
+Le logicien Jean-Yves Girard dénonce en plusieurs endroits le désir excessif de généralisation, quand celle-ci n'a pas de réel intérêt théorique.
+Dans le texte "Intelligence artificielle et logique naturelle" (in Alan Turing, La Machine de Turing, Paris, Seuil, 1995), il utilise ainsi l'analogie des montres à moutarde. Il s'agit de prendre un objet quelconque, tel qu'une montre ; d'exhiber un cas pathologique où il soit insuffisant, par exemple quand on a besoin de moutarde ; et de généraliser le concept de montre en créant le concept de montre à moutarde, dont les montres traditionnelles ne seraient qu'un cas particulier : une montre classique est en fait une montre à moutarde dégénérée, c'est-à-dire sans moutarde.
+Le plus pathologique dans cette affaire est en réalité l'entreprise de généralisation elle-même, dans la mesure où elle rend parfois obscures des notions initialement claires, et sans réel gain théorique. Par cette critique, Girard dénonce principalement une certaine tendance des logiciens à généraliser leurs résultats, d'une manière qui n'est pas fausse, mais dénuée d'intérêt.
+Le mathématicien Donald Knuth a également moqué la tendance excessive à la généralisation, dans The Art of Computer Programming (2e éd., vol. 1, 1973, p. xix, exercice no 3) : "Démontrez que 13 3 - 2197 (-displaystyle 13(3)-2197). Généralisez votre réponse."
+
+Le sophisme de la généralisation abusive
+La généralisation abusive est un sophisme par lequel on prétend démontrer une proposition universelle à partir d'exemples particuliers. D'un point de vue logique, ce raisonnement fautif se ramène ainsi à x P (x) x P (x) (-displaystyle -exists xP(x)-to -forall xP(x)).
+Exemples : Un nombre est toujours inférieur à une infinité de nombres ; donc il est inférieur à tous les nombres.; Tous les corbeaux sont noirs, puisque tous ceux que l'on a observés le sont.; "Les hommes politiques sont tous corrompus : regardez X, Y, Z."; "Les professeurs sont des paresseux. Moi, je vois, mon beau-frère, il ne fait rien.". Portail de la philosophie; Portail de la logique; Portail de la psychologie; Portail de l'information géographique.

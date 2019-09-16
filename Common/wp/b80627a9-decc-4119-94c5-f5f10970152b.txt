@@ -1,0 +1,13 @@
+Le microfilm, dans sa forme documentaire, est un support de stockage analogique reproduisant des documents, tel des pages de livres ou périodiques, des documents juridiques ou comptables ou des dessins techniques.
+Il existe aussi un microfilm dit COM (Computer output microfilm) réalisé par impression directe d'un film photographique à partir d'un fichier numérique.
+
+Description
+Pour les archives et documents, la forme la plus courante est un rouleau de film photographique inversible noir et blanc au format 35 mm. Une autre forme plus répandue lorsqu'il s'agit de dessins techniques, est la carte perforée Hollerith, qui ne comporte qu'une vue. On a beaucoup utilisé et on utilise encore dans des applications commerciales le format 16 mm. La plupart des films 16 mm comportent un système d'indexation par pavés optiques marqués sur le bord de chaque image, mais ces informations ne servent pas tant à l'utilisation du microfilm lui-même qu'à des systèmes de recherche automatisés.
+Les échelles de réduction varient selon les dimensions de l'original, le format du film (16 ou 35 mm) et l'exigence de qualité. L'échelle de réduction 24 permet de reproduire un format A4 en mode vertical sur un film 16 mm. Les formats supérieurs sont reproduits habituellement sur film 35 mm. On notera que le COM permet d'utiliser sans perdre de lisibilité, des échelles de réduction supérieures : 48, voire 96.
+Le microfilm n'est pas le support de stockage analogique le plus compact, la microfiche l'est davantage.
+L'un des intérêts majeurs du microfilm noir et blanc est sa grande stabilité dans le temps : le support est connu, et tant l'expérience que les tests de laboratoire ont démontré qu'il pouvait se conserver, dans des conditions favorables de température et d'humidité, plusieurs centaines d'années. Le microfilm couleur, utilisé pour la reproduction de documents imprimés en couleur, de manuscrits enluminés, de dessins, se dégrade comme tous les films couleur, beaucoup plus rapidement. Seule la conservation dans le froid et l'obscurité permet de lui assurer une durée de vie élevée.
+
+Histoire
+L'anglais John Benjamin Dancer (1812-1887) est le premier à produire des micro-photographies dès 1839, utilisant le procédé du daguerréotype. René Dagron, un photographe et inventeur français, sera le premier à breveter un procédé de microfilm, le 21 juin 1859.
+
+Voir aussi: Microphotographie; Centre national du microfilm et de la numérisation.

@@ -1,0 +1,116 @@
+Une représentation graphique de données statistiques ou visualisation de données statistiques est un résumé visuel des données statistiques chiffrées. Elle permet en un seul coup d'oeil d'en saisir la tendance générale. Un des pionniers de l'usage moderne de la représentation graphique, semble avoir été Charles Joseph Minard (1781-1870), professeur puis super-intendant de l'École des ponts et chaussées, célèbre pour ses cartes figuratives et tableaux graphiques illustrant la campagne napoléonienne de Russie.
+On trouve des représentations graphiques de données statistiques également dans l'information et la communication auprès du grand public où elles peuvent influer sur l'efficacité et la crédibilité du message. De ce point de vue, il convient de garder à l'esprit qu'une représentation graphique reste, par essence, une simplification de la réalité. Les multiples paramètres d'une représentation graphique (échelle, choix de coordonnées, fausses couleurs, etc.) sont autant de facteurs qui peuvent, intentionnellement ou non, induire une distorsion de la réalité, par exemple en masquant, en déformant ou en minimisant une information importante.
+Les NTIC ont développé ces représentations sous les noms de datavisualisation ou de dataviz. Ces technologies permettent aujourd'hui de visualiser "virtuellement" des données dans l'espace (infographie tridimensionnelle, vidéo projection ou projection laser sur une maquette "neutre", ou visualisation avec lunettes 3D, etc.).
+
+Histoire
+C'est à la fin du XVIIIe siècle, avec la publication en 1786 par William Playfair (1759-1823) d'un ouvrage intitulé The Commercial and Political Atlas, dans lequel l'auteur trace une série de graphiques de séries temporelles représentant l'évolution de données économiques concernant l'Angleterre et notamment l'évolution de sa balance commerciale au cours du XVIIIe siècle, que naît la représentation graphique moderne des données. Dans le même ouvrage, l'auteur représente aussi le premier diagramme en bâtons de l'histoire. C'est aussi à William Playfair que l'on doit le premier graphique circulaire connu. Publié en 1801 dans The Statistical Breviary, le graphique représente la superficie, le montant des revenus et le montant des taxes de chaque pays.
+Carte figurative de l'instruction populaire de la France, par Charles Dupin, 1826. Il s'agit de la première carte choroplèthe de l'histoire. Adriano Balbi et André-Michel Guerry reprennent la carte choroplèthe de Charles Dupin pour faire des cartes choroplètes comparées de l'instruction et du nombre de crimes. La carte représentant le nombre de morts dû au choléra à Londres en 1854. Elle a été publiée par John Snow dans son ouvrage On the Mode of Communication of Cholera (1855). Carte Philosophique figurant la Population de la France (1830), par Armand Joseph Frère de Montizon. Il s'agit de la première "carte par points".
+Dans les années 1820, on commence à représenter des données statistiques sur une carte. En 1826, Charles Dupin dessine une carte choroplèthe de l'instruction populaire en France, en coloriant les départements français en fonction de l'intensité de la variable représentée. Cette représentation visuelle rencontre un rapide succès et est aussitôt reprise par André-Michel Guerry et Adriano Balbi qui dessinent des cartes choroplèthes de l'instruction, du nombre de crimes contre les propriétés et du nombre de crimes contre les personnes puis par Guerry dans son Essai sur la statistique morale de la France publié en 1833. Peu de temps après, Armand Joseph Frère de Montizon propose la première "cartes par points" (dot map), avec une représentation de la population française par département intitulée Carte Philosophique figurant la Population de la France. En 1855, le médecin britannique John Snow établit une carte de points du choléra à Londres sur laquelle il représente la localisation des morts et la localisation des points d'eau dans la ville de Londres mettant ainsi en évidence le fait que l'épidémie se propage par l'eau. En 1861, Charles Joseph Minard propose de représenter des données sur une carte à l'aide de diagrammes circulaires dont l'aire est proportionnelle à la quantité représentée (Exemple de la Carte figurative et approximative des quantités de viandes de boucherie envoyées sur pied par les départements et consommateurs).
+Diagramme des causes de mortalité au sein de l'armée en Orient par Florence Nightingale.
+En 1857, Florence Nightingale publie son Diagramme des causes de mortalité au sein de l'armée en Orient. Le graphique montre que les soldats anglais engagés dans la guerre de Crimée ne meurent pas au combat face à l'ennemi mais sont victimes des conditions sanitaires dans lesquelles ils vivent.
+Au cours de la seconde moitié du XIXe siècle, on découvre plusieurs innovations importantes, comme les premières visualisations en trois dimensions de l'Italien Luigi Perozzo ou de l'Allemand Gustav Zeuner.
+Stéréogramme : représentation en trois dimensions de la pyramide des âges à partir des données du recensement suédois (1750-1875) publiée par Luigi Perozzo en 1880
+Au Royaume-Uni, c'est Francis Galton qui fait une importante contribution à la visualisation de données en proposant des représentations graphiques de la corrélation entre deux variables (nuage de points) mais aussi des cartes météorologiques..
+Au cours du premier XXe siècle, les statisticiens prêtent une moindre attention à la visualisation de données.
+Dans les années 1960, John Tukey donne ses lettres de noblesse à la visualisation de données en statistiques, notamment avec son ouvrage Exploratory Data Analysis (1977).
+En 2005, Leland Wilkinson publie The Grammar of Graphics, un des ouvrages théoriques les plus importants sur la conception des graphiques statistiques. Wilkinson définit un graphique statistique comme une correspondance entre des données et des attributs esthétiques (couleur, forme, taille, etc) d'objets géométriques (points, lignes, barres, etc).
+
+Structure d'une visualisation
+Une visualisation est composée d'un élément visuel, d'une échelle, d'un système de coordonnées et d'un contexte.
+Dans un nuage de points, on utilise la position des points dans l'espace comme élément visuel représentant les données. Dans un diagramme en bâtons, c'est la longueur des barres qui est l'élément visuel correspondant aux données.
+Le système de coordonnées peut être cartésien, polaire ou géographique.
+L'échelle peut être linéaire ou logarithmique lorsqu'il s'agit d'une variable quantitative, catégorique lorsqu'il s'agit d'une variable catégorique ou temporelle lorsqu'il s'agit du temps.
+
+Typologie en fonction des formes représentées
+
+Diagramme en bâtons
+Pour un diagramme en bâtons vertical, on représente pour chaque modalité d'une variable discrète un rectangle dont la hauteur représente la valeur d'une variable continue et dont la largeur n'a pas d'interprétation statistique.
+Pour un diagramme en bâtons horizontal, c'est la largeur du rectangle qui représente la valeur de la variable continue et la hauteur de ce rectangle qui n'a pas d'interprétation statistique.
+Il est aussi courant de rencontrer des diagrammes en bâtons empilés (stacked bar chart). Exemples de diagrammes en bâton;
+Les imports et les exports de l'Écosse entre noël 1780 et noël 1781. C'est le premier diagramme en bâtons de l'histoire. Il a été publié par William Playfair dans son ouvrage The Commercial and Political Atlas (1786).;
+Diagrammes en bâtons dans l'Essai sur la statistique morale de la France d'André-Michel Guerry, Planche VII, 1833.
+
+Diagramme circulaire
+Le diagramme circulaire peut être un camembert ou un donut chart.
+Le diagramme circulaire ou camembert permet de représenter des proportions. Dans un camembert, c'est l'angle qui représente la part de chaque catégorie dans un tout.
+Le donut chart est un camembert troué au milieu. Dans ce cas, c'est la longueur de l'arc de cercle correspondant à chaque catégorie qui représente la part de chaque catégorie dans le tout représenté. Exemple de diagramme circulaire;
+Diagrammes circulaires publiés par William Playfair dans The Statistical Breviary (1801). Les cercles représentent la superficie de chaque pays. Les lignes à gauche de chaque cercle représentent la population (en millions d'habitants) et les lignes à droite représentent le total des taxes collectées (en millions de livres sterling). La ligne pointillée met en relation la ligne des revenus et la ligne des taxes. Sa pente n'a pas d'interprétation mais le signe de la pente en a une. Le graphique montre qu'en Grande-Bretagne, le total des taxes comparé à la population est plus élevé que dans les autres pays.
+
+Nuage de points
+Le nuage de points est couramment utilisé pour représenter la relation entre deux variables. Dans un nuage de points, ce sont les coordonnées de chaque point sur l'axe des abscisses et l'axe des ordonnées qui représentent les valeurs de chacune des variables. Il permet de mettre en évidence une corrélation entre deux variables.
+
+Ligne
+Une ligne ou line plot est un nuage de points dans lequel les points ont été reliés entre eux.
+
+Bulles
+On peut aussi représenter graphiquement des données quantitatives grâce à des bulles dans lequel la surface des bulles est proportionnelle à la grandeur représentée.
+
+Heatmap
+Premier exemple d'une heatmap
+Une heat map (carte thermique, carte de chaleur) est une matrice dont les cellules sont colorées en fonction de la valeur de la variable représentée.
+
+Boîte à moustaches
+Le diagramme en boîte à moustaches résume seulement quelques caractéristiques de position du caractère étudié (médiane, quartiles, min-max ou déciles). Il est utilisé principalement pour comparer un même caractère dans deux populations de tailles différentes. Il s'agit de tracer un rectangle allant du premier quartile au troisième quartile et coupé par la médiane. On ajoute parfois des segments aux extrémités menant jusqu'aux valeurs min-max ou jusqu'au premier et neuvième décile. On parle alors de diagramme en boîte à moustaches ou à pattes.
+
+Sparklines
+Les sparklines sont un format développé par Edward Tufte pour des mini-graphiques qui peuvent être insérés dans un texte sur une page.
+Tufte décrit les sparklines comme des "graphiques intenses en données, de design simple, et ayant la taille d'un mot". Alors que le graphique typique est conçu de manière à montrer le plus de données possible et qu'il est placé hors du flux de texte, les sparklines sont concis, mémorisables, et localisés précisément à l'endroit approprié.
+Sparklines U.S. stock market activity (February 7, 2006). Day. Index. Value. Change. Dow Jones. 10765.45. 32.82 (0,30 %). SP 500. 1256.92. 8.10 (0,64 %). Nasdaq. 2244.83. 13.97 (0,62 %).
+Typologie selon le type de données représentées
+
+Visualisation de données temporelles
+Les imports et exports du Royaume du Danemark et de Norvège de 1700 à 1780. Exemple de graphique de série temporelle publié par William Playfair dans son ouvrage The Commercial and Political Atlas (1786). Représentation graphique de l'évolution des intérêts de la dette publique britannique au cours du XVIIIe siècle. Graphique publié par William Playfair dans The Commercial and Political Atlas.
+Le graphique de série temporelle représente l'évolution d'une variable en fonction du temps. C'est la représentation graphique la plus utilisée et son interprétation est généralement très intuitive.
+Si la série temporelle est discrète, il est courant d'utiliser un simple diagramme en bâtons pour la représenter. Par exemple, les données annuelles ou mensuelles sont souvent représentées par des diagrammes en bâtons. En revanche, si les données sont continues, il est plus courant de les représenter par une courbe (line plot) ou un graphique d'aire (area chart), comme l'avait fait William Playfair dans son Commercial and Political Atlas (voir ici et ici).
+
+Visualisation de données géolocalisées
+Une carte statistique permet de représenter la valeur d'une variable statistique dans chacune des unités géographiques d'une entité globale. La carte statistique a l'avantage de pouvoir à la fois révéler une analyse globale tout en permettant à chacun d'aller repérer des détails pour chaque unité géographique. En revanche, elle a le défaut de donner à chaque unité géographique une importance proportionnelle à sa superficie alors que dans de nombreuses situations il serait préférable que l'importance que l'on donne à chaque unité géographique soit relative à une autre variable, comme sa population par exemple.
+Alors que les cartes géographiques ont été inventées il y a plus de 5000 ans, les cartes statistiques ne sont véritablement apparues qu'au XVIIe siècle. En 1686, Edmond Halley représente une carte du monde avec des symboles permettant de donner l'origine et surtout l'intensité des vents. Plus tard, au XIXe siècle, John Snow représente une carte de Londres en localisant le nombre de morts dus au choléra lors de l'épidémie de septembre 1854 et les points d'accès à l'eau dans la ville. Sa carte permet de comprendre que le choléra se transmet par l'eau.
+
+Visualisation de la relation entre plusieurs variables
+Pour représenter la relation entre deux variables, il est courant d'utiliser un nuage de points.
+Lorsqu'il y a plus de deux variables, il existe de nombreuses solutions. La solution la plus simple consiste à représenter une matrice de nuages de points. On peut aussi utiliser un graphique de bulles dans lequel, comme dans un nuage de points, les coordonnées des bulles représentent les valeurs de deux variables et dans lequel la surface des bulles représente une troisième variable.
+
+Visualisation des proportions
+
+Visualisation d'une distribution statistique
+Dans le cas discret, il est courant d'utiliser un diagramme en bâtons où la hauteur de chaque rectangle représente les effectifs ou les fréquences associées à chaque modalité.
+
+Visualisation d'une arborescence
+Lorsque les données ont une structure hiérarchique, elles peuvent être représentées sous la forme d'un dendrogramme, d'une treemap ou encore d'un sunburst.
+
+Treemap
+La treemap est une représentation visuelle inventée par Ben Shneiderman en 1990 pour représenter l'occupation de l'espace sur son disque dur. Dans cette représentation, c'est la surface de chaque rectangle qui représente la part de chaque élément dans le tout. Par la suite, cette représentation a été utilisée pour d'autres usages. Par exemples, Martin Wattenberg l'a utilisée pour représenter une "carte du marché" par secteur d'activité dans laquelle la surface de chaque rectangle est proportionnelle à la capitalisation boursière des entreprises du secteur. Marcos Westamp a conçu une treemap de l'information dans laquelle la taille des rectangles est une fonction du nombre d'articles consacré au sujet dans la presse. Matthew Bloch, Shan Carter et Amanda Cox, ont utilisé une treemap pour visualiser la part de chaque type de bien dans la consommation d'un ménage américain et un code couleur pour visualiser l'inflation.
+
+Visualisation de réseaux
+
+Visualisation de flux
+Le diagramme de flux est un type de représentation spécifique pour visualiser des flux.
+
+Représentation des effectifs et des fréquences
+Une règle générale distingue les représentations sans épaisseur (diagramme en bâtons) et les représentations avec épaisseur : dans une représentation sans épaisseur, l'effectif (ou la fréquence) est proportionnel à la hauteur, tandis que dès qu'une surface existe, l'effectif (ou la fréquence) est proportionnel à l'aire.
+
+Variables discrètes
+
+Variables quantitatives discrètes
+Diagramme en bâtons issu de l'article Statistiques élémentaires discrètes
+Pour des variables quantitatives discrètes, on privilégie le diagramme en bâtons, mais on voit apparaître parfois des représentations avec épaisseur. Diagramme figuratif : Les effectifs sont représentés par des images (silhouettes, bâtiments, etc.) évoquant la population étudiée. Ces images ont une surface proportionnelle à l'effectif. Notons que, si la surface est proportionnelle, ce n'est pas le cas de la hauteur ni de la largeur de l'image (doubler la longueur et la hauteur, par exemple, multiplie la surface par 4, non par 2 ; pour doubler la surface, il faut multiplier la hauteur et la largeur par 2, soit 1,414..., non par 2).
+Diagramme en rectangle avec lissage: Diagramme en rectangles : si la base des rectangles a la même taille, les hauteurs proportionnelles aux effectifs respectent la règle des aires.; Ajout d'un polygone rejoignant les sommets du diagramme en bâtons. Cette tentative de lissage de la représentation graphique ne respecte pas tout à fait la règle des aires (l'aire sous le polygone ne correspond pas tout à fait à l'effectif ou la fréquence) mais a le mérite de présenter une courbe se rapprochant de la courbe de densité de probabilité.
+
+Variables qualitatives
+Diagramme en camembert
+Pour des variables qualitatives, on utilise fréquemment les diagrammes circulaires dits "en camembert", demi-circulaire ou rectangulaire. On trouve aussi des diagrammes figuratifs avec le danger évoqué plus haut.
+
+Variables continues
+On utilise l'histogramme en respectant la règle des aires. Pour éviter tout danger, il est préférable de travailler avec des classes d'amplitude constante. Dans ce cas, les hauteurs des rectangles sont proportionnelles aux effectifs (ou aux fréquences). Le cas des classes d'amplitudes variables se révèle plus délicat et est traité dans statistiques élémentaires continues. On trouve aussi pour les variables continues la même tentative de lissage avec la même réserve sur la règle des aires.
+
+Représentation des effectifs cumulés
+Polygone des fréquences cumulées avec lecture de quartiles
+Pour les variables continues, on peut tracer le polygone des effectifs (ou fréquences) cumulés. Le principe du tracé est expliqué dans l'article statistiques élémentaires continues. Ce polygone, permet de lire très rapidement l'effectif d'un intervalle de la forme (x 1 , x) (-displaystyle (x-(1),x)) et, par différence, l'effectif de tout intervalle. Elle permet aussi de lire très rapidement les quartiles et les déciles. Cette représentation préfigure le tracé de la fonction de répartition en probabilité.
+On voit apparaître parfois un polygone des effectifs cumulés pour des variables discrètes. En toute rigueur, il faudrait tracer un diagramme en escalier.
+
+Filmographie: (en) Geoff McGhee, Journalism in the Age of Data, voir en ligne; (en) David McCandless, La beauté de la visualisation des données, voir en ligne.
+
+Voir aussi
+
+Articles connexes: Représentation graphique d'une fonction mathématique; Graphe; Système d'information géographique; Cartographie; Cartographie d'information; Flèche du temps; Journalisme de données; Visualisation d'informations; Infographie; Sémiologie graphique; Science des données; Tableau (statistique).

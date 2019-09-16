@@ -1,0 +1,40 @@
+Un lave-vaisselle est un appareil électroménager conçu pour nettoyer la vaisselle.
+
+Historique
+La première mention d'une machine lavant la vaisselle remonte à 1850. Les lave-vaisselle modernes descendent d'un modèle imaginé par Josephine Cochrane en 1886, semi-automatique. Les premiers éléments électriques sont ajoutés en 1920. Cet appareil domestique est devenu un équipement courant en Occident dans les années 1980.
+
+Fonctionnement
+
+Lavage
+Le lave-vaisselle ne lave pas la vaisselle de la même manière qu'on le ferait manuellement : ni éponge, ni brosse. Un, deux ou trois bras rotatifs munis de gicleurs aspergent de l'eau tiède à très chaude, sur la vaisselle, selon un cycle dont la durée est calculée pour assurer une désincrustation des restes alimentaires quelle qu'en soit la nature (graisses brûlées, sucres caramélisés, résidus divers). Pour être efficace, le jet d'eau rotatif doit être puissant et durer assez longtemps. De ce fait, il existe une partie de la vaisselle réputée fragile et qu'il n'est pas recommandé de laver en machine.
+La température de l'eau à l'intérieur peut atteindre les 75 C. Le niveau de bruit atteint pendant un lavage se situe entre 45 et 65 décibels. Un appareil qui émet entre 40 et 50 dB est considéré comme très silencieux.
+
+Produit de lavage
+Le liquide utilisé pour laver la vaisselle à la main ne doit pas être utilisé en machine car il produirait une mousse considérable. Le lave-vaisselle requiert un produit spécifique à base de tensio-actifs non moussants. Durant des décennies, ce produit était distribué comme la lessive pour vêtements, en barils, sous forme de poudre. Pour des raisons de mode, de marketing ainsi que de commodité, la plupart des marques de produits de lavage préfèrent aujourd'hui vendre ces produits pour lave-vaisselle sous forme de doses se présentant habituellement sous l'aspect de gros sucres, alors que certains constructeurs de lave-vaisselle déconseillent ces produits prédosés, et préconisent les produits séparés. On trouve donc le produit de lavage sous différentes formes: En poudre à doser soi même;; En liquide à doser soi même;; En tablettes "tout en un" comprenant, normalement, tous les produits nécessaires à l'efficacité et au bon fonctionnement du lave vaisselle (lessive + liquide rinçage + sel anti-calcaire).
+La quantité d'eau utilisée ayant beaucoup diminué dans les machines récentes, les produits prédosés se retrouvent en trop forte concentration dans le liquide de lavage : il est donc courant de voir les utilisateurs couper en deux les tablettes de produits prédosés.
+
+Avantages et inconvénients des tablettes
+Les doses individuelles présentent l'avantage d'être pratiques, mais elles ont l'inconvénient de ne pas permettre de dosage et sont donc une source de gaspillage (par conséquent de pollution). Le compartiment prévu pour recevoir la poudre ou la dose ne pouvant en contenir qu'une seule, la dose est calculée pour un lave-vaisselle supposé à pleine charge. Si celui-ci est à demi-charge, la dose sera deux fois trop importante et il est peu pratique de casser précisément le cube de poudre compacte... Cependant cela reste possible, et les utilisateurs de petits lave-vaisselle utilisent cette technique, qui se révèle être économique et écologique.
+Il est également possible de trouver sur le marché, des produits tout-en-un incluant les fonctions détergent, liquide rinçage et sel. Coté détergent pas de changement, coté liquide rinçage, il est conseillé de ne pas utiliser l'appareil en lavage intensif, la fonction liquide de rinçage étant libérée en fonction de la haute température liée à ce moment du cycle (rinçage à 70 C environ), l'efficacité du produit peut donc en être réduite. La fonction sel intégrée est quant à elle fonctionnelle dans une eau dure jusqu'à 35 th, mais au-delà un complément de sel est nécessaire dans le réservoir. Certaines pastilles possèdent également des fonctions de protection de la verrerie ou d'entretien des divers organes de l'appareil.
+
+Traitement adoucissant de l'eau
+Les lave-vaisselle modernes embarquent tous un adoucisseur d'eau intégré qui requiert une charge initiale d'environ 2 kilogrammes de sel (chlorure de sodium pur). Des boules de résine synthétique favorisent l'échange ionique entre le sel soluble et les sels calcifiants (chlorures de calcium, de magnésium, nitrates). Cet adoucisseur est indispensable lorsque l'eau est calcaire sinon les verres et les couverts, une fois séchés, seraient blanchâtres.
+
+Rinçage
+Une fois le cycle de lavage achevé, le cycle de rinçage introduit un produit favorisant le séchage, au dernier rinçage. C'est généralement un colloïde hydrosoluble qui rend l'eau plus ruisselante. Il est doté d'un pH acide.
+Il est possible d'utiliser du vinaigre blanc comme produit de rinçage essentiellement si l'eau est calcaire.
+
+Constitution
+Le lave-vaisselle est constitué des pièces détachées fonctionnelles suivantes : Une électrovanne, qui autorise l'arrivée d'eau dans la machine aux moment définis par le programme choisi ;; Un remplisseur-répartiteur, qui oriente l'eau vers le lavage et en conserve une partie pour la régénération ;; Un détecteur de niveau d'eau ou pressostat, qui gère la quantité d'eau admise ;; Une pompe de cyclage, qui aspire l'eau et la propulse dans les bras de lavage (ou moulinet) ;; Une résistance (ou thermoplongeur) qui permet la montée en température de l'eau ;; Une sonde de température, qui contrôle la chaleur du bain lessiviel ;; Un adoucisseur, pour éviter les dépôts de calcaire ;; Une pompe de vidange, permettant l'évacuation des eaux usées ;; Un programmateur ou une carte électronique pour coordonner le fonctionnement de tous ces organes ;.
+D'autres organes optionnels sont présents comme le détecteur de salissure, le ventilateur de séchage, le débitmètre, etc. et de plus en plus des fonctions de domotique.
+
+Entretien
+Le lave-vaisselle demande plus d'attention et de suivi qu'un lave-linge. Au bout de quelques cycles de lavage, il est indispensable de nettoyer le filtre qui récupère les petites saletés. Il faut régulièrement rajouter du sel dans l'adoucisseur (pour permettre la régénération des résines échangeuses d'ions) et du liquide de rinçage (pour faciliter l'écoulement de l'eau sur les couverts, assiettes...) dans le réservoir approprié. Il existe des produits liquides (sous forme de flacons) qui assurent un nettoyage complet du lave-vaisselle. Utilisés avec un programme de lavage long et une température élevée, ils dissolvent les graisses et détartrent l'ensemble des circuits.
+Déboucher les orifices des bras de lavage du lave-vaisselle permet de lui redonner son efficacité car il arrive souvent qu'ils soient bouchés par du papier ou des déchets alimentaires.
+Des expériences récentes qui ont permis de faire les sels régénérants écologiques (100 % chlorure de sodium soit sel de cuisine) ont prouvé que l'utilisation de simple gros sel de cuisine donnait les mêmes résultats que le sel régénérant, sans dégradation des appareils. Le seul point à respecter semble être d'utiliser du gros sel (la taille des cristaux de sel est le facteur important). De la même façon, le liquide de rinçage peut être remplacé par du vinaigre d'alcool blanc, moins onéreux à l'usage.
+
+Environnement
+La construction, le transport, la vente, l'utilisation et le recyclage ou destruction de l'appareil en fin de vie consomment de l'énergie et des matières premières.
+Lors d'un cycle de lavage, l'appareil consomme entre 10 et 15 litres d'eau pour les modèles récents, et environ 1 kWh d'électricité. Si l'on prend en compte uniquement la consommation lors d'un cycle de lavage, un lave-vaisselle plein utilise moins d'eau qu'un lavage à la main et par conséquent nettement moins d'énergie (le chauffage de l'eau est très énergivore). Le détergent utilisé peut être polluant selon le type utilisé.
+Voir les possibilités d'optimisation sous installation sanitaire.
+Un écolabel européen a été mis en place par l'Union européenne pour informer les consommateurs à ce sujet.

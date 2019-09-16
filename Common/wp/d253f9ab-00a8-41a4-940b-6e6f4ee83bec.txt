@@ -1,0 +1,16 @@
+X BitMap, abrégé XBM, est un format d'image numérique monochrome originellement conçu pour le système X Window, notamment pour les images de pointeur et d'icône.
+Le format XBM décrit les images en langage C, ce qui permet à un programmeur d'intégrer très facilement des images XBM à un logiciel écrit en C. L'image d'un pointeur est écrite comme suit au format XBM :
+Texte d'un pointeur au format XBM (voir Fichier:Pointeur.xbm) :
+define pointeur-width 11
+define pointeur-height 16
+define pointeur-x-hot 0
+define pointeur-y-hot 0
+static unsigned char pointeur-bits - (
+ 0x01, 0x00, 0x03, 0x00, 0x07, 0x00, 0x0f, 0x00, 0x1f, 0x00, 0x3f,
+ 0x00, 0x7f, 0x00, 0xff, 0x00, 0xff, 0x01, 0xff, 0x03, 0xff, 0x07,
+ 0x3f, 0x00, 0x33, 0x00, 0x61, 0x00, 0x60, 0x00, 0xc0, 0x00);
+Les deux premières lignes définissent la largeur et la hauteur de l'image (11 par 16). Les deux lignes suivantes sont optionnelles et définissent la position d'un éventuel pixel de pointage dans l'image (coordonnée (0;0) soit en haut à gauche au bout de la flèche). Les dernières lignes contiennent un tableau d'octets (ici représentés par le type unsigned char) dont les bits représentent les pixels de l'image, suivant l'organisation little-endian.
+Ce format est avec GIF le premier à avoir été utilisable dans les pages web. Comme il est obsolète, son support est progressivement retiré des navigateurs Web.
+
+Référence
+Xlib - C Language X Interface, X Consortium Standard, X Version 11, Release 6.4, chapitre 16.9. Portail de l'imagerie numérique.

@@ -1,0 +1,7 @@
+Un moteur à combustion interne est une machine thermique dans laquelle l'énergie thermique dégagée par la combustion est transformée en énergie mécanique directement à l'intérieur du moteur.
+Il existe deux grands types de moteurs à combustion interne : les moteurs fournissant un couple sur un arbre et les moteurs à réaction.
+
+Les moteurs fournissant un couple sur un arbre: moteur à combustion et explosion : moteur à gaz ;; moteur Diesel (moteur à allumage par compression);; moteur à allumage commandé : moteur à deux temps, moteur à quatre temps, moteur Wankel, etc..; moteur à gaz ;; moteur Diesel (moteur à allumage par compression);; moteur à allumage commandé : moteur à deux temps, moteur à quatre temps, moteur Wankel, etc. machine à pistons rotatifs à battement contrôlé (MPRBC) ;; turbine à gaz, turbopropulseur, turbomoteur.
+
+Les moteurs à réaction (fournissant une poussée)
+Selon le type de comburant utilisé, il existe deux types de moteur à réaction : 1) aérobies (dont le comburant est le dioxygène de l'air) : turboréacteur ;; statoréacteur ;; superstatoréacteur ;; pulsoréacteur et moteur à ondes de détonation pulsées.; 2) turboréacteur ;; 3) statoréacteur ;; 4) superstatoréacteur ;; 5) pulsoréacteur et moteur à ondes de détonation pulsées.; 6) anaérobies (utilisation d'un comburant embarqué) : moteur-fusée dont moteur-fusée à ergols liquides.; 7) moteur-fusée dont moteur-fusée à ergols liquides. Portail de l'énergie; Portail du génie mécanique; Portail de la physique.

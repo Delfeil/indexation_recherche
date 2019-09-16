@@ -1,0 +1,22 @@
+Un shareware, partagiciel ou contribuciel, est un logiciel qui peut être utilisé gratuitement généralement durant une certaine période ou avec des fonctionnalités limitées. Après cette période d'essai, l'utilisateur doit rétribuer l'auteur s'il veut continuer à utiliser le logiciel ou avoir accès à la version complète.
+
+Étymologie
+Shareware est un mot valise, venant de l'anglais composé de to share (partager) et software (logiciel).
+L'office québécois de la langue française recommande le mot partagiciel comme traduction du mot shareware. On peut aussi trouver plus rarement le terme "contribuciel" (pour logiciel contributif).
+
+Généralités
+Un shareware peut être utilisé pendant une durée limitée ou un nombre d'utilisations qui sont indiquées par l'auteur. Cela permet de tester les fonctionnalités et voir si elles correspondent à ses besoins.
+Au bout de cette période d'essai, il est possible soit de payer une contribution (souvent modique) et continuer à utiliser le logiciel, soit de le désinstaller. Il est également permis de distribuer le logiciel à une autre personne, toujours pour essai.
+Hormis l'utilisation légale du produit, le paiement de la licence peut aussi débloquer un certain nombre de fonctionnalités jusqu'alors inaccessibles comme la sauvegarde, la réception régulière de mises à jour, l'impression et, parfois, la possibilité de prendre contact avec l'auteur.
+Certains sharewares se contentent de rappeler à intervalles plus ou moins fréquents, à l'aide par exemple d'alertes ou de dialogues, que la période d'essai est échue. Ils sont parfois appelés "harceliciels", "nagware" ou "annoyware".
+Certains auteurs ne demandent que l'envoi d'une carte postale comme paiement de la licence, dans ce cas on parle de carticiel (postcardware). D'autres suggèrent simplement que l'utilisateur verse une contribution à l'organisation charitable ou humanitaire de son choix (careware).
+
+Évolution du concept
+Les premiers sharewares étaient disponibles en version complète et non limitée dans le temps. Ce mode de distribution n'a pas vraiment fonctionné : les clients continuaient d'utiliser le logiciel sans le payer. Depuis lors, les sharewares ont évolué en trois branches selon la conception qu'en a l'auteur : L'auteur peut choisir de maintenir la disponibilité de son logiciel en version complète et non limitée, mais y ajouter un message récurrent (écran de rappel, nag screen) pour rappeler à l'utilisateur qu'il doit payer ce logiciel s'il l'utilise régulièrement (voir harceliciel).; Il peut préférer limiter l'usage de son logiciel, en le distribuant comme une version de démonstration : l'usage du logiciel ou de certaines fonctionnalités sont bloquées après une période d'essai, afin de forcer l'utilisateur à payer le logiciel. Certains de ces partagiciels (en réalité, ce sont des versions de démonstration) ont des fonctionnalités bloquées même pendant la période d'essai ; dans ce cas ce sont souvent des fonctions de confort. Elles sont débloquées lors du paiement de la contribution.; Enfin, il peut au contraire décider que les utilisateurs soient libres de choisir de payer ou non le logiciel, selon l'utilisation qu'ils en font.
+
+Logiciels proches
+Un shareware peut facilement être confondu avec un freeware, un logiciel abandonné (abandonware) ou un logiciel libre. Un shareware n'est pas forcément un logiciel libre, car il peut être livré sans son code source. De plus, lorsque celui-ci est fourni, le droit de le redistribuer n'est pas automatiquement accordé. Enfin, la distribution du logiciel lui-même n'est pas forcément libre.
+
+Exemples: Wolfenstein 3D; Mirc; Total Commander; UltraISO; Winzip; Doom.
+
+Voir aussi: Freeware; Freemium. Portail du logiciel.

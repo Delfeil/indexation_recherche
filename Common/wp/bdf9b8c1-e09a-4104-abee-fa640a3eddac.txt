@@ -1,0 +1,23 @@
+Ecosia est un moteur de recherche caritatif qui reverse 80 % de ses bénéfices à un programme de reforestation présent partout dans le monde. Ecosia plante des arbres au Burkina Faso, au Pérou et à Madagascar. L'entreprise travaille avec différents partenaires : WeForest et OZG au Burkina Faso, PUR Projet au Pérou et Eden Projects à Madagascar. Près de 14 millions d'arbres ont été plantés depuis sa création.
+Le 29 mars 2017, alors que le trafic du site internet Ecosia culmine à 57 millions de visites mensuelles d'après Similarweb, le moteur a franchi la barre des 7 000 000 d'arbres plantés. En juin 2017, il a dépassé la barre des 13 000 000 d'arbres plantés. En Septembre 2017, il a dépassé la barre des 14 000 000 d'arbres plantés (14047914 d'arbres plantés le 27-09-2017 à 21:33 GMT+1).
+
+Fonctionnement
+Ecosia propose un service gratuit. Les résultats affichés par le moteur de recherche sont générés par Bing, les encarts publicitaires par Yahoo!. Ecosia affiche des liens publicitaires qui génèrent des revenus à chaque clic.
+Par ailleurs, des liens appelés EcoLinks permettent aux utilisateurs de générer des dons lorsqu'ils font leurs achats en ligne. Ecosia est un moteur de recherche qui neutralise 100 % des émissions de CO2 de ses serveurs, de son infrastructure, de ses locaux et des appareils de ses utilisateurs, à travers un projet de compensation carbone géré par son partenaire myclimate.
+En tant qu'entreprise sociale, Ecosia s'est donné pour mission de "cultiver un monde plus durable sur le plan environnemental, social et économique". Cela consiste concrètement à financer la plantation d'un million d'arbres dans la forêt atlantique d'ici août 2014. Le siège d'Ecosia GmbH est situé à Berlin, en Allemagne, où travaille une équipe de 7 à 13 personnes. En 2017, 21 personnes travaillent chez Ecosia, et des milliers d'emplois ont été créés pour planter des arbres partout dans le monde.
+En date de 2012, plus de 900 000 ont été collectés depuis la mise en ligne du site, le 7 décembre 2009. Un tableau détaillé est affiché sur la page allemande wikipedia d'Ecosia.
+
+EcoLinks
+Ecosia travaille avec plusieurs sites web marchands qui permettent aux utilisateurs de faire un don lorsqu'ils font leurs achats en ligne : lorsqu'ils recherchent un produit avec Ecosia, les EcoLinks s'affichent à côté des détaillants participant au projet. Une fois que l'EcoLink est activé, un pourcentage de l'argent dépensé pour l'achat du produit (jusqu'à 5 %) est automatiquement reversé à Ecosia, qui l'utilise ensuite, avec les revenus issus des publicités, pour financer le projet "Plant a Billion Trees".
+Depuis 2014, les EcoLinks ne sont plus une fonctionnalité native d'Ecosia, ils doivent désormais être activés à travers l'installation d'une extension de navigateur web. Les EcoLinks sont alors présents sur d'autres moteurs de recherche, tels que Google ou Yahoo!.
+
+Histoire
+De 2009 à juillet 2013, Ecosia s'est associé aux Fonds mondial pour la nature (WWF) pour protéger les parcs nationaux de Juruena et de Tumucumaque (tous deux situés dans la forêt tropicale du nord du Brésil), ce qui a permis de récolter des dons pour un total de 1 266 295. Ecosia a été lancé le 7 décembre 2009, alors que se tenait la Conférence des Nations unies sur les changements climatiques à Copenhague. Ce moteur de recherche succède aux projets de recherche caritative Xabbel, Forestle et Znout.
+Christian Kroll, le fondateur d'Ecosia, est à l'origine de tous ces projets. Forestle et Znout ont été interrompus en août 2013 et leurs URL redirigées vers Ecosia.
+En juin 2017, Ecosia a dépassé la barre des 10 millions d'arbres plantés
+Cette compagnie s'est fixé comme premier objectif d'atteindre le milliard d'arbres plantés d'ici 2020, ce qui constituerait 0,033 % de la population arboricole actuelle.
+Montant donné par Ecosia aux différentes associations.
+
+Navigateur
+Ecosia est également un navigateur internet.
+Basé sur chromium , il est disponible pour smartphones Android et Ios. En effet , Safari (navigateur par défaut sur ios) ne permet pas de mettre par défaut Ecosia comme moteur de recherche ce qui expliquerait probablement l'utilité du navigateur.

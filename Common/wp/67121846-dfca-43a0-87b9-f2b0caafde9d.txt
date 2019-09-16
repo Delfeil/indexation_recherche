@@ -1,0 +1,15 @@
+En mathématiques, la somme d'ensembles est une opération qui possède deux définitions légèrement différentes selon l'usage qui en est fait.
+
+En algèbre
+En algèbre, dans un demi-groupe M dont l'opération est notée additivement, la somme A + B de deux sous-ensembles A et B est l'ensemble
+Cette opération munit l'ensemble des parties de M d'une structure de demi-groupe dans lequel l'ensemble vide est absorbant. Si M possède un élément neutre 0, alors le singleton (0) est l'élément neutre pour l'opération induite.
+C'est cette notion qui est utilisée dans les ensembles sans somme et la conjecture de Cameron-Erdős.
+C'est aussi cette notion qui intervient en algèbre linéaire, sous le nom de somme de Minkowski ou de somme de deux sous-espaces vectoriels.
+On définit de même A1 +... + An. Lorsque les Ak sont tous égaux à un même ensemble A, cette somme est notée nA dès que le contexte dissipe toute confusion avec l'image de A par l'homothétie de rapport n.
+
+En théorie additive des nombres
+En théorie additive des nombres, la somme A B de deux ensembles d'entiers naturels A et B est définie comme l'ensemble de toutes les sommes d'un élément de A avec un élément de B, en même temps que les éléments de A et de B, c'est-à-dire :
+Si 0 appartient à la fois à A et B, alors A B coïncide avec A + B.
+Cette notion est employée notamment dans la densité de Schnirelmann et dans l'énoncé du théorème des quatre carrés de Lagrange.
+
+Articles connexes: Somme restreinte d'ensembles; Suite de Sidon. Portail des mathématiques.

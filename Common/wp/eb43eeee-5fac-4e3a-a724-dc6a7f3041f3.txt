@@ -1,0 +1,71 @@
+En informatique, l'installation (en anglais, installation ou setup) d'un programme (incluant les pilotes de périphériques et les plugins) est la procédure permettant l'intégration du programme sur l'ordinateur pour le rendre apte à être exécuté.
+Parce que le processus d'installation varie pour chaque programme et chaque ordinateur, les programmes (y compris les systèmes d'exploitation) sont souvent livrés avec un installateur, un programme spécialisé responsable de faire tout ce qui est nécessaire pour l'installation.
+L'installation implique généralement que le code du programme soit copié ou généré à partir des fichiers d'installation et enregistré dans de nouveaux fichiers sur l'ordinateur pour faciliter l'accès par le système d'exploitation. De plus, lors de l'installation, différents liens, pointeurs, paramètres et sauvegardes sont enregistrés dans différentes sections de l'ordinateur. À cause de ces liens, pointeurs, paramètres et sauvegardes, la désinstallation d'un programme implique habituellement plus que simplement l'effacement du dossier du programme dans le dossier des programmes de l'ordinateur. Par exemple, les données de la base de registre et d'autres codes système doivent être modifiés ou supprimés pour une désinstallation complète.
+
+Vue d'ensemble
+Certains programmes sont immédiatement utilisables et peuvent être exécutés à partir du dossier dans lequel ils ont été copiés. D'autres programmes sont fournis sous une forme inadaptée pour une exécution immédiate et nécessitent une procédure d'installation. La procédure d'installation est habituellement facilitée par un installateur qui guide l'utilisateur dans les étapes de l'installation. Une fois installé, le programme peut être exécuté encore et encore, sans qu'il soit nécessaire de le réinstaller avant chaque exécution.
+Les opérations couramment effectuées au cours de l'installation d'un programme comprennent : la vérification que la configuration minimum requise (équipement et logiciel) est respectée ;; la création ou la mise à jour de dossiers et de fichiers utilisés par le programme ;; l'ajout de données de configuration telles que les fichiers de configuration, les entrées de la base de registre Windows ou les variables d'environnement ;; la création de liens, de raccourcis ou de favoris pour rendre le logiciel accessible à l'utilisateur ;; la configuration de composants qui s'exécutent automatiquement, tels que les deamons ou les services Windows ;; l'exécution de l'activation du produit ;; la mise à jour du programme.
+Certains installateurs proposent aux utilisateurs d'installer des logiciels non désirés en plus du logiciel à installer. Ces logiciels additionnels sont habituellement des logiciels publicitaires, des barres d'outils, des logiciels d'essai ou des logiciels de sociétés partenaires. Pour éviter l'installation de ces logiciels non désirés, l'utilisateur doit lire attentivement les textes qui lui sont présentés lors de l'installation. L'installation de logiciels non désirés peut habituellement être évitée en refusant les propositions d'installation de ces logiciels ou en décochant certaines options qui sont cochées par défaut dans les boîtes de dialogue de l'installation. L'utilisateur doit parfois utiliser la version personnalisée, détaillée ou experte de la procédure d'installation et non la version standard pour refuser les logiciels non désirés.
+L'installation de logiciels non désirés n'est pas nécessairement faite par l'éditeur du logiciel désiré. Il s'agit souvent de techniques utilisées par des compagnies de téléchargement gratuit comme Download.com qui cherchent ainsi à augmenter leurs revenus.
+
+Programmes sans installateur
+Comme mentionné précédemment, certains programmes n'ont pas besoin d'être installés. C'était le cas de nombreux programmes qui fonctionnaient sous DOS, Mac OS, Atari TOS et AmigaOS. Toutefois, à mesure que les environnements informatiques devenaient plus complexes et que les disques durs fixes remplaçaient les disquettes, les installateurs sont devenus de plus en plus nécessaires.
+Une classe d'applications modernes, appelées applications portables, n'ont pas besoin d'être installées.
+De même, il existe des systèmes d'exploitation portables, qui ne nécessitent pas d'installation et peuvent être exécutés directement à partir d'un CD, d'un DVD ou d'une clé USB d'amorçage. Ils peuvent aussi être chargés via un réseau comme dans le cas des clients légers.
+AmigaOS 4.0, diverses distributions Linux, MorphOS et Mac OS versions 1.0 à 9.0 sont des exemples de systèmes d'exploitation portables. Voir live CD et live USB.
+Finalement, les applications Web, qui s'exécutent dans un navigateur Web, n'ont pas besoin d'être installées.
+
+Types d'installation
+
+Installation avec participation de l'utilisateur
+Sur les systèmes Windows, c'est la forme d'installation la plus courante.
+Un processus d'installation nécessite habituellement la participation de l'utilisateur, par exemple, pour: accepter ou refuser les conditions générales d'utilisation ;; préciser des préférences telles que le dossier où sera installé le programme ou le mot de passe pour accéder au programme ;; activer le produit.
+Dans les environnements graphiques, les installateurs qui offrent un assistant logiciel (en anglais, wizard) sont communs. Les assistants logiciels peuvent demander aux utilisateurs de corriger certaines erreurs. Par exemple, si le disque sur lequel le programme doit être installé est plein, l'assistant logiciel peut demander à l'utilisateur de libérer de l'espace sur le disque ou de spécifier une autre cible.
+
+Installation silencieuse
+Une installation silencieuse est une installation qui n'affiche pas de messages ou de fenêtres pendant sa progression. L'installation silencieuse n'est pas la même chose que l'installation sans assistance (voir ci-dessous). Toutes les installations silencieuses sont sans assistance, mais toutes les installations sans assistance ne sont pas silencieuses.
+La raison derrière une installation silencieuse peut être la commodité ou le subterfuge. L'installation d'un programme malveillant est presque toujours une installation silencieuse.
+
+Installation sans assistance
+Une installation sans assistance est une installation qui est effectuée sans interaction avec l'utilisateur ou sans qu'un utilisateur soit présent. L'une des raisons d'utiliser cette approche est d'automatiser une installation sur un grand nombre d'ordinateurs. Dans une installation sans assistance, le programme d'installation ne nécessite aucune information ou les informations requises lui sont fournies dans un fichier préparé avant le début de l'installation.
+La plupart des distributions Linux sont des exemples de systèmes d'exploitation qui peuvent être installés à partir d'un fichier de réponses préparé avant l'installation. Dans l'installation sans assistance, on suppose qu'il n'y a pas d'utilisateur pour corriger une erreur. Par exemple, si le support d'installation est défectueux, le programme d'installation échoue, car il n'y a pas d'utilisateur pour réparer le problème ou remplacer le support. Les installateurs sans surveillance peuvent enregistrer les problèmes qu'ils rencontrent dans un journal d'ordinateur pour une révision ultérieure.
+
+Installation sans moniteur
+Une installation sans moniteur est une installation effectuée sans utiliser un moniteur d'ordinateur connecté directement à l'ordinateur où se fait l'installation.
+Dans une installation sans moniteur où la participation de l'utilisateur est requise, une autre machine se connecte à la machine cible (par exemple, via un réseau local) et affiche la sortie d'affichage sur son moniteur.
+
+Installation programmée ou automatisée
+Une installation programmée ou automatisée est une installation qui s'exécute à un moment prédéfini ou lorsqu'une condition prédéfinie survient, par opposition à une installation qui démarre sur la commande d'un utilisateur. Par exemple, un administrateur système qui veut installer une nouvelle version d'un programme présentement en exécution peut planifier que cette installation se fasse lorsque le programme ne fonctionne pas.
+Un système d'exploitation peut installer automatiquement un pilote de périphérique pour un nouveau périphérique connecté à l'ordinateur. Voir plug and play.
+Les logiciels malveillants peuvent également s'installer automatiquement. Par exemple, l'infâme Conficker s'installait automatiquement lorsque l'utilisateur branchait un périphérique infecté à son ordinateur.
+
+Installation propre
+Une installation propre est une installation qui se fait en l'absence d'éléments parasites tels que d'anciennes versions du programme en cours d'installation ou des résidus d'une installation précédente.
+En particulier, l'installation propre d'un système d'exploitation est une installation dans laquelle la partition du disque cible est effacée avant l'installation.
+Étant donné que des éléments potentiellement interférents sont absents, une installation propre peut réussir où une installation non propre échoue ou prend beaucoup plus de temps.
+
+Installation à partir d'un réseau
+L'installation à partir d'un réseau est une installation qui est effectuée en installant un programme minimal sur un ordinateur avant de télécharger les éléments nécessaires à l'installation complète à partir d'un réseau. Les éditeurs de logiciels qui offrent des licences de site pour les clients institutionnels offrent souvent une version destinée à être installée à partir d'un réseau.
+
+Installation par système d'exploitation
+
+Systèmes d'exploitation Windows
+Généralement, les logiciels s'installent via un installateur qui prend en charge de manière automatique l'installation. Tout au plus l'utilisateur devra répondre à quelques questions à choix multiples.
+
+Systèmes d'exploitation Linux
+En fonction des distributions, l'installation ne se passe pas toujours de la même façon.
+La plupart des distributions (notamment les plus connues) disposent d'un gestionnaire de paquets permettant d'installer facilement les logiciels fournis sous forme de paquets. Le gestionnaire de paquets se charge souvent lui-même de télécharger le paquet depuis les dépôts de la distribution, puis de les installer sur la machine.
+Il est également possible d'installer des logiciels directement à partir du code source fourni sous forme de tarball. Le tarball contient un fichier INSTALL décrivant la procédure à suivre pour compiler et installer le logiciel (il s'agit généralement de la procédure classique.-configure make make install).
+
+Installation à partir d'un réseau
+Certaines distributions permettent une installation à partir du'un réseau.
+
+Distributions basées sur Debian
+Les installations sont censées se faire via Synaptic, logiciel gérant le parc de logiciels installés.
+Elles peuvent aussi se faire par ligne de commande grâce au gestionnaire de paquets apt-get.
+
+Systèmes d'exploitation Mac OS
+Deux méthodes existent quant à l'installation d'un logiciel sous ce système d'exploitation.
+La première méthode consiste à télécharger un fichier portant l'extension DMG, l'ouvrir au moyen d'un double-clic et copier l'icône du programme sur le disque dur.
+La seconde méthode est semblable à celle utilisée sur Windows. Il faut double-cliquer sur l'icône pour que s'affiche un assistant d'installation. Une fois la procédure terminée, une icône du programme est déposée sur le bureau.
+Sous un système Macintosh les programmes sont, dans la majorité des cas, sous forme d'une seule icône qu'il ne faut donc pas supprimer, sinon cela correspond à la désinstallation du logiciel.

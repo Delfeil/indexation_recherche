@@ -1,0 +1,19 @@
+Un réseau étendu, souvent désigné par son acronyme anglais WAN (Wide Area Network), est un réseau informatique ou un réseau de télécommunications couvrant une grande zone géographique, typiquement à l'échelle d'un pays, d'un continent, ou de la planète entière. Le plus grand WAN est le réseau Internet.
+
+Techniques utilisées
+
+Ligne louée
+Une liaison point à point est une connexion entre le réseau du client et celui de l'opérateur qui se fait généralement via des lignes louées (ou LL) en cuivre ou en fibre optique. Au bout de chaque ligne, on place un routeur connecté d'un côté au réseau local du client et de l'autre à l'infrastructure de l'opérateur.
+
+Circuit commuté
+Les connexions de type RNIS (réseau numérique à intégration de services) ont l'inconvénient d'être facturées à la communication.
+Ces deux types de connexion peuvent utiliser les protocoles SLIP (obsolète), HDLC (peu utilisé) ou PPP (le plus courant).
+
+Commutation de paquets
+De type ATM ou IP, ils permettent un débit garanti par le FAI. Ce type de connexion peut utiliser les protocoles comme: X.25 (obsolète); Frame Relay (en voie d'obsolescence avancée); ATM (en voie d'obsolescence); MPLS; PBT-PBB-TE: Ethernet en tant que technologie de transport avec ingénierie de trafic.
+
+Opérateurs connus
+Les opérateurs (carriers en anglais) les plus connus en Europe sont Orange (anciennement France Télécom), Deutsche Telekom (DT), BT (British Telecom), Telefónica, ATT, COLT, SFR, Belgacom (maintenant Proximus) et bien d'autres encore.
+
+Alternatives
+Depuis qu'Internet fournit un réseau WAN rapide, le besoin de disposer de son propre réseau étendu est moins crucial. Il est possible d'utiliser à la place un réseau privé virtuel (VPN), utilisant le chiffrement et d'autres techniques pour donner l'impression que l'organisation dispose de son propre réseau privé alors qu'elle utilise l'infrastructure partagée d'Internet. Cette solution confère cependant une qualité de service moindre, ou du moins identique à celle de la connexion Internet qui en règle générale dispose d'un taux de disponibilité inférieur.

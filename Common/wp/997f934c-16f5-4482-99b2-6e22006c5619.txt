@@ -1,0 +1,29 @@
+Lorsqu'une personne interroge une base de données (que ce soit un logiciel documentaire ou un moteur de recherche), elle attend un nombre de réponses (sous forme de documents) supérieur ou égal à un. À partir de l'ensemble de réponses obtenus mis en regard de l'attente de l'utilisateur, on peut mesurer les performances de l'algorithme de recherche mis en oeuvre pour retrouver un document. Les critères de mesure des performances sont le rappel et la précision.
+
+Rappel
+Le rappel est défini par le nombre de documents pertinents retrouvés au regard du nombre de documents pertinents que possède la base de données. Cela signifie que lorsque l'utilisateur interroge la base il souhaite voir apparaître tous les documents qui pourraient répondre à son besoin d'information. Si cette adéquation entre le questionnement de l'utilisateur et le nombre de documents présentés est importante alors le taux de rappel est élevé. À l'inverse si le système possède de nombreux documents intéressants mais que ceux-ci n'apparaissent pas dans la liste des réponses, on parle de silence. Le silence s'oppose au rappel.
+rappel i - nb de documents correctement attribués à la classe i nb de documents appartenant à la classe i (-displaystyle (-text(rappel))-(i)-(-frac ((-text(nb de documents correctement attribués à la classe))i)((-text(nb de documents appartenant à la classe))i)))
+En statistique, le rappel est appelé sensibilité.
+
+Précision
+La précision est le nombre de documents pertinents retrouvés rapporté au nombre de documents total proposé par le moteur de recherche pour une requête donnée.
+Le principe est le suivant : quand un utilisateur interroge une base de données, il souhaite que les documents proposées en réponse à son interrogation correspondent à son attente. Tous les documents retournés superflus ou non pertinents constituent du bruit. La précision s'oppose à ce bruit documentaire. Si elle est élevée, cela signifie que peu de documents inutiles sont proposés par le système et que ce dernier peut être considéré comme "précis". On calcule la précision avec la formule suivante :
+précision i - nb de documents correctement attribués à la classe i nb de documents attribués à la classe i (-displaystyle (-text(précision))-(i)-(-frac ((-text(nb de documents correctement attribués à la classe))i)((-text(nb de documents attribués à la classe))i)))
+
+La précision et le rappel dans un cadre multi-classe
+Dans le cadre multi-classes (où n est supérieur à 1), les moyennes globales de la précision et du rappel sur l'ensemble des classes i peuvent être évaluées par la macro-moyenne qui calcule d'abord la précision et le rappel sur chaque classe i suivie d'un calcul de la moyenne des précisions et des rappels sur les n classes :
+précision - i - 1 n précision i n (-displaystyle (-text(précision))-(-frac (-sum -(i-1)(n)(-text(précision))-(i))(n)))
+rappel - i - 1 n rappel i n (-displaystyle (-text(rappel))-(-frac (-sum -(i-1)(n)(-text(rappel))-(i))(n)))
+
+Interprétation des résultats de précision et rappel
+Un système de recherche documentaire parfait fournira des réponses dont la précision et le rappel sont égaux à 1 (l'algorithme trouve la totalité des documents pertinents - rappel - et ne fait aucune erreur - précision). Dans la réalité, les algorithmes de recherche sont plus ou moins précis, et plus ou moins pertinents. Il sera possible d'obtenir un système très précis (par exemple un score de précision de 0,99), mais peu performant (par exemple avec un rappel de 0,10, qui signifiera qu'il n'a trouvé que 10 % des réponses possibles). Dans le même ordre d'idées, un algorithme dont le rappel est fort (par exemple 0,99 soit la quasi-totalité des documents pertinents), mais la précision faible (par exemple 0,10) fournira en guise de réponse de nombreux documents erronés en plus de ceux pertinents: il sera donc difficilement exploitable.
+Par exemple, un système de recherche documentaire qui renvoie la totalité des documents de sa base aura un rappel de 1 (mais une mauvaise précision). Tandis qu'un système de recherche qui renvoie uniquement la requête de l'utilisateur aura une précision de 1 pour un rappel très faible. La valeur d'un classifieur ne se réduit donc pas à un bon score en précision ou en rappel.
+
+F-mesure
+Une mesure populaire qui combine la précision et le rappel est leur moyenne harmonique, nommée F-mesure (soit F-measure en anglais) ou F-score : F - 2 (précision rappel) (précision + rappel) (-displaystyle F-2-cdot (-frac (((-text(précision))-cdot (-text(rappel))))(((-text(précision))+(-text(rappel)))))).
+Elle est également connue sous le nom de mesure F 1 (-displaystyle F-(1)), car précision et rappel sont pondérés de façon égale. Il s'agit d'un cas particulier de la mesure générale F (-displaystyle F-(-beta)) (pour des valeurs réelles positives de (-displaystyle -beta)): F - (1 + 2) (précision rappel) (2 précision + rappel) (-displaystyle F-(-beta)-(-frac ((1+-beta (2))-cdot ((-text(précision))-cdot (-text(rappel))))((-beta (2)-cdot (-text(précision))+(-text(rappel)))))).
+
+Exemples
+Si une personne s'intéresse aux chats siamois et que dans une barre de recherche d'une interface de base de données elle tape "chat siamois", les documents qui ont été indexés avec pour seul terme le mot "chat" n'apparaîtront pas. Or certains de ces documents pourraient être pertinents. Cela va donc produire un silence documentaire et la valeur du rappel diminuera d'autant. Inversement si pour pallier ce risque la personne tape seulement "chat", alors qu'elle s'intéresse seulement aux chats siamois, le système lui présentera des documents dans lesquels les chats siamois ne sont pas mentionnés (ce pourra être les momies de chat en Égypte, voire la vie du poisson-chat). La précision sera faible et le bruit important.
+
+Articles connexes: faux négatif; faux positif; Sensibilité et spécificité. Portail sciences de l'information et bibliothèques; Portail de l'informatique.

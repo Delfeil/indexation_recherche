@@ -1,0 +1,39 @@
+En informatique, les services d'assistance, ou support aux utilisateurs, consistent à garantir que les utilisateurs d'un système puissent continuer à profiter de la disponibilité de l'ensemble de ses composants pour l'accomplissement de leurs tâches. L'assistance peut porter sur les applications, ou sur les composants techniques (plateformes informatiques, réseaux). Dans ce dernier cas, elle correspond aux activités de Service support (ITIL) des bonnes pratiques ITIL.
+L'expression support technique (technical support) quelquefois employée met l'accent sur le fait que ces services effectuent des diagnostics et des analyses techniques (Analyse et résolution de pannes, diagnostic de systèmes et réseaux informatiques ou télécoms, évaluation d'impact, gestion d'incidents ponctuels et résolution de problèmes sur le matériel ou le logiciel) dans les domaines de l'industrie, de la banque et des services, et également auprès d'utilisateurs de technologies grand public (téléphonie, internet, domotique etc.), on parle alors de support client.
+Les services d'assistance sont parfois réalisés par des équipes rassemblées dans un centre d'assistance, ou réparties sur plusieurs sites dans des cellules d'assistance spécialisées, de taille plus réduite.
+
+Processus de traitement des demandes d'assistance
+Le processus de traitement des demandes d'assistance est un flux de travaux (workflow), qui se déroule de la façon suivante :
+L'utilisateur émet une demande d'assistance (incident, question, plainte, etc.)
+Le niveau 0 d'assistance effectue les opérations suivantes : Analyse de la demande d'assistance,; Diagnostic de niveau 0,; Qualification (définition d'un niveau d'urgence),; Enregistrement de la demande d'assistance dans le logiciel d'assistance,; Si le cas est évident : Réponse directe du ressort du niveau 0; Clôture de la demande d'assistance,; Envoi d'un courriel de clôture.; Réponse directe du ressort du niveau 0; Clôture de la demande d'assistance,; Envoi d'un courriel de clôture.; Sinon :.
+Envoi au niveau 1 d'assistance : Si les incidents sont connus, clôturer la demande d'assistance,; Sinon :.
+Envoi au niveau 2 d'assistance : Dès que l'incident est résolu, clôturer la demande d'assistance,; Sinon :.
+Envoi au niveau 3 d'assistance : Dès que l'incident est résolu, clôturer la demande d'assistance.
+
+Métiers des services d'assistance
+On répertorie les métiers suivants : Téléassistant (technicien hotline) : celui-ci emploie le plus souvent une base de connaissance préétablie permettant de répondre aux questions des utilisateurs; Technicien helpdesk : il possède en plus de la base de connaissances d'autres outils pour assister l'utilisateur. Citons, parmi ceux-ci, la télémaintenance et l'assistance sur site. Consultant ou ingénieur en support technique ou fonctionnel : il intervient sur la gestion d'incidents complexes nécessitant une connaissance approfondie de la technologie utilisée et de ses diverses composantes techniques et fonctionnelles. Il participe à la résolution des problèmes, est force de proposition en maintenance corrective et évolutive et participe à la gestion des configurations et des activités connexes.
+Début de l'assistance sur une application
+L'assistance commence sur une application dès que la recette est prononcée, ou encore, pour les marchés publics, lorsqu'est effectuée la vérification d'aptitude (VA).
+
+Logiciels de gestion des services d'assistance
+
+Principe
+Les centres d'assistance gèrent le plus souvent les demandes des utilisateurs à l'aide d'un logiciel permettant de : répertorier les différentes demandes d'assistance (appels ou courriels des utilisateurs) en leur attribuant un numéro unique de ticket,. Nota : les demandes d'assistance sont souvent saisies par les utilisateurs eux-mêmes ou les maîtrises d'ouvrage (MO),. qualifier les demandes d'assistance en identifiant le problème qui est à l'origine de l'incident, puis éliminer les problèmes les plus courants,; suivre les dossiers.
+
+Fonctionnement
+L'utilisateur informe le technicien helpdesk du problème qu'il rencontre. Le centre d'assistance (help desk) génère alors un ticket détaillant les éléments du problème. Si le support de niveau 1 est en mesure de régler le problème, le ticket est clos et une mise à jour de la base de connaissances est automatiquement effectuée afin de permettre aux autres techniciens du centre d'assistance de s'y référer. Si le support de niveau 1 ne sait pas régler le problème, il le transfère au niveau 2 (principe d'escalade).
+
+Solutions disponibles sur le marché
+On trouve des solutions telles que : ARTOLOGIK HelpDesk,; ASTRES, en GNU GPL (Licence publique générale GNU),; FusionInventory et Mediawiki,; GIMI HelpDesk,; GLPI (open source),; HelpDeskReloaded (open Source),; JIRA ,; Mantis,; Néodesk (AID Computers); OTRS (Open Source),; Overmon : Solution intégrée de gestion de parc, incluant Nagios, Centreon, GLPI,; Request Tracker; SupportCenter Plus,; Tuleap(Open Source): tracker + outils de développement logiciel (Licence publique générale GNU); PMI CALL.
+
+Reporting
+L'encadrement dans les directions informatiques demande que l'on fasse un compte-rendu des demandes d'assistance traitées par application, contenant entre autres : le nombre de demandes d'assistance traitées (incidents) ;; le nombre de problèmes rencontrés ;; les types de demandes d'assistance (technique, fonctionnelle, réglementaire) ;; le délai de prise en compte.
+Afin que le reporting soit le plus fiable possible, il est nécessaire que les demandes d'assistance et les dossiers soient centralisés dans un seul outil (logiciel de gestion des services d'assistance).
+
+Sécurité informatique
+Dans les organismes officiels, les demandes d'assistance concernant des problèmes de sécurité informatique sont centralisées dans des computer emergency response teamss (CERT). Pour l'administration française, c'est le CERTA qui assure cette fonction.
+
+Facturation
+Ce type de service peut faire l'objet de facturation, qu'il soit commercialisé en externe ou en interne d'une société. En particulier, lorsqu'il est facturé par une holding sa filiale, ont dit qu'il s'agit de management fees.
+
+Voir aussi: Centre d'assistance; Demande d'assistance; Logiciel de gestion des services d'assistance. Portail de l'informatique.

@@ -1,0 +1,90 @@
+En théorie des ensembles, l'ensemble des parties d'un ensemble, muni des opérations d'intersection, de réunion, et de passage au complémentaire, possède une structure d'algèbre de Boole. D'autres opérations s'en déduisent, comme la différence ensembliste et la différence symétrique...
+L'algèbre des parties d'un ensemble étudie l'arithmétique de ces opérations (voir l'article "Opération ensembliste" pour des opérations qui ne laissent pas stable l'ensemble des parties d'un ensemble).
+
+Inclusion et égalité
+A est inclus dans B, noté A B (ou A B).
+Dans tout l'article, les ensembles considérés sont tous supposés inclus dans un ensemble donné U. L'inclusion est une relation d'ordre (partielle) notée ou , et définie sur l'ensemble des parties de U, noté P(U), par : A B si et seulement x U (x A x B).
+L'égalité est définie par extensionnalité, deux ensembles sont égaux quand ils ont les mêmes éléments, c'est-à-dire que : A - B si et seulement x U (x A x B).
+ou encore: A - B si et seulement A B et B A.
+Les propriétés qui suivent correspondent donc, pour les égalités, à des équivalences en calcul propositionnel dont elles se déduisent. Elles peuvent être visualisées avec les diagrammes de Venn, une façon schématique de décrire toutes les cas possibles pour l'appartenance d'un élément à un nombre fini (et suffisamment réduit) d'ensembles, et qui peut donc permettre également de décrire des démonstrations d'égalité ou d'inclusion.
+De façon similaire, les inclusions se ramènent à des implications.
+
+Réunion et intersection
+
+Réunion de deux ensembles
+La réunion de deux ensembles : A B.
+L'ensemble réunion de A et de B, noté "A U B" (lire "A union B"), est l'ensemble des éléments appartenant à A ou à B : A B - (x U (x A) (x B)) (-displaystyle A-cup B--(x-in -mathrm (U) -mid (x-in A)-lor (x-in B)-)).
+c'est-à-dire que : x A B si et seulement si x A ou x B.
+Propriétés
+L'ensemble U muni de la réunion a les propriétés suivantes (pour tous sous-ensembles A, B, C de U) :
+A B C. (associativité) : le résultat de la réunion de plusieurs ensembles ne dépend pas de l'ordre dans lequel les opérations de réunion sont faites :. (A B) C - A (B C) (-displaystyle (A-cup B)-cup C-A-cup (B-cup C)); et on note A B C cet ensemble. (commutativité) : la réunion de deux ensembles ne dépend pas de l'ordre dans lequel ces deux ensembles sont pris :. A B - B A (-displaystyle A-cup B-B-cup A). (idempotence) : la réunion d'un ensemble quelconque avec lui-même redonne cet ensemble :. A A - A (-displaystyle A-cup A-A). est neutre : la réunion de l'ensemble vide avec un ensemble quelconque redonne cet ensemble :. A - A (-displaystyle A-cup -varnothing -A). U est absorbant : U A - U.
+L'ensemble A B est la borne supérieure pour l'inclusion des deux ensembles A et B, c'est-à-dire qu'il contient A et B, et qu'il est contenu dans tout ensemble contenant A et B : A A B, B A B et C ((A C et B C) A B C).
+Par conséquent l'inclusion se définit à partir de la réunion : A B si et seulement si A B - B.
+Intersection de deux ensembles
+L'intersection de deux ensembles : A B.
+L'ensemble intersection de A et de B, noté "A B" (lire "A inter B") est l'ensemble des éléments de A qui sont également éléments de B, soit : A B - (x U (x A) (x B)) (-displaystyle A-cap B--(x-in -mathrm (U) -mid (x-in A)-land (x-in B)-)).
+c'est-à-dire que : x A B si et seulement si x A et x B.
+Deux ensembles qui n'ont aucun élément en commun, c'est-à-dire que leur intersection est vide, sont dits disjoints.
+
+Propriétés
+Les propriétés de l'intersection sont similaires à celles de la réunion. On dit qu'elles sont duales de celles-ci, car on les obtient en remplaçant le signe de réunion par celui d'intersection, et si nécessaire en échangeant et U, l'inclusion et sa réciproque. Pour tous sous-ensembles A, B, C de U on a les propriétés suivantes :
+A B C. (associativité) : le résultat de l'intersection de plusieurs ensembles ne dépend pas de l'ordre dans lequel les opérations sont faites :. (A B) C - A (B C) (-displaystyle (A-cap B)-cap C-A-cap (B-cap C)); et on note A B C cet ensemble. (commutativité) : l'intersection de deux ensembles ne dépend pas de l'ordre dans lequel ces deux ensembles sont pris. A B - B A (-displaystyle A-cap B-B-cap A). (idempotence) : l'intersection d'un ensemble quelconque avec lui-même redonne cet ensemble. A A - A (-displaystyle A-cap A-A). (absorbant) : l'intersection de l'ensemble vide et d'un ensemble quelconque est vide. A - (-displaystyle A-cap -varnothing --varnothing). U est neutre : U A - A.
+L'ensemble A B est la borne inférieure pour l'inclusion des deux ensembles A et B, c'est-à-dire qu'il est inclus dans A et dans B, et qu'il contient tout ensemble inclus à la fois dans A et dans B : A B A, A B B et C ((C A et C B) C A B).
+Ceci permet de définir l'inclusion à partir de l'intersection cette fois : A B si et seulement si A B - A.
+Distributivité
+A (B C) - (A B) (A C). A (B C) - (A B) (A C).
+Les deux opérations de réunion et d'intersection sont distributives l'une par rapport à l'autre, c'est-à-dire que l'on a les deux propriétés suivantes, pour tous ensembles A, B, C : (distributivité de l'intersection par rapport à la réunion : l'intersection de la réunion de deux ensembles avec un troisième ensemble est égale à la réunion de l'intersection de chacun des deux premiers ensembles avec le troisième :. A (B C) - (A B) (A C) (-displaystyle A-cap (B-cup C)-(A-cap B)-cup (A-cap C)). (distributivité de la réunion par rapport à l'intersection) : la réunion de l'intersection de deux ensembles avec un troisième ensemble est égale à l'intersection de la réunion de chacun des deux premiers ensembles avec le troisième :. A (B C) - (A B) (A C) (-displaystyle A-cup (B-cap C)-(A-cup B)-cap (A-cup C)). Démonstration
+De chaque côté de la première égalité figure un ensemble et nous voulons démontrer que ces ensembles sont égaux, c'est-à-dire montrer qu'un élément quelconque x (-displaystyle x) appartient au premier si et seulement s'il appartient au second. Notons respectivement a, b, c les propositions x A (-displaystyle x-in A), x B (-displaystyle x-in B), x C (-displaystyle x-in C). D'après la distributivité de (-displaystyle -land) par rapport à (-displaystyle -lor) (que l'on peut vérifier sur une table de vérité) on a: a (b c) (a b) (a c) (-displaystyle a-land (b-lor c)-Leftrightarrow (a-land b)-lor (a-land c)).
+ce qui traduit exactement l'équivalence souhaitée : x (A (B C)) x ((A B) (A C)). (-displaystyle x-in (A-cap (B-cup C))-Leftrightarrow x-in ((A-cap B)-cup (A-cap C)).).
+La démonstration de la seconde égalité est identique, en échangeant (-displaystyle -land) et (-displaystyle -lor).
+
+Réunion et intersection : cas général
+Il est possible de généraliser la réunion à un nombre fini d'ensembles : on se ramène au cas de deux ensembles par réunion binaires successives et l'associativité de la réunion assure que l'ordre n'a pas d'importance. De même pour l'intersection.
+Mais il est possible également de généraliser ces opérations à une famille non nécessairement finie d'ensembles.
+La réunion d'une famille d'ensembles (E i) i I (-displaystyle (E-(i))-(i-in I)) est définie par : i I E i - (x U i I x E i) (-displaystyle -bigcup -(i-in I)E-(i)--left-(x-in -mathrm (U) -mid -exists - i-in I-quad x-in E-(i)-,-right-)).
+Cette définition ne dépend pas de U. La réunion d'une famille vide est l'ensemble vide.
+L'intersection d'une famille d'ensembles (E i) i I (-displaystyle (E-(i))-(i-in I)) est définie par : i I E i - (x U i I x E i) (-displaystyle -bigcap -(i-in I)E-(i)--left-(x-in -mathrm (U) -mid -forall i-in I-quad x-in E-(i)-right-)).
+La définition ci-dessus ne dépend pas de l'ensemble U sauf quand la famille est vide. dans ce dernier cas l'intersection de la famille vide est par définition l'ensemble de référence U, ce qui reste compatible avec les propriétés de l'intersection. On ne peut pas définir "dans l'absolu" (sans ensemble de référence) l'intersection d'une famille vide.
+Certaines des propriétés de la réunion et de l'intersection binaire se généralisent au cas infini. Ce sont maintenant des propriétés du calcul des prédicats (et plus seulement du calcul propositionnel) qui sont en jeu. En particulier : l'intersection et la réunion d'une famille (E i) i I (-displaystyle (E-(i))-(i-in I)) ne dépendent que de l'ensemble image de la famille, ce qui généralise l'associativité, la commutativité et l'idempotence, et découle directement de la définition ;; l'intersection d'une famille d'ensemble (Ei)i I est la borne inférieure de l'ensemble (Ei i I) ;; la réunion d'une famille d'ensemble (Ei)i I est la borne supérieure de l'ensemble (Ei i I) ;; l'intersection binaire se distribue sur une réunion quelconque, de même que la réunion binaire sur une intersection quelconque : A i I B i - i I (A B i) (-displaystyle A-cap -bigcup -(i-in I)B-(i)--bigcup -(i-in I)(A-cap B-(i))) ; A i I B i - i I (A B i) (-displaystyle A-cup -bigcap -(i-in I)B-(i)--bigcap -(i-in I)(A-cup B-(i))).; plus généralement, on a l'égalité i I j J i A i , j - f (i I J i) i I A i , f (i) (-displaystyle -bigcap -(i-in I)(-bigcup -(j-in J-(i))(A-(i,j)))--bigcup -(f-in -left(-prod -(i-in I)(J-(i))-right))(-bigcap -(i-in I)(A-(i,f(i))))) (dans laquelle l'inclusion (-displaystyle -supset) est immédiate mais l'inclusion (-displaystyle -subset) utilise l'axiome du choix si I (-displaystyle I) est infini) ainsi que l'égalité duale.
+
+Complémentaire
+Un ensemble de référence U étant donné, le complémentaire du sous-ensemble A de U (sous-entendu relativement à U) est l'ensemble des éléments de U qui n'appartiennent pas à A. Il est noté U - A, A, A, ou encore A (-displaystyle -complement A) : A c - (x U x A) (-displaystyle A(-mathrm (c))--(x-in -mathrm (U) -mid x-notin A-)).
+c'est-à-dire que: x A si et seulement si x U et x A.
+Le complémentaire de A dépend de l'ensemble de référence U. Il est également caractérisé par les deux égalités : A A - et A A - U.
+L'opération de passage au complémentaire est involutive c'est-à-dire que (A) - A.
+
+Lois de De Morgan
+Le passage au complémentaire inverse la relation d'inclusion : A B si et seulement si B A.
+et par conséquent il échange la réunion et l'intersection, qui sont la borne supérieure et la borne inférieure, ce sont les lois de De Morgan : (A B) - A B ; (A B) - A B.
+Une structure ordonnée qui, comme l'ensemble des parties de U muni des opérations binaires de réunion et d'intersection, de l'opération de passage au complémentaire, et des deux éléments distingués et U, vérifie les propriétés de ces opérations énumérées jusqu'à présent est appelée algèbre de Boole.
+
+Différence et différence symétrique
+
+Différence
+La différence A - B - A B c.
+La différence ensembliste de A et B notée "A - B" (lire "A moins B") est l'ensemble des éléments de A qui n'appartiennent pas à B, soit : A B - (x A x B) (-displaystyle A-setminus B--(x-in A-mid x-notin B-)).
+La différence de A et B dans U se définit à partir du complémentaire par A B , et alors (A B) - A B.
+Si B est inclus dans A, alors A - B se note aussi "A - B" (lire encore "A moins B"), et s'appelle complémentaire de B dans A (ou relativement à A). On retrouve la notion de complémentaire ci-dessus, qui est le complémentaire relativement à U : A B - A B - A B - (x A x B) (-displaystyle A-setminus B-A-B--complement -(A)B--(x-in A-mid x-notin B-)).
+Propriétés de la différence
+On a : x A - B si et seulement si x A et x B; x A - B si et seulement si x A x B.
+et donc : A - B - si et seulement si A B.
+Les propriétés de la différence s'obtiennent à partir de sa définition et de celles de la réunion de l'intersection et du complémentaire. Par exemple la première qui suit est une suite d'intersections, alors que la seconde utilise une loi de De Morgan et la distributivité de l'intersection sur la réunion. (A B) C - A (B C) - (A C) (B C) (-displaystyle (A-cap B)-setminus C-A-cap (B-setminus C)-(A-setminus C)-cap (B-setminus C)); A (B C) - (A B) (A C) (-displaystyle A-setminus (B-cap C)-(A-setminus B)-cup (A-setminus C)).
+Différence symétrique
+La différence symétrique A B - (A B c) (A c B).
+La différence symétrique de A et de B, notée "A B" (lire "A delta B") est l'ensemble des éléments qui appartiennent soit à A, soit à B, mais pas aux deux à la fois. C'est la différence de A B et de A B. On peut l'écrire sous diverses formes : A B - (A B) (A B) - (A B) (B A) - (A B c) (B A c) (-displaystyle A-Delta B-(A-cup B)-setminus (A-cap B)-(A-setminus B)-cup (B-setminus A)-(A-cap B(-mathrm (c)))-cup (B-cap A(-mathrm (c)))).
+On a : x A B si et seulement si ou bien x A ou bien x B (ou exclusif); x A B si et seulement si x A x B.
+ainsi la différence symétrique de deux ensembles est vide si et seulement si les deux ensembles sont égaux : A B - si et seulement si A - B.
+Propriétés de la différence symétrique
+(A B) C - A (B C).
+L'ensemble des parties de U muni de l'opération de différence symétrique est un groupe commutatif, avec pour élément neutre, et où chaque sous-ensemble de U est son propre opposé, c'est-à-dire que pour tous sous-ensembles A, B, C de U, on a : (associativité) : la différence symétrique de trois ensembles ne dépend pas de l'ordre dans lequel les opérations sont effectuées :. (A B) C - A (B C) (-displaystyle (A(-mathrel (-Delta))B)(-mathrel (-Delta))C-A(-mathrel (-Delta))(B(-mathrel (-Delta))C)). (commutativité) : la différence symétrique de deux ensembles ne dépend pas de l'ordre dans lequel ces ensembles sont pris :. A B - B A (-displaystyle A(-mathrel (-Delta))B-B(-mathrel (-Delta))A). est élément neutre : la différence symétrique de l'ensemble vide et d'un autre ensemble redonne cet ensemble :. A - A (-displaystyle A(-mathrel (-Delta))-varnothing -A). Chaque sous-ensemble est son propre opposé : la différence symétrique de tout ensemble avec lui-même donne l'ensemble vide :. A A - (-displaystyle A(-mathrel (-Delta))A--varnothing).
+Une conséquence est la régularité : si A B - A C, alors B - C.
+A (B C) - (A B) (A C).
+L'ensemble des parties de U muni, en plus de la différence symétrique, de l'intersection, est un anneau commutatif unitaire, c'est-à-dire qu'en plus des propriétés d'associativité et de commutativité de l'intersection, et de ce que U est élément neutre: Distributivité de par rapport à : l'intersection d'un ensemble avec la différence symétrique de deux autres ensembles est égale à la différence symétrique des intersections du premier ensemble avec chacun des deux autres :. A (B C) - (A B) (A C) (-displaystyle A-cap (B(-mathrel (-Delta))C)-(A-cap B)(-mathrel (-Delta))(A-cap C)).
+La différence symétrique, contrairement à la réunion, n'est pas distributive par rapport à l'intersection.
+C'est une propriété générale des algèbres de Boole qu'une opération définie comme la différence symétrique (avec la réunion l'intersection et le passage au complémentaire) permet de définir une structure d'anneau, appelé parfois anneau de Boole. D'autres propriétés, communes à toutes les algèbres de Boole, sont vérifiées comme : A - U A et donc A A - U.
+ou encore (A B) - A B - A B.
+
+Aspects axiomatiques
+D'un point de vue axiomatique, en théorie des ensembles tout ce qui précède se développe à partir de l'axiome d'extensionnalité (égalité de deux ensembles), qui garantit en particulier l'unicité des constructions introduites, et du schéma d'axiomes de compréhension, qui garantit leur existence, tous les ensembles introduits étant définis comme sous-ensemble d'un ensemble U donné.
+
+Voir aussi: Théorie naïve des ensembles; Algèbre d'ensembles. Portail des mathématiques.

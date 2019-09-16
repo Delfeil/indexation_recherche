@@ -1,0 +1,65 @@
+Les règles d'usage de l'information visent à lutter contre les abus liés aux usages des systèmes d'information, afin d'allier compétitivité, productivité, et conformité juridique de l'entreprise. À cet effet, le Cercle d'éthique des affaires et le Club informatique des grandes entreprises françaises (CIGREF) ont publié une déontologie des usages des systèmes d'information.
+Les usages de l'information peuvent également être soumis à des règles de terminologie, qui peuvent être sensibles dans le cas de la terminologie informatique.
+En France, ces règles ont pris une forme juridique avec le décret du 3 juillet 1996 relatif à l'enrichissement de la langue française, qui impose l'usage de termes en français dans les administrations françaises, sous certaines conditions (termes proposés par la Commission générale de terminologie et de néologie, publiés au Journal officiel de la République française, et disponibles sur le site web FranceTerme).
+
+Les usages de l'information sur support papier
+Le papier continue d'être un support d'information important dans l'économie moderne, malgré les espoirs du "zéro papier" et des économies escomptées sur la consommation de papier dans les projets de "dématérialisation".
+Les états ou impressions diverses de documents informatiques peuvent être soumis à des règles d'usage.
+En France, les documents émanant des administrations françaises sont soumis aux dispositions du décret du 3 juillet 1996 relatif à l'enrichissement de la langue française (articles 11 et 12).
+
+Les usages de l'information sur support électronique
+
+Les usages de l'information électronique en général
+Lorsqu'on parle d'usage de l'information dans les techniques de l'information et de la communication, on pense souvent, en France, à la protection des données privées. Or, avec l'arrivée du web, les usages de l'information comportent des enjeux beaucoup plus étendus. Ils peuvent concerner la société civile.
+En effet, dans le monde du Web et de Internet, les usages que l'on fait des technologies de l'information ont des impacts sur les partenaires, et dépendent beaucoup du contexte juridique, linguistique, économique, social, environnemental. Des usages mal gérés peuvent introduire des malentendus, des vulnérabilités et affecter l'image d'une entreprise ou d'un individu.
+Les usages des technologies de l'information, avec Internet et le Web, posent la question des standards et des normes à employer. Ils tendent à avoir de plus en plus d'implications juridiques.
+D'autre part, il faut souligner l'importance du rôle joué par la langue dans les usages de l'informatique : une langue considérée comme langue officielle à l'international a en effet, par nature, une certaine force sur le plan du droit et de l'administration, en particulier en contexte européen, voire international et diplomatique, par rapport à d'autres langues.
+
+Usage de l'information dans les services publics et les services de l'État
+Dans les services publics, les usages des techniques de l'intelligence collective et de la connaissance (TICC selon l'expression de Bernard Besson) se posent dans des termes au moins équivalents à ceux que l'on rencontre dans les entreprises.
+Il s'y ajoute des exigences spécifiques : L'usage de la langue française, langue officielle en France depuis l'ordonnance de Villers-Cotterêts en 1539 (article 2 de la constitution de 1958) est en principe de règle dans les administrations et dans le droit, ainsi que dans le réseau diplomatique et les postes d'expansion économique associés. En France, le décret du 3 juillet 1996 relatif à l'enrichissement de la langue française rend obligatoire l'usage des termes en français recommandés par la Commission générale de terminologie et de néologie, et disponibles dans le dictionnaire terminologique FranceTerme; Au niveau des États et du secteur public, des exigences particulières d'exercice de la souveraineté, dans toutes ses dimensions ; l'information d'autorité est appelée à être gérée dans des registres de métadonnées ;; Au niveau des services d'infrastructures relevant de délégations de services publics, des problèmes d'usages extrêmement complexes dus aux exigences d'interopérabilité des systèmes et, pour beaucoup d'entre eux, de sécurité publique et de sûreté, et de nouvelles attentes des usagers des transports publics ;; Une responsabilité de la puissance publique par rapport à certains types de risques (terrorisme, sécurité publique...); Au niveau des collectivités territoriales, des exigences liées à l'animation culturelle, au développement économique territorial.
+En France, les lois de décentralisation (2004) ont donné davantage de responsabilités aux régions.
+Les services de l'État en région ont la responsabilité d'assurer la cohérence des actions de l'État, donc des informations qui véhiculent les décisions publiques : ceci est nécessaire pour une action efficace : contrôle des risques par les DRIRE, les SGAR,..
+En vertu des lois de décentralisation, les conseils régionaux ont une responsabilité particulière dans le développement économique, l'éducation, la culture, et les transports publics. Dans l'économie et dans les transports publics par exemple, les usages des informations doivent être coordonnés entre les services des conseils régionaux, les chambres de commerce et d'industrie, et les entreprises (implantations régionales des grandes entreprises et PME).
+Concernant la nouvelle organisation en pôles de compétitivité, les enjeux sont énormes sur le plan du développement du capital intellectuel, pour la France comme pour les autres nations d'Europe (voir stratégie de Lisbonne). Les usages de quelques informations essentielles sur les filières (clients - (produits services, voir métadonnées) peuvent être coordonnés afin d'améliorer l'efficacité globale de la gouvernance des pôles, ainsi que les échanges entre les entreprises, les centres d'études et de recherches, les universités et les grandes écoles. Il s'agit d'augmenter la connaissance des étudiants, des chercheurs, et des entrepreneurs, facteur de stimulation de l'économie des territoires.
+Les attentes en matière de sécurité d'accès aux services informatiques, liées à cette forme d'organisation collective, sont du même type que celles des entreprises.
+
+Usage des courriers électroniques
+Les règles d'usage peuvent concerner : Les courriers électroniques (signature électronique, listes de diffusion,...), pour plus de détails, voir : Règles d'usage du courrier électronique,; Nétiquette sur le courrier électronique,.; Règles d'usage du courrier électronique,; Nétiquette sur le courrier électronique,; Les lettres d'information électroniques.
+Les règles d'attribution d'une signature électronique sont définies d'un point de vue juridique par des procédures précises.
+Voir Signature électronique
+
+Usage de l'information dans les groupes de discussion
+L'intégration dans un groupe de discussion reposant sur des technologies numériques (forum, blog,..) demande des précautions. Un modérateur est nécessaire pour éviter les dérives.
+Voir Usenet
+
+Usage de l'Internet
+
+L'usage de l'internet dans les lieux publics et par les familles
+La problématique de l'usage dans les lieux publics et dans les familles (règles de civilité, protection des mineurs,..) fait l'objet, en France, d'un ensemble de mesures publiques depuis plusieurs années.
+
+L'usage d'internet dans les écoles
+Les questions qui se posent sont le contrôle, la qualité et la structuration des contenus pédagogiques, qui font l'objet de certaines méthodes d'ingénierie pédagogique.
+
+L'usage de l'internet et autres sites extranet dans les entreprises
+Plusieurs remarques s'imposent :
+Il faut faire la distinction entre internet, réseau accessible à tous les internautes du monde, et les extranets, généralement des réseaux d'entreprises étendues, accessibles seulement aux partenaires ou à certaines parties prenantes de l'entreprise, dans certaines conditions.
+On peut distinguer :
+Les flux entrants : informations en provenance du marché, des clients, des associations professionnelles (comptes-rendus en ligne des colloques, conférences, informations des CCI...), du contexte...
+Les informations en provenance de l'extérieur, structurées dans la mémoire d'entreprise, renforcent l'innovation et la compétitivité. Le bruit des moteurs de recherche et le manque de coordination interne diminuent l'efficacité du processus de structuration.
+Les flux sortants : informations de communication, rapports d'entreprise (voir RSE)
+Les informations qui sortent d'une mémoire peu structurée, et qui sont mal ciblées par rapport aux parties prenantes, sont des vulnérabilités pour les entreprises vis-à-vis de la concurrence, qui peut les exploiter à son avantage.
+Plusieurs problématiques liées à la confidentialité apparaissent : Quels droits d'accès donner dans un site web : à quelles parties du site peut-on donner accès et pour quels profils d'utilisateurs. Quelles sont les règles de diffusion des mises à jour des sites web, et pour quels profils d'utilisateurs. Voir : - Syndication,; - RSS. À quels tiers de confiance faire appel pour la fourniture d'accès à l'internet.
+Ces questions concernent les exigences de sécurité informatique, et doivent être posées lors de réflexions sur l'urbanisation des systèmes d'information par exemple. Ce sont des règles métier, qui peuvent intéresser les assurances, au sujet des risques potentiels encourus par l'entreprise.
+Voir : Sécurité informatique,; Certification,; Tiers de confiance,; Critères communs,; Profil de protection (informations à fournir aux assurances),; Alignement stratégique.
+
+L'usage de l'internet en intelligence économique
+Dans le monde d'internet, surtout en source ouverte, l'usage d'une information est beaucoup plus difficilement contrôlable.
+
+Les principales règles d'usage
+On peut retenir deux règles principales pour l'usage d'un terme : Le principe de moindre surprise,; La convention de nommage, qui peut faire appel à des considérations juridiques.
+
+Source
+Colloque du 30 avril 1998 sur internet.
+
+Voir aussi: Aspects terminologiques: Terminologie informatique. Aspects historiques: Jean de Mandeville et Livre des merveilles du monde : comment un explorateur a astucieusement consigné des informations au retour de ses voyages (1322-1356), qui donnèrent des idées au jeune Christophe Colomb, 130 ans plus tard,; Histoire du français et ordonnance de Villers-Cotterêts promulguée par François Ier (1539),; Lingua franca.; For. Systèmes d'information: Intelligence économique; Tiers de confiance; Profil de protection; Source ouverte. Sciences humaines: Médiologie. Organisation et gestion: Utilisation durable.

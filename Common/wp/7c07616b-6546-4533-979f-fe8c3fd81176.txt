@@ -1,0 +1,24 @@
+En informatique, un bouton est un composant d'interface graphique opéré par pointer-et-cliquer. Un bouton porte un libellé qui décrit l'opération attachée au bouton.
+
+Apparence
+Boutons de commande Boutons sous forme d'icônes d'une barre d'outils typique.
+Un bouton se présente sous la forme d'un rectangle, aux coins éventuellement arrondis. En son centre, le bouton contient un libellé et-ou une icône. Le libellé décrit l'opération attachée au bouton, d'où l'usage courant d'un verbe comme libellé de bouton. Les boutons contenant une icône font généralement partie d'une série de boutons côte-à-côte, où l'utilisation d'icônes permet une présentation plus compact.
+Les bords du boutons sont souvent dessinés de façon à donner l'apparence de relief au bouton. Lorsque le bouton est activé, le relief est inversé afin de donner l'apparence d'un bouton pressé. Exemple ci-dessous :
+Apparence d'un bouton sur Wikipédia
+Lorsque l'action correspondant au bouton n'est pas applicable, le bouton est désactivé. Ceci est indiqué en grisant le libellé.
+Lorsque parmi plusieurs boutons, l'un d'entre eux correspond à l'action par défaut, son libellé est affiché en gras.
+
+Usages
+Les paires de boutons OK-Annuler ou Oui-Non sont courantes dans les boîtes de dialogue.
+Les boutons ont plusieurs usages : répondre à une question posée par une boîte de dialogue ;; lancer une action ;; afficher un état et permettre son activation et sa désactivation ;; bouton fléché : augmenter ou diminuer une valeur numérique ;; bouton de barre de défilement : faire défiler le contenu d'une fenêtre.
+Certains boutons servent également d'indication d'état, et peuvent conserver l'apparence pressée même lorsqu'ils ne sont pas activés ; c'est par exemple le cas d'un bouton "italique" d'un traitement de texte : lorsque le curseur se trouve dans du texte en italique, le bouton a l'apparence activée.
+Certains menus utilisent une apparence inspirée de celle du bouton. C'est notamment le cas du bouton "Démarrer" de Windows 95. L'interaction est toutefois différente.
+
+Interaction
+Un bouton s'active par pointer-et-cliquer sur n'importe quel point de son rectangle. Contrairement à un bouton physique, l'action de la pluaprt des boutons d'interface graphique n'est déclenchée que lorsqu'un clic complet est effectué dessus : le pointeur de souris doit se trouver sur le bouton lorsque le bouton de la souris est enfoncé, et doit s'y trouver également au relâchement du bouton. Les boutons de barre de défilement constituent une exception, car une pression continue cause un défilement continu, qui cesse avec la fin du clic.
+La plupart des logiciels intègrent les boutons dans les contrôles accessibles au clavier par répétition de la touche tabulation. Dans ce cas, le bouton s'active avec la touche entrée ou la barre d'espace.
+Lorsque le libellé du bouton est en gras, c'est-à-dire que le bouton est l'action par défaut d'une interface de saisie, alors le fait de taper la touche entrée dans une zone de texte monoligne lance la même opération que l'activation du bouton.
+
+Développement
+Lors du developpement d'un logiciel, les boîtes à outil graphiques offre au programmeur un objet de type bouton (java.awt.Button et javax.swing.JButton en Java, QPushButton avec Qt, GtkButton avec GTK, CButton avec les MFC, button avec Tk).
+Cet objet délivre en général plusieurs signaux dont les principaux sont "pressé", "relâché" et "cliqué", respectivement lorsque l'utilisateur presse, relâche, ou effectue les actions de presser et relâcher le bouton de souris (un clic). Il est préférable de ne se fier qu'au signal "cliqué", puisque c'est celui qui est envoyé lors d'une activation au clavier. Portail de l'informatique.

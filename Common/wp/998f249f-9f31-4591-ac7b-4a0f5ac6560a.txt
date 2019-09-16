@@ -1,0 +1,7 @@
+La suite logicielle djbdns est une implémentation du protocole DNS faite par Daniel J. Bernstein à la suite de sa frustration envers les failles de sécurité de BIND. Un prix de 1 000 est promis à quiconque divulguera une faille présente sur la dernière version. Ce prix a été remporté une fois par Matthew Dempsky en mars 2009.
+D'après une analyse faite en 2004, tinydns (la partie serveur), est le second servant le plus de domaines, bien que troisième concernant son utilisation.
+Le 28 décembre 2007, Bernstein verse le code de djbdns dans le domaine public afin de ne pas entrer en conflit avec les licences libres. Cela a ainsi permis l'apparition de forks, dont l'un des plus notable est dbndns, du projet debian.
+
+Voir aussi
+
+Articles connexes

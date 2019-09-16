@@ -1,0 +1,12 @@
+Un aspirateur de site Web est un type de logiciel qui télécharge toutes les données contenues par un site Web pour les sauvegarder sur un support de mémoire local de l'utilisateur (typiquement, un disque dur), ce qui permet de consulter les pages correspondantes sans être connecté à Internet.
+
+Description
+Le principe de ce type de logiciel repose sur l'analyse des pages web du site à récupérer : un index des éléments composant chacune d'elles est établi (texte HTML de la page, images, sons, vidéos, animations, etc.) et la profondeur d'analyse peut être paramétrée pour télécharger plus ou moins de fichiers, selon qu'ils se trouvent ou non sur le même site par exemple.
+Une fois ces fichiers enregistrés sur le disque dur, l'ouverture d'un fichier HTML dans un navigateur s'accompagne du chargement des éléments associés.
+Cette pratique peut être utilisée pour effectuer une copie de sauvegarde d'un site (ou créer un site miroir), pour importer des éléments à publier par ailleurs ou encore pour archiver des pages qui, enregistrées sur une unité de sauvegarde (disque externe, clé USB, etc.), pourront ensuite être consultées sur un ordinateur dépourvu de connexion à Internet.
+
+Aspects juridiques
+Ces logiciels sont inégalement appréciés des concepteurs de sites web et des webmasters dans la mesure où ils faussent les statistiques de visite et peuvent contribuer à violer les droits d'auteurs et les droits liés à la propriété intellectuelle. Ils peuvent aussi consommer abusivement les ressources du serveur web.
+La loi Godfrain du 5 janvier 1988 ne couvre que les systèmes d'information faisant l'objet d'une protection technique. Ainsi, l'aspiration de l'arborescence d'un site ne sera pas considérée comme une attaque informatique en droit français au sens de l'article 323-1 du Nouveau Code Pénal si aucune mesure technique d'interdiction d'accès n'a été mis en place (exemple : fichier robots.txt) sauf si cette exploration entrave le fonctionnement "normal" dudit système. Alors, il serait condamnable au sens de l'article 462-3 de cette même loi.
+
+Articles connexes: Page web; Site web; Conception de sites web; Archivage électronique; Robot d'indexation. Logiciels: HTTrack; Wget; cURL. Portail de l'informatique; Portail d'Internet.

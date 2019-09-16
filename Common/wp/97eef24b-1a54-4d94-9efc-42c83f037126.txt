@@ -1,0 +1,3 @@
+Moby thesaurus est un logiciel de thesaurus.
+Il fait partie du Moby project et a été placé dans le domaine public en 1996.
+Il est intégré par exemple dans mobysaurus. Portail de l'informatique.

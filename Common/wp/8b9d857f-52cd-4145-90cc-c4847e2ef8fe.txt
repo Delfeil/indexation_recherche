@@ -1,0 +1,9 @@
+En mathématiques, une suite définie par récurrence est une suite définie par son premier terme et par une relation de récurrence, qui définit chaque terme à partir du précédent ou des précédents lorsqu'ils existent.
+Une relation de récurrence est une équation dans laquelle l'expression de plusieurs termes de la suite apparait, par exemple : u n + 2 2 u n + 3 + u n - 0 (-displaystyle u-(n+2)-(-sqrt (2u-(n+3)+u-(n)))-0).
+ou: u n 2 - u n (-displaystyle u-(n(2))-u-(n)).
+ou: (u n + 2) 2 u n u n + 1 - 0 (-displaystyle (u-(n+2))(2)-u-(n)-u-(n+1)-0).
+ou si l'on se place dans les suites de mots sur l'alphabet (a , b) (-displaystyle -(a,b-)) : n + 1 - a n b b (-displaystyle -alpha -(n+1)-a-alpha -(n)bb).
+Si la relation de récurrence a une "bonne" présentation, cela permet de calculer l'expression du terme d'indice le plus élevé en fonction de l'expression des autres. Par exemple dans la dernière équation, si on admet que les u n (-displaystyle u-(n)) sont des réels positifs, on peut écrire : u n + 2 - u n + 1 + u n. (-displaystyle u-(n+2)-(-sqrt (u-(n+1)+u-(n))).).
+Une relation de récurrence et la donnée de "suffisamment" de termes initiaux permettent souvent de déterminer l'expression de tous les termes d'une suite (voir définition par récurrence).
+Une relation de récurrence très simple est celle qui lie le terme d'indice n + 1 au terme d'indice n. Exemple - On définit les puissances z n (-displaystyle z(n)) d'une variable z (-displaystyle z) par la relation de récurrence : z n + 1 - z z n (-displaystyle z(n+1)-z-;-times z(n)) et l'initialisation z 0 - 1 (-displaystyle z(0)-1). Exemple - La suite de Fibonacci est définie par la donnée de u 0 - 1 (-displaystyle u-(0)-1) et u 1 - 1 (-displaystyle u-(1)-1) et par la relation de récurrence u n + 2 - u n + u n + 1 (-displaystyle u-(n+2)-u-(n)+u-(n+1)) ; cette relation de récurrence est dite "linéaire".
+Voir aussi: Suite (mathématiques); Suite récurrente linéaire. Portail des mathématiques.

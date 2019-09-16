@@ -1,0 +1,40 @@
+Le développement de logiciel consiste à étudier, concevoir, construire, transformer, mettre au point, maintenir et améliorer des logiciels.
+Ce travail est effectué par les employés d'éditeurs de logiciels, de sociétés de services et d'ingénierie informatique (SSII), des travailleurs indépendants (freelance) et des membres de la communauté du logiciel libre.
+Un logiciel est créé petit à petit par une équipe d'ingénieurs conformément à un cahier des charges établi par un client demandeur ou une équipe interne. Le logiciel est décomposé en différents modules et un chef de projet, ou architecte, se charge de la cohérence de l'ensemble.
+Différentes activités permettent de prendre connaissance des attentes de l'usager, créer un modèle théorique du logiciel, qui servira de plan de construction, puis construire le logiciel, contrôler son bon fonctionnement et son adéquation au besoin. La planification et la répartition des travaux permet d'anticiper le délai et le coût de fabrication.
+Le logiciel est accompagné d'une procédure d'installation, d'une procédure de vérification de bonne installation, de documentation (parfois créé automatiquement à partir de commentaires placés à cet effet dans le code source) et d'une équipe d'assistance au déploiement et à la maintenance, désignée sous le nom de support.
+Outre les travaux d'analyse, de conception, de construction et de tests, une procédure de recette - simulacre d'acquisition, permettra de déterminer si le logiciel peut être considéré comme utilisable.
+
+Les activités clé
+La phase préliminaire avant tout commencement des travaux de développement est une étude précisant les besoins, les scénarios d'interaction des utilisateurs avec le poste de travail, le but visé, et le retour sur investissement du futur logiciel. Cette phase comporte souvent une analyse rapide, destinée à obtenir une estimation empirique du coût de fabrication du logiciel. Un barème - établi par expérience - est typiquement utilisé pour estimer le temps prévu de conception, codage et test de transactions-type : consultation simple, mise à jour, listage simple, listage complexe, etc.
+
+Analyse
+L'analyste recense et documente chaque fonctionnalité que devra offrir le logiciel, et crée les documents de spécification explicitant de manière plus approfondie le cahier des charges défini par le client (le plus souvent non familiarisé avec le métier du développement logiciel). Dans le cas d'une interface graphique d'un logiciel, on peut créer par la suite une maquette qui sera approuvée et le plus souvent approfondie par le client ou les utilisateurs.
+Le cahier des charges détaillé permet au chef de projet de calculer le détail du coût de fabrication du logiciel, lui-même fonction du temps estimé nécessaire.
+
+Conception
+Le travail de conception consiste à déterminer les solutions techniques qui permettent de satisfaire le cahier des charges et donc répondre aux attentes de l'usager. L'ingénieur se base sur son expérience, ainsi que sur les patrons de conception, modèles de solutions déjà éprouvés. Il en résulte des diagrammes d'architecture, une description du modèle de données et le diagramme de classes. Les diagrammes utilisent souvent la notation UML.
+
+Construction
+La construction est la principale activité, qui occupe plus de la moitié de la durée totale du développement. Durant cette étape le ou les programmeurs rédigent le code source du logiciel, puis utilisent un compilateur pour le transformer et obtenir les différents composants du logiciel proprement dit. Le programmeur effectue également de nombreux tests en vue de déceler un maximum de bugs - des erreurs de programmation. Des tests de non-régression permettent de vérifier que l'ajout de nouvelles fonctionnalités ne compromet pas les anciennes. L'un des soucis du procédé est que des tests peuvent démontrer la présence d'erreurs, mais jamais leur absence.
+Les différents modules du logiciels sont programmés un par un, puis rassemblés, et de nouveaux tests sont effectués en vue de vérifier le fonctionnement de l'ensemble (test d'intégration).
+Le produit de cette phase est le livrable, c'est-à-dire l'ensemble des fichiers mis à disposition de l'utilisateur final : non seulement les programmes, mais le mode d'emploi et les fichiers de configuration. Le livrable peut être une application informatique complète, un composant, ou un patch.
+
+Recette
+Durant la recette, divers contrôles sont effectués avant que le logiciel soit mis sur le marché. Un examen approfondi, composé d'une suite de tests, est effectué en vue de vérifier l'alignement du produit avec le cahier des charges. Une version bêta (présérie) du logiciel est mise à disposition d'un nombre limité d'usagers en vue de leur permettre d'évaluer l'adéquation du logiciel avec leurs attentes.
+
+Le génie logiciel
+Le génie logiciel est la science des bonnes pratiques de développement de logiciel. Cette science étudie en particulier la répartition des phases dans le temps, les bonnes pratiques concernant les documents clés que sont le cahier des charges, le diagramme d'architecture ou le diagramme de classes. Le but recherché est d'obtenir des logiciels de grande ampleur qui soient fiables, de qualité, et correspondent aux attentes de l'usager.
+
+Les outils
+Un compilateur permet de traduire le code source rédigé dans un certain langage de programmation, et d'obtenir le code binaire du logiciel. Un éditeur de liens et un préprocesseur est parfois nécessaire. Ces trois outils sont parfois réunis en un moteur de production qui automatise la préparation du code binaire (opération appelée make ou build).
+Le code source est rédigé à l'aide d'un éditeur de texte. Celui-ci est souvent muni de coloration syntaxique, une fonctionnalité qui met en couleur les éléments du lexique du langage de programmation.
+Le débogueur (anglais debugger) permet de contrôler le déroulement de l'exécution du logiciel, et aide à trouver les sources de bugs constatés.
+Un environnement de développement intégré regroupe généralement un éditeur, un compilateur, un moteur de production et un débogueur. Les trois logiciels sont orientés autour d'une même interface et utilisés comme une application unique. Il est souvent couplé avec un système de gestion de versions.
+Un système de gestion de versions permet d'enregistrer des fichiers en conservant l'historique de toutes les modifications effectuées, y compris par plusieurs personnes. Il permet de retrouver le code source dans l'état où il était à une date donnée.
+Un logiciel de suivi de problèmes permet de recenser les problèmes techniques rencontrés avec un logiciel, l'évolution des corrections de bugs, et les possibilités de contournement (anglais workaround). Il assure qu'aucune doléance de fonctionnement ne sera oubliée.
+Le cahier des charges se rédige avec un traitement de texte standard, les diagrammes de conception avec tout outil de dessin assisté par ordinateur. Les outils de dessins orientés sur les diagrammes de logiciel utilisent souvent la notation UML (Unified Modeling Language).
+Un atelier de génie logiciel permet la construction, la conception et la planification des travaux. Il comporte tous les outils présents dans un environnement de développement intégré, plus des outils de conception, de planification, de test, et des outils créant automatiquement du code source et de la documentation.
+Une forge est un portail Web sur une suite d'outils de développement collaboratif. Il comporte tous les outils présents dans un environnement de développement intégré, y compris un système de gestion de versions et un logiciel de suivi de problèmes, ainsi que des outils de liste de discussions et de rédaction collaborative de documents (wiki).
+
+Voir aussi: Logiciel spécifique; Génie logiciel; Processus de développement de logiciel (en).

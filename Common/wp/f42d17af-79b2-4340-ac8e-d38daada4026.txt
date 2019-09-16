@@ -1,0 +1,6 @@
+La Visualisation d'Information est un domaine informatique pluri-disciplinaire dont l'objet d'étude est la représentation visuelle de données, principalement abstraites, sur une interface graphique. Le type de données peut être un réseau social, les fichiers d'un ordinateur, le texte de livres ou un réseau d'ordinateur tel qu'internet. Les représentations visuelles sont par exemple des dendogrammes, le dessin de graphes, des heatmap, les treemap, nuages de mots, entre autres.
+Le domaine a émergé de plusieurs champs disciplinaires aussi bien en informatique comme l'interaction Homme-machine, l'Informatique Graphique, la visualisation scientifique, les systèmes d'information géographique mais aussi d'autres domaines tels que le design visuel et la psychologie.
+
+Voir aussi
+
+Articles connexes: Représentation graphique de données statistiques; Donnée (statistique), information; Système d'information géographique; Statistique; Graphique; Diagramme; Manuel Lima.

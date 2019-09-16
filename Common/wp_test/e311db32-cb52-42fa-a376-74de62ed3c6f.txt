@@ -1,0 +1,60 @@
+La mémoire vive(a) ou mémoire à accès direct(b) (traduction de l'anglais Random Access Memory (RAM)), par opposition à un accès séquentiel, est la mémoire informatique dans laquelle sont stockées les informations (données, instructions, etc.) traitées par un appareil (ordinateur, console de jeux vidéo, guichet automatique bancaire, téléphone mobile, oscilloscope numérique, etc.).
+
+Caractéristiques générales
+Les caractéristiques actuelles de cette mémoire sont : sa rapidité d'accès, essentielle pour fournir rapidement les données au processeur ;; sa volatilité, qui entraîne une perte de toutes les données en mémoire dès que l'ordinateur cesse d'être alimenté en électricité. Cet inconvénient, qui n'existait pas avec les anciennes mémoires à ferrite est éliminé sur d'autres types de mémoires RAM dites "non-volatiles", comme les MRAM, mais dont les temps d'accès ou le coût ne sont pas toujours aussi compétitifs.
+
+Désignations
+Il existe deux types principaux de mémoire : la mémoire vive (RAM) qui est une mémoire volatile (qui perd ses données lorsqu'on coupe son alimentation électrique) ;; la mémoire morte (ROM) qui est une mémoire non volatile (mémoire rémanente, c'est-à-dire qui conserve ses données même lorsqu'on coupe son alimentation électrique).
+Il y a trois types principaux de mémoire vive : la mémoire vive dynamique qui, même sous alimentation électrique, doit être réactualisé périodiquement pour éviter la perte d'information;; la mémoire vive statique qui n'a pas besoin d'un tel processus lorsque sous alimentation électrique ;; la SSD est parfois utilisée comme mémoire vive.
+cellule DRAM (1 Transistor et un condensateur) Cellule SRAM (6 Transistors)
+Technique
+Une carte mémoire RAM de 4 Mio pour ordinateur VAX 8600 (circa 1986). Différentes présentation de mémoire vive, de haut en bas : - circuit intégré DIP - barrette SIP - barrette SIMM 30 broches - barrette SIMM 72 broches - barrette DIMM - barrette RIMM
+La mémoire informatique est un composant, d'abord réalisé par une technologie magnétique (tores de ferrite), puis par l'électronique dans les années 1970, qui permet de stocker et relire rapidement des informations binaires. Son rôle est notamment de stocker les données qui vont être traitées par l'unité centrale de traitement (UCT) (un microprocesseur dans la plupart des appareils modernes).
+On peut accéder à la mémoire vive alternativement en lecture ou en écriture.
+Il existe également des mémoires associatives, largement utilisées dans les techniques de mémoire virtuelle pour éviter des recherches séquentielles de pages et accélérer ainsi les accès.
+
+Organisation
+Les informations peuvent être organisées en mots de 8, 16, 32 ou 64 bits.
+Certaines machines anciennes avaient des mots de taille plus exotique. Par exemple,: 60 bits pour le Control Data 6600;; 36 bits pour l'IBM 7030 "Stretch" ou le DEC PDP-10;; 12 bits pour la plupart des premiers mini-ordinateurs de DEC, les appareils d'instrumentation travaillant au mieux sur 12 bits à l'époque.
+
+Détection et correction d'erreurs
+En plus, afin d'assurer la fiabilité de l'information enregistrée en mémoire, on ajoute des bits supplémentaires à chaque mot de mémoire. Par exemple,: dans les mémoires à parité, il y a un bit supplémentaire (dit de contrôle de parité), transparent à l'utilisateur (traitement matériel);; dans les mémoires à correction automatique d'erreur sur 1 bit et détection sur plus d'un bit (ECC), ces bits invisibles sont parfois au nombre de six ou plus;; chaque mot des mémoires des serveurs modernes dits non-stop ou 24365 dispose, en plus des bits de correction, de bits de remplacement qui prennent la relève des bits défaillants à mesure du vieillissement de la mémoire (une défaillance de 10 chaque année se traduit par 10,0 bits défaillants par an sur une mémoire de 128 Gio).
+Les fabricants recommandent d'utiliser de barrettes de mémoire avec l'ECC pour celles ayant une capacité d'1 Gio ou plus, en particulier celles utilisées dans les serveurs, permettant de détecter les erreurs et de les corriger à la volée. Dans la pratique, les ordinateurs domestiques les utilisent très rarement.
+
+Temps d'accès
+Le temps d'accès à un mot de la mémoire vive est de quelques dizaines ou centaines de nanosecondes tandis que celui d'un dispositif de disque dur (HDD: hard disk drive) est de quelques millisecondes (c'est-à-dire dix mille à cent mille fois plus lent) et celui d'un dispositif à semi-conducteur (SSD:solid-state drive) est intermédiaire. Par contre, avec ces derniers, on ne peut lire et écrire que par blocs de mots.
+
+Adressage de la mémoire
+Un circuit intégré de mémoire ne comporte que le nombre de bits d'adresse mémoire nécessaire pour accéder aux mots de mémoire qu'il contient. L'unité centrale de traitement comporte beaucoup plus de bits d'adresse mémoire qu'un simple circuit intégré de mémoire afin d'adresser davantage de mémoire. Ces bits supplémentaires sont décodés par un circuit spécialisé, nommé décodeur d'adresse ou sélecteur, pour sélectionner le circuit intégré de mémoire approprié grâce à une broche de celui-ci nommé chip select.
+Il est très facile de munir un microprocesseur d'une mémoire non contiguë (par exemple de 0 à 4 095, puis un trou, puis de la mémoire entre 16 384 et 32 767), ce qui facilite beaucoup la détection d'erreurs d'adressage éventuelles.
+
+Divers types de mémoire vive
+
+Mémoire vive statique
+Une mémoire vive statique est une mémoire vive qui n'a pas besoin de rafraîchissement.
+
+Static Random Access Memory (SRAM)
+Cette mémoire utilise le principe des bascules électroniques pour enregistrer l'information. Elle est très rapide, par contre, elle est chère et volumineuse. Elle consomme moins d'électricité que la mémoire dynamique. Elle est utilisée pour les caches mémoire, par exemple les caches mémoire L1, L2 et L3 des microprocesseurs.
+
+Dual Ported Random Access Memory (DPRAM)
+Cette mémoire est une variante de la Static Random Access Memory (SRAM) où on utilise un port double qui permet des accès multiples quasi simultanés, en entrée et en sortie.
+
+Magnetic Random Access Memory (MRAM)
+Cette mémoire utilise la charge magnétique de l'électron pour enregistrer l'information. Elle possède un débit de l'ordre du gigabit par seconde, un temps d'accès comparable à de la mémoire DRAM (10 ns) et elle est non-volatile. Étudiée par tous les grands acteurs de l'électronique, elle a commencé à être commercialisée en 2006.
+
+Phase-Change Random Access Memory (PRAM)
+Cette mémoire utilise le changement de phase du verre pour enregistrer l'information. Elle est non-volatile. Elle a commencé à être commercialisée en 2012.
+
+Mémoire vive dynamique
+Une mémoire vive dynamique est une mémoire vive qui a besoin de rafraîchissement.
+La simplicité structurelle de la DRAM (un pico-condensateur et un transistor pour un bit) permet d'obtenir une mémoire dense à faible coût. Son inconvénient réside dans les courants de fuite des condensateurs : l'information disparaît à moins que la charge des condensateurs ne soit rafraîchie avec une période de quelques millisecondes, d'où le terme de dynamique. A contrario, les mémoires statiques SRAM n'ont pas besoin de rafraîchissement, mais utilisent plus d'espace et sont plus coûteuses.
+
+Fabricants de mémoire: A-DATA; Corsair; Crucial; Dane-Elec; G. Skill; Infineon; Kingston; OCZ Technologies; PNY; RAMBUS; Transcend; HyperX.
+
+Puces mémoire: Cypress; Elpida; Hynix; IDT (Integrated Device Technology); Qimonda; Micron; Nanya; Powerchip Semiconductor Corporation (PSC); Samsung; Winbond; Take MS.
+
+Barrettes de mémoire: A-Data; Avexir; Buffalo; Corsair; Crucial; DaneElec; G.Skill; Geil; Kingston; OCZ; Patriot; PNY; Proflash Technologies; ProMos; Samsung; Shikatronics; TEAM group; Transcend; Twinmos; HyperX.
+
+Voir aussi
+
+Articles connexes: Mémoire morte; Mémoire non volatile; Solid-state drive; Mémoire à tores magnétiques; Mémoire vive à registres; Testeur de mémoire. Portail de l'électricité et de l'électronique; Portail de l'informatique.

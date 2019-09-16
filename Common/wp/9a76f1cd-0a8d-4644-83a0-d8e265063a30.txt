@@ -1,0 +1,43 @@
+En mathématiques, et plus précisément en algèbre linéaire, le théorème du rang lie le rang d'une application linéaire et la dimension de son noyau. C'est un corollaire d'un théorème d'isomorphisme. Il peut être interprété par la notion d'indice d'application linéaire. En dimension finie, il permet notamment de caractériser l'inversibilité d'une application linéaire ou d'une matrice par son rang.
+
+Le théorème du rang
+Théorème du rang - Soient E et F deux espaces vectoriels (de dimensions finies ou infinies) sur un corps K et soit f L(E, F) une application linéaire. Alors
+r g f + d i m ker f - d i m E (-displaystyle (-rm (rg))f+(-rm (dim-,))-ker f-(-rm (dim))-,E)
+où rg f désigne la dimension de l'image de f.
+Ce théorème résulte immédiatement du fait que pour tout sous-espace vectoriel V de E, on a dim E - dim E-V + dim V et du théorème de factorisation d'après lequel E-ker(f) est isomorphe à im(f).
+Une démonstration plus laborieuse mais qui précise le résultat consiste à vérifier que pour toute base (us)sS du noyau et toute base (f(ut))tT de l'image - indexées par des ensembles S et T disjoints - (ur)rST est une base de E : Cette famille est génératrice : pour tout vecteur x, en notant xt les coordonnées de f(x) dans la base de l'image et xs celles de x - xtut dans la base du noyau, on obtient x - xrur.; Elle est libre : si une combinaison linéaire xrur est nulle alors, en prenant l'image par f, 0 + tT xtf(ut) - 0, donc par indépendance des f(ut) les xt sont nuls, si bien que l'hypothèse de départ se simplifie en sS xsus - 0, dont on déduit, par indépendance des us, que les xs sont nuls aussi.
+
+Application à la caractérisation des isomorphismes
+Lorsque les espaces vectoriels E et F sont de dimension finie et ont même dimension n, le théorème du rang permet d'établir l'équivalence entre les propriétés suivantes : 1) l'application f est un isomorphisme de E sur F ;; 2) l'application f est surjective ;; 3) l'application f est injective ;; 4) le rang de f est égal à n.
+
+Cas particulier des endomorphismes
+Soit f une application linéaire d'un espace vectoriel E de dimension finie dans lui-même. On a comme précédemment la relation : d i m i m f + d i m ker f - r g (f) + d i m ker f - dim E (-displaystyle -mathrm (dim-,im) f+-mathrm (dim-,) -ker f--mathrm (rg) (f)+-mathrm (dim-,) -ker f--dim E-,),.
+d'où l'on déduit que im f et ker f sont supplémentaires si et seulement si leur intersection est réduite au vecteur nul.
+
+Cas des matrices
+Le théorème du rang peut s'écrire pour les matrices. Si A est une matrice (m, n) sur un corps K, alors: r g A + d i m (ker U) - n (-displaystyle (-rm (rg))A+(-rm (dim-,))(-ker U)-n).
+où U est l'application linéaire de Kn dans Km canoniquement associée à la matrice A.
+Certains définissent le noyau d'une matrice de la manière suivante : ker A :- (X M n , 1 (K) A X - 0) (-displaystyle -ker A:--(X-in (-mathcal (M))-(n,1)(K)-mid AX-0-)),.
+qui est un sous-espace vectoriel de M n , 1 (K) (-displaystyle (-mathcal (M))-(n,1)(K)) de même dimension que ker U.
+Le théorème du rang s'écrit alors: r g A + d i m (ker A) - n (-displaystyle (-rm (rg))-,A+(-rm (dim))(-ker A)-n).
+Autres formulations et généralisations
+
+Généralisations
+Ce théorème est une forme particulière du premier théorème d'isomorphisme de l'algèbre dans le cas des espaces vectoriels.
+Dans un langage plus moderne, le théorème peut être énoncé de la manière suivante : si
+est une suite exacte courte d'espaces vectoriels, alors
+Ici, F joue le rôle de im f et D celui de ker f.
+Cette formulation peut être généralisée à une suite exacte de longueur quelconque (éventuellement infinie) : si
+est une suite exacte d'espaces vectoriels, alors
+ce qui, lorsque les seuls En non nuls sont ceux tels que p n q et sont de dimensions finies, se réécrit :
+Démonstration
+Notons fn le morphisme de En vers En + 1 dans cette suite. On a donc, par le théorème du rang (valide même pour des dimensions infinies) :
+dim (E n) - dim (ker f n) + dim (i m f n) (-displaystyle -dim(E-(n))--dim(-ker f-(n))+-dim((-rm (im))f-(n)))
+et par exactitude :
+i m f n - ker f n + 1. (-displaystyle (-rm (im))f-(n)--ker f-(n+1).)
+On en déduit :
+ n pair dim (E n) - n pair dim (ker f n) + n pair dim (i m f n) - n pair dim (i m f n 1) + n pair dim (ker f n + 1) - n impair dim (i m f n) + n impair dim (ker f n) - n impair dim (E n). (-displaystyle (-begin(aligned)-sum -(n(-text(pair)))-dim(E-(n))--sum -(n(-text(pair)))-dim(-ker f-(n))+-sum -(n(-text(pair)))-dim((-rm (im))f-(n))----sum -(n(-text(pair)))-dim((-rm (im))f-(n-1))+-sum -(n(-text(pair)))-dim(-ker f-(n+1))----sum -(n(-text(impair)))-dim((-rm (im))f-(n))+-sum -(n(-text(impair)))-dim(-ker f-(n))----sum -(n(-text(impair)))-dim(E-(n)).-end(aligned)))
+Interprétation par la notion d'indice
+Le théorème du rang pour des espaces vectoriels de dimension finie peut aussi être formulé en termes d'indice d'application linéaire. L'indice d'une application linéaire f de E dans F, où E et F sont des espaces vectoriels de dimension finie, est défini par: i n d i c e f - d i m (ker f) d i m (c o k e r f) (-displaystyle (-rm (indice))f-(-rm (dim))(-ker f)-(-rm (dim))((-rm (coker))f)) où coker désigne le conoyau de f.
+Intuitivement, dim(ker f) est le nombre de solutions indépendantes x de l'équation f(x) - 0, et dim(coker f) est le nombre de restrictions indépendantes sur y F pour rendre l'équation f(x) - y résoluble. Le théorème du rang pour des espaces vectoriels de dimension finie est équivalent à la proposition: i n d i c e f - d i m (E) d i m (F) (-displaystyle (-rm (indice))f-(-rm (dim))(E)-(-rm (dim))(F)).
+Cela signifie que l'indice est indépendant de la fonction f choisie dans L(E, F). Ce résultat est généralisé par le théorème de l'indice d'Atiyah-Singer, qui affirme que l'indice de certains opérateurs différentiels peut être obtenu à partir de la géométrie des espaces impliqués.

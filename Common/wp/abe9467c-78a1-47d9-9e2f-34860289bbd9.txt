@@ -1,0 +1,20 @@
+La représentation des connaissances désigne un ensemble d'outils et de procédés destinés d'une part à représenter et d'autre part à organiser le savoir humain pour l'utiliser et le partager.
+
+Représentation des connaissances
+Les connaissances n'ont jamais été, et ne sont toujours pas, systématiquement représentées par des mots et des phrases. Les systèmes d'informations utilisent notamment : Des dessins et des schémas ; utilisés pour noter les connaissances concernant les animaux, les plantes, des objets, etc. dans les études de sciences naturelles (anatomie du corps humain par exemple) ;; Des plans ont permis de coordonner le travail des architectes et des maçons ou des tailleurs de pierre, depuis l'Antiquité ;; Le dessin industriel, après le dessin cavalier (cf. ceux de Léonard de Vinci), est venu préciser la logique de fabrication des machines depuis le XIXe siècle ;; La cartographie, puis les systèmes d'information géographique (SIG) géolocalisent un nombre croissant d'éléments de connaissance.
+
+Classement des connaissances
+Les outils classiques (non électroniques) de représentation des connaissances sont les taxonomies ou classifications, qui permettent d'organiser les connaissances sur les objets du monde, et les thesaurus utilisés en indexation documentaire.
+
+Formalisation des connaissances
+Des outils plus formels et permettant de représenter des connaissances complexes sont par exemple les graphes conceptuels ou les réseaux sémantiques.
+Dans le domaine des nouvelles technologies, la représentation formelle des connaissances s'est développée dans le domaine de l'intelligence artificielle. Dans une représentation formelle, les connaissances sont représentées par des objets logiques reliés par des propriétés, axiomes et règles. Ce type de représentation est utilisé dans les systèmes experts.
+Le développement du Web, et en particulier la perspective du Web sémantique a renouvelé le domaine en introduisant le terme controversé d'ontologie. Un certain nombre de langages ont été développés dans cette perspective, comme les standards RDFS, SKOS et OWL du W3C ou la norme ISO Topic Maps.
+
+Liens entre connaissances et raisonnements
+La représentation formelle des connaissances (ou des croyances) permet d'automatiser divers traitements sur ces informations. C'est un des domaines de recherche de l'intelligence artificielle symbolique : la simulation de raisonnements "intelligents" à partir d'informations.
+Un des cadres formels les plus utilisés est la logique propositionnelle. En effet, un grand nombre de problèmes peuvent se résoudre via un codage en logique propositionnelle, et l'utilisation de techniques algorithmiques développées dans le cadre de la recherche sur le problème SAT. On peut par exemple coder divers jeux sous forme de formule propositionnelle.
+D'autres cadres formels permettent de représenter des informations présentant une structure particulière, comme les systèmes d'argumentation, les réseaux bayésiens ou la logique possibiliste.
+Un grand nombre de types de raisonnements humains ont été modélisés, notamment la déduction (on peut par exemple tirer des conséquences d'une base de connaissance) ou la dynamique des croyances (révision, contraction et expansion du cadre AGM).
+
+Voir aussi: Diagramme; Arbre (graphe); Arbre de connaissances; Représentation; Ontologies; Thésaurus; Encyclopédie.

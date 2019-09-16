@@ -1,0 +1,61 @@
+La messagerie instantanée, le dialogue en ligne, ou le clavardage, québécisme, également désignée par "chat", anglicisme - qui signifie "bavardage" -, francisé en "tchat"), permet l'échange instantané de messages textuels et de fichiers entre plusieurs personnes par l'intermédiaire d'ordinateurs connectés au même réseau informatique, et plus communément celui d'Internet. Contrairement au courrier électronique, ce moyen de communication permet de conduire un dialogue interactif.
+
+Synonymes et francisation
+La messagerie instantanée est souvent désignée sous le nom "chat" (-taet- du verbe anglais to chat - "bavarder" -, le plus souvent prononcé -tat- en France). Le nom "tchat" et le verbe "tchatter" sont souvent utilisés en français pour désigner la messagerie instantanée. Une écriture souvent utilisée pour cette prononciation est "tchat", qui est utilisé de façon à ne pas confondre la prononciation avec celle du chat (l'animal). On peut aussi trouver "tchatte".
+L'Office québécois de la langue française a proposé, en octobre 1997, le mot-valise "clavardage" formé de "clavier" et de "bavardage", entré dans le Petit Larousse 2004. Ce terme est d'ailleurs le seul synonyme francophone pour désigner la messagerie instantanée au Québec. Toutefois, les termes "bavardage-clavier" et "cyberbavardage" (également proposés par l'OQLF), ainsi que "bavardage en ligne", sont des synonymes acceptés.
+En France, la Commission générale de terminologie et de néologie avait d'abord proposé causette en 1999. Elle s'est ravisée en avril 2006 et propose dorénavant "dialogue en ligne" avec la définition suivante : "Conversation entre plusieurs personnes connectées en même temps à un réseau, qui échangent des messages s'affichant en temps réel sur leur écran". Ce terme est présent dans la base terminologique de la DGLFLF et obligatoire pour les administrations et services de l'État français, mais n'a pas été retenu comme synonyme au Québec. En pratique, le terme n'est pas entré en usage. Par exemple, il est absent du site du gouvernement français, au bénéfice du terme "chat".
+Le mot féminin "tchatche", emprunté au français d'Afrique du Nord et de France, s'est répandu spontanément, en Europe, ainsi que ses dérivés : "tchatcher" et "tchatcheur". Ce mot, qui a été emprunté en anglais et est devenu "chat", dérive de l'espagnol "cháchara" ("bavardage"). Quoi qu'il en soit, "tchatche" désigne en français une certaine exagération pour l'expression orale chez une personne.
+L'abréviation "IM" du sigle anglais Instant Messaging est parfois utilisée, tout comme "IMP", pour "Instant Messaging and Presence".
+On utilise parfois "webchat" ou "shoutbox", pour préciser que la communication se fait sur une page Web (comme Yahoo! Groupes).
+
+Fonctionnement
+La messagerie instantanée requiert l'emploi d'un logiciel client qui se connecte à un serveur de messagerie instantanée. Elle diffère du courrier électronique du fait que les conversations se déroulent instantanément (quasiment en temps réel, les contraintes temporelles n'étant pas fortes dans ces systèmes). La plupart des services modernes offrent un système de notification de présence, indiquant si les individus de la liste de contacts sont simultanément en ligne et leur disponibilité pour discuter.
+Dans les tout premiers programmes de messagerie instantanée, chaque lettre apparaissait chez le destinataire dès qu'elle était tapée, et quand des lettres étaient effacées pour corriger une faute, cela se voyait également en temps réel. Cela faisait ressembler la communication à un coup de téléphone plutôt qu'à un échange de messages. Dans les programmes modernes de messagerie instantanée, le destinataire ne voit le message de l'expéditeur apparaître que lorsque celui-ci l'a validé.
+La plupart des applications de messagerie instantanée permettent de régler un message de statut, qui remplit la même fonction qu'un message de répondeur téléphonique, par exemple pour indiquer la cause d'une indisponibilité.
+En évoluant, la messagerie instantanée a intégré les fonctionnalités de voix et de vidéo grâce à une webcam, mais aussi toutes sortes d'applications collaboratives (tableau blanc, édition de texte, jeux, etc.), d'envoi de messages automatiques et de notifications (supervision, "push" d'informations, etc.).
+
+Argot
+La messagerie instantanée possède son propre langage. Les discussions ayant lieu en temps réel, la vitesse d'écriture la rend plus fluide, d'où l'utilisation de raccourcis d'écriture, notamment pour exprimer l'état d'esprit de l'auteur (voir les émoticônes). Ces raccourcis sont souvent automatiquement remplacés par une image de binette.
+
+Histoire
+La messagerie instantanée un à un est une idée assez ancienne : sous UNIX, elle existe depuis bien longtemps, sous forme de texte, grâce à la commande "talk", puis sous MS Windows, il y a eu l'équivalent fenêtré avec WinPopUp, ces deux systèmes étant basés sur la paire utilisateur-machine. Également en mode texte sous DOS avec la commande "NET SEND".
+En 1982 les Dernières Nouvelles d'Alsace lancent dans le cadre du service minitel expérimental Gretel le premier service de messagerie instantanée grand public. L'idée a germé à la suite d'un piratage. Ce nouveau service représente très rapidement jusque 85 % du trafic.
+Le protocole standard ouvert Internet Relay Chat (IRC) fournit lui aussi depuis 1988, des fonctionnalités simples de discussion à plusieurs (elles ont depuis été étendues par l'usage de robots). Le protocole ouvert Zephyr, créé au MIT la même année, est un ensemble très simple de services de base, utilisé dans le monde universitaire américain.
+Ces deux manières de converser sur le réseau ne sont toutefois pas encore ce qu'on appelle la messagerie instantanée, du fait qu'il n'y a pas ou peu d'authentification ni de gestion de présence.
+La messagerie instantanée moderne grand public a été révélée par une jeune entreprise israélienne, Mirabilis, en introduisant ICQ en 1996. Une des principales innovations était la gestion d'une liste de contacts personnels. En 1998, Mirabilis a été rachetée par le groupe AOL Time Warner.
+Gajim utilise la technologie Jabber
+En 1998, le protocole libre et ouvert Jabber est créé ainsi que le protocole fermé et propriétaire QQ, le clone chinois d'ICQ.
+Depuis le succès d'ICQ, de nombreux protocoles de communication incompatibles, propriétaires et fermés ont été développés et gratuitement proposés par des fournisseurs de contenu d'Internet (Yahoo! Messenger en 1998, MSN Messenger en 1999 et Gadu-Gadu en 2000). L'avantage pour eux est de se constituer une large base de clients captifs, puis de pouvoir leur envoyer de la publicité, leur proposer des services étendus payants, etc.
+En 2002, on enregistre autant de courriers électroniques que de messages instantanés échangés dans le monde ; le nombre d'utilisateurs de la messagerie instantanée est estimé à 360 millions. La fermeture des réseaux, leur cloisonnement, leur incompatibilité et leur non-interopérabilité rend la messagerie instantanée sur Internet dans un état de fragmentation qui n'existe pas dans le domaine du courriel et du web.
+En 2004, Jabber-XMPP est normalisé comme standard ouvert par l'IETF, l'organisation de normalisation des protocoles de l'Internet. Jabber est à ce jour le seul système normalisé, standard ouvert, non fermé et non propriétaire, qui est très activement développé par des centaines voire milliers de développeurs, administrateurs et des millions d'utilisateurs passionnés, ainsi que par des grands noms de l'industrie informatique : Google, IBM, Sun, Facebook, France Telecom-Wanadoo-Orange Internet, etc.
+En 2005, le travail sur le support des sessions multimédia, dont la voix sur IP, est relancée grâce au protocole Jingle (Jabber) livré par Google Talk.
+En 2006, les conventions de nommage pour les identifiants de messagerie instantanée ("IRI-URI scheme") sont adoptées par l'IETF : elles sont basées sur le protocole Jabber.
+En 2009, l'éditeur Microsoft annonce une offre de services nommée Microsoft Online Services incluant un service de messagerie instantanée d'entreprise nommé Office Communications Online. Au travers d'un client Communicator, les utilisateurs peuvent visualiser l'état de présence des collaborateurs de l'entreprise et communiquer avec eux sans les déranger.
+En 2012, l'éditeur de logiciels collaboratifs Atlassian annonce l'acquisition de HipChat (en), un service de messagerie instantanée pour les entreprises et les équipes agile. HipChat dispose de salles de discussion permanente, archive l'intégralité des conversations et des fichiers pour une recherche rapide depuis de nombreuses plateformes et autorise une intégration profonde avec de nombreux services disponibles sur Internet tel que JIRA, Confluence, Jenkins, GitHub...
+
+Standards ouverts et normes
+Le paysage des systèmes de messagerie instantanée est arrivé à un morcellement et une fragmentation tels que les utilisateurs de réseaux propriétaires et fermés sont dans l'incapacité de communiquer avec les autres réseaux et protocoles : ils sont enfermés et ne peuvent plus en sortir à cause de l'effet réseau (il leur faudrait basculer tous leurs contacts vers un réseau et protocole standard ouvert).
+On assiste à un cloisonnement extrême qui ne s'est quasiment jamais vu dans aucun autre domaine : trois grands réseaux propriétaires sont utilisés par plusieurs dizaines ou centaines de millions d'utilisateurs ; ils sont enfermés et ne peuvent pas communiquer avec les centaines de millions d'utilisateurs des autres réseaux.
+Seul le protocole Jabber est normalisé par l'IETF, l'organisme qui a standardisé les protocoles de l'Internet, sous le nom XMPP.
+Une norme d'URI est disponible depuis mai 2006 sous la forme xmpp:user@domaine à l'image de l'URI pour le courriel mailto:user@domaine.
+Jabber (protocole XMPP) est donc devenu l'égal du web (protocoles HTTP et HTTPS) et du courriel (protocoles SMTP, POP et IMAP).
+
+Protocoles de communication
+
+Standards ouverts: Jabber-XMPP; IRC; SIP-SIMPLE.
+
+Protocoles propriétaires: AIM-OSCAR (AOL); Gadu-Gadu (GG Network); Lotus Sametime (IBM); Microsoft Communicator; Microsoft Messenger; Novell GroupWise; QQ (Tencent); Yahoo! Messenger.
+
+Logiciels clients
+
+Logiciels libres: Adium; aMSN; emesene; Empathy; Gossip; Instantbird; Jitsi; Kopete; Miranda IM; Miranda NG (fork de Miranda IM); Pidgin; Psi; Vroom.im.
+
+Logiciels propriétaires: AIM (AOL); BlackBerry Messenger; Brosix; Chiemo; Facebook Messenger; Goober; HipChat; Hangouts (Google); iMessage (Apple); Lotus Notes (IBM); Logiciels Microsoft: Microsoft Communicator; Skype.; Microsoft Communicator; Skype; Novell GroupWise; QQ (Tencent); Viber; WhatsApp; Yahoo! Messenger.
+
+Webchats
+Ces réseaux permettent de dialoguer sans autre logiciel qu'un navigateur web (et d'éventuels logiciels plugins complémentaires, tel que Java ou Flash).
+Par exemple Firefox Hello, Vroom, Jitsi Meet...
+
+Logiciels serveurs
+Serveurs Jabber : ejabberd; HipChat Server (Atlassian); iChat Server (Apple); jabberd ou jabberd14; jabberd2; Openfire; Oracle Communications Instant Messaging Server; (en) Sun Java System Instant Messaging Server (Sun Microsystems); Tigase.
+Autres : BitlBee (passerelle IRC vers Jabber : BitlBee est un serveur IRC et client Jabber); Novell GroupWise; Lotus Sametime (IBM); Microsoft Office Communications Server (Microsoft); IntraMessenger-serveur utilisant les logiciels libres PHP et MySQL.

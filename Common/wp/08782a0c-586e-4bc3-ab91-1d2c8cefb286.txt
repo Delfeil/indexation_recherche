@@ -1,0 +1,28 @@
+En informatique, un miroir est une copie exacte d'un ensemble de données. Sur le Web, un site miroir est une copie exacte d'un autre site web. Les sites miroirs sont d'usage surtout afin de fournir plusieurs copies de la même information, en particulier pour les téléchargements de grande envergure, répartissant ainsi la charge générée par un trafic élevé sur plusieurs serveurs et sites totalement séparés. Un miroir est à sens unique alors que la synchronisation de fichiers est une méthode bidirectionnelle.
+
+Utilité
+
+Distribution de charge
+Certain services web qui proposent le téléchargement des données volumineuses, ont un grand besoin de bande passante. Afin de garantir un accès rapide à un grand nombre d'utilisateurs simultanés, certaines structures vont créer plusieurs serveur miroirs du serveur principal. Les données étant statiques, il est facile de créer des copies des contenus des serveurs. Les serveurs miroirs peuvent être gérés par des volontaires extérieurs au projet, comme c'est le cas pour les miroirs de certaines distributions Linux.
+
+Haute disponibilité
+Le fait de disposer de miroirs garantit la haute disponibilité des données car les serveurs fonctionnent en redondance. Ainsi, un problème sur l'un des serveurs n'est pas fatal au fonctionnement du service.
+
+Contournement de censure
+La réplication de sites web peut aussi être utilisée pour rendre le contenu d'un site répliqué disponible même si le site original est victime d'une attaque ou que son accès est bloqué. On a vu un déploiement massif de sites miroirs de WikiLeaks lors du Cablegate. Un miroir d'un site web dynamique ne peut fournir que le contenu statique du site. Il ne peut pas fournir de services nécessitants l'interaction avec le site principal, comme l'ajout de contenu ou de commentaire. Il est souvent nécessaire de modifier les fichiers afin que le rendu pour l'utilisateur soit le même que sur le site original. Pour distribuer la charge et résister à des attaques par déni de service il faut, dans le cas d'un site dynamique, privilégier des solutions de reverse proxy.
+
+Technologie
+
+Infrastructure
+L'hébergement de miroirs nécessite une infrastructure ayant une bande passante importante et une capacité de stockage suffisante pour contenir l'ensemble des données répliquées. Il faut un serveur web léger afin de tenir une charge importante.
+
+Outils de réplication
+Il est possible d'effectuer une réplication de site web à l'aide d'un aspirateur de site web. Dans des cas où le volume de données est important, il est préférable d'utiliser une sauvegarde incrémentielle.
+
+Nom de domaine
+Dans le contexte d'Internet, www2 est habituellement un nom utilisé pour désigner un site miroir d'un site web. Ainsi www2.exemple.org est le site miroir de www.exemple.org.
+www3, www4, www5, www6, etc. sont des noms qui sont utilisés pour la même fonction.
+Dans certains cas, le nom d'un site miroir commençant par www2 est remplacé par le nom du site dont il est le miroir sur la barre d'adresse d'un navigateur web. Ainsi en inscrivant www2.exemple.org sur la barre d'adresses puis en frappant sur la touche Entrée, on obtient le site www.exemple.org et le nom www2.exemple.org est remplacé par www.exemple.org sur la barre d'adresses après le téléchargement de la page www2.exemple.org dans le navigateur : le nom apparaissant sur la barre d'adresses est www.exemple.org bien que la page affichée a été téléchargée du site www2.exemple.org. Ce commentaire est aussi applicable aux sites commençant par www3, www4, www5, etc.
+Bien qu'un site commençant par www2 désigne habituellement un site miroir, il est possible qu'un site commençant par www2 ne soit pas un site miroir, mais simplement un site ordinaire parce qu'il n'y a pas de nomenclature obligatoire pour les sites miroirs. Pour la même raison, il est possible qu'un site miroir ne commence pas par www2. Les commentaires de ce paragraphe sont aussi applicables aux sites dont les noms commencent par www3, www4, www5, etc. Ainsi, une compagnie qui a deux sites web pourrait décider d'appeler le premier www.nom-de-la-compagnie.com et le deuxième www2.nom-de-la-compagnie.com même si le second n'est pas un site miroir du premier.
+
+Voir aussi: Aspirateur de site Web; Coral Content Distribution Network; Miroir de disque; Censure de l'internet; Cloud computing. Portail de l'informatique; Portail d'Internet.

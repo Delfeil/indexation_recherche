@@ -1,0 +1,26 @@
+En sciences, l'instrumentation est une technique de mise en oeuvre d'instruments de mesure, d'actionneurs, de capteurs, de régulateurs, en vue de créer un système d'acquisition de données ou de commande.
+
+Généralités
+L'instrumentation est utilisée dans divers domaines et secteurs d'activités (industrie, recherche et développement, universités, etc.). Elle va par exemple permettre : d'automatiser ;; de faire des tests sur des produits (exemple : crash test) ;; d'observer des phénomènes (travaux pratiques dans l'éducation) ;; de simuler des vieillissements (tests répétitifs) ;; de faire des contrôles qualité (sur des chaînes de production) ;; d'alerter ou de surveiller.
+La chaîne d'instrumentation se constitue de la manière suivante :
+Grandeur physique Capteur Conditionnement et Traitement du signal Exploitation.
+
+Capteurs
+Le capteur va transformer une grandeur physique en signal (le plus souvent électrique) exploitable. On distingue deux grandes familles de capteurs : passifs et actifs. Selon la famille, le conditionnement va être différent.
+
+Conditionneur
+Le conditionneur va devoir convertir la grandeur électrique en sortie du capteur en une tension dont l'amplitude ou la fréquence reflète l'évolution temporelle de la grandeur physique. Cependant, on devra aussi compenser l'effet des grandeurs influentes (exemple : tenir compte du champ magnétique terrestre pour un magnétomètre). Enfin, il faudra mettre à niveau et filtrer le signal pour pouvoir l'exploiter (exemple : filtre anti-repliement avant un convertisseur analogique-numérique). La mise en oeuvre du conditionneur fait largement appel à l'électronique analogique.
+
+Après un capteur passif
+Si le capteur est résistif (la grandeur physique fait évoluer une valeur de résistance), on pourra utiliser un pont de résistances. Si le capteur est réactif (la grandeur physique fait évoluer une valeur d'impédance), on pourra avoir recours à un montage potentiométrique ou un oscillateur.
+
+Après un capteur actif
+Il faudra généralement amplifier le signal avec un amplificateur simple ou un amplificateur d'instrumentation selon les cas.
+
+Exploitation
+Enfin, il faut concevoir le système qui va rendre utile le signal. Ce sera souvent un ordinateur avec une carte d'acquisition. On pourra alors créer un instrument virtuel (avec LabVIEW par exemple) qui pourra afficher la grandeur et l'enregistrer sur le disque. Ce peut être aussi un affichage à DEL ou à aiguille (analogique).
+Par ailleurs, il existe également un moyen d'étalonner le capteur via le logiciel de traitement des données (type LabVIEW) par le biais de commandes informatiques envoyées dans le langage de l'instrument de mesure (en général du BASIC, mais certains constructeurs développent de plus en plus leur propre langage de communication avec leurs instruments), et ce après chaque mesure, garantissant ainsi une précision plus importante.
+
+Note: Dans le cadre de l'automatique, un signal peut être traité et ensuite être réinjecté dans le système : c'est la contre réaction.
+
+Articles connexes: Liste des instruments et équipements scientifiques; Liste de fabricants d'instrumentation scientifique; Amplificateur d'instrumentation. Portail des sciences; Portail des technologies; Portail de la physique.

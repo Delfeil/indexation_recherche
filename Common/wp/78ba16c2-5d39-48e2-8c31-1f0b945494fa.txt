@@ -1,0 +1,28 @@
+Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) est un protocole informatique développé par l'Open Archives Initiative afin d'échanger des métadonnées. Il permet de constituer et de mettre à jour automatiquement des entrepôts centralisés où les métadonnées de sources diverses peuvent être interrogées simultanément. Utilisé notamment par les Archives Ouvertes et les entrepôts institutionnels, il s'est aujourd'hui largement répandu dans les institutions patrimoniales et notamment les bibliothèques.
+
+Histoire
+L'OAI-PMH a été mis au point par l'Open Archive Initiative à la suite de la convention de Santa Fe (1999). À la suite des travaux de l'OAI, une première version du protocole (1.0) a été rendue publique en janvier 2001. En juillet de la même année, des changements mineurs ont été apportés au protocole (version 1.1) afin de prendre en compte des modifications apportées par le W3C au format XML. Enfin, en juin 2002 a été publiée la version actuelle (2.0), qui introduit plusieurs changement techniques et améliorations, et n'est pas rétrocompatible avec les versions précédentes. Cette version est considérée comme définitive.
+
+Fonctionnement
+
+Principe
+Ce protocole repose sur la présence de deux types d'acteurs distincts : les fournisseurs de données et les fournisseurs de service (moissonneurs). Les premiers vont donner accès à leur catalogue à travers ce que l'on nomme un "entrepôt OAI", un outil chargé de répondre aux requêtes formulées par les fournisseurs de service.
+La réponse donnée est au format XML et contient selon la requête formulée : des informations sur l'entrepôt, une liste d'identifiants, de références (métadonnées) ou de "sets" (regroupement de notices correspondant à un thème donné).
+Le fournisseur de données doit fournir ses données au format Dublin Core au moins mais peut s'il le souhaite proposer en supplément d'autres schémas : BiblioML, MarcXML, etc. La liste des formats disponibles pour un entrepôt peut être obtenue à l'aide de la commande ListMetadataFormats (voir ci-dessous).
+
+L'interrogation en OAI-PMH
+Un moissonneur pour interroger un entrepôt OAI utilise une requête sous la forme d'une URL classique construite en deux parties : L'url de base de l'entrepôt et la requête d'interrogation à proprement parler. Cette seconde partie se construit à partir de différents verbes prévus par le protocole et listés dans le tableau suivant :
+Ainsi pour obtenir des informations générales sur l'entrepôt OAI @archiveSIC (entrepôt francophone spécialisé en Sciences de l'Information et de la Communication) la requête à utiliser est la suivante :
+http:--archivesic.ccsd.cnrs.fr-oai-oai.phpverb-Identify
+Par la suite, la combinaison des verbes avec leurs différents arguments permet d'obtenir des ensembles précis et de récupérer les métadonnées descriptives contenues dans l'entrepôt.
+
+La communauté OAI-PMH
+
+Enregistrement des sites OAI-PMH
+Le protocole OAI est maintenant de plus en plus utilisé au niveau mondial par de nombreux acteurs du monde des archives ouvertes et des bibliothèques numériques. Pour favoriser la coopération des sites ayant une interface OAI-PMH, l'enregistrement est vivement encouragé.
+Voici quelques exemples d'annuaires de sites compatibles OAI-PMH : la liste maintenue par l'initiative "The Open Archives" ;; le registre de l'université de l'Illinois à Urbana-Champaign ;; The Celestial OAI registry ;; Eprint's Institutional Archives Registry ;; Openarchives.eu : le répertoire européen des référentiels OAI-PMH dans le monde ;; A worldwide service and registry : ScientificCommons.
+
+Voir aussi
+
+Articles connexes
+Des outils compatibles avec le protocole OAI-PMH : 1) ORI-OAI : Outil de Référencement et d'Indexation pour un réseau de portails OAI-PMH.

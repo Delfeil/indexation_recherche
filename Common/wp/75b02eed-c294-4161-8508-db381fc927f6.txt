@@ -1,0 +1,24 @@
+Un bot informatique est un agent logiciel automatique ou semi-automatique qui interagit avec des serveurs informatiques. Un bot se connecte et interagit avec le serveur comme un programme client utilisé par un humain, d'où le terme "bot", qui est la contraction par aphérèse de "robot".
+Selon Andrew Leonard, un bot est "un programme informatique autonome supposé intelligent, doué de personnalité, et qui habituellement, mais pas toujours, rend un service". Le terme "personnalité" est justifié par l'auteur par l'anthropomorphisme plus ou moins prononcé dont le bot est l'objet. La supposée intelligence du bot renvoie à la notion d'intelligence artificielle proposée par Marvin Minsky et qui consiste à "fabriquer des machines qui font des choses qui, accomplies par l'homme, demanderaient de l'intelligence". Le (ou les) programmeur(s) du bot ont donc bien conscience de l'absence d'intelligence humaine pour leur bot, alors que les autres humains, comme les internautes, ne sont pas nécessairement dans ce cas.
+Il existe une taxonomie proposée par Stan Franklin et Art Graesser qui situe les bots dans la famille des agents autonomes artificiels. Les bots sont développés principalement pour effectuer des tâches répétitives. Ils sont également utiles lorsque la rapidité d'action est un critère important, avec par exemple les robots de jeu, les robots d'enchères, mais aussi pour simuler des réactions humaines, comme avec les bots de messagerie instantanée. À l'origine, les bots sont préférés aux humains pour les soulager de tâches automatisables mais également parce que leurs capacités sont supérieures sur les tâches qui leur sont données.
+
+Web
+Les robots d'indexation, tels que le Googlebot, sont la principale utilisation des robots informatiques. Ils parcourent le web en indexant les pages pour le compte de moteurs de recherche.
+Dans le cas d'un wiki, les bots sont utilisés pour remplir des tâches systématiques comme corriger des fautes d'orthographe courantes, générer du contenu en suivant un template, maintenir la cohérence des liens, détecter les contributions douteuses, etc. Le logiciel wiki peut offrir des pages spécialement conçues pour les bots afin qu'ils puissent agir plus rapidement en chargeant un peu moins les serveurs.
+Les bots sont souvent utilisés dans les sites de rencontres afin de simuler l'existence de vraies personnes sur ces sites.
+
+Messagerie instantanée et IRC
+Les bots de messagerie instantanée existaient déjà au début des années 1990, notamment sur IRC. Ils peuvent proposer des jeux, tenir des statistiques, gérer un canal de discussion, etc. Souvent, ils sont programmés pour donner un statut privilégié à certains utilisateurs. Depuis 2016, les bots ou chatbot reviennent à la mode grâce aux travaux en matière d'intelligence artificielle qui leur donnent une nouvelle vie.
+
+Robots de jeu
+Dans le cadre de jeux vidéo, les bots sont des adversaires artificiels qui miment le comportement de vrais joueurs, pilotés par l'ordinateur, permettant ainsi de jouer seul à un jeu multijoueur.
+Il existe également des bots d'assistance, permettant d'assister le joueur dans les manipulations demandant de la précision ou de la rapidité. Par exemple, dans un jeu de tir à la première personne, un bot permettra d'ajuster automatiquement la visée afin de faire mouche à chaque coup.
+Ce genre de bot est généralement considéré comme de la triche, et peut sanctionner leurs utilisateurs d'un bannissement.
+Il existe également des bots d'aide à l'administration de serveurs de jeux vidéo, tel que le Big Brother Bot. Ces robots ne constituent en aucun cas des joueurs articifiels.
+
+Utilisation malveillante
+Des bots peuvent être utilisés pour effectuer une attaque distribuée contre des services internet : voir Botnet.
+Les spambots s'inscrivent sur les forums de discussion dans le but de spammer.
+Les webbots sont aussi utilisés dans la fraude au clic.
+
+Articles connexes: Robot d'indexation; Robot IRC; Spambot; Wikipédia:Bot. Portail de l'informatique.

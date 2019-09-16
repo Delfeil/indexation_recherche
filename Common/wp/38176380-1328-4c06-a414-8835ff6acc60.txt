@@ -1,0 +1,37 @@
+Le Web est par essence un média éphémère. Certains sites sont mis à jour très souvent, d'autres disparaissent ou changent de fournisseur ou d'hébergeur. Face à ce constat, il a été tenté, dans une perspective de conservation du patrimoine, de procéder à l'archivage du Web.
+Ces préoccupations ne sont pas récentes, si l'on considère que la Bibliothèque nationale du Canada a lancé ses projets dès juin 1994 et qu'Internet Archive, un des organismes les plus connus dans l'archivage d'internet, a été créé en 1996.
+
+Principes et difficultés
+L'idée de l'archivage du Web part du principe qu'il s'agit d'un mode de communication de plus en plus utilisé et qu'il importe d'en garder la trace pour que subsistent les témoignages de l'époque. Les partisans de l'archivage du Web soulignent que ce mode de communication est utilisé de manière préférentielle par des groupes qui publient peu dans les autres médias, et que les oublier dans la conservation du patrimoine conduirait à une vision partielle de la société.
+Il existe deux manières d'envisager techniquement cet archivage. L'archivage manuel (ou semi-automatique) cherche à collecter des sites, déposée sur une archive institutionnelle ou sur un support hors ligne (disque compact par exemple). Cela suppose une sélection préalable de l'information. Par ailleurs, cette méthode présente des sites "figés" à un instant donné. L'autre méthode est celle de l'archivage automatique à l'aide de robots d'indexation. Ces robots parcourent le Web à intervalles réguliers, et aspirent (en anglais snapshot) l'ensemble du Web ou éventuellement une partie (en sélectionnant par exemple un nom de domaine). Cette méthode présente plutôt une forme figée du Web (le Web tel qu'il était à un moment donné).
+L'archivage du Web se heurte à plusieurs difficultés : la nécessité d'une mémoire puissante, demandant en particulier la participation de nombreux serveurs ;; le problème de la pertinence des formats, en particulier pour les fichiers présents à l'intérieur des pages (images, applets) ;; la difficulté d'accès au Web profond, qui fait qu'une partie de la production peut échapper à l'archivage ;; les problèmes liés aux droits de propriété intellectuelle.
+
+Les réalisations
+
+Internet Archive
+Internet Archive est une institution sans but lucratif lancée par Brewster Kahle en 1996. Il procède par aspiration du Web.
+
+Internet Memory
+Internet Memory est une fondation à but non lucratif impliquée dans plusieurs projets et recherches visant à la préservation et la sauvegarde de contenu Web.
+
+La sélection de la Bibliothèque nationale d'Australie
+C'est en 1996 également que la Bibliothèque nationale d'Australie a inauguré son système d'archivage, sous le nom de PANDORA. Avec l'aide d'autres institutions australiennes, elle a décidé de sélectionner des sites jugés représentatifs. Les critères de sélection ont fait l'objet de concertations et sont réexaminés périodiquement. Il s'agit donc d'un archivage manuel.
+
+En France
+La Bibliothèque nationale de France a reçu dès 1992, sous forme de dons, des copies de sites, qui sont conservées au département de l'Audiovisuel (chargé aussi du multimédia), parfois sous conditions. À la fin des années 1990, l'institution, en particulier son département de la bibliothèque numérique, a entrepris plusieurs études sur l'archivage, soit automatique, soit manuel, des sites internet. L'Institut national de l'audiovisuel a également entrepris des recherches du même type. Des essais de collecte sélective ont été lancés à l'occasion des élections, en particulier de la présidentielle et des législatives de 2002, pour archiver les sites des candidats ainsi que certains sites à caractère politique.
+Parallèlement à ces études, l'idée est venue d'étendre le dépôt légal au Web. C'était le sens des dispositions de l'article 10 du projet de loi sur la société de l'information, déposé en 2001 par le gouvernement de Lionel Jospin. Il prévoyait la collecte automatique, tout en prévoyant d'autres modalités en cas de difficultés dans la collecte automatique. C'est une sorte de compromis entre la première et la deuxième méthode. Le projet de loi a bien été déposé devant le Parlement, mais n'a pas été examiné et est devenu caduc à la fin de la législature. L'idée a donc été reprise dans le projet de loi sur les droit d'auteur et droits voisins dans la société de l'information (loi DADVSI), déposé le 12 novembre 2003. La loi a été adoptée et publiée le 1er août 2006. Elle prévoit que les organismes dépositaires du dépôt légal "peuvent procéder eux-mêmes à cette collecte selon des procédures automatiques ou en déterminer les modalités en accord avec ces personnes" Toutefois, c'est avec le décret d'application publié le 19 décembre 2011 que les détails de cette organisation sont fixés. L'archivage du Web est partagé entre l'Institut national de l'audiovisuel et la Bibliothèque nationale de France, le premier devant archiver tous les contenus liés à l'audiovisuel (sites des radios, des télévisions) et la BnF les autres sites. Tous les textes juridiques en vigueur en 2012 sont publiés dans le Code du patrimoine (articles L131-1 à L133-1 et R131-1 à R133-1). La BnF réalise et conserve un "instantané du Web" au moins une fois par an, complétée par des collectes plus ciblées. Depuis 2008, elle donne accès, dans les salles de lecture du rez-de-jardin, à des archives dont les plus anciennes remontent à 1996.
+Les Archives nationales ont aussi expérimenté l'archivage des sites institutionnels, en particulier de la Présidence de la République, du Premier Ministre et des différents ministères.
+En 2012 est lancé le site archive.is (anciennement archive.today) dont le centre de données est situé dans le Nord-Pas-de-Calais.
+
+Les initiatives canadiennes
+Le Canada a été parmi les premiers à envisager l'archivage du Web au travers de l'Electronic Publication Plot Project (EPPP), inauguré en 1994 au sein de Bibliothèque et Archives Canada.
+Dans un premier temps, le Québec a décidé quant à lui de privilégier les "publications" qui se rapprochent des imprimés, c'est-à-dire les sites considérés comme stables et apparentés à des monographies, et les sites périodiques, dont il existe une version nouvelle régulièrement déposée. Les sites sont archivés par la Bibliothèque nationale du Québec et ne sont consultables que sur place, et à condition que le site originel ne soit plus maintenu.
+
+Les réalisations en Europe du Nord
+Les pays scandinaves se sont aussi intéressés au dépôt du Web, à partir de septembre 1996 à la Bibliothèque royale de Suède, et de manière régulière à partir d'avril 1997. La Finlande a lancé un projet EVA tendant à la conservation de l'ensemble du Web finlandais. Le Danemark a été parmi les premiers pays à modifier sa législation sur le dépôt légal en ce sens.
+
+Voir aussi
+
+Articles connexes: Archivage électronique; Archive.is.
+
+Bibliographie, documents en ligne: (en) Andreas Aschenbrenner, Web-archiving bibliography (www.ifs.tuwien.ac.at) Bibliographie et liste de liens, majoritairement en anglais, n'est plus mise à jour depuis avril 2004. (en) Andreas Aschenbrenner, Long-Term Preservation of Digital Material: Building an Archive to Preserve Digital Cultural Heritage from the Internet, mémoire de l'Institut für Softwaretechnik une Interaktive Systeme, 2001 (www.ifs.tuwien.ac.at); (en) Julien Masanès, Web archiving, Springer Verlag, 2006. Portail d'Internet; Portail sciences de l'information et bibliothèques.

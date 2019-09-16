@@ -1,0 +1,18 @@
+La norme ANSI-NISO Z39.50 (ISO 23950) est une norme de recherche d'information d'origine américaine. Elle a été publiée en 1998.
+Elle est disponible en français et en anglais.
+Son intitulé est "Information and documentation - Information retrieval (Z39.50) - Application service definition and protocol specification" en anglais, "Information et documentation - Recherche d'information (Z39.50) - Définition du service de l'application et spécification du protocole", en français.
+La norme ISO 23950 est reconnue au sein du consortium W3C et repose sur le Dublin Core.
+Elle comporte 154 pages.
+
+Historique
+La norme Z39.50 trouve son origine dans un protocole proposé en 1984 pour une utilisation bibliographique.
+La Bibliothèque du Congrès a été mandatée pour réviser le protocole, ce qui a donné la norme Z39.50-1988. En 1989 a été créée une agence de maintenance de la norme Z39.50, qui a étudié sa compatibilité avec les normes ISO 10162-10163 (Search and retrieve).
+En 1992, une version 2 du protocole a donné la norme Z39.50-1992. En 1995, les versions 2 et 3 du protocole ont été regroupées dans la norme Z39.50-1995, qui a été adoptée selon une procédure spéciale par voie expresse par le comité technique ISO-TC 46, Information et documentation.
+Le protocole a été employé dans le cadre des projets Y2K : ILSR Vendor Survey Z39.50-Y2K
+
+Description
+La norme décrit les formats et procédures régissant l'échange de messages entre un client et un serveur, sur des ordinateurs différents, mais ne s'intéresse pas à l'interaction entre le client et l'utilisateur.
+Il existe deux étapes : la recherche,; le transfert.
+La norme définit l'ensemble des entités manipulées. Par exemple : object identifier, élément, identificateur d'un ensemble d'attributs,...
+
+Voir aussi: Dublin Core; Recherche d'information; ISO 15836; Métadonnée.

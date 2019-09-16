@@ -1,0 +1,14 @@
+L'Histoire quantitative est une branche de l'historiographie, en particulier de l'histoire économique et sociale et de l'histoire comme science sociale (social science history), qui est caractérisée par l'utilisation de la recherche quantitative et des outils informatiques et statistiques. Ses trois principaux journaux académiques sont: Historical Methods,(1967-) Social Science History,(1976-), et Journal of Interdisciplinary History (1968-).
+
+Bases de données sociales et politiques
+Les historiens quantitatifs commencent leur travail avec les bases de données. De grandes quantités de données démographiques et économiques, qui sont couramment disponibles en papier ou appartenant à des anciens manuels et des documents d'archives à traiter, ont été transférées aux bases de données. Le plus grand corpus quantifié appartient à l'Inter-University Consortium for Political and Social Research (ICPSR) de l'Université du Michigan, qui donne accès à une vaste collection de données téléchargeables (sociales et politiques), principalement des États-Unis, mais aussi d'ailleurs.
+
+Bases de données: économiques
+Les historiens de l'économie ont accès à de plus grands séries de données, particulièrement gouvernementales et des entreprises privées, surtout depuis les années 1920. Par exemple, l'histoire de l'esclavage a utilisé les données de recensement, les registres de ventes et d'information sur les prix pour étudier l'histoire économique de l'esclavage.
+L'analyse de contenu est une technique de journalisme d'investigation dans laquelle les sources hemerographiques (journaux, magazines) sont codés numériquement selon une liste normalisée d'articles.
+
+Voir aussi
+
+Articles connexes: Cliométrie; Cliodynamique.
+
+Autres sources: (en) Grinin, Leonid 2007. Periodization of History: A theoretic-mathematical analysis. Dans: History et Mathematics: Analyzing and Modeling Global Development. Édité par Leonid Grinin, Victor C. de Munck et Andrey Korotayev. Moscow: KomKniga, 2006. P.10-38. (en) Kimberly A. Neuendorf. The Content Analysis Guidebook (2002); (en) Moyal, J.E. (1949) The distribution of wars in time. Journal of the Royal Statistical Society, 112, 446-458.; (en) Richardson, L. F. (1960). Statistics of deadly quarrels. Pacific Grove, CA: Boxwood Press.; (en) Silver, N. C. et Hittner, J. B. (1998). Guidebook of statistical software for the social and behavioral sciences. Boston, MA: Allyn et Bacon.; (en) Turchin, P., et al., eds. (2007). History et Mathematics: Historical Dynamics and Development of Complex Societies. Moscow: KomKniga. (en) Wilkinson, D. (1980). Deadly quarrels: Lewis F. Richardson and the statistical study of war. Berkeley, CA: University of California Press.; (en) Wright, Q. (1965, 2nd ed.). A study of war. Chicago: University of Chicago Press.

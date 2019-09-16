@@ -1,0 +1,11 @@
+Le recherche séquentielle ou recherche linéaire est un algorithme pour trouver une valeur dans une liste. Elle consiste simplement à considérer les éléments de la liste les uns après les autres, jusqu'à ce que l'élément soit trouvé, ou que toutes les cases aient été lues. Elle est aussi appelée recherche par balayage.
+
+Principe
+La recherche séquentielle consiste à prendre les éléments de la liste les uns après les autres, jusqu'à avoir trouvé la cible, ou avoir épuisée la liste.
+
+Complexité
+La complexité en temps est de O(n) pour le pire cas et en moyenne (pour une distribution uniforme), et de O(1) pour le complexité dans le meilleur des cas.
+Si les éléments de la liste sont classées par probabilités de requête décroissantes, et que ces probabilités suivent une loi géométrique alors la complexité en moyenne sera constante.
+
+Comparaison
+Sur les tableaux triés, le recherche dichotomique est beaucoup plus rapide dans le cas le pire (logarithmique). Si les données sont en plus régulièrement espacées, alors la recherche par interpolation est encore plus efficace.

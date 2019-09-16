@@ -1,0 +1,49 @@
+En algèbre, une fonction polynôme ou fonction polynomiale est une application associée à un polynôme à coefficients dans un anneau commutatif (souvent un corps commutatif K) de la forme
+où n est un entier naturel et a n , a n 1 ,.. a 0 (-displaystyle a-(n),a-(n-1),-ldots ,a-(0)) sont des éléments de K, appelés coefficients de la fonction polynomiale f. Cela s'écrit encore, à l'aide de la notation sigma : f : x r - 0 n a r x r. (-displaystyle f:x-mapsto -sum -(r-0)(n)a-(r)x(r).).
+On dit que f est une fonction polynôme à coefficients dans K.
+On n'a pas précisé l'ensemble de départ et d'arrivée L d'une fonction polynôme afin de ne pas compliquer la définition. Il suffit en fait que L soit muni d'une structure d'algèbre associative unifère sur l'anneau K. Une telle structure comporte toutes les opérations qui interviennent dans la définition d'une fonction polynôme : les lois internes de multiplication et d'addition de l'anneau K permettent de multiplier et d'ajouter les coefficients entre eux ;; une loi externe de multiplication permet de faire le produit d'un élément de l'anneau K et d'un élément d'un ensemble L ;; une loi de multiplication interne permet de faire le produit de l'élément x avec lui-même dans l'ensemble L ;; une loi d'addition interne permet d'ajouter entre eux les éléments de la forme a k x k (-displaystyle a-(k)x(k)) appartenant à L.
+Dans la pratique, on se place souvent dans les cas particuliers K - L - ℝ (ou K - L - ℂ) dans lesquels toutes les lois de multiplications précédentes sont confondues.
+En analyse, on considère presque toujours des fonctions polynômes à coefficients réels ou complexes (K - ℝ ou K - ℂ).
+
+Degré
+Le degré d'une fonction polynomiale f non nulle est le plus grand des entiers naturels k tels que a k (-displaystyle a-(k)) soit non nul (c'est donc n si le coefficient a n (-displaystyle a-(n)) n'est pas nul). Par convention, le degré de la fonction polynomiale nulle est.
+Chaque terme de la fonction polynôme de la forme a k x k (-displaystyle a-(k)x(k)) est appelé un monôme (de degré k). Le coefficient du monôme de plus haut degré est appelé le coefficient dominant de f ; a 0 (-displaystyle a-(0)) est appelé le coefficient constant de f.
+
+Identification des coefficients
+Lorsque K est un corps commutatif infini, il y a équivalence entre l'identité formelle de polynômes à coefficients dans K et l'identité des fonctions polynômes associées : deux polynômes sont égaux (ont même degré et mêmes coefficients) si et seulement si les fonctions polynomiales associées sont égales.
+En termes plus abstraits : le morphisme de K-algèbres P P (-displaystyle P-mapsto (-tilde (P))) de K(X) dans KK qui à un polynôme P (X) - r - 0 n a r X r (-displaystyle P(X)--sum -(r-0)(n)a-(r)X(r)) de K(X) associe la fonction polynomiale P : K K , x r - 0 n a r x r (-displaystyle (-tilde (P)):K-to K,-,x-mapsto -sum -(r-0)(n)a-(r)x(r)) est alors injectif.
+Dans ce cas, il n'y a plus lieu de distinguer le polynôme et la fonction polynomiale associée.
+Remarque : cette identification n'est plus possible lorsque le corps K est fini ; par exemple, si K - Z - 2 Z (-displaystyle K--mathbb (Z) -2-mathbb (Z)) (corps à deux éléments), la fonction polynomiale associée au polynôme non nul P (X) - X 2 X - X (X 1) (-displaystyle P(X)-X(2)-X-X(X-1)) est la fonction nulle.
+
+Fonctions polynomiales particulières
+La fonction polynomiale de degré : est la fonction nulle.
+Les fonctions polynomiales de degré : 0 sont appelées fonctions constantes non nulles ;; 1 (ou 1) sont appelées fonctions affines ;; 2 sont appelées fonctions quadratiques ;; 3 sont appelées fonctions cubiques.
+La fonction polynôme f (x) - 7 x 3 + 2 3 x 2 5 x + 3 (-displaystyle f(x)--7x(3)+(-frac (2)(3))x(2)-5x+3) est un exemple d'une fonction cubique de coefficient dominant -7 et de coefficient constant 3.
+
+Importance des fonctions polynômes
+Les fonctions polynômes sont souvent utilisées parce que ce sont les fonctions les plus simples : leur définition implique seulement l'addition et la multiplication (puisque les puissances ne sont que des sténographies pour les multiplications répétées).
+Ils sont aussi simples dans un autre sens : les polynômes de degré inférieur ou égal à n sont précisément les fonctions dont la dérivée (n + 1)-ième est identiquement nulle.
+Un aspect important en calcul numérique est la possibilité d'étudier les fonctions compliquées au moyen d'approximations par des polynômes. Des théorèmes rendent possibles de telles études dans certaines conditions.
+Les plus importants sont le théorème de Taylor, qui affirme à peu près que toute fonction n fois différentiable a l'air d'être localement un polynôme, et le théorème d'approximation de Weierstrass, qui affirme que toute fonction continue définie sur un intervalle compact peut être approchée uniformément sur cet intervalle d'aussi près que désiré par un polynôme.
+Les quotients de fonctions polynômes sont appelés les fonctions rationnelles. Celles-ci sont les seules fonctions qui peuvent être évaluées directement par un ordinateur, puisqu'à la base, seules les opérations d'addition, de multiplication et de division (et les opérations logiques) peuvent être exécutées par l'unité centrale d'un ordinateur. Toutes les autres fonctions que l'on a besoin d'évaluer à l'aide d'un ordinateur, comme les fonctions trigonométriques, les fonctions logarithmes et les fonctions exponentielles, doivent être alors approchées par des fonctions rationnelles convenables.
+Pour évaluer des fonctions polynômes en des valeurs données de la variable x, on n'applique pas le polynôme comme une formule et on ne calcule pas toutes les puissances de x, mais on utilise plutôt la méthode de Horner, beaucoup plus efficace.
+Si l'évaluation d'un polynôme en de nombreux points équidistants est demandée, alors la méthode des différences finies de Newton réduit la quantité de travail de façon spectaculaire. Le moteur de différences de Charles Babbage a été conçu pour créer automatiquement de grandes tables de valeurs des fonctions logarithmes et trigonométriques en évaluant des polynômes avec la méthode des différences de Newton, en utilisant beaucoup de points.
+
+Racines
+Une racine ou un zéro d'un polynôme P(X) est un nombre r tel que P(r) - 0. Déterminer les racines d'un polynôme de degré supérieur ou égal à 1, ou "résoudre une équation algébrique", est l'un des plus vieux problèmes mathématiques. Certains polynômes, comme P(X) - X + 1, n'ont pas de racine dans l'ensemble des nombres réels. Si les racines sont recherchées dans l'ensemble des nombres complexes, alors on pourra en trouver au moins une (ici, il y en a deux). En effet, tout polynôme (non constant) de ℂ(X) admet au moins une racine complexe (voir le théorème de d'Alembert-Gauss).
+
+Ordre de multiplicité d'une racine
+Si r est racine du polynôme P(X), il existe un polynôme Q(X) tel que P (X) - (X r) Q (X) (-displaystyle P(X)-(X-r)Q(X)) (pour le démontrer il suffit de retrancher à chaque monôme a k X k (-displaystyle a-(k)X(k)) de P(X) la valeur a k r k (-displaystyle a-(k)r(k)) et de constater que (X r) (-displaystyle (X-r)) se met naturellement en facteur) ; si Q(r) est non nul, on dit que r est racine simple de P(X). Si Q(r) est nul, on peut encore mettre (X r) (-displaystyle (X-r)) en facteur ; on dit alors que r est racine multiple de P(X).
+Plus généralement, s'il existe un polynôme Q(X) et un entier naturel non nul m tels que P (X) - (X r) m Q (X) (-displaystyle P(X)-(X-r)(m)Q(X)) et Q(r) 0, on dit que r est racine d'ordre m, ou a pour multiplicité m (Q et m sont alors uniques). Par exemple, le polynôme P (X) - X 3 2 X 2 + X (-displaystyle P(X)-X(3)-2X(2)+X) peut aussi s'écrire P (X) - (X 1) 2 X (-displaystyle P(X)-(X-1)(2)X) ; donc 1 est une racine de P, et sa multiplicité est égale à 2, alors que 0 est racine simple.
+
+Calcul des racines d'un polynôme
+La recherche des racines des polynômes de degré 1 ou 2 est un classique de l'enseignement pré-universitaire, connu comme "résolution d'une équation du premier ou du second degré". Des formules permettant de calculer les racines des polynômes de degré jusqu'à 4 à partir des coefficients en utilisant les quatre opérations arithmétiques plus les radicaux (racines n-ièmes) étaient déjà connues au seizième siècle (formule de Cardan, de Niccolo Fontana Tartaglia, de Ludovico Ferrari).
+Aucune formule générale de ce type n'existe pour les polynômes de degré 5 ou plus, comme l'a prouvé Abel en 1824. Ce résultat précède de peu la théorie plus générale développée par Galois qui s'engage dans une étude détaillée des relations entre les racines de polynômes.
+Les approximations des racines réelles d'un polynôme donné peuvent être trouvées en utilisant la méthode de Newton, ou plus efficacement en utilisant la méthode de Laguerre qui emploie l'arithmétique complexe et permet de localiser toutes les racines complexes. Ces algorithmes sont étudiés en analyse numérique
+
+Dérivée et primitives
+D'après les règles usuelles de dérivation, la dérivée d'une fonction réelle polynomiale
+associée à un polynôme P est la fonction polynomiale associée au polynôme dérivé P' : f ' (x) - n a n x n 1 + (n 1) a n 1 x n 2 +... + 2 a 2 x + a 1. (-displaystyle f'(x)-na-(n)x(n-1)+(n-1)a-(n-1)x(n-2)+-ldots +2a-(2)x+a-(1).).
+En inversant ce calcul, ou par les règles générales de calcul de primitives, on trouve les primitives de f : les fonctions polynomiales de la forme: x a n x n + 1 n + 1 + a n 1 x n n +... + a 1 x 2 2 + a 0 x + C , a v e c C R. (-displaystyle x-mapsto a-(n)(-frac (x(n+1))(n+1))+a-(n-1)(-frac (x(n))(n))+-ldots +a-(1)(-frac (x(2))(2))+a-(0)x+C,-quad (-rm (avec))-quad C-in -mathbb (R).).
+
+Voir aussi: Histoire des polynômes; Zéros complexes d'équations réelles. Portail de l'analyse.

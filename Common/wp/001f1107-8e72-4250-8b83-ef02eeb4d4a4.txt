@@ -1,0 +1,15 @@
+En mathématiques, le théorème de la dimension pour les espaces vectoriels énonce que deux bases quelconques d'un même espace vectoriel ont même cardinalité. Joint au théorème de la base incomplète qui assure l'existence de bases, il permet de définir la dimension d'un espace vectoriel comme le cardinal (fini ou infini) commun à toutes ses bases.
+
+Énoncé
+Théorème - Dans un espace vectoriel E, le cardinal de toute partie libre est inférieur ou égal au cardinal de toute partie génératrice de E.
+(Donc par symétrie, deux bases quelconques ont même cardinal.)
+
+Démonstration
+Soient L libre et G génératrice de E, montrons que L G.
+
+Cas G finie
+Notons n - G. D'après le lemme de Steinitz, pour toute partie finie de L de cardinal m, on a m n. Par conséquent, L elle-même est (finie et) de cardinal inférieur ou égal à n.
+
+Cas G infinie
+Pour tout ℓ L, choisissons une partie finie f(ℓ) de G telle que ℓ appartienne au sous-espace engendré par f(ℓ). Pour tout K appartenant à l'ensemble Fin(G) des parties finies de G, on a (d'après le cas fini ci-dessus) f1((K)) K 0 donc (d'après les propriétés générales des cardinaux)
+N.B. cette démonstration pour le cas infini utilise l'axiome du choix, mais il existe des démonstrations n'utilisant que le lemme des ultrafiltres.

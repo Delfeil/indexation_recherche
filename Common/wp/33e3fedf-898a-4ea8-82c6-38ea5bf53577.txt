@@ -1,0 +1,53 @@
+Un composant électronique est un élément destiné à être assemblé avec d'autres afin de réaliser une ou plusieurs fonctions électroniques. Les composants forment de très nombreux types et catégories, ils répondent à divers standards de l'industrie aussi bien pour leurs caractéristiques électriques que pour leurs caractéristiques géométriques. Leur assemblage est préalablement défini par un schéma d'implantation.
+
+Définition
+
+Composants actifs
+Un composant actif est un composant électronique qui permet d'augmenter la puissance d'un signal (tension, courant, ou les deux). La puissance supplémentaire est récupérée au travers d'une alimentation. On peut citer en majorité des semi-conducteurs, on y classe : diode, transistor, circuit intégré.
+Il existe généralement une connexion électrique interne entre deux bornes du composant où le courant et la tension sont de même signe (orientés dans le même sens sur le schéma). C'est la convention générateur.
+
+Composants passifs
+Un composant est dit passif lorsqu'il ne permet pas d'augmenter la puissance d'un signal (dans certains cas, le composant réduit la puissance disponible en sortie, souvent par effet Joule) : résistance, condensateur, bobine ainsi que tout assemblage de ces composants.
+De plus en plus apparaissent des composants qui sont des modules ou assemblages de composants actifs et passifs. On les compte alors soit dans les actifs soit comme des circuits électroniques.
+
+Classification par type d'intégration
+Un composant électronique discret est un composant ne réalisant qu'une fonction (résistance, condensateur...). Il s'oppose au circuit intégré ou au circuit hybride qui regroupent un certain nombre de fonctions actives ou passives dans un même boîtier. Le besoin de miniaturisation imposé par l'industrie de l'électronique et les progrès de l'industrie des semi-conducteurs engendrent progressivement la disparition de plus en plus des composants discrets. Ceux-ci sont cependant toujours utilisés dans les domaines réclamant de fortes tensions- puissances comme l'électronique de puissance, l'électrotechnique, etc. Leur emploi se justifie également dans la réalisation de prototypes et des petites séries ou dans l'éducation.
+
+Classification par boîtier
+Parmi les composants à monter sur circuit imprimé, on distingue deux catégories principales : les composants montés en surface, également appelés CMS ou SMD (pour Surface-Mount Device), et les composants traversants ou traditionnels. La différence est importante du point de vue de la fabrication du circuit imprimé support, (la 3e catégorie nécessite le perçage du PCB et impose d'autres contraintes de routage), ainsi que de l'assemblage (l'utilisation de composants CMS nécessite des contraintes d'assemblage différentes). Une troisième catégorie, pratiquement disparue aujourd'hui, est la catégorie des composants à wrapper.
+Parmi ces catégories figurent de nombreuses sous-sous-catégories de problèmes mathématiques équationnels ou de boîtiers, que le concepteur doit choisir en fonction de diverses contraintes d'intégration, de prix, d'accessibilité des signaux, de classe de fabrication, de dissipation thermique...
+Certaines branches de l'électronique telles que l'électronique de puissance utilisent également des boîtiers avec des connexions à visser ou à sertir. Les contraintes de puissance, d'isolation et d'ergonomie ne permettent pas dans certains cas l'utilisation de circuits imprimés.
+
+Domaines d'application
+On peut lister les composants électroniques en fonction de leur domaine d'application de prédilection. Cette classification est donnée à titre indicatif, car les domaines de l'électronique sont en général interdépendants.
+
+Capteur: Caméra; Capteur de pression fluide; Capteur de champ magnétique (effet Hall); Thermistance.
+
+Électrotechnique-électronique de puissance: Ferrite; Fusible (rapide - lent): domestique; électronique (520 ou 6,332 mm); automobile.; domestique; électronique (520 ou 6,332 mm); automobile; Polyswitch; Relais; Thyristors; Transformateurs: moulés; standard; toriques.; moulés; standard; toriques; Triacs; Diacs; Varistances.
+
+Électronique analogique: Condensateur: chimique (radial - axial); spécifique (type 400 V C 368, Classe X2, Classe Y2, 200VC-700VAC, MKT Siemens, backup); tantale; ajustable; céramique (mono ou multicouche); circuit intégré; LCC (type IRD607).; chimique (radial - axial); spécifique (type 400 V C 368, Classe X2, Classe Y2, 200VC-700VAC, MKT Siemens, backup); tantale; ajustable; céramique (mono ou multicouche); circuit intégré; LCC (type IRD607); Résistance: carbone - métal; 1-4 W, 1-2 W, 1 W, 3 W, 6,5 W; simple ou en réseau.; carbone - métal; 1-4 W, 1-2 W, 1 W, 3 W, 6,5 W; simple ou en réseau; Diode: 1N4148; type 1N400X (standard); Schottky; infrarouge (émetteur, récepteur, ou fourches - barrières); pont de diodes; Zener.; 1N4148; type 1N400X (standard); Schottky; infrarouge (émetteur, récepteur, ou fourches - barrières); pont de diodes; Zener; Inductance (self, bobine): de choc; antiparasitage.; de choc; antiparasitage; Transistor: bipolaire (NPN, PNP); à effet de champ (JFET, MOSFET); Unijonction.; bipolaire (NPN, PNP); à effet de champ (JFET, MOSFET); Unijonction; Photocoupleur; Memristor; Régulateur (de tension).
+
+Électronique numérique: Microprocesseur; Microcontrôleur (AT, MC68HC11, PIC, ST6); Mémoire informatique; Quartz; Opto-coupleur ou plus généralement Photocoupleur.
+
+Interface humaine: Afficheur: à segments (affichage de réveils); à led (affichages défilants); LCD (afficheurs de calculettes).; à segments (affichage de réveils); à led (affichages défilants); LCD (afficheurs de calculettes); Buzzer; Commutateurs rotatifs (3, 4, 6 ou 12 positions); Haut-parleur; Interrupteur: classique (à levier, à glissière, bouton-poussoir); à clé; thermique; dipswitch; ampoule ILS; à bille (remplace les interrupteurs au mercure, maintenant interdits).; classique (à levier, à glissière, bouton-poussoir); à clé; thermique; dipswitch; ampoule ILS; à bille (remplace les interrupteurs au mercure, maintenant interdits); Led (types correspondant à une combinaison des items suivants): couleur (rouge, jaune, vert, bleu, ultraviolet, infrarouge, bicolore, multicolore) (la led éteinte peut aussi être transparente); forme (standard, cylindrique, triangulaire, rectangulaire, etc.); taille (1,8 mm, 3 mm, 5 mm, 8 mm, 10 mm); intensité (1 mcd à 10 000 mcd); tension (1,8 V, 3 V, 5 V, 12 V); autres (basse consommation, clignotante); bar-graph.; couleur (rouge, jaune, vert, bleu, ultraviolet, infrarouge, bicolore, multicolore) (la led éteinte peut aussi être transparente); forme (standard, cylindrique, triangulaire, rectangulaire, etc.); taille (1,8 mm, 3 mm, 5 mm, 8 mm, 10 mm); intensité (1 mcd à 10 000 mcd); tension (1,8 V, 3 V, 5 V, 12 V); autres (basse consommation, clignotante); bar-graph; Potentiomètre: mono - multitour; linéaire - logarithmique; rotatif - rectiligne.; mono - multitour; linéaire - logarithmique; rotatif - rectiligne; Roue codeuse.
+
+Conventions employées lors de l'étude de composants électroniques
+
+Définitions de la tension et de l'intensité dans le cadre d'un dipôle
+Considérant un dipôle D (-displaystyle D) dont on note A (-displaystyle A) et B (-displaystyle B) les extrémités,: La tension v (-displaystyle v) à ses bornes peut être définie comme la différence de potentiels V (B) V (A) (-displaystyle V(B)-V(A)) ou comme la différence de potentiels V (A) V (B) (-displaystyle V(A)-V(B)).; L'intensité i (-displaystyle i) du courant le traversant peut être vue comme celle du courant circulant de A (-displaystyle A) vers B (-displaystyle B) ou comme celle du courant circulant de B (-displaystyle B) vers A (-displaystyle A).
+Par conséquent, il est nécessaire de définir ces deux grandeurs rigoureusement.
+Pour ce faire, on utilise des flèches : Dans le cadre de la tension, v (-displaystyle v) se calcule en soustrayant le potentiel à la base de la flèche (notée parallèlement au dipôle) du potentiel à son sommet.; Dans le cadre de l'intensité, la flèche (notée sur le fil considéré) indique le sens de parcours du courant lorsque i (-displaystyle i) est positif.
+Attention : une telle notation sur l'intensité ne donne aucune information sur le sens de parcours du courant en soi : cette information découle du signe de i (-displaystyle i).
+
+Conventions générateur et récepteur pour un dipôle
+Sont définies pour l'étude d'un dipôle : La convention générateur, dans laquelle les flèches définissant i (-displaystyle i) et v (-displaystyle v) sont dans le même sens.; La convention récepteur, dans laquelle les flèches définissant i (-displaystyle i) et v (-displaystyle v) sont de sens contraires.
+Lors du tracé de la caractéristique d'un dipôle,: Pour un dipôle actif, on adopte la convention générateur.; Pour un dipôle passif, on adopte la convention récepteur.
+On remarquera en particulier que puisque ces conventions influent sur les signes relatifs de i (-displaystyle i) et v (-displaystyle v), différentes formules en dépendent.
+Par exemple, considérant un conducteur ohmique de résistance R (-displaystyle R), la loi d'Ohm s'écrit usuellement en convention récepteur :
+v - R i (-displaystyle v-Ri)
+Mais en convention générateur, elle devient :
+v - R i (-displaystyle v--Ri)
+
+Voir aussi
+
+Articles connexes: Circuit électronique; Déchets d'équipements électriques et électroniques. Portail de l'électricité et de l'électronique.

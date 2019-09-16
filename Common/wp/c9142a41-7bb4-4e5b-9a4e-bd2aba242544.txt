@@ -1,0 +1,28 @@
+En mathématiques, une itération désigne l'action de répéter un processus. Le calcul itératif permet l'application à des équations récursives.
+Le terme itération est issu du verbe latin iterare qui signifie "cheminer" ou de iter "chemin".
+Le processus d'itération est employé fréquemment en algorithmique.
+
+Mathématiques
+Une itération en mathématiques peut se référer au processus d'itération d'une fonction, c'est-à-dire, appliquer une fonction à plusieurs reprises, en utilisant même itération à la sortie qu'à l'entrée. L'itération de fonctions apparemment simples peut amener à des problèmes complexes et difficiles - par exemple, les conjectures de Collatz et les suites jongleuses.
+Une autre utilisation de l'itération en mathématiques se situe dans les méthodes itératives qui sont utilisées pour trouver des solutions numériques approchées à certains problèmes mathématiques. La méthode de Newton est un exemple de méthode itérative ; le calcul manuel de la racine carrée d'un nombre est une utilisation courante et un exemple bien connu.
+
+Informatique
+Une itération en informatique est la répétition d'un bloc d'instructions dans un programme informatique. Elle peut être utilisée comme un terme général, synonyme de répétition, ou décrire une forme spécifique de la répétition avec un état immuable. Confusément, le mot peut également se référer à toute répétition en utilisant une structure de répétition explicite, quelle que soit la mutabilité.
+Lorsqu'elle est utilisée au sens premier, la récursivité est un exemple d'itération, mais en utilisant une notation récursive, ce qui est généralement le cas contraire de l'itération.
+Toutefois, lorsqu'elle est utilisée dans le second sens (plus restreint), l'itération décrit le style de programmation impérative utilisé. Cela contraste avec la récursivité, qui a une approche plus déclarative.
+Comprises au troisième sens, des répétitions utilisant les boucles while ou for peuvent être considérées comme des itérations.
+Voici un exemple d'itération se fondant sur l'affectation destructive, en pseudocode impératif :
+Dans cette partie de programme, la valeur de la variable i change au fil du temps, en prenant les valeurs 1, 2 et 3. Cette valeur changeante est caractéristique de l'itération.
+L'itération peut être approchée en utilisant des techniques récursives dans des langages de programmation fonctionnels. L'exemple suivant est écrit en Scheme. Notez que ce qui suit est récursif (un cas particulier de l'itération).
+(let iterate ((i 1) (a 0))
+ (if (- i 3)
+ (iterate (+ i 1) (+ a i))
+ (display a)))
+Un itérateur est un objet qui fournit l'itération en tant que service générique. À l'inverse, un iteratee est une abstraction qui accepte ou rejette les données au cours d'un processus d'itération.
+L'itération est également réalisée à l'aide d'une feuille de calcul dans Excel. De nombreuses équations implicites comme l'équation de Colebrook peuvent être résolues en concevant des algorithmes de calcul appropriés.
+Bon nombre des problèmes d'ingénierie tels que la résolution des équations de Colebrook atteignent une précision de 8 chiffres après 12 itérations et un maximum de 100 itérations est suffisant pour parvenir à un résultat précis de 15 chiffres.
+
+Éducation
+Dans certaines écoles, les itérations sont utilisées pour décrire le processus d'enseignement ou inciter les élèves à répéter des expériences, des évaluations ou des projets, jusqu'à ce que des résultats plus précis soient trouvés, ou que l'élève ait acquis la bonne technique. Cette idée se trouve dans le vieil adage, "La pratique rend parfait." En particulier, "itératif" est défini comme le "processus d'apprentissage et de développement qui implique une étude cyclique."
+
+Voir aussi: Récursion terminale; Aspect itératif; Méthode itérative; Processus itératif; Itérateur; Structure de contrôle; Fractale.

@@ -1,0 +1,11 @@
+En informatique, un dépôt ou référentiel (de l'anglais repository) est un stockage centralisé et organisé de données. Ce peut être une ou plusieurs bases de données où les fichiers sont localisés en vue de leur distribution sur le réseau ou bien un endroit directement accessible aux utilisateurs.
+En programmation informatique, le concept de dépôt s'applique aux logiciels de gestion de versions.
+
+Dépôts de logiciels
+La plupart des distributions GNU-Linux utilisent des dépôts accessibles sur Internet, officiels et non officiels, permettant aux utilisateurs de télécharger et de mettre à jour des logiciels compatibles. Ces logiciels sont distribués sous forme de paquets.
+Le logiciel de construction de projet Apache Maven dispose également d'une gestion fine des dépôts pour rendre disponible aussi bien les plugins utilisés par Maven lui-même, que les projets générés par Maven.
+
+Dépôt de code source
+Les logiciels de gestion de versions tels CVS ou SVN, disposent également du concept de dépôt. Le dépôt désigne alors l'endroit où les modifications apportées aux fichiers sont stockées. Le concept s'applique toutefois au-delà de l'architecture aux différents noeuds d'un système décentralisé, et ce, indépendamment du workflow.
+
+Voir aussi: Code source; Forge logicielle; Référentiel; Logithèque. Portail de l'informatique; Portail de la programmation informatique.

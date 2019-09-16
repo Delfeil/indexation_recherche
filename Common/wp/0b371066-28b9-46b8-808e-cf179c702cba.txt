@@ -1,0 +1,11 @@
+L'IBM RAMAC 305 (RAMAC pour Ramdom Access Method of Accounting and Control, en anglais) est le premier ordinateur à disque dur (l'IBM 350) commercialisé en septembre 1956 par IBM.
+Il s'agissait d'un ordinateur à usage général, qui permettait d'enregistrer des transactions et de refléter les modifications dans les comptes correspondants. Le système était composé des éléments suivants: Unité de traitement IBM 305; Imprimante IBM 370; IBM 323 Card Punch; Console IBM 380; Alimentation IBM 340; Disque dur IBM 350; Mémoire 5Mo.
+
+Unité de traitement IBM 305
+L'unité de traitement est l'élément central du RAMAC 305. Elle est basée sur un tambour de traitement magnétique sur lequel est stocké le programme à exécuter. Le programme écrit d'abord sur des cartes perforées puis inscrit les données sur le tambour ('magnetic process drum).
+
+Disque dur IBM 350
+Un des plateaux d'un RAMAC 350.
+L'IBM 350, le premier disque dur, utilisait 50 plateaux (disques) d'un diamètre de 24 pouces (environ 60 cm) en métal, tournant à 1 200 tr-min, avec 100 pistes par face. Deux têtes de lecture-écriture pouvaient se déplacer d'un plateau à un autre en moins d'une seconde. Sa capacité en données était d'environ 5 Mo et le débit de 8,8 ko-s ; son prix était de 50 000 US. Ce géant pesait plus d'une tonne et sa taille était équivalente à deux grands réfrigérateurs. Commercialisé à partir du 14 septembre 1956, il s'en est vendu plus d'un millier d'exemplaires en cinq ans.
+
+Article connexe: Liste des ordinateurs à tubes à vide. Portail de l'informatique.

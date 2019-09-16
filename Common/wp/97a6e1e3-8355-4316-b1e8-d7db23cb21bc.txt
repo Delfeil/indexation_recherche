@@ -1,0 +1,63 @@
+Le langage de modélisation unifié, de l'anglais Unified Modeling Language (UML), est un langage de modélisation graphique à base de pictogrammes conçu pour fournir une méthode normalisée pour visualiser la conception d'un système. Il est couramment utilisé en développement logiciel et en conception orientée objet.
+L'UML est le résultat de la fusion de précédents langages de modélisation objet : Booch, OMT, OOSE. Principalement issu des travaux de Grady Booch, James Rumbaugh et Ivar Jacobson, UML est à présent un standard adopté par l'Object Management Group (OMG).
+
+Utilisation
+UML est utilisé pour spécifier, visualiser, modifier et construire les documents nécessaires au bon développement d'un logiciel orienté objet. UML offre un standard de modélisation, pour représenter l'architecture logicielle. Les différents éléments représentables sont : Activité d'un objet-logiciel; Acteurs; Processus; Schéma de base de données; Composants logiciels; Réutilisation de composants.
+Grâce aux outils de modélisation UML, il est également possible de générer automatiquement tout ou partie du code d'une application logicielle, par exemple en langage Java, à partir des divers documents réalisés.
+
+Histoire
+Historique d'UML.
+Formalisme
+UML 2.3 propose 14 types de diagrammes (9 en UML 1.3). UML n'étant pas une méthode, leur utilisation est laissée à l'appréciation de chacun, même si le diagramme de classes est généralement considéré comme l'élément central d'UML ; des méthodologies, telles que l'UnifiedProcess, axent l'analyse en tout premier lieu sur les diagrammes de cas d'utilisation (use case). De même, on peut se contenter de modéliser seulement partiellement un système, par exemple certaines parties critiques. UML se décompose en plusieurs parties : Les vues : ce sont les observables du système. Elles décrivent le système d'un point de vue donné, qui peut être organisationnel, dynamique, temporel, architectural, géographique, logique, etc. En combinant toutes ces vues, il est possible de définir (ou retrouver) le système complet.; Les diagrammes : ce sont des ensembles d'éléments graphiques. Ils décrivent le contenu des vues, qui sont des notions abstraites. Ils peuvent faire partie de plusieurs vues.; Les modèles d'élément : ce sont les éléments graphiques des diagrammes.; Les vues : ce sont les observables du système. Elles décrivent le système d'un point de vue donné, qui peut être organisationnel, dynamique, temporel, architectural, géographique, logique, etc. En combinant toutes ces vues, il est possible de définir (ou retrouver) le système complet.; Les diagrammes : ce sont des ensembles d'éléments graphiques. Ils décrivent le contenu des vues, qui sont des notions abstraites. Ils peuvent faire partie de plusieurs vues.; Les modèles d'élément : ce sont les éléments graphiques des diagrammes.
+
+Vues
+Vues d'UML.
+Une façon de mettre en oeuvre UML est de considérer différentes vues qui peuvent se superposer pour collaborer à la définition du système : Vue des cas d'utilisation (use-case view) : c'est la description du modèle vu par les acteurs du système. Elle correspond aux besoins attendus par chaque acteur (c'est le quoi et le qui).; Vue logique (logical view): c'est la définition du système vu de l'intérieur. Elle explique comment peuvent être satisfaits les besoins des acteurs (c'est le comment).; Vue d'implémentation (implementation view) : cette vue définit les dépendances entre les modules.; Vue des processus (process view) : c'est la vue temporelle et technique, qui met en oeuvre les notions de tâches concurrentes, stimuli, contrôle, synchronisation...; Vue de déploiement (deployment view) : cette vue décrit la position géographique et l'architecture physique de chaque élément du système (c'est le où).
+Le pourquoi n'est pas défini dans UML.
+
+Diagrammes
+La hiérarchie des diagrammes UML 2.0 sous forme d'un diagramme de classes.
+Les diagrammes sont dépendants hiérarchiquement et se complètent, de façon à permettre la modélisation d'un projet tout au long de son cycle de vie. Il en existe quatorze depuis UML 2.3.
+
+Diagrammes de structure ou diagrammes statiques
+Les diagrammes de structure (structure diagrams) ou diagrammes statiques (static diagrams) rassemblent : Diagramme de classes (class diagram) : représentation des classes intervenant dans le système.; Diagramme d'objets (object diagram) : représentation des instances de classes (objets) utilisées dans le système.; Diagramme de composants (component diagram) : représentation des composants du système d'un point de vue physique, tels qu'ils sont mis en oeuvre (fichiers, bibliothèques, bases de données...); Diagramme de déploiement (deployment diagram) : représentation des éléments matériels (ordinateurs, périphériques, réseaux, systèmes de stockage...) et la manière dont les composants du système sont répartis sur ces éléments matériels et interagissent entre eux.; Diagramme des paquets (package diagram) : représentation des dépendances entre les paquets (un paquet étant un conteneur logique permettant de regrouper et d'organiser les éléments dans le modèle UML), c'est-à-dire entre les ensembles de définitions.; Diagramme de structure composite (composite structure diagram) : représentation sous forme de boîte blanche les relations entre composants d'une classe (depuis UML 2.x).; Diagramme de profils (profile diagram) : spécialisation et personnalisation pour un domaine particulier d'un meta-modèle de référence d'UML (depuis UML 2.2).
+
+Diagrammes de comportement
+Les diagrammes de comportement (behavior diagrams) rassemblent : Diagramme des cas d'utilisation (use-case diagram) : représentation des possibilités d'interaction entre le système et les acteurs (intervenants extérieurs au système), c'est-à-dire de toutes les fonctionnalités que doit fournir le système.; Diagramme états-transitions (state machine diagram) : représentation sous forme de machine à états finis le comportement du système ou de ses composants.; Diagramme d'activité (activity diagram) : représentation sous forme de flux ou d'enchaînement d'activités le comportement du système ou de ses composants.
+
+Diagrammes d'interaction ou diagrammes dynamiques
+Les diagrammes d'interaction (interaction diagrams) ou diagrammes dynamiques (dynamic diagrams) rassemblent : Diagramme de séquence (sequence diagram) : représentation de façon séquentielle du déroulement des traitements et des interactions entre les éléments du système et-ou de ses acteurs.; Diagramme de communication (communication diagram) : représentation de façon simplifiée d'un diagramme de séquence se concentrant sur les échanges de messages entre les objets (depuis UML 2.x).; Diagramme global d'interaction (interaction overview diagram) : représentation des enchaînements possibles entre les scénarios préalablement identifiés sous forme de diagrammes de séquences (variante du diagramme d'activité) (depuis UML 2.x).; Diagramme de temps (timing diagram) : représentation des variations d'une donnée au cours du temps (depuis UML 2.3).
+
+Modèles d'éléments: Un stéréotype est une marque de généralisation notée par des guillemets, cela montre que l'objet est une variété d'un modèle.; Un classeur est une annotation qui permet de regrouper des unités ayant le même comportement ou structure. Un classeur se représente par un rectangle conteneur, en traits pleins.; Un paquet regroupe des diagrammes ou des unités.; Chaque classe ou objet se définit précisément avec le signe "::". Ainsi l'identification d'une classe X en dehors de son paquet ou de son classeur sera définie par "Paquet A::Classeur B::Classe X".
+
+Modèles d'éléments de type commun
+Modèles d'éléments UML.
+Symbolique des modèles d'éléments :
+Classe (class).;
+Objet (object).;
+Cas d'utilisation (use case).;
+Paquet (package).
+Noeud (node). Fourche (fork).
+Acteur (actor).;
+État (state).;
+Activité (activity). État initial (initial state).; État final (final state).; Interface (interface). O--- sens du flux de l'interface.; O)----- est un raccourci pour la superposition de ---O et O---.; O--- sens du flux de l'interface.; O)----- est un raccourci pour la superposition de ---O et O---.
+
+Modèles d'éléments de type relation:
+Dépendance (dependency). Généralisation (generalisation).; Association (association).
+Agrégation (aggregation).;
+Composition (composition). Réalisation.; Utilisation.
+
+Autres modèles d'éléments: Les stéréotypes peuvent dépendre du langage que l'on souhaite utiliser.; Les archétypes.; Les profils.
+
+Normalisation et certification
+UML n'est pas une norme en droit mais un simple standard "industriel" (ou norme de fait), parce que promu par l'OMG (novembre 1997) au même titre que CORBA et en raison de son succès. Depuis juillet 2005, la première version 2.x de UML est validée par l'OMG.
+Par ailleurs, depuis 2003, l'OMG a mis en place un programme de certification à la pratique et la connaissance d'UML OCUP (OMG Certified UML Professional), qui recouvre trois niveaux successifs de maîtrise.
+
+Exemple de séquence de création des diagrammes
+
+Logiciels de modélisation UML
+Il existe de nombreux logiciels de modélisation UML. Malheureusement, aucun d'entre eux ne respecte strictement chacune des versions de UML, particulièrement UML 2. Beaucoup de ces logiciels introduisent des notations particulières non conformes et très peu supportent les différents types de diagrammes définis par le standard. En revanche, de nombreux logiciels incluent des outils de génération de squelette de code, particulièrement à partir du diagramme de classes, qui est celui qui se prête le mieux à une telle automatisation.
+
+Voir aussi
+
+Articles connexes: Enterprise Architect; Unified Process; Ingénierie dirigée par les modèles; MDA; MTL (en); ATL; OCL; Transformation de modèles (en); Modeling and Analysis of Real Time and Embedded systems; Merise (informatique); Acceleo; BOUML; Modelio; Open ModelSphere; QVT; SysML; StarUML; WebML; Lucidchart service d'informatique en nuage.

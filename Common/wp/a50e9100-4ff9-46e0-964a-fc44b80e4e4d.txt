@@ -1,0 +1,59 @@
+Opera est un navigateur Web gratuit et multiplateforme développé par la société norvégienne Opera Software, qui propose plusieurs logiciels relatifs à Internet.
+Opera est un navigateur relativement peu utilisé par rapport aux autres navigateurs web, totalisant environ 4 % de parts de marché selon StatCounter, et environ 6,5 % en environnement mobile. Depuis sa version 15, Opera utilise le moteur de rendu HTML Blink (contre Presto précédemment).
+Personnalisable et portable, il est ou a été disponible pour de nombreuses architectures et plates-formes, de Windows à OS-2, en passant par Linux, FreeBSD, Solaris et Mac OS, tant sur les architectures x86 que SPARC et sur les matériels Twin de l'opérateur ADSL Neuf, la Nintendo DS, la Wii, WiiU et le Nokia N800.
+Opera est par ailleurs traduit en de très nombreuses langues.
+
+Histoire
+
+Les débuts
+En 1992, Jon Stephenson von Tetzchner et Geir Ivarsy étaient membres d'un groupe de recherche à Televerket, la compagnie publique norvégienne de télécommunications (désormais nommée Telenor). Le groupe prit part au développement de ODA, un système basé sur des standards pour le stockage et la recherche de documents, d'images et d'autres contenus numériques. Le système ODA ne fut jamais utilisé à grande échelle malgré son efficacité et fut abandonné. Le groupe de recherche créa également le premier serveur Internet norvégien et leurs premières pages personnelles en 1993.
+Les membres du groupe pensaient toutefois que le navigateur NCSA Mosaic avait une structure trop "plate" pour être efficace dans la navigation sur le Web. Sur la base de ces constatations, le groupe s'intéressa au principe de développer un nouveau navigateur de documents en partant de rien. Inspirés par le projet ODA, ils virent le potentiel du développement d'un navigateur plus adapté aux multiples facettes de la structure du Web. Leur compagnie mère Televerket leur donna le feu vert et fin 1993, le premier prototype était réalisé et fonctionnel.
+En 1994, Televerket devint une société anonyme où l'État était actionnaire majoritaire, et von Tetzchner et Ivarsy furent autorisés à continuer le développement par eux-mêmes dans les locaux de Televerket.
+Fin 1995, Televerket changea de nom pour Telenor, et l'entreprise Opera Software fut alors créée dans les mêmes locaux qu'auparavant. Leur produit était initialement connu sous le nom de MultiTorg Opera et fut rapidement reconnu par la communauté des internautes pour son interface multidocuments (MDI) et sa "hotlist" (barre latérale) qui facilitait la consultation de plusieurs pages à la fois.
+Toutefois, Televerket se trouvait face à un dilemme : une dérégulation totale du marché norvégien des télécommunications était prévue pour l'année 1998, ce qui signifiait qu'elle devait se préparer à la concurrence. Il n'était pas sûr que le navigateur correspondrait à son coeur de métier.
+
+D'Elektra à Presto et Blink
+Des versions 4 à 6, Opera utilisa le moteur de rendu HTML Elektra et changea de moteur lors de la sortie d'Opera 7, le 28 janvier 2003.
+Presto permet d'améliorer la gestion des feuilles de style CSS, de l'interpréteur JavaScript et du support de DOM. Le support de ce dernier, couplé à JavaScript permet de rendre l'interprétation des pages dynamiques. Ainsi, certains éléments se voient réinterprétés et le contenu peut bouger en réagissant à toutes sortes d'événements dictés par l'utilisateur ou définis par le concepteur de la page Web. Le passage à Presto a également permis la correction de nombreux bugs.
+Opera Software a décidé de vendre des licences d'utilisation de son moteur Presto à plusieurs entreprises ; c'est ainsi qu'il est utilisé par Adobe Dreamweaver MX et Adobe Creative Suite 2 et suivant.
+Avec l'arrivée de Opera 15, WebKit, puis Blink, remplaceront Presto.
+
+Vers le grand public
+En août 2004 débuta une phase restreinte de tests préliminaires de Opera 7.6. Cette version proposa un support plus abouti des standards, et introduisit le support de la voix pour Opera, et le support de Voice XML. Opera annonça également un nouveau navigateur pour la télévision numérique, lequel incluait l'option Fit to Width ("ajustement à la largeur") créée pour Opera 8. C'est une technologie propriétaire qui combine la puissance du CSS, avec la technologie interne d'Opera. Les pages sont redimensionnées de manière dynamique, en diminuant la taille des images ou du texte et même en supprimant les images de taille spécifique, pour l'ajuster à la largeur de n'importe quel écran, améliorant ainsi grandement son utilisation sur de petits écrans. Opera 7.6 ne fut jamais distribuée en tant que version finale.
+Le 19 avril 2005, sortie de la version 8.0. En plus du support de SVG Tiny, des fonctionnalités multimodales et de User JavaScript (scripts JavaScript créés par l'utilisateur), l'interface utilisateur fut nettoyée et simplifiée. La page de démarrage par défaut est un portail de recherche amélioré. Cela suggère que le navigateur vise une cible commerciale plus générale, plutôt que des utilisateurs expérimentés. Ceci, toutefois, n'a pas été bien accueilli par certains des utilisateurs, car quelques paramètres avancés sont désormais cachés. Le 6 juillet 2005, la version de démonstration technologique d'Opera 8.02 inclut, pour la première fois, un client BitTorrent simple qui fut introduit dans la version 9.0 d'Opera.
+Le 20 septembre 2005 marque un tournant dans la stratégie d'Opera Software avec la version 8.5. Aucune nouvelle fonctionnalité n'apparaît dans cette version, mais le navigateur devient un produit gratuit. Auparavant, Opera se déclinait en deux versions : une version payante au prix de 34 et une version gratuite qui incluait une bannière de publicité. Toutefois, le logiciel reste payant pour certaines plates-formes (Opera pour Windows Mobile, par exemple).
+Maintenant, la société Opera tire ses revenus des versions pour appareils mobiles (comme les assistants personnels et les téléphones mobiles) du navigateur, les autres versions (pour Windows, Linux et Mac OS) servant de vitrines technologiques.
+Le 15 février 2006, Opera et Nintendo annoncent leur partenariat pour l'intégration du navigateur sur la console de jeu portable DS, illustrant l'orientation de plus en plus marquée d'Opera vers les systèmes embarqués. Le 10 mai 2006, Nintendo a également annoncé qu'Opera serait le navigateur qui équiperait la Wii, leur nouvelle console de salon, navigateur qui est maintenant disponible dans sa version finale.
+Le 20 juin 2006, Opera lance officiellement la version 9.0 de son navigateur. Cette version intègre les téléchargements par fichiers BitTorrent. Elle intègre également des widgets permettant de personnaliser le navigateur (en y ajoutant une calculatrice, une horloge...) fournis par la communauté.
+Cette nouvelle version accepte de faire apparaître les éditeurs WYSIWYG disponibles sur différents sites Web. Elle passe avec succès le test Acid2, qui vise à tester la qualité de l'implémentation de certaines fonctionnalités de CSS 2 et d'autres standards du Web du moteur de rendu.
+Le 18 décembre 2006, la version 9.10 d'Opera est lancée. Elle propose notamment un filtre anti-hameçonnage fourni par GeoTrust ou encore PhishTank. Version actuelle; Version avancée.
+Le 11 avril 2007, la version 9.20 est publiée. Celle-ci corrige quelques bogues et apporte plusieurs nouvelles fonctionnalités dont l'appel rapide, qui consiste à afficher une miniature de 9 sites, choisis par l'utilisateur, lorsque celui-ci ouvre un onglet vierge. Il peut ainsi accéder rapidement et visuellement à ses sites favoris en deux clics.
+En mars 2008, Opera annonce, en même temps que WebKit, atteindre deux des trois objectifs du test Acid3, à savoir le score de 99-100 et le rendu parfait au pixel près.
+Le 12 juin 2008, sortie de la version 9.50 build 10063 finale. Il inclut un nouveau mode de défilement de page appelé Drag to Scroll. Cette fonction, à l'aide d'un raccourcis clavier (Control+Alt) et d'un clic gauche permet "d'empoigner" une page (ou une zone de la page s'il s'agit d'une zone de texte ou d'une frame-iframe) de manière plus rapide et précise, à l'instar de l'outil "main" que l'on retrouve dans de nombreux logiciels de traitement d'images. Opera propose la synchronisation des signets et des notes en ligne, avec le site communautaire My Opera.
+Le 8 octobre 2008, sortie de la version 9.6 build 10447.
+Le 16 juin 2009, Opera présente et sort par la même occasion une fonctionnalité innovante : Opera Unite (voir fonctionnalités du navigateur Opera).
+Le 1er septembre 2009, Opera sort la version 10.00. Voici quelques-unes de ses nouveautés : Opera Turbo, qui accélère par 2 ou plus les connexions les plus lentes mais réduit la qualité des images ;; le Speed Dial, renommé "Accès rapide" par la suite, qui est une liste - sous la forme d'une grille de miniatures - de sites web choisis par l'utilisateur et affichés lors de l'ouverture d'un nouvel onglet ;; la refonte du style du logiciel ;; les onglets peuvent afficher une miniature des sites.
+Le 23 novembre 2009, Opera sort la version 10.10. Elle inclut la version finale d'Opera Unite.
+En 2010 sort la version finale d'Opera 11. Cette version ajoute le support des extensions du navigateur, à la manière de Chrome ou Firefox.
+Le 12 avril 2011, Opera sort la version 11.10. Cette nouvelle version du navigateur apporte la mise à jour du moteur de rendu Presto en 2.8, la prise en charge du format d'image WebP développé par Google, l'installation silencieuse des plugins externes et la mise en place du SpeedDial 2.0
+Le 3 mai 2011, Opera lance son nouveau channel de développement : Opera Next et propose dans la foulée une version alpha de Opera 11.50 baptisée Swordfish.
+Le 31 mai 2011, Opera publie la version beta d'Opera 11.50 (Swordfish) sur son channel de développement Opera Next. Cette version beta propose des extensions dans le speed dial, une amélioration notable d'Opera Link pour le transfert des données personnelles et enfin un meilleur support du HTML5 et du format SVG. Peu après sort la version d'Opera 11.50.
+Le 24 juin 2011, Jon Stephenson von Tetzchner, fondateur d'Opera annonce son départ de la société dans un mail adressé aux employés.
+
+Transition vers Chromium
+Le 12 février 2013, Opera annonce sa transition vers Chromium, le moteur de rendu HTML passant alors de Presto à WebKit , puis de facto Blink.
+En février 2016, Opera fait l'objet d'une offre d'acquisition par un groupe d'investisseurs chinois pour un montant de 1,2 milliard de dollars, offre qui est approuvée par la direction de l'entreprise. L'offre échoue de par la non-validation de l'opération par les autorités de la concurrence américaine. À la place de cette offre le consortium chinois propose de n'acquérir qu'une partie des activités d'Opéra, dans le but d'avoir l'approbation de l'autorité de la concurrence américaine pour 600 millions de dollars.
+
+Historique des sorties
+
+Versions pré-Chromium (1996-2012)
+La dernière version de cette série est la 12.18 pour Windows ou 12.16 pour Mac OS X et Linux. Ancienne version; Version actuelle; Version avancée.
+
+Versions basées sur Chromium (depuis 2013)
+La version actuelle de cette série est la 47.0.2631.39. Ancienne version; Version actuelle; Version avancée.
+
+Parts de marché
+
+Voir aussi
+
+Articles connexes: Opera Wii; Vivaldi (navigateur web).

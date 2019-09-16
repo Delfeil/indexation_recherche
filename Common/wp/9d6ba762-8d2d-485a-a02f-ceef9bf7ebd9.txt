@@ -1,0 +1,60 @@
+En mathématiques, en informatique et en linguistique, la théorie des langages a pour objectif de décrire les langages formels. Un langage formel est un ensemble de mots. L'alphabet d'un langage formel est l'ensemble des symboles, lettres ou lexèmes qui servent à construire les mots du langage ; souvent, on suppose que cet alphabet est fini.
+Les mots sont des suites d'éléments de cet alphabet ; les mots qui appartiennent à un langage formel particulier sont parfois appelés mots bien formés ou formules bien formées. Un langage formel est souvent défini par une grammaire formelle, telle que les grammaires algébriques et analysé par des automates.
+La théorie des langages étudie les aspects purement syntaxiques de tels langages, c'est-à-dire leur structure interne formelle. La théorie des langues est issue de la linguistique, comme moyen de comprendre les régularités syntaxiques de langues naturelles. En informatique, les langages formels sont souvent utilisés comme base pour la définition des langages de programmation et d'autres systèmes ; les mots d'un langage comportent alors aussi un sens, une sémantique. En théorie de la complexité des algorithmes, les problèmes de décision sont généralement définis comme des langages formels, et les classes de complexité sont définies comme les ensembles de langages formels qui peuvent être analysés par des machines ayant des ressources de calcul limitées. En logique mathématique, les langages formels sont utilisés pour représenter la syntaxe des systèmes axiomatiques, et l'attitude formaliste en mathématique ou logicisme affirme qu'en principe, les mathématiques peuvent se ramener à la manipulation syntaxique de langages formels.
+L'étude des langages formels comporte l'ensemble des moyens de description et d'analyse de ces langages, comme les grammaires formelles pour la génération et les automates pour la reconnaissance, mais elle s'intéresse aussi à l'apprentissage (en) des langages et à leur traduction. Dans le domaine de la traduction, la théorie des langages s'applique aux compilateurs de langages de programmation.
+
+Mots
+On se donne un ensemble A (-displaystyle A), appelé alphabet dont les éléments sont appelés des lettres. Un mot de longueur k est une suite u - (a 1 , a 2 , a k) (-displaystyle u-(a-(1),a-(2),...,a-(k))) de k lettres. En pratique, on utilise la notation condensée u - a 1 a 2... a k (-displaystyle u-a-(1)a-(2)-cdots a-(k)).; L'ensemble des mots sur l'alphabet A (-displaystyle A) est noté A (-displaystyle A(-)).; Le mot vide, de longueur 0, est noté 1 (-displaystyle 1), ou parfois (-displaystyle -varepsilon) (ou encore (-displaystyle -Lambda) pour le distinguer des (-displaystyle -varepsilon)-transitions dans les automates finis).; On définit sur A (-displaystyle A(-)), une loi de composition interne appelée concaténation. Elle associe à deux mots a 1... a n (-displaystyle a-(1)-cdots a-(n)) et b 1... b m (-displaystyle b-(1)-cdots b-(m)) le mot a 1... a n b 1... b m (-displaystyle a-(1)-cdots a-(n)b-(1)-cdots b-(m)) (de longueur n + m (-displaystyle n+m)).
+Cette loi de composition interne est associative et admet le mot vide pour élément neutre (ce qui justifie la notation 1 (-displaystyle 1)). Par conséquent l'ensemble A (-displaystyle A(-)), muni de cette loi, est un monoïde. C'est un monoïde libre au sens de l'algèbre.
+
+Langages formels
+Un langage formel est un ensemble de mots sur un alphabet fini, c'est-à-dire une partie du monoïde libre sur cet alphabet.
+
+Exemples
+Quelques exemples de langages formels : l'ensemble de tous les mots sur (a, b),; l'ensemble des mots de la forme a n (-displaystyle a(n)), où n est un nombre premier,; l'ensemble des programmes syntaxiquement corrects dans un langage de programmation donné,; l'ensemble des mots d'entrée sur lesquels une machine de Turing donnée s'arrête,; l'ensemble des 1000 mots les plus fréquents dans une langue donnée.
+
+Construction d'un langage formel
+Un langage formel peut être spécifié par différents moyens. Ce qui est recherché, c'est une méthode ou un mécanisme fini, et explicite, qui permet de produire ou d'analyser un langage en général infini. Parmi ces méthodes, il y a : les grammaires formelles. Les mots sont produits par des règles, en nombre fini, qui s'appliquent dans des conditions précises. On obtient une classification de langages appelée hiérarchie de Chomsky ;; les expressions rationnelles. Les mots sont décrits selon un symbolisme qui permet de décrire des successions, des répétitions, des alternatives. C'est un moyen très répandu pour la recherche de mots dans des textes ;; les automates. Ce sont des machines mathématiques qui reconnaissent une certaine catégorie de mots. Parmi eux, il y a les systèmes de transitions d'états, les machines de Turing ou les automates finis ;; l'ensemble des instances d'un problème de décision dont la réponse est OUI ;; divers systèmes logiques de description à l'aide de formules logiques.; des systèmes de réécriture. Une famille particulière est formée des langages congruentiels.
+
+Appartenance, calculabilité et complexité
+Des questions typiques que l'on se pose à propos d'un langage formel sont les suivantes : Peut-on décider par algorithme si un mot donné appartient à ce langage ; Si oui, quelle est la complexité algorithmique d'une telle réponse.
+Ces questions ont des liens avec la calculabilité et de la théorie de la complexité.
+
+Familles de langages
+Les langages sont regroupés en familles de langages. La Hiérarchie de Chomsky nous donne quatre types de grammaire, chaque type de grammaire générant une famille de langage. Les grammaires de type 0 génèrent la famille des langages récursivement énumérables. Ce sont exactement les langages reconnaissables par une machine de Turing.; Les grammaires de type 1 génèrent la famille des langages contextuels. Ce sont exactement les langages reconnaissables par les automates linéairement bornés.; Les grammaires de type 2 génèrent la famille des langages algébriques. Ce sont les langages reconnaissables par les automates à pile.; Les grammaires de type 3 génèrent la famille des langages rationnels. Ce sont les langages reconnaissables par les automates finis.
+Ces ensembles de langages sont tous inclus les uns dans les autres et sont ici donnés de l'ensemble le plus grand au plus petit. Donc, tout langage rationnel est algébrique, qui est lui-même contextuel, qui est lui-même récursivement énumérable.
+Entre ces 4 familles de langages, on peut noter des familles qui ne font pas partie de la hiérarchie de Chomsky, mais qui restent remarquables par leurs définitions et leur propriétés. Les langages algébriques déterministes sont les langages reconnaissables par les automates à pile déterministes, et sont donc strictement inclus dans la famille des langages algébriques. Les langages récursifs sont les langages reconnus par une machine de Turing, et dont le complémentaire est aussi reconnu par une machine de Turing. Ils sont donc strictement inclus dans les langages récursivement énumérables.
+
+Opérations sur les langages formels
+Plusieurs opérations peuvent être utilisées pour fabriquer de nouveaux langages à partir de langages donnés. Supposons que L et M soient des langages sur un certain alphabet commun.
+
+Opérations ensemblistes
+Les opérations ensemblistes intersection, union et complémentation sont définis comme pour tout ensemble.
+
+Concaténation ou produit
+La concaténation de L et de M, notée simplement L M (-displaystyle LM) est l'ensemble des mots de la forme xy où x est un mot de L et y est un mot de M.
+
+Quotients ou résiduels
+Le quotient à gauche x 1 L (-displaystyle x(-1)L) de L (-displaystyle L) par un mot x (-displaystyle x) est l'ensemble des mots y (-displaystyle y) tels que x y (-displaystyle xy) appartient à L (-displaystyle L). Le quotient à gauche est aussi appelé résiduel.
+Le quotient à droite L x 1 (-displaystyle Lx(-1)) de L (-displaystyle L) par un mot x (-displaystyle x) est défini symétriquement comme l'ensemble des mots y (-displaystyle y) tels que y x (-displaystyle yx) appartient à L (-displaystyle L).
+Le quotient à gauche et le quotient à droite s'étendent aux langages. Ainsi, le quotient à gauche de L (-displaystyle L) par un langage M (-displaystyle M), noté M 1 L (-displaystyle M(-1)L), est la réunion des langages x 1 L (-displaystyle x(-1)L) pour x (-displaystyle x) dans M (-displaystyle M).
+
+Étoile de Kleene
+L'étoile de Kleene de L est l'ensemble noté L (-displaystyle L(-star)) composé des mots de la forme u 1. u 2.... u n (-displaystyle u-(1).u-(2).-dots.u-(n)) avec n 0 (-displaystyle n-geqslant 0) et u 1 , u 2 ,.. u n L (-displaystyle u-(1),u-(2),-dots ,u-(n)-in L). Cet ensemble contient le mot vide.
+
+Retourné ou image miroir
+Le renversé de L, noté L R (-displaystyle L(R)) ou L (-displaystyle (-tilde (L))) contient les mots miroirs des mots de L, c'est-à-dire les mots de L lus de droite à gauche.
+
+Mélange ou "shuffle"
+Le mélange de L et M, noté L M, est l'ensemble des mots pouvant s'écrire u 1 v 1 u 2 v 2... u n v n (-displaystyle u-(1)v-(1)u-(2)v-(2)-dots u-(n)v-(n)) où n 0 (-displaystyle n-geqslant 0) et u 1 ,.. u n , v 1 ,.. v n (-displaystyle u-(1),-dots ,u-(n),v-(1),-dots ,v-(n)) sont des mots (éventuellement vides) tels que u 1 u 2... u n (-displaystyle u-(1)u-(2)-dots u-(n)) soit un mot de L et v 1 v 2... v n (-displaystyle v-(1)v-(2)-dots v-(n)) soit un mot de M. Par exemple (a b) (-displaystyle -(ab-)) (b a) - (a b b a , b a a b , b a b a , a b a b) (-displaystyle -(ba-)--(abba,baab,baba,abab-)).
+
+Morphisme et morphisme inverse
+Une application f : A B (-displaystyle f:A(-)-to B(-)) est un morphisme ou homomorphisme si f (x y) - f (x) f (y) (-displaystyle f(xy)-f(x)f(y)) pour tous mots x , y (-displaystyle x,y) de A (-displaystyle A(-)). L'image homomorphe d'un langage L (-displaystyle L) sur A (-displaystyle A) est l'ensemble: f (L) - (f (x) x L) (-displaystyle f(L)--(f(x)-mid x-in L-)).
+Par abus de langage, on appelle morphisme inverse l'inverse d'un morphisme. Le morphisme inverse de f : A B (-displaystyle f:A(-)-to B(-)) est la fonction notée f 1 (-displaystyle f(-1)) de B (-displaystyle B(-)) dans l'ensemble des parties de A (-displaystyle A(-)) définie par: f 1 (y) - (x A f (x) - y) (-displaystyle f(-1)(y)--(x-in A(-)-mid f(x)-y-)).
+Ce n'est en général pas un morphisme. L'image par un morphisme inverse d'un langage M (-displaystyle M) sur B (-displaystyle B) est le langage: f 1 (M) - y M f 1 (y) (-displaystyle f(-1)(M)--bigcup -(y-in M)f(-1)(y)).
+Un morphisme est non effaçant ou croissant ou, par imitation de l'anglais, -free si l'image d'une lettre n'est jamais le mot vide. Dans ce cas, la longueur de l'image d'un mot est supérieure ou égale à celle du mot.
+
+Propriétés de clôture
+Une question commune sur ces opérations est de connaitre les propriétés de clôture de chaque famille de langage pour chacune de ces opérations, c'est-à-dire si le langage issu d'une opération reste dans la même famille de langages que les langages dont il est issu.
+
+Voir aussi: Langage de programmation; Étoile de Kleene; Langage congruentiel; Linguistique; Noam Chomsky; Marcel-Paul Schützenberger; Centraliseur; Transducteur fini; Algèbre de mélange; Morphisme; Système axiomatique. Portail de l'informatique; Portail des langues; Portail des mathématiques; Portail de l'informatique théorique.

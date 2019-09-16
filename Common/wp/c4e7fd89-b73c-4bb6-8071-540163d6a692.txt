@@ -1,0 +1,331 @@
+Tool Command Language (abréviation : Tcl) est un langage de script initialement conçu en 1988 par John Ousterhout et son équipe à l'université de Californie à Berkeley. Il s'inspire principalement des langages C, Lisp, sh et awk. Ce langage à typage dynamique est multiplateformes, extensible, facile à apprendre et repose sur douze règles syntaxiques. Tcl s'interface très aisément avec le langage C, ce qui lui permet de servir par exemple d'interprète embarqué dans des applications.
+En 1990, John Ousterhout développe une extension pour Tcl appelée Tk qui est une bibliothèque pour créer des interfaces graphiques portables. Par la suite, le développement de Tk se découpla suffisamment de celui de Tcl pour être utilisé avec d'autres langages. Cependant la combinaison de Tcl et Tk reste connue comme langage sous le nom de Tcl-Tk ou Tcl-Tk.
+Tcl-Tk fait partie des langages de programmation ayant la propriété d'homoiconicité, tout comme Lisp. Nombre d'informaticiens prononcent "tickle" en parlant de Tcl, ce qui signifie chatouiller en anglais. Tk est prononcé "ticket".
+
+Caractéristiques
+Réputé économe en mémoire vive, Tcl est un langage interprété multiplateforme.
+L'un des mots d'ordre du langage est résumé sous la forme de tout est une chaîne de caractères (traduction littérale de everything is a string) : même le code définissant une procédure peut être manipulé comme une chaîne.
+Par ailleurs, tout au sein du langage est une commande : même les instructions comme if ou while sont des commandes, et ne relèvent aucunement de la syntaxe du langage. Toutes les commandes, (y compris l'affectation de variables) peuvent être surchargées.
+Les expressions mathématiques sont évaluées par une commande spéciale, avec une syntaxe inspirée du C.
+Les listes imbriquées sont l'un des types de base du langage, et permettent une programmation fonctionnelle très concise. La syntaxe devient alors proche de la notation préfixée.
+L'introspection de l'interprète permet d'accéder à toute la pile d'exécution, et d'exécuter des commandes à un niveau supérieur (dans la pile).
+Il est possible de définir des actions à déclencher sur la lecture ou écriture d'une variable, ainsi que sur l'appel d'une procédure.
+Le langage permet également de définir de nouvelles structures de contrôle (do.. until par exemple) en quelques lignes.
+Les chaînes de caractères respectent la norme Unicode, et des commandes permettent de convertir des chaînes entre différents codages.
+Les sockets multiplateformes sont gérés, aussi bien côté client que côté serveur.
+Tcl permet la recherche et substitution d'expressions rationnelles.
+L'intégration aisée de code natif C, C++ et Java est possible.
+Depuis la version de 8.6, Tcl dispose de la programmation orientée objet en natif.
+
+Description
+Tcl est facile à apprendre, surtout pour un habitué du langage C ou quelqu'un qui connaît un shell. Bien que la syntaxe semble dans un premier abord assez similaire au C, en vérité elle est beaucoup plus simple. Le langage a également des aspects communs avec Lisp et Forth. Il permet de développer très rapidement des logiciels de petite ou moyenne taille. De plus, il est facile d'intégrer différents autres logiciels avec une IHM en Tcl-Tk.
+Tcl est surtout connu pour son extension graphique Tk. Tcl-Tk permet de concevoir des applications fenêtrées indépendamment de la plate-forme (UNIX - Mac OS - Windows) à la manière du langage Java.
+Tcl étant un langage interprété, le développement d'un programme est rapide et peut s'effectuer par touches successives. Cette méthode de travail correspond à un cycle de développement en cascade.
+Tcl facilite l'accès aux fonctions de son interprète, ce qui contribue à la puissance du langage et le place à mi-chemin entre un langage fonctionnel comme Lisp et un langage impératif comme BASIC.
+Tcl est intégré ou embarqué avec de nombreuses applications grâce à sa syntaxe simple (par exemple, Oracle). L'une de ses forces est la réalisation aisée d'une suite de tests unitaires pour une application donnée. La réalisation aisée de tests de validation rend le développement incrémental très facile (à la manière de Forth).
+
+Syntaxe et sémantique
+La syntaxe suit le modèle d'un shell, avec quelques simplifications par rapport à des langages comme perl ou ksh. Un script de Tcl contient une ou plusieurs commandes. Une commande se compose de un ou plusieurs mots, qui sont séparés par des espaces. Les servent à grouper plusieurs mots, et ils seront considérés comme un seul mot (s'il y a des références parmi ces mots ils seront interprétés (substitués)).; Les peuvent jouer le même rôle (sans interprétation des variables) sauf dans certains cas.; Les délimitent des appels de fonctions dont on veut connaître le résultat.; Les indiquent les indices des tableaux T(38) est l'équivalent de T(38) en langage C. Elles peuvent aussi permettre d'ordonner les calculs dans le cas d'expressions mathématiques.
+Le premier mot est le nom de la commande. Les mots suivants sont les paramètres.
+Au lieu d'un paramètre, on peut mettre entre crochets (...) une autre commande. Celle-ci est interprétée en premier et le résultat devient le paramètre de la commande supérieure. Entre accolades (...) on peut mettre comme paramètre une séquence de mots qui n'est pas interprétée, mais utilisée directement. Les transferts de paramètres se font par valeur. La transmission par référence se fait sans mettre devant le nom de la variable, et par la commande upvar dans le corps de la procédure appelée. Les constantes ou chaînes de caractères sont indiquées telles quelles. Les commentaires s'écrivent après la commande (qui est une commande comme les autres mais qui ne fait rien).
+L'affectation se fait par l'instruction set, qui au passage retourne la valeur.
+% set a 38
+38
+La valeur d'une variable s'obtient par (set a). Remarquons que a n'est qu'un raccourci d'écriture de (set a).
+D'autres exemples de syntaxe :
+% set s (Somme a 38); a, transmis par valeur, ne peut être modifié
+...
+% MiseAjour listeA x y; listeA, transmis par référence, est modifié par MiseAJour
+...
+La notation usuelle x-f(y) s'écrit en Tcl set x (f y).
+
+Type des variables
+
+Généralités
+Les variables ne sont pas typées explicitement. On peut néanmoins en définir cinq : Les booléens : 0-false-no-n-off (faux) d'une part et 1-true-yes-y-on- (vrai) ou un nombre différent de 0 d'autre part ;; les nombres : 1 0 3.14 1.e-10 ;; les chaînes de caractères : Bonjour, "Madame De Labas", 32 , (z 3.14) ;; les listes : de booléens, nombres, chaînes ou listes (on peut imbriquer les listes) ;; les tableaux associatifs : T(clef) M(2,3) qui peuvent contenir les 4 types précédents, même mélangés.
+Les quatre premiers types sont dits types scalaires, ils peuvent donc être passés par valeur et retournés à l'appel d'une procédure. Ces types scalaires sont convertis automatiquement dans le type adéquat, par exemple, une chaîne de caractères peut devenir une liste :
+% set fruits abricot
+% puts fruits
+ abricot
+% set fruits "pomme orange banane"
+% puts (lindex fruits end)
+ banane
+Une fonction peut retourner une chaîne ou une liste, mais pas un tableau qui n'est pas une variable scalaire. Ceux-ci peuvent toutefois être transmis par référence. Les dictionnaires (nouveauté de la version 8.5) sont un nouveau type scalaire, pouvant donc être fournis comme paramètre d'une procédure, et même retournés.
+
+Booléens
+% foreach bool (list 0 1 2 false true no yes n y) (if bool (puts "bool - true") else (puts "bool - false"))
+0 - false
+1 - true
+2 - true
+false - false
+true - true
+no - false
+yes - true
+n - false
+y - true
+Nombres
+Les nombres sont traités comme des chaînes de caractères sauf dans les expressions arithmétiques où ils sont d'abord convertis en binaire.
+
+Tableaux associatifs
+Les tableaux associatifs clé-valeur implémentent un type table de hachage, sont très rapides et peuvent être très grands. Une clé, indice du tableau, peut être une chaîne de caractères ou une liste, sans limite de taille. On peut, par exemple, utiliser un texte de 10000 lignes comme clé.
+
+Structures de contrôle
+Contrairement à ce qui se passe pour d'autres langages, les mots qui servent aux structures de contrôles en Tcl ne sont pas des mots réservés avec une syntaxe spéciale. "for", "if", "while" sont des procédures qui obéissent à la syntaxe Tcl habituelle.
+while (uneExpressionLogique) (
+ uneCommande
+ uneCommande
+....
+)
+
+ if (x0) (
+ set x 0
+) elseif (x5) (
+ set x 5
+) else (
+ set x 10
+)
+
+ for (set i 0) (i10) (incr i) (
+ puts i
+)
+
+ foreach i (list "youpii" "aujourd'hui" "il fait beau" "bravo !" "bravo !") (
+ puts i
+)
+
+ foreach a listeA b listeB c listeC (
+ puts "a b c"
+)
+
+ foreach (x y) (list M Gaston Mlle Jeanne M Robert Mme Raymonde) (
+ puts "x y"
+)
+
+ set couleur bleu
+ switch couleur (
+ rouge (puts "FF0000")
+ bleu (puts "0000FF")
+ vert (puts "00FF00")
+ blanc (puts "FFFFFF")
+ noir (puts "000000")
+ default (puts "inconnu")
+)
+Exemples: Factorielle (dans le style programmation fonctionnelle):.
+proc ! x (expr (x2 1: x-(! (incr x -1)))): Faire la somme d'une liste de nombres.
+Avec une boucle foreach parcourant la liste :
+set nombres (10 9 8 7 6 5 4 3 2 1)
+set somme 0
+foreach i nombres (
+ set somme (expr (somme + i))
+)
+Ou en plus compact en utilisant la commande join :
+set somme (expr (join nombres +))
+Remarquons qu'un opérateur est un caractère comme un autre, il peut donc être stocké dans une variable :
+foreach op (+ - - -) (
+ set resultat (expr (join nombres op))
+ puts "Le résultat pour l'opérateur op vaut resultat"
+): Substituer des caractères selon une table de correspondance avec la commande string :.
+set sequence "ACGTATTACGGTCCATGAACGAATTGGGATATCGACCATGATGGAATTCTG"
+puts (string map (GA R TC Y GT K AC M GC S AT W) sequence)
+Ensuite donner la fréquence d'apparition des lettres (A, C, T, G) dans la séquence en utilisant un tableau associatif (array), la commande split pour isoler chaque motif et la commande d'introspection (info) de l'interprète :
+foreach nucleotide (split sequence) (
+ if !(info exists compte(nucleotide)) (
+ set compte(nucleotide) 1
+) else (incr compte(nucleotide))
+)
+
+foreach nucleotide (array names compte) (
+ puts "nucleotide - compte(nucleotide)"
+): Télécharger une page HTML.
+package require http
+puts (http::data (http::geturl http:--mini.net-tcl-540)): Donner l'heure par synthèse vocale sous Android.
+package require android
+set android (android new)
+set time (clock format (clock seconds) -format "%I %M %p on %A, %B %e %Y.")
+android speak time
+Difficultés et pièges
+Tcl est un langage extrêmement simple, et très puissant. C'est précisément ce qui lui permet d'exécuter du code qu'un compilateur, ou un autre interpréteur refuserait... et de donner un résultat bien différent de celui auquel le développeur s'attendait. Les sites consacrés au développement sous Tcl donnent des conseils aux développeurs débutants pour qu'ils prennent de bonnes habitudes.
+
+Noms de variable et littéraux
+Se souvenir qu'un nom de variable ne s'écrit pas différemment d'un littéral.
+% puts x
+ x
+% set x a
+ a
+% puts "x x"
+ x a
+% puts 0
+ 0
+% set 0 1
+ 1
+% puts 0
+ 1
+Substitutions
+Les substitutions peuvent donner des résultats surprenants.
+% set x 1
+ 1
+% set y x
+ x
+% set y 2; Équivaut à set x 2
+ 2
+% puts x
+ 2
+Il n'y a pas de différence entre le code et les données, en ce sens qu'une chaîne de caractères quelconque peut devenir du code. Là encore, attention au jeu des substitutions.
+set i 0;
+set cond1 "i5"; ! Attention, cond1 est déjà égal à la chaîne "05"
+set cond2 (i5); ! Ici, il n'y a pas de substitution, cond2 est égal à "i5"
+set incre (set i (expr i+1); puts i)
+while cond2 incre; Cette boucle s'exécute 5 fois.
+set i 0;
+while cond1 incre; Cette boucle ne se termine jamais.
+Pièges des parenthèses, crochets, accolades dans les commentaires
+Nous sommes tentés de mettre des morceaux de code en commentaires. Mais en Tcl, c'est une mauvaise idée.
+set x 1;
+ Les groupes d'accolade sont prises en compte même dans les commentaires.
+ if (x 0) (----- ligne de code commentée dans laquelle une accolade fermante est manquante.
+if (x -- 1) (
+ puts "Dans clause if"
+)
+ À partir d'ici des erreurs peuvent survenir à cause des groupes d'accolades mal structurés.
+ Les causes de ce type d'erreur sont très rarement décelées par un non averti.
+Une solution proposée est :
+set x 1;
+ Les groupes d'accolade sont prises en compte même dans les commentaires.
+ if (x 0) ----- ligne de code commentée dans laquelle les groupes d'accolades sont entiers.
+if (x -- 1) (
+ puts "Dans clause if"
+)
+ À partir d'ici, les accolades sont tous entiers.
+Déploiement et exécution
+
+Classique
+Sous Linux et les autres plates-formes dérivées d'Unix, l'interprète Tcl-Tk est souvent installé par défaut. Si ce n'est pas le cas, il est nécessaire de compiler le code source à l'aide d'un compilateur C et ensuite de procéder à l'installation. L'exécution d'un code Tcl s'effectue en saisissant à l'invite du shell :
+ou alors en lançant l'interprète via tclsh et ensuite en saisissant à l'invite de l'interprète la ligne suivante :
+Cependant un script Tcl peut s'exécuter directement (un peu comme un script shell) en ajoutant la ligne suivante au début du code :
+Sous Windows, il est bien sûr possible de compiler le code source mais la meilleure option demeure quand même l'installation de Tcl-Tk à partir d'une distribution précompilée. Pour exécuter un code Tcl, il suffit de double-cliquer sur celui-ci. À la différence d'Unix, il n'y a pas de console ouverte par défaut sous Windows. Autrement dit, si vous exécutez un code Tcl en imprimant des résultats sur la sortie standard, rien ne s'affichera. Il faut ajouter au préalable la ligne suivante en début de code :
+On peut aussi utiliser l'interprète wish qui gère en plus le toolkit Tk.
+
+Starkit
+Starkitest l'acronyme de "StandAlone Runtime called Tclkit". C'est un mécanisme qui consiste à regrouper dans un seul fichier tous les éléments qui composent une application Tcl-Tk (sources, images, bibliothèques, extensions,..) avec la structure dans une sorte de système de fichier virtuel. Le fichier starkit obtenu, portant l'extension.kit, est exécuté par l'intermédiaire de Tclkit, un interprète Tcl-Tk disponible pour toutes les plates-formes cibles. En termes de déploiement cela signifie qu'il y a en tout et pour tout que deux fichiers à copier sur le disque : l'interprète Tclkit + le starkit. Nul besoin d'installer Tcl-Tk. Remarquons qu'un starkit peut être exécuté par un interprète classique (tclsh, wish).
+
+Starpack
+Le Starpack est un exécutable dans lequel sont incorporés les codes source d'une application sous la forme d'un starkit avec un interprète Tcl-Tk. En termes de déploiement cela signifie simplement qu'il n'y a qu'un seul fichier. Son installation consiste à le copier sur le disque et sa désinstallation consiste à le supprimer du disque. À la différence du starkit, le starpack est spécifique à la plate-forme cible. Encore une fois, nul besoin d'installer Tcl-Tk.
+
+Programmation orientée objet
+Tcl dispose nativement de la programmation orientée objet depuis la version 8.6 (20 décembre 2012). Il s'agit d'un système objet basé sur les classes, les métaclasses, les filtres, les slots et les mixins. La syntaxe est la suivante :
+Exemple:
+oo::class create DistributeurTicket (
+ variable compteur
+
+ constructor (set compteur 0)
+
+ method donneTicket ((ticket 1)) (
+ incr compteur
+ for (set i 0) (i ticket) (incr i) (
+ puts "Voici le ticket n i pour la commande compteur"
+)
+)
+)
+
+set macommande (DistributeurTicket new)
+macommande donneTicket 2
+L'inclusion de la POO dans le noyau de Tcl a été un sujet de discussion récurrent au sein de la communauté des utilisateurs de ce langage. Les avis étaient partagés principalement pour trois raisons : la POO n'est pas le seul paradigme adaptable; une volonté de conserver un noyau compact; les diverses adaptations possibles des concepts objets.
+Pour cette dernière raison, Tcl avait déjà accès à plusieurs extensions objets.
+
+Plateformes
+Tcl est disponible pour la plupart des plateformes utilisées couramment. C'est-à-dire Windows CE-PocketPC-9x-NT-2000-XP-Vista-7, Mac OS 7-8-9-X ainsi que les plateformes dérivées d'UNIX telles que Linux, Android, BSD, AIX, HP-UX, IRIX, Solaris, OS-400, LynxOS et QNX.
+De par son ancienneté, Tcl existe dans des versions antérieures plus rares pour des systèmes d'exploitation comme VMS, OS-2, Ultrix, SCO OpenServer, OS-9, Unicos.
+
+Distributions
+L'installation de Tcl peut se faire en compilant les codes sources sur la plateforme cible. Cependant il existe des distributions binaires qui ont l'avantage de proposer en plus du langage des extensions précompilées. ActiveTcl : ActiveTcl est la distribution la plus complète de Tcl-Tk. Elle est proposée par la société Activestate et livrée avec de nombreuses extensions précompilées et des bibliothèques. Il existe des versions pour Windows, Mac OS X, Linux, Solaris, AIX et HP-UX. WinTclTk : WinTclTk est une distribution de Tcl-Tk uniquement pour Windows accompagnée d'extensions précompilées (dont certaines spécifiques à Windows), de bibliothèques et d'utilitaires. eTcl : eTcl est une distribution française qui se présente sous la forme d'un seul exécutable. Elle est destinée en particulier aux PDA et aux appareils mobiles (Windows CE-Pocket PC-Windows Mobile-Android). Cependant, elle fonctionne aussi sur les plateformes Windows, Mac OS X et Linux. eTcl est très compact et comprend, en plus de Tcl-Tk, des extensions telles que SQLite ou un compilateur C autonome à la volée. Wize : Wize (Wish Integrated Zip Executable) est une distribution se pilotant à partir d'un environnement de développement intégré et incorporant un système de fichier basé sur le format ZIP. Il dispose de SQLite, d'un compilateur de bytecode, de la gestion du son, des graphismes 3D et des fenêtres non-rectangulaires. Il existe des versions pour Windows et Linux.
+La plupart des distributions Linux proposent par défaut une installation de base de Tcl-Tk, voire parfois les extensions qui vont avec. Pour se rendre compte de la présence de Tcl sous Linux, il suffit de saisir sur la ligne de commande: tclsh. Excepté dans le cas d'implémentations spécifiques Tcl est toujours distribué avec Tk, formant ainsi le langage Tcl-Tk.
+
+Implémentations spécifiques: Jacl : Jacl est une implémentation de Tcl écrite entièrement en Java qui permet d'embarquer un langage de script dans une application Java. Jim : Jim est une implémentation de Tcl qui inclut un sous-ensemble des commandes de la version officielle de Tcl plus des fonctionnalités spécifiques comme le dictionnaire, la clôture, les fonctions anonymes (lambda). Cet interprète tient dans seulement 85Ko. Tcljs : Tcljs est une implémentation de Tcl écrite entièrement en JavaScript qui permet d'embarquer Tcl dans un navigateur compatible. Hecl : Hecl est un langage de script dont la syntaxe dérive de Tcl. Il est destiné aux téléphones mobiles qui supportent une plateforme Java compatible J2ME. NaTcl : NaTcl est une implémentation de Tcl permettant d'exécuter des scripts Tcl dans le navigateur Google Chrome ou dans des programmes compatibles avec la technologie Native Client (NaCl). Il permet de développer des applications Web avec Tcl et aussi d'accéder et de manipuler le contenu DOM de Chrome.
+Bibliothèque standard
+Tcl dispose d'une bibliothèque standard appelée Tcllib (le pendant pour Tk étant la Tklib) exclusivement écrite en Tcl. Elle contient 37 modules utilitaires couvrant une large gamme de domaines : protocoles de communication, chiffrement, gestion de fichiers, structures de données, calcul numérique et mathématique, grammaire, terminaux, documentation automatique et utilitaires de texte.
+Exemples :
+ Opérateur somme
+namespace import ::tcl::mathop::-
+puts (+ 1 2 3 4 5 6 7 8 9 10)
+
+ Maximum
+namespace import ::tcl::mathfunc::max
+max 4 2 3 7 5 6 -42
+
+ Cryptage RC4
+namespace import ::tcl::rc4::-
+set crypt (rc4 -key Secret "Hello, World!")
+Internet et réseaux
+
+Tcl Plugin et les tclets
+Le Tcl Plugin est un plugin qui permet d'exécuter des tclets (applets écrits en Tcl-Tk) dans un navigateur Web. Ce dernier interprète une application Tcl-Tk dans un environnement sécurisé appelé Safe-Tcl qui garantit l'intégrité de l'application hôte (le navigateur dans ce cas).
+
+Serveurs web
+Comme la plupart des langages de script Tcl a vocation à être exécuté à partir d'un serveur HTTP.
+
+Tclhttpd
+Tclhttpd est serveur web léger écrit uniquement en Tcl. Il a l'avantage d'être extensible à souhait et multiplateforme. Il peut servir de base à l'écriture d'un serveur d'application ou être embarqué pour gérer par exemple un système d'aide en ligne ou un moteur de recherche sur CD-ROM.
+
+Apache, mod-tcl, Rivet et Websh
+À partir du serveur HTTP Apache plusieurs options sont disponibles. Il y a tout d'abord le module mod-tcl qui se contente d'embarquer un interprète Tcl. Et ensuite les modules Rivet et Websh qui sont plus élaborés avec la prise en charge de la gestion des bases de données et des systèmes de templates.
+
+AOLserver
+AOLserver est un serveur web open source développé par la société AOL qui embarque un interprète Tcl. Il est multithread, extensible, utilisable à grande échelle et gère les pages web statiques et dynamiques. Il intègre un support complet des bases de données.
+
+Système de gestion de contenu
+Le système de gestion de contenu le plus connu basé sur Tcl est OpenACS (Open Architecture Community System). Il s'appuie sur le serveur web AOLserver et supporte les bases de données Oracle et PostgreSQL. OpenACS est utilisé pour concevoir de sites web collaboratifs, des sites de commerce en ligne, des PGI ou des systèmes d'apprentissage en ligne (e-learning) comme.LRN ou dotFolio.
+
+Expect
+Expect est un outil basé sur Tcl-Tk pour automatiser les applications interactives telles que telnet, ftp fsck, rlogin, rsh ou ssh, ou pour automatiser des tests. Il est utilisé par exemple pour l'administration système.
+
+Organisation et aspects communautaires
+
+Développement de Tcl-Tk
+Le développement de Tcl-Tk est assuré par de nombreuses personnes qui apportent leurs contributions sous la forme de nouvelles fonctionnalités, de patches, de rapports de bogues ou de documentations. Pour fédérer cet effort de développement, a été créé en 2000 le TCT (Tcl Core Team).
+Le TCT est constitué d'un collège de 12 experts, dont John Ousterhout ne fait plus partie. Son activité est coordonnée par l'intermédiaire de TIPs (Tcl improvement proposals). Le TIP est un document qui décrit un projet d'amélioration de Tcl. N'importe qui peut écrire un TIP et le soumettre au TCT pour discussion et approbation lors d'un vote.
+Un site rassemble tous les TIPs et renseigne sur leur état d'avancement.
+Pour ce qui est de la partie opérationnelle le développement collaboratif de Tcl-Tk est hébergé sur un site spécifique avec le logiciel de gestion de versions décentralisé Fossil.
+Par rapport à d'autres langages de script, le rythme de publication des versions importantes de Tcl-Tk n'est pas annuel. La priorité est avant tout axée sur la stabilité. Il y a d'ailleurs une rétrocompatibilité pour toutes les versions de la branche 8.x.
+
+Ressources communautaires
+L'activité d'échange et de communication entre utilisateurs se concentre essentiellement sur le wiki et le groupe de discussion. Les wikis les plus actifs sont le wiki anglophone et francophone. Il en est de même pour les groupes de discussion sur Usenet avec comp.lang.tcl et fr.comp.lang.tcl. Un chat permanent est organisé en anglais.
+À cela vient s'ajouter le site officiel de Tcl-Tk et les portails allemand, russe, chinois, coréen) et japonais.
+Une conférence annuelle a lieu aux États-Unis où sont présentés des cas d'utilisation de Tcl-Tk dans l'industrie par différents intervenants. C'est par ailleurs l'occasion de faire le point sur la feuille de route du langage. Dans la même année une conférence européenne (EuroTcl) se tient en Allemagne ou en France selon le même principe.
+Des groupes d'utilisateurs existent aux États-Unis, Canada, Allemagne, Pays-Bas, Danemark, Angleterre et Corée.
+
+Histoire de Tcl-Tk
+L'idée du langage Tcl est venue à John K. Ousterhout de ses travaux sur les outils logiciels d'aide à la conception de circuits intégrés à l'Université de Berkeley en Californie au début des années 1980. John Ousterhout et ses étudiants avaient développé quelques outils interactifs. Ils étaient tous dotés d'un langage de commande différent ce qui finissait par rendre compliqué l'enchaînement des tâches.
+En 1987, bénéficiant d'un congé sabbatique au Laboratoire de Recherche de Digital Equipment Corp., John Ousterhout se décida à harmoniser les différents langages de commande en créant un langage unique pour contrôler les applications. C'est ainsi que naquit Tcl (Tool Command Language) avec une syntaxe influencée par les langages C, Lisp, Shell et Awk. Les premiers tests furent effectués sur une station DEC 3100 et une station SUN-3-75. Tcl représentait alors 7000 lignes de code en C dont la moitié était des commentaires. Il ne fonctionnait que sur les systèmes UNIX.
+Les objectifs primordiaux de ce langage interprété étaient les suivants : Facile à apprendre et générique; Extensible; Pouvant être embarqué ou faire le lien avec des applications.
+Tcl commença à être distribué lors d'une conférence industrielle à l'Université de Berkeley en 1989. En mars 1990, John Ousterhout présenta un article sur Tcl à la Conférence USENIX. À la suite de nombreuses demandes, il mit à disposition librement les sources de Tcl2.1 sur le serveur FTP de l'université. Ceux-ci ne tardèrent pas à être copiés sur les autres serveurs FTP de par le monde. Parmi les personnes qui assistaient à cette conférence était présent un certain Don Libes du NIST (National Institute of Standards and Technology). Celui-ci étudiait une application pour automatiser des tâches sous UNIX et son travail n'avançait pas assez vite. Il comprit tout de suite que Tcl était une solution. À partir de Tcl, en trois semaines, il écrivit Expect, un outil pour automatiser les applications interactives. Expect fut la première application écrite en Tcl à être largement distribuée, bénéficiant d'un grand crédit auprès des administrateurs systèmes.
+Parallèlement, John Ousterhout commença à travailler sur Tk en tant qu'extension pour concevoir des interfaces graphiques avec Tcl à la fin de 1988. En janvier 1991, il présenta Tcl-Tk à la Conférence USENIX et à la Conférence X. Dès lors, la popularité de Tcl-Tk en tant que langage de script ne cessa de croître. Principalement pour deux raisons : Sa capacité à être embarqué dans une application tout en créant ses propres commandes; La facilité avec laquelle on pouvait développer des interfaces graphiques (5 à 10 fois plus rapidement qu'avec Motif).
+Ce second point intéressait beaucoup les industriels.
+Une communauté se fédéra autour du langage et de nombreuses extensions commencèrent à voir le jour (dont TclX, Incr Tcl, BLT, Sybtcl, Oratcl, TclDP). La nécessité de communiquer davantage se fit sentir tant et si bien que John Ousterhout initia une liste de discussion. Mais le nombre d'utilisateurs croissant incita rapidement à la création du groupe de discussion comp.lang.tcl.
+En 1992 John Ousterhout cofonda, avec Larry Rowe un collègue de l'Université de Berkeley, la société Perspecta Software dans le but de commercialiser Perspecta Presents, un logiciel de présentation sous Unix basé sur Tcl-Tk. En 1993 Larry Rowe organisa la première conférence annuelle Tcl-Tk à Berkeley. Par la suite ces conférences coïncidaient avec la sortie des nouvelles versions du langage. Une session était dédiée à la discussion sur l'adjonction de nouvelles fonctionnalités et la décision se faisait non sans humour par un vote approximatif à main levée connu sous le nom d'Ouster-vote.
+En mai 1994, John Ousterhout quitta l'Université de Berkeley pour l'industrie à la suite d'une proposition de la société Sun Microsystems qui envisageait de faire de Tcl-Tk un langage de script universel pour Internet. Par cette réorientation professionnelle et la constitution d'une équipe (SunScript) au sein du Sun Microsystems Laboratories, John Ousterhout vit une opportunité d'assurer la pérennité du langage à long terme. Les clauses du contrat avec Sun Microsystems spécifiaient clairement que les codes sources de Tcl-Tk devaient rester librement accessibles. D'autres ne virent pas les choses de la même manière. Ainsi, le 23 septembre 1994, Richard Stallman posta sur comp.lang.tcl un message intitulé Why you should not use Tcl où il expliquait que Tcl n'était pas un vrai langage de programmation. De cette discussion enflammée naissait 1 mois plus tard le langage Guile qui se voulait être une alternative à Tcl. Avec le recul, personne n'a encore bien compris quelles étaient les réelles motivations de Richard Stallman pour une telle attaque. Cet épisode est connu sous le nom de Tcl War.
+Pendant ce temps-là, au laboratoire de Sun Microsystems, Scott Stanton, Ray Johnson et Jacob Levy améliorèrent le système de gestion des entrées-sorties de Tcl-Tk, ajoutèrent le support des sockets, mais surtout, écrivirent une version pour Windows et Macinstosh. Ce qui fit de Tcl-Tk un langage de script généraliste et multiplateforme en avril 1996 avec Tcl7.5-Tk4.1. S'ensuivirent d'autres améliorations dont : un compilateur de bytecode (qui augmenta la vitesse d'un facteur 10), le support des espaces de nom (namespace) et un plugin Tcl qui permettait d'exécuter des tclets (applets écrits en Tcl) dans un navigateur Web. Toutes ces innovations correspondaient à la version de Tcl-Tk 8.0 sortie en août 1997 où la décision fut prise d'aligner les numéros de version de Tk sur ceux de Tcl.
+Octobre 1997 vit la création du Tcl Consortium dont l'objectif était de promouvoir Tcl-Tk et d'accroître encore plus sa visibilité sur la marché de l'informatique. Ce consortium était financé par Sun Microsystems et avait à sa tête Peter H. Salus (ancien directeur exécutif de l'Association USENIX et du Sun User Group, mais aussi vice-président de la Free Software Fondation). Hormis John Ousterhout, le comité consultatif comptait parmi ses membres Brian W. Kernighan (cocréateur de Awk).
+Durant ces années, Tcl-Tk fut fortement impliquée dans la technologie des agents mobiles.
+À la fin de l'année 1997, John Ousterhout quitta Sun Microsystems pour cofonder la société Scriptics après que son employeur eut décidé d'annuler les projets de commercialisation d'outils de développement spécifiques au langage. Scriptics prit le relais en offrant des services autour de Tcl-Tk et en commercialisant notamment la suite d'outils TclPro. Le développement et la maintenance de Tcl-Tk furent alors transférés chez Scriptics avec une partie de l'équipe Tcl-Tk de Sun Microsystems. Les langages de script étaient alors en plein essor.
+Au printemps 1998, Tcl-Tk reçut deux prix. Tout d'abord le prix de l'ACM Software System qui récompense les logiciels qui ont eu une influence durable et ensuite le prix STUG (USENIX Software Tools User Group).
+En août 1998, lors d'une conférence sur l'open source et les modèles économiques à San José en Californie, Richard Stallman monta à la tribune et prit le micro pour déclarer que John Ousterhout était un "parasite" du mouvement des logiciels libres.
+En avril 1999 sortit la version Tcl-Tk 8.1. Elle intégrait un nouveau moteur d'expressions rationnelles (celui d'Henry Spencer) et le support d'Unicode. Sortie trop précipitamment, cette version s'avérait instable. Tant et si bien que la version 8.2 sortit 3 mois après pour corriger les imperfections.
+En mai 2000, la société Scriptics prit le nom d'Ajuba Solutions s'orientant plus vers des solutions de serveurs basés sur Tcl et la technologie XML, en plein développement à cette période.
+En octobre 2000, elle fut rachetée par la société Interwoven. Peu intéressée par les logiciels libres, celle-ci autorisa le passage en opensource de la suite TclPro (dont la licence monoposte valait 1000 dollars). Le cas de la maintenance et du développement de Tcl-Tk avait déjà été anticipé avec la création en août 2000 du TCT (Tcl Core Team) un groupe constitué d'un collège d'experts indépendants de toute structure commerciale. C'est à cette époque que John Ousterhout (également membre du TCT) décida de ne plus assurer son rôle de dictateur bénévole et se tourna vers la gestion et la planification de projets informatiques.
+En février 2000 sortit la version de Tcl-Tk 8.3 qui avait déjà été élaborée chez Scriptics. La réelle efficacité du TCT ne put s'exprimer qu'avec la sortie de Tcl-Tk 8.4 en septembre 2002 avec entre autres un travail de fond sur les mécanismes internes du langage et l'adjonction d'un système de fichier virtuel. Après quatre années de développement, sort en décembre 2007 Tcl-Tk 8.5. Cette version apporte de nombreux changements pour Tcl-Tk en allant vers la programmation fonctionnelle.
+En janvier 2008 Tcl fait partie des onze projets open source certifiés les plus sûrs selon la société Coverity mandatée par le ministère de l'intérieur américain (DHS - Department of Homeland Security) pour mener une étude sur la sécurité des applications. En mars 2008 démarre le développement de la branche 8.6 avec deux axes principaux : l'inclusion de la programmation orientée objets dans le noyau et rendre Tcl stackless (ie minimiser l'utilisation de la pile du langage C). Le 20 décembre 2012 sort la version 8.6 de Tcl-Tk. En plus d'être dotée d'un système objet, elle supporte la récursion terminale, les coroutines, la continuation et la programmation concurrente.
+
+Historique des versions significatives
+
+Commandes de base: after; append; apply; array; auto-execok; auto-import; auto-load; auto-mkindex; auto-mkindex-oldfilename; auto-qualify; auto-reset; bgerror; binary; break; catch; cd; chan; clock; close; concat; continue; coroutine; dde -; dict; encoding; eof; error; eval; exec; exit; expr; fblocked; fconfigure; fcopy; file; fileevent; finally; flush; for; foreach; format; gets; glob; global; history; http; if; incr; info; interp; join; lappend; lassign; lindex; linsert; list; llength; lmap; load; lrange; lrepeat; lreplace; lreverse; lsearch; lset; lsort; mathfunc; mathop; memory; msgcat; namespace; open; package; parray; pid; pkg::create; pkg-mkIndex; platform; platform::shell; proc; puts; pwd; re-syntax; read; refchan; regexp; registry -; regsub; rename; return; scan; seek; set; socket; source; split; string; subst; switch; tailcall; tcl-endOfWord; tcl-findLibrary; tcl-startOfNextWord; tcl-startOfPreviousWord; tcl-wordBreakAfter; tcl-wordBreakBefore; tcltest; tclvars; tell; throw; time; tm; trace; trap; try; unknown; unload; unset; update; uplevel; upvar; variable; vwait; while; yield; yieldto; zlib.
+(-): spécifique à la plateforme Windows
+
+Extensions et bibliothèques les plus utilisées
+Graphisme : VTK : bibliothèque de visualisation de données; Tcl3d : support d'OpenGL avec Tcl; VRS : bibliothèque 3D interactive; TkPath : extension SVG; PDF4Tcl : extension PDF; QuicktimeTcl : extension QuickTime.
+Son : Snack : boîte à outil de traitement sonore; CSound : instruments virtuels et traitement sonore.
+Internet et réseaux : TclSOAP : protocol SOAP et XML-RPC; Scotty : protocol SNMP; MIB Smithy SDK : protocol SNMP; Tclcurl : extension cURL.
+Système de gestion de base de données : OraTcl : Oracle; SQLite : SQLite; Mk4Tcl : Metakit; PgTcl : PostgreSQL; PgTclng : PostgreSQL; MySQLTcl : MySQL; SnODBC : interface ODBC.
+Spécifique à Windows : Tcom : API COM; TWAPI :API Win32; CAWT : API COM; LPTTCL : port parallèle.
+Autres : TclXML : XML, DOM et XSLT; Critcl : compilation de code C à la volée).
+
+Produits qui utilisent Tcl-Tk: AC3D (en); aMSN; BRL-CAD; Calibre DESIGNrev; Code Aster; ENOVIA; GiD; Gridgen; Kadviser; Maxima; Mentor Graphics; NS2; Open CASCADE; R; RattleCAD; RenderMan; Scilab; TiVo; VTK; Cisco IOS; eTktab; Quartus (Altera).

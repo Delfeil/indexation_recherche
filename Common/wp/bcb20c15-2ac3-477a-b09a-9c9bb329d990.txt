@@ -1,0 +1,24 @@
+En informatique, le concept d'historique des événements ou de logging désigne l'enregistrement séquentiel dans un fichier ou une base de données de tous les événements affectant un processus particulier (application, activité d'un réseau informatique...). Le journal (en anglais log file ou plus simplement log), désigne alors le fichier contenant ces enregistrements. Généralement datés et classés par ordre chronologique, ces derniers permettent d'analyser pas à pas l'activité interne du processus et ses interactions avec son environnement.
+Un fichier texte peut être la structure sous-jacente d'un fichier journal.
+
+Étymologie
+En anglais, le terme log désigne le journal de bord dans lequel le commandant d'un navire consigne les événements survenant lors de la traversée. Il tire son origine du loch (log en anglais), un morceau de bois accroché à la corde que l'on jetait par-dessus bord et dont les noeuds servaient à mesurer la vitesse du navire. Une autre version dit qu'à l'entrée d'une caserne il y avait une guérite, une log cabin (cabane en rondins de bois) dans laquelle il y avait un registre dans lequel on consignait les entrées-sorties des soldats de la caserne et que l'on appelait le log cabin book et par extension le log book. Ainsi on entrait (to log in) et on sortait (to log out).
+
+Fonctionnalités offertes
+L'enregistrement d'un historique permet de mettre en oeuvre des fonctionnalités telles que les "derniers fichiers ouverts", les "dernières commandes tapées" ou les "dernières pages web consultées".
+
+Applications
+La journalisation est une technique importante de sécurité informatique. Dans ce cadre, les événements enregistrés seront les accès au système, les modifications de fichiers, etc. On consacre typiquement une ligne par événement, en commençant par le moment exact (date, heure, minute, seconde) où il a eu lieu.
+La journalisation permet d'effectuer des analyses diverses, généralement statistiques ; de faire des hypothèses sur les dysfonctionnements ou les pertes de performance d'un système.
+L'accès aux journaux peut contrevenir à certaines exigences de confidentialité, voire de sécurité.
+La journalisation permet aussi d'enregistrer les événements dans deux places différentes.
+Les enregistrements d'événements peuvent également avoir une importance légale. Par exemple un fournisseur d'accès à Internet est tenu de fournir un historique des connexions de ses clients (Loi du 15 novembre 2001 "LSQ", Loi du 21 juin 2004 "LCEN").
+
+Journalisation applicative
+La journalisation applicative désigne l'enregistrement chronologique des opérations de la logique métier pendant le fonctionnement de l'application. Un journal applicatif est lui-même une exigence du métier. Il est donc défini comme une fonctionnalité faisant partie de la logique applicative. Par conséquent, il ne devrait pas être arrêté pendant le fonctionnement de l'application.
+
+Journalisation système
+La journalisation système désigne l'enregistrement chronologique des événements survenant au niveau des composants du système. Le niveau de cette journalisation peut être paramétré, afin de filtrer les différents événements selon leur catégorie de gravité. Les catégories généralement utilisées sont, par ordre croissant de gravité : information, débogage, avertissement, erreur.
+Pour exemple, les systèmes Unix mettent en oeuvre cette journalisation système à l'aide du protocole Syslog.
+
+Voir aussi: Fichier; Changelog; Sécurité informatique; blog; Trace (informatique); Traces numériques. Portail de la sécurité de l'information; Portail de la sécurité informatique.

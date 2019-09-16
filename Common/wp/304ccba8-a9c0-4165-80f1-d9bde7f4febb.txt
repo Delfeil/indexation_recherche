@@ -1,0 +1,34 @@
+Le stockage d'information est aujourd'hui assuré par un support d'information électronique qui, vu de l'utilisateur peut être physique (disque dur, clé USB, etc. ou virtuel (Internet dénommé le nuage; cloud en anglais) mais qui en l'état de la technologie est enregistré sur un support physique (disque dur, CD-DVD, bande magnétique, etc.). Ainsi, le terme de "dématérialisation" employé pour désigner le passage d'un support d'information papier à un support électronique est peu approprié, puisque ce dernier est lui aussi matériel.
+Le choix de la méthode de stockage se fait selon plusieurs critères : la fréquence d'utilisation ;; les besoins capacitaires de l'information (taille) ;; la criticité de l'information (coût, sécurité) ;; La capacité de stockage et la vitesse d'accès à l'information.
+L'évolution des techniques de stockage est rapide, et tend vers plus de capacité, plus de vitesse, plus de fiabilité, tout en étant moins cher à capacité équivalente. Les types de média sont variés et changent souvent.
+Différents médias de stockage d'information: cartes mémoire, disquette, CD-Rom.
+
+Classification des technologies de stockage
+Positionnement des différents types de stockage
+Stockage de masse
+L'objectif est de stocker une grande quantité d'information à long terme. On peut distinguer plusieurs générations : Première génération : Les supports physiques, avec la carte et le ruban perforé. Ces supports sont obsolètes depuis la fin des années 1990. Deuxième génération : Les supports magnétiques, comme la bande magnétique, sa petite soeur la cassette, le disque dur, la disquette. Les bandes magnétiques ne sont plus utilisées que pour la sauvegarde ou l'archivage des données (ex. LTO). Elles restent néanmoins un support privilégié de sauvegarde et d'archivage des données en raison de leur très grande capacité, de leur faible cout et de leur facilité de transport. Ainsi, en 2008, les bandes ou cartouches accueillent couramment plus de 200 gigaoctets et plusieurs téraoctets en 2016. Avec l'arrivé des clés USB, entre autres, les disquettes voient leur production s'arrêter en 2010 après presque un demi-siècle d'exploitation. Troisième génération : Les supports optiques, tels que le disque compact (CD, CD-R ou CD-RW), le DVD (DVD-Rom ou DVD-RW) ou le Blu-ray. Certains parlent de la mémoire du réseau Internet, car une information publiée sur Internet y reste sans qu'il soit aisé de la contrôler (la modifier, la supprimer, restreindre ou publier son accès) ; Quatrième génération : clé USB, carte SD et Carte microSD.
+Mis à part le disque dur et la bande magnétique, les supports de première et deuxième génération ne sont pratiquement plus utilisés aujourd'hui. Cinquième génération :
+Le stockage en ligne s'est développé depuis de nombreuses années. Désormais, une multitude de solutions existent afin de libérer son espace sur son disque dur à des prix très compétitifs mais à condition de disposer d'une connexion à internet rapide et fiable. Il existe une multitude de solutions dont les différentes variantes peuvent parfois porter à confusion. On retrouve notamment le stockage sur le "Cloud", la sauvegarde en ligne, le Cold Storage ou encore le stockage dans ce qu'on appelle le Vault (coffre-fort). Contrairement aux disques durs externes, les serveurs sur lesquels sont stockées les données sont supposés être accessibles de n'importe où, sécurisés et garantis, néanmoins très peu de fournisseurs s'engagent sur ces qualités.
+
+Stockage à accès rapide, mémoire de travail
+Parallèlement, des mémoires plus chères mais très rapides ont été implantées sur des puces pour faciliter le traitement des informations en interne dans les ordinateurs : la mémoire vive (ou mémoire RAM de l'anglais Random Access Memory), qui est perdue dès que l'ordinateur cesse d'être alimenté en électricité ;; la mémoire morte (ou mémoire ROM de l'anglais Read-Only Memory), qui est gravée et ne s'efface jamais (ex: NVRAM) ;; l'EPROM et l'EEPROM (mémoire morte réinscriptible), qui ont évolué en mémoire flash, donnant naissance aux récentes clés USB, concurrentes directes des anciennes disquettes.
+
+Problématiques du stockage
+Augmentation et répartition du volume de données
+Le stockage d'information n'a cessé d'évoluer au cours du temps et de l'histoire des innovations technologiques, de l'invention de l'imprimerie, des microfiches, puis des mémoires électroniques et des supports de plus en plus miniaturisés: on constate un accroissement toujours plus important de la densité d'information, en nombre croissant sur des supports de plus en plus réduits.
+L'utilisation des nanotechnologies, laisse entrevoir des perspectives importantes concernant la capacité de stockage informatique dans les années à venir, par exemple, en utilisant les "0" sur des carbones 12 et les "1" sur des isotopes 13. Il est estimé qu'environ 2 téraoctets suffiraient à mémoriser tous les textes, images et sons utilisés en moyenne annuellement par un être humain.
+Le cabinet IDC estime ladite masse à 1,8 zettaoctet (10 octets) en 2011.
+
+Fiabilité des supports
+Du fait de leur constitution physique, tous les supports de stockage ont une durée de vie limitée, entraînant un risque de perte d'information. Pour s'en affranchir, il faut constamment les vérifier et recopier les données pour les sauvegarder sur des supports fiables. Une branche de la théorie de l'information permet de récupérer une altération partielle des données. Cette technique, dite des codes correcteurs, est notamment utilisée dans les installations RAID. La redondance de l'information reste ainsi le seul rempart face au manque de fiabilité des supports.
+
+Confidentialité des données
+Pour ce qui est de la confidentialité, la cryptographie propose des solutions de chiffrement, qui reposent sur différentes méthodes : la cryptographie à clef publique (algorithme RSA entre autres) ;; la cryptographie à clef secrète (algorithmes DES, AES entre autres).
+Les nouvelles technologies de stockage en mode cloud computing (informatique en nuage) posent également des problèmes de confidentialité en raison des architectures mutualisées utilisées. Certains domaines, comme le secteur bancaire, sont régis par des réglementations spécifiques pour pallier ce problème.
+
+Performance
+Suivant la nature des informations stockées et la nature du media utilisé, le temps d'accès et le débit peuvent être très différents.
+
+Voir aussi
+
+Articles connexes: Sécurité du système d'information; Sauvegarde; Archivage électronique; Gestion électronique des documents; Serveur de stockage en réseau; Stockage optique 3-D.

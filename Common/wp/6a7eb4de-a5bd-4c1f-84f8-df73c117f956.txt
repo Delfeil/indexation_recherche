@@ -1,0 +1,26 @@
+Internet protocol (protocole internet, abrégé en IP) est une famille de protocoles de communication de réseaux informatiques conçus pour être utilisés sur Internet. Les protocoles IP sont au niveau 3 dans le modèle OSI. Les protocoles IP s'intègrent dans la suite des protocoles Internet et permettent un service d'adressage unique pour l'ensemble des terminaux connectés.
+
+Fonctionnement
+Lors d'une communication entre deux postes, le flux de données provenant de la couche transport - niveau 4 du modèle OSI - (par exemple des segments TCP) est encapsulé dans des paquets par le protocole IP lors de leur passage au niveau de la couche réseau. Ces paquets sont ensuite transmis à la couche de liaison de données - niveau 2 du modèle OSI - afin d'y être encapsulés dans des trames (par exemple Ethernet).
+Lorsque deux terminaux communiquent entre eux via ce protocole, aucun chemin pour le transfert des données n'est établi à l'avance : il est dit que le protocole est "non orienté connexion". Par opposition, pour un système comme le réseau téléphonique commuté, le chemin par lequel va passer la voix (ou les données) est établi au démarrage de la connexion : le protocole est "orienté connexion".
+
+Services délivrés
+Les protocoles IP assurent l'acheminement au mieux (best-effort delivery) des paquets. Ils ne se préoccupent pas du contenu des paquets, mais fournissent une méthode pour les mener à destination.
+
+Fiabilité
+Les protocoles IP sont considérés comme "non fiables". Cela ne signifie pas qu'ils n'envoient pas correctement les données sur le réseau, mais qu'ils n'offrent aucune garantie pour les paquets envoyés concernant les points suivants : corruption de données.; ordre d'arrivée des paquets (un paquet A peut être envoyé avant un paquet B, mais le paquet B peut arriver avant le paquet A); perte ou destruction de paquets; duplication des paquets.
+En termes de fiabilité, le seul service offert par un protocole IP est de s'assurer que les en-têtes de paquets transmis ne comportent pas d'erreurs grâce à l'utilisation de somme de contrôle (checksum). Si l'en-tête d'un paquet comprend une erreur, sa somme de contrôle ne sera pas valide et le paquet sera détruit sans être transmis. En cas de destruction d'un paquet, aucune notification n'est envoyée à l'expéditeur (encore qu'un paquet ICMP puisse être envoyé).
+Les garanties non offertes par un protocole IP sont déléguées aux protocoles de niveau supérieur. La raison principale de cette absence de gestion de la fiabilité est la volonté de réduire le niveau de complexité des routeurs et ainsi de leur permettre de disposer d'une plus grande rapidité. L'intelligence est alors déportée vers les points d'extrémité du réseau.
+
+Historique des versions
+IPv4 est le protocole le plus couramment utilisé en 2012, sur Internet tout comme sur les réseaux privés. IPv6 est son successeur.
+IPv4 utilise des adresses codées sur 32 bits (soit en théorie 4 294 967 296 adresses possibles) tandis qu'IPv6 les code sur 128 bits (soit en théorie 3,4 10 adresses possibles).
+Le premier champ d'un paquet d'un protocole IP est composé de 4 bits qui indiquent la version du protocole utilisé. La valeur 0100 (4 en binaire) est utilisée pour IPv4, 0110 (6 en binaire) pour IPv6. La valeur 0101 (5 en binaire) est utilisée pour le protocole Internet Stream Protocol, la valeur 0111 (7 en binaire) pour TP-IX (RFC 1475), 1000 (8 en binaire) pour PIP (RFC 1621) et 1001 (9 en binaire) pour TUBA ("TCP and UDP with Bigger Addresses", RFC 1347).
+
+Épuisement des adresses IPv4
+Distribution de l'espace d'adressage IPv4. Le 3 février 2011, il ne reste plus aucun bloc d'adresses libre. Réservé (13,7%); Historique (35,9%); RIPE NCC (13,7%); AfriNIC (1,6%); ARIN (14,1%); APNIC (17,6%); LACNIC (3,5%).
+La transition vers le protocole IPv6 permet de contourner une pénurie d'adresses publiques, ce qui aurait pu freiner la croissance du nombre de terminaux reliés à Internet. En attendant, les opérateurs envisagent le recours à des traducteurs d'adresses réseaux à grande échelle pour prolonger le fonctionnement d'IPv4.
+
+Voir aussi
+
+Articles connexes: Adresse IP; Adresse IPv6; Journée mondiale IPv6; IPv4; IPv6; Internet; TCP-IP; SCTP; Maximum Transmission Unit (MTU); Transmission Control Protocol (TCP); RIPE.

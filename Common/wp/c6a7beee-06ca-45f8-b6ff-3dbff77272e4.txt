@@ -1,0 +1,49 @@
+En topologie, l'adhérence d'une partie d'un espace topologique est le plus petit ensemble fermé contenant cette partie. Lorsque l'espace est métrisable, c'est aussi l'ensemble des limites de suites convergentes à valeurs dans cette partie.
+
+Définitions
+Dans un espace topologique E, l'adhérence d'une partie X est le "plus petit" (au sens de l'inclusion) fermé contenant X.
+L'existence d'un tel fermé est claire : il existe au moins un fermé contenant X, à savoir l'espace E lui-même ; d'autre part, l'intersection de tous les fermés contenant X est un fermé contenant X, et est le plus petit ayant cette propriété.
+L'adhérence de X est aussi appelée fermeture de X et se note souvent X.
+Un point x de E est dit adhérent à X lorsque tout voisinage de x rencontre X, autrement dit : tout ouvert contenant x rencontre X.
+
+Exemples
+Une partie est fermée si et seulement si elle est égale à son adhérence. Ainsi, pour la topologie discrète sur E, l'adhérence d'une partie X est égale à X.
+L'adhérence d'une partie dense (cf. ci-dessous) est par définition l'espace tout entier. Ainsi, pour la topologie grossière sur E, l'adhérence de toute partie non vide est égale à E.
+L'adhérence d'un intervalle de ℝ est l'intervalle fermé de mêmes bornes : l'adhérence de)-, a(est l'intervalle)-, a).
+
+Propriétés
+L'adhérence est un opérateur de clôture :X X , X - X e t (X Y X Y). (-displaystyle X-subset (-overline (X)),-quad (-overline (-overline (X)))-(-overline (X))-quad (-rm (et))-quad -left(X-subset Y-Rightarrow (-overline (X))-subset (-overline (Y))-right).)
+Dans un espace métrique, l'adhérence d'une partie est l'ensemble des points à distance nulle de cette partie.
+Dans un espace métrique, l'adhérence de toute boule ouverte est incluse dans la boule fermée de même centre et de même rayon. Dans un espace vectoriel normé muni de la distance x - y, on a égalité. Mais dans un espace métrique quelconque, l'inclusion peut être stricte. Par exemple pour la topologie discrète sur un ensemble E, toute partie est égale à son adhérence. Or cette topologie est induite par la distance discrète (définie par : d(x, y) - 1 si x y, et d(x, x) - 0), pour laquelle les boules ouvertes de rayon 1 sont les singletons, tandis que toute boule fermée de rayon 1 est égale à E.
+
+Sous-espaces et espaces produits
+Si Y est un sous-espace de E (muni de la topologie induite) et X une partie de Y, l'adhérence de X dans ce sous-espace est égale à XY.
+Dans un espace produit iI Xi, l'adhérence d'un produit iI Ai de parties Ai Xi est égale au produit iI Ai des adhérences de ces parties.
+
+Intersections et réunions: L'adhérence d'une intersection est incluse dans l'intersection des adhérences mais l'inclusion peut être stricte. Par exemple dans ℝ, l'adhérence de)-, 00, +(est , tandis que l'intersection des adhérences est)-, 0)(0, +(- (0).; Une union d'adhérences est incluse dans l'adhérence de l'union mais l'inclusion peut être stricte. Par exemple dans ℝ, l'union de la suite de singletons (1-(n+1)) (fermés donc égaux à leurs adhérences) ne contient pas le point 0, qui est point adhérent. Pour une union finie, on a cependant égalité.
+
+Caractérisations
+
+Ensemble des points adhérents
+L'adhérence de X est égale à l'ensemble des points qui lui sont adhérents.
+En effet, un point de E est non adhérent à X si et seulement s'il appartient à un ouvert disjoint de X i.e. inclus dans le complémentaire E-X de X, ou encore au plus grand d'entre eux : l'intérieur de E-X, c'est-à-dire à E-X.
+Intuitivement, l'adhérence d'une partie X contient tous les points de l'espace qui sont dans X ou qui sont trop près de X pour que l'on puisse y "bricoler" localement sans toucher à X.
+
+Espaces métriques et suites
+Dans un espace E quelconque, l'adhérence d'une partie X contient toujours la fermeture séquentielle de X, c'est-à-dire que toute limite d'une suite d'éléments de X appartient à l'adhérence de X.
+Un espace de Fréchet-Urysohn est un espace dans lequel, réciproquement, tout point adhérent à une partie X est limite d'une suite à valeurs dans X. Les espaces métrisables (i.e. dont la topologie est issue d'une distance), et plus généralement les espaces à bases dénombrables de voisinages, en sont des exemples.
+
+Densité
+On dit qu'une partie X d'un espace topologique E est dense lorsque son adhérence est l'espace E tout entier. Une telle partie se caractérise donc par le fait que tout ouvert non vide en contient un point.
+Intuitivement, les parties denses d'un espace sont donc des parties qui sont très grosses : on ne peut pas les éviter.
+Toute partie dense pour un ordre est dense pour la topologie de cet ordre. Ainsi (cf. "Exemples" de l'article Ordre dense), ℚ et ℝ-ℚ sont denses dans ℝ, et ℝ est dense dans la droite réelle achevée ℝ(-, +), ce qui justifie la notation ℝ pour cet espace.
+Un point x de E est dit dense si le singleton (x) est dense. On l'appelle parfois aussi point générique.
+
+Exemple de point générique
+Considérons l'ensemble ℕ des entiers naturels. On y définit une topologie (via des fermés) de la façon suivante : un ensemble fini d'entiers non nuls est fermé ;; l'espace entier est fermé.
+Dans cet espace, 0 est générique.
+N.B. en géométrie algébrique, ce genre de situation est très courant, car l'espace de base, le spectre d'anneau, vérifie souvent ce genre de propriétés ; en fait, cet exemple est homéomorphe à Spec(ℤ) par simple substitution des nombres premiers aux entiers non nuls.
+
+Référence
+
+Voir aussi: Frontière (topologie); Adhérence, intérieur et frontière d'un convexe; Axiomes de Kuratowski; Théorème "14" de Kuratowski (en). Portail des mathématiques.

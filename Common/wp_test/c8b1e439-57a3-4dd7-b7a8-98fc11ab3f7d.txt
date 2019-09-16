@@ -1,0 +1,5 @@
+La lexémisation d'un mot est la fonction qui associe un lexème à celui-ci.
+
+Voir aussi
+
+Liens internes: Lemme (linguistique); Lemmatisation; Lexème; Forme; Flexion (linguistique). Portail de la linguistique.

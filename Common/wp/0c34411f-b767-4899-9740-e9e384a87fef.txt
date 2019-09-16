@@ -1,0 +1,5 @@
+Un dictionnaire inverse est un dictionnaire, qui permet de rechercher un mot à partir de sa définition.
+Les dictionnaires sous forme informatique peuvent éventuellement fonctionner suivant ce mode. Par exemple le Trésor de la langue française informatisé permet de faire ce type de recherche, par exemple en faisant une recherche sur les mots qui contiennent "collectionneur" et "monnaies" dans leur définition on trouve numismate, mais ce fonctionnement n'étant pas la recherche sur "collectionneur" et "timbres" ne donne rien car la définition d'un philatéliste est "celui, celle qui collectionne les timbres-poste".
+Ce terme peut aussi désigner un dictionnaire dans lequel les mots sont classés par ordre alphabétique à partir de leur définition.
+
+Référence: Portail sciences de l'information et bibliothèques.

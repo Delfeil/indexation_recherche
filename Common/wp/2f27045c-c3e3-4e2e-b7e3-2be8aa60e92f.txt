@@ -1,0 +1,36 @@
+La directive 2003-98-CE du Parlement européen et du Conseil du 17 novembre 2003 sur la réutilisation des informations du secteur public (en anglais, Public Sector Information directive) vise à fixer un ensemble minimal de règles concernant la réutilisation et les moyens pratiques destinés à faciliter la réutilisation de documents existants détenus par des organismes des États membres de l'Union européenne.
+Cette directive a été transposée complètement en droit français par l'ordonnance 2005-650 du 6 juin 2005 et le décret no 2005-1755 du 30-12-2005 relative à la liberté d'accès aux documents administratifs et à la réutilisation des informations publiques, pris pour l'application de la loi no 1978-753 du 17-7-1978.
+Cette directive se traduit dans les systèmes d'information publics de l'Union européenne par une plus grande diffusion d'information et de données publiques.
+Au vu de l'intérêt européen pour l'Open Data, la directive a été modifiée en 2013 par la directive 2013-37-UE.
+
+Contenu
+
+Chapitre I : objet et champ d'application (articles 1 à 3)
+
+Chapitre II : demandes de réutilisation (article 4)
+
+Chapitre III : conditions de réutilisation (articles 5 à 9)
+
+Chapitre IV : non-discrimination et commerce équitable (articles 10 et 11)
+
+Chapitre V : dispositions finales (articles 12 à 15)
+
+Mise en oeuvre
+
+Normalisation des données
+La mise en oeuvre de la directive 2003-98-CE dans les États-membres demande de disposer de normes de données pour structurer les informations publiques. Ces données de structuration sont constituées par les métadonnées.
+Il faut donc employer des normes de métadonnées. Le gouvernement britannique a déjà procédé à la définition d'un e-Governement Metadata Standard (eGMS).
+
+Langue de mise à disposition
+La langue est un élément très important dans le cadre de la politique de multilinguisme de l'Union européenne.
+La directive précise :
+13e considérant
+Les possibilités de réutilisation peuvent être améliorées en réduisant la nécessité de numériser des documents sur papier ou de manipuler des fichiers électroniques pour les rendre mutuellement compatibles. Par conséquent, les organismes du secteur public devraient mettre leurs documents à la disposition du public dans tout format ou toute langue préexistants, si possible et s'il y a lieu sous forme électronique (...)
+Article 5, formats disponibles
+Les organismes du secteur public mettent leurs documents à la disposition du public dans tout format ou toute langue préexistants, si possible et s'il y a lieu sous forme électronique. Aucune obligation n'est faite aux organismes du secteur public de créer ou d'adapter des documents pour répondre à la demande ni de fournir des extraits de documents, lorsque cela entraîne des efforts disproportionnés dépassant le stade de la simple manipulation.
+Sur les dispositions législatives relatives à l'usage de la langue française, voir aussi : loi Toubon.
+La langue (métadonnée) est l'un des quinze éléments du standard Dublin Core.
+
+Compléments
+
+Articles connexes: Infrastructures de données spatiales : Directive INSPIRE; UNSDI.; Directive INSPIRE; UNSDI; Langue (métadonnée); Commission d'accès aux documents administratifs (CADA); Liberté d'accès aux documents administratifs; Droit à l'information; Information environnementale; Convention d'Aarhus; Directive 2003-4-CE concernant l'accès du public à l'information en matière d'environnement; Donnée publique; Données ouvertes.

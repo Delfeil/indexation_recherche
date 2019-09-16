@@ -1,0 +1,109 @@
+Le Portable Document Format, communément abrégé en PDF, est un langage de description de pages présenté par la société Adobe Systems en 1992 et qui est devenu une norme ISO en 2008.
+La spécificité du PDF est de préserver la mise en forme d'un document - polices de caractère, images, objets graphiques, etc. - telle qu'elle a été définie par son auteur, et cela quels que soient le logiciel, le système d'exploitation et l'ordinateur utilisés pour l'imprimer ou le visualiser.
+
+Description
+
+Généralités
+Le Portable Document Format qui se traduit de l'anglais en "format de document portable", généralement abrégé en PDF, est un format de fichier informatique créé par Adobe Systems.
+L'avantage du format PDF est qu'il préserve les polices de caractères, les images, les objets graphiques et la mise en forme de tout document source, quelles que soient l'application et la plate-forme utilisées pour le lire.
+Le format PDF peut aussi être interactif. Il est possible (grâce à des logiciels tels Adobe Acrobat Pro, LibreOffice ou Scribus) d'incorporer des champs de textes, des notes, des corrections, des menus déroulants, des choix, des calculs, etc. On parle alors de formulaire PDF.
+C'est pourquoi ce format est utilisé dans un ensemble large et varié de logiciels, de l'exportation dans les suites bureautiques grand public, aux manipulations par des programmes spécialisés de l'industrie artistique, en passant par la génération de factures électroniques ou documents officiels via Internet.
+Plus techniquement, les fichiers PDF peuvent être créés avec des options personnalisées, tant aux niveaux de la compression des images et des textes, de la qualité d'impression du fichier, que du verrouillage (interdiction d'impression, de modification...).
+Le PDF s'est imposé comme format d'échange (consultation d'écran, impression, etc.) et d'archivage de documents électroniques, il est devenu un "standard international".
+
+Historique
+Le format PDF est né de l'imagination de l'un des fondateurs d'Adobe, John Warnock, c'est à l'origine un projet destiné à répondre aux besoins de fonctionnement interne de sa société. Adobe étant déjà propriétaire et utilisateur du format PostScript, c'est naturellement ce format qui a servi de base au projet.
+Avant sa première présentation officielle, le nom utilisé pour définir le projet était IPS, pour Interchange PostScript, et le logiciel destiné à l'exploitation de ce format portait le nom de code Carousel. C'est pour cette raison que le type de fichier Macintosh attribué au format PDF est CARO.
+Annoncé lors de la conférence du Seybold à San-Jose (Californie) en 1991, le PDF 1.0 a été présenté au Comdex en 1992, où il a remporté le Best of Comdex Award. Depuis, le format a évolué à plusieurs reprises jusqu'à sa normalisation ISO en 2008.
+Cette première version gérait déjà les liens, les signets et l'incorporation des polices de caractère mais ne reconnaissait que l'espace colorimétrique RVB. Ce qui la rendait inutilisable par les professionnels du prépresse.
+Le prix de la première version d'Acrobat Exchange était élevé et la version Reader coûtait 50 US. À cause de cette politique tarifaire, Acrobat et le PDF ont d'abord connu une diffusion confidentielle. Qui plus est, il y avait des formats concurrents, comme Envoy (WordPerfect), Common Ground Digital Paper et même le format PostScript (.ps) d'Adobe.
+Ensuite, Adobe a révisé le tarif d'Acrobat Exchange (devenu depuis Acrobat Pro) à la baisse et diffusé Acrobat Reader gratuitement.
+Fonctions notables (innovantes à l'époque) : Postscript imaging model; Portabilité; Compression (ZIP pour les textes et les éléments vectoriels, ZIP ou JPEG pour les images matricielles); Indépendance par rapport aux polices de caractère (incorporées); Modifications incrémentielles; Extensibilité du code interne.
+Le format de fichier PDF a changé plusieurs fois, et continue d'évoluer, parallèlement à la sortie de nouvelles versions d'Adobe Acrobat. Il y a eu neuf versions de PDF et la version correspondante du logiciel : 1993, PDF 1.0 - Acrobat 1; 1994, PDF 1.1 - Acrobat 2; 1996, PDF 1.2 - Acrobat 3; 1999, PDF 1.3 - Acrobat 4; 2001, PDF 1.4 - Acrobat 5; 2003, PDF 1.5 - Acrobat 6; 2005, PDF 1.6 - Acrobat 7; 2006, PDF 1.7 - Acrobat 8; 2008, PDF 1.7, Adobe Extension Level 3, Acrobat 9; 2009, PDF 1.7, Adobe Extension Level 5, Acrobat 9.1.
+Le format ouvert "ISO 32000-1:2008 PDF" a été publié par l'Organisation internationale de normalisation (ISO) le 1er juillet 2008. PDF est à présent une norme ISO, intitulée "Gestion de documents - - Format de document portable - - Partie 1: PDF 1.7".
+Le 9 janvier 2017, le projet de norme ISO 32000-2 a atteint le stade d'approbation en étant publié par l'ISO en tant que texte final (FDIS en anglais), intitulé "Gestion de documents - - Format de document portable - - Partie 2 : PDF 2.0".
+
+Atouts et limites
+
+Reconstitution à l'identique
+Le format PDF préserve la mise en forme du document source parce qu'il intègre dans un seul et même fichier les polices, les images, et autres éléments utilisées pour la création du document.
+
+Portabilité
+Le PDF est consultable sur de très nombreux appareils communicants (ordinateurs, tablettes, smartphones...).
+Le lecteur diffusé gratuitement par Adobe, nommé Adobe Reader est disponible sur de très nombreuses plates-formes et systèmes d'exploitation : Android, iOS, Windows, Mac OS, Linux, Palm OS, Pocket PC, Symbian OS, Sun Solaris Sparc, IBM AIX, HP-UX, OS-2 - Warp...
+De nombreux autres lecteurs dont certains sont des logiciels libres, existent également (Xpdf, gv, FoxIT...).
+
+Interactivité
+Le format PDF peut aussi être interactif : il est en effet possible (grâce à des logiciels tels Adobe Acrobat Pro, Scribus ou OpenOffice.org) d'incorporer des champs de textes, des notes, des corrections, des menus déroulant, des choix, des calculs, etc. On parle alors de formulaire PDF, ou de PDF multimédia.
+
+Standard ouvert
+Le format PDF a toujours été un standard ouvert et, en 2008, il est devenu une norme sous l'appellation ISO 32000. Gérée par l'ISO (International Organization for Standardization), la norme ISO 32000 est développée dans le but de protéger l'intégrité et la longévité du format PDF, qui constitue un standard ouvert pour plus d'un milliard de fichiers PDF actuellement en circulation.
+
+Évolutivité
+Plus de 2000 fournisseurs à travers le monde proposent des solutions basées sur le format PDF : outils de création, modules externes et outils de conseil, de formation et de support.
+
+Fiabilité
+La technologie PDF est de plus en plus utilisée pour la collecte d'informations, comme en attestent les millions de documents PDF actuellement publiés sur le web et un nombre incalculable de fichiers PDF circulant dans les entreprises et administrations du monde entier.
+
+Intégrité des fichiers garantie
+Les fichiers PDF sont fidèles aux documents originaux et conservent les informations du fichier source - texte, dessins, contenu multimédia, vidéo, éléments 3D, cartes, images couleur, photos et même fonctions de traitement - quelle que soit l'application utilisée pour le créer et même lorsque plusieurs formats sont regroupés au sein d'un Porte-document PDF.
+
+Sécurité
+On peut apposer une signature numérique ou protéger par mot de passe des documents PDF avec de nombreux logiciels.
+
+Indexation
+Les fonctions de recherche de texte dans les documents et métadonnées facilitent l'indexation des documents PDF.
+
+Accessibilité
+Compatibles avec les technologies d'assistance, les documents PDF facilitent l'accès aux informations électroniques pour les personnes souffrant de handicaps.
+
+3D
+Il est possible depuis un logiciel de dessin CAO 3D d'insérer des fenêtres 3D dans les fichiers PDF. Différents outils existent pour ajouter de la 3D : Adobe Acrobat Pro supporte par défaut les formats U3D et PRC.
+Des sociétés comme Tetra4D proposent des outils d'import-export gérant de nombreux formats. La nouvelle tendance en 2016 consiste à créer des PDF riches et interactifs permettant d'exploiter de manière aussi complète que possible les informations contenues dans les fichiers 3D. Les PDF 3D sont surtout utilisés pour effectuer de la revue de projets et échanger des informations avec les différents intervenants. La lecture de ces fichiers 3D est possible nativement avec Acrobat Reader.
+
+Gestion des droits d'auteurs
+Avec l'acquisition en octobre 2000 de Glassbook Reader, une interface de mise en forme du livre basée sur le format PDF, Adobe peut offrir aux éditeurs un système de gestion numérique des droits (DRM), qui permet de limiter la lecture ou la modification du document. À l'image de l'industrie de la musique ou du cinéma, l'industrie du livre s'intéresse à une technologie qui lui permet de diffuser des oeuvres soumises au droit d'auteur en ayant la garantie que le fichier ne se diffuserait pas en dehors des ordinateurs "autorisés".
+Le premier livre massivement diffusé sur le Glassbook Reader est Riding the bullet de Stephen King, en avril 2000.
+Il existe également différents outils de DRM permettant la distribution de fichiers PDF tout en conservant une parfaite maîtrise des droits des utilisateurs des documents (copier-coller, modification, impression, etc.) : CodeAndSoft distribue la solution DRM Ownerguard ;; Locklizard ;; FileOpen : permet de contrôler l'accès aux documents PDF.
+Outre le débat qui entoure aujourd'hui les systèmes de gestion numérique des droits, certains s'interrogent sur l'ergonomie du procédé : lire un livre sur un écran d'ordinateur n'est pas la solution la plus agréable ni celle qui répond actuellement aux habitudes du lecteur, lequel désire pouvoir lire sans contrainte de batterie et en tournant ses pages plutôt qu'en déplaçant le curseur d'un ascenseur.
+De nouveaux procédés, comme le papier électronique ou les liseuses électroniques sortent actuellement des laboratoires et rentrent en production, donnant un nouveau souffle à ces débouchés du PDF.
+
+Format
+
+Versions
+La création du format PDF date de 1992. Depuis, le format a évolué à plusieurs reprises jusqu'à sa normalisation. La dernière version en date porte le numéro 1.7.
+
+Normalisation
+Le format PDF est normalisé par l'organisation internationale de normalisation sous la référence ISO 32000-1:2008. La norme a été publiée le 1er juillet 2008.
+La société Adobe Systems n'est donc plus maitre de l'évolution du format qu'elle a créé, dont les spécifications ont cependant toujours été publiques et gratuites.
+La publication de cette norme est maintenant à la charge de l'International Organization for Standardisation, qui la délivre contre 198 CHF :
+http:--www.iso.org-iso-home-store-catalogue-tc-catalogue-detail.htmcsnumber-51502
+Pour maintenir l'universalité du format, la société Adobe a cependant obtenu de l'ISO de pouvoir diffuser gratuitement sa propre version de cette publication : à condition qu'elle ne soit pas identique à l'original pour que son apparence ne puisse pas prêter à confusion quant à sa provenance.
+C'est donc une version différente dans la forme mais strictement identique sur le fond que la société Adobe délivre gratuitement au format PDF : http:--www.adobe.com-content-dam-Adobe-en-devnet-acrobat-pdfs-PDF32000-2008.pdf
+Prévue à l'origine pour début 2012 la version ISO 32000-2, alias PDF 2.0, sera finalement disponible courant 2017.
+Des sous-ensembles du format PDF ont également été normalisés par l'ISO, il s'agit des formats PDF-A-1 (PDF for Archive, référencé par la norme ISO 19005-1), PDF-X (PDF for eXchange), PDF-VT (PDF for Volume Transactional Output), PDF-E-1 (PDF for Engineering), PDF-UA (PDF for Universal Access) et d'autres sous-ensembles sont actuellement en proposition pour devenir des normes ISO
+
+Format ouvert
+PDF est un format ouvert, c'est-à-dire que ses spécifications sont connues et que son créateur Adobe Systems autorise des programmes tiers à réutiliser son format.
+Bien qu'Adobe détienne un certain nombre de brevets portant sur le format PDF, il accorde une licence gratuite à tous les développeurs pour mettre en oeuvre les fonctions de lecture et de création de PDF dans des logiciels tiers.
+
+Logiciels manipulant les PDF
+Listes non exhaustives.
+
+Affichage
+Quelques exemples de logiciels permettant d'afficher un fichier PDF.
+
+Création
+Ces logiciels créent des fichiers dans différents formats et peuvent exporter dans le format PDF. Liste non exhaustive. Adobe Acrobat; Apache OpenOffice; FineReader; Ghostscript; LibreOffice; Certaines versions de Microsoft Office; iWork; Scribus; ClibPDF; 3D Turbo; Adobe InDesign; MuseScore.
+
+Conversion vers le PDF
+Ces logiciels permettent de générer des fichiers PDF depuis certains types de formats : Gestionnaires d'impressions: les gestionnaires d'impression, notamment sur Mac OS-X et Linux, permettent d'"imprimer dans un fichier", au format Postscript ou PDF; Le gestionnaire d'impression PDFCreator permet d'imprimer dans un fichier au format PDF sous Windows.; les gestionnaires d'impression, notamment sur Mac OS-X et Linux, permettent d'"imprimer dans un fichier", au format Postscript ou PDF; Le gestionnaire d'impression PDFCreator permet d'imprimer dans un fichier au format PDF sous Windows.; Autres: certains navigateurs web possèdent souvent une fonction d'export dans un fichier en PDF (on peut retrouver les mêmes fonctions avec l'outil en ligne de commande html2pdf); pdflatex, luatex, laTeX permettent de convertir depuis LaTeX vers du PDF; Sphinx et docutils peuvent générer des fichiers PDF à partir de sources écrites en reStructuredText; OCamlDoc permet de générer une version PDF d'une documentation d'un projet OCaml.; certains navigateurs web possèdent souvent une fonction d'export dans un fichier en PDF (on peut retrouver les mêmes fonctions avec l'outil en ligne de commande html2pdf); pdflatex, luatex, laTeX permettent de convertir depuis LaTeX vers du PDF; Sphinx et docutils peuvent générer des fichiers PDF à partir de sources écrites en reStructuredText; OCamlDoc permet de générer une version PDF d'une documentation d'un projet OCaml.
+
+Édition: Adobe Acrobat; LibreOffice; Apache OpenOffice; Inkscape; PDFedit; Pdftk.
+
+Conversion: Apache OpenOffice; GIMP; LibreOffice; pdf-parser; pdf2ps en ligne de commande; pdf2djvu en ligne de commande.
+Sur Wikipédia en anglais : liste de logiciels pour différentes fonctions et pour plusieurs systèmes d'exploitation.
+
+Voir aussi
+
+Articles connexes: Adobe Systems; Formulaire PDF; Format normalisé PDF-A-1. Formats similaires: XML Paper Specification; Printer Postscript Description.

@@ -1,0 +1,121 @@
+Border Gateway Protocol (BGP) est un protocole d'échange de route utilisé notamment sur le réseau Internet. Son objectif est d'échanger des informations de routage et d'accessibilité de réseaux (appelés préfixes) entre Autonomous Systems (AS).
+Contrairement aux protocoles de routage interne, BGP n'utilise pas de métrique classique mais fonde les décisions de routage sur les chemins parcourus, les attributs des préfixes et un ensemble de règles de sélection définies par l'administrateur de l'AS. On le qualifie de protocole à vecteur de chemins (path vector protocol).
+BGP prend en charge le routage sans classe et utilise l'agrégation de routes afin de limiter la taille de la table de routage. Depuis 1994, la version 4 du protocole est utilisée sur Internet, les précédentes étant considérées comme obsolètes. Ses spécifications sont décrites dans la RFC 4271 A Border Gateway Protocol 4 (BGP-4).
+BGP a remplacé Exterior Gateway Protocol (EGP) qui était utilisé dans la dorsale ARPANET et a permis la décentralisation du routage sur Internet.
+Certaines extensions de BGP permettent l'échange de routes IPv6 (RFC 2545) et l'extension multi-protocole (MP-BGP, RFC 2858) qui permet d'utiliser BGP pour convoyer des informations de routage pour d'autres protocoles que IPv4, par exemple IPv6 ou IPX.
+
+Fonctionnement
+Liaisons eBGP et iBGP. La rupture du lien physique entre A et C n'interrompt pas la session iBGP entre ces routeurs si une adresse IP logique est utilisée.
+Les connexions entre deux voisins BGP (neighbors ou peers) sont configurées explicitement entre deux routeurs. Ils communiquent alors entre eux via une session TCP sur le port 179 initiée par l'un des deux routeurs. BGP est le seul protocole de routage à utiliser TCP comme protocole de transport.
+Il existe deux versions de BGP : Interior BGP (iBGP) et Exterior BGP (eBGP). iBGP est utilisé à l'intérieur d'un Autonomous System alors que eBGP est utilisé entre deux AS.
+En général, les connexions eBGP sont établies sur des connexions point-à-point ou sur des réseaux locaux (un Internet Exchange Point par exemple), le TTL des paquets de la session BGP est alors fixé à 1. Si la liaison physique est rompue, la session eBGP l'est également, et tous les préfixes appris par celle-ci sont annoncés comme supprimés et retirés de la table de routage.
+À l'inverse, les connexions iBGP sont généralement établies entre des adresses logiques, non associées à une interface physique particulière. Ceci permet, en cas de rupture d'un lien physique, de conserver la session iBGP active si un lien alternatif existe et si un protocole de routage interne dynamique (IGP) est employé (par exemple OSPF).
+Une fois la connexion entre deux routeurs établie, ceux-ci s'échangent des informations sur les réseaux qu'ils connaissent et pour lesquels ils proposent du transit, ainsi qu'un certain nombre d'attributs associés à ces réseaux qui vont permettre d'éviter des boucles (comme AS Path) et de choisir avec finesse la meilleure route.
+
+Messages du protocole BGP: OPEN : ce message est utilisé dès que la connexion TCP est établie entre les voisins BGP, il permet d'échanger des informations telles que les numéros d'AS respectifs et de négocier les capacités de chacun des pairs ; KEEPALIVE : maintient la session ouverte. Par défaut le message KEEPALIVE est envoyé toutes les 30 secondes, et un délai de 90 secondes sans message UPDATE ni KEEPALIVE reçu entraîne la fermeture de la session ; UPDATE : ce message permet l'annonce de nouvelles routes ou le retrait de routes ; NOTIFICATION : message de fin de session BGP à la suite d'une erreur. ROUTE-REFRESH : définie dans la RFC 2918, la capacité de rafraîchissement des routes est négociée dans le message OPEN et permet de demander-réannoncer certains préfixes après une modification de la politique de filtrage.
+Machine d'états finis de BGP
+Diagramme d'automate fini de BGP.
+Le logiciel permettant de gérer les échanges de route doit implémenter un automate fini constitués de six états liés par treize événements. Les automates dialoguent entre eux par des messages (OPEN, KEEPALIVE, UPDATE, NOTIFICATION).
+Les états sont : 1) Idle; 2) Connect; 3) Active; 4) OpenSent; 5) OpenConfirm; 6) Established.
+Les changements d'états et le comportement attendus sont les suivants : Idle : Dans cet état, le processus refuse les connexions et n'alloue aucune ressource. Quand l'événement de démarrage (manuel ou automatique) est reçu, le processus initie les ressources et une connexion avec les voisins configurés, et écoute les connexions entrantes sur le port TCP 179 et bascule dans l'état Connect. En cas d'erreur, la connexion est coupée et le processus retourne dans l'état Idle. Connect : attend que la connexion TCP soit établie, puis envoie le message OPEN et bascule dans l'état OpenSent. En cas d'erreur, attend un délai prédéfini et continue à écouter sur le port 179 puis bascule dans l'état Active. Active : Tente d'établir une connexion TCP avec le voisin. En cas de réussite, envoie le message OPEN et bascule dans l'état Connect, tout autre événement provoque le retour dans l'état Idle. OpenSent : le message OPEN a été envoyé, attend le message OPEN en retour et s'il ne se produit pas d'erreur, envoie un KEEPALIVE et bascule dans OpenConfirm, dans les autres cas, envoie un message NOTIFICATION et retourne dans l'état Idle. OpenConfirm : attend un message KEEPALIVE et bascule alors en Established, ou bien un message NOTIFICATION et retourne dans l'état Idle. Established : la connexion BGP est établie, les messages UPDATE et KEEPALIVE peuvent être échangés, un message NOTIFICATION cause le retour dans l'état Idle.
+Attributs
+Chaque préfixe dans BGP est associé à un certain nombre d'attributs. Ces attributs sont classés en quatre types différents : Well-Known Mandatory (WM) : ces attributs doivent être pris en charge et propagés ;; Well-Known Discretionary (WD) : doivent être pris en charge, la propagation est optionnelle ;; Optional Transitive (OT) : pas nécessairement pris en charge mais propagés ;; Optional Nontransitive (ON) : pas nécessairement pris en charge ni propagés, peuvent être complètement ignorés s'ils ne sont pas pris en charge.
+Voici quelques attributs avec leurs types :
+
+AS Path
+L'attribut AS Path permet d'éviter les boucles. Si une route est reçue d'un voisin eBGP avec son propre AS dans l'AS Path, alors la route est rejetée.
+
+MED
+BGP MED : les routeurs de l'AS 100 préféreront le lien A-C pour le réseau 10.1.1.0-24 en raison du MED inférieur.
+L'attribut Multi-Exit Discriminator permet à un AS d'indiquer un lien à préférer. Le MED est un coût numérique codé sur 32 bits, il peut provenir d'un protocole de routage interne.
+L'attribut MED n'est comparé que si l'AS voisin est identique. Certaines implémentations permettent cependant de comparer les MED même entre AS voisins différents. En présence de plus de deux chemins possibles en provenance d'au moins deux AS voisins, la sélection de la meilleure route peut dépendre de l'ordre dans lequel les comparaisons sont effectuées.
+
+Community
+Une route peut disposer d'une liste d'attributs community. Chaque community est un nombre de 32 bits généralement représenté sur la forme x:y où x est un numéro d'AS et y un nombre dont la signification est propre à l'AS. Par exemple, l'AS 100 peut avoir pour politique d'attribuer une Local Preference 200 en présence de la community 100:200, ceci permet à un AS d'influencer le routage à l'intérieur d'autres AS.
+
+Extended community
+La RFC 4360 généralise le concept des communities avec cet attribut OT. L'extended community est composée d'un ou deux octets pour le type, et de 6 ou 7 octets pour la valeur. L'IANA maintient un registre des valeurs type réservées.
+
+Next Hop
+Quand un préfixe est annoncé à un voisin eBGP, l'attribut Next Hop représente l'adresse IP de sortie vers ce voisin. Cet attribut n'est pas altéré quand il est transmis aux voisins iBGP, ceci implique que la route vers l'adresse IP du voisin eBGP est connue via un IGP. Si ce n'est pas le cas, la route BGP est marquée comme inutilisable.
+
+Processus de décision
+Représentation simplifiée du processus de décision de BGP.
+Les routes annoncées par les voisins BGP sont filtrées et éventuellement rejetées ou marquées en altérant les attributs de ces routes. La table BGP est construite en comparant les routes reçues pour chaque préfixe en choisissant la meilleure route. Seule la meilleure route sera utilisée dans la table de routage et annoncée aux voisins pour autant que le filtre de sortie le permette.
+
+Choix de la meilleure route
+Quand plusieurs routes sont possibles vers un même réseau (ce qui implique un masque de réseau identique), BGP préfère une des routes selon les critères suivants. Seule la meilleure route sera utilisée et annoncée aux voisins.
+Si l'option BGP Multipath est active, les routes semblables après l'étape numéro 8 sont acceptées.
+
+Synchronisation
+Dans certaines topologies où il est fait usage de redistribution de BGP dans un IGP, il peut être nécessaire d'attendre que la route soit présente dans l'IGP avant qu'elle soit utilisable dans BGP.
+Si tous les routeurs de transit d'un AS utilisent BGP entre eux, cette contrainte de synchronisation peut être levée, c'est le cas le plus fréquent.
+
+Route reflectors et Confederations
+Confederations et route reflectors
+Dans iBGP, les routes ne sont pas transitives, c'est-à-dire qu'une route reçue via iBGP n'est pas transmise aux voisins iBGP, ce qui implique que chaque routeur participant au routage BGP au sein d'un AS doit établir des connexions avec tous les autres (full mesh) ce qui peut poser des problèmes d'échelle, le nombre de connexions augmentant selon le carré du nombre de routeurs présents dans l'AS. Deux solutions sont disponibles pour passer outre cette limite : les route reflectors (RFC 4456) et les confederations (RFC 5065). route reflectors : cette extension protocolaire permet de réduire le nombre de connexions nécessaires au sein d'un AS. Un seul routeur (ou deux routeurs pour la redondance) établit des sessions avec tous les autres routeurs de son groupe. Les autres routeurs (ses clients) n'ont besoin que de se connecter à lui. confederations : est utilisé dans les très grands réseaux ou l'AS est subdivisé en petits AS internes. Les confédérations peuvent être utilisées conjointement avec les routes reflectors. eBGP est utilisé entre les confédérations. Les confédérations sont masquées quand le préfixe est annoncé en dehors de l'AS principal.
+Pour éviter les boucles possibles avec ces configurations, des attributs supplémentaires sont utilisés : Cluster-ID et Originator-ID.
+Lorsqu'un réseau est ajouté à un AS, il doit être annoncé au maillage BGP : soit au route reflectors lorsqu'il existe, soit à l'ensemble des routeurs BGP de l'AS. BGP ne se substitue cependant pas à un protocole de routage interne.
+
+AS sur 32 bits
+Croissance du nombre d'AS sur Internet depuis 1997.
+Le standard RFC 1771 (A Border Gateway Protocol 4 (BGP-4)) prévoyait le codage des numéros d'AS sur 16 bits, c'est-à-dire 64510 AS publics possibles en tenant compte du fait que les numéros 64512 à 65535 sont réservés pour des usages privés. En 2011, il restait environ 15000 AS libres et les projections laissaient présager un épuisement complet des AS disponibles en septembre 2013. La RFC 4893 a défini des AS codés sur 32 bits, représentés par la notation x.y (où x et y sont des entiers compris entre 0 et 65535), les AS 1.x et 65535.65535 étant réservés, ce qui porte le nombre d'AS disponibles à plus de quatre milliards. Pour permettre la traversée des groupes de routeurs qui ne gèrent pas ces nouveaux AS, le nouvel attribut OT AS4-PATH est employé.
+L'assignation des AS sur 32 bits a débuté en 2007, et depuis 2009, le RIPE NCC distribue des AS 32 bits à la demande.
+
+Utilisation
+BGP est principalement utilisé entre les opérateurs et fournisseurs d'accès à Internet pour l'échange de routes.
+La plupart des utilisateurs finaux d'Internet n'ont qu'une seule connexion à un fournisseur d'accès à Internet. Dans ce cas, BGP est inutile car une route par défaut est suffisante. Cependant, une entreprise qui serait connectée de façon redondante à plusieurs FAI (multi-homing) pourrait obtenir un numéro de système autonome propre et établir des sessions BGP avec chacun des fournisseurs.
+Outre Internet, des réseaux IP privés peuvent utiliser BGP, par exemple pour interconnecter des réseaux locaux utilisant OSPF.
+
+Problèmes
+
+Vitesse de convergence
+BGP est réputé être un protocole de routage lent par rapport aux IGP qui convergent généralement en une fraction de seconde. La vitesse de convergence de BGP est tributaire de plusieurs paramètres : le hold time qui détermine après combien de temps une session inactive (sans UPDATE ni KEEPALIVE) est fermée. Il peut être réduit à 3 secondes au minimum mais vaut 90 s par défaut. La session BGP est cependant close sans délai après un changement d'état de l'interface à laquelle l'adresse IP de la session est associée, ou si la connexion TCP est interrompue (RST, FIN).; le nombre de préfixes qui devront chacun faire l'objet de messages UPDATE.; les performances du CPU pour le traitement des messages UPDATE,; le paramètre Minimum Route Advertisement Interval (MRAI) qui définit l'intervalle de temps minimum entre deux annonces BGP pour le même ensemble de préfixes et vers le même voisin. La RFC propose un MRAI de 30 s pour eBGP et 5 s pour iBGP. Certains travaux ultérieurs indiquent qu'il existe un bénéfice à réduire ce délai. Les routes devenues inaccessibles sont annoncées immédiatement.; l'utilisation de BGP Protocol Independent Convergence (PIC), qui permet un reroutage rapide et indépendent du nombre de préfixe à rerouter.
+
+Instabilités et damping
+Illustration du damping BGP
+BGP est sensible à l'oscillation rapide des routes, les annonces des routes inaccessibles devant être propagées à tous les voisins BGP, obligeant ceux-ci à recalculer leur table de routage. L'effet cumulé de ces annonces peut causer une surcharge et nuire à la stabilité du routage sur un réseau tel qu'Internet. Une route oscillante peut être causée par un lien ou une interface défectueuse (mauvaise configuration, panne) ou un routeur qui redémarre.
+Une fonctionnalité nommée damping (ou parfois dampening, RFC 2439 BGP Route Flap Damping; damping signifie amortissement en anglais) vise à réduire les effets de l'oscillation de routes. À chaque oscillation d'une route, le damping va accroître une pénalité numérique associée à cette route. Cette pénalité va décroître exponentiellement avec le temps. Quand la pénalité dépasse un seuil prédéfini, la route sera marquée comme inaccessible et les mises à jour à son sujet ignorées, et ce jusqu'à ce qu'un seuil inférieur pour la pénalité soit atteint.
+Le document RIPE-229 définit des paramètres recommandés pour le damping. Cependant, à la lumière de l'expérience avec cette configuration, la recommandation du groupe de travail routage du RIPE est arrivée à la conclusion que le damping n'était plus recommandé et que le document RIPE-229 devait être considéré comme obsolète.
+
+Préfixe avec origines multiples
+La RFC 1930 recommande qu'un préfixe ait toujours pour origine le même AS, à l'exception de cas particuliers (routage anycast et certains cas de multi-homing avec AS privé). Dans les autres cas, on parle de BGP Multiple AS Origin (MOAS). Les MOAS sont souvent le résultat d'une erreur de configuration et peuvent créer des incidents de type déni de service.
+Si un routeur annonce un préfixe pour lequel il n'assure pas réellement le transit, ce dernier peut devenir inaccessible depuis tout ou une partie d'Internet. L'effet sera encore plus prononcé si les préfixes annoncés sont plus spécifiques (c'est-à-dire si le masque réseau est plus long) que les préfixes légitimes, car les routes plus spécifiques sont toujours préférées.
+Pour se prémunir de ce problème, les fournisseurs limitent les préfixes qu'ils acceptent de leurs voisins. Ces filtres sont alors mis à jour manuellement si le voisin vient à annoncer de nouvelles routes. Vu la complexité de la gestion de ces listes de filtrage, il est plus rare que les grands opérateurs filtrent les préfixes entre eux. Certains outils permettent cependant de bâtir ces filtres automatiquement en fonction du contenu de bases de données de routage (comme celle du RIPE). D'autres approches sont S-BGP et soBGP. Les approches qui sécurisent l'AS d'origine d'un préfixe ne prémunissent cependant pas contre les attaques malveillantes, dans la mesure où l'AS Path peut alors avoir été construit.
+Le groupe de travail Secure Inter-Domain Routing (SIDR) de l'IETF travaille sur un système de validation de la source d'un préfixe appelé Resource Public Key Infrastructure (en) (RPKI).
+
+Incident AS 7007 de 1997
+Le 25 avril 1997, l'AS 7007 a redistribué accidentellement BGP dans RIP et réciproquement. RIP étant un protocole classful, ceci a causé l'apparition de sous-réseaux de taille -24, plus spécifiques que les routes originales, ce qui a provoqué des instabilités importantes sur Internet. Cet incident a attiré l'attention sur ce type de vulnérabilité.
+
+Incident YouTube de 2008
+En février 2008, le site YouTube a été inaccessible pendant environ deux heures. Le gouvernement pakistanais avait annoncé ce jour-là un blocage de YouTube au Pakistan, ordre qui a été exécuté par l'opérateur Pakistan Telecom.
+Pakistan Telecom a alors annoncé à tous les routeurs des fournisseurs d'accès qu'il était la meilleure route à qui envoyer tout le trafic YouTube, qui a alors été coupé sur l'ensemble de la planète.
+Ce type d'incident est désigné sous les noms d'IP hijacking (détournement d'adresse IP) ou de black hole (trou noir).
+
+Croissance de la table de routage
+Croissance de la table de routage, de 1989 à 2013.
+Un des problèmes auquel BGP doit faire face sur Internet est la croissance de la table de routage des routeurs de la default-free zone, c'est-à-dire ceux qui disposent d'une table de routage complète et n'utilisent pas de route par défaut. Avec le temps, les routeurs plus anciens n'ont plus les ressources mémoire ou CPU nécessaires au maintien d'une table complète. D'autre part, la taille de la table nuit à la vitesse de convergence, le CPU étant particulièrement sollicité lors de changements importants (établissement de nouvelles connexions ou changements importants de topologie).
+Jusqu'à 2001, la croissance a été exponentielle, menaçant le fonctionnement d'Internet. À cette date, des efforts ont été entrepris pour réduire les préfixes en les agrégeant. Ceci a permis une croissance linéaire pendant plusieurs années. Cependant la croissance exponentielle a repris à partir de 2004 environ sous la pression du nombre croissant de réseaux finaux qui disposent de plusieurs connexions redondantes.
+En 2013, le nombre de préfixes diffusés sur Internet est d'environ 400 000.
+
+Équilibrage de la charge et asymétrie
+BGP ne dispose pas d'un système d'équilibrage de la charge entre plusieurs liens et ne tient pas compte de la congestion éventuelle des liens : si un AS est connecté à plusieurs fournisseurs de transit vers Internet, il se peut que certains soient congestionnés tandis que d'autres sont peu utilisés. De façon générale, les AS prennent des décisions de routage de façon indépendante, un AS a donc peu d'influence sur les décisions prises par un autre AS et ne dispose pas de contrôle fin de l'équilibrage du trafic entrant.
+Diverses techniques existent cependant pour tenter de rééquilibrer la charge entre ces liens : l'annonce de préfixes plus spécifiques différents ;; l'allongement artificiel des longueurs de chemin ;; l'utilisation de communautés ;; l'utilisation de MED.
+Pour les mêmes raisons, le trafic peut être asymétrique, ce qui est fréquent entre les grands opérateurs qui suivent la politique dite de la patate chaude (en), qui consiste à router un paquet destiné à un réseau externe vers l'interconnexion la plus proche, évitant ainsi la traversée de sa propre dorsale.
+
+Incident du 19 août 2009
+Le 19 août 2009, un fournisseur d'accès japonais (AS 9354) annonça une route avec un attribut AS-PATH vide. Certaines implémentations de BGP de routeurs de fournisseur d'accès interrompent la session BGP avec une erreur quand ils reçoivent celui-ci, ce qui cause des perturbations dans plusieurs dorsales de FAI.
+
+Incident du 27 août 2010
+Le 27 août 2010, un attribut BGP expérimental utilisé dans un projet de recherche entre le RIPE NCC et l'université Duke a été propagé sur Internet et révélé un bug dans l'implémentation BGP de certains constructeurs. Ceci a provoqué l'instabilité de plusieurs milliers de préfixes sur Internet.
+
+Incident du 12 juin 2015
+L'opérateur Telekom Malaysia annonce un très grand nombre de nouvelles routes erronées, reprises par Level 3 Communications, un important opérateur d'Internet, qui les diffuse alors mondialement. Cette diffusion a pour effet de rediriger une part importante du trafic mondial vers Telekom Malaysia. Les infrastructures de celui-ci ne peuvent absorber un flux aussi massif, ce qui entraîne un très net ralentissement et des perturbations dans les communications, ressentis à l'échelle mondiale pendant une partie de la journée.
+
+Looking glass
+Il existe un certain nombre de routeurs sur Internet qui permettent la consultation de la table de routage globale via une interface web. Voici un exemple de consultation :
+Dans cet exemple, l'adresse IP 91.198.174.2 fait partie du préfixe le plus spécifique 91.198.174.0-24. Deux routes sont disponibles, la première a traversé deux AS (43821, son AS d'origine, puis 3292) et la seconde trois (43821, 16150 et 12552), le Local Pref étant égal, la première route, plus courte pour ce qui est du nombre d'AS traversés, est préférée.
+La route dispose de deux attributs community : 3292:1104 et 3292:1906.
+Les noms associés aux AS sont ajoutés par l'interface en consultant une base de données de routage publique.
+
+Implémentation libre de BGP: GNU Zebra, suite de protocoles de routage supportant, entre autres, BGP.; Quagga Software, fork de GNU Zebra pour les systèmes dérivés d'Unix.; OpenBGPD, implémentation BGP, sous licence ISC, par l'équipe d'OpenBSD.; BIRD, suite de protocoles de routage pour les systèmes dérivés d'Unix, sous licence GPL.; XORP, pour eXtensible Open Router Platform, sous licence BSD.

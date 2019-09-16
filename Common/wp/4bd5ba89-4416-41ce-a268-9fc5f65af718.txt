@@ -1,0 +1,11 @@
+Le Joint Photographic Experts Group (JPEG) est un groupe de travail du JTC1 qui a pour but de définir des standards d'encodage d'images fixes. Créé en 1986, il travaille en partenariat avec l'UIT (d'où le "joint" pour mixte) et rassemble des professionnels de l'industrie de l'image (télévision, télécommunication, informatique).
+Cette initiative faisait suite aux demandes d'améliorations pour le facsimilé, qui donnera également la norme ISO-CEI JBIG. Généralement, le terme JPEG fait référence à la norme ouverte de compression d'images numériques JPEG à laquelle le comité a donné son nom.
+
+Histoire
+Au début était le CGEG, pour Computer Graphics Experts Group, WG7 du sous-comité 2 du JTC1 de l'ISO et de la CEI. Le SC2 est, encore aujourd'hui, chargé de la normalisation du codage des caractères (cf. Unicode). Les autres activités "codage" furent regroupées dans le WG8, qui devint le creuset des futurs JPEG, JBIG, MHEG et MPEG. En 1991, le WG8, devenu un peu étroit, se transforma en sous-comité 29 avec secrétariat et présidence japonais.
+
+Norme et format JPEG
+En 1991, le groupe publie les spécifications d'un algorithme dé décodage et d'un format d'enregistrement qui deviennent, l'année suivante, la norme ISO-CEI 10918-1 ou UIT-T Recommandation T.81, plus couramment appelée "JPEG". Ensuite cette norme a donné son nom au format de données défini et au format de fichier le plus utilisé pour contenir ces données.
+Cette norme décrit, parmi trois autres, une méthode de compression basée sur la DCT proposée initialement par le projet européen ESPRIT PICA (Photographic Image Coding Algorithm). Elle spécifie la transformation d'une image brute (au départ RVB 24 bits ou en niveau de gris 8 bits) en une suite de bits. Elle ne précise pas directement comment stocker les informations sur ses dimensions, son auteur, etc. C'est le rôle d'un format de fichier. On utilisera généralement le JPEG File Interchange Format (JFIF 1.02) pour cela.
+
+Voir aussi: JPEG; JPEG File Interchange Format; JPEG 2000; MPEG.

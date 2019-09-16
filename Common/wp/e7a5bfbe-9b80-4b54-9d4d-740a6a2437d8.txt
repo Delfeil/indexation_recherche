@@ -1,0 +1,25 @@
+WolframAlpha (aussi écrit WolframAlpha lorsque Wolfram et Alpha sont dans deux couleurs distinctes) est un outil de calcul en langage naturel développé par la société internationale Wolfram Research. Il s'agit d'un service internet qui répond directement à la saisie de questions factuelles en anglais par le calcul de la réponse à partir d'une base de données, au lieu de procurer une liste de documents ou de pages web pouvant contenir la réponse. Son lancement a été annoncé en mars 2009 par le physicien et mathématicien britannique Stephen Wolfram et il a été lancé le 16 mai 2009 à 3 h du matin.
+WolframAlpha contient environ 10 milliards d'informations, plus de 50 000 types d'algorithmes et de modèles, et des capacités linguistiques pour plus de 1 000 domaines.
+
+Utilisation
+Les utilisateurs saisissent une question ou une demande de calcul. Le service calcule les réponses et les visualisations correspondantes à partir d'une base de connaissance.
+Grâce à l'utilisation de l'outil Mathematica, WolframAlpha est capable de répondre à des questions mathématiques. La réponse est généralement présentée sous une forme lisible par un être humain. Exemple : lim(x0) x-sin x fournit la réponse attendue, 1, ainsi qu'une façon de l'obtenir en utilisant la règle de L'Hôpital.
+WolframAlpha est aussi capable de répondre à des questions factuelles posées en anglais naturel, telles que "Where was Ségolène Royal born" ("Où Ségolène Royal est-elle née "), ou des questions plus complexes telles que "How old was Nicolas Sarkozy in 1981" ("Quel âge avait Nicolas Sarkozy en 1981 "). WolframAlpha affiche son interprétation de la question saisie ("Input interpretation") à l'aide de phrases standardisées, par exemple "Ségolène Royal place of birth" ou "age of Nicolas Sarkozy (politician) in 1981". (La réponse concernant Ségolène Royal inclut une variété d'informations contextuelles sur Dakar au Sénégal, sa localisation géographique, ainsi que des liens vers la biographie de Ségolène Royal sur Wikipédia.)
+WolframAlpha peut aussi calculer des données en recoupant plusieurs sources : Exemple : "What is the fifty-second smallest country by GDP per capita" ("Quel est le cinquante-deuxième plus petit pays selon le PIB par habitant ") fournit comme résultat au 16 novembre 2016 "Djibouti, 1814 per year per person" ("Djibouti, 1 814 par an par personne").
+Les données ont été progressivement collectées et normalisées par l'équipe de WolframAlpha. En 2009, la base de données couvrait des centaines de domaines, tels que les données météorologiques présentes et passées.
+
+Domaines couverts
+WolframAlpha analyse des données issues de disciplines très variées, dont notamment les mathématiques, statistiques, analyse de données, physique, chimie, science des matériaux, ingénierie, astronomie, sciences de la vie et de la Terre (géologie), nouvelles technologies, dates et heures, lieux et géographie, données socioéconomique, météorologie, santé et médecine, alimentation et nutrition, linguistique, culture, médias, personnalités, histoire, éducation, organisations diverses, jeux et sports, musique, couleurs, etc.
+
+Utilisation
+Wolfram Alpha est utilisé pour améliorer les résultats des moteurs de recherche de Bing et DuckDuckGo. Il est aussi utilisé par Siri et Iris.
+
+Wolfram Alpha Pro
+Le 8 février 2012, Wolfram Alpha Pro est sorti, et offre plusieurs autres options.
+
+Requêtes insolites
+En 2013, ce service a été utilisé de façon particulière, pour permettre aux internautes de calculer la date de leur mort.
+
+Voir aussi
+
+Articles connexes: en:Evi (software); en:Powerset (company).

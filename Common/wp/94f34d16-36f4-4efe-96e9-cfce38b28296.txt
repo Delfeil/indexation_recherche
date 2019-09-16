@@ -1,0 +1,8 @@
+Le Projet Perseus est un programme à caractère pédagogique mis en place en juin 2005 au Salon International de l'Aéronautique et de l'Espace du Bourget par le Centre national d'études spatiales ayant pour but de mobiliser des étudiants issus d'écoles d'ingénieurs, d'IUT ou d'universités, sur des projets spatiaux.
+
+Généralités
+
+Types de projets
+Le programme Perseus est composé de plusieurs macro-projets divisés en 4 catégories : Systèmes de lancement, Etudes et logiciels, Démonstrations au sol, Démonstrations de vol.
+
+Voir aussi: CNES; Lanceurs.

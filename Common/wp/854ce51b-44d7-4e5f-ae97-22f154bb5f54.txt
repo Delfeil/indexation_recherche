@@ -1,0 +1,12 @@
+Scribd est un site de partage de documents en ligne qui est actif depuis mars 2007. Son siège est à San Francisco (États-Unis). Scribd a été fondé en 2006 par Trip Adler.
+Scribd offre un lecteur gratuit de documents de 160 ko qui se charge dans les navigateurs compatibles avec JavaScript et flash. Ces documents iPaper sont obtenus après conversion de divers fichiers (Powerpoint, PDF, Word) et peuvent être partagés, sécurisés et inclure de la publicité. Ce lecteur supporte les zooms, la recherche de texte, différents modes de visualisation, l'utilisation de l'imprimante. Toutefois, le téléchargement des ouvrages reste réservé aux utilisateurs inscrits et ayant souscrit à un passe limité dans le temps.
+Le format iPaper a été porté sur les plateformes Drupal, Wordpress et Ruby On Rails. Il existe aussi des extensions pour Joomla.
+
+Formats supportés: Portable Document Format (.pdf); PostScript (.ps); Microsoft Word (.doc, docx); Microsoft PowerPoint (.ppt, pps, pptx); Microsoft Excel (.xls, xlsx); LibreOffice Text Document (.odt, sxw); LibreOffice Presentation Document (.odp, sxi); LibreOffice Spreadsheet (.ods, sxc); All OpenDocument formats; Plain text (.txt); Rich Text Format (.rtf).
+
+Produits et fonctionnalités
+Depuis le lancement du iPaper, la technologie de partage de documents de Scribd a bien évolué. Voici quelques éléments qui ont été ajoutés à l'expérience utilisateur : Une partie e-commerce s'est développée (le Scribd Store) afin de permettre aux vendeurs de livres d'augmenter leurs réseaux de distribution.; Le revenue-sharing avec Adsense a été retiré, dû au manque de valeur ajoutée que le produit apportait.; Les utilisateurs peuvent maintenant "brander" leurs documents en passant par le programme gratuit intitulé "branded reader".; Les utilisateurs peuvent aujourd'hui téléverser leurs documents directement de leurs comptes Google Docs à leurs comptes Scribd.; L'interface est désormais en HTML5 sur les navigateurs compatibles, permettant l'affichage des documents sans recourir au plugin Adobe Flash.; Depuis 2013 Scribd a lancé une offre d'abonnement à des livres numériques principalement en langue anglaise.
+
+Voir aussi
+
+Articles connexes: Calaméo; Autopublication; Auto-édition; Wattpad; Abonnement numérique à des livres.

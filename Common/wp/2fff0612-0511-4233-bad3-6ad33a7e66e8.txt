@@ -1,0 +1,19 @@
+Un portail web est un site web qui offre une porte d'entrée commune à un large éventail de ressources et de services accessibles sur Internet et centrés sur un domaine d'intérêt ou une communauté particulière. Les ressources et services dont l'accès est ainsi rassemblé peuvent être des sites ou des pages web, des forums de discussion, des adresses de courrier électronique, espaces de publication, moteur de recherche, etc.
+Les utilisateurs ont la plupart du temps la possibilité de s'enregistrer à un portail pour s'y connecter ultérieurement et utiliser l'ensemble des services proposés, dont notamment la personnalisation de leur espace de travail, lequel est organisé à l'aide d'éléments d'IHM de base : les portlets.
+Un site portail institutionnel est un portail web servant de voie d'accès vers les différents sites d'un organisme (entreprise commerciale, institution publique). Le site portail permet de rediriger l'internaute vers le site de l'organisme qui correspond le mieux à ses attentes en fonction de son profil.
+
+Histoire
+Les portails web sont apparus durant la décennie des années 1990. Durant la fin de cette décennie, certains ont été vendus à un prix très élevé (grâce au trafic web dont ils bénéficiaient), participant à la croissance de la toute proche bulle internet.
+Durant les années 1990, la majorité des fournisseurs d'accès à Internet pour clients particuliers "proposaient" leur portail web à leurs clients. Le plus souvent un kit logiciel (fourni par le FAI) changeait sur l'ordinateur du client la page d'accueil de son navigateur web. Le FAI s'assurant ainsi du trafic web.
+
+Exemples de portails
+DMOZ
+Les portails sont souvent des sites communautaires qui tentent de rassembler un ensemble de services susceptibles d'intéresser les internautes.
+L'importance d'un portail provient du nombre d'utilisateurs de sa communauté. Un nombre important d'abonnés des fournisseurs Internet ont comme page d'accueil le portail de leur fournisseur Internet.
+Certains portails ont construit leur notoriété sur un service gratuit comme Windows Live Hotmail (courrier électronique gratuit). Les portails Web se construisent autour de services (accès Web, adresse électronique gratuite, annuaire gratuit...) et fournissent la plupart du temps des contenus éditoriaux propres et adaptés à leur communauté. Un fournisseur d'accès à Internet (FAI) possède généralement son propre portail Web généraliste. À côté des portails généralistes décrits ci-dessus, il existe des portails thématiques.
+En entreprise, un portail permet de regrouper et faciliter la navigation entre de nombreux outils web (le portail interne de référence d'une entreprise est parfois appelé Intranet par abus de langage). La technique du portail apporte également : une charte graphique commune ;; la possibilité de personnaliser la page en fonction de l'utilisateur : celui-ci, en fonction de son département, verra des news qui lui sont destinées plus particulièrement, finances, techniques, marketing etc. Il aura uniquement accès aux outils auxquels il est autorisé (exemple : reporting financier pour la finance, validation des notes de frais pour le manager) ;; l'authentification unique (single sign-on) : un identifiant et mot de passe pour accéder aux différents outils Web.
+Parmi les plus visités, les firmes Google et Yahoo! proposent des portails Web.
+
+Voir aussi
+
+Article connexe: Portlet.

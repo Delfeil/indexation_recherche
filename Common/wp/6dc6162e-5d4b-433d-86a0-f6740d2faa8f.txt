@@ -1,0 +1,40 @@
+Un ou une servlet est une classe Java qui permet de créer dynamiquement des données au sein d'un serveur HTTP. Ces données sont le plus généralement présentées au format HTML, mais elles peuvent également l'être au format XML ou tout autre format destiné aux navigateurs web. Les servlets utilisent l'API Java Servlet (package javax.servlet).
+Un ou une servlet s'exécute dynamiquement sur le serveur web et permet l'extension des fonctions de ce dernier, par exemple : l'accès à des bases de données, transactions d'e-commerce, etc. Un ou une servlet peut être chargé automatiquement lors du démarrage du serveur web ou lors de la première requête du client. Une fois chargé(e)s, les servlets restent actifs dans l'attente d'autres requêtes du client.
+L'utilisation de servlets se fait par le biais d'un conteneur de servlets (framework) côté serveur. Celui-ci constitue l'environnement d'exécution de la servlet et lui permet de persister entre les requêtes des clients. L'API définit les relations entre le conteneur et le-la servlet. Le conteneur reçoit la requête du client, et sélectionne le-la servlet qui aura à la traiter. Le conteneur fournit également tout un ensemble de services standards pour simplifier la gestion des requêtes et des sessions.
+Un ou une ou plusieurs servlets constituent les applications web Java, leur principe de fonctionnement (architecture, fonctionnalités, configuration, déploiement) est décrit suivant une spécification officielle, menée par Sun Microsystems et à laquelle toute personne peut contribuer par le biais des Java Specification Requests (Java Community Process). La version actuelle des spécifications servlet est la 3.1.
+
+Conteneurs de servlets
+Il existe plusieurs conteneurs de servlets, dont Apache Tomcat ou encore Jetty. Le serveur d'application JBoss Application Server utilise Apache Tomcat.
+
+Exemple de servlet classique
+import javax.servlet.- ;
+import java.io.- ;
+
+public class HelloServlet extends GenericServlet
+(
+ public void service (HttpServletRequest request, HttpServletResponse response)
+ (
+ try
+ (
+ PrintWriter out - response.getWriter ;
+ out.println ("!DOCTYPE html") ;
+ out.println ("titleBonjour tout le monde !-title") ;
+ out.println ("pHello world!-p") ;
+)
+ catch (IOException e)
+ (
+ e.printStackTrace ;
+)
+)
+)
+Sortie générée après déploiement :
+!DOCTYPE html
+titleBonjour tout le monde !-title
+pHello world!-p
+Avantages et inconvénients de l'utilisation des servlets
+
+Avantages: Supportées par plusieurs vendeurs de serveurs; Multi-plateformes : écrites en Java; Extensibles : Utilisables avec d'autres technologies Java (JSP, RMI, JDBC, Javabeans,..); Intégrables dans des environnements plus larges; Performantes : exécutées dans des threads; Sécurisées : exécutées dans une JVM; Pas limitées au protocole HTTP.
+
+Historique
+
+Voir aussi: JDBC : l'accès ODBC via java à une base de données; Langage de programmation Java; Application ASP.NET; Server Side Includes.

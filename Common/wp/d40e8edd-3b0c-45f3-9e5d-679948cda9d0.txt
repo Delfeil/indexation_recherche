@@ -1,0 +1,87 @@
+Le SUDOC (Système Universitaire de DOCumentation au départ abrégé en SU, SUD puis SUDoc) est un catalogue collectif alimenté par l'ensemble des bibliothèques universitaires françaises et autres établissements documentaires utiles pour l'Enseignement Supérieur et la Recherche. Il recense les documents en leur possession afin de permettre aux usagers de localiser les ouvrages, d'effectuer des bibliographies, et si besoin d'effectuer des demandes de Prêt-Entre-Bibliothèques (PEB).
+C'est l'Agence bibliographique de l'enseignement supérieur (ABES) qui est chargée du maintien et du développement du Sudoc ainsi que de l'animation des réseaux de production de données bibliographiques.
+
+Historique
+
+Origine du projet
+Entre avril 1992 et janvier 1993, la sous-direction des bibliothèques (Ministère de l'Enseignement Supérieur) produit un schéma directeur informatique du réseau des bibliothèques universitaires, dont la mise en oeuvre opérationnelle débute en 1995. C'est l'ABES, créée en 1994 à cette fin, qui est chargée de la maîtrise d'ouvrage du projet, le CNUSC -qui devient le CINES en 1999 - étant chargé de l'exploitation matérielle.
+Le marché initial s'étale sur la période 1997-2003.
+
+Les données originales
+Jusqu'à la fin des années 1990, les bibliothèques universitaires françaises appartenaient à plusieurs réseaux de catalogage distincts : BN-OPale - catalogage au format Unimarc,; Sibil-France, apparu en 1983-1984. Utilisé à l'origine en Suisse, le réseau comptait une vingtaine de bibliothèques au départ, trente-cinq finalement. Au moment de l'intégration dans le Sudoc, 1,6 million de notices avaient été produites dans des formats divers (Intermarc, Unimarc,Usmarc).; Auroc (OCLC) - catalogage au format USMarc.
+Dès 1991, les ouvrages (hors périodiques) de ces trois entrepôts avaient été rassemblés dans un catalogue collectif : le Pancatalogue. Mais à la différence de ce qui deviendra le Sudoc, le Pancatalogue était en fait une fusion des données produites dans ces trois entrepôts. À l'époque en effet, aucun outil de catalogage ne permettait de traiter un tel volume de données.
+Le périmètre initial du projet Sudoc intégrait également : le catalogue du CCN-PS.; Téléthèses : base de signalement des thèses lancée en 1983 et intégrée dans le Sudoc au cours de l'année 1999.; RAMEAU.
+
+Le projet Sudoc
+En 1995, un cahier des charges est rédigé afin de définir les fonctionnalités attendues, à savoir un catalogue unique contenant tous types de documents (à la différence des précédents réseaux qui excluaient les publications en série), associé à un réseau de catalogage et de fourniture de documents.
+Sur la base de ce cahier des charges, un appel d'offres sur performances est lancé, marché que remportera la société néerlandaise PICA (Project Integrated Catalog Automation), partageant la maîtrise d'oeuvre avec la société Bull.
+En mai 1998, 7 sites pilotes (Grenoble 2 et 3, Le Mans, Lille 3, Lyon 2, Nice, Perpignan, Rennes 2) sont choisis parmi 27 candidats. À partir d'octobre 1998, ces établissements travailleront avec les équipes de l'ABES et du prestataire. Cette expérimentation s'achève en juillet 2000 par une réunion des coordinateurs des sites pilotes, des représentants de l'ABES, de Pica-Bull, du CINES et des réseaux de catalogage de monographies. À cette date, la base contient 5 085 405 références.
+Le déploiement se fera en plusieurs phases, en fonction du réseau de catalogage des établissements documentaires : BN-Opale (janvier à juin 2001); SIBIL (mars à septembre 2001); AUROC-OCLC (mai 2001 à janvier 2002).
+Ces opérations se termineront par le chargement d'établissements "hors sources" (octobre 2001 à mars 2002).
+Suite à ce premier déploiement achevé en mars 2002, le réseau Sudoc est constitué de 113 établissements, soit environ 700 bibliothèques et près de 2 000 postes professionnels déployés. Au 1er septembre 2003, un nouveau cercle d'une trentaine d'établissements rejoindra le réseau portant le nombre de participants à 140 établissements, soit 918 bibliothèques. L'extension du réseau continuera d'année en année (23 nouveaux en 2005, 6 en 2007, 8 en 2012...).
+En 2015, le réseau Sudoc est constitué de 157 établissements documentaires, soit 2 026 bibliothèques.
+
+Ouverture au public
+Le catalogue Sudoc Public ouvre au public le 3 avril 2000. Il contient alors 3,5 millions de notices.
+Ce lancement officiel est acté par l'arrêté du 22 février 2001 portant création du site www.sudoc.abes.fr : "La finalité principale de ce site est la mise à disposition gratuite du catalogue collectif de tous les types de documents détenus par les bibliothèques françaises de l'enseignement supérieur avec leur localisation".
+Quelques mois après l'ouverture au public, le Sudoc enregistrait 1 600 connexions par jour. En 2001, 1 113 065 connexions seront enregistrées La limitation de 800 connexions simultanées prévue à l'ouverture s'avère vite insuffisante et est levée. En 2004, 1,4 million de connexions sont enregistrées.
+En 2015, 1,9 million de connexions ont été enregistrées.
+
+Le catalogue Sudoc
+
+Contenu
+Évolution du nombre de notices bibliographiques (courbe bleue) et notices d'autorités (courbe orange)
+En novembre 2016, l'interface publique du catalogue Sudoc donne accès à : plus de 15 millions de notices bibliographiques (monographies, thèses, périodiques et autres types de documents); environ 41 millions d'exemplaires, localisations dans les bibliothèques du réseau; plus de 3 millions de notices d'autorités; le répertoire des bibliothèques : 4 241 notices de bibliothèques fournissant diverses informations (coordonnées, collections notables...).
+Depuis 2015, avec la mise en production du référentiel IdRef, les notices d'autorité Sudoc peuvent être produites à partir - et pour les besoins spécifiques - des autres applications documentaires (STAR, Calames) gérées par l'ABES. Ces données ouvertes ont vocation à être partagées avec différentes infrastructures de valorisation de la recherche à l'échelle nationale (ORI-OAI, HAL...) ou internationale (ORCID...).
+Les statistiques relatives à l'utilisation des catalogues et à la production de données dans le Sudoc par les réseaux Sudoc, Sudoc-PS et Supeb sont effectuées via l'outil de pilotage Webstats.
+À l'origine, l'encodage des caractères était effectué dans un format propriétaire, posant problème aux bibliothèques conservant des fonds en écriture non latines. En 2004-2005, le système a été modifié afin de permettre l'encodage en caractères Unicode (UTF-8), au niveau du serveur comme de l'application de catalogage WinIBW.
+
+Accès aux données
+Les données du Sudoc sont consultables via l'interface publique déclinée, depuis octobre 2011, en une version mobile, développée dans le cadre d'une coopération entre l'ABES et l'université numérique Paris Île-de-France (UNPIdF).
+A l'exception des données provenant d'ISSN International, les données du catalogue Sudoc, placées sous licence Etalab, sont réutilisables. Elles sont accessibles librement : à l'aide du protocole Z39.50.; via des web services; à l'aide de logiciels bibliographiques (de type : EndNote, Refworks, Zotero).
+Ces différentes méthodes d'accès aux données du Sudoc ont permis leur réutilisation par d'autres outils de signalement dans différents contextes : à partir d'avril 2001 : la base alimente le CCFr.; 31 octobre 2006 : signature d'un accord de licence avec Google, afin que les données du Sudoc viennent alimenter les résultats de Google Scholar. Les contenus du Sudoc deviennent visibles via l'interface de Google Scholar en avril 2007.; à partir de 2009 : données des établissements du réseau Sudoc visibles dans Worldcat (sous réserve d'une adhésion des établissements à OCLC).
+
+Aspects techniques
+
+Infrastructure informatique
+Le coeur du catalogue Sudoc repose sur la base de données "OCLC PICA CBS".
+C'est l'application de catalogage client WinIBW (surnommée Winnie) qui est utilisée par les catalogueurs du réseau.
+Les données sont hébergées au CINES dans le cadre d'un conventionnement. Depuis 2003, les serveurs fonctionnent sur un système Unix.
+
+Normes et formats
+Bien que le format Unimarc soit le format retenu pour le catalogage dans le Sudoc, les données sont accessibles dans plusieurs formats pour répondre aux divers besoins locaux.
+Les données sont notamment accessibles en MarcXML, différents webservices permettant l'exploitation des données de la base miroir du Sudoc en XML.
+Une exposition des données Sudoc en RDF a été mise au point depuis 2011.
+En outre, l'Abes co-pilote avec la BnF la Transition Bibliographique qui devrait mener dans un premier temps à une conformité progressive des données Sudoc au modèle FRBR.
+
+Transferts réguliers
+Le réseau Sudoc fonctionne selon deux niveaux : une base centrale (Sudoc) et des systèmes locaux.
+Dans les bibliothèques du réseau, les catalogueurs travaillent directement dans la base centrale à l'aide du logiciel de catalogage WinIBW. A intervalles réguliers, les données produites sont envoyés aux établissements pour intégration dans leurs SIGB local.
+Ces transferts fonctionnent avec une quinzaine de SIGB provenant de 11 prestataires différents. Lors de la mise en place du Sudoc, les fournisseurs de SIGB ont établi des devis pour le développement de routine générique et pour les adaptations liées aux spécificités des différents sites pilotes. Les établissements pilotes ont reçu une subvention destinée à couvrir au minimum les frais liés au développement de la routine générique.
+Les membres du réseau peuvent choisir de recevoir des notices aux format Unimarc ou Marc 21, encodées en UTF-8 ou ISO 5426.
+
+Organisation des réseaux
+
+Le réseau Sudoc
+L'ABES dispose de précieux relais dans le réseau d'établissements documentaires qu'il anime : les coordinateurs, secondés par des correspondants catalogage, des correspondants autorité et des formateurs relais. Les opérations de catalogage effectuées dans le Sudoc se répartissent en 15-20 % de création et 80-85 % de localisations.
+Les correspondants du réseau échangent via différentes listes de discussion (SUCAT, CORCAT, CORAUT), disposent d'une offre de formation conséquente (en présentiel et à distance), sont tenus informés des évolutions (des métadonnées bibliographiques et des applications) et sont régulièrement invités à participer à des groupes de travail, des enquêtes ou des dispositifs Qualité.
+Chaque année, sont organisées les Journées Abes, journées de rencontres professionnelles qui donnent l'occasion de faire le point sur les actualités du catalogue et les évolutions du métier.
+
+Le réseau Sudoc-PS
+Complémentaire du réseau Sudoc, le réseau Sudoc-PS (publications en série) possède un rayon d'action plus large. Créé en 2002, le réseau Sudoc-PS se situe dans la continuité du réseau de "catalogage collectif national des publications en série" (CCN-PS). De ce fait, près de 2 000 bibliothèques non universitaires s'ajoutent aux établissements d'enseignement supérieur. Le réseau Sudoc-PS est structuré autour d'une trentaine de centres régionaux (CR) : 22 localisés en province avec une couverture régionale (1 par région, 2 en Rhône-Alpes et Provence Alpes Côté d'Azur); 10 localisés en Île-de-France et ayant une couverture thématique; le centre ISSN France, implanté à la BnF.
+Transferts réguliers
+Le réseau Sudoc fonctionne selon deux niveaux : une base centrale (Sudoc) et des systèmes locaux.
+Dans les bibliothèques du réseau, les catalogueurs travaillent directement dans la base centrale à l'aide du logiciel de catalogage WinIBW. A intervalles réguliers, les données produites sont envoyés aux établissements pour intégration dans leurs SIGB local.
+Ces transferts fonctionnent avec une quinzaine de SIGB provenant de 11 prestataires différents. Lors de la mise en place du Sudoc, les fournisseurs de SIGB ont établi des devis pour le développement de routine générique et pour les adaptations liées aux spécificités des différents sites pilotes. Les établissements pilotes ont reçu une subvention destinée à couvrir au minimum les frais liés au développement de la routine générique.
+Les membres du réseau peuvent choisir de recevoir des notices aux format Unimarc ou Marc 21, encodées en UTF-8 ou ISO 5426.
+
+Le réseau SUPEB (Prêt entre Bibliothèques)
+Le Sudoc prend en charge les opérations de prêt entre bibliothèques (PEB). Ces opérations, informatisées depuis 1987, au départ à l'aide de l'outil Pebnet, devenu PebNetSU lors de son interfaçage avec WinIBW, sont gérées par le module Supeb intégré à WinIBW.
+Supeb désigne donc à la fois l'outil utilisé et le réseau de bibliothèques utilisant cet outil.
+Depuis 2007, il est constaté une baisse continue et importante des transactions de PEB : de 215 154 demandes émises en 2007 à 134 195 en 2013.
+
+Projets connexes
+
+Le portail Abes
+Le 1er mars 2005 , l'ABES lançait le "portail Sudoc", outil développé par la société Archimed sur la base des produits Bookline, Masc et Sim. Le portail Sudoc avait pour objectif de permettre des recherches fédérées interrogeant les données des catalogues Sudoc et BnF ainsi que diverses bases de données bibliographiques et en texte intégral. Le portail Sudoc proposait également des contenus issus de chargements ou moissonnages OAI-PMH (Persée, TEL...) ainsi que des contenus "externes" accédés en temps réel via les protocoles de type Z39.50, SRU-SRW ou via Web services (Bibliothèque du Congrès, ScienceDirect...).
+Suite au constat du relatif insuccès du portail Sudoc auprès des établissements des réseaux, une décision du Conseil d'Administration du 6 juin 2008 a acté la fermeture de la plateforme au 1er octobre 2008.

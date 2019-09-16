@@ -1,0 +1,48 @@
+En psychologie cognitive, la mémoire à long terme (MLT) est la mémoire qui permet de retenir, de manière illimitée, une information sur des périodes de temps très longues (années).
+La notion de MLT est un concept utilisé dans les modèles de mémoire qui distinguent plusieurs sous-systèmes en fonction du type d'information mémorisé et de la durée de rétention. La mémoire à long terme s'oppose ainsi au registre sensoriel (ou mémoire sensorielle), à la mémoire à court terme et à la mémoire de travail.
+Les contenus de la mémoire à long-terme sont décrit selon leur nature comme épisodique, sémantique. Les chercheurs et cliniciens s'intéressent également aux processus d'oubli en particulier dans les pathologies psychiatriques telles que le démences, dans lesquelles certains processus de mémoire sont endommagés.
+
+Types de mémoire à long terme
+Il existe trois types de mémoire à long terme qui se distinguent par leur contenu. Les mémoires épisodique et sémantique sont regroupées dans la mémoire déclarative.
+
+Mémoire épisodique
+Ce type de mémoire comprend les souvenirs des évènements vécus. C'est la mémoire de l'expérience personnelle. Cependant, elle est paradoxale. On a l'impression de mieux se souvenir des expériences que des connaissances, mais c'est le contraire. En fait, les événements ne sont pas revécus, mais reconstruits. Donc les émotions que font revivre les souvenirs peuvent modifier notre souvenir du passé.
+
+Mémoire sémantique
+Ce type de mémoire porte sur les faits et les connaissances encyclopédiques. Elle fonctionne par des concepts objectifs, ce qui la rend plus fiable et solide que la mémoire épisodique.
+
+Mémoire procédurale
+Ce type de mémoire porte sur les habiletés motrices, les savoir-faire, les gestes habituels. C'est grâce à elle qu'on peut se souvenir comment exécuter une séquence de gestes. Elle est très fiable et conserve ses souvenirs même s'ils ne sont pas utilisés pendant plusieurs années. La mémoire procédurale est activée dans les actions que nous menons "en roue libre" : allumer une cigarette pour les fumeurs, lacer ses chaussures, démarrer sa voiture, etc.
+Si la mémoire procédurale est implicite, elle présente cependant l'avantage de pouvoir être explicitée lorsque le sujet est questionné. C'est pourquoi, la question "Comment faites-vous lorsque vous voulez fumer une cigarette " apporte une réponse qui peut être traduite dans un arbre décisionnel détaillé. À chaque "noeud", un changement de procédure peut être effectué (exemple : l'allumage peut être fait avec un briquet, une allumette ou la précédente cigarette), ce qui est utile pour arrêter un jour de fumer.
+
+Processus engagés dans la mémorisation
+
+Stockage
+La MLT apparaît lorsqu'une information contenue dans la mémoire de travail y est entreposée via un processus de répétition. Il existe deux principaux processus pour entreposer une information dans cette mémoire : l'auto-répétition de maintien (ou d'entretien) et l'auto-répétition d'intégration (ou élaboratrice). Le premier consiste à répéter mentalement l'information à apprendre. Le second consiste à utiliser l'encodage sémantique en associant l'information nouvelle à une autre déjà connue.
+
+Capacité de la mémoire à long terme
+La capacité de la MLT est très importante et les chercheurs n'en ont toujours pas éprouvé les limites, même si cette capacité est forcément limitée par des raisons physiques.
+
+Rappel et récupération des souvenirs
+L'oubli de l'information stockée dans la MLT peut provenir d'une incapacité à accéder à l'information et non à l'absence de l'information dans le système de stockage. Cette forme d'oubli peut avoir pour origine les systèmes qui permettent de se remémorer l'information. Par exemple la faculté de se rappeler un souvenir est diminuée après une mauvaise nuit de sommeil, un stress important ou lors d'une dépression.
+
+Oubli et perte de souvenir
+
+Processus synaptiques
+L'oubli d'une information peut avoir comme origine la plasticité synaptique. En effet, nos souvenirs semblent être stockés dans le cerveau sous la forme de connexions entre neurones, voir groupes de neurones. Ces connexions, aussi appelées synapses, se remodèlent au fil du temps, se créent ou disparaissent, grâce à divers processus biochimiques. Lorsque certaines synapses sont peu "utilisées", elle finissent dans certains cas par disparaître, et le souvenir associé à ces synapses finit alors par s'affaiblir, voire disparaître. Ce processus neurochimique s'appelle la dépression à long terme.
+La suppression de ces synapses aurait pour avantage de supprimer les anciennes informations devenues inutiles (car peu utilisées et-ou ayant une charge émotionnelle très faible - les émotions ayant un lien avec la mémoire qui semble avoir été sélectionné par l'évolution) pour faciliter de nouveaux apprentissages et pourrait aussi empêcher la prolifération de synapses inutiles, consommatrices d'énergies et de nutriments. La destruction de ces synapses inutiles pourrait se passer durant le sommeil paradoxal.
+
+Charge émotionnelle
+Généralement, les souvenirs qui s'oublient le plus facilement sont ceux qui possèdent une charge émotionnelle faible. Réciproquement, les souvenirs ayant une charge émotionnelle forte sont conservés très longtemps, parfois toute une vie (comme dans le cas du syndrome de stress post-traumatique). S'oublient aussi plus facilement les souvenirs qui ont été peu remémorés (et donc peu consolidés) auxquels on doit accéder peu souvent. Plus on utilise souvent un souvenir, plus celui-ci sera mémorisé de façon efficace.
+
+Interférence rétroactive
+L'interférence rétroactive décrit le fait que se souvenir d'informations anciennes est plus difficile (génère erreurs et oublis) lorsque des informations récentes (apprise après) interfèrent. L'idée est que les informations récentes interfèrent avec les informations anciennes qui pourtant étaient bien apprises, d'où le terme "rétroactif".
+
+Interférence proactive
+L'interférence proactive décrit le fait que se souvenir d'informations peut être rendu plus difficile par le fait que des informations ont été stockées en mémoire auparavant dans des circonstances analogues ou sur des stimuli analogues. Une ancienne information infère sur une nouvelle et l'inhibe.
+
+Références et notes
+
+Voir aussi
+
+Articles connexes: Mémoire de travail à long terme; Mémoire à court terme; Registre sensoriel; Effet d'éventail. Portail des neurosciences; Portail de la psychologie.

@@ -1,0 +1,35 @@
+Nutch est une initiative visant à construire un moteur de recherche open source. Il utilise Lucene comme bibliothèque de moteur de recherche et d'indexation. En revanche, le robot de collecte a été créé spécifiquement pour ce projet.
+L'architecture de Nutch est hautement modulaire et permet à des développeurs de créer des plugins pour différentes phases du processus : récupération des données, analyse des documents, recherche, etc.
+Doug Cutting est l'initiateur et le coordinateur de ce projet.
+Il est entièrement développé en langage Java, mais les données qu'il manipule sont dans un format de données indépendant de tout langage de programmation. En juin 2003 a été présenté une version opérationnelle d'une démonstration de Nutch sur une base regroupant 100 millions de documents.
+
+Historique
+
+CreativeCommons.org s'appuie sur Nutch
+Creative Commons inaugure en 2004 une beta version de son moteur de recherche qui parcourt le web à la recherche de texte, de son audio et de vidéo, indexant à cette date un million de pages ; tout cela réutilisable librement selon les termes des licences mis à disposition sur leur site web.
+Leur moteur de recherche s'appuie le Resource Description Framework (RDF) qui utilise le méta-langage XML, standardisé par le World Wide Web Consortium (W3C).
+Cette sortie coïncide avec celle du navigateur Web Mozilla Firefox dans sa version 1.0, rendant par la même possible la recherche de contenu libre.
+
+Nutch rejoint Apache
+En janvier 2005, Nutch est un projet de deux ans d'âge qui a d'abord été hébergé par Sourceforge et soutenu par sa propre organisation à but non lucratif. Cette organisation a été fondée dans le but de donner un copyright au projet et de pouvoir garder le droit de changer la licence. L'équipe a décidé que la licence Apache était la plus appropriée pour Nutch et qu'il n'avait plus besoin de l'aide d'une organisation extérieure. Les dirigeants et les développeurs sont maintenant soutenus par la fondation Apache.
+Après cinq mois d'incubation, Nutch devient un sous-projet de Lucene.
+
+Évaluation du moteur
+Publiée le 1er juin 2004, l'étude menée par Lyle Benedict présente une comparaison des résultats du célèbre Google et de son homologue libre Nutch dans le cadre restreint du site internet de l'Université de l'État de l'Oregon sur une base de 100 requêtes. Pour exemple, sur des notes allant de 0 à 10 où 10 est la meilleure note, elle a trouvé 28 requêtes pour lesquelles Nutch et Google ont obtenu la note maximale.
+
+Contributions
+Les contributions sont basées sur le mérite et le karma. Les contributeurs doivent s'inscrire à une liste de diffusion pour savoir qui fait quoi et envoyer un court mail informant les autres de ce qu'ils vont faire. Quand le travail est fini, le bout de code est soumis à la liste de diffusion (ou attaché à un rapport de bug) afin que chaque contributeur puisse examiner sa qualité et sa pertinence ((2)).
+Les critères d'acceptations sont : une haute qualité (du code) ;; facilité de lecture ;; facilité d'intégration ;; cohérence avec les objectifs de Nutch.
+Si tout est correct, le bout de code est inséré par les développeurs dans la base des sources et il devient partie intégrante de Nutch.
+
+Utilisation de Nutch
+
+Le gouvernement du Québec adopte Nutch
+En décembre 2006, le gouvernement du Québec a opté pour Nutch comme moteur de recherche pour le repérage de l'ensemble de ses sites selon une présélection. À ce jour, plus de 400 sites et 500 000 documents sont indexés.
+
+L'Oregon State University passe à Nutch
+De septembre 2004 à Janvier 2010, l'Oregon State University a remplacé son pôle de recherche Google par Nutch. Cela lui a permis de réaliser des réductions de coûts significatives et de promouvoir la transparence de ce moteur de recherche. Cette réduction a été estimée à 100 000 par an selon l'Open Source Lab.
+
+Voir aussi
+
+Articles connexes: Licence Apache; Lucene; mozDex (en); searx; Seeks; YaCy.

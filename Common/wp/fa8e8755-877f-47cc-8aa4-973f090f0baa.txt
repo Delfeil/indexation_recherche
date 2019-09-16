@@ -1,0 +1,14 @@
+August (us) Ferdinand Möbius (17 novembre 1790 à Bad Kösen dans le village de Schulpforta, Royaume de Saxe, Allemagne - 26 septembre 1868 à Leipzig) fut un mathématicien et astronome théoricien à l'université de Leipzig.
+
+Biographie
+Fils unique de Johann Heinrich Möbius, professeur de danse à Schulpforta, le jeune August Ferdinand nait dans le village. Trois ans plus tard son père meurt, il est alors élevé par sa mère, descendante de Martin Luther, qui s'occupe directement de son éducation jusqu'à ce qu'il ait atteint l'âge de 13 ans, avant d'entrer lui-même à Schulpforta. Puis dès 1809 il étudie les mathématiques et l'astronomie, successivement dans les universités de Leipzig, Göttingen (il y eut Carl Friedrich Gauss comme professeur) et Halle.
+Il est principalement connu pour sa découverte du ruban de Möbius, une surface non orientable à deux dimensions avec seulement une face quand elle est plongée dans un espace euclidien à trois dimensions. Elle fut découverte indépendamment par Johann Benedict Listing à peu près à la même époque.
+Möbius fut le premier à introduire les coordonnées homogènes en géométrie projective. Les transformations de Möbius, importantes en géométrie projective, ne doivent pas être confondues avec la transformée de la théorie des nombres qui porte aussi son nom. L'importante fonction (n) et la formule d'inversion de Möbius font partie de ses apports en théorie des nombres.
+Ruban de Möbius (réalisation à partir d'une bande de papier);
+Schulpforta, la ville natale de Möbius, en 1900.
+Ruban de Möbius animé
+Ouvrages: Der barycentrische Calcül : ein neues Hilfsmittel zur analytischen Behandlung der Geometrie, Leipzig (1827); Lehrbuch der Statik, 2 Bde, Leipzig (1837); Die Elemente der Mechanik des Himmels, Leipzig (1843).
+
+Voir aussi
+
+Articles connexes: Bouteille de Klein. Portail des mathématiques; Portail de l'Allemagne.

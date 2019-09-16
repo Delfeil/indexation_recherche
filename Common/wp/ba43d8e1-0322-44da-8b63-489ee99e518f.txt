@@ -1,0 +1,136 @@
+L'agriculture (du latin agricultura, composé à partir de ager, champ et colere, cultiver) est un processus par lequel les êtres humains aménagent leurs écosystèmes et contrôlent le cycle biologique d'espèces domestiquées, dans le but de produire des aliments et d'autres ressources utiles à leurs sociétés. Elle désigne l'ensemble des savoir-faire et activités ayant pour objet la culture des sols, et, plus généralement, l'ensemble des travaux sur le milieu naturel (pas seulement terrestre) permettant de cultiver et prélever des êtres vivants (végétaux, animaux, voire champignons ou microbes) utiles à l'être humain.
+La délimitation précise de ce qui entre ou non dans le champ de l'agriculture conduit à de nombreuses conventions qui ne font pas toutes l'objet d'un consensus. Certaines productions peuvent être considérées comme ne faisant pas partie de l'agriculture : la mise en valeur de la forêt (sylviculture), l'élevage d'animal aquatique (aquaculture), l'élevage hors-sol de certains animaux (volaille et porc principalement), la culture sur substrat artificiel (cultures hydroponiques)... Mis à part ces cas particuliers, on distingue principalement la culture pour l'activité concernant le végétal et l'élevage pour l'activité concernant l'animal.
+L'agronomie regroupe, depuis le XIXe siècle, l'ensemble de la connaissance biologique, technique, culturelle, économique et sociale relative à l'agriculture.
+En économie, l'économie agricole est définie comme le secteur d'activité dont la fonction est de produire un revenu financier à partir de l'exploitation de la terre (culture), de la forêt (sylviculture), de la mer, des lacs et des rivières (aquaculture, pêche), de l'animal de ferme (élevage) et de l'animal sauvage (chasse). Dans la pratique, cet exercice est pondéré par la disponibilité des ressources et les composantes de l'environnement biophysique et humain. La production et la distribution dans ce domaine sont intimement liées à l'économie politique dans un environnement global.
+
+Histoire
+L'agriculture est apparue à partir de 9 000 av. J.C., indépendamment dans plusieurs foyers d'origines, dont les mieux connus à ce jour se trouvent au Moyen-Orient, en Chine, en Méso-Amérique ainsi qu'en Nouvelle-Guinée. C'est ce que l'on a appelé la révolution néolithique. À partir de ces foyers, l'agriculture s'est diffusée en moins de 9 000 ans sur la plus grande partie de la terre. Néanmoins, au XIXe siècle, 20 % de l'humanité avait encore un mode de vie chasseur-cueilleur.
+L'apparition de l'agriculture entraîne de nombreuses modifications sociales : apparition de sociétés de classe, aggravation des inégalités hommes-femmes, augmentation importante de la population mondiale mais dégradation de l'état sanitaire général des populations, entraînant le passage à un nouveau régime démographique caractérisé par une forte mortalité et une forte natalité.
+En se répandant dans les zones précédemment couvertes de forêts, elle a donné naissance à des systèmes de culture sur abatis-brûlis, tandis que dans les écosystèmes de prairie et de steppe, elle a donné naissance à des systèmes agricoles pastoraux. Suite à la progressive augmentation de la population, les forêts ont régressé et les systèmes de culture sur abatis-brûlis ont laissé la place à une série diversifiée de systèmes agraires : systèmes basés sur la maîtrise complexe de l'irrigation (Mésopotamie, Égypte, Chine, Andes), systèmes de riziculture aquatique, systèmes de savane, systèmes de culture attelée légère (dans l'Empire Romain). Suite à la révolution agricole du Moyen Âge, les systèmes d'agriculture attelée légère européens (caractérisés par l'usage de l'araire) donnent naissance aux systèmes de culture attelée lourde (caractérisés par l'usage de la charrue).
+Suite à l'échange colombien, à partir de 1492, l'intensification du commerce maritime mondial et la mise en contact de l'ancien et du nouveau monde modifient fortement les systèmes agraires, en permettant aux plantes cultivées américaines (maïs, pomme de terre, tomate, piment, haricot...) de se diffuser en Europe, Afrique et Asie. De même, les plantes et animaux domestiques de l'ancien monde pénètrent en Amérique. Cet échange contribuera à la mise en place du système des plantations et à la colonisation de l'Amérique. Cet échange d'espèce concerne aussi les bioagresseurs, qui sont introduits dans de nouveaux territoires.
+La révolution agricole du XVIIIe siècle (parfois appelée première révolution agricole), née en Angleterre et aux Pays-Bas, basée sur la suppression de la jachère et une meilleure complémentarité entre élevage et cultures, augmente la productivité agricole de l'Europe (sans toutefois atteindre celle des systèmes rizicoles d'Asie du Sud-Est).
+Au XIXe siècle, la révolution industrielle conduit à une première phase de mécanisation de l'agriculture. Le développement de l'agronomie pendant ce siècle conduit aux premières pratiques modernes de chaulage et de fertilisation. Le XIXe siècle est également caractérisé par la colonisation européenne de nouvelles terres agricoles (en Amérique du Nord, en Argentine, en Russie, en Australie et en Nouvelle-Zélande) et par l'expansion du système des plantations. Les premiers engrais azotés chimiques sont produits industriellement dans les années 1910 (par le procédé Haber-Bosch, principalement). Mais ce n'est qu'à partir de 1945 que l'agriculture d'Europe et d'Amérique du Nord voit une intensification massive de sa production par le recours simultané à la motorisation (tracteur, moissonneuse-batteuse, récolteuse automotrice...), à la mécanisation, aux engrais chimiques, aux pesticides et à de nouvelles variétés végétales adaptées à ces conditions (céréales à paille courte, par exemple). Se développe en parallèle l'élevage hors-sol. Le développement de la recherche et du conseil agronomique est également un élément clé de ce processus (en France, par exemple par la création de l'INRA et des instituts techniques agricoles, développement de l'enseignement agricole). Cette intensification accélère fortement le phénomène d'exode rural, qui avait commencé en Europe vers 1870, ainsi que la spécialisation des régions et des exploitations agricoles dans quelques productions. En France, la Bretagne se spécialise dans l'élevage intensif, l'Île-de-France dans les grandes cultures (céréales, betterave...), le pourtour méditerranéen dans la vigne et les fruits et légumes, etc.
+Dans les pays en développement, un processus de modernisation analogue se produit, la révolution verte, basée sur de nouvelles variétés de plantes, des intrants et la maîtrise de l'irrigation. Néanmoins, au début du XXIe siècle, la majorité de la paysannerie des pays du Sud n'a pas accès aux techniques de la révolution verte.
+Dans la dernière moitié du XXe siècle, la déprise agricole, diverses crises économiques de l'agriculture intensive, plusieurs crises environnementales et sanitaires, ainsi que le développement de la prise de conscience environnementale, conduisent à une critique des conséquence sociales et environnementales de l'intensification agricole. Elles conduisent à la création et à la diffusion de modèles agricoles alternatifs (agriculture biologique, agriculture paysanne, agroécologie...).
+Malgré l'exode rural massif contemporain, la population agricole active serait d'environ 1,34 milliard de personnes soit près de 43 % de la population active mondiale.
+L'agriculture recouvrait 37,7 % des terres émergées en 2013.
+
+Production agricole
+L'agriculture assure principalement l'alimentation des humains. Elle produit également l'alimentation du bétail (cultures fourragères, prairies). En outre, l'agriculture produit un nombre important de produits tels que des peaux d'animaux (cuir, fourrure), de la laine, des engrais (fumier, lisier, farines animales, engrais verts), des produits destinés à l'industrie (éthanol, biodiesel, fécule, caoutchouc, fibres textiles d'origine végétale), des plantes vertes et fleurs, du bois et des matériaux de construction (paille, isolants d'origine végétale). Elle représente un maillon indispensable dans la chaîne agroalimentaire, en lui assurant l'approvisionnement en matières premières (fécule, oignon, céréale, fruit, etc.).
+La culture, ou production végétale, est divisée en grandes cultures (céréales, oléagineux, protéagineux et quelques légumes), arboriculture fruitière, viticulture (production du raisin), sylviculture et horticulture.
+L'élevage, ou production animale, vise à faire naître et élever des animaux pour la consommation directe (viande, poisson) ou pour leurs produits secondaires (lait, oeuf, laine, miel, soie, etc). Les exploitations agricoles peuvent par exemple orienter leur production vers les bovins, les porcins, les ovins-caprins, les granivores, l'aquaculture, l'héliciculture...
+La valeur de la production agricole mondiale est estimée à 3 100 milliards de dollars américains en 2014, soit environ 4% du PIB mondial.
+En 2014, la superficie des terres agricoles se monte à 4,9 milliards d'hectares, soit 38% des terres émergées. Les terres cultivées se composent à hauteur de 68% de prairies et pâturages, à 29% de terres arables et à hauteur de 3% de cultures permanentes (vergers, vignobles et autres de plantes pérennes à usage alimentaire). Seuls 331 millions d'hectare (soit 6,7% des terres agricoles) étaient à cette date équipés pour l'irrigation.
+Occupation des sols en Europe. Les terres arables sont en jaune et les prairies en vert clair.
+Sécurité alimentaire
+Les crises alimentaires de 2008 et de 2011 ont posé la question de la capacité à nourrir la population mondiale. Ces crises ont des origines multifactorielles complexes. "Cet emballement résulte du cumul de facteurs à long et à court termes : croissance de la population, investissements insuffisants dans l'agriculture et le développement rural, diminution des stocks, augmentation du prix du pétrole (donc des transports et des engrais), modification du climat, accaparement des terres pour les biocarburants ou l'exportation, distorsions du marché..."
+
+Technique
+De nombreuses conditions et facteurs de production interviennent dans les choix techniques des agriculteurs : la disponibilité en eau, en quantité et en qualité; le climat et ses variations météorologiques (température, pluviométrie, sécheresse, grêle, gel et autres calamités climatiques); le sol et ses différentes caractéristiques, notamment sa fertilité; les espèces végétales et animales domestiques; les bioagresseurs (parasites, pathogènes, adventices, ravageurs); les espèces auxiliaires de culture; la disponibilité en matériel agricole, en intrants et en connaissances agronomiques; La disponibilité en terres, en travail humain et en capitaux; et globalement tout l'environnement socio-économique qui modifient les conditions citées ci-dessus (prix du pétrole, législation (droit foncier, droit du travail, droit environnemental...) structure de la famille, comportement du consommateur, politiques agricoles, etc.).
+
+Système de production agricole
+On distingue plusieurs systèmes de production agricoles selon la combinaison (nature et proportions) de leurs activités productives, de leurs moyen de production, des ressources naturelles disponibles, de leur structure sociale et juridique : l'agroforesterie; l'agriculture biodynamique; la micro-agriculture biointensive; l'agriculture biologique; l'agriculture de conservation; l'agriculture durable; l'agriculture extensive; l'agriculture intégrée; l'agriculture intensive; L'agriculture paysanne; L'agriculture de précision; l'agriculture raisonnée; L'agriculture de subsistance; L'agriculture vivrière.
+
+Système de culture
+
+Techniques agricoles
+L'agriculture hors-sol : culture successivement hydroponique, aéroponique, puis ultraponique. Pulvérisation d'un champ par avion, dans l'Illinois, aux États-Unis.
+Les techniques qui ont marqué l'évolution de l'agriculture sont, par ordre alphabétique : Agriculture hors-sol regroupant les cultures hors-sol : aéroponie, hydroponie et les élevages hors-sol; Biotechnologie; Culture sélective des plantes; Défense des cultures, produits phytosanitaires; Élevage sélectif des animaux; Fertilisation; Hydroponie; Irrigation; Machinisme agricole; Techniques culturales simplifiées (TCS); Transfert de fertilité.
+
+Système d'élevage
+
+Domestication
+
+Amélioration des plantes
+
+Amélioration des animaux
+
+Écologie
+
+Agroécosystème
+
+Infrastructures agroécologiques
+
+Paysage agricole
+
+Environnement
+L'agriculture a causé de l'érosion des sols et des modifications de la biodiversité depuis son apparition, il y a environ 10 000 ans. Mais à partir de 1945, l'augmentation de l'utilisation des engrais minéraux, l'apparition des pesticides organiques, le développement de l'irrigation (dans le cadre de la révolution verte, notamment) et la motorisation de l'agriculture ont fortement augmenté les impacts environnementaux de l'agriculture. Les impacts environnementaux de l'agriculture contemporaine s'étendent au delà des écosystème agricoles, et incluent la pollution des eaux et de l'air, la contribution au changement climatique. La modification des pratiques agricoles a également des impacts paysagers.
+
+Besoins en eau douce
+L'agriculture est aussi un secteur fortement consommateur d'eau douce. Une tonne de céréales nécessite en moyenne 1 000 tonnes d'eau, et produire de la viande nécessite plus d'eau encore. L'importance de la consommation en eau et des échanges de produits agricoles dans le monde a donné naissance au concept d'eau virtuelle.
+L'alimentation en eau se fait de deux façons différentes : l'agriculture dite pluviale n'utilise que l'eau de pluie ;; l'agriculture irriguée utilise l'eau des rivières, des lacs, et des réservoirs ou des eaux souterraines (nappes phréatiques).
+En 2000, dans le monde, l'agriculture irriguée consommait 1 500 km3 d'eau par an, sur une superficie de 264 millions d'hectares. Au rythme d'extension actuel de la superficie irriguée, on atteindrait, en 2050, 331 millions d'hectares irrigués, consommant environ 500 km3 par an d'eau de plus qu'aujourd'hui. Or, la demande en eau complémentaire en 2050 est estimée à 4 500 km3 par an du fait des prévisions d'accroissement démographique. Le seul recours à l'irrigation ne pourra donc pas satisfaire les besoins mondiaux. En outre, environ 10 % de l'eau actuellement utilisée pour l'irrigation provient de sources non renouvelables (nappes fossiles).
+Selon une étude de l'université d'Utrecht, des pénuries d'eau sont donc à prévoir dans de nombreux pays, dont les trois plus grands pays producteurs de céréales au monde que sont la Chine, les États-Unis, et l'Inde, ainsi que dans des pays dont la proportion d'eau d'irrigation d'origine non renouvelable est importante : Arabie saoudite, Pakistan, Iran, Mexique, notamment.
+Selon la même étude, "la non-durabilité de l'usage des eaux souterraines pour l'irrigation est un problème pour les pays utilisant intensivement des eaux souterraines, mais aussi pour le monde dans son ensemble, étant donné que le commerce international introduit de fortes corrélations entre la production de nourriture dans un pays et la consommation dans un autre."
+Ces enjeux véritables sont des défis pour demain auxquels l'humanité s'efforce de répondre. Au-delà du perfectionnement des méthodes de traitements de l'eau (dessalement...), le stockage fait partie des moyens utilisés afin d'économiser l'eau (réservoirs, citerne souple).
+
+Contribution à l'effet de serre
+Le secteur agricole contribue fortement à l'effet de serre. Dans l'Union européenne, la part de l'agriculture dans les émissions de gaz à effet de serre est de 10,2 % ; les émissions de l'agriculture ont baissé de 22 % de 1990 à 2012.
+En France, les trois gaz à effet de serre émis par le secteur de l'agriculture sont les suivants, par ordre d'importance dans le secteur agricole : Le protoxyde d'azote (N2O), dont la part dans les émissions agricoles en France est de 56 %. Il est émis par la dénitrification dans les sols, processus amplifié par l'épandage d'engrais azotés et par le tassement des sols ;; Le méthane (CH4), dont la part dans les émissions agricoles en France est de 33 %. Il est émis par les productions animales en général, notamment la fermentation (méthanogénèse) des déjections animales dans les fosses de stockage, et par la fermentation entérique des ruminants ;; Le dioxyde de carbone (CO2), dont la part dans les émissions agricoles en France est de 11 %. Il est émis par l'utilisation de l'énergie en agriculture (carburant, chauffage des bâtiments d'élevage).
+La FAO publie des statistiques détaillées sur les émissions de gaz à effet de serre (métane et oxyde nitreux) mondiales et par pays (moyennes 1990-2011 en équivalent CO2) : répartition par continent : Asie 42,6 % ; Amériques 25,3 % ; Europe 14,1 % ; Afrique 13,9 % ; Océanie 4,2 % ;; répartition par secteur : fermentation entérique 40,1 % ; fumier déposé sur les pâturages : 15,2 % ; engrais synthétiques : 11,9 % ; riziculture : 10,1 % ; gestion du fumier : 7,1 % ; brûlage de savane : 5,2 % ; fumier appliqué au sol : 3,6 % ; résidus de récolte : 3,5 % ; culture de sols organiques : 2,8 % ; brûlage de résidus de récolte : 0,5 % ;; émissions par fermentation entérique par catégorie d'animaux : bovins 84,4 % (vaches laitières 10,2 % ; autres bovins : 55,3 %) ; ovins 7,1 % ; caprins 4,3 % ; chevaux 1,2 % ; camélidés 1,1 % ; ânes 0,5 % ;; émissions (dioxyde de carbone, méthane et oxyde nitreux) dues à la consommation d'énergie (brûlage de combustibles et la production d'électricité dans l'agriculture et la pêche) : 785,3 Mt CO2éq en 2010 (taux d'accroissement moyen annuel 1990-2010 : +1,6 %); répartition par combustible : gazole 44,9 %, électricité 36,9 %, charbon 9,5 %, gaz naturel 3,4 %, essence 2,3 %, fioul lourd 1,9 %, GPL 1,1 %.
+
+Consommation d'énergie
+
+Pollution de l'eau
+La pollution des eaux par des produits phytosanitaires engendre des problèmes de santé environnementale. Les pertes d'azote et de phosphore, provenant des engrais azotés et phosphorés minéraux ou des épandages de lisiers et de fientes entraînent l'eutrophisation des eaux souterraines et de surface, ainsi que des eaux côtières. Les impacts en aval induisent un appauvrissement en espèces dans les zones marines (dystrophisation des estuaires, création de zones marines mortes dont la surface a doublé tous les 10 ans depuis 1960). L'érosion des sols agricoles est source de turbidité des cours d'eau, des estuaires et zones marines (via les sédiments en suspension et-ou les blooms algaux).
+
+Pollution de l'air
+Excédent d'azote en Europe (quantité d'azote apportée - quantité prélevée par les plantes)
+La volatilisation des ions ammonium sous forme d'ammoniac est responsable de pollution de l'air aux particules. Les principales sources d'ammonium dans les sols agricoles, sont les engrais minéraux azotés (urée, principalement) et les engrais organiques (lisiers, fientes de volailles). La déposition de l'ammoniac volatilisé peut provoquer l'eutrophisation des eaux de surface et la modification de la composition es espèces végétales des écosystèmes terrestres aux sols pauvres en azote (landes, prairies calcaires).
+
+Dégradation des sol
+L'agriculture est également responsable de pollution, régression et dégradation des sols, notamment par les métaux : cadmium issu des engrais phosphatés, plomb, cuivre et autres métaux issus d'anciens pesticides, de lisiers ou de boues d'épuration contenant des traces de métaux lourds,
+Pour enrayer l'érosion du sol, certains agriculteurs abandonnent le labour pour le semis direct, qui limite aussi l'utilisation du tracteur et donc diminue les émissions de CO2. Aux États-Unis en 2005, 15 % des terres arables étaient traitées de cette façon.
+
+Organismes génétiquement modifiés
+L'utilisation des organismes génétiquement modifiés (O.G.M.) dans certains pays, tels que les États-Unis, le Canada, le Mexique ou la Chine, et les risques potentiels qui leur sont associés sont également sujets à de nombreuses discussions et conflits.
+
+Agriculture et biodiversité
+La modification des pratiques agricoles au 20ème siècle a conduit à une érosion de la biodiversité ayant conduit localement à l'extinction de nombreuses espèces animales (dont des papillons, abeilles, guêpes, coléoptères, reptiles, amphibiens, épinoches, alouettes, etc. très communs dans les champs ou à leurs abords jusque dans les années 1970). Depuis les années 1990, des expériences de monitoring de la biodiversité se mettent en place, qui ont permis notamment de quantifier les impacts de l'agriculture intensive et de mettre en évidence certains intérêts de l'agriculture biologique.
+Outre son importance pour la conservation de la diversité génétique des variétés anciennes, l'agriculture joue parfois un très grand rôle pour la protection de diversité biologique : La Commission européenne combine trois grands critères pour mesurer l'intérêt d'un espace agricole sur le plan de la contribution à la préservation de la biodiversité. Les zones ayant le score le plus élevées sont dites "à haute valeur naturelle". 10 % à 30 % des terres agricoles méritent ce titre en Europe. En France, 84 % des surfaces classées en "haute valeur naturelle" sont en montagne ou moyenne montagne (Alpes, Corse, Franche-Comté, Massif central, Pyrénées...). Ce sont surtout des zones d'élevage extensif en plein air caractérisées par une faible densité de chargement (bétail) à l'hectare, peu ou pas d'intrants chimiques et presque toujours une utilisation plus importante de main-d'oeuvre agricole.
+En France, à la demande de certaines collectivités et à certaines conditions, des zones agricoles protégées peuvent être inscrites dans les documents d'urbanisme, contre la perte de foncier agricole due à la périurbanisation.
+Rendements de blé dans les pays en développement (1950-2004)
+Agricultures biologique et durable
+L'Europe réoriente des subventions particulières vis a vis des agriculteurs qui font un effort pour l'environnement. Les mesures agrienvironnementales et l'agriculture biologique sont plus ou moins encouragées et développées selon les pays (2 % des cultures dans la zone OCDE sont "bio", jusqu'à 6 % dans certains pays).
+
+Sécurité sanitaire des aliments
+La plupart de ces maladies étaient déjà présentes dans les siècles précédents. La "tremblante du mouton" (la variante ovine de la maladie de la vache folle), la listeria ou la salmonelle ne sont pas des problèmes récents. Ils apparaissaient autrefois de manière bien plus fréquente et souvent plus grave que maintenant. En effet, de gros progrès ont été faits en matière d'hygiène et de contrôle bactérien des produits alimentaires. Mais la massification de la fabrication et de la vente des aliments font qu'un seul incident peut toucher un très grand nombre de personnes. Le caractère exceptionnel des problèmes, le nombre de personnes potentiellement touchées, la médiatisation alarmiste tendent à marquer les esprits. Néanmoins, le nombre de morts par intoxication ou empoisonnement lors de ces affaires "médiatiques" est extrêmement faible.
+Ces dernières années ont été en Europe l'objet de plusieurs crises touchant à la sécurité alimentaire : boeuf aux hormones, poulet aux dioxines, vache folle et maladie de Creutzfelt-Jakob, contaminations bactériennes d'aliments (fromage par listeria).
+Ces derniers événements et l'exigence d'une haute qualité sanitaire des produits ont eu pour conséquence la mise en place croissante de systèmes de traçabilité, la refonte de la législation sanitaire (règlements européens du paquet Hygiène) et la création d'agences de sécurité sanitaire indépendantes des pouvoirs exécutifs (EFSA pour l'Europe et AFSSA et AFSSET - fusionnées en ANSES - pour la France).
+L'étiquetage devrait permettre au consommateur de décider s'il prend le supplément de risques inhérent à une agriculture intensive ou accepte le prix plus élevé qui accompagne l'émergence ou le développement de techniques agricoles alternatives, telles que l'agriculture biologique, la permaculture, l'agriculture raisonnée et l'agriculture de précision.
+
+Économie agricole
+En économie, l'économie agricole est définie comme le secteur d'activité dont la fonction est de produire un revenu financier à partir de l'exploitation de la terre (culture), de la forêt (sylviculture), de la mer, des lacs et des rivières (aquaculture, pêche), de l'animal de ferme (élevage) et de l'animal sauvage (chasse). Dans la pratique, cet exercice est pondéré par la disponibilité des ressources et les composantes de l'environnement biophysique et humain. La production et la distribution dans ce domaine sont intimement liées à l'économie politique dans un environnement global.
+
+Échange agricole
+Les échanges agricoles représentent 8,8 % des échanges mondiaux. Ils restent très marquées par l'impact des subventions agricoles des pays développés et de nombreuses barrières douanières, tarifaires ou non. Cela dit, il faut nuancer ce chiffre : les échanges liés à l'industrie agroalimentaire, intimement liée à l'agriculture, sont loin d'être négligeables.
+
+Études économiques par pays
+Afin de favoriser les exportations, des études par pays, globales ou sectorielles, sont proposées gratuitement sur leur site internet par des organismes gouvernementaux. Parmi ceux-ci se trouvent le département de l'Agriculture des États-Unis (USDA) et Agriculture et Agroalimentaire Canada (AAC), qui représentent deux des plus importants pays exportateurs de produits agricoles. Ces deux ministères, à côté d'autres organismes, associations, universités ou entreprises, en diffusent également sur le site Globaltrade.net.
+Globaltrade.net est issu d'un partenariat public-privé (PPP) entre l'United States Commercial Service (dépendant du département du Commerce des États-Unis) et la Fédération des associations du commerce international (FITA). Globaltrade classe les études suivant deux critères de tri : par pays étudié et par industrie.
+L'Union européenne propose aussi sur son site de nombreuses études statistiques, portant sur tout ou partie du territoire communautaire.
+
+Sociologie agricole
+
+Main-d'oeuvre agricole
+
+Agriculture et inégalités
+
+Statut du foncier
+
+Politiques agricoles
+
+Enseignement agricole
+
+Industries d'aval et d'amont
+
+Agro-fourniture
+
+Agro-alimentaire
+
+Agronomie
+L'agronomie regroupe, depuis le XIXe siècle, l'ensemble de la connaissance biologique, technique, culturelle, économique et sociale relative à l'agriculture.
+
+Voir aussi
+
+Articles connexes: Agriculture extensive; Agriculture intensive; Agriculture industrielle; Agriculture mécanisée; Agriculture paysanne; Agriculture raisonnée; Agriculture durable; Agriculture soutenable; Agriculture biologique; Agriculture biodynamique; Agronomie; Alimentation; Commercialisation des produits agricoles; Économie agricole; Énergie animale; Sécurité alimentaire; Souveraineté alimentaire; Glossaire d'agriculture.

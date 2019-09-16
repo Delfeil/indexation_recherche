@@ -1,0 +1,35 @@
+La lettre est l'un des signes graphiques formant un alphabet et servant à transcrire une langue.
+Ce mot provient du latin littera "caractère d'écriture", dont l'origine est inconnue. Le Dictionnaire étymologique de la langue latine d'Ernout et Meillet signale une poossible provenance grecque ou un emprunt étrusque, "hypothèse ingénieuse et séduisante, mais non rigoureusement démontrable."
+
+Histoire
+Plan d'une propriété de la cité d'Umma, avec indication des superficies, Mésopotamie vers 2350 à 2000 av. J.-C. (Troisième dynastie d'Ur). Musée du Louvre.
+L'écriture est apparue en Mésopotamie vers 3500 av. J.-C. et en Égypte vers 3300 av. J.-C.
+Pour la première fois, en 2400 av. J.-C., les Égyptiens écrivirent sur des papyrus.
+Le premier véritable alphabet naquit en 1400 av. J.-C.
+Au IIIe siècle av. J.-C., l'alphabet latin de 19 lettres, ancêtre de l'alphabet européen, fit son apparition.
+
+Assemblage
+Le mot simple, unité porteuse de signification d'une langue donnée, est un assemblage d'une ou plusieurs lettres, éventuellement complétées par des signes diacritiques (accents, cédille, points, crochets, tilde, rond, etc.).
+Les lettres d'un mot sont juxtaposées de façon conventionnelle : en français, elles sont alignées horizontalement et écrites de gauche à droite. Cependant, sur les affiches ou enseignes, elles peuvent être disposées différemment, notamment verticalement, de haut en bas.
+
+Type de lettres
+
+Alphabets
+Chaque système d'écriture fondé sur un alphabet ou abjad possède ses propres lettres. Certaines lettres se retrouvent dans plusieurs alphabets, avec cependant des graphies et prononciations nuancées. Alphabet arabe : (de droite à gauche) , Alphabet syriaque : (de droite à gauche) , Alphabet cyrillique (variante russe) : Alphabet grec : Alphabet hébreu : (de droite à gauche) , Alphabet latin (de base) : A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z. Hangul : Bopomofo : Écriture oghamique : voir l'article correspondant. Alphabet phonétique international - utilisé pour la transcription phonétique des sons du langage parlé.
+
+Casse
+33e lettre de l'alphabet cyrillique (son "ia") : lettre en minuscule et capitale et en italique
+Police et taille
+
+Fréquence d'apparition
+
+Graphie
+La graphie d'une même lettre peut varier : pour un couple de lettres donné, souvent un doublement de la même lettre ;; en fonction de sa place dans le mot ; par exemple : la lettre grecque s'écrit à la fin d'un mot (c'est une variante contextuelle) ;; utilisation de la capitale pour l'initiale de certains mots.; la lettre grecque s'écrit à la fin d'un mot (c'est une variante contextuelle) ;; utilisation de la capitale pour l'initiale de certains mots.
+
+Codification
+La standardisation, liée notamment à l'informatique, a amené une codification des lettres et autres signes de transcription des langues et des sciences. Le système le plus connu est Unicode, basé sur la norme ISO-CEI 10646.
+
+Arts
+Les lettres se retrouvent dans les arts de la cuisine (pâte alimentaire alphabet), de la pâtisserie (nic-nac) et de la calligraphie.
+
+Voir aussi: caractère (typographie); chiffre; graphème; phrase; ponctuation; syllabe. Portail de l'écriture.

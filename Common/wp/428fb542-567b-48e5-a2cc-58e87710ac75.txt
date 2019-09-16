@@ -1,0 +1,54 @@
+Bing, anciennement Live Search, Windows Live Search et MSN Search, est un moteur de recherche élaboré par la société Microsoft. Il a été rendu public le 1er juin 2009.
+Au moment de sa sortie, en 2008, cela révélait un changement dans la stratégie commerciale de Microsoft, qui séparait son moteur de recherche de sa suite d'applications Windows Live.
+
+Présentation générale
+Dans sa version finale, Bing offre les options de recherches suivantes : sites web, images, vidéos, shopping, actualités, cartes, voyages...
+Selon Microsoft, ce moteur de recherche innove en termes d'algorithmes, qui donne des résultats plus pertinents, mieux organisés et classés en rubriques thématiques. De plus, de nouvelles fonctionnalités ont été ajoutées, comme les comparateurs de prix.
+L'objectif pour Microsoft avec ce quatrième moteur de recherche est de mieux concurrencer la suprématie du géant Google, numéro 1 absolu du secteur. Ce dernier compte, à la date d'avril 2009, 65,3 % de part de marché. Lors du lancement de Bing, Microsoft a prévu un budget communication compris entre 80 et 100 millions de dollars.
+Ce moteur de recherche est intégré aux pages de MSN et Windows Live. En juillet 2009, un partenariat a été conclu entre Microsoft et Yahoo!. Cet accord prévoit que Bing fournisse son algorithme au moteur de recherche Yahoo! Search sur les portails Yahoo!.
+En mai 2010, Microsoft annonce une alliance avec le constructeur canadien Research in Motion (partout concurrents dans le domaine des systèmes d'exploitation mobiles) qui prévoit l'intégration de Bing comme moteur de recherche par défaut dans les terminaux mobiles Blackberry.
+La campagne publicitaire de Microsoft est risquée dans la mesure où deux euros dépensés dans la promotion ne lui rapportent qu'un euro de bénéfice d'exploitation, et engendrent donc plus de 2,5 millions de dollars de pertes cette dernière année. Les résultats de la branche moteur de recherche par Microsoft en septembre 2011 indiquent des résultats pires encore : depuis la création de cette division, l'entreprise a essuyé plus de 9 milliards de dollars de pertes. Ces pertes font dire aux analystes qu'il est inutile pour Microsoft de garder Bing et qu'il devrait s'en dessaisir.
+
+Étymologie
+Le mot "bing" est une onomatopée. Microsoft a indiqué que ce nom a été choisi car il était "mémorisable, court, facile à épeler et il peut fonctionner comme une URL partout dans le monde" et qu'il rappelait aux gens le son qui survient "au moment de la découverte et de la prise de décision".
+Pendant la période de test en interne chez Microsoft, Bing avait pour nom de code Kumo. Ce mot signifie nuage dans la langue japonaise. D'après Microsoft, ils avaient opté pour ce nom en référence à la manière dont les moteurs de recherche tissent une toile sur les ressources d'Internet, afin de les ajouter à leur base de données, mais aussi pour faire une allusion au cloud computing (cloud signifiant "nuage" en anglais).
+Des rumeurs rapportent que Bing veut dire "Bing Is Not Google", ce qui serait un acronyme récursif, ou "Best Is Not Google".
+Dans la langue orale turque archaïque, le mot "millier" se disait "bïng" et pour certains dialectes turcs, ce mot prend aussi la signification d'"une très grande quantité"
+
+Fonctions proposées: Recherche sur le web; Recherche d'images; Recherche de vidéos; Recherche dans l'actualité; Recherche sur une carte (Bing Maps); Recherche de voyage; Traducteur avec (Bing Traduction); Comparateur de prix via Ciao; Fil RSS sur toutes les pages de résultats.
+
+Controverses
+Début 2011, Google a accusé Bing d'utiliser les données d'utilisateurs d'Internet Explorer pour copier et reproduire les résultats Google. La supercherie a été appuyée par les captures d'écran des deux moteurs de recherche, dont la requête est inintelligible et dont Google avait sciemment manipulé les résultats : les résultats sont identiques. Google a donc porté plainte. Hiybbprqag est un mot artificiel parmi une centaine, le plus connu, sans signification, utilisé par Google pour piéger ses concurrents, particulièrement Microsoft. La requête correspondante, qui ne devrait renvoyer à aucune page Web, fournit la preuve d'une contrefaçon.
+
+Bing Webmaster
+Au même titre que Google avec son interface Search Console (anciennement Webmaster Tools), Microsoft a lancé le même type d'interface pour son nouveau moteur de recherche Bing. Bing Webmaster propose l'inscription d'un ou plusieurs sites et des outils de suivi du référencement ou de l'indexation des pages. On note par exemple les liens entrants et leur nombre, les pages indexées, les mots clés importants des requêtes issues des internautes... L'interface propose également la création de fichier Sitemap pour accélérer l'indexation des pages web. Cependant, celui-ci ne se construit pas exactement de la même manière que le Sitemap proposé par Google, il faut donc créer un nouveau sitemap pour chaque site web ajouté.
+
+Historique des différentes versions
+
+MSN Search
+MSN Search, lancé à l'automne 1998, comprenait un moteur de recherche, un index et un robot d'indexation. Il utilisait les résultats de recherche d'Inktomi, un autre moteur de recherche.
+Début 1999, la version de MSN Search montrait les résultats de recherche de Looksmart mélangés à ceux d'Inktomi, sauf pour une courte période en 1999, pendant laquelle les résultats provenaient d'AltaVista.
+Par la suite, Microsoft développa MSN Search pour fournir ses propres résultats de recherche (listes d'adresses Web, avec des exemples de contenus correspondant à la demande de l'utilisateur), un index hebdomadaire ou quotidien de ce qui avait changé. Les améliorations commencèrent, en tant que version béta, en novembre 2004 (basées sur plusieurs années de recherche), et se poursuivirent en version commerciale en février 2005.
+La recherche d'images fut améliorée en intégrant le moteur tiers, Picsearch. Le service commença également à fournir ses propres résultats de recherche à d'autres moteurs de recherche, dans le but de renforcer son implantation et sa prédominance dans ce secteur.
+
+Windows Live Search
+La première version béta publique de Windows Live Search fut dévoilée le 8 mars 2006 et la version finale fut mise en ligne le 11 septembre 2006, en remplacement de MSN Search.
+Le nouveau moteur de recherche offrait aux utilisateurs la possibilité de chercher des types d'informations spécifiques en utilisant des onglets tels que "Web", "news", "images", "musique", "bureau", "disques locaux", ainsi qu'Encarta. Windows Live Search visait à rendre ses plus de 2,5 milliards de requêtes mensuelles "plus utiles, en fournissant aux consommateurs un meilleur accès à l'information et des réponses plus précises à leurs questions". Un menu de configuration était disponible pour personnaliser le moteur de recherche par défaut dans le navigateur web Internet Explorer.
+Lors du passage de MSN Search à Windows Live Search, Microsoft cessa d'utiliser Picsearch et commença à utiliser son propre moteur de recherche d'images, basé sur un algorithme propriétaire de recherches.
+
+Live Search
+Le 21 mars 2007, Microsoft annonçait qu'il séparait le développement de moteurs de recherches de la famille de services Windows Live, renommant ce service en Live Search.
+Live Search a été intégré dans la Live Search and Ad Platform (Recherches en Direct et Plateforme Publicitaire), dirigée par Satya Nadella, faisant partie de la division Platform and Systems (Systèmes et Plateformes) de Microsoft. Dans le cadre de ce changement, Live Search a été consolidé avec Microsoft adCenter. Toute une série de réorganisations et de consolidations de l'offre du moteur de recherche de Microsoft ont été faites sous la marque Live Search.
+Le 23 mai 2008, Microsoft annonça l'interruption de Live Search Books et de Live Search Academic, ainsi que l'intégration de tous les résultats de recherches dans des livres ou à caractère académiques dans le moteur standard. Par conséquent, Microsoft ferma également la section Live Search Books Publisher Program.
+Dans la continuité, Windows Live Expo fut interrompu le 31 juillet 2008. Peu après, Live Search Macros, un service qui permettait aux utilisateurs de créer leur propre moteur de recherche ou d'utiliser des macros créées par d'autres utilisateurs fut interrompu à son tour.
+Le 15 mai 2009, Live Product Upload, un service qui permettait aux commerciaux de télécharger des informations sur Live Search Products, fut interrompu. La réorganisation finale, devenue "Live Search QnA" fut renommée en "MSN QnA" le 18 février 2009, pour être interrompue à son tour le 21 mai 2009.
+Microsoft reconnut par la suite qu'il n'y aurait pas d'issue tant que le mot "Live" resterait dans la marque. Afin de créer une nouvelle identité pour les services de moteur de recherches de Microsoft, Live Search fut officiellement remplacé par Bing le 3 juin 2009.
+
+Identité visuelle (logo):
+Ancien logo de Bing de 2009 à 2013;
+Logo de Bing de 2013 à 2016;
+Logo de Bing depuis 2016.
+
+Voir aussi
+
+Articles connexes: Moteur de recherche; Bing Maps.

@@ -1,0 +1,15 @@
+NCSA Mosaic est un navigateur web développé à partir de fin 1992 au centre de recherches américain NCSA (National Center for Supercomputing Applications), d'abord pour les plateformes X Window (X Mosaic), puis Macintosh (Mac Mosaic) et enfin Windows. C'est le navigateur qui a rendu le World Wide Web populaire.
+
+Développement
+Ce navigateur a été publié en 1993 alors que le World Wide Web développé par le CERN ne comptait que 200 sites, 3 ans après son lancement. Le projet Mosaic est alors dirigé par Joseph Hardin, les principaux développeurs étant Eric J. Bina (programmation) et Marc Andreessen (programmation et support). Il n'est pas le premier navigateur web graphique, puisque précédé par quelques autres, dont le navigateur appelé "WorldWideWeb", mais il est le premier navigateur à avoir affiché les images (GIF et XBM) dans les pages web elles-mêmes, puis à supporter les formulaires interactifs dans les pages. Il a causé une augmentation exponentielle de la popularité du World Wide Web. Il était tellement populaire que l'expression "site Mosaic" a parfois été utilisée au lieu de "site web".
+Le développement de Mosaic est arrêté depuis 1997 tandis que les autres navigateurs continuaient d'évoluer, si bien que son nombre d'utilisateurs est pratiquement tombé à zéro dès 1998.
+
+Netscape
+L'essentiel de l'équipe à l'origine de Mosaic a quitté le NCSA dès 1994 pour rejoindre Netscape Communications Corporation et développer Netscape Navigator. En particulier, Marc Andreessen est un cofondateur de Netscape Communications Corporation avec Jim Clark. L'apparition de Netscape Navigator causa un déclin immédiat, rapide et définitif de l'usage de Mosaic. Il n'y a cependant aucun lien commercial ni technique entre Mosaic et Netscape Navigator, qui a été refait à partir de zéro. Initialement, Netscape Communications Corporation a été fondé sous le nom de Mosaic Communications Corporation, mais a dû changer de nom, n'ayant pas le droit d'utiliser "Mosaic".
+
+Spyglass
+Contrairement à ce que laissent entendre les informations "À propos" d'Internet Explorer, qui citent encore Mosaic (jusqu'à Internet Explorer 6 inclus), celui-ci non plus n'y est pas directement lié. Les premières versions de Microsoft Internet Explorer étaient en fait fondées sur Spyglass Mosaic, un navigateur développé indépendamment par la société Spyglass. Celle-ci avait un accord commercial avec NCSA lui permettant d'utiliser le nom et le code source de Mosaic, mais n'a jamais fait usage de ce dernier.
+
+Voir aussi
+
+Articles connexes: National Center for Supercomputing Applications; Marc Andreessen; Netscape Communications Corporation; World Wide Web.

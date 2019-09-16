@@ -1,0 +1,36 @@
+En algèbre linéaire, un sous-espace vectoriel d'un espace vectoriel, E, est une partie, non vide F, de E, stable par combinaisons linéaires. Cette stabilité s'exprime par : la somme de deux vecteurs de F appartient à F ;; le produit d'un vecteur de F par un scalaire appartient à F.
+Muni des lois induites, F est alors un espace vectoriel. L'intersection d'une famille non vide de sous-espaces de E est un sous-espace de E. La réunion d'une famille non vide de sous-espaces n'en est généralement pas un ; le sous-espace engendré par cette réunion est la somme de cette famille.
+
+Définitions équivalentes
+Soit E un espace vectoriel sur un corps K. "Une partie F de E est un sous-espace vectoriel de E si et seulement si : 1) (F, +) est un sous-groupe additif de (E, +) ;; 2) le produit d'un vecteur de F par un scalaire appartient à F."
+En effet, la condition 1, plus forte que la condition "F est non vide et stable par sommes", lui est équivalente en présence de la condition 2 car cette dernière entraîne que F est stable par opposés (si u F alors -u - (-1)u F).
+Une caractérisation intermédiaire donc également équivalente est : "Une partie de E est un sous-espace vectoriel de E si et seulement si elle contient le vecteur nul 0E et elle est stable par combinaisons linéaires."
+Par ailleurs, la stabilité par combinaisons linéaires possède des formulations équivalentes à celle du résumé introductif, comme u , v F , K , u + v F (-displaystyle -forall u,v-in F,-forall -lambda ,-mu -in K,-lambda u+-mu v-in F) ou encore u , v F , K , u + v F. (-displaystyle -forall u,v-in F,-forall -lambda -in K,-lambda u+v-in F.)
+
+Exemples: L'espace nul (0E) et l'espace total E sont respectivement le plus petit et le plus grand sous-espace vectoriel de E. On les appelle les "sous-espaces vectoriels triviaux" de E.; Dans l'espace vectoriel Kn des n-uplets (pour n 0) : l'ensemble des solutions x - (x1,.. xn) d'une équation linéaire homogène donnée, a1x1 +... + anxn - 0 (où a1,.. an sont n scalaires fixés, non tous nuls), est un sous-espace vectoriel et plus précisément un hyperplan : si n - 3, c'est un plan vectoriel de l'espace K ; si n - 2, c'est une droite vectorielle du plan K.; plus généralement, l'ensemble des solutions d'un système d'équations linéaires homogènes est un sous-espace vectoriel.; l'ensemble des solutions d'une équation linéaire non homogène a1x1 +... + anxn - b, où le scalaire b est non nul, n'est pas un sous-espace vectoriel puisqu'il ne contient pas le vecteur nul. C'est seulement un sous-espace affine.; l'ensemble des solutions x - (x1,.. xn) d'une équation linéaire homogène donnée, a1x1 +... + anxn - 0 (où a1,.. an sont n scalaires fixés, non tous nuls), est un sous-espace vectoriel et plus précisément un hyperplan : si n - 3, c'est un plan vectoriel de l'espace K ; si n - 2, c'est une droite vectorielle du plan K.; plus généralement, l'ensemble des solutions d'un système d'équations linéaires homogènes est un sous-espace vectoriel.; l'ensemble des solutions d'une équation linéaire non homogène a1x1 +... + anxn - b, où le scalaire b est non nul, n'est pas un sous-espace vectoriel puisqu'il ne contient pas le vecteur nul. C'est seulement un sous-espace affine.; Dans l'espace ℝℝ des applications de ℝ dans ℝ, on considère souvent les sous-espaces vectoriels constitués des applications continues, ou dérivables, ou polynomiales, etc. ou solutions d'une équation différentielle linéaire homogène.; Pour toute partie A d'un espace vectoriel E, l'ensemble des combinaisons linéaires d'éléments de A forme un sous-espace vectoriel de E, appelé sous-espace engendré par A.; Le noyau (resp. l'image) d'une application linéaire de E1 dans E2 est un sous-espace vectoriel de E1 (resp. de E2).
+
+Propriété essentielle
+Pour tout sous-espace vectoriel F d'un espace E, la stabilité par combinaisons linéaires permet de restreindre (au départ et à l'arrivée) les deux lois d'espace vectoriel de E en deux applications + : FF F et : KF F. Muni de ces deux applications,
+En effet, (F, +) est un (sous-)groupe et tous les autres axiomes d'espace vectoriel (comme la commutativité de +) restent vrais dans F par restriction car ils ne font intervenir que des quantificateurs universels.
+Ceci permet de démontrer à peu de frais qu'une structure donnée est un espace vectoriel : il suffit de vérifier qu'elle est un sous-espace d'un espace déjà connu. Par exemple, les polynômes à coefficients dans K forment un espace vectoriel, comme sous-espace K(ℕ) de l'espace Kℕ des suites (en identifiant tout polynôme à la suite, nulle à partir d'un certain rang, de ses coefficients).
+
+Dimension
+Pour tout sous-espace F de E on a : dim(F) dim(E) ;; si E est de dimension finie et si dim(F) - dim(E), alors F - E. Cette implication devient fausse en dimension infinie.
+
+Intersection de sous-espaces vectoriels
+Soient F1 et F2 deux sous-espaces vectoriels de E. Alors F1F2 est un sous-espace vectoriel de E.
+Plus généralement, pour toute famille non vide (Fi)iI de sous-espaces vectoriels de E, l'intersection iI Fi est un sous-espace vectoriel de E.
+
+Union de sous-espaces vectoriels
+La réunion de deux sous-espaces n'est un sous-espace que lorsque l'un des deux sous-espaces est inclus dans l'autre. En effet, dans le cas contraire, cette réunion n'est pas stable par addition.
+Pour que la réunion d'une famille non vide (finie ou infinie) de sous-espaces soit un sous-espace, il est suffisant (mais bien sûr pas nécessaire) que la famille soit filtrante, c'est-à-dire que l'union de deux éléments quelconques de la famille soit incluse dans un élément de la famille.
+Si un K-espace vectoriel E est réunion d'une famille finie de sous-espaces différents de E, alors le corps K est fini.
+Démonstration
+Démontrons le troisième point (les deux premiers sont immédiats). Supposons que E est réunion de sous-espaces propres E1,.. En distincts, et même (quitte à éliminer les redondances) tels qu'aucun d'entre eux ne soit inclus dans la réunion des autres. Soient u un vecteur appartenant à E1 mais pas aux autres Ek et v un vecteur n'appartenant pas à E1. Alors, l'ensemble v + Ku est disjoint de E1 et contient au plus un vecteur de chaque autre Ek. Par conséquent, K a au plus n - 1 éléments.
+
+Somme de sous-espaces vectoriels
+Soient F1 et F2 deux sous-espaces vectoriels de E. Leur somme F1 + F2, définie par F 1 + F 2 - (x 1 + x 2 x 1 F 1 , x 2 F 2) (-displaystyle F-(1)+F-(2)--(x-(1)+x-(2)-mid x-(1)-in F-(1),x-(2)-in F-(2)-)), coïncide avec le sous-espace engendré par F1F2.
+Plus généralement, la somme iI Fi d'une famille non vide (Fi)iI de sous-espaces vectoriels de E, définie comme l'ensemble des vecteurs x de E qui admettent au moins une décomposition de la forme x - iI xi avec xi Fi (tous nuls sauf un nombre fini), est égale au sous-espace engendré par la réunion des Fi.
+Si de plus cette décomposition de tout vecteur de iI Fi est unique, la somme est dite directe.
+
+Articles connexes: Algorithme de Zassenhaus (en); Sous-espace supplémentaire; Formule de Grassmann; Espace vectoriel quotient; Sous-espace stable; Sous-espace propre; Sous-espace caractéristique; Espace vectoriel fini et dénombrement de ses sous-espaces; Code linéaire; Sous-module. Portail des mathématiques.

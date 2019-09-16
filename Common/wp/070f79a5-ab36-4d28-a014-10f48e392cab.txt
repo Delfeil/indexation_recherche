@@ -1,0 +1,2 @@
+Open Language Archives Community (OLAC) est un projet fondé en 2000 visant à créer un moyen de recherche unifié dans les bases de données de ressources linguistiques. L'information sur ces ressources est stocké en format XML pour faciliter la recherche.
+OLAC informe sur les meilleures pratiques d'archivage et s'emploie à promouvoir l'interopérabilité entre les archives linguistiques.

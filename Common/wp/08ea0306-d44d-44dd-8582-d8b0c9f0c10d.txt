@@ -1,0 +1,13 @@
+Le General Problem Solver (GPS) est un programme informatique créé en 1959 par Herbert Simon, Cliff Shaw et Allen Newell dans le but de construire un solveur de problèmes universel.
+N'importe quel problème formalisé peut en principe être résolu par GPS, par exemple des preuves de théorèmes, des problèmes géométriques et des parties d'échecs. GPS était le premier programme à séparer sa base de données (tables) de sa stratégie de résolution de problèmes. GPS est implémenté dans le langage informatique IPL.
+Après la spécification des objets et les opérations applicables sur ces objets par l'utilisateur, GPS génère les heuristiques par une confrontation moyens-fins (means-ends analysis). Cette stratégie de résolution de problèmes est largement utilisée dans le domaine de l'Intelligence Artificielle.
+GPS a résolu des problèmes simples et facilement formalisés comme les Tours de Hanoi. Pour les problèmes plus réalistes il est facilement victime de l'explosion combinatoire.
+Le paradigme GPS a évolué vers l'architecture Soar.
+
+Exemple
+Soit à aller, porte à porte, de A à B, où A et B sont deux lieux précisément déterminés. Ces deux lieux appartiennent ou non à la même rue, à la même ville, à la même agglomération, au même pays... Ces divers attributs définissent les différences entre ces deux lieux, différences considérées comme plus ou moins importantes.
+Et, d'autre part, soient divers moyens de transport (marche, taxi, bus, tram, train, bateau, avion...). Une table fixe leur pertinence estimée pour chaque type de différence de lieu.
+Supposons A et B deux lieux si lointains que la table indique l'avion comme le plus souhaitable. Le problème posé est ramené à trois problèmes plus simples : aller de A à son aéroport (prologue ; prérequis de faisabilité); aller de l'aéroport de A à l'aéroport de B (problème central); aller de l'aéroport de B à B (épilogue assurant la bonne fin).
+En cas d'échec, on tentera un second moyen principal...
+
+Voir aussi: Système expert. Portail de l'informatique.

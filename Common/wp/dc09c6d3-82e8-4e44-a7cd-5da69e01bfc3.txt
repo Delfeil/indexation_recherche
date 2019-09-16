@@ -1,0 +1,85 @@
+L'Entente interdépartementale pour la démoustication du littoral méditerranéen (EID Méditerranée ou EID-Med) est un opérateur en zones humides. Cet établissement public chargé de la lutte contre les moustiques nuisibles (ou nuisants) et vecteurs, est mandaté depuis près de soixante ans par les Départements des Pyrénées-Orientales, de l'Aude, de l'Hérault, du Gard et des Bouches-du-Rhône. En 2007, la Région Occitanie (ex-Languedoc-Roussillon) puis, en 2012, le Département du Var ont également adhéré à ses statuts (www.eid-med.org).
+Outre le contrôle des espèces de moustiques nuisibles issus des zones humides littorales et pouvant atteindre les zones agglomérées à fortes densités de populations, l'EID Méditerranée est un des principaux acteurs de la lutte contre le "moustique tigre", arrivé récemment, aujourd'hui identifié dans tout ou partie d'une trentaine de départements, se développant dans les zones urbaines, principalement au sein des domiciles privés (www.moustiquetigre.org).
+
+Contexte
+Il y a plus d'un demi-siècle, l'équation était simple : avec les moustiques, pas de développement possible sur 30 kilomètres en profondeur du littoral. C'est pour répondre à un objectif touristique et économique que les élus départementaux ont créé l'Entente interdépartementale pour la démoustication du littoral méditerranéen (EID Méditerranée), en 1959. Plus généralement, les objectifs de salubrité, de confort, de qualité de vie et de développement socio-économique au sens large ont été également assurés par cette mission.
+
+Histoire...
+Au début, en 1959, 3 départements fondateurs : l'Hérault, le Gard et les Bouches-du-Rhône.
+Ils sont rejoints en 1963 par ceux de l'Aude et des Pyrénées-Orientales, pour coller au territoire couvert par la Mission interministérielle pour l'aménagement touristique du littoral du Languedoc-Roussillon (Mission Racine, du nom de son directeur emblématique, Pierre Racine).
+Fixant la démoustication comme préalable incontournable à toute démarche d'aménagement, l'État contribue alors au financement de l'EID Méditerranée, aux côtés des Départements, jusqu'en 1982, date de dissolution de la Mission interministérielle. Depuis lors, la démoustication est exclusivement financée par les Départements membres, avec à travers eux une participation des 218 communes incluses dans les arrêtés préfectoraux annuels, et la Région Occitanie.
+L'EID Méditerranée est un organisme interdépartemental géré selon les dispositions s'appliquant aux syndicats mixtes ouverts (art. L5421 et L5721 du code général des collectivités territoriales - CGCT).
+
+... et histoire d'eau
+C'est l'eau qui est à la source du développement des moustiques, qui passe par un stade aquatique.
+Les femelles, après un "repas" sanguin destiné, en fait, à acquérir les protéines nécessaires au développement de leurs oeufs, pondent, selon les espèces, sur un sol à sec pouvant être mis en eau (Aedes caspius et detritus) ou sur une surface d'eau chargée en matière organique (Culex pipiens) ou dans un réceptacle, au-dessus de la ligne de flottaison (Aedes albopictus).
+C'est la mise en eau ou l'élévation du niveau d'eau qui, au contact des oeufs et par des températures appropriées, entraînent l'éclosion. Suivent alors 4 stades larvaires, dont la croissance est d'autant plus rapide que la température est élevée (en moyenne un peu moins d'une semaine).
+Au dernier stade, la larve devient nymphe, d'où se dégage et s'envole le moustique adulte.
+
+Mode opératoire
+En 5 décennies, d'énormes progrès qualitatifs ont été accomplis. En appui sur les universitaires régionaux, les techniciens de l'EID Méditerranée ont acquis une compétence spécifique.
+Très vite, la démoustication est devenue antilarvaire et sélective.
+Une cartographie écologique au 1-5000, aujourd'hui incluse dans un système d'information géographique (SIG), permet la corrélation d'indicateurs végétaux en zones humides avec la biologie des insectes piqueurs. En résultent un recensement exhaustif des gîtes à moustiques dont les espèces sont nuisibles pour l'Homme et leur veille quotidienne : cette stratégie de précision spatiale et temporelle permet à la fois efficacité et maîtrise des interventions.
+La démoustication est un contrôle et en aucun cas une éradication. Pour être pertinent, ce contrôle justifie une solidarité territoriale, car les moustiques ne connaissent pas... les limites administratives et peuvent se disperser sur des dizaines de kilomètres. Les interventions sont contenues, chaque gîte n'étant traité que deux à trois fois par an, en fonction des mises en eau. Cette approche fine fait de la démoustication un acte de gestion intégrant une pluralité de moyens (traitements, gestion de l'eau, prévention) et un objectif de conservation des milieux.
+Aujourd'hui, l'EID Méditerranée garantit ses processus au travers d'une certification "QSE" (qualité - sécurité - environnement), décernée par le Bureau Veritas.
+Voir "Qualité".
+
+Insecticides
+La mise en oeuvre de la directive européenne "biocide", édictée en 1998, a abouti à une paupérisation extrême des substances insecticides homologuées et disponibles pour la démoustication. En 15 ans, on est passé d'une dizaine à deux : le Bti (Bacillus thuringiensis ser. israelensis), bio-insecticide pour les traitements antilarvaires, en milieux naturels comme urbains. la deltaméthrine, issue de pyrèthres naturels (substance qu'on trouve dans les applicateurs domestiques vendus en grande surface), s'adressant aux moustiques à l'état adulte, uniquement en milieu urbain. Ce produit est réservé aux traitements antivectoriels (pour la santé publique) : en effet, étant le seul utilisable dans sa catégorie d'emploi, il importe d'éviter, par des utilisations récurrentes pour un objectif de confort, un risque de résistance chez les populations de moustiques ciblées.
+Cette situation, due à des considérations économiques et commerciales, est problématique et conduit les opérateurs publics de lutte à solliciter les autorités de l'État et le secteur industriel pour développer de nouvelles molécules, afin d'optimiser le nombre de produits utilisables.
+
+Traitements
+En milieu "rural", les traitements sont réalisés principalement (" 75 %) par moyens aériens : avions ou hélicoptères (à l'étude : drones), avec traçage par DGPS. Les 25 autres % sont effectués, là où la réglementation l'autorise, par des moyens au sol : motos 4x4 (Quads), chenillés amphibies (avec très faible pression au sol), "pedibus cum jambis" (avec appareil à dos).
+Le choix de tel ou tel moyen est fonction de l'importance des superficies à traiter, des conditions météo (températures, principalement) pesant sur la rapidité du développement larvaire, de l'orientation et de la puissance des vents postérieurement à des mises en eau, pouvant rendre les traitements aériens difficiles voire impossibles.
+En moyenne, 30 000 à 40 000 hectares sont traités annuellement (les chiffres peuvent beaucoup varier d'une année à l'autre, selon le nombre et l'intensité des phénomènes météorologiques : pluies, vents marins, entrées maritimes..., d'une part, et les mises en eau artificielles (irrigations...), d'autre part.
+En milieu urbain, les traitements antilarvaires contre l'espèce commune Culex pipiens, principalement sur l'espace public (bouches d'égout, avaloirs pluviaux...), se font à partir de véhicules équipés et sont instrumentés manuellement par des techniciens.
+En moyenne, 50 000 gîtes larvaires urbains sont contrôlés annuellement, variables en nombre eux aussi selon les secteurs couverts par les agences.
+
+Environnement
+La demande publique a évolué. Aux motivations sanitaire et économique s'est ajoutée une préoccupation environnementale forte : protection du littoral, suivis écologiques multiples, que l'EID Méditerranée opère dans le cadre et à partir de la démoustication.
+Ainsi, s'implique-t-elle dans la restauration des cordons dunaires, assurant, pour le compte de collectivités concernées, le maintien et le suivi des systèmes littoraux. Il s'agit d'éviter les entrées d'eau de mer franchissant des dunes dégradées voire réduites à néant et venant inonder les terres situées en amont où se trouvent des oeufs de moustiques prêts à éclore. Dans le même temps, la reconstitution des cordons dunaires contribue à sauver les plages et à en restaurer l'attrait auprès des estivants.
+En partenariat avec de nombreux organismes scientifiques, universitaires et environnementaux, l'EID-Med développe également sur ces espaces des suivis écologiques : observation et inventaire floristique, faunistique, cartographie...
+
+Santé publique
+À l'instar de nombreuses régions du monde, les territoires couverts par l'EID Méditerranée, à lido lagunaire, n'ont pas échappé, jusqu'au début du 20ème siècle, aux épidémies de maladies transmises par les moustiques, notamment de paludisme.
+Jusqu'en 1939, de petites poussées épidémiques ont été observées dans des communes du sud du Languedoc-Roussillon. À la fin des années 1940, quelques cas isolés ont été identifiés puis la maladie a disparu.
+Toutefois, la vigilance est restée et demeure entière. Ainsi, depuis 2004, l'arrivée et l'extension continue de l'espèce exotique Aedes albopictus ("moustique tigre"), vecteur potentiel de maladies telles que le chikungunya, la dengue et le Zika, a justifié la mise en oeuvre par le ministère de la Santé d'un "plan national antidissémination", au titre duquel l'EID Méditerranée est appelée à réaliser des traitements de lutte antivectorielle (LAV), à la demande des conseils départementaux (qui en ont la charge), après signalements de cas suspects ou avérés, importés ou autochtones, par les ARS (agences régionales de santé).
+
+Recherche
+Les modes opératoires standardisés appliqués par les agents opérationnels de l'EID Méditerranée nécessitent d'être adaptés en permanence aux modifications de l'environnement, en termes de règlementation (biocides, statuts de protection foncière ou labellisées), des évolutions technologiques et des contraintes budgétaires.
+Pour ce faire, l'EID Méditerranée dispose d'une équipe de recherche et développement (RD) multidisciplinaire dont le rôle est de faire évoluer ces modes opératoires de manière anticipative. Composée d'entomologistes, d'écologues, de spécialistes des biocides et des techniques de traitement, cette équipe s'appuie sur une logistique et une infrastructure adaptées (laboratoires et insectariums sécurisés).
+Elle s'appuie également sur des réseaux scientifiques et techniques extérieurs et collabore à de nombreux projets de recherche partenariaux, nationaux et internationaux, et s'est spécialisée dans l'évaluation de l'efficacité et de la sélectivité des différentes méthodes et outils de lutte contre les moustiques. La collaboration avec ces réseaux, développée au fil du temps, est rendue nécessaire aujourd'hui compte tenu de la complexité croissante des sujets traités.
+Voir "Partenariats".
+
+Organisation
+Pour le contrôle de la nuisance "traditionnelle" (moustiques issus des zones humides littorales et du milieu "rural"), 218 communes sont suivies par l'EID Méditerranée entre l'étang de Berre (aux confins de Marseille) et Cerbère (à la frontière franco-espagnole). Ce sont les communes qui se trouvent dans la zone de dispersion potentielle de ces espèces de moustiques (Aedes caspius et Aedes detritus, principalement).
+Les 160 agents de l'EID assurent en permanence le succès de cette mission sur un territoire de plus de 300 000 hectares. Sur cette zone d'action, l'EID Méditerranée dispose de 7 agences opérationnelles : Canet (66).; Narbonne (11) ;; Sauvian (34) ;; Montpellier-Fréjorgues (34) ;; Montcalm (30) ;; Arles (13) ;; Saint-Chamas (13).
+La direction générale, installée à Montpellier regroupe, les directions techniques et scientifiques (opérationnel, entomologie, laboratoire - recherche et développement, génie civil de l'environnement, cartographie - SIG), la direction administrative, la direction de la communication et un parc de véhicules et matériels.
+Les missions de l'EID Méditerranée sont suivies par un conseil scientifique et technique (CST) composé de membres indépendants : universitaires, scientifiques, médecins, biologistes, spécialistes de l'environnement.
+Pour les traitements de lutte antivectorielle (LAV) s'adressant aux "moustiques tigres", compétence dévolue aux conseils départementaux, les moyens dédiés (personnels mobilisés à partir des 7 agences sus-mentionnées + deux autres agences dédiées, dans le Var et les Alpes-Maritimes) justifient des conventions spécifiques signées avec 17 Départements métropolitains.
+
+ Qualité
+Depuis le début des années 2000, l'EID Méditerranée s'est engagée dans une démarche qualité basée selon la norme ISO 9001, afin de répondre aux attentes des bénéficiaires de ses prestations, de répondre de façon pertinente au bon usage des finances publiques, de se conformer aux exigences réglementaires et environnementales, d'optimiser les outils techniques et d'accroître les actions de traçabilité et de contrôle. Cette politique a abouti à la certification de l'établissement à la norme ISO 9001 : 2008 en juillet 2009 pour l'ensemble de ses activités.
+Cette politique a été poursuivie, en y ajoutant deux autres reconnaissances normatives : ISO 14001 - Version 2004, concernant tous les secteurs de l'environnement, et OHSAS 18001 - Version 2007, concernant la santé et la sécurité des collaborateurs de l'EID-Med.
+Ainsi, son organisation administrative et technique, son laboratoire, ses agences opérationnelles déconcentrées, ses engins et matériels spécifiques et ses modes opératoires des traitements insecticides sont passés chaque année au scanner.
+Depuis 16 ans, l'EID Méditerranée est engagée dans cette démarche qui l'a conduite à obtenir la certification QSE : trois normes en une, constituant un "système de management intégré". Cette triple certification est décernée pour 3 ans, au terme desquels un nouvel examen approfondi est effectué. Remise en cause et amélioration continue sont au coeur de ce processus.
+Historique de la démarche :
+- 2000 : début d'une démarche qualité pour le laboratoire de recherche.
+- 2008 : décision d'élargir le périmètre à l'ensemble des activités.
+- 2009 : EID Méditerranée certifiée ISO 9001 : version 2008.
+- 2012 : renouvellement de la certification ISO 9001 : version 2008.
+- 2015 : certification QSE "Qualité - Sécurité - Environnement" (ISO 9001 : version 2008, ISO 14001 : version 2004, OHSAS 18001 : version 2007).
+
+Administration
+L'EID Méditerranée est administrée par les représentants de ses collectivités membres : Départements des Pyrénées-Orientales, de l'Aude, de l'Hérault, du Gard, des Bouches-du-Rhône, du Var, Région Occitanie - Pyrénées Méditerranée, soient 13 élus titulaires et autant de suppléants formant son conseil d'administration.
+Le Président est, depuis 2015, Christophe Morgo, vice-président du CD de l'Hérault. Les Vice-Présidents sont : Martine Rolland, vice-présidente du CD des Pyrénées-Orientales, Nicolas Sainte-Cluque, conseiller départemental de l'Aude, Kléber Mesquida, président du CD de l'Hérault, Léopold Rosso, conseiller départemental du Gard, Corinne Chabaud, conseillère départementale des Bouches-du-Rhône, Francis Roux, conseiller départemental du Var, Didier Codorniou, vice-président de la Région Occitanie.
+
+Partenariats
+En France métropolitaine et outre-mer, il existe d'autres opérateurs publics de contrôle de la nuisance des moustiques et de lutte antivectorielle. Les principaux d'entre eux se sont réunis dans une association intitulée ADEGE (agence nationale pour la démoustication et la gestion des espaces naturels démoustiqués). Il s'agit, outre l'EID Méditerranée, de l'EID Rhône-Alpes, de l'EID Atlantique et de services de collectivités territoriales : conseil départemental de la Corse-du-Sud, collectivité territoriale de la Martinique, collectivité territoriale de la Guyane, syndicat intercommunal de lutte du Bas-Rhin (www.adege.eu).
+L'EID Méditerranée est partenaire scientifique de l'IRD(Institut de recherche pour le développement), du CIRAD(Centre de coopération internationale en recherche agronomique pour le développement), de l'INRA(Institut national de la recherche agronomique), de l'Université de Montpellier et du CNRS (Centre national de la recherche scientifique), dans le cadre du Réseau montpelliérain sur les vecteurs de maladies émergentes (RMVME).
+Plus globalement, l'EID Méditerranée est membre du Centre national d'expertise sur les vecteurs - CNEV (www.cnev.fr).
+L'EID Méditerranée participe aussi à d'autres transversales techniques et scientifiques : l'EMCA (European mosquito control association) et la SOVE-Europe (European society for vector ecology).
+
+Voir aussi
+
+Articles connexes: Établissement public à caractère administratif en France; Mission interministérielle d'aménagement touristique du littoral du Languedoc-Roussillon.

@@ -1,0 +1,17 @@
+lighttpd (ou "lighty") est un logiciel de serveur Web (ou HTTP) sécurisé, rapide et flexible.
+C'est un logiciel libre écrit en C et distribué selon les termes de la licence BSD.
+Sa rapidité vient du fait qu'il a une plus petite empreinte mémoire que d'autres serveurs HTTP ainsi qu'une gestion intelligente de la charge CPU.
+Beaucoup de langages, comme PHP, Perl, Ruby, Python sont supportés via FastCGI.
+Le principal désavantage de lighttpd face à son concurrent Apache est de ne pas supporter les fichiers.htaccess : les directives ne sont évaluées qu'une seule fois, au démarrage du serveur, et nécessitent de le redémarrer afin d'être prises en compte.
+
+Utilisation
+En avril 2007, lighttpd est parmi les cinq serveurs Web les plus utilisés ; en juillet 2008 il confirme sa popularité grandissante, Netcraft le classant quatrième serveur web le plus utilisé avec 2,9 millions de sites hébergés, reléguant nginx à la cinquième place.
+Cependant, depuis décembre 2008, nginx (3 354 329 sites) est plus utilisé que lighttpd (3 046 333 sites), et cette tendance se confirme, puisqu'en janvier 2009 il y a 3 462 551 sites utilisant nginx contre 2 989 416 sous lighttpd.
+En novembre 2010, Lighttpd est d'après netcraft le 5e serveur utilisé sur les sites web mondiaux avec 0,83 % de part de marché, derrière les 5,94 % de Google Web Server, les 6,04 % de Nginx, les 22,70 % du IIS de Microsoft, et les 59,36 % d'Apache HTTP Server.
+
+Technique
+L'utilisation des interface FastCGI, SCGI et CGI pour des programmes externes permet d'écrire des applications Web dans n'importe quel langage habituellement utilisé sur les serveurs. PHP étant populaire, ses performances ont été particulièrement optimisées.
+
+Voir aussi
+
+Articles connexes: Serveur HTTP; HTTP; World Wide Web.

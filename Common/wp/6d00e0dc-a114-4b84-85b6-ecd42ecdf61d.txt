@@ -1,0 +1,10 @@
+Ferret est un portage de Lucene en Ruby.
+
+Historique
+Annoncé par David Balmain le 21 octobre 2005(1), puis repris et expliqué sur la liste de distribution de Lucene consacré à Ruby(2), Ferret est une bibliothèque de moteur de recherche écrite et maintenue par lui-même ainsi que par une communauté de développeurs toujours grandissante.
+
+Implémentation
+Il est inspiré d'un projet de la Fondation Apache, Lucene, lui-même écrit en Java, et est plus rapide que celui-ci. Ferret est disponible sous licence MIT. Le logo a été dessiné par Jan Prill.
+Il est robuste, facile d'utilisation et bien documenté. Il fonctionne avec la version 1.8 du langage de programmation interprété orienté objet Ruby. La version actuelle est la 0.11.4-rc5 disponible sur Rubyforge.
+
+Voir aussi: Lucene; Ruby.

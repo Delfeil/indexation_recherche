@@ -1,0 +1,101 @@
+L'algèbre de Boole, ou calcul booléen, est la partie des mathématiques qui s'intéresse à une approche algébrique de la logique, vue en termes de variables, d'opérateurs et de fonctions sur les variables logiques, ce qui permet d'utiliser des techniques algébriques pour traiter les expressions à deux valeurs du calcul des propositions. Elle fut initiée en 1854 par le mathématicien britannique George Boole. Aujourd'hui, l'algèbre de Boole trouve de nombreuses applications en informatique et dans la conception des circuits électroniques. Elle fut utilisée la première fois pour les circuits de commutation téléphoniques par Claude Shannon.
+
+Exemple introductif
+L'algèbre de Boole des fonctions logiques permet de modéliser des raisonnements logiques, en exprimant un "état" en fonction de conditions. Par exemple dans les expressions: Communication - Émetteur ET Récepteur: Communication serait "VRAI" si à la fois Émetteur ET Récepteur étaient actifs (c'est une fonction logique dépendant des variables Émetteur et Récepteur); Décrocher - (Sonnerie ET Décision de répondre) OU décision d'appeler: Décrocher serait "VRAI" soit si à la fois on entend la sonnerie ET l'on décide de répondre, soit (OU) si simplement l'on décide d'appeler.
+L'algèbre de Boole étant un domaine commun à trois disciplines, on rencontre des notations différentes pour désigner un même objet. Dans le reste de l'article, on indiquera les diverses notations, mais on en privilégiera une pour conserver une certaine homogénéité.
+
+Algèbre de Boole des valeurs de vérité
+On appelle B l'ensemble constitué de deux éléments appelés valeurs de vérité (VRAI, FAUX). Cet ensemble est aussi noté: B - (1, 0); B - (,) (-displaystyle -(-top ,-perp -)).
+On privilégiera dans la suite la notation B - (1, 0).
+Sur cet ensemble on peut définir deux lois (ou opérations ou foncteurs), les lois ET et OU et une transformation appelée complémentaire, inversion ou contraire.
+
+Conjonction
+Elle est définie de la manière suivante : a ET b est VRAI si et seulement si a est VRAI et b est VRAI. Cette loi est aussi notée: (-displaystyle -cdot -,); (-displaystyle -wedge); ou dans la plupart des langages de programmation (Perl, C, PHP, Swift...); "AND" dans certains langages de programmation (Ada, Pascal, Perl, Python, PHP...); dans quelques notations algébriques, ou en APL; "-" (une multiplication ordinaire), pour quelques langages ne disposant pas de fonction adaptée.
+On privilégiera dans la suite la notation " (-displaystyle -cdot -,)".
+On peut construire la table de cette loi (comme une table d'addition ou de multiplication) mais on ne la confondra pas avec une table de vérité.
+
+Disjonction
+Elle est définie de la manière suivante : a OU b est VRAI si et seulement si a est VRAI ou b est VRAI. (En particulier, si a est vrai et que b est vrai aussi, alors a OU b est vrai.) Cette loi est aussi notée: + (-displaystyle +); (" (-displaystyle -vee)") en mathématiques (et en logique mathématique) ou en APL.; ou dans certains langages de programmation; En toutes lettres "or" ou "OR" en logique ou dans certains langages de programmation.
+On privilégiera dans la suite la notation + (-displaystyle +) mais on prendra garde du fait que cette loi n'est pas l'addition usuelle dans Z-2Z. C'est pourquoi, en mathématiques et en logique mathématique, la notation + (-displaystyle +) n'est pas utilisée pour désigner le "ou inclusif" : elle est réservée au "ou exclusif", opération qui (jointe au "et") fait de toute algèbre de Boole un anneau de Boole, en particulier une Z-2Z-algèbre.
+
+Négation
+La négation de a est VRAIE si et seulement si a est FAUX. La négation de a est notée: non-a, non a, not a; a (-displaystyle (-bar (a))); a - (-displaystyle a-); a (-displaystyle -neg a); "a" dans quelques notations algébriques, en APL et dans quelques langages d'interrogation de bases de données (SQL...).; "!" dans quelques langages de programmation (C, C++...); "1-" dans quelques langages ne disposant pas de fonctions adaptées (Batch...) (puisque 1-0-1 et 1-1-0).
+On privilégiera dans la suite la notation a (-displaystyle (-bar (a))).
+On obtient alors 0 - 1 (-displaystyle (-bar (0))-1) et 1 - 0 (-displaystyle (-bar (1))-0)
+
+Propriétés
+
+Propriétés des opérateurs: Associativité: Comme avec les opérations habituelles, certaines parenthèses sont inutiles: (a + b) + c - a + (b + c) - a + b + c (-displaystyle (a+b)+c-a+(b+c)-a+b+c); (a. b). c - a. (b. c) - a. b. c (-displaystyle (a.b).c-a.(b.c)-a.b.c); Commutativité: L'ordre est sans importance: a + b - b + a (-displaystyle a+b-b+a); a. b - b. a (-displaystyle a.b-b.a); Distributivité: a. (b + c) - a. b + a. c (-displaystyle a.(b+c)-a.b+a.c); a + (b. c) - (a + b). (a + c) (-displaystyle a+(b.c)-(a+b).(a+c)); Idempotence: a + a + a + (.) + a - a (-displaystyle a+a+a+(...)+a-a); a. a. a. (.). a - a (-displaystyle a.a.a.(...).a-a); Éléments neutres: a + 0 - a (-displaystyle a+0-a); a.1 - a (-displaystyle a.1-a); Absorption: 0. a - 0 (-displaystyle 0.a-0); 1 + a - 1 , donc b. (b + a) - b + b. a - b (-displaystyle 1+a-1,-quad (-text(donc))-quad b.(b+a)-b+b.a-b); Simplification: a + a. b - a + b (-displaystyle a+(-overline (a)).b-a+b); a. (a + b) - a. b (-displaystyle a.((-overline (a))+b)-a.b); Redondance: a. b + a. c - a. b + a. c + b. c (-displaystyle a.b+(-overline (a)).c-a.b+(-overline (a)).c+b.c); Complémentarité: involution : a - a (-displaystyle a-(-overline (-overline (a)))). "La lumière est allumée" - "la lumière n'est pas non allumée", "la lumière n'est pas éteinte". tiers-exclus : a + a - 1 (-displaystyle a+(-overline (a))-1). "lumière allumée" OU "lumière non allumée" est toujours VRAI. non-contradiction : a. a - 0 (-displaystyle a.(-overline (a))-0). "lumière allumée" ET "lumière non allumée" est toujours FAUX.
+Structure
+On retrouve alors toutes les propriétés qui confèrent à B une structure d'algèbre de Boole
+
+Priorité
+Pour faciliter leur compréhension, on a décidé que ces opérations seraient soumises aux mêmes règles que les opérations "de tous les jours", la fonction ET (multiplication logique) est ainsi prioritaire par rapport à la fonction OU (somme logique) ; on peut, pour s'aider, placer des parenthèses dans les opérations.
+Exemple :
+a - 0 ; b - 1 ; c - 1 (-displaystyle (a-0;b-1;c-1)) On cherche a b + c - (-displaystyle a-cdot b+c-)
+Solution
+D'abord on calcule a b (-displaystyle a-cdot b) : a b - 0 b - 0 1 - 0 (-displaystyle a-cdot b-0-cdot b-0-cdot 1-0) Puis, on calcule 0 + c - 0 + 1 - 1 (-displaystyle 0+c-0+1-1) Le résultat final est donc: a b + c - (a b) + c - 1 (-displaystyle a-cdot b+c-(a-cdot b)+c-1)
+
+Théorème de De Morgan: Première loi de De Morgan (négation de la disjonction): s'exprime par l'égalité suivante a + b - a. b (-displaystyle (-overline (a+b))-(-overline (a)).(-overline (b))).
+Table de vérité-Table de fonctionnement a b a + b (-displaystyle a+b) a + b (-displaystyle (-overline (a+b))) a (-displaystyle (-overline (a))) b (-displaystyle (-overline (b))) a. b (-displaystyle (-overline (a)).(-overline (b))) 0 0 0 1 1 1 1 0 1 1 0 1 0 0 1 0 1 0 0 1 0 1 1 1 0 0 0 0
+Dans les deux cas, l'expression ne sera VRAIE que si a et b sont fausses.
+. Deuxième loi de De Morgan (négation de la conjonction): a. b - a + b (-displaystyle (-overline (a.b))-(-overline (a))+(-overline (b))).
+Table de vérité-Table de fonctionnement a b a. b (-displaystyle a.b) a. b (-displaystyle (-overline (a.b))) a (-displaystyle (-overline (a))) b (-displaystyle (-overline (b))) a + b (-displaystyle (-overline (a))+(-overline (b))) 0 0 0 1 1 1 1 0 1 0 1 1 0 1 1 0 0 1 0 1 1 1 1 1 0 0 0 0
+Dans les deux cas, l'expression ne sera FAUSSE que si a et b sont vraies.
+.
+Fonctions logiques
+Mathématiquement, une fonction logique ou opérateur logique est une application de Bn dans B.
+En électronique, une fonction logique est une boîte noire qui reçoit en entrée un certain nombre de variables logiques et qui rend en sortie une variable logique dépendant des variables d'entrée. L'article fonction logique précise comment construire les boîtes noires de quelques fonctions fondamentales.
+Une table de vérité permet de préciser l'état de la sortie en fonction des états des entrées. Elle caractérise la fonction logique.
+Toute table de vérité, et donc toute fonction logique, peut se décrire à l'aide des trois opérations de base : disjonction (OU); conjonction (ET); négation (NON).
+On démontre aussi qu'il existe exactement 2 2 n (-displaystyle 2(2(n))) fonctions logiques de n (-displaystyle n) paramètres. Il suffit en effet de considérer toutes les tables de vérités possibles, ou de considérer le développement d'une fonction de n (-displaystyle n) paramètres
+
+Fonctions logiques fondamentales
+Elles sont issues des trois opérations de base et définissent alors: une fonction de B dans B : le complémentaire ou inversion; deux fonctions de B2 dans B qui sont la somme (OU) et le produit (ET).
+. Table de vérité de l'inverse a a (-displaystyle (-bar (a))) 0 1 1 0 Table de vérité de la somme a b a + (-displaystyle +-,) b 0 0 0 0 1 1 1 0 1 1 1 1 Table de vérité du produit a b a (-displaystyle -cdot -,) b 0 0 0 0 1 0 1 0 0 1 1 1
+Fonctions logiques composées
+Ce sont les fonctions logiques à deux variables. Parmi celles-ci, on en dénombre certaines suffisamment intéressantes pour qu'on leur donne un nom.
+
+Disjonction exclusive
+Le OU étudié jusqu'à présent doit se comprendre de la manière suivante : "l'un ou l'autre ou les deux". Il est également appelé "OU inclusif". Le OU exclusif (ou XOR pour ' eXclusive OR') s'entend comme : "l'un ou l'autre, mais pas les deux". a XOR b: a XOR b - a b - (a + b). (a. b) - a b + a b (-displaystyle a- -operatorname (XOR) - b-a-oplus b-(a+b).(-overline ((a.b)))-a(-bar (b))+(-bar (a))b).
+On peut également le définir avec un modulo sur une somme ordinaire : a XOR b - (a + b) mod 2 (-displaystyle a- -operatorname (XOR) - b-(a+b)- (-bmod (-))2).
+Le "ou exclusif" est parfois noté par le signe arithmétique (-displaystyle -neq) (différent de). Fonctionnellement, on utilise aussi un + entouré : a b (-displaystyle a-oplus b).
+Propriété - Toute table de vérité, toute fonction logique, peut se décrire à l'aide de la constante 1 et des deux opérations : disjonction exclusive et conjonction, car : a - a 1 (-displaystyle (-bar (a))-a-oplus - 1), et a + b - a b a b (-displaystyle a+b-a-oplus - b-oplus - a-cdot b).
+
+Équivalence
+L'équivalence (notée EQV ou XNOR) est vraie si les deux entrées ont la même valeur et fausse sinon. C'est la négation du "ou exclusif". L'équivalence peut s'écrire : a EQV b - a b - a b - a b + a b - (a b) + (a b) (-displaystyle a- -operatorname (EQV) - b-a-odot b-(-overline (a-oplus b))-(-overline (a(-overline (b))+(-overline (a))b))-(ab)+((-overline (a))-cdot (-overline (b)))).
+L'équivalence est souvent notée par le signe (-displaystyle -Leftrightarrow). Elle peut aussi être notée "--" dans certains langages (C, C++, PHP...) et en électronique.
+
+Implication: L'implication (notée IMP) s'écrit de la manière suivante : a IMP b - a + b (-displaystyle a- -operatorname (IMP) - b-(-overline (a))+b).
+Cette opération n'est pas commutative. a est une condition suffisante pour b, qui, elle, est une condition nécessaire pour a.
+Mais a IMP b - b IMP a (-displaystyle a- -operatorname (IMP) - b-(-overline (b))- -operatorname (IMP) - (-overline (a)))
+illustration :
+De l'affirmation "SI j'habite en France (métropolitaine), ALORS j'habite en Europe.", on peut déduire "SI je n'habite pas en Europe, ALORS je n'habite pas en France." mais pas "SI je n'habite pas en France, ALORS je n'habite pas en Europe." car je peux habiter en Europe ailleurs qu'en France, sans contredire l'énoncé initial.
+
+Inhibition: L'inhibition (notée INH) se compose comme suit : a INH b - a. b (-displaystyle a- -operatorname (INH) - b-a.(-overline (b))).
+Si a est VRAI, l'expression vaut VRAI, SAUF si b est VRAI.
+Cette opération n'est pas commutative.
+
+Exemple de fonctions logiques à trois ou quatre variables
+
+Fonction logique à trois variables
+L'égalité Décrocher - (Sonnerie ET Décision de répondre) OU Décision d'appeler traduit la situation pratique suivante : On décroche un téléphone quand on décide d'appeler quelqu'un ou lorsque le téléphone sonne et qu'on décide de répondre.
+Elle est constituée de trois variables : a - "Sonnerie"; b - "Décision de répondre"; c - "Décision d'appeler".
+la variable d - "Décrocher" est fonction logique des 3 précédentes et peut s'écrire d - a.b + c
+La table de vérité de cette fonction d est alors la suivante (à droite) :
+La table indique une situation absurde : quand on décide d'appeler quelqu'un et que le téléphone sonne sans qu'on ait envie de répondre, on décrocherait quand même. Une modification de la table comme ci-contre corrigerait cette absurdité. Cette table correspond à une fonction logique Décrocher d2 ou d2 qu'il est possible de déterminer et simplifier en d 2 - a. c + a. b (-displaystyle d2-(-bar (a)).c+a.b).
+
+Fonction logique à quatre variables
+Un bon élève s'interroge s'il est sage de sortir un soir. Il doit décider en fonction de quatre variables : a - il a assez d'argent; b - il a fini ses devoirs; c - le transport en commun est en grève; d - l'automobile de son père est disponible.
+Cet élève pourra sortir si : il a assez d'argent, a - vrai; il a fini ses devoirs, donc b - vrai; le transport en commun n'est pas en grève, donc c - faux; ou si l'automobile de son père est disponible, donc d - vrai.
+L'expression logique de sortir en fonction de l'état des variables a, b, c et d peut donc s'écrire ainsi : Sortir - a. b. (c + d) (-displaystyle a.b.((-bar (c))+d)).
+
+Factorisation d'une expression
+Une fonction logique peut être déterminée: soit sous forme d'une expression faisant intervenir les 3 opérations (+ (-displaystyle +-,), (-displaystyle -cdot -,), (-displaystyle (-bar)-,)); soit sous forme de sa table de vérité. Dans ce cas il sera toujours possible d'effectuer un développement pour écrire cette fonction comme une somme de produits.
+Exemple: Dans l'exemple de "Décrocher2", la lecture de la table montre que d2 égale 1 quand (a, b, c) - (0, 0, 1) ou (0, 1, 1) ou (1, 1, 0) ou (1, 1, 1). Cela permet de définir d2 par d 2 - a. b. c + a. b. c + a. b. c + a. b. c (-displaystyle d2-(-bar (a)).(-bar (b)).c+(-bar (a)).b.c+a.b.(-bar (c))+a.b.c).
+Il est possible de trouver une expression minimisant le nombre de termes et le nombre de lettres dans chaque terme. C'est l'objectif de certaines techniques comme la méthode de Quine-Mc Cluskey, les diagrammes de Karnaugh, la méthode des consensus, la double dualisation...
+Exemple (suite) : la somme précédente peut être réduite en: d 2 - a. c + a. b (-displaystyle d2-(-bar (a)).c+a.b).
+par factorisation des deux premiers termes par a. c (-displaystyle (-bar (a)).c) et factorisation des deux derniers termes par a. b (-displaystyle a.b-,)
+
+Arbre d'expression
+Les expressions logiques sont souvent représentées en informatique sous forme d'arborescence. À un premier sommet (racine) sont rattachés différents sous-arbres (ou branches). Les sommets sans issue sont appelés feuilles. Chaque sommet interne correspond à un sélecteur booléen S(x, y, z) - "si x alors y sinon z", qui ramène une question x à deux sous-questions plus simples, éventuellement réduites à 1-vrai ou 0-faux. L'évaluation d'une fonction f dépendant d'une variable q choisie pour la première question est alors f - S(q, f(q-1), f(q-0)), qui ramène à deux expressions indépendantes de q. Soit f - a.b+a.d.f+c.d+e.f ; on peut écrire f- S(a, f(a-1), f(a-0))- S(a, b+c.d+d.f+e.f, c.d+e.f)- S(a, S(b,1,d.f+c.d+e.f), S(c,d+e.f, e.f))... Les arbres dépendant de l'expression et de l'ordre des questions, pour une même expression certains questionnaires seront plus simples que d'autres.

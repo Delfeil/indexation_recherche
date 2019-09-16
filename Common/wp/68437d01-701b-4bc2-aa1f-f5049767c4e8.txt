@@ -1,0 +1,31 @@
+DMOZ, abréviation de "Directory Mozilla" qui donne son nom au site dmoz.org, anciennement l'Open Directory Project ou ODP, était un annuaire de sites web actif de 1998 à 2017, sous licence Open Directory.
+Il était géré par une vaste communauté d'éditeurs bénévoles provenant du monde entier, chacun étant responsable de vérifier l'exactitude et la catégorisation des sites dans une ou plusieurs catégories.
+Au 17 février 2011, dmoz contient dans son ensemble 4 838 135 ressources d'adresses de sites, classées dans plus de 1 005 146 catégories. Plus de 90 093 éditeurs ont participé au projet depuis son lancement, dont près de 8 000 sont toujours actifs. L'annuaire propose des ressources dans 78 langues.
+
+Fonctionnement
+L'annuaire était entièrement gratuit. L'ajout d'un nouveau site et l'utilisation des données ne coûtait rien. Les données pouvaient être téléchargées et utilisées gratuitement, moyennant le respect de la licence et l'ajout d'un code HTML d'attribution.
+DMOZ était géré par des éditeurs, qui vérifiaient les sites proposés, les classaient dans la catégorie appropriée et en ajoutaient d'autres au gré de leurs visites sur le web. Tout le monde pouvaient poser sa candidature pour devenir éditeur.
+De nombreux sites utilisaient les données de DMOZ, en complément d'autres services, le plus connu était l'annuaire Google ; ce dernier (fermé en 2011) avait pour avantage de classer les pages selon leur popularité (PageRank), ou par ordre alphabétique ; par contre, contrairement à l'annuaire DMOZ, il ne proposait pas de liens vers la même catégorie en d'autres langues. Alexa utilisait aussi DMOZ pour son classement par catégories.
+Logo original en juin 1998;
+Logo après le renommage en NewHoo;
+Logo après le rachat par Netscape;
+Logo à partir de 1999 avec le nom DMOZ;
+Logo à partir de mars 2014;
+Logo à partir de juin 2016 jusqu'à la fermeture du site en mars 2017.
+
+Historique: 5 juin 1998 : création du projet Gnuhoo ;; Juin 1998 : Gnuhoo est renommé "Newhoo" à la suite d'une demande de la FSF (Fondation pour le logiciel libre) ;; Novembre 1998 : Newhoo est racheté par Netscape ;; Newhoo est renommé Open Directory Project (traduisible par "Projet d'annuaire ouvert") par Netscape à la suite d'une demande de Yahoo! ;; ODP est accessible par l'adresse web directory.mozilla.org ;; 1999 : DMOZ - Open Directory Project : dmoz.org ;; Octobre 2006 : la partie francophone atteint les 200 000 sites indexés ;; Septembre 2007 : DMOZ lance son blog officiel en anglais ;; Mars 2008 : plus de 221 000 sites dans la partie francophone (au 31 mars 2008) ;; 5 juin 2008 : l'annuaire fête ses dix ans ;; 2011 : l'Open Directory Project opte pour une licence Creative Commons BY.; 2016 : nouvelle présentation (site web adaptatif); 17 mars 2017 : fermeture.
+
+Les Mozzies
+Une particularité de DMOZ était l'illustration des catégories par l'image du lézard Mozzie. Son nom provient de Mozilla, la mascotte de Netscape dans les premiers temps du navigateur, et fait une référence implicite au monstre Godzilla. La grosse bête effrayante a laissé place au gentil lézard "Mozzie".
+Les éditeurs DMOZ étaient donc invités à utiliser l'image de Mozzie afin de la détourner et créer une illustration de leur catégorie préférée. Les images ainsi créées sont libres de droit.
+Début septembre 2008, il existait déjà plus de 2 300 Mozzies.
+
+Association des éditeurs francophones (AEF)
+Afin de promouvoir et rendre plus visible la partie francophone de DMOZ, les éditeurs francophones se sont regroupés dans l'Association des éditeurs francophones de DMOZ. Cette association est informelle, pas de statuts, pas de cotisation. Un portail, développé par les éditeurs francophones, est une page d'accueil personnalisée pour un accès plus sympathique aux catégories francophones de DMOZ. Chaque lien pointe vers une catégorie de l'annuaire DMOZ officiel. Il n'existe donc pas d'annuaire aef-dmoz, seulement un accès plus aisé.
+En même temps que le portail un nouveau mozzie a été créé reprenant le symbole de la francophonie.
+Dans le même mouvement, les éditeurs francophones de DMOZ se sont retrouvés sur Orkut dans la communauté Aef-dmoz. En septembre 2008, ils étaient 96 membres de cette communauté, en novembre 2012 ils étaient 84.
+En juin 2005 l'Aef-dmoz a lancé son propre weblog : Aef Dmoz Blog. Ce blog est contient des informations sur les catégories de l'annuaire, la manière de référencer son site sur DMOZ, de trouver des informations sur l'annuaire ou de devenir éditeur.
+Au 3 septembre 2008, la partie francophone de l'annuaire comptait près de 223 300 sites Web répertoriés et 373 contributeurs bénévoles actifs. Entre le 31 août 2007 et le 31 août 2008, le taux de croissance de la section en français a été d'environ 6 %.
+
+Ne pas confondre
+Un site web commercial s'est approprié le nom de DMOZ : www.dmoz.fr. Ce site ne fait pas partie de DMOZ, malgré son nom.

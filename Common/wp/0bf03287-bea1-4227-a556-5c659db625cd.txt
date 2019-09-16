@@ -1,0 +1,38 @@
+Un protocole réseau est un protocole de communication mis en oeuvre sur un réseau informatique.
+Il est possible que plusieurs protocoles réseau forment des couches de protocoles.
+
+Les couches
+Afin de s'y retrouver au milieu des protocoles, et même de pouvoir en changer, on les hiérarchise par exemple en quatre couches dans le modèle TCP-IP. D'autres modèles plus complexes, comme le SNA d'IBM ou le modèle de l'OSI, comptant chacun sept couches, ont rencontré moins de succès pratique et sont plutôt évoqués aujourd'hui à des fins de complétude de la théorie.
+Considérée dans son ensemble, une suite de protocoles entre diverses couches forme ce qu'on nomme une pile de protocoles. Les termes "protocole" et "pile de protocoles" désignent également les logiciels qui implémentent un protocole.
+Les protocoles les plus récents sont standardisés par l'IETF dans le cas des communications sur Internet, et par l'IEEE ou l'ISO pour les autres types de communication. L'UIT-T prend en charge les protocoles et les formats des télécommunications.
+Dans le milieu du P2P, on considère l'ensemble des algorithmes d'un réseau comme son protocole.
+
+Familles de protocoles
+Certaines piles de protocoles ou familles : AppleTalk ;; Decnet ;; Open Systems Interconnect (Modèle OSI) ;; SNA d'IBM; TCP-IP.
+
+Protocoles individuels
+
+Protocoles de couche 1
+Cette couche correspond à la couche physique dans le modèle OSI. À ce niveau, on trouve par exemple les protocoles suivants: ISDN ;; PDH ;; RS-232 ;; SDH ;; SONET ;; T-carrier (T1, T3, etc).
+
+Protocoles de couche 2
+Cette couche correspond à la couche de liaison de données dans le modèle OSI. À ce niveau, on trouve par exemple les protocoles suivants: Ethernet ;; Fiber Distributed Data Interface (FDDI) ;; HDLC ;; Logical Link Control (LLC) ;; Media Access Control (MAC) ;; Point-to-point protocol (PPP) ;; Token bus;; Token ring.
+
+Protocoles de couches 2 et 3: Asynchronous transfer mode (ATM) ;; Frame relay ;; Multiprotocol Label Switching (MPLS) ;; X.25.; Address Resolution Protocol (ARP).
+
+Protocoles de couche 3
+Cette couche correspond à la couche de réseau dans le modèle OSI. À ce niveau, on trouve par exemple les protocoles suivants: Internet Protocol (IP) ; Border Gateway Protocol (BGP) ;; Routing information protocol (RIP) ;; Open shortest path first (OSPF) ;; Integrated Intermediate System to Intermediate System (Integrated IS-IS); Internet Control Message Protocol (ICMP) ;.; Border Gateway Protocol (BGP) ;; Routing information protocol (RIP) ;; Open shortest path first (OSPF) ;; Integrated Intermediate System to Intermediate System (Integrated IS-IS); Internet Control Message Protocol (ICMP) ;; IPX; Connectionless Network Protocol (CLNP): Intermediate System to Intermediate System (IS-IS).; Intermediate System to Intermediate System (IS-IS).
+La négociation des options de la couche 3 au-dessus de PPP se fait avec NCP
+
+Protocoles de couches 3 et 4: Xerox network services (XNS).
+
+Protocoles de couche 4
+Cette couche correspond à la couche de transport dans le modèle OSI. À ce niveau, on trouve par exemple les protocoles suivants: SPX ;; Transmission Control Protocol (TCP) ;; User Datagram Protocol (UDP) ;; TCAP.
+
+Protocoles de couche 5 et plus
+Cette couche correspond à la couche de session dans le modèle OSI. À ce niveau, on trouve par exemple les protocoles suivants: FTP ;; SSH; SFTP; HTTP ;; IMAP ;; NFS ;; POP3 ;; protocole Samba ou SMB-CIFS;; RSerPool; SNMP ;; SMTP ;; Telnet ;; FIX ;; JXTA.; Session Initiation Protocol (SIP) ou H.323 pour la téléphonie IP. Couche 7 : X.500 (annuaire), X.400 (messagerie).
+
+Divers
+
+NFS
+Le logiciel de partage de fichier NFS utilise préférentiellement le protocole TCP depuis sa version 3, mais dans ses versions antérieures ne pouvait utiliser qu'UDP. Portail des réseaux informatiques; Portail de l'informatique; Portail des télécommunications.

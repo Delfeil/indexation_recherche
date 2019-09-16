@@ -1,0 +1,31 @@
+Entreprise 2.0 est un terme dérivé de Web 2.0 pour décrire combien un logiciel peut être social, et est employé actuellement pour transformer l'intranet d'entreprise en une plateforme plus organique, collaborative et gérée par l'utilisateur. Le terme fut inventé par Andrew McAfee de la Harvard Business School dans le MIT Sloan Management Review du printemps 2006.
+La notion d'"Entreprise 2.0" est souvent utilisée pour décrire des modifications sociales et en réseau des intranets d'entreprise et d'autres plateformes logicielles traditionnelles, ce qui implique une structure préalable à utiliser, le logiciel entreprise 2.0 encourage l'utilisation auparavant d'une architecture. Le terme s'est popularisé parmi les bloggers en 2006, et en août c'était le sujet central de nombreux blogs importants.
+L'entreprise 2.0, schéma inspiré du travail de Fred Cavazza L'entreprise 2.0 version 2012, schéma de Fred Cavazza
+
+Définitions
+D'après Andrew McAfee :"L'entreprise 2.0 correspond à une utilisation de plateformes sociales émergentes au sein de sociétés ou entre des sociétés, leurs partenaires et leurs clients".
+Indus Khaitan propose une définition plus laconique du concepte :"Enterprise 2.0 - Writable Intranet".
+"Entreprise 2.0 est un terme pour les technologies et pratiques commerciales qui libèrent la force de travail des contraintes des outils de communication et de productivité comme l'email. Il permet aux cadres d'accéder à la bonne information au bon moment à travers un réseau d'applications inter-connectées, services et dispositifs. Entreprise 2.0 permet d'accéder à l'intelligence collective de nombreuses personnes, transférant un énorme avantage compétitif se traduisant par une augmentation de l'innovation, la productivité et de l'agilité."
+
+Exemples
+
+Animation d'une communauté
+Avec l'utilisation de plus en plus fréquente des réseaux sociaux dans les stratégies marketing des entreprises, il est indispensable aujourd'hui pour l'entreprise 2.0 de savoir gérer sa communauté virtuelle. De nombreux médias sociaux leur permettent de parler directement à leurs clients: Facebook; Twitter; YouTube.
+Ce nouvel aspect de la stratégie marketing a donné naissance à de nouvelles pratiques: le community management, et un nouveau métier, celui de community manager ou gestionnaire de communauté. Cette pratique se répand de manière très importante, en France elle a donné naissance à une formation, l'École européenne des métiers de l'Internet, établissement privé d'enseignement supérieur fondé en 2011 par Xavier Niel de Free, Marc Simoncini de Meetic et Jacques-Antoine Granjon de vente-privee.com.
+
+Utilisation d'outils communautaires internes
+Les outils du Web 2.0 permettent aux entreprises de gérer leurs contenus et leurs connaissances de manière sécurisées. Quelques exemples d'outils: Partage des fichiers (Dropbox, Google Drive); Gestion de projet (Alfresco); Réseau social d'entreprise (Knowledge Plaza, BlueKiwi, Oolaop); Wiki d'entreprise avec MediaWiki et Semantic MediaWiki (Sémantiki).
+
+Management Participatif
+On voit dans les entreprises émerger de nouvelles attentes de la part du personnel, de plus en plus habitué à des modes de communication participatifs. Ces usages peuvent être mis en pratique sur un plan organisationnel, en faisant évoluer le mode de management pour l'adapter à l'entreprise 2.0. Cette transformation en profondeur, le management participatif tend à rendre le management plus horizontal, en permettant aux salariés de mieux s'impliquer et de participer. En 2012, une conférence sur ce thème, en présence de nombreux chef d'entreprises, a eu lieu au World Forum Lille.
+
+Limites
+Le Web 2.0 en entreprise est censé donner naissance à l'"Entreprise 2.0". Or, la technologie n'est qu'un support de l'intelligence collective et non un moyen de l'obtenir. Du coup, hormis les natives du Web 2.0, la plupart des entreprises oscillent entre pipeau et omerta. Les employés subissant donc cette évolution vers le 2.0 dans leurs entreprises, sans avoir de connaissances suffisantes pour y prétendre, se réfugient derrière le savoir des plus jeunes, ceux ayant baigné dans les nouvelles technologies depuis leur plus tendre enfance. Cependant, les limites du développement du Web 2.0 en entreprise ne se limite pas à l'aspect technique, lié à la complexité de son utilisation. Les limites peuvent également être organisationnelles, comportementales, à travers l'hostilité au changement et à l'évolution des technologies présent dans l'inconscient de nombreuses personnes, ou encore managériales, limites pouvant se traduire par un manque de formation des employés, une mauvaise communication sur ces évolutions, ou encore un manque d'implication collective.
+
+Implantation du 2.0 en entreprise
+Le Web 2.0 est basé sur le concept de "Web participatif" c'est-à-dire de coconstruction et cogestion de l'intelligence collective. Le Web 1.0 n'est pas une version antérieure du concept mais est une version intrinsèquement différente, basé lui sur le concept de pure communication de l'information. Le Web participatif, à la manière de Wikipédia, permet d'ouvrir son amélioration et son développement à tous ses utilisateurs, mais offre aussi des risques de mauvaise gestion évidente. Cependant les deux versions du web sont utilisées et sont nécessaires au fonctionnement de l'entreprise. L'utilisation d'outils tels que Facebook, Twitter, YouTube, Flickr, blogosphère insère concrètement l'utilisation du web 2.0 dans l'entreprise.
+
+Outils relatifs
+Voici ci-dessous une liste des types d'outils Web 2.0 qui sont adaptés à l'utilisation en entreprise : outils de recherche hypertextuelle et non structurée; blogs pour l'écriture et la narration; Social bookmarking pour le tagging et la construction d'une folksonomie (à titre d'exemple la plateforme Knowledge Plaza); Lecteur de nouvelles RSS pour le signaling; Outils de Gestion de contenu; Enjeux économique: Nouveaux types d'entreprises axées sur le Web 2.0; MediaWiki et Semantic MediaWiki pour créer un Wiki d'entreprise.
+
+Voir aussi: Web 2.0; Réseau social d'entreprise; Gestion des connaissances; Innovation ouverte.

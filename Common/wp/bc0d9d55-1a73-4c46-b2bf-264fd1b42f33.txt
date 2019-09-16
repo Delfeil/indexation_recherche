@@ -1,0 +1,24 @@
+Un registre Internet régional (RIR, de l'anglais Regional Internet Registry) est un organisme qui alloue les blocs d'adresses IP (adressage IPv4, IPv6) et des numéros d'Autonomous System dans sa zone géographique.
+
+Histoire
+Internet étant un réseau d'origine américaine, les adresses sont distribuées par l'IANA de ses origines jusqu'aux années 1990. En 1990, la RFC 1174 propose un modèle de distribution hiérarchique des adresses. Les RIR voient le jour, le premier étant le RIPE NCC, opérationnel en 1992, il est suivi par l'ARIN et l'APNIC en 1993.
+En 1996, la RFC 2050 précise le rôle des RIR, à savoir : la conservation des adresses, qui consiste à distribuer les ressources de façon équitable et efficace,; l'agrégation, qui consiste à contribuer à ce que le routage sur Internet reste stable grâce aux techniques CIDR,; la documentation et l'enregistrement, qui assure l'unicité et la publicité de l'utilisation des adresses.
+
+Fonctionnement
+Des blocs d'adresses IP sont distribués aux registres internet régionaux par l'IANA, une composante de l'ICANN.
+À leur tour, les RIR distribuent des blocs d'adresses à des "registres Internet locaux" (en anglais Local Internet Registries ou LIR) qui les distribuent aux utilisateurs finaux dans leur zone d'opération. Les registres Internet locaux sont habituellement des opérateurs de réseau ou des fournisseurs d'accès Internet. Les RIR n'offrent des services qu'à leurs membres, les LIR, et non aux utilisateurs finaux. La politique d'allocation des blocs d'adresses IP, ainsi que l'éventuelle tarification, dépend du RIR.
+Les RIR gèrent aussi la numérotation des réseaux en systèmes autonomes (ASN) permettant le routage des adresses affectées aux utilisateurs finaux, et les bases de données DNS et whois permettant l'identification inverse du nom de domaine auquel est assigné chaque adresse IP. Les RIR ne gèrent pas le système DNS permettant la résolution des noms de domaine en adresses IP (ou autres identifiants).
+Un RIR peut aussi allouer des blocs d'adresses à un registre Internet national unique pour un pays, qui les réalloue ensuite aux LIR du pays. C'est le cas pour les pays de l'APNIC (notamment la Chine et le Japon) et pour certains pays du LACNIC comme le Brésil. Dans ces cas, les utilisateurs finaux du pays doivent demander des blocs d'adresses IP à leur NIR.
+Des allocations transfrontalières sont possibles en Europe et en Asie pour les plus grands réseaux des utilisateurs finaux. Ces allocations sont faites par le RIR (RIPE NCC ou APNIC).
+Il est possible d'interroger les bases de données des RIR pour savoir à qui est allouée une adresse IP. Si le serveur interrogé ne contient pas la réponse, il donnera l'adresse du RIR à interroger. Ces requêtes se font grâce à la commande whois ou via les sites Web des LIR.
+
+Liste des RIR
+Il existe aujourd'hui cinq RIR. Par ordre de création, ce sont : RIPE-NCC (Réseaux IP Européens, créé en 1992) pour l'Europe et le Moyen-Orient ;; APNIC (Asia Pacific Network Information Center, créé en 1993) pour l'Asie et le Pacifique ;; ARIN (American Registry for Internet Numbers, créé en 1997) pour l'Amérique du Nord (entre 1993 et 1997, ce rôle était attribué à InterNIC) ;; LACNIC (Latin America and Caribbean Network Information Center, créé en 1999) pour l'Amérique latine et les îles des Caraïbes ;; AfriNIC (African Network Information Center, créé en 2005) pour l'Afrique.
+
+Number Resource Organization
+Les RIR se sont regroupés pour former la Number Resource Organisation (NRO) afin de coordonner leurs activités ou projets communs et mieux défendre leurs intérêts auprès de l'IANA et de l'ICANN, mais aussi auprès des organismes normalisateurs (notamment l'IETF ou l'ISOC).
+
+Address Supporting Organization
+L'Address Supporting Organization représente les RIR au conseil de l'ICANN.
+
+Voir aussi

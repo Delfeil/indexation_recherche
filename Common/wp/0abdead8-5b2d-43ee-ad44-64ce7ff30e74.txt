@@ -1,0 +1,14 @@
+Cas particulier des nombres
+L'opposé d'un nombre n est le nombre qui, ajouté à n, donne zéro.
+Par exemple : l'opposé de 7 est égal à -7 car 7 + (-7) - 0; l'opposé de -0,3 est 0,3 car -0,3 + 0,3 - 0.
+Ainsi d'après le dernier exemple, -(-0,3) - 0,3.
+Plus généralement, si E est un ensemble muni d'une loi interne d'addition associative et commutative, l'opposé d'un élément x de E est le symétrique (s'il existe) de cet élément, et est noté en général -x.
+Si de plus tous les éléments de E sont symétrisables pour la loi d'addition, alors il est possible de définir une loi de ℤE dans E par : n Z , x E , n. x - (x + x +... + x s i n 0 n f o i s 0 s i n - 0 (x) + (x) +... + (x) s i n 0 n f o i s (-displaystyle -forall n-in -mathbb (Z) ,-forall x-in E,n.x--left-((-begin(matrix)-underbrace (x+x+-ldots +x) (- (-rm (si-)))n0---(n(- (-rm (fois))))--0(- (-rm (si-)))n-0---underbrace ((-x)+(-x)+-ldots +(-x)) (- (-rm (si-)))n0---(-n- (-rm (fois)))-end(matrix))-right.).
+Dans les cas particuliers des ensembles ℤ, ℚ, ℝ et C (-displaystyle -mathbb (C)), le produit pour la multiplication interne d'un nombre par -1 est égal à l'opposé de ce nombre.
+Les ensembles dont tous les éléments admettent un opposé pour l'addition dans cet ensemble sont : les entiers relatifs ;; les nombres rationnels ;; les nombres réels ;; les nombres complexes.
+En revanche, l'ensemble des entiers naturels n'a pas cette propriété : 3 a bien un opposé, -3, mais ce n'est pas un entier naturel.
+Pour construire l'ensemble ℤ des entiers relatifs à partir de l'ensemble ℕ des entiers naturels, il suffit d'inclure formellement à ce dernier les opposés des entiers naturels. Ainsi, on dit que l'ensemble des entiers naturels n'est pas stable pour l'opposé, parce que leurs opposés ne sont pas des entiers naturels.
+
+Définition générale
+Soient (G,+) un groupe commutatif, dont la loi de composition interne est notée additivement et dont l'élément neutre est noté 0, et x un élément quelconque de G. On appelle opposé de x et on note -x l'élément symétrique de x, i. e. l'unique élément -x de G tel que : x + (-x) - (-x) + x - 0.
+Voir aussi: inverse; élément inversible. Portail des mathématiques.

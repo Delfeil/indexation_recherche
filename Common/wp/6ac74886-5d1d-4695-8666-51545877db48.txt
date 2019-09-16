@@ -1,0 +1,35 @@
+En mathématiques, un isomorphisme entre deux ensembles structurés est une application bijective qui préserve la structure et dont la réciproque préserve aussi la structure. Plus généralement en théorie des catégories, un isomorphisme entre deux objets est un morphisme admettant un "morphisme inverse".
+Exemple : sur l'intervalle (1,100), par exemple, des valeurs a, b, c... peuvent être remplacées par leurs logarithmes x, y, z..., et les relations d'ordre entre elles seront parfaitement conservées. On peut à tout moment retrouver les valeurs a, b et c en prenant les exponentielles de x, y et z.
+D'autres termes peuvent être utilisés pour désigner un isomorphisme en spécifiant la structure, comme l'homéomorphisme entre espaces topologiques ou le difféomorphisme entre variétés.
+Deux objets sont dits isomorphes s'il existe un isomorphisme de l'un vers l'autre. Dans certains contextes, un isomorphisme d'un objet sur lui-même est appelé un automorphisme.
+
+Définitions
+
+Algèbre
+En algèbre, un isomorphisme est un morphisme admettant un inverse qui est lui-même un morphisme, ou plus simplement un morphisme bijectif.
+C'est donc une bijection pour laquelle les relations "algébriques" entre les éléments de l'ensemble d'arrivée sont les mêmes que celles entre leurs antécédents respectifs (la structure algébrique est préservée). Ce "méta-concept" mathématique admet une définition formelle en théorie des catégories.
+
+Catégorie
+Dans une catégorie donnée, un isomorphisme est un morphisme f : A B (-displaystyle f:A-to B) tel qu'il existe un morphisme g : B A (-displaystyle g:B-to A) qui soit "inverse" de f (-displaystyle f) à la fois à gauche (g f - i d A) (-displaystyle (g-circ f--mathrm (id) -(A))) et à droite (f g - i d B). (-displaystyle (f-circ g--mathrm (id) -(B)).)
+Il suffit pour cela que f possède d'une part un "inverse à gauche" g (-displaystyle g) et d'autre part un "inverse à droite" h (-displaystyle h). En effet, on a alors: g - g i d B - g (f h) - (g f) h - i d A h - h , (-displaystyle g-g-circ -mathrm (id) -(B)-g-circ (f-circ h)-(g-circ f)-circ h--mathrm (id) -(A)-circ h-h,).
+ce qui prouve en outre l'unicité de l'inverse.
+En revanche, l'une ou l'autre de ces deux conditions, à elle seule, ne suffit pas.
+
+Exemples: Dans la catégorie des ensembles, les isomorphismes sont les bijections.; Dans la catégorie des groupes, les isomorphismes sont les morphismes de groupes bijectifs.; Dans la catégorie des espaces topologiques, un isomorphisme est une bijection continue dont l'inverse est continue, aussi appelée homéomorphisme.; De la même façon, un isomorphisme entre variétés différentielles (par exemple, entre des ouverts de ℝ) est un difféomorphisme, c'est-à-dire une bijection différentiable dont l'inverse est différentiable. Plus précisément, si l'on considère une structure Ck sur une variété, alors on parle de C-difféomorphisme.; Un isomorphisme d'ensembles ordonnés est une bijection croissante dont la réciproque est croissante.
+
+Isomorphismes et morphismes bijectifs
+Dans une catégorie concrète (c'est-à-dire, grosso modo, une catégorie dont les objets sont des ensembles et les morphismes, des applications entre ces ensembles), comme la catégorie des espaces topologiques ou les catégories d'objets algébriques comme les groupes, les anneaux et les modules, un isomorphisme doit être bijectif. Dans les catégories algébriques (en particulier, les catégories des variétés au sens de l'algèbre universelle), un isomorphisme est un homomorphisme bijectif. Toutefois, il existe des catégories concrètes dans lesquelles les morphismes bijectifs ne sont pas nécessairement des isomorphismes (comme la catégorie des espaces topologiques), et dans certaines catégories où tout objet admet un ensemble sous-jacent, les isomorphismes ne sont pas forcément bijectifs (comme la catégorie d'homotopie des CW-complexes).
+
+Propriétés
+Un isomorphisme est à la fois un épimorphisme et un monomorphisme, mais la réciproque est fausse en général : il existe des morphismes à la fois épiques et moniques qui ne sont pas des isomorphismes.
+Pour plus de détails, voir : Propriétés des morphismes dans les catégories.
+
+Objets isomorphes
+Deux objets reliés par un isomorphisme sont dits isomorphes.
+Exemple : le groupe de Klein est isomorphe à ℤ-2ℤ ℤ-2ℤ.
+Savoir que deux objets sont isomorphes présente un grand intérêt car cela permet de transposer des résultats et propriétés démontrés de l'un à l'autre.
+Selon certains points de vue, deux objets isomorphes peuvent être considérés comme identiques, ou du moins indiscernables. En effet, bien souvent, les propriétés intéressantes d'un objet seront partagées par tous les objets isomorphes de la catégorie. Ainsi, on parle souvent d'unicité ou d'identité "à un isomorphisme près".
+
+Note
+
+Articles connexes: Théorèmes d'isomorphisme; Isomorphisme de graphes; Quasi-isomorphisme. Portail des mathématiques.

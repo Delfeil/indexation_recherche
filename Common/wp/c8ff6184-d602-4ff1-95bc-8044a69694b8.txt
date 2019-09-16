@@ -1,0 +1,17 @@
+GNU social (anciennement Laconica, puis StatusNet jusqu'au 8 juin 2013) est un logiciel libre de microblogging écrit en langage PHP. Offrant des fonctionnalités semblables à Twitter, StatusNet cherche à offrir le potentiel pour des communications ouvertes, inter-services et distribuées entre les communautés de microblog. Les entreprises et individus peuvent installer et maîtriser leurs propres services et données.
+Evan Prodromou (en), créateur de Wikitravel et de la société ControlYourself, a écrit ce logiciel pour combler l'absence d'un système de microblogging libre, ouvert et décentralisé, ainsi que les spécifications ouvertes OpenMicroBlogging qu'il implémente.
+Le premier site à avoir été installé est Identi.ca.
+Les instances sont connectées via le standard OStatus (en), rejoignant ainsi un ensemble de réseaux sociaux utilisant les mêmes protocoles, surnommé fediverse. GNU social s'interconnecte donc aussi avec le réseau Mastodon.
+
+Fonctionnalités
+Les fonctionnalités suivantes sont disponibles : Authentification OpenID.; Souscriptions à des notices d'utilisateurs sur d'autres services via OpenMicroBlogging.; Robot Jabber-XMPP.; Mises à jour et alertes par SMS.; API compatible-Twitter.; Hashtags.; Interface multi-lingue Multilingual interface (using Gettext).; Cross-post vers Twitter.; Intégration Facebook.; Groupes.; Suivi d'une discussion tout en gardant le contexte.; Raccourci d'URL.; Géolocalisations et cartes.; Mise à jour en temps réel des flux.; Pièces jointes (fichiers, images, vidéos, audio).; Embarquement du contenu provenant d'autres sites, comme YouTube, Flickr, etc.; Implémentation du Protocole Salmon.
+Fonctionnalités à venir et prioritaires : Interface web utilisant davantage AJAX.; Récupération de messages de Twitter, Jaiku, etc.
+StatusNet repose sur les technologies standard : OAuth 1.0; OAuth Discovery 1.0; YADIS 1.0; XRDS-Simple.
+
+Histoire
+Le premier déploiement (sous le nom de Laconica) a été le service de microblogue Identi.ca. Hébergé par les créateurs d'origine StatusNet Inc., Identi.ca offrait des comptes gratuits au public et servait de projet phare (avec freelish.us) de version installable de StatusNet. Le site a migré vers pump.io.
+La version 0.9.0, rendue publique le 3 mars 2010, a ajouté le support d'OStatus, un standard mise à jour de distribution, au-dessus de OpenMicroBlogging.
+En décembre 2012, Evan Prodromou annonce un ralentissement de l'hébergement du service status.net, afin qu'il se concentre sur un nouveau projet à code ouvert de flux d'activité, pump.io. Identi.ca fut alors migré sur pump.io. Tous les comptes actifs sur l'année précédent le 1er mai 2013 ont été migrés. Le 10 juillet 2013 Identi.ca migre sur pump.io.
+Le 8 juin 2013 il a été annoncé que StatusNet serait adopté et renommé GNU social.
+
+Voir aussi

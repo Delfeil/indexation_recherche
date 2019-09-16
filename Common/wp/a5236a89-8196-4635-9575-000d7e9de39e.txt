@@ -1,0 +1,6 @@
+Un Interior Gateway Protocol (IGP) est un protocole de routage utilisé dans les systèmes autonomes.
+Le rôle d'un IGP est: d'établir les routes optimales entre un point du réseau et toutes les destinations disponibles d'un système autonome,; d'éviter les boucles,; en cas de modification de topologie (déconnexion d'un lien physique, arrêt d'un routeur), d'assurer la convergence du réseau (c'est-à-dire le rétablissement de la connectivité optimale sans boucle) dans les plus brefs délais.
+On distingue généralement: les protocoles de routage à états de lien (link state protocols) qui établissent des tables de voisinage, et emploient l'algorithme de Dijkstra pour calculer les meilleures routes,; les protocoles de routage à vecteur de distance (distance vector protocols),; les protocoles hybrides, qui ont des caractéristiques des deux premiers.
+Une autre caractéristique importante des protocoles est le support pour la taille variable des masques réseau, indispensable pour les réseaux actuels, la notion de classe de réseau étant obsolète.
+IGRP et EIGRP sont des protocoles propriétaires Cisco.
+Les protocoles que l'on rencontre actuellement sont IS-IS, OSPF et EIGRP. Portail des télécommunications.

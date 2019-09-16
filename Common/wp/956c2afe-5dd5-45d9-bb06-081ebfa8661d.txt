@@ -1,0 +1,14 @@
+Arthur Cayley (16 août 1821 - 26 janvier 1895) est un mathématicien britannique. Il fait partie des fondateurs de l'école britannique moderne de mathématiques pures.
+
+Biographie
+Senior wrangler et prix Smith en 1842, il a travaillé comme avocat pendant 14 ans, tout en publiant de nombreux articles. Il est ensuite devenu professeur à Cambridge. Il est devenu membre de la Royal Society le 3 juin 1852 et reçu la Royal Medal en 1859 et la médaille Copley en 1882. Il a dirigé les thèses de Henry Frederick Baker (en), Andrew Forsyth et Charlotte Scott.
+
+Oeuvre
+Il est le premier à introduire la multiplication des matrices. On lui doit le théorème de Cayley-Hamilton qui dit que toute matrice carrée annule son polynôme caractéristique.
+Il a donné le premier, en 1854, une définition proche de la notion moderne de groupe, dans la mesure où il exige d'un groupe d'avoir la notion d'associativité et que la loi soit interne :
+"The symbols , (-displaystyle -theta ,-phi..) are in general such that. -. (-displaystyle -theta.-phi -chi --theta -phi.-chi) , so that , (-displaystyle -theta -phi -chi ,-theta -phi -chi -omega) , c. have a definite signification independant of the particular mode of compounding the symbols"
+"such that the product of any two of them belongs to the set"
+On lui doit les notions de table de Cayley et de graphe de Cayley d'un groupe et le théorème de Cayley sur les groupes.
+En combinatoire, son nom est attaché à la formule n n 2 (-displaystyle n(n-2)) qui énumère les arbres décorés à n sommets.
+On appelle parfois octaves de Cayley ou nombres de Cayley les octonions.
+D'autres notions portent aussi son nom : algorithme de Cayley-Purser (en) ;; construction de Cayley-Dickson (en) ;; déterminant de Cayley-Menger (en) ;; modèle de Cayley-Klein ;; transformation de Cayley ;; le théorème de Cayley-Salmon relatif aux surfaces cubiques, qui affirme qu'une surface cubique non singulière contient exactement 27 droites, Cayley avait montré que nécessairement une telle surface contenait un nombre fini de droites.

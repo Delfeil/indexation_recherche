@@ -1,0 +1,52 @@
+La physiologie (du grec , phusis, la nature, et , logos, l'étude, la science) étudie le rôle, le fonctionnement et l'organisation mécanique, physique et biochimique des organismes vivants et de leurs composants (organes, tissus, cellules et organites cellulaires). La physiologie étudie également les interactions entre un organisme vivant et son environnement. Dans l'ensemble des disciplines biologiques, en définissant schématiquement des niveaux d'organisation, la physiologie est une discipline voisine de l'histologie, de la morphologie et de l'anatomie.
+La physiologie regroupe des processus qu'elle étudie en grandes fonctions qui sont : les fonctions de nutrition ;; la fonction de reproduction ;; les fonctions de relation : la locomotion et les fonctions sensorielles (voir les articles détaillés dans la liste ci-dessous).
+Le terme physiologie a aussi été utilisé au XIXe siècle par les écrivains réalistes pour qualifier de petites études de moeurs de personnage typiques comme les concierges, les curés de campagne, le bagnard ou la femme de trente ans dont certains sont regroupés dans l'ouvrage Les Français peints par eux-mêmes. Balzac a publié Physiologie du mariage en 1829.
+
+Histoire
+L'étude de la physiologie humaine remonte à au moins 420 av. J.-C. avec Hippocrate. La pensée critique d'Aristote et son accent sur la relation entre la structure et la fonction a marqué le début de la physiologie dans la Grèce antique, tandis que Claude Galien est le premier à réaliser des expériences pour étudier le fonctionnement de l'organisme, faisant de lui le fondateur de la physiologie expérimentale.
+Au XVIIe siècle naît la "première révolution biologique" : le cabinet d'études du physiologiste s'équipe de nombreux instruments de mesure (balance thermomètre, baromètre) qui permettent de mesurer les paramètres biologiques des animaux sacrifiés mais les résultats de ces études ne sont pas mis à profit par les médecins qui appliquent toujours le Primo saignare, deinde purgare, postea clysterium donare ("d'abord saigner, ensuite purger, postérieurement seringuer"). Lui succède au XIXe siècle une seconde révolution, la médecine expérimentale dont les bases ont été formulées et théorisées par le physiologiste français Pierre Rayer puis par son élève Claude Bernard.
+
+Domaines
+La physiologie comporte plusieurs subdivisions regroupées en divers articles :
+
+Électrophysiologie
+L'électrophysiologie est la partie de la physiologie qui mesure les courants électriques des cellules. Les phénomènes électriques sont nombreux et variés dans l'organisme, en particulier dans les tissus excitables (muscle, système nerveux central), le coeur, le rein ainsi que certaines glandes.
+
+Système nerveux autonome
+Le système nerveux autonome est un système en réseau formé des organes des sens, des nerfs, du cerveau, de la moelle épinière, etc. Avec le système endocrinien (qui est l'ensemble des glandes sécrétant des hormones), il assure l'homéostasie de l'organisme en agissant par des impulsions électriques exerçant une action sur les muscles ou les organes.
+
+Neurophysiologie
+La neurophysiologie, physiologie du cerveau et des cellules nerveuses (neurone et cellule gliale), est la partie de la physiologie qui traite du système nerveux pouvant être séparé en deux parties : système nerveux central; système nerveux périphérique.
+
+Physiologie sensorielle: Perception; Goût; Odorat; Ouïe: Audition humaine; Oreille.; Audition humaine; Oreille; Vue: Oeil.; Oeil; Somesthésie.
+
+Système reproducteur chez les humains
+Le système reproducteur chez les humains est l'ensemble des organes qui concourent à la reproduction d'un organisme. Le développement du système reproducteur et son bon fonctionnement dépendent de glandes sécrétant des hormones endocrines. Appareil reproducteur; Reproduction (biologie); Physiologie de la reproduction; Menstruation.
+
+Système circulatoire
+Le système circulatoire, dont l'organe moteur est le coeur, transporte les matières chimiques, les gaz respiratoires et la chaleur dont l'organisme a besoin. Il sert donc au maintien de l'homéostasie. Il est composé de deux sous-systèmes : le système cardio-vasculaire : coeur; sang; circulation sanguine.; coeur; sang; circulation sanguine; le système lymphatique : lymphe.; lymphe.
+Le système circulatoire est essentiel au fonctionnement des autres systèmes, respiratoire, nutritif, immunitaire, endocrinien et thermorégulateur.
+
+Système respiratoire
+Pour un organisme animal, le système respiratoire permet l'approvisionnement des cellules en oxygène et le rejet du CO2. Le système respiratoire assure ces échanges de gaz vitaux au niveau des poumons ; tandis que le système circulatoire les transporte des cellules aux poumons. Poumon; Bronche; Lobe pulmonaire; Respiration; Respiration humaine; Ventilation pulmonaire.
+
+Système moteur, locomotions diverses: Réflexe (réaction motrice); Activités posturales; Mouvement volontaire; Muscle; Squelette.
+
+Système digestif, alimentation et excrétion
+Le système digestif digestion a pour fonction de transformer les aliments en des formes physiques et chimiques capables d'être absorbées et transportées dans le système circulatoire (sang et lymphe) pour répondre aux besoins en glucides, lipides, protéines, vitamines, sels minéraux et eau des cellules d'un organisme. Nutrition; Digestion; Réserves énergétiques; Excrétion.
+
+Thermorégulation
+La thermorégulation permet à un organisme de conserver une température constante. Elle est le résultat de productions et de déperditions de chaleur. On distingue les organismes homéothermes des poïkilothermes. Les poïkilothermes sont les animaux dont la température interne varie en fonction de la température externe.
+La thermorégulation comprend deux phénomènes : thermolyse (biologie) (perte de chaleur); thermogenèse (production de chaleur).
+
+Physiologie végétale
+La physiologie végétale, ou phytobiologie, est la science qui étudie le fonctionnement des organes et des tissus végétaux et cherche à préciser la nature des mécanismes grâce auxquels les organes remplissent leurs fonctions. Elle cherche en somme à percer les secrets de la vie chez les plantes.
+Les domaines d'étude de la physiologie végétale sont très diversifiés et concernent notamment : La nutrition, en particulier l'absorption des éléments minéraux et les fonctions de synthèse : Nutrition carbonée ;; Nutrition azotée ;; Nutrition minérale ;; Photosynthèse.; Nutrition carbonée ;; Nutrition azotée ;; Nutrition minérale ;; Photosynthèse.; La respiration et les échanges gazeux chez les plantes.; La transpiration est affectée par la chaleur et par une circulation d'air sec et chaud, donc perte de H2O chez les plantes.; Les relations des végétaux avec leur environnement.; La croissance et le développement.; La reproduction, végétative ou sexuée.
+
+Physiologie animale
+Cette discipline s'intéresse aux mécanismes de fonctionnement des diverses fonctions vitales des organismes vivants du règne animal, ainsi qu'à ses liens avec les structures organiques présentes à différents niveaux d'organisation : organes, tissus, cellules, molécules.
+La physiologie animale tente de brosser un panorama des adaptations des animaux à leur environnement, dans leur diversité.
+
+Voir aussi
+
+Articles connexes: Anatomie; Biologie; Endocrinologie; Hermann Friedrich Stannius; Histologie; Immunologie; Ismakogie; Médecine; Physiopathologie; Gnathologie; Physiologie sportive.

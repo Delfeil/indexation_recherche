@@ -1,0 +1,21 @@
+Le concept de combinaison linéaire est central en algèbre linéaire et dans des domaines connexes des mathématiques. La majeure partie de cet article traite des combinaisons linéaires dans le contexte d'espace vectoriel sur un corps commutatif, et indique quelques généralisations à la fin de l'article.
+
+Définitions
+Soient K un corps commutatif et E un espace vectoriel sur K. Les éléments de E sont appelés les vecteurs et les éléments de K les scalaires. Si v1,.. vn sont des vecteurs et a1,.. an des scalaires, alors la combinaison linéaire de ces vecteurs ayant comme coefficients ces scalaires est le vecteur a1v1 +... + anvn.
+Pour parler de combinaison linéaire d'une famille (vi)iI de vecteurs de E indexée par un ensemble I éventuellement infini, il est nécessaire de supposer que la famille (ai)iI de scalaires est à support fini, c'est-à-dire qu'il n'y a qu'un ensemble fini d'indices i pour lesquels ai est non nul. La combinaison linéaire des vi de coefficients les ai est alors la somme iI aivi (en particulier, une combinaison linéaire ne portant sur aucun vecteur est la somme vide, égale au vecteur nul).
+Une "relation de dépendance linéaire" est une combinaison linéaire égale au vecteur nul. Une famille de vecteurs est liée si elle possède au moins une relation de dépendance linéaire "non triviale", c'est-à-dire à coefficients non tous nuls.
+Une partie non vide F de E est un sous-espace vectoriel si et seulement si F est "stable par combinaisons linéaires", c'est-à-dire si toute combinaison linéaire de vecteurs de F est encore un vecteur de F.
+
+Exemples: Soient K le corps ℝ des nombres réels et E l'espace vectoriel euclidien ℝ. Considérons les vecteurs e1 - (1, 0, 0), e2 - (0, 1, 0) et e3 - (0, 0, 1). Alors, tout vecteur (a1, a2, a3) de ℝ est une combinaison linéaire de e1, e2 et e3. En effet, (a1, a2, a3) - a1(1, 0, 0) + a2(0, 1, 0) + a3(0, 0, 1) - a1e1 + a2e2 + a3e3.; Soient K le corps ℂ des nombres complexes et E l'espace des fonctions de ℝ dans ℂ. Les formules d'Euler expriment les fonctions f : x e et g : x e comme combinaisons linéaires des fonctions cosinus et sinus : f - cos + i sin, g - cos - i sin et inversement : cos - (1-2) f + (1-2)g, sin - (-i-2) f + (i-2)g. Par contre, les fonctions constantes non nulles ne sont pas combinaisons linéaires de f et g, autrement dit : les fonctions 1, f et g sont linéairement indépendantes.
+
+Sous-espace vectoriel engendré
+Considérons à nouveau un corps commutatif K, un K-espace vectoriel E et v1,.. vn des vecteurs de E. L'ensemble de toutes les combinaisons linéaires de ces vecteurs s'appelle le "sous-espace vectoriel engendré" (ou juste "sous-espace engendré") par ces vecteurs et se note Vect(v1,.. vn) :
+
+Généralisations
+Si E est un espace vectoriel topologique, alors il est possible de donner un sens à une combinaison linéaire infinie, en utilisant la topologie de E. Par exemple, nous pourrions parler de la somme infinie a1v1 + a2v2 + a3v3....
+De telles combinaisons linéaires infinies n'ont pas toujours un sens ; nous les qualifions de convergentes lorsqu'elles en ont un. Le fait de pouvoir considérer davantage de combinaisons linéaires dans ce cas peut également mener à des concepts plus larges de sous-espace vectoriel engendré, d'indépendance linéaire, et de bases.
+Si K est un anneau commutatif au lieu d'être un corps, alors tout ce qui a été dit au-dessus sur les combinaisons linéaires se généralise sans aucun changement. La seule différence est que nous appelons ces espaces E des modules au lieu d'espaces vectoriels.
+Si K est un anneau non commutatif, alors la notion de combinaison linéaire se généralise encore, cependant avec une restriction : puisque les modules sur les anneaux non commutatifs peuvent être des modules à droite ou à gauche, nos combinaisons linéaires peuvent également être écrites à droite ou à gauche, c'est-à-dire avec des scalaires placés à droite ou à gauche, selon la nature du module.
+Une adaptation plus compliquée survient lorsque E est un bimodule sur deux anneaux, KG et KD. Dans ce cas, la combinaison linéaire la plus générale ressemble à a1v1b1 +... + anvnbn, où a1,.. an appartiennent à KG, b1,.. bn appartiennent à KD et v1,.. vn appartiennent à E.
+
+Articles connexes: Combinaison affine; Combinaison convexe. Portail de l'algèbre.

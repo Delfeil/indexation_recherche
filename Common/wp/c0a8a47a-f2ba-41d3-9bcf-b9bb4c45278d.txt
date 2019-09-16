@@ -1,0 +1,22 @@
+En intelligence artificielle, ELIZA est un programme informatique écrit par Joseph Weizenbaum entre 1964 et 1966, qui simule un psychothérapeute rogérien en reformulant la plupart des affirmations du "patient" en questions, et en les lui posant.
+
+Limites
+ELIZA fonctionne par simple reconnaissance de formes et substitution des mots-clés dans les phrases produites. Typiquement, une affirmation "A" peut recevoir en retour la question "Pourquoi dites-vous que A ". Quelques connaissances de rattachement entre mots lui permettent de renvoyer l'interlocuteur à un sujet plus large. "Parlez-moi de votre famille" est la réponse donnée à toute question comportant un mot-clé comme "mère" ou "fils". À noter que ces transformations sont plus simples en anglais, langue de fonctionnement d'ELIZA.
+Weizenbaum insiste dans son livre sur le fait que même si Eliza écrit "Je comprends..." à titre de protocole de politesse programmé envers l'interlocuteur, il s'agit évidemment d'une déclaration abusive : Eliza ne comprend pas ce qui lui est transmis, il se contente de former des phrases à partir de modèles pré établis, enrichis par les mots clés trouvés dans les réponses du patient. Dit par ELIZA, "je comprends" possède une connotation ironique : il s'agit en effet d'une des réponses utilisées quand il n'a rien trouvé dans la phrase précédente lui permettant de construire une réponse plus adaptée (voir la chambre chinoise de John Searle pour le problème de la compréhension).
+ELIZA se contente de relancer son interlocuteur, contrairement aux agents conversationnels de renseignement, qui sont conçus pour donner des réponses utiles en utilisant leur base de données.
+
+Impression des interlocuteurs
+ELIZA était si convaincant qu'il y a beaucoup d'anecdotes à propos de gens qui devenaient de plus en plus dépendants émotionnellement de leur relation avec ELIZA. La tendance humaine à attacher aux mots un ou des sens que l'ordinateur ne peut y avoir mis est appelée effet ELIZA.
+La faiblesse d'ELIZA, être incapable de vraiment répondre, se contentant de continuer à faire parler son interlocuteur, est en fait un atout. Certaines personnes ne souhaitent pas vraiment qu'on leur réponde, et ne remarquent pas si leur interlocuteur les comprend. Il suffit de leur donner l'impression qu'elles sont écoutées.
+
+Test de Turing
+Le critère de pouvoir parler avec un humain sans qu'il se rende compte qu'il a affaire à un ordinateur a été posé en critère d'intelligence artificielle.
+ELIZA montre qu'il est possible de tromper certains humains avec des schémas logiques extrêmement simples. Le test de Turing serait-il inapproprié pour déterminer qu'un ordinateur pense La question n'a pas été tranchée, car après tout, il reste relativement aisé de trouver des questions auxquelles l'ordinateur ne saurait répondre de manière intelligente, ou en tout cas pas avec des programmes de type ELIZA. Exemples de questions difficiles : "Peut-on manger demain avec un ami décédé l'année dernière et pourquoi "; "Que représente pour moi le frère de mon père ".
+Un programme pourrait être écrit pour répondre à chacune de ces deux questions, voire aux deux (le langage PROLOG se prête très bien à la représentation des relations généalogiques), mais la complexité du programme augmenterait au moins linéairement avec le nombre de questions possibles, et celui-ci ne pourrait donc prétendre à la généralité.
+
+Encombrement mémoire
+La version d'Eliza en SNOBOL utilisait 128 Ko de mémoire vive. Cette taille était, en raison des coûts de la mémoire à cette époque, jugée importante en 1970.
+
+Voir aussi
+
+Articles connexes: Effet ELIZA; ALICE (programme informatique); Agent conversationnel; Intelligence artificielle (IA); Test de Turing; Prix Loebner.

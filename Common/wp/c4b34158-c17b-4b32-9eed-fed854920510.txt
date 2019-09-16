@@ -1,0 +1,107 @@
+La supervision est une technique industrielle de suivi et de pilotage informatique de procédés de fabrication automatisés. La supervision concerne l'acquisition de données (mesures, alarmes, retour d'état de fonctionnement) et des paramètres de commande des processus généralement confiés à des automates programmables.
+Dans l'informatique, la supervision est la surveillance du bon fonctionnement d'un système ou d'une activité.
+À ne pas confondre avec l'hypervision, qui elle correspond à la centralisation des outils de supervision, d'infrastructure, d'applications et de référentiels (ex. CMDB).
+
+Supervision des procédés
+Coffret électrique avec écran de supervision monté en façade.
+En informatique industrielle, la supervision des procédés peut être une application de surveillance, de contrôle-commande évolué, de diagnostic.
+Un logiciel de supervision fonctionne généralement sur un ordinateur en communication, via un réseau local ou distant industriel, avec un ou plusieurs équipements : Automate Programmable Industriel, ordinateur, carte spécialisée.
+Un logiciel de supervision est composé d'un ensemble de pages (d'écrans), dont l'interface opérateur est présentée très souvent sous la forme d'un synoptique.
+L'application peut-être mono-poste ou multi-poste. Dans le cas d'une supervision multi-poste, l'architecture peut-être de type redondante, de type client-serveur (un poste gère les communications pour les autres) voire les deux en même temps.
+Ce système assure aussi un rôle : de gestionnaire d'alarmes, d'événements déclenchés par des dépassements de seuils (pour attirer l'attention de l'opérateur et d'enregistrement d'historique de défauts), de temps de fonctionnement (TRS : taux de rendement synthétique), de recettes de fabrication...
+
+En informatique
+La supervision est la "surveillance du bon fonctionnement d'un système ou d'une activité".
+Elle permet de surveiller, rapporter et alerter les fonctionnements normaux et anormaux des systèmes informatiques.
+Elle répond aux préoccupations suivantes : technique : surveillance du réseau, de l'infrastructure et des machines ;; applicative : surveillance des applications et des processus métiers ;; contrat de service : surveillance du respect des indicateurs contractuels ;; métier : surveillance des processus métiers de l'entreprise.
+On ajoutera les actions réflexes à cette surveillance du système. Ce sont les réactions automatisées en fonctions d'alertes définies.
+En cas de dysfonctionnement, le système de supervision permet d'envoyer des messages sur la console de supervision, ou bien d'envoyer un courriel à l'opérateur et ce 24h-24 et 7j-7 dans certaines entreprises.
+Mais si la supervision n'est pas active 24-7 le dysfonctionnement se produit en dehors des heures de bureau, et en l'absence de système approprié, l'alerte n'est pas reçue par l'opérateur, et les utilisateurs des applications ne sont pas prévenus du dysfonctionnement
+C'est pourquoi il peut être utile de compléter le superviseur par un logiciel de gestion des alertes, qui envoie automatiquement un courriel, un SMS, ou un appel téléphonique à un opérateur sous astreinte.
+
+Supervision système
+La supervision système porte principalement sur les trois types principaux de ressources système : le processeur ;; la mémoire ;; le stockage.; commutateurs : utilisation des ressources, métrologie.; serveurs : utilisation des ressources.
+
+Supervision réseau
+La supervision réseau porte sur la surveillance de manière continue de la disponibilité des services en ligne - du fonctionnement, des débits, de la sécurité mais également du contrôle des flux.
+
+Supervision des applications
+La supervision des applications (ou supervision applicative) permet de connaître la disponibilité des machines en termes de services rendus en testant les applications hébergées par les serveurs.
+À titre d'exemple, un serveur web peut avoir une supervision système et réseau avec des signaux au vert, et la machine ne sera pourtant pas disponible au sens du service web si apache n'est pas présent ou n'est pas en mesure de servir des pages web.
+La supervision applicative passe donc par des mesures faites aussi sur le flux de service. On parle alors de validation fonctionnelle. On utilise souvent un sous-ensemble des tests ayant permis la recette d'une application pour n'en prendre que les tests qui sont représentatifs de l'activité sans pour autant générer une charge trop importante ou modifier les données applicatives.
+La supervision applicative ne peut se faire sans considérer la sécurité applicative.
+
+La vision externe en ASP - SaaS
+Les solutions ASP (Application Service Provider, fournisseur de services via Internet) ou SaaS (Software as a Service) permettent de disposer d'un service similaire à un logiciel complexe ou coûteux, pour un coût mensuel souvent faible et avec, selon les solutions, une simplicité de mise en oeuvre notable.
+Les solutions ASP - SaaS permettent pour l'utilisateur : d'éviter toutes mise en place d'infrastructures techniques ;; de se passer en interne des compétences dédiées au fonctionnement de ces solutions ;; d'éviter l'investissement dans un logiciel spécialisé ;; de ne pas avoir à gérer en interne les applications mises en place. de disposer d'une solution simple dans le cas d'une informatique dispersée géographiquement ;; de pouvoir consulter à tout moment via Internet les données collectées,.
+Deux grandes familles de supervision en ASP - SaaS existent :
+
+Supervision de sites web et tests réseau externes
+Au-delà des logiciels à installer, des solutions ASP - SaaS existent de façon à exécuter des tests réseaux, et applicatifs (voir plus) avec une vision externe (utilisateur).
+Tests de la disponibilité et des performances de pages, tunnel d'achat, parcours utilisateurs, flux de données (vidéo, audio, etc.) sont autant de possibilités de mesures réalisées par ces solutions.
+
+Supervision de serveurs et inventaire de parc
+Des solutions permettent de réaliser une réelle supervision de serveurs sur un réseau local, sous la seule contrainte que chaque serveur supervisé soit connecté à Internet.
+Ces solutions permettent souvent une surveillance matérielle, logicielle et réseau.
+Un module exécutable léger est généralement installé sur chaque serveur à superviser. Ce module collecte à intervalle régulier des informations sur le fonctionnement du serveur et les transmet par internet au centre de traitement du fournisseur de la solution. Des alertes par courriel ou SMS sont déclenchées en cas de situation anormale, et les données peuvent être consultées sur un historique sur plusieurs semaines, mois ou années.
+De la même manière, des solutions permettent de réaliser un inventaire de parc de postes de travail, en collectant automatiquement les caractéristiques techniques de chaque poste et les logiciels installés.
+Certaines de ces solutions permettent à des sociétés de services informatiques de disposer d'une interface dédiée pour gérer les serveurs et le parc de leurs clients.
+
+Liste de solutions libres de supervision
+Pour pouvoir réaliser une supervision industrielle ou informatique, il est possible d'utiliser des logiciels de supervision open source. Il en existe plusieurs à présent qui se sont développés par différentes communautés. Ces derniers sont accessibles par tous et gratuits. De plus, ils sont facilement téléchargeables sur internet en se rendant sur les sites officiels ou sur les supports de téléchargement.
+Ce type de logiciel repose sur le même fonctionnement que des logiciels open source, c'est-à-dire qu'il y a des communautés de développeurs qui programment et améliorent le logiciel. L'avantage est que chacun peut aider dans l'avancement de l'application.
+On retrouve des logiciels de ce type pour la supervision dans le domaine de l'informatique et de l'industrie. Voici en suivant une liste de logiciels pour les domaines. Tous ne sont pas présentés car certains ne sont pas connus et d'autres sont en cours de développement.
+
+Supervision informatique
+
+NAGIOS
+Créé en 1999 par Ethan Galstad, Nagios est un logiciel qui permet de superviser un système d'information. Il est considéré comme étant la référence des solutions de supervision open source. Il dispose de nombreuses fonctions telles que l'héritage multiple, les dépendances, l'escalade de notifications, les Template de services et d'hôtes, le support des surveillances actives et passives, etc. L'interface web est la partie graphique, via un serveur web tel que Apache, et qui va permettre à l'administrateur d'avoir une vue d'ensemble de son réseau, de visualiser la supervision des équipements et de produire des rapports d'activités.
+
+CENTREON
+Anciennement appelé Oreon1, Centreon est un logiciel de supervision des applications, systèmes et réseaux, basé sur les concepts de Nagios. C'est une solution complète destinée aux administrateurs et exploitants du service de supervision. Il apporte de nombreuses fonctions telles que la consultation de l'état des services et des machines supervisées, la métrologie, le reporting, l'accès aux événements de supervision, la gestion avancée des utilisateurs via des listes de contrôle d'accès (ACL), etc. Il s'appuie sur les technologies Apache et PHP pour l'interface web, MySQL pour le stockage des données de configuration et de supervision.
+
+ZABBIX
+Zabbix est un logiciel libre qui permet de surveiller l'état de divers services réseau, serveurs et autres matériels réseau et produisant des graphiques dynamiques de consommation des ressources. Le "serveur ZABBIX" peut être décomposé en trois parties séparées : Le serveur de données, l'interface de gestion et le serveur de traitement. Chacune d'elles peut être disposée sur une machine différente pour répartir la charge et optimiser les performances. Il repose sur du C-C++, PHP pour la partie front end et MySQL - PostgreSQL - Oracle pour la partie base de données.
+
+ZENOSS
+Tout comme Nagios, Zenoss est un outil qui se base sur une application Web qui va surveiller les noeuds d'un réseau et générer des rapports importants pour des décideurs informatiques. Publié sous la licence GNU General Public License (GPL) version 2, Zenoss fournit une interface Web qui permet aux administrateurs système de la surveillance de la disponibilité, de l'inventaire, de la configuration, des performances et des événements.
+
+GANGLIA
+Ganglia (en) est beaucoup plus spécifique, c'est réellement un outil de supervision complémentaire destiné à la supervision d'un système en cluster. Il est basé sur une conception hiérarchique ciblée à des fédérations de grappes. Il exploite des technologies largement utilisées telles que XML pour la représentation des données, XDR pour compact, le transport de données portable et RRDtool pour le stockage des données et la visualisation. Il utilise des structures de données et d'algorithmes soigneusement conçues pour atteindre de très faibles frais généraux par noeud et haute concurrence.
+
+OPENNMS
+OpenNMS est une plate-forme libre et open-source de surveillance du réseau et de la gestion du réseau. Il est développé en Java et s'appuie sur le moteur applicatif Jetty et la base de données PostgreSQL pour fonctionner. L'objectif de OpenNMS est de devenir une véritable plate-forme distribuée et évolutive de gestion de réseau en appliquant toutes les consignes de la FCAPS (en) et en restant 100% gratuite et open source.
+
+SHINKEN
+Shinken est une application de surveillance open source écrite en Python sous les termes de la licence GNU Affero. Elle est complètement compatible avec le logiciel Nagios et elle a pour but d'apporter une supervision distribuée et hautement disponible facile à mettre en place. Depuis la version 2.0 (avril 2014), Shinken est décrit comme un cadre de surveillance en raison de son grand nombre de modules. Pour la même raison, les modules sont maintenant dans des dépôts séparés.
+
+CACTI
+Cacti est un logiciel libre de mesure de performances réseau et serveur basé RRDTool dédié à la métrologie. Il ne fait pas de supervision en tant que tel. Il ne fait pas de corrélation d'incidents ni d'alertes en cas d'incident (bien que des plugins existent, ce n'est pas son but premier. Les possibilités de configuration très avancées font que celui-ci est souvent utilisé en complément de solutions de supervision tel que Nagios, notamment, pour assurer la partie métrologie lorsque les exigences sont fortes. Il permet de représenter sous forme de graphiques n'importe quelle donnée quantifiable collectée soit par le biais de protocoles réseaux tels que SNMP ou soit par des scripts personnalisés par l'utilisateur.
+
+MUNIN
+Munin est un outil de surveillance système et réseau open source qui s'appuie sur l'outil RRDTool. Il présente ses résultats sous forme de graphiques disponibles via une interface web. Il possède une structure de plugins particulièrement simple qui permet d'enrichir rapidement l'outil. Des plugins sont actuellement disponibles pour les systèmes d'exploitations suivants: GNU-Linux, FreeBSD, NetBSD, Solaris et AIX. L'architecture du système Munin est constituée d'un serveur principal appelé Munin-master, récupérant les informations à intervalle régulier et de plusieurs noeuds appelés Munin-node. Le noeud doit être installé sur le(s) serveur(s) à surveiller.
+
+Vigilo NMS
+Vigilo NMS est un logiciel publié sous licence GNU GPL version 2, destiné à la surveillance des systèmes, réseaux et applications informatiques. Il est écrit en Python, s'appuie sur le moteur de supervision Nagios et est compatible avec les greffons de celui-ci. Dans sa version communautaire, Vigilo NMS fournit un bac à alarmes ainsi qu'une interface de suivi des performances (métrologie). Les autres versions intègrent également le support de la haute-disponibilité, la répartition de charge, la corrélation des alarmes, la cartographie du parc et la génération automatique de rapports.
+
+Supervision industrielle
+
+Proview
+Proview est probablement le premier système Open Source pour le contrôle de processus et l'automatisation dans le monde. Initialement développé en Suède par Mandant et SSAB Oxelösund comme un système de contrôle de processus basé sur des ordinateurs standard, le système est devenu une solution à part entière, intégré et à faible coût qui fonctionne sur PC standard avec Linux comme système d'exploitation. Proview fonctionne avec la licence GNU - GPL.
+Proview n'est pas seulement un logiciel de supervision, il est aussi un logiciel automate dans lequel on peut connecter des appareils comme des Arduinos et qui va traiter ensuite les variables pour activer des sorties selon son programme interne édité par l'utilisateur. La communication utilisée par ce logiciel est du modus TCP ou UDP par un câble Ethernet.
+
+Pvbrowser
+Développé sous Linux, Pvbrowser est un logiciel qui permet la création confortable et souple des applications SCADA pour les clients individuels. La création d'une application SCADA avec Bvbrowser peut être comparée à la création d'une page web pour les clients individuels. Il utilise intensivement des composants open source étrangers.
+L'utilisateur peut mettre en place des widgets, modifier leurs tailles et leurs utilisations. À travers ce dernier, on peut contrôler les droits d'entrer des utilisateurs.
+
+Lintouch
+Lintouch est un logiciel open source développé par l'entreprise allemande "SWAC". C'est un logiciel léger (il faut 32 MB de libre pour son installation), qui tourne dans la plupart des systèmes d'exploitation comme linux et windows. L'application fonctionne sur une architecture client-serveur dans lequel le protocol de communication est du modbus TCP-IP.
+Il est composé de trois modules qui sont : - Lintouch Editor qui permet de développer la partie IHM de la supervision. Il accepte des images traitées auparavant pour des logiciels d'éditeurs d'images. - Lintouch Runtime est le module qui contrôle les états des registres connectés sur le logiciel. Selon l'état de ces dernières, il modifiera la forme de l'IHM. - Lintouch Server est le module qui gère la communication entre la supervision et les équipements extérieurs.
+
+EnergoSCADA
+EnergoSCADA est un logiciel russe développé par l'entreprise "Oleg Ivanov". C'est une supervision open-source qui est spécialisée dans la supervision énergétique d'un bâtiment. Pour contrôler cela, l'utilisateur met le plan de la structure sur l'IHM et met on place pour chaque partie des leds selon ce qu'il veut mettre en avant. Le logiciel open source donne la possibilité de programmer des histogrammes pour avoir un historique de la consommation. Ces données sont stockées dans une base de données Mysql. De plus, l'utilisateur peut installer des alarmes qui vont s'activer automatiquement selon le niveau d'une variable.
+Le développement de la supervision se fait seulement sur le système d'exploitation linux. La supervision se fait via une page Web avec une accessibilité contrôlé par une identification d'utilisateur. Les appareils sont connectés à la supervision avec une connexion modbus.
+
+Voir aussi
+
+Articles connexes: SCADA; Télégestion; Industrie; BACnet.

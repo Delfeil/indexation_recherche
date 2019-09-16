@@ -1,0 +1,23 @@
+Adobe Flash Player (ou plus simplement Flash Player) est un plugin ou un lecteur multimédia autonome utilisant la technique Flash.
+La première version de la branche 10 est sortie en octobre 2008, peu après la sortie de la suite CS4 des logiciels Adobe.
+
+Compatibilité
+Il est officiellement compatible avec les systèmes d'exploitation Windows, GNU-Linux, OS X, Solaris, Pocket PC et HP-UX sur les navigateurs Microsoft Edge, Internet Explorer, AOL Desktop, Mozilla Firefox, SeaMonkey et Safari. Il est également intégré à Google Chrome et Opera.
+Cela dit les utilisateurs de Solaris et Pocket PC n'auront accès qu'à la version 7, les utilisateurs de HP-UX à la version 6, ces deux versions devenant de plus en plus obsolètes.
+De plus, à partir de la version 11.3 Adobe a décidé de ne plus prendre en charge la plateforme GNU-Linux, ses utilisateurs n'ont dorénavant accès qu'à la version 11.2 avec ses mises à jour de sécurité. Google Chrome sur GNU-Linux est un cas particulier puisqu'il intègre sa propre version mise à jour de Flash Player. Si l'obtenir sous GNU-Linux 64 bits est possible depuis le début 2009 dans sa version 10 , il n'en existe aucune version pour PowerPC.
+Flash ne supporte plus Android à compter de la version 4.1 Jelly Bean.
+Les projets Gnash et Swfdec ont pour but d'être des équivalents libres, mais ils ne supportent pas les nouveautés introduites par les versions supérieures ou égales à 10. Mozilla développe Shumway depuis 2012.
+
+Objets locaux partagés
+Flash Player utilise son propre système de cookies appelés local shared objects (LSO ou objet local partagé en français). Par rapport à des cookies classiques (stockés par le navigateur web), ces LSO sont plus invasifs du fait de certaines particularités : ils sont stockés sur la machine sans limite de temps ;; ils ne sont pas limités en taille si l'utilisateur le permet (leur taille par défaut étant vingt fois celle d'un cookie classique) ;; ils sont invisibles par le navigateur qui ne peut donc pas les gérer ni les effacer ;; ils diffusent par défaut les habitudes de surf (historique des sites visités...) sans y être invités par l'utilisateur.
+En théorie, il est possible d'intégrer facilement dans une page Web une application Flash invisible, simplement pour pouvoir stocker un LSO sans que l'utilisateur ne le sache.
+Le paramétrage de la sécurité et du respect de la vie privée est réalisable via une application flash spécifique disponible sur le site d'Adobe.
+À noter : que des extensions pour Firefox permettent de circonscrire ces cookies particuliers : citons NoScript et Better Privacy ;; que Midori intègre par défaut un outil de suppression des LSO ;; que Gnash possède un outil de gestion des LSO (soldumper).
+
+Alternatives libres
+Gnash, Lightspark et Swfdec sont des alternatives libres au Flash Player.
+Des alternatives libres, dédiées à l'affichage de séquences vidéo : ITheora et les balises multimédia d'HTML5.
+
+Voir aussi
+
+Articles connexes: Applet; Rich Internet application.

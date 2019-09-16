@@ -1,0 +1,34 @@
+En informatique, diviser pour régner (du latin "Divide ut imperes", divide and conquer en anglais) est une technique algorithmique consistant à : 1) Diviser : découper un problème initial en sous-problèmes ;; 2) Régner : résoudre les sous-problèmes (récursivement ou directement s'ils sont assez petits) ;; 3) Combiner : calculer une solution au problème initial à partir des solutions des sous-problèmes.
+Cette technique fournit des algorithmes efficaces pour de nombreux problèmes, comme la recherche d'un élément dans un tableau trié (recherche dichotomique), le tri (tri fusion, tri rapide), la multiplication de grands nombres (algorithme de Karatsuba) ou la transformation de Fourier discrète (transformation de Fourier rapide).
+
+Exemples
+La table suivante donne des exemples d'algorithmes en donnant les trois étapes (diviser, régner, combiner).
+Voici d'autres exemples d'algorithmes diviser pour régner : la transformation de Fourier rapide.; Il existe un algorithme de type diviser pour régner pour la recherche des deux points les plus rapprochés.
+
+Histoire
+La recherche dichotomique est formalisée dans un article de John Mauchly en 1946, mais l'idée d'utiliser une liste triée pour faciliter la recherche remonte à Babylone en -220. L'algorithme d'Euclide pour calculer le plus grand commun diviseur de deux nombres peut être vu comme un algorithme diviser pour régner (les deux nombres diminuent et on se ramène à un problème plus petit). Gauss décrit la transformée de Fourier rapide en 1805 sans en faire l'analyse de complexité. La transformée de Fourier rapide est redécouverte un siècle plus tard.
+John von Neumann invente le tri fusion en 1945. L'algorithme de Karatsuba est inventé par Anatolii A. Karatsuba en 1960 : il multiplie deux nombres de n chiffres en O (n log 2 3) (-displaystyle O(n(-log -(2)3))) opérations (voir notations de Landau). Cet algorithme contredit la conjecture d'Andreï Kolmogorov de 1956 qui stipule que (n 2) (-displaystyle -Omega (n(2))-,-!) opérations sont nécessaires. Knuth donne une méthode utilisée par les services postaux : les lettres sont triées et séparés en fonction des zones géographiques, puis en sous-zones géographies, etc. Ce tri est le tri radix, décrit pour les machines IBM à cartes (Trieur de cartes IBM (en)) dès 1929.
+
+Intérêts
+
+Complexité
+La faible complexité des algorithmes diviser pour régner est l'un de leurs principaux intérêts. Il existe plusieurs théorème facilitant le calcul des complexités des algorithmes de type diviser pour régner. Le principal théorème est le Master theorem. Pour des cas plus complexe on peut citer le théorème d'Akra-Bazzi. La table suivante compare la complexité d'un algorithme naïf et de l'algorithme diviser pour régner pour quelques problèmes (voir Notations de Landau) :
+
+Parallélisme
+Les algorithmes diviser pour régner sont souvent adaptés pour être exécutés sur des machines avec plusieurs processeurs.
+
+Circuits
+Il existe des circuits pour des entrées de taille fixées pour la transformation de Fourier rapide. Il existe également des réseaux de tris pour le tri fusion, appelé le tri bitonique.
+
+Limites
+
+Récursivité
+Les algorithmes diviser pour régner se prêtent naturellement à une écriture récursive. Mais parfois, l'exécution d'algorithmes récursifs peut conduire à un dépassement de pile. On préfère donc parfois un algorithme itératif.
+
+Sous-problèmes redondants
+Lorsque l'on applique "diviser pour régner", il n'y a pas de redondance : chaque sous-problème n'est résolu qu'une seule fois lors des appels récursifs. Par contre, lorsque les sous-problèmes sont redondants, l'algorithme récursif obtenu à partir de "diviser pour régner" peut avoir une mauvaise complexité. Prenons l'exemple du calcul du n terme de la suite de Fibonacci. L'algorithme suivant est en temps exponentiel en n :
+Pour pallier cette limite, on peut mémoriser les valeurs déjà calculées afin d'éviter de résoudre les sous-problèmes déjà rencontrés. Il s'agit de la mémoïsation (aussi utilisée en programmation dynamique).
+
+Voir aussi
+
+Articles connexes: Arbre de produits; Programmation dynamique.

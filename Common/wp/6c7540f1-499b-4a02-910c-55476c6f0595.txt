@@ -1,0 +1,15 @@
+Un formulaire, de "formule", désigne à l'origine un recueil de formules scientifiques ordonnées. L'acception législative est celle d'un modèle d'acte juridique, ce qui est proche du sens courant de formulaire : un "acte" type servant de modèle, général.
+
+Éléments historiques
+Les premiers formulaires furent écrits (et copiés) par les juristes romains puis des juristes médiévaux (moines ou laïques carolingiens) pour les notaires et les chancelleries notamment, et pour l'enseignement du droit (ex : Formulaire de Marculf).
+De nos jours, le formulaire fait souvent référence à un type de document administratif général, bien souvent à remplir par l'usager.
+
+En informatique
+En informatique, un formulaire est un espace de saisie dans l'interface utilisateur, pouvant comporter plusieurs zones, ou "champs" : on peut y saisir du texte, cocher des cases, effectuer un choix dans une liste de termes prédéfinis, appuyer sur des boutons, etc. Ces zones de saisie assurent l'interactivité entre le client (par exemple, le navigateur de l'internaute) et le serveur (par exemple, la machine qui héberge les pages web sur internet).
+Les boutons des formulaires permettent de lancer des actions prédéfinies par l'auteur des pages. Ces actions sont des scripts (JavaScript, PHP, Perl, CGI...) qui envoient les données saisies au serveur. Ce dernier les traite et renvoie une réponse à l'utilisateur via la page web.
+Les formulaires intelligents voient leur contenu s'adapter aux informations saisies par leur utilisateur de sorte à contextualiser leurs interactions avec le serveur. De la sorte, seules les informations pertinentes au contexte de l'échange lui seront demandées.
+Ces formulaires se démarquent ainsi très fortement de leur équivalent papier en favorisant l'interactivité avec leur utilisateur et ce sans forcément devoir respecter une mise forme équivalente à une éventuelle version papier pré-existante.
+
+Voir aussi
+
+Articles connexes: Administration publique; Droit administratif; Document administratif; Acte juridique; Informatique.

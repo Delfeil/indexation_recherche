@@ -1,0 +1,17 @@
+La lemmatisation désigne l'analyse lexicale du contenu d'un texte regroupant les mots d'une même famille. Chacun des mots d'un contenu se trouve ainsi réduit en une entité appelée lemme (forme canonique). La lemmatisation regroupe les différentes formes que peut revêtir un mot, soit : le nom, le pluriel, le verbe à l'infinitif, etc.
+
+Généralités
+Les mots (lemmes) d'une langue utilisent plusieurs formes en fonction de leur genre (masculin ou féminin), leur nombre (un ou plusieurs), leur personne (moi, toi, eux...), leur mode (indicatif, impératif...) donnant ainsi naissance à plusieurs formes pour un même lemme.
+La lemmatisation d'une forme d'un mot consiste à en prendre sa forme canonique. Celle-ci est définie comme suit : pour un verbe : ce verbe à l'infinitif,; pour les autres mots : le mot au masculin singulier.
+On notera donc que toutes les entrées d'un dictionnaire sont lemmatisées et qu'il en est de même pour les titres des articles de Wikipédia (au moins ceux constitués d'un seul lemme).
+
+Exemples
+L'adjectif petit existe sous quatre formes : petit, petite, petits et petites. La forme canonique de tous ces mots est petit.
+Il existe beaucoup plus de formes du verbe avoir : ai, as, a, avons, ais, avons eu, ayez eu, eussions eu, aurions eu, etc. La forme canonique de eussions eu est avoir.
+
+Usage en informatique
+En informatique, il est difficile pour un programme de savoir que eussions eu et avoir sont deux facettes d'un même terme. La lemmatisation est donc une opération préliminaire pour la reconnaissance des mots d'une phrase.
+
+Voir aussi
+
+Articles connexes: Racinisation (anglais: stemming); Lemme (linguistique); Lexème; Lexémisation; Forme; Flexion (linguistique).

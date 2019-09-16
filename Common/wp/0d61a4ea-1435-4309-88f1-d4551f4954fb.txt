@@ -1,0 +1,11 @@
+Mathématiques: La statistique est le domaine mathématique qui consiste à recueillir, traiter et interpréter un ensemble de données. À noter que les termes les statistiques ou l'étude des statistiques sont parfois utilisés pour ce domaine mathématique.; Une statistique (des statistiques au pluriel) est une quantité calculée à partir d'un certain nombre d'observations (ou échantillon). On parle également de donnée statistique. L'inférence statistique (ou statistique inférentielle) est un ensemble de méthodes permettant de tirer des conclusions fiables à partir de données d'échantillons statistiques. L'interprétation de données statistiques est, pour une large part, le point clé de l'inférence statistique.; La statistique descriptive est la branche des statistiques qui regroupe les nombreuses techniques utilisées pour décrire un ensemble relativement important de données.; La statistique "mathématique" est la branche des statistiques où le défi est de trouver des estimateurs judicieux (non biaisées et efficients). L'analyse des propriétés mathématiques de ces estimateurs sont au coeur du travail du mathématicien spécialiste de la statistique. L'article statistiques (mathématiques élémentaires) explique de manière plus abordable les notions d'indicateur statistique et du domaine de la statistique.; Les statistiques élémentaires continues constituent un domaine des mathématiques élémentaires qui traite le cas où, dans une enquête statistique, le caractère statistique est une valeur continue.; Les statistiques élémentaires discrètes constituent un domaine des mathématiques élémentaires qui traite le cas où, dans une enquête statistique, le caractère statistique prend un nombre fini raisonnable de valeurs.
+
+Physique: La physique statistique a pour but d'expliquer le comportement et l'évolution de systèmes physiques comportant un grand nombre de particules.
+
+Sciences sociales: Les statistiques en psychologie.
+
+Sport: Statistiques de basket-ball : suage des Statistiques dans le basket-ball.
+
+Voir aussi: Interconnexions entre la théorie des probabilités et la statistique, qui explique les liens entre ces deux domaines.
+
+Sur les autres projets Wikimedia: statistique sur le Wiktionnaire.

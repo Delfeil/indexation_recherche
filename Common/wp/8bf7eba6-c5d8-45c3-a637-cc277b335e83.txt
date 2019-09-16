@@ -1,0 +1,191 @@
+Ant est un logiciel créé par la fondation Apache qui vise à automatiser les opérations répétitives du développement de logiciel telles que la compilation, la génération de documents (Javadoc) ou l'archivage au format JAR, à l'instar des logiciels Make.
+Ant est écrit en Java et son nom est un acronyme pour "Another Neat Tool" (un autre chouette outil). Il est principalement utilisé pour automatiser la construction de projets en langage Java, mais il peut être utilisé pour tout autre type d'automatisation dans n'importe quel langage.
+Parmi les tâches les plus courantes, Ant permet la compilation, la génération de pages HTML de documentation (Javadoc), la génération de rapports, l'exécution d'outils annexes (checkstyle, FindBugs, etc.), l'archivage sous forme distribuable (JAR, etc.)
+
+Histoire
+Ant a été conçu par James Duncan Davidson (en) lorsqu'il transférait vers l'open source un produit de Sun. Ce produit, et le moteur JSP-Servlet de Sun Apache Tomcat, sont arrivés plus tard. L'outil propriétaire make était utilisé pour le compiler sur le système d'exploitation Solaris de Sun, mais dans le monde de l'open source il n'est pas possible de contrôler quelle plateforme est utilisée pour compiler Tomcat. Ant a été créé pour être simplement un outil indépendant du système d'exploitation pour compiler Tomcat à partir des directives contenues dans un fichier XML "build file". Ant (version 1.1) est officiellement disponible comme produit à part entière depuis le 19 juillet 2000.
+Il commence à devenir le projet de soutien de l'open source Java ; les développeurs prévoient un fichier build.xml pour tous les projets. De plus, l'outil a permis d'intégrer plus facilement les tests JUnit au processus de compilation, rendant les développeurs plus disposés à adopter le Test Driven Development, et l'Extreme Programming.
+un exemple de build.xml
+Voici un exemple de build.xml:
+xml version-"1.0" encoding-"UTF-8"
+project name-"projetWar" basedir-"." default-"checkstyle"
+
+ property name-"base.dir" value-"..-" -
+ property name-"baseTool.dir" value-"..-..-outils-" -
+
+ property name-"src.dir" value-"(base.dir)src" -
+ property name-"build.dir" value-"(base.dir)webapp-WEB-INF-classes" -
+ property name-"doc" location-"(base.dir)doc" -
+ property name-"lib" location-"(base.dir)lib" -
+
+ property name-"reports" value-"(baseTool.dir)-rapports" -
+ property name-"classpath" value-"(build.dir)" -
+
+ taskdef resource-"checkstyletask.properties" classpath-"(baseTool.dir)checkstyle-4.0-beta6-checkstyle-all-4.0-beta6.jar" -
+
+ target name-"reports" depends-"checkstyle, classcycle, findbugs, jdepend"
+ echoGénération des rapports terminé.-echo
+ -target
+
+ target name-"jdepend"
+ delete dir-"(reports)-jdepend-" -
+ mkdir dir-"(reports)-jdepend-" -
+ java classname-"jdepend.xmlui.JDepend" fork-"yes"
+ classpath
+ fileset dir-"(baseTool.dir)-jdepend-" includes-"----.jar" -
+ -classpath
+ arg value-"-file" -
+ arg value-"(reports)-jdepend-jdepend-report.xml" -
+ arg value-"(build.dir)" -
+ -java
+
+ style basedir-"(reports)-jdepend-" destdir-"(reports)-jdepend-" includes-"jdepend-report.xml" style-"(baseTool.dir)-jdepend-jdepend.xsl" -
+ -target
+
+ taskdef classpath-"(baseTool.dir)findbugs-0.9.1-lib-findbugs-ant.jar" name-"findbugs" classname-"edu.umd.cs.findbugs.anttask.FindBugsTask" -
+
+ property name-"findbugs.home" value-"(baseTool.dir)findbugs-0.9.1-" -
+
+ target name-"findbugs"
+ delete dir-"(reports)-findbugs-" -
+ mkdir dir-"(reports)-findbugs-" -
+ findbugs home-"(findbugs.home)" output-"html" outputFile-"(reports)-findbugs-bcel-fb.html"
+ classpath
+ -classpath
+ sourcePath path-"(src.dir)" -
+ class location-"(build.dir)" -
+ -findbugs
+
+ -target
+
+ taskdef classpath-"(baseTool.dir)-Classycle-classycle.jar" name-"classycleReport" classname-"classycle.ant.ReportTask" -
+
+ target name-"classcycle"
+ delete dir-"(reports)-classycle-" -
+ mkdir dir-"(reports)-classycle-" -
+ classycleReport reportFile-"(reports)-classycle-classycle.xml"
+ fileset dir-"(build.dir)"
+ include name-"----.class" -
+ -fileset
+ -classycleReport
+
+ style in-"(reports)-classycle-classycle.xml" out-"(reports)-classycle-classycle.html" style-"(baseTool.dir)-Classycle-reportXMLtoHTML.xsl" -
+ copydir dest-"(reports)-classycle-images" src-"(baseTool.dir)-Classycle-images"
+ -copydir
+ -target
+
+ target name-"init"
+ !-- création d'un répertoire pour la compilation --
+ mkdir dir-"(build.dir)" -
+ -target
+
+ target name-"checkstyle" description-"Generates a report of code convention violations."
+ delete dir-"(reports)-checkstyle-" -
+ mkdir dir-"(reports)-checkstyle-" -
+ checkstyle config-"(baseTool.dir)-checkstyle-4.0-beta6-sun-checks.xml" failureProperty-"checkstyle.failure" failOnViolation-"false"
+ classpath
+ !-- use the value of the (classpath) property in the classpath --
+ pathelement path-"(classpath)" -
+ !-- include all jar files --
+ fileset dir-"(lib)"
+ include name-"----.jar" -
+ -fileset
+ fileset dir-"-var-www-jakarta-tomcat-4.0.6-LE-jdk14-common-lib"
+ include name-"----.jar" -
+ -fileset
+ -classpath
+ formatter type-"xml" tofile-"(reports)-checkstyle-checkstyle-report.xml" -
+ fileset dir-"(src.dir)"
+ include name-"----.java" -
+ -fileset
+ -checkstyle
+ style in-"(reports)-checkstyle-checkstyle-report.xml" out-"(reports)-checkstyle-index.html" style-"(baseTool.dir)-checkstyle-4.0-beta6-contrib-checkstyle-noframes-sorted.xsl" -
+ -target
+
+ target name-"compil" depends-"cleanTomcat"
+ echoCompilation des sources java-echo
+ !-- compilation des sources Java --
+ javac srcdir-"(src.dir)" destdir-"(build.dir)"
+ classpath
+ !-- use the value of the (classpath) property in the classpath --
+ pathelement path-"(classpath)" -
+ !-- include all jar files --
+ fileset dir-"(lib)"
+ include name-"----.jar" -
+ -fileset
+ fileset dir-"-var-www-jakarta-tomcat-4.0.6-LE-jdk14-common-lib"
+ include name-"----.jar" -
+ -fileset
+ -classpath
+ -javac
+ -target
+
+ target name-"compilJUnit"
+ echoCompilation des sources Junit-echo
+ !-- compilation des sources Java --
+ javac srcdir-"tests" destdir-"tests"
+ classpath path-"c:-eclipse3.1-WTP-plugins-org.junit-3.8.1-"
+ !-- use the value of the (classpath) property in the classpath --
+ pathelement path-"(classpath)" -
+ !-- include all jar files --
+ fileset dir-"(lib)"
+ include name-"----.jar" -
+ -fileset
+ fileset dir-"-var-www-jakarta-tomcat-4.0.6-LE-jdk14-common-lib"
+ include name-"----.jar" -
+ -fileset
+ -classpath
+ -javac
+ -target
+
+ target name-"doc" depends-"compil" description-"Generation de la documentation"
+ delete dir-"(doc)-" -
+ mkdir dir-"(doc)-" -
+ javadoc destdir-"(doc)-" author-"true" version-"true" use-"true" package-"true"
+ fileset dir-"(src.dir)"
+ include name-"----.java" -
+ exclude name-"----Test-" -
+ -fileset
+ classpath
+ pathelement path-"(java.class.path)" -
+ -classpath
+ -javadoc
+ -target
+
+ target name-"clean"
+ delete dir-"(build.dir)" -
+ -target
+
+ target name-"all" depends-"init,compil, doc" description-"Generation complete"
+ echo message-"Generation complete." -
+ -target
+
+ taskdef name-"pmd" classname-"net.sourceforge.pmd.ant.PMDTask" classpath-"(baseTool.dir)-pmd-bin-3.3-pmd-3.3-lib-pmd-3.3.jar" -
+
+ target name-"pmd"
+ delete dir-"(reports)-pmd-" -
+ mkdir dir-"(reports)-pmd-" -
+ taskdef name-"pmd" classname-"net.sourceforge.pmd.ant.PMDTask" classpath-"(baseTool.dir)-pmd-bin-3.3-pmd-3.3-lib-pmd-3.3.jar" -
+ pmd rulesetfiles-"rulesets-optimizations.xml"
+ formatter type-"xml" toFile-"(reports)-pmd-report-pmd.xml"-
+ fileset dir-"(src.dir)"
+ include name-"----.java" -
+ -fileset
+ -pmd
+ xslt in-"(reports)-pmd-report-pmd.xml" style-"(baseTool.dir)-pmd-bin-3.3-pmd-3.3-etc-xslt-pmd-report-per-class.xslt" out-"(reports)-pmd-report-pmd.html" -
+ -target
+
+-project
+Portabilité
+Un des principaux objectifs de Ant était de résoudre le problème de la portabilité complète du développement en Java. Dans un Makefile, les actions requises pour effectuer une tâche sont spécifiées comme étant des commandes shell, qui sont propre à une certaine plate-forme (celle d'exécution).
+Ainsi, lorsque l'on souhaite déployer son application sur plusieurs plates-formes, il est nécessaire de complexifier, ou de produire plusieurs Makefile pour satisfaire chacun de ces environnements. Ant a résolu ce problème en fournissant par défaut un panel de fonctionnalités, qui auront le même comportement sur tous les systèmes.
+Par exemple, dans un Makefile on peut rencontrer la règle suivante, dans un environnement UNIX :
+clean:
+ rm -rf classes-
+Alors que sous Windows par exemple, la même règle s'écrit :
+clean:
+ rmdir -S -Q classes
+Dans un fichier Ant, une seule directive est commune pour tous les systèmes supportés par le logiciel : delete dir-"classes"-
+Une des principales différences entre les plates-formes est également le délimiteurs d'éléments dans un système de fichiers : les environnements UNIX utilisent la barre oblique (-), alors que MS Windows utilise la barre oblique inversée (-). Ant permet aux développeurs de choisir la convention qu'ils souhaitent, et effectuera la conversion de façon transparente à l'exécution, en fonction de la plate-forme.
+
+Alternatives: Apache Maven : Compilation de source Java, gestion de dépendances, déploiement des artifacts générés.; SCons : Compilation de sources Java, C, C++ grâce à des scripts Python.; Make : Compilation et construction de fichiers automatisés.; CMake : Compilation, construction de fichiers automatisés et création de fichiers pour les EDI.

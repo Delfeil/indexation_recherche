@@ -1,0 +1,11 @@
+On nomme postulat (du latin postulare qui signifie "demander") un principe non démontré utilisé dans la construction d'une théorie mathématique.
+
+Définition
+Le postulat est ce que le mathématicien demande qu'on lui accorde et qui sert de fondement au reste de son exposé ; il n'est cependant pas par définition interdit de le démontrer plus tard. En ce sens, le postulat se distingue de l'axiome, ce dernier étant toujours posé au départ comme un élément fondamental du système qu'on ne cherchera pas à démontrer.
+On peut donc utiliser un postulat avec l'assentiment de l'auditeur, qui le prend comme un principe non démontré mais sans doute légitime, car semblant intuitivement non contestable (ou parce que prouvé ultérieurement par des démonstrations ne le faisant pas intervenir - voir autoréférence, tautologie). La plupart des postulats sont jugés comme étant des marques de bon sens, des appuis sur l'expérience.
+La géométrie issue d'Euclide était ainsi présentée avec des axiomes, supposés ne pas avoir à être justifiés, et d'un postulat (par un point donné et parallèlement à une droite donnée passe une et une seule droite) qui possiblement aurait pu être démontré à partir de ces axiomes. La découverte de l'indépendance de ce postulat relativement aux autres axiomes amena à considérer trois géométries tranchant par des axiomes distincts ce postulat qui n'est devenu axiome que dans la seule géométrie euclidienne, mais pas dans les géométries non euclidiennes.
+Au sein d'une théorie axiomatique, c'est un énoncé indépendant des autres axiomes, par contre un postulat, que l'on appelle de manière contemporaine plutôt une conjecture, est un énoncé supposé être un théorème de la théorie mais qui possiblement peut être un indécidable de cette théorie, ainsi le statut (indécidable ou théorème) d'un postulat n'est pas connu.
+
+Voir aussi
+
+Articles connexes: Axiome; Conjecture; Démonstration; Hypothèse; Consensus; Préjugé; Croyance. Portail des mathématiques.

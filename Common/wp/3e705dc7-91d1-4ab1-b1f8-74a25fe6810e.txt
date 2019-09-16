@@ -1,0 +1,16 @@
+Identi.ca est un service de réseautage social et de microblogage fonctionnant sous pump.io, un logiciel libre sous licence Apache.
+
+Fonctionnement
+Les utilisateurs peuvent ajouter des textes d'une longueur maximum de 140 caractères sur le principe du microblog, reprenant la longueur exacte imposée sur Twitter. Bien que similaire à Twitter dans le concept et le mode de fonctionnement, Identi.ca fournit de nombreuses fonctionnalités non disponibles sur Twitter, telles que le support du protocole de messagerie XMPP. Identi.ca permet l'export et l'échange de données basé sur le standard FOAF; ainsi les messages peuvent être redirigés vers un compte Twitter ou un autre service.
+
+Historique
+Le service a reçu plus de 8 000 inscriptions et 19 000 messages durant ses premières 24 heures de fonctionnement, le 1er juillet 2008, et a atteint le million de messages le 4 novembre 2008. En janvier 2009, Identi.ca a bénéficié d'investissements de la part d'un investisseur en capital-risque basé à Montréal.
+Le 30 mars 2009, Control Yourself (par la suite renommé StatusNet Inc) a annoncé qu'Identi.ca deviendrait part du service de microblogging hébergé appelé status.net, lancé en mai 2009. Status.net propose des microblogs individuels sur un nom de domaine choisi par le client. Identi.ca restera un service gratuit. Tous les messages ("avis") y seront publiés par défaut sous la licence Creative Commons Attribution 3.0, mais les clients du service payant seront libres de choisir une autre licence.
+Le 26 mars 2013, Evan Prodromou annonce que l'ouverture de nouveaux comptes est bloquée, au profit des nouveaux sites développés avec pump.io.
+
+Emacs Identica-mode
+Identica-mode est un client identi.ca pour GNU Emacs. Développé et maintenu par Gabriel Saldana avec des contributions d'autres hackers, ce mode Emacs dédié est distribué sous la licence GNU GPL.
+
+Voir aussi
+
+Articles connexes: StatusNet.

@@ -1,0 +1,4 @@
+Zettair est un petit moteur de recherche libre qui permet l'indexation et la recherche de fichiers au format HTML (ou TREC). L'intérêt principal de ce moteur est sa capacité à manipuler des collections de documents de grande échelle (100 Go ou plus), de façon très rapide et efficace. Il est développé par un groupe de chercheurs australiens de la RMIT University.
+C'est un programme en ligne de commande écrit en C, sous licence BSD. Il permet à la fois l'indexation et la recherche, sans système de gestion de base de données. Il supporte la syntaxe de type Google.
+
+Voir aussi: Moteur de recherche; Recherche d'information (IR); zetta.

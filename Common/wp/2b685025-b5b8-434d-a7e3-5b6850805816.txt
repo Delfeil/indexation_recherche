@@ -1,0 +1,61 @@
+Windows 95 est un système d'exploitation à environnement graphique destiné aux particuliers. La première version est sortie le 24 août 1995, vendue par Microsoft. C'est une progression significative par rapport aux précédentes versions de Windows. Pendant son développement, il avait été désigné sous le nom de Windows 4.0, ou par le nom de code de Chicago.
+Windows 95 a pour objectif d'intégrer les produits précédents de MS-DOS et de Windows. Windows 95 présente de nombreuses nouveautés par rapport à son prédécesseur, Windows 3.1 : programmation 32 bits, multitâche préemptif, nouvel environnement graphique.
+Sur le marché, Windows 95 est un réel succès et, un an après sa sortie, il devient le système d'exploitation le plus populaire jamais conçu. Trois ans plus tard, Windows 95 est remplacé par Windows 98, premier système d'exploitation orienté pour un usage d'Internet et prenant en charge l'USB.
+
+Éléments techniques
+
+Interface utilisateur
+L'arrivée de Windows 95 a apporté des améliorations à l'interface utilisateur et a mis fin à la compétition entre les systèmes d'exploitation pour ordinateurs de bureau. Windows 95 a été un immense succès ; deux ans après sa sortie, en 1997, il était le système d'exploitation le plus vendu mondialement (100 millions de copies vendues, soit 69,4 % de parts de marché contre seulement 2,4 % pour Linux et 4,6 % pour Mac OS. Fort de son succès, Microsoft annonce l'arrêt des ventes de copies de Windows 3.11 en 1997.
+Ce système introduit l'usage du bouton "Démarrer" et de la barre des tâches chez les produits Microsoft. Des fonctions similaires étaient déjà utilisées depuis quelques années par le système Arthur (en) ou RISC OS.
+Son jingle de démarrage a été composé par Brian Eno.
+
+Windows et le DOS
+Windows 95 fonctionne avec MS-DOS 7.0 qui était inclus. C'est le premier produit Microsoft à être vendu lié à une version spécifique et complète du DOS.
+Du fait que Windows 95 est démarré depuis DOS, Windows 95 a la réputation de n'être qu'une surcouche de DOS. Toutefois, Windows 95 accède directement à tout le matériel sans reposer sur DOS. En revanche, divers éléments de DOS sont repris pour assurer la compatibilité, et sont intégrés si profondément dans le système qu'ils constituent même des failles dans la stabilité et la sécurité de Windows 95.
+
+Windows et OS-2
+L'interface rappelle beaucoup celle d'OS-2 avec des polices de caractères TrueType. La "gestion des raccourcis" est différente : en OS-2 un raccourci suivait automatiquement un document si l'on déplaçait ce dernier dans le système de fichiers, ce qui n'était plus le cas avec Windows 95.
+
+L'introduction du 32 bits
+C'est la première version destinée au grand public à ne plus être compatible avec les anciens processeurs 16 bits. En effet, il requiert au minimum un processeur Intel 80386 pouvant fonctionner en mode protégé.
+
+Système de fichiers
+Architecture de Windows 95 (cliquer pour agrandir).
+Windows 95 supporte des noms de fichier plus longs : la limite passe de 8 caractères à 255 par l'utilisation du VFAT, repris ensuite sur Windows 98 et Windows 2000.
+La première version de Windows 95 (4.00.950) utilise le même système de fichiers que celui des dernières versions de MS-DOS : FAT16. Cependant, Windows 95 OSR2 (4.00.1111) et les suivants offriront le choix entre FAT16 et FAT32.
+L'introduction de l'accès aux fichiers en mode 32 bits, inauguré dans Windows 3.11, signifie que le mode 16 bits de MS-DOS n'est plus utilisé pour gérer les fichiers lorsque Windows fonctionne, et l'introduction de l'accès disque en mode 32 bits rendit le BIOS inutile pour accéder aux disques. Ceci réduit MS-DOS au rôle d'un simple lanceur pour le mode protégé. DOS pouvait encore être utilisé pour lancer d'anciens pilotes afin de préserver la compatibilité, mais Microsoft le déconseillait fortement arguant qu'ils pourraient compromettre la stabilité du système. Le panneau de configuration permet à l'utilisateur de voir quels composants MS-DOS sont encore utilisés par le système. Le noyau Windows utilise encore une interface dans le style MS-DOS pour son mode sans échec qui ne charge que les pilotes natifs afin de réduire les conflits.
+L'usage des noms longs était disponible à la fois pour les programmes Windows et les programmes MS DOS lancés sous Windows. Ces derniers devaient cependant s'adapter sensiblement car accéder aux fichiers à noms longs requérait un chemin plus long et des procédures différentes. Les autres systèmes d'exploitation compatibles avec DOS devaient eux aussi être adaptés pour pouvoir voir ces noms et utiliser d'anciennes versions du DOS pour manipuler ces fichiers faisait perdre aux fichiers leurs noms longs.
+Lors d'une mise à jour automatique de Windows 3.1 vers Windows 95, l'installation reconnaissait les utilitaires qui pouvaient détruire les noms de fichiers longs et les rendait inopérants. Pour ceux qui avaient tout de même fait l'erreur et qui souhaitaient rendre à leurs fichiers leurs noms longs, un utilitaire est (peut-être) à disposition sur le CD-ROM de Windows 95 (dans le répertoire -ADMIN-APPTOOLS-LFNBACK du CD).
+
+Internet Explorer
+Les versions originales de Windows 95 ne sont pas vendues avec Internet Explorer et le protocole TCP-IP n'est pas installé par défaut par le système d'exploitation. Internet Explorer 1.0, disponible au moment de sa sortie, n'est fourni qu'avec la version Plus!. La première révision de Windows 95 (l'OEM Service Release 1) inclut cependant Internet Explorer 2.0. L'OEM Service Release 2, sortie en 1996, inclut Internet Explorer 3.0 et la 2.5 Internet Explorer 4.0. La dernière version d'Internet Explorer compatible avec Windows 95 est la version 5.5 sortie en 2000. Windows 95 est vendu avec The Microsoft Network (l'ancêtre de MSN), qui fonctionne par accès par ligne commutée.
+
+Publicité
+Windows 95 a été lancé avec une grande campagne publicitaire, avec notamment une publicité illustrée par la chanson Start Me Up des Rolling Stones en référence au bouton "Démarrer" ("Start" en anglais). La campagne de Microsoft mettait en scène des histoires de personnes faisant la queue devant les boutiques afin d'obtenir leur copie.
+Lors de la sortie de Windows 95, la firme concurrente Apple fait paraître une publicité pleine page disant simplement "C:-ONGRTLNS.W95" (félicitations Windows 95) pour ironiser sur la limitation des noms DOS à 11 caractères (les noms de fichiers 8.3), dont Microsoft venait simplement de se "débarrasser", et rappeler que Microsoft n'était pas le seul sur le marché.
+
+Développement et versions
+Le développement de Windows 95 débute en mars 1992, peu de temps après la sortie de Windows 3.1. Du fait de la sortie de OS-2 2.0 par IBM, Microsoft réalise qu'une nouvelle version de Windows est nécessaire afin de prendre en charge les applications 32 bits et permettre un multitâche préemptif, tout en se devant de pouvoir tourner sur des machines peu puissantes. Initialement, Microsoft prévoyait de ne pas modifier l'environnement graphique et de sortir son OS fin 1993.
+En mai 1994, Microsoft publie une toute première bêta de Windows Chicago qui prendra le nom quelques mois plus tard (en septembre) de Windows 95. En mars 1995, la bêta officielle de Windows 95 est publiée (1 million de licences OEM sont distribuées). Le 14 juillet 1995, Microsoft annonce que le code source de son nouvel OS (15 millions de ligne de code) est "golden", ce qui signifie qu'il ne sera plus modifié jusqu'à sa commercialisation.
+Windows 95 a connu plusieurs évolutions majeures, la plus importante est la version 4.00.1111 (OSR 2) son nom de code est Nashville. Cette version fut la plus importante car l'arrivée de MS-DOS 7.1 apporta de nombreuses nouveautés dont la plus importante qui est le support du FAT32 qui permettront dorénavant aux utilisateurs de créer des partitions pouvant atteindre 32 Go.
+
+Succession
+Dans la gamme grand-public des systèmes d'exploitation Microsoft, Windows 95 a été suivi par Windows 98 puis Windows Me avant d'être remplacé par la branche Windows NT via Windows XP.
+Les versions de Windows 95 à Windows Me sont progressivement devenues obsolètes, et le 31 décembre 2002, Microsoft a cessé d'assurer le support de Windows 95. Malgré la sortie de Windows 98, la majorité des ordinateurs de bureau de par le monde continuent à être vendus avec Windows 95 jusqu'en 2001 (57,4 % des parts de marché en 1998).
+
+Configuration minimale requise
+Configuration minimale officielle requise : Processeur : Intel 80386; Espace disque dur : 50 Mo à 55 Mo; Mémoire vive : 4 Mo de RAM; VGA ou moniteur de résolution supérieure (640x480 pixels).
+Celle-ci a été avancée par Microsoft dans le but de maximiser le nombre de mises à niveau Windows 3.11 vers Windows 95. En réalité, cette configuration est sous-optimale : d'une part il faut pas moins de 75 Mo d'espace disque pour pouvoir effectuer une installation complète de tous les composants (client de messagerie électronique, Microsoft Fax etc), et d'autre part la machine peut refuser de démarrer (booter) si des composants réseaux ou similaires sont installés avec seulement 4 Mo de RAM.
+Ainsi la configuration minimale recommandée est la suivante : Processeur : Intel 80486; Espace disque dur : 420 Mo; Mémoire vive : 8 Mo de RAM; VGA ou moniteur de résolution supérieure (640x480 pixels, SVGA-256 couleurs recommandé).
+Limitation de la mémoire physique : Windows 95 n'est pas conçu pour traiter plus de 480 Mo de RAM, une capacité supérieure entraîne une instabilité du système.
+
+OSR2
+Windows 95 OSR2, OSR pour "OEM Service Release 2", est une version du système d'exploitation Microsoft Windows 95 publiée en 1996, disponible uniquement en OEM (nécessite l'achat d'un ordinateur ou d'un disque dur neuf).
+
+Historique
+Entre le lancement officiel de Windows 95, le 4 septembre 1995, et celui de Windows 98 le 8 juillet 1998, deux mises à jour majeures de Windows 95 sont publiées. Microsoft livre d'abord le Service Pack 1, qui contient essentiellement de nouveaux pilotes de périphériques et quelques corrections de bugs. Cette version de Windows95 porte le numéro 4.00.950 A.
+Depuis le mois de novembre 1996, les constructeurs et les distributeurs qui vendent des PC neufs peuvent livrer la version 4.00.950 B, autrement dit Windows 95 OSR2, la dernière version avant Windows 98 Des variantes d'OSR2 existent : 2.1, 2.5 cette dernière étant reconnue comme la version 4.00.950 D livrée avec Internet Explorer 4 et DirectX 5.
+
+Défauts
+Dans les versions française, italienne, allemande et espagnole, il existe un bug assez pénible pour les utilisateurs d'applications tournant sous DOS. En effet, une mauvaise écriture du fichier IO.SYS provoque un accroissement de l'espace mémoire occupé par le fichier HIMEM.SYS. Les utilisateurs perdent 40 Ko de mémoire avec la version OSR 2.
+Cela explique pourquoi des applications et des jeux fonctionnant sous DOS refusent de se lancer. Ce bug est corrigé par la version OSR 2.1 (aussi connu sous le nom "4.00.950 B") qui inclut aussi le support de l'USB.

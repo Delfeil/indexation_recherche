@@ -1,0 +1,23 @@
+Apache Velocity est un package libre développé par la Fondation Apache. Velocity est un moteur de gabarits (ou templates en anglais), développé en Java, qui fournit un langage de gabarit simple et puissant d'objets référencés définis en Java. Son but est d'assurer une séparation claire entre la couche présentation et la couche métier dans une application web (voir le design pattern Modèle-Vue-Contrôleur).
+C'est un logiciel libre distribué selon les termes de la licence Apache.
+
+Utilisations
+Voici certaines utilisations courantes de Velocity : Applications Web : les web designers font des pages HTML avec des emplacements pour des informations dynamiques. La page est traitée avec VelocityViewServlet ou tout autre framework qui supporte Velocity. Cette approche du développement d'applications web est appelée Modèle-Vue-Contrôleur (MVC), et est prévue pour être un remplaçant direct pour des applications développées en JSP ou PHP ;. Génération de code source : Velocity peut-être utilisé pour générer du code source Java, SQL, PostScript, ou autre basé sur des gabarits. Un certain nombre de développements open source et commerciaux de packages utilisent Velocity ;. Courriers électroniques automatiques : beaucoup d'applications génèrent automatiquement des messages pour des confirmations de créations de comptes, pour rappeler les mots de passe, ou pour envoyer automatiquement des rapports. En utilisant Velocity, les gabarits de courrier électronique peuvent être stockés dans des fichiers texte, au lieu d'être directement inclus en dur dans le code Java ;. Transformation XML : Velocity fournit une tâche Ant, appelé Anakia, qui parse un fichier XML et en fait un autre fichier grâce à un template Velocity. Une application courante est la conversion d'une documentation stockée dans un format générique "xdoc" dans un document HTML par exemple.
+
+Exemple de code
+Le gabarit HTML suivant :
+ Velocity Hello World
+html
+ body
+ set(foo - "Velocity")
+ suivi par
+ Hello foo World!
+ -body
+-html
+traité par Velocity génère le code suivant :
+html
+ body
+ Hello Velocity World!
+ -body
+-html
+La syntaxe et les concepts globaux des gabarits Velocity est très proche de la syntaxe du moteur de gabarits plus ancien WebMacro qui est à l'heure actuelle également un projet open source.

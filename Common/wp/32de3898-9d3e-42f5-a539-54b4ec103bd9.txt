@@ -1,0 +1,103 @@
+MongoDB (de l'anglais humongous qui peut être traduit par "énorme") est un système de gestion de base de données orientée documents, répartissable sur un nombre quelconque d'ordinateurs et ne nécessitant pas de schéma prédéfini des données. Il est écrit en C++. Le serveur et les outils sont distribués sous licence AGPL, les pilotes sous licence Apache et la documentation sous licence Creative Commons. Il fait partie de la mouvance NoSQL.
+
+Historique
+MongoDB est développé depuis 2007 par MongoDB. Cette entreprise travaillait alors sur un système de Cloud computing, informatique à données largement réparties, similaire au service Google App Engine de Google. Sa première version considérée comme industriellement viable a été la 1.4, en 2010.
+Il est ensuite devenu un des SGBD les plus utilisés, notamment pour les sites web de Craigslist, eBay, Foursquare, SourceForge.net, Viacom, et le New York Times.
+
+Principales caractéristiques
+
+Données manipulées
+MongoDB permet de manipuler des objets structurés au format BSON (JSON binaire), sans schéma prédéterminé. En d'autres termes, des clés peuvent être ajoutées à tout moment "à la volée", sans reconfiguration de la base.
+Les données prennent la forme de documents enregistrés eux-mêmes dans des collections, une collection contenant un nombre quelconque de documents. Les collections sont comparables aux tables, et les documents aux enregistrements des bases de données relationnelles. Contrairement aux bases de données relationnelles, les champs d'un enregistrement sont libres et peuvent être différents d'un enregistrement à un autre au sein d'une même collection. Le seul champ commun et obligatoire est le champ de clé principale ("id"). Par ailleurs, MongoDB ne permet ni les requêtes très complexes standardisées, ni les JOIN, mais permet de programmer des requêtes spécifiques en JavaScript.
+Pour des données mises en page de la manière suivante :
+Le code correspondant dans le fichier de stockage d'une table (par exemple csv) d'un tableur (par exemple Calc de LibreOffice) est :
+ID,Nom,Prénom,Âge
+6,DUMOND,Jean,43
+7,PELLERIN,Franck
+8,LOUIS,Emile,62
+9,KING,,51
+On remarque qu'une valeur peut être manquante (NULL), mais que chaque ligne comporte le même nombre de champs.
+Différemment, pour la même mise en page (par exemple une page.php dans un navigateur web) une collection NoSQL peut présenter des champs différents à chaque ligne (et même imbriquer plusieurs champs dans une ligne) :
+(
+"-id": ObjectId("4efa8d2b7d284dad101e4bc7"),
+"Nom": "DUMOND",
+"Prénom": "Jean",
+"Âge": 43
+),
+
+(
+"-id": ObjectId("4efa8d2b7d284dad101e4bc8"),
+"Nom": "PELLERIN",
+"Prénom": "Franck",
+"Adresse": "1 chemin des Loges",
+"Ville": "VERSAILLES"
+),
+
+(
+"-id": ObjectId("4efa8d2b7d284dad101e4bc9"),
+"Nom": "KING",
+"Âge": "51",
+"Adresse": "36 quai des Orfèvres",
+"Ville": "PARIS"
+)
+On remarque tout de suite que des champs nouveaux ont été ajoutés dans les enregistrements les plus récents, sans impact sur l'enregistrement le plus ancien. C'est ce qui fait la spécificité des NoSQL. On remarque également que ce stockage sous forme "attribut-"valeur est très proche du XML. Par ailleurs, une sauvegarde de base de données ((en)dump) en langage de requête SQL peut également prendre cette forme "attribut-"valeur, mais elle n'est exploitable que recréée sous forme de tables (dans un SGBD).
+Les documents d'une collection MongoDB peuvent comporter des champs différents (note : le champ "-id" est un champ obligatoire, généré et ajouté par MongoDB, c'est un index unique qui permet d'identifier le document).
+Dans un document, des champs peuvent être ajoutés, supprimés, modifiés et renommés à tout moment. Contrairement aux bases de données relationnelles, il n'y a pas de schéma prédéfini. La structure d'un document est très simple et se compose de paires clef-valeur à la manière des tableaux associatifs, la clef est le nom du champ, la valeur son contenu (voir à ce propos le format JSON). Les deux sont séparés d'un signe deux-points ":" comme le montre l'exemple ci-dessus. Une "valeur" peut être un nombre ou du texte, mais aussi une donnée binaire (comme une image) ou une collection d'autres paires clefs-valeurs comme le montre l'exemple ci-dessous :
+(
+"-id": ObjectId("4efa8d2b7d284dad101e4bc7"),
+"Nom": "PELLERIN",
+"Prénom": "Franck",
+"Âge": 29,
+"Adresse":
+ (
+ "Rue" : "1 chemin des Loges",
+ "Ville": "VERSAILLES"
+)
+)
+Ici sont imbriqués des documents : le champ "Adresse" contient un document de deux champs : "Rue" et "Ville".
+Certaines opérations sur les champs telles que l'incrémentation peuvent être effectuées de façon atomique, c'est-à-dire sans déplacement ni copie du document.
+
+Manipulation des données
+MongoDB est livré avec des liaisons pour les principaux langages de programmation : Go; C; C++; Dart; Erlang; Haskell; Java; JavaScript; NET (C F, PowerShell, etc); Perl; PHP; Python; Ruby; Scala.
+Ces pilotes permettent de manipuler la base de données et ses données directement depuis ces langages. Cependant MongoDB possède également un outil qui peut être utilisé en ligne de commande et qui donne accès au langage natif de la base de données : le JavaScript, par l'intermédiaire duquel on peut également manipuler la base.
+En tapant :
+dans la ligne de commande du système d'exploitation, on lance l'interpréteur de commandes interactif de MongoDB.
+Dans une base de données nommée vente qui contient plusieurs collections, voici comment on afficherait tous les documents de la collection nommée clients :
+ use vente -- Sélectionne la base de données "vente"
+ db.clients.find; -- Cherche et affiche tous les documents de la collection "clients".
+Le résultat s'imprime à l'écran :
+("-id": 28974, "Nom": "ID Technologies", "Adresse" : "7 Rue de la Paix, Paris")
+("-id": 89136, "Nom": "Yoyodine", "Adresse" : "8 Rue de la Reine, Versailles")
+La documentation officielle (voir la section liens externes) de MongoDB décrit en détail les mécanismes de manipulation de données par l'intermédiaire de l'outil mongo. Pour manipuler les bases MongoDB depuis un langage de programmation, il convient en revanche de se reporter à la documentation correspondant au pilote (driver) du langage en question.
+
+Solutions basées sur MongoDB
+Insertion d'un enregistrement dans MongoDB avec Robomongo 0.8.5.
+MongoDB référence différentes solutions utilisant sa base.
+Un exemple notable d'application cliente de gestion de ce système de gestion de base de données est Robomongo.
+
+Utilisation comme système de fichiers
+MongoDB peut être utilisé comme système de fichiers, cette fonction assez inhabituelle pour une base de données permet pourtant de profiter de toutes les caractéristiques décrites dans la section Déploiement, à savoir la réplication et la répartition de données sur un ensemble de serveurs, et de les mettre à profit pour gérer des fichiers.
+Cette fonction, nommée GridFS, est incluse dans les pilotes fournis avec MongoDB et utilisable sans difficulté particulière dans les langages de programmation. Le programmeur dispose de fonctions pour manipuler les fichiers et leur contenu, MongoDB se chargeant de leur gestion.
+Dans un système fonctionnant sur plusieurs serveurs MongoDB, les fichiers peuvent ainsi être automatiquement répartis et dupliqués entre les ordinateurs de façon transparente, offrant au système la tolérance aux pannes et la répartition de la charge que MongoDB apporte aux données.
+
+Positionnement
+Les bases de données hiérarchiques ont été développées pour les matériels peu puissants des années 1970. Ceux des années 1990, plus puissants, ont pu utiliser le modèle relationnel (bien plus consommateur, mais beaucoup plus souple). Les années 2010 permettent l'introduction des bases not-only-SQL ("NoSQL" : pas-seulement-SQL) comme MongoDB associant aux données des attributs (ou champs) placés à la demande en temps réel, et exploitables ensuite par le biais de requêtes. Chacune de ces deux approches tire profit de la baisse des coûts et de l'augmentation de puissance du matériel pour permettre des développements plus simples et plus rapides.
+
+Popularité
+Selon db-engines.com, MongoDB occupe la 5e place dans le classement des systèmes de gestion de bases de données les plus populaires en mars 2017, tous types confondus, et la première place pour les systèmes de gestion de bases de données NoSQL (en nombre de résultats de recherches Google et Bing, et en nombre de requêtes Google).
+
+Déploiement
+MongoDB prend en charge la réplication via un modèle maître-esclave à des fins de résistance aux pannes et de répartition de la charge.
+En pratique MongoDB peut tourner sur plusieurs ordinateurs, en répartissant ou en dupliquant les données. Il est ainsi possible de répartir les données sur plusieurs machines pour répartir la charge de travail, mais il est également possible de dupliquer les données de chaque ordinateur sur un ou plusieurs autres ordinateurs afin de garder le système de base de données opérationnel même en cas d'une panne de l'un d'eux. MongoDB rend d'ailleurs ces configurations aisées à mettre en place en les automatisant. De cette façon, il est tout à fait possible d'ajouter à la volée un ou des ordinateurs à une base de données en cours de fonctionnement.
+
+Performance et surveillance (monitoring)
+
+Métriques à surveiller
+Des problèmes de performance de MongoDB peuvent avoir un impact important sur les applications utilisant cette base de données dans leur infrastructure en production. Afin de les éviter, il est indispensable de surveiller les métriques (statistiques) clés fournies par MongoDB, que vous utilisiez MongoDB avec WiredTiger, maintenant par défaut, ou bien MMAPv1 : Débit - opérations : Nombre de requêtes de lecture de données,; Nombre de requêtes d'écriture de données,; Nombre de clients effectuant avec des opérations de lecture de données en cours ou en attente,; Nombre de clients effectuant avec des opérations d'écriture de données en cours ou en attente ;.; Nombre de requêtes de lecture de données,; Nombre de requêtes d'écriture de données,; Nombre de clients effectuant avec des opérations de lecture de données en cours ou en attente,; Nombre de clients effectuant avec des opérations d'écriture de données en cours ou en attente ;; Performance de la base de données : Taille de l'oplog,; Fenêtre de l'oplog,; Lag de réplication,; "Headroom" de réplication,; Statut des membres du réplica set ;.; Taille de l'oplog,; Fenêtre de l'oplog,; Lag de réplication,; "Headroom" de réplication,; Statut des membres du réplica set ;; Utilisation des ressources : Nombre de clients connectés au serveur de la base de données,; Nombre de connexions non utilisées disponibles pour les nouveaux clients ;.; Nombre de clients connectés au serveur de la base de données,; Nombre de connexions non utilisées disponibles pour les nouveaux clients ;; Saturation des ressources : Nombre de requêtes de lecture de données en attente,; Nombre de requêtes d'écriture de données en attente ;.; Nombre de requêtes de lecture de données en attente,; Nombre de requêtes d'écriture de données en attente ;; Erreurs (asserts).
+
+Collection des métriques
+Toutes ces statistiques peuvent être collectées de trois façons : En utilisant les utilities comme mongostat ou mongotop. Les utilities, offertes par MongoDB, peuvent fournir en temps réel des statistiques à propos des clusters MongoDB et sont particulièrement utiles pour vérifier sur le moment l'état de la base de données.
+
+Voir aussi: NoSQL; SQL.
+
+Articles connexes: Système de gestion de base de données.

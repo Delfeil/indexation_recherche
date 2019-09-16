@@ -1,0 +1,53 @@
+La fouille de textes ou "l'extraction de connaissances" dans les textes est une spécialisation de la fouille de données et fait partie du domaine de l'intelligence artificielle. Cette technique est souvent désignée sous l'anglicisme text mining.
+Elle désigne un ensemble de traitements informatiques consistant à extraire des connaissances selon un critère de nouveauté ou de similarité dans des textes produits par des humains pour des humains. Dans la pratique, cela revient à mettre en algorithme un modèle simplifié des théories linguistiques dans des systèmes informatiques d'apprentissage et de statistiques.
+Les disciplines impliquées sont donc la linguistique calculatoire, l'ingénierie des langues, l'apprentissage artificiel, les statistiques et l'informatique.
+
+Mise en oeuvre
+On peut distinguer deux étapes principales dans les traitements mis en place par la fouille de textes.
+La première étape, l'analyse, consiste à reconnaître les mots, les phrases, leurs rôles grammaticaux, leurs relations et leur sens. Cette première étape est commune à tous les traitements. Une analyse sans interprétation n'a que peu d'intérêt et les deux sont dépendantes. C'est donc le rôle de la seconde étape d'interpréter cette analyse.
+La seconde étape, l'interprétation de l'analyse, permet de sélectionner un texte parmi d'autres. Des exemples d'applications sont la classification de courriers en spam, c'est-à-dire les courriers non sollicités, ou non spam : l'application de requêtes dans un moteur de recherche de documents ou le résumé de texte sélectionne les phrases représentatives d'un texte, voire les reformule.
+Le critère de sélection peut être d'au moins deux types : la nouveauté et la similarité. Celui de la nouveauté d'une connaissance consiste à découvrir des relations, notamment des implications qui n'étaient pas explicites car indirectes, ou découlant de deux éléments éloignés dans le texte. Celui de la similarité ou contradiction par rapport à un autre texte, ou encore la réponse à une question spécifique, consiste à découvrir des textes qui correspondent le plus à un ensemble de descripteurs dans la requête initiale. Les descripteurs sont par exemple les noms et verbes les plus fréquents d'un texte.
+
+Exemple : indexation de textes
+La fouille de texte peut consister en l'indexation d'un ensemble de textes par rapport aux mots qu'ils contiennent. On peut ensuite interroger l'index ainsi créé pour connaître les similarités entre une requête et la liste de textes.
+L'algorithme d'indexation se décrit comme suit : 1) On indexe le texte par rapport aux mots qui le composent; 2) On effectue l'index inversé (on indexe les mots contenus par rapport aux textes les contenant); 3) Au moment de traiter une requête, on teste la similarité de cette requête avec notre index inversé; 4) Cela retourne les textes similaires avec la requête, et pour chaque texte, un rang.
+Les applications sont multiples, elles vont d'une simple indexation pour les moteurs de recherche à l'extraction de connaissances dans des documents non structurés.
+D'autres techniques, comme la lemmatisation, permettent d'améliorer l'indexation, en perdant néanmoins une partie du sens.
+
+Applications: Détection d'anomalie dans un rapport textuel; Diagnostic médical.
+
+Recherche d'information
+La recherche d'information (ou Information retrieval en anglais) est une tâche spécifique en fouilles de texte. Le but est de faciliter la recherche de données ou de documents pertinents selon les besoins de l'utilisateur. Pour cela le système s'appuie sur les informations pertinentes à fournir à l'utilisateur, mais interprète également l'utilité des données affichées par rapport au comportement de l'utilisateur.
+Les moteurs de recherche tels Google, Exalead ou Yahoo! sont des applications très connues de fouille de textes sur de grandes masses de données. Cependant, les moteurs de recherche ne se basent pas uniquement sur le texte pour l'indexer, mais également sur la façon dont les pages sont mises en valeurs les unes par rapport aux autres. L'algorithme utilisé par Google est PageRank, et il est courant de voir HITS dans le milieu académique.
+
+Applications biomédicales
+Un exemple d'application biomédicale de fouille de textes est PubGene, qui combine la fouille de textes et la visualisation des résultats sous forme de réseaux graphiques. Un autre exemple d'utilisation d'ontologies avec la fouille de textes est GoPubMed.org.
+
+Filtrage des communications
+Beaucoup de gestionnaires de courriers électroniques sont maintenant livrés avec un filtre anti-spam. Il existe aussi des logiciels anti-spam qui s'interfacent entre le serveur de courrier et le gestionnaire de courrier.
+
+Applications de sécurité
+Le système mondial d'interception des communications privées et publiques Echelon est un exemple d'utilisation militaire et économique de la fouille de textes.
+En 2007, la division de lutte anti-criminelle d'Europol a acquis un système d'analyse afin de lutter plus efficacement contre le crime organisé. Ce système intègre parmi les technologies les plus avancées dans le domaine de la fouille et d'analyse de textes. Grâce à ce projet Europol a accompli des progrès très significatifs dans la poursuite de ces objectifs.
+
+Intelligence économique
+Les méthodes de fouilles de texte contribuent au processus d'Intelligence économique : cartographie des relations, détection de relations explicites entre des acteurs (concessions de licences, fusions - acquisitions,..)
+
+Marketing
+Les techniques de la fouille de texte sont très utilisées pour analyser les comportements d'internautes : parcours de visite, critères favorisant le déclenchement d'un achat, efficacité de campagnes publicitaires, analyse du sentiment...
+
+Disciplines connexes
+La fouille de textes se distingue du traitement automatique de la langue par son approche générale, massive, pratique et algorithmique de par sa filiation avec la fouille de données. Son approche est moins linguistique. De plus, la fouille de textes ne s'intéresse pas au langage oral comme le fait la reconnaissance vocale.
+La fouille de textes recoupe la recherche d'information pour la partie requête sur un moteur de recherche de documents. Par contre, la recherche d'information s'intéresse a priori plus aux types de requêtes possibles et aux indexations associées qu'à l'interprétation des textes.
+Et pour information, car on s'éloigne alors du domaine de la fouille de textes, l'interprétation de l'analyse peut aussi générer un nouveau texte. Des exemples d'applications sont la correction des fautes d'orthographe, la traduction, le dialogue homme-machine ou l'imitation d'un style d'écriture.
+
+Standards: Web sémantique : RDF, RDF Schema, OWL, etc.; Unstructured Information Management Architecture (en) développé par IBM; Text Encoding Initiative; Open Language Archives Community; ISLE Meta Data Initiative (en); Open Text Mining Interface du journal Nature.
+
+Plateformes: WordStat logiciel d'analyse de contenu et de fouille de textes développé par Recherches Provalis; Antelope, plate-forme d'analyse de contenus développée par Proxem.
+
+Open source
+Liste (non exhaustive) de plateforme de fouille de texte open-source : NOOJ; UIMA de Apache; Unitex-GramLab, développé et maintenu par l'équipe de linguistique informatique du LIGM, Université Paris-Est; TXM, développé par une équipe de l'ENS Lyon; Weblab-project d'OW2.
+
+Voir aussi
+
+Articles connexes: Traitement automatique du langage naturel; Recherche d'information; Linguistique calculatoire; Apprentissage artificiel; Défi fouille de texte; Humanités numériques.

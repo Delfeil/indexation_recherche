@@ -1,0 +1,24 @@
+Le boulier est un abaque (outil servant à calculer) formé d'un cadre rectangulaire muni de tiges sur lesquelles coulissent des boules.
+
+Catégories
+Le boulier est lié au système de numération décimale, mais il existe deux grandes catégories de bouliers. Les bouliers en base 10, pour lesquels chaque boule représente, selon la tige sur laquelle elle se trouve, une unité, une dizaine, une centaine... Ces bouliers se rencontrent essentiellement en Europe occidentale et de l'Est. Les décimales peuvent aussi être représentées sur la première tige.; Et les bouliers en base alternée (5, 2) pour lesquels chaque tige comprend deux parties : une partie supérieure sur laquelle les boules valent 5 unités (ou 5 dizaines, 5 centaines... selon la position de la tige) et une partie inférieure sur laquelle les boules valent 1 unité (ou 1 dizaine, 1 centaine... selon la position de la tige). Ces bouliers se rencontrent essentiellement en Asie.
+
+Fonctions
+Les bouliers permettent d'effectuer le calcul des opérations : additions, soustractions, multiplications et divisions, mais aussi d'écrire des nombres. Dans des mains expertes, il est cependant possible de réaliser d'autres opérations comme le calcul de racines énièmes ou la conversion entre différentes bases.
+
+Historique Cet instrument était utilisé par des peuples très largement séparés comme les Étrusques, les Grecs, les Égyptiens, les Indiens, les Chinois et les Mexicains et l'on peut penser qu'il a été inventé indépendamment dans différents endroits.
+En conséquence la datation des découvertes reste aléatoire.
+Le boulier est sans doute un des plus anciens instruments d'aide au calcul de l'histoire de l'humanité. Les Grecs utilisaient des tablettes recouvertes de sable ou de poussière, les "abaques" (du grec abaks - akos tablette servant à calculerou de l'hébreu , signifiant poussière).; Le boulier chinois ou suan pan (ch. trad. ch. simp. py : suànpán). Il semble dater du XIIIe siècle voire plus tôt (on en trouve une illustration probable sur un ouvrage datant du XIIe siècle) mais sa véritable diffusion date du XVIe siècle. Sa ressemblance avec le boulier romain peut laisser penser qu'il dérive de celui-ci mais il est plus probablement dérivé de l'ancien système de calcul chinois avec baguettes. Sur chaque tige, on trouve cinq boules représentant une unité et deux boules représentant cinq unités, séparées par une barre centrale.; Le boulier japonais ou soroban. Il a progressivement perdu, par rapport au boulier chinois, deux boules (une boule de valeur 1 et une boule de valeur 5).; Le boulier dit russe ou Stchoty , utilisé également en Iran sous le nom de Tchortkeh et en Turquie sous le nom de coulba, est formé de tiges portant dix boules de valeur 1.; Le boulier-compteur ou d'école a été utilisé dans les des écoles enfantines françaises jusqu'au XVIIIe siècle, variante probable de l'instrument russe. Dans le monde entier, les bouliers ont été utilisés dans les écoles maternelles et primaires comme une aide à l'enseignement de l'arithmétique. Dans les pays occidentaux, un cadre de perles semblables au boulier de Russie, avec un cadre vertical (voir image du boulier d'école). Il est constitué de dix perles de bois sur dix tiges. Ce type de boulier est utilisé pour représenter des nombres sans utiliser la valeur de position. Chaque perle et chaque tige horizontale a la même valeur, et utilisées de cette façon, il peut représenter des nombres entiers de 0 à 100. En utilisant les valeurs de position comme montré dans l'image, il peut aussi représenter des nombres entiers de 0 à 11 111 111 111 110, ou bien des nombres avec trois décimales après la virgule, de 0 à 11 111 111 111,110.
+
+Utilisation contemporaine
+Même si la calculatrice électronique est très puissante, le boulier est courant dans toute l'Asie. Par exemple, des commerçants russes, iraniens et asiatiques utilisent une calculatrice, puis vérifient le résultat à l'aide du boulier. En 1945, un match opposant un comptable japonais muni d'un soroban et un opérateur de calculatrice électrique a été gagné par le Japonais par un score de 4 à 1.
+
+Lecture d'un nombre
+Illustration de l'Encyclopaedia Britannica (1875).
+Chaque colonne représente en partant de la droite, les unités, les dizaines, les centaines, etc. Les cinq boules en dessous de la barre valent chacune un, et les deux boules situées au-dessus de la barre valent chacune cinq.
+On ne prend en compte dans le calcul du nombre représenté que les boules activées, c'est-à-dire déplacées près de la barre centrale horizontale.
+Exemple : Ici on peut lire le nombre 6 302 715 408 en comptant la valeur représentée par les boules dans chaque colonne.
+
+Voir aussi
+
+Articles connexes: Abaque; Anzan; Calcul mental; Soroban; Stchoty; Suanpan; Marque à jouer.

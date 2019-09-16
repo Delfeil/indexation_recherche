@@ -1,0 +1,6 @@
+Une ferme de liens (traduction littérale de l'anglais link farm) est une méthode utilisée pour augmenter artificiellement l'importance d'un site ou d'un groupe de sites dans les moteurs de recherche.
+Le principe est de créer un certain nombre de sites se renvoyant les uns vers les autres. Les fermes de liens peuvent être créées à la main ou de manière automatisée. Cette technique, inventée pour tirer parti du PageRank de Google (et des moteurs de recherche fonctionnant sur le même principe) s'apparente à du spamdexing. La société Google prévient d'ailleurs les webmestres qu'elle pénalise l'indexation des sites ayant recours à ce genre de système.
+
+Voir aussi
+
+Articles connexes: Spamdexing; Référencement; Positionnement; Ferme à clics. Portail d'Internet; Portail de la sécurité informatique.

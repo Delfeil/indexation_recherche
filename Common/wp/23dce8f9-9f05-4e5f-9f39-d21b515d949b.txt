@@ -1,0 +1,77 @@
+Un téléphone mobile, ou téléphone portable, ou téléphone cellulaire est un appareil électronique offrant une fonction de téléphonie mobile.
+En Belgique, le terme "GSM" (pour Global System for Mobile Communications, un standard de communication de téléphonie mobile) est couramment utilisé pour désigner un téléphone mobile. En Suisse, on parle couramment de Natel (National Telefon marque déposée par Swisscom, du nom de l'ancien réseau de téléphonie mobile Natel pour les véhicules). Au Canada francophone, le terme cellulaire est couramment utilisé.
+En Nouvelle-Calédonie et à La Réunion, on utilise le terme GSM.
+Les études relatives à l'équipement en téléphonie mobile, qu'elles soient internationales ou nationales, distinguent deux grandes catégories de téléphones mobiles : d'une part les téléphones mobiles basiques centrés essentiellement sur la fonction téléphonie, d'autre part les smartphones, ou téléphones multifonctions, plus élaborés, offrant de nombreuses autres possibilités. Ces études soulignent toutes la progression continue de la proportion de smartphones au détriment des téléphones mobiles basiques. Leur utilisation peut être addictive, notamment pour le smartphone, ce pourquoi il existe depuis 2001 une Journée mondiale sans téléphone portable.
+
+Historique
+
+Invention
+Le téléphone mobile est le résultat de différentes technologies qui existaient déjà, pour la plupart, dans les années 1940. Son invention est attribuée au docteur Martin Cooper, directeur de la recherche et du développement chez Motorola qui en a fait la démonstration dans les rues de New-York le 3 avril 1973. Le premier téléphone mobile commercial, conçu par Motorola est lancé le 6 mars 1983 aux États-Unis : le Motorola DynaTac 8000.
+
+Normes mondiales
+Les premiers appareils analogiques étaient aux normes AMPS ou NMT. Ils ont ensuite été remplacés par des appareils utilisant soit les normes numériques américaines D-AMPS (DynaTac 8000) et CDMA soit celles d'origine européenne GSM et EDGE, ou encore plus récemment celles extrapolées du GSM (2G) par le regroupement international 3GPP : l'UMTS (3G), puis le LTE (4G).
+
+Démocratisation
+Jeune fille utilisant un téléphone mobile dans une rue de Johannesbourg en 2013.
+L'usage du téléphone mobile s'est progressivement démocratisé, notamment vers la fin des années 1990. France Télécom commercialise en 1991 le Bi-Bop, premier téléphone portable en France destiné à un public en mobilité urbaine. Le taux de pénétration du mobile dans le monde à cette époque est de 0,6 abonnements pour 100 habitants. Le nombre d'abonnements en mobile (18 abonnements pour 100 habitants) dépasse celui des lignes fixes en 2002. Lorsqu'Apple lance son iPhone en 2007, ce taux est passé à 51 abonnements pour 100 habitants.
+Depuis les années 2010, la majorité des téléphones mobiles dispose de nombreuses fonctions supplémentaires, rendues possibles grâce à l'intégration d'un système d'exploitation évolué dans le téléphone : ce sont les smartphones. Le nombre d'utilisateurs de téléphones mobiles en République Populaire de Chine atteignait en 2011 929,85 millions dont 87,2 millions d'utilisateurs 3G fin juillet 2011, la 4G (LTE) y débute en 2013. En 2013, les ventes annuelles mondiales de smartphones (940 millions) dépassent celle des téléphones basiques (860 millions).
+
+Taux de pénétration
+En 2014, il y avait dans le monde 7,175 milliards d'habitants et 6,915 milliards d'abonnements téléphoniques au mobile selon l'Union internationale des télécommunications, ce qui correspond à un taux de pénétration global du mobile de 96 %. Ces chiffres révèlent d'importantes disparités selon les régions du monde et leur stade de développement (3,5 milliards d'abonnés dans la région Asie-Pacifique avec un taux de pénétration de 89 %, 1 milliard dans les Amériques avec un taux de 109 %, 750 millions en Europe avec un taux de 126 %, 550 millions en Afrique avec un taux de 63 %...). Alors que les pays occidentaux sont souvent suréquipés avec des consommateurs qui possèdent plusieurs abonnements, de nombreuses régions en Afrique et en Asie ne sont pas couvertes ou leurs habitants qui n'ont pas les moyens de s'offrir un abonnement, le partagent entre eux. Le taux de pénétration du mobile apparaît ainsi comme une conséquence du développement d'un pays mais aussi comme un accélérateur de ce même développement. Ainsi selon une étude en 2008 de la Banque mondiale dans plus de 100 pays, une hausse de 10 % du taux de pénétration du mobile dans un pays s'accompagne d'une hausse de son PIB de 0,8 %.
+
+Utilisation en France
+En 2016, 77 % des Français ont un smartphone, 58 % l'utilisent parfois au volant, 41 % le consultent au milieu de la nuit et 7 % répondent même alors à leurs messages, 84 % l'utilisent en regardant la télévision, 66 % l'utilisent tout en traversant la rue, et 81 % reconnaissent l'utiliser à table en famille ou avec des amis. En 2015, un Français moyen passait déjà plus de temps sur son smartphone que devant la télévision et Flurry Analytics a montré une nette augmentation de l'addiction au mobile (le nombre de personnes utilisant leur mobile plus de 60 fois par jour a augmenté de 59 % en un an (de 2014 à 2015) et au niveau mondial le nombre des accros au mobile serait passé de 176 millions en 2014 à 280 millions en 2015.
+
+Fabricants mondiaux
+En 2016, les principaux fabricants et marques de téléphones mobiles opérant dans le monde sont : Acer; Apple; Archos; BlackBerry; Doro; Fairphone; Huawei; HTC; LG; Lumia; Meizu; Micromax; Motorola (Lenovo); Nokia; OnePlus; Oppo; Samsung; Sony Mobile; Tinno; Vivo; Wiko; Xiaomi; Yezz; ZTE.
+
+Cartes SIM et USIM
+Carte SIM
+Il faut insérer une carte à puce, appelée carte SIM (de l'anglais Subscriber Identity Module), dans un téléphone mobile GSM, ou un USIM dans les terminaux UMTS et LTE, afin de pouvoir utiliser ses fonctions de téléphonie mobile (ne s'applique pas aux téléphones américains de type CDMA).
+La carte SIM (ou l'USIM) contient l'identifiant de l'abonné (numéro IMSI) et de l'opérateur mobile qui a édité la carte (MCC + MNC).
+
+Fonctions pouvant être intégrées
+
+Appareils photos
+Beaucoup de modèles de téléphones intègrent un appareil photographique ou une caméra numérique, voire plusieurs caméras. Le terme de photophone est parfois employé pour désigner un téléphone mobile capable de prendre des photographies numériques. Certains utilisent le terme de phonéographie pour désigner la prise de photos à l'aide d'un téléphone mobile.
+
+NFC
+Depuis 2010, certains téléphones mobiles permettent de réaliser des paiements sans contact, grâce à la norme Near Field Communication (NFC, également appelée "communication en champ proche"). Cette norme permet d'autres applications que le paiement sans contact, comme l'envoi au téléphone mobile d'informations sur le lieu où il se trouve par une borne fixe.
+
+Sonneries personnalisables
+L'arrivée de téléphones mobiles permettant de personnaliser leurs sonneries a entrainé la création d'un marché de vente de sonneries. En 2007, le nombre de ventes de sonneries a commencé à baisser dans plusieurs pays d'Europe, mais reste en croissance au niveau mondial.
+
+SMS et MMS
+Un téléphone peut permettre d'envoyer et recevoir des SMS et des MMS. Un SMS est un texte, autrement dit un texto, que l'on envoie au destinataire voulu. Un MMS est une image, une photo que l'on peut envoyer par message au destinataire voulu.
+
+Courrier électronique
+Un téléphone connecté à l'Internet peut permettre d'envoyer et de recevoir des courriels (e-mails en anglais) à l'aide d'une application spécifique.
+
+Applications
+Contrairement aux téléphones classiques, les smartphones et leurs systèmes d'exploitation (ex: Android, iOS, Windows Phone, Firefox OS, Symbian OS, etc.) permettent d'installer des applications, apportant de nombreuses fonctionnalités non présentes lors de l'achat.
+
+Géolocalisation
+Un téléphone mobile peut intégrer une puce GPS permettant un meilleur positionnement que celui permis par triangulation des antennes relais.
+
+Marché de la contrefaçon
+En parallèle du marché officiel se développe une offre dans de nombreux pays, notamment en Chine. Il est possible d'y acquérir des contrefaçons de téléphones mobiles. Celles-ci, en plus d'être illégales, sont potentiellement dangereuses pour l'utilisateur à cause de batteries défectueuses qui peuvent exploser.
+
+Écologie
+
+Durée de vie
+La durée d'usage est une question essentielle si l'on souhaite limiter les impacts environnementaux des téléphones mobiles. En 2012, aucun label ne prenait en compte la dimension de la durée d'usage. En pratique, la durée d'usage est conditionnée par les offres commerciales des constructeurs et des distributeurs. Le système de "subventionnement" de l'achat de l'appareil par l'opérateur consiste à facturer au consommateur un forfait (abonnement) qui intègre le coût de l'appareil. Cette méthode ne reflète donc pas le coût réel de l'appareil, ce qui favorise le renouvellement des téléphones.
+
+Émissions de gaz à effet de serre
+Un rapport publié par Les Amis de la Terre en décembre 2012 révèle que les émissions de gaz à effet de serre des téléphones mobiles sur l'ensemble du cycle de vie sont globalement en hausse, à cause de l'augmentation de l'intensité d'usage, mais aussi à cause de la commercialisation de nouveaux modèles. Par exemple, les émissions passent de 55 kg pour l'iPhone 4S d'Apple à 75 kg pour l'iPhone 5 du même constructeur, soit une augmentation de 36 %. De même, les émissions augmentent entre le Galaxy S2 et le Galaxy S3 de Samsung.
+
+Fin de vie, déficit de recyclage
+Selon une étude d'Intel, les cartes électroniques contenaient au début des années 2010 plus de 45 métaux, métalloïdes ou terres rares contre une dizaine dans les années 1980. Parmi ces matières stratégiques figurent le lithium, l'or, l'argent, les terres rares, le coltan, le tantale, le platine, le niobium, le cadmium, le plomb, le mercure. La raréfaction générale des métaux montre la nécessité du recyclage et de l'allongement de la durée de vie des produits en général, des téléphones mobiles en particulier. Une étude de 2008 réalisée par Nokia dans 13 pays a révélé que 97 % des téléphones mobiles n'étaient pas recyclés.
+Dès 2008, Bouygues Telecom a proposé un avantage financier de 10 euros aux consommateurs qui rapportaient leurs anciens téléphones mobiles, mais le taux de récupération n'a pas dépassé les 5 %. En France, à partir de 2010, des programmes de récupération et-ou de rachat des téléphones mobiles ont été lancés par les opérateurs, incités par la croissance du commerce de ces biens (après recyclage) , qui étaient jusque là principalement recommercialisés à plus petite échelle via des magasins spécialistes du matériel d'occasion. Dans le cadre d'une charte d'engagements volontaires sur le développement durable signée en juillet 2010 , les opérateurs français se sont d'ailleurs engagés à accroître la collecte des mobiles en proposant aux consommateurs des incitations de différentes formes (financières, sociales, écologiques). Selon le bilan réalisé par la Fédération Française des Télécoms, 835 202 terminaux mobiles ont été collectés en France par les trois opérateurs Bouygues Telecom, Orange et SFR en 2010, soit 50 % de plus qu'en 2009. En 2012, ce chiffre s'élevait à 1 016 622 unités. Pour sensibiliser les utilisateurs de mobiles sur l'enjeu de rapporter son mobile chez son opérateur, un site d'informations pratiques a été lancé par la Fédération Française des Télécoms en mai 2012.
+Différents organismes associatifs pratiquent le recyclage de ces équipements depuis de nombreuses années. Emmaüs France propose même des points de collecte partout en France et depuis 2005, explique le fonctionnement du recyclage des téléphones mobiles jusqu'à leur traitement dans sa structure pilote les Ateliers du Bocage.
+À partir de 2011, il aurait du y avoir une amélioration de l'écoconception de ces matériels, la Commission européenne ayant imposé en 2009 aux fabricants qu'ils s'accordent sur un chargeur unique. La compatibilité étant assurée via un connecteur micro-USB.
+En 2016, en France, un rapport parlementaire intitulé "100 millions de téléphones portables usagés : l'urgence d'une stratégie", produit par une "Mission d'information sur l'inventaire et le devenir des matériaux et composants des téléphones mobiles" (mise en place le 29 juin 2016, et adopté à l'unanimité) confirme que la filière de traitement des DEEE en France est dépassée par le développement du marché de l'occasion des téléphones portables et par la fuite du gisement hors des frontières du pays. 15 % du flux seulement serait valorisé (environ 100 millions d'appareils usagés seraient encore conservés par les particuliers) confirme que "la conception des téléphones est délibérément défavorable au réemploi et au recyclage" en raison de leur obsolescence programmée et que le "bilan du dispositif de modulation environnementale des éco-contributions" est "extrêmement faible", invite les industriels à écoconcevoir leur matériel. Il contient cinq orientations déclinées en 27 propositions qui concernent le cycle de vie des portables (fabrication, utilisation, collecte des équipements usagés et valorisation).
+Au Japon le recyclage systématique des terminaux mobiles se pratique depuis plus de 15 ans, les revendeurs ont tous des cartons pouvant recevoir jusqu'à 400 appareils et se chargent de l'envoi aux centres de recyclage.
+
+Filmographie: Blood in the mobile, documentaire de Frank Piasecki Poulsen, réalisé en 2010.
+
+Articles connexes: Téléphonie mobile; Téléphone mobile basique; Liste de fabricants de téléphones mobiles par pays; Liste des opérateurs de réseau mobile en France; Risques sanitaires des télécommunications; Nomophobie, peur excessive d'être séparé de son téléphone mobile.

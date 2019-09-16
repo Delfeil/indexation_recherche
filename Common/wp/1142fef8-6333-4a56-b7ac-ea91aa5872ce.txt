@@ -1,0 +1,47 @@
+Un automate est un dispositif reproduisant en autonomie une séquence d'actions prédéterminées sans l'intervention humaine, le système fait toujours la même chose, ou s'adapte à des conditions environnementales perçues par l'intermédiaire de capteurs. L'automate est un objet programmé.
+
+Généralités
+
+Automatisme
+En automatisme le terme est réservé aux dispositifs électromécaniques pilotant le système. Il commande le registre des sorties (commande des actionneurs) en fonction du registre des entrées (états des signaux envoyés par les capteurs) et de l'étape du programme en cours.
+
+Mécanique
+Dans le domaine de la mécanique, on nomme automate un appareil qui exécute une séquence déterminée d'opérations de manière séquentielle en utilisant des technologies uniquement mécaniques. Autrefois, le métier d'automatier consistait en la conception et fabrication d'automates, et il s'est beaucoup développé avec l'avancement de l'horlogerie.
+La programmation est réalisé par des dispositifs variés : rubans perforés, cartes perforées, rouleaux à picots, arbres à cames , etc. La lecture et la transmission des informations sont assurées par des systèmes mécaniques et physiques dont certains sont connus depuis l'Antiquité : leviers, poulies, courroies, engrenages, compression-dilatation de gaz, mécanique de fluide.
+Ce terme désigne également une machine qui reproduit le mouvement et les attitudes d'un être vivant (voir Vaucanson, Jacquet-Droz).
+
+Informatique
+Dans le domaine de l'informatique, on nomme automate une machine à traiter de l'information. Par opposition à la notion de fonction continue, cette information est de nature discrète : nombres entiers, par exemple 0 ou 1, caractères "a, b, c...". Un automate est caractérisé par : un ensemble de variables discrètes d'entrée, de sortie et d'états internes ;; deux fonctions discrètes : l'une déterminant les sorties en fonction des entrées et de l'état interne au temps précédent, l'autre le nouvel état interne en fonction des entrées et de l'état interne au temps précédent. Ces fonctions sont appliquées à des intervalles de temps fixes: le temps est donc lui aussi discrétisé.
+Exemples : Les diverses composantes de l'unité centrale d'un ordinateur, par exemple de l'unité arithmétique et logique, sont des automates ;; La machine de Turing est un automate, elle fait partie des automates accepteurs de chaînes de caractères. Ceux-ci peuvent se classer en différents modèles formels, induits par la hiérarchie de Chomsky, comme automate fini, automate à pile, automate linéairement borné, machine de Turing.
+Les champs d'application de la notion d'automate sont immenses : mathématiques discrètes, informatique théorique aussi bien théorie de la compilation qu'informatique parallèle, systèmes complexes (automates cellulaires et théorie de l'auto-organisation et de l'émergence), etc.
+La notion d'automate a émergé des besoins de programmation relatifs à l'analyse syntaxique : elle permettait de remplacer par des données - faciles à modifier - et un programme de cheminement unique ce qui aurait demandé un programme bien plus complexe et surtout bien plus délicat à maintenir par la suite (ce principe a été ensuite celui des systèmes experts). La métalangue de Backus rend plus rigoureuse l'expression d'automates, et facilite leur élaboration par des programmes comme lex et yacc.
+Elle a donné lieu aussi à plusieurs travaux théoriques qui n'ont pas toujours eu de retombée pratique évidente (nécessitant l'hypothèse d'une mémoire infinie, par exemple).
+
+Langage courant
+Dans le langage courant, on qualifie familièrement automate une personne qui agit mécaniquement, soit d'une manière inconsciente (somnambule), soit sous l'impulsion d'une volonté extérieure.
+Le terme peut aussi désigner un robot.
+
+Automates mécaniques: Voir aussi : Automates Jaquet-Droz.
+
+Source d'énergie: Ressort moteur; Force humaine; Machine à vapeur; Moteur électrique.
+
+Transmission: énergie mécanique; pneumatique.
+
+Automates électro-mécaniques: Principalement mus par une source d'énergie électrique.; Composants électrotechniques et électromécaniques.
+
+Transmission: énergie mécanique; pneumatique; Servo-commandes électriques.
+
+Automates électroniques: Allen-Bradley (en); Crouzet; Vipa Automation; Siemens; Schneider Electric; OMRON; Pro Face; Télémécanique; WAGO; PdiCS; SAIA-Burgess.
+
+Automates d'art et de divertissement
+
+Commerce
+
+Automates d'analyses médicales
+
+Musées: Musée des automates de La Rochelle La Rochelle Charente-Maritime, France; Musée des Passions et des Ailes Baden, (France); Le Moulin des Automates, (France); Musée de l'automate à L'Auberson, (Suisse); Musée d'art et d'histoire et Automates Jaquet-Droz, (Suisse); Musée CIMA à Sainte-Croix (Vaud), (Suisse, automate et boîte à musique); Museum Van Speelklok tot Pierement (Pays-Bas).
+
+Documentaires vidéo
+"Je ne suis pas (qu')un robot", tourné en 2014-2015 à Ste-Croix (Suisse) dans l'atelier de François Junod.
+
+Articles connexes: Androïde; Animatronique; Audio-animatronic; Automates Jaquet-Droz; Automation; Intelligence artificielle; Neurone formel; Modélisme; Robot; Robotique; Voiture automate. Portail des sciences; Portail de l'économie.

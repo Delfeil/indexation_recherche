@@ -1,0 +1,7 @@
+Le Special Interest Group on Knowledge Discovery and Data Mining (SIGKDD) est le pôle d'intérêt commun de l'ACM sur la gestion des connaissances et le data mining.
+
+Conferences
+Depuis 1995, SIGKDD héberge la conférence annuelle intitulée ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD). En 2011, KDD a lieu à San Diego (Californie).
+
+SIGKDD Explorations
+SIGKDD publie aussi depuis juin 1999 une revue semestrielle nommée SIGKDD Explorations dont les éditeurs en chef sont ou furent : Bart Goethals (depuis 2010); Osmar Zaïane (2008-2010); Ramakrishnan Srikant (2006-2007); Sunita Sarawagi (2003-2006); Usama Fayyad (1999-2002).

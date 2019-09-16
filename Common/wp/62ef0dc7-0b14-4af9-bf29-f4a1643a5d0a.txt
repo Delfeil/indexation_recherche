@@ -1,0 +1,16 @@
+Digital object identifier (DOI, littéralement "identifiant numérique d'objet") est un mécanisme d'identification de ressources, qui peuvent être des ressources numériques, comme un film, un rapport, des articles scientifiques, mais également des personnes ou tout autre type d'objets. Le but des DOI est de faciliter la gestion numérique sur le long terme de toute chose en associant des métadonnées à l'identifiant de la chose à gérer. Les métadonnées peuvent évoluer au cours du temps, mais l'identifiant reste invariant. C'est une alternative aux URI. Depuis 2012, le système d'identifiant numérique d'objet a été normalisé sous la forme de la norme ISO 26324.
+Les DOI sont notamment utilisés dans les bases de données bibliographiques. Depuis février 2010, l'Institut de l'information scientifique et technique (INIST, du CNRS) est doté d'un statut "agence DOI", faisant partie du consortium DataCite.
+Le DOI d'un document permet notamment une identification pérenne de celui-ci. Par exemple, il permet de retrouver l'emplacement d'un document en ligne si son URL a changé.
+Les DOI permettent ainsi de faciliter l'utilisation des bases de données bibliographiques, des logiciels de gestion bibliographique, et de produire des citations plus fiables et plus pérennes.
+
+Description
+Un DOI est un cas particulier d'identifiant Handle. C'est à la fois le mécanisme de nommage des ressources et un protocole de résolution des identifiants en adresses plus concrètes.
+La motivation principale pour tenter de remplacer les URI était apparemment leur manque de permanence (un URL change trop facilement et il est trop concret, trop lié à une localisation) et la motivation principale pour tenter de remplacer le DNS semble avoir été le désir d'inventer un nouveau protocole, qui n'aurait pas à supporter l'héritage, notamment administratif (le système de l'ICANN et des registres actuels) du DNS. Un DOI est dès lors unique et permanent.
+Le protocole de résolution, concurrent du DNS, est décrit dans la RFC 3652. La 3651 décrit le mécanisme de nommage et la 3650 l'architecture. Les rares déploiements de DOI n'ont quasiment jamais utilisé Handle (qui a disparu en 2008) mais plutôt un traducteur accessible sur le web via un URI comme https:--doi.org-10.1007-s00223-003-0070-0 qui renvoie automatiquement vers l'article souhaité.
+Par exemple hdl:cnri.dlib-december95 est un identifiant Handle et doi:10.1340-309registries un DOI (selon certaines conventions, l'étiquette doi: est souvent omise : 10.1340-309registries).
+10.XXXX est le préfixe. Il identifie le registre ou Naming Authority. Le suffixe, c'est-à-dire tout ce qui est après la barre oblique - dépend du registre. DOI a donc une infrastructure sociale (registres et bureaux d'enregistrement - Registration Agencies) propre. Le but est, par exemple, d'assurer la persistance des identificateurs.
+Au bout d'un DOI, on trouve : les métadonnées (restrictions d'usage ou bien droit d'auteur, par exemple), décrites par un modèle de données commun à tous les DOI, le indecs Data Dictionary,; une adresse ou localisation physique (en général un URL), le traducteur cité plus haut redirige vers cet URL,; diverses informations, comme l'autorité de nommage.
+
+Voir aussi
+
+Articles connexes: URI; DNS; Commission européenne; CrossRef.

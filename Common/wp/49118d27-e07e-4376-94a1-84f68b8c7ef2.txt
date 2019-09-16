@@ -1,0 +1,24 @@
+Internet Information Services, communément appelé IIS (prononcé "2 i s"), est un serveur Web (FTP, SMTP, HTTP, etc.) des différents systèmes d'exploitation Windows NT.
+
+Historique
+PWS (en) (Personal Web Server) : serveur Web destiné au grand public. Fourni avec les versions 95, 98 et ME de Windows.
+La réputation de ce logiciel a été entachée à de multiples reprises dans le passé à la suite de la découverte de plusieurs failles de sécurité. Les premières versions étaient installées avec une multitude de modules optionnels, ce qui élargissait les horizons d'attaques d'éventuels crackers. Au cours des dernières années, Microsoft a pris en compte cette constatation ; le moteur de la version 6.0 a ainsi été réécrit dans le but de le rendre plus stable et sécurisé.
+
+IIS sous Windows XP
+Le serveur IIS n'est fourni qu'avec les versions du type "professionnel" du système Windows XP. Le CLUF ("contrat de licence de l'utilisateur final", traduction du sigle EULA, soit "End User Licence Agreement") de l'édition "Familiale" de Windows XP ne permet pas son utilisation de manière légale.
+
+Fonctions
+IIS prend en charge plusieurs techniques Web telles les CGI, les ASP, les ASP.NET et une API spécifique à IIS de nom ISAPI permettant de créer des extensions et des filtres. IIS prend aussi en charge le langage PHP en mode CGI ou ISAPI.
+
+Statistiques
+Selon l'enquête de Netcraft (septembre 2007), IIS possédait environ 34,94 % des parts de marché. À pareille date, une autre enquête, réalisée par SecuritySpace, n'accordait quant à elle que 20,47 % des parts au serveur IIS par rapport à 73,28 % pour Apache. L'étude de Netcraft en janvier 2012 annonce une part de 12,14 % pour les serveurs Microsoft.
+
+ASP-ASP.NET
+ASP et plus récemment ASP.NET sont les deux technologies de développement Web de Microsoft. Toutes deux sont nativement supportées par le serveur IIS (versions 6 et ultérieures d'IIS seulement pour le ASP.NET). La consultation des articles éponymes offre plus de détails quant à la construction, au fonctionnement et au développement de ces langages.
+
+Développement IIS
+Microsoft propose un environnement de développement intégré et collaboratif sous le nom de Visual Studio et plusieurs frameworks compatibles.Net existent (ASP.NET AJAX, UltimateMenu, Search Control, RadScheduler, DotNetNuke). Ces frameworks utilisent plusieurs API rarement compatible à 100 % avec.NET (code managé).
+
+Voir aussi
+
+Articles connexes: ISAPI; ASP.NET; Nginx; Apache HTTP Server; (en) Comparatif de serveurs Web; (en) UltiDev Cassini Web Server.

@@ -1,0 +1,15 @@
+L'International Standard Bibliographic Description (ISBD) (en français : Description bibliographique internationale normalisée) désigne une norme internationale de description de catalogage définie par l'IFLA, Fédération internationale des associations de bibliothécaires et d'institutions. Les traductions officielles de cette norme en français sont assurées par la Bibliothèque nationale de France, anciennement avec la collaboration de la Bibliothèque nationale du Québec pour certaines éditions des normes dans cette famille avant la consolidation de 2007.
+
+Historique
+La volonté de constituer une norme internationale en la matière s'est traduite en 1954 par la constitution d'un groupe de travail au sein de l'IFLA. En 1961, ce groupe présente à la Conférence internationale sur la normalisation du catalogage qui se tient à Paris les premiers résultats de ses travaux. Ce document prend le titre de Principes de Paris. La norme ISBD elle-même est finalement publiée en 1971.
+
+Famille de normes
+Jusqu'en 2007 il existait une norme générale, dite ISBD(G),complétée par des normes particulières à différents médias : ISBD(A) pour les documents anciens (par convention antérieurs à 1801); ISBD(M) : monographies; ISBD(S) (serials) remplacé par ISBD(CR) : publications en série et autres ressources continues (continuing ressources); ISBD(CF) (computer files) replacé par ISBD(ER) : ressources électroniques (electronic resources); ISBD(NBM) : "non-livres" (non-book material); ISBD(PM) : musique imprimée (printed music).
+Les différents ISBD pouvaient éventuellement se combiner dans le respect de la norme générale : une ressource continue constituée de différentes livraisons de musique imprimée et publiée avant 1801 pouvait être cataloguée en combinant des règles de l'ISBD(A), de l'ISBD(CR) et de l'ISBD(PM).
+
+ISBD consolidée
+Les ISBD ci-dessus ont été consolidés en un document unique version préliminaire en 2007, version finale en 2011. http:--www.ifla.org-VII-s13-pubs-cat-isbd.htm
+
+Structure globale
+L'ISBD définit les zones et les sous-zones de la description ainsi que le type d'information qu'elles peuvent ou doivent contenir, la ponctuation, l'usage des langues, et d'autres règles, quel que soit le document catalogué.
+Une notice ISBD (on parle aussi de "pavé ISBD") se divise en zones au nombre de neuf, même si toutes ne sont pas toujours nécessaires : zone 0 : contenu et type de médiation (indication générale du type de ressource); zone 1 : titre et mention de responsabilité (auteurs, traducteurs); zone 2 : édition (1re, 2e, nouvelle édition); zone 3 : zone particulière aux cartographies et aux documents électroniques; zone 4 : adresse bibliographique (lieu d'édition, éditeur, date); zone 5 : collation (description physique : pagination, format, illustration); zone 6 : collection; zone 7 : notes (on y mentionne notamment la présence d'une bibliographie si besoin); zone 8 : numéro international normalisé (ISBN, ISSN) et éventuellement prix.

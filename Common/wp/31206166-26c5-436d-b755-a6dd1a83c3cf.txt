@@ -1,0 +1,17 @@
+En informatique, un index inversé est une correspondance entre du contenu, comme des mots ou des nombres, et sa position dans un ensemble de données comme un enregistrement en base de données, un document ou un ensemble de documents ; sur le même principe qu'un index terminologique. Le but de l'index inversé est de permettre une recherche plein texte plus rapide, contre un temps d'insertion de nouvelles données augmenté.
+
+Exemples
+
+Exemple simple
+Pour comprendre le principe un exemple pourrait être le lien entre des recettes de cuisine et leurs ingrédients. Soit une liste de recettes de cuisine simplifiées avec leurs ingrédients:
+L'index inversé de cette table pourrait être (colonne de droite):
+
+Exemple recherche textuelle
+Soient les documents suivants:
+Un index inversé sur les mots ou des groupe de mots donnerait (le critère d'indexation est la présence du mot dans la phrase):
+
+Application
+Les index inversés sont notamment utilisés pour des applications de moteur de recherche. Par exemple, si nous effectuons une recherche des termes "ceci" et "est", alors la ou les phrases correspondantes peuvent être retrouvées par l'intersection des index des mots correspondant soit:
+r e c h e r c h e s u r ((c e c i , e s t)) - (D 2 , D 3) (D 1 , D 2 , D 3) - (D 2 , D 3) (-displaystyle recherchesur(-(ceci,est-))--(D2,D3-)-cap -(D1,D2,D3-)--(D2,D3-))
+
+Voir aussi: Indexation automatique; Recherche plein texte; Fouille de textes; Moteur de recherche. Portail de l'informatique.

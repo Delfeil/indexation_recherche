@@ -1,0 +1,10 @@
+En informatique, l'erreur 404 est un code d'erreur du protocole de communication HTTP sur le réseau Internet. Ce code est renvoyé par un serveur HTTP pour indiquer que la ressource demandée (généralement une page web) n'existe pas. Certains navigateurs web affichent alors le message "404 File Not Found" (de l'anglais signifiant "fichier introuvable") à destination de l'internaute.
+Ce code peut aussi être détourné de son sens et renvoyé à la suite d'une restriction d'accès à certaines ressources web (par exemple due à une censure).
+Le premier 4 indique une erreur dans la requête, ici une mauvaise URL, venant d'une page obsolète ou d'une erreur de saisie d'adresse web de la part du visiteur. Le dernier 4 indique le problème causé par cette erreur : la ressource est introuvable.
+Le numéro 200 est renvoyé lorsqu'il n'y a aucune erreur, auquel cas la page demandée est affichée par le navigateur. Il est préférable d'utiliser un code d'en-tête 410, lorsque la ressource n'existe plus.
+Les numéros d'erreur sont définis dans les spécifications (RFC) du protocole de communication HTTP.
+Des logiciels comme CrawlTrack peuvent être utilisés par les webmasters pour lister les erreurs 404, afin de pouvoir les réparer manuellement.
+La légende attribue le numéro d'erreur "404" à l'anecdote selon laquelle "au CERN, en Suisse, les chercheurs, excédés d'aller sans cesse relancer un serveur défaillant installé dans le bureau no 404, aient attribué ce numéro d'erreur au défaut de connexion, en souvenir de cette pièce maudite.". Cette légende a été démentie par Tim Berners-Lee lors d'une séance de question réponse menée sur Reddit en mars 2014.
+De nombreux webmasters ont décidé de personnaliser cette page d'erreur, la page 404 étant réellement devenue partie intégrante de la culture Web.
+
+Voir aussi: Liste des codes HTTP; Erreur HTTP 451; Liens rompus. Portail de l'informatique; Portail d'Internet.

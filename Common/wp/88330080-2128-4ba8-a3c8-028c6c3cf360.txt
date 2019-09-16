@@ -1,0 +1,24 @@
+En algèbre linéaire, deux vecteurs u et v d'un espace vectoriel E sont colinéaires s'il existe un scalaire k tel que u - kv ou v - ku. Deux vecteurs quelconques d'une droite vectorielle sont colinéaires. Quand elle porte sur un couple de vecteurs, la colinéarité est le contraire de l'indépendance linéaire : deux vecteurs u et v sont colinéaires si le couple (u,v) est non libre.
+Étymologiquement, colinéaire signifie sur une même ligne : en géométrie classique, deux vecteurs sont colinéaires si on peut en trouver deux représentants situés sur une même droite.
+La colinéarité est un outil important en géométrie dans l'enseignement secondaire : un couple de points (A,B) du plan ou de l'espace définit un vecteur géométrique A B (-displaystyle (-overrightarrow (AB))) ; si A et B (resp A' et B') sont des points non confondus, les vecteurs A B (-displaystyle (-overrightarrow (AB))) et A ' B ' (-displaystyle (-overrightarrow (A'B'))) sont colinéaires si et seulement si les droites (AB) et (A'B') sont parallèles. Cette équivalence explique l'importance que prend la colinéarité en géométrie affine.
+
+Exemples
+En toute dimension, si u est le vecteur nul, alors u et v sont colinéaires pour tout v dans E, car u - 0v.
+Si u est un vecteur non nul de E, l'ensemble des vecteurs colinéaires à u est la droite Ku.
+Dans un espace vectoriel sur le corps F2, deux vecteurs non nuls sont colinéaires si et seulement s'ils sont égaux.
+
+Géométrie affine
+En géométrie affine, deux vecteurs sont colinéaires si et seulement s'il existe deux représentants de ces vecteurs situés sur une même droite i.e. il existe trois points A, B, C alignés tels que: A B - u (-displaystyle (-overrightarrow (AB))-(-vec (u))) et A C - v (-displaystyle (-overrightarrow (AC))-(-vec (v))).
+La colinéarité est une notion importante en géométrie affine car elle permet de caractériser: L'alignement : les points A, B et C sont alignés si et seulement si les vecteurs A B (-displaystyle (-overrightarrow (AB))) et A C (-displaystyle (-overrightarrow (AC))) sont colinéaires.; Le parallélisme de deux droites : les droites (AB) et (CD) sont parallèles ou confondues si et seulement si les vecteurs A B (-displaystyle (-overrightarrow (AB))) et C D (-displaystyle (-overrightarrow (CD))) sont colinéaires.
+
+Relation d'équivalence
+Sur l'ensemble des vecteurs non nuls, la relation de colinéarité est: réflexive : un vecteur est colinéaire à lui-même; symétrique : Si un vecteur u (-displaystyle (-vec (u))) est colinéaire à un vecteur v (-displaystyle (-vec (v))) alors v (-displaystyle (-vec (v))) est colinéaire à u (-displaystyle (-vec (u))); transitive :Si un vecteur u (-displaystyle (-vec (u))) est colinéaire à v (-displaystyle (-vec (v))) et si v (-displaystyle (-vec (v))) est colinéaire à w (-displaystyle (-vec (w))) alors u (-displaystyle (-vec (u))) est colinéaire à w (-displaystyle (-vec (w))).
+Ce qui permet de dire que (sur l'ensemble des vecteurs non nuls) la relation de colinéarité est une relation d'équivalence dont les classes d'équivalence forment l'espace projectif associé à l'espace vectoriel
+
+Calcul en coordonnées
+Soient deux vecteurs u et v dans le plan R, dont les coordonnées sont u - (u1, u2) et v - (v1, v2). S'ils sont tous deux non nuls, la colinéarité des deux vecteurs u et v se traduit par une relation de proportionnalité entre les couples (u1, u2) et (v1, v2). La règle du produit en croix implique : u et v sont colinéaires si et seulement si u1v2 - u2v1.
+Cette équivalence peut se généraliser à la dimension supérieure. Soient u et v deux vecteurs, dont les coordonnées dans une base fixée sont: u - (u 1 ,.. u n) (-displaystyle u-(u-(1),-dots ,u-(n))); v - (v 1 ,.. v n). (-displaystyle v-(v-(1),-dots ,v-(n)).).
+Alors u et v sont colinéaires si et seulement si uivj - ujvi pour tout indice i et tout indice j i.
+
+En phylogénie
+En biologie, on parle de colinéarité lors de l'étude du génome d'organisme et d'établissement d'arbres phylogénétiques. La notion de colinéarité correspond en quelque sorte à la synténie, c'est-à-dire au maintien de l'ordre des gènes entre deux génomes. Portail de l'algèbre.

@@ -1,0 +1,52 @@
+Un signal électrique est une grandeur électrique dont la variation dans le temps transporte une information, d'une source à une destination.
+La grandeur électrique que l'on considère pour la transmission et le traitement du signal peut être directement la différence de potentiel ou l'intensité d'un courant électrique ; ou bien une modulation de l'amplitude, de la fréquence ou de la phase d'une variation périodique de ces grandeurs, qu'on appelle porteuse ; dans les communications numériques par modem des règles complexes régissent la modulation afin d'occuper au mieux la largeur de bande allouée.
+La communication à une distance du même ordre de grandeur ou supérieure à la longueur d'onde minimale du signal oblige à se préoccuper de la théorie des lignes de transmission.
+
+Classes de signaux électriques
+On distingue généralement les signaux électriques par la nature de l'information qu'ils transmettent. Dans un signal analogique, la valeur de la grandeur électrique peut varier arbitrairement dans les limites définies par le canal de transmission : dans le cas général, cette grandeur varie dans le temps, s - F(t),; un signal d'horloge ou de synchronisation est un cas particulier de signal analogique où l'information transmise est le moment où survient un évènement électrique, t - F(s) ;.; dans le cas général, cette grandeur varie dans le temps, s - F(t),; un signal d'horloge ou de synchronisation est un cas particulier de signal analogique où l'information transmise est le moment où survient un évènement électrique, t - F(s) ;; un signal logique transmet une information qui ne peut avoir que deux valeurs, vrai ou faux,: si on peut lire la valeur transmise à tout moment, le signal logique est asynchrone,; si la lecture de la valeur transmise ne doit se faire qu'aux instants déterminés par un signal d'horloge, le signal logique est synchrone,.; si on peut lire la valeur transmise à tout moment, le signal logique est asynchrone,; si la lecture de la valeur transmise ne doit se faire qu'aux instants déterminés par un signal d'horloge, le signal logique est synchrone,; un signal numérique transmet des informations prises dans un ensemble fini de valeurs possibles.
+Le code Morse, premier signal électrique numérique :
+Le code Morse, inventé en 1832, associe à une séquence de variations dans le temps d'un signal logique un symbole, pris dans une liste de 54 possibles. Il constitue ainsi le premier signal électrique numérique.
+Par ailleurs, le signal peut transmettre une information soit continue, soit discrète. À l'heure actuelle, bien qu'il existe des signaux analogiques discrets et des signaux numériques continus, on trouve principalement des signaux analogiques continus et des signaux numériques discrets.
+La conversion d'un signal analogique continu en signal numérique discret se fait par un échantillonnage, où la valeur instantanée du signal est relevée à intervalles réguliers, suivi d'une quantification, qui fait correspondre à cette valeur la plus appropriée des valeurs possibles, et d'un codage, qui transforme cette valeur en un arrangement de valeurs logiques.
+
+Signaux composites
+Souvent, le signal complet se décompose en plusieurs composantes qui peuvent, soit se transmettre en parallèle sur plusieurs canaux, soit se combiner par multiplexage dans un signal composite.
+Exemple de signaux composites : Le son stéréophonique se compose d'un canal gauche et d'un canal droit ;; le signal VGA pour l'affichage sur écran d'ordinateur comporte cinq signaux analogiques en parallèle : les composantes (rouge, vert, bleu) de l'image, et deux signaux de synchronisation (horizontale et verticale) ;; le signal de la télévision comporte trois composantes colorées pour l'image (rouge, vert, bleu) et un canal sonore qui peut être stéréophonique, plus des canaux auxiliaires de synchronisation et éventuellement des canaux annexes pour les sous-titres, tous multiplexés dans un canal soit analogique, soit numérique.
+On peut considérer qu'un signal numérique est un composite de signaux logiques transmis soit simultanément, soit séquentiellement, représentant chacun un bit de l'information numérique qu'il transporte.
+
+Signaux d'essai
+En électronique, on utilise fréquemment des signaux qui transmettent une très faible quantité d'information, parfaitement connue, afin de vérifier le fonctionnement des circuits.
+Pour les signaux analogiques, un signal sinusoïdal permet de nombreuses mesures ; les signaux carrés, triangulaires et en dents de scie peuvent avoir aussi quelque utilité. Les systèmes d'analyse automatisés utilisent souvent le chirp.
+La mire de barres ou d'autres mires plus complexes servent pour l'essai d'ensemble de tous les canaux du signal composite de la télévision.
+En informatique de réseau, le ping est un signal d'essai qui ne transmet rien d'autre qu'une demande de réponse de la machine distante.
+
+Signaux électriques analogiques
+Les signaux électriques analogiques reflètent le plus souvent les variations de grandeurs physiques, par exemple, la température ou la pression acoustique. Des transducteurs ou capteurs effectuent la transformation, en général aussi linéaire que possible, de la grandeur d'origine en signal électrique.
+Les modèles mathématiques qui rendent compte des signaux analogiques considèrent des valeurs définies sur l'ensemble des nombres réels, de moins l'infini à plus l'infini, avec une précision temporelle infinie, et dans un temps infini. Les signaux électriques réels qui passent par des dispositifs matériels sont nécessairement limités: en amplitude ;; en fréquence par la bande passante des appareils ;; en durée.
+En outre, tous les signaux analogiques réels sont affectés par le bruit de fond. Le rapport signal sur bruit est un des indicateurs de la qualité de la transmission, au même titre que le taux de distorsion harmonique totale et l'intermodulation.
+
+Signaux d'horloge et de synchronisation
+Le plus simple des signaux d'horloge indique l'instant du déclenchement par une transition entre deux niveaux. Le temps de montée (ou de descente) de cet échelon est une caractéristique capitale du signal.
+En télévision analogique, on utilise pour la synchronisation le signal composite d'une image noire.
+
+Signaux logiques
+Des normes doivent définir les tensions électriques ou les transitions correspondant à la valeur vrai, ou 1 et à la valeur faux ou 0.
+Exemples : Les circuits TTL n'acceptent qu'une tension d'alimentation de 5 V ; les tensions inférieures à 0,8 V s'interprètent comme O ou faux, et les valeurs supérieures à 2 V donnent vrai ou 1 ;; les circuits CMOS interprètent comme 0 une tension d'entrée comprise entre 0 et un tiers de la tension d'alimentation, et comme 1 une tension d'entrée comprise entre les deux tiers de la tension d'alimentation et celle-ci.; le codage en ligne Non Return to Zero Mark code le 1 par une transition montante ou descendante, le 0 par l'absence de transition.; la transmission en codage Manchester code 1 s'il y a une transition dans le signal alors que le signal d'horloge reconstitué est à 1, 0 dans le cas contraire.
+Les caractéristiques des circuits indiquent le fan-out, c'est-à-dire la capacité de ceux-ci à fournir ou absorber du courant pour maintenir à leur sortie la tension correspondant à la valeur qu'ils doivent transmettre. La composition de circuits avec CMOS et TTL nécessite des adaptations pour éviter les niveaux intermédiaires, dont la signification est indéterminée.
+Le codage en ligne concerne des signaux en transmission série, et utilisent le plus souvent des circuits d'interface.
+
+Signaux électriques numériques
+Un signal électrique numérique peut se transmettre: en parallèle sur plusieurs conducteurs,; ou en série, les bits à la suite l'un de l'autre sur une seule paire de conducteurs (voir Codage en ligne).
+Un signal électrique numérique se caractérise par son débit exprimé en bits par seconde.
+Dans les liaisons série, on transmet en général le signal d'horloge en même temps que les données (par exemple codage Manchester).
+On transmet souvent plus de bits que nécessaire,: pour assurer une meilleure reconstitution de l'horloge (voir par exemple Codage 8b-10b),; et pour permettre de corriger, à partir de la redondance des informations, les erreurs de transmission (voir Code linéaire).
+Pour augmenter le débit de la transmission, on utilise des protocoles de Modem complexes qui créent plusieurs canaux sur le même câble et exploitent le plus possible leur bande passante analogique.
+
+Histoire
+L'idée d'utiliser l'électricité pour transmettre des signaux suit de près sa découverte, au début du XVIIe siècle. En 1774, Georges-Louis Le Sage invente un télégraphe fonctionnant à l'électricité statique avec vingt-quatre conducteurs en parallèle. Les inventions de la pile électrique par Volta et de l'électroaimant par François Arago vont permettre le développement du télégraphe, qui se développe de manière fulgurante à partir de 1840 avec le système de Samuel Morse, qui utilise un signal numérique série et non plus parallèle comme ses prédécesseurs. La télégraphie sans fil, avec une porteuse haute-fréquence interrompue, se développe à partir des travaux de Guglielmo Marconi dans les premières années du XXe siècle. Le téléphone qu'invente Alexander Graham Bell en 1876 marque l'apparition d'un signal électrique analogique. À partir du signal d'appel du téléphone se développent de nombreux signaux logiques pour les portes d'entrées et autres applications du même ordre, perfectionnées en tableaux indicateurs. C'est de la même époque que date l'invention du signal d'horloge, qui synchronise des cadrans répartis dans une ville ou le long d'une ligne de chemin de fer, et les premiers automates, qui traitent des signaux logiques, appliquant les règles de l'algèbre de Boole.
+L'invention de la triode permettant l'amplification du signal permet le développement du téléphone à longue distance et l'apparition de la radiodiffusion des sons, à partir de 1920.
+C'est dans la seconde moitié du XXe siècle que le développement de l'électronique permet la conversion de signaux analogiques en signaux numériques, à partir des considérations théoriques de Harry Nyquist et Claude Shannon dont le théorème régit l'échantillonnage du signal, avant sa quantification.
+
+Compléments
+
+Articles connexes: Traitement du signal; Théorie de l'information.

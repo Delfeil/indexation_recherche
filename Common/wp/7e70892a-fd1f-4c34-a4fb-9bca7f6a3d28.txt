@@ -1,0 +1,59 @@
+Internet Relay Chat ou IRC (en français, "discussion relayée par Internet") est un protocole de communication textuelle sur Internet. Il sert à la communication instantanée principalement sous la forme de discussions en groupe par l'intermédiaire de canaux de discussion, mais peut aussi être utilisé pour de la communication de un à un. Il peut par ailleurs être utilisé pour faire du transfert de fichier.
+
+Histoire
+Conçu fin août 1988, l'IRC a été décrit initialement dans la RFC 1459 par Jarkko Oikarinen (surnommé "WiZ") et Darren Reed, puis révisé dans les RFC 2810 à RFC 2813. L'IRC fut créé pour remplacer un programme appelé MUT (MultiUser talk) sur un BBS finlandais (OuluBox). Oikarinen s'est inspiré du Bitnet Relay Chat du réseau Bitnet.
+En mars 2009, les cent plus grands réseaux IRC peuvent fournir du service à plus de 500 000 utilisateurs simultanément, avec plusieurs centaines de milliers de canaux (la plupart étant toutefois inactifs), par l'intermédiaire d'environ 1 500 serveurs dans le monde.
+
+Aspects techniques
+Le protocole de communication décrit un réseau informatique formé de plusieurs serveurs connectés sans boucle dans lequel les clients communiquent généralement par le biais du serveur (qui relayera éventuellement le message au reste du réseau). Il est également possible de connecter deux clients directement pour une conversation privée ou un transfert de fichier, c'est le DCC. Ce protocole étant public, des clients existent pour de nombreux systèmes d'exploitation, de même que les serveurs IRC, aussi désignés par le terme IRCD qui signifie Internet Relay Chat Daemon.
+IRC est un protocole utilisant TCP et de façon optionnelle TLS. Un serveur IRC peut se connecter à d'autres serveurs IRC. Un réseau IRC est un ensemble de serveurs IRC connectés l'un à l'autre relayant si nécessaires les messages, formant ainsi une architecture répartie. L'utilisateur utilise un logiciel client IRC afin de se connecter à un des serveurs du réseau, le choix du serveur étant indifférent. Le protocole étant ouvert et décrit par un RFC, le nombre de logiciels clients existant est important pour tous les systèmes d'exploitation et leur interopérabilité garantie par la RFC.
+IRC était à sa création un protocole texte, étendu plus tard à de l'échange de contenu binaire, pour lequel IANA a attribué le port TCP-194. Cependant, l'utilisation a été étendue aux ports 6665-6669 cela afin de pouvoir être utilisé en tant que port supérieur à 1 024 par des utilisateurs n'ayant pas les privilèges super-utilisateurs (root) et par conséquent avoir des process IRCd lancés plus facilement.
+Le protocole n'a défini que des caractères de taille définie sur 8 bits, limitant les différents encodages possibles ainsi que le nombre de caractères. Ceci pose toujours des problèmes en fonction des clients utilisés et de leur langue par défaut, en raison de l'incompatibilité parfois générée entre clients.
+La plupart des serveurs IRC ne nécessitent pas l'enregistrement par l'intermédiaire d'un compte, mais l'utilisation d'un nickname (surnom) est nécessaire.
+En plus de la discussion en groupe, une fonctionnalité disponible pour IRC est le transfert de fichier par l'intermédiaire de la fonction DCC. Ceci étant, en plus de la fonction -dcc send, le DCC s'utilisait pour un tchat -dcc chat entre 2 utilisateurs, ce qui évitait de subir les temps de lag.
+Un serveur IRC est normalement géré par un ou plusieurs IrcOps, contraction d'origine anglophone de IRC Operator ou opérateur d'IRC. Les ops étaient nommés par les administrateurs du canal, par exemple par cooptation, de manière éphémère ou constante (enregistrée).
+Le succès d'IRC a été quelque peu diminué par l'arrivée des messageries instantanées. En 2009, ces réseaux restent néanmoins très utilisés par ceux qui veulent discuter sans passer par un programme client propriétaire non interopérable entre les différents fournisseurs de services ou n'offrant pas l'interactivité sous forme de canaux, permettant ainsi de dialoguer avec de multiples participants. Toutefois, la plupart des logiciels de messagerie instantanée ont maintenant implémenté le protocole IRC (Trillian, pidgin par exemple).
+
+Les canaux
+L'élément de base pour communiquer sur un réseau est le canal (channel dans la spécification). Un canal est défini par une liste d'utilisateurs connectés sur celui-ci. Pour entrer dans un canal ou pour créer un canal s'il n'existe pas, l'utilisateur utilise la commande join. Les canaux peuvent être vus de tout le réseau, leur nom est alors préfixé par le caractère croisillon ; ils peuvent aussi être des canaux locaux, portés par un serveur uniquement, leur nom est dans ce cas préfixé par le caractère esperluette.
+
+Les modes
+Les modes sont des options positionnées sur des canaux ou des utilisateurs, et qui affectent leur mode de fonctionnement, leurs privilèges et leurs interactions avec les autres entités de l'IRC.
+
+Modes standard (RFC 1459)
+De nombreux développeurs ont ajouté de nouveaux modes, ou ont modifié les modes déjà existants sur leurs serveurs.
+
+Les principales commandes IRC et leur définition
+Une commande IRC est toujours définie par le caractère "-" placée en début de ligne. Cette commande peut être une commande définie par la RFC ou une commande liée au client, ou encore au serveur. Si une ligne ne débute pas par "-", elle est envoyée comme message au canal actif. Par exemple, pour rejoindre un canal, un utilisateur doit effectuer -join canal.
+
+Robots IRC
+Les robots IRC ou bots IRC sont des programmes exécutés depuis des serveurs ou des ordinateurs permettant de faire des actions automatiquement sur un canal IRC.
+
+Les réseaux
+Il existe différents réseaux, composés chacun de plusieurs serveurs.
+
+Les big four
+Les réseaux IRC historiquement les plus importants sont les suivants : IRCnet; DALnet; EFnet; Undernet.
+
+Les nouveaux réseaux
+Dans les années 2000, deux nouveaux réseaux spécialisés apparaissent : QuakeNet, qui devient le plus grand réseau avec 200 000 utilisateurs, particulièrement lié à l'univers du jeu.; Freenode, hébergeant les canaux de projets open source ou de la culture libre, dont ceux de la Wikimedia Foundation ou d'Ubuntu, et devient à son tour en 2013 le plus grand réseau avec 100 000 utilisateurs.
+
+Freenode
+Créé en 1995 par Rob Levin, il est renommé Freenode en août 2002 et constitué sous forme d'association sans but lucratif la même année.
+Le serveur abrite des projets open source et de la culture libre.
+
+QuakeNet
+Le réseau est créé en 1997 pour héberger des communautés de joueurs du jeu vidéo Quake. Par la suite, il sera utilisé par des joueurs d'autres jeux, comme Counter Strike. À son apogée en 2005, il atteint 242 125 utilisateurs.
+
+Les réseaux francophones
+
+EpiKnet
+EpiKnet est le principal réseau francophone généraliste.
+Le réseau a servi à l'élaboration d'un corpus du français utilisé sur IRC ainsi que d'une analyse sur les marques modales comme les interjections ou les émoticônes, à l'aune de la sémiotique et de la pragmatique.
+
+Note
+L'anglicisme chat est souvent utilisé pour décrire les discussions se déroulant sur l'IRC. En français, certains utilisent "bavardage", tchatche, tchat ou "clavardage" (principalement au Québec). Au Québec, au début du phénomène de conversation instantanée, la graphie "ch@t" était parfois utilisée dans les médias.
+
+Voir aussi
+
+Articles connexes: Les RFC concernant le protocole IRC; Client IRC; Liste de clients IRC; Liste de commandes IRC; Secure Internet Live Conferencing (SILC); Serveur IRC; Services IRC; Eggdrop; IrcOp; Salon de discussion équivalent (moins technique) de canal de discussion; DansTonChat.

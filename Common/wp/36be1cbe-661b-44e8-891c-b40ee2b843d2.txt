@@ -1,0 +1,8 @@
+HathiTrust est une bibliothèque numérique mettant en commun le contenu de plusieurs bibliothèques numériques d'universités des États-Unis et d'Europe, ainsi que de Google Livres et d'Internet Archive.
+
+Présentation
+Le concept d'HathiTrust naît au sein du Committee on Institutional Cooperation et sa mise en oeuvre est menée par l'université de l'Indiana et celle du Michigan, qui financent largement le projet.
+Une cinquantaine d'universités américaines participent au projet. À l'automne 2010, l'université de Madrid est la première université européenne à s'y joindre.
+Le directeur du HathiTrust est John Price Wilkin, qui a travaillé à la numérisation à grande échelle à l'université du Michigan depuis le milieu des années 1990.
+En août 2011, HathiTrust proposait environ 9,5 millions de volumes, dont 2,5 millions du domaine public.
+Hathi signifie "éléphant" en Hindi - l'animal étant renommé pour sa grande mémoire.

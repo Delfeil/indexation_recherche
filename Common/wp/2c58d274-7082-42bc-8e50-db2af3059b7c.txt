@@ -1,0 +1,8 @@
+pump.io est un logiciel libre de micro-blogging fonctionnant sur le principe du réseau social en ligne. Il devrait à terme remplacer StatusNet et en étendre les fonctionnalités.
+
+Historique
+Issu du service en ligne de microblogging Identi.ca, lequel utilise le logiciel StatusNet, pump.io permet de créer un réseau de microblogging décentralisé.
+En marge du scandale des révélations d'Edward Snowden au sujet du programme PRISM, ce logiciel est cité comme un outil pour protéger ses données personnelles sur le web.
+C'est la société E14N qui développe ce logiciel.
+
+Articles connexes: Identi.ca; StatusNet.

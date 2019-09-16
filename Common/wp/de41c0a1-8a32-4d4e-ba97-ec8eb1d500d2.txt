@@ -1,0 +1,13 @@
+La décomposition analytique est un processus d'analyse appliqué à un flux structuré d'information afin d'en identifier le sens.
+En grammaire et en linguistique, une phrase est décomposée analytiquement en mots ou parties de phrase ; cette activité formelle peut être utilisée dans les écoles comme partie de l'apprentissage du langage. En informatique, la décomposition analytique identifie les jetons significatifs composant un flux de caractères avant de les soumettre à une analyse sémantique.
+
+En informatique
+En informatique, la décomposition analytique découpe un flux continu de caractères (lus depuis un fichier ou une entrée clavier par exemple) en informations, puis en construit un arbre d'analyse.
+Il y a deux façons principales d'analyser un flux : depuis le haut vers le bas -; depuis le bas vers le haut - en le réduisant.
+Dans la traduction par machine et les systèmes de traitement du langage naturel, les langues naturelles sont décomposées analytiquement par les programmes informatiques. Ce n'est pas facile car il y a de nombreuses ambiguïtés.
+L'analyse requiert trois phases grammaticales, l'une lexicale et la seconde syntaxique, la troisième sémantique.
+La première étape est la phase d'analyse lexicale, la génération de jetons. Par exemple un programme de calcul regarderait une entrée comme "12-(3+4)2" et la décomposerait dans les pièces 12, -, (, 3, +, 4,), et 2, chacun étant un symbole avec un sens dans le contexte d'une expression arithmétique. L'analyseur contiendrait des règles pour savoir si les caractères -, +, (et) marquent le début d'un nouveau jeton, aussi les pièces sans signification comme "12-" ou "(3" ne seraient pas créées.
+L'étape suivante est l'analyse de la syntaxe, qui vérifie que les pièces forment une expression valide. Cette vérification est habituellement effectuée en référence à une grammaire libre de contexte, laquelle définit récursivement les composants qui peuvent faire une expression et l'ordre dans lequel ils apparaissent.
+La phase finale est une analyse sémantique, laquelle tient compte des implications des expressions qui viennent d'être validées et prend l'action appropriée. Dans le cas d'un calculateur, l'action est d'évaluer l'expression ; un compilateur, par ailleurs, générera l'assembleur correspondant au langage machine de l'ordinateur.
+
+Voir aussi: Graphe orienté acyclique; Analyse syntaxique. Portail de la linguistique; Portail de l'informatique.

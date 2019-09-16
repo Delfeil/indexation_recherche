@@ -1,0 +1,72 @@
+En informatique, un forum est un espace de discussion publique (ou au moins ouvert à plusieurs participants). Les discussions y sont archivées ce qui permet une communication asynchrone (c'est ce qui différencie les forums de la messagerie instantanée). Il y a deux sortes de forum, en fonction du classement des messages : soit les "forums de discussion" dont les messages sont classés par date chronologique, soit les "forums de questions - réponses" dont les messages sont classés par votes. Forum est un terme d'origine latine (popularisé par l'anglais) désignant une place de la ville consacrée à la discussion et au commerce.
+On regroupe maintenant sous ce thème Usenet qui existait déjà avant l'apparition d'Internet, et les forums Web qui ont accompagné le développement du Web dynamique. On peut aussi considérer les listes de diffusion - qui sont composées de courriels - comme étant des forums.
+
+Nature
+Ce lieu de rencontres et d'échanges qu'est le forum Internet peut être un site web à part entière, ou simplement un de ses composants. Il offre les mêmes possibilités de discussion que les forums Usenet, mais sous la forme et à l'échelle d'un site Web. Ils sont accessibles via un navigateur Web, et offrent une interactivité intéressante.
+Un forum est avant tout un site d'échange, au moyen de messages, que ceux-là soient disponibles sur Internet ou bien sur un réseau informatique interne comme un intranet ou encore un extranet. Les discussions y prennent place sous la forme de "fils" de messages, à publication instantanée ou différée ; cette publication est souvent durable, car les messages ne sont pas effacés. Elle est par nature le fait de plusieurs auteurs. Dans certains forums à inscription, les messages sont modifiables a posteriori par leurs auteurs.
+Les fonctionnalités offertes par les différents forums (citation, existence de titres ou non, mise en page-indentation, administration-droits d'accès, modération a priori ou a posteriori...) peuvent varier, et les forums peuvent traiter différemment les messages : ainsi certains ne permettent que de répondre de manière globale à un sujet de discussion, tandis que d'autres permettent de répondre à un message en particulier.
+
+Nécessité d'un code de bonne conduite
+Beaucoup de forums exigent l'acceptation d'une charte avant toute participation. Une telle charte régit l'usage qui peut être fait du forum. Le webmestre a normalement une fonction d'administrateur et de modérateur, cette dernière pouvant être déléguée à une ou plusieurs personnes utilisatrices régulières du forum. Les modérateurs sont chargés de veiller au respect de la charte et de limiter d'éventuelles tensions entre participants (par exemple, en éditant les messages générateurs de tensions ou en interdisant l'envoi de nouveaux messages à un des participants). Certains pays se sont dotés d'une législation précise qui impose aux gérants de forum une surveillance préventive du contenu des messages postés.
+Historiquement parlant, le forum est une des plus anciennes applications disponibles sur l'Internet, et l'une des plus utilisées. Au sein des forums se sont développés des us et coutumes, des attitudes générationnelles et des légendes. La grande diversité des formes techniques du forum internet témoignent de sa vivacité intrinsèque comme vecteur de communication moderne, mondialisé.
+Le non-respect de la charte d'utilisation d'un forum (ex: insultes, xénophobie, flood etc.) peut conduire l'équipe de modération à bannir un utilisateur ou à supprimer un compte utilisateur, voire (rarement) à engager une poursuite judiciaire auprès de son FAI.
+
+Organisation des discussions et messages
+L'ensemble des discussions est généralement visible par ses participants, et éventuellement par les membres du forum ou même par tous les internautes.
+La plupart des forums sont organisés en fils de discussion (threads ou topics, par amalgame avec topic, "sujet", en anglais) et affichés avec une indentation. Voir un exemple de fil de discussion : Technologies de communication. Un message initial lance un nouveau fil. Ensuite, chaque nouvelle réponse à ce fil implicitement chronologique ouvre un nouveau fil de discussion, en tant que réponse à un message précédent. Les indentations et titres des messages visualisent les parcours de lecture possibles, sous la forme d'une arborescence, à l'instar d'un gestionnaire de fichiers organisé en dossiers et sous-dossiers.
+On distingue donc deux possibilités de présentation : un modèle chronologique, où chaque message est au même niveau et ne fait que suivre ou précéder un autre message dans le temps ; un modèle hiérarchique, où chaque message est vu comme une réponse à un message antérieur.
+Tous ces fils de discussions sont souvent regroupés en thématiques, un même forum pouvant accueillir plusieurs thématiques, voire plusieurs regroupements de thématiques.
+Sur certains forums qu'on pourrait qualifier de "progressifs", un message initial détermine un fil unique dans lequel tous les messages se suivent chronologiquement.
+
+Importance d'une animation
+Une des caractéristiques essentielles d'un forum est son interactivité, liée au nombre de personnes qui s'y expriment, mais le nombre de personnes qui lisent ces échanges, sans nécessairement réagir, est très important (on les appelle des lurkers).
+De même que la conduite d'une réunion bénéficie fortement de la présence d'un "animateur", les forums sont quelquefois "animés" par des animateurs, pour stimuler-relancer les échanges. Les animateurs sont généralement aussi des modérateurs.
+
+Quelques facteur-clés de succès
+
+Garder les membres
+Un forum mal lancé risque très vite de dépérir, faute de contributions suffisamment nombreuses pour obtenir des réponses et attirer des lecteurs. Les facteurs favorables pour lancer un forum sont notamment : L'obtention d'une masse critique de contributions : en dessous d'un nombre minimal de messages, celui qui se connectera pour la première fois au forum risque de trouver peu d'intérêt à y revenir. En revanche, dès qu'un nombre suffisant et une variété minimale des messages sont atteints, la chance que chacun trouve quelque chose qui l'intéresse est forte. Le phénomène inverse va se produire : une accélération, par rétroaction positive : les participants vont en parler autour d'eux, faire connaître ce forum, etc.; À l'opposé, certains forums ont un nombre excessif de participants. De ce fait, les fils de discussion y sont trop nombreux et se développent trop vite pour que les participants puissent y répondre. Les participants chevronnés répondent généralement à ce phénomène en créant des sous-sections du forum. Par contre, sur un forum peu fréquenté, il est préférable de réduire le nombre de sections de manière à garder un bon niveau d'animation.
+
+Formes
+Il existe différentes catégories techniques de forums, celles-ci tirant avantage de différentes technologies et réseaux informatiques : Les forums publics : par exemple les newsgroups du réseau Usenet, accessibles depuis certains logiciels de messagerie (ex: Mozilla Thunderbird) et depuis des logiciels spécialisés (lecteur de nouvelles) ;; Les forums privés, accessibles à un petit groupe de personnes, par exemple sur un site web spécifique, par exemple Yahoo! Groups (en), pour créer, temporairement ou non, un lieu d'échange ;; Les forums privés accessibles via intranet ou extranet, souvent créés (intranet) au sein d'une entreprise, d'une organisation, ou d'une équipe-projet, mais pouvant réunir (extranet) des participants appartenant à diverses organisations, entreprises et associations ;; Les forums audio (ex: via TeamSpeak) ;; Les micro-forums, version simplifiée des forums Web traditionnels.
+
+Vocabulaire
+
+Messages: MP : Message Privé; Post : message sur le forum; Topic : sujet; PO : Posteur Originel. Traduction littérale de l'anglais OP : Original Poster. L'auteur du premier message d'un sujet. Sur certains forum, le PO sera simplement appelé auteur; Captcha : série de nombres, de lettres (ou bien les deux), qu'une personne doit rentrer avant de poster un message (Un contrôle anti-bot).
+
+Modération: Flood : messages répétés, indésirables, sans rapport avec le sujet.; Floodeur : auteur de flood.; Boost : pratique consistant à poster un grand nombre de messages, dans le seul but de faire augmenter le compte de messages à son actif.; HS : message hors-sujet.; Troll : auteur de messages cherchant à envenimer la discussion en la déviant par exemple sur un hors-sujet polémique.; Locker (verrouiller) : action sur le sujet rendant impossible aux membres d'y répondre.; Free-Post (poste libre, boost caché) : le principe est le même que le boost (augmenter le nombre de messages). La différence est que le Free-Post lui est une réponse courte, souvent différente d'un topic à l'autre et hors-sujet (Exemple : Sujet "Quel ordinateur choisir " Réponse "Le ciel est bleu"), généralement moins repérable que le boost qui lui est souvent une réponse qui ne veut rien dire ou qui est toujours la même.
+
+Équipe du forum: Staff ou Team : terme désignant l'équipe du forum.; "Modo" : contraction de modérateur. Il dispose de fonctions privilèges.; "Admin" : contraction d'administrateur.; Webmaster : personne ayant techniquement mis en service le logiciel de forum. Il n'existe pas de rang "webmestre". Celui-ci a disposé du premier compte administrateur créé, il a ensuite attribué à d'autres utilisateurs ce rang, leur conférant par là-même autant de privilèges de gestion du forum que lui. Une grande confiance entre le webmestre et les administrateurs est nécessaire afin que le forum fonctionne comme attendu, car dans le cas de forums pour particuliers, des fâcheries risqueraient d'entraîner des actes de sabotage.
+Plus simplement, sur certains forums ayant des volumes d'échanges importants, on peut différencier le rôle du webmestre ayant en charge la gestion informatique du forum (mise à jour, hébergement informatique) de celui de l'Administrateur qui supervise l'organisation du forum (équipe des Modérateurs, Staff, respect de la charte). Newseur : personne rapportant des informations en rapport avec le sujet du forum.
+
+Organisation: Forum : espace formé de catégories et de sous-forums.; Catégorie : espace regroupant des sous-forums.; Sous-forums : espace dans lequel il est possible de poster un sujet.; Sujet : espace dans lequel un membre a la possibilité de poster un message.; Sujet collant : Une discussion importante du forum mise en avant par un administrateur ou par un modérateur pour une période donnée.; Sujet verrouillé : Sujet où l'on ne peut plus poster.; Sujet en collant et verrouillé : Discussion importante fermée, souvent les règles du forum.; Annonce : Souvent utilisée pour les règlements dans des forums, les annonces sont utilisées pour des événements soit ponctuels soit sur un long terme pour faire passer des informations à la communauté.; Annonce générale : c'est une discussion ouverte sur tous les forums et mise en valeur.
+
+Moyens informatiques
+
+Auto-hébergement
+Il est possible d'installer un logiciel de forum sur son site web ou son Serveur HTTP local, sans avoir soi-même à réaliser un logiciel de forum. De nombreux logiciels de forum sont disponibles sur Internet, certains étant gratuits. Leur installation exige tout de même quelques compétences informatiques. La mise en place d'un forum personnel nécessite toujours ces deux moyens : un hébergement web et une base de données.
+S'il s'agit de créer un forum pour peu d'utilisateurs (quelques centaines par exemples), il est tentant de chercher à le faire héberger en utilisant un site web personnel gratuit ou un hébergeur web gratuit.
+
+Logiciels de forums web
+Lorsqu'il s'agit d'un forum web ayant l'ambition d'être utilisé par de nombreux utilisateurs, le webmestre utilise un logiciel de forum web (hébergé sur un serveur HTTP).
+Il existe de multiples logiciels spécialisés : catégorie "Logiciel pour forum"
+
+Solutions pour néophytes
+À défaut d'avoir les compétences en informatique, et en dehors des agences web, le néophyte a la possibilité de se tourner vers une solution astucieuse: des entreprises spécialisées qui misent sur la facilité de mise en service d'un forum web géré par leur soin pour proposer d'autres services ou de la publicité.
+Pour cela elles gèrent la totalité de la partie informatique grâce à leur système informatique spécialisé et automatisé. Elles se financent par de la publicité en ligne (le plus souvent des bannières publicitaires) ou par le biais de formules payantes (non assujetti à des quotas ou sans publicité).
+Pour afficher une liste de ces entreprises (et leurs sites web) voir le lien externe en bas de page.
+
+Le cas des forums fonctionnant en réseau pair à pair
+En marge des moyens habituels décrits ci-dessus, il existe quelques logiciels fonctionnant en réseau pair à pair (des logiciels généralement destinés au partage de fichiers en pair à pair) qui permettent de créer et d'administrer des forums sans disposer d'un serveur informatique dédié à cela, ni d'un hébergeur web (les messages étant diffusés sur le principe du pair à pair, c'est-à-dire de l'ordinateur d'un utilisateur à l'ordinateur d'un autre utilisateur).
+Les solutions ci-dessous sont utilisables sans frais (en dehors d'un ordinateur et d'une connexion internet à haut débit): Freenet : dispose de logiciels (ex: Frost, FMS) permettant de faire fonctionner des forums en son sein.; RetroShare : lors de la création d'un forum on choisit si les utilisateurs pourront poster anonymement ou pas (cela nécessitera qu'ils affichent leur idendité RetroShare). À noter : les messages sont effacés automatiquement après un an.; Perfect Dark (P2P) : logiciel japonais permettant d'utiliser et de créer des textboards.; Syndie : conçu pour être non-censurable. Compatible avec de multiples réseaux d'anonymat (ex: I2P, Tor, internet en clair - c'est-à-dire l'internet habituel non chiffré).
+Inconvénient : pour qu'un utilisateur puisse accéder à un forum hébergé sur l'un de ces réseaux, il doit utiliser le logiciel correspondant.
+
+Liste de logiciels
+
+Logiciels libres: Askbot; Discourse; eXo Platform.
+
+Voir aussi
+
+Articles connexes: BBCode (Bulletin board code); Loi de Godwin (et point Godwin); Usenet : Système en réseau de forums (newsgroups en Anglais).; Distic; Communauté virtuelle.
+
+Services connexes: Bulletin board system (BBS); Liste de diffusion (mailing list); Messagerie instantanée; Réseau informatique; Réseautage social; Textboard.

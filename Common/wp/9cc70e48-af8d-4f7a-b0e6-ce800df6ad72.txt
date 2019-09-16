@@ -1,0 +1,15 @@
+Le Diagramme de causes et effets, ou diagramme d'Ishikawa, ou diagramme en arêtes de poisson ou encore 5M, est un outil développé par Kaoru Ishikawa en 1962 et servant dans la gestion de la qualité.
+
+Description et fonctions
+Ce diagramme représente de façon graphique les causes aboutissant à un effet. Il peut être utilisé comme outil de modération d'un remue-méninges et comme outil de visualisation synthétique et de communication des causes identifiées. Il peut être utilisé dans le cadre de recherche de cause d'un problème ou d'identification et gestion des risques lors de la mise en place d'un projet.
+Ce diagramme se structure habituellement autour du concept des 5 M. Kaoru Ishikawa recommande de regarder en effet l'événement sous cinq aspects différents, résumés par le sigle et moyen mnémotechnique 5M : 1) Matière : les matières et matériaux utilisés et entrant en jeu, et plus généralement les entrées du processus.; 2) Matériel : l'équipement, les machines, le matériel informatique, les logiciels et les technologies.; 3) Méthode : le mode opératoire, la logique du processus et la recherche et développement.; 4) Main-d'oeuvre : les interventions humaines.; 5) Milieu : l'environnement, le positionnement, le contexte.
+Chaque branche reçoit d'autres causes ou catégories hiérarchisées selon leur niveau de détail.
+Le positionnement des causes met en évidence les causes les plus directes en les plaçant les plus proches de l'arête centrale.
+
+Variantes
+Les termes "Moyens" ou "Machines" remplacent parfois la catégorie "Matériel".
+Une variante du diagramme est un diagramme structuré autour des "6M" qui ajoute aux 5 domaines précédents celui de la "Mesure" : les causes correspondant à des biais ou des erreurs liés aux indicateurs utilisés pour chiffrer le phénomène à analyser.
+Les entreprises de service utilisent une version étendue avec l'introduction du "8M" qui rajoute à la précédente les catégories "Management" (qui peut être considérée comme incluse dans la catégorie "Main-d'oeuvre") et "Moyens financiers".
+Une caractéristique peut également être ajoutée dans les univers de production avec un neuvième "M", celui de "Maintenance". En effet, un équipement peut donner satisfaction à l'état neuf, être correctement homologué, répondre aux besoins pour lesquels il a été installé... mais un manque de maintenance au cours du temps peut être à l'origine de défauts, dysfonctionnements, pannes, etc.
+On note également que la maintenance est une combinaison de "Main-d'oeuvre", "Méthode" et "Matériel".
+L'arbre des causes peut être considéré comme une variante où les causes sont classées dans d'autres catégories, identifiées comme pertinentes lors de l'analyse.

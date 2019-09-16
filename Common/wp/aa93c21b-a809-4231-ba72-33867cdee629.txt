@@ -1,0 +1,40 @@
+Le TF-IDF (de l'anglais term frequency-inverse document frequency) est une méthode de pondération souvent utilisée en recherche d'information et en particulier dans la fouille de textes. Cette mesure statistique permet d'évaluer l'importance d'un terme contenu dans un document, relativement à une collection ou un corpus. Le poids augmente proportionnellement au nombre d'occurrences du mot dans le document. Il varie également en fonction de la fréquence du mot dans le corpus. Des variantes de la formule originale sont souvent utilisées dans des moteurs de recherche pour apprécier la pertinence d'un document en fonction des critères de recherche de l'utilisateur.
+
+Introduction
+La justification théorique a posteriori de ce schéma de pondération repose sur l'observation empirique de la fréquence des mots dans un texte qui est donnée par la loi de Zipf. Si une requête contient le terme T, un document a d'autant plus de chances d'y répondre qu'il contient ce terme : la fréquence du terme au sein du document (TF) est grande. Néanmoins, si le terme T est lui-même très fréquent au sein du corpus, c'est-à-dire qu'il est présent dans de nombreux documents (e.g. les articles définis - le, la, les), il est en fait peu discriminant. C'est pourquoi le schéma propose d'augmenter la pertinence d'un terme en fonction de sa rareté au sein du corpus (fréquence du terme dans le corpus IDF élevée). Ainsi, la présence d'un terme rare de la requête dans le contenu d'un document fait croître le "score" de ce dernier.
+
+Définition formelle
+
+Fréquence du terme
+La fréquence "brute" d'un terme (raw frequency) est simplement le nombre d'occurrences de ce terme dans le document considéré (on parle de "fréquence" par abus de langage). On peut choisir cette fréquence brute pour exprimer la fréquence d'un terme (term frequency).
+Des variantes ont été proposées. Un choix plus simple, dit "binaire", est de mettre 1 si le terme apparaît dans le document et 0 sinon. À l'opposé, on peut normaliser logarithmiquement la fréquence brute pour amortir les écarts. Une normalisation courante pour prendre en compte la longueur du document est de normaliser par la fréquence brute maximale du document.
+
+Fréquence inverse de document
+La fréquence inverse de document (inverse document frequency) est une mesure de l'importance du terme dans l'ensemble du corpus. Dans le schéma TF-IDF, elle vise à donner un poids plus important aux termes les moins fréquents, considérés comme plus discriminants. Elle consiste à calculer le logarithme (en base 10) de l'inverse de la proportion de documents du corpus qui contiennent le terme :
+i d f i - log D (d j : t i d j) (-displaystyle -mathrm (idf-(i)) --log (-frac (D)(-(d-(j):t-(i)-in d-(j)-))))
+où : D (-displaystyle D) : nombre total de documents dans le corpus ;; (d j : t i d j) (-displaystyle -(d-(j):t-(i)-in d-(j)-)) : nombre de documents où le terme t i (-displaystyle t-(i)) apparaît (c'est-à-dire n i , j 0 (-displaystyle n-(i,j)-neq 0)).
+
+Calcul de TF-IDF
+Finalement, le poids s'obtient en multipliant les deux mesures :
+t f i d f i , j - t f i , j i d f i (-displaystyle -mathrm (tfidf-(i,j)) --mathrm (tf-(i,j)) -cdot -mathrm (idf-(i)))
+
+Exemple
+L'exemple porte sur le document 1 (soit d 1 (-displaystyle d-(1))) et le terme analysé est "qui" (soit t 1 (-displaystyle t-(1)) - qui). La ponctuation et l'apostrophe sont ignorées.
+
+Calcul de TF: t f 1 , 1 - n 1 , 1 k n k , 1 - 2 38 (-displaystyle -mathrm (tf-(1,1)) -(-frac (n-(1,1))(-sum -(k)n-(k,1)))-(-frac (2)(38))).
+Détails du calcul : la plupart des termes apparaissent une fois (21 termes), arc, de, et, le, les, par et qui apparaissent 2 fois (7 termes) et l apparaît 3 fois (1 terme). Le dénominateur est donc 21-1 + 7-2 + 1-3 - 38. Cette somme correspond au nombre de mots dans le document.
+
+Calcul de IDF
+Le terme "qui" n'apparaît pas dans le deuxième document. Ainsi : i d f 1 - log D (d j : t 1 d j) - log 3 2 (-displaystyle -mathrm (idf-(1)) --log (-frac (D)(-(d-(j):t-(1)-in d-(j)-)))--log (-frac (3)(2))).
+
+Poids final
+On obtient : t f i d f 1 , 1 - 2 38 log 3 2 0,009 2 (-displaystyle -mathrm (tfidf-(1,1)) -(-frac (2)(38))-cdot -log (-frac (3)(2))-approx 0(,)0092).
+Pour les autres documents : t f i d f 1 , 2 - 0 log 3 2 - 0 (-displaystyle -mathrm (tfidf-(1,2)) -0-cdot -log (-frac (3)(2))-0); t f i d f 1 , 3 - 1 40 log 3 2 0,004 4 (-displaystyle -mathrm (tfidf-(1,3)) -(-frac (1)(40))-cdot -log (-frac (3)(2))-approx 0(,)0044).
+Le premier document apparaît ainsi comme "le plus pertinent".
+
+Applications
+En recherche d'information, une fois un ensemble de documents potentiels identifiés comme pouvant répondre à une requête, il s'agit de les ordonner par ordre de pertinence. La pondération tf-idf est alors couramment utilisée pour établir la description des documents dans un modèle vectoriel, la similarité étant obtenue avec une distance cosinus entre le vecteur représentant la requête et chacun des vecteurs représentatifs des documents potentiels. Bien qu'établie dans les années 70, la variante Okapi BM25 est encore considérée (début XXIe siècle) comme l'une des méthodes à l'état de l'art dans ce domaine.
+
+Voir aussi
+
+Articles connexes: Loi de Zipf; Modèle booléen; Modèle vectoriel; Modèle probabiliste; Précision et rappel.

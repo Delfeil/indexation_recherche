@@ -1,0 +1,33 @@
+En mathématiques, le calcul ombral est le nom d'un ensemble de techniques de calcul formel qui, avant les années 1970, était plutôt appelé calcul symbolique. Il s'agit de l'étude des similarités surprenantes entre certaines formules polynomiales a priori non reliées entre elles, et d'un ensemble de règles de manipulation (au demeurant assez peu claires) pouvant être utilisées pour les obtenir (mais non les démontrer). Ces techniques furent introduites en 1861 par John Blissard (en) (et sont parfois connues sous le nom de méthode symbolique de Blissard), mais elles sont souvent attribuées à James Joseph Sylvester, qui les utilisa de manière extensive, ou à Édouard Lucas. On a parfois également employé le terme de calcul symbolique pour désigner le calcul opérationnel de Heaviside, mais les deux méthodes n'ont que peu de points communs.
+Dans les années 1930 et 1940, Eric Temple Bell essaya, sans grand succès, de donner des bases rigoureuses au calcul ombral.
+Dans les années 1970, Steven Roman, Gian-Carlo Rota et d'autres développèrent le calcul ombral du point de vue des formes linéaires sur les espaces de polynômes. Actuellement, le calcul ombral est ainsi compris comme l'étude de certaines suites de polynômes, les suites de Sheffer, incluant les suites de polynômes de type binomial (en) (liées aux polynômes de Bell) et les suites d'Appell (en).
+
+Le calcul symbolique du XIXe siècle
+La méthode symbolique repose sur des analogies de notation pour obtenir des identités concernant des suites de nombres indexées en "faisant comme si" les indices étaient des exposants. Présenté de la sorte, cela semble absurde, mais cela marche pourtant ; les résultats ainsi obtenus peuvent ensuite être démontrés par des méthodes plus complexes, mais en revanche parfaitement rigoureuses. Voici un exemple mettant en jeu les polynômes de Bernoulli : considérons le développement binomial ordinaire: (x + y) n - k - 0 n (n k) x n k y k (-displaystyle (x+y)(n)--sum -(k-0)(n)(-binom (n)(k))x(n-k)y(k)).
+et la relation remarquablement similaire sur les polynômes de Bernoulli : B n (x + y) - k - 0 n (n k) B n k (x) y k (-displaystyle B-(n)(x+y)--sum -(k-0)(n)(-binom (n)(k))B-(n-k)(x)y(k)).
+Comparons aussi la dérivée ordinaire: d d x x n - n x n 1 (-displaystyle (-frac (-mathrm (d))(-mathrm (d) x))x(n)-nx(n-1)).
+à la relation très similaire sur les polynômes de Bernoulli : d d x B n (x) - n B n 1 (x). (-displaystyle (-frac (-mathrm (d))(-mathrm (d) x))B-(n)(x)-nB-(n-1)(x).).
+Ces similarités nous permettent de construire des "démonstrations" ombrales, qui, de prime abord ne peuvent pas être correctes, mais qui semblent donner tout de même des formules exactes. Ainsi, par exemple, en supposant que l'indice n k est un exposant : B n (x) - k - 0 n (n k) b n k x k - (b + x) n , (-displaystyle B-(n)(x)--sum -(k-0)(n)(-binom (n)(k))b(n-k)x(k)-(b+x)(n),).
+et, en dérivant, on obtient le résultat escompté : B n ' (x) - n (b + x) n 1 - n B n 1 (x) (-displaystyle B-(n)'(x)-n(b+x)(n-1)-nB-(n-1)(x)-,).
+Dans cette formule, la variable b est une ombre. On trouvera un autre exemple plus détaillé dans l'article "Formule de Faulhaber".
+
+Les séries de Taylor ombrales
+Des relations similaires ont aussi été observées dans la théorie des différences finies. La version ombrale des séries de Taylor est donnée par une expression similaire impliquant les k-èmes "différences vers l'avant" k (f) (-displaystyle -Delta (k)(f)-,) d'une fonction polynomiale f,: f (x) - k - 0 k (f) (0) k ! (x) k (-displaystyle f(x)--sum -(k-0)(-infty)(-frac (-Delta (k)(f)(0))(k!))(x)-(k)).
+où: (x) k - x (x 1) (x 2)... (x k + 1) (-displaystyle (x)-(k)-x(x-1)(x-2)-cdots (x-k+1)).
+est la factorielle décroissante de Pochhammer. Une relation similaire est valable pour les différences vers l'arrière et la factorielle croissante.
+
+Bell et Riordan
+Dans les années 1930 et 1940, Eric Temple Bell a essayé sans succès de donner à cette sorte d'argument une rigueur logique. Le combinatoriste John Riordan (en), dans son ouvrage
+Combinatorial Identities
+publié dans les années 1960, a utilisé ces techniques extensivement.
+
+Le calcul ombral moderne
+Dans les années 1960, un autre combinatoriste, Gian-Carlo Rota, montra que le mystère s'évanouissait si on considère la forme linéaire L sur les polynômes en y définie par: L (y n) - B n (0) - B n. (-displaystyle -mathrm (L) (y(n))-B-(n)(0)-B-(n).-,).
+Alors, on peut écrire: B n (x) - k - 0 n (n k) B n k x k - k - 0 n (n k) L (y n k) x k - L (k - 0 n (n k) y n k x k) - L ((y + x) n) , (-displaystyle B-(n)(x)--sum -(k-0)(n)(-binom (n)(k))B-(n-k)x(k)--sum -(k-0)(n)(-binom (n)(k))-mathrm (L) (y(n-k))x(k)--mathrm (L) -left(-sum -(k-0)(n)(-binom (n)(k))y(n-k)x(k)-right)--mathrm (L) ((y+x)(n)),).
+etc.
+Rota affirma par la suite que beaucoup de confusions résultaient de l'échec à distinguer les trois relations d'équivalence qui apparaissent dans ce sujet, toutes étant désignées par le symbole "-".
+Dans un article publié en 1964, Rota utilisa des méthodes symboliques pour établir la relation de récurrence satisfaite par les nombres de Bell, qui énumèrent les partitions des ensembles finis.
+Dans l'article de Roman et Rota, le calcul ombral devient l'étude de l'algèbre ombrale, définie comme l'algèbre des formes linéaires sur l'espace vectoriel des polynômes de variable x, où le produit des formes linéaires L1 et L2 est défini par: L 1 L 2 x n - k - 0 n (n k) L 1 x k L 2 x n k. (-displaystyle -langle -mathrm (L) -(1)-mathrm (L) -(2)-mid x(n)-rangle --sum -(k-0)(n)(n -choose k)-langle -mathrm (L) -(1)-mid x(k)-rangle -langle -mathrm (L) -(2)-mid x(n-k)-rangle.).
+Lorsque les suites de polynômes remplacent les suites de nombres comme images de y sous l'application linéaire L, la méthode ombrale est vue comme un composant essentiel de la théorie générale des polynômes de Rota ; c'est cette théorie qui constitue le calcul ombral au sens moderne. Un petit échantillon de cette théorie peut être trouvé dans l'article "Type binomial (en)" ; un autre peut être trouvé dans l'article "Suite de Sheffer".
+
+Note

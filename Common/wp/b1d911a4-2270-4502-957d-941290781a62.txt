@@ -1,0 +1,30 @@
+Le Réseau national de télécommunications pour la technologie, l'enseignement et la recherche (RENATER) est le réseau informatique français reliant les différentes universités et les différents centres de recherche entre eux en France métropolitaine et dans les départements d'outre-mer. Il a été créé en 1993.
+
+Principe général
+RENATER est un groupement d'intérêt public dont la création a été approuvée par un arrêté du 27 janvier 1993.
+Ses membres sont de grands organismes de recherche : CNRS, CPU, CEA, INRIA, CNES, INRA, INSERM, ONERA, CIRAD, IRSTEA, IRD, BRGM, ainsi que le ministère de l'Éducation nationale et de l'Enseignement supérieur et de la Recherche. RENATER gère aussi le point d'échange de trafic SFINX, et dispose de liaisons projets de recherche avec le CERN et le centre de Cadarache.
+Il s'agit d'un réseau liant plus de 1000 sites via une liaison très haut débit (liaisons jusqu'à 10 Gbit-s, coeur de réseau à 110 Gbit-s en Île-de-France) et en IPv4 et IPv6 natifs.
+RENATER est connecté au réseau pan-européen GÉANT2 (via deux liaisons à 20 Gbit-s). Il est également relié à Internet, en France via SFINX (à 2 10 Gbit-s), et dans le monde via 2 liaisons IP Transit à 20 Gbit-s de Paris et de Marseille.
+
+Évolutions
+
+RENATER-2
+Cette évolution implémente un réseau IPv6 pilote utilisant la plage d'adresse 2001:0660::-32.
+
+RENATER-4
+Son déploiement a été achevé en novembre 2005. Il marque le début de la gestion en propre de fibres optiques noires (FON) à petite échelle. Leur usage est réservé pour le transport de trafic associé à des projets de recherche spécifiques : GRID-5000, DEISA, Large Hadron Collider. C'est un service de lambdas.
+Les fibres noires déployées sont entre : Rennes - Caen - Rouen - Paris; Paris - Lille; Strasbourg - Nancy - Paris; Paris - Lyon; Lyon - CERN; Lyon - Grenoble; Lyon - Montpellier - Toulouse; Lyon - Marseille - Nice.
+
+RENATER-5
+L'année 2008 aura été marquée par le déploiement du réseau RENATER-5 (mené globalement sur le deuxième semestre 2008). Cette évolution se caractérise par une généralisation de l'infrastructure de fibres noires. Généralisation de l'exploitation fibres optiques noires (FON) et déploiement d'équipements WDM; Passage de 3 000 km de FON sur RENATER-4 à près de 8 000 km sur RENATER-5; Activation de longueurs d'onde dédiées aux projets de recherche (LHC, GRID 5000...); Capacité de maximum 40x10 Gbit-s sur la majeure partie du réseau; Doublement de l'axe Paris - Lyon et des noeuds RENATER associés; Équipements dotés d'interfaces de raccordement permettant d'adapter les débits en fonction des besoins; Renforcement de l'interconnexion avec le CERN et ITER.
+Ancien logo de RENATER.
+Pour fêter les vingt ans de sa création, le logotype de RENATER change.
+
+RENATER-6
+Depuis 2015, une nouvelle phase de l'architecture métropolitaine du réseau RENATER est en cours de déploiement.
+Cette nouvelle génération apportera plus de capacité, de flexibilité et de résilience, afin de fournir de futurs besoins (augmentations de capacité et nouveaux services), grâce à la mise en place de nouveaux équipements optiques et de routage dans le but de répondre aux exigences de la communauté Enseignement Supérieur et Recherche.
+Cette nouvelle génération du réseau apportera plus de capacité (nx100Gbps sur le backbone et plus d'interfaces 10Gbps), de flexibilité et de résilience.
+
+Voir aussi
+
+Articles connexes: Centre informatique national de l'enseignement supérieur (CINES); CANARIE : au Canada; GÉANT : en Europe; Internet2 : aux États-Unis; SURFnet (en) : aux Pays-Bas; Belnet : en Belgique.

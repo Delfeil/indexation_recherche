@@ -1,0 +1,12 @@
+Point-to-Point Protocol (PPP, protocole point à point) est un protocole de transmission pour l'internet, décrit par le standard RFC 1661, fortement basé sur HDLC, qui permet d'établir une connexion entre deux hôtes sur une liaison point à point. Il fait partie de la couche liaison de données (couche 2) du modèle OSI.
+PPP s'appuie sur trois composants : L'encapsulation des datagrammes.; Le contrôle de la liaison avec LCP (Link Control Protocol).; Le contrôle de la couche réseau avec NCP (Network Control Protocol).
+
+Avantages
+Le protocole PPP permet une meilleure gestion des liaisons par rapport à HDLC car : Il prend en charge des mécanismes d'authentification, comme PAP ou CHAP.; Il permet l'agrégation de lien (on parle de PPP Multilink).; Il permet la compression des données.
+Il est massivement utilisé pour les connexions Internet dédiées aux particuliers, soit directement basé sur HDLC (connexion RTC), soit encapsulé (par exemple PPPoX, utilisé par les connexions ADSL et câble).
+
+Format de la trame (cas de trame PPP sur HDLC)
+Dans cette configuration, une trame PPP est une trame HDLC à laquelle a été ajouté un protocole servant à l'encapsulation des couches supérieures.
+Flag (Fanion) de début. Adresse. Commande. Protocole. Données. FCS. Flag de fin. 8 bits (01111110b). 8 bits (11111111b). 8 bits (00000011b). 8 ou 16 bits.... 16-32 bits. 8 bits (01111110b). les fanions (Flag) et le FCS sont les mêmes que dans le cas d'HDLC.; l'adresse est toujours positionnée sur 11111111b pour indiquer que la trame doit être acceptée par le bon destinataire.; le champ Commande est toujours positionné sur 00000011b pour indiquer que les trames sont de type non-numéroté.
+
+Articles connexes: IPCP. Portail de l'informatique; Portail des télécommunications.

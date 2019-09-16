@@ -1,0 +1,7 @@
+En apprentissage automatique et en traitement automatique du langage naturel, un topic model (modèle thématique ou "modèle de sujet") est un modèle probabiliste permettant de déterminer des sujets ou thèmes abstraits dans un document.
+
+Exemples: Analyse sémantique latente (LSA); Allocation de Dirichlet latente (LDA); Analyse sémantique latente probabiliste (PLSA).
+
+Références et notes
+
+Voir aussi

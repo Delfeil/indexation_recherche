@@ -1,0 +1,73 @@
+L'Internet Archive (ou IA) est un organisme à but non lucratif consacré à l'archivage du Web et situé dans le Presidio de San Francisco, en Californie. Le projet sert aussi de bibliothèque numérique. Ces archives électroniques sont constituées de clichés instantanés (copie de pages prises à différents moments) de pages web, de logiciels, de films, de livres et d'enregistrements audio.
+Pour assurer la stabilité et la sécurité des données archivées, un site miroir fonctionnel est conservé à la Bibliotheca Alexandrina en Égypte. L'IA met gratuitement ses collections à la disposition des chercheurs, historiens et universitaires. Elle est membre de l'American Library Association et est officiellement reconnue comme bibliothèque par l'État de Californie.
+Le robot d'indexation utilisé par l'IA est Heritrix, un logiciel libre. Le logiciel de numérisation de livres, libre également, est Scribe.
+
+Histoire
+L'Internet Archive fut fondée en 1996 par Brewster Kahle. En raison de leurs objectifs - la préservation de la connaissance humaine et l'accessibilité des collections à tous -, les fondateurs de l'IA comparent ce projet à celui plus ancien de la bibliothèque d'Alexandrie.
+
+Wayback Machine
+La Wayback Machine (littéralement "la machine à revenir en arrière") est la partie des clichés du Web de l'Internet Archive. Wayback Machine a été créé par Brewster Kahle afin de stocker et indexer tout ce qui se trouve sur le web. La Wayback Machine est mise à jour à partir du contenu d'Alexa. Ce service permet aux utilisateurs de voir les versions archivées de pages Web à travers le temps : c'est l'"index à trois dimensions".
+Les clichés sont disponibles de six à douze mois après leur capture. La fréquence des instantanés est variable, toutes les mises à jour de sites Web ne sont pas enregistrées, et des intervalles de plusieurs semaines peuvent être observés.
+En 2006, la Wayback Machine contenait près de deux pétaoctets de données. Le volume augmente à un rythme de 20 téraoctets par mois, soit une augmentation de deux tiers par rapport aux douze téraoctets par mois qui étaient le taux de croissance en 2003. Cette croissance est supérieure à la quantité de texte contenue dans les plus importantes bibliothèques du monde, notamment la Bibliothèque du Congrès. En 2009, la Wayback Machine contenait près de trois pétaoctets de données et son augmentation était de 100 téraoctets par mois. Les données sont archivées dans des systèmes fabriqués par Capricorne Technologies, des Petabox racks.
+L'appellation "Wayback Machine" renvoie à des épisodes du The Rocky and Bullwinkle Show, où M. Peabody, un chien à l'air professoral et son assistant Sherman (un animal de compagnie humain), utilisent une machine à remonter le temps appelée "WABAC Machine" pour décrire des évènements historiques célèbres.
+En 2015, la Russie aurait par erreur bloqué l'intégralité du site Wayback Machine.
+
+Archive-It
+Les utilisateurs désireux d'archiver en permanence et immédiatement leurs données peuvent utiliser, moyennant un abonnement, le service Archive-It. Les données recueillies sont périodiquement indexées par la Wayback Machine. En décembre 2007, ce service avait créé plus de 230 millions d'URL pour 466 collections publiques, y compris des organismes gouvernementaux, des universités et des institutions culturelles.
+Exemple d'organismes ou institutions participant à Archive-It : Electronic Literature Organization,; les Archives d'État de Caroline du Nord,; le Texas State Library and Archives Commission,; l'Université Stanford,; la Bibliothèque nationale australienne,; le Research Libraries Group (RLG).
+
+Collections
+En plus des archives Web, l'Internet Archive conserve d'importantes collections de médias numériques qui sont soit du domaine public soit titulaires d'une licence permettant leur redistribution, comme la Licence Creative Commons. Les médias sont organisés en collections par type (images animées, son, texte, etc.) et en sous-collections selon différents critères. Chaque collection principale comprend une sous-collection Open Source, où les apports du public en général peuvent être archivés.
+Ses collections comportent (à dater du 14 novembre 2007) : 456 milliards de versions archivées (snapshots) du World Wide Web et d'Usenet, soit 67 millions de sites Web de 37 langues ;; 1 900 000 films ;; 2 400 000 d'enregistrements audios ;; 149 000 concerts ;; 7 800 000 livres ;; 96 000 logiciels ;; 951 000 images.
+
+Images vidéos
+Mis à part les longs métrages, la collection vidéo de l'Internet Archive comprend des actualités, des classiques de la bande dessinée, de la propagande pro et antiguerre et des documents plus éphémères des Archives Prelinger comme des publicités, des films éducatifs et industriels et des collections de films amateurs.
+Exemples de collection : Brickfilm regroupe des films d'animation filmés à l'aide de briques Lego, dont certains sont des reprises de films de long métrage.; Élection 2004 est un espace public et non-partisan dédié au partage du matériel vidéo relatif à l'élection présidentielle américaine de 2004.; Independent News comprend des sous-collections telles que l'Internet Archive World At War competition from 2001. Parmi les plus téléchargées, il y a des vidéos réalisées par des témoins oculaires du tremblement de terre de l'océan Indien en 2004. La September 11th Television Archive contient les vidéos de tous les grands réseaux de télévision du monde relatives aux attentats du 11 septembre 2001.
+Exemple de film français : Le Voyage dans la Lune de Georges Méliès.
+
+Sons
+La collection audio regroupe de la musique, des livres audio, des émissions d'information, des spectacles radiophoniques anciens et une grande variété d'autres fichiers audio. La sous-collection Live Music Archive comprend 40 000 enregistrements de concerts d'artistes indépendants, ainsi que des artistes plus établis et des ensembles musicaux avec des règles moins strictes sur l'enregistrement des concerts tels que le Grateful Dead.
+
+Textes
+Cette collection rassemble des textes du Projet Gutenberg, des textes de diverses bibliothèques à travers le monde ainsi qu'une collection de documents et de notes issues de ARPANET. Avec plus de 7 millions de livres, l'Internet Archive est la deuxième plus grosse bibliothèque numérique de livres en libre accès dans le monde après Google Books. Tous les documents numérisés et mis en ligne par les internautes ou les institutions sont océrisés et convertis en fichiers EPUB pour liseuses ou MOBI pour Kindle et jouissent d'un archivage pérenne sur de nombreux serveurs dans le monde (Californie, Egypte, Chine, Pays-Bas, etc.).
+La Bibliothèque Sainte-Geneviève est la première bibliothèque française à participer au projet. En France, l'École des Ponts ParisTech, l'Institut national de la recherche agronomique et Sciences Po Paris y participent également.
+
+Bibliothèque libre
+L'Internet Archive est membre de l'Open Content Alliance et exploite l'Open Library, où plus de 200 000 livres numérisés appartenant au domaine public sont consultables en ligne et imprimables. Le système de numérisation de livres Scribe sert à cette fin.
+
+Controverses
+
+Site de la scientologie
+À la fin de l'année 2002, Internet Archive a effacé différents sites critiques à l'égard de la scientologie recensés par la Wayback Machine. Le message d'erreur indique que c'était à la suite d'une "demande formulée par le propriétaire du site". Il a par la suite été précisé que les avocats de l'Église de Scientologie avaient exigé le retrait, sans aucun motif juridique, et que les propriétaires de ces sites ne voulaient pas que leurs pages soient retirées.
+
+Les archives internet comme preuve
+
+Contentieux civil aux États-Unis
+
+Telewizja Polska
+En octobre 2004, dans une affaire appelée "Telewizja Polska SA vs Echostar Satellite", un juriste tente d'utiliser les archives de la Wayback Machine comme source d'éléments de preuve recevables, probablement pour la première fois.
+Telewizja Polska est le fournisseur de TVP Polonia et de EchoStar exploitant le Dish Network. Avant le procès, EchoStar a indiqué qu'il avait l'intention d'utiliser des clichés provenant de la Wayback Machine comme preuve du contenu passé du site de Telewizja Polska. Telewizja Polska a déposé une requête in limine pour supprimer les clichés justifiants de ouï-dire et des sources non authentifiés, mais le juge Arlander Keys a rejeté les affirmations de Telewizja Polska et a refusé d'exclure ces éléments de preuve lors du procès. Toutefois, au moment du procès, le juge de la cour du district, Ronald Guzman, en première instance, a annulé les conclusions du juge Keys, et a conclu que ni l'Internet Archive ni les pages sous-jacentes (c'est-à-dire le site de Telewizja Polska) n'étaient admissibles comme preuve. Le juge Guzman a estimé que l'impression d'une page internet n'était pas une preuve d'authentification de l'information.
+
+Healthcare Advocates, Inc.
+En 2003, Healthcare Advocates, Inc. a été accusée dans un procès de violation de marque. La poursuite a tenté d'utiliser du matériel internet archivé accessible via Internet Archive. Après avoir perdu ce procès, la compagnie a tenté de poursuivre Internet Archive pour violation de la DMCA et le Computer Fraud and Abuse Act. Ils ont fait valoir que, puisqu'ils avaient installé un fichier robots.txt sur leur site Web, il aurait dû être évité par le robot d'IA. La première plainte a été déposée le 26 juin 2003, et ils ont ajouté le fichier robots.txt, le 8 juillet 2003, les pages devant être retirées rétroactivement. Le procès s'est réglé à l'amiable.
+Robots.txt est utilisé dans le cadre du protocole d'exclusion des robots (Robots Exclusion Standard), une norme d'application volontaire qu'IA applique et qui interdit aux robots d'indexer certaines pages marquées par le créateur comme hors limite. En conséquence, l'IA a supprimé un certain nombre de sites Web qui sont maintenant inaccessibles via la Wayback Machine. Ceci est parfois dû à un nouveau propriétaire qui plaçait un fichier robots.txt interdisant l'indexation du site. Les administrateurs disent travailler sur un système qui permettra l'accès aux archives précédentes tout en excluant les éléments créés après l'ajout du fichier.
+En 2006, IA appliquait la règle du Robots.txt rétroactivement. Si un site bloque IA, à l'instar de Healthcare Advocates, toutes les pages précédemment archivées depuis ce domaine sont également supprimées. Dans les cas de sites bloqués, seul le fichier robots.txt est archivé. Cette pratique semble être préjudiciable aux chercheurs accédant à des informations disponibles dans le passé.
+Toutefois, IA précise également que "parfois un propriétaire de site Web nous contacte directement et nous demande d'arrêter l'indexation ou l'archivage d'un site. Nous nous conformons à ces demandes." Ils ont aussi expliqué qu'"Internet Archive n'est pas intéressé par la préservation ou l'offre d'accès à des sites Web ou d'autres documents Internet appartenant à des personnes qui ne voudraient pas que leur matériel soit archivé".
+
+Loi des brevets
+L'Office des brevets aux États-Unis et, sous réserve que des exigences supplémentaires soient remplies (par exemple, fournir une déclaration officielle de l'archiviste), l'Office européen des brevets accepteront une datation d'Internet Archive comme preuve de la publication d'une page Web. Ces dates sont utilisées pour déterminer si une page Web est disponible avant par exemple la date de dépôt d'une demande de brevet.
+
+Droit d'auteur
+
+Grateful Dead
+En novembre 2005, le téléchargement gratuit des concerts de Grateful Dead a été supprimé du site. John Perry Barlow a identifié Bob Weir, Mickey Hart et Bill Kreutzmann comme les instigateurs de ce changement. Le 30 novembre, un post sur le forum de Brewster Kahle a résumé ce qui semble être le compromis atteint entre les membres du groupe. Les concerts live peuvent être téléchargés ou écoutés, et les enregistrements seront disponibles pour écoute seulement. Les concerts ont, depuis, été ajoutés.
+
+Suzanne Shell
+Le 12 décembre 2005, la militante Suzanne Shell (en) a réclamé la somme de 100 000 dollars pour l'archivage de son site "profane-justice.org" entre 1999 et 2004. Le 20 janvier 2006, Internet Archive a déposé une action en jugement déclaratoire dans le district du nord de la Californie, demandant au tribunal de juger qu'IA ne violait pas les droits d'auteur de Shell.
+Shell a répondu et a déposé une autre plainte contre IA pour l'archivage de son site, elle invoquait la violation de ses conditions de service. Le 13 février 2007, un juge du district du Colorado a rejeté toutes les demandes, sauf celle de rupture de contrat.
+Le 25 avril 2007, IA et Shell ont conjointement annoncé le règlement de leur litige. IA a déclaré : "Internet Archive n'a aucun intérêt à insérer des informations dans la Wayback Machine de personnes qui ne veulent pas voir leurs contenus web archivés. Nous reconnaissons que Mme Shell possède un droit d'auteur valide et applicable dans son site et nous regrettons que l'inscription de son site dans la Wayback Machine ait abouti à ce contentieux. Nous sommes heureux d'avoir cette affaire derrière nous." Shell a déclaré : "Je respecte l'objectif et la valeur historique d'Internet Archive. Je n'ai jamais eu l'intention d'interférer avec cet objectif ni de causer aucun dommage."
+
+Situation du droit d'auteur en Europe
+En Europe, la Wayback Machine peut parfois enfreindre les lois sur le droit d'auteur. Seul le créateur peut décider de l'endroit où son contenu est publié ou reproduit, les pages devront être supprimées des archives sur demande du créateur.
+
+Voir aussi

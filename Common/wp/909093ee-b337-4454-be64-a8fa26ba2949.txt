@@ -1,0 +1,47 @@
+En mathématiques et plus particulièrement en algèbre générale, le noyau d'un morphisme mesure la non-injectivité d'un morphisme.
+Dans de nombreux cas, le noyau d'un morphisme est un sous-ensemble de l'ensemble de définition du morphisme : l'ensemble des éléments qui sont envoyés sur l'élément neutre de l'ensemble d'arrivée. Dans des contextes plus généraux, le noyau est interprété comme une relation d'équivalence sur l'ensemble de définition : la relation qui relie les éléments qui sont envoyés sur une même image par le morphisme.
+Dans l'une ou l'autre de ces situations, le noyau est trivial si et seulement si le morphisme est injectif ; dans la première situation, "trivial" signifie constitué uniquement de l'élément neutre, tandis que dans le second, cela signifie que la relation est l'égalité.
+Le noyau d'un morphisme f est noté ker(f) ou Ker(f). Cette abréviation vient du mot kernel qui signifie "noyau" en anglais (dans tous les sens du terme : l'analogie s'est propagée d'une langue à l'autre).
+Cet article présente diverses définitions du noyau, pour les types les plus couramment utilisés de morphismes.
+
+Noyau d'un morphisme de groupes
+Le noyau d'un morphisme de groupes f d'un groupe G vers un groupe H se compose de tous les éléments de G qui sont envoyés par f sur l'élément neutre eH de H. Formellement : ker (f) - (x G f (x) - e H). (-displaystyle -ker(f)--(x-in G-mid f(x)-e-(H)-).).
+Le noyau est un sous-groupe distingué de G.
+L'un des théorèmes d'isomorphisme énonce que le groupe quotient G-ker(f) est isomorphe à l'image de f. Cet isomorphisme est induit par f lui-même. Une proposition légèrement plus générale est le théorème de factorisation des morphismes.
+Le morphisme de groupes f est injectif si et seulement si son noyau est le groupe trivial.
+D'après les propriétés de l'image réciproque, le noyau d'un morphisme composé g f (-displaystyle g-circ f) est égal à : ker (g f) - f 1 (ker (g)). (-displaystyle -ker(g-circ f)-f(-1)(-ker(g)).).
+
+Noyau d'une application linéaire
+Si f est une application linéaire d'un espace vectoriel V dans un espace vectoriel W, alors le noyau de f est défini par: ker (f) - (x V f (x) - 0 W). (-displaystyle -ker(f)--(x-in V-mid f(x)-0-(W)-).).
+Le noyau est un sous-espace de l'espace vectoriel V, et l'espace vectoriel quotient V-ker(f) est isomorphe à l'image de f ; en particulier, le théorème du rang relie les dimensions : dim ker (f) - dim V dim im (f). (-displaystyle -dim -ker(f)--dim V--dim -operatorname (im) (f).).
+L'application linéaire f est injective si et seulement si ker(f) - (0).
+Si V et W sont des espaces vectoriels de dimension finie sur un corps commutatif K, de dimensions respectives n et p et si des bases de ces espaces sont données, alors f peut être représentée par une matrice M M p , n (K) (-displaystyle M-in (-mathcal (M))-(p,n)(K)), et le noyau peut être déterminé en résolvant le système homogène d'équations linéaires M X - 0.
+Dans cette représentation, les solutions de ce système correspondent aux coordonnées des vecteurs du noyau de f, mais aussi aux vecteurs du noyau de l'application linéaire canoniquement associée à la matrice M.
+La dimension du noyau est donnée par le nombre de colonnes de M moins le rang de M.
+Résoudre des équations différentielles homogènes mène souvent à la détermination du noyau d'une certaine application linéaire.
+Par exemple, si l'on désire déterminer les fonctions deux fois dérivables f de R dans R telles que: x R , x f (x) + 3 f ' (x) - f (x) , (-displaystyle -forall x-in -mathbb (R) ,- xf"(x)+3f'(x)-f(x)- ,).
+il faut considérer le noyau de l'application linéaire : V W (-displaystyle -varphi :V-to W), où V est l'espace vectoriel de toutes les fonctions deux fois dérivables de R dans R, W l'espace vectoriel de toutes les fonctions de R dans R, et l'image par (-displaystyle -varphi) d'un élément f de V définie par la condition: x R , ((f)) (x) - x f (x) + 3 f ' (x) f (x). (-displaystyle -forall x-in -mathbb (R) ,- (-varphi (f))(x)-xf"(x)+3f'(x)-f(x).).
+
+Noyau d'un morphisme d'anneaux
+Le noyau d'un morphisme d'anneaux f d'un anneau A dans un anneau B se compose de tous les éléments x de A pour lequel f (x) - 0. Formellement : ker (f) - (x A f (x) - 0 B). (-displaystyle -ker(f)--(x-in A-mid f(x)-0-(B)-).).
+Le noyau est un idéal bilatère de A.
+Le théorème d'isomorphisme mentionné ci-dessus pour des groupes et des espaces vectoriels reste valable dans le cas des anneaux.
+
+Noyau d'un morphisme de corps
+Le noyau d'un morphisme de corps (c'est-à-dire un morphisme d'anneaux où les anneaux considérés sont des corps) est toujours réduit à l'élément neutre 0, de sorte que tout morphisme de corps est injectif.
+
+Noyau d'une forme quadratique
+Sur un espace vectoriel réel E, une forme quadratique est une application polynomiale q : V R (-displaystyle q:V-rightarrow R) qui est homogène de degré 2. Elle est associée à la forme bilinéaire symétrique: B (u , v) - q (u + v) q (u v) 4 (-displaystyle B(u,v)-(-frac (q(u+v)-q(u-v))(4))).
+Le noyau de q est le sous-espace vectoriel: N - (v E w , B (v , w) - 0). (-displaystyle N--(v-in E-mid -forall w,B(v,w)-0-)-,.).
+La contraction de B par v désigne l'application linéaire (v) B : w B (v , w) (-displaystyle -iota (v)B:w-mapsto B(v,w)), et N apparaît comme le noyau de l'application linéaire: v (v) B. (-displaystyle v-mapsto -iota (v)B.).
+L'image est un sous-espace vectoriel de l'espace dual E- qui est l'annulateur du noyau N.
+
+Noyau en général
+Toutes ces notions de noyaux se généralisent dans le cadre de la théorie des catégories abéliennes.
+
+Exemple
+La fonction exponentielle complexe exp est un exemple de morphisme de groupes, de (ℂ, +) dans (ℂ-,). Son noyau est l'ensemble des nombres complexes z tels que e - 1.
+En notant x - ℜ (z) et y - ℑ (z) (-displaystyle x--Re (z)- (-text(et))- y--Im (z)), on obtient: e z - 1 e x + i y - 1 e x e i y - 1 (e x - 1 y - 0 (2) (x - 0 y 2 Z , (-displaystyle (-rm (e))(z)-1-Leftrightarrow (-rm (e))(x+(-rm (i))y)-1- -Leftrightarrow (-rm (e))(x)-times (-rm (e))((-rm (i))y)-1- -Leftrightarrow (-begin(cases)(-rm (e))(x)-1--y-0- -left(2-pi -right)-end(cases))- -Leftrightarrow (-begin(cases)x-0--y-in 2-pi -mathbb (Z) ,-end(cases))).
+d'où: ker (exp) - i 2 Z. (-displaystyle -ker(-exp)-(-rm (i))2-pi -mathbb (Z).).
+
+Articles connexes: Lemme des noyaux; Limite projective. Portail de l'algèbre.

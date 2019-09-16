@@ -1,0 +1,7 @@
+Why the lucky stiff (également connu plus simplement comme why ou -why) est le pseudonyme d'un écrivain, caricaturiste, musicien, artiste et programmeur informatique, anonyme mais prolifique, notamment connu pour son travail sur le langage de programmation Ruby. Il était, avec Yukihiro Matsumoto et David Heinemeier Hansson, une des personnes les plus connues de la communauté Ruby.
+Le 19 août 2009, why the lucky stiff a fermé la totalité des sites où il publiait ses travaux sans donner la moindre explication. Peu de jours après, son nom réel Jonathan S. Gillette fut decouvert et publié.
+Ses travaux ont été sauvegardés par leur republication sur d'autre sites.
+Le 19 aout 2010, le Whyday est organisé en hommage au travail de why the lucky stiff et ceci à l'occasion du premier anniversaire de sa mise en retrait du web.
+
+Travaux: Un de ses travaux les plus connus est Why's (poignant) Guide to Ruby, un tutoriel pour la programmation en Ruby pour le moins original puisque le langage y est présenté par du texte, des bandes dessinées et autres dessins.; Try Ruby qui permet de tester le langage sans installation depuis un navigateur web.; Camping, un microframework Ruby.
+Il est probablement à l'origine du terme "tumblelog" ou du moins de sa plus ancienne utilisation recensée.

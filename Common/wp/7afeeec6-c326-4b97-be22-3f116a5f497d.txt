@@ -1,0 +1,5 @@
+Apache CouchDB est un système de gestion de base de données orienté documents, écrit en langage Erlang et distribué sous licence Apache.
+Conçu pour le Web, il fait partie de la mouvance NoSQL, et a été conçu pour pouvoir être réparti sur de multiples serveurs.
+
+Conception
+Au lieu d'être ordonnée en lignes et en colonnes, la base de données CouchDB est une collection de documents JSON. De plus, CouchDB contient un serveur HTTP qui permet d'effectuer des requêtes, et renvoie ses données sous forme JSON. On peut ainsi interroger un serveur CouchDB directement avec un navigateur Web, ou on peut exécuter des requêtes avec JavaScript. Les principales opérations effectuées sont MAP et REDUCE , voir article MapReduce. Ces opérations sont utiles lorsque la base de données est répartie, elles sont soumises à des contraintes de commutativité, d'associativité et d'idempotence.

@@ -1,0 +1,15 @@
+En algèbre linéaire, le théorème de la base incomplète affirme que, dans un espace vectoriel E,: toute famille libre de vecteurs peut être complétée en une famille libre et génératrice de E (c'est-à-dire une base de E) ;; de toute famille génératrice de E on peut extraire une sous-famille libre et génératrice.
+En particulier, ce théorème affirme que tout espace vectoriel E admet une base. En effet, la famille vide est libre et peut être complétée en une base de E. Ce résultat d'existence, joint au théorème selon lequel toutes les bases de E ont même cardinal, conduit à la définition de la dimension d'un espace vectoriel.
+Un énoncé plus général du théorème est le suivant : "Théorème de la base incomplète. Soient E un espace vectoriel, G une partie génératrice de E et L une partie libre. Alors il existe F G-L tel que LF soit une base de E."
+
+Démonstration
+Le théorème de la base incomplète, ou même seulement d'existence d'une base pour tout espace vectoriel, est équivalent à l'axiome du choix. Pour les espaces finiment engendrés, il existe cependant des preuves d'existence d'une base ne nécessitant pas cet axiome.
+La démonstration du théorème de la base incomplète dans le cas où G est finie repose sur l'algorithme suivant : 1) Soit une partie libre initiale L ;; 2) Si cette partie n'est pas génératrice de E, il existe (puisque G engendre E) un vecteur g de G qui n'est pas une combinaison linéaire d'éléments de L. Nécessairement, g n'appartient pas à L ;; 3) On remplace L par L(g), qui est encore libre (car le nouvel élément n'est pas une combinaison linéaire des précédents). On réitère 2.
+La boucle se termine en un nombre fini d'étapes (puisqu'on ajoute à chaque étape un élément de G différent des précédents et que G est fini). L est alors une partie génératrice, donc une base de E.
+Dans le cas général, la première démonstration est due au mathématicien Georg Hamel. Une démonstration courante utilise le lemme de Zorn.
+
+Application
+Tout sous-espace vectoriel F d'un espace vectoriel E possède dans E un sous-espace supplémentaire : on considère une base B de F qu'on complète en une base B' de E : l'espace engendré par les vecteurs de B' qui ne sont pas dans B est un supplémentaire de F.
+
+Remarque
+Ce théorème, vrai pour tout espace vectoriel, ne se généralise pas à tout module sur un anneau. Par exemple, le ℤ-module ℤ-2ℤ n'est pas libre, i.e. ne possède pas de base. Le point crucial dans les démonstrations ci-dessus (aussi bien dans le cas fini que dans le cas général) est que dans un espace vectoriel sur un corps commutatif (mais pas dans un module sur un anneau quelconque, même aussi simple que ℤ-2ℤ), lorsqu'on ajoute à une famille libre un nouveau vecteur qu'elle n'engendre pas, alors la nouvelle famille est encore libre.

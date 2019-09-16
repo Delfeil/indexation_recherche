@@ -1,0 +1,4 @@
+La microarchitecture d'un processeur est un plan de ce processeur au niveau logique. Elle décrit, par exemple : le nombre de pipelines et leur longueur respective ;; le nombre de mémoires cache et associativité respectives ;; l'existence de renommage de registres ;; d'une unité d'exécution out-of-order ;; d'une unité de prédiction de branchement.
+Elle est également parfois appelée architecture, bien que ce terme ait d'autres sens différents en informatique.
+Suivant les sources, elle spécifie ou non la technique de gravure utilisée pour créer le processeur. Elle est suffisamment précise pour permettre de comprendre le fonctionnement du processeur, mais suffisamment peu détaillée pour permettre de réaliser des processeurs différents (par la taille de leur mémoire cache, par leur fréquence d'horloge, etc.) en suivant son modèle.
+Le jeu d'instructions exécuté par les processeurs utilisant une microarchitecture n'est pas spécifié.

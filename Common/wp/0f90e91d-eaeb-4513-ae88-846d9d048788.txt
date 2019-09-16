@@ -1,0 +1,28 @@
+Un rythme cérébral désigne une oscillation électromagnétique dans une bande de fréquences donnée résultant de l'activité électrique cohérente d'un grand nombre de neurones du cerveau telle qu'on peut l'observer en électroencéphalographie (EEG). Ces ondes sont de très faible amplitude, elles sont de l'ordre du microvolt (chez l'être humain) et ne suivent pas toujours une sinusoïde régulière.
+Les caractéristiques des rythmes cérébraux dépendent de l'état psychologique et, le cas échéant, pathologique de la personne chez qui on les enregistre. Ainsi, l'enregistrement de l'activité rythmique cérébrale permet d'étudier les phases du sommeil ou de caractériser des maladies neurologiques, telles que l'épilepsie.
+Un exemple d'oscillation neurale est celle des félins : une oscillation neurale située proche de l'hypothalamus entraîne la contraction du larynx et par voie de conséquence le ronronnement.
+
+Principaux rythmes cérébraux observés chez l'être humain:
+Une seconde de signal EEG.;
+Ondes alpha.;
+Ondes bêta.;
+Ondes gamma.
+.
+Les activités électriques cérébrales rythmiques sont classées selon leur fréquence : Alpha : fréquences comprises entre 8,5 et 12 Hz. Elles caractérisent un état de conscience apaisé, et sont principalement émises lorsque le sujet a les yeux fermés ;; Bêta : correspond aux fréquences supérieures à 12 Hz (et généralement inférieures à 45 Hz). Elles apparaissent en période d'activité intense, de concentration ou d'anxiété ;; Les fréquences supérieures à 35 Hz, généralement d'environ 40 Hz, pouvant aller jusqu'à 80 Hz, sont dénommées Gamma. Elles ont été récemment impliquées dans les processus de liage perceptif ;; Delta : fréquences jusqu'à 4 Hz, normales chez le très jeune enfant, elles peuvent ensuite caractériser certaines lésions cérébrales ou le sommeil profond ;; Thêta : fréquences entre 4,5 et 8 Hz. On les observe principalement chez l'enfant, l'adolescent et le jeune adulte. Elles caractérisent également certains états de somnolence, d'hypnose ou de méditation, ainsi que lors de la mémorisation d'information ;; Fuseaux : trains d'ondes comprises entre 12 et 16 Hz, caractéristiques de la phase de sommeil léger. Également reliés aux ondes SMR (en)(sensorimotor rhythm) ou Mu (en).
+Ondes delta.;
+Ondes thêta.;
+Ondes SMR.
+.
+
+Rythmes cérébraux et stades du sommeil
+Un adulte éveillé émet habituellement des ondes alpha et bêta. En phase d'endormissement (stade 1), l'activité alpha diminue et s'évanouit. Le sommeil léger (stade 2) est marqué par l'apparition de pics d'activité bêta et des formes d'ondes complexes (fuseaux et complexes K). Le sommeil profond (stades 3 et 4) est caractérisé par une activité cérébrale de faible fréquence (delta). Lors du sommeil paradoxal, associé aux rêves et aux mouvements oculaires rapides, on retrouve un pic d'activité bêta.
+
+Perspectives et applications
+Les entreprises du secteur de la défense, de l'armement ainsi que des télécommunications se penchent avec intérêt sur ces avancées techniques et travaillent notamment sur la captation de ces ondes pour des applications ludiques, paramédicales et militaires. Un système d'interface neuronale directe capte les ondes cérébrales et permet de prendre le contrôle d'objets physiques (véhicules) ou virtuels (jeux vidéo). Psychokinèse et télépathie pourraient devenir une réalité par la maîtrise des ondes cérébrales.
+
+Synchronisation neuronale
+Le problème de liaison pose la question de savoir comment le cerveau réussit à rassembler les différentes caractéristiques d'un objet. Par exemple, lorsqu'on voit un chapeau rouge, la forme chapeau et la couleur rouge sont traitées par des aires différentes du cerveau, et pourtant, nous n'avons aucune difficulté à comprendre que le chapeau est rouge. Une hypothèse pour expliquer cette capacité consiste à considérer que les neurones qui traitent un même objet sont synchronisés. La phase commune à ces neurones lors de leur oscillation constitue donc le moyen de savoir qu'ils représentent le même objet. L'épilepsie est une conséquence d'un emballement de cette synchronisation neuronale.
+
+Voir aussi
+
+Articles connexes: Biosignal; Électroencéphalogramme; Électroencéphalographie; Électroencéphalographie quantitative; Épilepsie; Neurone; Rythme alpha; Système nerveux central.

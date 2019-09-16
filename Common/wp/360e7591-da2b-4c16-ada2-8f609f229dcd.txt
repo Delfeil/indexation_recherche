@@ -1,0 +1,72 @@
+En grammaire, le nom ou substantif est une des principales natures de mots dans lesquelles se classent les lemmes (unités autonomes du lexique) d'une langue. Les noms forment une classe ouverte qui peut librement s'enrichir de nouveaux mots. Comme les autres natures de mots, le nom peut être défini à la fois sur des critères sémantiques, morphologiques et syntaxiques, à des degrés divers suivant les langues et les théories linguistiques.
+D'un point de vue sémantique, les noms désignent le plus typiquement des entités en soi, indépendamment de la temporalité. Il peut s'agir d'êtres (fille, maçon, chat, arbre...), de choses (maison, pierre, feu, livre...), de sensations (lumière, peur, musique, goût...), de notions (force, idée, âge, style...), etc.
+L'opération de dérivation lexicale qui consiste à transformer en nom un lemme d'une autre nature s'appelle la nominalisation ou substantivation. Une dérivation qui part d'un nom produit à son tour un dénominal ou dénominatif.
+
+Terminologie
+Le terme de "nom" a eu, au cours de l'histoire, un sens plus large, ce terme ayant désigné aussi bien les substantifs que les adjectifs. On a ainsi parlé de "noms substantifs" et de "noms adjectifs". Cependant, cette terminologie n'est plus vraiment en usage actuellement.
+Émile Littré dans son Dictionnaire de la langue française classe ainsi les noms : Noms substantifs : qui donne une substance ; Noms substantifs appellatifs : ce qu'on appelle aujourd'hui nom commun : encyclopédiste, poubelle ;; Noms substantifs collectifs : un singulier désignant un pluriel : foule, troupe ;; Noms substantifs propres : tous les noms qui commencent avec une majuscule : les Encyclopédistes, Eugène Poubelle, Napoléon Bonaparte ;.; Noms substantifs appellatifs : ce qu'on appelle aujourd'hui nom commun : encyclopédiste, poubelle ;; Noms substantifs collectifs : un singulier désignant un pluriel : foule, troupe ;; Noms substantifs propres : tous les noms qui commencent avec une majuscule : les Encyclopédistes, Eugène Poubelle, Napoléon Bonaparte ;; Noms adjectifs : ce qu'on appelle aujourd'hui adjectif : hardi, grand.
+
+Fonction référentielle du nom
+À l'instar des autres mots pleins (adjectif, verbe et adverbe), le nom produit du sens, mais c'est en outre la seule catégorie (à l'exception toutefois de certains pronoms et de certains adverbes) à pouvoir être associée à un référent (ou référence), c'est-à-dire, à un objet de la réalité extralinguistique.
+C'est pour cette raison que le nom est également appelé substantif, puisqu'il désigne la substance des personnes, des animaux, des choses, mais également, des idées, des sentiments, des qualités, des actions, etc. à laquelle le discours fait référence.
+
+Actualisation du nom
+Pour que la fonction référentielle du nom soit effective, il faut généralement que le nom soit actualisé par un déterminant, faute de quoi, il reste virtuel. Tel est le cas, par exemple, des noms se trouvant dans le dictionnaire. Les linguistes ont d'ailleurs coutume de dire à ce propos "qu'il n'y a pas de référent dans le dictionnaire".
+Analysons par exemple le statut du nom "biscuit" dans les deux syntagmes suivants, "une boîte à biscuits" et "une boîte pour mes biscuits". Ce nom est virtuel dans le premier syntagme : en effet, le nom "biscuit" ne possédant pas de déterminant, on ne peut donc l'identifier puisqu'il n'a pas de référent propre. Au contraire, ce même nom est actuel dans le second syntagme : en effet, le nom "biscuit" étant alors précédé du déterminant "mes", on peut à présent l'identifier puisqu'il possède son référent propre, distinct de celui du nom "boîte" (par exemple, il s'agit peut-être des biscuits que j'ai achetés ce matin au supermarché...).
+
+Noms propres et noms communs
+La plupart des langues distinguent le nom commun et le nom propre. Le nom commun peut s'appliquer à plusieurs entités distinctes. Il peut être doté d'une définition générale permettant de délimiter la classe d'entités auxquelles il fait référence.; Le nom propre fait référence à une entité spécifique, généralement unique, et n'a pas d'autre signification que de la désigner en soi : Bruxelles, Napoléon Ier, Ottawa, la tour Eiffel, Carmen, l'Atlantique, Rome... Il s'écrit avec une majuscule.
+La figure de style appelée antonomase permet d'employer des noms propres comme des noms communs, ou, à l'inverse, des noms communs pour des noms propres.
+
+Catégorisation en classes nominales
+Les noms sont généralement catégorisés en fonction de critères sémantiques, syntaxiques ou morphologiques, et sont ainsi associés à des classes nominales. Il ressort de ces catégorisations un certain nombre d'oppositions, souvent canoniques : "noms masculin", "noms féminins" et "noms neutres", "noms massifs" et "noms comptables", "noms concrets" et "noms abstraits", "noms animés" et "noms inanimés", etc.
+
+Noms masculins, féminins et neutres
+Certains noms peuvent avoir des propriétés liées au sexe de la réalité qu'il représentent. Ils définissent alors un genre grammatical. Cependant, cette notion est surtout grammaticale. En effet, d'une part, la répartition des genres, masculin, féminin et neutre, ne correspond pas toujours à des critères sémantiques, et peut, de ce fait, être perçue comme arbitraire dans de nombreux cas. D'autre part, dans certaines langues, comme en polonais et en slovène, d'autres distinctions peuvent être prises en compte pour la définition des genres, si bien que la distinction entre "classe grammaticale" et "genre" est même parfois contestée.
+
+Noms massifs et noms comptables
+En français, certains noms communs, comme lait ou acier, s'utilisent le plus souvent au singulier, tandis que d'autres, comme chat et ensemble, s'utilisent aussi bien au singulier qu'au pluriel. De plus, les noms comme lait peuvent être précédés par les déterminants comme du et un peu de, mais plus difficilement par chaque, des, plusieurs ou un nombre (sauf dans certains emplois, quand on veut parler de plusieurs types de laits, ou de commandes à un bar, par exemple). Les noms comme chat, au contraire, peuvent être utilisés aussi bien avec les déterminants comme des ou plusieurs qu'avec les nombres ; mais ils sont plus difficilement combinables avec du ou un peu de. Ces noms ont été respectivement appelés noms massifs et noms comptables.
+Dans de nombreuses langues, notamment les langues romanes et germaniques, l'on peut de même identifier deux sous-classes morpho-syntaxiques de noms communs, celle des noms ayant un nombre grammatical invariable et celle des noms admettant le singulier et le pluriel.
+
+Noms concrets et noms abstraits
+Un nom concret désigne toute substance pouvant être perçue par l'un de nos cinq sens (vue, ouïe, odorat, goût et toucher) : La maison, une fleur, le chat, un ami, l'odeur, une musique, la saveur, le froid...
+Un nom abstrait désigne toute substance réelle ou figurée qui ne tombe pas sous nos sens et que seules nos facultés cérébrales peuvent appréhender : l'habitat, une floraison, l'amitié, un courage, la sagesse, la musicalité, l'admiration...
+
+Noms animés et noms inanimés
+Diverses langues distinguent grammaticalement les objets animés et inanimés. La distinction peut aussi s'opérer entre "humain" et "non humain".
+Un nom animé désigne un être vivant, humain, animal, ou assimilé, réel ou imaginaire. Seul un nom concret peut désigner un animé (personne, animal, être surnaturel, dieu...) : Charlemagne, un fermier, un renard, un lutin, une licorne, les lares, Neptune...
+Un nom inanimé désigne soit une chose concrète, soit une idée abstraite. Naturellement, les noms abstraits sont tous des inanimés : la paresse, la bonté, le courage, la course...
+
+Noms individuels et noms collectifs
+Un nom individuel désigne un référent unique : une personne, une brebis, la pierre, un euro, l'étoile, le client, un employé, un outil...
+Un nom collectif, quoique singulier, désigne un ensemble de référents : une foule, un groupe, un tas, un million, une infinité, la clientèle, le personnel, le mobilier...
+Dans certains cas, un nom collectif employé avec un complément de nom, peut servir de déterminant indéfini, plus précisément, de quantificateur nominal : un troupeau de brebis.
+Dans ce syntagme nominal, on peut considérer que le noyau est, soit le nom "troupeau", complété par "brebis" (complément de nom), soit le nom "brebis", déterminé par "un troupeau de", adjectif indéfini ou quantificateur. Selon le noyau pris en considération, l'accord du verbe sera modifié en conséquence : Une multitude d'oiseaux a traversé le ciel. - Une multitude d'oiseaux ont traversé le ciel.
+
+Morphologie
+
+Lexèmes nominaux et noms dérivés
+Un nom peut être constitué uniquement d'un lexème, mais également, selon un procédé de formation des mots, à partir de mots de natures diverses, notamment par dérivation. Des noms peuvent ainsi être formés, par exemple,: par conversion. Ils sont obtenus sans modification apparente du mot d'origine. Exemple : à partir des adjectifs de couleurs bleu, jaune, rouge sont formés des noms de couleurs : le bleu, le jaune, le rouge. Il s'agit alors d'une nominalisation ou substantivation.; par construction. Ils sont obtenus par adjonction d'un affixe. Exemple de construction d'un nom par suffixation : l'adjectif grand, donne le nom ou substantif grandeur par adjonction du suffixe -eur au radical grand-.; par dérivation régressive; par composition. Un nom composé est formé de plusieurs éléments, réunis ou non par des traits d'union ou des apostrophes : ce sont des ensembles nominaux fixes. On distingue les noms composés unifiés des noms composés dont les éléments sont reliés par des traits d'union ou apostrophes.
+
+Noms simples et noms composés
+Un nom simple, par opposition aux noms composés, obtenus par composition, est un nom constitué uniquement d'un item lexical ou bien dérivé d'un item lexical par un autre procédé que la composition (par exemple, par conversion ou par construction).
+Un nom composé peut être constitué de mots réunis au moyen de trait d'union ou d'apostrophe : abat-jour, arc-en-ciel, chef-d'oeuvre, cure-dent, tout-à-l'égout, presqu'île...
+Un nom composé unifié est constitué de mots soudés (ou agglutinés), c'est-à-dire, réunis sans espace ni trait d'union : bonhomme, monsieur, passeport, portefeuille, contrevent, vaurien...
+
+Noms fléchis
+Dans certaines langues, appelées langues flexionnelles, les noms peuvent comporter des marques de flexion. Les flexions des noms sont appelées déclinaisons. Chacune des formes fléchies du nom donne alors des indications diverses, selon les langues, sur leur cas, genre et nombre.
+Le substantif peut se décliner en genre et en nombre. Par exemple : les trois girafes ou les parlers provençaux. Parlers est alors un substantif masculin pluriel.
+Il est variable en nombre (singulier ou pluriel) et parfois en genre (masculin ou féminin).
+
+Syntaxe
+Le nom forme, avec les déterminants et les adjectifs qui se rapportent à lui, un syntagme ou groupe nominal.
+En français, le noyau du syntagme nominal est toujours un nom qui impose normalement son genre et son nombre à ses satellites déterminants et qualificatifs et plus généralement aux mots auxquels il se rapporte : l'attribut mais aussi et surtout le verbe dont il est le sujet. Typiquement, le groupe nominal occupe une fonction de sujet, de complément d'une préposition ou de complément d'un verbe.
+Le nom en français est le plus souvent précédé d'un déterminant. Cependant, le substantif peut également se trouver sans déterminant, notamment au vocatif : "Homme libre, toujours tu chériras la mer" livre ainsi un exemple de substantif, homme, sans déterminant. Et la nature du lexème ne peut pas non plus toujours être déduite de la fonction qu'il occupe dans la phrase. Ainsi, dans "marcher fait du bien", le sujet, marcher, n'est pas précédé d'un déterminant et n'est ni un substantif, ni un verbe substantivé, mais un verbe à l'infinitif.
+Le substantif ne forme pas toujours à lui seul une unité de sens. Ainsi, pour former un nom, d'après la définition sémantique et non grammaticale de ce terme, le substantif nécessite parfois d'être complété. Le substantif ainsi complété forme alors une locution nominale ; on parle également de syntagme nominal figé ou lexicalisé. Une telle locution est constituée de mots séparés par au moins une espace. Le mot principal d'un tel ensemble est nécessairement un substantif : chemin de fer, café crème, rose pompon, pois chiches, pommes de terre...
+Certains syntagmes nominaux sont réduits pour former des sigles et des acronymes, ces réductions affectant l'orthographe et la prononciation. Cependant, même si le sigle ou l'acronyme représente un syntagme nominal, rien n'empêche qu'il soit employé comme une autre catégorie, en tant qu'adjectif ou adverbe... par exemple, "des gens très BCBG" pour signifier "des gens très bon chic bon genre" où "BCBG" est un syntagme nominal à valeur d'adjectif épithète.
+
+Étude du nom en français: Morphologie du nom en français: Genre du nom; Nombre du nom.; Genre du nom; Nombre du nom; Syntaxe du nom en français: Fonction du nom; Satellites du syntagme nominal.; Fonction du nom; Satellites du syntagme nominal.
+
+Voir aussi
+
+Articles connexes: Nature (grammaire); Nom.

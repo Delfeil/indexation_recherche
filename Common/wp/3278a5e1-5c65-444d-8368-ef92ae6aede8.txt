@@ -1,0 +1,22 @@
+Le mot "indexation" fait référence à des processus de représentation de l'information de nature différente en fonction des secteurs ou domaine où cette notion est utilisée.
+
+Documentation
+L'indexation correspond à la représentation d'un texte ou d'un document par un indice ou un mot clé, avec l'aide ou non d'un langage documentaire, en vue d'en faciliter le repérage et la consultation.
+L'indexation alphabétique d'un texte consiste à repérer dans celui-ci certains mots ou expressions particulièrement significatifs (appelés termes) dans un contexte donné, afin de créer un index terminologique. Il s'agit par exemple d'index de sujets, de lieux, de personnes en fin d'ouvrage.
+L'indexation systématique correspond à l'attribution d'un indice à un document de manière à le situer dans un ensemble de la connaissance. Il dépend d'une classification préalable, encyclopédique (classification décimale universelle, classification Dewey) ou non.
+L'indexation matière ou indexation analytique est le processus qui consiste à indiquer dans un catalogue, un instrument de recherche ou une base de données bibliographiques le sujet d'un document. Il s'appuie le plus généralement sur un répertoire de mots normalisés. L'indexation Rameau est une indexation analytique.
+L'indexation automatique de documents est un ensemble de techniques au croisement de l'informatique, des sciences de l'information et des bibliothèques qui permet d'organiser (selon des critères de similarité) des collections de documents numériques comme des documents textuels, des documents audiovisuels, des pages web, etc. Elle est notamment utilisée par les moteurs de recherche.
+
+En grammaire
+L'indexation est la présence dans le verbe d'indices représentant certaines fonctions grammaticales de la phrase.
+
+En économie et finance
+L'indexation est l'ajustement d'une valeur sur un indice économique donné. Il désigne aussi une technique financière qui consiste à ajuster au mieux un portefeuille de valeurs avec une valeur de référence.
+
+En cristallographie
+L'indexation d'un diffractogramme consiste à attribuer à chacune des réflexions mesurées des indices h, k et l entiers, afin de déterminer la maille et le système réticulaire du cristal.
+
+En génie mécanique
+L'indexation consiste à fixer l'orientation d'un objet à des valeurs déterminées.
+
+Voir aussi: Index; Indice.

@@ -1,0 +1,7 @@
+Mod-jk est un module Apache qui gère la communication et la répartition de charge entre les serveurs Apache et Tomcat.
+Il est conçu dans le cadre du projet JK Apache Tomcat Connector qui a pour objectif d'élaborer des connecteurs entre les différents serveurs HTTP et le conteneur de servlets Tomcat.
+
+Fonctionnement
+Mod-jk utilise le concept de worker (un ouvrier en français) : un worker est une instance Tomcat lancée pour traiter les requêtes de servlets en provenance du serveur web. Chaque worker est identifié sur le serveur web par l'hôte sur lequel il est situé, le port sur lequel il écoute et le protocole de communication qui est utilisé pour échanger des messages. Tous les workers sont définis dans un fichier appelé worker.properties.
+AJP13 est le protocole de sockets TCP-IP habituel que Mod-jk utilise pour communiquer entre le serveur web et les workers Tomcat.
+La répartition de charge est gérée par un worker spécifique sans hôte ni numéro de port.

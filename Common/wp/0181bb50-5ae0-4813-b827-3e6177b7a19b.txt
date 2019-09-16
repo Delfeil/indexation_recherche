@@ -1,0 +1,25 @@
+PostgreSQL est un système de gestion de base de données relationnelle et objet (SGBDRO). C'est un outil libre disponible selon les termes d'une licence de type BSD.
+Ce système est concurrent d'autres systèmes de gestion de base de données, qu'ils soient libres (comme MariaDB, MySQL et Firebird), ou propriétaires (comme Oracle, Sybase, DB2, Informix et Microsoft SQL Server). Comme les projets libres Apache et Linux, PostgreSQL n'est pas contrôlé par une seule entreprise, mais est fondé sur une communauté mondiale de développeurs et d'entreprises.
+
+Histoire
+L'histoire de PostgreSQL remonte à la base de données Ingres, développée à Berkeley par Michael Stonebraker. Lorsque ce dernier décida en 1985 de recommencer le développement de zéro, il nomma le logiciel Postgres, comme raccourci de post-Ingres. Lors de l'ajout des fonctionnalités SQL en 1995, Postgres fut renommé Postgres95. Ce nom fut changé à la fin de 1996 en PostgreSQL.
+Le projet s'organise de manière à maintenir simultanément plusieurs versions stables ainsi qu'un dépôt mis à jour en continu. Cette pratique est extrêmement appréciable pour les productions des systèmes informatiques car elle leur permet de lisser les besoins de migration obligée de leurs applications qui utilisent des bases de données sur les moments de faible charge et de disponibilités de leurs ressources. Elles réalisent ainsi de très sérieuses économies, puisqu'on estime en moyenne que cette charge représente au moins 40%, mais le plus souvent jusqu'à 60% des coûts de fonctionnement des organisations informatiques au sein des entreprises.
+
+Principales caractéristiques
+Ce SGBDRO utilise des types de données modernes, dit composés ou enrichis suivant les terminologies utilisées dans le vocable informatique usuel. Ceci signifie que PostgreSQL peut stocker plus de types de données que les types simples traditionnels entiers, caractères, etc. L'utilisateur peut créer des types, des fonctions, utiliser l'héritage de type, etc.
+PostgreSQL est plus avancé que ses concurrents dans la conformité aux standards SQL (énoncé vrai entre 2012 et 2015). PostgreSQL est pratiquement conforme (de plus en plus conforme) aux normes ANSI SQL 89, SQL 92 (SQL 2), SQL 99 (SQL 3), SQL:2003 et SQL:2008. Il fonctionne sur diverses plates-formes matérielles et sous différents systèmes d'exploitation.
+PostgreSQL fonctionne sur Solaris, SunOS, Mac OS X, HP-UX, AIX, Linux, IRIX, Digital Unix, BSD, NetBSD, FreeBSD, OpenBSD, SCO unix, NeXTSTEP, UnixWare et toutes sortes d'Unix. Depuis la version 8.0, PostgreSQL fonctionne également nativement sur Windows. Avant la version 8, il fallait une couche de compatibilité POSIX (par exemple cygwin) pour faire fonctionner PostgreSQL sur ce système d'exploitation.
+PostgreSQL est largement reconnu pour son comportement stable, proche de Oracle. Mais aussi pour ses possibilités de programmation étendues, directement dans le moteur de la base de données, via PL-pgSQL. Le traitement interne des données peut aussi être couplé à d'autres modules externes compilés dans d'autres langages.
+
+Outils d'administration
+
+Interfaces utilisateurs: psql est une interface en ligne de commande permettant la saisie de requêtes SQL, directement ou par l'utilisation de procédures stockées.; pgAdmin est un outil d'administration graphique pour PostgreSQL distribué selon les termes de la licence PostgreSQL.; phpPgAdmin est une interface web d'administration pour PostgreSQL. L'outil d'administration est écrit en PHP et supporte les différentes branches de PostgreSQL depuis sa version 7. L'interface s'appuie sur des scripts PHP et sur la base de données PostgreSQL pour favoriser les diverses tâches d'administration via le World Wide Web. La dernière version a été réalisée le 14 avril 2013.; Adminer est une interface web légère d'administration pour plusieurs SGBD dont PostgreSQL.
+
+Outils connexes: DBLink est un module permettant de travailler sur deux bases différentes.; ECPG est un outil de SQL embarqué.; PostGIS est le module spatial qui confère à PostgreSQL le statut de SGDBR spatial.
+
+Pilotes
+Pour chacun des langages usuels, ou avancés, PostgreSql dispose d'une interface le plus souvent proposée sous la forme d'un pilote du moteur de base de données. C'est ainsi le cas notamment pour Ruby, Java, Python, ou C et C++, mais aussi pour de très nombreux autres langages. Java : pilotes JDBC de type 2, 3 et 4.; Python : Psycopgzsql-PyGRes (pilotes Python), PoPy-Zope-DA (pilotes Zope).; Microsoft Windows : des pilotes ADO, NET, OLE et ODBC existent.
+
+Voir aussi
+
+Articles connexes: SQL, le langage de requêtes.; Ingres, un SGBD du même développeur, plus ancien, libéré en 2004.; MySQL, un autre SGBD libre.

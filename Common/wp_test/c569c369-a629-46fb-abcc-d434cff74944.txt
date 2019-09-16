@@ -1,0 +1,14 @@
+Un moteur de recherche collaboratif est un moteur de recherche dont les résultats sont le fruit de la collaboration entre des utilisateurs humains.
+Les résultats d'une recherche peuvent être modifiés par les utilisateurs ou influencés via différents systèmes tels que les votes, la gestion de favoris, etc.
+Le moteur collaboratif ou "social search" existe grâce à la volonté des internautes de donner et de partager leur opinion avec le reste d'une communauté en laissant des commentaires, des marque-pages, en faisant du Page Ranking ou en notant, donnant son avis sur les informations.
+
+Historique
+En 2004 - 2005, le concept de moteur collaboratif a fait son apparition chez Google avec Google's PageRank. Mais c'est en 2008 qu'une multitude de sites web et de moteurs de recherche ont adopté le moteur collaboratif : Eurekster, Yahoo Answers, Ask.com ou google Co-Op, mais aussi Wikipédia ou Youtube par exemple.
+
+Risques
+Développés en parallèle des moteurs algorithmiques que l'on connait, les deux types sont importants et complémentaires. Il y a cependant des risques de subjectivité que les différents moteurs devront résoudre avant que les utilisateurs ne fassent vraiment confiance aux réponses coopératives. La fraude et le spam, ainsi que la qualité des réponses sont au coeur des inquiétudes concernant la recherche coopérative. Il est important de développer un mécanisme qui détermine l'autorité, la valeur et la fiabilité des experts humains à l'origine de ces informations.
+
+Bénéfices: Pertinence améliorée, car chaque résultat a été choisi par des utilisateurs ;; Création d'un réseau de personnes de confiance en fournissant des indications sur la qualité des résultats ;; Le jugement humain permet de compenser le manque de jugement qualitatif d'un ordinateur ;; Les résultats sont en permanence actualisés selon le contexte et la mise à jour des informations.
+
+Sources
+"Moteurs de recherche collaboratifs : plus humains et plus pertinents" l'Expansion, visité le 7.04.09: Portail d'Internet.

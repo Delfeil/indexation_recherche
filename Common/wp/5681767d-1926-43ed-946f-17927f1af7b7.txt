@@ -1,0 +1,11 @@
+MobileHCI (en anglais "Conference on Human-Computer Interaction with Mobile Devices and Services", est une conférence universitaire annuelle, la plus prestigieuse dans le domaine de la téléphonie mobile et de l'interface homme-machine. Elle est organisée conjointement par deux antennes de l'ACM : le SIGCHI (pour le volet interface homme-machine) et le SIGMOBILE (pour le volet mobilité).
+
+Histoire
+La première conférence est organisée par Chris Johnson à l'Université de Glasgow sous la forme d'un un atelier sur les problématiques d'interaction en situation de mobilité. Les années suivantes, l'atelier est animé par Stephen Brewster et Mark Dunlop en collaboration avec la conférence sur l'interface homme-machine, puis en 2001 en partenariat avec l'IHM-HCI de Lille. 2002 : colloque à Pise, organisé par Fabio Paternò, sans conférence associée ;; 2003 : à nouveau en Italie, mais à Udine avec Luca Chittaro ;; 2004 : la conférence revient en Écosse à l'Université de Strathclyde, toujours avec Brewster et Dunlop ;; 2005 : Autriche ;; 2006 : Finlande ;; 2007 : Singapour;; 2008 : Amsterdam, organisée par Henri Ter Hofte et Ingrid Mulder de la Telematica Instituut aux Pays-Bas, au centre de conférences de l'Institut tropical royal ;; 2009 : Bonn ;; 2010 : Lisbonne, du 7 au 10 septembre.
+
+Prix
+Depuis 2008 la conférence voit l'attribution d'un prix pour la publication la plus remarquable issue des travaux de MobileHCI depuis 1998. Le prix est attribué en fonction de l'impact qu'a eu l'article sur les travaux et surtout de la longévité de cette influence.
+En 2008, le prix est allé à Keith Cheverst pour Exploiting Context in HCI Design for Mobile Systems (L'exploitation du contexte dans la conception de l'interface homme-machine pour les systèmes mobiles), en collaboration avec Tom Rodden, Nigel Davies, et Alan Dix ((1)).
+En 2009, on l'a attribué à Albrecht Schmidt pour Implicit human-computer interaction through context (Interface implicite homme-machine par le contexte,(2)).
+
+Articles connexes: SIGCHI; SIGMOBILE. Portail de l'informatique; Portail des États-Unis; Portail des relations internationales.

@@ -1,0 +1,24 @@
+Gephi est un logiciel libre d'analyse et de visualisation de réseaux, développé en Java et fondé sur la plateforme NetBeans.
+
+Historique
+Initialement développé par des étudiants de l'université de technologie de Compiègne (UTC), en France, Gephi a été sélectionné pour le Google Summer of Code cinq années consécutives entre 2009 et 2013. Il a remporté en 2010 le prix Duke's Choice d'Oracle dans la catégorie Innovative Technical Data Visualization.
+Sa dernière version majeure, 0.9.0, a été lancée en décembre 2015, avec une mise à jour 0.9.1 en février 2016. Elles font suite aux versions 0.6.0 (2008), 0.7.0 (2010), 0.8.0 (2011), 0.8.1 (2012), et 0.8.2 (2013).
+
+Utilisation
+Gephi est notamment utilisé dans des projets de recherche scientifique et de journalisme de données. Il a par exemple servi à visualiser la connectivité globale du contenu du New York Times, à analyser l'activité sur le réseau Twitter en réaction à des évènements, ainsi qu'à l'analyse de réseaux traditionnels.
+Le logiciel et ses algorithmes ont inspiré LinkedIn pour la création de InMaps, et sont utilisés pour les visualisations de réseaux de Truthy, un projet de l'université de l'Indiana.
+L'un des principaux intérêts de l'utilisation de Gephi pour cartographier des données est la possibilité d'utiliser de nombreux calculs liés à la théorie des graphes pour les appliquer aux données utilisées. Cela permet ainsi de visualiser quels sont les éléments d'un réseau les plus centraux, les plus éloignés, les mieux connectés, etc. De nombreux plugins existent également pour permettre de cartographier des ensembles de données très variés. Exemples d'utilisation;
+Correspondance à l'intérieur d'une organisation internationale.;
+Réseau social d'un utilisateur de Facebook.;
+Réseau de contributeurs d'un projet Wikipédia.;
+Réseau de neurones.;
+Sociogramme de Moreno.
+
+Gephi Consortium
+Le Gephi Consortium est une association loi 1901 qui coordonne le développement des prochaines versions de Gephi et de la communauté autour du logiciel. Il prolonge l'activité de l'Association Gephi, créée en 2008. Parmi ses membres figurent SciencesPo, Linkfluence, WebAtlas et Quid.
+
+Formats de fichiers: GEXF; GDF; DOT (langage) (implémentation partielle); GraphML; Graph Modelling Language.
+
+Voir aussi
+
+Articles connexes: Théorie des réseaux; Théorie des graphes; Visualisation d'informations.

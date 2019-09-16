@@ -1,0 +1,1 @@
+Phusion Passenger est un module pour Apache et nginx qui permet de déployer en production des applications en ruby on rails. Ce module est opensource, sous licence MIT.

@@ -1,0 +1,20 @@
+Une liste de diffusion ou liste de distribution est une utilisation spécifique du courrier électronique qui permet le publipostage d'informations aux utilisateurs qui y sont inscrits. Celle-ci est gérée par un logiciel adéquat installé sur un serveur. On différencie les listes d'annonces destinées à envoyer des informations aux abonnés sans retour de leur part, des listes de discussions où toute personne inscrite peut envoyer un message ou y répondre.
+
+Utilisation
+Le principe est que l'auteur d'un courrier électronique envoie un message à une seule adresse, celle de la liste de diffusion, et que le serveur distribue celui-ci à tous les abonnés.
+Souvent, l'inscription à une liste de diffusion impose un enregistrement et celui-ci limite les consultations des archives par des opérations techniques plus ou moins contraignantes et peut poser des questions liées au respect de la vie privée. C'est par exemple le cas des listes gérées par Yahoo! Groups ou Google Groups.
+
+Fonctionnement
+Une liste de diffusion est gérée par un ou plusieurs administrateurs qui fixent les règles d'utilisation du service : 1) L'inscription à la liste peut être libre ou soumise à approbation ;; 2) L'envoi de messages peut être ouvert à tous ou restreint aux abonnés ;; 3) La liste peut être modérée, certains messages n'étant relayés qu'après validation.
+
+Serveurs en ligne 'prêts à servir' (hébergeurs de listes): EmailPoste.com; ml.free.fr; Mailinglist.fr (désormais fusionné avec PopList); PhpList.fr; Sud-Ouest.org; Toile-Libre; Google Groups; MSN Groups; Yahoo Groups; Mailing List; MailChimp (en); Newsletter2Go; Mailjet; gozmail.bzh.
+
+Logiciels pour serveurs (qui deviendront hébergeur de listes): Gmane; Ezmlm.
+
+Libres: Dada Mail; Discourse; GNU Mailman; Phplist; Sympa; mlmmj; GroupServer.
+
+Non libres: LISTSERV; Majordomo.
+
+Voir aussi
+
+Articles connexes: Forum électronique; Liste de diffusion généalogique; Liste de diffusion pédagogique; Méthode de l'adresse de retour variable. Portail d'Internet.

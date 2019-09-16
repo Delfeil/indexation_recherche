@@ -1,0 +1,22 @@
+OW2 est une association (loi de 1901) indépendante à but non lucratif dédiée au développement d'une base de logiciels d'infrastructure en open source. De dimension internationale, l'association regroupe des membres individuels, des entreprises et organismes de recherche de premier plan provenant du monde entier.
+
+Historique
+
+Dates clés
+Cédric Thomas, Directeur d'OW2, lors du Paris Open Source Summit, du 16 au 19 Novembre 2015. 2002 : Bull, France Télécom et l'INRIA créent ObjectWeb consortium; 2006 : fusion des communautés ObjectWeb et OrientWare; 2007 : création du consortium OW2 et lancement du local chapter Chine; 2008 : le nombre de membres individuels dépasse les 1000 personnes.; 2009 : première conférence annuelle OW2. Certification Java EE 5 de JOnAS. Lancement du chapitre local Brésil. Fusion d'OW2 et de l'Open Solutions Alliance. Premier OW2 Programming Contest.; 2010 : lancement du programme Software Quality and Trustworthiness (SQuAT); 2011 : première China Open Source Week; 2012 : premier Roadshow Solutions Open Source au Brésil. Lancement de l'initiative Future Internet.; 2014 : lancement de l'initiative Big Data. Nouvelle série d'événements : OW2 Open Cloud Forums.; 2015 : lancement de l'initiative Sécurité et protection des données. Partenaire de l'Open Cloud Park à Cloud Expo Europe à Londres.; 2016 : Lancement de l'initiative Accessibilité. SQuAT devient OSCAR (Open Source Software Capability Assessment Radar). OW2 reçoit le prix spécial du jury lors du Paris Open Source Summit.; 2017 : OW2 célèbre son dixième anniversaire.
+
+Vision
+OW2 revendique les valeurs d'ouverture, d'équité, de confiance, de transparence et d'indépendance.
+Plaçant l'open source est au coeur de l'innovation collaborative, OW2 offre aux contributeurs un environnement neutre dans lequel ils peuvent collaborer indépendamment des intérêts privés des fournisseurs et des utilisateurs.
+OW2 se positionne au sein de la chaine de valeur de l'open source comme la plateforme permettant la mise en relation des producteurs de code logiciel open source et les consommateurs de ce même code.
+
+Mission
+La mission du consortium OW2 est de développer une base de logiciels d'infrastructure en open source et d'animer une communauté et un écosystème dynamique.
+OW2 fournit trois types de services: Plateforme technique : une infrastructure technique (la forge OW2) assure l'hébergement des projets ainsi que la mise à disposition des chefs de projets de services facilitant le travail collaboratif (suivi des contributions, des versions, debugging, suivi des licences, redistribution, etc.).; Services communautaires : OW2 agit comme un catalyseur d'initiatives et une plateforme de mise en relation des membres entre eux et des acteurs de l'écosystème open source international au sens large.; Services marketing: L'association développe la marque et l'identité communautaire, tout en assurant la promotion de la base de code, et la visibilité des projets sur de nombreux évènements professionnels,.
+OW2 fournit également des services de dissémination par l'open source et d'animation communautaire à des projets RD collaboratifs financés par les programmes de recherche français et européens.
+
+Activités
+Le consortium fédère plus de 130 projets qui apportent des solutions alternatives aux offres propriétaires dans différents domaines : plateformes applicatives, services web, sécurité, développement logiciel, intelligence décisionnelle...
+En 2017, les initiatives lancées par OW2 depuis sa création portent sur le domaines tels que (de la plus récente à la plus ancienne) : l'open source dans les grandes villes; l'accessibilité; la sécurité; l'Internet du futur; le cloud computing; le big data; le SOA; l'e-gouvernement.
+
+Articles: Building a cloud ecosystem with open source, May 2013 (anglais); Après la BI, le Cloud et l'internet des objets, OW2 se penche sur la sécurité, Novembre 2014 (français); Pourquoi la France et l'Europe doivent devenir contributeurs et plus seulement consommateurs, Novembre 2015, (français).

@@ -1,0 +1,34 @@
+Un processus est un programme en cours d'exécution par un ordinateur. De façon plus précise, il peut être défini comme : Un ensemble d'instructions à exécuter, pouvant être dans la mémoire morte, mais le plus souvent chargé depuis la mémoire de masse vers la mémoire vive ;; un espace d'adressage en mémoire vive pour stocker la pile, les données de travail, etc. des ressources telles que les ports réseau.
+L'exécution d'un processus dure un certain temps, avec un début et (parfois) une fin. Un processus peut être démarré par un utilisateur par l'intermédiaire d'un périphérique ou bien par un autre processus : les "applications" utilisateur sont des ensembles de processus.
+
+Rôle du système d'exploitation
+Un ordinateur équipé d'un système d'exploitation à temps partagé est capable d'exécuter plusieurs processus de façon quasi simultanée. Par analogie avec les télécommunications, on nomme multiplexage ce procédé. S'il y a plusieurs processeurs, l'exécution des processus est distribuée de façon équitable sur ces processeurs.
+
+Ressources et communication
+Le système d'exploitation est chargé d'allouer les ressources (mémoires, temps processeur, entrées-sorties) nécessaires aux processus et d'assurer que le fonctionnement d'un processus n'interfère pas avec celui des autres (isolation).
+Il peut aussi fournir une API pour permettre la communication inter-processus (IPC).
+
+Exécution
+Outre le multiplexage des ressources matérielles, le système peut contrôler l'accès des processus aux ressources selon une matrice de droits et également associer les processus aux utilisateurs, qui sont les récipiendaires d'un ensemble de droits d'accès : un processus a les droits de l'utilisateur qui l'a initialisé.
+Un processus peut s'arrêter de plusieurs manières : 1) Arrêt normal (volontaire).; 2) Arrêt pour erreur (volontaire).; 3) Arrêt pour erreur fatale (involontaire).; 4) Le processus est arrêté par un autre processus (involontaire).
+Quand un arrêt de processus n'est pas un arrêt normal, il peut être important d'en être prévenu. Cela peut se faire par des systèmes de supervision (aussi appelé monitoring).
+La plupart des systèmes offrent la distinction entre processus "lourd" (tels que nous les avons décrits), qui sont a priori complètement isolés les uns des autres, et "processus légers" (threads en anglais), qui ont un espace mémoire (et d'autres ressources) en commun.
+Dans le cas de processus comportant plusieurs processus légers (ou suivant l'expression souvent utilisée multi-thread) il existe un état du processeur (un contexte d'exécution) distinct pour chaque processus léger.
+
+États d'un processus
+Les états successifs d'un processus sont généralement représentées par un diagramme d'état.
+
+Observabilité
+L'utilisation de diagrammes d'état est dû au fait qu'un processus n'est cohérent, de l'extérieur, qu'à certains moment de son exécution, notamment en dehors des sections critiques. En pratique, on observe l'état d'un processus en communiquant avec lui ; il fournit ainsi une réponse au moment où il est cohérent.
+Prenons un exemple ; soit la suite d'instructions en pseudo-code appartenant à un programme quelconque :
+Le programme utilisant cette fonction n'est observable qu'avant ou après un appel à la fonction empiler car, entre les instructions d'incrémentation et d'affectation, la cellule numéro compteur du tableau vect n'est pas affectée et contient... une valeur aléatoire (une mémoire est rarement vide).
+États que peut prendre un processus sous la forme d'un diagramme états-transitions où les flèches sont les transitions autorisées. Diagramme état-transition plus complexe suivi par les processus des systèmes d'exploitation modernes
+États standards
+Ces états existent dans la plupart des systèmes d'exploitation : Initialisation :. C'est le premier état d'un processus. Il y attend que l'ordonnanceur le place dans l'état prêt, ce qui peut prendre plus ou moins longtemps. Généralement, dans les ordinateurs de bureau, cela est automatique ; dans un système d'exploitation temps réel, cette admission peut-être reportée. En effet, dans de tels systèmes, trop de processus en attente peuvent amener à une saturation, notamment des bus, entraînant l'incapacité du système à tenir les délais. Prêt ou En attente :. Dans cet état, le processus a été chargé en mémoire centrale et attend son exécution sur le processeur, c'est-à-dire une commutation de contexte provoquée par l'ordonnanceur. Il peut y avoir beaucoup de processus en attente car, sur un ordinateur équipé d'un seul processeur, les processus doivent passer un par un. Les processus disponibles sont rangés dans une file ; les autres, ceux qui attendent quelque chose (données provenant du disque dur, une connexion internet, etc.) ne sont pas pris en compte. Cette file d'attente est gérée par l'ordonnanceur. Élu ou Exécution :. Le processus est en cours d'exécution par le processeur. Endormi ou Bloqué :. Le processus a été interrompu ou attend un événement (la fin d'une opération d'entrée-sortie, un signal,..). Terminé :. Le processus est terminé, c'est-à-dire soit le résultat est connu, soit le programme a été forcé de s'arrêter.
+États particuliers
+Selon les systèmes d'exploitation, ces différents états peuvent aussi être possibles : Zombie :. Si un processus terminé ne peut pas être déchargé de la mémoire, par exemple, si un de ses fils n'est pas terminé, il passe dans un état appelé zombie. Swappé :. Lorsqu'un processus est transféré de la mémoire centrale dans la mémoire virtuelle, il est dit "swappé". Un processus swappé peut être dans un état endormi ou prêt. Préempté :. L'ordonnanceur a décidé de suspendre l'activité d'un processus. Par exemple, un processus qui consomme trop de temps CPU finira par être préempté. Un ordonnanceur préemptif utilise aussi l'indice de priorité (nice) pour décider le processus qui sera préempté. Exécution en espace utilisateur :. L'exécution a lieu dans un espace limité : seules certaines instructions sont disponibles. Exécution en espace noyau :. Par opposition au mode utilisateur, l'exécution du processus n'est pas limitée. Par exemple, un processus dans cet état peut aller lire dans la mémoire d'un autre.
+Historique
+
+Voir aussi
+
+Articles connexes: Multitâches; Ordonnancement dans les systèmes d'exploitation; Supervision - Surveillance (informatique); Zombie; Short Remaining Time.

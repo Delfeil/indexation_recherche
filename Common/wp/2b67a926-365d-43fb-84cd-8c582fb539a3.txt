@@ -1,0 +1,25 @@
+En mathématiques, la notion de famille est une généralisation de celle de suite, suite finie ou suite indexée par tous les entiers naturels. Ainsi on pourra parler, en algèbre linéaire, de la famille de vecteurs (u1, u2,.., un), qui est une famille finie, ou de la famille dénombrable (un)n N.
+Une famille est toujours indexée, même si elle l'est parfois implicitement, par exemple dans les locutions "famille libre" ou "famille génératrice".
+
+Définition
+Une famille (xi)i I d'éléments xi d'un ensemble E, indexée par un ensemble I, l'index, est une application définie sur I à valeurs dans E. Il s'agit donc d'une terminologie et d'une notation, mieux adaptées à certains usages, pour la notion connue d'application (ou de fonction). Les éléments de I sont appelés indices. L'élément d'indice i de la famille (xi)i I est xi.
+Quand on parle d'élément d'une famille, il s'agit d'un élément de l'ensemble image de la famille en tant qu'application : un élément de la famille (xi)i I est l'un quelconque des xi.
+Quand on parle de la cardinalité d'une famille, il s'agit a priori de la cardinalité de l'ensemble de ses indices (ou de façon équivalente de la cardinalité du graphe de la famille en tant qu'application). Cela dit, on peut toujours préciser : famille sur un ensemble d'indices de cardinalité telle. Ainsi une famille finie est une famille dont l'ensemble des indices est fini, une famille infinie est une famille dont l'ensemble des indices est infini, une famille dénombrable est une famille dont l'ensemble des indices est dénombrable, une famille vide est une famille indexée par l'ensemble vide, etc. Lorsqu'une famille est finie, l'ensemble de ses éléments est fini, mais la réciproque est fausse.
+Quand on parle de suite, il s'agit d'une famille dont l'ensemble des indices est l'ensemble des entiers ou un sous-ensemble de celui-ci, fini ou infini (les n premiers entiers, les entiers non nuls...). Mais ce n'est pas exclusif : par exemple, en algèbre linéaire, on parle volontiers de famille de vecteurs, même dans ce cas. Plus généralement, on pourra parler, en théorie des ensembles, de suite pour une famille dont l'ensemble des indices est un ordinal, ou même un ensemble "explicitement" bien ordonné.
+
+Théorie axiomatique des ensembles
+En théorie des ensembles, une application est le plus souvent identifiée à son graphe : c'est un ensemble de couples. Une application définie sur I est un ensemble de couples tels que chaque élément de I apparait une et une seule fois en première composante d'un couple de cet ensemble. C'est donc aussi la définition de famille d'ensembles indexée par I. On se préoccupe peu de l'ensemble d'arrivée dans ce cas. On montre cependant que si (Ai)i I est une famille d'ensembles, alors on peut bien parler de l'ensemble des Ai : (Ai i I) "est" un ensemble.
+Cela peut se démontrer en utilisant essentiellement le fait qu'une application est un ensemble de couples et le schéma d'axiomes de compréhension (il faut revenir à la définition de couple en théorie des ensembles, et utiliser l'axiome de la réunion).
+On peut donc définir la réunion d'une famille d'ensembles indexée ; si I - , cette réunion est vide. Par contre parler de l'intersection de cette famille n'a de sens que si I.
+
+Famille indexée de parties d'un ensemble
+Si les Ai sont des parties d'un ensemble E, on pose :
+
+Propriétés diverses
+Soit une famille (A i) i I (-displaystyle (A-(i))-(i-in I)) de parties d'un ensemble, dont l'ensemble I des indices est lui-même réunion d'une famille (J m) m M (-displaystyle (J-(m))-(m-in M)). Alors :
+Si (A i) i I (-displaystyle (A-(i))-(i-in I)) et (B j) j J (-displaystyle (B-(j))-(j-in J)) sont deux familles de parties d'un ensemble E :
+I.
+II.
+III.
+
+Articles connexes: Produit cartésien; Suite; Théorie des ensembles. Portail des mathématiques.

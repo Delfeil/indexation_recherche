@@ -1,0 +1,19 @@
+Un serveur HTTP ou daemon HTTP ou HTTPd (HTTP daemon) ou (moins précisément) serveur Web est un logiciel servant des requêtes respectant le protocole de communication client-serveur HyperText Transfer Protocol (HTTP), qui a été développé pour le World Wide Web.
+
+Serveur HTTP et serveur Web
+Un ordinateur sur lequel fonctionne un serveur HTTP est appelé serveur Web. Mais un serveur HTTP peut aussi être appelé, informellement, "serveur Web". Ainsi, si "serveur HTTP" désigne toujours le logiciel serveur de transfert de fichier en HTTP, "serveur Web" peut aussi bien désigner le logiciel que l'ordinateur qui l'héberge.
+Les deux termes sont utilisés pour le logiciel car le protocole HTTP a été développé pour le Web, et les pages Web sont en pratique toujours servies avec ce protocole. Cependant d'autres ressources du Web comme les fichiers à télécharger ou les flux audio ou vidéo sont parfois servis avec d'autres protocoles.
+
+Logiciels de serveur HTTP
+Part des serveurs HTTP dans le monde. Part des serveurs HTTP dans le monde en janvier 2016.
+Part de marché du million de serveurs les plus actifs: Apache (42,5%); Nginx (40,1%); IIS (11,9%); LiteSpeed (2,3%); Google Servers (1,4%).
+CERN httpd est le premier serveur HTTP, inventé en même temps que le World Wide Web, en 1990 au CERN de Genève, il est rapidement devenu obsolète en raison de l'évolution exponentielle des fonctionnalités du protocole.
+Quelques serveurs HTTP : Apache HTTP Server de la Apache Software Foundation, successeur du NCSA HTTPd ;; Apache Tomcat de la Apache Software Foundation, évolution de Apache pour J2EE ;; BusyBox httpd, utilisé dans le domaine de l'embarqué, et notamment avec OpenWRT ;; Google Web Server de Google ;; Internet Information Services (IIS) de Microsoft ;; lighttpd de Jan Kneschke ;; Monkey web server de Eduardo Silva Pereira, dédié au noyau Linux, permettant d'utiliser pleinement ses fonctionnalités ;; nginx d'Igor Sysoev ;; NodeJS sous MIT Licence conçu par Ryan Lienhart Dahl en lignes de programmation en JavaScript ;; Sun Java System Web Server de Sun Microsystems (anciennement iPlanet de Netscape, puis Sun ONE de Sun Microsystems) ;; Tengine, fork de nginx, de Taobao (9e rang mondial Alexa en juillet 2014) ;; Zeus Web Server de Zeus Technology ;; Gunicorn est un serveur web HTTP WSGI écrit en Python pour Unix.
+Le serveur HTTP le plus utilisé est Apache HTTP Server qui sert environ 55 % des sites web en janvier 2013 selon Netcraft.
+Le serveur HTTP le plus utilisé dans les 1 000 sites les plus actifs est en revanche Nginx avec 38,2 % de parts de marché en 2016 selon w3techs et 53,9 % en avril 2017
+Historiquement, d'autres serveurs HTTP importants furent CERN httpd, développé par les inventeurs du Web, abandonné le 15 juillet 1996 et NCSA HTTPd, développé au NCSA en même temps que NCSA Mosaic, abandonné mi-1994, ainsi que WebObjects.
+Il existe aussi des serveurs HTTP qui sont des serveurs d'applications capables de faire serveur HTTP, comme Roxen, Caudium et GlassFish. A l'inverse, on peut trouver des serveurs HTTP spécialisés dans un service distinct comme : HTTP File Server qui est uniquement destiné au partage de fichiers.
+
+Voir aussi
+
+Articles connexes: Client-serveur; Common Gateway Interface (CGI) et FastCGI; Hypertext Transfer Protocol (HTTP); Liste des codes HTTP; Server Side Includes (SSI); Serveur Web; World Wide Web.

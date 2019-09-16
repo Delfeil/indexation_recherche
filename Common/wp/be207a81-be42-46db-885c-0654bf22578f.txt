@@ -1,0 +1,5 @@
+L'effet de récence désigne la facilité à rappeler les derniers éléments d'une liste de stimuli que l'on doit mémoriser.
+Postman et Phillips (1965) et Glanzer et Cunitz (1966) ont présenté des listes de mots de différentes longueurs puis ont demandé à leurs sujets de rappeler les mots dont ils se souvenaient dans l'ordre qu'ils souhaitaient (rappel libre). Quand le rappel a lieu immédiatement, les premiers et les derniers éléments de la liste ont le plus de chance d'être rappelés tandis que peu de sujets se souviennent du milieu de la liste. Quand le rappel a lieu après 15 ou 30 secondes, seuls les éléments du début de la liste ont une forte probabilité de rappel.
+Les auteurs interprètent ces expériences comme une preuve de l'existence d'une mémoire à court terme (short-term store) responsable de l'effet de récence. Alors que le début de la liste serait rappelé de la mémoire à long terme (effet de primauté) et donc encore disponible après 30 secondes, la fin de la liste serait stockée en mémoire à court terme et disparaitrait rapidement après la présentation.
+
+Voir aussi: Biais cognitif. Portail de la psychologie.

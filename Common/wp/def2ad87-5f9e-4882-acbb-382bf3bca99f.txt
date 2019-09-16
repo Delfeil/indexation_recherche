@@ -1,0 +1,30 @@
+Les neurones miroirs sont une catégorie de neurones du cerveau qui présentent une activité aussi bien lorsqu'un individu (humain ou animal) exécute une action que lorsqu'il observe un autre individu (en particulier de son espèce) exécuter la même action, ou même lorsqu'il imagine une telle action, d'où le terme miroir. Il existe également des neurones échos.
+En neurosciences cognitives, les neurones miroirs joueraient un rôle dans la cognition sociale, notamment dans l'apprentissage par imitation, mais aussi dans les processus affectifs, tels que l'empathie. Le professeur Ramachandran, une autorité dans le domaine, les appelle neurones empathiques.
+Les neurones miroirs sont considérés comme une découverte majeure en neurosciences. Si, pour certains chercheurs, ils constituent un élément central de la cognition sociale (depuis le langage jusqu'à l'art, en passant par les émotions et la compréhension d'autrui), pour d'autres, ces conclusions restent très hypothétiques quant au rôle de ces neurones dans ces processus psychologiques.
+
+Découverte
+L'identification de neurones miroirs au cours des années 1990 est due à l'équipe de Giacomo Rizzolatti, directeur du département de neurosciences de la faculté de médecine de Parme.
+Ils ont d'abord été observés dans le cortex prémoteur ventral du singe macaque rhésus (aire F5) mais aussi, par la suite, dans la partie rostrale du lobule pariétal inférieur. Ce type de neurones a également été trouvé chez certains oiseaux où ils sont activés à la fois lors du chant et lorsque l'animal écoute un congénère chantant.
+Chez l'humain, il existe depuis avril 2010 une preuve directe de l'existence de neurones miroirs. Jusqu'ici, étant donné les nombreuses homologies entre les cerveaux des différents primates, il était admis que de tels neurones devaient aussi exister chez l'espèce humaine. En outre, par imagerie cérébrale fonctionnelle (tomographie par émissions de positons ou imagerie par résonance magnétique fonctionnelle, par exemple), il est possible d'observer dans certaines régions du cortex cérébral (notamment autour de l'aire de Broca, homologue à l'aire F5 du singe, et au niveau du cortex pariétal inférieur) une activation à la fois quand l'individu produit une action et lorsqu'il observe un autre individu exécuter une action plus ou moins similaire. Mais, étant donné la résolution spatiale de ces techniques, rien ne permettait d'affirmer que ces activations provenaient exactement des mêmes neurones et non pas de deux populations de neurones entremêlées. Par précaution, on utilisait donc parfois les termes "système miroir" ou "système de neurones miroirs" plutôt que "neurones miroirs" pour désigner ces aires fonctionnelles.
+
+Propriétés fonctionnelles des neurones miroirs
+La particularité de ces neurones tient au fait qu'ils déchargent des potentiels d'action pendant que l'individu exécute un mouvement (c'est le cas pour la plupart des neurones du cortex moteur et prémoteur) mais aussi lorsqu'il est immobile et voit (ou même entend) une action similaire effectuée par un autre individu, voire seulement quand il pense que ce dernier va effectuer cette action. Les neurones miroirs sont donc définis par deux propriétés : leur caractère "miroir" : le fait qu'ils réagissent aussi bien aux actions de soi que d'autrui ;; leur sélectivité : chaque neurone ne répond qu'à un seul type d'action, mais ne répond pas (ou peu) quand il s'agit d'un autre geste. Par exemple, un neurone sensible à un mouvement de préhension de la main ne réagira pas si l'individu effectue un autre geste (comme une extension des doigts) ou si cet autre geste est effectué par un autre individu.
+
+Rôle des neurones miroirs
+
+Désir
+Dans la lignée de la pensée girardienne, les chercheurs Vittorio Gallese, Andrew Meltzoff, Scott Garrels et le français Jean-Michel Oughourlian ont travaillé dans le cadre de l'Universite Stanford sur l'imitation et les découvertes en psychologie génétique et neurosciences, pour expliquer la confirmation du désir mimétique chez l'homme par l'existence des neurones miroirs.
+En mars 2010, Jean-Michel Oughourlian intervient à l'Université Interdisciplinaire de Paris pour présenter le lien entre désir et neurones miroirs.
+
+Empathie
+Un certain nombre de chercheurs (comme les psychologues Frans de Waal, Jean Decety et Vittorio Gallese) ont proposé que les neurones miroirs jouent un rôle important dans l'empathie, c'est-à-dire dans la capacité à percevoir et reconnaître les émotions d'autrui, notamment sur la base du fait qu'un système miroir semble exister pour les émotions : par exemple, la partie antérieure du lobe de l'insula, est active aussi bien quand la personne éprouve du dégoût que lorsqu'elle voit quelqu'un exprimant du dégoût. Cela éclaire d'un jour nouveau le phénomène connu de contagion émotionnelle et les effets de masse.
+L'interprétation de ces données est donc que le système miroir des émotions permet de simuler l'état émotionnel d'autrui dans notre cerveau et donc de mieux identifier les émotions éprouvées par les individus de notre entourage.
+Dans sa conférence TED, le docteur Vilayanur S. Ramachandran les surnomme pour cette raison "neurones de Gandhi".
+Il a été avancé que l'éloignement de la zone principale des neurones miroirs et de l'hippocampe pouvait suggérer qu'une communication bien conduite influerait, par empathie, de manière bénéfique sur les troubles psycho-comportementaux des patients atteints de la maladie d'Alzheimer.
+
+Autisme
+Des anomalies du fonctionnement du système miroir auraient été retrouvées chez des personnes autistes. Cependant, cette hypothèse a été réfutée.
+
+Voir aussi
+
+Liens internes: René Girard; Syndrome d'Asperger; Jean-Michel Oughourlian.

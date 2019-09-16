@@ -1,0 +1,156 @@
+En sécurité des systèmes d'information, la sécurité des données est la branche qui s'intéresse principalement aux données, en complément des aspects de traitement de l'information.
+
+Rappel sur les données informatiques
+Depuis le début de l'Histoire (apparition de l'écriture), l'homme manipule des informations, qui se traduisent par des données, plus ou moins structurées.
+L'avènement de l'informatique depuis la fin des années 1940 aux États-Unis a introduit une forme numérique de données, enregistrées sur des supports électroniques. Cette évolution est comparable à l'avènement de l'imprimerie au XVe siècle dans les années 1450.
+À la base, le support des données est la mémoire de l'ordinateur, sur laquelle opèrent les instructions élémentaires des programmes informatiques.
+Il n'est pas possible de traiter la sécurité des données, sans rappeler cet aspect fondamental :
+Les données sont traitées avec des matériels informatiques et des systèmes d'exploitation.
+Sur les différents types de matériels informatiques (avec leurs périphériques), des supercalculateurs aux micro-ordinateurs, en passant par les ordinateurs centraux et les systèmes ouverts, on trouve toujours les différents types de support physique suivants : La Mémoire de l'ordinateur,; Les disques, armoires (périphériques), pour la sauvegarde et le stockage,; Les systèmes d'archivage....
+Les données peuvent circuler entre ces systèmes dans des réseaux physique de communication : réseaux de télécommunications, réseaux locaux, réseaux de télécommunications par satellites...
+Sur les supports physiques, on doit implanter des systèmes qui gèrent les accès aux données et leur traitement : les accès logiques de ces systèmes peuvent être de type séquentiel ou indexé, les fichiers étant le plus souvent remplacés par des bases de données permettant des accès et mises à jour plus évoluées.
+Les systèmes de gestion de bases de données (SGBD) sont du niveau logiciel de base, et permettent à l'ordinateur de gérer ces différents types de traitement sur les données.
+On distingue les niveaux : Conceptuel,; Logique,; Physique.
+
+Bref historique de la sécurité des données
+Au cours des dernières années, la mondialisation, spécialement sous ses aspects économiques et financiers, a engendré des projets informatiques de dimension mondiale.
+On notera en particulier le passage informatique à l'an 2000 (Y2K), qui a nécessité la vérification et la conversion de 300 à 600 milliards de lignes de programme potentiellement affectées dans le monde (estimation du Gartner Group).
+En Europe, le chantier du passage à l'euro a représenté un coût sensiblement équivalent à celui du passage informatique à l'an 2000 sur le périmètre européen. Le projet s'est déroulé en deux phases : première phase début 1999 avec le passage à l'euro des marchés financiers et des applications financières des entreprises, deuxième phase, de loin la plus importante, la conversion de la plupart des autres applications informatiques, qui ne put s'effectuer en général qu'en 2000 et 2001, pour des questions de contraintes par rapport au passage informatique à l'an 2000 (Y2K), et par rapport aux exercices comptables.
+Dans ces deux projets, les exigences d'interopérabilité et les données informatiques ont joué un rôle essentiel, puisqu'il s'agissait du format des champs date (une métadonnée) et devise dans les systèmes et les enregistrements informatiques.
+Du point de vue du matériel informatique, en Europe, le passage informatique à l'an 2000 a représenté un impact plus important que le passage à l'euro. En d'autres termes, on pourrait dire que le passage informatique à l'an 2000 a comporté des aspects plus techniques, alors que le passage à l'euro a représenté des enjeux plutôt fonctionnels.
+En 1991, le département de la Défense des États-Unis a mis au point des critères communs de sécurité (voir TCSEC), et simultanément les organisations européennes ont défini une politique de sécurité des systèmes d'information (ITSEC).
+
+Vol des données personnelles
+Les données personnelles peuvent être volées. La non fiabilité des systèmes d'information permet aux pirates d'accéder à un grand volume de données. Les techniques de piratage qui visent à recueillir des informations confidentielles sont nombreuses. Nous pouvons par exemple citer le phishing. Cette technique consiste à envoyer des e-mails censés provenir d'un tiers de confiance (banques, opérateurs...) avec un lien vers un faux site donc l'aspect sera identique au site original. La victime va ainsi rentrer ses identifiants pour réaliser l'opération indiquée dans le mail, ce qui va aboutir au vol de ces identifiants pour ensuite nuire à la victime (par exemple en effectuant un virement depuis le compte bancaire de la victime).
+Le but principal du vol des données est la revente des données volées vue la valeur économique.
+Cependant, il existe des bonnes pratiques afin de réduire le risque potentiel du vol des données comme l'utilisation d'un mot de passe différent pour chaque service et ne jamais faire confiance à n'importe quel lien reçu par email.
+
+L'utilisation des données personnelles volées
+Les données personnelles volées sont alors utilisées de diverses façons. Trois grandes catégories d'utilisation de ses données se sont distinguées : l'ouverture de nouveaux comptes, particulièrement bancaire où l'on peut retrouver des demandes de cartes de crédits, des emprunts bancaires, etc. l'utilisation des comptes bancaires (sans cartes de crédit) et enfin l'utilisation illicites de comptes bancaires par le biais d'une carte de crédit. Les vols des comptes et cartes bancaires existants vont alors servir à ouvrir des comptes chèques ou des comptes épargnes, des comptes de paiements sur Internet ou encore des comptes d'assurance médicales, etc.
+D'autres fraudes peuvent être également soulignées, en effet, les victimes de vol d'identités déclarent que le voleur a utilisé leurs informations pour ouvrir au moins un compte nouveau. Les comptes nouveaux les plus fréquemment ouvert à l'aide des informations personnelles sont : services téléphoniques, compte de carte de crédit, prêts, comptes chèque-épargnes, compte de paiement sur Internet, assurances.
+
+Les enjeux de la sécurité des données
+
+Au niveau des personnes et des organisations
+Les enjeux de la sécurité des données sont les suivants (cette liste est loin d'être exhaustive) : Libertés individuelles : protection de la vie privée (voir vie privée et informatique),; Bureautique : sécurité des données enregistrées sur le disque dur du micro-ordinateur (courriels, répertoires, fichiers documents, données des tableurs et des présentations...),; Communication : ciblage des parties prenantes internes et externes en fonction de leurs intérêts, ne pas divulguer inutilement trop d'informations non structurées sur l'internet,; Hygiène et sécurité : identification des données nécessaires aux procédures de protection de la santé des employés,; Secret des affaires : protection du capital intellectuel de l'entreprise; Marketing : identification des marchés sensibles, veille concurrentielle,; Recherche et développement : alignement du processus de RD sur les besoins du marché, identifiés et validés par le marketing : sécurisation des données issues de la veille en entreprise, de la veille technologique, et développement du capital intellectuel de l'entreprise. Exemple dans la chimie : fiche de données de sécurité, pour les substances chimiques pour l'industrie du pneumatique, de l'automobile....; Exemple dans la chimie : fiche de données de sécurité, pour les substances chimiques pour l'industrie du pneumatique, de l'automobile...; Traçabilité des documents et responsabilité du fait des produits défectueux : pouvoir donner la preuve de la qualité d'un produit.; Achats : demandes d'achat (dans l'aéronautique, l'automobile... par exemple), critères utilisés pour le choix des fournisseurs.
+La sécurité des données implique certaines façons de structurer les données.
+
+Au niveau macroéconomique
+En ingénierie des systèmes, les enjeux de sécurité des données sont aujourd'hui très importants, du fait des interconnexions multiples entre systèmes hétérogènes et répartis, que ce soit dans les systèmes de contrôle industriels, dans les systèmes de transport, dans les applications de gouvernance d'entreprise et de gestion intégrée, dans les applications d'ingénierie des connaissances, dans les systèmes décisionnels, dans les systèmes des marchés financiers...
+Ces systèmes se rencontrent aujourd'hui dans des organismes très différents : entreprises, services publics, institutions internationales, administrations centrales et territoriales (régions et villes), centres d'études et de recherches, universités, grandes écoles, chambres de commerce et d'industrie. On parle quelquefois de parties prenantes (traduction de l'anglais stakeholder, littéralement, détenteur d'enjeux).
+On trouvera une illustration de la diversité des systèmes physiques concernés dans l'article cohérence des données en univers réparti.
+Pour approfondir : Sur les différents aspects de la sécurité, voir l'article sécurité.; Sur les aspects liés à la communication, voir communication,; Sur les enjeux liés spécifiquement à l'interconnexion des systèmes physiques, on peut consulter l'article interopérabilité.; Sur les risques, voir risque.
+Avec l'avènement des technologies de l'intelligence collective et de la connaissance (TICC, expression de Bernard Besson), il y a des risques de perte de compétences dans les entreprises, si les usages des informations ne sont pas bien définis par rapport au contexte, et si la communication est mal contrôlée.
+Voir : Usage; Communication; contexte humain de la communication, et modèles employés en communication,.
+L'enjeu le plus important est avant tout humain : il s'agit de préserver le capital intellectuel.
+En termes techniques, on parle d'une classification des "actifs", indispensable surtout pour l'ingénierie des connaissances.
+Ces enjeux sont tels qu'ils posent des questions de souveraineté.
+
+Rappel des concepts de sécurité de système d'information
+
+Les aspects de la sécurité des systèmes d'information
+On distingue en sécurité de l'information plusieurs aspects, qui sont d'ailleurs liés aux données : La confidentialité,; L'intégrité,; La disponibilité.
+La norme ISO 13335 (qui n'existe qu'en anglais) mentionne également la non-répudiation, la gestion de la preuve (imputabilité), et l'authentification : L'authentification correspond à l'une des trois phases du contrôle d'accès, qui est du domaine de la confidentialité ; il y a également une notion d'authenticité qui n'est pas liée directement au contrôle d'accès : il s'agit pour celui qui consulte une donnée, de se convaincre de l'identité de l'émetteur ou du créateur de la donnée.; La non-répudiation vise à empêcher que l'auteur d'une donnée puisse prétendre ensuite qu'il n'en est pas l'auteur ; elle implique l'intégrité, mais s'étend au-delà.; La gestion de la preuve (imputabilité) concerne tous les aspects de la sécurité des systèmes d'information.
+
+Les concepts fondamentaux
+Les critères communs (en anglais common criteria), définis au niveau international, doivent être documentés sous la forme de profils de protection, ceux-ci étant des informations essentielles pour s'assurer de la sécurité des informations, au plus haut niveau.
+En urbanisation des systèmes d'information, en préalable à l'établissement de toute cartographie des données, il est nécessaire de procéder à l'"alignement stratégique", dans lequel la définition du profil de protection est l'un des principaux prérequis.
+
+Les acteurs de la sécurité des systèmes d'information
+Les professionnels de la sécurité des systèmes d'information reconnaissent trois types d'acteurs de la sécurité : l'autorité de certification,; l'autorité d'enregistrement,; l'opérateur de certification.
+En 1991, l'Europe a défini un standard d'organisation de politique de sécurité, ITSEC, qui n'a pas obtenu le statut de norme internationale (ISO).
+Dans chaque grande entreprise, on trouve un responsable de la sécurité des systèmes d'information (RSSI), qui dépend hiérarchiquement du directeur informatique ou du directeur de la sécurité selon les cas. Si le RSSI dépend hiérarchiquement du directeur de la sécurité, il a des relations fonctionnelles avec le (ou les) directeurs informatiques (et réciproquement).
+
+L'organisation
+L'organisation de la sécurité des données est une partie essentielle de la sécurité des systèmes d'information. Elle doit être définie dans une politique de sécurité des systèmes d'information.
+Cette politique doit indiquer les rôles respectifs des acteurs de l'entreprise et des tiers de confiance dans le processus de certification.
+Une analyse globale par les données permettra de décliner la PSSI en politiques spécialisées (système informatique, réseaux...).
+
+Le projet de sécurisation des données
+
+Identification et évaluation des données sensibles
+Pour sécuriser les données sensibles, il faut tout d'abord avoir conscience des actifs de l'entreprise à protéger, et de leur valeur.
+Différentes classifications des actifs existent, sans qu'il y ait de normalisation de tous les types d'actifs.
+Nous donnons ici une courte liste proposée par la norme ISO 13335-1 (concepts et modèles de sécurité informatique), dont nous rappelons qu'elle n'a pas été traduite en français : Personnes ,; Capacité à fournir un produit, un service,; Actifs physiques,; Informations - données (structurées ou non),; Actifs intangibles.
+Au sujet des personnes, on remarquera que, au-delà de l'état sanitaire, le savoir-faire est du plus grand intérêt pour l'entreprise. Son évaluation est capitale en ingénierie des connaissances.
+Les méthodes comptables traditionnelles prennent mal en compte ce type de capital (voir capital).
+Le modèle d'intelligence économique considère que l'enrichissement et la protection du patrimoine informationnel regroupent les points clés suivants : L'éthique : La protection de la vie privée et des données individuelles,; L'application d'une déontologie dans le recueil d'informations et les pratiques d'influence,; L'application d'une rigueur d'ontologique dans la sous-traitance d'information et de l'influence.; La protection de la vie privée et des données individuelles,; L'application d'une déontologie dans le recueil d'informations et les pratiques d'influence,; L'application d'une rigueur d'ontologique dans la sous-traitance d'information et de l'influence.; Les connaissances et les compétences : L'identification et l'évaluation des connaissances et des compétences,; La protection (droit, propriété intellectuelle...),; La maîtrise des TIC.; L'identification et l'évaluation des connaissances et des compétences,; La protection (droit, propriété intellectuelle...),; La maîtrise des TIC.; La création de valeur, avec plusieurs types de valeurs : Actionnaire,; Client,; Personnel,; Collectivité,; Partenaires (développement de l'innovation).; Actionnaire,; Client,; Personnel,; Collectivité,; Partenaires (développement de l'innovation).; L'image : Perception,; Évaluation,; Promotion.; Perception,; Évaluation,; Promotion.
+Les méthodes d'audit d'intelligence économique et d'ingénierie des connaissances proposent également des questionnaires types permettant de répertorier les éléments de la mémoire d'entreprise, de les évaluer et de les structurer en processus métier, en parallèle aux processus de gestion administrative.
+Ce sont tous ces actifs qu'il s'agit de sécuriser. Les études les plus récentes sur le capital immatériel, notamment l'étude du CIGREF effectuée en 2006, montrent que la fiabilité et l'auditabilité des données sont une condition nécessaire de l'évaluation du capital immatériel des entreprises, donc de l'évaluation du retour sur investissement des projets d'ingénierie des connaissances, et de la création de valeur.
+
+Choix du tiers de confiance
+Dans le cadre de la stratégie de l'organisme, et de sa politique de sécurité des systèmes d'information, les responsables du SI doivent veiller avec le plus grand soin au choix du tiers de confiance en fonction du profil de protection proposé.
+
+Conception de l'architecture de données sécurisée
+De l'avis même des experts, il existe une relation entre la sécurité et l'architecture des systèmes d'information.
+L'évaluation et l'implémentation du profil de protection demandent d'examiner les critères communs, en les positionnant au niveau adéquat du système d'information. L'utilisation d'un méta-modèle d'urbanisme peut aider à trouver des repères communs pour évaluer et implémenter un profil de protection, car les impacts de la sécurisation peuvent se trouver à tous les niveaux, du matériel informatique, jusqu'à toutes les couches de logiciels et aux réseaux.
+Les projets de système d'information, éventuellement le chantier d'urbanisation du système d'information s'il existe, devront intégrer les données correspondant à la sécurité de l'information.
+Pour répondre aux enjeux de niveau microéconomique, il est nécessaire de mettre en oeuvre des normes de gestion des enregistrements (record management, voir liste de normes ISO par domaines). Il faut structurer les données qui indexent les documents, essentiellement les clients, les produits et les services (métadonnées), et faire en sorte que ces données aient des structures comparables pour pouvoir faire dialoguer les applications de gestion administrative et les applications d'ingénierie des connaissances (documentation, sites web, forums, information dite non structurée).
+Exemple : le processus achat doit pouvoir identifier avec beaucoup de précision, au niveau de la demande d'achat, les documents de spécification des composants d'un moteur d'avion que l'on souhaite acheter à un fournisseur. Il s'agit de la traçabilité, de l'analyse du cycle de vie, de l'évaluation du prix (TCO), de la responsabilité du fait des produits défectueux, et également de l'image.
+L'utilisation d'une infrastructure de clé publique (PKI) n'apportera une sécurité réelle, dans les applications en réseaux complexes, que si elle est associée à l'utilisation d'un registre de métadonnées. À l'élément identifiant, on pourra associer le certificat électronique.
+
+Organisation du programme
+Une bonne sécurité des données sera obtenue par la mise en place d'une politique de sécurité des systèmes d'information (voir l'article détaillé).
+La norme ISO 13335, élaborée en 1996, donnait déjà les grandes lignes d'un programme de gestion de la sécurité, qui se trouvait être un enjeu important à ce moment-là.
+Un tel programme se situe à plusieurs niveaux des organisations : Le niveau groupe, avec : un responsable attitré pour la sécurité en général,; un responsable attitré pour la sécurité informatique en particulier ; ce dernier est appelé responsable de la sécurité des systèmes d'information, ou en abrégé RSSI ; ce dernier élabore les procédures de sécurité informatique, qui sont la traduction des procédures de sécurité des autres domaines (hygiène et sécurité par exemple).; un responsable attitré pour la sécurité en général,; un responsable attitré pour la sécurité informatique en particulier ; ce dernier est appelé responsable de la sécurité des systèmes d'information, ou en abrégé RSSI ; ce dernier élabore les procédures de sécurité informatique, qui sont la traduction des procédures de sécurité des autres domaines (hygiène et sécurité par exemple).; Le niveau département (ou business unit),; le niveau domaine ou projet, ou l'on trouve l'administrateur.
+En général, aux niveaux inférieurs de la hiérarchie, la personne chargée de la sécurité n'a pas cette seule tâche. Il s'agit le plus souvent d'un correspondant, qui a d'autres responsabilités en parallèle.
+Le programme ne peut être efficace que si l'on met en place un comité de pilotage. Les méthodes contemporaines de discussion sont les forums. La sécurité informatique devrait donc faire l'objet d'un forum particulier, dont les rôles sont : identifier les exigences,; conseiller les dirigeants sur les décisions à prendre, et formuler des recommandations,; décrire les procédures,; concevoir le programme de sécurité de l'information,; passer en revue les actions.
+Un tel forum pourrait comprendre les représentants ou correspondants sécurité, qui ont pour rôle d'examiner les liens avec d'autres programmes. On peut citer : La sécurité générale et les risques : aspects fonctionnels de la sécurité et prise en compte du contexte,; La communication : prise en compte des risques spécifiques liés à la communication,; La qualité : aspects normalisation,; La responsabilité sociétale : aspects purement fonctionnels.
+
+Quelques aspects de la sécurité des données
+
+Exigences de sécurité
+D'une façon générale, les exigences de sécurité des systèmes d'information sont analysées avec l'échelle Evaluation Assurance Level.
+Pour les applications civiles, les exigences de sécurité ne dépassent en général pas le niveau EAL 4+.
+Pour les applications militaires, les exigences de sécurité vont des EAL 5 à 7.
+La sécurité globale d'un système d'information sera celle du maillon le plus faible, et sera bien représentée par la sécurité des bases de données ou celle des interfaces entre les applications. Il est donc crucial de s'intéresser aux EAL des SGBD et des systèmes d'interfaçage (bus informatiques, EAI).
+Dans le cas du logiciel libre, les niveaux de sécurité des bases de données employées (MySQL...) sont en général assez bas dans l'échelle EAL, en raison de la moindre puissance financière des communautés de logiciel libre.
+
+Protection du patrimoine informationnel
+Une protection efficace du patrimoine informationnel nécessite avant tout une étude approfondie du cadre juridique. Il est très important de prendre conscience qu'il existe une hiérarchie dans la réglementation. Par exemple, dans l'Union européenne, les directives européennes priment sur les lois des États membres (hiérarchie des normes).
+On doit croiser cette étude juridique avec : la définition des profils de personnes qui manipulent des documents électroniques sur un même ensemble de données avec un niveau commun de sécurité informatique (notamment la confidentialité),; l'identification des données sensibles ("actifs").
+Il est nécessaire de bien structurer à la fois les données et les communautés de pratique, qui ont en commun le domaine d'activité et le niveau de sécurité. C'est un aspect important de la gestion de contenu.
+On doit utiliser les métadonnées d'une façon normalisée avec un registre de métadonnées. On doit examiner comment intervient chaque élément dans la sécurité, ainsi que les raffinements associés, comme : identifiant et certificat électronique associé, nature du document, portée du document, droits, audience, etc.
+
+Gestion de la preuve
+En pratique, la sécurité des données doit se mettre en oeuvre par des actions concernant l'enregistrement des données électroniques.
+Sécurité des enregistrements
+Les données qui permettent de gérer la sécurité, liées au profil de protection à choisir (ou choisi), doivent être positionnées dans le système d'information de telle manière que l'enregistrement effectué puisse fournir la preuve des actions d'une personne ou d'une entreprise et des affaires correspondantes.
+La gestion de la preuve fait l'objet d'une norme, la norme ISO 15489 (en anglais et en français).
+Enregistrement des données et gestion de la preuve
+La sécurité et l'enregistrement des données et la gestion de la preuve sont donc en relation très étroite.
+Il ne peut pas y avoir de bonne gestion de la preuve, sans un bon enregistrement des données tout au long du cycle de vie et des processus associés (filières). Ainsi, il faut décrire de façon très précise les impacts sur les opérations suivantes : Sauvegarde, stockage,; Archivage.
+Ces processus sont de la plus haute importance en informatique, car ils contiennent le capital des connaissances dites explicites, en langage d'ingénierie des connaissances.
+En fin de compte, on ne peut évidemment pas découpler totalement les aspects données et traitements de l'information, de sorte que le choix de l'architecture de données influence fortement l'architecture physique de l'ordinateur, et en particulier sa capacité à effectuer des processus en multitâches (voir aussi multiprocesseurs). C'est la raison pour laquelle il est préférable d'étudier la sécurisation des données dans le cadre d'une démarche d'urbanisation des systèmes d'information. Pratiqué par 35 % des organisations françaises interrogées en 2010, l'archivage de contenus à valeur probatoire devrait concerner 71 % d'entre elles d'ici 2012.
+
+Protection des données personnelles
+Il existe dans l'Union européenne des règlements sur la protection de la vie privée, en particulier la directive 95-46 du 24 octobre 1995 sur la protection des données. Le G29 est un groupe européen chargé de coordonner les autorités de protection des données de l'Union européenne.
+Dans le droit français, la Loi relative à l'informatique, aux fichiers et aux libertés du 6 janvier 1978 indique, dans son article 34, que "le responsable du traitement est tenu de prendre toutes précautions utiles, au regard de la nature des données et des risques présentés par le traitement, pour préserver la sécurité des données et, notamment, empêcher qu'elles soient déformées, endommagées, ou que des tiers non autorisés y aient accès".
+Il s'agit d'une obligation de moyens, non de résultats.
+Le 23 mars 2010 une proposition de loi a été votée en première lecture au Sénat, qui vise à renforcer cette obligation de sécurisation des données à caractère personnel.
+Cette proposition de loi, visant à mieux garantir le droit à la vie privée à l'heure du numérique, introduirait l'obligation, pour le responsable de traitement, à notifier à la CNIL les "violations de traitements de données personnelles" : "En cas de violation du traitement de données à caractère personnel, le responsable de traitement avertit sans délai le correspondant informatique et libertés, ou, en l'absence de celui-ci, la Commission nationale de l'informatique et des libertés. Le responsable du traitement, avec le concours du correspondant informatique et libertés, prend immédiatement les mesures nécessaires pour permettre le rétablissement de la protection de l'intégrité et de la confidentialité des données. Le correspondant informatique et libertés en informe la Commission nationale de l'informatique et des libertés. Si la violation a affecté les données à caractère personnel d'une ou de plusieurs personnes physiques, le responsable du traitement en informe également ces personnes".
+Ce type d'obligation existe déjà à l'étranger, notamment aux USA sous l'appellation de Security breach notification laws, mais aussi en Allemagne depuis le 1er septembre 2009.
+Si cette loi est promulguée, il s'agirait d'une obligation de résultat.
+L'AFCDP (Association française des correspondants à la protection des données à caractère personnel) mène des travaux au sein de son groupe de réflexion "Notification des atteintes aux traitements de données personnelles" dans le cadre de l'éventuel décret d'application.
+
+Intégrité référentielle
+
+Normalisation et certification
+
+Normalisation
+Les normes applicables sont : ISO 13335 sur les définitions, concepts et modèles,; ISO 15408 sur les exigences, et les critères communs.
+Sur les métadonnées en particulier, voir Normalisation des métadonnées.
+Sur la gestion de la preuve ou imputabilité (records management en anglais), voir ISO 15489 et Métadonnées et traçabilité.
+La norme ISO 27000 est une norme générale sur la sécurité du système d'information.
+
+Certification
+Pour l'application de la norme ISO 15408, en France, il existe cinq CESTI (centres d'évaluation de la sécurité des technologies de l'information) chargés de l'évaluation : AQL (SILICOMP); CEA LETI; THALES (T3S-CNES); OPPIDA; SERMA Technologies.
+En dernière instance, c'est la ANSSI qui valide l'agrément et délivre le certificat.
+
+Voir aussi
+Sur les enjeux liés au contexte de communication
+- Responsabilité sociétale d'entreprise: Sécurité et Interopérabilité, voir aussi ADELE; Risques ; Menace ; Vulnérabilité; Communication; Cohérence des données en univers réparti; Usage; Capital intellectuel.
+Sur la sécurité des systèmes d'information: Certificat électronique; Données personnelles; Vie privée et informatique; Identité numérique (Internet); Sécurité du système d'information; Sécurité des données; Traces numériques, cookies; Ciblage comportemental; Géolocalisation; Profil utilisateur; Offuscation (faux profil, Faux-nez); Biométrie; Identité, Identité (psychologie); On the Internet, nobody knows you're a dog (Sur l'Internet, personne ne sait que tu es un chien), adage né d'un dessin humoristique de 1993; Commission de contrôle des informations nominatives; Contrôleur européen de la protection des données; Viol de correspondance privée; Fuite d'information; Données des dossiers passagers (PNR); Liste d'autorités chargées de la protection des données (Data Protection Authorities); Fichage; Renseignement d'origine électromagnétique; Frenchelon Echelon; CNIL (en France); Loi informatique et libertés de 1978; Association Française des Correspondants à la protection des Données à caractère Personnel (AFCDP); Commission d'accès aux documents administratifs; Fichage en France; Données de santé; Résolution de Madrid; Social Web; Authentification forte; Certificat numérique; OpenID; RFID (radio-étiquettes, puce électronique); Catégorie:Système de gestion d'identité; Usurpation d'identité; Homeland Security Presidential Directive - HSPD-12 par George W. Bush; Norme FIPS 201 ou Personal Identity Verification (PIV) Projet identification de George W. Bush; Signature électronique; Certification; Tiers de confiance; Critères communs; Profil de protection.
+Sur la gestion de projet: Alignement stratégique; Urbanisation (informatique); Méta-modèle d'urbanisme.
+Sur la normalisation: Norme; Liste de normes ISO par domaines; ISO 13335; ISO-CEI 17799; ISO-CEI 27001.
+Dans la Wikipedia anglophone : La catégorie Catégorie:Gestion des données,; L'article Qualité des données,; L'article Data architecture.

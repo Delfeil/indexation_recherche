@@ -1,0 +1,7 @@
+Philippe Dreyfus, directeur du Centre national de calcul électronique de la société Bull dans les années 1950, ancien vice-président de Capgemini, est un pionnier de l'informatique en France.
+
+Biographie
+Diplômé de la 66e promotion de l'ESPCI ParisTech, il devient professeur d'informatique à l'université Harvard où il participe au développement du premier ordinateur numérique, le Harvard Mark I, puis est nommé directeur du Centre national de calcul électronique de la société Bull.
+Bien qu'étymologiquement le mot "informatik" fût créé par l'ingénieur allemand Karl Steinbuch en 1957, il est le premier a utiliser sa traduction française "informatique" dès 1962, par la fondation de la Société d'Informatique Appliquée (SIA). Le mot informatique désigne alors la contraction des mots information et automatique.
+En 1965 il est nommé directeur de CAP Europe puis vice-président de Cap-Gemini Sogeti en 1975.
+En 1990, il est l'inventeur du terme Informativité.

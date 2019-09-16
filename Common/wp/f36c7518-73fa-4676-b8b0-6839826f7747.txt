@@ -1,0 +1,57 @@
+ECMAScript est un ensemble de normes concernant les langages de programmation de type script et standardisées par Ecma International dans le cadre de la spécification ECMA-262. Il s'agit donc d'un standard, dont les spécifications sont mises en oeuvre dans différents langages de script, comme JavaScript ou ActionScript, ainsi qu'en C++ (norme 2011). C'est un langage de programmation orienté prototype.
+
+Histoire et développement
+
+LiveScript et Mosaic Communications Corporation
+La société Netscape, à l'origine connue sous le nom de Mosaic Communications Corporation, a développé un langage de script côté client, appelé LiveScript, pour renforcer l'offre commerciale de son serveur web. La sortie de LiveScript est intervenue à l'époque où le NCSA force Mosaic Communications Corporation à changer de nom pour devenir Netscape.
+Netscape travailla alors au développement d'une version orientée client de LiveScript. Quelques jours avant sa sortie, Netscape changea le nom de LiveScript pour JavaScript. Sun Microsystems et Netscape étaient partenaires, et la machine virtuelle Java étant de plus en plus populaire, ce changement de nom servait les intérêts des deux sociétés. Sun promit donc de ne pas poursuivre Netscape.
+
+JavaScript et Netscape
+En décembre 1995, Sun et Netscape annoncent la sortie de JavaScript. En mars 1996, Netscape implémente le moteur JavaScript dans son navigateur web Netscape Navigator 2.0. Le succès de ce navigateur contribue à l'adoption rapide de JavaScript dans le développement web orienté client. Microsoft réagit alors en développant JScript, qu'il inclut ensuite dans Internet Explorer 3.0 en août 1996 pour la sortie de son navigateur.
+Netscape soumet alors JavaScript à l'ECMA pour standardisation. Les travaux débutent en novembre 1996, et se terminent en juin 1997 par l'adoption du nouveau standard ECMAScript. Les spécifications sont rédigées dans le document Standard ECMA-262.
+
+Versions
+
+ECMA-262
+Il existe à ce jour 6 versions du standard ECMA-262.
+
+ECMAScript Edition 4 (ES4)
+Aujourd'hui abandonné au profit d'ES5, les premiers travaux furent critiqués car ils modifiaient la nature du langage, qui passait d'un modèle de programmation avec les prototypes vers un modèle traditionnel fondé sur les classes comme Java, C++ ou C.
+Ce modèle orienté prototype est pour beaucoup le modèle le plus performant en développement orienté objet.
+Une première version du référentiel d'implémentation d'ECMAScript 4 est disponible depuis juin 2007.
+Par ailleurs, Mozilla et Adobe Systems ont travaillé à l'implémentation des spécifications d'ECMAScript 4 dans JavaScript 2 et ActionScript 3. Pour concilier ces implémentations avec la création de la machine virtuelle Tamarin, Mozilla et Adobe Systems collaborent sur le projet Tamarin.
+
+ECMAScript Edition 5 (ES5)
+Suite aux critiques à l'encontre d'ES4, un ensemble de sociétés, parmi lesquelles Yahoo, Microsoft et Google, décident de développer en parallèle une update de l'ES3 moins ambitieuse, nommée ES3.1.
+Malgré les divergences d'option avec l'équipe consacrée à l'ES4, la décision est finalement prise de stopper le développement d'ES4 et de se consacrer exclusivement à l'ES3.1, qui deviendra ES5 pour éviter toute ambiguïté, et est publié le 3 décembre 2009.
+L'ensemble de ces spécifications sont aujourd'hui bien intégrées dans les navigateurs modernes.
+
+ECMAScript Edition 6 (ES6)
+Nommée ES2015, la dernière version d'ECMAScript a été publiée en juin 2015
+Son support par les navigateurs évolue progressivement, mais il est possible d'utiliser un transcompilateur (tel que Babel.js) vers ES5 pour développer dès aujourd'hui en ES6.
+
+ECMAScript Edition 7 (ES7)
+Première version publiée après le changement du processus de normalisation, l'ES7, ou ES2016, apporte peu de changements au langage. Le nouveau processus prévoit en effet de publier chaque année une nouvelle norme avec les ajouts qui ont eu lieu dans l'intervalle, afin d'éviter de publier des changements énormes comme ce fut le cas en 2015.
+
+Comparatif
+
+E4X
+ECMAScript for XML (E4X) est une extension XML au langage ECMAScript. Il s'agit bien d'un standard différent.
+
+Dénomination
+Note (1):
+E4X en partie supporté par Gecko 1.9 ; pour d'autres fonctionnalités.
+Note (2):
+Microsoft indique que JScript 8.0 supporte "presque toutes les caractéristiques d'ECMAScript Edition 3" mais ne donne pas de liste des caractéristiques non supportées.
+Note (3):
+En plus du support d'ECMA-262 edition 3, ActionScript 2 inclus aussi un support des propriétés, fonctions et mécanisme qui avaient été proposés dans une version préliminaire d'ECMA-262 edition 3. Il n'est pas connu si ActionScript restera synchronisé avec de futures modifications des spécifications d'ECMAScript.
+Note (4):
+Adobe indique supporter une version préliminaire de l'édition 4 d'ECMA-262.
+Note (5):
+OpenLaszlo supporte partiellement ECMA-262 édition 3.
+Note (6):
+Un document "JScript Deviations from ES3" a été publié par Microsoft.
+Le support par Mozilla, (SpiderMonkey en langage C et Rhino en Java), sont utilisés par plusieurs programmes tiers, par exemple le Yahoo! Widget Engine (Konfabulator) et le langage de script pour Macintosh JavaScript OSA.
+Safari utilise JavaScriptCore qui est fondé sur la bibliothèque KJS de KDE.
+
+Correspondance

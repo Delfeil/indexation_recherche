@@ -1,0 +1,26 @@
+La résolution de problème est le processus d'identification puis de mise en oeuvre d'une solution à un problème.
+
+Méthodologie
+
+Dans l'industrie et l'ingénierie des connaissances: Analyse de cause racine (en anglais : Root cause analysis): cette démarche part du constat qu'il est plus judicieux de traiter les causes d'un problème que d'en traiter les symptômes immédiats. Puis qu'analyser les causes d'un problème permet d'en déterminer une solution définitive, et donc, empêcher qu'il ne se reproduise de nouveau. L'ACR est un processus itératif d'amélioration continue, elle peut être décomposée en quatre étapes (Processus DIVE - Define Investigate Verify Ensure) ou en huit étapes (Processus 8D).; Méthode Shainin; Creative Problem Solving; Troubleshooting.
+
+En informatique: Diviser pour régner (informatique).
+
+En psychologie
+C'est une notion largement employée dans le vocabulaire des thérapies cognitivo-comportementales ou du counseling. Un problème est une situation dans laquelle un individu amené à réagir ne possède pas d'alternative comportementale.
+C'est une démarche standardisée visant la sélection de la meilleure solution possible pour un problème donné. On dénombre généralement 6 étapes : 1) Il s'agit d'observer quelles ont été les tentatives de résolution de problème employées jusqu'à maintenant.; 2) Définir ce qu'il faut modifier précisément (objectif réaliste).; 3) Trouver toutes les solutions imaginables au problème posé sans se soucier du réalisme de ces solutions (brainstorming).; 4) Évaluer la meilleure solution.; 5) Appliquer la solution choisie.; 6) Se demander si la solution choisie précédemment a permis de résoudre le problème (si ce n'est pas le cas, il faut revenir à la troisième ou la quatrième étape).
+
+Indications thérapeutiques
+La technique se révèle pertinente avec des patients ayant tendance à réagir de façon impulsive. Elle a donné des résultats probants auprès de patients souffrant en particulier de problèmes de couple, de dépendance à l'alcool, mais aussi des dysfonctions physiques de dépression chez les patients âgés.
+
+Outils à dispositions
+
+Les outils de recueil de données: brainstorming: Le brainstorming est une technique formalisée de résolution créative de problème sous la direction d'un animateur.; Carte heuristique: Une carte heuristique (ou carte cognitive, carte mentale, carte des idées) est un schéma, supposé refléter le fonctionnement de la pensée, qui permet de représenter visuellement et de suivre le cheminement associatif de la pensée.
+
+Les outils d'analyse: Diagramme de causes et effets : Ce diagramme représente de façon graphique les causes aboutissant à un effet. C'est une carte heuristique dont les branches ont pour racines les principaux éléments qui contribuent à la réussite ou au dysfonctionnement d'un processus, d'un projet ou de toutes autres activités.; Cinq pourquoi : Cela consiste à poser de manière récurrentes des questions pertinentes commençant par un pourquoi afin de trouver la source, la cause principale de la défaillance.; Arbre des causes : Un arbre des causes (arbre des faits) est un schéma se présentant sous la forme d'une arborescence, utilisé dans le domaine des risques professionnels pour mieux identifier a posteriori tous les faits nécessaires ayant abouti à un évènement indésirable (accident du travail, mais aussi défaillance d'un processus, etc.).; QQOQCCP: Le sigle QQOQCCP (pour "Qui Quoi Où Quand Comment Combien Pourquoi "), est un sigle résumant une méthode empirique de questionnement.; Diagramme de Pareto : Le diagramme de Pareto est un graphique représentant l'importance de différentes causes sur un phénomène. Ce diagramme permet de mettre en évidence les causes les plus importantes sur le nombre total d'effet et ainsi de prendre des mesures ciblées pour améliorer une situation.; Test statistiques d'hypothèse : Un test d'hypothèse est une démarche consistant à évaluer une hypothèse statistique en fonction d'un jeu de données (échantillon).
+
+Les outils d'aide à la décision: Matrice de compatibilité: La matrice de compatibilité est un outil classique de la gestion de la qualité. Sa finalité est de permettre de retenir un choix entre plusieurs solutions.
+
+Articles connexes
+Casse-têtes: Tours de Hanoï; Problème des huit dames; Problèmes de passage de rivière; Problème des sept ponts de Königsberg.
+Processus de pensée: Pensée computationnelle; Analogie; Généralisation; Pensée latérale; Raisonnement; Induction.

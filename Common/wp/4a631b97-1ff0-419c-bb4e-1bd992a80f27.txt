@@ -1,0 +1,36 @@
+Un écran d'ordinateur est un périphérique de sortie vidéo d'ordinateur. Il affiche les images générées par la carte graphique de l'ordinateur. Grâce au taux de rafraîchissement d'écran élevé, il permet de donner l'impression de mouvement. Il permet donc de travailler agréablement, de visionner de la vidéo, des films, de jouer à des jeux vidéo, etc.
+Un écran à cristaux liquides (LCD) se compose d'une dalle (qui est le support des images), des circuits vidéo dont un multiplexeur électronique et une alimentation stabilisée.
+
+Types d'écrans
+
+Écrans cathodiques
+Type d'écran le plus ancien : les écrans à tube cathodique (ou écran CRT, qui est une abréviation de l'anglais Cathode Ray Tube) sont analogiques. Ils ont un angle de vision large et un rendu des couleurs fidèle mais ils sont lourds, volumineux et grands consommateurs d'énergie.
+Ils consomment deux à trois fois plus de courant qu'un écran LCD. Leur durée de vie moyenne est d'environ 25 000 heures soit 13,7 ans si l'écran reste allumé 5 heures par jour.
+Les écrans cathodiques sont toujours utilisés en mode paysage, mis à part quelques exceptions, comme les écrans des Xerox Alto, et de certains écrans Apple comme celui des Macintosh IIsi de secrétariat.
+Comme pour les écrans de télévisions, l'année 2009 a signé l'arrêt de production des écrans à tube cathodique.
+
+Écrans plats numériques: Les écrans à cristaux liquides, ACL ou LCD (Liquid Crystal Display) en anglais, sont légers et plus simples à industrialiser mais souffrent de certaines limites, notamment dans le rendu des couleurs, voire d'une rémanence affectant l'affichage de vidéo changeant très rapidement comme les jeux.; Les DLP (Digital Light Processing) font usage de millions de micro-miroirs.; Les écrans à plasma, offrent un rendu fidèle, mais sont coûteux et ont une durée de vie limitée. Cette technologie est progressivement abandonnée.
+Les écrans plats sont de plus en plus utilisés. Ils affichent environ 266 000 couleurs, étendues par tramage à environ 17 millions.
+En général, les deux premiers chiffres du numéro de modèle d'un écran plat indiquent la diagonale en pouces.
+Ces écrans ont pour avantage un encombrement réduit. Le temps de latence de plus en plus faible permet (pour certains modèles, en dessous de 2 ms) d'utiliser des jeux d'action, tels que les FPS, sans avoir à subir des traînées d'affichage lors de mouvements rapides. Ces traînées étaient un frein à leur utilisation dans le grand public.
+De par leur poids réduit, ils sont plus faciles à pivoter, ce qui permet plus facilement d'utiliser soit l'écran en mode portrait, soit l'écran en mode paysage. Cette fonctionnalité est prise en charge par Windows et X.Org, ainsi que la plupart des cartes graphiques. Elle nécessite cependant un écran adapté en terme d'angle de vue comme de pieds. Sous Windows, la combinaison de touches ctrl + alt + flèches de directions offre la possibilité d'orienter l'écran.
+
+Caractéristiques
+
+Mat et brillant
+Deux gammes d'écrans plats sont disponibles: Les écrans brillants : dont le traitement de surface est fortement réfléchissant. Le contraste est ainsi amélioré mais la visibilité est moyenne voire médiocre en cas de forte luminosité ambiante (fenêtre, spot, etc.). Les couleurs sont plus belles que sur écran mat.; Les écrans mats : moins contrastés que les écrans brillants, mais leur visibilité est meilleure sous la lumière (moins de reflets).
+Tous les écrans cathodiques sont brillants.
+
+Rafraîchissement d'écran
+La fréquence de rafraîchissement est définie par le nombre d'images s'affichant sur l'écran par seconde. Cette valeur varie généralement entre 50 et 165 Hz sur certains écrans haut de gamme. Plus cette fréquence est élevée, meilleur est le confort visuel.
+
+Dimensions
+Depuis 2007, les ventes de moniteurs de diagonale supérieure à 20 pouces ont fortement augmenté, ces écrans sont principalement au format 16-10, ou 16-9, désormais très rarement au format 4-3 ou 5-4. Avant 2007, le format d'image 4-3 était prédominant pour une diagonale inférieure à 20 pouces. Ce changement de format permet d'optimiser la découpe industrielle des dalles, afin de réduire les coûts de production. Pour des raisons économique et de rentabilité, le format des écrans d'ordinateur suit donc le format des télévisions.
+Le pouce est généralement utilisé pour exprimer la taille de la diagonale l'écran. Un pouce correspond à 2,54 cm. Un écran de 17 pouces est en réalité un écran de 43,18 cm, taille déjà classique pour les tubes des téléviseurs dans les années 1950.
+Ces tailles sont approximatives et on trouve sous le nom de "17 pouces" des écrans allant de 41 à 44 cm. Le tableau de droite donne quelques correspondances.
+Le code pénal français interdit l'utilisation d'unités de mesure différentes de celles établies par les lois et réglementations en vigueur (article R643-2), ceci afin de garantir une information juste du client ; en l'occurrence, la France est liée par la Convention du Mètre. Ici, la loi est contournée habilement, le nombre de pouces désignant alors une "classe d'appareils", d'où la valeur élastique constatée du "pouce".
+
+Santé
+L'utilisation des écrans a suscité des controverses dans le domaine de la santé. Les problématiques considérées sont essentiellement la posture face à l'écran, et ses effets sur le dos, ainsi que les effets éventuels des rayonnements sur la vue. En conséquence, certains organismes de santé au travail recommandent d'installer un écran suffisamment haut pour qu'il soit en face des yeux lorsque l'on est assis en position droite.
+
+Articles connexes: Pixel; Bi-écran; Écran tactile; Résolution spatiale des images matricielles. Portail de l'informatique.

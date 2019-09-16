@@ -1,0 +1,151 @@
+Google Play est un magasin d'applications (boutique en ligne) créée par Google (le 6 mars 2012) par fusion des services Android Market, Google Movies, Google ebookstore et Google Music. Elle regroupe une boutique d'applications pour le système d'exploitation Android, une boutique de location de films et de séries télévisées, une boutique d'achat de musique, de livres, de magazines et de la gamme de smartphones et tablettes Nexus, désormais appelée Pixel.
+Au 1er janvier 2013, Google Play est fort de 800 000 applications, ce qui en fait le plus gros magasin d'applications au monde devant iOS et Windows Phone et ses 255 000 applications, et comptabilise 1 300 000 activations de terminaux par jour.
+
+Histoire
+L'Android Market a été annoncé le 28 août 2008 et a été disponible pour les utilisateurs le 22 octobre 2008. La possibilité pour les développeurs de rendre des applications payantes a été ajouté au Royaume-Uni et aux États-Unis le 13 février 2009. Le 30 septembre 2010, le support a été étendu à 30 autres pays.
+Le 8 septembre 2009, le cap des 10 000 applications disponibles est franchi, avec 35 % d'applications gratuites ; 20 % sont des jeux et 16 % ont été déjà téléchargés plus de 10 000 fois.
+Le 16 décembre 2009, la 20 000 application est disponible ; 62,3 % des applications sont alors gratuites (contre 33 % sur l'App Store ce même jour).
+Le 17 mars 2010, 30 000 applications peuvent être téléchargées, c'est-à-dire le double de trois mois auparavant où il y en avait seulement 16 000.
+Le 25 avril 2010, plus de 50 000 applications sont disponibles, soit une augmentation de 20 000 applications en un peu plus d'un mois.
+Le 23 juin 2010, ce sont plus de 68 000 applications disponibles sur la plateforme d'Android.
+Le 14 juillet 2010, le cap du 1er milliard de téléchargements a été atteint.
+Le 9 septembre 2010, plus de 80 000 applications étaient recensées, soit environ 10 000 nouvelles applications (+ 15 %) distribuées en 3 mois.
+Le 26 octobre 2010, Google indique qu'il y a désormais plus de 100 000 applications disponibles.
+En décembre 2010, Google annonce la mise à jour progressive de l'application Android Market sur les smartphones équipés de Android 1.6 et plus. Les changements de cette version 2.x se situent au niveau de l'interface avec un carrousel vert, et l'apparition de nouvelles sections de recherche. Le poids des applications est désormais affiché, et la limite maximum passe de 25 Mb à 50 Mb. Le développeur a la possibilité d'indiquer les résolutions possibles de son application. Le délai de remboursement des applications passe de 24 ou 48 heures à 15 minutes. Lookout Inc. a relevé, en 2010, 80 applications capturant des données personnelles de l'utilisateur à son insu.
+Le 2 février 2011, Google lance une nouvelle version web de l'Android Market offrant un accès via un ordinateur personnel. Liées à un compte Google (l'un de ceux enregistrés sur le smartphone), les applications seront directement téléchargées et installées à distance sur le périphérique sous Android. Jusqu'alors il n'existait que des sites non officiels, comme Androlib ou CodeS-SourceS qui diffusaient le flux de la plateforme de téléchargement, tandis que le site officiel ne diffusait qu'une sélection des meilleures applications.
+Le 14 avril 2011, Google annonce que la barre des 3 milliards de téléchargements a été dépassée.
+Le 12 juillet 2011, le nouvel Android Market, version 3.x, est sorti pour les smartphones et tablettes disposant d'Android 2.2 ou plus. Cette nouvelle version propose une interface redessinée, une harmonisation des classements avec la version web de la boutique, une nouvelle méthode de navigation par glisser entre les pages et la possibilité d'accéder directement aux autres services (Musique, livres, films) directement depuis l'Android Market. Cette nouvelle version comble un des principaux défauts de l'Android Market qui était le manque d'ergonomie de l'application.
+En septembre 2011, la Motorola Xoom reçoit une mise à jour comprenant une version d'Android Market adaptée aux tablettes fonctionnant sous Android Honeycomb. Cette nouvelle version comprend des pages d'applications réorganisées pour s'adapter aux grands écrans des tablettes, tandis que les classements et l'écran d'accueil restent inchangés. Cette version est désormais appliquée sur toutes les tablettes sous Android Ice Cream Sandwich et Jelly Bean.
+Le 6 mars 2012, Google annonce que Google Play va remplacer l'Android Market, Google Books, Google Movies et Google Music de façon à créer une certaine cohésion entre les différents services de Google. L'installation de Google Play se fait petit à petit sur les appareils équipés d'Android 2.2 au minimum (l'application restant en version 3.x), dès qu'un utilisateur lance l'Android Market, la mise à jour s'effectue automatiquement sans demander l'autorisation à l'utilisateur qui doit ensuite accepter les conditions d'utilisation.
+Le 9 avril 2013, Google annonce une refonte complète de l'application Google Play qui passe en version 4.x : nouvelle interface plus colorée et simplifiée, sur le modèles des applications Google Now, Keep et Google +, l'application est toujours disponible à partir d'Android 2.2. En même temps, un des plus importants nettoyages a été annoncé, en effet, plus de 60 000 applications ont été supprimées au cours du mois de février, en grande majorité des applications indésirables ou proposant des sonneries gratuites.
+
+Identité visuelle
+
+Logo:
+Premier logo d'Android Market sur les versions 1.x et 2.x de l'application.;
+Logo d'Android Market utilisé à partir de 2011 sur la version 3.x de l'application et le site web.;
+Logo de Google Play de mars 2012 à septembre 2015;
+Logo de Google Play de septembre 2015 à avril 2016;
+Logo de Google Play depuis avril 2016.
+
+Accueil:
+Fonctionnement
+Pour pouvoir avoir accès à Google Play il est nécessaire de posséder une adresse Gmail. Si l'utilisateur n'en possède pas, il peut en créer une directement via l'application.
+
+Accès
+Google Play est accessible sous plusieurs formes : Un site web accessible depuis n'importe quel navigateur web depuis un ordinateur, il est aussi possible d'y avoir accès depuis un smartphone ou une tablette ;; Une application "Play Store" installée dans les smartphones et tablettes tactiles ayant reçu la certification Google permettant d'acheter des produits et de gérer ses applications ;; Des applications séparées pour gérer et lire ses films, séries télévisées, musiques, livres et magazines ;.
+
+Compatibilité
+Les applications de Google Play ne sont pas open source. Seuls les appareils certifiés par Google et ayant les caractéristiques techniques requises peuvent être vendus avec l'application Google Play (ou Android Market sur certains appareils anciens) après que le constructeur ait signé un accord de licence avec Google. Dans le passé il était nécessaire pour un appareil de posséder une connectivité 3G ou 4G pour pouvoir être équipé de Google Play (Android Market à l'époque), ce qui excluait les tablettes sans connectivité autre que le Wi-Fi, baladeurs et autres appareils concurrent de l'iPod touch d'Apple. Cette restriction a été levée en 2011 et le Samsung Galaxy Player a été le premier baladeur sous Android équipé de l'Android Market.
+
+Gestion des applications
+Google Play n'installe pas automatiquement l'application. Après avoir été téléchargé l'application, contenue dans un fichier au format.apk (Android Package files) doit être installée par l'utilisateur qui peut choisir s'il le souhaite de refuser l'installation. Les applications sont installées dans la mémoire interne de l'appareil, y compris les mises à jour d'applications systèmes ; sous certaines conditions, l'application peut être installée sur un support externe depuis Android 2.2.
+Lors d'une mise à jour, Google Play télécharge directement l'intégralité de l'application (la nouvelle version écrasant l'ancienne), manuellement ou automatiquement si l'utilisateur a autorisé cette fonction ou si l'application le permet car en cas de changements de droits d'accès par exemple la mise à jour doit se faire manuellement.
+Google a annoncé lors du Google I-O 2012 que désormais, lors d'une mise à jour, seuls les fichiers modifiés seront téléchargés, afin de rendre les mises à jour plus rapides notamment pour les grosses applications, cela permettra aussi d'économiser les données pour les forfaits ayant un faible quota. Ce dispositif, nommé "Smart App Delta" et disponible à partir d'Android 2.3, commence à être appliqué depuis fin août 2012 de manière progressive. Par exemple, l'application Instagram pèse 13 Mo tandis que la dernière mise à jour ne pèse que 3 Mo.
+La suppression d'une application se fait de plusieurs façons : depuis le site web, la suppression se fait directement après avoir validé tandis que depuis un appareil Android, il faut valider depuis la page de l'application dans le Play Store puis confirmer la suppression dans un menu système qui s'affiche dans la foulée, cette différence est due au fait que sur Android, il est possible de supprimer une application sans passer par le Play Store notamment pour les applications qui n'ont pas été téléchargées depuis la boutique.
+
+Fonctionnalités
+
+Site internet
+Le site internet de Google Play, accessible depuis la page d'accueil de Google via le bouton "Play" permet d'installer, mettre à jour ou supprimer une application à distance. Il permet aussi de gérer ses appareils et l'ensemble des contenus achetés (applications, livres, musique...), de commenter et noter un produit et de le partager sur Google+ et Twitter. Les contenus sont triés selon des classement (À la une, Les plus rentables, Choix de l'équipe, etc. pour les applications ; Top des films, Staff picks, New releases pour les films ; Top payant, Nouveautés, Recommandations, etc. pour les livres) ou par catégories (Actualités, Météo, Jeux de courses, etc pour les applications ; Action, Humour, Documentaire, etc. pour les films ; Arts, Littérature pour les livres...).
+
+Application
+Installée par défaut sur les appareils ayant reçu la certification, il permet comme pour le site web d'installer en choisissant de l'installer par la 3G ou le Wi-Fi, mettre à jour ou supprimer une application, commenter un contenu et les contenus sont aussi classés selon les mêmes catégories. L'application permet aussi de partager une application en Bluetooth, par Mail, sur Facebook ou sur un service de stockage en ligne comme Google Drive. L'application permet aussi de filtrer les applications afin de bloquer certaines applications contenant des contenus violents ou à caractère érotique, ces paramètres peuvent être bloqués par le code PIN de l'appareil.
+Une fonction secondaire, baptisée "Ma liste de souhaits" ("Wishlist" en anglais), permet à l'utilisateur de créer une liste des applications qu'il souhaite acquérir afin de les retrouver rapidement ultérieurement est disponible depuis fin août 2012.
+
+Cartes cadeaux
+Les cartes cadeaux sont destinées à être offertes à des proches afin de pouvoir acheter des contenus sur Google Play (applications, livres, musique...). Un code est inscrit sur chaque carte, une fois rentré dans la boutique via la fonction "Utiliser" ("Redeem" en anglais) via Android ou via un site internet dédié.
+Ce service est disponible dans quatre pays : Aux États-Unis depuis le 22 août 2012, elles sont disponibles en format physique à des prix de 10, 25 et 50 , les cartes sont disponibles dans les boutiques RadioShack, Target et GameStop.; Au Royaume-Uni depuis le 6 mars 2013, elles sont disponibles en format physique à des prix de 10, 25 et 50 , les cartes sont disponibles dans les supermarchés Tesco et Morrisons; En France depuis le 23 juillet 2013, elles sont disponibles en format physique à des prix de 10, 25 et 50 , les cartes sont disponibles dans les supermarchés Carrefour; En Allemagne depuis le 23 juillet 2013, elles sont disponibles en format physique à des prix de 10, 25 et 50 , les cartes sont disponibles dans les supermarchés Esso, Total.
+
+Bibliothèque Famille
+Depuis 2016, une nouvelle fonctionnalité, "bibliothèque famille", permet aux utilisateurs Android de partager les titres achetés (apps, jeux, musique, films, séries TV) dans une même famille. Cette modification est disponible sur des titres payants de Google Play.
+
+Critiques
+Certains développeurs ne publient volontairement pas leurs applications sur le Play Store à cause d'un désaccord envers les violations de la vie privée dont Google se rendrait coupable, telles que des conditions d'utilisation inacceptables ou la création de backdoors au sein des applications, préférant des magasin d'applications alternatifs tels que F-droid ou Aptoide.
+
+Services
+
+Applications
+Applications et jeux.
+La fonction première de Google Play, le téléchargement d'applications pour le système Android, est disponible dans plus d'une centaine de pays qui permet de télécharger plusieurs centaines de milliers d'applications gratuites ou payantes avec des prix pouvant aller de quelques centimes à plusieurs dizaines d'euros. Les applications disponibles sont très diverses comme des jeux tels que Angry Birds ou Grand Theft Auto III, des utilitaires comme Google Maps, Google Drive ou ES Explorateur de fichiers, des applications de réseaux sociaux comme Facebook, Google+ ou Twitter, des agrégateurs de flux d'actualités comme Flipboard, des écrans d'accueils alternatifs comme Go Launcher, ou même des applications nécessitant d'avoir rooté son appareil comme SuperSU qui est un gestionnaire de droits d'utilisateur root et des thèmes pour CyanogenMod ou MIUI qui sont des versions alternatives d'Android.
+
+Nombre d'applications
+
+Nombre de téléchargements
+
+Sécurité
+La sécurité des applications est mise en cause le 30 juillet 2010, lorsqu'il est découvert qu'une des applications de l'Android Market, Jackeey Wallpaper, peut envoyer des données confidentielles (numéros de téléphones, par exemple) à un site internet chinois.
+Le 1er août 2012, Google a annoncé un durcissement des règles de publication des applications pour faire face à des dérives ayant été observées depuis plusieurs mois.
+Ces nouvelles règles ont pour but d'éviter la mise en ligne d'applications contenant des virus, des applications ayant un nom et-ou une icône trop proche des applications système (Google+, YouTube...), des applications émettant des publicités dans les notifications ou rajoutant des raccourcis ou des favoris ou encore affichant des informations personnelles (carnet d'adresses...) à l'insu de l'utilisateur. Un autre de ces changements est l'obligation d'utiliser Google Wallet pour le payement in-app des applications.
+L'application de ces règles est immédiate pour les nouvelles applications et sous un délai de 30 jours pour les applications existantes sous peine de suppression définitive.
+En aout 2017, Google annonce que les applications qui présentent des défauts de qualités pouvant nuire à son utilisateurs seront pénalisées.
+
+Distribution d'application
+Contrairement à l'App Store ou au Windows Phone Marketplace, Google ne met pas en place un processus de validation, seule une vérification des licences pour s'assurer du respect des droits d'auteurs est effectuée. Mais cette méthode pose des problèmes de sécurité car des applications malveillantes peuvent êtres publiées, lorsqu'elles sont découvertes, Google les supprime le plus vite possible. Pour pallier ce problème, Google a mis en place fin 2011 et début 2012 un programme nommé "Bouncer" qui inspecte les applications publiées sur le Play Store pour détecter les malwares connus et si l'application effectue ou non des actions suspectes ; par la suite, les applications sont scannées de manière périodique et si nécessaire elles sont supprimées. Ce nouveau système a permis de diminuer de 40 % le nombre d'applications problématiques selon Google.
+
+Prix des applications et achats
+Les développeurs d'applications payantes reçoivent 70 % du prix du logiciel, 30 % allant à Google. Les revenus engendrés par les applications payantes sont redistribués aux développeurs via Google Checkout. Pour chaque nouveau développeur, 25 sont à fournir comme frais de dossier.
+
+Musique
+
+Présentation
+Ce service lancé le 16 novembre 2011 originellement sous le nom Google Music puis Google Play Music à partir du 6 mars 2012, permet d'acheter des titres, jusqu'à une limite de 20 000 contre 1000 pour Amazon, issus des catalogues des labels EMI, Sony Music Entertainment, Universal Music Group et d'autres petits labels. Les titres achetés sont consultables en ligne sur le site de Google Play sur téléphone mobile ou sur tablette tactile via l'application dédiée qui permet de lire ses morceaux achetés depuis le cloud.
+Le service permet, en plus de lire les titres achetés sur la boutique, de télécharger sa propre bibliothèque afin de pouvoir les lire via l'application Play Music.
+Un utilitaire du nom de Google Play Music Manager permet de télécharger ses titres achetés sur son PC sous Windows, Mac OS ou Linux.
+En novembre 2014, Google lance YouTube Music Key (en), un service payant de musique en streaming illimité et sans publicité proche de Spotify ou de Deezer, qui se différencie de ces deux autres services par la possibilité d'écouter toutes les vidéos musicales de YouTube. Youtube Music Key offre par ailleurs un abonnement au service Google Play Music.
+
+Disponibilité
+ seulement par achat no disponible
+Films et émissions télévisées
+
+Présentation
+Google Play Films et TV est une vidéothèque numérique de Google qui permet de louer ou d'acheter des films et des émissions télévisées et qui concurrence l'iTunes Store d'Apple. Les contenus disponibles diffèrent selon les pays, en France les prix vont de 2,99 à 4,99 selon l'ancienneté du film ou s'il est en basse ou haute définition. Les films mis à la location sont issus des catalogues de la Warner Bros., Walt Disney Pictures, Sony Pictures Entertainment et EuropaCorp avec des films tels que Tron : L'Héritage ou Real Steel, ou même des documentaires. Après le paiement effectué, l'utilisateur a 30 jours pour lancer la lecture du film et 48 heures pour regarder le film sur son smartphone équipé d'Android 2.2 minimum ou de sa tablette équipée d'Android 3.2 minimum via l'application Play Films. Il est aussi possible de le visionner en streaming ou de le télécharger pour le regarder hors connexion. Aux États-Unis, il est aussi possible de louer des émissions télévisées depuis le 27 juin 2012. En septembre 2012, Google a annoncé un partenariat avec la 20th Century Fox pour la mise à disposition de plus de 600 films de son catalogue dont Prometheus, X-Men et Black Swan pour les utilisateurs américains dans un premier temps. La possibilité d'acheter définitivement les films, disponible originellement aux États-Unis est progressivement déployée depuis octobre 2012 dans d'autres pays comme l'Australie, le Canada, l'Espagne, la France et le Royaume-Uni, les tarif français s'élèvent à 13,99 pour la plupart des films récent et 16,99 pour leur version en haute définition.
+Ce service a été lancé aux États-Unis en mai 2011 sous le nom Google Movies.
+Un bug corrigé fin juin 2012 à la suite de la mise en place de la dernière version de l'application a touché les utilisateurs ayant "rooté" (s'autoriser les droits administrateurs via une modification système) ou utilisant CyanogenMod, empêchant de visionner les films loués sur leur appareil, un message indiquant "Aucune location disponible sur votre appareil, car il semble être en mode root." empêchant l'accès. Le seul moyen de contourner ce bug étant de "dé-rooter" provisoirement l'appareil.
+Le 4 novembre 2014, Disney signe avec Apple et Google un accord pour que les vidéos achetées au travers de l'application Disney Movies Anywhere soient disponibles à la fois sur les plateformes iTunes et Google Play.
+
+Disponibilité
+ Films et séries tv Films no disponible
+Livres
+
+Présentation
+Google Play Livres est une librairie numérique, liée au service Google Livres, mise en place par Google et qui concurrence le service Kindle d'Amazon, l'iTunes Store d'apple, Kobo ou Nook. Disposant d'un catalogue de plus de cinq millions d'ouvrages dont les tarifs vont de 99 centimes à 29 , ainsi que certains ouvrages gratuits, notamment les ouvrages tombés dans le domaine public, disponibles dans la langue du pays concerné ainsi qu'en anglais. Après l'achat effectué, l'utilisateur peut lire ses livres via le cloud sur son smartphone ou sa tablette équipée d'Android 2.2 au minimum via l'application Play Livres, sur les appareils d'Apple équipés d'iOS 4.0 et supérieur (l'iPod touch de première génération n'est pas supporté), dans le navigateur sous Windows, Linux et Mac OS X. L'utilisateur peut aussi télécharger ses livres achetés sur le Play Store en format PDF ou ePub, ce dernier format permettant de lire le livre sur une liseuse compatible avec ce format. L'éditeur peut choisir de mettre ou non des DRM, et peut les retirer à tout moment.
+L'application Play Livres permet de choisir la façon de lire un livre via différentes fonctions comme le choix du mode nuit ou jour, de la lecture directement à partir d'un original numérisé ou via une mise en forme adaptée dite "Texte flottant". En septembre 2012, une mise à jour a ajouté de nombreuses fonctions comme le surlignage, l'ajout et l'édition de notes, la synchronisation des lectures entre plusieurs terminaux et l'accès à Google Maps (si l'application est installée sur l'appareil) en sélectionnant une ville ou un lieu et la possibilité d'accéder à son article Wikipédia ou d'effectuer une recherche sur internet via GoogleElle permet aussi l'importation de fichier PDF, la lecture audio des livres et l'utilisation d'un dictionnaire (aussi disponible hors-connexion).
+Ce service a été lancé aux États-Unis le 6 décembre 2010 sous le nom Google eBookstore.
+
+Disponibilité
+ Disponible no disponible
+Magazines
+
+Présentation
+Ce service permet d'acheter, pour une durée limitée, un magazine à l'unité pour un prix de 0,99 ou sous forme d'abonnement comme pour Cosmopolitan, Popular Science et Men Health. Des offres d'essais gratuites de 14 jours existent pour certains magazines ; il est aussi possible, une seule fois, de sélectionner un magazine et de pouvoir le consulter gratuitement durant 30 jours.
+Après l'achat effectué, l'utilisateur peut lire ses magazines via le cloud sur son smartphone ou sa tablette équipée d'Android 2.2 au minimum via l'application Play Magazines qui permet de choisir la façon de lire un magazine via différentes fonctions, comme pour Play Livres, comme le choix du mode de lecture directement à partir de la version PDF ou via une mise en forme adaptée façon ebook, de naviguer facilement entre les articles et permet de profiter de contenus enrichis comme la lecture de vidéos ou cliquer sur un titre de couverture pour aller directement à l'article désiré.
+
+Disponibilité
+ Magazines et journaux Gratuit no disponible
+)
+
+Jeux
+Google Play Jeux fut lancé officiellement en 2013. Ce service permet à tous les utilisateurs de jouer à l'ensemble des jeux du Play Store compatibles avec le service. Il est relié directement à Google Drive afin de sauvegarder l'ensemble des jeux sur le Cloud du compte Google de l'utilisateur, via les Google Play Services.
+Ce service permet à tous les utilisateurs de débloquer des succès (appelés "réussites") pour progresser dans leur niveau, mais aussi d'utiliser le Web pour les classements en ligne ou en local. Le service permet aussi le multijoueur, afin de jouer à plusieurs sur un même jeu. Enfin, il permet de résoudre des quêtes dans un temps limité pour progresser.
+
+Appareils
+
+Présentation
+Il est possible dans plusieurs pays d'acheter les appareils de la gamme "Nexus" et des "Chromebooks" avec des accessoires en option directement depuis Google Play.
+
+Disponibilité Nexus
+Remarques : Le Galaxy Nexus a été vendu en version GSM-HSPA+ et désimlocké entre avril et novembre 2012, il est désormais remplacé par le Nexus 4 ;; Le Nexus Q a été annoncé à la vente pour mi-juillet 2012 mais a finalement été retiré pour une durée indéterminée ;; Le Nexus 4 remplace le Galaxy Nexus. Commercialisé à partir du 13 novembre 2012, il est disponible en version 8 et 16 Go compatible Wi-Fi et HSPA+ et désimlocké ;; Le lancement de la Nexus 7 s'est étalé de juillet à septembre 2012, elle fut d'abord disponible en version 8 ou 16 Go puis le 29 octobre 2012 il a été annoncé une refonte de la gamme qui se compose désormais de versions 16 et 32 Go en Wi-Fi ainsi que d'une version 32 Go compatible HSPA+ disponibles à partir du 13 novembre 2012 ;; La Nexus 10 est commercialisée à partir du 13 novembre 2012, elle est disponible en version 16 et 32 Go compatible Wi-Fi uniquement ;.
+
+Disponibilité Chromebook
+Remarques : Le Google Chromebook Pixel est commercialisé depuis février 2013 en version Wi-Fi, et depuis avril 2013 en version 4G LTE ;; Le Samsung Chromebook est commercialisé depuis octobre 2012 ;; L'Acer C7 est commercialisé depuis novembre 2012 ;.
+
+Disponibilité
+Il est possible de télécharger des applications et des jeux gratuitement dans 190 pays à travers le monde. Toutefois, suivant les pays il n'est pas possible d'acheter des applications payantes, d'acheter ou télécharger des livres ou des magazines, louer des films ou des séries télévisées, d'acheter de la musique voir de ne pas pouvoir développer et vendre une application.
+En 2009, des utilisateurs ont annoncé rencontrer des problèmes (ils ne pouvaient pas télécharger d'applications payantes) avec plusieurs opérateurs de réseau mobile virtuel en Autriche (BOB) et en Espagne (Simyo et Jazztel mobile). Ce problème a été réglé en avril 2010, des utilisateurs de ces opérateurs ayant rapportés que les applications payantes ont fini par s'afficher.
+Note : Pour une question de lisibilité, le tableau ne reprend que les 132 pays ou il est possible d'acheter des applications payantes(80). La colonne "Vente par les développeurs" liste les pays où les développeurs peuvent vendre leurs propres applications.
+
+Comparaison avec les autres boutiques en ligne
+En juin 2010, la société Distimo publie une étude où elle démontre que l'Android Market est de loin la boutique proposant le plus d'applications gratuites : 57 % des applications sont gratuites. En comparaison, l'App Store sur iOS n'en dispose que de 28 %, un chiffre qui reste à peu près identique d'une plateforme à l'autre (Blackberry World, Nokia Ovi Store, Windows Phone Store, Samsung Apps), hormis l'Android Market. En avril 2011, le nombre d'applications gratuites sur l'Android Market était de 60 % contre 37 % en mai 2011 sur l'App Store d'Apple.
+Google Play n'est, contrairement à l'App Store ou le Windows Phone Store sur leurs systèmes d'exploitation respectifs (iOS et Windows Phone), pas la seule boutique disponible pour Android. Il en existe plusieurs qualifiées de "Market alternatif", classés en deux grandes catégories : Les "market légaux", dont certains comme l'Amazon MarketPlace sont tenus par des grandes sociétés, pour les autres il existe GetJar qui permet pour une durée limitée, de rendre gratuites des applications dont les prix vont jusqu'à dix dollars ou le service Appslib d'Archos qui est installé en remplacement de Google Play sur ses appareils, comme le font certains constructeurs dont les appareils n'ont pas reçu la certification Google. L'autre catégorie est celle des "market illégaux" ou "black market", qui permettent de télécharger gratuitement des applications payantes piratées en toute illégalité. En août 2012, le FBI, en collaboration avec les autorités françaises et néerlandaises, a fait fermer trois "black markets", il s'agit des sites "App Bucket" , "Snappzmarket" et "Applanet" ; comme pour le site Megaupload, le contenu a été remplacé par les sceaux du FBI et du département de la justice américaine.
+Il existe d'autres boutiques qui elles viennent en complément de Google Play comme la Tegra zone qui permet aux possesseurs d'appareils compatibles de télécharger des jeux optimisés pour les processeurs Nvidia Tegra ou au Playstation Store qui permet à certains appareils de la gamme Xperia de Sony comme le Sony Ericsson Xperia Play ou les smartphones certifiés Playstation comme le Sony Xperia S d'accéder à des jeux Playstation. Samsung propose aussi son service Samsung Apps sur la plupart de ses smartphones Android.

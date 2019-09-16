@@ -1,0 +1,87 @@
+Le contrôle d'accès logique est un système de contrôle d'accès à un système d'information. Il est souvent couplé avec le contrôle d'accès physique et permet de restreindre le nombre d'utilisateurs du système d'information.
+
+Les modèles
+Depuis les années 1960 le modèle du contrôle d'accès a évolué due à des besoins initiaux dans les domaines aussi bien militaires que civils. Le domaine militaire nécessite un contrôle d'accès dues principalement aux nombreuses données confidentielles qu'il peut contenir. Le domaine civil quant à lui se limite au contrôle des intégrités.
+À partir des années 1970, beaucoup de modèles de contrôle d'accès ont été mis en place. Parmi eux les modèles DAC, MAC et TMAC.
+
+DAC : Discretionary access control
+Il est plus connu en français sous le nom de contrôle d'accès discrétionnaire. DAC est un modèle de contrôle d'accès dans lequel des moyens sont mis en place pour limiter l'accès aux données. Ce modèle permet à son utilisateur d'accorder l'accès à l'objet souhaité.
+
+MAC : Mandatory access control
+Le contrôle d'accès obligatoire est un système de contrôle d'accès dans lequel la décision de protection ne revient pas au propriétaire de cet outil. Les autorisations d'accès sont établies par l'examen d'attributs de sécurité.
+
+TMAC : Team based access control
+Ce système de contrôle d'accès est un modèle mettant en relation des utilisateurs ayant des rôles différents et travaillant en collaboration pour accomplir une tâche spécifique.
+
+ORBAC : Organization Based Access Control
+Il s'agit d'un modèle fondé sur l'organisation datant de 2003 ayant pour politique d'autorisation de contrôler l'accès centré sur le concept d'organisation.
+
+Les utilisateurs
+
+Les entreprises
+Les entreprises traitent des données confidentielles au sein de leurs entités. Ces données sont stockées dans des bases de données informatiques ou physiquement dans des locaux. Cela suppose que tout le monde ne peut pas avoir accès à toutes ces données. Pour cela les entreprises mettent en place des contrôles d'accès logiques. La création de comptes utilisateurs avec des mots de passe, ou par l'attribution de badges électroniques ou encore par un contrôle biométrique sont utilisés dans les entreprises.
+L'administrateur du système d'information configure l'accès ou non aux utilisateurs aux différents logiciels et bases de données du système d'information. C'est donc l'administrateur qui définit les autorisations selon les utilisateurs.
+La fonction d'un employé au sein d'une organisation peut justifier son accès partiel ou total au système d'information de l'entreprise. Dans un ERP, par exemple, certaines tâches sont réservées aux comptables et d'autres tâches ne sont pas accessibles comme les contrats de travail réservés au service ressources humaines.
+Le dirigeant d'une entreprise n'a pas nécessairement accès à toutes les données et services du système d'information.
+Pour toutes ces raisons il peut être nécessaire d'établir un contrôle d'accès logique.
+
+Les gouvernements
+Tous les gouvernements ont une obligation de protection vis-à-vis de leurs systèmes d'information sensibles. Les États-Unis le font à travers la NSA. Le gouvernement français par l'agence nationale de la sécurité des systèmes d'information a émis une liste d'opérateurs d'importance vitale où la sécurité des bases de données se doit d'être forte car vitale pour le pays. Ces opérateurs sont aussi bien des entreprises comme EDF ou la SNCF que des administrations comme la défense nationale.
+Les gouvernements sont amenés à mettre en place un contrôle d'accès logique au même titre que les entreprises privées.
+
+Modes de contrôle d'accès
+Le contrôle d'accès à une ressource du système d'information est exercé selon deux modes : Mode a priori: Ceci consiste dans l'audit et la configuration des droits d'accès attribués aux utilisateurs (on parle de "Gestion des identités et des habilitations" ou "Identity et Access Management"). Mode a posteriori: Ceci consiste dans le contrôle des droits d'accès attribués aux utilisateurs au moment de l'accès au système.
+Protocole AAA
+En matière de système d'information, le contrôle d'accès est un système de sécurité visant à vérifier le droit nécessaire d'accès d'une personne ou d'une machine à une ou plusieurs données.
+Le contrôle d'accès logique se subdivise en trois éléments : l'authentification, l'autorisation et la traçabilité. Ce sont des étapes décrites par le protocole AAA (Authentication Authorization Accounting). Le premier élément consiste à s'assurer que l'identité de l'entité demandant l'accès est connu de la base de données et qu'il le prouve (par un mot de passe que lui seul connaît par exemple). Le second suit le premier et contrôle si l'entité est autorisée à l'exploitation des données. Le dernier permet la collecte d'informations sur l'utilisation des données (durée de connexion, adresse IP de l'utilisateur...).
+
+Authentification
+Cette phase ne doit pas être confondue avec la notion d'identification même si elles sont liées. En effet la notion d'identification permet de s'assurer si l'identité du demandeur d'accès est dans la base de données (avec un ID par exemple). L'authentification consiste à vérifier que l'entité correspond à l'identité qui cherche à se connecter, c'est-à-dire le lien entre l'identité et la preuve de l'identité. La forme d'authentification la plus répandue est celle de l'identifiant-mot de passe. Des systèmes d'authentification plus ou moins élaborés limitant les risques d'intrusion sont utilisés en fonction de l'importance des données pour ceux qui en limitent l'accès.
+
+Les méthodes d'authentification
+
+Mot de passe
+Un mot de passe est associé à un identifiant permettant l'accès au système. Cette méthode n'offre pas un niveau de sécurité élevé. Il peut être extrêmement aisé pour un individu malveillant de dérober un mot de passe (physiquement ou par le biais d'un piratage).
+
+Biométrie
+En biologie, la biométrie désigne l'étude statistique des dimensions et de la croissance des êtres vivants. En adaptant cette notion à celle du contrôle d'accès, la biométrie désignerait l'identification et l'authentification d'un individu par reconnaissance de ce dernier (reconnaissance physique, comportementale, vocale etc.).
+Une méthode d'authentification par biométrie peut présenter un double avantage : fiable et rapide. Les risques d'usurpation sont limités par les caractéristiques uniques de chaque individu, les risques liés au vol sont atténués. En prenant l'exemple d'une authentification par empreinte digitale elle s'effectue plus rapidement que par l'utilisation d'un mot de passe.
+Le principal inconvénient d'un système biométrique réside dans sa difficulté quant à l'adaptation aux changements corporels ou comportementaux. Le fait de se couper le doigt entraînerait un problème à l'authentification par empreinte digitale.
+De plus l'authentification par biométrie serait difficilement applicable à un organisme non vivant (machines par exemple).
+
+Jeton d'authentification
+Il s'agit d'un système d'authentification forte c'est-à-dire requérant simultanément deux facteurs d'authentification, donc une double vérification.
+Le jeton d'authentification est souvent matérialisé par une carte, calculette ou porte-clés. C'est un dispositif électronique transportable servant à actualiser fréquemment des codes permettant à son détenteur l'accès à un système.
+Le but de cette méthode d'authentification est de pallier les lacunes d'une authentification simple représentées par les vols de mot de passe entre autres. Pour exemple, l'accès à un compte bancaire via un distributeur n'est possible que si l'individu détient la carte bancaire en plus du code pour accéder au compte. L'un sans l'autre ne permettrait a priori pas l'accès.
+L'inconvénient de cette méthode réside dans le seul fait que le contrôle d'accès est physique et est donc susceptible d'être volé.
+
+Double authentification par le mot de passe unique
+Afin d'améliorer le processus d'authentification, certains systèmes d'information demandent une information supplémentaire à son utilisateur. Avant l'accès à un compte ou avant la concrétisation d'un achat en ligne, un code à usage unique peut être demandé, afin d'ajouter un niveau de sécurité. En effet, les mots de passe statiques peuvent être facilement piratés, selon leurs robustesses. L'accès aux données sensibles est conditionné à la réussite du défi proposé, c'est-à-dire entrer le bon mot de passe unique. Celui-ci est généré aléatoirement, et il est reçu sur un téléphone portable, si l'utilisateur a renseigné au préalable son numéro de portable, ou sur une adresse e-mail. Généralement, le système d'information impose une durée limitée afin de pouvoir saisir le code d'authentification. Passé le délai, l'utilisateur devra à nouveau solliciter un nouveau défi.
+Concernant les achats en ligne, Visa et Mastercard ont développé, avec la collaboration des banques, le protocole "3D secure" qui implique des procédures d'authentifications spécifiques. Le terme "3D secure" est défini par trois domaines: "relation entre la banque et son client titulaire de carte, relation entre la banque et son client e-commerçant, relation entre la banque du client et celle du e-commerçant". Une des procédures classiques peut être l'envoi d'un code à usage unique par SMS.
+Concernant l'accès à des comptes ayant des données sensibles, les fournisseurs de Webmail et les concepteurs de réseaux sociaux ont mis en place des fonctionnalités de sécurité supplémentaires afin d'éviter les piratages de compte.
+
+Autorisation
+Cette phase consiste à filtrer l'accès des entités s'authentifiant pour l'accès au système ou une ressource définie. L'utilisateur authentifié n'est pas systématiquement autorisé à accéder à une ressource, il doit y être habilité. Dans un hôtel, le service financier n'aura pas d'accès informatique aux données relatives au service réception et vice-versa.
+Un administrateur détermine celui qui est habilité ou non à utiliser une ressource.
+Dans une optique de protection de l'information, certains utilisateurs peuvent tout à fait être authentifié et autorisé à accéder à un système mais pour garantir la sécurité de ce dernier le dispositif de l'utilisateur doit être conforme aux exigences de sécurité définies par l'administrateur.
+
+Traçabilité
+Dans le protocole AAA, la traçabilité consiste à suivre les accès aux ressources informatiques sensibles, en ayant un but précis : lutter contre les usurpations de droit. Des données sont collectées afin d'assurer la sécurité du système d'information, par exemple lors d'une transaction commerciale ou un transfert de données. En cas de piratage, les informations collectées seront utiles afin de déterminer les actions entreprises dans un but malveillant. Cela peut être la date de réalisation des actions, les événements... La traçabilité permet également de retrouver l'adresse IP, pour pouvoir déterminer quel utilisateur a entrepris des actions malveillantes.
+
+Évolutions à venir
+La gestion, la confidentialité, la protection des données sont devenues des sujets majeurs dans le domaine de l'informatique dans le but de limiter les menaces qui envahissent l'environnement virtuel. En février 2015 Gemalto le plus grand constructeur de cartes SIM sécurisées pour les opérateurs de téléphones mobiles se fait dérober des millions de clés de chiffrement. Ces données permettraient aux pirates de décrypter, de lire et de surveiller les téléphones des utilisateurs.
+Sony Picture avait du faire face à une attaque pirate nord-coréenne à l'insu de ses employés en 2014.
+De plus la multiplication des systèmes nécessitant un contrôle d'accès se multiplie. Chaque utilisateur se voit attribuer des dizaines de mots de passe, ou de forme d'identifiant d'accès logique. Un individu ou une entreprise peut être utilisateur et tributaire d'un système d'information pour de multiples raisons : entrée dans un bâtiments, partager un Cloud, utilisation d'applications etc. L'évolution des contrôles d'accès tend à rassembler tout ces modes d'authentification vers un seul. Les systèmes d'accès logique et physique sont actuellement en train de converger.
+
+La convergence physique-logique
+La méthode actuelle, faisant appelle à de nombreux moyens d'identification présente de nombreux inconvénients, en termes de coût, de complexité de mise en place, mais aussi d'inconfort pour les utilisateurs. Avec la convergence des méthode d'accès vers un unique support l'ensemble de ces inconvénients pourraient disparaître sans pour autant diminuer le niveau de sécurité.
+Le CNIL (commission Nationale de l'informatique et des libertés), préconise ce mélange, pour augmenter le niveau de sécurité.
+
+Exemples de supports
+Certaines entreprises, mettent en place des "cartes employées". Ces cartes sont dotées d'accès logique et physique.
+Accès logique : la puce électronique rassemblant les données d'accès de l'utilisateur, lui permettant un accès direct.
+Accès physique: la carte en elle même est un support physique; la photo; l'identifiant.
+Sur le même principe que la "carte employée", les nouvelles technologies, sont enclins à développer le "sans contact" permettant alors des authentifications sur une échelle plus large.
+
+Évolutions légales
+L'utilisation de plus en plus élevée des systèmes d'information implique la création d'une législation stricte des usages des modes d'accès. Les entreprises stockant des données personnelles doivent mettre en place un contrôle d'accès efficace et efficient.

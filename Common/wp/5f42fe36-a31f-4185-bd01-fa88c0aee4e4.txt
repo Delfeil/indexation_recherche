@@ -1,0 +1,70 @@
+L'accès à internet est une désignation des moyens mis à la disposition d'un particulier ou d'une petite entreprise (dans le cadre de cet article) d'accéder à l'internet. Les organismes commercialisant ces offres de service sont appelées fournisseur d'accès à Internet.
+L'accès à Internet a beaucoup varié depuis sa création dans les années 1970. Un fournisseur d'accès à Internet permet cet accès soit grâce à une connexion filaire quasiment jusqu'à l'utilisateur, pour un accès peu mobile (réseau téléphonique commuté (bas débit), ADSL, fibre optique jusqu'au domicile...), soit grâce à une connexion sans fil pour un accès mobile (Wi-Fi, WiMAX, Internet par satellite) ou via un réseau de téléphonie mobile : GSM-EDGE, 3G-UMTS, 3G+ ou LTE.
+
+Historique
+
+Historique de l'accès à internet aux États-Unis
+C'est à la fin des années 1980, que les premières entreprises fournisseur d'accès furent fondées. Des entreprises comme PSINet (en), UUNET (en), Netcom (en), et Portal Software (en) virent le jour afin d'offrir assistance aux réseaux de recherche régionaux et de fournir au particulier des accès au réseau, courriels et nouvelles Usenet. Le premier fournisseur d'accès à Internet par le réseau téléphonique, The World ouvrit en 1989.
+En 1990 l'ARPANET fut dépassé et remplacé par des techniques plus récentes, ainsi le projet correspondant prit fin. En 1994 le NSFNet, renommé ANSNET (Advanced Networks and Service pour Réseaux avancés et service) et qui permettait l'accès aux sociétés à but non lucratif, perdit sa place d'épine dorsale d'Internet. À la fois les institutions gouvernementales et les fournisseurs créèrent leurs propres épines dorsales et liaisons. Les points d'accès régionaux au réseau (NAP en anglais) devinrent les liens principaux entre les nombreux réseaux et la dernière restriction commerciale tomba. La NSF arrête le financement de NSFNET. La plus grande partie de l'infrastructure appartient maintenant à des opérateurs commerciaux. Plus de 50 % des réseaux sont extérieurs aux États-Unis.
+
+Histoire de l'internet grand public en France
+
+XXe siècle
+Accessible initialement à un nombre réduit d'utilisateurs dans un petit nombre d'entreprises et d'Universités, l'utilisation de l'internet par le grand public n'a commencé qu'à partir de 1994, et s'est vraiment démocratisée au début du XXIe siècle par l'apparition de l'ADSL.
+En 1992, presque simultanément, French Data Network et Altern (par l'intermédiaire du service minitel 3616 ALTERN) ont permis au grand public de se connecter au réseau Internet. L'accès au World Wide Web n'existait pas encore et les services offerts étaient le courrier électronique, les news par le réseau Usenet, l'accès à de nombreuses archives de logiciels et de documentation, et l'accès aux machines du réseau Internet.
+Le premier véritable fournisseur d'accès grand public fut FranceNet qui ouvrit ses portes le 8 juin 1994. FranceNet fut fondé par Rafi Haladjian.
+Il y eut ensuite WorldNet, créé en février 1994 par Sebastien Socchard et Xavier Niel, qui cofonda ensuite le fournisseur d'accès à Internet Free, il ouvrit ses services vers la fin juin 1994. Suivirent dans l'ordre Calvacom, Internet Way et Imaginet.
+AOL eut un grand succès entre 1996 et 2000, grâce à ses CD distribués gratuitement et massivement, puis grâce à des prix intéressants sur le bas débit.
+1995: La Lyonnaise Câble annonce Internet sur le câble à Paris pour l'été. L'exploitant technique (France Télécom) n'est pas du même avis.
+1997: L'Autorité de régulation des communications électroniques et des postes (abrégé en ARCEP) est une autorité administrative indépendante chargée depuis le 5 janvier 1997 de réguler les télécommunications et le secteur postal en France. Cette autorité avait pour nom Autorité de régulation des télécommunications (abrégé en ART) avant le 21 mai 2005, c'est-à-dire la date d'entrée en vigueur de la loi de régulation des activités postales.
+1998: Internet sur le câble commercialisé à Paris (après plusieurs autres villes).
+1999: arrivée de l'ADSL, concurrent du câble.
+
+Années 2000
+En France, la commercialisation des premiers forfaits permettant l'accès à Internet à l'aide d'un réseau mobile UMTS démarre fin 2004, pour les clients d'Orange et de SFR. En 2006, la France compte plus de deux millions de forfaits 3G, l'Europe plus de 38 millions.
+En juillet 2011, l'Arcep rend publiques les décisions de règlement des différends qui opposaient France Télécom et Free Infrastructure. Ces deux sociétés demandaient réciproquement à l'ARCEP d'enjoindre certaines modifications de leurs offres d'accès et de mutualisation de leurs réseaux de fibre optique (FttH) en zone très dense, notamment au sujet du "raccordement palier" et des tarifs de la mutualisation.
+
+Types d'accès
+Les premiers accès à internet grand public étaient des accès fixes, connectant des logements notamment au travers de la ligne téléphonique. Par la suite, avec le développement de la téléphonie mobile, l'accès à internet a été rendu possible à travers les réseaux de téléphonie mobile basés sur des technologies d'ondes hertziennes UHF.
+
+Accès fixe ou peu mobile
+
+Réseau téléphonique commuté
+Le réseau téléphonique commuté est le même réseau qui servait aux communications téléphoniques à la fin du XXe siècle, basé sur une paire torsadée de fils en cuivre. L'accès à Internet grâce à ce réseau se fait à l'aide d'un modem téléphonique. La vitesse d'accès à Internet se mesure alors en bauds, les modems téléphoniques les plus récents permettant d'atteindre la vitesse de 56k bauds. C'est par ce réseau qu'ont été commercialisées, en France, les premières offres internet. Toutefois, en 2011 le nombre d'abonnés bas débit en France a diminué en deçà des abonnés à la fibre optique.
+
+RNIS
+
+ADSL
+L'accès à Internet par technologie ADSL ou VDSL se fait à travers la boucle locale téléphonique fixe, mais utilise une autre bande de fréquences que le RTC ou le RNIS. Les débits atteints avec cette technique sont de l'ordre de plusieurs Mbit-s.
+En France en 2011, l'accès à internet par ADSL est le principal mode d'accès au haut-débit. 21,5 millions de foyers et entreprises, un million d'abonnés au haut-débit sont connectés au travers de technologies alternatives dont le câble
+
+Fibre optique à domicile et très haut débit: Accès à Internet à très haut débit (fibre optique: 100 Mbit-s ou +).
+L'accès à Internet par FTTH, ou Fiber To The Home, utilise un réseau entièrement à base de fibre optique, jusqu'au domicile de l'usager, pour une offre très haut débit. Les différents équipements à l'intérieur du domicile pouvant être reliés entre eux sans fibre optique.
+L'accès internet à très haut-débit relie l'immeuble ou le domicile de l'usager,
+Toutes les offres commercialisées en France incluent l'accès à internet très haut-débit, la téléphonie et la télévision : voir Orange, Free, Neuf, Numericable et Darty.
+On comptait, en France, en septembre 2010, 420 000 foyers déjà abonnés au très haut débit, dont 320 000 en FTTLA (DOCSIS), et 100 000 en FTTH ou FTTB.
+On compte, en France, en septembre 2011, 550 000 foyers et entreprises abonnés au très haut débit, dont 400 000 en FTTLA, et 155 000 en FTTH ou FTTB.
+
+Accès mobile
+L'accès mobile ne connecte pas le domicile d'une personne par un câble. Il est basée sur des ondes transmises dans l'atmosphère via des antennes relais. Elle repose donc sur la signature d'un contrat avec un opérateur de réseau mobile et la couverture de la zone géographique concernée par un réseau mobile. Les bandes de fréquences utilisées sont attribuées par des autorités nationales (l'Arcep en France).
+
+WAP
+Le protocole WAP (en anglais : Wireless Application Protocol) est un protocole de communication lié à la norme GSM et apparu à la fin des années 1990, qui permet un accès limité à Internet à partir d'un appareil de transmission sans fil, comme un téléphone portable GSM ou un assistant personnel.
+Il redéfinit le protocole HTTP, le format des données HTML-images et l'interactivité obtenue par le langage JavaScript pour le monde des périphériques ayant un écran de taille réduite, un processeur de faible puissance et une autonomie limitée (téléphones mobiles). Depuis le début des années 2010 ce protocole est dépassé et abandonné par la plupart des opérateurs mobiles.
+
+UMTS
+L'UMTS dans ses dernières versions HSPA+ "Dual Cell" (2012) permet théoriquement des débits de transfert descendants de 14 à 42 Mbit-s, alors que fin 2004 les débits UMTS offerts par les opérateurs dépassaient rarement 384 kb-s. Néanmoins, cette vitesse était nettement supérieure au débit de base du WAP GSM qui est de 9,6 kb-s. L'UMTS permet (contrairement au WAP), avec un smartphone ou une tablette tactile, un accès à Internet en utilisant les protocoles standards HTTP et HTTPS.
+Le débit varie suivant le lieu d'utilisation et la vitesse de déplacement de l'utilisateur : il est plus faible pour une utilisation mobile (voiture, train, etc. en déplacement rapide) ;; il est plus élevé pour un utilisateur statique (depuis un point fixe) ;; il dépend beaucoup du lieu (position dans la cellule radio) et décroit fortement avec le nombre d'abonnés actifs simultanément dans une cellule.
+
+LTE
+Le LTE (4G) dans ses premières versions (2013-2014) permet des débits théoriques descendants de 50 à 150 Mbit-s, il est en train d'être complété, dans certains réseaux, par le LTE Advanced (4G+) qui apportera des débits plus élevés.
+
+Accès à internet par pays
+L'accès à internet est plus facile et plus rapide dans les pays riches que dans des pays émergents. Les accès à internet commercialisés dans les pays riches sont comparables entre eux. Les prix, et les stratégies nationales (notamment dans le domaine de la régulation) peuvent toutefois varier d'un pays à l'autre.
+
+Accès à internet en France
+En France, le régulateur est l'Arcep.
+
+Accès à internet en Belgique
+
+Voir aussi: Outernet (réseau).

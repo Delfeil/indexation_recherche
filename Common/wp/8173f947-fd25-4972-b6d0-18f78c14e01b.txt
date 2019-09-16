@@ -1,0 +1,16 @@
+En informatique, un algorithme de recherche est un type d'algorithme qui, pour un domaine, un problème de ce domaine et des critères donnés, retourne en résultat un ensemble de solutions répondant au problème.
+Supposons que l'ensemble de ses entrées soit divisible en sous-ensemble, par rapport à un critère donné, qui peut être, par exemple, une relation d'ordre. De façon générale, un tel algorithme vérifie un certain nombre de ces entrées et retourne en sortie une ou plusieurs des entrées visées.
+L'ensemble de toutes les solutions potentielles dans le domaine est appelé espace de recherche.
+
+Algorithmes de recherche classique
+Exemple représentant un arbre binaire de recherche
+Sur des structures de données usuelles comme les listes, les tables ou les arbres, il existe des algorithmes bien connus que l'on peut facilement mettre en oeuvre à la manière d'une recette de cuisine. Ces algorithmes exploitent les propriétés de la structure de données et du domaine.
+Un exemple classique est la recherche dichotomique où l'on divise en deux l'espace de recherche à chaque tentative ce qui donne une complexité logarithmique (donc très avantageuse). Deux autres exemples sont la recherche séquentielle et la recherche par interpolation.
+
+Recherche de solutions à des problèmes complexes
+Pour des problèmes complexes, la recherche de solutions relève de l'intelligence artificielle. On dit qu'un algorithme est de recherche par force brute lorsque toutes les entrées sont vérifiées une à une. Ce type de recherche peut s'avérer efficace si l'espace des solutions est d'une taille raisonnable vis-à-vis de la puissance de la machine utilisée pour le parcourir. Il s'agit donc d'une méthode à tenter en dernier recours s'il n'y a pas d'autre possibilité.; On parle de recherche heuristiques lorsque des connaissances ou des propriétés supplémentaires permettent de rendre la recherche plus efficace. Ainsi, l'exploitation des symétries géométriques dans la résolution d'un puzzle permet de réduire fortement l'espace de recherche. De la même façon, une recherche de chemin peut être facilitée par la connaissance même approximative de la direction dans laquelle se trouve l'objectif ou de sa distance.
+
+Complexité
+Ces algorithmes sont au centre de questions importantes en complexité algorithmique. Ils sont aussi très importants de par leurs vastes domaines d'application.
+
+Exemples: Algorithme de recherche de sous-chaîne; Algorithme de recherche de chemin (Pathfinding).

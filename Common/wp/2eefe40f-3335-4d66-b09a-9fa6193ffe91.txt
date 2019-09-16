@@ -1,0 +1,35 @@
+Asynchronous Transfer Mode ou ATM - littéralement "mode de transfert asynchrone" - est un protocole réseau de niveau 2 à commutation de cellules, qui a pour objectif de multiplexer différents flots de données sur un même lien utilisant une technique de type TDM ou MRT (multiplexage à répartition dans le temps).
+ATM a été conçu pour fournir un standard réseau unifié qui pourrait supporter un trafic réseau synchrone (SDH), aussi bien qu'un trafic utilisant des paquets (IP, relais de trames...) tout en supportant plusieurs niveaux de qualité de service (QdS).
+ATM est un protocole asynchrone, s'appuyant fréquemment sur une couche de transport synchrone. C'est-à-dire que les cellules ATM sont envoyées de manière asynchrone, en fonction des données à transmettre, mais sont insérées dans le flux de données synchrones d'un protocole de niveau inférieur pour leur transport.
+
+Commutation de cellules
+Les cellules ATM sont des segments de données de taille fixe de 53 octets (48 octets de charge utile et 5 octets d'en-tête), à la différence de paquets de longueur variable, utilisés dans des protocoles du type IP ou Ethernet.
+La commutation des cellules allie la simplicité de la commutation de circuits et la flexibilité de la commutation de paquets. Un circuit virtuel est établi soit par configuration des équipements, soit par signalisation, et l'ensemble des cellules seront commutées sur ce même circuit virtuel par commutation de labels. En particulier, le chemin utilisé dans le réseau ne varie pas au cours du temps puisqu'il est déterminé lors de l'établissement du circuit virtuel.
+Les labels permettant la commutation des cellules sont portés dans l'en-tête de chaque cellule.
+
+Structure d'une cellule
+Une cellule ATM est composée de cinq octets d'en-têtes et de quarante-huit octets de contenu. Le protocole définit deux types de cellules : NNI (Network-Network Interface) et UNI (User-Network Interface).
+Diagramme d'une cellule ATM UNI
+7 4 3 0 GFC VPI VPI VCI VCI VCI PT CLP HEC Contenu et complément si nécessaire (48 octets)
+Diagramme d'une cellule ATM NNI
+7 4 3 0 VPI VPI VCI VCI VCI PT CLP HEC Contenu et complément si nécessaire (48 octets)
+GFC : Generic Flow Control (4 bits), par défaut 0000b VPI : Virtual Path Identifier (UNI 8 bits, NNI 12 bits) VCI : Virtual Channel Identifier (16 bits) PT : Payload Type (3 bits) CLP : Cell Loss Priority (1 bit) HEC : Header Error Control (8 bit CRC)
+Le champ payload type permet de marquer des cellules pour des cas particuliers, par exemple pour l'administration (opérations, administration and management : OAM) ou pour délimiter les limites dans certains AALs.
+Une cellule UNI réserve le champ GFC pour assurer un système de contrôle de flux ou un sous multiplexage entre les utilisateurs. L'idée était de pouvoir autoriser la connexion de plusieurs terminaux sur une seule connexion au réseau.
+Une cellule NNI est analogue à une cellule UNI, mais les 4 bits du champ GFC sont réalloués au champ VPI l'étendant à 12 bits. Ainsi, une interconnexion ATM NNI est capable d'adresser les 2 circuits virtuels (VC) de chacun des 2 chemin virtuels (VP). En pratique, certains chemin et circuits sont réservés.
+
+Couches AAL (ATM Adaptation Layer)
+Les couches adaptatives ATM sont chargées de segmenter et de réassembler les cellules provenant des applications. ATM a été conçu pour pouvoir transporter des flux de données variés, la vidéo, la voix ou des données. Mais le transport de ces différents types de flux de données nécessite des types de services différents. Par exemple, les contraintes sur les données ne sont pas les mêmes pour le transport de la voix. Pour faire face à ces divers besoins des applicatifs, diverses couches AAL ont été définies : AAL1 : adapté aux applications vidéo et audio à débit constant, comme le transport de la voix.; AAL2 : adapté aux applications vidéo et audio à débit variable.; AAL3-4 : adapté en transfert sécurisé de données.; AAL5 : adapté au transport de données.
+
+Cadre originel
+À l'origine,au milieu des années 1990, ATM était censé être la technique permettant le broadband integrated services digital network (B-ISDN) qui remplacerait le RTC existant. La suite complète de standards ATM propose des définitions pour les couches de niveaux 1, 2 et 3 du modèle OSI classique à 7 couches. Les standards ATM étaient dessinés sur des concepts destinés aux télécommunications plutôt qu'aux réseaux informatiques. Pour cette raison, un immense travail a été réalisé pour intégrer dans ATM le plus possible de technologies et conventions existant en télécommunications.
+ATM est donc une technologie assez complexe, dont les fonctionnalités s'appliquent aussi bien aux réseaux globaux des sociétés de télécommunications qu'aux LAN de taille plus réduite.
+
+Évolution et remplacement
+Beaucoup de sociétés de télécommunications ont mis en place de grands réseaux ATM et beaucoup d'implémentations DSL ont utilisé l'ATM. Cependant l'ATM a échoué à être largement répandu en tant que technologie LAN et sa grande complexité a été un obstacle à son développement en tant que technologie réseau intégrative comme ses inventeurs l'avaient imaginé...
+La plupart des bonnes idées d'ATM ont été reprises dans le MPLS, un protocole de niveau 2 de commutation d'étiquettes (en). MPLS apporte la possibilité de transmettre des paquets de longueur variable, mais il n'atteint pas le même niveau de définition et de garantie de qualité de service que l'ATM.
+ATM est utile et a été largement déployé comme couche de multiplexage dans les réseaux DSL, où ses caractéristiques correspondent bien aux besoins de cette application. Il a aussi été utilisé dans les interconnexions à haute vitesse pour combiner le trafic PDH-SDH et le trafic de paquets dans une architecture unifiée.
+
+Voir aussi
+
+Articles connexes: ATM Adaptation Layer 5; MPLS; PBT-PBB-TE; Visioconférence.

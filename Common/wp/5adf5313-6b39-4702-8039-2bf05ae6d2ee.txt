@@ -1,0 +1,10 @@
+La somme vectorielle, ou plus simplement somme, de deux vecteurs
+est le vecteur
+où D est l'unique point tel que A, B, D et C forment un parallélogramme.
+Dans une base, la somme de deux vecteurs a pour coordonnées la somme composante par composante des coordonnées des deux vecteurs, dans le cas de vecteurs dans le plan (deux coordonnées) :
+Dans le cas d'un espace Kn de n-uplets, la somme vectorielle se définit directement comme la somme composante par composante :
+Plus généralement, dans le cadre d'une présentation axiomatique des espaces vectoriels, la somme vectorielle est le résultat de l'addition vectorielle, qui est une loi interne dont le comportement est donné par les axiomes d'espace vectoriel.
+La somme se généralise à plusieurs vecteurs. La somme d'une famille finie (v i) i I (-displaystyle (v-(i))-(i-in I)) de vecteurs est notée i I v i (-displaystyle -sum -(i-in I)v-(i)).
+
+Article connexe
+Multiplication par un scalaire: Portail des mathématiques.

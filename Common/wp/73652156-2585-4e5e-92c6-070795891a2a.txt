@@ -1,0 +1,42 @@
+Représentation est un terme issu du latin datant du XIIIe siècle (reproesentatio, de reproesentare).
+La représentation désigne étymologiquement "l'action de replacer devant les yeux de quelqu'un". La représentation apparaît d'abord comme une présentification : il s'agit de rendre sensible un concept ou un objet absent "au moyen d'une image, d'une figure, d'un signe" (penser à une table fait apparaître en esprit une table). Cette notion d'origine latine garde tout son sens étymologique mais revêt des acceptions sensiblement distinctes suivant le contexte dans lequel elle est utilisée.
+
+Représentation du monde
+Au sens courant c'est l'image que l'on se fait du monde, autrement dit le monde replacé devant ses propres yeux.
+Sujet d'étude de la philosophie, la représentation y est décrite comme une idée incomplète et provisoire de ce qu'est la vérité sur un objet donné. Cette notion de représentation est imagée par l'allégorie de la caverne de Platon pour aborder le sujet de la connaissance ; elle est un concept essentiel chez Schopenhauer qui en cela suit et développe la pensée de Kant ; et elle est utilisée pour mettre en question la validité des paradigmes de la science moderne.
+En psychologie sociale, la représentation du monde est liée à la fois à l'explication que donne la cosmologie des mécanismes de l'univers dans sa globalité, et aux images mentales qui en découlent en tenant compte des contraintes de finitude écologique de la Terre.
+
+Modes de représentation
+Si la représentation peut désigner une idée que l'on se fait sur le monde, elle exprime aussi le fait de communiquer cette idée, le fait de la placer devant les yeux de l'autre. Pour ce faire, il existe plusieurs modes de représentation.
+
+Par l'action
+L'acte de représentation est intimement lié à l'art, notamment dans les arts visuels où la représentation est plus particulièrement un mode sémantique consistant en l'imitation de l'apparence (elle est distincte d'autres modes sémantiques comme la présentation, le fait de donner à voir concrètement, ou l'expression, le fait de produire du sens par un moyen artistique avec lesquels elle est souvent confondue).
+Dans le domaine du spectacle en particulier (dans le monde du théâtre, du cirque, de l'opéra, du music-hall, des arts du spectacle, des arts vivants), il y a eu un glissement de sens vers la représentation au public, et le mot vient désigner une séance réalisée par un artiste ou une troupe d'artistes lorsqu'elle est ouverte aux spectateurs.
+
+Par le graphisme et l'image
+L'image et le graphisme sont des modes de représentation ou visualisation de faits ou de la réalité qui nous entoure (photo, film). Dans ce contexte, une représentation peut être une chose qui en représente une autre : par exemple la carte est une représentation graphique d'une partie du monde en géographie ;; une courbe représente (visualisation) des mesures physiques (courbe de température, de pluviométrie, etc.) ;; on représente aussi des choses très abstraites, dans le domaine de la poésie, de la spiritualité comme dans celui de la physique ou des mathématiques : En mathématique la représentation graphique d'une fonction mathématique consiste par exemple à imager par sujet de statistique, par une courbe liée à une fonction étudiée, ou encore à représenter sous forme d'un nuage de points un ensemble de résultats pour découvrir une tendance générale.
+En géopolitique, les représentations sont à placer dans la problématique comportementaliste, inspirées de la psychologie sociale. Les géographes retiennent la définition de Jean-Paul Guérin : "création sociale et-ou individuelle d'un schéma pertinent du réel". En fait, le chercheur s'attache à décrypter les images que les individus se font de la réalité. Yves Lacoste a intégré cet outil dans sa définition de la géopolitique. En effet, l'approche d'un objet par la géopolitique doit passer "systématiquement (par) une critique des représentations, en les confrontant les unes aux autres, pour saisir leurs contradictions.". Critique qui s'étend autant à l'objet qu'au chercheur lui-même. Il faut pour aborder un objet le déconstruire et analyser chacune des images que se font de lui les différents acteurs.
+
+Par l'abstraction
+En mathématiques toujours, le terme représentation renvoie aussi à la Représentation des groupes (ou théorie de la représentation), qui a pour but l'étude des groupes (au sens mathématique) en les associant au groupe des automorphismes (les applications linéaires inversibles) d'un espace vectoriel, dont la manipulation concrète est généralement bien plus simple. Ni la manière dont on associe les éléments du groupe aux automorphismes, ni l'espace vectoriel ne sont donnés a priori, et toute la difficulté consiste à trouver des morphismes et des espaces vectoriels convenables. Représenter un groupe, c'est donc se donner un moyen concret de manipuler ses éléments.
+En grammaire où la représentation est le fait pour un élément du discours (appelé représentant ou substitut ou suppléant), de désigner un autre élément quelconque (appelé représenté).
+Au sens large, une chose censée en présenter une autre est en sémiologie un symbole, la traduction par des signes (ou avec des réseaux de signes) d'une réalité physique ou conceptuelle.
+La distinction entre la chose représentante et la chose représentée (que René Magritte expose dans la Trahison des images) est souvent une distinction conceptuelle importante. On les distingue en particulier sous les noms de signe et référent dans le cadre de l'étude du signe linguistique.
+
+Représentation dans l'organisation sociale
+La même distinction est faite en droit, où la représentation est le fait pour une personne représentante d'être autorisée à agir au nom d'une personne représentée. Techniquement il s'agit d'un contrat de mandat passé entre un mandant et un mandataire.
+Dans le monde des affaires commerciales le principe est le même puisqu'il s'agit de l'incarnation de l'entreprise ou d'un produit par un individu. La représentation renvoie alors au fait pour une entreprise de confier à des personnes internes ou externes le contact avec la clientèle ainsi que certaines tâches connexes à la vente. Cette représentation est confiée à un "représentant" ou VRP (voyageur représentant placier).
+En politique, le principe de représentation est également lié à la notion légale de mandat, mais il s'agit pour une personne d'être autorisée à en représenter plusieurs. Le sujet politique est celui de la démocratie représentative définie alors comme le fait pour des citoyens de ne pas décider directement des choses publiques, mais de confier ce pouvoir à des représentants élus.
+
+Représentation en histoire
+Un nouveau courant consistant à étudier les représentations collectives et les structures mentales des sociétés est apparu en histoire depuis les années 1970. Il s'agit de la Nouvelle histoire, courant historiographique créé sous l'impulsion de Pierre Nora et Jacques Le Goff. Les travaux de Philippe Ariès sur la mort sont significatifs de ce mouvement. Cette approche privilégie l'étude des phénomènes de longue durée.
+
+Représentation et psyché
+En psychologie la représentation renvoie à la représentation mentale du monde extérieur en associant une perception à une idée, une catégorie de faits, une image mentale, un symbole ou un modèle explicatif.
+Cette même représentation mentale est aussi utilisée en psychologie cognitive et dans les neurosciences.
+La notion de représentation sociale est utilisée en psychologie sociale pour désigner les images de la réalité collective fortement suggérées à l'individu par la société.
+En psychanalyse, la représentation renvoie en particulier au concept freudien de représentation psychique et il est l'une des deux composantes de la pulsion - contenu concret d'un acte de pensée -, par opposition à l'affect.
+
+Voir aussi
+
+Articles connexes: Représentativité; Paradigme; Théorie de la connaissance; Représentation politique. Portail de la philosophie.

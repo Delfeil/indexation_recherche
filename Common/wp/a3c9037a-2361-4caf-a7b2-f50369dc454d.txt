@@ -1,0 +1,77 @@
+Un périphérique informatique est un dispositif connecté à un système de traitement de l'information central (ordinateur, console de jeux, etc.) et qui ajoute à ce dernier des fonctionnalités.
+
+Types de périphériques
+On peut classer généralement les périphériques en deux types : les périphériques d'entrée et les périphériques de sortie : Les périphériques d'entrée : servent à fournir des informations (ou données) au système informatique tel que clavier (frappe de texte), souris (pointage), scanner (numérisation de documents papier), micro, webcam, etc. Les périphériques de sortie : servent à faire sortir des informations du système informatique tel que écran, imprimante, haut-parleur, etc.
+On peut également rencontrer des périphériques d'entrée-sortie qui opèrent aussi bien en écriture qu'en lecture : un lecteur-enregistreur de CD-ROM ou une clé USB, par exemple, permettent aussi bien de stocker des données (sortie) que de les lire (entrée).
+Un périphérique peut être local ou en réseau : On dit qu'il est "local" lorsqu'il est branché directement à un ordinateur (PC, console de jeux vidéo, tablette, etc.).; On dit qu'il est "réseau" lorsqu'il est branché à un réseau informatique et qu'il communique avec un ordinateur central, avec un supercalculateur ou avec un serveur.
+Par exemple une souris peut être un périphérique d'entrée local branché à un ordinateur qui peut lui-même être un périphérique d'entrées-sorties réseau s'il est relié à un réseau. Lorsque cet ordinateur reçoit les réponses à des requêtes transmises à un autre ordinateur on appelle l'ordinateur périphérique un "client" et l'ordinateur qui répond aux requêtes envoyées un "serveur". On appelle terminal un périphérique réseau qui se trouve à l'extrémité d'un noeud réseau et qui est utilisé comme point d'accès à ce réseau à travers différentes interactions homme-machine.
+
+Connexion à l'ordinateur
+Sur les micro-ordinateurs, tous les périphériques sont reliés à la carte mère par un connecteur que l'on insère : soit dans un port directement soudé à la carte mère ;; soit dans un port disponible sur une carte d'extension, elle-même enfichée sur la carte mère. La carte d'extension étant amovible, il est facile de la remplacer en cas de panne ou d'évolution technologique.
+Le système d'exploitation installé sur le système informatique doit disposer d'un pilote pour le périphérique (driver), c'est-à-dire un logiciel chargé de communiquer avec lui et d'intégrer ses fonctionnalités au système d'exploitation.
+La plupart des périphériques sont amovibles, c'est-à-dire qu'ils peuvent être déconnectés de l'unité centrale sans empêcher celle-ci de fonctionner (il faut parfois éteindre l'ordinateur avant de retirer le périphérique).
+
+Périphériques d'entrée
+
+Dispositifs de saisie:
+Clavier;
+Pavé numérique.
+.
+Dispositifs de lecture:
+Lecteur de disque optique;
+Lecteur de carte;
+Lecteur de code-barres.
+.
+Dispositifs de pointage
+Un dispositif de pointage est un périphérique d'entrée qui permet de contrôler un pointeur (en).
+Souris;
+Tablette graphique.
+
+Contrôleurs de jeu
+Un contrôleur de jeu est un dispositif qui permet d'effectuer une représentation dimensionnelle (2D ou 3D) dans un jeu vidéo.
+Manette de jeu (Joypad);
+Manche de jeu (Joystick).
+
+Dispositifs d'acquisitions
+Un système d'acquisition de données est un appareil qui est utilisé pour effectuer une numérisation d'un signal électrique. Il est, pour cette raison, classé comme un périphérique d'entrée.
+
+Acquisition d'images:
+Scanner;
+Webcam.
+
+Acquisition sonore:
+Microphone.
+
+Périphériques de sortie:
+Écran;
+Imprimante;
+Enceinte acoustique.
+
+Périphériques d'entrée-sortie
+
+Mémoires de masse
+Une mémoire de masse est un périphérique d'entrée-sortie car il permet de lire et d'écrire des données non volatiles.
+Lecteur de bande magnétique;
+Lecteur de disquettes;
+Disque dur;
+Graveur de disque optique;
+Clé USB (mémoire flash amovible).
+
+Équipements de réseau informatique
+Les équipements de réseau informatique sont tous des périphériques d'entrée-sorties car ils fonctionnement sur des transmissions bidirectionnelles.
+Modem;
+Commutateur réseau;
+Routeur.
+
+Périphériques d'interactions homme-machine
+De nombreux périphériques d'interactions homme-machine fonctionnent dans les deux sens (entrée-sortie).
+Écran tactile;
+Casque de réalité virtuelle.
+
+Périphériques multifonctions
+Un périphérique multifonction (abr. MFP pour multiple function peripheral en anglais) est une catégorie spécifique de périphérique d'entrée-sortie qui offre plusieurs fonctionnalités tel qu'un caméscope qui peut faire office d'APN, de webcam, ou de disque externe ou encore d'une imprimante qui peut parfois faire aussi office de scanneur voire de télécopieur.
+
+Copieurs multifonctions
+Un copieur multifonction est un périphérique de reprographie qui regroupe au moins deux fonctions de publication.
+Imprimante multifonction;
+Photocopieur multifonction.

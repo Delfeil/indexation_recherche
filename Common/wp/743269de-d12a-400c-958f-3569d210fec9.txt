@@ -1,0 +1,55 @@
+Une définition est une proposition qui dit ce qu'est une chose ou ce que signifie un mot.
+
+Rhétorique
+Selon les Définitions du pseudo-Platon, la définition est la "proposition comportant différence spécifique et genre". Aristote, dans le Topiques, définit le mot comme "formule qui exprime l'essentiel de l'essence d'un sujet"
+
+Mathématiques
+En mathématiques, on parle de délimitation précise d'un concept dans un cadre plus général en utilisant d'autres concepts.
+
+Vocabulaire
+Une définition est une formule qui indique la signification d'un terme. Une définition pose une équivalence entre un terme (signifiant) et un sens (signifié). Elle autorise à remplacer le second par le premier et revêt ainsi une utilité pratique. Elle est également le résultat d'une opération, et introduit donc le temps (le sens défini est fini, passé, en-soi), ainsi qu'un acteur (souvent implicite).
+La définition s'inscrit dans l'ordre de la dénotation, mais un terme connote également des sens, et ce sans faire explicitement appel au temps ou à un acteur. Il le fait grâce à une structure externe de l'espace des signifiants, mais il existe également une structure interne qui s'exprime à travers l'étymologie. Le concept de définition ne s'impose pas de lui-même, c'est un outil utile, mais pas indifférent : il s'inscrit dans une totalité structurée. Il implique et il indique des choix : Quels acteurs sert-elle
+La définition établit une frontière entre le mot défini, et les mots utilisés pour l'expliciter. Elle établit ainsi une structure ordonnée, une arborescence par niveaux entre des classes de mots. On voit bien que cette structure est pourtant locale, que cet ordre ne se conserve pas si on déroule la structure de proche en proche.
+
+La problématique de définir la définition
+Selon Lalande dans son Dictionnaire critique, "Une définition est la détermination des limites de l'extension d'un concept" Plus profondément, la définition expose en un discours articulé (composé au minimum de deux mots) la compréhension d'un concept. Dire qu'un animal est un vivant doué de connaissance sensible, par exemple, c'est articuler entre elles deux notions (vivant et doué de connaissance sensible) qui entrent dans la constitution et qui permettent de saisir la nature d'une troisième (animal).
+Il y a évidemment un cercle à définir c'est bien le concept de définition : la tentative même suppose le problème résolu, et semble nier l'intérêt de la démarche (pourquoi définir définition si par là-même on suppose la définition connue). C'est ce que la philosophie anglo-saxonne appelle un point aveugle de la raison.
+Ainsi la définition proposée ci-dessus du mot définition emploie elle-même d'autres mots, dont on suppose qu'ils ont eux-mêmes une définition. Mais le problème est d'abord celui du sens : comment peut-on appréhender le sens des mots La réponse varie considérablement d'un auteur à l'autre. Par exemple, pour Platon, le sens est immuable, et il sert de fondement à notre connaissance ; pour Quine, en revanche, le sens est indéterminé, et dépend toujours d'un ensemble de théories et de concepts.
+Le problème concerne ainsi la théorie de la connaissance et de la référence.
+Dans l'exemple cité, l'auteur subordonne la définition au concept, à son extension et à sa détermination. Le paradoxe créé, demandera-t-on, n'est-il pas un mouvement dialectique de la pensée Sans doute, si cette pensée est action, et revendiquée en tant que telle, mais non pas si elle est résultat. Une vérité immanente qui contiendrait des paradoxes n'est qu'une négation de la raison, une base pour le réenchantement du monde que dénonce Max Weber. Mais une dénonciation s'appuie sans doute elle-même sur une vérité immanente, à moins de prétendre à une perspective transcendante. On peut alors en venir à une forme de relativisme (cf. scepticisme ou post-modernisme), à défaut de trouver une rationalité minimale qui nous assure que les mots que nous utilisons ont un sens et donc une définition.
+La question est de savoir pour quel sens du mot "définition" un discours est sensé.
+
+Définition classique dite scolastique ou par le genre prochain et la différence spécifique
+La définition (definitio) est l'expression énonçant l'équivalence d'un défini (definiendum) et de son définissant (definiens).
+Le défini et le définissant doivent avoir la même extension.
+Le définissant est l'espèce (species) dont relève le défini.
+L'espèce est énoncée par le genre prochain et la différence spécifique (per genus proximus et differentiam specificam).
+La différence spécifique (differentia specifica) est le caractère qui distingue une espèce des autres espèces d'un même genre.
+
+Conceptions de la définition
+L'inventeur de la définition serait, selon Aristote, Socrate. Socrate cherche en effet ce qui fait qu'une chose est telle qu'elle est : par exemple, dans l'Hippias majeur, pourquoi cette chose belle est-elle belle Il y aurait ainsi un caractère commun aux choses belles, une essence, dont la formulation est la définition.
+Cependant, le point de départ de Socrate est existentiel : il s'agit de prendre conscience de ce que nous disons et de ce que nous faisons quand nous suivons des conceptions morales ou scientifiques. La définition permet de mettre à l'épreuve notre prétendu savoir, surtout quand Socrate montre à ses interlocuteurs qu'ils ne savent pas produire une définition cohérente de ce qu'ils pensent : ils ne pensent donc rien de défini, rien qui n'ait une extension précise et bien déterminée. Dans le meilleur des cas, ce sont des ignorants, dans le pire des imposteurs.
+Les problèmes liés à la définition (en particulier le problème du paradoxe donné plus haut) ont été des motivations dans la recherche pour tous les philosophes. En effet, l'analyse des concepts et de ce que l'on veut dire, la recherche de l'extension des concepts que nous utilisons, est l'un des aspects majeurs de la philosophie, de Platon et Aristote à Locke, Hume et toute la philosophie anglo-saxonne notamment.
+
+Logique
+En logique, une définition est un énoncé qui introduit un symbole appelé terme dénotant le même objet qu'un autre symbole, ou associé à une suite appelée assemblage, de symboles dont la signification est déjà connue.
+Certains symboles comme ceux de l'existence, l'appartenance, la négation etc. qui ne peuvent être définis, sont grossièrement introduits en faisant appel à des mots du langage naturel et à l'idée intuitive que l'homme peut en avoir. Ces termes primitifs appartiennent au "domaine intuitif de base". (Concept des mots non définis utilisé par Alfred Korzybski)
+En mathématiques, une définition est un énoncé écrit en langage naturel ou en langage formel (de la logique), qui introduit un nouveau mot ou symbole associé à un objet abstrait décrit par un assemblage d'autres mots ou symboles dont le sens a déjà été précisé.
+L'idée que nous avons de l'objet ainsi défini, s'appelle une notion mathématique.
+Ces mots ou symboles sont des "abréviations", destinées à représenter de tels assemblages de lettres et de symboles. Ces abréviations permettent à un mathématicien d'utiliser l'objet mathématique ainsi construit sans avoir à l'esprit sa définition complète et détaillée. Dans la pratique, les abréviations sont des lettres alphabétiques, des signes ou des mots ordinaires, par exemple : représente un nombre; e représente l'exponentielle de 1; "point" et "droite" sont des objets géométriques; Les signes + et sont des "lois".
+Il serait possible d'écrire toutes les mathématiques uniquement en langage formel, mais cela rendrait leur utilisation difficile et d'après Roger Godement, un nombre aussi simple que 1 nécessiterait un assemblage d'environ dix mille symboles.
+Donnons maintenant quelques exemples de définitions : Soit A un nombre entier positif. Posons B-A.
+Nous définissons B comme étant le même nombre représenté par A. Soit D et D' deux droites non parallèles. Soit I le point d'intersection de D et D'.
+Nous définissons le point I et nous sommes supposés connaître ce que sont une droite, le parallélisme et un point d'intersection. Un nombre entier naturel est dit premier s'il est différent de 1 et s'il n'admet comme diviseurs que 1 et lui-même.
+Une définition n'est pas un théorème, elle donne simplement une dénomination à des objets mathématiques mais ne décrit pas de règles d'utilisation de ces objets ou de propriétés vérifiées par ces objets (autres que celles qui le définissent).
+Lorsque nous définissons un objet, nous utilisons en général un "si" qui signifie "si par définition", "quand" ou "lorsque", comme dans la définition suivante :
+Un nombre entier relatif n est pair si k ℤ, n - 2k.
+Certains utilisent maladroitement un "si et seulement si" à la place du "si", mais cela n'a pas de sens, puisqu'ils écrivent dans ce cas une équivalence entre un terme qui n'est pas une proposition qui, de plus, n'est pas encore défini et une proposition.
+Si la définition d'un objet donné suppose qu'une proposition P soit vérifiée, alors l'affirmation "par définition" ou "en vertu de la définition" la proposition P est vérifiée signifie que nous utilisons la proposition P intrinsèque à l'objet. Considérons la définition suivante :
+Définition : Un carré est un quadrilatère dont les côtés sont de même longueur et dont les angles sont droits.
+Il est évident que tous les côtés d'un carré sont de longueur égale parce que cette propriété fait partie de la définition. Nous pouvons dire dans ce cas "par définition", un carré a tous ses côtés d'égale longueur.
+Si un même objet mathématique (ou "être mathématique") reçoit plusieurs définitions et que toutes les propriétés de l'une d'entre elles sont équivalentes à celles des autres, alors ces définitions sont dites équivalentes.
+Une définition n'a de sens que dans le cadre d'une théorie mathématique donnée et par exemple il est impossible de considérer une fonction dérivable définie sur l'ensemble des entiers naturels à valeurs dans ℝ.
+Dans un exposé mathématique, il arrive qu'une définition "intuitive" soit donnée avant la définition mathématique ; son rôle est de mettre en évidence les motivations d'une telle définition. Par exemple, des définitions de dictionnaire: explication d'un mot.
+
+Voir aussi: Signe; Sens; Platon; Aristote; Histoire des définitions de la philosophie; Théorie du prototype. Portail des mathématiques; Portail de la philosophie.

@@ -1,0 +1,62 @@
+Une métonymie est une figure de style qui remplace un concept par un autre avec lequel il est en rapport par un lien logique sous-entendu : la cause pour l'effet, le contenant pour le contenu, l'artiste pour l'oeuvre, la ville pour ses habitants, la localisation pour l'institution qui y est installée...: Paris a froid Paris a faim.
+Dans ce vers par exemple, Paris ne désigne pas la ville qui, par elle-même, ne peut souffrir du froid ou de la faim, mais l'ensemble de ses habitants.
+La métonymie est employée très fréquemment, car elle permet une expression courte et frappante. Elle fait partie des tropes.
+
+Étymologie
+Du grec formé de : meta ("déplacement") et de : onuma ("nom"), la metônumia ("changement de nom") désigne dès l'Antiquité la figure.
+
+Mécanisme
+La métonymie remplace un mot A, par un mot ou une courte expression de même nature grammaticale B. A n'est pas explicitement nommé : il est remplacé par B dans la phrase ;; la relation entre A et B est sous-entendue ; néanmoins, la formule utilisée devient incohérente si cette relation n'est pas comprise.; aucun mot-outil ne signale l'opération.
+
+Types de relations métonymiques
+La métonymie est basée sur un lien logique entre le terme exprimé et le terme qu'il remplace. Les sous-chapitres suivants présentent les liens logiques les plus fréquents. Ils illustrent que les métonymies élaborent un sens complexe, et ne sont pas seulement des sortes de raccourcis linguistiques et référentiels.
+
+Le contenant pour le contenu: Boire un verre (- le récipient pour le liquide); "Rodrigue, as-tu du coeur" (Pierre Corneille, Le Cid) (- la qualité morale désignée par la partie du corps censée en être le siège); Je n'ai plus de batterie (- l'énergie accumulée dans la pile); La salle a applaudi (- les gens dans la salle); De nombreux plats gastronomiques tirent ainsi leur nom de l'ustensile traditionnellement utilisés pour les préparer : tajine, paella, etc.
+
+Une partie pour le tout
+La synecdoque est une métonymie qui consiste à désigner le tout par une partie. "Cent voiles flottent à l'horizon". Il s'agit bien de bateaux qui voguent au loin, dont la voile est une partie - en l'espèce, celle qui se distingue du plus loin.; Il a trouvé un nouveau toit. Il a en fait trouvé un logis désigné ici par sa partie la plus protectrice.
+
+L'espèce pour l'individu
+L'antonomase désigne un individu par l'espèce à laquelle il appartient (un homme par sa nationalité par exemple), ou bien désigne le nom d'un individu par celui d'un autre individu appartenant à la même espèce ou à la même classe, en littérature : au même type.
+C'est ainsi que des personnages littéraires et romanesques en sont devenus à désigner des types de la vie de tous les jours : un "harpagon" pour une personne avare, un "gavroche" pour un enfant rebelle, un "tartuffe" pour un religieux hypocrite etc. La minuscule signale d'ailleurs le changement de classe grammaticale : le terme est passé de patronyme à celui de substantif (on dit de nos jours : "un tartuffe", sans majuscule).
+le tartuffe de Molière
+L'auteur pour l'oeuvre: "Je ne me lasserai jamais de lire un Zola."; "Consulter le Larousse.".
+
+Le singulier pour le pluriel: "L'émancipation de la femme".
+
+Le signe pour la chose
+Jérôme Bosch : métonymie du chevalier et de la religieuse, détail: "Il est monté sur le trône" ; le trône évoque le symbole de la monarchie.
+
+La cause pour la conséquence
+C'est une sorte de litote de politesse, même si la notion est sujette à divers sens. "Avoir perdu sa langue" (pour "avoir perdu la parole"); "D'une plume éloquente" (pour "dans un style éloquent"); "Boire la mort" (pour "boire un breuvage mortel"). Vénus pour l'amour; Un zeppelin pour un dirigeable (du nom de l'inventeur F. Von Zeppelin).
+On parle d'éponyme lorsque le nom propre donne naissance à un nom générique : Adolphe Sax donne son nom au "saxophone" et le Marquis de Sade au "sadisme".
+
+L'instrument pour l'agent: Mon père est une sacrée fourchette !; Alors le premier violon de l'orchestre attaqua son solo.
+
+Le lieu d'origine pour le produit: "boire un bourgogne" (avec une minuscule), pour le vin produit dans la région Bourgogne.; "Bercy" (- le ministère de l'Économie et des Finances en France) ;.
+
+La matière pour l'objet: "Contempler un bronze de Rodin", pour une statue en bronze.
+Métonymie très courante où l'on remplace l'objet par la matière le composant : un contenant à liquide est un "verre" alors qu'il existe d'autres matières pour contenir un liquide ; ici on se focalise sur la silice. Le "papier" d'un journaliste désigne l'article, écrit sur une "feuille de papier". Tout comme dans "néon" pour "tube de néon". À ne pas confondre avec l'ellipse.
+
+La métonymie dans les arts
+La chute d'Icare. Le titre de ce tableau est métonymique. En effet, il vient d'un détail du tableau - une jambe, que l'on suppose d'Icare, émerge encore de la mer. La lecture du tableau est donnée par cette métonymie : le titre attire l'attention sur le détail et souligne l'éloignement des préoccupations humaines, très prosaïques, représentées à l'avant-plan du tableau et des grands mystères philosophiques, symboliques ou religieux.
+Les tableaux de René Magritte présentent souvent des métonymies. Dans La Belle Saison les feuilles sont une métonymie pour les arbres par exemple.
+
+Enrichissement du vocabulaire
+La métonymie permet d'attribuer des sens nouveaux aux mots et d'enrichir le vocabulaire. Désigner par le mot verre un gobelet en verre dans lequel on boit, est bien une métonymie ; le lien logique sous-entendu est l'objet pour la matière dont il est composé. Il ne s'agit plus ici d'une figure de style, car nous n'avons aucun autre mot en français pour désigner le même objet ; on parle en ce cas de catachrèse.
+À l'origine du renouvellement de certains lexèmes, constitués par métonymie, la figure est au fondement de maintes expressions quotidiennes. Lorsque l'on dit : "On boit une bonne bouteille", on emploie une relation métonymique entre le contenu de celle-ci (le vin) et le contenant (la bouteille). D'un point de vue sémantique, l'expression est fausse : on ne boit pas à proprement parler une bouteille mais ce qu'elle contient, ce qui revient à désigner le contenu, par métonymie, ou relation partie pour le tout.
+Il peut y avoir également double métonymie, signe d'une complexité lexicale certaine. Dans l'expression "C'est une fine lame", désignant un grand champion de la discipline du fleuret, il y a désignation de l'agent pour un instrument (le champion est figuré par le fleuret), de plus cet instrument est désigné par un autre mot proche : la lame qui fait référence à l'épée, sport antérieur.
+Lorsque la figure se banalise on emploie le terme de catachrèse, perçue comme un abus de langage, néanmoins à l'origine de la formation de nouveaux mots comme dans l'expression "On boit un verre" où l'objet est désigné improprement par la matière dont il est fait.
+Une métonymie courante et usée aboutit souvent à un cliché : "Deux voiles cinglaient vers le couchant" (où les "voiles" désignent des bateaux).
+La métonymie est également souvent à l'origine des néologismes populaires et des expressions dites "consacrées". Ainsi dans l'usage du terme la panacée on désigne un médicament ; la métonymie résidant dans une relation entre la qualité d'un produit idéal et un nom commun de médicament. métaphore repose sur un rapport de ressemblance entre deux réalités, or la métonymie se fonde sur un rapport de voisinage et sur un rapport de relation logique entre ces deux réalités. Par exemple, une "bouteille" ne ressemble pas à du "vin", "Paris" ne ressemble pas à ses "habitants", etc.
+Cependant, alors que la métaphore opère sur des réalités ressemblantes mais néanmoins éloignées l'une de l'autre (d'où son caractère marquant), la métonymie elle met au contraire en jeu des éléments habituellement voisins dans la langue (comme dans l'exemple ci-dessus : les habitants sont un élément de définition d'une ville par excellence). Ainsi on parle de la métonymie comme d'une figure du voisinage car elle s'appuie toujours sur une relation logique et conventionnelle entre les termes substitués (voir ci-dessous le chapitre métonymie et métaphore).
+Autre différence entre ces deux tropes : leur portée linguistique. La métonymie provient des possibilités de la langue, alors que la métaphore est une figure très personnelle, réinventée par tous et par chaque auteur au gré de sa subjectivité et de créativité. En cela, la métonymie est davantage conditionnée par la syntaxe et la sémantique, elle ne peut intervenir que sur l'axe syntagmatique (ou axe des combinaisons des mots).
+Si toutes deux opèrent un déplacement (processus qui explique leur étymologie commune), elles ne le font pas sur le même plan linguistique : "alors que la métaphore met en jeu des termes qui n'appartiennent pas au même champ sémantique, qui donc s'excluent sémantiquement l'un l'autre (...), la métonymie, elle, opère sur des termes qui s'attirent, qui offrent entre eux des combinaisons potentielles et qui présentent (...) une cohérence sémantique."
+La psychanalyse relève cette distinction formelle entre ces deux tropes ; en effet pour Jacques Lacan et, avant lui, pour Sigmund Freud, la métaphore relève de la condensation et la métonymie du déplacement. Pour Lacan par exemple : "Le moi est la métonymie du désir".
+Ainsi, les relations entre les deux tropes, leur similarité et leur différence à la fois, passionnent les chercheurs. Pour le Groupe par exemple métaphore et métonymie apparaissent comme des tropes complexes : la métaphore accouple deux synecdoques complémentaires, fonctionnant de façon inverse, et déterminant une intersection entre degré donné et degrés construits (...) Comme la métaphore, la métonymie est un trope à niveau constant, compensant les adjonctions par des suppressions et vice-versa. Mais alors que la métaphore se fonde sur une intersection, la relation entre les deux termes de la métonymie s'effectue via un ensemble les englobant tous les deux.
+A. Henry, pour sa part, relève davantage à quel point elles sont proches : Pas de métaphore qui ne soit toujours plus ou moins métonymique ; pas de métonymie qui ne soit quelque peu métaphorique (p.74)(...). La métaphore est donc fondée sur un double envisagement métonymisant, elle est la synthèse d'une double focalisation métonymisante, en court-circuit.
+Pour résoudre cette question théorique, Marc Bonhomme, dans Linguistique de la métonymie, propose le terme cotopie pour dénommer le processus linguistique qui consiste à séparer les réalités lexicales en autant de parties. Parmi ce processus il existe une possibilité de "violation des relations logico-référentielles incluses dans une cotopie", et Bonhomme l'affecte à la métonymie, qui ne peut dépasser son cadre référentiel, contrairement à la métaphore qui peut explorer d'autres univers sémantiques.
+
+Voir aussi
+
+Articles connexes: Liste des figures de style.

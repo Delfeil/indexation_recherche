@@ -1,0 +1,1 @@
+Un préfixe est un affixe qui est placé avant le thème morphologique d'un mot. Ajouter un préfixe au début d'un mot le change en un autre mot, par exemple lorsque le préfixe "mal-" est ajouté au mot heureux, il crée le mot malheureux.

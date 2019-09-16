@@ -1,0 +1,14 @@
+Roberto Busa, né le 28 novembre 1913 à Vicenza (Italie) et décédé le 9 août 2011 à Gallarate, près de Milan (Italie), est un prêtre jésuite italien, théologien thomiste, qui fut un pionnier dans l'utilisation de l'ordinateur pour l'analyse linguistique et littéraire. Il est l'auteur de l'Index thomisticus, une lemmatisation complète des oeuvres de Thomas d'Aquin.
+
+L'Index Thomisticus
+Dès 1946 Roberto Busa perçut l'intérêt de l'informatique pour son projet d'Index thomisticus. En 1949, il rencontra Thomas J. Watson, fondateur d'IBM, et le persuada de commanditer la réalisation de ce projet. Ce projet s'est étendu sur 30 ans et a débouché sur la production de 56 volumes vers la fin des années 1970. En 1989, ce matériel a été porté sur CD-ROM. En 2005, le matériel a migré sur le Web grâce au financement de la Fundación Tomás de Aquino et du CAEL. Les aspects techniques du projet ont été pris en charge par E. Alarcón et E. Bernot, en collaboration avec Busa.
+
+Oeuvre
+Le résultat du travail du père Busa et de ses continuateurs a fait l'objet d'une édition sur le Web grâce au travail de Eduardo Bernot et Enrique Alarcón. Corpus Thomisticum, les oeuvres de saint Thomas d'Aquin (118 textes, dont la Somme théologique); Moteur de recherche dans les textes de saint Thomas; Lexique thomiste biculturel.
+
+Prix Busa
+L'Alliance of Digital Humanities Organizations (en) (ADHO) attribue tous les trois ans le "Prix Busa" pour honorer une personnalité éminente dans le champ des humanités numériques. Le premier prix Busa a été attribué en 1998 à Roberto Busa lui-même. Les autres récipiendaires sont : John Burrows (Australie), 2001, New York, États-Unis ;; Susan Hockey (Royaume-Uni), 2004, Gothenburg, Suède ;; Wilhelm Ott (Allemagne), 2007, Champaign-Urbana, Illinois, États-Unis ;; Joseph Raben (États-Unis), 2010, King's College, Londres, Royaume-Uni.; Willard McCarty (Royaume-Uni), 2013, Lincoln, Nebraska, États-Unis ;.
+
+Voir aussi
+
+Article connexe: Humanités numériques.

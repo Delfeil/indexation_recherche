@@ -1,0 +1,121 @@
+Extensible Messaging and Presence Protocol (qu'on peut traduire par "protocole extensible de présence et de messagerie"), souvent abrégé en XMPP, est un ensemble de protocoles standards ouverts de l'Internet Engineering Task Force (IETF) pour la messagerie instantanée, et plus généralement une architecture décentralisée d'échange de données. XMPP est également un système de collaboration en quasi-temps-réel et d'échange multimédia via le protocole Jingle, dont la voix sur réseau IP (téléphonie sur Internet), la visioconférence et l'échange de fichiers sont des exemples d'applications.
+XMPP est constitué d'un protocole TCP-IP basé sur une architecture client-serveur permettant les échanges décentralisés de messages instantanés ou non, entre clients, au format Extensible Markup Language (XML). XMPP est en développement constant et ouvert au sein de l'IETF.
+Les serveurs peuvent être privés (en intranet) ou bien publics, c'est-à-dire reliés aux autres serveurs publics via l'Internet (comme chez Facebook). L'ensemble des serveurs publics créent, ce que l'on appelle, le réseau Jabber (ou le réseau XMPP).
+XMPP est ainsi utilisé à travers le monde par des centaines de serveurs publics et privés, et des millions d'utilisateurs. De nombreux acteurs industriels utilisent XMPP, comme Apple, Cisco, Gizmo5, GNOME, Google, IBM, Oracle Corporation, etc.
+Le protocole XMPP est séparé en deux parties différentes : Le protocole de base contient les concepts fondamentaux pour faire fonctionner une infrastructure Jabber. Il est défini par les RFC 6120, 6121, 6122 (qui remplacent depuis 2011 les 3920 et 3921), 3922 et 3923. Théoriquement, une telle infrastructure ne peut pas fonctionner sans appliquer complètement ces protocoles.; Les XMPP Extension Protocols (XEP) sont des propositions d'ajout de fonctionnalités au protocole Jabber. Les serveurs ou clients ne sont pas obligés d'adopter ces extensions. Cela peut bloquer certaines fonctionnalités entre deux utilisateurs.
+XMPP est conçu de manière plus large et ouverte que la simple messagerie instantanée populaire et propriétaire. Il est ainsi utilisé par les entreprises et administrations dans le cadre d'échanges de données entre applications (ETL, EAI, ESB) au sein des systèmes d'informations, mais aussi dans le cadre du grid computing, des notifications d'alertes ou d'informations, de la supervision système et réseau, ou le cloud computing. Enfin, XMPP est également utilisé dans le domaine du partage et de la collaboration en quasi-temps-réel comme le tableau blanc ("whiteboard") ou l'édition et le développement collaboratifs, mais aussi des jeux sur Internet (notamment les jeux de cartes et de plateau).
+
+Historique
+
+Le début : Jabber
+C'est en 1998 que Jeremie Miller a inventé Jabber, un protocole de messagerie instantanée basé sur XML. Ses travaux se sont inspirés de ICQ, créé en 1996, le premier système du genre.
+En janvier 1999, il annonce publiquement sur Slashdot "une plate-forme informatique open source complète pour la messagerie instantanée avec communication transparente vers les autres systèmes d'IM (messagerie Instantanée)". Le protocole était conçu, ainsi qu'un serveur fonctionnel (jabberd) et des clients de test (WinJab et Gabber).
+En août 1999, Jeremie Miller lance un appel à la standardisation du protocole par l'IETF afin de promouvoir les standards ouverts et l'interopérabilité. L'IMPP WG est alors créé et publie en février 2000 les RFC 2778 et 2779 mais n'atteint pas de consensus.
+Le serveur open source jabberd 1.0 est publié en mai 2000 et stabilise le protocole. En juin, Jeremie Miller publie un Internet-Draft mais le délai est dépassé. La version 1.2 de jabberd introduit le dialback qui empêche les usurpations d'identités de serveurs.
+
+La Jabber Software Foundation et la reconnaissance par l'IETF
+La Jabber Software Foundation est créée en août 2001, afin d'assurer la coordination du nombre grandissant de développeurs open source et entreprises qui adoptent les technologies Jabber ainsi que pour gérer la documentation, la création et le maintien des protocoles XML.
+En 2002, des Internet-Draft sont à nouveau soumis à l'IETF en tant que XMPP Core et XMPP IM, et un XMPP WG est créé.
+Les RFC 3920 XMPP-Core et 3921 XMPP-IM, ainsi que les RFC 3922 CPIM et 3923 E2E, sont acceptées en octobre 2004.
+La JSF devient en 2007 la XSF pour XMPP Standards Foundation, et propose des services d'autorité intermédiaire de certification TLS-SSL.
+
+L'adoption par les acteurs d'Internet
+
+Apple en 2005
+Apple introduit le support de Jabber dans son logiciel de messagerie iChat livré avec OS X Tiger en mai 2005.
+
+Google de 2005 à 2013
+L'entreprise Google publie Google Talk en août 2005, un client XMPP propriétaire lié aux serveurs de Google. Ce client apporte la voix (téléphonie sur Internet) par le protocole Jingle, dont les spécifications sont publiées avec la bibliothèque libjingle. La JSF prend alors en charge sa standardisation. Quelques mois plus tard, ces serveurs sont ouverts au réseau Jabber. En mai 2013, Google annonce son intention d'abandonner XMPP au profit du protocole propriétaire Google+ Hangouts.
+
+Facebook de 2008 à 2015
+En mai 2008, les développeurs de Facebook annoncent le support de XMPP pour leur application de chat. La mise en place sera effective le 10 février 2010, cependant le serveur n'est pas raccordé au reste du réseau Jabber. En juillet 2015, Facebook supprime le support de XMPP, obligeant à passer par sa propre API.
+
+Tests de ICQ-AIM et Yahoo!
+En janvier 2008, AOL, alors fournisseur des logiciels de messagerie instantanée ICQ et AIM (compatibles et basés sur le protocole OSCAR), met en place un serveur expérimental permettant de se connecter via XMPP. C'est donc une base de plus de 50 millions d'utilisateurs qui vient agrandir le réseau Jabber. En février 2008, Yahoo!, propriétaire de Yahoo! Messenger, annonce également s'intéresser à XMPP. Depuis, les serveurs peuvent se connecter aux autres serveurs XMPP
+
+Skype en 2011
+En juin 2011, Skype annonce la création d'un connecteur XMPP sur la version Windows de leur logiciel client en développement. Toutefois, l'utilisation est limitée au texte et pas à la vidéo-audio. Cette intégration semblait avoir pour objectif de se connecter à Facebook qui utilisait XMPP.
+
+MSN en 2011
+En septembre 2011, Microsoft annonce que MSN (appelé aussi Windows Live Messenger) va proposer un moyen de se connecter à leur messagerie instantanée via le protocole XMPP à l'aide du système authentification OAuth dans l'optique de son nouveau système d'exploitation Windows 8 et surtout des services en lignes qui y seront associés. Toutefois, l'intégration se fera qu'au niveau client-serveur, interdisant les personnes présentes sur d'autres domaines XMPP (comme gmail.com ou jabber.org) d'interagir avec eux, les spécifications retenues étant peu nombreuses.
+Cette annonce a été vite suivie d'intégration dans les clients de messagerie alternatifs supportant plusieurs protocoles
+Il peut être intéressant de relever que Microsoft a des parts dans Facebook et a racheté Skype en mai 2011
+
+Rachat de la société Jabber Inc.
+En septembre 2008, Cisco annonce un accord de rachat de la société Jabber Inc.. Ni XSF, la fondation à but non lucratif, ni le protocole XMPP ne sont concernés par ce rachat.
+
+XMPP et Jabber
+Logo officiel de la messagerie instantanée Jabber.
+XMPP est le coeur de Jabber ; XMPP est à Jabber ce que le HTTP est au Web.
+Le protocole est maintenu par la XMPP Standards Foundation (ancienne Jabber Software Foundation) et est standardisé par l'IETF sous le nom XMPP.
+
+Applications Jabber
+Le logiciel libre Gossip utilise Jabber.
+Jeremie Miller a mis le projet sur pied en 1998 et la première version publique est sortie en mai 2000. La principale production du projet est jabberd, un serveur libre permettant aux logiciels clients de se connecter pour discuter. Ce serveur permet soit de créer un réseau Jabber privé (derrière un pare-feu), soit de rejoindre d'autres serveurs publics fédérés sur Internet, pour dialoguer en ligne avec ses correspondants.
+De très nombreuses applications Jabber peuvent être créées : messagerie instantanée et présence; notifications; diffusion par push; transferts de fichiers; travail collaboratif en temps-réel; échange de données; jeux en ligne.
+Grâce à Jingle, extension multimédia de XMPP, il est possible d'étendre les flux à tout contenu binaire : téléphonie sur Internet, visioconférence, etc.
+
+Fonctionnement
+Le réseau des utilisateurs de Jabber est décentralisé, c'est-à-dire qu'il est composé de plusieurs serveurs, reliés entre eux. Il fonctionne de manière similaire à celle du courrier électronique : les messages instantanés sont transférés d'un utilisateur à l'autre par l'entremise de leur serveur respectif. Autre similarité, un utilisateur est identifié par un nom d'utilisateur et un nom de serveur, les deux champs étant séparés par un arrobe "@" (arobas ou encore "at"). Cet identifiant est appelé Jabber ID ou plus simplement "adresse Jabber".
+Par exemple, si un utilisateur bob@jabber.org souhaite communiquer avec gilles@jabber.cz, le logiciel client de Bob commence par envoyer son message à son serveur (jabber.org). Ensuite, le serveur de Bob contactera le serveur de Gilles (jabber.cz) via Internet et lui transférera le message. Enfin, le serveur jabber.cz pourra contacter le logiciel client de Gilles, s'il est en ligne et lui communiquer le message (sinon le message sera conservé en attente sur le serveur et délivré lorsque Gilles sera en ligne). Évidemment, toutes ces étapes se font de manière instantanée et transparente pour l'utilisateur, comme pour les courriers électroniques.
+Bob. jabber.org. Internet. jabber.cz. Gilles
+Adresses Jabber
+Une "adresse Jabber" est l'identifiant d'un utilisateur de Jabber.
+Elle est composée de deux ou trois parties : un nom d'utilisateur (unique sur un serveur) ;; un nom de serveur ;; une ressource (optionnelle) qui peut changer.
+Ces deux ou trois champs sont présentés sous la forme utilisateur@serveur-ressource ou bien plus simplement en utilisateur@serveur, comme une adresse de courrier électronique.
+Par exemple, l'usager bob sur le serveur jabber.org utilisant la ressource Travail aura l'adresse Jabber suivante : bob@jabber.org-Travail ou plus simplement bob@jabber.org, comme une adresse de courrier électronique.
+La liste des contacts d'un utilisateur Jabber est stockée sur le serveur. Un utilisateur retrouvera sa liste de contacts s'il se connecte à Jabber sur d'autres postes de travail ou avec d'autres clients.
+
+Présence et états
+Lorsqu'un client Jabber se connecte (ou se déconnecte) à un serveur, ce dernier annonce automatiquement la présence en ligne (respectivement la déconnexion) de l'utilisateur à l'ensemble de ses contacts.
+Il est également possible de se rendre "invisible" : l'utilisateur apparaît alors déconnecté aux yeux de ses correspondants, alors que lui peut voir les notifications de présence de ses contacts.
+Il existe plusieurs états de présence : "en ligne", "déconnecté", "absent", etc.
+
+Ressources et priorités
+La ressource est une partie optionnelle d'une adresse Jabber. C'est le dernier champ de celle-ci, séparé des autres par une barre oblique ("-").
+Une ressource, librement paramétrable par l'utilisateur dans son logiciel client, indique généralement l'endroit où un utilisateur de Jabber est situé. Par exemple, les valeurs Maison, Travail, Laptop ou bien Logiciel sont courantes. La ressource devient utile lorsqu'un utilisateur se connecte de plusieurs endroits ou avec plusieurs clients au même moment. Ses contacts ont alors le choix de lui envoyer un message à l'une ou l'autre de ses ressources, ou bien à celle par défaut, c'est-à-dire celle ayant la plus haute priorité. Si plusieurs ressources connectées au même moment ont des priorités égales, alors le message est adressé à la dernière ressource connectée.
+La priorité est un entier compris entre - 128 et +127. Elle est optionnelle et configurable dans la plupart des clients Jabber. En cas d'absence, le serveur considère sa priorité comme étant égale à 0. Sa principale utilité est pour la livraison de message destiné à une adresse Jabber sans ressource.
+
+Transports
+Le client Jabber libre Gajim.
+De nombreux serveurs Jabber offrent un service de transports (également appelés passerelles) permettant à l'utilisateur de dialoguer avec les utilisateurs d'autres systèmes de messagerie instantanée.
+L'utilisateur peut s'enregistrer à ces transports en fournissant ses informations spécifiques au réseau cible (par exemple, pour ICQ, il faut fournir l'UIN (User Identification Name) et le mot de passe). Une fois cette opération effectuée, l'utilisateur peut ajouter des contacts utilisant cet autre réseau comme il le ferait pour un contact utilisant Jabber. À l'heure actuelle, des transports sont disponibles pour les protocoles les plus utilisés, comme IRC, MSN Messenger, Yahoo! Messenger et ICQ-AOL Instant Messenger (AIM). Il existe également d'autres transports comme les services de courrier électronique.
+En utilisant un transport, l'utilisateur se limite aux capacités du client et du transport utilisés ; il n'aura probablement pas toutes les fonctions du client officiel du réseau cible.
+Les contacts des autres réseaux apparaissent dans la liste de contacts comme des contacts Jabber avec des adresses Jabber particulières : identifiant@transport. Ainsi, par exemple : un contact ICQ d'UIN 12345678 sur le transport icq2.fritalk.com devient 12345678@icq2.fritalk.com,; un contact Yahoo! Messenger d'identifiant Blanche-Marie.Michu sur le transport yahoo.amessage.info devient Blanche-Marie.Michu@yahoo.amessage.info,; un contact MSN Messenger d'adresse Marie-Blanche.Michu@hotmail.com sur le transport msn.3gnt.org devient Marie-Blanche.Michu%hotmail.com@msn.3gnt.org (le "@" est transformé en "%").
+Toutefois, certaines compagnies gérant ces protocoles et services propriétaires bloquent ou ont bloqué l'accès aux serveurs Jabber importants, tel que jabber.org et jabber.com, sur leur réseau. Ceci rend donc impossible l'utilisation des transports concernés sur ces serveurs. Certaines entreprises ont aussi modifié leur protocole, selon certains dans le but de contrer l'utilisation de leur réseau par des clients alternatifs ou par des transports Jabber.
+
+Groupes de discussion
+Le client Jabber libre Spark.
+Les groupes de discussion ou conférences ("MUC" pour "Multi User Chat" ou encore "groupchat") permettent de créer des conversations à plus de deux utilisateurs, à l'image des canaux IRC.
+Il est possible de créer des groupes publics ou privés, d'inviter des contacts à un groupe, de modérer des groupes ("kick" et "ban" comme sur IRC), journaliser les discussions et rendre la salle persistante.
+
+Transferts de fichiers
+Jabber permet de transférer des fichiers directement entre utilisateurs, ou en utilisant un proxy intermédiaire, avec la possibilité d'interrompre et de reprendre le transfert.
+
+Jingle
+Jingle permet les sessions de voix sur réseau IP et de visioconférence. Jingle est intégré dans plusieurs clients Jabber tels que Psi, Kopete, Spark et Pidgin depuis 2008. Il a été utilisé par Google Talk entre 2006 et 2007.
+
+Publication-souscription
+Un mécanisme de publication-souscription ("publish-subscribe") est en cours de développement et standardisation, XEP-0060 il s'agit d'avoir la capacité de diffuser et stocker de l'information sur les serveurs Jabber, ainsi que de s'abonner à ces fils d'informations.
+Ce mécanisme peut, entre autres, permettre de mettre en place des publications de brèves et articles, des abonnements à ces fils, de la présence étendue, des marque-pages partagés, des systèmes d'enchères et d'échanges, des catalogues en ligne, des systèmes de workflow, des notifications d'évènement...
+
+Présence étendue
+Un mécanisme de présence étendue est en cours de développement et standardisation , il s'agit d'avoir la capacité de diffuser des informations dynamiques liées à l'état de l'utilisateur, à savoir son humeur, son activité, sa géolocalisation, sa musique en cours d'écoute, son profil, son surnom, sa navigation web, ses discussions de groupe, ses jeux, ses vidéos en cours de visualisation, et certainement bien d'autres à venir.
+La présence étendue repose sur une simplification et spécialisation du mécanisme de publication-souscription.
+
+Applications
+Jingle, grâce à sa conception large, son évolutivité et sa standardisation, offre un large spectre d'applications : discussion en ligne un à un (chat, clavardage), présence et discussion de groupe (groupchat); VoIP et visioconférence ou plus généralement initialisation de sessions multimédia; notifications et alertes; middleware comme les ETL, EAI et ESB; applications d'édition collaborative en quasi-temps-réel comme les documents de bureautique (textes structurés, graphiques vectoriels, feuilles de calcul, présentation, etc.); contrôle à distance; monitoring et supervision; réseaux sociaux; jeux en ligne.
+
+Standard ouvert, norme
+Le protocole XMPP (Jabber) a été publié comme une ébauche ("draft") par l'IETF, pour qu'il puisse devenir un standard de messagerie instantanée.
+En 2002, le groupe XMPP a été formé et a travaillé sur la standardisation du protocole. C'est ainsi que le 4 octobre 2005, les spécifications du protocole ont été publiées en tant que RFC. Depuis cette date, la XMPP Standards Foundation a cédé le contrôle de ses principales technologies à l'IETF tout en continuant à développer de nombreuses extensions au protocole (série de XEP).
+
+Avantages et inconvénients
+
+Avantages: Libre : les protocoles et documents officiels sont détaillés et accessibles à tous en téléchargement; Standard : l'IETF a normalisé les bases du protocole (XMPP) et son évolution continue par ses extensions avec la XMPP Standards Foundation; Décentralisé : comme le courrier électronique, les services Jabber ne dépendent pas d'un seul point d'accès.; Sécurisé : la communication entre le client et le serveur peut être chiffrée à la demande du client et la communication entre serveurs est chiffrée; Extensible : il est possible de créer et documenter des extensions du protocole par les "XEP"; Flexible : Jabber est également utilisé dans de nombreuses autres applications que le simple chat : communication inter-applicative, collaboration quasi-temps-réel, supervision, diffusion de messages, etc.; Confidentialité : XMPP autorise le chiffrement OMEMO, OpenPGP ou les protocoles OTR, S-MIME et ZRTP, les serveurs intermédiaires ne peuvent alors pas observer le contenu des messages. Pour éviter les attaques de l'attaque de l'homme du milieu, il est recommandé de chiffrer les connexions vers les serveurs. L'adresse IP ne peut pas être dévoilée si l'utilisateur de cette adresse IP ne vous a pas accepté dans sa liste de contacts. Les informations sur un contact où les messages ne peuvent pas être échangés tant que les deux interlocuteurs n'ont pas confirmé l'ajout de l'autre dans sa liste de contact: ce qui limite le spam.; Adoption : XMPP est adopté par des grands noms : Google, IBM, Sun, France Telecom , SkyRock, Wengo, Nokia, Apple, Adobe, Process One, Jive Software, etc.
+
+Inconvénients: Effet réseau : les principaux systèmes de messagerie instantanée existants (MSN, AIM, Yahoo...) sont non interopérables, et leur effet réseau rend difficile la migration des utilisateurs à un autre système. Jabber est lui-même peu connu du grand public, et ne dispose pas de son propre effet réseau.; Audio et visio conférence : XMPP a été conçu comme un système de messagerie instantanée et de présence, transportant du texte structuré sous forme de flux XML. Après diverses tentatives, notamment avec le protocole de voix sur réseau IP SIP, la communauté XMPP s'est arrêtée en 2005 sur le protocole Jingle. La plupart des développeurs de clients XMPP attendaient une version finale de Jingle avant de vraiment commencer l'implémentation de ce protocole ce qui explique qu'à ce jour, peu de clients proposent la fonctionnalité de VoIP. Cependant, beaucoup de logiciels ont une version de développement avec la prise en charge de Jingle.
+
+Voir aussi
+
+Articles connexes: Jabber Inc.; Liste de clients XMPP; Liste de logiciels serveurs XMPP; Format ouvert; Interopérabilité en informatique.

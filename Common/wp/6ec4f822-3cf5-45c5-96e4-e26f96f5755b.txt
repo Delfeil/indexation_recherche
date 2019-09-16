@@ -1,0 +1,26 @@
+La reconnaissance d'entités nommées est une sous-tâche de l'activité d'extraction d'information dans des corpus documentaires. Elle consiste à rechercher des objets textuels (c'est-à-dire un mot, ou un groupe de mots) catégorisables dans des classes telles que noms de personnes, noms d'organisations ou d'entreprises, noms de lieux, quantités, distances, valeurs, dates, etc.
+
+Principe
+À titre d'exemple, on pourrait donner le texte qui suit, étiqueté par un système de reconnaissance d'entités nommées utilisé lors de la campagne d'évaluation MUC: Henri a acheté 300 actions de la société AMD en 2006; ENAMEX TYPE-"PERSON"Henri-ENAMEX a acheté NUMEX TYPE-"QUANTITY"300-NUMEX actions de la société ENAMEX TYPE-"ORGANIZATION"AMD-ENAMEX en TIMEX TYPE-"DATE"2006-TIMEX.
+Le texte de cet exemple est étiqueté avec des balises XML, respectant le standard d'étiquetage ENAMEX.
+La plupart des systèmes d'étiquetages utilisent des grammaires formelles associées à des modèles statistiques, éventuellement complétées par des bases de données (listes de prénoms, de noms de villes ou de pays par exemple). Dans les grandes campagnes d'évaluation, les systèmes à bases de grammaires rédigées manuellement obtiennent les meilleurs résultats. L'inconvénient est que les systèmes de ce type requièrent parfois des mois de travail de rédaction.
+Les systèmes statistiques actuels utilisent pour leur part une grande quantité de données pré-annotées pour apprendre les formes possibles des entités nommées. Il n'est plus nécessaire ici de rédiger de nombreuses règles à la main, mais d'étiqueter un corpus qui servira d'outil d'apprentissage. Ces systèmes sont donc eux aussi très coûteux en temps humain. Pour résoudre ce problème, récemment, des initiatives telles que DBpedia ou Yago cherchent à fournir des corpus sémantiques susceptibles d'aider à concevoir des outils d'étiquetage. Dans le même esprit, certaines ontologies sémantiques telles que NLGbAse sont largement orientées vers l'étiquetage.
+Depuis 1998, l'annotation des entités nommées dans des textes rencontre un intérêt croissant. De nombreuses applications y font appel, pour la recherche d'information ou plus généralement la compréhension de documents textuels. En France, des programmes de recherche y ont été dédiés, comme ESTER et plus récemment ETAPE. L'extension des entités nommées à diverses expressions linguistiques (hors noms propres) en fait un champ actif de recherches.
+
+Normes d'étiquetage
+Il n'existe pas à proprement parler de normes d'étiquetage. Les étiquettes sont largement orientées en fonction du besoin applicatif : on retrouvera généralement les classes d'étiquettes racines de type Personne, Organisation, Produit, Lieux, auxquelles s'ajoutent les étiquettes des durée et de quantité (time et amount).
+Un second niveau hiérarchique est ensuite adjoint à ces entités racine : Organisation.Commerciale et Organisation.Non-profit par exemple, permettent d'affiner la description des entités.
+Dans les campagnes récentes (Ester 2 et Automatic Content Extraction (ACE) on trouve 5 à 6 classes racines, et un total de 40 à 50 classes avec les sous-sections d'étiquetage. Certains systèmes de moteurs de question réponse (qui utilisent les entités nommées) peuvent recourir à plusieurs centaines de classes.
+
+Évaluation
+L'évaluation des systèmes est réalisée dans le cadre de campagnes scientifiques majoritairement Nord Américaines. On citera la Message Understanting Conference, la campagne Automatic Content Extraction (ACE) organisées par le NIST, et les campagnes DUC en Europe.
+En France, la campagne de référence est la campagne scientifique ESTER: les éditions 1 et 2 de ces campagnes comportent des sections relatives aux entités nommées. Elles ont pour particularité de proposer un étiquetage en partie sur des sorties de systèmes de transcription audio en text (Broadcat News) bruitées et non préparées. La tâche est donc plus complexe puisqu'un certain nombre d'éléments (les majuscules des noms propres par exemple) n'existent plus et ne peuvent donc plus être utilisés pour repérer des entités.
+Le principe de ces campagnes est de fournir un corpus d'entraînement pour adapter le système à la tâche d'étiquetage, et un corpus de test pour mesurer ses performances. Dans ces campagnes, les systèmes obtiennent régulièrement des scores F-Mesure (voir Précision et rappel) supérieurs à 90 % (de l'ordre de 95 % lors des campagnes récentes), alors que les annotateurs humains obtiennent des scores supérieurs ou proches de 97 %.
+On doit néanmoins considérer ce niveau de performance avec recul : les tâches d'évaluation proposées sont fermées et spécialisées. Les systèmes d'étiquetage automatisés et capables d'étiqueter avec fiabilité n'importe quel corpus avec un faible temps d'apprentissage et d'intervention humaine restent à inventer.
+Dans des conditions ouvertes (n'importe quel document fourni à un étiqueteur sans apprentissage), les meilleurs systèmes sont rarement au-dessus de 50 % de performances.
+
+Voir aussi
+
+Articles connexes: Text REtrieval Conference (TREC); Campagne ESTER 1 et 2; Annotation Sémantique; Onomastique.
+
+Liens Internes: Campagnes d'évaluation: LREC; Évaluation des systèmes de transcription enrichie d'émissions radiophoniques.

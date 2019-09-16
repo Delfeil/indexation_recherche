@@ -1,0 +1,30 @@
+Andreï Nikolaïevitch Kolmogorov (en russe : 25 avril 1903 à Tambov - 20 octobre 1987 à Moscou) est un mathématicien soviétique et russe dont les apports en mathématiques sont considérables.
+
+Biographie
+
+Enfance
+Kolmogorov est né à Tambov en 1903. Sa mère célibataire, Mariya Yakovlena Kolmogorova (1871-1903), meurt à sa naissance et il est élevé par sa tante à Tounochna, près de Iaroslavl, sur la propriété de son grand-père, un homme noble et prospère. Son père Nikolai Matveevich Kataev, un agronome de profession, est déporté de Saint-Pétersbourg pour sa participation au mouvement révolutionnaire. Il disparaît, probablement tué pendant la Guerre civile russe en 1919.
+Kolmogorov est scolarisé à l'école du village de sa tante, et ses premiers efforts littéraires et articles mathématiques sont imprimés dans le journal de l'école. Adolescent, il conçoit des machines à mouvement perpétuel, cachant tellement bien leurs défauts intrinsèques que ses professeurs d'enseignement secondaire n'arrivent pas à les découvrir. En 1910, sa tante l'adopte et ils s'installent à Moscou, où il intègre un Gymnasium, interrompant ses études quelque temps pour fabriquer un chemin de fer et être conducteur de train.
+
+Études et premiers résultats
+Après avoir terminé ses études secondaires en 1920, il suit les cours à l'Université de Moscou et à l'institut Mendeleïev. Il étudie non seulement les mathématiques, mais aussi l'histoire russe et la métallurgie.
+En 1922, Kolmogorov publie ses premiers résultats concernant la théorie des ensembles et, en 1923, ses travaux concernant l'analyse de Fourier et commence à devenir connu à l'étranger. Il publie ses travaux sur la théorie de l'intégration, sur l'analyse de Fourier et pour la première fois sur la théorie des probabilités.
+Après la fin de ses études supérieures en 1925, il commence son doctorat auprès de Nikolaï Louzine, qu'il termine en 1929.
+
+Carrière
+Au cours de voyages sur la Volga et dans le Caucase, il se lie d'amitié avec Pavel Aleksandrov avec lequel il entreprend en 1930 et 1931 un voyage d'études à Göttingen, à Munich et à Paris. En 1931, il reçoit une chaire de professeur à l'université de Moscou.
+En 1933, paraît en allemand son manuel des Fondements de la théorie des probabilités ((de) Grundbegriffe der Wahrscheinlichkeitsrechnung), dans lequel il présente son axiomatisation du calcul des probabilités, qui allait apporter des éléments au sixième problème de Hilbert, ainsi qu'une manière adaptée à traiter les processus stochastiques. La même année, il devient directeur de l'Institut de mathématiques de l'université de Moscou.
+En 1934, il publie son travail sur la cohomologie (concept de la topologie) et obtient, grâce à cette thèse, le titre de docteur en mathématique et en physique. Élu à l'Académie des sciences de l'URSS en 1939, il obtient des récompenses des autorités soviétiques, comme l'Ordre de la science socialiste (1940), le prix Staline (1941) et sept fois l'ordre de Lénine. En 1953 et 1954, il décrit la théorie KAM (Kolmogorov-Arnold-Moser) des systèmes dynamiques. Il introduit également la notion d'entropie métrique pour les systèmes dynamiques mesurés.
+Après la mort de Joseph Staline, la cybernétique, science venue de l'Ouest, devient possible avec la déstalinisation progressive et se révèle fondamentale dans le développement du programme spatial russe. Alors que le mathématicien américain Claude Shannon insiste sur la notion d'entropie, Kolmogorov et Alexandre Khintchine concentrent leurs activités sur la théorie de l'information, vue comme une partie du calcul des probabilités.
+En 1955, il devient docteur honoris causa de la Sorbonne. En 1962, il reçoit le prix Balzan pour les mathématiques.
+Le 15 février 1974 dans la Pravda, Kolmogorov cosigne avec son compagnon Aleksandrov un article intitulé "La trahison ne se pardonne pas" dans lequel ils félicitent le Praesidium du Soviet suprême d'avoir déchu Alexandre Soljenitsyne de la nationalité soviétique. Dans les dernières années de sa vie, il s'implique dans la rénovation des programmes scolaires de mathématiques. Atteint de la maladie de Parkinson, il meurt à Moscou en 1987. Il est enterré au cimetière de Novodevitchi.
+
+Travaux
+Il a fait des avancées significatives dans des domaines aussi variés que : la formalisation de la théorie des probabilités,; la théorie algorithmique de l'information,; les systèmes dynamiques, dont le théorème KAM dans les années 1950,; la topologie.
+Il a d'abord travaillé sur la logique intuitionniste et les séries de Fourier. Il a aussi étudié la turbulence et la mécanique classique.
+Kolmogorov a résolu en partie les sixième et treizième problèmes de David Hilbert.
+Par ailleurs, il a encadré la thèse de Iakov Sinaï, lauréat du prix Abel en 2014.
+
+Voir aussi
+
+Articles connexes: Axiomes de Kolmogorov; Complexité de Kolmogorov; Critère de Kolmogorov (en); Dimension de Kolmogorov; Enstrophie; Entropie métrique; Équation de Chapman-Kolmogorov; Espace de Kolmogorov; Inégalité de Kolmogorov; Loi forte des grands nombres; Loi du zéro un de Kolmogorov; Problèmes de Hilbert; Test de Kolmogorov-Smirnov; Théorème KAM (de Kolmogorov, Arnold et Moser); Théorème de Kolmogorov-Sinai.

@@ -1,0 +1,27 @@
+La recherche d'image par le contenu (en anglais : content-based image retrieval ou CBIR) est une technique permettant de rechercher des images à partir de ses caractéristiques visuelles, c'est-à-dire induite de leurs pixels. Les images sont classiquement décrites comme rendant compte de leur texture, couleur, forme. Un cas typique d'utilisation est la recherche par l'exemple où l'on souhaite retrouver des images visuellement similaire à un exemple donné en requête. Il s'oppose à la recherche d'images par mots clés ou tags, qui fut historiquement proposé par les moteurs de recherche tels que Google Image grâce à des banques d'images où les images sont retrouvées en utilisant le texte qui les accompagne plutôt que le contenu de l'image elle-même (Google Image propose désormais des filtres basés sur le contenu (pixels) des images).
+
+Principes
+Principe général de la recherche d'images par le contenu.
+Le principe général de la recherche d'image par le contenu comporte deux étapes. Lors d'une première phase hors ligne (étape d'indexation), on calcule les signatures des images et on les stocke dans une base de données. La seconde phase, dite de recherche se déroule en ligne. L'utilisateur soumet une image comme requête. Le système calcule la signature selon le même mode que lors de la première phase d'indexation. Ainsi, cette signature est comparée à l'ensemble des signatures préalablement stockées pour en ramener les images les plus semblables à la requête.
+Lors de la phase d'indexation, le calcul de signature consiste en l'extraction de caractéristiques visuelles des images telles que: la texture (filtre de Gabor, transformée en ondelettes discrète...); la couleur (histogramme de couleurs, histogrammes dans l'espace RGB, TSV,..),; les formes (descripteurs de Fourier,...),; une combinaison de plusieurs de ces caractéristiques.
+Ces caractéristiques sont dites de bas-niveau, car elles sont très proches du signal, et ne véhiculent pas de sémantique particulière sur l'image.
+Une fois ces caractéristiques extraites, la comparaison consiste généralement à définir diverses distances entre ces caractéristiques, et de définir une mesure de similarité globales entre deux images. Au moyen de cette mesure de similarité et d'une image requête, on peut alors calculer l'ensemble des mesures de similarités entre cette image requête et l'ensemble des images de la base d'images. On peut alors ordonner les images de la base suivant leur score, et présenter le résultat à l'utilisateur, les images de plus grand score étant considérées comme les plus similaires.
+Ce genre de système ne nécessite pas forcément une image requête pour rechercher d'autres images. Par exemple, il est possible de rechercher des images plutôt bleues, ou alors de dessiner une forme et demander de chercher toutes les images qui possèdent un objet de forme similaire.
+
+Performances
+Il convient de distinguer les performances en termes de pertinence (les résultats répondent-ils bien à la requête La totalité des "bonnes réponses" possibles est-elle bien renvoyée...) et le temps de réponse à la requête.
+
+Pertinence
+Du fait des caractéristiques calculées, qui sont de bas niveau, ces techniques obtiennent des résultats satisfaisants pour certains types de requêtes et certains types de base d'images. Par exemple rechercher des images de paysages enneigés, parmi une base d'image de paysages.
+Toutefois ces systèmes peuvent rendre des réponses extravagantes, et parfois éloignées de l'idée qu'avait l'utilisateur lorsqu'il a soumis sa requête.
+
+Rapidité
+L'analyse des images se fait généralement "hors ligne" et n'est donc pas un problème en soi pour la rapidité de réponse du système "en ligne". C'est la manière de stocker les signatures, et éventuellement leur taille, qui influence directement le temps de réponse des systèmes CBIR.
+
+Applications
+Cette technologie s'est développée dans les années 90 pour la recherche de données dans les secteurs industriels, l'imagerie médicale ou cartographiques. Elle a donné lieu à de nombreux programmes et produits de la recherche. La reconnaissance faciale est utilisée par exemple par Interpol ou Europol pour rechercher les criminels. Cela peut également servir au filtrage des images pornographiques ou pédopornographiques. L'application la plus mature à la fin des années 2000 est la recherche de copie, utilisée dans la lutte contre la contrefaçon.
+Dans le monde du Web, les applications de recherche se développent associant la recherche par le contenu visuel et textuel.
+
+Voir aussi
+
+Articles connexes: Vision par ordinateur; Recherche d'information; Moteur de recherche; Liste de moteurs de recherche d'images; Extraction de caractéristique en vision par ordinateur; Base de données multimédia.

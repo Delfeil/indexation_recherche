@@ -1,0 +1,15 @@
+Le bombardement Google (anglais : Google bombing) (ou bombardement de Google) est une technique de référencement visant à influencer le classement d'une page dans les résultats du moteur de recherche Google. Elle exploite une caractéristique de l'algorithme PageRank qui accorde un certain poids au texte ayant un hyperlien vers une page.
+
+Mode opératoire
+Si plusieurs sites utilisent le même texte pour pointer sur la même cible, Google additionne ce poids et il devient possible de faire apparaître la page cible dans les résultats d'une recherche sur le texte contenu dans les liens pointant vers elle. Par exemple, si une personne enregistre de nombreux noms de domaine, puis les fait pointer vers un même site en utilisant le même texte : "... est une légende vivante", toutes les personnes recherchant le texte "légende vivante" verront le site visé, même si ce texte n'y apparaît pas.
+Ce comportement du moteur Google a été exploité principalement au sein des réseaux informels d'auteurs de blogs pour agir collectivement sur le classement d'un site. Selon des résultats empiriques, une poignée de blogs seulement serait nécessaire pour réaliser un bombardement Google. Son efficacité augmente avec le nombre croissant de sites qui publient ou dissimulent l'expression à détourner.
+Ce phénomène ne relève ni du piratage ni d'une quelconque faille, il exploite la manière dont Google organise les résultats de recherche sur ses pages.
+La technique a été la première fois détaillée le 6 avril 2001 dans un article d'Adam Mathes (L'expression "Google bombing" a été introduite dans le New Oxford American Dictionary en mai 2005), puis utilisée à maintes reprises à des fins ludiques, politiques et économiques par des internautes.
+Mais certains utilisateurs voyaient dans ces bombardements l'opinion personnelle de la société ou d'un de ses employés. C'est pourquoi, le 25 janvier 2007, la société a mis en place un nouvel algorithme pour limiter cette pratique qui prenait de l'ampleur. Quand il détecte un bombardement, celui-ci propose des liens ayant un rapport avec cette technique plutôt que le site original. Si l'algorithme fonctionne pour les exemples les plus célèbres, certains mots-clés renvoient toujours aux pages humoristiquement ciblées.
+Bien que nommée ainsi, la technique de bombardement Google est également observable sur d'autres moteurs de recherche tels que Yahoo! et Bing.
+Les meilleurs résultats sont obtenus en employant le bouton "J'ai de la chance" de l'interface du moteur Google qui oriente automatiquement l'utilisateur vers le premier résultat.
+Google avait par ailleurs fait savoir dans un communiqué de presse datant du 22 juillet 2009 qu'il n'était pas responsable de ces erreurs. Selon ses porte-paroles, il ne semble pas évident pour Google de parvenir à désamorcer cette technique sans pour autant compromettre le fonctionnement automatique et "impartial" de son moteur.
+
+Voir aussi
+
+Articles connexes: Google; J'ai de la chance; Moteur de recherche. Portail de la sécurité informatique; Portail de Google; Portail d'Internet.

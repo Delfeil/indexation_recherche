@@ -1,0 +1,8 @@
+S est un langage de programmation de très haut niveau et un environnement d'analyse des données et des graphiques conçu dans les années 1975-1976 par John Chambers. En 1998, l'ACM offre son prix d'excellence logicielle à John Chambers pour "le système S, lequel a changé à jamais la façon dont les gens analysent, visualisent et manipulent les données".
+Les deux interpréteurs modernes de S sont R et S-PLUS.
+
+Historique
+Une première version du langage est distribuée par les laboratoires Bell en 1980, et le code source disponible en 1981. Les deux ouvrages publiés en 1984 et 1985 par John Chambers et Richard Becker témoignent de la popularité du langage. Le code source est alors distribué par ATT selon les termes d'une licence propriétaire.
+Les dépôts de l'Université Carnegie-Mellon disposent d'une quantité importante de contributions de code pour S.
+
+Voir aussi: R (langage). Portail de la programmation informatique; Portail des probabilités et de la statistique.

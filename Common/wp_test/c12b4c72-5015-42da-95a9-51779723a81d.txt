@@ -1,0 +1,34 @@
+Le World Wide Web Consortium, abrégé par le sigle W3C, est un organisme de standardisation à but non lucratif, fondé en octobre 1994 chargé de promouvoir la compatibilité des technologies du World Wide Web telles que HTML5, HTML, XHTML, XML, RDF, SPARQL, CSS, XSL, PNG, SVG et SOAP. Fonctionnant comme un consortium international, il regroupe au 26 février 2013, 383 entreprises partenaires.
+Le leitmotiv du W3C est "Un seul web partout et pour tous".
+
+Historique de l'organisme
+Logo du HTML5, une des technologies standardisées par le W3C
+Le W3C a été fondé par Tim Berners-Lee après avoir quitté le CERN en octobre 1994. Le W3C a été fondé par le MIT-LCS (Massachusetts Institute of Technology - Laboratory for Computer Science) avec le soutien de l'organisme de défense américain DARPA.
+En avril 1995 l'Institut national de recherche en informatique et en automatique (INRIA), avec le soutien de la commission européenne, accueille la partie européenne du W3C, tandis que l'université Keiō, au Japon, héberge le W3C en Asie à partir de septembre 1996. Le W3C a créé de nombreux bureaux régionaux dans le monde dont la mission est de servir de point de contact local, et de diffuser les spécifications du W3C. En octobre 2007 on compte 16 bureaux du W3C dans les différentes régions du monde qui couvrent l'Australie, le Luxembourg, la Belgique, les Pays-Bas, la Chine, l'Allemagne, la Finlande, la Grèce, la Hongrie, l'Inde, l'Irlande, Israël, l'Italie, le Maroc, la Corée, l'Afrique du Sud, l'Espagne, la Suède, et le Royaume-Uni. En janvier 2003, le consortium ERCIM prend le relais de l'INRIA pour héberger la partie européenne du W3C. Le W3C est supervisé par son fondateur Tim Berners-Lee, l'inventeur du Web et le principal créateur du système d'adressage URL, du protocole HTTP, et du langage HTML.
+En 2009, Tim Berners-Lee crée une fondation indépendante du W3C, baptisée "World Wide Web Foundation (en)" dans le but d'étendre le Web aux pays en voie de développement et de garantir un Web ouvert, utilisable par tous.
+
+Structure et fonctionnement
+
+Gestion
+Sa gestion est assurée conjointement par le MIT aux États-Unis, l'ERCIM en Europe (dont l'INRIA en France), l'université Keio au Japon et l'université Beihang en Chine.
+Le 8 mars 2010, Jeffrey Jaffe (précédemment CTO de Novell) devient le nouveau CEO du W3C. Auparavant, le CEO était Steve Bratt (en) (maintenant CEO de la World Wide Web Foundation) et avant ce dernier, Jean-François Abramatic était chairman du W3C.
+
+Employés
+Le W3C a environ une centaine d'employés comprenant des personnes responsables des groupes de travail, du personnel administratif, des administrateurs systèmes et des responsables de la communication. Ils sont garants du bon respect de la charte de fonctionnement du W3C. Les anciens employés sont listés sur la page "Alumni".
+
+Membres participants
+À côté d'industriels et d'éditeurs informatiques, en particulier les éditeurs des navigateurs (Mozilla Fondation, Microsoft, Apple, Opera ou Google), on trouve également des centres de recherches (Inria, National Research Council Canada, etc.), des opérateurs de réseaux, ainsi que des entreprises investies dans le Web comme Braillenet, la Bibliothèque du Congrès ou la BBC.
+
+Processus, recommandations et certifications
+Un document W3C traverse plusieurs étapes avant de devenir une Recommandation : 1) Working Draft (WD) (brouillon de travail); 2) Last Call Working Draft (dernier appel); 3) Candidate Recommendation (CR) (candidat à la recommandation); 4) Proposed Recommendation (PR) (recommandation proposée); 5) W3C Recommendation (REC) (recommandation du W3C).
+Une recommandation peut être mise à jour par errata édité séparément, jusqu'à l'accumulation de suffisamment de modifications ; une nouvelle version de la recommandation est alors publiée (XML en est aujourd'hui à sa cinquième version). Parfois, une recommandation recommence le processus, comme RDF. Le W3C publie aussi des remarques informatives qui ne sont pas destinées à être traitées en tant que normes.
+Le consortium laisse le soin aux fabricants de suivre les recommandations. Contrairement à l'Organisation internationale de normalisation ou d'autres corps internationaux de standardisation, le W3C ne possède pas de programme de certification. Cependant la plupart des spécifications techniques du W3C définissent la conformité de façon formelle au sein d'une section conformité et de l'emploi de la RFC 2119.
+Les groupes de travail sont tenus, depuis novembre 1999, de produire un rapport d'implémentation pendant la phase de Candidate Recommendation, en vue d'améliorer le niveau d'implémentation des spécifications. La plupart des groupes de travail produisent et publient à cette occasion des suites de test afin que des développeurs puissent tester leur implémentation.
+
+Standards
+Le W3C supervise le développement d'un ensemble de standards dont voici un échantillon : SPARQL (langage de requête et un protocole pour RDF); ARIA (Accessible Rich Internet Applications); ATAG (Authoring Tool Accessibility Guidelines); WCAG (Web Content Accessibility Guidelines); UAAG (User Agent Accessibility Guidelines); AWWW (Architecture of the World Wide Web); CC-PP (Composite Capabilities-Preferences Profiles); CSS (Cascading Style Sheet - Feuilles de style en cascade); DOM (Document Object Model); GRDDL (Gleaning Resource Descriptions from Dialects of Languages); HTML (HyperText Markup Language); MathML (Mathematics Markup Language); OWL (Web Ontology Language); RDF (Resource Description Framework); SKOS (Simple Knowledge Organization System); SMIL (Synchronized Multimedia Integration Language); PNG (Portable Network Graphics); RDFa (Resource Description Framework for HTML); SML (en) (Service Modeling Language).
+. InkML (en) (Ink Markup Language); XML Signature; XML Encryption; XProc (XML Pipeline Language); SVG (Scalable Vector Graphics); SOAP (Simple Object Access Protocol); XForms; XHTML (eXtensible HyperText Markup Language); XML (Extensible Markup Language); XPath; XQuery; XML Schema; XSLT (Extensible Stylesheet Language Transformations); EXI (en) (Efficient XML Interchange); PICS (en) (Platform for Internet Content Selection); POWDER (en) (Protocol for Web Description Resources); XPointer (XML Pointer); WSDL (Web Service Definition Language).
+.
+Voir aussi
+
+Articles connexes: Standards du Web; Normes sur les métadonnées; IETF; OPI; PNG; Web sémantique; WWW; WHATWG.

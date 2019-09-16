@@ -1,0 +1,35 @@
+En neuroanatomie, un nerf désigne un regroupement d'axones distinct traversant un tissu. Ces axones sont issus de neurones dont les corps cellulaires sont le plus souvent regroupés en ganglion. Les nerfs et les ganglions sont les composants anatomiques de base d'un système nerveux. Chez les vertébrés, la majorité des nerfs font partie du système nerveux périphérique, même si le terme peut être employé pour certains faisceaux d'axones du système nerveux central.
+La fonction d'un nerf est de transmettre un signal, ou stimulus, d'un tissu à un autre, au sein d'un organisme pluricellulaire. Ce message nerveux est de nature électrique. Il est constitué des potentiel d'action qui se déplacent le long des axones qui constituent le nerf. Ces potentiels se déplacent de proche en proche sur les axones non myélinisés, ou de noeud de Ranvier en noeud de Ranvier sur les fibres myélinisées. Pour assurer la protection de ce signal sur de longue distance, les axones sont entourés de plusieurs couches isolantes, constituées de différents types de cellule qui font partie intégrante du nerf.
+Les nerfs transmettent principalement des messages nerveux sensoriels ou moteurs. Les messages sensoriels vont de la périphérie vers le système nerveux central alors que les messages moteurs vont du système nerveux central aux muscles. Certains nerfs peuvent être mixtes, constitués à la fois de fibres sensorielles et motrices.
+Chez l'homme, il existe 12 paires de nerfs crâniens au niveau encéphalique, et 31 paires de nerfs spinaux au niveau de la moelle épinière.
+
+Fonctions
+Les nerfs sont le principal lien de connexions entre le cerveau et le reste du corps humain. Un vaste réseau part du cerveau (situé dans la boîte crânienne) et descend dans tout le corps grâce à la moelle épinière sur laquelle sont reliés une majorité des nerfs. Ces nerfs sont ensuite connectés aux différents organes, muscles, glandes et récepteurs sensoriels (pour les nerfs sensitifs). Ils peuvent soit transmettre des informations au cerveau (cas des nerfs sensitifs), soit, à l'inverse, le cerveau envoie des informations (cas des nerfs moteurs responsables par exemple de la mise en mouvement volontaire d'une articulation comme le bras).
+
+Nerf sensitif et nerf moteur
+On distingue deux catégories de nerfs suivant le type d'information qu'ils convoient : les nerfs sensitifs (ou voie afférente) font remonter les informations depuis les récepteurs sensoriels somatiques (situés dans la peau, les muscles, etc.) et viscéraux jusqu'au système nerveux central ;; les nerfs moteurs (ou voie efférente) transportent la commande motrice depuis le système nerveux central vers les effecteurs (principalement les muscles, mais aussi les glandes) des systèmes somatiques ou autonomes (contrôlant le coeur, les muscles de la cage thoracique, l'estomac et les intestins, le foie, les reins et la vessie).
+La plupart des nerfs contiennent des voies afférentes et efférentes.
+
+Système nerveux autonome et commande motrice consciente
+Le système nerveux autonome est la partie du système nerveux responsable des fonctions automatiques telles que la digestion, la sudation... Ces fibres ont un rôle dans le maintien de l'équilibre du milieu intérieur, ou homéostasie, implique des interactions complexes entre des aspects physiologiques et comportementaux. Il peut y avoir des nerfs afférents et efférents.
+On lui oppose les neurones contrôlant volontairement ou consciemment des fonctions telles que le mouvement d'un membre.
+
+Anatomie
+
+Anatomie générale
+Les fibres motrices efférentes prennent naissance au niveau des centres cérébraux moteurs, appelés cortex moteur (ou aires motrices), où se situent les motoneurones. Elles cheminent ensuite dans la corona radiata et la capsule interne (qui sont des éléments de la substance blanche du cerveau), puis dans le tronc cérébral, et enfin dans la moelle épinière, jusqu'à la corne antérieure où elle passe le relais à un nouveau groupe de motoneurones. Ce nouveau groupe laisse ses axones former la racine rachidienne antérieure motrice. Il existe deux faisceaux moteurs : le faisceau pyramidal direct et le faisceau pyramidal croisé. De là, les fibres nerveuses se regroupent en nerfs selon leur fonction, émergent de la moelle, et rejoignent leur muscle de destination sur lequel elles vont agir via la plaque motrice et la voie extrapyramidale chargée des mouvements semi-automatiques.
+Les fibres sensitives afférentes possèdent une terminaison dendritique dans l'organe cible (par exemple la peau), mais le corps cellulaire du neurone sensitif se trouve dans le ganglion rachidien, renflement de la racine rachidienne postérieure. L'axone de ce neurone sensitif chemine ensuite dans la moelle épinière, au sein d'un faisceau sensitif (faisceau cordonal postérieur ou faisceau spinothalamique).
+La myélinisation est assurée par les cellules de Schwann pour le système nerveux périphérique et par les oligodendrocytes pour le système nerveux central.
+
+Anatomie détaillée du nerf périphérique
+Schéma : Nerf detaillé
+Le nerf, s'il est périphérique (c'est-à-dire s'il appartient au système nerveux périphérique), est composé d'un assemblage très particulier de prolongement cellulaire (ici, axone). Plusieurs fibres nerveuses s'associent en fascicules par le biais d'un tissu conjonctif nommé endonèvre (tissu conjonctif lâche contenant de nombreuses microfibrilles de collagène). Plusieurs fascicules s'associent autour d'un autre tissu, le périnèvre (constitué d'une dizaine de cellules aplaties revêtues par une lame basale), formant ainsi un "groupe de fascicules". Enfin, plusieurs "groupes de fascicules" s'associent par le biais de l'épinèvre (tissu conjonctif dense contenant des adipocytes et des vaisseaux sanguins), donnant le nerf en tant qu'unité anatomique.
+
+Repousse d'un nerf
+À la suite d'une intervention chirurgicale, un nerf repousse à la vitesse de 1 millimètre par jour. Cependant la repousse est impossible si le péricaryon (ou soma, ou encore corps cellulaire) a été endommagé lors de la lésion.
+Si le nerf a été endommagé, une solution possible consiste à faire une greffe de nerf.
+La repousse d'un nerf ou la regénération d'un nerf réfère aussi à la neuroregénération.
+
+Voir aussi
+
+Articles connexes: Motoneurone.

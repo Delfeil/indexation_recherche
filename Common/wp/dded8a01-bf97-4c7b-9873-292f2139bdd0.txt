@@ -1,0 +1,39 @@
+Le référencement est l'action de référencer, c'est-à-dire mentionner quelque chose ou y faire référence.
+Ce terme est utilisé dans deux contextes bien spécifiques : Dans la grande distribution lors de la gestion de catalogues produits : les produits sont référencés dans les étalages. De même des services peuvent être référencés comme prestataires potentiels.; Sur Internet, le travail de référencement consiste à améliorer le positionnement et la visibilité de sites dans des pages de résultats de moteurs de recherche ou d'annuaires.
+Le référencement web s'articule autour de deux stratégies distinctes et complémentaires : le référencement naturel (ou organique) et le référencement payant (ou liens sponsorisés).
+
+Référencement d'un produit ou d'un prestataire
+
+Référencement de produits
+La DGCCRF définit le référencement, dans la grande distribution, comme "une clause ou un contrat par lequel une centrale d'achat ou de référencement autorise un fournisseur, en contrepartie de conditions de vente négociées, à proposer ses produits à la revente chez ses affiliés distributeurs. Ces derniers restent cependant libres de se fournir ou non auprès du fournisseur référencé".
+
+Référencement de prestataires
+Certaines entreprises, lorsqu'elles souhaitent réduire leurs coûts en sélectionnant un nombre limité de prestataires potentiels pour un appel d'offres, organisent un référencement des offres de services. Les sociétés retenues sont dites référencées. Cette pratique est très courante, notamment en informatique, où les "grands comptes" référencent un nombre limité (entre quatre et dix sur plus d'une centaine) de sociétés de services informatiques (SSII).
+
+Référencement sur Internet
+
+Les objectifs du référencement web
+Il existe plusieurs objectifs au référencement web et à l'optimisation des moteurs de recherche : Créer de la visibilité pour un site web sur les moteurs de recherche comme Google, Bing ou Qwant ;; Multiplier le nombre de visites de son site internet ;; Développer la popularité et la notoriété d'une personne physique ou d'une personne morale ;; Communiquer en ligne auprès d'une nouvelle cible d'internautes ;; Accroître le chiffre d'affaires web d'une entreprise au travers du e-commerce ou de la publicité en ligne.; Nettoyer en cas de besoin la e-réputation d'une personne physique ou morale.
+
+Référencement naturel
+Faire un lien d'une page A vers une ressource B, c'est y faire référence et donc référencer la ressource B depuis la page A. Par vulgarisation, l'action générique d'inscription dans les moteurs de recherche a été appelée référencement. Aujourd'hui, sa pratique s'articule autour des outils de recherche, plus particulièrement des moteurs et des annuaires de recherche, en tentant d'améliorer le positionnement des sites (et donc leur visibilité) dans leurs pages de résultats, appelées SERP (search engine results pages) dans le jargon du référencement.
+Il s'agit en l'occurrence de travailler les éléments internes et externes des sites pour permettre de donner plus facilement les informations à la fois aux internautes mais également aux moteurs de recherche. Cela se fait à travers la notoriété des sites, du contenu que les moteurs de recherches jugeront pertinent ou non et enfin de la structure du site (le code est-il compréhensible, léger, complet...). On parle aujourd'hui de plus de 300 critères pour Google par exemple.
+Le positionnement sur les moteurs de recherche est une des principales sources de création de trafic sur un site web. En effet, il permet aux internautes d'accéder à un site sans connaître son adresse. Les principaux moteurs de recherche sont capables de détecter les nouveaux documents sur le web (et les nouveaux sites).
+Un bon référencement sur le Web est essentiel puisque "34 % des internautes cliquent sur le premier lien naturel d'une page de résultats". Avant l'apparition des moteurs de recherche, il était aussi indispensable d'être référencé dans des annuaires web. Il peut aussi être intéressant d'être référencé sur des sites externes, notamment des sites de bookmarks (marque-pages) ou des pages de liens favoris ou encore sur des blogs, soit via un article, soit en utilisant la méthode dite d'échanges de liens.
+
+Référencement local
+Le référencement local est le fait d'optimiser un site internet pour que ses pages soient positionnées lors d'une recherche incluant une localité, un code postal, ou faite par un internaute autorisant sa géo-localisation. Cette partie du référencement prend de plus en plus d'importance ces dernières années et est de plus en plus prises en compte par Google, notamment pour la navigation mobile.
+Anciennement il suffisait d'inscrire un site dans des annuaires locaux comme les Pages jaunes ou Google Maps.
+
+Référencement sur les annuaires
+Un annuaire Web est un site classant de façon thématique les sites qu'il sélectionne lui-même ou qui lui sont soumis. Des éditeurs analysent alors le contenu des pages et créent des résumés de leurs contenus dans le but d'orienter les visiteurs. Les annuaires proposent une recherche par catégories et sous-catégories. Il existe des milliers d'annuaires dits spécialisés ou généralistes (exemple : Dmoz ou Yahoo! Directory). Les critères d'acceptation d'un site sur un annuaire dépendent de chaque annuaire. Cette pratique a été massivement utilisée par les référenceurs pour augmenter artificiellement leur PageRank. Cela dit, Google ayant commencé à pénaliser les annuaires web dès 2008, cette technique est de moins en moins utilisée, elle n'est d'ailleurs plus actualisée depuis 2013 et officiellement plus transmise par Google depuis 2016.
+
+Référencement payant
+Le référencement payant, en anglais (en)Search Engine Advertising (SEA) consiste en la mise en place de liens sponsorisés dans les résultats de moteur de recherche, via une régie de publicité spécifique comme Google AdWords ou Bing Ads par exemple.
+
+Référencement social
+La puissance des réseaux ouvre une nouvelle formule de référencement appelée référencement social (SMO).
+
+Autres méthodes de référencement
+
+Voir aussi: Backlink; Optimisation pour les moteurs de recherche; Référencement local; Méta élément; Recherche d'information; Google Search Console. Portail de l'informatique; Portail du commerce; Portail des entreprises.

@@ -1,0 +1,42 @@
+Un appareil informatique ou un système informatisé est un automate composé de circuits électroniques dans lesquels circulent des signaux électriques. Ces signaux représentent des nombres (voir électronique numérique) sur lesquels l'appareil effectue automatiquement des opérations conformément à des instructions pré-enregistrées.
+Dans l'appareil, les nombres sont aussi utilisés pour représenter des caractères d'imprimerie, des couleurs ou d'autres informations. L'appareil manipule ainsi non seulement des nombres, mais tout type d'information qu'il est possible de récupérer par un circuit électronique et transformer en suite de nombres: textes, images, sons ou vidéo. Il permet en outre de stocker et d'échanger des informations.
+L'ordinateur, la console de jeu, le guichet automatique bancaire, ainsi que les appareils d'avionique, le GPS ou le téléphone mobile sont des appareils informatique.
+Un appareil informatique est formé d'un assemblage de matériels informatiques. Le respect des normes industrielles par les différents fabricants assurent le fonctionnement de l'ensemble.
+
+Les appareils
+Circuit imprimé de système embarqué
+Un système embarqué désigne de façon générale un appareil informatique dédié à une tâche bien précise.
+Un ordinateur désigne de façon générale une machine modulable et banalisée destinée au traitement d'informations.
+
+Systèmes embarqués
+La console de jeu est un appareil qui effectue des traitements, notamment d'infographie et de simulation dans un but ludique. Le guichet automatique bancaire fonctionne avec l'aide d'un ordinateur. La calculatrice est le plus ancien appareil informatique.
+Le récepteur satellite est un appareil qui traite des signaux numériques reçus par onde radio avant de les envoyer à un téléviseur. le décodage des signaux utilise des algorithmes de traitement numérique du signal. le récepteur GPS capte des signaux émis par des satellites, et utilise des informations de cartographie pour générer l'image numérique d'une carte géographique.
+Les appareils d'avionique tels que le pilote automatique ou la centrale inertielle effectuent des calculs de géométrie et de physique sur la base de nombres obtenus à l'aide de capteurs. Ceci en vue d'assurer la navigation et la sécurité des avions, des bateaux et des véhicules spatiaux. Les avions militaires sont en outre équipés de systèmes d'armes, des appareils informatiques destinés à assister les missions.
+Le téléphone mobile (avec le smartphone), l'appareil photo numérique et la caméra vidéo sont des appareils autrefois électromécaniques ou électronique analogique, qui utilisent maintenant des techniques des appareils informatique. De même les circuits électroniques des automobiles, des lave-vaisselle et des chaînes hi-fi utilisent maintenant des techniques issues de l'informatique.
+Les robots sont des appareils électroniques, mécaniques et informatiques (mécatroniques) qui effectuent des manipulations de manière autonome. L'autonomie est assurée par un appareil informatique placé à l'intérieur ou à l'extérieur du robot. Un bot informatique est un automate logiciel qui, placé dans un ordinateur, le fait exécuter des opérations de manière autonome.
+Un serveur de stockage en réseau (en anglais "Network attached storage", ou NAS) est un appareil destiné à stocker des informations, et les mettre à disposition via un réseau informatique. Les routeurs et les pare-feus (en anglais "firewall") sont des appareils qui examinent, trient et filtrent les informations qui transitent par un réseau informatique.
+
+Ordinateurs
+Un serveur est un ordinateur utilisé pour répondre automatiquement à des demandes envoyées par un réseau informatique. Il effectue typiquement des opérations de stockage, de distribution et de tri d'informations.
+L'anglicisme "mainframe" désigne un serveur de grande puissance, utilisé comme ordinateur central d'un grand réseau informatique. Un superordinateur est un ordinateur de très haute performance, souvent de grande dimension, il est utilisé pour des opérations qui nécessitent de nombreux calculs tels que les prévisions météo ou la simulation.
+Un ordinateur personnel aussi appelé "micro-ordinateur" est un ordinateur de petite taille destiné à un usage personnel. Une station de travail est un ordinateur personnel de grande puissance, souvent utilisé de façon alternée par plusieurs personnes. Un ordinateur portable est un ordinateur personnel de petite taille, prévu pour être transporté dans une valise. Un assistant personnel est un ordinateur de poche, typiquement utilisé comme calculatrice, agenda ou bloc-note. Un smartphone est à la fois un assistant personnel et un téléphone mobile.
+L'anglicisme "appliance" ("appareil" en français), désigne un ordinateur vendu clé en main, et destiné à un usage précis, tel que par exemple un serveur web, un pare-feu.
+
+Histoire
+
+Électronique numérique
+Son numérique
+Dans les circuits électroniques numérique, un signal ne peut avoir que deux états : haut (tension proche de 5 volts), ou bas (tension proche de zéro ou polarité inversée), cette simplification maximale rend les circuits plus fiables, plus résistants aux parasites et plus simples à construire, et permet la réalisation de circuits très complexes.
+Chaque signal haut signifie "1" et chaque signal bas signifie "0", les deux valeurs possibles d'un bit - un chiffre en système de numération binaire. Des groupes de 8 bits "octets", voire plus, sont combinés pour former des nombres selon les règles du système binaire. Puis les suites de nombres sont utilisés pour représenter des caractères d'imprimerie, des images ou des sons.
+Dans un appareil informatique un caractère est enregistré sous forme d'un nombre, selon une table de correspondance. Les tables de correspondance font l'objet de normes internationales telles que ASCII ou Unicode. La norme ASCII définit la correspondance entre un nombre de 8 bits et un caractère de alphabet latin. La norme Unicode définit la correspondance entre un nombre de 16 ou 32 bits, et un chiffre ou une lettre dans de nombreux alphabets tel que le latin, le chinois, l'arabe, le cyrillique, le phonétique, le braille ou autre.
+Dans un appareil informatique, une image matricielle est une suite de nombres qui représentent les couleurs de l'image. L'image est découpée en une mosaïque de rectangles colorés, les pixels, et chaque groupe de trois ou quatre nombres représente les quantités des teintes de base qui combinées donnent la couleur d'un pixel. Les teintes sont rouge-vert-bleu ou cyan-magenta-jaune-noir. Une image matricielle peut être composée de plusieurs millions de pixels, chaque nombre est un groupe de 3 à 8 bits.
+Un son est une suite de chiffres qui représentent les différentes étapes de la variation d'un signal électrique analogique. Un son est un signal acoustique analogique formé par des mouvements d'un matériau (l'air, l'eau, le sol). Celui-ci est transformé par un microphone en un signal électrique similaire. La tension du signal est mesurée à intervalles réguliers, plusieurs milliers de fois par seconde, et chaque mesure est transformée en un nombre de 8 à 16 bits. La fréquence des mesures varie de 8 000 à plus de 40 000 mesures par seconde.
+
+Construction
+appareil informatique
+L'appareil informatique effectue des opérations sur des informations numérisées. les opérations à effectuer ainsi que les informations à manipuler et les résultats des opérations sont enregistrées dans les mémoires de l'appareil. Un processeur est un composant électronique qui effectue des opérations conformément à des instructions.
+L'appareil est équipés de divers dispositifs destinés à récupérer les informations à traiter. Ces informations sont obtenues par des capteurs sous forme de signaux électriques analogiques, puis transformés signaux numériques, manipulés comme des nombres. Un convertisseur analogique-numérique est un dispositif électronique qui transforme un signal analogique en signal numérique. Inversement un convertisseur numérique-analogique transforme un signal numérique en signal analogique.
+
+Voir aussi
+
+Articles connexes: Informatique; Matériel informatique; Machine.

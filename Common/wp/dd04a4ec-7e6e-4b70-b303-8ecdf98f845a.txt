@@ -1,0 +1,9 @@
+La matrice de compatibilité est un outil classique de la gestion de la qualité. Sa finalité est de permettre de retenir un choix entre plusieurs solutions.
+Dans un premier temps, le groupe doit définir trois critères, qui lui permettront ensuite de choisir la ou les solutions les plus appropriées (exemples : efficacité, coût, rapidité, facilité de mise en oeuvre, sécurité, confort, environnement, etc.).
+Ensuite, le groupe liste toutes les solutions possibles en utilisant le brainstorming.
+Enfin, il évalue chaque solution en utilisant une "matrice de compatibilité". Cette méthode consiste à évaluer la compatibilité des solutions avec les trois critères qui ont été définis, et de reporter le résultat dans un tableau en utilisant les signes suivants : "+" si la solution est compatible avec le critère; "-" si la solution est incompatible avec le critère; "-" si la solution est indépendante du critère; si la relation entre la solution et le critère est inconnue.
+Les solutions à retenir sont celles qui ont obtenu le plus de signes "+". Un signe "-" élimine la solution.
+
+Voir aussi
+
+Articles connexes: Gestion de projet. Portail du management.

@@ -1,0 +1,23 @@
+Le connexionnisme est une approche utilisée en sciences cognitives, neurosciences, psychologie et philosophie de l'esprit. Le connexionnisme modélise les phénomènes mentaux ou comportementaux comme des processus émergents de réseaux d'unités simples interconnectées. Le plus souvent les connexionnistes modélisent ces phénomènes à l'aide de réseaux de neurones. Il s'agit d'une théorie qui a émergé à la fin des années 1980 en tant qu'alternative au computationnalisme (Putnam, Fodor, etc.) alors dominant.
+Le connexionnisme est un courant de recherche assez vaste qui constitue une voie originale dans l'étude des phénomènes cognitifs. Les modèles connexionnistes utilisent ce que l'on appelle des réseaux de neurones formels, ou réseaux neuromimétiques, dont l'organisation et le fonctionnement rappellent, à un certain niveau d'abstraction, les systèmes neuronaux physiologiques, dans le but de simuler des comportements du type de ceux que l'on observe en psychologie expérimentale. Ainsi ces modèles cherchent à faire le lien entre le fonctionnement du cerveau et celui de l'esprit, en proposant des mécanismes plausibles du point de vue neurophysiologique qui pourraient expliquer certains aspects de la cognition humaine. Ce champ de recherche, aux frontières de l'intelligence artificielle et de la modélisation en neurophysiologie et en psychologie, a suscité beaucoup d'intérêt depuis la fin des années 1980, où il est apparu comme une alternative bienvenue à la modélisation classique en sciences cognitives fondée sur le modularisme et le calcul symbolique.
+À ne pas confondre avec le connectivisme, qui a peu à voir.
+
+Principes de base
+Le principe de base du connexionnisme est que les phénomènes mentaux peuvent être décrits à l'aide de réseaux d'unités simples interconnectées. La forme des connexions et des unités peut varier selon les modèles. Par exemple, les unités d'un réseau peuvent représenter des neurones et les connexions peuvent représenter des synapses. Un autre type de modèle pourrait faire que chaque unité du réseau soit un mot et que chaque connexion soit un indicateur de la similarité sémantique.
+
+La diffusion d'activation
+Un concept important pour les modèles connexionnistes est celui d'activation. À chaque instant, une unité du réseau a un certain niveau d'activation. Par exemple, si les unités du modèle sont des neurones, l'activation pourrait représenter la probabilité que le neurone génère un potentiel d'action. Si ce modèle est un modèle à diffusion d'activation, alors une fois le seuil d'activation atteint, l'activation va se propager à toutes les unités connectées.
+
+Réseaux neuronaux
+Voir l'article principal : Réseau de neurones
+Les réseaux de neurones sont, de loin, les modèles connexionnistes les plus répandus aujourd'hui. Beaucoup de recherches utilisant des réseaux de neurones se réclament du connexionnisme. Les réseaux connexionnistes répondent à deux caractéristiques : 1) Chaque état mental peut être représenté comme un vecteur à n dimensions représentant les valeurs d'activation des unités neuronales ;; 2) Le réseau peut apprendre en modifiant le poids des connexions entre ses unités. La force des connexions (ou poids) est généralement représentée comme une matrice à n dimensions.
+En revanche, les modèles peuvent différer de par : La définition de l'activation : L'activation peut être définie de différentes façons. Par exemple, dans une machine de Boltzmann, l'activation est interprétée comme la probabilité de générer un potentiel d'action. Cette probabilité est déterminée par une fonction logistique dépendant de la somme des entrées d'une unité ;; L'algorithme d'apprentissage : Il définit la façon dont les poids des connexions vont changer au fur et à mesure du temps.
+
+Réalisme biologique
+
+Apprentissage
+
+Historique
+Les idées qui ont donné naissance au connexionnisme remontent à plus d'un siècle. Néanmoins, les idées connexionnistes n'étaient rien de plus que de simples spéculations jusqu'au milieu du XXe siècle. Il faut attendre les années 1980 pour que le connexionnisme devienne une perspective populaire auprès des scientifiques.
+
+Voir aussi: ADALINE; Béhaviorisme; Cybernétique; Éliminativisme; Neurosciences computationnelles; Réseau de neurones; Réseau de neurones (biologie).

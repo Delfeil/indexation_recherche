@@ -1,0 +1,5 @@
+Google Web Server ou GWS est un logiciel de serveur web (ou HTTP).
+Il héberge les propres sites de Google.
+Google Web Server est une version modifiée d'Apache HTTP Server, logiciel Open source. Mais les modifications que les programmeurs de Google ont apportées n'ont jamais été rendues publiques.
+
+Voir aussi: HTTP; Serveur HTTP; Serveur web. Portail de Google.

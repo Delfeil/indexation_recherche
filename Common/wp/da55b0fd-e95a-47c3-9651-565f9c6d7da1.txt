@@ -1,0 +1,22 @@
+Les requests for comments (RFC), littéralement "demande de commentaires", sont une série numérotée de documents officiels décrivant les aspects techniques d'Internet, ou de différents matériels informatiques (routeurs, serveur DHCP). Peu de RFC sont des standards, mais tous les documents publiés par l'IETF sont des RFC.
+
+Histoire
+La première RFC (RFC 1), titrée "Logiciel hôte", a été publiée le 7 avril 1969 par Steve Crocker. Les premières RFC concernaient le réseau ARPANET, utilisant le protocole de communication Network Control Protocol (NCP), et les financements publics de la DARPA. Dans les années 1970, l'émergence du réseau Internet (ensemble des réseaux utilisant la suite des protocoles TCP-IP) a vu la création de documents et normes séparés, les Internet Experiment Notes (IEN). Le succès d'Internet fit que ces IEN furent intégrées à la base, alors déjà dense, des RFC.
+En 1999 a été publiée la RFC 2555 titrée "30 Years of RFCs" qui retrace l'histoire de 30 ans de RFC.
+
+Mode d'élaboration
+Les RFC sont rédigées sur l'initiative d'experts techniques, puis sont revues par la communauté Internet dans son ensemble. Cela diffère d'une publication d'institution telle que l'ANSI.
+La majorité des RFC utilisent les termes MUST, MUST NOT, SHOULD, MAY, etc. tels que définis dans la RFC 2119 pour définir leurs exigences (obligation, interdiction, recommandation, etc.). Pour plus d'informations à propos des RFC et les procédures associées, voyez la RFC 2026 "Procédures Standards d'Internet. Révision 3".
+Les RFC font d'abord l'objet d'un draft (brouillon). Tout le monde peut écrire un draft. Ils n'ont donc aucune valeur. Après avoir écrit un draft, on peut le soumettre à l'IETF en le transmettant à rfc.editor@rfc.editor.org. Tous les drafts n'étant pas dignes d'intérêt, ils ont une date de péremption. Si le draft attire l'intérêt de la communauté, un groupe de travail peut être créé pour la rédaction d'une RFC. La RFC 2223 donne les instructions pour les futurs auteurs.
+Quelques RFC finissent par devenir des standards d'Internet. La procédure complète pour la transcription d'une RFC en standard est la suivante : RFC Proposed Standard Draft Standard Internet Standard.
+Malgré leur nom, les RFC sont le plus souvent stables. Toute modification apportée à une RFC entraîne l'écriture d'une nouvelle RFC, qui rend la précédente obsolète.
+
+Classification
+Les RFC sont classées selon cinq classifications qui sont "obligatoire", "recommandée", "facultative", "limitée", "non recommandé", ainsi que trois niveaux de maturité qui sont "standard proposé", "standard brouillon", "standard internet". Lorsqu'un document est publié, un numéro de RFC lui est attribué et en cas d'évolution, un nouveau document sera publié sous une autre référence.
+
+Poissons d'avril
+Chaque 1er avril, une ou plusieurs RFC fantaisistes sont publiées. Cette tradition a été inaugurée en 1978, par la RFC 748, fournissant des spécifications pour les défaillances aléatoires sur Telnet, considérées comme une fonctionnalité à part entière. Ces poissons d'avril sont souvent des canulars tels qu'Internet par pigeons voyageurs ou les messages subliminaux par Telnet, voire des parodies de normes réseau.
+
+Voir aussi
+
+Articles connexes: IETF; Internet; Liste de RFC; RFE; TCP-IP.

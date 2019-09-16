@@ -1,0 +1,31 @@
+En algèbre linéaire, la dimension de Hamel ou simplement la dimension est un invariant associé à tout espace vectoriel E sur un corps K. La dimension de E est le cardinal commun à toutes ses bases. Ce nombre est noté dimK(E) (lire "dimension de E sur K") ou dim(E) (s'il n'y a aucune confusion sur le corps K des scalaires). Si E admet une partie génératrice finie, alors sa dimension est finie et elle vaut le nombre de vecteurs constituant une base de E.
+Cette définition repose d'une part sur l'existence de bases, corollaire du théorème de la base incomplète, et d'autre part sur le théorème de la dimension pour les espaces vectoriels, qui assure que deux bases d'un même espace ont même cardinal. Cette dimension porte parfois le nom du mathématicien allemand Georg Hamel. À isomorphisme près, les K-espaces vectoriels sont classifiés par leurs dimensions. Une terminologie est spécifique aux espaces de petite dimension : Espace nul : désigne un espace E de dimension 0. Il admet comme unique élément son vecteur nul. La famille vide est une famille libre maximale ; c'est l'unique base de E ;; Droite vectorielle ou droite : désigne un espace vectoriel E de dimension 1. Tout vecteur non nul de E forme une base de E ;; Plan vectoriel ou plan : désigne un espace vectoriel E de dimension 2. Tout couple (u,v) de vecteurs non colinéaires de E forme une base de E.
+
+Exemples
+La dimension d'un espace vectoriel peut être calculée en choisissant une base canonique : Le corps K, vu comme K-espace vectoriel, est de dimension 1. Pour tout entier naturel n, le produit cartésien Kn est l'espace vectoriel des n-uplets de scalaires. Il est de dimension n, sa base canonique comportant exactement n vecteurs. Il suit de la définition que toute base de Kn comporte exactement n vecteurs.; Plus généralement, pour tout ensemble A, on note K l'ensemble des familles (a)aA d'éléments de K indexées par A et à support fini. L'addition et la multiplication par un scalaire étant définis terme à terme, K est un K-espace vectoriel. Sa base canonique est la famille (ea)aA, où eb - (a,b)aA pour b A. Il s'ensuit que la dimension de K est le cardinal de A.; Dans l'espace vectoriel K(X) des polynômes à coefficients dans un corps K, les polynômes de degré inférieur ou égal à n forment un sous-espace vectoriel de base canonique (1,X,...,Xn) donc de dimension n + 1.; L'espace vectoriel des matrices à n lignes et p colonnes, à coefficients dans K, a pour base canonique la famille (Ei,j) constituée des matrices ayant un 1 à la i ligne et j colonne et des zéros partout ailleurs. Il est donc de dimension np.
+Le choix du corps des scalaires a son importance. Le corps des nombres complexes peut être considéré à la fois comme un ℝ-espace vectoriel de dimension 2 et comme un ℂ-espace vectoriel de dimension 1.
+
+Propriétés
+Si F est un sous-espace vectoriel de E, alors dim(F) dim(E).
+Pour démontrer que deux espaces vectoriels de dimension finie sont égaux, on utilise souvent le théorème suivant : si E est un espace vectoriel de dimension finie et F un sous-espace vectoriel de E de même dimension, alors E - F. Cette implication devient fausse en dimension infinie.
+Dans un espace de dimension d (finie ou pas), le cardinal de toute famille libre est inférieur ou égal à d et celui de toute famille génératrice est supérieur ou égal à d.
+Un important résultat sur la dimension concernant les applications linéaires est le théorème du rang.
+
+Classification
+Deux K-espaces vectoriels sont isomorphes (si et seulement) s'ils ont même dimension. En effet, toute application bijective entre leurs bases peut être prolongée de manière unique en un isomorphisme entre les deux espaces vectoriels.
+Pour tout ensemble A, il existe des K-espaces vectoriels de dimension A : par exemple l'espace K (cf. supra).
+
+Modification de K
+Soit L-K une extension de corps. Alors L est un K-espace vectoriel, la somme vectorielle étant la somme dans le corps L, et la multiplication par un scalaire étant la restriction à KL de la multiplication dans L. La dimension de L sur K s'appelle le degré de l'extension et se note (L:K).
+De plus, tout L-espace vectoriel E est aussi un K-espace vectoriel, par restriction de la multiplication. Les dimensions sont liées par la formule : d i m K (E) - d i m K (L) d i m L (E). (-displaystyle (-rm (dim))-(K)(E)-(-rm (dim))-(K)(L)(-rm (dim))-(L)(E).).
+En particulier, tout espace vectoriel complexe de dimension n est un espace vectoriel réel de dimension 2n.
+
+Dimension et cardinal
+La dimension de l'espace vectoriel K est le cardinal de A. De cette affirmation découle la relation suivante, qui relie le cardinal du corps K des scalaires, le cardinal de l'espace vectoriel E, et sa dimension d sur K. Si d est finie, alors E - K d (-displaystyle E-K(d)) (en particulier, E - 1 si d - 0, et E - K si K est infini et d 0).; Si d est infinie, alors E - max (d , K) (-displaystyle E--max(d,K)). En effet, si B est une base, E est équipotent à l'ensemble des parties finies de l'ensemble infini BK- donc E - BK- - max(B, K-) - max(B, K).
+En particulier, un K-espace vectoriel E est un espace vectoriel fini si et seulement si K est fini et E est de dimension finie.
+En particulier, un corps fini L peut être vu comme un espace vectoriel sur son corps premier K, qui a pour cardinal un nombre premier p, appelé la caractéristique de L. Si n est la dimension de L sur K, alors L est de cardinal pn. Le cardinal de tout corps fini est une puissance entière de sa caractéristique : c'est un nombre primaire.
+
+Généralisation
+Il est possible de voir un espace vectoriel comme un cas particulier d'un matroïde, et pour ce dernier il y a une notion bien définie de dimension. La longueur d'un module et le rang d'un groupe abélien libre ou plus généralement d'un groupe abélien quelconque (en) ont plusieurs propriétés similaires à la dimension des espaces vectoriels.
+
+Articles connexes: Codimension; Formule de Grassmann. Portail de l'algèbre.

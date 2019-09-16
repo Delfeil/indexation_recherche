@@ -1,0 +1,45 @@
+La génération automatique de texte (GAT) est une sous discipline de la linguistique computationnelle qui vise à exprimer sous une forme textuelle, syntaxiquement et sémantiquement correcte, une représentation formelle d'un contenu. Outre ses nombreuses applications existantes ou potentielles - par exemple pour produire automatiquement des bulletins météorologiques, ou des rapports automatisés - elle offre par ailleurs un cadre d'investigation des théories linguistiques, et particulièrement de ses mécanismes de production.
+
+Histoire
+Historiquement, les deux premiers chercheurs à s'être penchés sur la question de la production de texte par des systèmes d'information sont Claude Shannon, suivi de Alan Turing.
+Alan Turing réfléchit de manière générale à cette possibilité dans le cadre de sa proposition du test d'IA intitulé Le jeu de l'imitation. Ce test consiste que Turing décrit en 1950 dans son article prospectif sur le rapport existant entre intelligence et mécanique informatique. Il propose un test qui consiste à faire dialoguer un humain avec un ordinateur et ce même humain avec un autre humain. Selon Turing, si l'homme qui engage les deux conversations n'est pas capable de différencier un locuteur humain d'un ordinateur, il est permis de considérer que le logiciel a passé avec succès le test. Ce test, comme on le voit aujourd'hui à l'occasion du Prix Loebner consiste en grande partie à générer des phrases syntaxiquement et sémantiquement correctes.
+Claude Shannon dans son article sur la théorie mathématique de la communication, fondement de la Théorie de l'information, dès 1948, imagine la possibilité de générer automatiquement du texte en utilisant des probabilités markoviennes de transition d'un mot à un autre. Il construit le premier modèle théorique de générateur de texte. Aidé d'une table de transition calculée à la main, il élabore diverses phrases qui ressemblent à l'anglais. L'un des exemples donné par Shannon, d'ordre deux, c'est-à-dire reposant sur la probabilité de transition pour deux mots consécutifs, est le suivant:
+"THE HEAD AND IN FRONTAL ATTACK ON AN ENGLISH WRITER THAT THE CHARACTER OF THIS POINT IS THEREFORE ANOTHER METHOD FOR THE LETTERS THAT THE TIME OF WHO EVER TOLD THE PROBLEM FOR AN UNEXPECTED".
+Shannon ne poursuivra pas ses recherches en matière de génération, son objectif principal est de formaliser mathématiquement la transmission d'information, mais la méthode qu'il décrit est aujourd'hui au coeur de nombreuses méthodes appliquées au traitement automatique du langage, par exemple dans les (en)modèles de langage probabilistes. Les modèles de langage sont également impliqués dans certaines architectures de générateurs de texte dits statistiques.
+Mais les premiers systèmes appliqués de GAT datent des années 1960. Ils ont été mis au point pour expérimenter dans un cadre théorique la théorie présentée par Chomsky dans Structures Syntaxiques.
+
+Les systèmes inspirés de la linguistique Chomskyenne
+Yngve en 1961, très peu de temps après la parution de Structures Syntaxiques cherche avec les systèmes rudimentaires de l'époque à expérimenter la production de phrases d'après les propositions de Chomsky. Il décrit l'algorithme de son système, presque entièrement basé sur des grammaires génératives, dans son article intitulé Random Generation of English Sentences. Yngve se heurte aux phénomènes de complexité linguistique qui perturbent la recherche sur la mécanisation du langage depuis la fin des années 1940. Il indique d'ailleurs dans son article "que les grammaires transformationnelles originelles ont été abandonnées car elles ne peuvent pas être mécanisées avec un appareil fini, en raison de la difficulté d'associer une structure de phrase au résultat d'une transformation".
+D'autres travaux tels ceux de Matthews en 1962 ou de Friedman en 1969 sont similaires à ceux de Yngve. Très marqué par les besoins de l'époque et les orientations des financements universitaires en Amérique du Nord, ils s'inscrivent dans la perspective d'insérer le générateur de texte en tant qu'élément d'un système de traduction automatique. Souvent, ces travaux ne cherchent pas réellement à produire un texte sémantiquement correct mais se focalisent plus sur la capacité des systèmes à produire des phrases syntaxiquement correctes. Comme le système de Friedman, écrit en Fortran et fonctionnant sur IBM 360-67, qui génère des structures syntaxiques de manière aléatoire.
+
+Principes
+
+Applications
+
+Cadre théorique
+
+Approche symbolique
+Les formalismes théoriques dérivant des méthodes symboliques sont principalement les suivants : SFG (systemic-functional grammars), grammaires systémiques-fonctionnelles. Utilisées pour l'accent qu'elles mettent sur l'aspect fonctionnel, notamment via l'utilisation de traits fonctionnels. Exemples de systèmes : FUF qui utilise le principe d'unification des traits ; KPML, système multilingue héritier de PENMAN.; TAG (tree-adjoining grammars), grammaires d'arbres adjoints. Utilisées pour effectuer de la génération incrémentale.; MTM (meaning-text model) , modèle sens-texte d'Igor Mel'čuk.
+
+Approche statistique
+
+Autres approches
+
+Architecture
+La GAT s'oppose à la compréhension du langage naturel, puisque cette dernière part du texte pour en saisir le sens alors que le but de la GAT est de transformer du sens en texte. Ceci se traduit par une plus grande variété d'inputs différents, en fonction du domaine d'application (alors que du texte restera toujours du texte). De plus, contrairement à la compréhension, la génération n'a pas à se soucier (ou dans une moindre mesure) de l'ambiguïté, de la sous-spécification ou d'un input mal formé, qui sont les principales préoccupations en compréhension.
+Le problème majeur de la GAT est le choix. Cet embarras du choix se pose à plusieurs niveaux : Contenu : Quoi dire ; Choix lexicaux et syntaxiques : Comment le dire ; Choix rhétoriques : Quand dire quoi ; Présentation textuelle (ou orale) : Le dire !.
+Ces choix sont loin d'aller de soi. Prenons les deux phrases suivantes : 1) You can only stay until 4. 2) You have to leave by 4.
+Qu'on peut traduire approximativement par Vous ne pouvez rester que jusque 16 heures et Vous devez être parti pour 16 heures. Ces deux phrases partagent une synonymie sémantique évidente, mais elles diffèrent par une nuance communicative. La phrase (1) met l'accent sur stay, (2) sur leave. Le choix lexical se fera en fonction du contexte : dans ce cas-ci, par exemple, si l'on souhaite porter l'attention sur l'activité en cours ou plutôt sur l'activité à venir.
+Par conséquent, la GAT implique un grand nombre de connaissances préalables : Connaissance du domaine couvert; Connaissance du langage spécifique de ce domaine; Connaissance rhétorique stratégique; Connaissance de l'ingénierie; Connaissance des habitudes et contraintes de l'utilisateur final.
+La formulation optimale devra tenir compte d'une série de facteurs, tels que la grammaticalité, l'absence d'ambiguïté, la cohérence, l'effet rhétorique souhaité. Mais également des contraintes sociales, discursives et pragmatiques. Les théories fonctionnelles du langage sont très utilisées en génération, car elles tentent d'intégrer ce type de facteurs.
+Exemple d'architecture pour un système de génération (traduit de Vander Linden, 2000)
+La figure ci-contre présente un exemple d'architecture pour la GAT. Les deux composants principaux de cette architecture sont le Planificateur de discours (Discourse Planner) et le Réalisateur de surface (Surface Realizer). Le Planificateur sélectionne le contenu dans la base de connaissance et le structure en fonction de l'objectif communicatif. Ensuite, le Réalisateur de surface génère les phrases, selon les contraintes lexicales et syntaxiques qui lui sont implémentées, en suivant le plan spécifié par le Planificateur.
+
+Principaux logiciels : Le générateur automatique de textes de Jean-Pierre Balpe et Samuel Soniecki. Le chroniqueur automatique du logiciel Marlowe de Jean-Pierre Charriau et Francis Chateauraynaud.
+
+SimpleNLG
+SCIgen (Générateur de "papier universitaire")
+
+Voir aussi
+
+Articles connexes: Chaîne de Markov; Générateur automatique de phrases.

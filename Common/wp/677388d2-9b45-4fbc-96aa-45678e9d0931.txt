@@ -1,0 +1,63 @@
+En géométrie, une translation est une transformation géométrique qui correspond à l'idée intuitive de "glissement" d'un objet, sans rotation, retournement ni déformation de cet objet.
+En géométrie classique, la notion de translation est très fortement liée à celle de vecteur, qu'elle suit ou précède. Ainsi trouve-t-on la translation de vecteur u (-displaystyle (-vec (u))) définie comme une transformation qui, à tout point M, associe le point M' tel que : M M ' - u (-displaystyle (-overrightarrow (MM'))-(-vec (u))).
+On dit alors que M' est le translaté de M. C'est l'image de M par cette translation.
+La notion se généralise en géométrie affine, associée à l'application linéaire associée : une translation est une application affine dont l'application linéaire associée est l'identité.
+On parle également de translation, ou de mouvement de translation en physique pour un mouvement dans lequel, à tout instant, le solide garde la même orientation dans l'espace. Ce mouvement n'est pas toujours rectiligne. Ainsi le mouvement d'une nacelle dans la grande roue d'une fête foraine est un mouvement de translation circulaire (la trajectoire est circulaire mais la nacelle reste toujours verticale).
+
+Géométrie "classique"
+
+Plusieurs approches
+La translation qui transforme A en B transforme C en D car (BC) et (AD) ont même milieu
+En géométrie classique, selon les approches, on peut définir d'abord les vecteurs et ensuite les translations ou bien définir les vecteurs à partir des translations.
+Le vecteur peut être défini comme une classe d'équivalence de bipoints équipollents : (A,B) et (C,D) sont équipollents si les segments (AD) et (BC) ont même milieu, c'est-à-dire si (ABDC) est un parallélogramme (éventuellement plat). Dans ce cas, la translation de vecteur A B (-displaystyle (-overrightarrow (AB))) est définie comme l'application qui au point M associe le point M' tel que M M ' - A B. (-displaystyle (-overrightarrow (MM'))-(-overrightarrow (AB)).)
+Selon une seconde approche, pour tous points A et B, et pour tout point C, il existe un unique point D tel que le quadrilatère ABDC dessine un parallélogramme éventuellement plat ou bien tel que (AD) et (BC) ont même milieu. L'application qui, au point C, associe le point D est appelée translation de vecteur A B (-displaystyle (-overrightarrow (AB))). Deux vecteurs sont égaux s'ils conduisent à la même translation.
+La translation de vecteur u transforme le triangle ABC en le triangle A'B'C'. On remarque la présence de plusieurs parallélogrammes : ABB'A', ACC'A', BCC'B'.
+Cependant, quelle que soit l'approche, la translation est liée à la présence de parallélogramme. Elle se traduit par un déplacement de toute la figure sans changement ni de la direction, ni du sens, ni des longueurs.
+Construire l'image d'une figure par une translation revient à la faire glisser dans une direction, un sens et avec une longueur donnée.
+
+Propriétés de conservation
+Un tel glissement n'entraîne pas de déformation ni de changement de disposition, donc: Dans une translation, les longueurs, le parallélisme, la perpendicularité et plus généralement les angles sont conservés.; Une translation transforme une droite en une droite parallèle.; Par une translation, une figure géométrique est transformée en une figure géométrique isométrique. En effet, il n'y a aucune déformation : les deux figures sont superposables.
+Pour construire l'image d'une figure géométrique, on ne construit donc que l'image de ses points caractéristiques: pour un segment, ses extrémités, pour un triangle, ses trois sommets, pour un cercle, son centre et son rayon, etc.
+La translation est la seule transformation qui laisse invariants les vecteurs c'est-à-dire telle que: A B - A ' B ' (-displaystyle (-overrightarrow (AB))-(-overrightarrow (A'B'))).
+
+Composition
+Composée de plusieurs translations - Pour passer du point M au point M5, plusieurs chemins sont possibles. On peut transformer M en M1, M1 en M2, M2 en M3, M3 en M4 et M4 en M5 ou aller directement du point M au point M5. Cette propriété illustre la relation de Chasles lorsque le vecteur est défini à partir de la notion de translation. En effet, pour additionner deux vecteurs, on a recours à une composée de deux translations
+La notion de composée de translations est fortement liée à la notion de somme de vecteurs, qu'elle la précède ou qu'elle en soit une conséquence.
+La composée de deux translations de vecteur u (-displaystyle (-vec (u))) et v (-displaystyle (-vec (v))) est une translation de vecteur u + v (-displaystyle (-vec (u))+(-vec (v))). La translation de vecteur nul est l'identité. Ces propriétés confèrent à l'ensemble des translations muni de la loi de composition un statut de groupe commutatif isomorphe à l'ensemble des vecteurs du plan ou de l'espace.
+Ce groupe est un sous-groupe du groupe des déplacements.
+Une réflexion selon un axe de symétrie suivie d'une autre réflexion selon un deuxième axe de symétrie parallèle au premier est équivalent à une translation.
+Une translation est aussi le résultat de la composée de deux réflexions selon des axes parallèles : si (d) et (d') sont deux droites parallèles et si R est un point de (d), la composée sd' o sd des réflexions d'axe (d) et (d') est une translation qui transforme R en son symétrique par rapport à (d').
+Une translation peut aussi être obtenue en composant deux homothéties de rapports inverses et de centres différents, ou deux rotations planes d'angles opposés et de centres différents. Ces faits expliquent que l'on trouve les translations dans le groupe des homothéties-translations et dans celui des rotations-translations.
+
+Généralisation à un espace affine
+Un espace affine peut être défini comme associé à un espace vectoriel. Quelle que soit alors la définition envisagée, la translation en est une composante principale.
+Si on définit l'espace affine à l'aide d'une application , qui à chaque bipoint associe un vecteur, (AB)-u, la seconde propriété que doit vérifier est l'existence des translations : pour tout vecteur u, et tout point M, il existe un unique point M'tel que (MM') - u. L'application qui associe M' à M est appelée la translation de vecteur u
+Si on définit l'espace affine à partir d'une loi externe qui, à chaque couple formé d'un point et d'un vecteur (A, u) associe un point B noté A + u, la translation de vecteur u est l'application qui, à M, associe le point M + u.
+L'ensemble des translations muni de la loi de composition interne est un groupe isomorphe à V muni de l'addition des vecteurs.
+Les translations sont les applications affines dont l'application linéaire associée est l'identité dans V.
+
+Mouvement de translation
+Translation circulaire dans une grande roue. Il existe une translation permettant de passer de la position de la nacelle à un instant t1 à sa position à l'instant t2. La trajectoire du point d'attache est circulaire, et celle du bord inférieur droit de la nacelle(en rouge) lui est identique à une translation près. Les rayons de la roue, quant à eux, ont un mouvement de rotation.
+En cinématique, un solide indéformable est en mouvement de translation si tout segment joignant deux points du solide reste parallèle à lui-même au cours du mouvement.
+La trajectoire du solide n'est pas nécessairement rectiligne, et peut être curviligne. Ainsi en est-il de la nacelle d'une grande roue, dont la trajectoire est circulaire, qui subit un mouvement de translation circulaire. Un mouvement de translation peut être considéré comme une succession de translations mathématiques infinitésimales. À chaque instant, chaque point du solide possède le même vecteur vitesse.
+Pour deux instants t1 et t2, on peut définir une translation Tt1,t2 opérant de la manière suivante : pour tout point M du solide, dont la position en t1 est M1 et la position en t2 est M2, on a Tt1,t2(M1)-M2.
+De plus tous les points du solide possèdent des trajectoires homologues, c'est-à-dire identiques à une translation près.
+
+Expressions analytiques d'une translation
+
+Coordonnées cartésiennes
+Dans le plan, la translation de vecteur u (a , b) (-displaystyle (-vec (u))(a,b)), transforme le point M(x, y) en M'(x', y') tel que: x' - x + a; y' - y + b.
+Dans l'espace, la translation de vecteur u (a , b , c) (-displaystyle (-vec (u))(a,b,c)), transforme le point M(x, y, z) en M'(x', y', z') tel que: x' - x + a; y' - y + b; z' - z + c.
+Plus généralement, dans un espace de dimension n, la translation de vecteur u (-displaystyle (-vec (u))) de coordonnées (a i) i (1 , n) (-displaystyle (a-(i))-(i-in (1,n))), transforme le point M (x i) i (1 , n) (-displaystyle M(x-(i))-(i-in (1,n))) en M ' (x i ') i (1 , n) (-displaystyle M'(x'-(i))-(i-in (1,n))) tel que: x i ' - x i + a i (-displaystyle x'-(i)-x-(i)+a-(i)) pour tout i de i - 1 à n.
+
+Expression complexe
+Dans le plan complexe, la translation de vecteur u (-displaystyle (-vec (u))) d'affixe a (a complexe), transforme le point M(z) d'affixe z en M'(z') d'affixe z' tel que: z' - z + a.
+
+Coordonnées homogènes
+En travaillant avec les coordonnées homogènes, on peut définir une matrice de translation :
+Dans un espace affine de dimension n, la matrice de translation de vecteur u (a i) i (1 , n) (-displaystyle (-vec (u))(a-(i))-(i-in (1,n))) est une matrice de dimension n+1 définie par : T v - (1 0... 0 a 1 0 1... 0 a 2........... 0 0... 1 a n 0 0... 0 1). (-displaystyle T-(-mathbf (v))-(-begin(bmatrix)10-cdots 0a-(1)--01-cdots 0a-(2)---vdots -vdots -ddots -vdots -vdots --00-cdots 1a-(n)--00-cdots 01-end(bmatrix)).-!).
+L'écriture de la translation devient alors: T v M - (1 0... 0 a 1 0 1... 0 a 2........... 0 0... 1 a n 0 0... 0 1) (x 1 x 2... x n 1) - (x 1 + a 1 x 2 + a 2... x n + a n 1) - M ' (-displaystyle T-(-mathbf (v))-mathbf (M) -(-begin(bmatrix)10-cdots 0a-(1)--01-cdots 0a-(2)---vdots -vdots -ddots -vdots -vdots --00-cdots 1a-(n)--00-cdots 01-end(bmatrix))(-begin(bmatrix)x-(1)--x-(2)---vdots --x-(n)--1-end(bmatrix))-(-begin(bmatrix)x-(1)+a-(1)--x-(2)+a-(2)---vdots --x-(n)+a-(n)--1-end(bmatrix))--mathbf (M')).
+Cette écriture permet de créer un isomorphisme entre les matrices n+1 de cette forme et l'ensemble des translations dans un espace de dimension n.
+L'inverse d'une telle matrice s'obtient en changeant le sens du vecteur: T v 1 - T v. (-displaystyle T-(-mathbf (v))(-1)-T-(--mathbf (v)).-!).
+De même, le produit des matrices revient à faire une somme de vecteurs: T u T v - T u + v. (-displaystyle T-(-mathbf (u))T-(-mathbf (v))-T-(-mathbf (u) +-mathbf (v)).-!).
+Et puisque l'addition des vecteurs est commutative, le groupe multiplicatif de matrices ainsi créé est un groupe commutatif.

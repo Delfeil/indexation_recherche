@@ -1,0 +1,14 @@
+Dans un navigateur Web, un smart bookmark (en français : un marque-page, favori ou signet intelligent) est un marque-page actif, au sens où il renvoie un résultat lié au mot-clé qui lui est soumis.
+En pratique, ce type de marque-page est donc utilisé pour marquer un site Internet offrant la fonction de moteur de recherche, permettant de pratiquer une recherche sans avoir à se rendre préalablement sur un tel site. Il est alors possible de lancer une recherche en saisissant directement un mot ou une expression dans la barre d'adresse du navigateur Web.
+
+Configurer un marque-page intelligent
+Pour que la page marquée soit utilisable comme marque-page intelligent, il faut préalablement analyser l'adresse web qui est renvoyée par le moteur de recherche lors de la recherche d'un mot ou d'une expression.
+Par exemple, lorsque vous vous rendez sur le moteur de recherche Google pour y rechercher le mot "informatique", l'adresse web présentée par le navigateur en même temps que la page des réponses à votre recherche est de type "http:--www.google.com-searchq-informatique". Pour signaler au navigateur que vous souhaitez créer un marque-page intelligent utilisant ce moteur de recherche, il faut remplacer dans l'adresse du marque-page le terme recherché (ici "informatique") par les deux caractères "%s" (ce qui donnera dans cet exemple "http:--www.google.com-searchq-%s").
+Ceci fonctionne pour la plupart des moteurs de recherche. Bien sûr, si vous n'êtes pas familier de ce genre de manipulation, vous pouvez collecter sur le Web des marque-pages intelligents prêts à l'emploi.
+
+Utiliser les marque-pages intelligents avec son navigateur
+L'implémentation des marque-pages intelligents peut différer d'un navigateur à l'autre. Quelques exemples : avec Firefox, vous pouvez marquer la page d'un moteur de recherche en lui adjoignant un mot-clé (par exemple la lettre "g" sera associée au moteur de recherche Google) et pour effectuer une recherche sur un mot ou une expression avec ce moteur de recherche, il suffira alors de saisir dans la barre d'adresse du navigateur le mot-clé (ici la lettre "g") suivi du mot ou de l'expression recherchée, puis de valider. Vous n'êtes pas obligé de construire l'adresse comme indiqué plus haut, il suffit d'appeler le menu contextuel sur le champ de recherche et de choisir "Ajouter un mot-clé pour cette recherche.".; avec Epiphany, il suffit de marquer la page d'un moteur de recherche pour que le navigateur la prenne immédiatement en compte : il suffit alors de saisir un mot ou une expression dans la barre d'adresse du navigateur puis de sélectionner le nom du moteur de recherche voulu dans le menu qui se déroule juste en dessous pour lancer la recherche et afficher les résultats.
+
+Voir aussi
+
+Articles connexes: Moteur de recherche; Navigateur Web; Marque-page; Bookmarklet.

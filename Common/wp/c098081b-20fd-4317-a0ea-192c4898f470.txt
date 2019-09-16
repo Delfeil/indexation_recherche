@@ -1,0 +1,18 @@
+La conception de logiciel met en oeuvre un ensemble d'activités qui à partir d'une demande d'informatisation d'un processus (demande qui peut aller de la simple question orale jusqu'au cahier des charges complet) permettent la conception, l'écriture et la mise au point d'un logiciel (et donc de programmes informatiques) jusqu'à sa livraison au demandeur.
+En règle générale, la fabrication d'un logiciel va suivre trois grandes phases : Phase d'analyse (fonctionnelle) ou de conception Durant cette phase, on effectue simultanément l'étude des données et l'étude des traitements à effectuer. C'est en général dans cette phase que s'appliquent les techniques de modélisation. Il en découle la description des bases de données éventuelles à créer et les programmes à écrire et la manière dont tout cela va être intégré. Spécification; Conception; Définition de l'architecture.; Spécification; Conception; Définition de l'architecture; Phase de réalisation ou de programmation (écriture et tests des programmes): Algorithmique; Programmation; Gestion des versions; Factorisation; Tests unitaires; Optimisation du code.; Algorithmique; Programmation; Gestion des versions; Factorisation; Tests unitaires; Optimisation du code; Phase de livraison: Intégration; Validation; Documentation du logiciel; Packaging.; Intégration; Validation; Documentation du logiciel; Packaging.
+
+Modélisation
+
+Méthodes de modélisation
+Une méthode d'analyse et de conception a pour objectif de permettre de formaliser les étapes préliminaires du développement d'un système afin de rendre ce développement plus fidèle aux besoins du client. Parmi les méthodes les plus connues, on peut notamment citer Merise, RAD et SADT.
+Article détaillé: méthodes d'analyse et de conception.
+
+Méthodes de développement (Gestion de projet): Méthode agile: Extreme programming (XP); Dynamic systems development method (DSDM); Adaptive software development (ASD); Scrum; Feature driven development; Crystal clear.; Extreme programming (XP); Dynamic systems development method (DSDM); Adaptive software development (ASD); Scrum; Feature driven development; Crystal clear; Merise; Cycle de développement (logiciel).
+
+Langages de modélisation: UML; SysML (Systems Modeling Language); BON.
+
+Approche objet: Orienté objet; Interface de classe.
+
+Les écueils classiques: la balle en argent; prototypage; le plaqué or; la loi de Brooks.
+
+Voir aussi

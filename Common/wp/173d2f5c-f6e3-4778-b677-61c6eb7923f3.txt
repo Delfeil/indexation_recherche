@@ -1,0 +1,15 @@
+La barre oblique "-" est un caractère typographique. Elle se distingue de la barre oblique inversée "-" qui penche en arrière.
+
+En informatique: Avec l'arobase et le tilde, la barre oblique - (slash en anglais) est l'un des symboles les plus utilisés sur Internet, puisque la double barre oblique est à la tête de l'URI, après l'indication du protocole utilisé (ainsi, pour l'http, on notera : http:--).; C'est aussi, pour la plupart des systèmes d'exploitation (à l'exception notable des systèmes Microsoft Windows et DOS qui utilisent la barre oblique inversée), le caractère qui distingue les différents dossiers d'un chemin. Par exemple, dans -bin-foo, les barres obliques montrent que "foo" est contenu dans "bin".; Il a aussi été utilisé, sous d'autres systèmes d'exploitation, pour annoncer une commande JCL, ou encore pour séparer les paramètres d'une telle commande.
+
+En mathématiques
+La barre oblique tient lieu de barre de fraction lorsque la fraction est écrite de manière linéaire. Elle apparaît pour la première fois vers le milieu du XIIe siècle, dans des recueils algébriques arabes (soit maghrébins, soit andalous).
+
+Autres usages
+Ce symbole est également utilisé dans des expressions alternatives telles que "et - ou". On le rencontre aussi parfois utilisé à la place du trait d'union dans des expressions composées telles que "cuisine-salle à manger".
+Les imprimeurs du XVe au XVIe siècle ont utilisé cet artifice pour abréger certains groupes de caractères (voir abréviations pour plus de détails).
+En russe, ce symbole sert d'abréviation (- pour "chemin de fer" ou "ferroviaire"), en concurrence avec les parenthèses (les premières machines à écrire bon marché n'avaient pas de parenthèses, l'usage est resté), ou dans les adresses de bâtiments formant un angle avec une autre rue (par exemple, le lycée français de Moscou est à l'adresse 1-., 12-16, soit au 12 de la rue 1re Spassonalivkovski et au 16 d'une rue sécante). Les deux premiers usages, quoique refusés par la typographie officielle du russe, restent très vivants.
+Ce symbole est également utilisé comme diacritique, par exemple dans le (et la minuscule) nordique ; on dit qu'il s'agit d'une barre oblique inscrite.
+La barre oblique peut aussi figurer en bas et à droite d'un document comprenant plusieurs pages, entre deux séries de points de suspension (...-...) et sans indication de pagination, pour indiquer que le document se poursuit.
+Elle est souvent utilisée pour écrire des dates de façon plus condensée, ainsi, le 28 janvier 2013 s'écrira, en français, 28-01-2013.
+La barre oblique est aussi parfois utilisée pour les formes tronquées, notamment pour la féminisation : les étudiant-e-s, les contrôleur-euse-s, ce qui est généralement déconseillé à part dans les documents types avant que ceux-ci ne soient remplis et qu'une seule des deux formes ne soit utilisée.

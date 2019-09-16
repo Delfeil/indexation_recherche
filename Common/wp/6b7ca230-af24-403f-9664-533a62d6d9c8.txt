@@ -1,0 +1,25 @@
+Douglas Carl Engelbart (né le 30 janvier 1925, mort le 2 juillet 2013) est un ingénieur américain, un inventeur et un pionnier de l'informatique. Il est célèbre pour avoir inventé la souris, pour ses travaux sur le développement de l'interface homme-machine et pour avoir développé le système hypertexte, les réseaux informatiques et les premières interfaces graphiques (GUI).
+
+Études
+Douglas Engelbart est né à Portland dans l'Oregon, aux États-Unis, le 30 janvier 1925. Il étudie à l'université de l'Oregon à la fin de la Seconde Guerre mondiale, puis est opérateur radar dans la Navy pendant deux ans.
+Il retourne ensuite à l'université pour terminer sa licence en ingénierie électrique en 1948, avant de poursuivre sur un diplôme d'ingénieur en 1952 à Berkeley. Il termine ses études par un doctorat (PhD) d'ingénierie électrique et informatique en 1955 à Berkeley. Pendant ce temps, il est membre de l'association Sigma Phi Epsilon (en).
+En qualité de diplômé de Berkeley, il a participé à la construction du projet d'Ordinateur Digital de Californie, le CALDIC.
+
+Carrière
+Douglas Engelbart devient ensuite chercheur au Stanford Research Institute (SRI) à Menlo Park. Ses brevets lui permettent d'obtenir une subvention de l'ARPA (Advanced Research Projects Agency) pour ses recherches sur l'augmentation de l'intelligence humaine (Augmenting Human Intellect). Cela lui permet de recruter une équipe pour son centre de recherche Augmentation Research Center (en) (ARC) au sein de laquelle il développe le On-Line System (en), la souris, l'hypertexte et les premières interfaces graphiques.
+Le prototype de souris de Doug Engelbart, présenté en décembre 1968.
+Engelbart dépose un brevet pour sa souris en 1967, qu'il reçoit en 1970. Celle-ci n'est encore qu'une simple boite en bois contenant deux roues en métal et un seul bouton. Le 9 décembre 1968, il réalise la démonstration The Mother of All Demos qui présente au public la première souris informatique, ainsi que la métaphore du bureau, la visioconférence, la téléconférence, le courrier électronique et le système hypertexte.
+Quelques années plus tard, le SRI accorde une licence pour cette souris à Apple, pour une somme avoisinant les 40 000.
+Comme ses recherches sur la collaboration en ligne et les interfaces homme-machine ont été financées par l'ARPA, l'ARC est chargé de créer ARPANET, un des précurseurs d'Internet. Le 29 octobre 1969, le réseau est mis en place entre le laboratoire Leonard Kleinrock et celui d'Engelbart. Les universités de Santa Barbara et de l'Utah s'ajoutèrent au réseau le 5 décembre 1969.
+L'ARC devient ainsi le premier serveur DNS, en plus d'être le gestionnaire des connexions de l'ARPANET.
+Engelbart passe dans une relative obscurité après 1976, en raison de problèmes divers et de malentendus. Plusieurs des meilleurs chercheurs d'Engelbart le laissent tomber et quittent son organisation pour rejoindre le centre de recherche Xerox de Palo Alto, par frustration et à cause de divergences de points de vue sur l'avenir de l'informatique.
+Suite à l'Amendement Mansfield (en), à la fin de la guerre du Viêt Nam et à la fin du programme Apollo, le financement de l'ARC par l'ARPA et la NASA est considérablement réduit. La direction de SRI remplace ensuite Engelbart par Bertram Raphael (en), un chercheur en intelligence artificielle, qui fit transférer l'ARC à la compagnie Tymshare (en).
+Il est progressivement mis à l'écart, voyant ses demandes d'investissement refusées, avant de démissionner en 1986.
+En 1988, il crée le Doug Engelbart Institute avec sa fille Christina, et anime des séminaires à la Stanford University de 1989 à 2000.
+Douglas Engelbart a déposé un total de 21 brevets.
+
+Honneurs: 1992 : Pioneer Award, de l'Electronic Frontier Foundation; 1995 : Yuri Rubinsky Memorial Award; 1997 : Lemelson-MIT Prize (500 000 US); 1997 : Turing Award; 1998 : CHI Lifetime Achievement Award, par l'ACM SIGCHI; 1998 : The Franklin Institute's Certificate of Merit et Benjamin Franklin Medal; 1999 : médaille John von Neumann; 2000 : National Medal of Technology; 2001 : British Computer Society's Lovelace Medal; 2002 : membre de la CHI Academy, de l'ACM SIGCHI; 2005 : Fellow of the Computer History Museum; 2005 : Norbert Wiener Award; 2009 : NMC Fellow for his lifetime of achievements, par le New Media Consortium (en); 2011 : Doctorat honorifique, de l'université Yale; 2011 : intronisé dans l'Artificial Intelligence's Hall of Fame du périodique IEEE Intelligent Systems.
+
+Voir aussi
+
+Articles connexes: Souris (informatique).

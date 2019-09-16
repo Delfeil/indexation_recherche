@@ -1,0 +1,19 @@
+Le Centre de l'accélérateur linéaire de Stanford (en anglais Stanford Linear Accelerator Center SLAC) est un laboratoire de physique dépendant du Département de l'Énergie des États-Unis et géré par l'Université Stanford. Ses activités de recherche se concentrent sur la physique des particules théorique et expérimentale, et depuis quelques années s'ouvrent à la photonique au travers du projet LCLS. L'accélérateur de particules de 3,2 km de long situé sur le site est le plus long accélérateur linéaire au monde.
+Vue aérienne de l'accélérateur linéaire
+
+Historique et découvertes
+Fondé en 1962, le laboratoire est situé sur un terrain appartenant à l'université Stanford en Californie d'une surface de 1,72 kilomètre carré et situé à l'ouest du campus principal.
+L'accélérateur principal (LINAC), d'une longueur de 2 miles (3.2 kilomètres) et capable d'accélérer des électrons et des positrons à des énergies allant jusqu'à 60 GeV, est opérationnel depuis 1966. L'accélérateur lui-même est enfoui à 10 mètres sous terre ; le bâtiment qui abrite ses composants en surface est le plus long bâtiment aux États-Unis. En 2005, le SLAC comptait plus de 1000 employés, dont 150 physiciens détenteurs d'un doctorat, et accueille 3000 chercheurs chaque année.
+Les composants de l'accélérateur, situés dans un tunnel à 10 m sous terre.
+Trois prix Nobel ont été décernés pour des recherches effectuées au SLAC : 1976 - Découverte du quark charm - voir méson J- ; 1990 - Découverte de la structure en quarks du proton et du neutron; 1995 - Découverte du lepton tau, ou tauon.
+Dans la première moitié des années 1990, les propriétés du boson Z ont été étudiées au Stanford Linear Collider (SLC : "Collisionneur linéaire de Stanford"), constitué du prolongement de l'accélérateur linéaire par deux arcs permettant des collisions frontales entre des électrons et des positrons.
+Depuis 1998, le SLAC dispose d'un anneau de stockage électron-positron asymétrique de 2,2 km de rayon, PEP-II, dont l'injection est effectuée directement par le LINAC. Il accueille l'expérience BaBar qui a pour vocation l'étude de la violation de symétrie CP dans le système des mésons B.
+Le SLAC accueille également une unité de recherche à rayonnement synchrotron, le Synchrotron light research laboratory (SSRL) qui réutilise l'anneau SPEAR où furent découverts la méson J- et le lepton tau. Depuis le milieu des années 1980, le SSRL dispose de son propre injecteur, ce qui lui permet d'être opéré indépendamment du LINAC.
+
+Autres découvertes
+SLAC a également joué un rôle important dans le développement du klystron, une cavité d'amplification à radiofréquence de haute puissance utilisée dans la plupart des accélérateurs de particules.
+La première page web aux États-Unis fut publiée au SLAC.
+
+Voir aussi
+
+Articles connexes: Accélérateur de particules; Physique des particules; Cyclotron; Électromagnétisme.

@@ -1,0 +1,139 @@
+Le JavaServer Pages ou JSP est une technique basée sur Java qui permet aux développeurs de créer dynamiquement du code HTML, XML ou tout autre type de page web. Cette technique permet au code Java et à certaines actions prédéfinies d'être ajoutés dans un contenu statique. Depuis la version 2.0 des spécifications, la syntaxe JSP est complètement conforme au standard XML.
+La syntaxe du JSP ajoute des balises XML, appelées actions JSP, qui peuvent être utilisées pour appeler des fonctions. De plus, cette technique permet la création de bibliothèques de balises JSP (taglib) qui agissent comme des extensions au HTML ou au XML. Les bibliothèques de balises offrent une méthode indépendante de la plate-forme pour étendre les fonctionnalités d'un serveur HTTP. Il existe aussi un langage de script particulier, appelé Expression Language (EL) destiné à réduire l'injection de code java au sein des pages JSP ainsi qu'à étendre les possibilités des taglibs, tel que la JSTL.
+Les JSP sont compilées par un compilateur JSP pour devenir des servlets Java. Un compilateur JSP peut créer une servlet Java en code source Java qui peut à son tour être compilé par le compilateur Java, ou peut créer le pseudo-code Java interprétable directement. Dans les deux cas, il est bon de comprendre comment le compilateur JSP transforme la page en servlet Java. Voir l'exemple de page JSP fourni en fin d'article, avec la servlet créée et la page HTML résultante.
+
+Syntaxe JSP
+Une page JSP peut être séparée en plusieurs parties : les données statiques comme le HTML,; les directives,; les scripts et variables,; les actions,; les balises personnalisées.
+
+Données statiques
+Les données statiques sont écrites dans la réponse HTTP exactement comme elles apparaissent dans le fichier source. Un fichier JSP sans code Java et sans action est donc un fichier valide. Dans ce cas, les mêmes données sont envoyées à chaque fois que la page est demandée par le serveur HTTP. Bien sûr, l'intérêt des JSP est d'insérer des données dynamiques à l'intérieur de ce contenu statique.
+
+Directives JSP
+Les directives contrôlent la manière dont le compilateur doit créer la servlet. Elles sont placées entre les symboles %@ et %, ou par les balises XML de la forme jsp:directive.nom-directive... - en JSP 2.0. Les directives suivantes sont disponibles :
+
+Éléments de scripts JSP et variables
+
+Variables de script standard
+Les variables suivantes sont toujours disponibles dans une page JSP : out : Le JSPWriter utilisé pour envoyer la réponse HTTP au client. page : La servlet elle-même. pageContext : Une instance javax.servlet.jsp.PageContext qui contient les données associées à la page entière. Une page HTML donnée peut être passée entre plusieurs JSP. config : Objet de type javax.servlet.ServletConfig. Contient des paramètres de la servlet. request : Objet représentant la requête HTTP. response : Objet représentant la réponse HTTP. session : Objet de type javax.servlet.http.HttpSession. La session HTTP, qui peut être utilisée pour conserver des informations relatives à un utilisateur d'une requête à une autre. application : Objet de type javax.servlet.ServletContext. Peut Stocker des informations uniques pour toute la vie de l'application.
+Éléments de script
+Il y a 3 types basiques d'éléments qui permettent d'insérer du code Java dans la jsp.
+
+Actions JSP
+Les actions JSP sont des balises XML qui appellent des fonctions sur serveur HTTP. Les actions suivantes sont disponibles :
+
+Bibliothèques de balises JSP
+En plus des actions JSP pré-définies, les développeurs peuvent ajouter leurs propres actions personnalisées en utilisant l'API d'extension de balises JSP (JSP Tag Extension API). Pour ce faire, il faut écrire une classe Java qui implémente une des interfaces de balises et écrire le fichier XML de description de balise qui donne les caractéristiques du marqueur et les classes qui l'implémentent.
+
+Exemple
+Voici un exemple de code source JSP, suivi du code source de la Servlet Java qui pourrait être créée par un serveur (par exemple Apache Tomcat) et de la page HTML qui en résulterait. Le code Java et HTML de cette page est celui créé par Apache Tomcat 4.
+
+Source
+%-- Ceci est un commentaire JSP --%
+%@page contentType-"text-html"%
+%@page errorPage-"erreur.jsp"%
+%-- Importation d'un paquetage (package) --%
+%@page import-"java.util.-"%
+html
+ headtitlePage JSP-title-head
+ body
+ %-- Déclaration d'une variable globale à la classe --%
+ %! int nombreVisites - 0; %
+ %-- Définition de code Java --%
+ % --Il est possible d'écrire du code Java ici
+ Date date - new Date;
+ -- On peut incrémenter une variable globale pour compter le nombre
+ -- d'affichages, par exemple.
+ nombreVisites++;
+ %
+ h1Exemple de page JSP-h1
+ %-- Impression de variables --%
+ pAu moment de l'exécution de ce script, nous sommes le %- date %.-p
+ pCette page a été affichée %- nombreVisites % fois !-p
+ -body
+-html
+Servlet Java créée par le compilateur
+package org.apache.jsp;
+
+import javax.servlet.-;
+import javax.servlet.http.-;
+import javax.servlet.jsp.-;
+import org.apache.jasper.runtime.-;
+import java.util.-;
+
+public class example-jsp extends HttpJspBase (
+
+ int nombreVisites - 0;
+ private static java.util.Vector -jspx-includes;
+
+ public java.util.List getIncludes (
+ return -jspx-includes;
+)
+
+ public void -jspService(HttpServletRequest request, HttpServletResponse response)
+ throws java.io.IOException, ServletException (
+
+ JspFactory -jspxFactory - null;
+ javax.servlet.jsp.PageContext pageContext - null;
+ HttpSession session - null;
+ ServletContext application - null;
+ ServletConfig config - null;
+ JspWriter out - null;
+ Object page - this;
+ JspWriter -jspx-out - null;
+
+ try (
+ -jspxFactory - JspFactory.getDefaultFactory;
+ response.setContentType("text-html;charset-ISO-8859-1");
+ pageContext - -jspxFactory.getPageContext(this, request, response,
+ "erreur.jsp", true, 8192, true);
+ application - pageContext.getServletContext;
+ config - pageContext.getServletConfig;
+ session - pageContext.getSession;
+ out - pageContext.getOut;
+ -jspx-out - out;
+
+ out.write("body-n-n");
+ out.write("-n");
+ out.write("-n-n");
+ out.write("-n");
+ --Il est possible d'écrire du code Java ici
+ Date date - new Date;
+ -- On peut incrémenter une variable globale pour compter le nombre
+ -- d'affichages, par exemple.
+ nombreVisites++;
+ out.write("-n");
+ out.write("h1Exemple de page JSP");
+ out.write("-h1-n");
+ out.write("-n");
+ out.write("pAu moment de l'exécution de ce script, nous sommes le ");
+ out.print(date);
+ out.write(".");
+ out.write("-p-n");
+ out.write("pCette page a été affichée ");
+ out.print(nombreVisites);
+ out.write(" fois !");
+ out.write("-p-n");
+ out.write("-body-n");
+ out.write("-html-n");
+) catch (Throwable t) (
+ out - -jspx-out;
+ if (out !- null out.getBufferSize !- 0)
+ out.clearBuffer;
+ if (pageContext !- null) pageContext.handlePageException(t);
+) finally (
+ if (-jspxFactory !- null) -jspxFactory.releasePageContext(pageContext);
+)
+)
+)
+Code HTML créé par le serveur
+html
+headtitlePage JSP-title-head
+body
+
+h1Exemple de page JSP-h1
+
+pAu moment de l'exécution de ce script, nous sommes le Sat Mar 26 19:31:28 EST 2016.-p
+pCette page a été affichée 5 fois !-p
+-body
+-html
+Voir aussi: Servlets Java; JSTL.

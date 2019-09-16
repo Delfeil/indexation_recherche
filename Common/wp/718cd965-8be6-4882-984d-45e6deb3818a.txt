@@ -1,0 +1,16 @@
+Le diagramme de Pareto est un graphique représentant l'importance de différentes causes d'un phénomène. Ce diagramme permet de mettre en évidence les causes les plus importantes sur le nombre total d'effet et ainsi de prendre des mesures ciblées pour améliorer une situation.
+
+Diagramme
+Ce diagramme se présente sous la forme d'une série de colonnes triées par ordre décroissant. Elles sont généralement accompagnées d'une courbe des valeurs cumulées de toutes les colonnes.
+Ce diagramme est construit en plusieurs étapes : collecte des données; classement des données au sein de catégories; calcul du pourcentage de chaque catégorie par rapport au total; tri des catégories par ordre d'importance.
+
+Histoire
+L'inventeur de ce diagramme est Joseph Juran, l'un des fondateurs de la démarche qualité.
+En 1941, au cours d'une tournée de benchmarking (en français, étalonnage) sur le thème du management de la qualité, il rencontre les dirigeants de General Motors. À cette occasion, il se remémore les travaux de Vilfredo Pareto évoqués par son collègue statisticien Walter Shewhart, alors que tous deux travaillaient aux laboratoires d'Hawthorne de la Western Electric.
+Vilfredo Pareto, économiste italien, avait fait une étude sur la répartition des richesses en Italie mettant en évidence que 80 % des richesses étaient détenues par 20 % de la population. Cette observation est aujourd'hui connue sous le nom de loi des 80-20 ou principe de Pareto.
+Juran en tire l'idée que, pour un phénomène, 20 % des causes produisent 80 % des effets. Par exemple, pour un stock de produits en vente, 80 % du chiffre d'affaires est généré par 20 % des produits. Il utilisa ce modèle, en le détournant de sa première finalité, mais lui gardera le nom de son auteur initial.
+Pour Juran, cette répartition s'applique pour représenter plusieurs points cruciaux de la démarche industrielle : la répartition des défauts d'une production (les 20-80); la détermination des objectifs prioritaires de la politique; l'approche critique du management de la qualité (boucle de contrôle).
+
+Voir aussi: Diagramme de Gantt.
+
+Articles connexes: Loi de Pareto (probabilités); Principe de Pareto.

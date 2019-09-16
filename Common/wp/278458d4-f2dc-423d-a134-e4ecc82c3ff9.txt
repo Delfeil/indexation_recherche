@@ -1,0 +1,28 @@
+La codimension est une notion de géométrie, rencontrée en algèbre linéaire, en géométrie différentielle et en géométrie algébrique. C'est une mesure de la différence de tailles entre un espace et un sous-espace.
+
+En algèbre linéaire
+
+Définitions
+Un sous-espace vectoriel F d'un espace vectoriel E est dit de codimension finie dans E si l'espace vectoriel quotient E-F est de dimension finie, ou encore, de manière équivalente, si F admet un supplémentaire de dimension finie. On peut alors définir la codimension de F dans E par : c o d i m E (F) - dim (E - F). (-displaystyle -mathrm (codim) -(E)(F)--dim(E-F).).
+Cette codimension est aussi égale à la dimension de n'importe quel supplémentaire de F dans E car tous sont isomorphes à E-F.
+Il résulte de la définition que F - E si et seulement si codimE(F) - 0.
+
+Cas de la dimension finie
+D'après la formule de Grassmann, si E - FG, alors dim(E) - dim(F) + dim(G). En particulier :
+Théorème - Lorsque l'espace E est de dimension finie, tous les sous-espaces vectoriels de E sont de codimension finie dans E et de dimension finie. Si F est l'un d'entre eux : c o d i m E (F) - dim (E) dim (F). (-displaystyle -mathrm (codim) -(E)(F)--dim(E)--dim(F).).
+
+Théorème du rang
+Le rang d'une application linéaire u de E dans F est la dimension de son image Im(u). Or d'après le théorème de factorisation, cette image est isomorphe à l'espace quotient E-ker(u) (par l'application qui à un élément (x) - x + ker(u) du quotient associe l'élément u(x) de Im(u)), donc aussi à n'importe quel supplémentaire de ker(u) dans E. Ainsi :
+Théorème - Pour que u L (E , F) (-displaystyle u-in (-mathcal (L))(E,F)) soit de rang fini, il faut et il suffit que le noyau de u soit de codimension finie dans E, et dans ce cas : c o d i m E (ker (u)) - d i m I m u. (-displaystyle -mathrm (codim) -(E)(-ker(u))--mathrm (dim-,Im) u.).
+Le rang de u est fini notamment lorsque E ou F est de dimension finie. Si E est dimension finie, l'égalité ci-dessus peut aussi se déduire du théorème du rang, qui assure que dans ce cas particulier,
+
+En géométrie différentielle
+Une variété de dimension n est un espace topologique M localement homéomorphe à un ouvert de R. La définition d'une sous-variété généralise celle de sous-espace vectoriel. La codimension d'une sous-variété N de M est définie comme: c o d i m M (N) - dim (M) dim (N) (-displaystyle -mathrm (codim) -(M)(N)--dim(M)--dim(N)).
+N étant elle-même une variété. En géométrie différentielle, la codimension peut aussi être associée aux plongements, aux immersions, aux feuilletages, etc. Si M est connexe, alors N - M si et seulement si codimM(N) - 0.
+
+En géométrie algébrique
+En géométrie algébrique, comme une variété algébrique (ou un schéma) peut être la réunion de deux parties fermées strictes de dimensions différentes, la notion de codimension est un peu plus délicate. Une variété non vide qui n'est pas réunion de deux fermés strictement plus petits est dite irréductible.
+La codimension d'un fermé irréductible N contenu dans la variété M est par définition la borne supérieure des entiers n tels qu'il existe une suite strictement croissante (F0, F1,.. Fn) de fermés irréductibles de M avec F0 - N. Elle est notée codim(N, M) en géométrie algébrique. Si M est irréductible, alors N - M si et seulement si codim(N, M) - 0.
+Lorsque M est une variété algébrique irréductible, on a : c o d i m (N , M) - dim (M) dim (N) (-displaystyle -mathrm (codim) (N,M)--dim(M)--dim(N)).
+Dans une variété algébrique intègre, une hypersurface (le lieu des zéros d'une fonction régulière non nulle et non inversible) est de codimension 1.
+Un cycle de codimension n est une combinaison linéaire formelle à coefficients entiers de fermés irréductibles de codimension n.

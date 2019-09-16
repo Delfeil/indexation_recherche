@@ -1,0 +1,227 @@
+Common Lisp (en abrégé CL) est une spécification du langage Lisp standardisée par l'ANSI.
+
+Introduction
+Common Lisp est un dialecte de Lisp standardisé par l'ANSI X3.226-1994. Développé pour standardiser les variantes divergentes de Lisp qui l'ont précédé, ce n'est pas une implémentation mais une spécification à laquelle les implémentations Lisp essayent de se conformer. Il est fréquemment abrégé en CL.
+Common Lisp est un langage de programmation à usage général, a contrario de dialectes de Lisp comme Emacs Lisp et AutoLisp, qui sont des langages d'extension embarqués dans des produits particuliers. Contrairement à de nombreux Lisp plus anciens, mais comme Scheme, Common Lisp utilise la portée lexicale par défaut pour les variables.
+Common Lisp est un langage de programmation multi-paradigmes qui : Accepte des techniques de programmation impérative, fonctionnelle et orientée objet (CLOS).; Est typé dynamiquement, mais avec des déclarations de type optionnelles qui peuvent améliorer l'efficacité et la sûreté,; Dispose d'un système de gestion d'exceptions puissant, nommé Condition System (système de gestion de conditions),; Est syntaxiquement extensible à travers des fonctionnalités comme les macros et les macros de lecture.
+
+Syntaxe
+Comme tout langage de la famille Lisp, Common Lisp utilise des S-expressions pour dénoter à la fois le code et certaines structures de données. Les invocations de fonctions, de formes spéciales et de macros sont écrites dans la syntaxe littérale des listes, avec le nom de la fonction (resp. forme spéciale, et macro) en première place, comme dans ces exemples :
+(+ 2 2) ; ajoute 2 et 2, renvoie 4
+ (defvar e) ; définit la variable e
+ (setf e 2.7182817) ; assigne 2.7182817 à la variable e
+ (setq e 2.7182817) ; assigne 2.7182817 à la variable e
+ (setq e 'rouge) ; assigne le mot rouge à la variable e
+
+ nil ; valeur booléenne false et liste vide
+ t ; valeur booléenne true
+
+ (if (x y)
+ y ; résultat si la condition est vérifiée (ici, si x y)
+ x) ; résultat par défaut
+
+ (defun carre (x) (- x x)) ; définit une fonction qui met un nombre au carré
+ (carre 3) ; exécution de la fonction : retourne 9
+Types de données
+
+Types scalaires
+
+Nombres
+Les types numériques incluent les nombres entiers, les rationnels, les nombres à virgule flottante et les nombres complexes. Common Lisp utilise des grands nombres pour représenter des valeurs numériques de taille et de précision arbitraires. Le type rationnel représente les fractions de façon exacte. Common Lisp convertit automatiquement les valeurs numériques entre ces types de façon appropriée. Voici la tour numérique, c'est-à-dire la hiérarchie des types numériques de Common Lisp :
+complex ratio fixnum
+ - - -
+number --+-real--+-rational--+-integer--+-bignum
+ - -
+ - (1) signed-byte--unsigned-byte--bit
+ -
+ float--+-short-float
+ --single-float
+ --double-float
+ --long-float
+(1) integer et signed-byte sont des spécifications de types disjointes ; toutefois, les domaines sont identiques.
+À titre d'exemple, l'expression
+(+ (sqrt -2) (- 6 4))
+retourne
+c'est-à-dire un nombre complexe dont la partie imaginaire est le flottant 1.4142135 et la partie réelle est le rationnel 3-2.
+
+Caractères
+Le type Common Lisp caractère n'est pas limité aux caractères ASCII ; cela n'est pas surprenant car Lisp est plus ancien que l'ASCII. Certaines implémentations modernes supportent les caractères Unicode.
+
+Symboles
+Le type symbole est commun aux langages Lisp, mais largement inconnu en dehors. Un symbole est un objet nommé, unique, relatif à un espace de noms. Les symboles littéraux en Lisp sont utilisés comme identificateurs de variables ; toutefois, ils sont plus généraux et peuvent être utilisés pour eux-mêmes également, comme des objets. Lorsqu'un symbole est évalué, sa valeur en tant que variable est retournée.
+L'existence des symboles en tant que type de données facilite l'écriture des macros (qui effectuent des transformations de code au moment de la compilation) et l'implémentation de systèmes de calcul symbolique. De fait, Lisp a été le premier langage d'implémentation de systèmes de calcul formel. Des systèmes de calcul formel très complets ont été écrits en Lisp (Maxima et Axiom, et pour les transformations symboliques, ils soutiennent généralement la comparaison avec les populaires Mathematica et Maple).
+Il existe des cas particuliers : les valeurs booléennes sont représentées par les symboles réservés T et NIL. les mots-clefs (de la forme :foo ou :bar) sont des symboles définis dans l'espace de nom KEYWORD. L'évaluation d'un tel symbole retourne le symbole lui-même.
+Exemples :
+foo ;; - La variable FOO n'a pas de valeur.
+ (function foo) ;; - La fonction FOO n'est pas définie.
+L'opérateur QUOTE protège les symboles de l'évaluation (lorsqu'on veut utiliser un symbole pour lui-même) :
+(quote foo) ;; - FOO
+ 'foo ;; - FOO
+On peut demander si un symbole est lié à une valeur ou une fonction :
+(boundp 'foo) ;; - NIL (pas de valeur liée)
+ (fboundp 'foo) ;; - NIL (aucune fonction nommée FOO n'existe)
+Association symbole-valeur :
+(defparameter foo 77) ;; - FOO
+ foo ;; - 77
+Association symbole-fonction :
+(defun foo (bar)
+ (1+ bar)) ;; - FOO
+Appel de la fonction FOO avec la valeur FOO (illustre le fait qu'un symbole dispose de slots séparés pour les valeurs et les fonctions) :
+(foo foo) ;; - 78
+
+ (boundp 'foo) ;; - T
+ (fboundp 'foo) ;; - T
+ (function foo) ;; - CLOSURE FOO (BAR) (DECLARE (SYSTEM::IN-DEFUN FOO)) (BLOCK FOO (1+ BAR))
+Récursivité :
+(defun factoriel (n)
+ (if (- n 0)
+ 1
+ (- n (factoriel(- n 1)))))
+Autre :
+(first '(7 3 10)) ;;- 7
+(rest '(20 2 45)) ;;- (2 45)
+(endp ') ;;- T
+(endp '(5)) ;;- NIL liste non vide
+Structures de données
+
+Séquences
+Les séquences sont un type abstrait représentant une collection ordonnée d'éléments. Les types concrets dérivés de séquence sont les listes et les vecteurs (y compris les vecteurs de bits et chaînes de caractères). De nombreuses fonctions sont disponibles pour les séquences. Il n'est toutefois pas possible au programmeur de définir ses propres sous-types de séquences. Une extension du standard permettant la définition de nouvelles séquences est en cours de proposition (circa 2007).
+
+Paires, listes
+Les listes de Common Lisp ne sont pas un type de donnée mais sont composées à partir de conses (pluriel), parfois appelés cellules cons ou paires. Un cons est une structure à deux éléments, accessibles par les fonctions car et cdr (ou encore first et rest). Une liste est donc une chaîne de conses liés, où le cdr de chaque cons pointe sur l'élément suivant, et le dernier cdr pointe sur la valeur NIL. Les conses peuvent être facilement utilisés pour implémenter des arbres ou toute structures de données complexe ; bien que dans ce dernier cas il soit recommandé d'utiliser des structures ou des classes.
+L'arbre (1 (2-7 3.14) A "foo") est représenté par la chaîne de CONS suivante :
+Il peut être construit de différentes façons, nous en citons deux :
+(list 1 (list 2-7 3.14) 'a "foo")
+ (cons 1 (cons (cons 2-7 (cons 3.14 NIL)) (cons 'a (cons "foo" NIL))))
+Les listes ou structures cycliques construites à partir de paires n'ont pas de représentation littérale, mais elles peuvent être imprimées :
+(setf -print-circle- t) ; active l'affichage des structures circulaires (évite le bouclage infini)
+ (let ((list (copy-list '(a b c))))
+ (setf (cdr (last list)) list)) ; - 1-(A B C. 1)
+Tableaux
+Common Lisp supporte les tableaux de dimensions arbitraires, et peut aussi redimensionner dynamiquement les tableaux. Ces tableaux multidimensionnels peuvent par exemple être utilisés pour du calcul matriciel. Seuls les tableaux à une dimension (nommés vecteurs) sont un sous-type de séquence.
+Les tableaux peuvent être spécialisés par le type des éléments qu'ils contiennent. En particulier, les vecteurs de bits et les vecteurs de caractères (chaînes) sont fournis en standard par le langage.
+Exemple de création de vecteur :
+(setq v (make-array 3)) ; creation du vecteur
+(setf (aref v 0) 1) ; v(0):- 1
+(aref v 0) ; - 1
+Exemple de création d'un tableau à trois dimensions (4 x 2 x 3) et initialisé :
+(make-array '(4 2 3) :initial-contents
+ '(((a b c) (1 2 3))
+ ((d e f) (3 1 2))
+ ((g h i) (2 3 1))
+ ((j k l) (0 0 0))))
+... cela retourne :
+
+Registres
+Exemples :
+(defstruct livre auteur titre) ; construit une structure "livre" contenant deux champs
+(make-livre) ; construit la structure en mémoire
+(setq l (make-livre :auteur 'Hugo)) ; crée un livre dont l'auteur est Hugo et l'associe à la variable l
+
+(setf (livre-titre l) 'Miserables) ; associe un titre au livre de Hugo
+(livre-titre l) ;;- Miserables
+Tables de hachage
+Les tables de hachage stockent des associations entre objets. N'importe quel type d'objet peut être utilisé comme clef ou valeur. Les tables de hachage, comme les tableaux, sont automatiquement redimensionnées si nécessaire.
+
+Paquetages
+Les paquetages (packages) sont des collections de symboles, utilisés principalement pour partitionner un programme en espaces de noms. Un paquetage peut exporter certains symboles, les marquant comme une partie d'une interface publique. Les variables et méthodes dites privées des langages à objets classiques (principe de l'encapsulation) sont obtenues en Lisp en les déclarant dans un espace de nom, sans les exporter.
+
+Structures
+Les Structures, similaires au structs du C et aux records (enregistrements) du Pascal, représentent des structures de données de complexité arbitraire, avec un nombre quelconque et tout type de champs (appelés slots). Les structures supportent une forme limitée d'héritage. Pour les besoins de la programmation orientée objet, on se reportera à CLOS.
+
+Classes et Objets
+Common Lisp a été le premier langage à objets standardisé (en 1994, par l'ANSI). La partie du langage traitant des objets se nomme CLOS pour Common Lisp Object System. Les caractéristiques saillantes de CLOS sont les suivantes : c'est un système à classes (il existe en effet des systèmes à prototypes),; il permet l'héritage multiple entre classes,; les classes elles-mêmes sont des objets, ou instances de méta-classes (des classes de classes),; il dispose d'un protocole à méta-objets (Meta Object Protocol ou MOP), lié à l'existence des méta-classes, et permettant de modifier la sémantique et le comportement du système,; il offre la sélection multiple des méthodes, c'est-à-dire la sélection à l'exécution d'une méthode en fonction du type du tuple de ses paramètres obligatoires (et non pas d'un receveur privilégié comme dans les langages à sélection simple) ; les méthodes de CLOS sont regroupées dans des fonctions génériques au lieu d'appartenir à des classes,; il permet la combinaison de méthodes, c'est-à-dire la définition de méthodes auxiliaires s'exécutant avant et-ou après une méthode particulière.
+CLOS permet également de définir des méta-classes et des classes, de changer la classe d'un objet, à l'exécution.
+Le système de conditions de Common Lisp utilise CLOS pour définir les types des conditions pouvant survenir à l'exécution.
+Certaines implémentations proposent en extension de CLOS un protocole à méta-objets décrit par le livre The Art of the Metaobject Protocol.
+
+Fonctions et fermetures lexicales
+
+Fonctions
+En Common Lisp, les fonctions sont un type de donnée. Par exemple, il est possible d'écrire des fonctions qui prennent d'autres fonctions en paramètre, et retournent des fonctions (on les nomme fonctions d'ordre supérieur, ou de première classe). Cela rend possible d'écrire des opérateurs très généraux.
+
+Exemple
+Par exemple, la fonction sort (tri) prend une séquence et un opérateur de comparaison en paramètre. Elle peut être utilisée non seulement pour trier n'importe quel type de données, mais également pour trier des structures de données selon une clef.
+(sort (list 5 2 6 3 1 4) ') ;; - (6 5 4 3 2 1), en utilisant la fonction comme opérateur de comparaison
+
+(sort '((9 a) (3 b) (4 c))
+ (lambda (x y) ((first x) (first y)))) ;; - ((3 b) (4 c) (9 a)), i.e. la liste triée sur le premier élément
+On peut appliquer la fonction FOO définie plus haut à une séquence :
+(mapcar 'foo (list 1 2 3 4 5)) ;; - (2 3 4 5 6)
+Espaces de noms
+Common Lisp a un espace de nom respectivement pour les fonctions et pour les variables (à la différence de, par exemple, Scheme, qui est dit "Lisp-1"). Lisp-2 (ou plus) présente l'avantage qu'aucun nom de variable ne peut masquer un nom de fonction : on peut nommer une variable cons ou même if sans problème. Toutefois, pour faire référence à une fonction en tant que variable, on doit utiliser la fonction (function...) ou la notation équivalente ' comme dans les exemples ci-dessus. Et pour appeler une fonction passée en paramètre, il faut utiliser funcall.
+Outre les fonctions et les variables, il y a un espace de noms distinct pour les couples d'opérateurs block-return-from et tagbody-go.
+Ajoutons pour finir que l'espace de nom des fonctions est en réalité partagé entre les fonctions proprement dites et les différentes sortes de macros.
+
+Évaluation
+Le modèle d'évaluation est simple : lorsque l'évaluateur rencontre une expression (F A1 A2... An), le symbole F peut représenter l'un de ces items : 1) un opérateur spécial (comme if),; 2) une macro,; 3) une fonction, c'est-à-dire le nom d'une fonction définie par (defun...) ou une fonction anonyme, toujours dénotée par (lambda...).
+Si F est une fonction, les paramètres sont évalués successivement de gauche à droite et la fonction est invoquée avec les valeurs calculées des paramètres. Pour les opérateurs spéciaux ou les macros, cela dépend. Ces opérateurs tendent en effet à contrôler l'évaluation de leurs paramètres. Par exemple, l'opérateur if n'évalue pas tous ses paramètres, il doit évaluer sa condition et puis en fonction du résultat, une branche de l'alternative.
+
+Capture lexicale
+Une fermeture lexicale est une fonction dont les variables libres capturent les liaisons de l'environnement lexical dans lequel elles sont définies. Cela permet de construire des fonctions ayant un état interne (en C on utiliserait le mot-clef static pour obtenir l'état interne, mais la capture lexicale n'est pas possible). On peut construire des objets simples à partir de fermetures, par exemple une fabrique de compteurs :
+(defun fabriquer-compteur ; fabriquer-compteur renvoie une fonction qui incrémente et affiche sa valeur interne
+ (let ((valeur 0)) ; dans l'environnement de la fabrique, on crée la valeur du compteur
+ (lambda ; le nouveau compteur lui-même
+ (incf valeur)))) ; ici, la référence à "valeur" capture sa définition dans la fabrique
+Autres types
+Les autres types de données de Common Lisp comprennent : les Pathnames (noms représentant des chemins) qui représentent fichiers et répertoires dans le système de fichier. L'outil de nommage de chemins en Common Lisp est plus général que la plupart des conventions de nommage des systèmes d'exploitation, ce qui rend l'accès des programmes Lisp aux fichiers largement portable à travers différents systèmes.; Les streams (flots) d'entrée et de sortie représentent des sources et des puits de données binaires et textuelles, comme le terminal ou des fichiers ouverts.; Common Lisp possède son propre générateur de nombres pseudo-aléatoires. Les objets État aléatoire représentent des sources réutilisables de nombres pseudo-aléatoires, permettant à l'utilisateur d'initialiser le générateur ou de le forcer à rejouer une séquence.; Les Conditions sont un type spécial utilisé pour représenter des erreurs, exceptions et autres évènements "intéressants" auxquels un programme doit pouvoir répondre. Common Lisp a l'un des systèmes de gestion d'exceptions les plus complets ; il permet la reprise après erreur.
+Common Lisp incorpore également une boîte à outils pour la programmation orientée objet, le Common Lisp Object System, ou CLOS. Il est donc possible d'ajouter une infinité de types.
+
+Macros
+Une macro en Lisp ressemble superficiellement à une fonction. Les macros permettent au programmeur Lisp de créer de nouvelles formes syntaxiques dans le langage, par transformation de leurs paramètres représentant du code source. Par exemple, la macro suivante fournit la forme de boucle until (boucler... jusqu'à), qui est familière dans un langage comme Perl. définition de la macro :.
+(defmacro until (test body body)
+ '(do
+ (, test)
+ ,@body)): appel de la macro (utilisation dans un programme) :.
+(until (- (random 10) 0)
+ (write-line "Hello")): première étape de macro-expansion (permet de retrouver le texte de la définition interpolé avec les paramètres de l'appel) :.
+(DO NIL ((- (RANDOM 10) 0)) (WRITE-LINE "Hello")): macro-expansion complète (ce qui est exécuté pour un appel) :.
+(BLOCK NIL
+ (LET NIL
+ (TAGBODY :G7594 (IF (- (RANDOM 10) 0) (GO :G7595)) (WRITE-LINE "hello")
+ (PSETQ) (GO :G7594) :G7595 (RETURN-FROM NIL (PROGN)))))
+Les macros ne sont donc pas évaluées à l'exécution comme les fonctions, mais au moment de la compilation. La valeur de retour d'une macro est sa macro-expansion, c'est-à-dire la transformation de code qu'elle a effectué ; c'est cela qui est évalué lors de l'exécution du programme pour chaque appel à la macro.
+On peut considérer les macros comme des fonctions qui acceptent et retournent des arbres de syntaxe abstraits (les S-expressions), mais contrôlent l'évaluation de leurs paramètres. En effet dans un appel à une macro (ma-macro (+ 1 2)), l'expression (+ 1 2) n'est pas d'abord évaluée et son résultat passé en argument, elle est passée telle quelle à la macro, qui peut la réutiliser intacte, l'interpoler avec d'autres fragments de code ou la transformer plus ou moins complètement.
+Comme les fonctions, les macros peuvent utiliser l'ensemble du langage Common Lisp (et bibliothèques tierces) pour effectuer leur travail de transformation (on les appelle pour cela des macros procédurales), contrairement aux macros du langage C qui ne permettent que des substitutions de chaînes de caractères au niveau du source, sans accès à l'ensemble du langage C lui-même.
+
+Langages embarqués
+L'intérêt principal des macros ne réside pas dans les petits utilitaires comme l'exemple ci-dessus, dont la prolifération dans les programmes Lisp peut conduire à un effet d'offuscation, mais dans la possibilité de définir des langages embarqués dans Lisp, qui ciblent un domaine applicatif particulier. Un exemple classique est l'inclusion dans le langage d'une extension permettant de faire de la programmation logique à la manière de Prolog ou encore de la programmation par contrainte (ajout d'un nouveau paradigme de programmation). Il est possible en effet de construire, en utilisant des macros et des fonctions Lisp, un compilateur pour un langage de plus haut niveau que le langage de base mais qui reste intégré dans ce dernier.
+Tous les domaines applicatifs peuvent bénéficier de la technique consistant à écrire un programme en ayant une approche descendante (top-down), dans laquelle le problème à résoudre est décomposé jusqu'à pouvoir être exprimé dans les termes du langage de base, et une approche montante (bottom-up), où l'on étend le langage de base avec des concepts facilitant l'expression du problème. Aucun langage de programmation à usage général ne pouvant être fourni avec les opérateurs spécifiques à une infinité de domaines d'applications spécifiques, la faculté de pouvoir construire un langage adapté (l'approche bottom-up), par extension et réutilisation de la base, est un avantage majeur de Lisp sur les autres langages universels. Les macros sont de ce point de vue un avantage unique des langages de la famille Lisp. La facilité d'écriture des macros tient à l'utilisation des S-expressions pour la syntaxe de Lisp.
+
+Templates pour le code
+Le mécanisme des macros ne serait pas assez commode à l'usage sans un mécanisme permettant de représenter du code Lisp sous forme de patron (modèle, ou encore template) dans lequel des éléments calculés ou donnés en paramètre peuvent être injectés. Common Lisp offre la quasiquotation, représentée par le caractère ' (dit backquote). Bien que l'opérateur backquote puisse être utilisé dans des fonctions, c'est dans les macros que son usage s'avère primordial : il permet d'améliorer la lisibilité du code produit par une macro dans des proportions considérables.
+Dans l'exemple ci-dessus, les backquotes ont été utilisées pour calculer le résultat. Le corps de la macro until est entièrement représenté par un template de code, utilisant l'opérateur d'itérations do. Rappelons que DO accepte trois arguments : un ensemble de variables d'itérations définies localement et itérées en parallèle, un ensemble de clauses permettant de définir les conditions d'itération des variables et d'arrêt de la boucle, et un groupe - de taille quelconque - d'opérations ou d'actions arbitraires :
+do ((var (var (init-form ((step-form))))-) (end-test-form result-form-) declaration- (tag statement)-
+ - result-
+Pour la boucle until, l'utilisation de DO est simple : il n'y a pas de variables d'itération, il y a exactement une clause de test, et on peut admettre un groupe d'opération à effectuer à chaque itération. Le template à produire reflète cela :
+'(do
+ (, test)
+ ,@body))
+On note la backquote précédant l'expression DO. Dans une expression backquotée, on peut injecter des informations de deux manières : avec l'opérateur , (unquote) qui injecte l'objet immédiatement à sa droite, ou l'opérateur , @ (splice-unquote) qui admet une liste à sa droite et injecte sur place le contenu de la liste.
+Le résultat de :
+(macroexpand-1 '(until (- (random 10) 0)
+ (write-line "Hello")))
+est l'expansion
+(DO NIL ((- (RANDOM 10) 0)) (WRITE-LINE "Hello"))
+dans laquelle on retrouve le template combiné avec les paramètres de l'appel à la macro. L'expansion finale, produite par (macroexpand...), contient l'expansion de l'opérateur DO lui-même en termes d'opérateurs de plus bas niveau. Comme DO est un opérateur défini par le langage Common Lisp, la sémantique de l'opérateur est toujours la même. Mais il se peut que cette expansion varie d'un compilateur à l'autre. On voit par là que les macros sont déjà massivement utilisées dans l'implémentation d'un langage riche et complexe comme Common Lisp.
+
+Capture de variable
+Les macros Common Lisp sont capables de capture de variable, une situation où des symboles situés dans le corps de la macro-expansion coïncident avec des symboles du contexte appelant. Pour cette raison elles sont parfois appelées macros "non hygiéniques", par comparaison avec le système de "macros hygiéniques" de Scheme, qui garantit la séparation entre ces ensembles de symboles.
+La capture de variable est parfois un effet désiré ; lorsque ce n'est pas le cas, elle doit être évité par l'emploi de gensyms, ou symboles dont l'unicité est garantie.
+
+Implémentations
+
+Standard et implémentations
+Common Lisp est défini par une spécification (comme Ada et C) plutôt que par une seule implémentation (comme Perl ou Python). Il y a de nombreuses implémentations, et le standard décrit les points sur lesquels elles peuvent être divergentes pour de bonnes raisons.
+De plus, les implémentations sont généralement fournies avec différents ensembles de "paquets" de bibliothèques, qui fournissent des fonctionnalités non couvertes par le standard. Certaines de ces fonctionnalités ont été introduites par la suite dans le standard, comme CLOS et la forme LOOP ; d'autres restent propres à ces implémentations. De nombreuses commodités pour le programmeur moderne -- comme l'accès aux réseaux TCP-IP -- restent hors du standard, mais sont fournies par les différentes implémentations avec parfois des différences mineures. Un processus nommé CLRFI (Common Lisp Request For Improvement), similaire aux SRFI de Scheme, a pour objectif de faire converger les fonctionnalités utiles laissées hors du standard ANSI de 1995.
+Selon une erreur répandue, les implémentations de Common Lisp sont toutes des interpréteurs. En fait, la compilation fait partie de la spécification du langage. La plupart des implémentations de Common Lisp compilent les fonctions vers du code machine. D'autres compilent vers du code objet ou même vers le code d'une machine virtuelle applicative, ce qui réduit la vitesse mais améliore la portabilité.
+Certaines implémentations en environnement UNIX, comme CLISP, peuvent être utilisées comme des interpréteurs de scripts (ou même comme shell).
+
+Liste des implémentations: Armed Bear Common Lisp, une implémentation pour la plate-forme Java.; GNU Common Lisp; CMU Common Lisp; Steel Bank Common Lisp; ManKai Common Lisp; Allegro Common Lisp, par Franz, Inc.; LispWorks, par LispWorks Ltd.; Macintosh Common Lisp, par Digitool, Inc.; Corman Lisp, par Corman Technologies; Scieneer Common Lisp, par Scieneer Pty Ltd..
+
+Voir aussi
+
+Applications
+Common Lisp est utilisé avec succès dans de nombreuses applications commerciales : Orbitz, un site majeur de réservation de voyages,; Mirai, une suite intégrée de création de graphismes 2D-3D offrant ce qui est presque universellement considéré comme le meilleur modeleur polygonal de l'industrie, un système d'animation IK-FK et non-linéaire (popularisé par des produits tels que l'Animanium de Sega et Softimage XSI), et de la coloration avancé pour la 2D et la 3D. Il est utilisé dans divers films (le plus fameux étant Le Seigneur des anneaux de New Line Cinema), des jeux vidéo et des simulations militaires.; Piano, un packetage pour la conception préliminaire d'avions commerciaux et l'évaluation de la compétition.; Xanalys Corp. offre une ligne de logiciel d'investigation, utilisé par les services de police, de sécurité et de prévention de la fraude au niveau mondial.; Knowledge Technologies International le logiciel de conception mécanique ICAD.; Genworks International le Langage Déclaratif à usage Général (GDL), un outil de développement pour la création d'ingénierie Web, de conception et d'applications d'affaires.
+Il existe également des applications open-source écrites en Common Lisp, telles que : Applicative Common Lisp, un démonstrateur de théorèmes complet pour un sous-ensemble de Common Lisp.; Maxima, un système de calcul formel.; Axiom, un autre système de calcul formel.; Compo, un langage permettant la description naturelle de structures musicales complexes.; Lisa, un système à base de règles pour construire des agents logiciels "intelligents".; OpenMusic Un environnement de programmation visuelle conçu pour la composition musicale, mais donnant un accès quasi complet, sous forme graphique, à la programmation en Common Lisp et CLOS.
+Common Lisp est également utilisé par de nombreux gouvernements et institutions de type Loi 1901. Des exemples d'utilisation par la NASA incluent : SPIKE, le système de planification et d'ordonnancement du télescope spatial Hubble.; Remote Agent, gagnant du prix logiciel de la NASA pour l'année 1999.; ABCL-1.

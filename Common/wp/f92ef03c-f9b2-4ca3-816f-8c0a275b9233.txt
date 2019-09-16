@@ -1,0 +1,9 @@
+Gerard Salton, né Gerhard Anton Sahlmann, aussi connu comme Gerry Salton, né le 8 mars 1927 à Nuremberg, mort le 28 août 1995, est un scientifique, chercheur en informatique, professeur à l'Université Cornell.
+Salton est l'un des pionniers dans le domaine de la Recherche d'information en informatique. Une de ses contributions les plus importantes est le développement du modèle vectoriel pour la recherche d'information, et le développement du SMART Information Retrieval System qu'il initia à l'Université Harvard.
+
+Publications
+Salton publia environ 150 articles scientifiques et cinq ouvrages. (en) Gerard Salton, M. J. McGill, "Introduction to Modern Information Retrieval", 1983.
+
+Voir aussi
+
+Articles connexes: TF-IDF.

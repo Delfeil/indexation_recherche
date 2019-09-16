@@ -1,0 +1,23 @@
+Le General Packet Radio Service ou GPRS est une norme (protocole réseau) pour la téléphonie mobile dérivée du GSM et complémentaire de celui-ci, permettant un débit de données plus élevé. On le qualifie souvent de 2,5G ou 2G+. Le G est l'abréviation de génération et le 2,5 indique que c'est une technologie à mi-chemin entre le GSM (deuxième génération) et l'UMTS (troisième génération).
+Le GPRS est une extension du protocole GSM : il ajoute par rapport à ce dernier la transmission par paquets. Cette méthode est plus adaptée à la transmission des données. En effet, les ressources ne sont allouées que lorsque des données sont échangées, contrairement au mode "circuit" en GSM où un circuit est établi - et les ressources associées - pour toute la durée de la communication. Le GPRS a ensuite évolué au début des années 2000 vers la norme Edge également optimisée pour transférer des données et qui utilise les mêmes antennes et les mêmes fréquences radio.
+
+Débit
+Contrairement à une communication vocale où un seul intervalle temporel (time slot) (TS) est alloué pour la transmission de la voix, dans une liaison GPRS, le nombre de TS peut varier, entre un minimum fixé à 2 et le maximum à 8 TS par canal, en fonction de la saturation ou de la disponibilité de la BTS. Le débit de chaque TS est déterminé par le mode de codage (coding scheme) (CS), qui caractérise la qualité de la transmission radio : CS1 - 9,05 kbit-s (équivalent du GSM "voix") ;; CS2 - 13,4 kbit-s ;; CS3 - 15,6 kbit-s ;; CS4 - 21,4 kbit-s (cas optimal du mobile à l'arrêt, au pied de l'antenne et seul dans le secteur couvert par l'antenne).
+Le débit théorique maximal est de 8 TS CS4 - 171,2 kbit-s. Mais en pratique le débit maximal est d'environ 50 kbit-s.
+Le débit usuel de 2 TS CS2 -3 - 17,9 kbit-s, soit environ 2 ko-s.
+
+Architecture
+Le GPRS permet de fournir une connectivité IP constamment disponible à une station mobile (MS), mais les ressources radio sont allouées uniquement quand des données doivent être transférées, ce qui permet une économie de la ressource radio. Les utilisateurs ont donc un accès bon marché, et les opérateurs économisent la ressource radio. De plus, aucun délai de numérotation n'est nécessaire.
+Avant le GPRS, l'accès à un réseau se faisait par commutation de circuit, c'est-à-dire que le canal radio était réservé en continu à la connexion (qu'il y ait des données à transmettre ou pas). La connexion suivait le chemin suivant :
+Aucun nouvel équipement n'était nécessaire.
+Le GPRS introduit de nouveaux équipements. La connexion suit le chemin suivant :
+La connexion entre le MS et le BSS (c'est-à-dire BTS + BSC + TRAU) fait intervenir un protocole de couche 2 (MAC, Medium Access Control) et un protocole de couche 3 (RLC, Radio Link Control). Ces deux couches gèrent les procédures de connexion-déconnexion et le partage de la ressource radio entre les utilisateurs. RLC gère la segmentation et le réassemblage, et supporte deux modes d'utilisation : acknowledged mode qui permet la retransmission d'une trame erronée et unacknowledged mode qui ne le permet pas.
+La connexion entre le BSS et le SGSN (Serving GPRS Support Node) a lieu avec le protocole NS (Network Service) en couche 2 et le protocole BSSGP (Base Station Subsystem GPRS Protocol) en couche 3.
+La connexion entre le SGSN (Serving GPRS Support Node) et le GGSN (Gateway GPRS Support Node) utilise des protocoles IP, plus précisément le PDP et le GTP.
+Les connexions en couche 4 se font avec le protocole LLC (Logical Link Control) entre la MS et le SGSN, et en mode UDP entre le SGSN et le GGSN.
+Au-dessus des couches 4 se trouvent deux autres protocoles : SNDCP ((en)Sub Network Dependent Converge Protocol) entre la MS et le SGSN, et GTP ((en) GPRS Tunnelling Protocol) entre le SGSN et le GGSN.
+Finalement une connexion TCP-IP peut avoir lieu entre la MS et un serveur distant.
+
+Voir aussi
+
+Articles connexes: i-mode; Liste des sigles de la téléphonie mobile; Packet Data Protocol; Réseau de téléphonie mobile; Télécommunications; Téléphonie mobile. Portail des télécommunications.

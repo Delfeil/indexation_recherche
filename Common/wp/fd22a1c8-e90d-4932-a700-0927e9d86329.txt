@@ -1,0 +1,17 @@
+Mistral est le nom d'un système de recherche d'information conçu et réalisé par la Compagnie internationale pour l'informatique (CII) dans les années 1970.
+Il atteint assez rapidement un niveau de notoriété internationale comme le rappelle un rapport du CSTI. Déjà au cours des années 70 et jusqu'à la fin des années 80, le logiciel Mistral de la société CII-Bull était un leader mondial en matière de recherche documentaire.
+
+Aspects historiques
+La première version date de 1970 pour répondre aux besoins du CNEXO (devenu IFREMER). Cette version était encore rudimentaire et adaptée à une époque où l'espace disque était très couteux. Elle utilisait donc des bandes magnétiques et seuls les traitements séquentiels étaient autorisés.
+Par la suite, la CII considérait Mistral comme un produit phare pour les gammes Iris 80 et Iris 50 et entretenait une solide équipe de développement. Elle put produire une série de versions qui apportaient des améliorations conséquentes, par exemple : passage des bandes au disque magnétique,; introduction de thésaurus,; indexation de champs en texte libre,; mode interactif, d'abord en mode transactionnel puis en temps partagé.
+En 1978, cette solution fut retenue pour la création d'un "centre serveur national", Télésystèmes Questel.
+Paradoxalement ce succès entraina la fin progressive de la vie de Mistral. En effet, une partie de l'équipe initiale rejoignit cette nouvelle société. D'un autre côté, avec les tribulations de la société CII, le soutien fut plus réduit. Enfin, l'appropriation de ce logiciel par un centre documentaire paraissait complexe et des produits moins performants mais plus faciles d'accès, et notamment Texto se multiplièrent.
+
+Caractéristiques techniques
+
+Fichiers inverses
+Mistral fonctionnait naturellement avec des fichiers inverses qui étaient implantés avec un socle de type séquentiel indexé. Leur paramétrage offrait un peu de souplesse en permettant par exemple de regrouper plusieurs champs dans un même index. Le progiciel disposait d'un ensemble d'outils de gestion ou de réorganisations de ces fichiers.
+
+Thésaurus
+
+Paramétrage

@@ -1,0 +1,27 @@
+La reconnaissance de visage est un domaine de la vision par ordinateur consistant à reconnaitre automatiquement une personne à partir d'une image de son visage. C'est un sujet particulièrement étudié en vision par ordinateur, avec de très nombreuses publications et brevets, et des conférences spécialisées.
+La reconnaissance de visage a de nombreuses applications en vidéo-surveillance, biométrie, robotique, indexation d'images et de vidéos, recherche d'images par le contenu, etc.
+La reconnaissance de visage fait partie du domaine du traitement du signal.
+
+Problématique
+La reconnaissance de visage consiste à déterminer l'identité d'une personne à partir d'une image de son visage. Pour cela, il est nécessaire que l'identité de la personne soit connue au préalable, au moyen d'une ou plusieurs images de son visage, ou d'un modèle 3D de son visage.
+On distingue deux types de tâches: L'identification, appelée aussi one-to-many (1:N), consiste à déterminer l'identité d'un individu parmi N identités connues, présentes dans une base.; La vérification, appelée aussi one-to-one (1:1), consiste à vérifier que l'identité prétendue est bien la bonne.
+
+Historique
+L'une des premières tentatives de reconnaissance de visage est faite par Takeo Kanade en 1973 lors de sa thèse de doctorat à l'Université de Kyoto.
+
+Techniques de détection
+
+Performances
+
+Applications: Retrouver un ami ou un membre de sa famille dont on a juste une photo.; Identifier un criminel dont le forfait a été filmé par un caméra de vidéosurveillance.; Chercher sur toutes les caméras de vidéosurveillance où est une personne identifiée.; Identifiant biométrique pour le contrôle d'accès (téléphone, bâtiment, voiture, ordinateur...).; Aide aux aveugles et aux personnes souffrant de prosopagnosie.; Paiement par reconnaissance faciale. La reconnaissance de visage peut servir d'authentification, à la manière du SMS, plus largement utilisé. Le dispositif, qui a été testé au préalable sur 500 personnes, sera déployé pour l'été 2016.
+
+Aspects sociétaux
+Le 7 juin 2011, Facebook a lancé un service de reconnaissance faciale accessible à tous. Celui-ci a été vivement critiqué par un bon nombre d'associations de protection de la vie privée et du droit à l'oubli. Sous cette pression, Facebook a dû abandonner ce service le 22 septembre 2012 en Europe.
+Un autre projet de reconnaissance de visage, appelé DeepFace, développé par le groupe de recherche de Facebook a également commencé à voir le jour début 2015. Cet outil a pour but de reconnaître un visage, quelle que soit son orientation, ainsi que d'y associer une personne. DeepFace permet donc de faire correspondre un très grand nombre de photos différentes d'une même personne, même si celle-ci n'est pas identifiée explicitement. Pour réaliser cela, le système est composé d'un réseau de neurones artificiels entraîné via l'apprentissage profond sur des millions d'images.
+
+Évolution
+Le système évolue et l'on peut maintenant reconnaître des visages en mouvement, vus de profil et on peut aussi désormais vieillir un visage.
+
+Voir aussi
+
+Articles connexes: Détection de visage; Perception des visages; Eigenface; VeriFace.

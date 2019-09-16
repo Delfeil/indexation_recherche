@@ -1,0 +1,6 @@
+PPPoX (PPP over X) désigne une famille de protocoles encapsulant PPP.
+Font partie de PPPoX : PPPoA, où PPP est encapsulé dans ATM; PPPoE, où PPP est encapsulé dans Ethernet; L2F, où PPP est encapsulé dans des trames UDP; PPTP, où PPP est encapsulé dans des trames GRE; L2TP, en versions 1 et 2, où PPP est encapsulé et multiplexé dans des tunnels basés sur UDP.
+PPP pouvant utiliser n'importe quel transport supportant la transmission de données asynchrones, on peut trouver beaucoup d'autres implémentations moins standards.
+Par exemple: PPP over SSH, PPP over USB, PPP over RS232, etc.
+
+Voir aussi: Protocole point à point; RFC 1661 - Point-to-Point Protocol (PPP) (traduction en français). Portail des télécommunications.

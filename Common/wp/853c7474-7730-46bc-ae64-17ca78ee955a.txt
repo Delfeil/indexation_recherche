@@ -1,0 +1,45 @@
+En algèbre linéaire, les nombres réels qui multiplient les vecteurs dans un espace vectoriel, sont appelés des scalaires. Cette multiplication par un scalaire, qui permet de multiplier un vecteur par un nombre pour produire un vecteur, correspond à la loi externe de l'espace vectoriel.
+Plus généralement, dans un K-espace vectoriel, les scalaires sont les éléments de K, où K peut être l'ensemble des nombres complexes ou n'importe quel autre corps.
+D'autre part, un produit scalaire (à ne pas confondre avec la multiplication par un scalaire) peut être défini sur un espace vectoriel, permettant à deux vecteurs d'être multipliés entre eux pour donner un scalaire. Un espace vectoriel de dimension finie et muni d'un produit scalaire est appelé un espace vectoriel euclidien.
+La composante réelle d'un quaternion est aussi appelée partie scalaire.
+Le terme de matrice scalaire est utilisé pour désigner une matrice multiple de la matrice identité par un scalaire.
+
+Étymologie
+Le mot scalaire provient du mot anglais scalar qui lui-même dérive du mot scale utilisé pour un ensemble de nombres. Ce dernier provient du latin scala désignant une échelle.
+Selon l'Oxford English Dictionary, le mot scalar apparaît pour la première fois dans une publication scientifique en 1846 dans un article du mathématicien irlandais William Rowan Hamilton, qui utilisait ce mot pour désigner la partie réelle d'un quaternion. Cette référence est confirmée par le site Earliest known uses of some of the mathematical words. Ce dernier précise que ce terme scalar fut déjà employé par Hamilton dans l'article On quaternions présenté en 1844 et publié seulement en 1847 (mais peut-être dès 1845, selon David Wilkins).
+
+Définitions et propriétés
+
+Notions communes aux mathématiques et à la physique
+Un "vrai scalaire" est un nombre qui est indépendant de la base choisie pour exprimer les vecteurs, par opposition à un pseudoscalaire, qui est un nombre pouvant dépendre de la base.
+Un scalaire est représenté soit par des lettres grecques, soit par des lettres en italiques.
+Un scalaire est un tenseur d'ordre 0. Les quantités non scalaires sont dites pseudoscalaires.
+
+Exemples
+Un nombre qui mesure une température, une masse, ou une hauteur est un scalaire.
+Une grandeur scalaire est un scalaire auquel est associée une unité (ex. masse en kg, température en C)
+La coordonnée d'un vecteur dans une base est un réel (nombre sans unité).
+Un nombre issu d'une opération entre vecteurs peut être un pseudo ou un vrai scalaire selon que les vecteurs opérandes sont des pseudovecteurs ou des vecteurs vrais.
+La vélocité (ou vecteur vitesse) d'un objet ponctuel est un vecteur : elle est définie par un scalaire associé à une direction et un sens. De même pour l'accélération d'un objet ponctuel. La valeur de la vitesse ou de l'accélération est une grandeur scalaire (donc avec une unité).
+En mathématiques, le déterminant d'une matrice est un scalaire, mais pas celui d'une famille de vecteurs : il dépend de la base choisie. Une permutation des vecteurs de base suffit à changer le signe du déterminant. C'est donc aussi le cas pour le produit mixte de trois vecteurs puisqu'il est défini par un déterminant.
+
+Scalaires d'espaces vectoriels
+Un espace vectoriel est défini comme un ensemble de vecteurs, associé à un ensemble de scalaires, munis de plusieurs lois, dont une est une loi de multiplication par un scalaire qui associe à un scalaire s et un vecteur v un autre vecteur s.v. Par exemple, dans l'espace vectoriel Kn des n-uplets d'éléments d'un corps K, la multiplication par un scalaire s d'un vecteur (x 1 ,.. x n) (-displaystyle (x-(1),-ldots ,x-(n))) donne un vecteur s. (x 1 ,.. x n) - (s x 1 ,.. s x n) (-displaystyle s.(x-(1),-ldots ,x-(n))-(sx-(1),-ldots ,sx-(n))). Dans un espace vectoriel fonctionnel, pour un scalaire s et une fonction , s. est la fonction x s.(x).
+Les scalaires peuvent être pris dans n'importe quel corps commutatif, incluant celui des rationnels, des nombres algébriques, des nombres réels, et des nombres complexes, aussi bien que les corps finis.
+
+Scalaires en tant que composantes de vecteurs
+Tout espace vectoriel de dimension finie sur un corps de scalaires K est isomorphe à l'espace vectoriel Kn formé de n-uplets de scalaires de K. Par exemple, tout espace vectoriel réel de dimension n est isomorphe à l'espace vectoriel réel R.
+
+Produit scalaire
+Un espace préhilbertien est un espace vectoriel E muni d'un produit scalaire qui est une loi permettant à deux vecteurs d'être multipliés pour donner un nombre. Le résultat ou produit, est généralement défini comme un élément du corps des scalaires de E. Puisque le produit scalaire d'un vecteur avec lui-même doit être positif, un espace avec un produit scalaire ne peut être défini que sur un corps qui donne un sens à la notion de signe. Cela exclut les corps finis, par exemple.
+L'existence d'un produit scalaire rend possible l'introduction dans un espace vectoriel de l'intuition géométrique des espaces euclidiens en fournissant une notion bien définie d'angle entre deux vecteurs, et en particulier une manière d'exprimer l'orthogonalité de deux vecteurs. Les espaces vectoriels réels munis d'un produit scalaire peuvent être munis d'une norme euclidienne.
+
+Scalaires dans les espaces vectoriels normés
+Un espace vectoriel E peut être muni d'une norme qui associe à chaque vecteur v de E un scalaire v. Par définition de la norme, en multipliant un vecteur v par un scalaire s, on multiplie sa norme par s. Si v est interprété comme la longueur de v, alors cette opération peut être décrite comme la multiplication de la longueur de v par un rapport de proportion s. Un espace vectoriel muni d'une norme s'appelle un espace vectoriel normé.
+La norme est habituellement à valeurs dans le corps des scalaires de E, ce qui limite ce dernier à un corps supportant la notion du signe. Pour imiter la définition de la norme euclidienne, si E est de dimension finie supérieure à 2, K doit être fermé pour la racine carrée, aussi bien que pour les quatre opérations arithmétiques ; ainsi le corps Q des nombres rationnels est exclu, mais le corps des nombres constructibles convient.
+
+Scalaires dans les modules
+Les modules constituent une généralisation des espaces vectoriels, et le terme de "scalaire" est aussi utilisé dans ce contexte pour désigner les éléments de l'anneau qui opère sur le module. Dans ce cas, les scalaires peuvent être des objets compliqués. Si R est l'anneau des matrices carrées (n, n) à coefficients dans un anneau A, on peut faire opérer ces matrices par action à gauche sur le groupe abélien des matrices colonnes à coefficients dans A, faisant alors de cet espace un R-module : dans ce contexte, les "scalaires" sont des matrices. Un autre exemple peut être emprunté à la théorie des variétés, où l'espace des sections du fibré tangent forme un module sur l'algèbre des fonctions réelles définies sur la variété.
+
+Homothéties vectorielles
+La multiplication par un scalaire des vecteurs d'espaces vectoriels et de modules est un cas particulier d'une homothétie vectorielle, un type d'application linéaire.

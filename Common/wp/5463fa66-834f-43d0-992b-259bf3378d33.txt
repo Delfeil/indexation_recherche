@@ -1,0 +1,31 @@
+L'information géographique est la représentation d'un objet où d'un phénomène réel ou imaginaire, présent, passé ou futur, localisé dans l'espace à un moment donné et quelles qu'en soient la dimension et l'échelle de représentation.
+Aujourd'hui, l'Information géographique est de plus en plus représentée, mais aussi gérée, enrichie et mise en forme par l'informatique, via les systèmes d'information géographique et la cartographie dynamique Autre exemple, illustrant la présentation de données à une échelle plus locale que ci-dessus
+
+Éléments de définition
+On distingue habituellement deux types d'information géographique : des informations de base ou de référence (ex. référentiel à grande échelle) ;; des informations thématiques concernant un domaine thématique particulier (environnement, transport, réseaux d'utilités, foncier, etc.) venant enrichir la description d'un espace ou d'un phénomène défini par des informations de base.
+
+Composantes
+Les trois composantes de l'information géographique sont : l'information relative à un objet décrit par sa nature, son aspect : c'est le niveau sémantique. L'ensemble des attributs de l'objet forme ses attributs (ex. le numéro d'une parcelle cadastrale, le nom d'une route, d'une rivière, d'une commune, etc.) ;; les relations éventuelles avec d'autres objets ou phénomènes : c'est le niveau topologique (ex. la contiguïté entre deux communes, l'inclusion d'une parcelle dans une commune, l'adjacence entre les différents noeuds des tronçons constituant des parcelles cadastrales, etc.) ;; la forme et la localisation de l'objet sur la surface terrestre, exprimés dans un système de coordonnées explicite c'est le niveau géométrique (ex. coordonnées géographiques polaires ou sphériques de type Longitude-Latitude ou coordonnées cartographiques issues d'une projection cartographique comme la projection Lambert). Un système de coordonnées peut être valable sur tout ou partie de la surface terrestre ou autre (ex. le système géodésique mondial WGS84). Mais on peut aussi définir un système de coordonnées "relatives" par rapport à un point d'origine comme c'est souvent le cas pour des relevés en topographie.
+Il est possible de passer d'un système de coordonnées géographiques à un système de coordonnées cartographiques et inversement par des méthodes de transformation.
+
+Les systèmes d'Information géographique
+Les systèmes d'information géographique ou SIG sont des outils informatiques permettant d'acquérir, d'organiser, de gérer, de traiter, de représenter et de restituer des données géographiques. Les SIG ne se limitent pas aux logiciels de gestion de données géographiques dits aussi logiciels de SIG. Ils concernent aussi : les équipements informatiques ;; les données géographiques ;; les compétences humaines ;; les aspects méthodologiques.
+
+Aspects réglementaires
+
+France
+De nombreuses informations géographiques touchent, directement ou indirectement, au respect de la vie privée des citoyens (exemple : le nom du propriétaire d'une parcelle ou d'une habitation). À ce titre, en France, l'information géographique qui permet d'accéder à des informations à caractère personnel est régi par la loi informatique et libertés qui vise à garantir la protection de la vie privée des citoyens face aux moyens de traitement automatisés de données numériques.
+La CNIL est chargée de veiller au respect de cette loi par une triple mission d'information, de contrôle et de répression. Cette loi a beaucoup évolué depuis ses débuts en 1978 notamment pour prendre en compte l'augmentation des moyens de traitement automatisés de données à caractère personnel et du fait de la transpositions de directives européennes dans ce domaine. De nombreuses initiatives ou projets lancés ces dernières années en matière de géolocalisation des individus, dont les technologies ne cessent de se développer, ont été soumis à la CNIL. Celle-ci a parfois émis des réserves voire a pointé certains dispositifs qui ne respectaient pas totalement les textes en vigueur en matière de respect de la vie privée des individus. De nombreuses plaintes ont été déposées et les tribunaux ont à se prononcer sur certaines dérives ou non-respect de certaines dispositions des textes en vigueur. Des arrêts rendus ces dernières années rappellent notamment que la géolocalisation des individus ne doit jamais s'effectuer à leur insu, que celle-ci soit effectuée en temps réel ou d'une façon durable.
+
+Union européenne
+La directive 2003-98-CE concerne la réutilisation des informations du secteur public, notamment les informations géographiques.
+Dans l'Union européenne, la directive INSPIRE vise à harmoniser les informations contenues dans les systèmes d'informations géographiques, par l'emploi de méta-données et de spécifications communes.
+
+Dans les systèmes d'informations
+Des informations géographiques figurent dans le standard de métadonnées Dublin Core, qui est une base possible pour l'établissement de registres de métadonnées en vue d'accéder aux ressources informatiques, dans le secteur public et dans le secteur privé.
+Les informations géographiques figurent dans l'élément no 14, "Portée du document".
+La directive INSPIRE vise à harmoniser les informations contenues dans les systèmes d'informations géographiques, par l'emploi de métadonnées communes.
+
+Voir aussi
+
+Articles connexes: Système d'information géographique; Association française pour l'information géographique; Conseil national de l'information géographique; École nationale des sciences géographiques; Géomatique; Géolocalisation; Géoportail; Commission nationale de l'informatique et des libertés; Normes sur les informations géographiques; Infrastructure d'information géographique dans la Communauté européenne; Couverture (métadonnée); Géomorphologie.

@@ -1,0 +1,34 @@
+En mathématiques, et plus précisément en algèbre et en analyse vectorielle, l'algèbre extérieure d'un espace vectoriel E est une algèbre associative graduée, notée E (-displaystyle -Lambda E). La multiplication entre deux éléments a et b est appelée le produit extérieur et est notée a b (-displaystyle a-wedge b). Le carré de tout élément de E est zéro (a a - 0 (-displaystyle a-wedge a-0)), on dit que la multiplication est alternée, ce qui entraîne que pour deux éléments de E : a b - b a (-displaystyle a-wedge b--b-wedge a) (la loi est "anti-commutative").
+L'algèbre extérieure est aussi appelée algèbre de Grassmann nommée ainsi en l'honneur de Hermann Grassmann. Vers 1846, ce dernier a écrit un traité sur les "grandeurs extensives", précurseurs des multivecteurs.
+
+Applications
+L'algèbre extérieure est utilisée en mathématiques dans la théorie des déterminants qui permettent de calculer les volumes et les surfaces. L'algèbre extérieure permet en particulier de définir les formes différentielles sur une variété et les champs de multivecteurs. Les formes différentielles sont particulièrement utiles en topologie algébrique et surtout en géométrie différentielle et en physique mathématique. En géométrie algébrique, l'algèbre extérieure intervient dans l'étude des faisceaux localement libres. Ces applications sont à peine abordées dans cet article qui se veut avant tout introductif.
+Une présentation informelle de cette algèbre est donnée dans la première partie ci-dessous.
+
+Notations
+Les éléments de la forme v 1 v 2... v k (-displaystyle v-(1)-wedge v-(2)-wedge -cdots -wedge v-(k)) avec v1,.., vk dans E sont appelés k-vecteurs. Le sous-espace de (E) engendré par tous les k-vecteurs porte le nom de k-ème puissance extérieure de E et se note k E (-displaystyle -Lambda (k)E). Les éléments de cet espace sont souvent appelés, au moins en géométrie, des k-multivecteurs, ou plus simplement bivecteurs pour k - 2. Les k-multivecteurs sont donc des combinaisons de k-vecteurs, pas forcément des k-vecteurs.
+Les éléments de k E (-displaystyle -Lambda (k)E) sont exactement ceux de degré k de l'algèbre graduée E (-displaystyle -Lambda E). En particulier, 0 E - K (-displaystyle -Lambda (0)E-K) et 1 E - E (-displaystyle -Lambda (1)E-E).
+L'espace vectoriel E (-displaystyle -Lambda (-)E) est la somme directe des puissances extérieures successives k E (-displaystyle -Lambda (k)E) où k décrit N :
+Pour simplement comprendre les notations : dans E (-displaystyle -Lambda (-)E), (-displaystyle (-)) désigne ici la graduation. Elle est entière et commence par 0. L'ensemble k E (-displaystyle -Lambda (k)E) est un espace vectoriel sur le corps K.
+L'indice k forme un degré compatible avec le produit extérieur : le produit d'un k-vecteur et d'un l-vecteur est un vecteur de degré inférieur à k + l. Ainsi l'algèbre extérieure a une structure d'algèbre graduée.
+L'algèbre extérieure peut être caractérisée comme l'algèbre la "plus simple" possédant les propriétés précédentes, ce qui s'exprime formellement à l'aide d'un problème universel. Dans un premier temps, on peut se contenter d'une description par générateurs et relations.
+Les relations: u E , v E v v - 0 u v - v u (-displaystyle -forall u-in E,-;-forall v-in E-qquad v-wedge v-0-qquad u-wedge v--v-wedge u).
+ne sont vraies en général que pour des vecteurs, pas pour des k-vecteurs, ni des éléments de l'algèbre extérieure.
+Une interprétation géométrique des k-vecteurs : le 2-vecteur u v (-displaystyle u-wedge v) représente le parallélogramme orienté de côtés u et v, le 3-vecteur u v w (-displaystyle u-wedge v-wedge w) représente le parallélépipède orienté de côtés u, v, et w.
+
+Base et dimension
+Si E est de dimension n et de base (e1,.., en), alors il est possible de donner une base de la k-ième puissance extérieure (E), sous la forme: (e i 1 e i 2... e i k 1 i 1 i 2... i k n) (-displaystyle -(e-(i-(1))-wedge e-(i-(2))-wedge -cdots -wedge e-(i-(k))-mid 1-leq i-(1)i-(2)-cdots i-(k)-leq n-)).
+En effet, c'est un résultat général de décomposition pour les applications multilinéaires alternées. Chacune des composantes du k-vecteur sur cette base est un mineur de la matrice représentative du système de vecteurs vj sur la base ei.
+La dimension de (E) est le coefficient binomial (n k) (-displaystyle (n -choose k)). Notamment, (E) - (0) pour k n.
+L'algèbre extérieure est une algèbre graduée égale à la somme directe: (E) - 0 (E) 1 (E) 2 (E)... n (E) (-displaystyle -Lambda (E)--Lambda (0)(E)-oplus -Lambda (1)(E)-oplus -Lambda (2)(E)-oplus -cdots -oplus -Lambda (n)(E)).
+(dans laquelle (E) - K et (E) - E), et sa dimension est donc 2.
+
+Construction formelle à partir de l'algèbre tensorielle
+L'algèbre E est l'algèbre graduée associative la plus générale contenant E, avec un produit ayant la propriété d'alternance.
+Il est naturel de voir dans ce problème une variante de l'introduction de l'algèbre tensorielle T(E), et d'obtenir la propriété d'alternance par un quotient adapté.
+Soit I l'idéal bilatère de T(E) engendré par les éléments de la forme vv pour v appartenant E (cet idéal contient les éléments de la forme vw + wv pour v et w appartenant à E). L'algèbre E est définie comme le quotient T(E)-I.
+
+Algèbre extérieure d'un module de type fini
+Pour tout module M (-displaystyle M) sur un anneau commutatif unitaire A (-displaystyle A), on construit de la même façon que pour les espaces vectoriels une A (-displaystyle A)-algèbre unitaire graduée (M) - n 0 n (-displaystyle -Lambda (M)--oplus -(n-geq 0)-Lambda (-otimes n)).
+Si M (-displaystyle M) est engendré par d (-displaystyle d) éléments, alors n M - 0 (-displaystyle -Lambda (n)M-0) pour tout n d (-displaystyle nd).
+Si de plus M (-displaystyle M) est libre de rang d (-displaystyle d), alors n M (-displaystyle -Lambda (n)M) est libre pour tout n 1 (-displaystyle n-geq 1), d M (-displaystyle -Lambda (d)M) est libre de rang 1 et est appelé le déterminant de M (-displaystyle M).

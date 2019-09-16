@@ -1,0 +1,15 @@
+En nomenclature botanique, un synonyme est un nom latin différent pour désigner un même taxon botanique ou mycologique. C'est-à-dire que tous les noms scientifiques désignant une même algue, une même plante ou un même champignon autres que le nom correct sont des synonymes.
+Taraxacum officinale (pissenlit)
+On distingue deux catégories de synonymes : "synonymes nomenclaturaux" et "synonymes taxinomiques".
+
+Synonymes nomenclaturaux
+Les synonymes nomenclaturaux (dits aussi "obligatoires" ou homotypiques), ont le même type. Cela signifie que le matériel de typification (le spécimen conservé en herbier ou tout autre élément de référence désigné) auxquels ces différents noms de taxons se réfèrent, est identique. On peut les noter par le symbole (triple signe égal). La plupart des synonymes nomenclaturaux sont des combinaisons issues d'un même basionyme. Cela se produit à la suite d'un transfert dans un autre genre ou à un autre rang taxinomique. L'épithète spécifique est alors identique (seule la terminaison latine peut varier pour respecter l'accord avec le nom du genre). Par exemple : Albizia falcataria (L.) Fosberg Paraserianthes falcataria (L.) I.C. Nielsen.; Polygonum lapathifolium L. Persicaria lapathifolia (L.) Delarbre.; Albizia falcataria (L.) Fosberg Paraserianthes falcataria (L.) I.C. Nielsen.; Polygonum lapathifolium L. Persicaria lapathifolia (L.) Delarbre; D'autres sont des noms nouveaux (nomina nova). Leur épithète peut donc être quelconque. Par exemple : Leontodon taraxacum L. (1753) Taraxacum officinale F.H. Wigg. (1780).
+Le nom Taraxacum officinale est un synonyme nomenclatural de Leontodon taraxacum. Ces deux noms, bien que rapportés à des genres différents, ont le même type et correspondent à un seul et même taxon. Une épithète ne peut répéter le nom du Genre avec lequel elle est combinée ; les tautonymes comme Taraxacum taraxacum ne sont pas acceptés.
+
+Synonymes taxinomiques
+Les synonymes taxinomiques (dits aussi "facultatifs" ou hétérotypiques) ont des types différents. Par exemple, selon la systématique phylogénétique (classification APG II (2003)), le nom de famille Capparaceae est traité en synonyme taxinomique du nom de famille Brassicaceae. De telles synonymies sont dues à une différence de sensibilité individuelle entre les différents taxinomistes quant à la circonscription de l'espèce, et selon l'importance accordée par l'auteur à certains caractères, ou encore due à la différence de méthode utilisée, comme dans l'exemple ci-dessus. C'est pourquoi elle est dite "facultative", car elle peut toujours être remise en question. On peut les noter par le symbole "- (signe égal)", soit pour l'exemple donné ci-dessus : Capparaceae - Brassicaceae.
+
+Abréviations conventionnelles
+Les abréviations correspondantes les plus usitées pour ces deux catégories de synonymes sont "syn. nomencl." et "syn. tax.", lesquelles sont souvent remplacées, notamment dans le Code et les études taxinomiques, par les notations symboliques, ("identique à") et - (signe égal).
+
+Articles connexes: synonyme (taxinomie); synonyme (zoologie). Portail de la botanique.

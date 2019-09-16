@@ -1,0 +1,12 @@
+En informatique, un appel système (en anglais, system call, abrégé en syscall) est une fonction primitive fournie par le noyau d'un système d'exploitation et utilisée par les programmes s'exécutant dans l'espace utilisateur (en d'autres termes, tous les processus distincts du noyau). Ce système permet de contrôler de façon sécurisée les applications dans l'espace utilisateur.
+Le rôle du noyau est de gérer les ressources matérielles (il contient des pilotes de périphériques) et de fournir aux programmes une interface uniforme pour l'accès à ces ressources.
+Quelques appels systèmes classiques : open, read, write et close qui permettent les manipulations sur les systèmes de fichiers ;; brk, sbrk, utilisés par malloc et free pour allouer et désallouer de la mémoire.
+Sur la majorité des systèmes d'exploitation, les appels système peuvent être utilisés comme de simples fonctions écrites en C.
+Sur la plupart des noyaux (notamment les noyaux monolithiques comme le noyau Linux) les appels systèmes sont implémentés par une instruction machine (interrupt, supervisor call...) qui fait basculer le processeur dans le noyau en mode superviseur (en ayant convenablement passé les paramètres de l'appel système, par exemple dans les registres). À cet égard, l'appel système est distinct d'un appel de fonction, et le processus qui l'exécute le fait automatiquement. Du point de vue du programme applicatif, un appel système est atomique.
+Un système d'exploitation comme Linux a plus de 380 appels systèmes distincts (dont certains se recoupent ou offrent des fonctionnalités similaires : read, pread, voire mmap et recv).
+
+Appels systèmes principaux d'UNIX
+UNIX comportait à l'origine 80 appels systèmes. La section 2 des pages de manuel est consacrée aux appels systèmes (man 2 read), pour éviter toute ambigüité avec des fonctions de bibliothèques ou de shell homonyme, on utilise souvent le suffixe (2) ou après le nom d'un appel système.
+En voici les principaux : Système de fichiers : creat, open, close, read, write, lseek, dup, link, unlink, stat, fstat, access, chmod, chown, umask, ioctl. Contrôle des processus : execve, fork, wait, -exit, getuid, geteuid, getgid, getegid, getpid, getppid, signal, kill, alarm, chdir. Communication inter-processus : pipe, msgget, msgsnd, msgrcv, msgctl, semget, semop, shmget, shmat, shmdt.
+
+Voir aussi: POSIX. Portail de l'informatique.

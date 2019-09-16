@@ -1,0 +1,24 @@
+En mathématiques, et plus précisément en algèbre générale, une loi de composition interne (-displaystyle -star) sur un ensemble S est dite commutative lorsque, pour tous x et y dans S,
+
+Exemples
+Les exemples les plus simples de lois commutatives sont sans doute l'addition et la multiplication des entiers naturels. L'addition et la multiplication des nombres réels et des nombres complexes, l'addition des vecteurs, l'intersection et la réunion des ensembles sont également des lois commutatives.
+À l'inverse, la soustraction, la division, la multiplication des matrices, la composition d'applications et la multiplication des quaternions sont des lois non commutatives.
+
+Histoire
+Extrait de la p. 98 de l'article de Servois où est apparu pour la première fois le terme.
+Certains écrits de l'Antiquité utilisent implicitement des propriétés de commutativité. Les Égyptiens utilisaient la commutativité de la multiplication pour simplifier les calculs de produits. Euclide, dans ses Éléments, avait aussi supposé la commutativité de la multiplication. La définition formelle de la commutativité a émergé à la fin du XVIIIe et au début du XIXe siècle, lorsque les mathématiciens ont commencé à construire une théorie des fonctions. Aujourd'hui, la propriété de commutativité est considérée comme une propriété basique, utilisée dans la plupart des branches des mathématiques.
+La première apparition du terme "commutatif" remonte à un article aux Annales de Gergonne écrit par François-Joseph Servois en 1814, où celui-ci étudiait les propriétés de fonctions qui commutent entre elles (par composition). L'expression
+commutative law
+(en anglais) est ensuite apparue en 1838 sous la plume de Duncan Farquharson Gregory, dans un article intitulé "On the real nature of symbolical algebra" publié en 1840 dans les
+Transactions of the Royal Society of Edimbourg
+.
+
+Structures à lois commutatives
+Les structures suivantes ont pour point commun d'être décrites par la donnée d'une ou plusieurs lois internes dont on exige la commutativité : les groupes commutatifs (on dit aussi "groupes abéliens") ;; les anneaux commutatifs ;; les corps commutatifs.
+
+Éléments permutables
+Soit S un ensemble muni d'une loi de composition interne (-displaystyle -star). Deux éléments x et y de S sont dits permutables lorsque :
+On dit aussi que x et y commutent.
+Ainsi, (-displaystyle -star) est commutative si et seulement si deux éléments quelconques de S sont toujours permutables.
+
+Voir aussi: Commutateur (opérateur); Loi de composition interne; Cocommutativité, notion duale; Anticommutativité. Portail de l'algèbre.

@@ -1,0 +1,3 @@
+Le Special Interest Group on Mobility of Systems, Users, Data and Computing (SIGMOBILE) est le pôle d'intérêt commun de l'ACM dans le domaine des technologies mobiles ; il concerne autant les systèmes, les données, le traitement informatique en interaction avec des utilisateurs en situation nomade.
+Ses deux principaux domaines d'application sont les réseaux sans-fil et l'informatique mobile (téléphonie, netbook, etc).
+Il organise une conférence annuelle connue dans la communauté universitaire sous l'appellation MobileHCI.

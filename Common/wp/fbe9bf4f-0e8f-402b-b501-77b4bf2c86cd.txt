@@ -1,0 +1,4 @@
+En informatique, on parle d'accès séquentiel lorsqu'il est possible d'accéder à un groupe d'éléments (par exemple le contenu d'une structure de données) uniquement selon un ordre prédéfini. L'accès séquentiel peut être imposé par des contraintes, par exemple dans le cas de la lecture d'une bande magnétique, ou choisi en fonction des besoins, par exemple quand on veut seulement traiter une suite d'objets dans l'ordre.
+La liste chaînée est un exemple de structure de données à accès séquentiel. L'accès à un élément se fait alors en temps linéaire.
+
+Voir aussi: Séquentiel indexé; Fichier (informatique); Accès direct. Portail de l'informatique; Portail des bases de données.

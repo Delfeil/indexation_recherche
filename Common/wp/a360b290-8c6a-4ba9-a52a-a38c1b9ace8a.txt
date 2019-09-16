@@ -1,0 +1,56 @@
+Le Graphics Interchange Format (littéralement "format d'échange d'images"), plus connu sous l'acronyme GIF (ou), est un format d'image numérique couramment utilisé sur le web.
+En 2012, le mot gif a été élu "Mot de l'année" pour l'édition américaine du dictionnaire d'Oxford University Press.
+
+Origine
+GIF a été mis au point par CompuServe en 1987 pour permettre le téléchargement d'images en couleur. Ce format utilise l'algorithme de compression sans perte LZW, nettement plus efficace que l'algorithme RLE utilisé par la plupart des formats alors disponibles (PCX, ILBM puis BMP).
+
+Caractéristiques
+
+Couleurs
+Une caractéristique rare du GIF est le nombre de couleurs supportées : au maximum 256 choisies parmi la palette RVB (16 777 216 nuances).
+Chaque pixel est représenté sur 8 bits, GIF génère sa propre palette de couleurs de 2 à 256 couleurs pour chaque image.
+Cette méthode limite donc à 256 le nombre maximal de couleurs différentes présentes dans chaque calque d'une même image (GIF89a supportant les calques multiples). L'usage d'une palette permettait un affichage beaucoup plus rapide sur les ordinateurs de l'époque dont les cartes graphiques contenaient elles-mêmes une palette d'au plus 256 couleurs.
+
+Transparence
+GIF89a permet de spécifier qu'une entrée de la palette est transparente. C'est notamment utile lorsqu'une image non rectangulaire est intégrée à un document comme une page web : on voit le document à travers les pixels transparents.
+
+Chargement rapide
+GIF propose un mode entrelacé permettant de commencer par transmettre quelques lignes d'une image, puis les lignes placées entre elles. Ce mode permet de donner plus rapidement un aperçu de l'image lorsque la transmission est lente.
+
+Animation
+Un Gif animé, 8 images affichées chacune 1-10 s.
+Le format GIF permet de stocker plusieurs images dans un fichier. Ceci permet de créer des diaporamas, voire des animations si les images sont affichées à un rythme suffisamment soutenu. Chaque image d'une animation peut avoir sa propre palette.
+La seconde version du format GIF, le GIF89a, permet d'assigner une durée distincte à chaque image faisant partie du fichier. En revanche il est impossible de faire revenir une même image plusieurs fois.
+Avec la transparence du GIF89a, il est possible de laisser l'image précédente visible à travers les pixels transparents de la nouvelle image affichée. En jouant sur cette fonction, sur les durées et sur l'utilisation de palettes différentes pour chaque image, on peut contourner la limite de 256 couleurs, mais en créant des fichiers de grande taille.
+Il existe une multitude de logiciels d'animation, dont plusieurs sont gratuits, permettant de sauvegarder en format GIF. Les logiciels d'animation permettent surtout de modifier la vitesse de défilement des images.
+De nombreux logiciels de messagerie instantanée ou moteurs de sites, proposent de convertir automatiquement le format GIF animé en fichier mp4, cela permet de compresser d'avantage le fichier, mais fait perdre la transparence. C'est le cas du site Giphy par exemple.
+
+Compression
+Le principe de compression consiste à simplifier le code des parties à rangées de pixels de même couleur. C'est pour cela que ce format est utilisé sur les images comportant un nombre plutôt limité de couleurs et sans dégradés, avec de préférence de grandes zones de couleur unie.
+La limitation à 256 couleurs n'est pas gênante pour les logos, les graphiques et la plupart des images synthétiques, ainsi que les photographies en noir et blanc. En revanche une photographie couleur de qualité nécessite plus de nuances.
+
+Prononciation
+GIF est un acronyme, cette extension se prononce donc comme un mot complet. La version 8.33 de la FAQ donne la prononciation officielle , ce qui donne donc par analogie la prononciation francophone ("jif").
+Au début des années 2010, le débat sur la prononciation (ou ("djif") pour les anglophones, ou pour les francophones) a été un débat majeur sur internet. Les services de la présidence américaine eux-mêmes ont indiqué leur choix de dans une note de bas de page.
+Steve Wilhite est lui-même intervenu pour réaffirmer la prononciation "jif".
+
+Utilisation sur le Web
+En 1993, le navigateur web NCSA Mosaic a été le premier à permettre l'intégration d'images aux pages web : les formats GIF et XBM étaient supportés. Le support du format JPEG a été introduit en 1994 par Netscape Navigator.
+Comme expliqué plus haut, le manque de couleurs de GIF le rend peu adapté pour les dégradés très colorés, tandis que la compression avec pertes du JPEG provoque des flous sur les images dessinées directement sur ordinateur. Pour les images fixes, la répartition des rôles est donc : JPEG pour les photographies, GIF pour les images synthétiques.
+Cependant, en réaction aux limitations de GIF, et aux exigences de royalties d'Unisys, un nouveau format a été proposé, PNG (Portable Network Graphics, mais si explicitement conçu en concurrent de GIF qu'une plaisanterie réinterprète l'acronyme en "PNG's Not Gif"). PNG gère 16 millions de couleurs, une variation des degrés de transparence, et a un algorithme de compression plus élaboré, ce qui rend en général les images plus légères qu'en GIF, sans pertes.
+PNG a toutefois mis longtemps à s'imposer, car non seulement les navigateurs anciens ne le supportaient pas (son support commence avec Internet Explorer 4), mais les navigateurs censés le supporter avaient de nombreux bugs dans ce domaine, surtout avec la transparence.
+
+Les GIF animés sur internet
+Dans les années 1990, GIF était populaire pour produire des effets d'animation. Toutefois de tels effets "flashy" (tout comme l'élément HTML blink (en)) ont ensuite été vus comme lourds et démodés (exemple parodique avec une page utilisant un GIF animé en fond).
+Dans les années 2000, Adobe Flash est largement utilisé comme nouveau format d'animation. Il propose des fonctions très supérieures au GIF, surtout d'interactivité (des éléments de l'animation peuvent déclencher des actions en passant la souris ou en cliquant dessus).
+Les développeurs de PNG n'ont pas repris cette fonction du GIF. Il existe des variantes animées (MNG et APNG), mais plus rarement supportées par les navigateurs. Il est également possible pour une page web de gérer elle-même l'animation en appelant des images PNG multiples.
+Finalement, le GIF revient avec le web 2.0. Son support universel est apprécié, alors que celui de Flash est incertain, surtout sur les smartphones. Des logiciels permettent la création automatique de GIF d'assez bonne qualité à partir de films, pour les exporter sur les plateformes n'acceptant pas les vidéos. Les créateurs de mèmes internet l'utilisent pour des animations humoristiques simples. Le retour du GIF se confirme en 2014 quand Twitter dote son site et ses applications mobiles d'un lecteur de GIF à l'intérieur des tweets. Les GIFs sont un moyen d'expression pour les artistes du net.art.
+
+Droits
+En décembre 1994, Unisys, détenteur de deux brevets sur la compression LZW, a soudainement annoncé que les auteurs de logiciel produisant des images GIF devaient payer des royalties.
+Le dernier brevet d'Unisys est arrivé à expiration le 20 juin 2003 aux États-Unis, le 18 juin 2004 dans la plupart des pays d'Europe, le 20 juin 2004 au Japon et le 7 juillet 2004 au Canada. Par contre IBM détenait encore un brevet valide jusqu'au 11 août 2006 aux États-Unis (et peut-être après dans d'autres pays). Le format GIF est dorénavant dans le domaine public, il est ainsi possible de l'utiliser librement.
+
+Annexe
+
+Articles connexes: Image numérique; Image matricielle.
+Autres formats : APNG; JPEG; LZW; MNG; PNG; PGF; TIFF; XBM.

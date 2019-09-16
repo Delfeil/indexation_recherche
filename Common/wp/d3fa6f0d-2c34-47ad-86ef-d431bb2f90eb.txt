@@ -1,0 +1,28 @@
+La configuration d'un logiciel, d'un matériel, ou d'un réseau informatique est un ensemble de caractéristiques techniques qui ne dépendent pas du constructeur mais découlent des choix de l'acheteur et de l'utilisateur. Des caractéristiques qui sont donc susceptibles de différer largement même pour des objets de construction identique. La configuration matérielle découle des choix relatifs au matériel : type de matériel acheté, budget alloué....
+La configuration, c'est aussi l'activité qui consiste à modifier des paramètres de configuration. C'est une activité typique de l'administration système.
+
+Configuration matérielle
+L'ordinateur est un appareil informatique modulable. L'acheteur a par conséquent la possibilité de choisir dans une large mesure les pièces qu'il va y mettre, en fonction du coût, de la performance et de la compatibilité. La configuration matérielle est l'ensemble des caractéristiques techniques qui découlent de ces choix.
+Divers paramètres permettent d'adapter les différentes pièces, et les amener à fonctionner conjointement. Par exemple le paramètre de l'adresse mémoire et de l'interruption matérielle doit être différent d'un matériel à l'autre. Les valeurs de ces paramètres peuvent être calculées par un logiciel - on parle alors d'auto-configuration.
+
+Configuration logicielle
+La configuration logicielle découle principalement de la manière dont le système de fichiers a été organisé par l'acheteur, des logiciels choisis par l'acheteur ainsi que leur version. De nombreux logiciels comportent des paramètres de configuration qui permettent d'adapter leur comportement à la configuration matérielle, logicielle et réseau du système informatique dans lequel le logiciel est implanté.
+
+Configuration réseau
+La configuration réseau est l'ensemble des caractéristiques d'un réseau donné. Autant les caractéristiques physiques telles que la connectique que les caractéristiques logiques telles que les protocoles utilisés, les adresses IP, ainsi que le nom de chaque machine branchée au réseau.
+Lors du branchement d'une machine à Internet, de nombreux paramètres de configuration doivent être ajustés pour adapter les logiciels et le matériel à la configuration propre au réseau du fournisseur d'accès à Internet.
+
+Fichiers de configuration
+Les paramètres de configuration sont typiquement enregistrés dans des fichiers texte et modifiables par l'utilisateur à l'aide d'un logiciel courant de type éditeur de texte.
+Il existe souvent des outils graphiques destinés à faciliter la manipulation des paramètres de configuration, à l'aide de listes à choix multiples et de cases à cocher. Ces outils sont destinés à éviter des dysfonctionnements dus à une faute de frappe lors de la modification des paramètres.
+Un panneau de configuration est un ensemble d'outils graphiques destinés à la modification aisée des paramètres de configuration. Chaque outil du panneau traite un groupe de paramètres particulier.
+Le format de fichier XML est souvent utilisé pour les fichiers de configuration.
+Le format de fichier INI est un format de fichier de configuration courant, introduit par les systèmes d'exploitation Windows.
+
+Auto-configuration
+L'auto-configuration est la capacité d'un système à déterminer automatiquement la meilleure configuration d'un élément et modifier les paramètres de configuration sans intervention de l'utilisateur.
+Le Plug and Play est un mécanisme d'auto-configuration des systèmes d'exploitation Windows.
+DHCP est un protocole d'un mécanisme d'auto-configuration qui sert à déterminer automatiquement la configuration du réseau auquel est branché un appareil informatique et adapter les paramètres de l'appareil. Il est utilisé avec les ordinateurs ainsi que des appareils réseau tels que routeurs ou Network attached storage.
+Autoconf est un logiciel qui sert à déterminer la configuration, et modifier automatiquement le code source d'un logiciel pour l'adapter à cette configuration. C'est un logiciel courant sur les systèmes d'exploitation Unix
+
+Voir aussi: Fichier de configuration; Autoconf, un outil de configuration automatique sous Unix; Plug and Play, mécanisme d'auto-configuration sous Windows; Zeroconf, des technologies d'auto-configuration pour les réseaux; Universal Plug and Play; Paramétrabilité. Portail de l'informatique; Portail de la programmation informatique.

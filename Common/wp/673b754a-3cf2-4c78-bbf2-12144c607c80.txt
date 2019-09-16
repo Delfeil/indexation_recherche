@@ -1,0 +1,38 @@
+En informatique, un fichier de configuration contient des informations de configuration utilisées par un programme informatique pour adapter ou personnaliser son fonctionnement.
+
+Définition
+Les fichiers de configuration sont utilisés pour imposer certains réglages (paramètres d'affichage, préférences de langue, vitesse de transmission et protocoles de communication, prise en compte de certains périphériques, etc.) dans les applications des utilisateurs, les services d'un serveur informatique, ou encore les systèmes d'exploitation.
+Selon le cas, les programmes ne lisent ces fichiers qu'une seule fois, au moment de leur lancement, ou vérifient périodiquement leurs informations afin d'y détecter des changements. Il est parfois possible de signaler une modification au programme pendant son exécution : celui-ci il relira alors le fichier de configuration et appliquera instantanément les nouveaux réglages.
+
+Structure
+La structure des fichiers de configuration est variable : elle peut se conformer aux conventions mises en place par l'éditeur du système d'exploitation, dépendre des outils de développement utilisés pour programmer une application ou être entièrement propriétaire, ce qui la rend souvent difficile à interpréter.
+Une grande partie des fichiers de configuration est néanmoins écrite au format ASCII (sous forme textuelle) et formatée en lignes terminées par des caractères "nouvelle ligne" ou "CR-LF" (carriage return-line feed) selon le système d'exploitation. Leur contenu peut alors être examiné à l'aide d'un éditeur de texte.
+Dans d'autres cas, il faut recourir à des applications spéciales pour créer, modifier et tester la syntaxe des fichiers de configuration. Pour les services et les systèmes d'exploitation, le code source est parfois la seule documentation disponible. En général, les pages de manuel ou d'aide rendent partiellement compte de la syntaxe à utiliser dans ces fichiers.
+Les formats XML et YAML tendent à se généraliser dans l'écriture des fichiers de configuration. Ils ont l'avantage d'avoir une syntaxe déjà bien définie et de disposer d'outils de vérification et de validation connus.
+
+Syntaxe
+Pour plus de clarté, les fichiers de configuration respectent en général une syntaxe qui associe des directives (ou mots clés) à des valeurs.
+Cette syntaxe peut adopter des formes et des niveaux de complexité différents selon l'ampleur et la précision des fonctionnalités de l'application.
+Les paramètres peuvent être organisés linéairement (par ex. rs-vitesse-9600), en tableau (comme fstab) ou encore en "objets", ce qui est le cas avec le XML, délimités par un début et une fin, et caractérisés par des propriétés et des options propres à chaque type d'objet.
+À la manière des langages de programmation, les fichiers de configuration peuvent être accompagnés de commentaires qui seront ignorés par le programme, mais qui permettront aux créateurs du logiciel d'insérer des indications, et aux utilisateurs de mieux comprendre le comportement du programme et de neutraliser momentanément certaines lignes.
+
+Types de fichiers de configuration
+
+Sous UNIX
+Parmi les variantes d'UNIX, il existe des centaines de formats de fichier différents, chaque application ou service ayant son propre format. Historiquement, les options du système d'exploitation ne pouvaient être modifiées qu'en éditant ces fichiers, généralement en mode texte.
+La plupart des formats utilisés permettent de neutraliser une ligne en la faisant précéder d'un caractère spécial (souvent un). Une telle ligne est dite "en commentaire". Les applications utilisateur UNIX créent souvent un fichier ou un répertoire de configuration dans le répertoire personnel "home". Leur nom est précédé d'un point pour qu'ils soient masqués lors de l'affichage normal du contenu du dossier.
+Un dossier de la hiérarchie standard est prévu pour contenir les fichiers de configuration: -etc.
+Les fichiers de configuration peuvent aussi contenir une liste de commandes à exécuter lors du démarrage du programme. Par exemple, un fichier "shell rc" peut indiquer au shell de changer de répertoire courant, de lancer certains programmes, de créer ou d'effacer certains fichiers, etc.
+AIX d'IBM utilise une base de données de gestion d'objets pour stocker une partie de sa configuration.
+
+Dans MS-DOS et Windows
+Depuis son origine, MS-DOS s'appuie essentiellement sur deux fichiers de configuration appelés Config.sys et Autoexec.bat. Ils ont été conservés jusqu'à Windows 98SE, mais n'étaient pas strictement nécessaires au bon fonctionnement des applications.
+Le développement de Windows a consacré l'utilisation de la base de registre, conjointement à des fichiers spécialisés (comme Win.ini ou System.ini) pour regrouper la plupart des paramètres de configuration.
+les fichiers INI sont un format de fichier de configuration introduit par Windows 1.0 et utilisé maintenant pour de nombreuses applications.
+
+Dans Mac OS X
+Dérivé à la fois de NextStep et de BSD, Mac OS X a longtemps conservé des fichiers de configuration de type Unix (fichiers rc et.conf). De plus en plus, Apple s'oriente vers des fichiers au format XML, lequel est aussi utilisé pour les fichiers de préférence des applications (généralement avec l'extension plist).
+
+Voir aussi: Fichier INI; Configuration (informatique); Panneau de configuration.
+
+Quelques exemples: htaccess configuration des serveurs web Apache; Prefs.js de Mozilla thunderbird; Script : C'est le langage du système d'exploitation qui permet de mettre à jour certaines variables très simplement avec l'avantage et inconvénient qu'elles peuvent être visible pour d'autre programme. Ce système est très utilisé sous Unix.; CSV : Un standard efficace pour la machine mais à l'usage très restreint. Très utilisé sous Unix sous différentes variantes (avec différents separateur). Il se lit simplement sous un tableur.; properties Un standard simple à lire tant pour la machine que pour l'humain.; Xml : Un standard plus évolué que le format properties qui s'est répandu. Il est très bien supporté par tous les langages mais il reste complexe à lire côté machine.; JSON : Un standard qui gagne du terrain pour sa légereté.

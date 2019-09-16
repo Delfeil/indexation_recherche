@@ -1,0 +1,27 @@
+Un convertisseur numérique-analogique (CNA, de N-A pour numérique vers analogique ou, en anglais, DAC, de D-A pour Digital to Analog Converter) est un composant électronique dont la fonction est de transformer une valeur numérique (codée sur plusieurs bits) en une valeur analogique proportionnelle à la valeur numérique codée. Le plus souvent, la valeur codée sera une tension électrique.
+Symbole normé du convertisseur numérique analogique
+
+Techniques
+Il existe plusieurs solutions pour créer un signal analogique à partir d'un système numérique ;
+
+Modulation de largeur d'impulsion
+Le principe de la modulation de largeur d'impulsion (MLI, ou PWM en anglais) est de créer un signal d'horloge dont le rapport cyclique est variable et proportionnel à la valeur codée.
+Si l'on extrait la moyenne de ce signal (au moyen d'un filtre passe-bas), on obtient une valeur analogique proportionnelle à ce rapport cyclique.
+
+Réseau de résistances
+Le principe est de créer une valeur analogique en pondérant le poids de chaque bit d'information, selon la formule : V o u t - k V r e f i - 1 n (2 n i a n i) (-displaystyle V-(out)-k-V-(ref)--sum -(i-1)(n)-left(2(n-i)-a-(n-i)-right)).
+Avec : V r e f - (-displaystyle V-(ref)-) maximum de la conversion; k - (-displaystyle k-) rapport de proportionnalité; n - (-displaystyle n-) nombre de bits du convertisseur; a n - (-displaystyle a-(n)-) valeur du bit n (1 ou 0).
+Différents types de réseaux peuvent être utilisés : réseau unaire : on utilise une seule valeur de résistance et autant de résistances qu'il y a de valeurs de sortie possibles, montées en pont diviseur. Cette méthode assure une parfaite monotonicité de la valeur de sortie mais n'est intéressante que pour les petits nombres de bits, car elle requiert un nombre exponentiel de résistances et commutateurs (2 n 1 (-displaystyle 2-(n)-1)); réseau binaire : on utilise des résistances de différentes valeurs, la valeur de chaque résistance correspond au poids binaire de chaque bit. Cette méthode requiert une grande précision sur la valeur des résistances des bits de poids fort (MSB), surtout si le nombre de bits est important ; réseau R-2R : on réalise une échelle avec un faible nombre de valeurs de résistances. Cette méthode est plus adaptée à la fabrication sur silicium.
+On peut également associer les différentes méthodes afin d'obtenir une précision correcte sans impliquer de ressources trop importantes, généralement en coder les bits de poids fort avec un réseau de résistances unaire et les bits de poids faible en avec un réseau de résistances binaire.
+
+Usage
+Cartes son, modems, TV, Hi-Fi, etc.
+
+Fabricants de convertisseurs
+CNA Philips d'un lecteur CD. C cube; Wolfson Microelectronics; Analog Devices; IDT, anciennement NXP, anciennement Philips (TriMedia); Conexant; Burr-Brown (PCM1704U-K); Cirrus Logic (Delta-Sigma (en)); Crystal; Texas Instruments (PCM1794); C-Media (CMI8768-PCI); Sigmatel (ST9460); Euphia; Asahi Kasei; Fiio; ESS Technology.
+
+Les modulations: Audio : PDM (Pulse Density Modulation); PWM (Pulse Width Modulation); delta-sigma (Delta-sigma modulation (en)); delta; Nyquist; DFT (Discrete Fourier Transform); FFT (Fast Fourier Transform). Vidéo : OFDM (Orthogonal Frequency Division Multiplexing); SK Shift Keying (BP, QP, F, P phase); QAM (16, 32, 64); FOK.
+
+Voir aussi
+
+Articles connexes: Quantification ;; RAMDAC, convertisseur numérique-analogique pour la vidéo ;; Convertisseur analogique-numérique, la fonction réciproque du convertisseur numérique-analogique.

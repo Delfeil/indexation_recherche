@@ -1,0 +1,7 @@
+Jack Edmonds, né le 5 avril 1934, est un mathématicien canadien, considéré comme l'un des contributeurs les plus importants dans le domaine de l'optimisation combinatoire.
+
+Biographie
+Dans les années 60, il a travaillé au National Bureau of Standards, puis il est rentré au département d'optimisation combinatoire de la faculté de mathématiques de l'Université de Waterloo en 1969. Il a été lauréat du Prix de théorie John von Neumann en 1985. Il a pris sa retraite en 1996.
+
+Travaux
+Jack Edmonds a notamment introduit la notion de polymatroïde et a défini l'algorithme d'Edmonds pour les couplages.

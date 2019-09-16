@@ -1,0 +1,319 @@
+En programmation orientée objet, la déclaration d'une classe regroupe des membres, méthodes et propriétés (attributs) communs à un ensemble d'objets.
+La classe déclare, d'une part, des attributs représentant l'état des objets et, d'autre part, des méthodes représentant leur comportement.
+Une classe représente donc une catégorie d'objets. Elle apparaît aussi comme un moule ou une usine à partir de laquelle il est possible de créer des objets ; c'est en quelque sorte une "boîte à outils" qui permet de fabriquer un objet. On parle alors d'un objet en tant qu'instance d'une classe (création d'un objet ayant les propriétés de la classe).
+Il est possible de restreindre l'ensemble d'objets représenté par une classe A grâce à un mécanisme d'héritage. Dans ce cas, on crée une nouvelle classe B liée à la classe A et qui ajoute de nouvelles propriétés. Dans ce cas, différents termes sont utilisés :
+
+Exemples de classe
+Dans les exemples ci-dessous est définie dans différents langages une classe Point avec deux attributs x et y. Cette classe contient un constructeur, deux méthodes retournant la valeur des attributs (getX et getY), une méthode déterminant si le point représente l'origine (isOrigin) et une méthode effectuant une translation.
+
+En C++
+class Point
+(
+ private:
+ int x;
+ int y;
+
+ public:
+ Point(int x, int y) : x(x), y(y)
+
+ int getX const (return x;)
+ int getY const (return y;)
+
+ bool isOrigin const (return x -- 0 y -- 0;)
+
+ Point translate(const Point point) const (
+ return Point(x + point.getX, y + point.getY);
+)
+);
+En C
+class Point
+(
+ public Point(int x, int y)
+ (
+ X - x;
+ Y - y;
+)
+
+ public int Y (get; private set;)
+
+ public int X (get; private set;)
+
+ public bool IsOrigin
+ (
+ return X -- 0 Y -- 0;
+)
+
+ public Point Translate(Point p)
+ (
+ return new Point(X + p.X, Y + p.Y);
+)
+)
+En Java
+1 public class Point (
+ 2 private int x;
+ 3 private int y;
+ 4
+ 5 public Point(int x, int y) (
+ 6 this.x - x;
+ 7 this.y - y;
+ 8)
+ 9
+10 public int getX (return x;)
+11 public int getY (return y;)
+12
+13 public boolean isOrigin (
+14 return (x -- 0) (y -- 0);
+15)
+16
+17 public Point translate(Point pt) (
+18 return new Point(x + pt.getX, y + pt.getY);
+19)
+20)
+En Javascript
+À partir de l'édition de 2015 (ECMAScript 6), une syntaxe de définition de classes a été ajoutée, simplifiant l'utilisation de son mécanisme d'héritage prototypal pour le développement orienté objet :
+class Point (
+
+ constructor(x, y) (
+ this.-x - x;
+ this.-y - y;
+)
+
+ get x (
+ return this.-x;
+)
+
+ get y (
+ return this.-y;
+)
+
+ isOrigin (
+ return this.x --- 0 this.y --- 0;
+)
+
+ translate(pt) (
+ return new Point(this.x + pt.x, this.y + pt.y);
+)
+
+)
+En Pascal Objet
+unit Point;
+
+interface
+
+type
+ TPoint - class
+ protected
+ fX, fY: integer;
+ function GetY : integer;
+ public
+ property X : integer read fX; --Avec accesseur implicite
+ property Y : integer read GetY; --Sans accesseur implicite
+ constructor Create(X, Y: integer); overload;
+ constructor Create; overload;
+ function IsOrigin: Boolean;
+ function Translate(Pt: TPoint): TPoint;
+ end;
+
+implementation
+
+function TPoint.GetY: integer;
+begin
+ Result :- fY;
+end;
+
+constructor TPoint.Create(X, Y: integer);
+begin
+ fX :- X;
+ fY :- Y;
+end;
+
+constructor TPoint.Create;
+begin
+ Create(0,0);
+end;
+
+function TPoint.IsOrigin: Boolean;
+begin
+ Result :- (fX - 0) and (fY - 0);
+end;
+
+function TPoint.Translate(Pt: TPoint): TPoint;
+begin
+ Result :- TPoint.Create(fX + Pt.X, fY + Pt.Y);
+end;
+
+end.
+En PHP
+class Point (
+ private x;
+ private y;
+
+ public function --construct(x, y) (
+ this-x - (int) x;
+ this-y - (int) y;
+)
+
+ public function getX (return this-x;)
+ public function getY (return this-y;)
+
+ public function isOrigin (return (this-x -- 0) (this-y -- 0);)
+
+ public function translate(Point point) (
+ return new Point(this-x + point-getX, this-y + point-getY);
+)
+)
+En Ruby
+class Point
+ attr-reader :x, y
+
+ def initialize(x, y)
+ @x - x.to-i
+ @y - y.to-i
+ end
+
+ def origin
+ @x.zero and @y.zero
+ end
+
+ def translate p
+ Point.new(@x + p.x, @y + p.y)
+ end
+end
+En Python
+class Point(object):
+ def --init--(self, x, y):
+ super(Point, self).--init--
+ self.-x - x
+ self.-y - y
+
+ @property
+ def x(self):
+ return self.-x
+
+ @property
+ def y(self):
+ return self.-y
+
+ def is-origin(self):
+ return (self.-x -- 0) and (self.-y -- 0)
+
+ def --add--(self, point):
+ return Point(self.-x + point.x, self.-y + point.y)
+En VB.Net
+Public class Point
+ Protected intX As Integer, intY As Integer
+
+ Public Sub New(ByVal pX As Integer, ByVal pY As Integer)
+ Me.intX - pX
+ Me.intY - pY
+ End Sub
+
+ Public ReadOnly Property X As Integer
+ Get
+ Return Me.intX
+ End Get
+ End Property
+
+ Public ReadOnly Property Y As Integer
+ Get
+ Return Me.intY
+ End Get
+ End Property
+
+ Public Function IsOrigine As Boolean
+ Return ((Me.intX - 0) And (Me.intY - 0))
+ End Function
+
+ Public Function Translate(ByVal pP As Point) As Point
+ Return New Point(Me.intX + pP.x, Me.intY + pP.y)
+ End Function
+En Ada, depuis Ada95
+package Point-Pack is
+ -- une classe en Ada est un type dit "étiqueté"
+ -- ici on décide en plus de cacher le contenu du type (partie privée)
+ type Point is tagged private;
+
+ -- les méthodes sont déclarées en dehors du type
+ function Get-X (P : Point) return Integer;
+ function Get-Y (P : Point) return Integer;
+ function Is-Origin (P : Point) return Boolean;
+ function Translate (P, Vector : Point) return Point;
+
+ -- pas de constructeur "intégré"
+ function New-Point (X, Y : Integer) return Point;
+
+private
+ -- définitions inaccessibles à l'utilisateur du type
+ type Point is tagged record
+ X, Y : Integer;
+ end record;
+end Point-Pack;
+
+-- la suite contient l'implémentation de la classe: en Ada il est important de séparer
+-- le code (le corps) et les déclarations "visibles" (la spécification) : en général dans 2 fichiers différents
+package body Point-Pack is
+-- les méthodes nomment explicitement l'objet en argument
+ function Get-X (P : Point) return Integer is
+ begin
+ return P.X;
+ end Get-X;
+
+ function Get-Y (P : Point) return Integer is
+ begin
+ return P.Y;
+ end Get-Y;
+
+ function Is-Origin (P : Point) return Boolean is
+ begin
+ return P.X - 0 and then P.Y - 0;
+ end Is-Origin;
+
+ function Translate (P, Vector : Point) return Point is
+ begin
+ return Point'(X - P.X + Vector.X, Y - P.Y + Vector.Y);
+ end Translate;
+
+ function New-Point (X, Y : Integer) return Point is
+ begin
+ return Point'(X - X, Y - Y);
+ end New-Point;
+
+end Point-Pack;
+Cas particuliers de classe
+
+Classe immuable
+Une classe est dite immuable s'il n'est pas possible de modifier un objet de cette classe après sa création. Par exemple, la classe Point, décrite ci-dessus dans différents langages, est immuable car elle n'expose aucune méthode permettant de modifier la valeur de ses variables membres. La méthode translate retourne un nouvel objet au lieu de modifier l'objet lui-même. La classe java.lang.String de l'environnement Java est un autre exemple de classe immuable, tout comme la classe System.String du Framework Microsoft.NET.
+
+Classe abstraite
+Dans certains langages, une classe peut être partiellement définie. En particulier, certaines méthodes de cette classe n'ont pas de corps ou d'implémentation. Ces méthodes sont dites "abstraites" (ou virtuelles en C++).
+Les classes possédant au moins une méthode abstraite sont aussi dites classes abstraites (ou virtuelles) et ne peuvent pas être instanciées directement - sauf en créant une sous-classe non abstraite. Exemple : On souhaite modéliser les relations objets d'un dessin vectoriel. On peut dire qu'un objet dessin est un ensemble de géométries (la classe abstraite) et chaque géométrie peut être un point, un polygone ou une ligne brisée (ces trois classes héritent de géométrie). La classe abstraite n'est donc pas indispensable en soi, mais elle est indispensable pour un modèle propre, générique et simplifié.
+Le mixin est un cas particulier de classe abstraite. Il permet d'ajouter un service aux sous-classes.
+
+Interface
+Une classe ne possédant que des méthodes abstraites est appelée interface ou classe purement virtuelle (en C++) ou protocole (en Objective C).
+
+Métaclasse
+La classe d'une classe est une métaclasse. Les métaclasses permettent de réaliser de la réflexion structurelle.
+
+Manipulation des données membres
+
+Accès aux membres d'une classe
+Une classe, comme définie précédemment, est un ensemble de membres (méthodes et attributs) qu'on est forcément amené à manipuler. Si p est une instance de Point(a,b) où a et b sont de type int, on accède aux membres de p comme ceci : p.x - a et p.y - b (accès aux attributs); p.getX et p.getY (accès aux méthodes).
+La question qui vient tout de suite à l'esprit est la suivante : pourquoi définir une méthode getX, alors qu'on peut accéder directement aux champs x et y de la classe Point
+En fait, lorsqu'on est amené à manipuler de nombreuses classes ainsi que de nombreuses relations entre ces classes (cf. héritage), le schéma, les données et les opérations peuvent devenir très complexes (surtout pour un individu n'ayant pas conçu le code). On a donc recours à un mécanisme qu'on appelle encapsulation des données, lequel se charge de masquer à certaines parties du programme les champs de la classe dans un souci d'intégrité. L'utilisateur est donc amené à ne manipuler que des méthodes qui ont été approuvées et qui en théorie remplissent bien leur rôle.
+Selon le principe d'encapsulation, les méthodes ont un accès public - cela signifie que tout élément d'un programme peut utiliser une méthode. Quant aux attributs composant l'état, ils ont un accès privé (private) - seul l'objet lui-même (et donc les méthodes qu'il contient) a un accès direct à ses attributs. Dans ce cas, le seul moyen d'accéder à ces attributs est d'utiliser les méthodes de l'objet. Les attributs ne peuvent pas être utilisés directement par un autre élément du programme ni même un autre objet, même si cet objet est de la même classe. Autre point : tous les attributs d'un objet qui sont hérités sont directement accessibles par les autres membres de cet objet.
+En ce qui concerne les dernières remarques, il y a souvent confusion sur la sémantique de l'accès privé. Le principe d'encapsulation implique une protection des attributs que nous appellerons verticale (seuls l'objet lui-même et les objets d'une sous-classe y ont accès). Nous retrouvons cette sémantique dans des langages comme Smalltalk, Oz ou OCaml. Cependant certains langages, comme C++, Pascal ou Java, plaident pour une protection des attributs que nous appellerons horizontale (les objets d'une même classe y ont accès, mais pas les objets des sous-classes).
+
+Contrôle de l'accès aux membres d'une classe et visibilité
+Certains langages permettent, lors de la déclaration de la classe, de modifier la portée de ses membres et, par conséquent, des membres des objets instanciés à partir de cette classe; la modification de la portée réduit la visibilité et, par conséquent, l'accessibilité aux membres.
+Par exemple, les langages C++ et Pascal Objet proposent les modifications de portée suivantes :
+La sémantique de ces modifications de portée et leur nombre varient selon le langage de programmation.
+Par exemple, Java propose une définition un peu différente pour les membres protégés; elle s'étend à l'ensemble des objets de la même classe, des classes filles et des classes du même paquetage.
+Par exemple, Python propose la possibilité de modifier la visibilité des membres d'une classe en préfixant le nom du membre par le caractère souligné ('-'): getX est une méthode publique.; -getX est une méthode protégée, c'est-à-dire accessible seulement par les éléments du même module.; --getX est une méthode privée.
+
+Surcharge d'opérateur
+Lorsqu'on est amené à manipuler des données de même type (c'est par exemple le cas de points dans un repère), on peut vouloir appliquer à ces objets (au sens de la POO) des opérations. Ainsi, la fusion de deux zones (polygones) donne bien une nouvelle zone, tout comme l'addition de deux points donne un nouveau point. Pour une addition de points, une première méthode consisterait à créer une méthode membre de la classe Point qu'on nommerait translate(Point) et qui renverrait un nouveau Point ayant subi l'addition. On a :. En fait une notation plus naturelle et beaucoup plus simpliste serait de représenter l'addition tout simplement par m - p+q. Pour cela on utilise un mécanisme appelé surcharge d'opérateurs, qui redéfinit un opérateur donné pour une action donnée.
+Continuons sur notre classe Point. L'exemple Python suivant est très parlant :
+Ainsi r.getX retournera 2.
+
+Voir aussi: Classe abstraite; Métaclasse; Unified Modeling Language; Encapsulation des données; Programmation par contrat; Programmation orientée prototype : programmation objet sans classe.; ClassFile Inspector : plugin pour Eclipse, éditeur de bytecode Java. Portail de la programmation informatique.

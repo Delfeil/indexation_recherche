@@ -1,0 +1,29 @@
+La correspondance de Curry-Howard, appelée également isomorphisme de Curry-de Bruijn-Howard, correspondance preuve-programme ou correspondance formule-type, est une série de résultats à la frontière entre la logique mathématique, l'informatique théorique et la théorie de la calculabilité. Ils établissent des relations entre les démonstrations formelles d'un système logique et les programmes d'un modèle de calcul. Les premiers exemples de correspondance de Curry-Howard remontent à 1958, date à laquelle Haskell Curry remarqua l'analogie formelle entre les démonstrations des systèmes à la Hilbert et la logique combinatoire, puis à 1969 où William Alvin Howard remarqua que les démonstrations en déduction naturelle intuitionniste pouvaient formellement se voir comme des termes du lambda-calcul typé.
+La correspondance de Curry-Howard a joué un rôle important en logique, car elle a établi un pont entre théorie de la démonstration et informatique théorique. On la retrouve utilisée sous une forme ou une autre dans de très nombreux travaux allant des années 1960 à nos jours : sémantique dénotationnelle, logique linéaire, réalisabilité, démonstration automatique, etc.
+
+Historique
+La correspondance de Curry-Howard était formulée par Curry pour la logique combinatoire dès la fin des années quarante. Howard a publié en 1980 un article qui présente formellement la correspondance pour le lambda calcul simplement typé, mais il n'a fait que rendre public un document qui avait déjà circulé dans le monde des logiciens. Elle était connue indépendamment de Joachim Lambek pour les catégories cartésiennes fermées, de Girard pour le système F et de de Bruijn pour le système Automath. Au moins ces cinq noms pourraient être associés à ce concept.
+
+Logique implicative minimale
+Par exemple, en lambda calcul simplement typé, si on associe à chaque type de base une variable propositionnelle et que l'on associe l'implication logique (-displaystyle -Rightarrow) au constructeur de type (-displaystyle -rightarrow) alors les propositions démontrables de la logique implicative minimale (où le seul connecteur est l'implication) correspondent aux types des termes clos du lambda calcul.
+Par exemple, à la proposition A A (-displaystyle A-Rightarrow A) on associe le lambda-terme x A. x : A A (-displaystyle -lambda x(A).x:A-rightarrow A).
+En revanche, il n'y a pas de lambda terme clos associé à la proposition A (-displaystyle -,A) ou à la proposition ((A B) A) A (-displaystyle ((A-Rightarrow B)-Rightarrow A)-Rightarrow A) (loi de Peirce), car elles ne peuvent pas être démontrées en logique implicative minimale.
+Mais la correspondance s'étend aussi aux démonstrations et aux normalisations de démonstrations comme suit : les types sont les propositions ;; les termes sont les démonstrations ;; les réductions des termes sont les normalisations de démonstrations.
+
+Terminaison de réductions de preuves en déduction modulo
+Cette correspondance est notamment utile afin de montrer la réduction (ou démonstration) de certaines preuves dans des théories de la déduction modulo. Ainsi, dans le cas où les preuves (propositions) sont exprimées par des termes (appelés preuves-termes) en lambda calcul simplement typé, il est nécessaire de considérer les preuves comme des algorithmes. Les preuves de A B (-displaystyle A-Rightarrow B) sont désormais des algorithmes qui, à des preuves de A (-displaystyle A), associent des preuves de B (-displaystyle B). Le type de A B (-displaystyle A-Rightarrow B) s'exprime alors de la manière suivante
+Sans perte de généralité, la correspondance s'exprime par un isomorphisme (-displaystyle -Phi) de l'ensemble des preuves-termes vers l'ensemble des types de preuves-termes. La terminaison de la (-displaystyle -beta)-réduction du lambda calcul simplement typé permet dès lors de conclure sur la terminaison de diverses réductions de preuves dans des théories en déduction modulo.
+
+Calcul propositionnel
+Si on étend le lambda calcul au produit cartésien, on aura parallèlement le et logique. Si on rajoute la somme disjointe (types somme ou structures) on aura le ou logique. Dans les lambda-calculs d'ordre supérieurs on rajoute des variables de types donc des quantificateurs. Cela donne les pour tout.
+
+Calcul du second ordre
+Grâce à cette correspondance on peut prouver la cohérence d'une logique en démontrant la normalisation forte du lambda-calcul associé (aucun terme ne se réduit infiniment). C'est ainsi que Jean-Yves Girard a résolu la conjecture de Takeuti, à savoir démontrer la cohérence de l'arithmétique du second ordre ; il l'a fait en établissant la normalisation forte du système F.
+
+Correspondances
+
+Logique et informatique
+Le logicien français Jean-Louis Krivine a fait le rapport entre différents théorèmes mathématiques et les programmes informatiques qu'ils représentent : l'absurde (appelé "bottom" : (-displaystyle -perp)) correspond à une instruction d'échappement, d'exception, ou à un programme qui ne finit pas (un terme non typable dans le lambda-calcul simplement typé) ;; le théorème d'incomplétude de Gödel qui dit qu'il y a des propositions qui sont indécidables correspond à un programme de réparation de fichiers ;; le théorème de complétude de Gödel correspond lui à un désassembleur interactif de programmes.
+
+Conséquences juridiques
+Comme l'a relevé Bernard Lang, la correspondance de Curry-Howard constitue un argument contre la brevetabilité du logiciel. Puisque les algorithmes sont des méthodes mathématiques, et que ces dernières sont exclues par nature du champ de la brevetablilité, alors les algorithmes ne peuvent être brevetés.

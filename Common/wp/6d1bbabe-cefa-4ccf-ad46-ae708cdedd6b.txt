@@ -1,0 +1,20 @@
+GRASS GIS (de l'anglais Geographic Resources Analysis Support System) est un logiciel de système d'information géographique (SIG) libre (GPL) de conception modulaire réalisé par le GRASS Development Team. La version stable actuelle est GRASS 7.
+
+Description
+Grass GIS 6.1
+GRASS existe pour différentes plates-formes et sous différents systèmes d'exploitation à noyau UNIX (Solaris, GNU-Linux, MacOSX etc.). Différents paquetages sont disponibles en fonction de la distribution utilisée, mais il est aussi possible de le compiler soi-même (utilisateurs UNIX avancés). GRASS existe aussi pour Windows Xx en interaction avec le logiciel Cygwin.
+GRASS est de conception modulaire, c'est-à-dire qu'à chaque fonction du logiciel correspond un module, ce qui permet d'économiser la mémoire et la CPU de l'ordinateur en ne lançant que les modules dont l'utilisateur a besoin. Ces modules sont regroupés en familles : r.- pour les fonctions rasters, i.- pour les fonctions de traitement d'image, r3.- pour les fonctions volumiques (rasters tri-dimensionnels), v.- pour les fonctions vectorielles, db.- pour les fonctions ayant trait aux bases de données liées (ou pg.- pour utiliser spécifiquement la base de données Postgres), d.- pour les fonctions d'affichage, ps.- pour la production de cartes Postscript, ou encore g.- pour les fonctions générales de GRASS telles que manipulation-suppression-renommage de fichiers ou le paramétrage du Secteur ("location" en particulier système de géoréférencement choisi pour le projet ou résolution des fichiers rasters), de la région ("region", c'est-à-dire la vue du projet mais aussi la zone sur laquelle porteront calculs, analyses, ou exportations), ou du jeu de données ("mapset", répertoire de travail de l'utilisateur sur lequel il a droit de lecture et d'écriture tandis que les autres utilisateurs ont le seul droit de lecture).
+Ses fonctionnalités font de GRASS, en particulier à partir de sa version 6, un logiciel extrêmement puissant et polyvalent puisqu'il hérite des puissantes fonctionnalités de GRASS 5 en traitement d'image et en analyse raster (cf. algèbre de carte) et que s'y ajoutent des fonctionnalités vectorielles 2D et 3D (rappelons que GRASS est un logiciel topologique).
+Il accepte une multitude de formats propriétaires ou d'échange en importation ainsi qu'une grande variété de formats en exportation grâce à son interface avec les bibliothèques autonomes GDAL et OGR.
+De plus, la refonte de son interface en Gestionnaire SIG et l'arrivée de nouvelles interfaces telles que QuantumGIS (ou QGIS) ou JavaGRASS (ou JGRASS) lui confèrent un confort d'utilisation accru en particulier pour la numérisation de données ou la mise en page cartographique à l'intérieur de GRASS.
+Il est aussi reconnu comme étant particulièrement adapté dans le cadre d'un travail collaboratif grâce à sa gestion des jeux de données utilisateurs.
+
+Voir aussi
+
+Articles connexes: Liste des logiciels SIG; Open Source Geospatial Foundation.
+
+Tutoriels: (en) Catégorie tutoriel du wiki officiel; (fr) Tutoriel GRASS 5 en français de Moritz Lennert; (fr) Tutoriel GDF 1.2 pour GRASS 6 en français d'Otto Dassau, Stephan Holl, Markus Neteler et Dr. Manfred Redslob.
+
+Listes de discussion: (fr) Liste de discussion Grass-fr.
+
+Sujets spécifiques: (fr) GRASS GIS et R (logiciel d'analyse statistique par Reinhardt et Kuonen; (fr) L'extension PostGIS de PostgreSQL par David Techer. Portail de l'information géographique; Portail des logiciels libres.

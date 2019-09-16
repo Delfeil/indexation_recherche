@@ -1,0 +1,74 @@
+En grammaire, on appelle adjectif (ou nom adjectif) une catégorie de mot qui s'adjoint au nom pour exprimer une qualité (adjectif qualificatif), une relation (adjectif relationnel) ou pour permettre à celui-ci d'être actualisé dans une phrase (adjectif déterminatif). L'adjectif se distingue notamment du déterminant par sa distribution dans la phrase. L'adjectif (qualificatif), quant à lui, remplit la fonction syntaxique d'épithète lorsqu'il détermine une propriété spécifique de l'ensemble qu'il qualifie, souvent le nom. Il est dit attribut lorsqu'il détermine une propriété générique d'un ensemble évoqué par le nom, par l'intermédiaire d'un verbe. Il faut cependant faire attention de ne pas confondre la nature de l'adjectif avec ces fonctions qu'il peut remplir dans la phrase. Dans certaines langues flexionnelles, l'adjectif se décline. Lorsque ces langues ne possèdent pas de système casuel, on dit que l'adjectif s'accorde (avec le nom qu'il qualifie, généralement), c'est-à-dire qu'il reprend ses traits grammaticaux, comme le genre et le nombre.
+
+Adjectifs en français
+L'adjectif présente deux caractéristiques principales : Il se rapporte toujours à un autre terme de la phrase, généralement un nom, un pronom ou un syntagme. (ex : J'ai rencontré un ancien ami, mais il était pressé de partir.); L'adjectif n'a pas de genre ni de nombre par lui-même : il prend le genre et le nombre du mot auquel il se rapporte. (ex : Prends ta veste bleue. - Prends ton blouson bleu.).
+
+Adjectifs qualificatifs et relationnels
+On distingue deux grands types d'adjectifs : L'adjectif qualificatif précise une propriété de l'élément auquel il se rattache dans la phrase.; L'adjectif relationnel est toujours dérivé d'un nom. Il souligne que l'élément auquel il se rattache entretient une relation avec ce nom.
+L'adjectif qualificatif et l'adjectif relationnel ne présentent pas les mêmes propriétés. L'adjectif qualificatif, contrairement à l'adjectif relationnel possède les propriétés suivantes : Il peut correspondre à un nom de propriété (ex: riche richesse) ;; Il peut être attribut du sujet (ex: Il est riche. - Il est dentaire.) ;; Il admet généralement des degrés de signification (ex: très riche - très dentaire); Il peut être le noyau d'un groupe adjectival (ex: riche de ses expériences); Il se place avant ou après le nom (ex: un riche héritier - un homme riche): l'adjectif relationnel se place obligatoirement après le nom (ex: un appareil dentaire).; l'adjectif relationnel se place obligatoirement après le nom (ex: un appareil dentaire).
+
+Groupe adjectival
+L'adjectif qualificatif peut être complété par divers éléments qui viennent en préciser le sens. Il est alors le noyau d'un groupe adjectival. Les compléments de l'adjectif sont les suivants : complément prépositionnel (ex: Je suis satisfait du résultat.); adverbe (ex: Cette journée m'a paru très longue.); proposition conjonctive (ex: Je suis content que vous soyez venus nous voir.); pronom (ex: J'en suis fier).
+
+Autres types d'adjectifs
+
+Adjectifs numéraux cardinaux
+Ces adjectifs indiquent la quantité du nom qu'ils complètent (ex : Deux lapins sont dans le champ).
+
+Adjectifs numéraux ordinaux
+Ces adjectifs indiquent le rang (ex: le cinquième étage).
+
+Adjectifs indéfinis
+Les adjectifs indéfinis même et autre indiquent la ressemblance ou la différence (ex: le même train).
+L'adjectif même, contrairement à l'adjectif autre, ne peut pas être attribut (ex: La question est autre. - Elle est même.).
+
+Fonctions de l'adjectif
+
+Adjectif épithète
+L'adjectif épithète fait partie du groupe nominal : il constitue une expansion du nom (ex: C'est un bel ouvrage.).
+
+Adjectif attribut
+L'adjectif attribut fait partie du groupe verbal. Il existe deux types d'adjectifs attributs, les attributs du sujet et du COD : Lorsqu'il est attribut du sujet, il est relié au sujet par un verbe d'état (ex: Cet ouvrage est très beau.).; Lorsqu'il est attribut du COD, il est séparé du COD lorsque celui-ci est remplacé par un pronom. Il ne fait donc pas partie du groupe COD (ex: Je trouve cet homme sympathique).
+
+Adjectif apposé
+L'adjectif apposé est séparé par une virgule du groupe nominal ou du pronom auquel il se rapporte : il constitue une expansion détachée du groupe nominal (ex: Émue, elle s'arrêta de parler.).
+
+Genre et nombre de l'adjectif
+L'adjectif s'accorde en genre et en nombre avec le nom ou le pronom dont il dépend (ex: une veste bleue - des vestes bleues).
+Lorsque l'adjectif se rapporte à plusieurs noms de genre différents, il se met au masculin pluriel (ex: Lui et sa fille sont charmants.).
+Lorsque l'adjectif dépend d'un infinitif ou d'un groupe infinitif, il se met au masculin singulier (ex: Prendre la route par ce temps serait imprudent.).
+Certains adjectifs se terminent par un e au masculin comme au féminin : pâle, mâle, ovale, fidèle, frêle, grêle... etc. Ce sont des adjectifs épicènes.
+
+Degrés de significations de l'adjectif
+On distingue : les degrés d'intensité, qui évaluent la qualité en elle-même, en la situant sur une échelle (ex: Cette maison est très ancienne.) ;; les degrés de comparaison, qui évaluent la qualité par comparaison avec un élément de référence (ex: Cette maison est plus ancienne que celle-ci.).
+
+Degrés d'intensité de l'adjectif - superlatif absolu
+Les adjectifs peuvent avoir une intensité faible, moyenne ou forte. Ces trois degrés s'expriment par divers moyens : par un adverbe ou une locution adverbiale (ex: un peu long, assez long, très long) ;; par un préfixe (ex: sous-développé, ultraléger) ;; par un suffixe (ex: bellissime) ;; par un infinitif (ex: bête à pleurer) ;; par une comparaison figée (ex: rapide comme l'éclair) ;; par une répétition (ex: grand, grand, grand).
+
+Degrés de comparaison de l'adjectif
+
+Comparatif
+Le comparatif compare deux éléments qui possèdent une même propriété. Il peut marquer : la supériorité (ex: Il est plus grand que toi.) ;; l'égalité (ex: Il est aussi grand que toi.) ;; l'infériorité (ex: Il est moins grand que toi.).
+Le complément du comparatif peut être : un groupe nominal ou pronominal (ex: Il est plus compétent que son prédécesseur.) ;; un adjectif qualificatif (ex: Il est plus bête que méchant.) ;; un groupe prépositionnel (ex: Il est moins timide qu'en début d'année.) ;; un adverbe (ex: Il est plus détendu qu'hier.) ;; une proposition (ex: Il est plus intelligent qu'il n'en a l'air.).
+
+Superlatif relatif
+Le superlatif relatif isole un élément dans un groupe en affirmant qu'il possède moins ou plus que tous les autres telle propriété ou état. Il peut marquer : la supériorité (ex: Il est le plus expérimenté des stagiaires.) ;; l'infériorité (ex: Il est le moins expérimenté des stagiaires.).
+
+Adjectifs en diverses langues
+
+Adjectifs en allemand
+En allemand, les adjectifs apportent comme en français une information sur la qualité ou la situation du terme auquel ils se rapportent. De la même façon, il peut être épithète, attribut ou apposé.
+
+Adjectif épithète
+Quand il est épithète, l'adjectif est placé à gauche de la base nominale et s'accorde en genre et en nombre avec elle.
+ex: Das schöne Haus - Die schönen Häuser
+
+Adjectif attribut
+Quand il est attribut du sujet ou du COD, l'adjectif est invariable.
+ex: Das Haus ist schön. - Ich finde das Haus schön.
+
+Adjectif apposé
+Quand il est apposé, l'adjectif est invariable. Il peut être transformé en proposition subordonnée relative.
+ex: Das Haus, sehr schön, ist teuer. - Das Haus, das sehr schön ist, ist teuer.
+
+Plan de l'étude: Morphologie de l'adjectif en français: Genre de l'adjectif; Nombre de l'adjectif; Formes particulières de l'adjectif.; Genre de l'adjectif; Nombre de l'adjectif; Formes particulières de l'adjectif. Syntaxe de l'adjectif en français: Épithète liée; Épithète détachée; Qualificatif attribut; Satellites du syntagme adjectival.; Épithète liée; Épithète détachée; Qualificatif attribut; Satellites du syntagme adjectival.

@@ -1,0 +1,26 @@
+Picasa est un logiciel de gestion d'images, et se décline aussi en une application de visualisation et d'organisation sur le Web de photographies du même nom.
+Le logiciel est disponible en français pour Windows et Mac OS et Linux.
+
+Historique
+En juin 2004, Google rachète le logiciel au développeur Idealab et le propose en téléchargement gratuit.
+Le 6 juin 2006, Google met à disposition Picasa Web Album.
+Une version Mac (3.5) a été développée en bêta, puis la version 3.8, sortie le 20 octobre 2010 est multi-support et est désormais compatible avec le système d'exploitation Mac OS X, en plus de Windows et de Linux, dont la première version stable est sortie en juin 2006.
+Le 23 avril 2012, Google annonce que la version Linux de Picasa ne sera plus mise à jour mais reste disponible en téléchargement.
+En février 2016, Google annonce la fermeture de Picasa, pour favoriser l'utilisation de Google Photos, avec l'arrêt du support de la version bureau pour mars 2016 et des changements pour la version en ligne en mai 2016.
+Le 12 février 2016, Google a annoncé que l'application de bureau Picasa serait supprimée le 15 mars 2016, suivie par la fermeture du "Albums Web services Picasa" le 1er mai 2016. Google a déclaré que la principale raison du retrait de Picasa était qu'il voulait "concentrer ses efforts entièrement sur un seul des services de photos" sur le site Web Google Photos mais aussi le logiciel "Google Photos".
+
+Outils
+Ce logiciel permet de : recadrer et redresser les photos ;; modifier les couleurs (N-B, sépia, saturation, etc) ;; retoucher de façon assez simple les photos ;; faire des montages vidéo, ou photo dont posters.
+Cela ne remplace pas un logiciel spécialisé dans la retouche d'image, mais permet un premier niveau de retouches. Depuis la version 3, Picasa intègre la reconnaissance des visages.
+Axé sur le Web 2.0, il utilise les flux RSS pour télécharger un album entier avec une interface qui peut aussi gérer les commentaires. L'un des points forts de Picasa est son moteur de recherche et d'indexation (à partir du nom de fichier, de la légende ou de mots clés) dans lequel on retrouve l'approche de celui de Google. Il est capable de compresser à la volée des photos afin qu'elles prennent moins de place. Il permet aussi la géolocalisation des photos par le biais de Maps-Earth.
+Picasa est capable de développer des RAW, fichiers bruts et non compressés d'une photo.
+
+Picasa Album Web
+Au printemps 2006, Google lance Picasa Web Album, une nouvelle version de Picasa qui permet de publier très facilement sur internet les photos stockées sur le disque dur de l'utilisateur, que Picasa gère localement.
+L'espace alloué à chaque membre a évolué de 100 Mo au lancement, à 200 Mo ensuite, avant d'atteindre actuellement, 1 Go (1 024 Mo).
+Le 29 juin 2010, une mise à jour de la PlayStation 3 permet à celle-ci de gérer son compte Picasa, avec comme possibilité de visionner les photos sur Picasa ou même d'importer des photos depuis la console.
+Tout utilisateur utilisant Google+ a un stockage de photos infini. Plus précisément, seules les photos de plus de 2 048 2 048 pixels et les vidéos de 15 minutes ou plus sont comptées sur l'espace de stockage.
+
+Voir aussi
+
+Articles connexes: Liste des visionneuses d'images; Partage de photographies; Flickr.

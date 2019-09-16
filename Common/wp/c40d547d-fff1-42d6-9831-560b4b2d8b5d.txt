@@ -1,0 +1,61 @@
+Un téléviseur, par métonymie une télévision, ou encore par apocope une télé, est un appareil affichant sur un écran des émissions de télévision. Il contient pour cela un décodeur de signaux qui accepte un ou plusieurs formats de diffusion de télévision, qui peuvent être analogiques ou numériques. Un téléviseur fonctionne généralement avec une télécommande.
+Il est généralement pourvu de connectique d'entrées-sorties permettant de lui connecter un magnétoscope, un décodeur compatible avec un ou plusieurs formats de diffusion de télévision avec lesquels il est compatible comme un lecteur de DVD ou une console de jeux vidéo.
+
+Historique
+L'écran des téléviseurs a longtemps été un tube cathodique (tout au long du XXe siècle et au début du XXIe siècle) puis sont apparus les téléviseurs à écran à cristaux liquides, écran à plasma, écran à diode électroluminescente et 3D.
+Pendant longtemps les téléviseurs n'étaient munis que d'un haut-parleur, ne permettant qu'une écoute monophonique. Cela était lié à la transmission télévisuelle qui ne portait que des informations sonores monophoniques. La généralisation du son Nicam stéréo entraîna l'apparition de téléviseurs à son stéréophonique. Certains sont dotés de haut-parleurs supplémentaires pour la restitution du son Dolby pro-logic ou son multicanalSurround.
+
+Technique
+
+Tuner
+Le téléviseur contient un tuner servant à démoduler le signal d'antenne (VHF, UHF...) et en extraire les signaux vidéo et son. Certains téléviseurs sont multinormes, c'est-à-dire qu'ils permettent la réception des signaux vidéo aux normes LL' (France), BG (Europe), KK' (DOM-TOM).
+
+DLNA
+Certains téléviseurs sont des terminaux multimédia dotés de possibilités d'utilisation conjointe avec un ordinateur personnel. Ceux-ci sont reliés soit par un câble Ethernet, soit par une liaison Wi-Fi. Ils sont équipés du standard DLNA (digital living network alliance).
+
+Format d'écran
+Les premiers téléviseurs ont été créés avec un écran d'un format similaire à celui des écrans de cinéma de l'époque, soit un rectangle d'un rapport de 4 - 3 (1-1,33). Par la suite, afin de se différencier de ce média concurrent, les dimensions des écrans de cinéma furent modifiées pour adopter un rapport 1-1,85 et le CinemaScope (rapport : 1-2,35) fit son apparition. La diffusion des oeuvres cinématographiques sur le "petit écran" impliquait alors un choix : soit le recadrage de l'image (cf. procédé pan and scan) ;; soit l'affichage de bandes noires au-dessus et au-dessous de l'image.
+Dans les années 1980, afin de mieux restituer les films diffusés à la télévision (et dont l'offre était de plus en plus importante avec l'apparition de la télévision par câble, du satellite et des chaînes à abonnement), des téléviseurs avec un écran de rapport 16 - 9 (1-1,77) sont apparus. Ces écrans, dont la dimension est plus conforme au champ de vision humain, tendent à se généraliser et les programmes diffusés tendent à adopter ce format (en particulier les fictions et le sport).
+
+Comparaison de formats
+La dimension des téléviseurs est généralement exprimée en pouce ou cm de la diagonale de l'écran. La diagonale n'est pas idéale pour comparer la surface d'affichage des différents formats d'écrans. Pour une même diagonale, un téléviseur au format 4 - 3 a une hauteur d'image supérieure à un écran 16 - 9. Pour une émission diffusée en 4 - 3 sur un téléviseur 16 - 9, les parties latérales de l'écran sont noires, la diagonale d'affichage de cette émission est inférieure à la diagonale de l'écran 16 - 9.
+Comparaison des hauteurs d'écrans : pour un écran 4 - 3, hauteur - D43 0,6 (où D43 désigne la diagonale); pour un écran 16 - 9, hauteur - D169 0,49 (où D169 désigne la diagonale); pour avoir la même hauteur d'image entre ces écrans, il faut D169 - D43 0,6 - 0,49 - D43 1,224. Cela donne, pour un écran 4 - 3 avec une diagonale D43 de 71 cm, un écran 16 - 9 avec une diagonale de 71 cm x 1,224 - 87 cm.
+La surface de l'écran 16 - 9 de diagonale 70 pouces est 22,3 fois celle de l'écran 4 - 3 de diagonale 14 pouces.
+
+Combinés téléviseurs
+Dans les années 1990, des combinés téléviseur + magnétoscope à cassette firent leur apparition, puis par la suite des combinés TV + DVD (disque optique). Les appareils combinés à cassette ne sont plus commercialisés depuis 2005.
+
+Ventes de téléviseurs en France
+En France, plus de 25 millions de téléviseurs à écran plat ont été vendus entre 2000-2010.
+
+Techniques d'écrans
+Certains téléviseurs à LCD possèdent un rétro-éclairage à LED au lieu des tubes fluorescents traditionnels. Cette technologie de rétro-éclairage entraîne souvent une diminution de l'encombrement ainsi que de la consommation et parfois un meilleur contraste.
+L'écran LCD ou à plasma des téléviseurs de très grande taille peut afficher une image de moins bonne qualité que celle affichée sur un téléviseur à tube cathodique. Cela est dû au fait que ces écrans ont une résolution native, c'est-à-dire qu'ils sont conçus pour afficher une image optimale dans leur définition d'écran la plus élevée.
+En 2010, peu de chaînes de télévision diffusent dans un format HD. Le problème est identique lors du visionnage d'un DVD car l'image doit être mise à l'échelle (contrairement au Blu-ray par exemple) lors d'une opération appelée "upscaling" adaptant la faible résolution du DVD à la haute définition du téléviseur. La qualité du circuit électronique réalisant cette opération peut varier entrainant une qualité d'affichage variable.
+Ce circuit peut être : intégré au téléviseur (mais sur les modèles d'entrée de gamme il est souvent de qualité médiocre) ;; intégré au lecteur DVD ou Blu-ray (sur les modèles de milieu de gamme) ;; un composant autonome à intercaler entre le lecteur DVD et l'écran (en général la meilleure solution technique mais moyennant un coût considérable).
+
+Écran plasma
+Avantages : Contraste : qualité de noir nettement plus intéressante que sur le LCD qui lui a un noir "rétroéclairé".; Les écrans à plasma n'ont pas de problème de temps de réponse.; Prix moins élevé par rapport à un LCD de même taille.; Angle de vision sans limite.
+Inconvénients : Leur consommation est plus élevée que celle d'un LCD.; Reflets sur la dalle (vitre en verre qui peut provoquer des reflets au soleil).; Problèmes de marquage de la dalle, en cas d'affichage d'une image fixe pendant un certain temps.; utilisation PC à proscrire (dû au problème de marquage).
+
+Écran à cristaux liquides (LCD)
+Avantages : Leur consommation est moins élevée que celle d'un écran à plasma.; Pas de marquage de la dalle; Possibilité de connecter à un PC.
+Inconvénients : Angle de vision; Prix en général plus élevé qu'un écran à plasma de taille équivalente (plus on monte en résolution); Rémanence; Temps de réponse (problème atténué par les procédés surnommés : 100 Hz, 200 Hz, Panasonic 600 Hz, Sony MotionFlow).
+
+Télévision numérique terrestre (TNT)
+Avec l'apparition de la télévision numérique terrestre, certains postes sont équipés d'un décodeur numérique permettant de capter les chaînes diffusées suivant cette nouvelle technologie. Pour les téléviseurs ne disposant pas d'un décodeur intégré, un boîtier externe peut être acheté. Tous les téléviseurs vendus en France doivent être munis d'un décodeur TNT intégré depuis mars 2008.
+La TNT est bien implantée en France à partir de 2007. Pour les zones non couvertes, la TNS fit son apparition en aout 2007 dans l'est de la France et en septembre pour le reste de la France. Ce système permet de recevoir la TNT par satellite, sur le satellite Astra, Il vous faudra un décodeur TNS numérique avec une carte de décryptage pour pouvoir bénéficier des programmes. Le système de diffusion est le MPEG-2 pour les émissions SD (simple définition) et le MPEG-4 pour la HD (haute définition, cf. ci-dessous). Il y a 18 chaînes nationales gratuites sur la TNT, dont 5 émettent également en HD, plus des chaînes locales gratuites (32 en tout), et 9 chaînes payantes.
+
+La télévision à haute définition
+Il s'agit d'un format numérique avec une résolution supérieure à la simple définition, proposant une image de ratio 16 - 9.
+La TVHD existe depuis les années 1980 au Japon mais était très peu diffusée à cause de coûts importants des périphériques de saisie (caméras HD) et de la chaîne de traitement des informations. En suivant, les États-Unis, la Corée et l'Australie ont implanté la TVHD. Le projet européen de TVHD remonte à 1986 mais les premiers téléviseurs compatibles n'apparaissent dans la grande distribution en France qu'en 2005 qui est également l'année de naissance des premiers programmes dans ce format. Le décodeur TNT HD est obligatoire pour les écrans de plus de 66 centimètres vendus en France depuis le 1er décembre 2009, et est obligatoire sur tous les modèles depuis le 1er décembre 2012.
+
+Options
+Les téléviseurs peuvent posséder différentes options permettant de simplifier leur utilisation : Mise en veille automatique programmable par l'utilisateur ;; Lecteur de clé USB permettant de lire des vidéos directement sur le téléviseur;; etc.
+
+Principaux fabricants de téléviseurs
+Parts de marché des fabricants mondiaux (au 1er trimestre 2012) : Samsung (Corée du Sud) : 20 % du marché mondial.; LG Electronics (Corée du Sud) : 13 %; Sony (Japon) : 9 %; Panasonic Corporation (Japon) : 7 %; Toshiba (Japon) : 7 %; Sharp (Japon) : 6 %; TCL (Chine) : 4 %; Philips (l'activité TV de la marque Philips a été cédée au chinois TPV en 2012 et 2014) : 4 %; Autres : 30 %.
+
+Voir aussi
+
+Articles connexes: Télévision. Portail de la télévision; Portail des télécommunications.

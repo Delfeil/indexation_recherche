@@ -1,0 +1,66 @@
+En mathématiques, l'espace dual d'un espace vectoriel E est l'espace des formes linéaires sur E.
+La structure d'un espace et celle de son dual sont très liées. La fin de cet article présente quelques résultats sur les liens entre espace dual et hyperplans, ce qui permet une compréhension "géométrique" de certaines propriétés des formes linéaires.
+Le dual topologique est une variante très souvent considérée en analyse fonctionnelle, lorsque l'espace vectoriel est muni d'une structure additionnelle d'espace vectoriel topologique.
+
+Définitions
+Soient (K,+,) un corps commutatif et E un K-espace vectoriel.
+On appelle forme linéaire sur E toute application linéaire de E vers K, c'est-à-dire toute application : E K telle que: (x , y) E 2 , K , (x + y) - (x) + (y). (-displaystyle -forall (x,y)-in E(2),- -forall -lambda -in K,- -phi (-lambda x+y)--lambda -phi (x)+-phi (y).).
+L'ensemble L(E, K) des formes linéaires sur E est un K-espace vectoriel, appelé l'espace dual de E et noté E-.
+Le crochet de dualité est la forme bilinéaire non dégénérée: E E K , (, x) , x :- (x). (-displaystyle -langle ,-rangle :E(-)-times E-to K,-quad (-phi ,x)-mapsto -langle -phi ,x-rangle :--phi (x).).
+Un plongement d'un espace vectoriel dans un autre est une application linéaire injective.
+
+Exemple : cas d'un espace préhilbertien
+Si l'espace vectoriel E est un espace préhilbertien réel, c'est-à-dire muni d'un produit scalaire , cette donnée supplémentaire permet de définir un plongement naturel de E dans E- : l'application qui à chaque vecteur x de E associe la forme linéaire (x) : E R, y (yx). Ainsi, E est isomorphe au sous-espace (E) de E-.
+
+Bases
+
+Cas général
+Soit (ei)iI une base (éventuellement infinie) de E. Alors, la famille de formes linéaires (ei-)iI définie par :
+ou encore
+est une famille libre de E-, donc l'unique application linéaire de E dans E- qui envoie (pour tout i) ei sur ei- est un plongement.
+Il n'est pas canonique, car il dépend du choix d'une base.
+Par ailleurs, quand la dimension de E est infinie, elle est strictement inférieure à celle de E- (d'après le théorème d'Erdős-Kaplansky), c'est-à-dire qu'aucune application linéaire de E dans E- n'est surjective.
+
+Dimension finie
+Si l'espace E est de dimension finie n alors, au contraire, le plongement du paragraphe précédent devient un isomorphisme de E dans E-.
+Théorème de la base duale(2) - Soit (e 1 ,.. e n) (-displaystyle (e-(1),-ldots ,e-(n))) une base de E. Alors la famille (e 1 ,.. e n) (-displaystyle (e-(1)(-),-ldots ,e-(n)(-))) est une base de E-, appelée base duale. En particulier, on a :
+dim E - dim E. (-displaystyle -dim E--dim E(-).)
+Par exemple, les polynômes de Lagrange ℓ0, ℓ1,.., ℓn associés à n + 1 scalaires distincts x0, x1,.., xn forment une base de l'espace vectoriel des polynômes de degré inférieur ou égal à n. La base duale est formée des n + 1 fonctions d'évaluation : ℓi-(P) - P(xi).
+
+Orthogonal: Si A est une partie de E, on définit l'orthogonal (ou annulateur) A de A dans E- comme le sous-espace des formes qui s'annulent sur A :A - (E x A , x - 0). (-displaystyle A(-circ)--(-phi -in E(-)-mid -forall x-in A,- -langle -phi ,x-rangle -0-).)A est naturellement isomorphe au dual de l'espace vectoriel quotient E-A.; Si B est une partie de E-, on définit l'orthogonal B de B dans E comme le sous-espace des vecteurs annulés par B :B - (x E B , x - 0). (-displaystyle B(-circ)--(x-in E-mid -forall -phi -in B,-langle -phi ,x-rangle -0-).)Autrement dit : B est l'intersection des noyaux des éléments de B.
+Avec les notations ci-dessus, (A) est égal au sous-espace engendré par A, tandis (B) contient le sous-espace engendré par B ; il lui est égal dès que B est finie.
+Dans le cas particulier d'un espace euclidien, de dimension finie, l'application définie dans le paragraphe "Exemple : cas d'un espace préhilbertien" ci-dessus est un isomorphisme de E sur E-. Modulo cet isomorphisme, on retrouve alors l'orthogonalité définie par le produit scalaire.
+
+Représentation des sous-espaces
+Une application importante de l'étude de l'espace dual est la représentation d'un sous-espace vectoriel comme intersection d'hyperplans.
+Soient E un espace vectoriel et F un sous-espace. Pour toute base B de l'espace F des formes qui s'annulent sur F, le sous-espace F - (F) - (Vect(B)) - B est l'intersection des noyaux des éléments de B, c'est-à-dire que pour tout vecteur x de E, x F (B , (x) - 0). (-displaystyle x-in F-Leftrightarrow (-forall -phi -in B,-phi (x)-0).) F est de codimension finie q si et seulement si B contient exactement q formes 1,.. q, et l'on peut alors représenter F par q équations linéaires indépendantes : x F (1 (x) - 0 et 2 (x) - 0 et... et q (x) - 0). (-displaystyle x-in F-Leftrightarrow -left(-phi -(1)(x)-0(-text(et))-phi -(2)(x)-0(-text(et))-ldots (-text(et))-phi -(q)(x)-0-right).)
+Réciproquement, soit B un ensemble fini de formes linéaires indépendantes. Alors, en notant F - B l'intersection de leurs noyaux, B est une base de (B) - F.
+Ce théorème généralise les résultats élémentaires connus en dimension 2 ou 3 sur la représentation de droites ou de plans par des équations. En particulier, dans un espace vectoriel de dimension 3, l'intersection de 2 plans indépendants est une droite.
+Nota : il ne faut pas confondre la notion de droite ou de plan dans un espace affine (qui correspond à l'intuition géométrique) et celle, utilisée ici, de droite vectorielle ou de plan vectoriel. On appelle droite vectorielle un sous-espace de dimension 1, et plan vectoriel un sous-espace de dimension 2.
+
+Transposition
+Si E et F sont deux espaces vectoriels sur K et uL(E,F) une application linéaire, l'application transposée de u, notée tu, est l'application de F- dans E- donnée par
+L'application tu est linéaire pour tout u, et l'application u u est linéaire.
+Si E, F et G sont trois espaces vectoriels, on a
+(Dans le langage des catégories, cela signifie que l'opération qui associe à un espace vectoriel son dual est un foncteur contravariant.)
+
+Exemple élémentaire
+Si E - Km et F - Kn, alors L(E,F) - Mn,m(K) et on retrouve la transposition des matrices.
+
+Bidual
+On définit une application linéaire i (-displaystyle i) de E dans (E-)- par la formule
+Autrement dit, i (x) (-displaystyle i(x)) est la forme linéaire sur E- qui à toute forme linéaire (-displaystyle -phi) sur E associe (x). (-displaystyle -phi (x).)
+Contrairement aux plongements de E dans E-, l'application i (-displaystyle i) est naturelle, car elle dépend de la seule donnée de E.
+Elle est par ailleurs injective, c'est-à-dire que pour tout vecteur non nul x de E il existe une forme linéaire (-displaystyle -phi) telle que , x 0 (-displaystyle -langle -phi ,x-rangle -not -0) (car x se complète en une base (ei)iI, et ei-, ei - 1).
+Si E est de dimension finie, i (-displaystyle i) est donc un isomorphisme (tandis que si E est de dimension infinie, il n'existe aucune surjection linéaire de E dans E--).
+Dans le cas des espaces vectoriels topologiques, la situation est sensiblement différente (voir l'article Dual topologique).
+
+Cas d'un corps de base non commutatif
+Sur un corps non commutatif, il faut distinguer les espaces vectoriels à gauche, si l'action du groupe multiplicatif K- est une action à gauche, et les espaces vectoriels à droite si cette action est une action à droite.
+Le dual d'un espace vectoriel à gauche est un espace vectoriel à droite et vice-versa.
+Soient en effet E un espace vectoriel à gauche sur K, uL(E,K) et K. On définit u. par la formule
+C'est bien une application linéaire car, pour vecteur x dans E et tous scalaires et dans K, on a
+Ce qui précède est encore valide si l'on remplace "corps" par "anneau" et "espace vectoriel" par "module".
+Il faut remarquer au passage que si K est un corps non commutatif et si E et F sont des K-espaces vectoriels de dimension au moins 2, L(E,F) n'est plus un espace vectoriel, mais seulement un groupe abélien. De même, si K est un anneau non commutatif et si E et F sont des K-modules non isomorphes à K, L(E,F) est seulement muni d'une structure de groupe abélien.
+
+Voir aussi: Dual d'un module; Dualité (géométrie projective); Covecteur; Dual d'un espace vectoriel topologique; Paire duale. Portail de l'algèbre.

@@ -1,0 +1,79 @@
+Perl est un langage de programmation créé par Larry Wall en 1987 pour traiter facilement de l'information de type textuel. Ce langage, interprété, s'inspire des structures de contrôle et d'impression du langage C, mais aussi de langages de scripts sed, awk et shell (sh).
+Il prend en charge les expressions régulières dans sa syntaxe même, permettant ainsi directement des actions sur l'aspect général de séquences de texte.
+Une association, The Perl Foundation, s'occupe de son devenir, et entre autres de son éventuel passage de la version 5.x à la version 6. Le statut du langage est celui de logiciel libre, distribué sous double licence : Artistic License et GPL.
+
+Origines et mises en oeuvre
+
+Le but
+Perl se propose d'extraire commodément des informations de fichiers texte et d'en établir des rapports. Il peut remplacer des scripts shell ainsi que des commandes comme sed, awk, grep, cut, test et expr. Traitant des formats d'entrée non obligatoirement structurés, il évite de passer des données d'un processus à l'autre et de rendre ainsi moins lisibles les traitements, auxquels il fournit un cadre unifié. Sa syntaxe s'inspire du C, y ajoute la possibilité d'expressions régulières directement dans le langage, et comporte les principales fonctions des bibliothèques système en C.
+Il vise aussi la commodité pragmatique pour le programmeur (existence de raccourcis qui le font qualifier de langage "diagonal") plutôt qu'un souhait esthétique d'architecture stricte (langages "orthogonaux").
+
+Les moyens
+Perl, multiplate-forme, est utilisé entre autres pour l'écriture de scripts CGI et le traitement de fichiers de log. Il permet aussi d'ajouter des "in-process" dans un serveur web Apache, grâce à l'extension mod-perl, à l'instar de PHP ou de servlets Java.
+On le trouve ou le compile facilement sur la plupart des systèmes d'exploitation, notamment en environnement POSIX (Linux, - BSD, Mac OS X et Cygwin sous Microsoft Windows avec ActivePerl (dont la version 5.8 permet l'usage de l'Unicode ou de l'interface graphique).) Depuis la disponibilité de WSL sous Windows 10, il est aussi utilisable dans une fenêtre bash sous Windows.
+Depuis 2008 existe strawberry pour Windows, proche de la distribution Unix originale, avec un compilateur C.
+
+Syntaxe et sémantique
+Perl est un langage impératif proche de C et des shells UNIX. Comme en shell, le caractère dièse introduit un commentaire. La syntaxe de Perl lui permet d'exprimer de manière concise dans le langage même des expressions sans appels de fonctions de bibliothèques, donc de façon plus lisible. Le débutant peut facilement n'utiliser qu'un sous-ensemble du langage.
+Perl est typé statiquement de façon simple : le premier caractère d'un identificateur de variable est un caractère non alphanumérique appelé sigil. Comme pour les shells Unix, le sigil dollar dénote une variable scalaire, le sigil arobase (@) désigne une variable tableau et le sigil pourcent (%) un tableau associatif, aussi appelé hashage ou hash. Les tableaux peuvent être utilisés comme des piles ou des files, point commun avec javascript.
+print "Hello, world-n";
+Perl accepte des déclarateurs indiquant la portée des variables déclarées :
+my s - 'toto' ; variable scalaire à portée lexicale
+local level +- 1; variable scalaire avec une valeur à portée dynamique
+our @s - (1, s, 3.14); variable tableau globale au module courant
+Les sigils permettent de reconnaître les noms de variables dans des chaînes de caractères et d'interpréter ces variables.
+print "la variable toto vaut toto";
+Perl ne requiert pas de constructeurs d'instances.
+my %a - (clé1 - (1, 2), clé2 - (3, 4));
+Le module XML::Literal disponible sur le CPAN permet de supporter des littéraux de type XML de manière similaire à l'extension normalisée E4X d'ECMAScript.
+
+La version 5.10
+Depuis sa version 5.10, le langage inclut des fonctionnalités destinées au futur Perl 6, comme une structure de contrôle switch et les captures nommées pour l'opérateur match (c'est-à-dire la possibilité de nommer génériquement des éléments traités au vol). La 6e version du langage, annoncée depuis 2001, attend toujours sa finalisation complète en 2016.
+
+L'intégration dans l'existant
+Les programmes Perl sont intégralement portables entre GNU-Linux, Mac OS X (ou autre UNIX) et Windows malgré les désignations de fichiers différentes de ces systèmes (Perl remplace au besoin les "-" par des "-", voire des "--"). Ce langage fut utilisé comme script CGI pour faire tourner Wikipédia jusqu'en janvier 2002.
+Perl permet l'usage du moteur d'interfaces graphiques Tk pour effectuer des entrées-sorties. On désigne parfois l'ensemble sous le nom générique Perl-Tk. L'extension Tk est intégrée à ActivePerl depuis la version 5.8 du langage.
+Des interfaces graphiques plus commodes que Tk sont aussi proposées par des bibliothèques de CPAN.
+TkZinc apporte un aspect modernisé de Tk. PerlQt supporte Qt 3.x. Gtk2 supporte Gtk 2.x. wxperl supporte wxWidgets. wxWidgets a l'avantage de fournir l'apparence natif du système de fenêtrage utilisé. Sous Mac OS X, CamelBones donne accès à l'API de Cocoa.
+
+Le mécanisme
+Perl5, bien qu'interprété, ne réanalyse pas ses instructions chaque fois qu'il les exécute. Sans créer un bytecode comme d'autres langages interprétés, il effectue une passe d'assemblage qui traduit les constantes, remplace les variables par des adresses internes et construit un arbre syntaxique (AST, Abstract Syntax Tree).
+Le code source est traduit instruction par instruction en AST, par la suite optimisé. Si des instructions sont situées dans un bloc spécial comme BEGIN ou CHECK, elles sont exécutées dès leur compilation (et donc avant que le reste du code source soit compilé). C'est le cas en particulier des modules chargés par l'instruction use. L'AST, par rapport à un AST usuel, a la particularité de contenir déjà les chemins d'exécution. Lors de la phase d'exécution, l'interpréteur suit donc les chemins présents dans l'AST et exécute les instructions restantes.
+Perl 5 n'utilise à aucun moment de bytecode. Le projet de compilation en bytecode commencé lors de Perl 5.005 par Malcom Beattie n'a jamais abouti. L'arrivée de Parrot peut cependant offrir une nouvelle solution.
+
+L'avenir à moyen terme
+Plusieurs fonctionnalités des bibliothèques de Perl 5 seront intégrées dans Perl 6 : ainsi l'analyse syntaxique sera intégrée dans le moteur d'expressions rationnelles. Aujourd'hui, en Perl 5, un analyseur LALR peut s'écrire par le module Parse::Yapp, clone de yacc. Parse::RecDescent est un module qui permet l'écriture d'un analyseur récursif descendant.
+
+Exemples de code
+Une plaisanterie récurrente présente Perl comme acronyme de 'Pathologically Eclectic Rubbish Lister' (collectionneur pathologique de déchets variés) en référence à ses caractères spéciaux chargés de sens dans la syntaxe du langage, comme dans l'exemple suivant :
+ Un exemple de programme en Perl
+message - "À l'endroit : 'camel'.-n";
+print message;
+message - s-endroit-envers-;
+message - s-('-w+')-reverse(1)-e;
+print message;
+exit 0
+et sa sortie à l'écran :
+À l'endroit : 'camel'.
+À l'envers : 'lemac'.
+Les troisième et quatrième lignes de cet exemple montrent l'usage d'expressions rationnelles.
+Ces caractères spéciaux sont liés à la puissance de traitement de Perl : scalaires désignés par : nom - "Toto"; z-3;; tableaux désignés par @, indexés par : nom(95) - "Val d'Oise"; (parce que ce 96e élément du tableau est comme les autres un scalaire !); tableaux associatifs ou hashs désignés par %, indexés par : code("Val d'Oise") - 95; (parce que leurs éléments sont des scalaires aussi).
+
+Faux amis
+Certains mots ont un sens différent en Perl et dans la littérature informatique usuelle. Ci-après deux exemples : Une fonction (function) est une fonction prédéfinie par le langage ;; Une routine, aussi appelée sous-routine (subroutine en anglais), est une fonction définie dans le programme ou une bibliothèque utilisée.
+
+Aspects communautaires
+Perl a une base d'utilisateurs vaste, mais de plus en plus concurrencée par celles de PHP, Python, Ruby, Javascript, etc. Le langage est apprécié des administrateurs système mais également des développeurs dans le domaine de la bio-informatique où les programmes font l'objet de remaniements constants.
+La base CPAN regroupe et met gratuitement à la disposition des utilisateurs de Perl 15,4 millions de lignes de code sous forme de modules Perl et de synopsis montrant comment les mettre en oeuvre.
+En France, l'association des Mongueurs de Perl promeuvent ce langage, notamment via les Journées Perl.
+
+Anecdotes
+On écrit généralement le nom de ce langage avec un P majuscule pour désigner le langage et un p minuscule en parlant de l'interpréteur : "seul perl analyse correctement Perl." Une conséquence est qu'un système de coloration syntaxique d'un programme Perl devrait utiliser l'interpréteur perl pour être totalement correct. En pratique, des modules pur Perl comme Perl::Tidy et PPI arrivent à comprendre correctement la majeure partie du code courant.
+Initialement, le concepteur de Perl, Larry Wall, avait prévu de nommer son langage "pearl", d'après une parabole biblique se trouvant relatée dans l'Évangile selon Matthieu (chapitre 13, versets 45 et 46). Il existait déjà un langage de programmation dénommé PEARL - pour la programmation multitâche et temps réel. Wall changea donc l'orthographe en "Perl". Les significations diverses que l'on trouve de nos jours comme le Practical Extraction and Report Language sont simplement des rétroacronymes.
+Black Perl est un poème signé Larry Wall, écrit dans le langage de programmation Perl et dans la langue anglaise. Il est un clin d'oeil au film Pirates des Caraïbes.
+
+Logiciels écrits en Perl: Diverses bibliothèques couvrant le continuum des systèmes de gestion de contenu, des wikis et des blogs. Perl est au coeur de sites comme Slashdot, LiveJournal...; GNU Automake, logiciel génèrant des makefiles portables; Fink, projet open source destiné à porter vers Mac OS X des applications originellement écrites pour UNIX; SVK, système de gestion de version de code. C'est une extension de Subversion; Movable Type, plateforme de publication pour entreprises, utilisée par des sociétés comme General Motors; Blosxom, logiciel de blog et un système de gestion de contenu; Sympa, gestionnaire de listes de diffusion; SpamAssassin, filtre courriel anti-spam; Bugzilla, gestionnaire de bugs; Webmin, logiciel de configuration d'une machine via une interface web; Urpmi, gestionnaire de packages de Mandriva et Mageia. Leurs installeurs et leurs outils de configuration sont également écrits en Perl; Frozen Bubble, jeu d'arcade; AWStats, analyseur de logs; Des robots IRC sont écrits en Perl (infobot) ou proposent des interfaces Perl (eggdrop); Koha, premier SIGB sous licence libre; MRTG, logiciel de monitoring réseau; Stormons, logiciel de monitoring pour solutions SAN et NAS.
+
+Voir aussi
+
+Articles connexes: APL Lisp Python Ruby Tcl; Expression rationnelle; Perl et le calcul quantique; DWIM; Principe de Huffman; Ponie.

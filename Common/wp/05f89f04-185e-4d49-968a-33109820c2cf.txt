@@ -1,0 +1,27 @@
+L'anonymat (du grec anonymos "sans nom" : - an- + onyma, forme dialectale éolienne de onoma "nom" ou "renom") est la qualité de ce qui est sans nom ou sans renommée, c'est-à-dire l'état d'une personne ou d'une chose: dont on ignore le nom, l'identité (Littré : "garder l'anonyme" est "faire un secret de son nom"); qui n'est pas connue ou célèbre (Littré : une "société anonyme" est "une société dont la raison n'est pas connue du public").
+Par conséquent, une chose ou une personne anonyme peut être connue sans être identifiée ou au contraire être identifiée sans être connue (comme les peintres dits "maîtres anonymes" dont l'attribution des oeuvres restaient incertaines au début du XXe siècle).
+Dans le cadre des diffusions de certaines données publiques contenant des informations privées, et notamment dans le cadre de l'open data (données ouvertes), certaines données doivent être "anonymisées" pour leur réutilisation par des tiers, selon les lois en vigueur.
+
+Techniques d'anonymat
+L'anonymat et le respect de la vie privée peuvent être limités ou contournés par des techniques de fichage.
+Pour l'anonymat il existe plusieurs raisons et plusieurs méthodes : la plus simple étant de ne mentionner aucun nom, par exemple la lettre anonyme. De nombreuses oeuvres ont été publiées sous forme anonyme pour éviter d'éventuelles censures ou sanctions contre la personne d'un auteur, ou pour refuser tout simplement le principe d'autorité, par exemple le Discours de la méthode de René Descartes (1637) ou plus récemment L'insurrection qui vient, ouvrage signé par un Comité invisible (2007) ; Au Moyen Âge, l'attribution à un auteur n'était pas significative ni jugée importante. L'attribution des oeuvres de cette époque est donc souvent incertaine et les historiens de l'art du XXe siècle donnent souvent à leurs auteurs une dénomination floue (maîtres anonymes) ou descriptive relative aux sujets qu'ils ont représentés, comme le Maestro del San Francesco Bardi, à Florence (qui signifie "maître de la peinture de la chapelle Saint-François de la famille Bardi") ;; le pseudonyme (ou même l'hétéronyme) est un moyen de ne pas être identifiable de tous, mais éventuellement seulement de certains. Henri Beyle possédait ainsi plus d'une centaine de pseudonymes parmi lesquels le plus connu est Stendhal.
+
+La garantie d'anonymat
+Dans le commerce électronique, certains consommateurs préfèrent ne pas donner d'informations aux vendeurs pour ne pas être sollicité ensuite par des relances publicitaires (ex: marketing direct, voire démarchage).
+
+Exigences légales
+Dans certains pays, la législation exige pour certains actes l'anonymat, par exemple l'accouchement sous X ou le don de sang.
+Certaines données personnelles doivent être anonymisées pour entrer dans certaines banques de données ou pour certaines réutilisations, c'est le cas par exemple des données de santé en Europe et sous l'égide de la CNIL en France.
+Les autorités européennes responsables de la protection des données ont produit sur une méthode permettant de s'assurer de l'anonymisation réelle d'un jeu de données (avis du G29 du 10 avril 2014), retenant pour cela 3 critères cumulatifs devant être respectés : 1) impossibilité d'isoler une personne (les données doivent porter sur des groupes de personnes) ;; 2) impossibilité de faire des liens (i.e. les données d'un même jeu ou de plusieurs jeux portant sur le même groupe ne doivent pas pouvoir être reliées entre elles) ;; 3) impossibilité d'inférer (aucune information ne doit pouvoir être déduite à partir de la connaissance des données d'un ou plusieurs jeux).
+Si ces trois conditions ne sont pas conjointement remplies, un risque de réidentification de la personne existe ("notamment par ceux qui nous connaissent le mieux : les personnes proches et les grands "data brokers" (Google, Facebook...)" rappelait en 2014 Sophie Nerbonne, Directrice de la conformité de la Commission nationale de l'informatique et des libertés (Cnil)).
+
+Citation anonyme Si j'ai choisi l'anonymat, c'est une manière de m'adresser plus directement à l'éventuel lecteur, le seul personnage ici qui m'intéresse : Puisque tu ne sais pas qui je suis, tu n'auras pas la tentation de chercher les raisons pour lesquelles je dis ce que tu lis; laisse-toi aller à te dire tout simplement : c'est vrai, c'est faux. ça me plaît, ça ne me plaît pas. Un point, c'est tout.
+- Le philosophe masqué (entretien anonyme avec C. Delacampagne), Le Monde, n 10945, 6 avril 1980 : Le Monde-Dimanche, pp. I et XVII.
+
+Pathologies de l'anonymat
+L'anonymat ne va pas sans poser des problèmes. Un modèle a été élaboré pour les étudier, le SIDE (Social Identity Model of Deidentification Effects); d'après ce modèle, "en situation d'anonymat, l'attention pour les différences individuelles diminue, alors que l'attention pour les facteurs sociaux comme l'appartenance sociale augmente"4. En fait, ce ne sont pas tellement, ou pas essentiellement, des "facteurs sociaux" ou "d'appartenance sociale", mais plus globalement des facteurs groupaux, où les groupes se constituent de manière discrète, mais non moins efficace, à travers des marqueurs repérables.
+Le SIDE théorise avec des outils contemporains des problèmes détectés et étudiés depuis la fin du XIXe siècle, notamment par Gustave Le Bon, dans son livre sur la "Psychologie des foules".
+
+Voir aussi
+
+Articles connexes: Anonymat sur Internet; Vie privée et informatique; Anonymisation; Donnée personnelle; Donnée de santé; Pseudonyme.

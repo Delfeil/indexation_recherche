@@ -1,0 +1,5 @@
+En morphologie, sous-domaine de la linguistique, on nomme flexion l'ensemble des modifications subies par le signifiant des mots d'une langue flexionnelle (ou agglutinante, dans une moindre mesure) pour dénoter les traits grammaticaux voulus. À la différence de la dérivation, la flexion ne crée pas de nouveaux mots.
+Il existe deux grandes catégories de flexions, selon la classe lexicale considérée : la déclinaison pour le système nominal, dans lequel on englobe généralement l'adjectif et le pronom. Les noms y changent généralement de forme selon le genre, le cas ou le nombre, entre autres possibilités ;; la conjugaison pour les verbes, qui varient généralement en personne, nombre, genre, temps, voix et mode, entre autres possibilités.
+On peut établir deux sous-catégories de flexion (qui ne s'excluent pas) : celle qui procède de l'addition d'affixes (surtout par suffixation désinentielle) ;; celle qui procède de modifications du radical (introflexion).
+Le premier type peut être, dans les langues agglutinantes, nommé agglutination.
+L'ensemble des formes d'un même mot est nommé paradigme. Portail de la linguistique.

@@ -1,0 +1,36 @@
+RDF Schema ou RDFS (acronyme de Resource Description Framework) est un langage extensible de représentation des connaissances. Il appartient à la famille des langages du Web sémantique publiés par le W3C. RDFS fournit des éléments de base pour la définition d'ontologies ou vocabulaires destinés à structurer des ressources RDF notamment sous la forme d'un triplestore, ce qui permet, grâce au langage de requête SPARQL, de les atteindre à travers le Web.
+La première version de RDFS a été proposée en mars 1999, et la recommandation finale publiée par le W3C en février 2004. Les composants principaux de RDFS sont intégrés dans un langage d'ontologie plus expressif, OWL.
+
+Principales caractéristiques de RDFS
+
+Classes et sous-classes: rdfs:Class permet de déclarer une ressource RDF comme une classe pour d'autres ressources.
+Un exemple simple de rdfs:Class est foaf:Person dans le vocabulaire FOAF. Une instance de la classe foaf:Person est une ressource liée à la classe en utilisant un prédicat rdf:type. L'expression formelle suivante en RDFS traduit la phrase en langage naturel : 'Jean est une personne'.
+ex:Jean rdf:type foaf:Person
+La définition de rdfs:Class est récursive. rdfs:Class est la classe de toutes les classes. rdfs:subClassOf permet de définir des hiérarchies de classes.
+Par exemple, 'Toute personne est un Agent':
+foaf:Person rdfs:subClassOf foaf:Agent
+
+Propriétés
+RDFS précise la notion de propriété définie par RDF en permettant de donner un type ou une classe au sujet et à l'objet des triplets. Pour cela, RDFS ajoute les notions de "domain", correspondant au domaine de définition d'une fonction en anglais, et "range", son ensemble d'arrivée : rdfs:domain définit la classe des sujets liée à une propriété.
+(P rdfs:domain C indique que les ressources relatives au sujet d'un triplet dont le prédicat est P sont des instances de la classe C): rdfs:range définit la classe ou le type de données des valeurs de la propriété.
+(P rdfs:range C indique que les ressources relatives à l'objet d'un triplet dont le prédicat est P sont des instances de la classe C)
+Par exemple on pourra exprimer que la propriété "travailledans" relie un sujet qui est une personne à un objet qui est une organisation.
+ex:travailledans rdfs:domain foaf:Person
+ex:travailledans rdfs:range foaf:Organization
+À partir des déclarations précédentes, la déclaration suivante implique nécessairement que ex:Jean est une instance de foaf:Person, et ex:Societe-X une instance de foaf:Organization
+ex:Jean ex:travailledans ex:Societe-X
+Les hiérarchies de classes prennent en charge l'héritage des "domain" et "range" des propriétés.
+
+Système d'implication RDFS
+RDFS fournit des éléments de base pour structurer des ressources RDF. Le graphe ainsi obtenu est considéré comme un graphe bien formé si le système d'implication (décrit dans RDFS, OWL, etc.) est respecté.
+Par exemple, on peut décrire 'Le chien1 est un animal','le chat1 est un chat', 'les zoos hébergent des animaux' et 'Le zoo1 héberge le chat2' :
+Mais ce graphe n'est pas bien formé car le système ne peut pas deviner qu'un chat est un animal. Il faut donc rajouter 'Les chats sont des animaux':
+Voici l'exemple correct :
+Si votre triplestore (ou base de données RDF) implémente le système d'implication de RDF et RDFS, la requête SPARQL suivante (le mot clé a est équivalent à rdf:type en SPARQL) :
+PREFIX ex: http:--example.org-
+SELECT animal
+WHERE
+ (animal a ex:animal.)
+Donnera le résultat suivant avec cat2 car la type ex:cat hérite du type ex:animal :
+
+Voir aussi: RDF; OWL; SPARQL.

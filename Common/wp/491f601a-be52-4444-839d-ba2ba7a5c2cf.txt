@@ -1,0 +1,37 @@
+En mathématiques, une fonction est une relation entre un ensemble d'entrées (variable) et un ensemble de sorties (image), avec la propriété que chaque entrée est liée à exactement une sortie. Un exemple de fonction est la fonction qui à tout nombre noté x associe son carré. Ainsi, le nombre 3 se verra associé le nombre 9, et le nombre -4 le nombre 16, par exemple. On note une telle fonction f (x) - x2 ou bien f : x x2 ; La notation f (x) se lit f de x. On écrit f (3) - 9 ou encore f (-4) - 16.
+Dans le cadre de l'analyse, le terme est essentiellement employé pour une fonction numérique, c'est-à-dire dont le résultat est toujours un nombre. Mais il s'utilise parfois pour des extensions de la notion comme les classes de fonctions p-intégrables ou les distributions telle la fonction de Dirac.
+En théorie des ensembles, une fonction, ou application, est une relation entre deux ensembles pour laquelle chaque élément du premier est en relation avec un unique élément du second. Parfois, fonction et application sont ou ont été distinguées : une fonction associant alors à un élément de l'ensemble de départ au plus un élément de l'ensemble d'arrivée.
+
+Vocabulaire et notation
+Par défaut, une fonction est souvent notée f (-displaystyle f) ou F (-displaystyle F), et si d'autres notations de fonctions sont nécessaires au sein d'un même raisonnement, on utilise en général les lettres suivantes dans l'alphabet latin, voire dans l'alphabet grec en commençant par ou.
+Pour une fonction f (-displaystyle f), si la variable est notée x (-displaystyle x), le résultat associé est noté f (x) (-displaystyle f(x)) et appelé image de x (-displaystyle x). Pour chaque résultat y (-displaystyle y), si y - f (x) (-displaystyle y-f(x)), on dit que x (-displaystyle x) est un antécédent de y (-displaystyle y). Par exemple, 9 est l'image de 3 par la fonction carré, et 3 est donc un antécédent de 9 (mais ce n'est pas le seul, puisque 3 est aussi un antécédent de 9).
+R R x 1 x (-displaystyle (-begin(array)(ccc)-mathbb (R) (-)-to -mathbb (R) --x-mapsto (-frac (1)(x))-end(array))) Notation standard pour la fonction inverse.
+Le domaine de définition, c'est-à-dire l'ensemble des valeurs possibles pour la variable, est classiquement noté D f (-displaystyle (-mathcal (D))-(f)). L'ensemble image, c'est-à-dire l'ensemble des valeurs possibles pour le résultat, est alors noté im (f) (-displaystyle -operatorname (im) (f)) ou f (D f) (-displaystyle f((-mathcal (D))-(f))). Le domaine de définition et l'ensemble image sont respectivement inclus dans l'ensemble de départ (ou ensemble source) et l'ensemble d'arrivée (ou ensemble but).
+Une fonction est souvent définie par une formule contenant une variable libre explicitée avant une flèche d'un taquet vers la droite. La variable et la formule peuvent être surmontées respectivement du domaine de définition et de l'ensemble but, reliés par une flèche vers la droite.
+
+Historique de la notion
+La définition du concept de fonction a évolué depuis son introduction par Leibniz à la fin du XVIIe siècle. Il s'agissait alors d'associer un objet à chaque point d'une courbe, par exemple la tangente. En identifiant chaque point de la courbe avec son ordonnée, Jean Bernoulli puis Euler redéfinissent ensuite ce terme pour décrire une expression composée d'une variable et d'éventuels paramètres constants (réels). Les opérations utilisées comprennent non seulement les opérations algébriques élémentaires, les séries et produits infinis mais aussi l'exponentielle, le logarithme et les lignes trigonométriques, considérés comme des opérations transcendantes.
+Le lien entre l'expression d'une fonction et sa courbe représentative conduit Euler à élargir la notion en admettant des définitions par morceaux (en) puis des courbes qui ne peuvent être obtenues par des expressions analytiques. La condition de continuité est formalisée par Bolzano et Cauchy au début du XIXe siècle, puis contournée par Dirichlet avec l'indicatrice des rationnels.
+Parallèlement, le domaine de la variable s'ouvre aux nombres complexes. Au début du XXe siècle, les fonctions acceptent plusieurs variables, puis peuvent être définies sur un ensemble quelconque. Sous l'impulsion de Fréchet, la valeur d'une fonction suit la même généralisation. La théorie de l'intégration et l'analyse fonctionnelle vont plus loin en considérant des fonctions presque partout définies, nécessaires pour obtenir une structure d'espace de Banach sur les espaces Lp de fonctions p (-displaystyle p)-intégrables.
+En analyse complexe, le prolongement analytique des fonctions holomorphes entraine la prise en compte de fonctions multivaluées sur l'ensemble des complexes, réalisées formellement comme des fonctions classiques définies sur une surface de Riemann.
+
+Typologie
+Les méthodes d'analyse des fonctions diffèrent selon la nature de la variable et du résultat.
+
+Variable entière
+Une fonction arithmétique est une fonction de l'ensemble des entiers naturels vers l'ensemble des nombres complexes, souvent définie à l'aide de propriétés de divisibilité.
+Pour d'autres ensembles de valeurs, on parlera plutôt de suite, pour laquelle on s'intéresse en général à l'existence d'une limite.
+
+Variable réelle
+Une fonction réelle d'une variable réelle est définie en général sur une réunion d'intervalles réels. Ses variations sont souvent obtenues à l'aide du signe de sa dérivée.
+Un arc paramétré est défini par une fonction continue d'un intervalle réel vers un espace affine réel comme le plan complexe ou l'espace euclidien à trois dimensions, mais aussi plus généralement vers une variété différentielle. Il peut éventuellement être munie en chaque point d'un vecteur tangent, vecteur normal, rayon de courbure et cercle osculateur.
+
+Plusieurs variables réelles
+Pour une fonction de plusieurs variables, la notion de dérivée est remplacée par les dérivées partielles, la dérivée directionnelle et la différentielle. Les extrema locaux sont repérés comme des points critiques.
+
+Variable complexe
+Une fonction holomorphe est une fonction d'une variable complexe définie et dérivable sur un ouvert de l'ensemble C (-displaystyle -mathbb (C)). Une telle fonction est toujours infiniment dérivable sur son domaine, mais à la différence des fonctions d'une variable réelle, n'admet pas nécessairement de primitive.
+
+Voir aussi
+
+Articles connexes: Application (mathématiques); Analyse (mathématiques); Fonction numérique; Fonction réelle d'une variable réelle; Fonction de plusieurs variables; Distribution (mathématiques); Fonction (mathématiques élémentaires); Qu'est-ce qu'une fonction , de Gottlob Frege.

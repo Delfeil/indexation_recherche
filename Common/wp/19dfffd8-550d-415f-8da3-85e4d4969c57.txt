@@ -1,0 +1,16 @@
+Donald Watts Davies, (7 juin 1924 - 28 mai 2000) était un informaticien, un physicien et un mathématicien gallois qui a co-inventé avec Paul Baran la commutation de paquets.
+
+Biographie
+Davies est né à Treorchy (en) dans la vallée du Rhondda, Pays de Galles.
+Il a reçu un BSc en physique en 1943 au Imperial College London et a participé à l'effort de guerre en travaillant au projet Tube Alloys, projet d'arme nucléaire britannique, à l'Université de Birmingham.
+Par la suite, il est retourné au Imperial College London où il a obtenu un diplôme en mathématiques en 1947. Il a reçu le Lubbock memorial Prize en tant que mathématicien remarquable de 1947.
+À partir de 1947, il a travaillé au National Physical Laboratory (NPL) où Alan Turing concevait le Automatic Computing Engine (ACE), un ordinateur. Selon son programme initial, ACE était trop ambitieux, ce qui incita Turing à quitter. Davies a pris en main le projet et se concentra sur la livraison d'un ordinateur moins ambitieux, le Pilot ACE, qui fonctionna à partir de mai 1950. Une version commerciale, DEUCE (en), fut fabriquée par English Electric Computers et devint l'un des ordinateurs les plus vendus des années 1950.
+Davies a travaillé pour un moment sur un simulateur de trafic et sur un logiciel de traduction automatique. Au début des années 1960, il a travaillé à un programme britannique destiné à favoriser la croissance de l'industrie informatique britannique.
+En 1966, il est retourné au NPL à Teddington, près de Londres, où il a mené et transformé ses activités de développement logiciel. Il s'intéressait aux moyens de transmettre les données à la suite d'une visite au Massachusetts Institute of Technology, où il avait remarqué un problème dans les ordinateurs à temps partagé, celui de maintenir ouverte une liaison téléphonique pour chaque interlocuteur. Il a fait une première présentation du concept de commutation de paquets lors de la Conférence d'Edinbourg du 5 août 1968.
+En 1970, Davies participa à un effort destiné à créer un packet switched network, réseau précurseur des réseaux à commutation de paquets, appelé Mark I et devant servir au NPL en G.-B. Il a été remplacé par Mark II en 1973, lequel resta en opération jusqu'en 1986, influençant d'autres recherches en G.-B. et en Europe. Larry Roberts (en) du Advanced Research Projects Agency aux États-Unis apprit l'existence du concept mis au point par Davies et l'intégra dans ARPANET, qui devint plus tard Internet.
+Davies démissionna de son poste en 1979 dans le but de retourner à la recherche. Il s'est alors intéressé à la sécurité informatique.
+Il s'est retiré du NPL en 1984, devenant consultant en sécurité informatique pour les banques.
+Davies a été nommé Distinguished Fellow du British Computer Society (en) en 1975, commandeur de l'ordre de l'Empire britannique en 1983 et fellow de la Royal Society depuis 1987.
+Il a été admis en 2012, à titre posthume, au temple de la renommée d'Internet, dans la catégorie des pionniers.
+
+Ouvrages: Donald Davies et D. Barber, Communication Networks for Computers, Wiley, 1973.; Donald Davies, W. Price, D. Barber et C. Solomonides, Computer Networks and Their Protocols, Wiley, 1979.; Donald Davies et W. Price, Security for Computer Networks, Wiley, 1984.

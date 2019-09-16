@@ -1,0 +1,20 @@
+Le File Transfer Protocol Secure, abrégé FTPS, est un protocole de communication destiné à l'échange informatique de fichiers sur un réseau TCP-IP, variante du FTP, sécurisé avec les protocoles SSL ou TLS. Il permet au visiteur de vérifier l'identité du serveur auquel il accède grâce à un certificat d'authentification. Il permet également de chiffrer la communication.
+
+Fonctionnement
+Il y a deux méthodes pour invoquer le chiffrement SSL-TLS avec FTP, soit de manière explicite, soit implicite.
+
+FTP avec chiffrement explicite
+La connexion s'effectue sur le port 21, le port de commande FTP standard, et soit : la commande "AUTH TLS" (anciennement "AUTH TLS-C") demande au serveur de chiffrer le transfert de commande en TLS, et le chiffrement du transfert de données se fait par la commande "PROT P" ;; (non standard) la commande "AUTH SSL" (anciennement "AUTH TLS-P") demande au serveur de chiffrer le transfert de commande et de données en SSL.
+Cette approche est compatible avec les serveurs ou clients FTP ne supportant pas le chiffrement SSL-TLS, auquel cas une connexion non chiffrée pourra être utilisée ou bien refusée.
+Le schéma d'URI est ftpes:-- ou simplement ftp:--.
+Les RFC 4217 et RFC 2228 décrivent ce mécanisme explicite avec chiffrement TLS.
+
+FTP avec chiffrement implicite
+La connexion au serveur se fait sur le port 990 qui est le port de commande et sur lequel la négociation SSL-TLS s'effectue. Le port de données est le 989 et est lui aussi chiffré.
+Le schéma d'URI est ftps:--.
+Cette approche plus ancienne que la méthode explicite n'est pas soutenue par l'IETF.
+Cette approche est semblable au fonctionnement du HTTPS décrit dans la RFC 2818 car la négociation SSL-TLS se fait lors de la connexion.
+
+Voir aussi
+
+Articles connexes: (fr) Protocole réseau passant difficilement les pare-feu; (en) Liste des serveurs FTP, FTPS (FTP sur SSL-TLS), et SFTP (FTP sur SSH); (en) Liste des clients et comparatifs.

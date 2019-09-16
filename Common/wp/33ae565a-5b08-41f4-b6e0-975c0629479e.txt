@@ -1,0 +1,27 @@
+Digital Equipment Corporation (ou Digital ou DEC) était une entreprise de l'industrie informatique fondée en 1957 aux États-Unis.
+L'acronyme DEC a été utilisé officiellement avant d'être abandonné en faveur de Digital pour éviter un conflit de droit des marques. DEC a été achetée par Compaq en 1998, qui a fusionné avec Hewlett-Packard en 2002. En 2004, des produits DEC restent produits sous le nom Hewlett-Packard.
+Bien que la société DEC initiale n'existe plus, son logo est encore utilisé par Digital GlobalSoft, une société indienne de services informatiques, qui était une filiale à 51 % de DEC et qui fait désormais partie du groupe Hewlett-Packard.
+
+Histoire
+La société a été fondée en 1957 par Ken Olsen, un ingénieur du Massachusetts qui avait travaillé sur le projet TX-2 au laboratoire Lincoln du Massachusetts Institute of Technology (MIT). Le TX-2 était un ordinateur basé sur des transistors. Lorsque ce projet rencontra des difficultés, Olsen le quitta pour fonder DEC avec Harlan Anderson (en), un collègue du MIT. À cette époque les investisseurs n'étaient pas favorables aux sociétés informatiques. Ils commencèrent donc par construire des petits modules numériques (correspondant aux composants du TX-2) pouvant être combinés pour être utilisés dans un laboratoire. En 1961 la société était bénéficiaire et commença la construction de son premier ordinateur : le PDP-1.
+
+Années 1960 - 1980
+Durant les années 1960 DEC produit une série d'ordinateurs ayant un meilleur rapport prix-performances que ceux d'IBM, généralement basés sur des mots de 18 bits. Le succès arriva en 1964 avec le PDP-8. Il s'agissait d'un ordinateur 12 bits vendu environ 16 000. Le PDP-8 était assez petit pour tenir sur un chariot. Il était assez simple d'usage pour de nombreuses applications et conquit de nombreux marchés de niche, laboratoires, chemins de fer et applications industrielles. Le PDP-8 est aujourd'hui considéré comme le premier mini-ordinateur.
+Le dernier ordinateur marquant de la série PDP est le PDP-11. Il utilisait des mots de 16 bits pour supporter les caractères ASCII devenus standards. Il avait 64 kilooctets de RAM. Il est notamment connu pour avoir été l'ordinateur sur lequel UNIX et le langage C ont été développés.
+En 1976, DEC conçut une nouvelle architecture 32 bits et joue un rôle capital dans le lancement d'une course aux machines moins coûteuses, plus maniables et plus puissantes, face au monopole IBM. Elle fut introduite en 1978 par le VAX 11-780 et s'empara rapidement du marché des mini-ordinateurs. Les VAX pouvaient être utilisés avec le système d'exploitation UNIX ou VMS de DEC.
+Le succès commercial de DEC culmina vers la fin des années 1980. C'était le second plus grand constructeur d'ordinateurs et comptait 100 000 employés. À ce moment DEC proposait de nombreux produits propriétaires comme le réseau DECnet. Comme ces produits n'étaient conçus pour fonctionner qu'avec des produits DEC, les consommateurs se tournèrent vers des produits plus standards. Au même moment les performances des stations de travail RISC rejoignaient celles des VAX. Malheureusement Ken Olsen ne crut pas en l'avenir de l'informatique individuelle et Digital manqua le virage du PC. Au début des années 1990 DEC dut licencier.
+
+Années 1990 - 2002
+En 1992 DEC introduisit le microprocesseur RISC 64 bits DEC Alpha, qui resta plusieurs années le microprocesseur le plus performant. Les systèmes d'exploitation VMS, UNIX et Windows NT supportaient l'Alpha. Les ordinateurs Alpha ne réussirent cependant pas à prendre des parts de marché significatives aux concurrents de DEC.
+Ken Olsen est remplacé par Robert Palmer (en) à la tête de la société, mais ce dernier ne peut empêcher le déclin, et les licenciements continuèrent.
+En 1994 DEC vend sa base de données (RDB) à Oracle.
+En mai 1997 DEC attaque Intel pour violation de brevets avec le Pentium, mais l'accord trouvé consiste à vendre la division des microprocesseurs à Intel.
+En 1995, DEC crée Altavista, un moteur de recherche web qui fut l'un des plus populaires avant l'arrivée de Google.
+En 1997 DEC vend sa "division réseau" à la société Cabletron (en).
+Le 26 janvier 1998 la société DEC est vendue à Compaq qui fusionne avec Hewlett-Packard en 2002.
+Un DEC PDP-6 en 1964;
+Un DEC PDP-11-23.
+.
+Voir aussi
+
+Articles connexes: Apollo Computer; Compaq; Hewlett Packard.

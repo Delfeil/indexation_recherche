@@ -1,0 +1,40 @@
+Jean-Robert Argand, né le 18 juillet 1768 à Genève et mort le 13 août 1822 à Paris, est un mathématicien (amateur) suisse.
+En 1806, alors qu'il tient une librairie à Paris, il publie une interprétation géométrique des nombres complexes comme points dans le plan, en faisant correspondre au nombre a + i b (-displaystyle -,a+ib) (où i est une des deux racines carrées de -1, l'autre étant -i) le point de coordonnées (a, b). Pour cette raison, le plan, vu comme ensemble des nombres complexes, est parfois appelé le plan d'Argand. Argand est également connu pour une démonstration rigoureuse du théorème de d'Alembert-Gauss, publiée en 1814.
+
+Les complexes selon Argand
+Produit par proportion géométrique
+Dans son traité Essai sur une manière de représenter les quantités imaginaires par des constructions géométriques, Argand commence par associer à chaque nombre positif a une ligne horizontale KA, orientée vers la droite et de longueur a. Puis, il remarque qu'il peut associer à chaque nombre négatif -b une ligne horizontale KB', orientée vers la gauche et de longueur b. La somme consiste à la mise bout à bout de lignes. Les opérations du produit et de la racine carré consistent à travailler sur les proportionnalités : (a, b) est proportionnel à (c, d) si les rapports -b et -d sont identiques (même valeur absolue et même signe).
+Le produit de a par b devient donc le nombre ab tel que (1, a) et (b, ab) soient proportionnels. La construction géométrique d'une quatrième proportionnelle est une construction connue depuis longtemps. Donc, Argand sait construire la ligne : K C - K A K B (-displaystyle (-overline (KC))-(-overline (KA))-times (-overline (KB))).
+Racine carrée par proportion géométrique
+La racine carrée de x (positif) est le nombre y (positif) tel que (1, y) et (y, x) soient proportionnels. Cette construction est aussi réalisable (voir nombre constructible). Si KA est associé à 1, KP associé à y et KM associé à x, on dira que : KM est à KP ce que KP est à KA.
+On obtient : K M K P - K P K A (-displaystyle (-frac (KM)(KP))-(-frac (KP)(KA))).
+ou encore : K M - K P K P. (-displaystyle (-overline (KM))-(-overline (KP))-times (-overline (KP)).).
+Plan d'Argand
+Le problème qui se pose ensuite est de construire la racine carrée de -1. Si KC est le nombre associé à -1, il s'agit de trouver une ligne KB telle que: KB soit à KA ce que KC est à KB.
+Ceci ne peut pas se réaliser en restant sur la droite. Argand quitte donc la droite et dit que KB est à KA ce que KC est à KB lorsque les rapports des longueurs sont égaux et les angles AKB et BKC sont égaux.
+Ce qui place le point B à la verticale du point K, à une distance de 1. La ligne KB représente alors l'imaginaire i (noté à l'époque -1).
+Il crée alors sur l'ensemble des "lignes dirigées" une addition (qui s'apparente à ce qu'on appelle aujourd'hui la relation de Chasles) et un produit.
+Produit de deux complexes
+Le produit : K M K N (-displaystyle (-overline (KM))-times (-overline (KN))).
+est la ligne KP telle que KP soit à KN ce que KM est à KA.
+Avec la définition de proportionnalité qu'il donne dans le plan, cela signifie que: K P K N - K M K A (-displaystyle (-frac (KP)(KN))-(-frac (KM)(KA))) ;; les angles NKP et AKM sont égaux.
+Il démontre alors qu'un produit de lignes dirigées correspond au produit des longueurs et à la somme des angles.
+Il associe alors à chaque complexe, une ligne dirigée, et montre la correspondance entre les opérations. Chaque ligne dirigée a donc deux représentations possibles : par ses coordonnées cartésiennes (a, b) qui renvoient au complexe a + ib,; par ses coordonnées polaires : longueur de la ligne et direction (ou angle) de la ligne.
+Si le complexe est a + ib, la longueur de la ligne est a + b, longueur qu'Argand appelle le module du complexe car c'est l'unité par lequel il faut le diviser pour retrouver sa direction.
+En proposant cette représentation des complexes sous forme géométrique, l'objectif d'Argand est double : 1) prouver la réalité des complexes que les gens de l'époque considèrent encore comme imaginaires et comme simple artifice de calcul ;; 2) donner un outil géométrique qui peut simplifier grandement la résolution des problèmes algébriques.
+Il propose même une démonstration du théorème fondamental de l'algèbre (incomplète) grâce à cet outil.
+
+Les conséquences de son essai
+Paru en 1806, publié par un illustre inconnu, cet essai tombe très vite dans l'oubli. Argand en avait soumis un exemplaire à la critique de Legendre mais celui-ci n'avait pas réagi, sauf dans une lettre envoyée à François Français. Cette lettre est retrouvée par Jacques Frédéric Français, frère du précédent, professeur à l'école impériale de l'Artillerie et du Génie, qui développe la même notion, y ajoute une notation exploitable et en fait un article dans les Annales de mathématiques de Gergonne en 1813. Il reconnaît que l'idée n'est pas de lui et en recherche l'auteur. Il s'ensuit alors une correspondance entre les deux hommes, Argand cherchant en vain à donner une représentation algébrique de l'espace de dimension trois.
+Cependant, cette conception géométrique d'un outil algébrique heurte le sens logique de certains mathématiciens de l'époque qui n'y voient qu'un artifice de calcul. Entre-temps, d'autres mathématiciens développent de manière indépendante la même idée. Ce n'est que lorsque Gauss et surtout Cauchy, s'emparent de cette idée que cette conception acquiert ses lettres de noblesse et devient un tremplin qui permet à Hamilton de créer ses quaternions.
+
+Inégalité d'Argand
+Argand a travaillé sur le théorème fondamental de l'algèbre en reprenant la démonstration (incomplète) de d'Alembert sans parvenir à fournir une démonstration complète. Son raisonnement repose sur une approche concrétisée en un résultat, parfois appelé inégalité d'Argand :
+Théorème - Soit P un polynôme non constant à coefficients complexes. Alors, pour tout complexe c qui n'est pas racine de P, il existe un complexe c' tel que
+ P (c ') P (c). (-displaystyle P(c')P(c).) Démonstration
+La démonstration d'Argand était géométrique. Voici une démonstration moderne, algébrique.
+On passe par le lemme suivant : soit k un entier positif non nul, et Q (z) - 1 + b z k + z k R (z) (-displaystyle Q(z)-1+bz(k)+z(k)R(z)) avec b un complexe non nul et R un polynôme s'annulant en 0. Il existe alors un complexe z tel que Q (z) 1 (-displaystyle Q(z)1).
+En effet, soit r un complexe tel que b r k - 1 (-displaystyle br(k)--1). On a alors : t (0 , 1) Q (r t) 1 t k + r k t k R (r t) - 1 t k + t k r k R (r t) (-displaystyle -forall t-in (0,1)-quad Q(rt)-leqslant -left1-t(k)-right+-leftr(k)t(k)R(rt)-right-1-t(k)+t(k)-leftr(k)R(rt)-right).
+et par continuité de R, il existe t)0, 1) tel que r k R (r t) 1 , (-displaystyle -leftr(k)R(rt)-right1,) d'où : Q (r t) 1 t k + t k - 1. (-displaystyle Q(rt)1-t(k)+t(k)-1.).
+Il suffit alors d'appliquer le lemme au polynôme: Q (z) - P (c + z) P (c) (-displaystyle Q(z)-(-frac (P(c+z))(P(c)))).
+pour obtenir le résultat voulu.

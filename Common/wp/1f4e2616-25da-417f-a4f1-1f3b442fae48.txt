@@ -1,0 +1,17 @@
+Dans la théorie des ensembles, l'union ou réunion est une opération ensembliste de base. En algèbre booléenne, l'union est associée à l'opérateur logique ou inclusif.
+L'union des ensembles A et B est représentée dans ce diagramme de Venn par l'ensemble de la zone colorée en bleu.
+
+Union de deux ensembles
+L'union de deux ensembles A et B est l'ensemble qui contient tous les éléments qui appartiennent à A ou appartiennent à B. On la note A B.
+Formellement :
+Par exemple l'union des ensembles A - (1, 2, 3) et B - (2, 3, 4) est l'ensemble (1, 2, 3, 4).
+
+Propriétés algébriques: L'union est associative, c'est-à-dire que, pour des ensembles A, B et C quelconques, on a : (A B) C - A (B C); L'union est commutative, c'est-à-dire que, pour des ensembles A et B quelconques, on a : A B - B A; L'intersection est distributive sur l'union, c'est-à-dire que, pour des ensembles A, B et C quelconques, on a : A (B C) - (A B) (A C).
+
+Union d'une famille d'ensembles
+On généralise ce concept à un ensemble quelconque X d'ensembles (non nécessairement réduit à une paire, ni même fini) : sa réunion, notée X, a pour éléments tous les x pour lesquels il existe un E X tel que x E (si X est l'ensemble vide, cette réunion est donc vide). D'après l'axiome de la réunion, X est un ensemble.
+On peut alors définir la réunion d'une famille quelconque d'ensembles (Ei)iI : c'est la réunion X de l'ensemble X - (Ei i I). Cette réunion, notée iI Ei, est donc l'ensemble des éléments x pour lesquels il existe un i I tel que x Ei.
+Formellement :
+La distributivité ci-dessus s'étend aux familles : A (i I E i) - i I (A E i). (-displaystyle A-cap (-cup -(i-in I)E-(i))--cup -(i-in I)(A-cap E-(i)).)
+
+Articles connexes: Union disjointe; Algèbre des parties d'un ensemble. Portail des mathématiques.

@@ -1,0 +1,8 @@
+Systems network architecture (SNA) est une architecture réseau en couches définie par IBM en 1974.
+SNA est désormais largement remplacé par le modèle OSI, mis en place en 1978.
+
+Historique
+En 1974, le but de SNA était de simplifier les réseaux qui devenaient trop complexes et incompatibles. IBM devait aussi faire face à la New Network Architecture, de la Compagnie internationale pour l'informatique, qui deviendra la DSA après la fusion avec Honeywell, et au modèle Decnet, de Digital Equipment Corporation, alors en pleine croissance, pour devenir numéro mondial à la place d'IBM. Autre aiguillon, les progrès dans le réseau ARPANET.
+Ce modèle comprend sept couches : jonction physique, liaison, acheminement, transmission, flux, présentation et application. Ces sept couches chevauchent celles du modèle OSI, qui lui aussi a sept couches : 1) couche physique,; 2) couche de liaison,; 3) couche de réseau,; 4) couche de transport,; 5) couche de session,; 6) couche de présentation,; 7) couche "application".
+
+Articles connexes: Network Control Program, un des composants de SNA; Decnet; Distributed System Architecture; New Network Architecture.

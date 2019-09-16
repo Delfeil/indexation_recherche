@@ -1,0 +1,21 @@
+Adobe Integrated Runtime (AIR), anciennement nommé Apollo, est un logiciel moteur pour exécuter des logiciels créés avec Adobe Flash et ActionScript sans utiliser de navigateur Web.
+Adobe Integrated Runtime s'exécute sur le système d'exploitation et pas à l'intérieur d'un navigateur comme la machine virtuelle Flash. On parle alors de "Rich Desktop Application" ou RDA, par extension de l'abréviation RIA "Rich Internet Application" d'où AIR tire son nom (RIA à l'envers).
+AIR 1.0 est sorti en mars 2008.
+
+Principe de fonctionnement
+De la même manière que Java, AIR nécessite au préalable l'installation d'un moteur d'exécution au sein duquel sera exécutée l'application. Cela offre l'avantage conséquent de n'avoir à écrire qu'un unique code pour toutes les plates-formes supportées par AIR.
+Une application AIR peut être développée avec le langage ActionScript dans le cadre d'un développement Flash ou Flex, ou bien avec JavaScript dans le cadre d'une application AJAX. Il est bien sûr possible de mélanger HTML, CSS, JavaScript et ActionScript au sein d'une même application AIR.
+
+Fonctionnalités
+Adobe AIR intègre le moteur de rendu WebKit, employé par les navigateurs Safari d'Apple, Epiphany ou bien Chrome de Google, pour le rendu HTML-CSS et l'exécution, de code JavaScript, ainsi que Flash Player pour l'exécution de fichier SWF. De ce fait AIR permet tout ce qu'il est possible de faire avec les langages HTML, CSS, JavaScript et Actionscript, mais ajoute à ces deux derniers langages quelques fonctionnalités propres à ce cadre de développement.
+Dans ces ajouts nous retiendrons la possibilité de créer, d'éditer et supprimer des fichiers, ainsi que l'intégration d'une base de données locale basée sur SQLite.
+
+Successions
+En juin 2007, Adobe abandonne le nom Apollo pour le nom AIR (Adobe Integrated Runtime).
+
+Portage sous Linux
+Le 1er avril 2008, Adobe AIR est disponible en version Alpha pour Linux.
+Un peu plus de 3 ans plus tard le 14 juin 2011, le développement est abandonné pour cause d'augmentation insuffisante du marché Linux pour ordinateurs de bureau.
+
+Portage sous Android
+Le 8 octobre 2010 Adobe publie la version mobile de Adobe AIR sur l'Android Market.

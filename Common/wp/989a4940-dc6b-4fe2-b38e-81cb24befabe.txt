@@ -1,0 +1,17 @@
+L'Internet Assigned Numbers Authority (IANA) est un département de l'ICANN, une société américaine privée à but non lucratif qui supervise l'allocation globale de l'adresse IP, le numéro système autonome allocation, la gestion de la zone racine dans le Domain Name System (DNS),
+
+Historique
+L'IANA a été créée à l'initiative de Jon Postel.
+Depuis 1998, elle est une composante de l'ICANN, l'autorité suprême de régulation de l'Internet.
+
+Ressources gérées par l'IANA: Noms de domaine:
+L'IANA gère la zone racine du DNS (assignations de domaines de premier niveau) ainsi que les délégations dans les zones.int et.arpa. Numéros d'AS:
+L'IANA affecte des blocs de AS aux registres Internet régionaux. Adresses IP:
+L'IANA a découpé l'espace d'adressage IPv4 en 256 blocs -8. Chacun de ces blocs est libre, réservé, assigné dans le passé ou alloué à un registre Internet régional
+Pour IPv6, l'IANA assigne des blocs de taille -12 à -23 aux RIR: Numéros de protocoles et de port:
+L'IANA gère également les numéros de protocoles de nombreux protocoles différents sur IP, tels que ARP, DHCP, EAP, HTTP, ICMP, IMAP, LDAP ou encore PGP.
+L'IANA publie notamment la liste des numéros de ports TCP et UDP. Cette liste est reprise par les différents systèmes d'exploitation (Windows, Mac Os, Unix, Linux, etc.).
+
+Voir aussi
+
+Articles connexes: AFNIC : l'organisme officiel responsable des TLD français.fr et.re.; ICANN : organisme international dont le rôle premier est d'allouer l'espace des adresses de protocole Internet (IP), d'attribuer les identificateurs de protocole, de gérer le système de nom de domaine de premier niveau.; IETF et ISOC : organismes internationaux de recherche, de normalisation et de spécification de protocoles réseau pour Internet.; InterNIC : réservation des noms de domaine internationaux et ccTLDs. Cet organisme a été instauré en 1992, afin de pouvoir faire face à l'ouverture d'Internet au public et vit son rôle disparaître en 1998, lors de l'ouverture à la concurrence ; pour être remplacé par l'Internet corporation for assigned names and numbers (ICANN).

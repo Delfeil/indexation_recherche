@@ -1,0 +1,19 @@
+Une notice bibliographique est une fiche qui décrit un objet (document) manipulé dans une bibliothèque, traditionnelle ou numérique : livre, fascicule, article etc. Elle comporte un ensemble d'indications permettant de l'identifier, de le localiser ou de le décrire sommairement.
+
+Utilisation
+Une notice bibliographique contient différents types d'informations relatives à un document (ou à une collection, une série de périodiques), et plus précisément : des rubriques permettant à un lecteur d'identifier rapidement un document (exemple titre, auteur) ;; un ou plusieurs identifiants permettant de désigner une entité bibliographique de façon unique (par exemple un ISSN, une URL ou un DOI) ;; des informations destinées à le localiser avec plus ou moins de précision (exemple la cote dans une notice d'un livre dans une bibliothèque, le numéro de volume, de fascicule et la page de début pour un article de périodique) ;; des informations permettant au lecteur d'approfondir le contenu (résumé) ;; des informations permettant de le retrouver dans un moteur de recherche (clé d'accès), et par exemple les auteurs, les mots-clés, les codes de classement.
+
+Bases de données bibliographiques
+Exemple:
+AUTEUR, titre, editeur, VILLE, 2010
+
+Libre accès sur Internet
+Dans le protocole OAI-PMH (Open Archives Initiative - Protocol for Metadata Harvesting), la notice bibliographique est, en format UNIMARC, considérée comme un item, c'est-à-dire qu'elle contient ou génère des métadonnées pour le protocole OAI, à la seule condition qu'un identifiant unique, construit selon les recommandations de l'Open Archive Initiative, puisse être attribué à l'item dans la base qui le contient.
+
+Normalisation
+Il existe : une norme internationale orientée catalogage ISO 690 sur les documents, papier, ou électroniques, qui a donné AFNOR NF Z 44-005-2 orientée édition.; une norme internationale : ISO 2709; Deux fascicules de documentation consacrés à la description bibliographique des monographies (texte imprimé), qui ont été révisés en avril 2005, et sont disponibles auprès de l'AFNOR : FD Z44-050 et FD Z44-073.
+
+Voir aussi
+
+Articles connexes: Base de données bibliographiques; Métadonnées; Norme; Bibliographie; Open Archives Initiative; ISO 2709, format MARC.
+La page d'aide à la présentation des données bibliographiques au sein du wikipédia francophone : Aide:Bibliographie.

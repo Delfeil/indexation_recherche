@@ -1,0 +1,35 @@
+En mathématiques, l'ensemble vide est l'ensemble ne contenant aucun élément.
+
+Notation
+L'ensemble vide peut être noté d'un O barré, à savoir ou simplement , qui est une paire d'accolades ne contenant qu'une espace, pour représenter un ensemble qui ne contient rien. La notation a été introduite par André Weil, dans le cadre de l'institution de notations par le groupe Bourbaki. Von Neumann dans son article de 1923, qui est l'une des premières références qui l'aborde, le note O.
+
+Propriétés
+Pour tout ensemble A : l'ensemble vide est un sous-ensemble de A : A ;; l'union de A avec l'ensemble vide est A : A - A ;; l'intersection de A avec l'ensemble vide est l'ensemble vide : A - ;; le seul sous-ensemble de l'ensemble vide est l'ensemble vide lui-même : A A - ;; le produit cartésien de A par l'ensemble vide est vide :A - A - ;; l'ensemble des applications de l'ensemble vide dans A est un singleton dont l'élément est l'application vide (en) A (le 0-uplet d'éléments de A) :A - (A) ;; si A est non vide, l'ensemble des applications de A dans l'ensemble vide est vide :A -.
+L'ensemble vide est fini, son cardinal est 0, Card - 0, et c'est le seul ensemble de cardinal nul.
+Deux ensembles sont égaux s'ils contiennent les mêmes éléments ; c'est la propriété d'extensionnalité de la théorie des ensembles. Par conséquent, il ne peut y avoir qu'un ensemble ne contenant aucun élément, donc un seul ensemble vide.
+Dans certaines variantes de la théorie des ensembles on peut introduire des "objets" appelés ur-elements, qui eux aussi n'ont pas d'éléments et peuvent aussi être éléments d'ensembles, mais qui, contrairement à l'ensemble vide, ne sont pas des ensembles.
+
+Subtilité de la notion d'ensemble vide
+L'ensemble vide ne contient rien, mais comme c'est un ensemble, il n'est pas rien. C'est la base sur laquelle s'appuie von Neumann pour construire les entiers et les ordinaux.
+Il faut noter que la notation n'a pas le même sens que la notation ; en effet, l'ensemble désigné par n'a aucun élément (car c'est l'ensemble vide), tandis que l'ensemble désigné par en a un (cet élément est l'ensemble vide). D'ailleurs, von Neumann définit 0 comme étant et 1 comme étant.
+Rappelons que l'ensemble vide est un sous-ensemble de n'importe quel ensemble A. D'après la définition d'un sous-ensemble, cela veut dire que pour tout élément x de , x appartient à A. Raisonnons a contrario : si l'ensemble vide n'est pas inclus dans A, alors il existe au moins un élément de l'ensemble vide qui n'appartient pas à A. Or, il n'y a aucun élément dans l'ensemble vide, donc a fortiori aucun élément de l'ensemble vide qui n'appartienne pas à A. On en conclut donc que tout élément de appartient à A et donc que est un sous-ensemble de A. Plus généralement, toute proposition commençant par "pour tout élément de " (en) est vraie par ex falso quodlibet.
+L'axiome de fondation affirme que toute suite x 0 x 1 x 2... (-displaystyle x-(0)-ni x-(1)-ni x-(2)-ldots) se termine, donc il existe un n (-displaystyle n) tel que, dans cette suite, x n - (-displaystyle x-(n)--emptyset).
+
+L'ensemble vide dans la théorie axiomatique des ensembles
+L'ensemble vide est essentiel dans la théorie des ensembles ou théorie ZFC, son existence est assurée par l'axiome de l'ensemble vide. Son unicité découle de l'axiome d'extensionnalité.
+De plus, on peut démontrer en utilisant le schéma d'axiomes de compréhension, que l'existence d'un ensemble quelconque implique l'axiome de l'ensemble vide, ce qui évite, quand on formalise la théorie des ensembles en logique du premier ordre, de faire appel à un axiome spécifique pour l'existence de l'ensemble vide (voir axiome de l'ensemble vide).
+
+Le point de vue intuitionniste
+On dit, par définition, qu'un ensemble est habité (en) s'il a au moins un élément.
+Par conséquent : un ensemble habité est non vide,.
+Sa contraposée s'énonce ainsi : un ensemble non vide est habité,.
+et peut se formuler : un ensemble qui n'est pas possède au moins un élément.
+Affirmer son équivalence à un ensemble habité est non vide nécessite le tiers exclu et n'est donc pas valide en logique intuitionniste.
+On a d'ailleurs le théorème : Le principe du tiers exclu est équivalent à l'affirmation tout ensemble non vide est habité.
+
+Le point de vue catégorique
+L'ensemble vide peut être caractérisé très simplement comme objet de la catégorie des ensembles. C'est en effet l'unique objet ayant la propriété suivante :
+Pour tout ensemble E, il existe une et une seule flèche de vers E.
+Dans le cas de cette catégorie, flèche signifie application. Plus généralement, un objet qui, dans une catégorie, a cette propriété est appelé un objet initial.
+
+Articles connexes: Somme vide; Produit vide; Union vide; Type vide. Portail des mathématiques.

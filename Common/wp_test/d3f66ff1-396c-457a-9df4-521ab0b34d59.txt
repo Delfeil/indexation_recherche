@@ -1,0 +1,9 @@
+Doug Cutting est un créateur de logiciels open source. Il est à l'origine de Lucene, et avec Mike Cafarella, de Nutch, un moteur de recherche open source de la fondation Apache. Il est aussi le créateur de Hadoop, et l'architecte en chef de Cloudera. Il a été nommé président du conseil d'administration de la fondation Apache en 2010.
+
+Biographie
+Doug Cutting est diplômé de l'Université de Stanford.
+Il a travaillé pour Yahoo!, Apple, au Xerox PARC et pour Google.
+Il a été un des principaux développeurs de la bibliothèque d'indexation Lucene, commencé en 1997 et mise sur le site SourceForge.net en mars 2000, et du moteur de recherche Nutch, et a été nommé architecte en chef de Cloudera.
+Logo d'Hadoop, inspiré par une peluche du fils de Doug Cutting
+Il est le co-fondateur de Hadoop, une des principales solutions dans le domaine du Big data. L'idée du nom et du logo d'Hadoop, un éléphant jaune, vient d'une peluche de son fils alors âgé de 5 ans. Il cherchait un nom court, facile à retenir et à prononcer, et jamais utilisé auparavant.
+Il a été récompensé en 2015 par O'Reilly pour l'ensemble de ses travaux.

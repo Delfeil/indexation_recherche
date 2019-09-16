@@ -1,0 +1,4 @@
+En reconnaissance des formes, les caractéristiques (ou features en anglais) sont les propriété mesurables d'un phénomène physique observé. L'extraction de caractéristiques discriminantes est une étape fondamentale du processus de reconnaissance, préalable à la classification. Les caractéristiques sont généralement numériques mais il peut s'agir de chaînes de caractères, de graphes ou d'autre quantité encore.
+
+Domaines
+Selon le domaine l'extraction de caractéristique utilise différentes approches, voir les articles détaillés : Extraction de caractéristique (vision par ordinateur); Extraction de caractéristique (audio) en traitement de la parole et en reconnaissance vocale; Extraction de caractéristique (TAL) en Traitement automatique du langage naturel. Portail de l'informatique.

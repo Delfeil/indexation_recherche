@@ -1,0 +1,38 @@
+La récursivité est une démarche qui fait référence à l'objet même de la démarche à un moment du processus.
+Ainsi, les cas suivants constituent des cas concrets de récursivité : décrire un processus dépendant de données en faisant appel à ce même processus sur d'autres données plus "simples" ;; montrer une image contenant des images similaires ;; définir un concept en invoquant le même concept ;; écrire un algorithme qui s'invoque lui-même ;; définir une structure à partir de ses sous-structures.
+
+En informatique et en logique
+En informatique et en logique, une fonction ou plus généralement un algorithme qui contient un appel à lui-même est dit récursif. Deux fonctions peuvent s'appeler l'une l'autre, on parle alors de récursivité croisée.
+
+En linguistique
+La grammaire du sanskrit de Pānini utilise déjà la récursivité au Ve siècle av. J.-C. tandis que les constructions des langues sont essentiellement récursives, par exemple, la construction des groupes nominaux : la clé de la serrure de la porte d'entrée de la maison de la rue du bout du village. Des travaux menés par le professeur Daniel Everett tendraient cependant à montrer l'absence de récursivité dans la langue Pirahã.
+Certains auteurs ont considéré que la capacité à construire des structures récursives est propre aux systèmes de communication humaine, mais cette affirmation est aujourd'hui remise en cause par des travaux de cognition animale.
+Un dictionnaire (dictionnaire de définition) est un exemple de récursivité : chaque mot du dictionnaire est défini par d'autres mots eux-mêmes définis par d'autres mots dans ce même dictionnaire.
+Figure de Sierpiński
+Dans les arts
+Dans le domaine des arts, le procédé récursif est appelé mise en abîme et c'est l'artiste Maurits Cornelis Escher qui en fait le plus grand usage ; il est connu pour ses oeuvres inspirées par la récursivité. De son côté, la publicité a aussi utilisé la récursivité, rendant célèbres en France La vache qui rit et Dubonnet.
+
+En biologie
+La récursivité est particulièrement présente en biologie, notamment dans les motifs de végétaux et les processus de développement. Les diatomées présentent en particulier de belles structures récursives.
+Une fleur de tournesol;
+Une diatomée centrale;
+Coupe sagittale d'une coquille de nautile.
+
+En mathématiques
+Le triangle de Sierpiński - une récurrence de triangles formant une fractale.
+Suite définie récursivement
+
+Fonctions récursives
+Une fonction peut être définie en termes d'elle-même. Un exemple familier est la suite de Fibonacci vue comme une fonction F : ℕ ℕ à savoir F(n) - F(n - 1) + F(n - 2). Pour qu'une telle définition ait un sens, elle doit conduire à des valeurs immédiatement évaluables, dans le cas de la suite de Fibonacci : F(0) - 0 et F(1) - 1.
+
+Dans les systèmes complexes
+
+En neurosciences
+
+Récursivité, imprédicativité et auto-référence
+Le fait de définir un concept à partir de lui-même a été appelé par les logiciens et les mathématiciens, l'imprédicativité et cela ne doit pas être confondu avec la récursivité, bien que cela s'y apparente. On parle aussi d'auto-référence. Il existe des théories logiques imprédicatives (comme le système F dû à Jean-Yves Girard), mais elles doivent être définies avec précautions si l'on veut préserver leur cohérence, car les paradoxes ne sont pas loin. Ainsi en théorie des ensembles, le paradoxe de Russell montre qu'il ne peut pas y avoir d'ensemble constitué des ensembles qui ne se contiennent pas eux-mêmes (popularisé comme le paradoxe du barbier, en effet "si le barbier est celui qui rase ceux qui ne se rasent pas eux-mêmes, qui rase le barbier "). Toujours en théorie des ensembles, l'axiome de fondation proscrit les ensembles qui se contiennent eux-mêmes.
+C'est pour jouer sur ces principes que des informaticiens facétieux ont défini des acronymes récursifs qui ne définissent rien puisqu'ils sont imprédicatifs et incohérents. De même, l'aphorisme suivant : "Pour comprendre le principe de récursivité, il faut d'abord comprendre le principe de récursivité", est imprédicatif et peut être considéré comme une pétition de principe.
+
+Voir aussi
+
+Articles connexes: Acronymie récursive; Algorithme récursif; Art algorithmique; Autonymie; Autopoïèse; Calculabilité; Dixième problème de Hilbert; Fractale; Fonction récursive; Fonction d'Ackermann; Fonction de Sudan; Fonction récursive primitive; Mise en abyme; Pétition de principe; Récurrence; Récursion terminale; Récursion mutuelle; Tapis de Sierpiński.

@@ -1,0 +1,18 @@
+Europeana Regia est un projet européen actif de janvier 2010 à juin 2012 et piloté par la Bibliothèque nationale de France (BnF) de publication électronique de 900 manuscrits anciens représentatifs de l'histoire politique, culturelle et artistique de l'Europe. Il réunit cinq bibliothèques européennes en plus de la BnF : la Bayerische Staatsbibliothek (BSB) de Munich, la Biblioteca Històrica de l'Universitat de València (BHUV) en Catalogne, la Herzog August Bibliothek (HAB) de Wolfenbüttel et la Koninklijke Bibliotheek van België (KBR) de Bruxelles.
+
+Description
+Le projet Europeana Regia, d'une durée de trente mois (janvier 2010 - juin 2012), est financé par la Commission européenne dans le cadre du programme d'appui stratégique en matière de technologies de l'information et de la communication (TIC), destiné à encourager une plus grande adoption des services basés sur des TIC innovantes et l'exploitation des contenus numériques dans toute l'Europe par les citoyens, les gouvernements et les entreprises.
+Le projet a pour objectif de reconstituer virtuellement trois grandes collections royales, aujourd'hui dispersées, pour témoigner de l'activité et des échanges culturels en Europe au Moyen Âge et à la Renaissance : la Bibliotheca Carolina (VIIIe et IXe siècles) ;; la Librairie de Charles V et sa famille (XIVe siècle) ;; la Bibliothèque des rois aragonais de Naples (XVe et XVIe siècles).
+Les manuscrits sont publiés sur les sites Internet respectifs des bibliothèques partenaires, le site d'Europeana Regia et la bibliothèque numérique Europeana.
+Le projet consiste à définir des processus et des règles communes aux partenaires, à numériser les manuscrits originaux, à constituer leurs notices descriptives, à les indexer sur les sites internet et à réaliser une exposition virtuelle hébergée sur le site The European Library.
+
+Collections historiques
+
+Bibliotheca Carolina
+Les 450 manuscrits choisis pour ce projet sont des chefs-d'oeuvre des principales abbayes et écoles épiscopales de l'empire Carolingien (VIIIe et IXe siècles), par exemple Reichenau, Saint-Denis, Fleury, Metz, Tours, Corbie, Reims, Saint-Amand, Freising et Wissembourg. Ils sont considérés comme représentatifs de l'intense activité intellectuelle et artistique des centres de la vie religieuse, du pouvoir ecclésiastique et impérial, ainsi que des nombreux échanges de textes et de décors.
+
+La Librairie de Charles V et sa famille
+La Librairie de Charles V et sa famille réunit environ 160 manuscrits ayant appartenu à la collection du roi, ainsi que d'autres manuscrits provenant des bibliothèques de ses frères bibliophiles, Jean, duc de Berry, et Louis d'Orléans. Elle représente une importante collection de manuscrits enluminés du XIVe siècle et informe sur les processus de diffusion des oeuvres de la culture aristocratique dans les cours de France, d'Angleterre, des Pays-Bas méridionaux et de Bourgogne.
+
+La Bibliothèque des rois aragonais de Naples
+La Bibliothèque des rois aragonais de Naples est une bibliothèque d'État comportant près de 300 manuscrits. Elle inclut des oeuvres représentatives de l'art de l'enluminure française, vénitienne, napolitaine, lombarde, espagnole et de nombreuses reliures de la Renaissance. Elle a été choisie pour représenter un symbole de l'unité culturelle de l'Europe.

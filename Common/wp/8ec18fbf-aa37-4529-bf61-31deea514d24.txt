@@ -1,0 +1,14 @@
+Une pétition en ligne est une pétition qui utilise le canal de l'internet.
+Les pétitions en ligne sont apparues dans les années 2000.
+Les pétitions en ligne sont souvent utilisées pour faire pression sur les décideurs dans des domaines comme les droits de l'homme ou l'environnement.
+Il existe de nombreuses organisations qui sont spécialisées dans les pétitions en ligne, comme Avaaz.org, SumOfUs, Change.org, etc.
+Les pétitions en ligne sont parfois associées à d'autres techniques de mobilisation de masse pour faire pression sur les décideurs, comme on l'observe par exemple dans le cadre des marches mondiales pour le climat initiées par Avaaz.org qui rassemblent des centaines de milliers de personnes dans de nombreuses villes du monde entier.
+
+Questions éthiques et politiques autour des sites de pétition en ligne
+Ces pétitions prennent de plus en plus d'ampleur. Par exemple 200 000 personnes avaient demandé la démission de Thomas Thevenoud.
+Ces sites de pétition sont apparentés à des techniques de manipulation des masses par certains (techniques d'astroturfing). L'appartenance de certains de ces sites à des grands groupes peut faire douter de la sincérité de leurs motifs. Par exemple, la fiche linkedin de Géraldine Poissonnier-Mulliez semble indiquer que le site mesopinions.com a appartenu au groupe M6. Certains ayant voulu poster une pétition sur ce site se sont vu refuser la validation pour des motifs inexpliqués.
+Certains acteurs s'interrogent sur les possibilités de revente des données personnelles des utilisateurs de ces plateformes (nom, coordonnées, pétitions signées, etc.).
+
+Voir aussi
+
+Articles connexes: Internet, section "L'internet comme outil de mobilisation".

@@ -1,0 +1,5 @@
+L'analyse de cause racine en anglais : Root cause analysis part du constat qu'il est plus judicieux de traiter les causes d'un problème que d'en traiter les symptômes immédiats. Puis qu'analyser les causes d'un problème permet d'en déterminer une solution définitive, et donc, empêcher qu'il ne se reproduise de nouveau. L'ACR est un processus itératif d'amélioration continue.
+
+Voir aussi
+
+Articles connexes: Résolution de problème; l'Arbre des causes; Cinq pourquoi; Diagramme de causes et effets; Diagramme de Pareto. Portail du management.

@@ -1,0 +1,18 @@
+En informatique, une mémoire de masse est une mémoire de grande capacité, non volatile et qui peut être lue et écrite par un ordinateur.
+
+Types de mémoires de masse
+Solid-state drive (SSD): Technologies désuètes : Mémoire à tores magnétiques, carte perforée, ruban perforé, cassette audio, tambour magnétique et disquette. Technologies en usage : Bande magnétique, disque dur, Solid-state drive, disque optique (CD, DVD, Blu-ray), disque magnéto-optique et mémoire flash. Technologie expérimentale : Mémoire holographique et memristor.
+
+Attributs essentiels: La possibilité de fonctionner en mode d'écriture et de lecture, pour que l'utilisateur puisse écrire des informations puis les relire au besoin.; La possibilité de conserver les informations enregistrées même en absence d'alimentation électrique.; Une capacité de stockage importante. La notion de capacité importante varie avec l'augmentation des performances technologiques ; aujourd'hui, on ne considère plus que la capacité d'une disquette soit importante.
+
+Caractéristiques: Capacité de stockage; Temps d'accès aux informations; Débit de transfert des informations; Coût initial d'acquisition ; coût par information ; coût d'usage; Durée de vie des informations stockées.
+
+Utilisations principales: Installation des logiciels et conservation de leurs paramètres d'utilisation : on installe généralement le système d'exploitation et les applications sur le disque dur de l'ordinateur sur lequel on veut les utiliser.; Conservation des informations entre séances de travail : on enregistre ses données personnelles dans des fichiers sur disque dur.; Sauvegarde de sécurité : backup sur bande magnétique, disque optique, etc. Transfert d'informations : vente de logiciels sur CD-ROM, etc.
+Dans l'univers des micro-ordinateurs, les mémoires de masse les plus utilisées pour les usages précédents sont : le disque dur pour les informations qui devront être traitées ultérieurement ;; le CD et le DVD pour les copies de sauvegarde par exemple.
+
+Mémoires de masse distribuées
+Les systèmes de fichiers distribués, les réseaux locaux ou les serveurs Internet ne sont pas des types de mémoire de masse mais plutôt des façons d'accéder à une mémoire de masse. Pour cela les mémoires utilisées sont des disques durs (parfois amovibles).
+
+Voir aussi
+
+Articles connexes: Mémoire vive; Mémoire morte. Portail de l'informatique.

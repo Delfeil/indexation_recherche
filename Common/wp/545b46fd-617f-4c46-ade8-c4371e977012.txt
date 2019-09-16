@@ -1,0 +1,36 @@
+ActionScript est un langage de programmation utilisé au sein d'applications clientes (comme Adobe Flash et Adobe Flex) et serveur (Flash media server, JRun, Macromedia Generator), ou encore en tant que langage de script dans le moteur graphique Unity.
+ActionScript est un langage de script, orienté objet et prototype, fondé sur ECMAScript (conforme à 100 % avec la norme ECMA-262, révision 3, depuis ActionScript 3.0).
+ECMAScript étant une version standardisée de JavaScript, ActionScript et JavaScript partagent une syntaxe semblable.
+Ce langage permet d'ajouter de l'interactivité aux animations Flash, en répondant aux actions de l'utilisateur, et en pilotant les movie clips (conteneurs graphiques permettant de hiérarchiser les animations), et les différents objets multimédias (images, son, vidéo...). Il permet également la communication de l'application avec le serveur, notamment par le chargement de fichiers ou la communication avec un langage serveur comme le PHP.
+
+Les éléments particuliers du langage
+ActionScript a évolué au cours du temps pour devenir un vrai langage de programmation appliqué à la gestion de données multimédia-animation.
+Les déclarations de variables dans ActionScript se font sans annotation de type jusqu'à la version 3 (AS3) qui nécessite actuellement de respecter la syntaxe var nom-variable:nom-type. L'affectation qui a pour but d'initialiser une variable est possible.
+Le débogage du contenu d'une variable se fait par l'utilisation de la fonction "trace", et sa suppression avec "delete".
+Les commentaires sont les mêmes que ceux du C99. On peut commenter le code de deux façons : commenter la fin de la ligne avec --; commenter un bloc de lignes avec --... --.
+Comme tout langage de programmation, Actionscript possède des structures de contrôle : branchement conditionnel : if, else ;; boucle : for, while.
+Les fichiers ActionScripts non compilés ont pour extension.as (utilisé par le client) ou.asr (utilisé sur serveur). Les fichiers compilés ont pour extension.swf.
+
+Les composants
+L'autre grande nouveauté de l'ActionScript 2.0 est l'apparition des composants. Il s'agit de clips compilés (la source n'est donc pas forcément disponible) auxquels est associée une classe de programmation. Ils s'utilisent comme des objets à part entière : leurs méthodes (fonctions appliquées à l'objet) peuvent avoir des répercussions graphiques.
+Parmi les composants natifs de Macromedia Flash (version MX 2004), on peut trouver les équivalents des "conteneurs" HTML (combos de sélection, zones de texte, de saisie, listes déroulantes...), ou encore des composants plus complexes comme des fenêtres, des tableaux de données, des lecteurs multimédia (son, vidéo). La plupart de ces composants "natifs" ne sont disponibles que dans la version "Professionnelle" de Flash MX 2004.
+
+Bibliothèques
+
+XML socket
+L'une des particularités d'ActionScript, par rapport aux autres langages web, est d'avoir intégré dans sa bibliothèque une API utilisant les Socket et les fichiers XML pour transférer l'information entre un serveur et ses clients Flash de façon automatique sans action de la part de l'utilisateur. Ceci permet la conception d'une application ou un jeu multi-utilisateurs en temps réel. Il est alors nécessaire de mettre en place un serveur pour "centraliser" les informations et les redistribuer.
+Ajax ne supporte pas les connexions par socket et les applications utilisant la technologie Ajax (chat, im..) demandent que le client mette à jour périodiquement son interface graphique selon une fréquence prédéfinie (mode pull, synchrone).Par l'utilisation des sockets, le rafraîchissement ne se fait que si un message nouveau est envoyé par le serveur, c'est-à-dire en temps réel (mode push des messageries). L'utilisation de socket évite la mise en place de la gestion de clients et du stockage des informations.
+Les serveurs compatibles sont souvent écrits en C++ ou Java et supportent des langages plus faciles à programmer comme PHP, Perl.
+
+Effets graphiques
+ActionScript 2.0 a permis la constitution au fil du temps d'une bibliothèque d'effets graphiques appelés composants. Quelques adresses où se trouvent certains de ces composants : Adobe Add-ons : dépôt de composants, dont ceux dits "Flash Pro Featured Add-ons" (visité le 13 juillet 2014).
+
+Bibliothèques ActionScript: ASLib : bibliothèque ActionScript implémentant des structures classiques de données non intégrées dans le langage basique (Arbres binaires, Listes chaînées, Piles, "Hash Table").; FP XHTML Render : un parseur XHTML. Il affiche le contenu d'un fichier XHTML dans un "conteneur" Flash (Fenêtre, etc.).
+
+D'ActionScript 2.0 à ActionScript 3.0
+L'émergence de la version 3.0 d'ActionScript a complètement bouleversé la façon d'appréhender la programmation ActionScript.
+En effet, cette nouvelle mouture du langage adopte une syntaxe différente mais également une grosse particularité, c'est qu'elle est entièrement pensée et conçue pour développer en orienté objet. Tout ceci a plusieurs conséquences : Les "anciens" développeurs doivent apprendre une nouvelle syntaxe, ce qui demande un petit temps d'adaptation ;; Obligation de comprendre et d'utiliser la programmation orientée objet ;; Une ouverture plus franche de la part d'Adobe sur ActionScript nous permet d'espérer une grande compatibilité, frameworks et autres compilateurs externes ;; La vitesse d'exécution des scripts est meilleure (tant que la programmation est bien réalisée).
+
+ActionScript 2.0: compatible avec ActionScript 1.0; couche de syntaxe permettant l'utilisation de l'héritage de classe au-dessus du système fondé sur les prototypes (class, extends); typage statique optionnel; support partiel de la norme ECMAScript IV.
+
+ActionScript 3.0: nouvelle machine virtuelle ne supportant que l'actionScript 3.0; vérification des types à la compilation et à l'exécution; support des API, Bibliothèque logicielle, des Espace de noms; gestion des évènements fondée sur DOM; support total de la norme ECMAScript4 (ES4); début de l'optimisation pour DirectX et OpenGL.

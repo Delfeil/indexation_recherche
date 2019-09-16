@@ -1,0 +1,188 @@
+L'open data ou donnée ouverte est une donnée numérique dont l'accès et l'usage sont laissés libres aux usagers. Elle peut être d'origine publique ou privée, produite notamment par une collectivité, un service public (éventuellement délégué) ou une entreprise. Elle est diffusée de manière structurée selon une méthode et une licence ouverte garantissant son libre accès et sa réutilisation par tous, sans restriction technique, juridique ou financière.
+L'ouverture des données (open data) est à la fois un mouvement, une philosophie d'accès à l'information et une pratique de publication de données librement accessibles et exploitables.
+Elle s'inscrit dans une tendance qui considère l'information publique comme un bien commun (tel que défini par Elinor Ostrom) dont la diffusion est d'intérêt public et général.
+Au Sommet du G8 2013, les chefs d'État du G8 ont signé une "Charte du G8 pour l'ouverture des données publiques". En Europe et dans certains pays, des directives et lois imposent aux collectivités de publier certaines données publiques sous forme numérique. En mai 2016, après deux jours de réunion à Bruxelles du Conseil sur la compétitivité (Competitiveness Council ou COMPET mis en place par la Commission européenne et qui rassemble les ministres européens chargés des sciences, de la recherche, de l'innovation, du commerce et de l'industrie), Carlos Moedas, Commissaire européen à la recherche, à l'innovation et à la science et les dirigeants européens ont unanimement appelé à un accès ouvert "immédiat" à tous les articles scientifiques dès 2020.
+
+Éléments de contexte et de définition
+L'ouverture des données est une philosophie de mise à disposition de données numériques (non confidentielles) pour tous, sans restrictions sur le droit d'accès et de réutilisation. Ces restrictions peuvent être imposées par l'usage de formats propriétaires ou de licences restrictives, notamment les licences payantes parfois mises en place sur des données publiques.
+Tout type de données numériques peut théoriquement être ouvert, par exemple des données sur le transport, la cartographie, les statistiques, la géographie, la sociologie, l'environnement ou encore le juridique. Par analogie, et sous certaines conditions, cela peut être comparé à des oeuvres protégées par le droit d'auteur, des oeuvres littéraires, artistiques et scientifiques, oeuvres cinématographiques, dessins, photographies, cartes, sites internet...
+Cette démarche s'inscrit souvent dans le concept plus général d'Open knowledge par l'Open Knowledge Foundation qui le définit comme étant une connaissance, c'est-à-dire une oeuvre, notamment musicale, cinématographique ou des données écrites tel qu'un article scientifique, une donnée géographique, gouvernementale ou administrative. Le terme ouvert est défini comme la liberté d'utiliser, de réutiliser, de redistribuer librement l'oeuvre originale.
+Les données ouvertes s'inscrivent aussi dans une démarche plus vaste de transparence et de participation des citoyens que l'on retrouve dans toutes les politiques d'ouverture des droits et qui se manifeste parfois par l'acronyme ODOSOS (de l'anglais "open data, open source et open standards, littéralement données ouvertes, logiciel libre et format ouvert), démarche elle-même comprise dans le mouvement plus général de l'innovation ouverte.
+Parallèlement les principes de la gratuité et d'une meilleure facilité d'accès ont donc souvent été mis en avant et dans un nombre croissant de pays (ex en 2013 : 26 des 37 pays examinés, dont France, Canada, États-Unis, Japon, Russie, Chine Australie, Autriche, Corée du Sud, Israël, Singapour, Danemark, Finlande, Croatiee, Estonie, Pologne, Slovénie, Brésil, Émirats arabes unis, Tunisie, Maroc affichait un principe de gratuité , mais dans la réalité de ces pays, le périmètre des données ouvertes était parfois étroit ou évitait certains secteurs (ex données d'intérêt environnemental détenues par l'IGN, le BRGM, Météo-France ou le SHOM en France) ou des systèmes de certaines redevances persistaient pour certains usages ou certains niveaux de précision de la donnée...).
+
+Des champs d'application multiples
+
+Des racines dans le monde universitaire
+Les données ouvertes peuvent concerner les données du secteur public avec les notions de e-gouvernement ou encore d'e-démocratie. Elles peuvent aussi être des données issues d'instituts de recherche scientifique publics (ou privés bénéficiant de financements publics, ou souhaitant volontairement ouvrir et partager leurs données), souvent parallèlement à une libre diffusion des résultats de recherches ; on parle alors dans ce contexte de "libre accès" ou "libre diffusion", dont la première définition a été donnée par la Déclaration internationale sur le libre accès de Budapest qui s'est tenue le 14 février 2002, connue sous l'acronyme BOAI (Budapest Open Access Initiative).
+De là, de nombreuses autres initiatives ont vu le jour ailleurs dans le monde avec par exemple la Déclaration de Berlin de 2003 sur le libre accès à la connaissance en sciences et sciences humaines ; suivi en mars 2005, depuis Southampton, d'une nouvelle Déclaration appelée Berlin III visant à renforcer les mesures adoptées dans le cadre de Berlin I.
+Le projet pour le séquençage du génome humain a été permis par un Open data Consortium créé sur proposition de Jim Kent (en) en 2003 et dont les bénéficiaires vont aussi être les pays en voie de développement où les universités et centres de recherche n'ont pas toujours accès aux périodiques scientifiques.
+À côté du mouvement de l'open science data, les données ouvertes s'étendent au secteur privé, avec certaines organisations à but non lucratif. À titre d'exemple, Wikipédia et les grands wikis de la même famille placent tout leur contenu sous licence libre CC-by-sa, et le dernier projet de cette famille Wikidata est une base de données ouverte de bases de données libres. Certaines entreprises s'orientent vers le "libre" en choisissant des licences plus ou moins ouvertes pour les données et informations qu'elles génèrent, en publiant par exemple des articles, des études, et même des oeuvres artistiques.
+Les enjeux dépassent donc maintenant le simple droit d'accès aux documents administratifs.
+
+Un mouvement de libération des données publiques en effervescence
+Historiquement, ce sont les États-Unis qui ont les premiers lancé un large processus de libération des données publiques (obligation légale pour l'État et ses agences) depuis la loi "Freedom of Information Act" de 1966. Mais les facilités offertes par l'Internet lui ont donné un regain d'intérêt de la part du secteur public depuis 2009.
+Dans le monde, des mesures en faveur de davantage de transparence vis-à-vis des citoyens se multiplient et les données ouvertes apparaissent comme l'un des moyens de satisfaire leur volonté de participer à la vie de la Communauté et d'exercer leur droit d'être informé en associant un principe des externalités positives au principe de la donnée publique considérée comme bien commun.
+En Europe, en 2003, la directive 2003-98-CE du Parlement européen et du Conseil du 17 novembre 2003 sur la réutilisation des informations du secteur public (en anglais, directive) dite PSI (Public Sector Information) va dans le même sens.
+Les anglais ont une loi Freedom of Information Act qui date de l'an 2000.
+En France, ce mouvement rencontre l'intérêt de nombreuses collectivités (un décideur sur deux de collectivité locale interrogé par MARKESS International en 2012, déclarait envisager l'élaboration d'une stratégie"open data avant 2014).
+La directive PSI est transposée par une ordonnance complétée d'un décret le 30-12-2005 pris en l'application de la loi CADA (Commission d'Accès aux Données Administratives) de 1978.
+Il peut notamment faciliter la mise en oeuvre du droit d'accès des personnes aux documents administratifs, prévu en France par la loi du 17 juillet 1978 puis par la directive 2003-98-CE du Conseil de l'Union européenne du 17 novembre 2003 sur la réutilisation des données publiques.
+
+Historique
+
+Un fondement ancien à la libération des données publiques
+Le droit d'accès aux informations publiques est inscrit dans la Déclaration des Droits de l'Homme et du Citoyen de 1789, sous l'article XV qui mentionne que la société a le droit de demander des comptes à tout agent public de son administration. La loi de 1978 sur le droit d'accès à l'information en France n'impose ni de publier des données numériques, ni de publier de manière proactive des informations.
+
+Vague d'ouverture gouvernementale des années 2000 liée à l'émergence des nouvelles technologies
+Certains pays ont été pionniers, dont les États-Unis, le Royaume-Uni, l'Australie et le Canada puis la France Puis le mouvement s'est étendu en profitant du développement du Web 2.0, en étant notamment encouragé par deux ONG : l'Open Knowledge Foundation (OKFN) et l'Open Government Partnership (OGP).
+
+États-Unis
+Aux États-Unis, l'adoption de la loi sur le libre accès à l'information en 1966, la Freedom of Information Act, a été amendée notamment en 2007 par la loi OPEN Government Act. L'ouverture des données publiques est (re)devenu un axe central du gouvernement américain avec , l'Open Government Initiative ainsi que qui mentionnent les critères de publication de données ouvertes.
+La libération des données se développe de manière formelle au niveau d'un État puis au niveau fédéral avec l'élection de Barack Obama, qui, dès son investiture fait part de son intention de "créer un niveau d'ouverture du gouvernement sans précédent", dans le but de "renforcer la démocratie et promouvoir son efficacité et son effectivité au sein du gouvernement".
+En mars 2009, le projet data.gov est lancé, puis en décembre de la même année la directive du gouvernement ouvert est publiée et pose les trois piliers de la coopération entre l'État et les citoyens qui sont la transparence du gouvernement, la participation et la collaboration. Vivek Kundra, premier responsable fédéral des systèmes d'informations (Chief Information Officer) dans l'administration Obama, observe que "la libération de ces données a donné naissance à une économie des applications (...) on assiste à une explosion de ces communautés de développeurs".
+
+Europe
+Le mouvement des données ouvertes est encadré au niveau européen par la directive 2003-98-CE ("Informations du secteur public" (PSI)) du Conseil de l'Union européenne du 17 novembre 2003 sur la réutilisation des données publiques et la directive INSPIRE en 2008.
+
+Royaume-Uni
+Au Royaume-Uni, un projet analogue est officiellement lancé en janvier 2010, par Gordon Brown et sous l'impulsion de Tim Berners-Lee. Le projet oblige le gouvernement à publier, entre autres, toute dépense supérieure à 25 000 livres sterling en utilisant les technologies du Web sémantique que Tim Berners-Lee met en oeuvre depuis dix ans.
+
+France
+En France, un mouvement d'ouverture semble s'amorcer en 1978 avec l'accès libre à la plupart des documents administratifs, renforcé en 1994 par une circulaire sur la diffusion des données, puis en 1997 avec la gratuité pour les données publiques essentielles. En 2002 Legifrance met en ligne gratuitement une grande partie de la donnée juridique disponible (8 ans avant le gouvernement britannique et son site "Acts and statutory" en 2010). En 2003, une directive communautaire sur les ISP encourage le mouvement alors que des mouvements civiques comme Libertic, Open Street Map France, Regards Citoyens ou Wikimédia France expérimentent et évangélisent sur le thème pendant plusieurs années, avant que les pouvoirs publics n'agissent. Les collectivités pionnières en France sont des villes : Rennes puis Paris grâce à la délibération prise par le Conseil municipal en date du 8 juin 2010 relative à la diffusion des données publiques et l'adoption d'une résolution puis du portail "Paris Data(30)" (27 janvier 2011) diffusant des données, dont cartographiques (plan parcellaire, éléments de signalétique, notices d'ouvrages en prêt dans les bibliothèques...), qui a rapidement permis de créer par exemple une carte sur l'histoire des noms des rues de Paris, une carte électorale interactive ou une carte des 70 espèces d'arbres présentes à Paris, utile pour les allergiques". En 2011 nait la "mission Etalab" auprès du Premier ministre. Elle est chargée de créer et alimenter le portail de données publiques ouvertes data.gouv.fr, en ligne depuis le 5 décembre 2011. Étalab a lancé récemment Dataconnexions, un réseau d'acteurs des données ouvertes afin de dynamiser ce secteur de l'économie numérique. Besançon et d'autres sont en réflexions. En mai 2012, un concours organisé par Dataconnexions a permis de récompenser six acteurs de la communauté des données ouvertes françaises.
+Depuis le 9 octobre 2013, l'association OpenDataFrance réunit les collectivités engagées dans l'ouverture des données publiques, et en 2014, la France, est classée 3e au classement mondial de l'Open Data Index.
+Le 9 décembre 2015, la France perd 7 places et passe à la 10e position.
+Début 2016, le Projet de loi pour une République numérique prévoit d'intégrer des dispositions en faveur de l'open data.
+
+Autres pays
+
+Kenya
+Le Kenya, le 8 juillet 2011, met en ligne sa "Kenya Open Data Initiative", permettant l'accès à 160 bases de données.
+
+Canada
+Au Canada, le ministre Stockwell Day, Président du Conseil du Trésor a annoncé le 17 mars 2011 le lancement d'un projet pilote de 12 mois pour le site fédéral de données ouvertes http:--data.gc.ca-. Le 11 avril 2012, le ministre Tony Clement, nouveau président du Conseil du Trésor, a annoncé le Plan d'action du Canada pour un gouvernement ouvert. Ce plan de 3 ans inclut : L'accroissement du nombre d'ensembles de données disponibles et la mise en place d'un cadre de recommandation pour les nouvelles générations de plateformes ;; Un nouveau design et une réorganisation du portail national data.gc.ca, de façon à améliorer le niveau de standardisation des données, dans les seconde et troisième années.
+En plus du site principal http:--data.gc.ca-, l'initiative fédérale comprend : GeoGratis du Ministère des Ressources naturelles (données géospatiales) ;; Données environnementales du ministère Environnement Canada.
+
+Critères d'évaluation du degré d'ouverture des données
+
+Les dix critères d'une donnée ouverte
+En 2010, la Sunlight Fundation établit une liste de 10 critères caractérisant une donnée ouverte. Pour qu'une donnée soit dite "ouverte", elle doit être : 1) Complète; 2) Primaire; 3) Opportune; 4) Accessible; 5) Exploitable; 6) Non-Discriminatoire; 7) Non-Propriétaire; 8) Libre de droits; 9) Permanente; 10) Gratuite.
+
+Échelle de qualité des données ouvertes de Tim Berners-Lee
+En 2010, Tim Berners-Lee a proposé une échelle de qualité des données ouvertes (de 1 à 5 étoiles).
+. Données non filtrées (éventuellement dégradées) par exemple mises en ligne avec n'importe quel format. Données disponibles de manière structurée (ex : données tabulaires en CSV, XML, Excel, RDF). Données librement exploitables - juridiquement (Cf. licences), - techniquement (dans des formats non-propriétaires, pas sous Excel notamment). Données identifiées par des URL (avec date de mise à jour) afin que l'on puisse "pointer" un lien vers elles (et la retrouver éventuellement mise à jour). Données liées à d'autres données, pour les contextualiser et enrichir.
+Cette échelle concerne les données numériques de base, mais ses critères peuvent être adaptés à des données agrégées ou des informations publiques plus complexes (photos, vidéo, rapports, études, etc. qui devront aussi être mis en ligne, idéalement avec une métadonnée de qualité et pouvant aussi intégrer de l'hypertexte dans le cas des rapports et études, voire de certaines vidéos)
+L'objectif premier était de mettre en ligne des données produites par l'État ou d'autres sans attendre la mise en oeuvre d'une communauté d'intérêts privées (cf débat présenté plus bas sur le paradoxe de la poule ou de l'oeuf) qui pouvait ralentir la mise à disposition des données sur le réseau, et donc indirectement freiner l'émergence de ruptures technologiques au sein du mouvement Web sémantique dont Tim Berners-Lee est l'un des promoteurs.
+
+Les données ouvertes dans le Web des données
+Les principaux problèmes de l'exploitation des données ouvertes sont d'ordre technique car les données en masse ne peuvent pas être traitées humainement. Le concept de Web des données appliqué aux données ouvertes met en oeuvre 3 mécanismes : 1) Permettre l'existence de la donnée sur le réseau à travers une URI unique (cela inclut les URL).; 2) Diminuer le coût de transformation de la donnée en apportant des formats standards lisibles par les machines (comme avec RDF, RDFa ou les microdonnées dans le HTML5).; 3) Améliorer la qualité de la donnée pour éviter qu'un traitement de mise à disposition ne puisse les altérer. Un entrepôt de données même avec des erreurs est préférable qu'un entrepôt biaisé. Ainsi, des mécanismes pour la fréquence et l'automatisation des mises à jour de la donnée par les producteurs des données est possible avec un service SPARQL sur ces données.
+Les données ouvertes ne sont contrôlables par leurs producteurs (contrôle des mises à jour) et réellement exploitables par d'autres qu'à la condition d'utiliser ces 3 mécanismes.
+
+Bénéfices
+
+Pour la recherche
+Dans plusieurs domaine de la recherche, malgré des appels à de bonnes pratiques de transparence et partage des données, la donnée brute n'est pas communiquée par les auteurs, même aux relecteurs.
+De nombreuses fraudes scientifiques dans la recherche n'ont pas pu être détectées précocement par les comités de relecture parce que les auteurs refusaient de partager leurs données (même avec leurs co-auteurs parfois) , dont dans le domaine de la psychologie où 50 % des expérimentations présentent des résultats non reproductibles, ce qui pose de graves problèmes de confiance dans les résultats et a suscité une initiative baptisée Peer Reviewers' Openness Initiative, selon laquelle quand il n'y a pas de raisons éthiques pour ne pas le faire, la transparence et l'ouverture des données devrait être une valeur fondamentale de la science, afin notamment de permettre le travail des relecteurs.
+Divers moyens modernes de partage de la donnée scientifique existent y compris en pré-publication, comme en post-publication. Par ailleurs les auteurs qui partagent leurs données voient leur chances d'être cité augmenter
+
+Pour les opérateurs
+Pour Franck Avice, responsable de la relation client de la RATP, "Les investisseurs espèrent récupérer des données sur les utilisateurs de ces applications, qu'ils pourront monétiser plus tard et croiser avec d'autres données. Dès lors, pourquoi devrait-on leur céder gratuitement nos propres données ".
+
+Publics et sociaux
+En Grande-Bretagne, le croisement des données ouvertes a permis une diminution de 30 % de la facture de consommation d'énergie dans les bâtiments publics en seulement deux mois.
+Mais certaines applications de réalité augmentée dérangent : par exemple, BeenVerified.com indique les adresses des délinquants sexuels répertoriés et Whoslobbying croise les agendas des ministres aux rendez-vous qu'ils ont avec les milieux d'affaires.
+De plus, des voix s'élèvent pour rendre transparents les échanges économiques et financiers pour : Éviter les problèmes systémiques qui plongent de nombreux pays dans une crise économique permanente.; Éviter les délocalisations abusives d'entreprises qui maquillent leurs comptes pour justifier leurs plans sociaux.
+Cependant, l'ouverture des données est souvent uniquement associée à l'idée de réduction des coûts. Les innovations de rupture par l'émergence d'usages inattendus sur ces données vont permettre, à titre d'illustration, la publication de données ouvertes sur les hôpitaux, permettant d'améliorer la qualité de leurs services.
+
+Économiques
+Les données ouvertes permettent, dans l'idéal, une concurrence équitable entre toutes les entreprises. Cependant, des études sociologiques en Inde et au Canada ont mis en évidence que l'accès et l'utilisation des données ouvertes étaient conditionnés par des critères matériels (électricité, possession de matériel informatique) et sociaux (éducation).
+De plus selon certaines études, la libération de ces données publiques diviserait par cinq le capital nécessaire pour exercer une activité professionnelle dans le secteur de la téléphonie mobile. Le rapport MEPSIR datant de 2006, financé par la commission européenne, estime que le marché européen lié à la réutilisation des informations publiques représente 27 milliards d'euros.
+Par ailleurs, l'impact économique direct et indirect a été évalué 140 milliards par an pour l'Europe.
+
+Écologiques
+L'évolution actuelle de l'écologie et en particulier la connaissance de la génétique et des phénomènes passés et futurs repose sur une synthèse et une analyse d'une énorme quantité de données. Dans ce cadre, l'ouverture des données est une opportunité pour la protection future de l'environnement. Un défi est la capacité des acteurs à fournir des données uniformisées et reposant sur des méthodes scientifiques similaires. Un autre défi est que ces données ne soient pas détournées au détriment de l'environnement, en facilitant par exemple sa surexploitation.
+
+Débats sur l'ouverture des données
+
+Paradoxe de l'oeuf et de la poule
+Il existe des opinions divergentes sur la mise en oeuvre des données ouvertes qui se résume au "Paradoxe de l'oeuf et de la poule: Certains pensent que ce sont les données ("l'oeuf") qui permettront de voir naître une possible alchimie et ainsi créer de la richesse qui profitera à toute la société. Il faut donc commencer en priorité par mettre à disposition toutes les données qui existent déjà au sein des institutions publiques. De la poule ou de l'oeuf, c'est l'oeuf qui existe déjà... donc les données sont leurs priorités.; D'autres pensent qu'une communauté ("poule") est indispensable pour transformer les données en Killer application ou en future start-up. C'est le cas par exemple de la FING (Fondation internet nouvelle génération) qui depuis 2000 a une approche principalement sociale en recommandant depuis janvier 2011 aux collectivités de compléter la démarche par une "infrastructure sociale":("modalités d'accompagnement de la réutilisation, les formes d'animation de la communauté des ré utilisateurs, la facilitation des modes de partage entre réutilisateurs").
+Depuis la création de l'Internet, les anglo-saxons sont en tête dans la mise en oeuvre du Web, du Web des données en terme technologique, scientifique et économiqueL'approche "oeuf d'abord" apparaît dans la mise en oeuvre des données ouvertes comme avec DBpedia. Cette approche pragmatique de commencer par les données semble donc efficace pour la mise en oeuvre des données ouvertes. La question se pose de savoir si elle permet leur exploitation et donc de savoir comment en récolter les fruits; certains résultats sont encourageants. Par exemple en Grande-Bretagne, le croisement des données ouvertes a permis une diminution de 30 % de la facture de consommation d'énergie dans les bâtiments publics en seulement deux mois.
+
+Rendre compte des actions publiques
+Les institutions en France ont le devoir de valoriser leurs données publiques car à budget constant de l'État, c'est un moyen de pouvoir augmenter leurs recettes pour maintenir leur mission (comme avec l'INA, la BNF, les musées, etc.). Seule une décision politique et donc une loi avec un décret d'application contraindraient toutes les institutions à libérer les données exploitables et interopérables dont elles disposent.
+Ainsi en attendant cette loi et son décret, des associations mettent la pression sur les élus pour obtenir ces données car ils pensent que certains élus ne veulent pas voir des données qui les touchent étalées sur la place publique comme leurs prises de décisions dans les institutions, leurs conflits d'intérêts, leurs frais de remboursement, leurs salaires, etc. Automatiquement dans l'imaginaire des élus, ils pensent que les données ouvertes ne serviront principalement aux citoyens qu'à se substituer à la cour des comptes et donc ralentira d'autant leur travail.
+Ainsi, un débat civique sur le thème "Quel est l'intérêt de l'ouverture des données dans la société " est devenu "Pourquoi freiner l'ouverture des données avec des écrans de fumée si les politiques n'ont rien à cacher ". Parmi les problèmes non bloquants pour la mise à disposition des données, et qui peuvent sembler être des écrans de fumée pour les citoyens, on peut citer les problèmes suivants : Juridiques : sur le droit de réutilisation des données dans la société bien que les données soient publiques.; Economiques : le financement de la recherche des technologies de l'information et des institutions ayant des données sont au point mort pour "cause de crise", bien que les économies soient instantanées dans les pays qui mettent en oeuvre l'ouverture des données.
+Les citoyens considèrent ainsi que leurs élus font souvent le service minimum pour la mise en oeuvre d'une politique en rupture dans le domaine de l'ouverture des données et donc de la transparence de toutes les institutions par et pour la société.
+
+Avancement
+
+Ouverture des données publiques
+
+Liste par pays
+Voici une liste non-exhaustive des pays s'inscrivant dans le mouvement des données ouvertes:
+
+Problèmes
+
+Des moyens faibles face à une rentabilité mal évaluée
+Force est de souligner que les budgets informatiques nécessaires pour la mise en oeuvre de portails dédiés aux données ouvertes sont faibles. Aux États-Unis, le pilotage de l'Electronic Government Fund ne nécessite que 34 millions en 2010. En France, l'équipe Étalab, anciennement dirigée par Séverin Naudet, ancien conseiller "internet" de François Fillon chargé notamment du développement du site France.fr, comprend 9 personnes et dispose d'un budget de 4 M hors charges salariales pour réaliser le portail data.gouv.fr; elle est rattachée au premier ministre et a le soutien de la DILA.
+Bien que le portail britannique data.gov.uk ait coûté 600 K, le croisement des données ouvertes a permis une diminution de 30 % de la facture de consommation d'énergie dans les bâtiments publics en seulement deux mois.
+
+Une publication inégale selon les domaines
+Certains domaines jugés sensibles, stratégiques ou rémunérateurs ne sont pas libérés.
+
+Ouverture des données économiques et financières
+Les données qui permettraient de rendre transparents le commerce et la finance sont généralement dans des entités qui ne communiquent que rarement leurs données et bien souvent leurs conclusions sont invérifiables car sans liens avec les données qui ont permis de faire leurs conclusions. Certaines sont publiées du fait de la réglementation, mais sans normalisation ni formats facilement exploitables.
+
+Données sur les entreprises
+
+Données boursières
+
+Ouverture des données scientifiques
+L'ouverture des données scientifiques et le libre accès sont deux sujets connexes mais distincts. Le libre accès concerne les publications scientifiques, souvent relues par des pairs. L'ouverture des données scientifiques peut concerner les données à la base de ces articles, ou toute base de données à caractère scientifique (par exemple des relevés météorologiques ou autres), afin de permettre la reproduction des expériences menées, afin de les affirmer ou les infirmer.
+
+Les technologies
+Évolution du Web des données de 2007 à 2010 par les plus optimistes
+Les données ouvertes sont soumises à une seule contrainte qui est d'être accessible par tous types de machines pour permettre leur traitement. Cela implique que les données ouvertes soient interopérables. Si les données ne respectent pas les standards du Web pour permettre leur interopérabilité, on parlera de données bridées car leur réutilisation est moindre voire quasiment nulle.
+Ce critère d'interopérabilité n'a jamais été réellement respecté dans l'industrie, jusqu'en 2008 où le standard SPARQL est devenu une recommandation du W3C. Ce langage de requête permet aux développeurs de tester leurs requêtes directement depuis leurs navigateurs Web sur les données ouvertes en ligne puis de développer leur propre programme pour analyser ces données. On peut ainsi consommer les données à distance sans avoir à les transformer ou à les déplacer. Ainsi, les gouvernements au Royaume-Uni et aux États-Unis ont commencé à basculer leurs données dans le Web des données ouvert (en anglais, Linked Open Data ou LOD) en respectant les standards du W3C et en offrant un point d'accès SPARQL pour les développeurs.
+Exemple de données réellement ouvertes : trouver sur une carte les écoles les plus proches de son domicile avec les données de Data.gov.uk (du gouvernement au Royaume-Uni) qui offre toutes les données relatives aux écoles sur son territoire.
+Une conséquence de ce choix politique, d'offrir un vrai standard pour les données publiques comme le Web des données, est décrit dans le livre "Linking Government Data". Dans ce livre est décrit comment le Web des données est passé de quelques 40 millions de triplets RDF au sein de quatre entrepôts de données en 2007 à 203 entrepôts avec plus de 25 milliards de triplets avec 395 millions de liens à la fin 2010. Les plus optimistes parlent de croissance exponentielle des données (comme dans l'illustration : Évolution du Web des données) et annoncent un Web 3.0 et même un possible point de singularité dans l'avenir. Quoi qu'il en soit, ce choix politique a permis d'ouvrir de nouvelles pistes de recherche scientifique, économique et sociale.
+
+Les licences
+L'ouverture des données impose d'apposer une licence fixant les conditions dans lesquelles ces données pourront être copiées, diffusées, réutilisées librement. Les contextes juridiques variant d'un pays à un autre, diverses licences sont aujourd'hui utilisées à travers le monde.
+
+Licences de l'Open Knowledge Foundation
+Open data commons est un projet lancé au Royaume-Uni en décembre 2007 par l'Open Knowledge Foundation. La première licence libre du projet a été élaborée en mars 2008 par Jordan Hatcher et Dr Charlotte Waelde.
+Ces licences peuvent être appliquées aux bases de données et données qu'elles contiennent prises isolément. L'Open Knowledge Foundation a élaboré trois types de licences de données libres qui se fondent sur leur droit interne, lui-même basé sur le modèle anglo-saxon et qui diffère des droits romano-germaniques, c'est-à-dire civilistes, avec une protection plus reconnue et aboutie du droit moral. De là, l'application de certaines de ces licences aux oeuvres de l'esprit n'est pas valable en France mais peut être envisagée pour la diffusion des données publiques dans la mesure où elles sont par définition, publiques.
+
+Public Domain Dedication and License
+La licence Public Domain and License (PDDL) donne la possibilité d'utiliser, de copier, de modifier, de redistribuer une base de données sans aucune restriction. C'est une licence libre de tout droit, de type domaine public. Les données peuvent donc être exploitées de façon totalement libre et l'auteur abandonne son droit moral.
+
+Open Database Commons
+Cette licence que l'on retrouve sous le sigle ODC-by autorise l'utilisation, la copie, la redistribution, la modification, la réalisation de travaux dérivés de la base de données, sous réserve d'indiquer le nom de l'auteur de la base de données originale. On retrouve ces principes dans la licence Creative Commons By.
+
+Open Data Commons Open Database License
+La licence ODbL est fondée sur le droit d'auteur et le droit sui generis des bases de données. Elle donne la possibilité aux utilisateurs de copier, distribuer, utiliser, modifier et produire une oeuvre dérivée à partir d'une base de données sous réserve de la redistribuer sous les mêmes conditions imposées par la licence originale. Elle implique aussi d'indiquer le nom de l'auteur de la base de données d'origine.
+
+Licences de type Creative Commons
+À l'exception de la licence CC-0 spécialement conçue à cette fin, les licences de la famille Creative Commons ne sont pas adaptées à un usage sur une base de données. Elles sont en effet uniquement centrées sur le droit d'auteur, et négligent le droit sui generis des bases de données : cela risque d'une part de les rendre inefficientes (le respect de leurs obligations n'étant plus lié à la cession de droit) et d'autre part de rendre incertains le statut des données diffusées sous ces licences (l'éventuel droit sui generis des bases de données n'étant pas partagé).
+
+Licences en France
+En droit français, les données publiques sont considérées comme susceptibles de contenir des informations sensibles, soit, car elles permettent d'identifier une personne, soit car elles sont soumises au droit d'auteur, secret d'État ou pour des considérations de défense nationale. Dans ce contexte, les données ne peuvent pas être librement diffusées sans autorisation préalable ou doivent faire l'objet d'une anonymisation. Une fois les droits de diffusion garantis, des licences vont s'appliquer. Différents organismes ont élaboré des licences libres applicables à tout type de contenu, public ou créations de l'esprit. Il s'agit de simples modèles de licence d'exploitation qui n'imposent pas de s'y conformer. Des contrats inédits peuvent être élaborés, à la condition de respecter le droit interne, tant au regard des dispositions des lois du 17 juillet 1978 ou encore du 6 janvier 1978 qu'au regard des règles d'ordre public applicables au contrat. En France, jusqu'à cinq licences différentes de réutilisation ont été apposées sur les données ouvertes. En 2013, l'harmonisation des pratiques a conduit à l'usage de deux licences types utilisées dans des proportions équivalentes : la Licence Ouverte et l'Open Database Licence.
+
+Licence du ministère de la Justice français
+Le ministère de la Justice a pris l'initiative de concevoir une licence adaptée aux données publiques, la Licence information publique librement réutilisable communément appelée la LIP.
+Elle donne la possibilité de réutiliser les données du Répertoire du ministère gratuitement, même à des fins commerciales sous réserve de mentionner les sources, la date de mise à jour, de ne pas altérer les données et de ne pas en dénaturer le sens.
+Il est également prévu que l'utilisateur ne puisse autoriser une nouvelle réutilisation sous une licence qu'à la condition d'avoir ajouté de la valeur à la donnée d'origine.
+Logo de la Licence Ouverte
+Licence Ouverte
+Cette licence créée par ETALAB est destinée à être utilisée notamment sur data.gouv.fr.
+
+Open Database License
+La licence ODbL a été traduite en français par la ville de Paris afin de l'adapter à un usage national. Une variété de projets utilisent cette licence, depuis Open Street Map aux collectivités locales (Paris, Nantes, Toulouse...).
+
+Organisations de promotion des données ouvertes: freeourdata.org.uk -; Open Data Institute -; Open Knowledge Foundation -; Scholarly Publishing and Academic Resources Coalition (en) -; Sunlight Foundation (en) -; LinkedScience.org -; Talis (en) -; w3.org (en) -; Blue Obelisk (en) - Groupe de chimistes pour la promotion des données ouvertes; Freebase - Base de données maintenue par Google; Factual (en) -; Information Retrieval Facility (en) -; Socrata (en) -; International Development Research Centre -; OMG standard (en) -; CiteSeer (en) - bibliothèque et moteur de recherche d'articles scientifiques, notamment en informatique; Knoema -; Ecodesk (en) - Données sur les profils environnementaux des entreprises; LiberTIC; Regards Citoyens; OpenDataSoft; Fair data.
+
+Voir aussi
+
+Articles connexes: Licence libre; Licence Creative Commons; Science Commons; Licence information publique librement réutilisable; Directive 2003-98-CE; Culture libre; Logiciel libre; Web sémantique; Données ouvertes en France; Le Web des données qui utilisent, entre autres, les standards: RDF (technologie de description des données, pour leur traitement automatique.; SPARQL (langage de requête pour accéder à des données ouvertes par exemple).; RDF (technologie de description des données, pour leur traitement automatique.; SPARQL (langage de requête pour accéder à des données ouvertes par exemple).
+
+Vidéographie: Courte présentation de l'Open data (Yann Bresson); (vidéo) Courte présentation des données ouvertes (par l'association nantaise LiberTIC); (vidéo) (en) Courte présentation du Linked Open Data, c'est-à-dire en français les données ouvertes liées ou les données ouvertes au sein du Web des données (par l'Europeana Linked Open Data ; LOD).; (vidéo) (en) opendata - film court sur les données ouvertes gouvernementales de l'Open Knowledge Foundation (sous-titrée en français); (vidéo) (en) Vidéo de Tim Berners-Lee à TED (conférence) 2009 demandant des "données brutes, et maintenant" (sous-titrée en français); (vidéo) (en) Vidéo de 6 minutes de Tim Berners-Lee à TED (conférence) 2010 montrant des exemples de données ouvertes (sous-titrée en français). Portail de l'informatique; Portail du Web sémantique; Portail des données.

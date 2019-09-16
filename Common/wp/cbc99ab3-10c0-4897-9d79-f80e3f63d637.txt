@@ -1,0 +1,48 @@
+Google Maps est un service gratuit de cartographie en ligne. Le service a été créé par Google. Lancé en 2004 aux États-Unis et au Canada et en 2005 en Grande-Bretagne (sous le nom de Google Local), Google Maps a été lancé jeudi 27 avril 2006, simultanément en France, Allemagne, Espagne et Italie.
+C'est un service disponible sur PC, sur tablette et sur smartphone qui permet, à partir de l'échelle d'un pays, de zoomer jusqu'à l'échelle d'une rue. Des prises de vue fixes montrant les détails de certaines rues sont également accessibles grâce à une passerelle vers Google Street View.
+Deux types de vue sont disponibles dans Google Maps : une vue en plan classique, avec nom des rues, quartier, villes et une vue en image satellite, qui couvre aujourd'hui le monde entier. Ce service n'est plus en version bêta depuis le 12 septembre 2007, et a été ajouté aux liens de la page d'accueil de Google.
+
+Logos:
+Logo de Google Maps en version bêta (2005 à 2007);
+Ancien logo de Google Maps de 2007 à 2015;
+Ancien logo de Google Maps pour la France de 2007 à 2015;
+Logo actuel depuis 2015.
+
+Images satellite
+C'est au début du mois d'avril 2005 que Google Maps s'enrichit de la vue par image satellite, en plus de la cartographie classique. Se différenciant des autres services proposant des images satellites statiques, Google Maps permet de naviguer et de se positionner où l'on veut sur la carte satellite.
+L'utilisation du terme photo satellite est cependant un abus de langage, car certaines photos urbaines sont des prises de vues aériennes prises à haute altitude.
+En juin 2005, des images haute résolution sont disponibles lorsqu'on zoome au maximum. Cette fonctionnalité est disponible sur de nombreuses zones urbanisées aux États-Unis, au Canada, mais aussi certaines portions de l'Islande, en Irak, au Koweït, au Mexique, aux Bahamas, en France, en Italie, au Japon et dans bien d'autres pays.
+Des bâtiments du gouvernement sont par contre visibles en image, telle que la Zone 51 dans le désert du Nevada. Cependant, Slashdot a publié un article selon lequel des arbres se trouveraient maintenant à un emplacement occupé par des bâtiments sur des photos précédentes.
+Une résolution basse est disponible sur le monde entier, et depuis juin 2005, Google Maps ajoute des photos haute résolution à de plus en plus de villes dans le monde, et notamment les grandes villes d'Europe.
+Le 20 juillet 2005, afin de célébrer l'anniversaire du premier homme sur la Lune le 21 juillet 1969, Google ajoute à Google Maps des images de la Lune, fournies par la NASA, permettant ainsi à l'utilisateur de naviguer sur la Lune. Les points d'atterrissage des différentes missions sont indiqués, de Apollo 11 à Apollo 17. Le service se nomme Google Moon.
+
+Différents services de cartographie en ligne
+Baidu Maps, Bing Cartes, Mappy, Here offrent des services ressemblant à Google Maps. Ils ont ceci en commun que l'accès pour certains usages est gratuit, de contenir des vues aériennes zoomables, et de proposer un service de calcul d'itinéraire. À la différence des premiers cités, Mappy ne couvre que l'Europe. OpenStreetMap offre également une cartographie mondiale, et un service de calcul d'itinéraires, entièrement gratuits et libres d'accès pour tout usage, il n'offre pas de vues aériennes.
+La cartographie fournie par l'IGN sur son site Géoportail est de type Image matricielle. Il s'agit d'une cartographie à l'ancienne, qui conserve la notion d'échelle discrète (1-25 000, 1-100 000, etc.). La cartographie vectorielle que propose Google Maps fournit une échelle continue avec création de tuiles à la demande avec une feuille de style de type CSS. Le site Géoportail ne propose pas de calcul d'itinéraire, mais peut aussi afficher d'autres couches, comme la carte géologique du BRGM.
+
+Versions mobiles
+Il existe également plusieurs versions mobiles de Google Maps, qui utilisent les réseaux des téléphones notamment 3G pour charger les cartes de la même manière que sur la version internet. Les versions varient beaucoup selon la définition d'écran des téléphones portables, le fait d'avoir un écran tactile, la puissance du processeur. Le positionnement par satellite est implémenté sur la plupart des mobiles embarquant le matériel requis. Il est représenté par un point bleu et une flèche si les positions ont été jugées interprétables comme un mouvement.
+
+Fonctionnalités
+Selon les mobiles la navigation se fait au toucher ou avec le clavier. Sur les versions des smartphones les plus récents il est possible de choisir entre les trois modes d'affichage : "plan", "satellite", et "mixte" ; le dernier étant un mélange entre les deux premiers. Depuis plus récemment est disponible la fonction "Street View" permettant d'afficher des photos, comme pour la version internet, dans certaines grandes villes. Il est possible de créer des signets sur des emplacements. Une fonction de recherche est également présente. En plus de localiser l'endroit recherché, elle peut éventuellement, pour une entreprise par exemple, afficher des informations telles que son numéro de téléphone public, ou son site internet. Il est également possible de rechercher et de suivre un itinéraire. Enfin, une fonction de géolocalisation est disponible sur certaines versions, qui utilise, selon l'équipement du téléphone, une puce GPS ou un système de triangulation grâce aux antennes GSM. Cette dernière solution est cependant beaucoup moins précise, en particulier en zone rurale.
+
+Popularité
+Avec la mise à disposition au public d'un outil lui permettant de visualiser, par photo satellite, le monde entier de manière précise, le projet a rencontré un véritable succès, si bien que des sites exclusivement dédiés à Google Maps ont vu le jour. Pour exemple, les sites Google Sightseeing et Google Globetrotting sont des répertoires de liens directs vers des monuments (tour Eiffel, statue de la Liberté, etc.), endroits connus ou endroits insolites (maison de Bill Gates par exemple), ceci dans le monde entier, en utilisant le service Google Maps.
+Un Monopoly géant a été organisé sur Google Maps, le but étant d'acheter toutes les rues disponibles sur Terre.
+Le 1er avril 2010, Google fit semblant d'avoir mis en oeuvre la 3D. Pour ce faire, un petit bonhomme à gauche de l'écran portait des lunettes rouge et verte, en cliquant dessus, une impression de 3D était créée. Bien évidemment, ce fut un canular qui resta plus de deux jours sur la toile.
+Le 7 décembre 2012, Google révèle dans un article sur le blog dédié à Google Maps que le service dispose de plus d'un milliard d'utilisateurs mensuels.
+
+Easter eggs et lieux insolites
+Différents easter eggs ont été installés sur le programme Street View : si l'on tape dans le moteur de recherche : "Lego Land, Carlsbad, CA, United States", le personnage orange appelé Pegman devient un personnage Lego. Sur l'Île Half Moon dans l'Antarctique, Pegman devient un manchot. Au Kennedy space center en Floride, Pegman devient un astronaute ;; en hommage à la série télévisée Doctor Who, il est possible de visiter le TARDIS en cliquant sur une cabine téléphonique située sur Earls Court Station à Londres.
+Par ailleurs, plusieurs lieux insolites, non visibles en tapant simplement leurs noms, sont visibles sur Google Maps : un cimetière d'avion aux USA (32 08' 59 N, 110 50' 09 O), la zone 51 (37 14' 35 N, 115 48' 47 O), ou des tracés étranges en Chine (40 27' 16 N, 93 44' 41 E).
+Durant la première semaine d'avril 2015, Google permet aux utilisateurs de jouer à Pac-Man dans le tracé des rues.
+En mars 2017, pour la sortie du film Kong : Skull Island de Jordan Vogt-Roberts, Google Maps permet de localiser Skull Island alors que cette île n'existe pas
+
+Choix politiques
+Google Maps ne semble pas être neutre dans les cartes affichées. Alors qu'OpenStreetMap, bing Maps, ViaMichelin ou la majorité des autres systèmes cartographiques affichent de manière aussi détaillée que possible les pays entourant la Corée du Nord, ça n'est pas le cas sur Google Maps.
+La Bande de Gaza, dont les données sont fournies par Mapa GIsrael d'après Google Maps, ne contient que quelques noms de villes et les routes y sont absentes et peu visibles, laissant également penser à un choix politique. Encore une fois, OpenStreetMap ou ViaMichelin affichent un niveau de détail proche de celui des pays voisins.
+Jean-Christophe Victor estime que plusieurs représentations cartographiques de frontières internationales discutées effectués par Google Maps sont soumis à des choix politiques et économiques ; il parle de "profonde malhonnêteté intellectuelle".
+
+Voir aussi
+
+Articles connexes: Neven Vision; Google Earth; Google Mars; Google Moon; Google Street View; Argleton, une localité fictive, qui n'existe que sur Google Maps; OpenStreetMap.

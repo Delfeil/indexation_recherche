@@ -1,0 +1,70 @@
+En France, Internet est utilisé par le grand public depuis 1994, mais n'a réellement connu un essor qu'à partir du milieu des années 2000. Le 31 décembre 2014, la France comptait 26 millions d'abonnements Internet haut et très haut débit sur réseaux fixes. En 2014, 80,7 % des foyers ont un accès Internet, soit 22,5 millions de foyers (47 millions d'internautes en janvier 2015 selon Médiamétrie, tandis que 19,3 % des foyers n'y ont pas accès, soit 5,4 millions de foyers, sur un total de 27,8 millions de foyers). En 2014, 82 % des Français âgés de 12 ans et plus ont accès à Internet à leur domicile bien que seulement 77 % l'utilisent ; parmi ces 82 %, 78 % se connectent tous les jours, ce qui fait que 64 % des Français de 12 ans et plus se connectent ainsi tous les jours à Internet depuis leur domicile. En 2014, tous lieux de connexion pris en compte (et non que domicile), 83 % des Français sont des internautes.
+
+Accès à Internet en France
+
+Tableau comparatif
+Répartition des 26 millions d'abonnés Internet à bas, haut et très haut débit sur les réseaux fixes en 2015 :
+Source Arcep
+Source
+
+Les débuts
+Accessible initialement à un nombre réduit d'utilisateurs dans un petit nombre d'entreprises et d'universités, l'utilisation de l'Internet par le grand public n'a commencé qu'à partir de 1994 et s'est vraiment démocratisé au début du siècle par l'apparition de l'ADSL.
+Pendant l'été 1988, l'INRIA connecte le réseau NSFNet de Sophia Antipolis à Princeton par une liaison satellite louée à France Telecom et MCI. La liaison est opérationnelle le 8 août 1988 et permet aux chercheurs de l'INRIA d'accéder au réseau américain et aux chercheurs de la NASA de consulter la base de données astronomique basée à Strasbourg. C'est la première fois que les réseaux français sont connectés directement à un réseau en utilisant TCP-IP, le protocole de l'Internet. Cela reste limité à la recherche et l'éducation pour quelques années.
+En 1992, presque simultanément, French Data Network et Altern (par l'intermédiaire du service minitel 3616 ALTERN) ont permis au grand public de se connecter au réseau Internet. L'accès au World Wide Web n'existait pas encore et les services offerts étaient le courrier électronique, les news par le réseau Usenet, l'accès à de nombreuses archives de logiciels et de documentation et l'accès aux machines du réseau Internet.
+Le premier véritable fournisseur d'accès grand public fut WorldNet qui ouvrit ses portes en février 1994 lors du Computer Associates Expo. Ensuite FranceNet lança son service en juin 1994. FranceNet fut fondé par Rafi Haladjian. Ensuite, suivirent dans l'ordre Calvacom, Internet Way et Imaginet.
+AOL a connu un grand succès entre 1996 et 2000, grâce à ses CD distribués gratuitement et massivement, puis grâce à des prix intéressants sur le bas débit.
+
+ADSL
+L'usage grand public des réseaux numériques a démarré en France plus tôt que dans les autres pays grâce au Minitel. Celui-ci a longtemps rempli ce rôle de façon satisfaisante pour la grande majorité des utilisateurs, malgré le coût relativement élevé des connexions dû au monopole sur les liaisons téléphoniques. En juin 2009 la France occupait la troisième place du classement européen quant au nombre de foyers connectés à Internet, derrière l'Allemagne et le Royaume-Uni qui sont plus peuplés.
+En mai 1998, le nombre de foyers français connectés à Internet pouvait être estimé à 570 000 (soit 2,4 % des foyers français), contre 270 000 en mai 1997 et 100 000 en mai 1996.
+En janvier 2001, 17 % des foyers français étaient connectés à Internet. Fin 2005 ils étaient 40 % et les trois quarts d'entre eux (74 %) étaient abonnés au haut débit.
+Il y avait en août 2005 13 241 000 abonnés (contre 8 908 000 en août 2004), dont 7 935 900 abonnements "haut débit". Parmi les différentes technologies de connexion à haut débit, c'est l'ADSL qui rencontre le plus de succès en 2008 et qui connaît la plus forte croissance : 7 410 000 abonnés haut débit sont connectés par l'ADSL, 520 000 par le câble et les 5 900 restants le sont par fibre optique, BLR, ou autre.
+En avril 2007, selon Médiamétrie, plus de la moitié des Français sont des internautes.
+En 2009, le même institut estime que 19,8 millions de personnes se connectent à Internet tous les jours, soit 12,5 % de plus qu'en 2008. Il estime également que les personnes accédant à Internet le font à raison d'une durée moyenne d'une heure 20 minutes par jour, soit près de 10 minutes de plus que l'année précédente.
+La France vise à atteindre le haut-débit (ADSL) "pour tous" en 2017.
+
+Très haut débit
+Le très haut débit fait ensuite son apparition dans les zones denses, et s'étend grâce notamment à deux opérateurs historiques: Numericable et Orange.
+Toutefois, le coût du déploiement du très haut débit est estimé, en 2013, à 25 milliards d'euros en 15 ans, dont 10 milliards de financements public pour couvrir 50 % du territoire français en 2020.
+Le développement du FTTH reste un sujet sur lequel les différents opérateurs restent très prudents dans leurs investissements. À la fin du 3e trimestre 2012, la France comptait 270 000 abonnements au très haut débit en fibre optique jusqu'aux abonnés ; leur nombre avait augmenté de 24 000 (+ 9,6 %) au cours du trimestre et de 98 000 (+ 57 %) sur un an.
+Le VDSL-VDSL2 qui permet d'atteindre 30 Mbps sur un kilomètre et 100 Mbps sur 500 mètres en paire de cuivre, permet de réduire les coûts avec des réseaux mixtes (fibre-cuivre) qui ne nécessitent pas de tirer une fibre jusque chez les abonnés.
+La France compte 3,8 millions d'abonnements au très haut débit mi 2015, dont 1 140 000 en fibre optique FTTH.
+En 2012, la société Orange a annoncé le fibrage de nouvelles villes : Montauban et Mulhouse et Schiltigheim, Riom et Saint-Flour.
+Cartes sur Google Maps du déploiement FTTH en France : Orange, Zones raccordées du site Orange.fr; Free.
+
+Nombre d'abonnés à Internet
+L'Arcep maintient un observatoire sur l'évolution des marchés de gros et de détail, sur les trois axes: bas débit, ADSL, et très haut-débit.
+En 2009, d'après les dernières estimations, plus d'un quart des foyers français possèdent un abonnement ADSL.
+Statistiques selon Internet World Stats :
+Statistiques selon l'Union internationale des télécommunications :
+(26).
+Les enfants et Internet en France
+Les enfants de 6 à 13 ans sont de plus en plus connectés et équipés d'outils numériques. Par exemple en 2011 34 % avaient une adresse électronique et 32 % utilisaient la messagerie instantanée, 4 % ayant un compte Twitter et 18 % ayant un compte Facebook (en dépit d'un âge légal de 13 ans). 18 % des 6-13 ans avaient un ordinateur, 55 % disposaient d'au moins une console de jeu vidéo (et 83 % des 10-13 ans). 51 % avaient un lecteur mp3 et 23 % un téléphone mobile (5 % avaient un smartphone). Un quart des parents (24 %) se juge préoccupé par le temps passé à utiliser des produits électroniques (3 h 14 par jour en moyenne ou 22 h 38 par semaine). 24 % des enfants passent plus de 2h-jour sur leur netbooks et 16 % des jeunes possesseurs de smartphone l'utilisent de 1 à 2h-jour.
+
+Les Zones Blanches en France
+Le nombre de foyers inéligibles à l'ADSL est estimé en France à 500 000. Diverses technologies permettent aujourd'hui de disposer d'Internet par d'autres moyens, dont l'Internet par satellite.
+Pour réduire cette fracture numérique, de nombreux départements ont choisi soit de subventionner l'accès Internet par satellite, soit de déployer des réseaux radio, dont le Wimax.
+L'État a fait le choix de subventionner quelques opérateurs privés afin de leur permettre de déployer de la fibre optique sur le territoire national.
+
+Fournisseurs d'accès à Internet
+Sur plus de 25 millions d'abonnés, les principaux fournisseurs d'accès à Internet (FAI) en France sont : Orange : 40 % de parts de marché, soit 10,354 millions d'abonnés au 31 décembre 2014.; Free (groupe Iliad) (comprenant aussi Alice) : 5,868 millions d'abonnés.; SFR-Numericable : 6,577 millions d'abonnés.; Bouygues Telecom (groupe Bouygues) : 2,428 millions d'abonnés.; Autres (Alsatis, NordNet, OVH Télécom, Prixtel, Budget Telecom, Coriolis Télécom, Virgin Mobile, Vivéole, FDN, Nerim, Magic OnLine...) : 6,57 % soit 1,27 million abonnés.
+Le contexte légal permet en France à des associations de se constituer en fournisseur d'accès associatifs. Il existe ainsi plus d'une dizaine de FAI associatifs en France dont le principal est French Data Network et une fédération de fournisseurs d'accès internet associatifs : la Fédération FDN.
+
+Réduction de la fracture numérique
+Ces dernières années, les gouvernements successifs comprennent l'intérêt de réduire la fracture numérique en France et commencent donc à mettre en place des plans de réduction de la fracture numérique, en comptant sur les fournisseurs d'accès Internet par satellite.
+
+Sites Internet les plus visités en France
+Selon Médiamétrie décembre 2007(31) no Nom 1 Google 2 MSN-Windows Live 3 Orange.fr 4 Free 5 Yahoo! 6 PagesJaunes 7 eBay 8 Microsoft 9 L'Internaute 10 Wikipédia 11 YouTube 12 Voila 13 Fnac 14 Mappy 15 Dailymotion 16 Amazon 17 Skyrock.com 18 PriceMinister 19 La Redoute 20 Cdiscount 21 01net 22 Comment ça marche 23 Aufeminin 24 Voyages-sncf.com 25 AlloCine 26 Alice.fr 27 OverBlog 28 Doctissimo 29 Blogger 30 Pixmania Selon Alexa Internet décembre 2009(32) no URL 1 Google.fr 2 Facebook 3 Live.com 4 YouTube 5 Google.com 6 MSN.com 7 Skyrock.com 8 Orange.fr 9 Yahoo! 10 Free.fr 11 Le Bon Coin 12 Wikipédia 13 eBay 14 Dailymotion 15 SFR.fr 16 Comment ça marche 17 Bing 18 Blogger 19 L'Internaute 20 Jeuxvideo.com 21 OverBlog 22 Pages Jaunes 23 Allociné 24 PriceMinister 25 Deezer 26 La Redoute 27 Vente-privee.com 28 L'Équipe 29 Cdiscount Selon Alexa Internet décembre 2011(32) no URL 1 Google.fr 2 Facebook 3 Google.com 4 YouTube 5 Yahoo! 6 Windows Live 7 Wikipédia 8 Orange.fr 9 Le Bon Coin 10 Free.fr 11 Blogger 12 Amazon 13 eBay 14 Twitter 15 Comment ça marche 16 LinkedIn 17 MSN.com 18 Dailymotion 19 Viadeo 20 OverBlog 21 Megaupload 22 Le Monde.fr 23 PagesJaunes 24 SFR.fr 25 AlloCiné 26 L'Équipe 27 La Redoute 28 t.co : Twitter 29 Programme-tv.net Selon Alexa Internet août 2013(32) no URL 1 Google.fr 2 Google.com 3 Facebook 4 YouTube 5 Wikipedia.org 6 Le Bon Coin 7 Amazon 8 Yahoo! 9 Orange.fr 10 Free.fr 11 Live.com 12 LinkedIn 13 eBay 14 Twitter 15 Comment ça marche 16 Le Monde 17 Tumblr.com 18 Allociné 19 SFR.fr 20 Jeuxvideo.com 21 WordPress.com 22 L'Équipe 23 Le Figaro 24 Dailymotion 25 PagesJaunes 26 Météo France 27 xHamster 28 OverBlog Selon Alexa Internet octobre 2015(32) no URL 1 Google.fr 2 Facebook 3 Google.com 4 YouTube 5 Amazon 6 Le Bon Coin 7 Yahoo! 8 Orange.fr 9 Wikipédia 10 Live.com 11 Twitter 12 Free.fr 13 eBay 14 Bing 15 LinkedIn 16 Cdiscount 17 MSN.com 18 Le Figaro 19 PagesJaunes 20 L'Équipe 21 SFR.fr 22 t.co : Twitter 23 Le Monde 24 Pôle emploi 25 Allociné 26 Comment ça marche 27 Crédit agricole 28 Zone Téléchargement 29 La Banque postale 30 Programme-tv.net Selon Alexa Internet octobre 2016(32) no URL 1 Google.fr 2 YouTube 3 Google.com 4 Facebook 5 Wikipédia 6 Le Bon Coin 7 Amazon 8 Yahoo.com 9 Live.com 10 Orange.fr 11 Twitter 12 LinkedIn 13 Zone Téléchargement 14 Free.fr 15 Instagram 16 Le Monde 17 Cdiscount 18 t.co : Twitter 19 eBay 20 Le Figaro 21 MSN.com 22 Buzzfil.net 23 Bing 24 SFR.fr 25 Pôle emploi 26 Comment ça marche 27 Allociné 28 L'Équipe 29 Jeuxvideo.com 30 Dl-protect.com
+Les entrées manifestement incorrectes, dues à des adwares dont la distribution est possiblement corrélée avec la barre d'outils Alexa, ont été supprimées du classement.
+
+Navigateurs web
+Le navigateur le plus utilisé était Internet Explorer quand Microsoft l'avait installé en standard dans Windows 98 ; ce qui a contribué à torpiller le navigateur dominant de l'époque : Netscape Navigator (payant à cette époque, jusqu'à sa version 4 incluse).
+À l'heure actuelle, de plus en plus d'internautes choisissent un navigateur alternatif tel que Chrome, Opera ou Mozilla Firefox, un logiciel libre très partiellement basé sur le code source du futur Netscape Navigator 5.0, lui-même rendu public par la société Netscape. Les utilisateurs de macOS utilisent principalement le navigateur Safari (intégré à leur OS), mais d'autres navigateurs existent sur cette plateforme.
+
+Noms de domaines
+C'est l'AFNIC qui est responsable des noms de domaines en.fr (France), re (île de La Réunion) et.pm (Saint-Pierre-et-Miquelon).
+D'autres noms de domaines existent, tels que.gf, pour la Guyane, nc pour la Nouvelle-Calédonie, mq pour la Martinique, yt pour Mayotte, pf pour la Polynésie française, gp pour la Guadeloupe, tf pour les Terres australes et antarctiques françaises ou encore.eu pour l'Union européenne.
+
+Voir aussi
+
+Articles connexes: Aménagement numérique; Donnée publique; Cybercentre; E-learning center; Fête de l'Internet; Gouvernance d'Internet; Haut débit en France; Internet; Internet en Guadeloupe; Internet à la Réunion; Plateforme numérique de travail; Souveraineté numérique; Travail collaboratif. Censure d'Internet en France.

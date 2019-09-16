@@ -1,0 +1,69 @@
+Dans une approche axiomatique de la géométrie affine, un plan affine arguésien ou plan affine de Desargues (ou desarguésien) est un plan affine au sens des axiomes d'incidence, vérifiant de plus l'axiome de Desargues : "Pour toutes droites distinctes d1, d2 et d3 concourantes ou parallèles et pour tous points A1 et B1 incidents à d1, A2 et B2 incidents à d2, A3 et B3 incidents à d3,
+si (A1A2)--(B1B2) et (A2A3)--(B2B3) alors (A1A3)--(B1B3). "
+Ajouté aux axiomes d'incidence des plans affines, qui permettent de définir les homothéties et les translations, cet axiome équivaut à l'existence de suffisamment d'homothéties (dans le cas de droites concourantes) et de translations (dans le cas de droites parallèles). De ce fait, tout plan de Desargues se réalise comme un plan affine sur un corps K (éventuellement non commutatif), dont le plan vectoriel directeur est défini comme l'ensemble des translations du plan ; le groupe multiplicatif de K s'identifie au groupe des homothéties de centre un point donné. Réciproquement, d'après le théorème de Desargues, tout plan affine, au sens "espace affine de dimension 2 sur un corps", satisfait (les axiomes d'incidence et) l'axiome de Desargues.
+En dimension supérieure ou égale à 3, la propriété de Desargues est un théorème qui se démontre à l'aide des seuls axiomes d'incidence de la géométrie affine.
+Pour un plan affine arguésien, la commutativité du corps sous-jacent équivaut à la propriété de Pappus, que l'on peut prendre pour axiome. On appelle alors plan affine de Pappus un plan affine arguésien vérifiant l'axiome de Pappus. Il s'avère que l'axiome de Desargues devient alors redondant, d'après le théorème de Hessenberg.
+
+Homothéties-translations
+
+Définition, unicité et nature
+Construction de l'image de M à partir de celles de A et B.
+Une homothétie-translation d'un plan affine (non nécessairement arguésien) est par définition une bijection, de l'ensemble des points dans lui-même, qui envoie (bijectivement) toute droite sur une droite parallèle. L'application induite, de l'ensemble des droites dans lui-même, est alors également bijective.
+Une homothétie-translation est entièrement déterminée par les images de deux points distincts, c'est-à-dire qu'étant donnés quatre points A, B, A' et B' avec A B, il existe au plus une homothétie-translation qui envoie A sur A' et B sur B'.
+D'après cette unicité, une homothétie-translation différente de l'identité a au plus un point fixe. Si elle en a un, on dit que c'est une homothétie de centre ce point ; si elle n'en a pas, on l'appelle translation. L'identité est considérée à la fois comme une homothétie (de centre arbitraire) et comme une translation. Une translation est uniquement définie par l'image d'un point.; Une homothétie est uniquement définie par son centre O et l'image d'un point distinct de O.
+
+Existence
+Pour quatre points A, B, A' et B' avec A B, un condition nécessaire pour qu'il existe une homothétie-translation envoyant A sur A' et B sur B' est que A' soit différent de B' et que les droites (AB) et (A'B') soient parallèles. En présence de l'axiome de Desargues, cette condition nécessaire est aussi suffisante.
+Théorème - Dans un plan affine de Desargues, si A B, A' B' et si (AB) et (A'B') sont parallèles, alors il existe une (unique) homothétie-translation qui envoie A sur A' et B sur B'.
+Il suffit de démontrer que : pour tous points C et C', il existe une translation qui envoie C sur C' ;; pour tous points alignés O, D et D' avec D et D' distincts de O, il existe une homothétie de centre O qui envoie D sur D'.
+En effet, le premier point fournira une translation t qui envoie A sur A' ; le point t(B) étant alors sur (A'B') et distinct de A', le second point fournira une homothétie h de centre A' qui envoie t(B) sur B', et l'homothétie-translation ht enverra bien A sur A' et B sur B'.
+Le premier point équivaut à l'axiome de Desargues dans le cas de trois droites parallèles et le second équivaut à l'axiome dans le cas de trois droites concourantes. Démontrons, pour le premier point, l'implication utile ici (elle se démontre de même pour le second point).
+Construction d'une translation qui envoie C sur C'.
+On peut supposer C C' (car dans le cas d'égalité, la solution évidente est l'identité).
+Soit tC,C' l'application, définie seulement sur le plan privé de la droite (CC'), qui envoie chaque point M (CC') sur le point d'intersection M' de la parallèle à (CC') passant par M et de la parallèle à (CM) passant par C'.
+Les deux points M et M' étant alors distincts, on peut définir de même une application tM,M', sur le plan privé de la droite (MM'). Cette application envoie C sur C'.
+D'après l'axiome de Desargues, tM,M' et tC,C' coïncident en tout point qui n'est ni sur (CC'), ni sur (MM'). Elles ont donc un prolongement commun t à tout le plan. Montrons que t est une dilatation. Soient U et V deux points distincts, il faut montrer que leurs images par t sont distinctes et définissent une droite parallèle à (UV).
+Le seul cas problématique est celui où U est sur l'une des deux droites (CC') ou (MM') et V est sur l'autre (dans les autres cas, on peut utiliser tM,M' ou tC,C' pour calculer les images). Dans ce cas, en supposant que notre plan est d'ordre au moins 3 (ce qui est légitime, sachant déjà que l'unique plan affine d'ordre 2 vérifie le théorème), on peut choisir un point N qui n'est ni sur (CC'), ni sur (MM'), et utiliser tN,N' (construit de la même façon que tM,M').
+
+Composition
+Les homothéties-translations forment un groupe pour la composition, noté G, et les translations forment un sous-groupe normal, noté E(P). Les translations de direction donnée forment également un sous-groupe normal.
+Si le plan P est arguésien, le groupe E(P) sera noté additivement, pour la raison suivante.
+Théorème - Si le plan P est arguésien, le groupe E(P) des translations est commutatif.
+Démonstration
+Notons Ed le sous-groupe des translations de direction d fixée, et S son complémentaire. Pour toute translation s S, de direction d' d, les sous-groupes Ed et Ed' étant normaux et d'intersection triviale, s commute avec tout élément de Ed, d'après les propriétés générales des commutateurs.
+Or le sous-groupe Ed est propre - au sens : distinct de E(P) - donc son complémentaire S engendre E(P). D'après le point précédent, le centralisateur de Ed est donc E(P) tout entier, c'est-à-dire qu'une translation de direction (quelconque) d commute avec toutes les translations.
+Les homothéties de centre fixé O forment un sous-groupe de G, dont on montrera (voir infra) qu'il est isomorphe au groupe multiplicatif d'un corps K tel que P soit un K-espace affine.
+
+Structure d'espace affine
+
+Espace affine de dimension 2
+Un espace vectoriel (à gauche) sur un corps K (corps des scalaires) est un groupe commutatif (E, +) (dont les éléments sont appelés vecteurs), muni d'une loi externe KE E vérifiant les relations de distributivité et d'"associativité" suivantes, valables pour tous vecteurs v , w E (-displaystyle v,w-in E) et pour tous scalaires , K (-displaystyle -lambda ,-mu -in K) :
+Un espace affine d'espace vectoriel directeur E est un ensemble A muni d'une action libre et transitive du groupe (E, +) sur A.
+Les espaces affines de dimension 2 sont des plans affines de Desargues.
+
+Réciproque
+Montrons que réciproquement, tout plan affine de Desargues P est un espace affine de dimension 2 dont le plan vectoriel directeur (sur un corps non nécessairement commutatif) est le groupe des translations de P.
+Comme le groupe E(P) des translations est commutatif, l'ensemble de ses endomorphismes est naturellement muni d'une structure d'anneau (avec + comme addition et comme multiplication, donc avec comme neutre additif l'endomorphisme nul, noté 0 - qui à toute translation associe le neutre idP de E(P) - et comme neutre multiplicatif l'identité de E(P), notée 1). Le groupe E(P) est muni d'une structure naturelle de module à gauche sur cet anneau.
+Le sous-ensemble des endomorphismes qui préservent la direction est un sous-anneau, noté K, et E(P) est donc un K-module. C'est même un K-espace vectoriel, car :
+Théorème - (K, +,) est un corps.
+Démonstration
+Soient un endomorphisme non nul de E(P) qui préserve la direction, et O un point arbitraire. Montrons qu'il existe une homothétie h de centre O telle que l'action de sur E(P) soit la conjugaison par h (cela prouvera que est inversible dans K, avec comme inverse la conjugaison par h).
+Pour tous points A et B, notons tA,B la translation qui envoie A sur B, puis définissons h par h(M) - (tO,M)(O).
+Alors (puisque est un morphisme) h(O) - O et (tA,B)(h(A)) - h(B) donc (puisque de plus préserve la direction) si B A, h(B) est sur la parallèle à (AB) passant par h(A), c'est-à-dire que h est une dilatation.
+Enfin, h n'est pas constante (sinon on aurait, pour tout M : (tO,M)(O) - h(M) - h(O) - O c'est-à-dire : pour toute translation t, (t) - idP donc - 0).
+Ainsi, h est une dilatation non constante donc bijective et pour toute translation t, les translations hth et (t) sont bien égales puisque pour tout M, (htO,Mh)(O) - (htO,M)(O) - h(M) - (tO,M)(O).
+L'action naturelle de E(P) sur P est bien libre et transitive, ce qui fait de P un espace affine de direction le K-espace vectoriel E(P).
+Théorème - Les sous-espaces affines de dimension 1 du K-espace affine P sont exactement les droites initialement données par la relation d'incidence.
+Démonstration
+Un sous-espace affine de dimension 1 de P est un ensemble de points de la forme (Kt)(O), pour tout point O et toute translation t différente de l'identité. Le point (0t)(O) est simplement id(O) - O. D'après la preuve du théorème précédent, les autres points (t)(O) sont les points de la forme hth(O) - h(A), où h parcourt les homothéties de centre O et où A désigne le point t(O). L'ensemble (Kt)(O) est donc la droite (OA) (au sens de la relation d'incidence) et réciproquement, toute droite s'écrit sous cette forme.
+Enfin, la dimension de P est nécessairement 2, ni plus (d'après le 3e axiome d'incidence), ni moins (d'après le 2e).
+L'éventuelle commutativité du corps K dépend d'un axiome supplémentaire, la propriété de Pappus (version affine) :
+Axiome de Pappus affine : Si les points A1, B1 et C1 sont alignés, de même que les points A2, B2 et C2, et si les droites (B1C2) et (C1B2) sont parallèles, de même que les droites (A1B2) et (B1C2), alors les droites (A1C2) et (C1A2) sont parallèles.
+Plan affine de Pappus
+Un plan affine de Pappus est un plan affine arguésien vérifiant l'axiome de Pappus affine (énoncé ci-contre).
+On suppose les points A1, B1 et C1 alignés, les points A2, B2 et C2 sont également alignés sur une droite sécante avec la précédente en O, et les droites (B1C2) et (C1B2) parallèles, de même que les droites (A1B2) et (B1C2).
+Soit h1 l'homothétie de centre O qui envoie A1 sur B1, et h2, l'homothétie de centre O qui envoie C2 sur B2. On déduit des conditions de parallélisme que h2 h1(A1) - C1 et h1 h2(C2) - A2. Les droites (A1B2) et (B1C2) sont parallèles si et seulement si les deux homothéties de centre O (définies chacune par l'image d'un point distinct de O) h2 h1 et h1 h2 sont identiques, c'est-à-dire si et seulement si le produit des rapports des deux homothéties h1 et h2 est commutatif. Ceci assure l'équivalence (dans un plan affine arguésien) entre la commutativité du corps associé et l'axiome de Pappus, sachant que les cas particuliers de l'axiome non pris en compte sont soit triviaux (points A1, B1, C1 et A2, B2, C2 tous alignés), soit déjà démontrables dans un plan affine arguésien (droite passant par A1, B1 et C1 strictement parallèle à la droite passant par A2, B2, et C2), ainsi que déductibles du cas principal.
+
+Voir aussi
+
+Articles connexes: Plan projectif arguésien; Plan de Moufang (en).

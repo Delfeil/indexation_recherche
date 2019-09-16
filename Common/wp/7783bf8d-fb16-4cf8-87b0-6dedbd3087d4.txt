@@ -1,0 +1,19 @@
+Un tableau de bits (en anglais bitmap) est une structure de données, en particulier un tableau de données binaires. Il s'agit d'une collection ordonnée de bits assimilables à des booléens.
+
+Dénomination
+Certes, l'appellation tableau évoque une grille semblable à celle des mots croisés, mais un tableau de bits peut très bien être en trois dimensions ou plus. Pour autant, le nombre d'éléments étant fini, connu, voire défini, la collection peut être inventoriée selon un chemin parcourant chaque "colonne" et chaque "ligne". Cette polygraphie de l'espace se réduit alors à un seul fil d'Ariane utilisé par Thésée dans le labyrinthe de Dédale. Voici pourquoi, en anglais, les notions de carte (map), de jeu, d'assortiment (set), d'ensemble ou de réseau (array) mais aussi de fil (string) se rencontrent en un seul objet utile à la programmation.
+
+Application
+Une application graphique du tableau de bits est l'image binaire. Le filtre de Bloom, structure de données, utilise un tableau de bits.
+
+Support par les langages de programmation: APL : support natif compact (1 bit par bit) par toutes les implémentations majeures (Dyalog APL, APL2, APL Next, NARS2000, GNU APL, etc.); C : si la taille de la mémoire le permet, la représentation de chaque bit sur un caractère est souhaitable pour des raisons de performance (car l'octet est adressable et en général le bit ne l'est pas). Pour une plus grande compacité, au prix de performances plus faibles, il faut passer par des sous programmes simulant un accès au bit dans un tableau de caractères, en lecture comme en écriture.
+
+Index bitmap
+Un index de base de données de type bitmap est un tableau de bits qui fonctionne selon le principe de la cardinalité. Ce tableau comporte une ligne pour chaque n-uplet de la table indexée et une colonne pour chaque valeur distincte de la colonne indexée. Il est généralement considéré que les index bitmap sont préférables aux autres index lorsque la colonne à indexer a une faible cardinalité même si c'est contesté. Par exemple, les années sont généralement peu nombreuses et ordonnées.
+Exemple. Considérons la table Personne suivante représentant des personnes avec leur année de naissance.
+L'index bitmap correspondant à l'indexation de la colonne anneeNaissance donne le tableau suivant. La première ligne a la valeur 1 pour la colonne 1988 et 0 pour les autres colonnes puisque cette personne est née en 1988.
+L'index bitmap précédent, nommé BIDX-PERS-ANNEE est créé avec la commande :
+CREATE BITMAP INDEX BIDX-PERS-ANNEE ON Personne (anneeNaissance)
+En pratique chaque ligne d'un index bitmap est également associée à une adresse physique permettant ainsi de la retrouver rapidement. Tout l'intérêt des index bitmap est d'une part qu'ils peuvent être compressés en utilisant des techniques telles que le codages par plages et d'autre part qu'ils sont utilisés pour répondre à des requêtes en effectuant des opérations bit à bit.
+
+Voir aussi: Arbre B. Portail de la programmation informatique; Portail des bases de données.

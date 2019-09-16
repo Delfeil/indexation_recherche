@@ -1,0 +1,53 @@
+Cet article fait référence au concept mathématique sur les ensembles. Pour les graphes, voir produit cartésien de graphes.
+En mathématiques, le produit cartésien de deux ensembles X et Y, appelé ensemble-produit, est l'ensemble de tous les couples dont la première composante appartient à X et la seconde à Y. On généralise facilement cette notion, valable pour deux ensembles, à celle de produit cartésien fini, qui est un ensemble de n-uplets dont les composantes appartiennent à n ensembles. La généralisation à un produit cartésien infini nécessite, quant à elle, la notion de fonction.
+Les produits cartésiens doivent leur nom à René Descartes, qui, en créant la géométrie analytique, a le premier utilisé ce que nous appelons maintenant ℝ - ℝ ℝ pour représenter le plan euclidien, et ℝ - ℝ ℝ ℝ pour représenter l'espace euclidien tri-dimensionnel (ℝ désigne la droite réelle).
+
+Produit cartésien de deux ensembles
+
+Définitions: Pour tout ensemble A et tout ensemble B, il existe un ensemble P dont les éléments sont tous les couples dont la première composante appartient à A et la seconde à B :. Cet ensemble est noté A B (lire "A croix B") et est appelé produit cartésien de A par B. Cas particulier : A A est noté A et appelé carré cartésien de A : A 2 - ((x , y) (x A) (y A)). (-displaystyle A(2)--((x,y)(x-in A)-wedge (y-in A)-).) A ne doit pas être confondu avec la diagonale A de A : A - ((x , x) x A). (-displaystyle -Delta -(A)--((x,x)x-in A-).).
+
+Exemple
+Soit A l'ensemble (A, R, D, V, 10, 9, 8, 7, 6, 5, 4, 3, 2). Soit B l'ensemble (pique, coeur, carreau, trèfle). Alors le produit cartésien A B de ces deux ensembles est un jeu classique de 52 cartes, c'est-à-dire l'ensemble : ((A, pique)... (2, pique) , (A, coeur)... (2, coeur) , (A, carreau)... (2, carreau) , (A, trèfle)... (2, trèfle)).
+Propriétés: Le produit cartésien d'un ensemble par l'ensemble vide est égal à l'ensemble vide, c'est-à-dire que pour tout ensemble A (-displaystyle A) : A - A -. (-displaystyle -varnothing -times A-A-times -varnothing --varnothing.) ; Si A et B ont des cardinaux finis, alors le cardinal de A B est égal au produit des cardinaux de A et de B.; En règle générale, B A A B. Plus précisément, pour deux ensembles quelconques A et B : (A B B A) ((A B) (A) (B)). (-displaystyle (A-times B-neq B-times A)-Leftrightarrow ((A-neq B)-wedge (A-neq -varnothing)-wedge (B-neq -varnothing)).) ; Un couple d'éléments distincts n'appartient jamais à la diagonale d'un ensemble.; Le produit cartésien de deux ensembles est unique d'après l'axiome d'extensionnalité. Si on considère couples et produits cartésiens comme des notions primitives, on aura comme axiome cette propriété d'existence et d'unicité. Elle se démontre, en théorie des ensembles ZFC, pour la représentation des couples choisie.
+
+Représentation en théorie des ensembles
+En théorie des ensembles, si on choisit, comme usuellement, la représentation des couples de Kuratowski, les couples dont la première composante est dans A et la seconde dans B sont des éléments de P(P(AB)) (où P(E) désigne l'ensemble des parties de E). L'existence de cet ensemble résulte de l'axiome de la réunion et de l'axiome de l'ensemble des parties.
+On peut par conséquent définir le produit cartésien par compréhension. On aura alors besoin des couples et donc, en plus des axiomes précédents, de l'axiome de la paire et du schéma d'axiomes de compréhension :
+On peut aussi définir le produit cartésien en utilisant, au lieu de l'ensemble des parties, deux fois le schéma d'axiomes de remplacement : une fois pour A (b) et une autre fois pour :
+
+Représentation en théorie des catégories
+Se donner une application d'un ensemble X dans le produit cartésien AB de deux ensembles A et B revient à se donner deux applications : l'une de X dans A et l'autre de X dans B. Plus formellement : l'ensemble AB, muni des deux projections p 1 : A B A , (a , b) a (-displaystyle p-(1):A-times B-to A,(a,b)-mapsto a) et p 2 : A B B , (a , b) b (-displaystyle p-(2):A-times B-to B,(a,b)-mapsto b), est caractérisé à un isomorphisme canonique près par la propriété universelle suivante : pour tout ensemble X et toutes applications f 1 : X A (-displaystyle f-(1):X-to A) et f 2 : X B (-displaystyle f-(2):X-to B), il existe une unique application f : X A B (-displaystyle f:X-to A-times B) telle que f 1 - p 1 f (-displaystyle f-(1)-p-(1)-circ f) et f 2 - p 2 f (-displaystyle f-(2)-p-(2)-circ f). On résume cette propriété universelle en disant que (A B , p 1 , p 2) (-displaystyle (A-times B,p-(1),p-(2))) est le produit de A et B dans la catégorie des ensembles.
+
+Généralisation à plus de deux ensembles
+
+Triplets
+Comme pour les couples, l'important, c'est leur propriété fondamentale : deux triplets sont égaux si et seulement si leurs premières composantes sont égales entre elles, puis leurs deuxièmes composantes, et enfin leurs troisièmes : a , b , c , d , e , f , ((a , b , c) - (d , e , f)) ((a - d) (b - e) (c - f)) (-displaystyle -forall a,-forall b,-forall c,-forall d,-forall e,-forall f,(-,(a,b,c)-(d,e,f)-,)-Leftrightarrow (-,(a-d)-wedge (b-e)-wedge (c-f)-,)).
+Là encore, cette propriété ne suffit pas à définir la notion de triplet, et là encore, plusieurs définitions incompatibles entre elles sont possibles a priori. On pose habituellement : a , b , c , (a , b , c) - ((a , b) , c) (-displaystyle -forall a,-forall b,-forall c,(a,b,c)-((a,b),c)).
+
+Produit cartésien de trois ensembles
+Il est défini par : A B C - ((a , b , c) (a A) (b B) (c C)) (-displaystyle A-times B-times C--left-((a,b,c)(a-in A)-wedge (b-in B)-wedge (c-in C)-right-)).
+D'après ce qui précède, A B C - (A B) C. Là encore l'ordre des termes est important. Le produit A A A est appelé cube cartésien de A et il est noté A (lire "A au cube") :
+
+n-uplets
+Les définitions précédentes se généralisent par récurrence : Propriété fondamentale d'un n-uplet :. (a 1 , a 2 ,.. a n) , (b 1 , b 2 ,.. b n) , ((a 1 , a 2 ,.. a n) - (b 1 , b 2 ,.. b n)) ((a 1 - b 1) (a 2 - b 2)... (a n - b n)) (-displaystyle -forall -left(a-(1),a-(2),-cdots ,a-(n)-right),-forall -left(b-(1),b-(2),-cdots ,b-(n)-right),-quad (-,(a-(1),a-(2),-cdots ,a-(n))-(b-(1),b-(2),-cdots ,b-(n))-,)-Leftrightarrow (-,(a-(1)-b-(1))-wedge (a-(2)-b-(2))-wedge -cdots -wedge (a-(n)-b-(n))-,)). Définition d'un n-uplet :. (a 1 , a 2 ,.. a n) , (a 1 , a 2 ,.. a n 1 , a n) - ((a 1 , a 2 ,.. a n 1) , a n) (-displaystyle -forall -left(a-(1),a-(2),-cdots a-(n)-right),-quad (a-(1),a-(2),-cdots ,a-(n-1),a-(n))-((a-(1),a-(2),-cdots ,a-(n-1)),a-(n))). Produit cartésien de n ensembles :. A 1 A 2... A n 1 A n - (A 1 A 2... A n 1) A n (-displaystyle A-(1)-times A-(2)-times -cdots -times A-(n-1)-times A-(n)-(A-(1)-times A-(2)-times -cdots -times A-(n-1))-times A-(n)). Puissance cartésienne n-ième d'un ensemble :. A n - A n 1 A - i - 1 n A - ((x 1 , x 2 ,.. x n) i , x i A) (-displaystyle A(n)-A(n-1)-times A--prod -(i-1)(n)A--((x-(1),x-(2),-cdots x-(n))-,-forall i,x-(i)-in A-,-)).
+
+Produits infinis
+On peut généraliser la notion de produit cartésien à celle de produit d'une famille d'ensembles indexée par un ensemble quelconque, fini ou infini.
+Bien que plus générale, cette notion peut difficilement être introduite en théorie des ensembles avant celle de produit cartésien binaire, du moins naturellement, car elle fait appel à la notion de fonction, qui utilise à son tour justement celle de couple, et donc de produit cartésien binaire.
+
+Famille d'ensembles
+Une famille A d'ensembles indexée par un ensemble I est une fonction définie sur I. L'image de i par A est notée Ai. Il s'agit juste d'une notation (adaptée à un certain usage) pour une construction connue. La famille A indexée par I sera plutôt notée (Ai)iI.
+
+Produit cartésien d'une famille d'ensembles
+On peut maintenant définir le produit cartésien d'une famille d'ensembles (Ai)iI, que l'on note habituellement i I A i (-displaystyle -prod -(i-in I)A-(i)), ou parfois i I A i (-displaystyle -times -(i-in I)A-(i)).
+Il s'agit de l'ensemble des fonctions f de I dans la réunion de la famille, telles que pour tout i dans I, f(i) appartienne à Ai : i I A i - (f : I i I A i i , f (i) A i) (-displaystyle -prod -(i-in I)A-(i)--left-(-left.f:I-to -bigcup -(i-in I)A-(i)- -right- -forall - i,-,f(i)-in A-(i)-right-)). Pour utiliser cette définition, il faut pouvoir extraire d'un élément du produit sa composante d'indice j, élément de I. Pour cela, on définit pour tout j dans I, la fonction appelée j-ème projection, j : i I A i A j , f f (j). (-displaystyle -pi -(j):-prod -(i-in I)A-(i)-to A-(j),-quad f-mapsto f(j).) ; On peut définir plus généralement, pour toute partie J de I, la "projection d'indice J", à valeurs dans le "produit partiel" indexé par J : J : i I A i i J A i , f (f (i)) i J. (-displaystyle -pi -(J):-prod -(i-in I)A-(i)-to -prod -(i-in J)A-(i),-quad f-mapsto (f(i))-(i-in J).) (Si J est un singleton (j), le produit partiel indexé par J est en bijection canonique avec Aj.); On peut énoncer l'axiome du choix ainsi : le produit d'une famille d'ensembles non vides est non vide.; Le produit d'une famille d'ensembles indexée par l'ensemble vide est, d'après la définition ci-dessus, le singleton dont l'unique élément est la fonction vide de dans.
+
+Lien avec le produit de deux ensembles
+Soient A et B deux ensembles. Pour toute paire I - (,) (par exemple - et -), on a une bijection canonique entre le produit AB des deux ensembles et le produit de la famille (Ai)iI définie par A - A et A - B, en associant à tout couple (x, y) de AB l'élément f défini par f - x et f - y.
+
+Associativité
+Soient (Ai)iI une famille d'ensembles et (Jk)kK une partition de I. L'application canonique
+est bijective.
+Par récurrence, le produit de n ensembles s'identifie ainsi au produit d'une famille indexée par (1, 2,.. n).
+
+Articles connexes: Produit vide; Relation binaire; Réunion disjointe ou "somme cartésienne". Portail des mathématiques.

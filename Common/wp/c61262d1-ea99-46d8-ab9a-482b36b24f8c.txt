@@ -1,0 +1,25 @@
+Network File System (ou NFS), pour système de fichiers en réseau, est à l'origine un protocole développé par Sun Microsystems en 1984 qui permet à un ordinateur d'accéder via un réseau à des fichiers distants. Il fait partie de la couche application du modèle OSI et utilise le protocole RPC.
+Ce système de fichiers en réseau permet de partager des données principalement entre systèmes UNIX. Des versions existent pour Macintosh ou Microsoft Windows.
+NFS est compatible avec IPv6 sur la plupart des systèmes.
+
+NFS versions 1, 2 et 3
+Les versions 1 et 2 sont non sécurisées, prévues pour fonctionner sur UDP.
+La version 3 est étendue pour prendre en charge TCP.
+Dans ces versions, la gestion de la sécurité reste élémentaire et souffre d'importantes lacunes. Le système est sans état (stateless) et ne permet pas la reprise sur incidents.
+
+NFSv4
+Inspirée d'AFS la version 4 du protocole marque une rupture totale avec les versions précédentes. L'ensemble du protocole est repensé, et les codes sont réécrits. Il s'agit d'un système de fichiers objet.
+Imaginée pour répondre aux besoins d'Internet, NFSv4 intègre : Une gestion totale de la sécurité : Négociation du niveau de sécurité entre le client et le serveur; Sécurisation simple, support de kerberos5, certificats SPKM et LIPKEY; Chiffrement des communications possible (kerberos 5p par exemple).; Négociation du niveau de sécurité entre le client et le serveur; Sécurisation simple, support de kerberos5, certificats SPKM et LIPKEY; Chiffrement des communications possible (kerberos 5p par exemple); Support accru de la montée en charge : Réduction du trafic par groupement de requêtes (compound); Délégation (le client gère le fichier en local).; Réduction du trafic par groupement de requêtes (compound); Délégation (le client gère le fichier en local); Systèmes de maintenances simplifiés : Migration : le serveur NFS est migré de la machine A vers la machine B de manière transparente pour le client; Réplication : le serveur A est répliqué sur la machine B.; Migration : le serveur NFS est migré de la machine A vers la machine B de manière transparente pour le client; Réplication : le serveur A est répliqué sur la machine B; Reprise sur incidents: La gestion de la reprise sur incident est intégrée du côté client et du côté serveur.; La gestion de la reprise sur incident est intégrée du côté client et du côté serveur.; Compatibilité : NFSv4 peut être utilisé sous Unix et sous MS-Windows. Il est disponible sur Mac depuis Mac OS X Lion (10.7).; NFSv4 peut être utilisé sous Unix et sous MS-Windows. Il est disponible sur Mac depuis Mac OS X Lion (10.7).; Support de plusieurs protocoles de transports (TCP, RDMA).
+Cependant ces améliorations de NFSv4 rendent NFSv4 incompatible avec NFSv3. Notamment, la reprise sur incident et la délégation impliquent que NFSv4 soit un serveur à état (statefull), non compatible avec les précédentes versions. De plus, NFSv4 n'est pas prévu pour pouvoir utiliser le protocole UDP.
+NFSv4 suppose l'utilisation d'UTF-8, pour les noms de fichiers, sans la contraindre.
+Pour toutes ces raisons il est hautement préférable d'utiliser NFSv4 plutôt que NFSv3, dans la mesure où une migration totale est possible.
+
+NFSv4.1
+La version 4.1 de NFS a été publiée dans le RFC 5661 en janvier 2010. Cette version issue de NFSv4 est inspirée de pNFS et de Lustre, ainsi que des protocoles internet tels que HTTP. Elle tire parti de la conception objet du protocole. La notion de géométrie de fichier et celle de segments de fichier sont désormais abstraites : elles peuvent être parallélisées ou utiliser des chemins multiples vers les données. L'utilisation de fichiers essentiellement creux est optimisée. Le transport de données est également abstrait, et est maintenant indépendant non seulement de TCP mais aussi de IP. La notion de session fait son apparition. Délégation par répertoires; Sessions : la session d'un utilisateur peut être interrompue et rétablie. Simplification du support du failover.; Abstraction des protocoles de transports, indépendance de IP et de TCP.; Simplification du support du failover.; Abstraction des protocoles de transports, indépendance de IP et de TCP.; Abstraction de la géométrie de fichiers : Parallélisation des accès aux fichiers (Striping).; Parallélisation des accès aux fichiers (Striping).
+La version 4.2 est en développement et de nouvelles révisions du standard sont régulièrement proposées bien qu'une version finale ne soit pas attendue avant plusieurs années.
+
+Voir aussi
+
+Articles connexes
+Systèmes de fichiers réseaux non parallèles : AFS, Samba.
+Systèmes de fichiers parallélisés : Lustre, GPFS; Portmap : daemon nécessaire pour que NFSv2 et NFSv3 fonctionnent.

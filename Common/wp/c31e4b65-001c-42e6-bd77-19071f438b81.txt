@@ -1,0 +1,24 @@
+En informatique, le POP (Post Office Protocol, littéralement "protocole de bureau de poste"), est un protocole qui permet de récupérer les courriers électroniques situés sur un serveur de messagerie électronique. En dehors d'un paramétrage spécifique, POP se connecte au serveur de messagerie, s'authentifie, récupère le courrier, "peut" effacer le courrier sur le serveur, et se déconnecte.
+Ce protocole a été réalisé en plusieurs versions; respectivement POP1, POP2 et actuellement POP3.
+Cette opération transite sur un réseau TCP-IP et utilise le protocole de transfert TCP via le port 110. Ce protocole est défini par la RFC 1939.
+POP3S (POP3 over SSL) - ou POPS -) permet de chiffrer la communication avec le serveur au moyen de TLS. Ce protocole est défini par la RFC 2595. Selon cette dernière, l'usage d'un port spécifique pour ces communications chiffrées (initialement TCP 995 avec le chiffrement SSL) est maintenant déconseillé.
+L'opération inverse, c'est-à-dire la remise de courrier à un serveur afin qu'il soit distribué, s'effectue généralement avec un autre protocole: SMTP.
+
+Commandes
+Pour récupérer les courriers électroniques, on peut : soit utiliser un client de messagerie, qui le fait automatiquement et qui cache les commandes ;; soit directement utiliser les commandes POP3 de manière interactive.
+Voici un exemple de connexion du protocole POP3 sur un interpréteur de commandes :
+Tout d'abord, il faut se connecter au serveur : telnet nom-du-serveur 110; exemple : telnet mail.altern.org 110.
+Ensuite, il faut s'identifier et s'authentifier : USER nom-de-votre-compte (généralement, ce qui se trouve avant le "@" de l'adresse électronique); PASS mot-de-passe (le mot de passe pour accéder à la boîte de courrier).
+Puis, il est possible d'utiliser l'une des commandes POP3 listées ci-dessous.
+
+Commandes principales: DELE numéro-du-message : efface le message spécifié ;; LIST : donne une liste des messages ainsi que la taille de chaque message : un numéro suivi de la taille en octets ;; RETR numéro-du-message : récupère le message indiqué ;; STAT : indique le nombre de messages et la taille occupée par l'ensemble des messages ;; TOP numéro-du-message nombre-de-lignes : affiche les premières lignes du message.
+
+Autres commandes POP3: APOP : permet une authentification sécurisée (le mot de passe ne transite pas en clair) ;; NOOP : ne rien faire, utile pour ne pas perdre la connexion et éviter un "délai d'attente dépassé" ;; QUIT : quitter la session en cours ;; RSET : réinitialise complètement la session ;; UIDL : affiche (pour un seul ou pour tous les messages) un identifiant unique qui ne varie pas entre chaque session ;; CAPA : affiche les informations du serveur.
+
+Exemple de dialogue
+Dans cet exemple, le support par le serveur de la commande APOP est annoncé par la chaîne 1896.697170952@dbc.mtview.ca.us et 682949bee6805d9b611b82395e342cad est l'empreinte MD5 de la chaîne 1896.697170952@dbc.mtview.ca.usmrosepass :
+Certains anciens serveurs POP3 sans APOP acceptent un login USER et PASS en clair :
+
+Voir aussi
+
+Articles connexes: Internet; IMAP; SMTP.

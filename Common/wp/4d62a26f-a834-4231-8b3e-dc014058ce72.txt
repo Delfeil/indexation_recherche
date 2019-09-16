@@ -1,0 +1,62 @@
+Un point de vente (ou lieu de vente, ou espace de vente) est un lieu spécifiquement organisé en vue de recevoir un public et de lui proposer une offre de biens et-ou de services. Ceci en vue de réaliser dans les meilleurs conditions toutes opérations de promotion et de vente associées. L'évolution des pratiques oblige aujourd'hui : d'avoir une conception élargie de la notion de point de vente. Outre les points de vente du commerce classique, font aujourd'hui aussi partie des points de vente :. - des lieux matériels comme les réseaux des agences bancaires, des compagnies d'assurance, des opérateurs téléphoniques, des gares SNCF, etc. - des lieux virtuels comme les sites en ligne pilotés par des opérateurs commerciaux ou les producteurs désireux de développer des relations directes avec leur clientèle. de ne pas ignorer l'existence du Commerce non sédentaire ainsi que l'importance croissante des pratiques commerciales effectuées :. - en l'absence de point de vente : Vente directe, Vente par Correspondance (VPC), E-Commerce... - avec des points de vente minimalistes : Points de vente "Drive", Distributeurs automatiques...
+
+Généralités
+Plusieurs dimensions sont à prendre en compte pour la gestion opérationnelle courante du point de vente, mais aussi à l'occasion de sa création, de son extension ou de sa revente.
+
+Caractéristiques basiques du point de vente
+Selon U.Brassart et JM Panazol, trois types de caractéristiques définissent un point de vente particulier : 1) Un concept, soit "la description générale des principaux éléments qui le caractérisent : Type du point de vente, enseigne, offre-produits, cible visée, méthode de vente, positionnement, architecture extérieure et intérieure."; 2) Une zone de chalandise, soit "la zone territoriale au sein de laquelle se trouve la majorité, sinon la totalité de la clientèle du point de vente."; 3) Un personnel, comprenant des personnes au contact direct de la clientèle ou en position d'arrière plan où elles contribuent à l'organisation et à la réalisation des prestations du point de vente.
+
+Localisation du point de vente: L'emplacement d'un point de vente est l'un des facteurs-clé de son succès. Sauf pour les points de vente distribuant des produits ou des services de première nécessité, la performance d'un point de vente dépend : - de la zone de chalandise permise par cette localisation; - du fait que le voisinage d'autres points de vente (rue commerçante, rue passante, rue piétonne, marché, halles, etc.) accentue son attractivité; - ou de l'existence à proximité de lieux plutôt fréquentés (par ex. gare, équipement public, station de métro, site touristique, etc.). Certains regroupements de points de vente peuvent être organisés pour maximiser l'attractivité et la fréquentation :. - Centre commercial régional ou de proximité : réunion de plusieurs points de vente (de 20 à 200) autour d'une ou de plusieurs "locomotives" (grandes surfaces, hypermarché, grand magasin...). - Galerie marchande : allée marchande réservée aux piétons et leur facilitant l'accès aux magasins s'ouvrant sur cette allée.
+Point de vente et Urbanisme commercial
+
+Typologie détaillée
+Les PDV sont classés en fonction de leur taille et de leur offre.
+
+Points de vente à dominante alimentaire
+
+Magasin traditionnel: surface de vente inférieure à 100 m2; offre spécialisée : assortiment réduit, étroit et peu profond; ex : petits commerces de proximité.
+
+Supérette: surface de vente inférieure à 400 m2; offre généraliste : assortiment restreint, large et superficiel; ex : Franprix, G20.
+
+Discounter: surface de vente inférieure à 1 000 m2; offre généraliste : assortiment restreint, large et superficiel; ex : Lidl, Aldi.
+
+Supermarché: surface de vente comprise entre 400 m2 et 2 500 m2; offre généraliste : assortiment généraliste, ample, large mais superficiel; ex : Intermarché, Carrefour market.
+
+Hypermarché: surface de vente supérieure à 2 500 m2; offre multispécialiste : assortiment ample, large et profond; ex : Carrefour, Géant Casino, Auchan.
+
+Points de vente à dominante non alimentaire
+
+Magasin traditionnel: surface de vente inférieure à 100 m2; offre spécialisée : assortiment restreint, étroit et peu profond; ex : commerces de proximités, boutiques.
+
+Grands Magasins: surface de vente comprise entre 2 500 et 40 000 m2; offre multispécialiste : assortiment ample, large et profond; ex : Printemps, Galeries Lafayette, BHV (Bazar de l'Hôtel de Ville).
+
+Magasins populaires: surface de vente comprise entre 600 et 2 000 m2; offre généraliste : assortiment ample, large et superficiel; ex : Prisunic, Monoprix.
+
+GSS (Grandes surfaces spécialisées)
+qui peuvent se décliner par domaine : Bricolage (GSB) ou Jardineries ou Sport... surface de vente supérieure à 1 000 m2; offre spécialisée : Large et très profond; ex: Castorama, Boulanger, IKEA, Décathlon.
+
+Autres "lieux de vente"
+
+Commerce non sédentaire: démarchage; E-commerce; Salon (événementiel); Système de Troc ou d'échange solidaire; Vente à domicile; Vente à la sauvette; Vente ambulante; Vente aux enchères; Vente en tournée.
+
+Autres modes de vente: Dépôt-vente; Foire (économie); Magasin d'usine; Magasin d'usines; Marché aux puces; Magasin de soldes; Vente à emporter; Vente à la ferme; Vente en laisser sur place; Vente directe; Vente à la criée; Village de marques.
+
+Performance du Point de Vente
+La performance d'un point de vente se calcule généralement par: les ventes au pied carré ou au mètre carré; les marges au pied carré ou au mètre carré; les ventes à l'heure par vendeur; les ventes par jour par vendeur.
+
+Performance commerciale
+
+Performance financière
+
+Organisation du Point de Vente
+(à compléter)
+
+Terminal de point de vente
+On désigne par terminal de point de vente un ensemble comprenant une base PC équipée d'un système d'exploitation et de logiciels de gestion de commerce (restaurant, caisse, stock, etc.), relié à une caisse automatique guidée par logiciel et une imprimante thermique à tickets.
+
+Logiciel de gestion de point de vente
+On trouve divers logiciels pour la gestion de points de vente ; parmi les logiciels libres, on peut citer Pastèque.
+
+Voir aussi
+
+Articles connexes: Commerce; Local commercial.

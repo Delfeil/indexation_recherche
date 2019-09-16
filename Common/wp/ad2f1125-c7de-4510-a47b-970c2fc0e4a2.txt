@@ -1,0 +1,2 @@
+Apache Tika est un toolkit développé par la fondation Apache qui permet de détecter, d'extraire des métadonnées, et de structurer le contenu textuel de nombreux types de documents (gzip, mid, pdf, tar, zip,...).
+Ce projet dépendant de l'Apache Software Foundation, était auparavant un sous-projet de Apache Lucene.

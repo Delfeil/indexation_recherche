@@ -1,0 +1,24 @@
+En mathématiques, un drapeau d'un espace vectoriel E de dimension finie est une suite finie strictement croissante de sous-espaces vectoriels de E, commençant par l'espace nul (0) et se terminant par l'espace total E :
+Si n est la dimension de E, les dimensions successives des sous-espaces Ei forment une suite finie strictement croissante d'entiers naturels :
+Si di - i pour tout i (donc entre autres si k - n), alors le drapeau est dit total ou complet.
+
+Base adaptée à un drapeau
+À toute base (e1,.. en) de l'espace E de dimension n est associé un drapeau total, constitué des espaces successivement engendrés : E 1 - V e c t (e 1) , E 2 - V e c t (e 1 , e 2) ,.. (-displaystyle E-(1)-(-rm (Vect))(e-(1)),- E-(2)-(-rm (Vect))(e-(1),e-(2)),-ldots)
+Exemple : si E est l'espace ℝm(X) des polynômes de degré inférieur ou égal à m, sa base canonique est (1, X, X,.. Xm) et sa dimension est n - m + 1. L'espace E0 - (0) et les espaces
+Ei + 1 - ℝi(X) successifs pour i allant de 0 à m constituent un drapeau total de E.
+Réciproquement, un drapeau total possède plusieurs bases adaptées. On les obtient en choisissant des vecteurs ei tels que ei appartient à Ei mais pas à Ei - 1.
+
+Drapeau stable par un endomorphisme
+Si u est un endomorphisme de E, on dit que le drapeau est stable par u si chaque Ei est stable par u : i (1 ,.. n) , u (E i) E i. (-displaystyle -forall i-in -(1,-ldots ,n-),-,u(E-(i))-subset E-(i).)
+Par exemple, si l'on reprend pour E l'espace ℝm(X) et le drapeau formé des espaces ℝi(X) successifs, un endomorphisme laisse stable ce drapeau à condition de diminuer (au sens large) le degré des polynômes. C'est le cas des endomorphismes de dérivation (P donne P'), de translation (P donne P(X + 1)), etc.
+
+Théorème de trigonalisation utilisant les drapeaux
+Soit E un espace vectoriel de dimension finie. Un endomorphisme u de E est trigonalisable si et seulement s'il existe un drapeau total de E stable par u.
+
+Les drapeaux dans le cadre euclidien
+Lorsque E est un espace euclidien, le procédé de Gram-Schmidt permet, à partir d'une base adaptée à un drapeau total de E, d'obtenir une base orthonormale adaptée à ce même drapeau.
+Si l'on combine avec la propriété précédente, on constate que tout endomorphisme trigonalisable peut être trigonalisé dans une base orthonormale.
+
+Voir aussi
+
+Articles connexes: Variété de drapeaux; Filtration; Théorème de Jordan-Hölder; Polynômes orthogonaux.

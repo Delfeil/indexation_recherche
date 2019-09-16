@@ -1,0 +1,42 @@
+Xerox est une entreprise américaine, basée dans le Connecticut, principalement reconnue comme étant l'inventeur du photocopieur xérographique (sur papier ordinaire) et le premier fabricant d'imprimantes. Son laboratoire, le PARC, inventa les interfaces à fenêtres.
+
+Histoire
+
+Au XX siècle
+
+Les photocopieurs, puis l'informatique
+C'est à la fin des années 1940 qu'une petite manufacture de produits photographiques de Rochester (New York) du nom de Haloid décide d'exploiter l'invention faite 10 ans plus tôt par Chester Carlson, la xérographie. La conception du premier photocopieur, le XeroX Model A, et le succès des modèles suivants amènent la compagnie à changer son nom en 1958 pour Haloid Xerox, puis le 18 avril 1961, devenant simplement Xerox. Le dernier X de Xerox fut ajouté à l'origine pour donner au nom un aspect similaire à celui d'une autre entreprise célèbre de Rochester, Kodak.
+L'essor de Xerox provient principalement de son exploitation du brevet de reproduction xérographique, permettant la photocopie de documents sur papier ordinaire. Ce brevet lui en donnant une exploitation exclusive du procédé sur vingt ans, elle s'est d'emblée organisée pour survivre au-delà de cet horizon prévisible.
+Xerox a pour cette raison toujours consacré une large place à la diversification et à l'innovation, bien que ne sachant pas toujours comment rentabiliser ses acquisitions, ni retenir leurs meilleurs éléments, ni commercialiser ses inventions. On peut suspecter que la marge très importante que souhaitait conserver la compagnie a conduit ses produits informatiques pourtant révolutionnaires (Alto, Star) à ne pas s'imposer sur le marché.
+En 1972, au centre de recherche Xerox à Palo Alto - le Xerox PARC - Alan Kay et l'équipe d'Adele Goldberg inventent en effet : le langage smalltalk, qui pousse la programmation objet bien au-delà du langage pionnier Simula 67; le réseau ethernet permettant la communication indifférenciée d'ordinateurs et de périphérique dans un réseau unique; l'interface graphique moderne et les icônes qui peuvent être contrôlées par la souris, inventée en 1963 par Douglas Engelbart.
+Ces idées seront exploitées dans des machines expérimentales comme l'Alto, plus tard commerciales comme le Star. Mais ces machines révolutionnaires sont à la fois trop chères et trop lentes avec les technologies et les coûts de l'époque (voir loi de Moore).
+
+Xerox et Apple
+En novembre 1979 a lieu la visite d'une équipe Apple autour de Jobs au PARC. Des trois techniques présentées (qui ne sont pas encore des technologies), Jobs avouera trente ans plus tard en avoir négligé deux, fasciné qu'il était par la seule interface graphique. La possibilité de manipuler visuellement les informations contenues dans un ordinateur est encore très nouvelle à l'époque. Pour Jobs, c'est la révélation, il vient de trouver la pièce manquante : l'OS doit être masqué pour l'utilisateur, via une interface graphique.
+Il retourne au PARC le mois suivant, cette fois-ci accompagné de plusieurs membres de l'équipe de direction, et convainc les responsables du Parc de laisser Apple utiliser la technologie. "il leur a expliqué directement qu'ils avaient une technologie géniale, mais que Apple saurait la rendre suffisamment abordable pour changer le monde", expliqua Steve Wozniak (cofondateur d'Apple). Il n'y aura pourtant pas de partenariat : Apple se contentera d'implémenter ces idées de son côté, puis plus tard de recruter quelques-uns des chercheurs du PARC.
+Les idées du PARC essaimèrent alors dans ce qu'on a nommé l'informatique alternative (Apple, GEM, Atari, Amiga... mais aussi le Modula Computer de Niklaus Wirth), et furent chez Xerox à l'origine de stations de PAO.
+Jobs a convaincu les responsables de Xerox, qui ne prenaient pas les recherches du PARC très au sérieux, de laisser Apple développer ce que la direction considérait comme un simple gadget. Un accord est d'ailleurs signé et Xerox investit un million de dollars en actions Apple. En revanche, alors que Xerox se soucie peu de défendre ses droits, Apple sera impitoyable sur tout ce qui ressemble trop à l'interface "Apple".
+En 1990 la société Xerox intente un procès à Apple pour violation du Copyright, Xerox affirmant que certains éléments du Macintosh, dont l'interface graphique, auraient été copiés sans accord préalable.
+En 1993, Xerox installe son centre de recherche européen dans l'Inovallée, près de Grenoble.
+
+Rank Xerox
+Créée en 1956 comme une co-entreprise avec la société cinématographique The Rank Organisation, Rank Xerox était le nom de la filiale européenne de Xerox, étendue par la suite à l'Asie et l'Afrique.
+Le nom de Rank Xerox n'est plus utilisé depuis 1997, à la suite du rachat par Xerox des 20 % de parts détenus par Rank dans la co-entreprise.
+Imprimante A4 noir et blanc Xerox Phaser 4600, 52 pages par minute, sans l'option recto verso.
+Années 2000
+Nommée Présidente-directrice générale de Xerox en août 2001, Anne Mulcahy exercera ses fonctions jusqu'en juillet 2009.
+En juin 2002, l'entreprise a dû reconnaître avoir manipulé les chiffres de sa comptabilité. La manipulation concernerait 1,9 milliard de dollars, et se serait surtout pratiquée en Amérique latine. La presse compare cet épisode dans la vie de Xerox avec ceux des sociétés Enron, qui a fait faillite après des manipulations comptables entraînant le cabinet d'audit Arthur Andersen, et WorldCom.
+En 2009, Xerox annonce l'acquisition pour 5,5 milliards de dollars d'Affiliated Computer Services (ACS), une entreprise américaine spécialisée dans les services informatiques, et l'outsourcing.
+
+Années 2010
+En décembre 2014, Atos acquiert pour 1,05 milliard de dollars, soit 840 millions d'euros, une partie de l'activité d'outsourcing informatique de Xerox, acquise via l'achat de ACS, cette activité regroupant près de 10 000 employés.
+En janvier 2016, Xerox annonce sa future scission entre deux entités, l'une dédiée aux services, appelée Conduent et l'autre au matériel, qui garde la marque Xerox. Cette scission est effectué en janvier 2017, Xerox n'a alors plus qu'environ 40 000 employés, contre plus de 90 000 pour Conduent.
+
+Identité visuelle (logotype):
+Logo de Rank Xerox utilisé de 1968 à 1997.;
+Logo de Xerox utilisé de 1997 à 2008.;
+Logo de Xerox depuis 2008.
+
+Voir aussi
+
+Articles connexes: Électrophotographie; Xerox PARC; Xerox DocuShare; Xerox 914.

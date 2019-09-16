@@ -1,0 +1,20 @@
+La reconnaissance de formes (ou parfois reconnaissance de motifs) est un ensemble de techniques et méthodes visant à identifier des motifs informatiques à partir de données brutes afin de prendre une décision dépendant de la catégorie attribuée à ce motif. On considère que c'est une branche de l'intelligence artificielle qui fait largement appel aux techniques d'apprentissage automatique et aux statistiques.
+Le mot forme est à comprendre dans un sens très général, pas seulement celui de "forme géométrique" mais plutôt de motifs qui peuvent être de natures très variées. Il peut s'agir de contenu visuel (code barre, visage, empreinte digitale...) ou sonore (reconnaissance de parole), d'images médicales (rayon X, EEG, IRM...) ou multispectrales (images satellitaires) et bien d'autres.
+
+Méthodes
+La reconnaissance de motifs peut être effectuée au moyen de divers algorithmes d'apprentissage automatique tels : un réseau de neurones ;; une analyse statistique ;; l'utilisation de modèles de Markov cachés ;; une recherche d'isomorphisme de graphes ou sous-graphes.
+Les formes recherchées peuvent être des formes géométriques, descriptibles par une formule mathématique, telles que : cercle ou ellipse ;; courbes de Bézier, splines ;; droite.
+Elles peuvent aussi être de nature plus complexe : lettre ;; chiffre ;; empreinte digitale.
+Les algorithmes de reconnaissance peuvent travailler sur des images en noir et blanc, avec en blanc les contours des objets se trouvant dans l'image. Ces images sont le fruit d'algorithmes de détection de contours. Ils peuvent aussi travailler sur des zones de l'image prédéfinies issues de la segmentation de l'image.
+Méthodes de reconnaissance de formes : Mise en correspondance de graphes ;; Méthode bayésienne ;; Estimation paramétrique ;; Classifieur linéaire ;; Réseau de neurones ;; Local feature focus ;; Support vector machine (SVM);; Polytopes de contrainte ;; Méthode des hypercubes.
+Un algorithme bien connu pour la détection de formes, la transformée de Hough, est une méthode d'estimation paramétrique.
+
+Méthode globale
+Cette méthode caractérise une forme et extrait des paramètres caractéristiques de l'objet et les comparent par une méthode de classification ou de mise en correspondance à une base d'apprentissage. Par cette méthode, il est impossible d'extraire plusieurs formes de la même image sans pré-traitement.
+
+Méthode multiple à partir de point d'intérêt
+Dans cette approche, on extrait des points caractéristiques d'objets comme les coins via les détecteurs de Harris puis on extrait des caractéristiques aux voisinage de ce point. Avec ces caractéristiques, il est possible d'extraire plusieurs objets et de faire la reconnaissance de ceux-ci via un classifieur.
+
+Applications: Jeu de go par ordinateur; Reconnaissance vocale; Recherche d'images par le contenu; Classification de documents; Reconnaissance de l'écriture manuscrite; Reconnaissance optique de caractères.
+
+Articles connexes: Extraction de caractéristique en vision par ordinateur.

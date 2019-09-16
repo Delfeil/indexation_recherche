@@ -1,0 +1,17 @@
+En mathématiques, un corps gauche est une des structures algébriques utilisées en algèbre générale. C'est un ensemble muni de deux opérations binaires rendant possibles certains types d'additions, de soustractions, de multiplications et de divisions. Plus précisément, un corps est un anneau "en principe" non commutatif dans lequel l'ensemble des éléments non nuls est un groupe "en principe" non commutatif pour la multiplication.
+
+Remarque sur la terminologie
+Lorsqu'on ne pose aucune hypothèse sur la commutativité de la multiplication, un anneau dans lequel la division est possible est dénommé corps dans la littérature mathématique en langue française (on rencontre aussi, rarement, anneau à division, traduction de l'anglais division ring). Un corps où la multiplication est commutative est appelé "corps commutatif", un corps où elle ne l'est pas est appelé "corps non commutatif".
+Néanmoins, l'allemand Körper (en anglais Field) se traduit en français par "corps commutatif" et non "corps". Les ouvrages en français, traduits de langues étrangères ou non, choisissent souvent la facilité d'expression consistant à utiliser "corps" comme abréviation de "corps commutatif". De ce fait, une ambiguïté peut exister lorsqu'on considère un fragment mathématique en dehors de son contexte.
+En pratique, les techniques d'étude des corps commutatifs et des corps non commutatifs se différencient très nettement. Le présent article a pour parti pris d'étudier les corps gauches, ceux où la multiplication est "en principe" non commutative - on n'exclut pas qu'elle le soit (à moins de le préciser explicitement), mais on ne s'y attend pas.
+
+Définition formelle
+Formellement, un corps est un anneau (unitaire) dans lequel l'ensemble des éléments non nuls est un groupe pour la multiplication. Dit autrement, c'est un anneau unitaire non réduit à un élément et dans lequel tout élément non nul a un inverse pour la multiplication.
+Comme indiqué ci-dessus, cet article porte sur les corps gauches, c'est-à-dire ceux dont la multiplication est "en principe" non commutative. On appellera corps non commutatif un corps dont on sait que la multiplication n'est pas commutative. L'étude des corps commutatifs, ceux où la multiplication est commutative, n'est pas du ressort de cet article.
+
+Exemple
+L'exemple le plus célèbre de corps gauche est celui des quaternions, "découvert" par William Rowan Hamilton en 1843.
+
+Énoncés et méthodes: Un théorème de Wedderburn assure que tout corps non commutatif est infini.; Étant donné un module simple sur un anneau (unitaire) R, l'anneau des endomorphismes de ce module est un corps, a priori non commutatif même si R l'est. C'est une des (nombreuses) formes du lemme de Schur.; Le centre d'un corps gauche K est par définition l'ensemble Z(K) - (x K y K, xy - yx). C'est un corps commutatif. De ce fait, un corps gauche est naturellement muni d'une structure d'algèbre associative sur un corps commutatif. Lorsque la dimension de K sur son centre est finie, on montre qu'elle est un carré.
+
+Articles connexes: Algèbre à division; Identité de Hua (en); Presque-corps (en). Portail de l'algèbre.

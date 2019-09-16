@@ -1,0 +1,21 @@
+Les sciences formelles (ou sciences logico-formelles) explorent déductivement, selon des règles de formation et de démonstration, des systèmes axiomatiques. Les sciences formelles regroupent les mathématiques, la logique et l'informatique théorique.
+
+Algèbre
+L'algèbre est la branche des mathématiques qui étudie les structures algébriques, indépendamment de la notion de limite (rattachée à l'analyse) et de la notion de représentation graphique (rattachée à la géométrie).
+L'étude des structures algébriques peut être faite de manière unifiée dans la cadre de l'algèbre universelle.
+
+Mathématiques
+Les mathématiques sont un domaine de connaissance construit par des raisonnements hypothético-déductifs, ou par l'absurde, relativement à des concepts tels que les nombres, les figures, les structures et les changements. Les mathématiques désignent aussi le domaine de recherche visant à développer ces connaissances, ainsi que la discipline qui les enseigne.
+
+Géométrie
+Traditionnellement, la géométrie est la partie des mathématiques qui étudie les figures dans le plan et l'espace à 3 dimensions. Maintenant, la géométrie est le nom donné à plusieurs branches des mathématiques, qui puisent leurs sources dans la géométrie au sens traditionnel, mais qui divergent par leurs méthodes, et qui se sont constituées en disciplines autonomes. Il est donc difficile de définir ce qu'est la géométrie de manière à englober toutes ces géométries.
+
+Informatique
+L'informatique est une science formelle dont l'objet d'étude est le calcul, calcul au sens large, c'est-à-dire non limité exclusivement à la manipulation des nombres, mais de tout type d'information formelle que l'on peut traiter de manière systématique tel que : textes, couleurs, données, valeurs logiques. Selon les contextes, on parle d'un calcul, d'un algorithme, d'un programme, d'une procédure, etc.
+
+Logique
+La logique (du grec (logos), ce qui veut dire, entre autres, raison ou discours) est dans une première approche l'étude des règles formelles que doit respecter toute déduction correcte.
+Elle est depuis l'antiquité l'une des grandes disciplines de la philosophie, avec l'éthique et la métaphysique. En outre, on a assisté durant le XXe siècle au développement fulgurant d'une approche mathématique et informatique de la logique. Elle trouve de nos jours de nombreuses applications en ingénierie, en linguistique, en psychologie cognitive, en philosophie analytique ou en communication.
+
+Topologie
+La topologie est une branche des mathématiques concernant l'étude des déformations spatiales par des transformations continues (sans arrachages ni recollement des structures). Portail des sciences.

@@ -1,0 +1,9 @@
+L'imagerie informatique est un domaine de l'informatique qui rassemble différentes techniques liées à la production, au traitement, à l'indexation, et à la compression d'images numériques.
+
+Synthèse: Synthèse d'image; Réalité virtuelle; Réalité augmentée; Synthèse virtuelle; Modélisation 3D.
+
+Traitement: Traitement d'image; Traitement vidéo; Montage vidéo; compression.
+
+Interprétation: vision par ordinateur; Recherche d'image par le contenu.
+
+Jeux vidéo: Développement de jeu; Jeu vidéo. Portail de l'imagerie numérique.

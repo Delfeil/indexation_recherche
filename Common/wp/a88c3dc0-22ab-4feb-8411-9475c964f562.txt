@@ -1,0 +1,21 @@
+Un serveur de stockage en réseau, également appelé stockage en réseau NAS, boîtier de stockage en réseau ou plus simplement NAS (de l'anglais Network Attached Storage), est un serveur de fichiers autonome, relié à un réseau dont la principale fonction est le stockage de données en un volume centralisé pour des clients réseau hétérogènes.
+
+Historique
+Dès 1983, le serveur NetWare de Novell inclut le NCP. En 1984, Sun Microsystems développe NFS qui permet le partage de fichiers à travers un réseau. Il est bientôt suivi par le LAN Manager de Microsoft et Novell.
+3com (pour Windows) et Auspex Systems (en) (pour Unix) sont les premiers à commercialiser les NAS dédiés au début des années 1990. Quelques ingénieurs d'Auspex créent le NetApp Filer (en) intégré qui fonctionne avec des clients Windows et Unix simultanément. NetApp et Celerra (en) d'EMC occupent alors le marché.
+
+Fonctionnement
+Comme un serveur de fichiers, le stockage en réseau NAS fournit des services à travers un réseau IP avec un ou plusieurs des protocoles suivants : Common Internet File System (CIFS), aussi nommé Server Message Block (SMB) ;; Network File System (NFS) ;; Apple Filing Protocol (AFP).
+Parfois les fichiers sont disponibles via File Transfer Protocol (FTP), WebDAV et un gestionnaire de fichiers web. En général, le NAS est configuré via une interface web.
+Comparatif DAS-NAS-SAN.
+Le NAS se distingue : du Storage Area Network (SAN) qui utilise les protocoles comme SCSI, Fibre Channel, iSCSI, ATA over Ethernet (AoE) ou HyperSCSI (en) à travers un réseau dédié ;; du Direct Attached Storage (DAS), c'est-à-dire d'un disque dur directement connecté à l'ordinateur qui utilise les protocoles ATA, SATA, eSATA, SCSI, SAS et Fibre Channel via des câbles dédiés.
+Le NAS peut s'intégrer à un SAN ou en être le point d'entrée.
+
+Utilisation
+Le serveur NAS a pour vocation d'être accessible depuis des postes client à travers le réseau pour y stocker des données. La gestion centralisée sous forme de fichiers a plusieurs avantages : faciliter la gestion des sauvegardes des données d'un réseau ;; prix intéressant des disques de grande capacité par rapport à l'achat de disques en grand nombre sur chaque serveur du réseau ;; accès par plusieurs postes clients aux mêmes données stockées sur le NAS ;; réduction du temps d'administration des postes clients en gestion d'espace disques.
+Le composant informatique principal de ce type de serveur est le disque dur. L'interface SCSI, Parallel ATA, SAS, SATA ou Fibre Channel utilisée est choisie en fonction du rapport coût-performance recherché. Quand plusieurs disques sont utilisés, la technologie RAID est employée pour sécuriser les données stockées contre la défaillance d'un ou plusieurs disques durs.
+Le serveur NAS autorise des accès provenant de serveurs multiples basés sur les fichiers. Ceci autorise les administrateurs à implanter facilement et à moindre coût des systèmes de répartition de charge et de tolérance aux pannes.
+
+Sécurité
+Le NAS augmente la sécurité des données présentes par : le système RAID (Redundant Array of Independent (ou Inexpensive) Disks) autorisant la défaillance d'un disque sans perte de données ;; la possibilité de remplacer à chaud, c'est-à-dire sans arrêter le système, un disque défaillant par un disque vierge et la "repopulation" automatique de celui-ci par une copie conforme des données du disque perdu en quelques heures ;; la facilitation d'un système de sauvegarde centralisé.
+L'accès aux données est généralement protégé par l'utilisation d'un mot de passe, les possibilités de chiffrement des données sur les disques et à travers le réseau sont peu courantes. Certains NAS permettent de définir plusieurs utilisateurs avec des droits d'accès différents. Certains ont le droit d'écriture et de lecture, d'autres n'ont que le droit de lecture.

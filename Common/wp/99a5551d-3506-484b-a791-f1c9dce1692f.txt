@@ -1,0 +1,11 @@
+Le protocole WAP (en anglais : Wireless Application Protocol) est un protocole de communication apparu en France en 1999 qui permettait d'accéder à Internet à partir d'un appareil de transmission sans fil, comme un téléphone mobile ou un assistant personnel
+Il redéfinit le protocole HTTP, le format de présentation HTML et l'interactivité obtenue par le langage JavaScript pour les adapter au monde des périphériques ayant un écran de taille réduite, un processeur de faible puissance et une autonomie limitée (téléphones mobiles). Le protocole est maintenu par la Open Mobile Alliance (anciennement Wap Forum).
+
+Technologie
+Afin d'atteindre cet objectif, une passerelle (en anglais gateway) est connectée au réseau mobile, routant les connexions WAP vers Internet (la passerelle effectue également une compression des données envoyée vers le téléphone portable, afin de faciliter la transmission).
+Grâce à cette passerelle, le client, c'est-à-dire dans ce cas le téléphone mobile, se connecte à un serveur WAP, capable de lui envoyer des données au format WML, qui est le format spécifique du WAP, dérivé de HTML. La version 2.0 du WAP (destinée par exemple à l'UMTS) marquait l'abandon de WML au profit de XHTML.
+Le WAP couvre quatre couches réseau : Transport : Wireless Datagram Protocol (WDP). Ce protocole joue le rôle d'interface avec les protocoles de transmission des normes de téléphonie mobile. Ce protocole est sécurisé par le Wireless Transport Layer Security (WTLS), qui va chiffrer les échanges grâce à la technologie SSL ;; Transaction : Wireless Transaction Protocol (WTP). Ce protocole prend en charge l'aspect transactionnel du système, c'est-à-dire qu'il fiabilise la transmission en faisant envoyer un acquittement du récepteur. Ce protocole permet en outre de rendre les transmissions synchrones et de regrouper les acquittements par paquets ;; Session : Wireless Session Protocol (WSP). Ce protocole permet d'assurer la persistance de la connexion ;; Application : Wireless Application Environment (WAE). Cet environnement permet l'utilisation de WML, ainsi que de WMLScript, qui est un langage de script spécifique, et de WTA, un framework spécifique.
+
+Voir aussi
+
+Article connexe: Wikipedia pour appareils mobiles.

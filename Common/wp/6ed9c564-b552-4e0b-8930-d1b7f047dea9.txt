@@ -1,0 +1,10 @@
+DISTIC est l'acronyme pour "dispositif sociotechnique pour l'information et la communication".
+Un dispositif sociotechnique est une mise en oeuvre spontanée ou programmée, dans laquelle des acteurs "jouent" avec des ordinateurs en réseau pour : chercher de l'information (manuellement ou en data mining),; transmettre de l'information (via des textes inclus dans le DISTIC ou des liens vers des ressources tierces),; échanger-communiquer (via un outil de travail collaboratif),; etc.
+Le terme de DISTIC désigne bien l'"action des humains avec les machines" sans privilégier l'axe acteur ni l'axe machines.
+Traditionnellement, l'information et la communication ont fait l'objet de recherches disjointes. En effet, dans l'épistémè du papier, l'information était affaire de livres, de presse, etc. tandis que la communication était affaire de face à face, d'échanges épistolaires, etc.
+Avec les dispositifs hypermodernes en réseau, les frontières entre les fonctions information et communication ont quasi disparu : on informe en donnant les moyens de communiquer, un message de forum contient des liens vers de l'information.
+D'où la nécessité d'un terme qui regroupe "dispositif technique pour l'information" et "dispositif technique pour la communication".
+Le web est en train de réaménager la société et les interactions de ses individus. Il faut maintenant que nous dépassions l'idée "d'outil instrumentalisation".
+L'établissement Ingémedia - Université du sud Toulon Var dispense un master recherche spécifiquement dédié aux DISTIC
+
+Voir aussi: Portail de la sociologie; Portail de l'informatique.

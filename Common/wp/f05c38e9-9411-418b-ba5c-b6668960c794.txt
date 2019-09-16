@@ -1,0 +1,32 @@
+En organisation du travail, un poste de travail est le lieu dans lequel une personne dispose des ressources matérielles lui permettant d'effectuer son travail. Dans un contexte informatique, ce terme correspond à l'ensemble des moyens techniques mis à la disposition d'un utilisateur (écran, clavier, imprimante...), et par extension l'interface du système d'exploitation.
+
+Poste de travail d'une installation industrielle
+Le poste de travail d'une installation industrielle met l'opérateur humain face aux commandes des machines qui réalisent le processus de fabrication. On parle alors habituellement de la situation de "l'homme face à la machine". Il y a lieu de compléter cette notion par celle de "l'homme face au process" qui est simultanée à la précédente. Sur le poste de travail d'une installation industrielle, l'opérateur humain est donc confronté à la double difficulté de coordonner, généralement assisté par des automatismes, les mouvements des organes électromécaniques sur un produit en cours de transformation.
+
+Poste de travail en entreprise
+Un poste de travail correspond à une fonction occupée par un salarié dans une entreprise ainsi qu'à l'espace dans lequel il travaille.
+Selon le baromètre Actineo - CSA 2015, l'espace de travail a un impact sur le bien-être pour 94% des salariés français, ainsi que sur l'efficacité (92%) et la motivation (88%). Si 78% des salariés français seraient satisfaits de leur espace de travail, les Allemands le sont davantage (88% d'entre eux).
+En France, l'INRS préconise des moyens matériels et des méthodes concernant l'organisation et l'environnement du poste de travail (éclairage, exposition au bruits, risques, etc.). Les gênes principales rencontrées au poste de travail sont les nuisances sonores dues à des collaborateurs, les problèmes de température et les problèmes d'attention liés au passage et à la circulation des collègues.
+Une nouvelle forme d'organisation du poste de travail apparaît avec les bureaux assis-debout. Les salariés français sont 39% à connaître leur existence et 15% à en avoir déjà utilisé. Ce nouveau type de bureau aurait un impact sur la santé et l'efficacité du travail.
+
+Poste de travail informatique
+Dans un contexte informatique "Poste de travail" représente principalement le point d'accès à toutes les fonctionnalités d'une application informatique et d'un système d'exploitation, en particulier aux ressources informatiques (messagerie, bureautique, applications web, mais aussi imprimante, numériseur de document,..).
+L'origine de ce terme n'est pas forcément connue, mais elle remonte sûrement aux débuts de l'informatique répartie (UNIX avec les terminaux X11, puis Windows avec le client-serveur). Ce terme est utilisé dans Windows pour désigner le micro-ordinateur en lui-même, et c'est de là que l'on accède à tous les disques. Il est maintenant utilisé pour divers systèmes d'exploitation.
+Windows étant le système d'exploitation le plus utilisé, le terme "Poste de travail" désigne maintenant dans la plupart des esprits l'ordinateur et aussi l'environnement (physique) dans lequel il se trouve. Il est parfois confondu avec le "Bureau", qui dans Windows désigne l'espace de travail des fenêtres, mais aussi la base de toute l'arborescence.
+À partir d'un "Poste de travail" on peut ainsi accéder aux disques durs, aux supports amovibles (lecteur de disquette, lecteur de CD-ROM,..), à divers périphériques, comme les imprimantes, les périphériques d'acquisition d'images (appareil photo numérique, numériseur de document), et utiliser des applications informatiques à distance.
+Le système Windows Vista change le terme Poste de travail en Ordinateur, mais le reste de l'arborescence reste identique.
+Le poste de travail peut aussi être une station de travail Unix ou de plus en plus souvent un PC ou portable Linux.
+
+Confort au travail
+La qualité ergonomique du poste de travail, mais aussi le confort plus global de l'environnement proche, la propreté, la présence de plantes vertes ou la proximité de la nature jouent un rôle significatif voire important dans l'épanouissement du travailleur et dans sa productivité.
+Selon Actineo, l'Observatoire de la qualité de vie au travail, les éléments contribuant le plus à la qualité de vie au bureau sont les relations avec les collègues, l'espace de travail et l'absence de bruit.
+
+Galerie:
+Poste de travail d'un employé de la ville de Seattle en 1968;
+Postes de travail de test de fibre optique;
+Poste de travail dans un porte-avions;
+Poste de travail dans la station spatiale internationale.
+
+Voir aussi
+
+Articles connexes: Ergonomie; Travail; Confort au travail; Santé au travail; productivité.

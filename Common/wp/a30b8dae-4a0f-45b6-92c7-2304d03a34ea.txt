@@ -1,0 +1,65 @@
+Internet Control Message Protocol est l'un des protocoles fondamentaux constituant la suite des protocoles Internet. Il est utilisé pour véhiculer des messages de contrôle et d'erreur pour cette suite de protocoles, par exemple lorsqu'un service ou un hôte est inaccessible.
+ICMP se situe au même niveau que le protocole IP bien qu'il ne fournisse pas les primitives de service habituellement associées à un protocole de couche réseau. Son utilisation est habituellement transparente du point de vue des applications et des utilisateurs présents sur les réseaux.
+Cet article traite d'ICMP version 4 qui accompagne IPv4. La version 6 du protocole est présentée dans l'article Internet Control Message Protocol V6.
+
+Présentation
+ICMP (Internet Control Message Protocol - Protocole de message de contrôle sur Internet) est un protocole de niveau 3 sur le modèle OSI, qui permet le contrôle des erreurs de transmission. En effet, comme le protocole IP ne gère que le transport des paquets et ne permet pas l'envoi de messages d'erreur, c'est grâce à ce protocole qu'une machine émettrice peut savoir qu'il y a eu un incident de réseau. Il est détaillé dans la RFC 792.
+
+Format d'un paquet Internet Control Message Protocol
+Bien qu'il soit à un niveau équivalent au protocole IP (si l'on tente de rapprocher le modèle OSI au modèle TCP-IP), un paquet ICMP est néanmoins encapsulé dans un datagramme IP. Dans le cadre de l'IPv4, la forme générale d'un tel paquet est la suivante :
+Un tel datagramme est composé : d'un en-tête IP (en bleu), avec Protocole valant 1 et Type de Service valant 0.; du type de message ICMP (8 bits); du code de l'erreur (8 bits); d'une somme de contrôle (16 bits), calculée sur la partie spécifique à ICMP (sans l'en-tête IP); d'une partie aménagée pour des données relatives aux différents types de réponses (32 bits), si elle n'est pas utilisée, on procède à un bourrage (cette partie peut correspondre aux Identifiant et Numéro de séquence pour un paquet de type Ping par exemple, pour plus d'informations se référer à la RFC RFC 792); du message.
+Les différents incidents possibles sont reportés ci-dessous, avec le code d'erreur correspondant.
+
+Les différents types
+
+Type 0 (réponse echo)
+Type : 0 Code : 0 Message : réponse d'ECHO (echo-reply) Signification : réponse au message de type 8
+
+Type 1 et 2 (réservés)
+
+Type 3 (destinataire inaccessible)
+Type : 3 Code : 0 à 15 Message : destinataire inaccessible Le code dépend de la cause du problème, respectivement : 0 : le réseau n'est pas accessible; 1 : la machine n'est pas accessible; 2 : le protocole n'est pas accessible; 3 : le port n'est pas accessible; 4 : fragmentation nécessaire mais impossible à cause du drapeau (flag) DF; 5 : le routage a échoué; 6 : réseau inconnu; 7 : machine inconnue; 8 : machine non connectée au réseau (inutilisé); 9 : communication avec le réseau interdite; 10 : communication avec la machine interdite; 11 : réseau inaccessible pour ce service; 12 : machine inaccessible pour ce service; 13 : communication interdite (filtrage); 14 : priorité d'hôte violé; 15 : limite de priorité atteinte.
+
+Type 4 (extinction de la source)
+Type : 4 Code : 0 Message : extinction de la source (source quench)
+Signification : Un routeur de transit ou la machine d'extrémité demande à l'émetteur de ralentir le rythme des envois de trame. Les routeurs de transit stockent les trames reçues dans un buffer avant de les router (store and forward). Si ce buffer venait à être plein ou si la charge CPU du routeur dépassait un seuil (ou toute autre motif de congestion) il ne pourrait plus assumer le routage des paquets à venir. Ils seraient alors perdus silencieusement. Afin que cela ne se produise pas n'importe quel noeud de transit peut ainsi informer l'émetteur de ralentir la cadence. Et cela pour n'importe quel protocole de la couche 4 (UDP, TCP...).
+NB : Ce n'est pas redondant avec le mécanisme d'annonce de la taille de la fenêtre glissante d'une connexion TCP car cette dernière ne peut être contrôlée que par le destinataire (sauf proxification) or ici il s'agit des routeurs de transit.
+Ce type de message a été rendu obsolète par la RFC 6633 en 2012.
+
+Type 5 (redirection)
+Type : 5 Code : 0 à 3 Message : redirection pour: un hôte; un hôte et un service; un réseau; un réseau et un service.
+Signification : le routeur remarque que la route qu'a choisie l'ordinateur émetteur n'est pas optimale car le prochain routeur à passer pour atteindre le destinataire se trouve sur le même réseau que celui de l'ordinateur émetteur. Le routeur envoie l'adresse du prochain routeur à ajouter dans la table de routage de l'ordinateur émetteur de façon que le prochain envoi vers le même destinataire ne passe pas inutilement par lui. Cette option est souvent bloquée dans les réseaux des entreprises parce qu'elle peut être utilisée par un attaquant pour rediriger le flux de données d'une victime vers sa propre machine.
+
+Type 8 (echo)
+Type : 8 Code : 0 Message : demande d'ECHO (echo-request) Signification : demande de renvoi d'informations, avec la commande ping par exemple
+
+Type 11 (temps dépassé)
+Type : 11 Code : 0 ou 1 Message : temps dépassé ou temps de ré-assemblage des fragments d'un datagramme dépassé Signification : ce message est envoyé lorsque le temps de vie d'un datagramme ou le temps de réassemblage des parties d'un datagramme est dépassé. L'en-tête du datagramme est renvoyé pour que l'utilisateur sache quel datagramme a été détruit
+
+Type 12 (en-tête erroné)
+Type : 12 Code : 0 Message : en-tête erroné Signification : ce message est envoyé lorsqu'un champ d'un en-tête est erroné. La position de l'erreur est retournée
+
+Type 13 (demande heure)
+Type : 13 Code : 0 Message : timestamp request Signification : une machine demande à une autre son heure et sa date système (universelle)
+
+Type 14 (réponse heure)
+Type : 14 Code : 0 Message : timestamp reply Signification : la machine réceptrice donne son heure et sa date système afin que la machine émettrice puisse déterminer le temps de transfert des données
+
+Type 15 (demande adresse IP)
+Type : 15 Code : 0 Message : demande d'adresse réseau Signification : ce message permet de demander au réseau une adresse IP
+
+Type 16 (réponse adresse IP)
+Type : 16 Code : 0 Message : réponse d'adresse réseau Signification : ce message répond au message précédent
+
+Type 17 (demande masque sous-réseau)
+Type : 17 Code : 0 Message : demande de masque de sous-réseau Signification : ce message permet de demander au réseau un masque de sous-réseau
+
+Type 18 (réponse masque sous-réseau)
+Type : 18 Code : 0 Message : réponse de masque de sous-réseau Signification : ce message répond au message précédent
+
+Failles dans le protocole ICMP
+Il existe plusieurs attaques connues contre ICMP. Parmi elles, on peut citer : ICMP Sweep : En envoyant une série de requêtes ICMP sur un réseau, il est possible d'analyser les réponses et en déduire la structure ;; ICMP Redirect: Les messages ICMP de type 5 (redirection) peuvent être utilisés de manière malhonnête pour traverser un pare-feu. L'attaque consiste à faire passer un ordinateur par un chemin détourné qui va éviter le pare-feu. La solution consiste à configurer l'ordinateur pour ignorer ce genre de message.; Les messages ICMP de type 3 pour les codes 2 ou 3 (voire 4) peuvent clore une connexion TCP;; Un envoi répété de message ICMP de type 4 (code 0) ralentit grandement le débit d'une connexion;; Le message ICMP de type 3 pour le code 4 ralentit une connexion en passant le MTU au minimum (68 octets) puis en l'augmentant progressivement.
+
+Voir aussi
+
+Article connexe: Protocole réseau passant difficilement les pare-feu.

@@ -1,0 +1,3 @@
+CERN httpd (plus tard connu sous le nom de W3C httpd) a été le tout premier logiciel de serveur Web-HTTP au monde. Il fut initialement écrit en 1990 par Tim Berners-Lee au sein d'une équipe du CERN.
+En juin 1991, sortait la version 0.1. Le développement du CERN httpd fut plus tard repris par le consortium W3C et la dernière version fut la 3.0A sortie le 15 juillet 1996 sous une Licence MIT. Par la suite, l'équipe du W3C poursuivit son travail sur un serveur Web écrit en java : Jigsaw.
+Le CERN httpd fut originellement développé sur un ordinateur de type NeXT sous environnement NeXTSTEP et fit l'objet d'un portage sur les différents systèmes Unix et OpenVMS. Ce serveur avait également la possibilité d'être configuré comme un serveur proxy Web.

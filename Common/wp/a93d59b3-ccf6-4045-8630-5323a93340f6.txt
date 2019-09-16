@@ -1,0 +1,46 @@
+Cet article contient une liste de moteurs de recherche web ou d'entreprise.
+
+Moteurs de recherche Web
+. Ask (multilingue); Baidu (chinois); Bing (multilingue); DuckDuckGo (multilingue); Etconnecta (anglais); Exalead (français); Gigablast (anglais); Google (multilingue); Kelseek (multilingue); LeMoteur (français), qui remplace Voila; Lycos (multilingue); Mozbot (multilingue).
+. Panguso (chinois); Premsgo (français) (en version bêta); Qwant (multilingue); Seznam (tchèque); Sohu (chinois); Soso (chinois); Sukoga (multilingue); Swisscows alias Hulbee (suisse); Naver (coréen); V9 (chinois, multilingue); Wopa! (multilingue); Xaphir (français); Yahoo! (multilingue) (celui-ci a racheté Altavista); Yandex (russe, anglais).
+.
+Solidaires et-ou écologiques
+Ils sont des intermédiaires vers des moteurs de recherche majeurs (ex. Google, Bing, Yahoo) mais reversent une partie de leurs bénéfices à des oeuvres. Ecosia (écologique); GoodSearch (humanitaire); Lilo (solidaire, écologique); Ecogine (écologique); Doona (humanitaire, service arrêté et association dissoute); HooSeek (écologique, fermé en septembre 2012).
+
+Moteurs de recherche d'entreprise: DatAnswers (Varonis); GM Search (aleph-networks); Autonomy (HP); Endeca (Oracle); Exalead (Dassault Systèmes); Fast ESP (Microsoft); Google Search Appliance; Wuha.
+. KartOO (projet stoppé); Majestic-12; Pertimm (Actionnaire et partenaire technique de Qwant); PolySpot; Sinequa; Verticrawl; Vivisimo (IBM).
+.
+Moteurs de recherche libre: DataparkSearch (Recherche en intranet et site web); OpenSearchServer; Elasticsearch; Gigablast; Grub; Lucene - Solr - Nutch; Mysearch; Seeks; Sphinx; Whoosh; Wikinet; Xapian; YaCy (particularité : pair à pair); Zettair (Intranet).
+
+Classement par spécialisation
+Moteur de recherche légal: juritool; lexisnexis; westlaw.
+
+Moteurs de recherche Dark Web (Tor): Ahmia; GM Search Dark; Grams; TorSearch.
+
+Moteurs de recherche éducation et recherche: BASE (développé dans le cadre du projet Open Archives Initiative); CiteSeerX : bibliothèque numérique pour les articles scientifiques et académiques; Google Scholar; ScientificCommons; PubGene : moteur de recherche biomédical; PubMed : recherche bibliographique biomédicale; MyScienceWork : moteur de recherche multidisciplinaire d'articles scientifiques en Open Access; FreeFullPDF : publications scientifiques en format pdf (articles, thèses, brevets); Mindworks: lois, dictionnaires juridiques, commentaire, en plusieurs langues (gratuit, sans publicité).
+
+Moteurs de recherche pour enfants
+Principaux : Yahoo! Kids (n'existe plus qu'au Japon).
+Français : BabyGo; Qwant Junior.
+
+Moteurs de recherche d'images: Google Images; TinEye; YaCy (particularité : pair à pair); Groxis (en); Pixsta (en); Macroglossa Visual Search (en); Viewzi (en); PubGene; FindFace (en); Yolink (en) (ChunkIt!); Qwant images.
+
+Moteurs de recherche sur les sites de partage: FilesTube : le service de moteur de recherche a été interrommpu; Autres sites fonctionnels : FileDiva, General Files, FilesPart, FilesLoop, ShareDir, General Search...
+
+Moteurs de recherche de recrutement: Regionsjob; Cadremploi; GM Recruitment; Indeed; Jobboom : au Québec exclusivement.; Jora; Keljob.com; Monster; StepStone; Workopolis; Jobboard Finder : un moteur de recherche pour les recruteurs et les chercheurs d'emploi pour trouver le site emploi le plus adapté à leurs besoins.
+
+Moteurs de recherche sémantique: Exalead; Pertimm; Swisscows (Alias Hulbee à l'international); Verticrawl; WolframAlpha; Yatedo.
+
+Moteurs en langage naturel: WolframAlpha.
+
+Moteurs de recherche assurant la confidentialité des recherches: Bagoo; DuckDuckGo; Ixquick; Qwant; Searx; Seeks; Startpage; YaCy (particularité : pair à pair).
+
+Métamoteurs
+Pour savoir ce qu'est un métamoteur, veuillez lire l'article Métamoteur.
+Liste de métamoteurs de recherche, triés par ordre alphabétique : Copernic Agent, un logiciel pour Windows (hors service depuis le 31 janvier 2014); DuckDuckGo, un métamoteur de la société DuckDuckGo, Inc. aux États-Unis, qui ne stocke aucune information personnelle des utilisateurs; Framabee, un métamoteur libre de l'association Framasoft.; HooSeek, un métamoteur solidaire qui a cessé d'exister en septembre 2012; Innooo, un métamoteur renvoyant à l'internaute un maximum de 10 résultats; Ixquick, un métamoteur de la société Surfboard Holding BV, qui ne conserve pas les adresses IP des utilisateurs; Kelseek, un métamoteur francophone; Lilo (moteur de recherche français permettant de contribuer à des projets); Mamma.com, un métamoteur anglophone spécialisé pour les recherches à caractère commercial (coupons, bons de réduction, promotions...); Metacrawler (en), un métamoteur international qui interroge simultanément Google, Bing, etc.; MetaFrance : moteur de recherche; MusicSmasher.net, un métamoteur de recherche musical qui interroge Bandcamp, Grooveshark, Rdio, Spotify, SoundCloud, ou encore YouTube; NeoSharing, un métamoteur de recherche de direct download, par hébergeur ou par forum; Scroogle, hors service depuis 2010; Searx, un métamoteur libre, sous licence AGPLv3; Seek.fr, un métamoteur francophone (hors service); Seeks, un métamoteur libre, sous licence AGPLv3 (hors service); ShoppingMalin.com, un métamoteur de shopping qui interroge un grand nombre de sites ecommerce.; Songstr, un métamoteur de recherche musical qui interroge Grooveshark, Deezer ou encore YouTube; Startpage, limité aux résultats de Google et offrant plus de possibilités dans la page des recherches avancées; Teardrop, un logiciel java pour toutes les plateformes; WebCrawler d'Infospace (qui édite également Dogpile); Yasni; Yippy, anglophone.
+
+Multimoteurs: Kadaza.
+
+Annuaire de moteurs
+
+Voir aussi: Liste de bases de données et de moteurs de recherche académiques; Liste d'encyclopédies sur Internet; Liste de bibliothèques numériques. Portail d'Internet; Portail de l'informatique; Portail du logiciel.

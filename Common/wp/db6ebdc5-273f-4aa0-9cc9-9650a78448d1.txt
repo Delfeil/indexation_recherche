@@ -1,0 +1,41 @@
+ViolaWWW a été le premier navigateur web populaire.
+Il a été publié en 1992 sur Unix et il était le navigateur recommandé par le CERN où le World Wide Web (WWW) a été inventé. Cependant, à cause de certaines limitations, il a perdu sa position de navigateur le plus fréquemment utilisé au profit du navigateur Mosaic.
+
+Viola - le prédécesseur
+Viola était un langage de programmation et de script pour UNIX publié en 1991 par Pei-Yuan Wei, qui à l'époque était un étudiant à l'eXperimental Computing Facility (en) à l'Université de Californie à Berkeley(1),(2).
+Voila était l'acronyme de Visually Interactive Object-oriented Language and Application (application et langage visuellement interactif et orienté objet).
+L'intérêt de Pei dans les logiciels à base graphique a commencé en 1989 alors qu'il a connu HyperCard, un logiciel traitant des hyperliens seulement disponible sur ordinateurs Macintosh. De ce logiciel, Pei a dit, "HyperCard était très contraignant à l'époque, vous savez graphiquement, cette chose de lien hypertexte, ce n'était tout simplement pas très global et ça ne fonctionnait que sur Mac... et je n'avais même pas de Mac". N'ayant accès qu'à des terminaux X, Pei, en 1990, a créé la première version de Viola pour ces terminaux : "Je me suis procuré un manuel HyperCard, je l'ai lu, j'en ai compris les concepts et je les ai implantés".
+
+Histoire de ViolaWWW
+Après ses études, Pei a poursuivi le développement de Viola tout en travaillant à l'eXperimental Computing Facility (en) et dans quelques start-ups. Plus tard, il a été financé par O'Reilly Media, un éditeur technique, qui a utilisé son logiciel pour démontrer son site Global Network Navigator (en).
+Son principal objectif était de créer une version de Viola pour l'Internet. L'environnement du terminal X était basé sur Unix, il intégrait donc TCP-IP et l'Internet était une étape logique. La question était de savoir comment transporter les pages Viola sur l'Internet. Pei était tout près d'une invention indépendante de l'hypertexte sur réseau. "Et c'est à ce moment que j'ai lu le courriel de Tim Berners-Lee sur le World Wide Web" explique-t-il. "L'URL (Uniform Resource Locator) a été très, très intelligent, c'était exactement ce dont j'avais besoin. Il a envoyé un message à Tim disant qu'il pensait développer un navigateur pour le terminal X. "Ça semble être une bonne idée", dit Tim dans une réponse affichée sur www-talk, le 9 décembre. Quatre jours plus tard, Pei a affiché sur www-talk qu'il avait développé un navigateur. Gillies Et Cailliau.
+Créée en 1992, ViolaWWW était le premier navigateur à inclure des fonctionnalités étendues telles que des objets incorporés scriptables, des feuilles de style et des tables. Les premières versions du navigateur ont été bien reçues au CERN. Ed Kroll ont également mis en valeur le navigateur dans son texte populaire de 1992, Whole Internet User's Guide and Catalog (en).
+À mesure que ViolaWWW se développait, il ressemblait de plus en plus à HyperCard : Il disposait d'une fonction de signets pour vous permettre d'enregistrer vos pages favorites. Il avait des boutons pour aller à la page précédente et à la page suivante et une fonction d'historique pour garder en mémoire les endroits où vous aviez été. Ensuite, il a acquis des tableaux et des graphiques et en mai 1993, il pourrait même exécuter des programmes. Gillies Et Cailliau.
+ViolaWWW était basé sur la boîte à outils Viola, qui est un outil pour le développement et le soutien des applications interactives visuelles, un navigateur web multimédia est une telle application. Viola s'exécutait sous X Window System et pouvait être utilisé pour construire des applications hypermédias complexes qui étaient au-delà de HTML 3.0 (la dernière version de HTML à l'époque), avec des fonctionnalités telles que des applets et d'autres contenus interactifs dès 1992.
+
+Les innovations de ViolaWWW
+ViolaWWW a été le premier navigateur Web à inclure les caractéristiques suivantes.
+
+Insertion de documents côté client, predating frames et la syndication via javascript output writing
+Ces éléments qui sont utilisés couramment aujourd'hui,
+
+Feuille de style
+Les feuilles de style sont utilisées pour insérer dans les pages web des informations de formatage comme des polices de caractères, des couleurs et des alignements. Elles ont été mises en oeuvre dans ViolaWWW bien avant que les feuilles de style en cascade (en anglais, cascading style sheet ou CSS) soient développées en 1998.
+
+Langage de script accessible à partir d'un document HTML
+Un langage de script accessible à partir d'un document HTML permet au document HTML d'intégrer des scripts ou des applets hautement interactifs. Cette fonction peut être considérée comme le précurseur de JavaScript et des objets incorporés (embedded objects).
+
+Panneau latérale
+Un panneau latéral utilisé pour afficher des métainformations, des liens de navigation intradocument, et d'autres informations, similaires à (mais pas aussi sophistiqués que) les éléments trouvés dans plusieurs navigateurs modernes.
+
+Compétition contre Mosaïque
+Bien que ViolaWWW ait ouvert la porte du World Wide Web, ses limites, incluant sa disponibilité limitée aux terminaux X, ne lui permettaient pas de rivaliser avec Mosaic, le navigateur qui a révélé le Web aux masses. Entre autres choses, Mosaïque était plus facile à installer sur les ordinateurs les plus utilisés. Initialement développé pour UNIX, il fut bientôt porté sur Microsoft Windows, un système d'exploitation sur lequel ViolaWWW n'a jamais été exécuté.
+
+ViolaWWW et les poursuites de violation de brevets
+En 1999, Eolas Technologies (en) et l'Université de Californie ont déposé une plainte devant la cour fédérale de district du district nord de l'Illinois contre Microsoft, allégant la violation du brevet américain 5,838,906, (couvrant les modules d'extension - plugin) par le navigateur Web Internet Explorer. Eolas a remporté la première poursuite en août 2003 et a obtenu des dommages-intérêts de 521 millions de Microsoft. Le tribunal de district a réaffirmé la décision du jury en janvier 2004.
+En mars 2005, une cour d'appel a ordonné qu'il y ait un nouveau procès, renversant la décision que Microsoft devait payer 521 000 000 en dommages-intérêts. La cour d'appel a déclaré que la décision initiale avait ignoré deux arguments importants avancés par Microsoft. Microsoft avait voulu démontrer au tribunal que ViolaWWW était prior art, car il avait été créé en 1993 à l'Université de Californie, un an avant que la demande de brevet ait été déposée. Microsoft avait également suggéré que Michael David Doyle, le fondateur d'Eolas et un ex-chercheur de l'Université de Californie, avait intentionnellement caché sa connaissance de ViolaWWW lors du dépôt de la demande de brevet. Microsoft a ensuite réglé avec Eolas, en août 2007, sans un nouveau procès. Eolas a continué à poursuivre des dizaines d'autres entreprises technologiques.
+En février 2012, un jury du Texas a déclaré que deux des brevets d'Eolas étaient invalides après les témoignages de plusieurs défendeurs, incluant Tim Berners-Lee et Pei-Yuan Wei, le créateur du navigateur ViolaWWW. Les témoignages professaient que le navigateur ViolaWWW incluait les prétendues inventions d'Eolas avant la date du dépôt de la demande de brevet (7 septembre 1993). Il y a "des preuves substantielles que ViolaWWW a été publiquement connu et utilisé" avant la prétendue date de conception des demandeurs, a ajouté le jury. La décision a mis fin au procès en cours contre 22 entreprises, incluant Yahoo, Google et de nombreux détaillants en ligne.
+
+Source de la traduction: (en) Cet article est partiellement ou en totalité issu de l'article de Wikipédia en anglais intitulé "ViolaWWW".
+
+Voir aussi

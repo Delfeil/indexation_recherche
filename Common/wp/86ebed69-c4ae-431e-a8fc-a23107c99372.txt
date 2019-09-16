@@ -1,0 +1,20 @@
+Salut à Toi (ou SàT) est un logiciel de messagerie sous licence libre AGPLv3+. Le protocole de communication utilisé est XMPP. D'abord outil de messagerie instantanée, il fait aussi réseau social de type microblog, moteur de blog, échange de fichiers, ainsi que streaming audio-vidéo. Il contient également un fil de type Atom.
+
+Fonctionnalités
+Salut à Toi propose les fonctionnalités suivantes : messagerie instantanée; salon de discussion; réseau social; blog; extensions.
+
+Historique
+La version actuelle de Salut à Toi est la version 0.5.
+2008-01-01 : Salut à Toi 0.0.0, ébauche du projet Salut à Toi
+2009-05-17 : Salut à Toi 0.0.1, première publication
+2011-01-12 : Salut à Toi 0.1, trois interfaces et système d'extensions
+2011-05-31 : Salut à Toi 0.2, intégration d'un système de réseau social
+2013-01-09 : Salut à Toi 0.3, une interface web permet de tester
+2014-02-26 : Salut à Toi 0.4, les billets peuvent avoir modification, commentaires et être supprimés
+2014-09-09 : Salut à Toi 0.5, remaniement du code et chiffrement, ajout des avatars dans la liste de contacts
+
+Architecture
+Ce logiciel est basé sur une architecture client-serveur. La partie cliente est décomposée en plusieurs parties. Un daemon (backend), tournant sur le poste de l'utilisateur ou un serveur dédié distant, auxquels vont se connecter différentes interfaces utilisateur (frontend). Il est possible d'avoir plusieurs connexions simultanées, avec des comptes différents à ce daemon.
+Les interfaces utilisateur proposées sont : Bellaciao, interface graphique de bureau; jp, application en ligne de commande; Libervia, interface web; Primitivus, interface en mode texte; Wix, interface graphique de bureau.
+
+Voir aussi

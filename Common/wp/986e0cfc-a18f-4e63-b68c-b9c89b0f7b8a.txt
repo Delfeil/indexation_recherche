@@ -1,0 +1,60 @@
+Le support d'une fonction ou d'une application est la partie de son ensemble de définition sur laquelle se concentre l'information utile de cette fonction. Pour une fonction numérique, c'est la partie du domaine où elle n'est pas nulle et pour un homéomorphisme ou une permutation, la partie du domaine où elle n'est pas invariante.
+
+Support d'une fonction continue
+
+Définition
+Soit f (-displaystyle f) une fonction continue numérique, c'est-à-dire à valeurs réelles ou complexes, définie sur un espace topologique X (-displaystyle X).
+Définition : On appelle support de f (-displaystyle f), noté supp (f) (-displaystyle -operatorname (supp) (f)), l'adhérence de l'ensemble des points en lesquels la fonction ne s'annule pas. supp (f) :- (x X f (x) 0) (-displaystyle -operatorname (supp) (f):-(-overline (-(x-in X-mid f(x)-neq 0-)))).
+C'est donc une partie fermée de X.
+
+Fonction à support compact
+Les fonctions continues à support compact ont des propriétés souvent utiles. Les fonctions C à support compact sont utilisées pour construire des suites régularisantes. Celles-ci permettent via un produit de convolution d'approcher une fonction donnée par une suite de fonctions régulières.; Soit (-displaystyle -Omega) un ouvert de R n (-displaystyle -mathbb (R) (n)). Les fonctions C (-displaystyle C(-infty)) à support compact sont denses dans l'espace L p (-displaystyle L(p)(-Omega)) pour 1 p (-displaystyle 1-leqslant p-infty). On peut donc penser à démontrer des propriétés des espaces L p (-displaystyle L(p)) en utilisant un argument de densité : on démontre d'abord la propriété sur les fonctions C (-displaystyle C(-infty)) à support compact et ensuite on passe à la limite.; L'espace des fonctions C (-displaystyle C(-infty)) à support compact sur un ouvert (-displaystyle -Omega) un ouvert de R n (-displaystyle -mathbb (R) (n)), est noté C c (-displaystyle C-(c)(-infty)(-Omega)). Mais certains auteurs utilisent d'autres notations comme D (-displaystyle (-mathcal (D))(-Omega)) ou C 0 (-displaystyle C-(0)(-infty)(-Omega)). En fait, les distributions sont définies comme étant les éléments du dual topologique de C c (-displaystyle C-(c)(-infty)(-Omega)), muni d'une topologie adéquate.; Sur un espace métrique (X , d) (-displaystyle (X,d)), les fonctions continues numériques à support compact sont uniformément continues. C'est le théorème de Heine.
+
+Support d'une fonction mesurable
+Les exemples les plus courants d'ensemble de fonctions mesurables sont les espaces Lp, et c'est dans ce cadre que nous allons ici définir le support d'une fonction mesurable. En fait les fonctions mesurables sont les classes d'équivalences des fonctions égales à f (-displaystyle f) presque partout, c'est-à-dire sauf sur un ensemble de mesure nulle.
+
+Définition
+Soit (-displaystyle -Omega) un ouvert de R N (-displaystyle (-mathbb (R))(N)) et f L p (-displaystyle f-in L(p)(-Omega)) avec 1 p (-displaystyle 1-leqslant p-leqslant -infty).
+Proposition : On considère la famille de tous les ouverts (i) i I (-displaystyle -left(-omega -(i)-right)-(i-in I))de (-displaystyle -Omega) tels que pour chaque i I (-displaystyle i-in I), f - 0 (-displaystyle f-0) p.p. sur i (-displaystyle -omega -(i)). On pose - i I i (-displaystyle -omega --bigcup -(i-in I)(-omega)-(i)). alors f - 0 p. p. (-displaystyle f-0p.p.) sur (-displaystyle -omega)
+Démonstration
+Lorsque la famille I (-displaystyle I) est dénombrable, on peut conclure que f-0 p.p. sur (-displaystyle -omega) grâce à la -additivité de la mesure. Dans le cas non dénombrable, on se ramène au cas précédent de la façon suivante. Soit (K n) (-displaystyle (K-(n)))une suite de compacts tels que - n K n (-displaystyle -omega --bigcup -(n)(K-(n))). Par exemple, on peut prendre K n - (x ; d i s t (x , R N) 1 n e t x n) (-displaystyle K-(n)--left-(x-in -omega ;dist(x,-mathbb (R) (N)-setminus -omega)-geqslant (-frac (1)(n))et-leftx-right-leqslant n-right-)). Ensuite, pour chaque n (-displaystyle n), K n (-displaystyle K-(n)) est recouvert par un nombre fini de des i (-displaystyle -omega -(i)), soit K n i I n i (-displaystyle K-(n)-subset -bigcup -(i-in I-(n))-omega -(i)) avec i n I (-displaystyle i-(n)-in I) fini. On pose J - n I n (-displaystyle J--bigcup -(n)I-(n)). J (-displaystyle J) est dénombrable et on a - i J i (-displaystyle -omega --bigcup -(i-in J)-omega -(i)). Comme f-0 p.p. sur i (-displaystyle -omega -(i)), on en conclut que f-0 p.p. sur (-displaystyle -omega)
+Définition : supp (f) :- (-displaystyle -operatorname (supp) (f):-(-Omega -setminus -omega))
+Remarque : La définition ci-dessus est cohérente. En effet si f 1 (-displaystyle f-(1)) et f 2 (-displaystyle f-(2)) sont deux fonctions représentant la classe f (-displaystyle f), c'est-à-dire si f 1 - f 2 p. p. (-displaystyle f-(1)-f-(2)p.p.) sur (-displaystyle -Omega), grâce à la proposition ci-dessus on constate que supp (f 1) - supp (f 2) (-displaystyle -operatorname (supp) (f-(1))--operatorname (supp) (f-(2))) et donc le support d'une fonction mesurable f (-displaystyle f) ainsi défini est indépendant du représentant choisi.
+
+Exemples: Dans le cas d'une fonction continue, on vérifie aisément que les deux définitions du support coïncident.; Ce n'est plus nécessairement le cas si f n'est pas continue.
+En effet considérons la fonction caractéristique de Q (-displaystyle -mathbb (Q)) définie par : 1 Q (x) - (1 si x Q , 0 si x R Q (-displaystyle 1-(-mathbb (Q))(x)-(-begin(cases)1(-text(si))x-in -mathbb (Q) ,--0(-text(si))x-in -mathbb (R) -setminus -mathbb (Q) -end(cases))). Ainsi définie, selon la première définition le support de 1 Q (-displaystyle 1-(-mathbb (Q))) est R (-displaystyle -mathbb (R)). Mais si, maintenant on considère 1 Q (-displaystyle 1-(-mathbb (Q))) comme le représentant d'une fonction de L (R) (-displaystyle L(-infty)-left(-mathbb (R) -right)), comme la mesure de Q (-displaystyle -mathbb (Q)) dans R (-displaystyle -mathbb (R)) est nulle, 1 Q - 0 p. p. (-displaystyle 1-(-mathbb (Q))-0p.p.), on peut l'identifier à la fonction identiquement nulle et son support est vide.
+
+Support d'un produit de convolution
+Proposition : Soient f L 1 (R n) (-displaystyle f-in L(1)(-mathbb (R) (n))) et g L p (R n) (-displaystyle g-in L(p)(-mathbb (R) (n))) avec 1 p (-displaystyle 1-leqslant p-leqslant -infty). Alors: supp (f g) supp (f) + supp (g) (-displaystyle -operatorname (supp) (f-g)-subset (-overline (-operatorname (supp) (f)+-operatorname (supp) (g)))).
+Remarque : Le produit de convolution de deux fonctions à support compact est à support compact.
+Remarque : En général, si l'un des supports seulement est compact, alors f g (-displaystyle f-g) n'est pas à support compact.
+
+Support d'une mesure
+Le support d'une mesure borélienne (positive) sur un espace topologique est, par définition, l'intersection de tous les fermés de mesure pleine (c'est-à-dire dont le complémentaire est de mesure nulle). Certains auteurs complètant cette définition par une condition supplémentaire destinée à éviter quelques exemples pathologiques.
+Sous des conditions assez couramment remplies (espace topologique à base dénombrable ou régularité de la mesure notamment), c'est le complémentaire du plus grand ouvert de mesure nulle.
+
+Support d'une distribution
+
+Définition
+Soit (-displaystyle -Omega) un ouvert de R n (-displaystyle -mathbb (R) (n)) et T D ' (-displaystyle T-in (-mathcal (D))'(-Omega)) une distribution. On dit que T (-displaystyle T) est nulle sur un ouvert U (-displaystyle U-subset -Omega) lorsque, pour toute fonction test D (-displaystyle -phi -in (-mathcal (D))(-Omega)) dont le support (comme précédemment défini) est inclus dans U (-displaystyle U), on a T , - 0 (-displaystyle -langle T,-phi -rangle -0).
+Définition : On appelle support d'une distribution T (-displaystyle T) sur (-displaystyle -Omega) le complémentaire du plus grand ouvert sur lequel T (-displaystyle T) est nulle. On le note supp (T) (-displaystyle -operatorname (supp) (T)).
+Remarque : Le support est bien défini, car si une distribution est nulle sur chacun des ouverts d'une famille, elle est nulle sur leur réunion ; son support est donc le complémentaire de la réunion de tous les ouverts sur lesquels elle est nulle.
+
+Exemples: Si T (-displaystyle T) est une fonction continue, alors le support ici défini est identique aux supports introduits précédemment pour les fonctions continues.; Si T (-displaystyle T) est une mesure ou une mesure de probabilité, le support ici défini est identique à celui précédemment défini pour les mesures.; Si N p (-displaystyle -alpha -in -mathbb (N) (p)) est un multi-indice, la distribution D a (-displaystyle D(-alpha)-delta -(a)) obtenue par differentiation de la mesure de dirac au point a, a un support réduit au point a.
+
+Support singulier d'une distribution
+Intuitivement, le support singulier d'une distribution peut être compris comme l'ensemble des points où la distribution ne peut pas être une identifiée à une fonction. Il s'agit là d'une notion différente de celle introduite jusqu'à présent.
+Définition : On appelle support singulier d'une distribution T (-displaystyle T), et on note :s u p p s i n g (T) (-displaystyle -operatorname (suppsing) (T)) le complémentaire du plus grand ouvert sur lequel T (-displaystyle T) est une fonction C (-displaystyle C(-infty)).
+Exemple : s u p p s i n g (v p 1 x) - (0) (-displaystyle -operatorname (suppsing) (vp(-frac (1)(x)))--left-(0-right-)) où la distribution v p 1 x (-displaystyle vp(-frac (1)(x))) est définie par v p 1 x - lim 0 + x (x) x d x (-displaystyle vp(-frac (1)(x))(-phi)--lim -(-epsilon -to 0(+))-int -(-leftx-right-epsilon)(-frac (-phi (x))(x))dx) pour toute fonction D (-displaystyle -phi -in (-mathcal (D))(-Omega)). Ici v p (-displaystyle vp) désigne la valeur principale de Cauchy.
+Pour les distributions de plusieurs variables, le support singulier permet de définir des fronts d'ondes et de comprendre le principe de Huygens en termes d'analyse mathématique.
+La notion de support singulier permet d'expliquer l'impossibilité de multiplier des distributions, en gros, pour que la multiplication de deux distributions soit possible, il faut que leur support singulier soient disjoints.
+
+Support d'un champ de vecteurs
+En géométrie différentielle, pour un champ de vecteurs X (sur un ouvert de R ou sur une variété) est l'adhérence des points x en lesquels X(x) est nul. Le champ X engendre un flot à un paramètre de difféomorphismes g't défini au moins localement. Le flot est globalement défini si le champ X est à support compact. Pour t non nul suffisamment petit, le support de gt est exactement le support de X.
+
+Support d'un homéomorphisme
+En topologie, un homéomorphisme f de X sur X est une bijection continue et d'inverse continu. Son support est l'adhérence de l'ensemble des points en lesquels f(x) diffère de x. En particulier, en géométrie différentielle et en systèmes dynamiques, on peut s'intéresser aux difféomorphismes à support compact. Le mot difféomorphisme prend sens ici, et est un cas particulier d'homéomorphisme.
+
+Support d'une permutation
+En analyse combinatoire, le support d'une permutation est le complémentaire de l'ensemble de ses points fixes. Par exemple, toute permutation sur un ensemble fini se décompose de manière unique comme produit de cycles à supports disjoints.
+Remarque : En munissant l'ensemble sur lequel opère la permutation de la topologie discrète, on peut considérer la permutation comme un homéomorphisme et alors les deux définitions du support coïncident.

@@ -1,0 +1,28 @@
+Un support documentaire est l'élément physique sur lequel repose un document, et qui détermine son mode de consultation et de conservation. Le support est tout d'abord un moyen de conservation des traces (contenu), mais aussi un moyen d'inscription, de diffusion, et de restitution. On distingue généralement plusieurs types de support qui ont tous en commun d'assurer une certaine pérennité des informations contenues. La durabilité du support est en effet primordiale dans la mesure où c'est elle qui conditionne la survie des documents. Ainsi, certaines civilisations ne nous ont laissé que très peu, voire pas de documents, parce que leurs supports n'ont pas résisté au temps. Avec le numérique, une nouvelle réflexion sur la matérialité des supports se développe. Par exemple, un flux d'information est-il un support physique Le débat reste ouvert.
+Le terme de support vient du latin"supportare qui signifie"apporter de bas en haut. Cette notion est ambivalente : le support est à la fois ce qui reçoit le texte, et ce qui le porte.
+Il est souvent confondu avec le document, alors que si le document est caractérisé par son contenu, et qu'il peut ainsi faire l'objet d'un référencement documentaire, le support ne peut pas.
+Pascal Duplessis propose une typologie des supports.
+En envisageant le support comme un moyen technique, il relève plusieurs types de support : Les supports de conservation : DVD, CD vierges, Disque Dur,"Nouveau document; Les supports de communication : imprimé, analogique, numérique; Les supports de transmission : câble, antenne, satellite.
+Au-delà de ces supports techniques, Pascal Duplessis envisage également le support de l'information, qui offre des formes matérielles à partir d'objets documentaires. Il s'agit par exemple d'un CD, d'un livre, ou encore d'un site web.
+
+Les différents supports
+
+Supports Numériques
+Les supports numériques de stockage existant tendent de plus en plus à disparaître au profit de technologies nouvelles, ce qui rend les documents numériques vulnérables puisqu'il n'existe pas de support de données numériques totalement pérennes. Par exemple, la durée de vie d'un disque dur va rarement au-delà de 5 ans. Une autre des raisons est liée à l'évolution rapide des technologies : lorsqu'une technologie vient à disparaitre, il est alors nécessaire de changer de moyen de stockage. Il en va de même pour les logiciels et systèmes d'exploitation.
+
+Supports Papier: imprimé : document reproduit sur papier au moyen des techniques de l'imprimerie ou de la PAO (Publication assistée par ordinateur); manuscrit : document écrit ou copié à la main sur papier.; imprimé : document reproduit sur papier au moyen des techniques de l'imprimerie ou de la PAO (Publication assistée par ordinateur); manuscrit : document écrit ou copié à la main sur papier.
+
+Supports Microformes: microfiche : carte photographique qui reproduit un document à une échelle très réduite lisible seulement à l'aide d'un lecteur approprié; microfilm : rouleau de film photographique qui reproduit un document à une échelle très réduite lisible seulement à l'aide d'une machine appropriée.; microfiche : carte photographique qui reproduit un document à une échelle très réduite lisible seulement à l'aide d'un lecteur approprié; microfilm : rouleau de film photographique qui reproduit un document à une échelle très réduite lisible seulement à l'aide d'une machine appropriée.
+
+Supports électroniques (composants électroniques): carte à puce; clé USB; carte mémoire; mémoire flash.; carte à puce; clé USB; carte mémoire; mémoire flash.
+
+Supports électromagnétiques: disque dur (disque dur de serveur Web).; disque dur (disque dur de serveur Web).
+
+Supports optiques: disques optiques (CD-ROM, DVD-ROM, disque compact audio, DVD audio-vidéo), Blu-ray.; disques optiques (CD-ROM, DVD-ROM, disque compact audio, DVD audio-vidéo), Blu-ray.
+
+Supports magnétiques: carte à piste magnétique; bande magnétique (cassette audio, cassette vidéo); disquettes.; carte à piste magnétique; bande magnétique (cassette audio, cassette vidéo); disquettes.
+Un même type de document peut être évidemment multisupport (exemples livre imprimé - livre en ligne, article de revue scientifique imprimée - article de revue scientifique en ligne)
+
+En pédagogie
+En pédagogie documentaire, la principale difficulté pour les élèves est d'opérer la distinction entre document et support. Le plus souvent il est maintenu qu'un livre"général est un support, tandis qu'un livre"particulier est un document. Selon l'information recherchée, ou le projet d'écriture envisagé, il est important d'utiliser le support documentaire adapté. Rechercher le support adéquat intervient lors des premières étapes de la recherche documentaire. C'est d'ailleurs pour cette raison que la notion de support est importante en pédagogie documentaire, et que l'utilité propre aux différents supports est souvent enseignée.
+Merci beaucoup. De freference

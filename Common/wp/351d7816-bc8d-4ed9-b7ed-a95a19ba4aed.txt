@@ -1,0 +1,39 @@
+La lampe triode est le premier dispositif amplificateur d'un signal électronique. L'ingénieur américain Lee De Forest est l'inventeur, en 1906, de cette lampe qu'il nomme Audion. C'est le physicien W. H. Eccles qui donne le nom de triode à cette lampe à trois électrodes.
+
+Historique
+
+Fonctionnement
+La triode se compose d'une cathode semiconductrice à chaud, émettrice d'électrons, d'une anode réceptrice, et d'une grille placée entre les deux. La cathode est chauffée par un filament placé derrière. (Parfois le filament et la cathode ne forment qu'un seul élément). Le chauffage de la cathode confère suffisamment d'énergie aux électrons de la cathode pour leur permettre de se libérer (on parle d'émission cathodique) et de rejoindre un "nuage électronique" dans le vide entourant la cathode appelé charge d'espace. La cathode possède un potentiel (souvent le 0V) plus petit que celui de l'anode provoquant la migration des électrons vers l'anode, car les électrons (charge négative) sont attirés par les charges positives de l'anode.; En jouant sur le potentiel (tension) de la grille par rapport à la cathode, un nombre plus ou moins grand d'électrons émis par la cathode arriveront jusqu'à l'anode, créant un courant variable entre anode et cathode : l'amplification de puissance est réalisée car la grille ne consomme pas de courant, c'est en théorie un potentiel statique.
+
+Schéma
+
+Caractéristiques de la triode
+Le facteur d'amplification d'une triode exprime le rapport entre la tension amplifiée sur l'anode et la tension d'entrée appliquée sur la grille : - U a U g (-displaystyle -mu -(Ua -over Ug))
+Il est aussi égal au rapport entre la capacité parasite grille-cathode Cgc et la capacité parasite anode-cathode Cac : - C g c C a c (-displaystyle -mu -(Cgc -over Cac)).
+Cette deuxième équation montre qu'une diminution de la distance entre la grille et la cathode permet d'augmenter le facteur d'amplification du tube, car cela aura pour effet d'augmenter la capacité entre la grille et la cathode.
+La loi de Child permet de décrire le courant d'anode d'une triode : I a - A (U g + U a) 3 2 (-displaystyle Ia-A-left(-mu Ug+Ua-right)(-frac (3)(2))) où A est une constante qui dépend de la géométrie du tube.
+De l'expansion de Taylor de cette équation au voisinage du point de travail du tube, on trouve I a - I a U g U g + I a U a U a - g m U g + 1 r a U a (-displaystyle -Delta I-(a)-(-tfrac (-partial I-(a))(-partial U-(g)))-Delta U-(g)+(-tfrac (-partial I-(a))(-partial U-(a)))-Delta U-(a)-g-(m)-Delta U-(g)+(-tfrac (1)(r-(a)))-Delta U-(a)).
+La première dérivée partielle de cette équation est la pente de la caractéristique de transfert au point d'opération et elle est appelée la conductance mutuelle g m (-displaystyle g-(m)) ou transconductance, laquelle s'exprime en mho, ou plus communément en mA-V (1mmho - 1 mA-V). La deuxième dérivée partielle est la pente S de la caractéristique d'anode. Cependant dans le métier, on a gardé l'appellation "pente S" (en mA-V) pour désigner, en Europe, l'équivalent de la transconductance, aux États-Unis. Le réciproque de cette pente est appelée la résistance interne d'anode r a (-displaystyle r-(a)) qui s'exprime en ohm.
+Pour I a - 0 (-displaystyle -Delta I-(a)-0) et en introduisant ces définitions, cette équation peut être écrite 0 - g m U g + 1 r a U a (-displaystyle 0-g-(m)-Delta U-(g)+(-tfrac (1)(r-(a)))-Delta U-(a)) ou g m r a - U a U g (-displaystyle g-(m)r-(a)--(-frac (-Delta U-(a))(-Delta U-(g)))).
+Le terme de droite est équivalent à la définition du facteur d'amplification soit le produit de la pente x par la résistance interne appelé. Le signe (-displaystyle -) signifie que la tension d'anode diminue quand la tension de grille augmente. Cette dernière équation peut être écrite - r a g m (-displaystyle -mu -r-(a)g-(m)), formule très utile pour retrouver un des paramètres du tube quand les deux autres sont connues.
+
+Application
+Une triode Western Electric de 1917.
+Cette invention permit l'apparition du cinéma parlant, de la TSF (radio), et plus tard de l'informatique, ainsi que des progrès dans les communications téléphoniques en permettant une amplification importante du signal sans effets de distorsion. La triode fut vite perfectionnée par ajout d'une (pour la tétrode) puis, deux grilles supplémentaires, évitant des effets indésirables, notamment l'effet "dynatron". Ce tube pentode sera rapidement adopté dans la plupart des amplificateurs à tubes, pour son meilleur rendement. Ceux-ci sont toujours utilisés aujourd'hui, et très appréciés des guitaristes (amplificateurs) et des amateurs de Hi-Fi (en dépit de la nécessité de remplacer régulièrement les tubes, dont la cathode s'épuise. Néanmoins, la durée de vie moyenne d'un tube de puissance dépasse souvent les 2 000 heures) en raison de leurs excellentes qualités pour la reproduction du son, parmi lesquelles on peut noter :; le spectre harmonique enviable en régime linéaire,; la bonne réponse aux transitoires produisant un son réputé plus naturel,; et accessoirement l'entrée en saturation douce lors de l'écrêtage (bien qu'il ne soit pas d'usage en Hi-Fi d'entrer dans les zones de saturation et d'écrêtage, si l'on excepte le cas assez particulier d'un ampli en Classe B).
+En dehors du domaine marginal des collectionneurs et mélomanes, la triode est largement utilisée comme amplificateur de forte puissance (500 watts et au-delà) jusqu'à 100 mégahertz environ, en montage "grille commune", avec l'avantage d'absence de neutrodynage, contrairement à la pentode. Ces triodes pour amplificateurs linéaires HF peuvent fournir de 500 W à 15 kW. Les fournisseurs principaux sont EIMAC et AMPEREX.
+
+Modèles courant
+
+Principales triodes utilisées en audio
+
+Pour les préamplificateurs
+
+Pour les amplificateurs (puissance)
+
+Principales triodes industrielles
+Eimac 3CX1500A7: 3CW30000H3 dissipation maximale 30 kW à 100 MHz; 3CW20000A7 dissipation maximale 20 kW à 140 MHz; 3CX15000H3 dissipation maximale 15 kW à 90 MHz; 3CX10000A7 dissipation maximale 10 kW à 160 MHz; 8161R dissipation maximale 4 kW à 110 MHz; 833A dissipation maximale 0,4 kW à 30 MHz; TH5-4 dissipation maximale 4 kW à 110 MHz; TH6-3 dissipation maximale 10 kW à 140 MHz; 3-500Z dissipation maximale 1000 W à 50 MHz.
+(valeurs indicatives pouvant varier selon le fabricant)
+
+Voir aussi
+
+Articles connexes: Irving Langmuir; Loewe (entreprise d'électronique); Lee De Forest; Tube électronique; Diode à vide; Tétrode; Pentode; Transistor.

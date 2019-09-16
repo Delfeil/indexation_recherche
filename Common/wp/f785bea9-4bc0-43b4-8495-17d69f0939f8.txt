@@ -1,0 +1,2 @@
+Powerset est une entreprise localisée à San Francisco qui développe un moteur de recherche en langage naturel. Son principal actionnaire est Microsoft.
+En mai 2008, elle a mis à la disposition du public un outil permettant de faire des recherches sur Wikipédia en utilisant une phrase plutôt que des mots-clés pour formuler la requête.

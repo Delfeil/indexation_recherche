@@ -1,0 +1,9 @@
+Jakarta est un ensemble de projets de logiciels libres, écrits en langage Java, développés par la fondation Apache de manière collaborative et consensuelle et tous publiés sous licence Apache. Le 21 décembre 2011, Apache annonce l'arrêt du projet, tous les sous-projets ayant été stoppés également, déplacés dans d'autres ensembles de projets ou devenus indépendants.
+
+Sous-projets
+Les sous-projets Jakarta sont : Ant : automatisation des opérations répétitives tout au long du cycle de développement logiciel.; BCEL : manipulation de bytecode Java.; BSF (Bean Scripting Framework (en)) : méthode de langage de script.; Apache Commons : ensemble de bibliothèques réutilisables et open source.; Apache HiveMind (en) : projet d'inversion de contrôle.; JCS (Java Caching System) : système distribué de mémoire cache.; JMeter : effectue des tests de performance d'applications et de serveurs selon différents protocoles.; Maven : gestion et automatisation de production des projets logiciels Java.; POI : manipule divers types de fichiers créés par Microsoft avec le langage Java.; Jakarta Slide (en) : système de gestion de contenu open source.; Taglibs : balises JSP.; Turbine : framework de création rapide d'applications web.; Tapestry : framework libre de création d'applications web.; Velocity : moteur de template.
+
+Ex-projets
+Ex-projets Jakarta : Alexandria; AxKit; Beehive; Crimson; Excalibur; Harmony; iBATIS; Jakarta Cactus; Jakarta ECS (Element Construction Set); Jakarta ORO; Jakarta Regexp; Lucene : interface de programmation pour indexer puis effectuer des recherches textuelles sur du contenu.; ObJectRelationalBridge (OJB); Quetzalcoatl; Shale; Struts : framework J2EE, adoptant l'architecture Modèle-Vue-Contrôleur.; Tomcat : Serveur web pour servlet J2EE.; Xang; Xindice; Watchdog.
+
+Projets en relation: Log4J (en) : bibliothèque de journalisation de l'exécution d'une application.

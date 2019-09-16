@@ -1,0 +1,26 @@
+Un indice peut être :
+
+Repérage: Dans la classification décimale de Dewey, un indice est un ensemble d'au moins trois chiffres, qui sert à définir le sujet principal d'un document.; En mathématiques, un indice est le numéro d'un élément dans un n-uplet et plus généralement l'antécédent pour un terme d'une famille, utilisé notamment par des opérateurs de sommation ou de produit.; En informatique, l'indice d'un élément de tableau est un entier ou un autre objet permettant d'accéder directement à cet élément par son numéro d'ordre. Dans le cas d'une table de hachage, l'indice est calculé à partir de la clé d'accès.
+
+Position typographique
+Un indice est une notation inférieure de moindre corps, utilisée notamment en mathématiques et en physique.
+
+Rapport
+À partir du XIXe siècle, le terme permet de dénommer de nombreux rapports de grandeurs, notamment en sciences.
+
+Économie et finance: Un indice quantifie le rapport d'une grandeur économique à une valeur de référence, souvent associée à l'indice 100.; Un indice boursier est une valeur calculée par le regroupement des valeurs des titres de plusieurs sociétés, permettant de mesurer la performance d'une bourse ou d'un marché.
+
+Démographie
+L'indice synthétique de fécondité, ou indicateur conjoncturel de fécondité, mesure le nombre moyen d'enfants que des femmes auraient au cours de leur vie si, à tout âge, leur niveau de fécondité était celui de l'année considérée.
+
+Linguistique
+L'indice de langue d'usage public (ILUP), est un indice qui mesure l'usage relatif des langues dans un espace public donné.
+
+Sciences physiques: En optique, l'indice de réfraction d'un milieu transparent est le rapport de la vitesse de la lumière dans le vide par la vitesse de la lumière dans ce milieu.; En chimie, l'indice d'octane d'un carburant est le rapport entre le pouvoir antidétonant de ce carburant et celui d'un carburant de référence.; En biochimie, on distingue l'indice de saponification, l'indice d'acide, l'indice d'ester, l'indice d'iode, l'indice de peroxyde et l'indice d'hydroxyle (en) qui permettent de caractériser un corps gras.; En astrophysique, l'indice spectral quantifie la variation du flux d'un rayonnement par rapport à sa fréquence.
+
+Mathématiques
+Plusieurs notions sans lien sont appelées "indices". Le choix de ce terme indique généralement que la notion considérée est un nombre entier. En théorie des groupes, l'indice d'un sous-groupe est le nombre d'orbites dans le groupe sous l'action du sous-groupe, correspondant pour un groupe finie au quotient de l'ordre du groupe par l'ordre du sous-groupe.; En algèbre bilinéaire, l'indice d'isotropie d'une forme quadratique est la plus grande dimension des sous-espaces sur lequel la forme est identiquement nulle.; En algèbre bilinéaire réelle, l'indice d'inertie d'une forme quadratique réelle est la plus grande dimension des sous-espaces sur lesquels la forme est définie négative. En particulier, en théorie de Morse, l'indice d'un point critique pour une fonction est l'indice d'inertie du hessien de la fonction en ce point. Voir aussi l'indice d'une géodésique ou d'une surface minimale.; En théorie des nombres ou en algèbre commutative, l'indice de ramification d'une extension algébrique ou d'une extension d'anneaux de valuation discrète.; En théorie des représentations, l'indice de Schur du caractère d'une représentation de groupe fini sur son corps de décomposition est le plus petit degré d'extension du corps engendré par les valeurs du caractère pour laquelle sur laquelle la représentation puisse être réalisée.; En analyse complexe, l'indice d'un point par rapport à un lacet dénombre algébriquement les tours effectués par le lacet autour de ce point.; En analyse fonctionnelle, l'indice d'un opérateur de Fredholm est la différence entre la dimension de son noyau et la codimension de son image. Voir en particulier les opérateurs elliptiques.; En géométrie différentielle, l'indice d'un champ de vecteurs en un zéro isolé est le degré de l'application induite sur la sphère bordant un petit voisinage de ce point.; En géométrie symplectique, plusieurs constructions sont appelées indice de Maslov.
+
+Télévision: Indices est une émission de télévision diffusée sur Numéro 23.
+
+Articles connexes: Signe; Sémiologie.

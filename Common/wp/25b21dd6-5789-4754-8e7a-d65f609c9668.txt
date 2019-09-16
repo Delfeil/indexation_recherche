@@ -1,0 +1,20 @@
+La moyenne harmonique H de nombres réels strictement positifs a1,.., an est définie par : H - n 1 a 1 + 1 a 2 +... + 1 a n. (-displaystyle H-(-frac (n)((-frac (1)(a-(1)))+(-frac (1)(a-(2)))+-cdots +(-frac (1)(a-(n))))).).
+C'est l'inverse de la moyenne arithmétique de l'inverse des termes. La moyenne harmonique est donc utilisée lorsqu'on veut déterminer un rapport moyen, dans un domaine où il existe des liens de proportionnalité inverses.
+
+Exemples
+Dans certains cas, la moyenne harmonique donne la véritable notion de "moyenne". Par exemple, si pour la moitié de la distance d'un trajet vous voyagez à 40 kilomètres par heure, et que pour l'autre moitié vous voyagez à 60 kilomètres par heure, votre vitesse moyenne est alors donnée par la moyenne harmonique de 40 km-h et 60 km-h, ce qui donne 48 km-h. Votre temps de voyage total est donc le même que si vous aviez voyagé à 48 kilomètres par heure sur l'ensemble de la distance (attention toutefois, si vous aviez voyagé la moitié du temps à une vitesse, et l'autre moitié du temps (et non de la distance) à une autre vitesse, la moyenne arithmétique, dans ce cas 50 kilomètres par heure, vous aurait donné la bonne moyenne).
+De même, si un circuit électrique a deux résistances reliées en parallèle, la première faisant 40 et l'autre 60 , la résistance moyenne des deux est 48 ; la résistance totale du circuit est la même que si les deux résistances en parallèle étaient remplacées par deux résistances de 48 (attention, cette résistance moyenne n'est pas la résistance équivalente qui est, elle, de 24 , et qui correspond à remplacer les deux résistances en parallèle par une seule résistance de 24).
+
+Moyenne harmonique de deux nombres
+A: moyenne arithmétique des scalaires a et b, G moyenne géométrique, H harmonique, Q quadratique.
+Si l'on s'intéresse uniquement à deux nombres strictement positifs, il existe une formule équivalente parfois plus pratique pour calculer la moyenne harmonique : H - 2 a 1 a 2 a 1 + a 2. (-displaystyle H-(-frac (2a-(1)a-(2))(a-(1)+a-(2))).).
+Dans ce cas, leur moyenne harmonique est reliée à leur moyenne arithmétique,: A - a 1 + a 2 2 , (-displaystyle A-(-frac (a-(1)+a-(2))(2)),).
+et leur moyenne géométrique,: G - a 1 a 2 , (-displaystyle G-(-sqrt (a-(1)a-(2))),).
+par la formule suivante : H - G 2 A. (-displaystyle H-(-frac (G(2))(A)).).
+d'où: G - A H (-displaystyle G-(-sqrt (AH))), c.-à-d. la moyenne géométrique est la racine carrée de la moyenne arithmétique multipliée par la moyenne harmonique.
+Ce résultat n'est valable qu'avec deux nombres strictement positifs.
+
+Applications
+En dimensionnement mécanique, pour calculer le rayon équivalent, de rayons de courbure, lors du contact entre deux sphères ou deux cylindres, d'après la loi de Hertz-Boussinesq (voir aussi "Contact de Hertz").
+
+Voir aussi: Moyenne géométrique : basée sur la moyenne arithmétique des logarithmes.; Moyenne quadratique : basée sur la moyenne arithmétique des carrés. Portail des mathématiques.

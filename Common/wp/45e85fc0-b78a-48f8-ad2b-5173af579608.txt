@@ -1,0 +1,43 @@
+Une société de conseil est une entreprise qui délivre des avis ou des recommandations sur ce qu'il convient de faire.
+Les entreprises de conseil délivrent des services de conseil. Elles appartiennent au secteur tertiaire.
+
+Segmentation
+
+Le conseil aux entreprises et aux institutions
+Il s'agit d'une activité de services qui vise à améliorer le fonctionnement et la performance, actuels ou futurs, d'une organisation publique ou privée : entreprise, association, ministère, collectivité territoriale, syndicat, etc. Les entreprises font appel à des sociétés de conseil, qui envoient alors des consultants dans l'entreprise cliente.
+
+Le conseil en stratégie
+Le conseil en stratégie vise à fournir aux dirigeants d'entreprises (souvent de grande taille) des conseils spécialisés pour la définition d'une stratégie d'entreprise. En pratique, les cabinets de conseil en stratégie ont une activité qui déborde largement de ce périmètre, et donnent lieu à des recommandations sur les volets managériaux, organisationnels, performance, etc. Parmi les cabinets de conseil en stratégie, on compte McKinsey, Boston Consulting Group (BCG), Bain et Company, Roland Berger, AT Kearney, Oliver Wyman.
+
+Le conseil en marketing
+d'une activité de services qui vise à améliorer l'organisation et la performance, actuelles ou futures, d'un service marketing au sein d'une entreprise. Le conseil en marketing est aussi utilisé en renfort d'un service marketing, à l'occasion de lancement de produits, ou par des entités n'ayant pas de structure marketing en interne. Avec les nouvelles technologies, et le réseau Internet, apparait le marketing 2.0.
+
+Le conseil en management et en organisation
+Dans le domaine de la gestion, le consultant est une personne qui possède les qualifications et l'expérience pour résoudre un problème dans les domaines du marketing, de la production, de la logistique et des transports, des systèmes d'information, des ressources humaines, de la finance et du management.
+C'est un professionnel qui offre un service de conseil objectif sur un sujet de nature souvent complexe dans le but d'assister les dirigeants et le personnel des entreprises dans la gestion de leurs opérations.
+Le conseil en management a pour vocation d'assister les entreprises, ou plus largement les clients, sur des sujets de gestion et d'optimisation de leurs métiers ou des fonctions dites de support comme : Les RH (formation, paie, recrutement...); Les Systèmes d'Information; La Finance (contrôle de gestion, comptabilité, trésorerie...); Les Achats; La RD; La Qualité; L'audit - risque - contrôle interne.
+Le conseil en management s'attache à comprendre les enjeux des métiers ou fonctions support et à déterminer les meilleurs modes de gestion ou le modèle de performance adéquat pour y répondre. Il doit être mené comme une étude commandée par l'entreprise, c'est-à-dire en parallèle de l'activité de l'entreprise et non en immersion des équipes de l'entreprise, sur projet.
+Il est à noter que les activités suivantes, menées par les cabinet ou les sociétés de conseil, ne sont pas considérées comme du conseil en management ou du conseil en organisation, du fait qu'elles sont pratiquées en immersion au sein des équipes de l'entreprise : Assistance à maîtrise d'ouvrage (AMOA) : rédaction d'une expression de besoin, d'un cahier des charges, rédaction ou validation de spécifications fonctionnelles, recette utilisateurs, animation de séminaires, formation des équipes...; Assistance au pilotage de programme (PMO); Accompagnement des équipes d'un projet; Intégration d'un logiciel (progiciel, outil informatique...).
+Historiquement, certains de ces cabinets étaient liés à des cabinets d'audit. Suite au scandale Enron, les activités de conseil ont été filialisées ou vendues ; même si la question de la séparation des métiers de l'audit et du conseil reste toujours d'actualité.
+
+Le conseil en réduction de coût
+Le conseil en réduction de coût est une activité de conseil à part entière. Elle intervient sur toutes les fonctions de l'entreprise et sur tous les secteurs. Sa vocation est la réduction des coûts fixes et variables par la recherche de solutions alternatives. Le ROI associé aux missions de réduction de coût est fréquemment supérieur à 3. En France, cette branche du conseil s'avère très réduite.
+
+Le conseil en informatique
+Dans le domaine de l'informatique et des technologies de l'information et de la communication, le conseil est l'une des trois principales branches des sociétés de services informatiques, avec l'intégration et l'infogérance.
+Le conseil en systèmes d'information est large et peut regrouper plusieurs catégories de conseil : Le conseil en stratégie de la DSI, qui s'attache à construire une vision, à définir les grandes orientations et la feuille de route d'une DSI à partir des enjeux ou besoins de la Direction Générale et des Métiers sur une période de 3 à 5 ans; Le conseil en management de la DSI, qui s'attache à tous les volets de gestion de la DSI (budget, achats, sourcing, processus de fonctionnement, processus de décision...); Le conseil en organisation d'une DSI, qui s'attache à toutes les relations de la DSI avec ses clients, partenaires ou fournisseurs (gouvernance) ou bien aux aspects de performance (financière, RH...); Le conseil IT, qui regroupe : L'assistance à maîtrise d'ouvrage (AMOA) : rédaction d'expressions de besoins, de cahiers des charges, la validation de spécifications fonctionnelles, l'assistance au choix d'outils, la recette utilisateurs, la conduite du changement (formation, animation de séminaires ou d'événements, coaching des équipes, communication...); L'assistance au pilotage de projets - programmes (PMO) ou la gouvernance des projets; L'urbanisation fonctionnelle des systèmes d'information.; L'assistance à maîtrise d'ouvrage (AMOA) : rédaction d'expressions de besoins, de cahiers des charges, la validation de spécifications fonctionnelles, l'assistance au choix d'outils, la recette utilisateurs, la conduite du changement (formation, animation de séminaires ou d'événements, coaching des équipes, communication...); L'assistance au pilotage de projets - programmes (PMO) ou la gouvernance des projets; L'urbanisation fonctionnelle des systèmes d'information.
+Le conseil en stratégie, le conseil en management et le conseil en organisation s'attachent à la Direction des Systèmes d'Information (DSI) en elle-même ainsi qu'à ses modes de gestion intrinsèques, son positionnement dans l'écosystème de l'entreprise et à sa performance. Le conseil IT, en revanche, s'attache uniquement aux systèmes d'information en eux-mêmes. Ainsi, il faut faire la différence entre par exemple la gouvernance de la DSI (conseil en management - organisation) et la gouvernance des systèmes d'information (conseil IT)
+Les activités d'intégration ont pour objectif d'aider l'entreprise à adapter un logiciel ou un outil à ses besoins et comprennent : La conception des logiciels - outils informatiques (conception générale, conception détaillée, architecture fonctionnelle, logique, technique, physique); Le paramétrage de ces logiciels - outils; Les tests unitaires, tests d'intégration et tests de performance des logiciels - outils.
+
+Le conseil en développement durable
+Le conseil en développement durable est apparu depuis le début des années 2000, avec, en France, les obligations légales sur la responsabilité sociale des entreprises contenues dans la loi sur les nouvelles régulations économiques.
+
+Le conseil auprès des acteurs de l'intérêt général
+e nouveaux modèles d'entreprise prenant en compte les attentes des parties prenantes.
+
+Modèles innovants
+Depuis les années 2010, des start-ups innovantes proposent de nouveaux business models basés sur des solutions digitales.
+Le modèle le plus courant est la plateforme d'intermédiation, mettant à disposition des entreprises clientes des consultants free-lance "à la carte". L'intérêt pour l'entreprise cliente est de faire appel à une expertise précise en réponse à un problème précis.
+Un modèle plus récent vient alléger, à l'aidéquipes clientes à travers une collaboration digitale. On retrouve ce modèle en particulier sur le segment opérationnel, car le potentiel de collaboration des équipes est important.
+
+Voir aussi: Consultant; Service (économie); Modèle d'entreprise; Conseil en stratégie. Portail des entreprises.

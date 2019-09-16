@@ -1,0 +1,21 @@
+Le Network Working Group est un groupe informel d'universitaires créé en février 1969 à l'Université de Los Angeles autour de Steve Crocker pour définir les protocoles permettant le fonctionnement d'Arpanet, en particulier le courrier électronique.
+Le NWG a mis au point en décembre 1970, le NCP, protocole de communication poste-à-poste, et qui est à l'origine d'Internet.
+Le NCP a été adopté entre 1971 et 1972 par les sites reliés à ARPANET et remplacé en 1973 par le TCP, puis le TCP-IP, également conçus par le Network Working Group. Le NWG suit de près les designers d'Interface Message Processor (premiers routeurs), sans lesquels le réseau ne peut fonctionner.
+La petite équipe a successivement intégré deux doctorants du Comité de recherche en informatique, Gérard Deloche et Michel Elie.
+Fondé sur les "valeurs d'ouverture d'esprit et de pensée critique", le groupe encouragea ainsi la participation des utilisateurs et des développeurs aux tâches de formulation et de résolution des problèmes. Puis au partage des bonnes pratiques.
+Au sein du groupe, les débats de 1969 portent sur les questions de "client-serveur" et de temps partage.
+
+Histoire
+À l'été 1968, Elmer B. Shapiro, du Stanford Research Institute, est mandaté par l'IPTO pour explorer les possibilités de communication entre ordinateurs.
+En février 1969, la première rencontre a lieu chez le fournisseur, Bolt, Beranek and Newman. Mission: réfléchir aux futures spécifications d'ARPANET. Le premier "Network Working Group" semble composé de Steve Carr, de l'Utah, Jeff Rulifson et Bill Duvall du Stanford Research Institute, Steve Crocker et du français Gérard Deloche, ingénieur de la CII pourvu d'une bourse d'étude du CRI.
+Le 7 avril 1969, Steve Crocker et le NWG inventent les Request for comments, en mode collaboratif, ouvert et transparent. La 1re est titrée "Logiciel hôte".
+Le 9 mai 1969, un mois après, la Requests for comments numéro 9 signée de Gérard Deloche, lance une discussion qui aboutira à la création du protocole NCP.
+Le 2 septembre 1969 un premier lien d'hôte à IMP est installé à l'Université de Los Angeles, et un mois plus tard, au Stanford Research Institute. Le 20 septembre 1969, BBN installe le premier équipement à l'UCLA.
+Le 29 octobre 1969 a lieu la première liaison Arpanet, dans la salle de calcul du département informatique de l'Université de Californie, à Université de Los Angeles. Leonard Kleinrock opère sur l'ordinateur Sima 7, au système d'exploitation duquel avait contribué Jean Ichbiah. Il est entouré d'étudiants-chercheurs, parmi lesquels Michel Elie, qui a repris la bourse du CRI de Gérard Deloche, et d'un ingénieur de Bolt, Beranek and Newman.
+Fin 1969, deux noeuds supplémentaires, à l'université de Santa Barbara: ARPANET compte déjà quatre noeuds. La Délégation générale à l'informatique organise une visite d'Arpanet par des français.
+En décembre 1970, le NWG invente le NCP, protocole de communication poste-à-poste, adopté entre 1971 et 1972 par les sites reliés à ARPANET et qui sera remplacé en 1973 par le TCP puis le TCP-IP.
+Alex McKenzie y représente les designers d'Interface Message Processor (IMP).
+En janvier 1971, Michel Elie, revenu à Paris, décrit le projet Arpanet lors d'une réunion organisée par la Délégation générale à l'informatique. Son responsable Maurice Allègre embauche Louis Pouzin et cinq autres ingénieurs pour lancer une version française, le réseau Cyclades, hébergé un an plus tard par l'IRIA.
+Michel Elie est, lui, chargé de créer une New Network Architecture à la CII.
+En octobre 1972, le NWG est rebaptisé INWG (International Network Working Group) lors de l'ICCC, première conférence internationale sur les communications informatiques, où la France est représentée par Louis Pouzin. L'INWG est placé sous la direction de Vinton Cerf. Première démonstration publique d'ARPANET, par Robert E. Kahn et du courrier électronique, par Ray Tomlinson, ingénieur de BBN.
+En novembre 1973, première démonstration du réseau Cyclades reliant trois ordinateurs en réseau, deux Mitra 15 de la CII en région parisienne et un IBM 360 à l'IMAG de Grenoble. En 1975, il relie 25 ordinateurs des principaux centres de recherche français partenaires mais aussi de Rome et Londres.

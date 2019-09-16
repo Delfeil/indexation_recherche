@@ -1,0 +1,25 @@
+Un mot-outil ou mot grammatical est, en grammaire, une catégorie de mot dont le rôle syntaxique est plus important que le rôle sémantique.
+
+Caractéristiques
+Quelques caractéristiques de base ci-dessous : Ils sont limités en nombre.; La création de nouveaux mots grammaticaux est très rare.; Ils sont fréquents et peu précis.; Ils ne peuvent pas être remplacés par des pronoms.
+Les mots grammaticaux sont souvent très courts. Ils incluent les articles, les prépositions et les adjectifs non qualitatifs. Ils n'ont qu'une seule fonction.
+
+Description avancée
+Le mot-outil s'oppose au mot plein (ou mot lexical) dont le sens est aussi important que le rôle syntaxique (nom, adjectif, verbe et adverbe).
+Les mots-outils regroupent des catégories variables (déterminant et pronom), ainsi que des catégories invariables (constituées essentiellement par les mots de liaison, coordonnants et subordonnants). Les mots-outils qui déterminent le nom sont appelés déterminants tandis que ceux qui servent de relations entre les mots sont nommés adpositions.
+Toutefois, pour certains grammairiens, mots-outils et mots grammaticaux ne se recoupent pas. Pour eux, les mots grammaticaux se répartissent entre, d'une part, les mots grammaticaux variables (déterminants et pronoms), d'autre part, les mots grammaticaux invariables (mots de liaison). Pour ces grammairiens, les mots-outils correspondent aux seuls mots grammaticaux invariables, soit, aux mots de liaison (coordonnants et subordonnants).
+
+Liste des déterminants
+Les déterminants se répartissent pour l'essentiel, en deux sous-catégories, les articles et les adjectifs non qualificatifs. Article défini (simple ou contracté); Article indéfini; Article partitif; Adjectif possessif; Adjectif démonstratif; Adjectif indéfini; Adjectif numéral; Adjectif interrogatif; Adjectif exclamatif; Quantificateur.
+
+Liste des pronoms
+Selon le mode de représentation, on peut classer les pronoms en deux familles, les représentants référentiels et les représentants textuels. Pronom personnel; Pronom possessif; Pronom démonstratif; Pronom indéfini; Pronom interrogatif; Pronom relatif (le pronom relatif est également un subordonnant).
+
+Liste des mots de liaison
+Pour l'essentiel, les mots de liaison comprennent les coordonnants et les subordonnants, qui, comme leurs noms l'indiquent, servent respectivement, à la coordination et à la subordination.
+
+Coordonnants: Conjonction de coordination; Adverbe de liaison (adverbe de phrase ou connecteur).
+
+Subordonnants: Conjonction de subordination; Pronom relatif; Subordonnant interrogatif; Subordonnant exclamatif; Préposition.
+
+Sujets connexes: Particule; Phrase; Syntaxe; Fonction syntaxique; Analyse morphosyntaxique; Juxtaposition; Mot; Grammaire; Préposition; Conjonctions; Déterminants. Portail de la linguistique.

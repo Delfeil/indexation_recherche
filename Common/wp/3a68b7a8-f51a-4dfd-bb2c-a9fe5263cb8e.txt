@@ -1,0 +1,172 @@
+Le lambda-calcul (ou -calcul) est un système formel inventé par Alonzo Church dans les années 1930, qui fonde les concepts de fonction et d'application. Il a été le premier formalisme pour définir et caractériser les fonctions récursives et il a donc une grande importance dans la théorie de la calculabilité, à l'égal des machines de Turing et du modèle de Herbrand-Gödel. Il a depuis été appliqué comme langage de programmation théorique et comme métalangage pour la démonstration formelle assistée par ordinateur. Le lambda-calcul peut être typé ou non.
+Le lambda-calcul est apparenté à la logique combinatoire de Haskell Curry et se généralise dans les calculs de substitutions explicites.
+
+Présentation informelle
+
+En lambda-calcul, tout est fonction
+L'idée de base du lambda-calcul est que tout est fonction. Une fonction est en particulier exprimée par une expression qui peut contenir des fonctions qui ne sont pas encore définies et qui sont alors remplacées par des variables. Il y a donc, parmi les expressions du lambda-calcul, des expressions qui contiennent des variables.
+Que peut-on faire avec les fonctions On peut les "appliquer" à des valeurs qui sont elles-mêmes des fonctions, puisque tout est fonction. On a donc une opération de base, que l'on appelle "application". Appliquer l'expression A (-displaystyle A) (qui décrit une fonction) à l'expression B (-displaystyle B) (qui décrit une fonction) se note A B (-displaystyle AB).
+
+Comment "fabriquer" des fonctions
+On peut aussi fabriquer des fonctions en disant que si E est une expression on crée la fonction qui à x fait correspondre l'expression E et l'on écrit x.E cette nouvelle fonction.
+Le nom de la variable n'est pas plus important qu'il ne l'est dans une expression comme x P(x) qui est équivalente à y P(y). Autrement dit si E(y-x) est l'expression E dans laquelle toutes les occurrences de x ont été renommées en y, on considérera que les expressions x.E et y.E(y-x) sont équivalentes.
+En utilisant les outils dont on vient de se doter, on obtient, par applications et abstractions, des fonctions assez compliquées que l'on peut vouloir simplifier ou évaluer. Simplifier une application de la forme (x.E) P revient à la transformer en une variante de l'expression E dans laquelle toute occurrence libre de x est remplacée par P. Cette forme de simplification s'appelle une contraction (ou une -contraction si l'on veut rappeler que l'on applique la règle du lambda-calcul).
+
+Quelques fonctions
+Sur cette base, on peut construire quelques fonctions intéressantes, comme la fonction identité I (-displaystyle I), qui est la fonction qui à x (-displaystyle x) fait correspondre x (-displaystyle x), autrement dit la fonction x. x (-displaystyle -lambda x.x). On peut aussi construire la fonction constante égale à x (-displaystyle x), à savoir y. x (-displaystyle -lambda y.x).
+De là on peut construire la fonction qui fabrique les fonctions constantes, pourvu qu'on lui donne la constante comme paramètre, autrement dit la fonction x. (y. x) (-displaystyle -lambda x.(-lambda y.x)), c'est-à-dire la fonction qui à x (-displaystyle x) fait correspondre la fonction constamment égale à x (-displaystyle x).
+On peut aussi par exemple construire une fonction C (-displaystyle C) qui permute l'utilisation des paramètres d'une autre fonction, plus précisément si M (-displaystyle M) est une expression, on voudrait que ((C M) x) y (-displaystyle ((CM)x)y) fonctionne comme (M y) x (-displaystyle (My)x). La fonction C (-displaystyle C-,) est la fonction z. (x. (y. (z y) x)) (-displaystyle -lambda z.(-lambda x.(-lambda y.(zy)x))). Si on applique la fonction C (-displaystyle C-,) à M (-displaystyle M-,) on obtient (z. (x. (y. (z y) x))) M (-displaystyle (-lambda z.(-lambda x.(-lambda y.(zy)x)))-;M) que l'on peut simplifier en (x. (y. (M y) x)) (-displaystyle (-lambda x.(-lambda y.(My)x))).
+Jusqu'à maintenant nous avons été assez informels. L'idée du lambda-calcul consiste à fournir un langage précis pour décrire les fonctions et les simplifier.
+
+Syntaxe
+Le lambda calcul définit des entités syntaxiques que l'on appelle des lambda-termes (ou parfois aussi des lambda expressions) et qui se rangent en trois catégories : les variables : x, y... sont des lambda-termes ;; les applications : u v est un lambda-terme si u et v sont des lambda-termes ;; les abstractions : x.v est un lambda-terme si x est une variable et v un lambda-terme.
+L'application peut être vue ainsi : si u est une fonction et si v est son argument, alors u v est le résultat de l'application à v de la fonction u.
+L'abstraction x.v peut être interprétée comme la formalisation de la fonction qui, à x, associe v, où v contient en général des occurrences de x.
+Ainsi, la fonction f qui prend en paramètre le lambda-terme x et lui ajoute 2 (c'est-à-dire en notation mathématique courante la fonction f: x x+2) sera dénotée en lambda-calcul par l'expression x.x+2. L'application de cette fonction au nombre 3 s'écrit (x.x+2)3 et s'"évalue" (ou se normalise) en l'expression 3+2.
+
+Notations, conventions et concepts
+
+Parenthésage
+Pour délimiter les applications, on utilise des parenthèses, mais par souci de clarté, on omet certaines parenthèses. Par exemple, on écrit x1 x2... xn pour ((x1 x2)... xn).
+Il y a en fait deux conventions : Association à gauche, l'expression ((M0 M1) (M2M3)) s'écrit M0 M1 (M2M3). Quand une application s'applique à une autre application, on ne met de parenthèse que sur l'application de droite. Formellement, la grammaire du lambda calcul parenthésé est alors. - Var var. Parenthésage du terme de tête, l'expression ((M0 M1) (M2M3)) s'écrit (M0) M1 (M2) M3. Un terme entre parenthèses est le premier d'une suite d'applications. Ainsi les arguments d'un terme sont facilement identifiables. Formellement, la grammaire du lambda-calcul parenthésé est alors. - Var var.
+Curryfication
+Shönfinkel et Curry ont introduit la curryfication : c'est un procédé pour représenter une fonction à plusieurs arguments. Par exemple, la fonction qui au couple (x, y) associe u est considérée comme une fonction qui, à x, associe une fonction qui, à y, associe u. Elle est donc notée : x.(y.u). Cela s'écrit aussi x.y.u ou xy.u ou tout simplement xy.u. Par exemple, la fonction qui, au couple (x, y) associe x+y sera notée x.y.x+y ou plus simplement xy.x+y.
+
+Variables libres et variables liées
+Dans les expressions mathématiques en général et dans le lambda calcul en particulier, il y a deux catégories de variables : les variables libres et les variables liées (ou muettes). En lambda-calcul, une variable est liée par un. Une variable liée a une portée et cette portée est locale ; de plus, on peut renommer une variable liée sans changer la signification globale de l'expression entière où elle figure. Une variable qui n'est pas liée est dite libre.
+
+Variables liées en mathématiques
+Par exemple dans a b (x + y) d y (-displaystyle -textstyle -int -(a)(b)((x+y)dy)), x (-displaystyle x) est libre, mais y (-displaystyle y) est liée (par le d y (-displaystyle dy)). Ceci est la même expression que a b (x + z) d z (-displaystyle -textstyle -int -(a)(b)((x+z)dz)) car y (-displaystyle y) était un nom local, tout comme l'est z (-displaystyle z). Par contre a b (z + y) d y (-displaystyle -textstyle -int -(a)(b)((z+y)dy)) ne correspond pas à la même expression car le z (-displaystyle z) est libre.
+Tout comme l'intégrale lie la variable d'intégration, le (-displaystyle -lambda) lie la variable qui le suit.
+Exemples: Dans x. x y (-displaystyle -lambda x.xy), la variable x (-displaystyle x) est liée et la variable y (-displaystyle y) libre. On peut récrire ce terme en t. t y (-displaystyle -lambda t.ty).
+ x y z t. z (x t) a b (z s y) (-displaystyle -lambda xyzt.z(xt)ab(zsy)) est équivalent à w j i t. i (w t) a b (i s j) (-displaystyle -lambda wjit.i(wt)ab(isj)).
+ b. n. b a n a n e (-displaystyle -lambda b.-lambda n.banane) est équivalent à p. t. p a t a t e (-displaystyle -lambda p.-lambda t.patate).
+
+Définition formelle des variables libres en lambda-calcul
+On définit l'ensemble VL(t) des variables libres d'un terme t par récurrence : si x (-displaystyle x) est une variable alors VL(x) - (x); si u (-displaystyle u) et v sont des lambda-termes alors VL(u v) - VL(u) VL(v); si x (-displaystyle x) est une variable et u un lambda-terme alors VL(x.u) - VL(u) -(x).
+
+Terme clos et terme ouvert
+Un terme qui ne contient aucune variable libre est dit clos (ou fermé). Un terme qui n'est pas clos est dit ouvert.
+Si un lambda-terme n'a pas de variables libres, on dit qu'il est clos (ou fermé) on dit aussi que ce lambda-terme est un combinateur (d'après le concept apparenté de logique combinatoire).
+
+Substitution et -conversion
+L'outil le plus important pour le lambda-calcul est la substitution qui permet de remplacer, dans un terme, une variable par un terme. Ce mécanisme est à la base de la réduction qui est le mécanisme fondamental de l'évaluation des expressions donc du "calcul" des lambda-termes.
+La substitution dans un lambda terme t d'une variable x par un terme u est notée t(x :- u). Il faut prendre quelques précautions pour définir correctement la substitution afin d'éviter le phénomène de capture de variable qui pourrait, si l'on n'y prend pas garde, rendre liée une variable qui était libre avant que la substitution n'ait lieu. Par exemple, si u contient la variable libre y et si x apparaît dans t comme occurrence d'un sous terme de la forme y.v, le phénomène de capture pourrait apparaître. L'opération t(x :- u) s'appelle la substitution dans t de x par u et se définit par récurrence sur t : si t est une variable alors t(x :- u)-u si x-t et t sinon; si t - v w alors t(x :- u) - v(x :- u) w(x :- u); si t - y.v alors t(x :- u) - y.(v(x :- u)) si xy et t sinon.
+Remarque : dans le dernier cas on fera attention à ce que y ne soit pas une variable libre de u. En effet, elle serait alors "capturée" par le lambda externe. Si c'est le cas on renomme y et toutes ses occurrences dans v par une variable z qui n'apparaît ni dans t ni dans u.
+L'-conversion identifie y.v et z.v(y :- z). Deux lambda-termes qui ne diffèrent que par un renommage (sans capture) de leurs variables liées sont dits -convertibles. L'-conversion est une relation d'équivalence entre lambda-termes.
+Exemples : (x.xy)(y :- a) - x.xa; (x.xy)(y :- x) - z.zx (et non x.xx, qui est totalement différent, cf remarque ci-dessus).
+Remarque : l'-conversion doit être définie avec précaution avant la substitution. Ainsi dans le terme x.y.xyz.z, on ne pourra pas renommer brutalement x en y (on obtiendrait y.y.yyz.z) par contre on peut renommer x en z.
+Définie ainsi, la substitution est un mécanisme externe au lambda-calcul, on dit aussi qu'il fait partie de la méta-théorie. À noter que certains travaux visent à introduire la substitution comme un mécanisme interne au lambda-calcul, conduisant à ce qu'on appelle les calculs de substitutions explicites.
+
+Réductions
+Une manière de voir les termes du lambda-calcul consiste à les concevoir comme des arbres ayant des noeuds binaires (les applications), des noeuds unaires (les -abstractions) et des feuilles (les variables). Les réductions ont pour but de modifier les termes, ou les arbres si on les voit ainsi ; par exemple, la réduction de (x.xx)(y.y) donne (y.y)(y.y).
+On appelle rédex un terme de la forme (x.u) v, où u et v sont des termes et x une variable. On définit la bêta-contraction (ou -contraction) de (x.u) v comme u(x :- v). On dit qu'un terme C(u) se réduit en C(u') si u est un rédex qui se -contracte en u', on écrit alors C(u)C(u'), la relation est appelée contraction.
+Exemple de contraction :
+(x.xy)a donne (xy)(x :- a) - ay.
+On note la fermeture réflexive transitive de la relation de contraction et on l'appelle réduction. Autrement dit, une réduction est une suite finie, éventuellement vide, de contractions.
+On définit - comme la fermeture réflexive symétrique et transitive de la contraction et elle est appelée bêta-conversion, -conversion, ou plus couramment bêta-équivalence ou -équivalence.
+La -équivalence permet par exemple de comparer des termes qui ne sont pas réductibles l'un envers l'autre, mais qui après une suite de -contractions arrivent au même résultat. Par exemple (y.y)x - (y.x)z car les deux expressions se contractent pour donner x.
+Formellement, on a M - M' si et seulement si N1,.., Np tels que M - N1, M'-Np et, pour tout i inférieur à p et supérieur à 0, Ni Ni+1 ou Ni+1 Ni.
+Cela signifie que dans une conversion on peut appliquer des réductions ou des relations inverses des réductions (appelées expansions).
+On définit également une autre opération, appelée êta-réduction (ou son inverse la êta-expansion), définie ainsi : x.ux u, lorsque x n'apparait pas libre dans u. En effet, ux s'interprète comme l'image de x par la fonction u. Ainsi, x.ux s'interprète alors comme la fonction qui, à x, associe l'image de x par u, donc comme la fonction u elle-même.
+Enfin, si on s'est donné des primitives, on peut fixer leur comportement calculatoire au moyen des règles de delta-réduction. Par exemple, si on s'est donné les entiers et + comme termes supplémentaires, les tables d'addition serviront de delta-règles. Comme les primitives sont par définition complètement étrangères au lambda-calcul, leurs règles de calcul peuvent a priori adopter n'importe quelle forme. Toutefois, si on veut étendre les propriétés mentionnées ci-dessous au cas d'un calcul avec des primitives, on est amené à faire quelques hypothèses sur les règles ajoutées.
+
+La normalisation : notion de calcul
+Le calcul associé à un lambda-terme est la suite de réductions qu'il engendre. Le terme est la description du calcul et la forme normale du terme (si elle existe) en est le résultat.
+Un lambda-terme t est dit en forme normale si aucune bêta-contraction ne peut lui être appliquée, c'est-à-dire si t ne contient aucun rédex, ou encore s'il n'existe aucun lambda-terme u tel que t u.
+Exemple : x.y(z.z(yz)).
+On dit qu'un lambda-terme t est normalisable s'il existe un terme u auquel on ne peut appliquer aucune bêta-contraction et tel que t - u. Un tel u est appelé la forme normale de t.
+On dit qu'un lambda-terme t est fortement normalisable si toutes les réductions à partir de t sont finies.
+Exemples :
+Posons x.xx. L'exemple par excellence de lambda-terme non fortement normalisable est obtenu en appliquant ce terme à lui-même, autrement dit:. - (x.xx)(x.xx) - Le lambda terme n'est pas fortement normalisable car sa réduction boucle indéfiniment sur elle-même. (x.xx)(x.xx) (x.xx)(x.xx). (x.x)((y.y)z) est un lambda-terme fortement normalisable.; (x.y) est normalisable et sa forme normale est y (-displaystyle y), mais il n'est pas fortement normalisable car la réduction du terme (x.y) peut aboutir au terme y (-displaystyle y) mais aussi au terme (x.y) si on considère x.xx.; (x.xxx)(x.xxx) (x.xxx)(x.xxx)(x.xxx) (x.xxx)(x.xxx)(x.xxx)(x.xxx)... crée des termes de plus en plus grands.
+Si un terme est fortement normalisable, alors il est normalisable.
+Théorème de Church-Rosser : soient t et u deux termes tels que t - u. Il existe un terme v tel que t - v et u - v.
+Théorème du losange (ou de confluence) : soient t, u1 et u2 des lambda-termes tels que t - u1 et t - u2. Alors il existe un lambda-terme v tel que u1 - v et u2 - v.
+Grâce au Théorème de Church-Rosser on peut facilement montrer l'unicité de la forme normale ainsi que la cohérence du lambda-calcul (c'est-à-dire qu'il existe au moins deux termes distincts non bêta-convertibles).
+
+Différents lambda-calculs
+Sur la syntaxe et la réduction du lambda-calcul on peut adapter différents calculs en restreignant plus ou moins la classe des termes. On peut ainsi distinguer deux grandes classes de lambda-calculs : le lambda-calcul non typé et les lambda-calculs typés. Les types sont des annotations des termes qui ont pour but de ne garder que les termes qui sont normalisables, éventuellement en adoptant une stratégie de réduction. On espère ainsi avoir un lambda-calcul qui satisfait les propriétés de Church-Rosser et de normalisation.
+La correspondance de Curry-Howard relie un lambda calcul typé à un système de déduction naturelle. Elle énonce qu'un type correspond à une proposition et un terme correspond à une preuve, et réciproquement.
+
+Le lambda-calcul non typé
+Des codages simulent les objets usuels de l'informatique dont les entiers naturels, les fonctions récursives et les machines de Turing. Réciproquement le lambda-calcul peut être simulé par une machine de Turing. Grâce à la thèse de Church on en déduit que le lambda-calcul est un modèle universel de calcul.
+
+Les booléens
+Dans la partie Syntaxe, nous avons vu qu'il est pratique de définir des primitives. C'est ce que nous allons faire ici. vrai - ab.a; faux - ab.b.
+Ceci n'est que la définition d'un codage, et l'on pourrait en définir d'autres.
+Nous remarquons que : vrai x y - x.
+et que : faux x y - y.
+Nous pouvons alors définir un lambda-terme représentant l'alternative: if-then-else. C'est une fonction à trois arguments, un booléen b et deux lambda termes u et v, qui retourne le premier si le booléen est vrai et le second sinon. ifthenelse - buv.(b u v).
+Notre fonction est bien vérifiée: ifthenelse vrai x y - (buv.(b u v)) vrai x y; ifthenelse vrai x y (uv.(vrai u v)) x y; ifthenelse vrai x y - (vrai x y); ifthenelse vrai x y - ((xy.x) x y); ifthenelse vrai x y - x.
+On verra de la même manière que: ifthenelse faux x y - y.
+À partir de là nous avons aussi un lambda-terme pour les opérations booléennes classiques : non - b.ifthenelse b faux vrai; et - ab.ifthenelse a b faux (ou bien ab.ifthenelse a b a); ou - ab.ifthenelse a vrai b (ou bien ab.ifthenelse a a b).
+Les entiers
+Le codage des entiers qui suit s'appelle les entiers de Church du nom de leur concepteur. On pose : 0 - fx.x; 1 - fx.f x; 2 - fx.f (f x); 3 - fx.f (f (f x)).
+et d'une manière générale : n - fx.f (f (...(f x)...)) - fx.f nx avec f itérée n fois.
+Ainsi, l'entier n est vu comme la fonctionnelle qui, au couple f, x, associe f n(x).
+
+Quelques fonctions
+Il y a deux manières de coder la fonction successeur, soit en ajoutant un f en tête, soit en queue. Au départ nous avons n - fx.f n x et nous voulons fx.f n+1 x. Il faut pouvoir rajouter un f soit au début des f "sous" les lambdas soit à la fin. Si nous choisissons de le mettre en tête, il faut pouvoir entrer "sous" les lambdas. Pour cela, si n est notre entier, on forme d'abord n f x, ce qui donne f n x. En mettant un f en tête, on obtient : f (n f x) f(f n x) - f n+1 x. Il suffit alors de compléter l'entête pour reconstruire un entier de Church : fx.f (n f x) - fx.f n+1 x (nous aurions bien sûr pu prendre d'autres noms de variables que f et x à l'étape précédente et donc nous aurions gardé ces noms ici). Enfin pour avoir la "fonction" successeur il faut bien entendu prendre un entier en paramètre, donc rajouter un lambda. Nous obtenons nfx.f(n f x). Le lecteur pourra vérifier que (nfx.f(n f x)) 3 - 4, avec 3 - fx.f(f(f x))) et 4 - fx.f(f(f(f x)))).; Si par contre nous voulions mettre le f en queue, il suffit d'appliquer n f x non pas à x, mais à f x, à savoir n f (f x), ce qui se réduit à fn (f x) - fn+1 x. On n'a plus qu'à refaire l'emballage comme dans le cas précédent et on obtient nfx.n f (f x). La même vérification pourra être faite.
+Les autres fonctions sont construites avec le même principe. Par exemple l'addition en "concaténant" les deux lambda-termes : npfx.n f (p f x).
+Pour coder la multiplication, on utilise le f pour "propager" une fonction sur tout le terme : npf.n (p f)
+L'exponentielle n'est pas triviale contrairement à ce que son écriture laisse penser, et lors de la réduction on est obligé de renommer les variables : np.p n
+Le prédécesseur et la soustraction ne sont pas simples non plus. On en reparlera plus loin.
+On peut définir le test à 0 ainsi : if0thenelse - nab.n (x.b) a, ou bien en utilisant les booléens n.n (x.faux) vrai.
+
+Les itérateurs
+Définissons d'abord une fonction d'itération sur les entiers : itère - nuv.n u v
+v est le cas de base et u une fonction. Si n est nul, on calcule v, sinon on calcule u n(v).
+Par exemple l'addition qui provient des équations suivantes: add(0, p) - p; add(n+1, p) - (n+p) + 1.
+peut être définie comme suit. Le cas de base v est le nombre p, et la fonction u est la fonction successeur. Le lambda-terme correspondant au calcul de la somme est donc : add - np.itère n successeur p.
+On remarquera que add n p - n successeur p.
+
+Les couples
+On peut coder des couples par c - z.z a b où a est le premier élément et b le deuxième. On notera ce couple (a, b). Pour accéder aux deux parties on utilise 1 - c.c (ab.a) et 2 - c.c (ab.b). On reconnaîtra les booléens vrai et faux dans ces expressions et on laissera le soin au lecteur de réduire 1(z.z a b) en a.
+
+Les listes
+On peut remarquer qu'un entier est une liste dont on ne regarde pas les éléments, en ne considérant donc que la longueur. En rajoutant une information correspondant aux éléments, on peut construire les listes d'une manière analogue aux entiers : (a1 ;.. an) - gy. g a1 (... (g an y)...). Ainsi : - gy.y; (a1) - gy.g a1 y; (a1 ; a2) - gy.g a1 (g a2 y).
+Les itérateurs sur les listes
+De la même manière qu'on a introduit une itération sur les entiers on introduit une itération sur les listes. la fonction liste-it se définit par lxm.l x m comme pour les entiers. Le concept est à peu près le même mais il y a des petites nuances. Nous allons voir par un exemple.
+exemple : La longueur d'une liste est définie par: longueur - 0; longueur (x :: l) - 1 + longueur l.
+x :: l est la liste de tête x et de queue l (notation ML). La fonction longueur appliquée sur une liste l se code par : l.liste-it l (ym.add (fx.f x) m) (fx.x).
+ou tout simplement: l.l (ym.add 1 m) 0.
+Les arbres binaires
+Le principe de construction des entiers, des couples et des listes se généralise aux arbres binaires : constructeur de feuille : feuille - ngy.y n; constructeur de noeud : noeud - bcgy.g (b g y) (c g y) (avec b et c des arbres binaires); itérateur : arbre-it - axm.a x m.
+Un arbre est soit une feuille, soit un noeud. Dans ce modèle, aucune information n'est stockée au niveau des noeuds, les données (ou clés) sont conservées au niveau des feuilles uniquement. On peut alors définir la fonction qui calcule le nombre de feuilles d'un arbre : nb-feuilles - a.arbre-it a (bc.add b c) (n.1), ou plus simplement: nb-feuilles - a.a add (n.1)
+
+Le prédécesseur
+Pour définir le prédécesseur sur les entiers de Church, il faut utiliser les couples. L'idée est de reconstruire le prédécesseur par itération : pred - n.1 (itère n (c.(2 c, successeur (2 c))) (0,0)). Puisque le prédécesseur sur les entiers naturels n'est pas défini en 0, afin de définir une fonction totale, on a ici adopté la convention qu'il vaut 0.
+On vérifie par exemple que pred 3 1 (itère 3 (c.(2 c, successeur (2 c))) (0,0)) 1 (2,3) 2.
+On en déduit que la soustraction est définissable par : sub - np.itère p pred n avec la convention que si p est plus grand que n, alors sub n p vaut 0.
+
+La récursion
+En combinant prédécesseur et itérateur, on obtient un récurseur. Celui-ci se distingue de l'itérateur par le fait que la fonction qui est passée en argument a accès au prédécesseur.
+rec - nfx.1 (n (c.(f (2 c) (1 c), successeur (2 c))) (x, 0))
+
+Combinateur de point fixe
+Un combinateur de point fixe permet de construire pour chaque F, une solution à l'équation X - F X. Ceci est pratique pour programmer des fonctions qui ne s'expriment pas simplement par itération, telle que le pgcd, et c'est surtout nécessaire pour programmer des fonctions partielles.
+Le combinateur de point fixe le plus simple, dû à Curry, est : Y - f.(x.f(x x))(x.f(x x)). Turing a proposé un autre combinateur de point fixe : - (x. y. (y (x x y))) (x. y. (y (x x y))).
+On vérifie que Y g - g (Y g) (-displaystyle Y- g- --(-beta)- g(Y- g)) quel que soit g. Grâce au combinateur de point fixe, on peut par exemple définir une fonction qui prend en argument une fonction et teste si cette fonction argument renvoie vrai pour au moins un entier : teste-annulation - g.Y (fn.ou (g n) (f (successeur n))) 0.
+Par exemple, si on définit la suite alternée des booléens vrai et faux : alterne - n.itère n non faux, alors, on vérifie que : teste-annulation alterne ou (alterne 0) (Y (fn.ou (alterne n) (f successeur n)) (successeur 0)) ou (alterne 1) (Y (fn.ou (alterne n) (f successeur n)) (successeur 1)) vrai.
+On peut aussi définir le pgcd : pgcd - Y (fnp.if0thenelse (sub p n) (if0thenelse (sub n p) p (f p (sub n p))) (f n (sub p n))).
+
+Connexion avec les fonctions partielles récursives
+Le récurseur et le point fixe sont des ingrédients clés permettant de montrer que toute fonction partielle récursive est définissable en -calcul lorsque les entiers sont interprétés par les entiers de Church. Réciproquement, les -termes peuvent être codés par des entiers et la réduction des -termes est définissable comme une fonction (partielle) récursive. Le -calcul est donc un modèle de la calculabilité.
+
+Le lambda-calcul simplement typé
+On annote les termes par des expressions que l'on appelle des types. Pour cela, on fournit un moyen de donner un type à un terme. Si ce moyen réussit, on dit que le terme est bien typé. Outre le fait que cela donne une indication sur ce que "fait" la fonction, par exemple, elle transforme les objets d'un certain type en des objets d'un autre type, cela permet de garantir la normalisation forte, c'est-à-dire que, pour tous les termes, toutes les réductions aboutissent à une forme normale (qui est unique pour chaque terme de départ). Autrement dit, tous les calculs menés dans ce contexte terminent. Les types simples sont construits comme les types des fonctions, des fonctions de fonctions, des fonctions de fonctions de fonctions vers les fonctions, etc. Quoi qu'il puisse paraître, le pouvoir expressif de ce calcul est très limité (ainsi, l'exponentielle ne peut y être définie, ni même la fonction n 2 n (-displaystyle n-rightarrow 2(n))).
+Plus formellement, les types simples sont construits de la manière suivante: un type de base (-displaystyle -iota) (si on a des primitives, on peut aussi se donner plusieurs types de bases, comme les entiers, les booléens, les caractères, etc. mais cela n'a pas d'incidence au niveau de la théorie).; si 1 (-displaystyle -tau -(1)) et 2 (-displaystyle -tau -(2)) sont des types, 1 2 (-displaystyle -tau -(1)-rightarrow -tau -(2)) est un type.
+Intuitivement, le second cas représente le type des fonctions acceptant un élément de type 1 (-displaystyle -tau -(1)) et renvoyant un élément de type 2 (-displaystyle -tau -(2)).
+Un contexte (-displaystyle -Gamma) est un ensemble de paires de la forme (x ,) (-displaystyle (x,-tau)) où x (-displaystyle x) est une variable et (-displaystyle -tau) un type. Un jugement de typage est un triplet t : (-displaystyle -Gamma -vdash t:-tau) (on dit alors que t (-displaystyle t) est bien typé dans (-displaystyle -Gamma)), défini récursivement par: si (x ,) (-displaystyle (x,-tau)-in -Gamma), alors x : (-displaystyle -Gamma -vdash x:-tau).; si (x , 1) u : 2 (-displaystyle -Gamma -cup (x,-tau -(1))-vdash u:-tau -(2)), alors x : 1. u : 1 2 (-displaystyle -Gamma -vdash -lambda x-!:-!-tau -(1).u-,:-,-tau -(1)-rightarrow -tau -(2)).; si u : 1 2 (-displaystyle -Gamma -vdash u:-tau -(1)-rightarrow -tau -(2)) et v : 1 (-displaystyle -Gamma -vdash v:-tau -(1)), alors u v : 2 (-displaystyle -Gamma -vdash uv:-tau -(2)).
+Si on a ajouté des constantes au lambda calcul, il faut leur donner un type (via (-displaystyle -Gamma)).
+
+Les lambda-calculs typés d'ordres supérieurs
+Le lambda-calcul simplement typé est trop restrictif pour exprimer toutes les fonctions calculables dont on a besoin en mathématiques et donc dans un programme informatique. Un moyen de dépasser l'expressivité du lambda-calcul simplement typé consiste à autoriser des variables de type et à quantifier sur elles, comme cela est fait dans le système F ou le calcul des constructions. Le Système T de Gödel qui fusionne la récursion primitive et le lambda-calcul simplement typé offre aussi, au prix d'un enrichissement, un système plus expressif. Dans ce système, on peut coder, grâce à l'ordre supérieur, de nouveaux algorithmes comme la fonction d'Ackermann qui est non primitive récursive.
+
+Le lambda calcul et les langages de programmation
+Le lambda-calcul constitue la base théorique de la programmation fonctionnelle et a ainsi influencé de multiples langages de programmation. Le premier d'entre eux est Lisp qui est un langage non typé. Plus tard, ML et Haskell qui sont des langages typés seront développés.
+
+Les indices de de Bruijn
+Les indices de de Bruijn sont une notation du lambda calcul qui permet de représenter par un terme, chaque classe d'équivalence pour l'-conversion. Pour cela, l'idée qu'a eue de Bruijn est de se passer des variables en les remplaçant par des entiers naturels. Chaque entier naturel dénote le nombre de qu'il faut croiser pour relier l'indice (qui représente une variable) à son lieur. Ainsi le terme x. x x est représenté par le terme 0 0 tandis que le terme x. y. z.x z (y z) est représenté par 2 0 (1 0), parce que, dans le premier cas, le chemin de x à son lieur ne croise aucun , tandis que, dans le deuxième cas, le chemin de x à son lieur croise deux , le chemin de y à son lieur croise un et le chemin de z à son lieur ne croise aucun.
+
+Voir aussi: Machine de Krivine; Machine SECD; Stratégie d'évaluation (informatique); Substitution explicite.

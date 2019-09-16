@@ -1,0 +1,35 @@
+Une banque d'images (ou photothèque) est une banque de données qui regroupe de plusieurs milliers à plusieurs centaines de milliers de photographies, d'images ou d'illustrations.
+On distingue différents types de photothèques (dans les entreprises, la presse, les administrations, les artistes, etc.) Cet article a pour sujet les photothèques dites "commerciales".
+Les images provenant de ces photothèques sont souvent utilisées à caractère illustratif dans les magazines, les journaux, les brochures, les sites Internet, les emballages et les supports médiatiques, décoratifs, publicitaires, électroniques ou imprimés.
+
+Le contenu
+Les banques d'images contiennent des images disponibles sous tous types de supports. Si autrefois, les catalogues étaient en papier et les photographies accessibles en diapositives, depuis l'avènement d'Internet, le format électronique est désormais de rigueur. Les images sont aujourd'hui proposées sous format RAW ou JPEG par exemple pour les photographies et sous format SVG pour les illustrations vectorielles.
+Les images que l'on retrouve dans les photothèques sont typiques à la photographie d'illustration. Ce sont souvent des représentations concrètes d'idées abstraites comme le régime (deux pieds sur une balance), l'imagination (un homme regardant vers le ciel), le bonheur (un couple s'embrassant sur un banc), la famille (une famille à la maison).
+
+Les utilisateurs
+Les principaux utilisateurs de banque d'images sont les graphistes, les agences de communication, les agences de publicité, les directeurs artistiques ou les professionnels du marketing. Les banques d'images se sont généralisées à cause du coût engendré par la location des services d'un photographe professionnel. Avec la baisse des prix engendrés par l'émergence des nouvelles agences, les particuliers ont aujourd'hui accès aux banques d'images et peuvent acquérir des images utilisées pour la décoration intérieure ou l'illustration de travaux scolaires.
+
+Les contributeurs
+Les contributeurs des banques d'images sont des photographes ou des graphistes professionnels qui ont conclu un contrat avec une ou plusieurs banques d'images. La plupart des grandes banques d'images ne sont pas libres d'accès et un portfolio d'images doit être accepté par la photothèque afin de valider la candidature du photographe ou du graphiste. De plus, la plus grande partie des banques d'images effectuent une sélection des images en amont.
+Les contributeurs perçoivent des droits d'auteurs sur chaque image vendue. Ces droits d'auteurs sont reversés directement par la banque d'images qui prend en général en charge le paiement côté client ainsi qu'une commission sur la vente.
+Très récemment, un nouveau type de banques d'images a vu le jour. Ces nouvelles banques d'images comme Fotolia ou Shutterstock, permettent théoriquement aux photographes amateurs ou professionnels, de mettre en vente leurs images sur le site. Ces types de banques d'images sont communément regroupés sous le terme "microstock". Une modération des images est effectuée mais beaucoup moins draconienne que celle des grandes photothèques comme Getty Images ou Corbis qui sont principalement utilisées par des professionnels.
+
+La différence avec les photos d'actualité
+Les photos dites "d'actualité" sont les images utilisées par les magazines à titre informatif alors que les images provenant des photothèques proprement dites sont utilisées principalement à caractère illustratif. La grande différence entre ces types d'images est qu'en général il n'y a pas besoin d'autorisation de droit à l'image pour les biens et les personnes représentées sur les photos d'actualité à condition que l'image soit utilisée dans le cadre de l'actualité. Pour les images d'illustration, le droit à l'image doit être respecté et une autorisation signée est nécessaire pour toute représentation d'une personne ou d'un bien.
+
+Types de licences
+L'utilisation des images provenant des banques d'images est soumise à des règles strictes dictées par une licence d'utilisation. Généralement, un contrat est établi entre le photographe-graphiste et la banque d'image d'une part (contrat de cession ou de gestion de droits d'auteurs) et d'autre part entre la banque d'images et le client qui acquiert l'image (contrat d'utilisation).
+Il existe deux grands types de licences, les licences libres de droit et les licences de droit géré.
+
+Licence de droit géré
+La licence de droit géré (right managed (en) en anglais) est la licence classique appliquée depuis plusieurs décennies dans les banques d'images traditionnelles. Le prix et les restrictions de l'utilisation de l'image sont fixés au cas par cas selon le besoin du client (par exemple, pour la couverture d'un magazine diffusée à échelle nationale à 125 000 exemplaires).
+
+Licence libre de droit
+La licence libre de droit (royalty free en anglais) a émergé au début des années 2000 avec l'explosion de l'Internet et de la consommation d'images. Cette licence élargit le cadre d'utilisation d'une image en droit géré. Ainsi, une licence libre de droit classique autorise une utilisation illimitée (dans le temps et dans l'espace) et sur tous les supports, une fois la licence acquise. Cependant, il ne faut pas croire que "libre de droit" soit associé à "libre de tout droit". Cette licence est en effet payante d'une part, et d'autre part, elle définit un cadre strict d'utilisation. Par exemple, il est toujours interdit d'utiliser une image dans un contexte qui pourrait nuire au(x) modèle(s) représenté(s) sur l'image.
+
+Licence de libre diffusion
+On parle de "licence de libre diffusion" (ou LLD) pour les licences permettant au minimum la copie. Les licences libres sont des licences de libre diffusion, mais la réciproque n'est pas vraie. Par exemple, la licence Art Libre et la licence Creative Commons by-sa sont des licences libres, tandis que les licences Creative Commons BY-NC-SA et Creative Commons BY-ND ne sont pas des licences libres mais sont des licences de libre diffusion.
+
+Articles connexes: Photothèque du Museum de Toulouse; Photothèque de la Ville de Luxembourg; Liste des visionneuses d'images; Partage de photographies; Agence photographique.
+
+Voir aussi: Photothèque nationale de l'Institut national de l'information géographique et forestière (IGN) en France. Portail de la photographie; Portail d'Internet; Portail des bases de données.

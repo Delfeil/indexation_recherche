@@ -1,0 +1,32 @@
+En informatique, une instruction machine est une opération élémentaire qu'un programme demande à un processeur d'effectuer. C'est l'ordre le plus basique que peut comprendre un ordinateur.
+La collection d'instructions machine qui peuvent être données à un processeur est son jeu d'instructions. Les instructions machine sont codées en binaire. Un champ de l'instruction appelé "code opération" ou "opcode" désigne l'opération à effectuer. Puisque sa valeur numérique n'a pas de sens pour les humains, le programmeur utilise une abréviation désignant le code opération fourni par le langage assembleur pour ce processeur.
+
+Taille des instructions
+La taille d'une instruction dépend de l'architecture de la plateforme, mais elle est usuellement comprise entre 4 et 64 bits. Voici un exemple d'une instruction x86 dans la notation symbolique d'un langage assembleur : SHL AX, 01.
+On appelle SHL un opérateur, et AX, 01 des opérandes. AX est le nom du registre, 01 est une constante. Dans cet exemple, SHL est une abréviation mnémonique pour "shift left" (décalage vers la gauche). L'instruction provoque le décalage vers la gauche d'un bit du registre AX.
+
+Instructions les plus fréquentes
+On peut classer les instructions qu'un microcontrôleur est capable d'effectuer en quelques groupes.
+
+Instructions de transfert
+Un processeur passe une grande partie de son temps à transférer des octets d'un endroit à l'autre du système : d'un périphérique vers un registre interne ou vice-versa, d'un registre interne vers la mémoire RAM ou vice-versa. Parfois, on ne peut pas effectuer de transfert direct d'une case mémoire vers une autre ou vers un périphérique, ou une écriture en mémoire ROM : il faut dans ce cas faire transiter les informations par l'un des registres internes. Remarquons que, sauf exception, il s'agit plutôt d'une copie que d'un transfert puisque la case mémoire d'origine garde son information (tant qu'on n'a pas écrit autre chose à la place).
+
+Instructions arithmétiques
+Les processeurs les plus simples ne permettent que d'effectuer des additions et des soustractions, voire des multiplications et des divisions sur des nombres entiers de la taille d'un mot. C'est notamment le cas des microcontrôleurs. Cependant, les processeurs modernes disposent généralement d'une unité de calcul en virgule flottante capable d'effectuer des calculs sur les nombres à virgule. En l'absence d'une telle unité, les nombres à virgule doivent être traités en logiciel.
+De même, certains anciens processeurs étaient capable d'effectuer des opérations mathématiques complexes telles que le traitement des grands nombres, des nombres fractionnaires, des puissances, des racines carrées, des fonctions trigonométriques, logarithmiques et exponentielles. Sur les processeurs modernes, ces opérations sont généralement réalisées en logiciel à l'aide des opérations mathématiques de base.
+
+Instructions logiques
+Les processeurs sont capables d'effectuer des opérations logiques : ET, OU, XOU (XOR), NON (inverseur), rotations, décalages. Les opérations sont opérées simultanément sur les bits correspondants des deux registres.
+La comparaison des octets A et B, qui est considérée comme une opération logique, est réalisée comme une soustraction dont on néglige le résultat ; on s'intéresse simplement au fait de savoir s'il est nul (ce qui signifie que A - B), positif (A B) ou négatif (A B). Ces indications sont inscrites dans des indicateurs d'états (petites mémoires d'un bit situées dans le processeur).
+
+Instructions d'entrées-sorties
+Ces instructions permettent de s'interfacer avec des dispositifs extérieurs, via des ports d'entrée-sortie. Dans certaines architectures, les ports sont considérés simplement comme des cases de mémoire et ils sont gérés par les instructions de transfert (entrées-sorties intégrées mémoire). D'autres architectures disposent d'instructions spécifiques pour les entrées-sorties (entrées-sorties indépendantes).
+
+Instructions de branchement
+Il s'agit d'instructions qui altèrent le déroulement normal du programme. On distingue les sauts et les appels de routines : les sauts provoquent un branchement du programme vers une adresse mémoire qui n'est pas contiguë à l'endroit où l'on se trouve ;; une appel de routine (call) (ou sous-programme) est un saut vers une partie du programme qui forme un bloc accomplissant une tâche donnée. Une routine permet ainsi de structurer le programme, et peut également être appelée à plusieurs reprises, voire des millions de fois, durant l'exécution du programme principal. La grande différence par rapport à un simple saut, c'est qu'au moment du branchement l'adresse de l'instruction suivante est mémorisée afin d'y revenir une fois la routine terminée.
+Tant les sauts que les appels de routines peuvent être : inconditionnels ;; conditionnels, c'est-à-dire que le branchement n'a lieu que si une certaine condition est remplie ; généralement, la condition testée est le contenu d'un des indicateurs d'état ; ceux-ci indiquent par exemple si le contenu de l'accumulateur est nul, positif, négatif, de parité paire ou impaire.
+
+Instructions diverses
+On trouve dans ce groupe : des instructions de gestion de la pile (zone de mémoire RAM permettant le stockage de données locales des routines pendant l'exécution du programme) ;; des instructions de contrôle du processeur : par exemple passage en mode basse consommation, contrôle des périphériques embarqués (c'est-à-dire situés sur la même puce que le processeur) ;; des instructions permettant de positionner des indicateurs internes du processeur.
+
+Voir aussi: Langage machine; Mode d'adressage. Portail de la programmation informatique.

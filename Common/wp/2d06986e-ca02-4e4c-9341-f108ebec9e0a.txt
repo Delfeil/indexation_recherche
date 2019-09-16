@@ -1,0 +1,37 @@
+Le Central Authentication Service (CAS) est un système d'authentification unique (SSO) pour le web développé par Shawn Bayern de l'Université Yale, partenaire majeur dans le développement de uPortal. Ce logiciel est implanté dans plusieurs universités et organismes dans le monde.
+
+Intérêt
+CAS est un système d'authentification unique : on s'authentifie sur un site Web, et on est alors authentifié sur tous les sites Web qui utilisent le même serveur CAS. Il évite de s'authentifier à chaque fois qu'on accède à une application en mettant en place un système de ticket.
+
+Principe de fonctionnement
+CAS est essentiellement un protocole basé sur des requêtes HTTP pures. Certains messages sont cependant formatés en XML.
+Ce protocole est basé sur une notion d'échange de tickets, un peu à la manière de Kerberos. Ces tickets sont des "opaque handles" : ils ne transportent aucune information.
+Il y a deux tickets nécessaires au fonctionnement de base, plus deux autres tickets dans le cas d'utilisation de proxy CAS : Ticket-Granting Cookie (TGC); Service Ticket (ST); Proxy-Granting-Ticket (PGT); Proxy-Ticket (PT).
+
+Ticket-Granting Cookie (TGC)
+C'est un cookie de session qui est transmis par le serveur CAS au navigateur du client lors de la phase de login. Ce cookie ne peut être lu - écrit que par le serveur CAS, sur canal sécurisé (HTTPS).
+Si le navigateur web n'accepte pas les cookies, l'utilisateur devra se ré-authentifier à chaque appel au serveur CAS.
+
+Service Ticket (ST)
+Ce ticket va servir à authentifier une personne pour une application web donnée. Il est envoyé par le serveur CAS après que l'utilisateur s'est authentifié, et est transporté dans l'URL.
+Ce ticket ne peut être utilisé qu'une seule fois. Il y a ensuite dialogue direct entre l'application web et le CAS via un GET HTTP, avec le ST en paramètre. En réponse, le serveur CAS retourne l'identifiant de la personne, et donc l'authentifie. Il invalide également le ticket (libération des ressources associées).
+En fait, ce ticket concerne une personne, pour un service, et utilisable une seule fois.
+
+Proxy-Granting-Ticket (PGT)
+Il est envoyé par le serveur CAS à une application web proxy CAS disposant d'un ST valide. Ce ticket confère au proxy CAS la possibilité de demander au serveur CAS de générer un Proxy Ticket (PT) pour une application tierce et une personne donnée.
+
+Proxy-Ticket (PT)
+Il est généré par le serveur CAS à la demande d'un proxy CAS. Il permet d'authentifier l'utilisateur pour un service distant, avec lequel le client web n'a pas d'accès direct. Le service distant l'utilisera comme le ST.
+Il est possible d'utiliser des proxies CAS en cascade.
+Dans le fonctionnement de CAS, le service ayant besoin de l'authentification est en relation directe avec le serveur CAS lors de la validation du ticket. Ceci rend possible l'utilisation de ce mécanisme pour transporter des informations complémentaires (autorisations, attributs,..).
+Le paquet fourni propose le nécessaire pour mettre en oeuvre le protocole CAS ; à charge de l'implémenteur de développer le module d'authentification interne. Un module d'authentification LDAP a été récupéré pour les essais ; il est à améliorer.
+Le portage de CAS vers uPortal se fait facilement (les bibliothèques sont fournies). Dans ce cas, uPortal devient proxy CAS ; il obtient donc un PGT du serveur CAS. Il est donc possible à un canal qui utiliserait un service tiers sachant authentifier CAS de demander un PT pour ce service ; des essais fructueux ont été faits dans ce sens.
+
+Bibliothèques logicielles
+Différentes bibliothèques logicielles sont fournies par le projet CAS, pour les langages JSP, Java, ASP, Perl, PL-SQL. D'autres projets ont développé des bibliothèques pour d'autres langages : PHP, NET, ColdFusion, Perl, Ruby on Rails, etc.
+Il existe en outre un module Apache, mod-cas, et un module PAM, pam-cas.
+Une intégration Shibboleth est également planifiée.
+Il existe un support de CAS sur LemonLDAP::NG.
+
+Protocoles alternatifs
+En plus du protocole natif CAS décrit ci-dessus, le serveur CAS supporte également d'autres mécanismes de SSO : OpenID; OAuth (partiellement); SAML (partiellement) versions 1.1 et 2.0.

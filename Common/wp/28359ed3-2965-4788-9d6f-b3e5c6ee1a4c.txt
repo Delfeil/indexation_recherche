@@ -1,0 +1,11 @@
+Giusto Bellavitis (né le 22 novembre 1803 à Bassano del Grappa, dans la province de Vicence, en Vénétie et mort le 6 novembre 1880 à Tezze sul Brenta) était un mathématicien et homme politique italien du XIXe siècle.
+
+Biographie
+Bien qu'il publia une centaine de travaux, et ce à partir de 1834, il n'en fut pas moins autodidacte, étudiant lui-même en dehors du cursus universitaire. Il fut finalement nommé professeur de mathématiques en 1843, au Lycée de Vicenza. Il obtint deux ans plus tard un poste de professeur de géométrie à l'université de Padoue. Il prit en 1867 la chaire de géométrie analytique et d'algèbre dans la même université.
+Il fut nommé en 1866 sénateur du Royaume d'Italie.
+Bellavitis s'intéresse à l'algébrisation de la géométrie, et il est surtout connu pour ses travaux à ce sujet publiés en 1835 et 1837, qui portent plus précisément sur l'équipollence des segments de droites, dans le plan, une préfiguration de la notion de vecteur. Il définit ainsi la "somme équipollente de deux segments de droites", il obtient un "calcul de l'équipollence", qui est essentiellement le calcul vectoriel, et qui influence Grassmann pour l'introduction à sa théorie des vecteurs de 1844.
+Il poursuit également les travaux de Paolo Ruffini sur la résolution numérique des équations algébriques. En géométrie algébrique, il complète la classification des courbes cubiques de Newton. Il travaille aussi en théorie des nombres.
+Il fut un farouche opposant aux géométries non euclidiennes (qui réfutent l'axiome d'Euclide).
+Ses travaux ont été popularisés en France par J. Houël.
+
+Distinctions: Membre de l'Académie des Lyncéens (1854); Chevalier de l'Ordre des Saints-Maurice-et-Lazare le 27 mai 1866.

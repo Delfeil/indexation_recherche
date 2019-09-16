@@ -1,0 +1,28 @@
+En mathématiques, la composition de fonctions (ou composition d'applications) est un procédé qui consiste, à partir de deux fonctions, à en construire une nouvelle. Pour cela, on utilise les images de la première fonction comme arguments pour la seconde (à condition que cela ait un sens). On parle alors de fonction composée (ou d'application composée).
+
+Définition formelle
+Soient X, Y et Z trois ensembles quelconques. Soient deux fonctions f : X Y (-displaystyle f:X-to Y) et g : Y Z (-displaystyle g:Y-to Z). On définit la composée de f par g, notée g f (-displaystyle g-circ f), par: x X , (g f) (x) - g (f (x)). (-displaystyle -forall x-in X,- (g-circ f)(x)-g(f(x)).).
+On applique ici f à l'argument x, puis on applique g au résultat.
+On obtient ainsi une nouvelle fonction g f : X Z (-displaystyle g-circ f:X-to Z).
+La notation g f (-displaystyle g-circ f) se lit "g rond f", "f suivie de g" ou encore "g après f". On note parfois g f (x) (-displaystyle g-circ f(x)) pour (g f) (x) (-displaystyle (g-circ f)(x)).
+
+Exemple d'incompatibilité des domaines
+Soient les deux fonctions : f : R R x x e t g : R + R x x. (-displaystyle (-begin(matrix)f:-mathbb (R) -to -mathbb (R) --x-mapsto -x-end(matrix))-quad (-rm (et))-quad (-begin(matrix)g:-mathbb (R) -(+)-to -mathbb (R) --x-mapsto (-sqrt (x)).-end(matrix))).
+Ici, l'ensemble d'arrivée de f est R (-displaystyle -scriptstyle -mathbb (R)). Or l'ensemble de départ de g est R + (-displaystyle -mathbb (R) -(+)) (il n'existe pas de nombre réel dont le carré soit strictement négatif). Stricto sensu, la fonction g f (-displaystyle g-circ f) n'a donc pas de sens ici et seule g f 1 : R R (-displaystyle g-circ f-(1):-mathbb (R) -(-)-to -mathbb (R)) en a un, où f1 est la fonction suivante, obtenue par restriction-corestriction de f : f 1 : R R + x x (-displaystyle (-begin(matrix)f-(1):-mathbb (R) -(-)-to -mathbb (R) -(+)--x-mapsto -x-end(matrix))).
+
+Propriétés
+Ici, on ne se préoccupe pas des problèmes de compatibilité des domaines des fonctions considérées. La composition de fonctions n'est généralement pas commutative :f g g f. (-displaystyle f-circ g-neq g-circ f.); La composition de fonctions est associative :f (g h) - (f g) h. (-displaystyle f-circ (g-circ h)-(f-circ g)-circ h.); La composition de fonctions n'est généralement pas distributive (sur un opérateur quelconque (-displaystyle -star)) :f (g h) (f g) (f h). (-displaystyle f-circ (g-star h)-neq (f-circ g)-star (f-circ h).); Si la fonction g est continue en x0 et la fonction f est continue en g(x0) alors f g (-displaystyle f-circ g) est continue en x0.; Composition de deux fonctions f et g strictement monotones (le sens de variation obéit à une sorte de règle des signes) : si f et g ont même sens de variation, leur composée est strictement croissante ;; si f et g ont des sens de variation différents, leur composée est strictement décroissante.; si f et g ont même sens de variation, leur composée est strictement croissante ;; si f et g ont des sens de variation différents, leur composée est strictement décroissante.; Dérivée d'une composition de fonctions dérivables :(f g) ' - (f ' g) g '. (-displaystyle (f-circ g)'-(f'-circ g)-cdot g'.)Voir l'article "Théorème de dérivation des fonctions composées".; Réciproque d'une composée :(g f) 1 - f 1 g 1. (-displaystyle (g-circ f)(-1)-f(-1)-circ g(-1).).
+
+Puissances fonctionnelles
+On conserve les notations ci-dessus. Si Y - X (-displaystyle Y-X) alors f (-displaystyle f) peut être composée avec elle-même et la composée est notée f 2 (-displaystyle f(2)). Ainsi: f 2 - f f (-displaystyle f(2)-f-circ f); f 3 - f f f (-displaystyle f(3)-f-circ f-circ f).
+et de manière plus générale : n N f n - f... f n f o i s (-displaystyle -forall n-in -mathbb (N) (-)-quad f(n)--underbrace (f-circ -ldots -circ f) -(n- -mathrm (fois))).
+On pose: f 0 - id X (-displaystyle f(0)--operatorname (id) -(X)).
+où id X (-displaystyle -operatorname (id) -(X)) est l'application identité de l'ensemble X (-displaystyle X).
+On peut étendre cette notation aux exposants entiers négatifs, à condition de supposer la fonction f (-displaystyle f) bijective (de X (-displaystyle X) dans lui-même). Alors, f 1 (-displaystyle f(-1)) désigne l'application réciproque et pour tout entier n 0 (-displaystyle n0), f n (-displaystyle f(-n)) est la composée de f 1 (-displaystyle f(-1)) par elle-même n fois.
+Attention à ne pas confondre cette notation avec la puissance d'une fonction pour la multiplication des applications. Par exemple, sin désigne couramment le carré de la fonction sinus : x R sin 2 (x) - (sin (x)) 2 - sin (x) sin (x) (-displaystyle -forall x-in -mathbb (R) -quad -sin (2)(x)-(-sin(x))(2)--sin(x)-times -sin(x)).
+Il y a aussi une confusion possible entre l'inverse d'une fonction pour la multiplication et l'application réciproque.
+
+Autre notation
+Au milieu du XXe siècle, quelques mathématiciens trouvèrent que la notation g f (-displaystyle g-circ f) portait à confusion et décidèrent d'utiliser une notation post-fixée : xf pour f(x) et xfg pour (g f) (x) (-displaystyle (g-circ f)(x)).
+
+Voir aussi: Logique combinatoire; Lambda-calcul; Fonction d'ordre supérieur; Composition de relations binaires. Portail de l'analyse.

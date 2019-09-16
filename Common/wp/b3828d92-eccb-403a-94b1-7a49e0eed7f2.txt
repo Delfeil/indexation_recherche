@@ -1,0 +1,29 @@
+La norme ISO 2709 (ICS no 34.240.30) est une norme internationale (ISO) qui définit un format d'échange informatique de notices bibliographiques. Sa première édition date de 1973.
+Bien que généralement utilisée conjointement avec des données codées en format MARC, la norme ISO 2709 n'est qu'un cadre d'utilisation qui n'impose pas l'utilisation d'un format particulier.
+
+Structure
+
+Structure logique
+Une notice bibliographique codée en ISO 2709 est découpée en zones repérées par des étiquettes (par exemple, la zone qui a pour étiquette 210 dans le format Unimarc donne des informations sur l'édition de l'ouvrage concerné).
+Chaque zone est découpée en sous zones. Voici par exemple une zone 210 en Unimarc
+Elle est découpée en plusieurs sous-zones (a, c, d) qui contiennent les éléments de données : ville, éditeur, année.
+
+Structure physique
+Un enregistrement (en anglais record) ISO 2709 est divisé en trois parties : le guide (label) : un espace fixe de 24 caractères qui donne les caractéristiques du format implémenté. Il précise par exemple la taille de l'étiquette de chaque zone ;; le répertoire : subdivisé en étiquette (3 caractères), longueur (4 caractères) et adresse (5 caractères) ;; les données bibliographiques qui contient la suite des zones (field).
+Des séparateurs FT (Field Terminator) et RT (Record Terminator) assurent le découpage de l'enregistrement. Ils appartiennent au code ISO 646 (positions respectives IS2 et IS3).
+Label. Directory. FT. Field. FT. Field. FT... Field. FT. RT.
+Utilisation
+
+Formats MARC
+La norme ISO 2709 a été majoritairement utilisée dans le cadre des échanges entre bibliothèques.
+On trouve également des exemples en documentation et par exemple le Common Communication Format (CCF) de l'UNESCO.
+
+Logiciels
+
+ISO 2709 et XML
+
+Voir aussi
+
+Articles connexes: Format MARC; Métadonnées; Notice bibliographique; Système intégré de gestion de bibliothèque.
+
+Références externes: Simmons, Peter; Hopkinson, Alan CCF: le format commun de communication UNESCO rapport PGI.88-WS-2 Genève 1988.disponible en ligne Ce document contient une description complète de la norme ISO 2709 (pages 17 à 21).; Décryptage d'une notice UNIMARC sous ISO 2709 In UNIMARC et l'ISO 2709 : transfert de données, 1998, p. 9-11 (pdf).

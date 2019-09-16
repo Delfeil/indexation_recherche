@@ -1,0 +1,39 @@
+La combinatoire sémantique est la recherche du sens total d'un énoncé par "calcul" à partir de ses unités constituantes.
+
+Support de la combinatoire sémantique
+
+Syntaxe et sémantique
+Certains linguistes ont proposé de fonder le calcul du sens des énoncés simplement sur leur syntaxe. Dans cette hypothèse, le sens ne serait qu'une réinterprétation de la "structure syntaxique profonde" de l'énoncé.
+D'autres au contraire pensent que les relations sémantiques de l'énoncé constituent un réseau spécifique, dont la syntaxe fournit seulement des indices. La combinatoire sémantique s'appuierait alors sur la combinatoire syntaxique sans toutefois en être une simple réinterprétation ; il s'agirait de deux réseaux en relation, mais distincts.
+
+Unités sémantiques
+
+Sèmes et sémèmes
+Si l'unité de base de la syntaxe est le morphème, en sémantique l'unité de base est le sème, ou trait sémantique (anglais : semantic feature), c'est-à-dire en théorie un "atome de sens". Contrairement au morphème, le sème n'a pas toujours, il s'en faut, d'aspect tangible, il est fréquemment sous-jacent, c'est-à-dire présent dans la conscience du locuteur, mais non exprimé. Les unités telles que les mots sont alors considérées comme des "paquets (ou : faisceaux) de sèmes", c'est-à-dire des sémèmes.
+
+Recherche des sèmes
+Les sèmes peuvent être identifiés notamment : par l'étude des termes utilisés dans les définitions des dictionnaires; par la pratique de la langue et de la culture liée; par l'analyse sémique ou analyse componentielle entre termes voisins. Par exemple si l'on compare souhaiter et redouter, on peut discerner dans les deux cas (entre autres) un sème d' "absence", lié dans le premier cas à un sème positif ("bon"), dans le second à un sème négatif ("mauvais"). Comme en phonétique, on recherche les oppositions minimales pertinentes.
+
+Catalogage des sèmes
+L'identification des sèmes pose un problème de méthode : peut-on mettre sur le même plan un sème fondamental tel que "animé", et un sème en quelque sorte ad hoc tel que "possède un dossier", qui permet de distinguer sémantiquement une chaise d'un tabouret La question du catalogage et de la hiérarchisation des sèmes rejoint alors la recherche des primitives sémantiques.
+
+Trait sémantiques inhérents et contextuels
+On distingue les traits sémantiques propres à un terme donné (ex : sincérité possède le trait "non animé"), et les traits contextuels, qui permettent de restreindre l'emploi d'un terme dans un énoncé (ex : admirer a le trait "exige un sujet animé"). Comme on se trouve ici à la limite de la syntaxe et de la sémantique, certains partisans de la grammaire générative ont pensé pouvoir ramener l'analyse sémantique à une combinatoire syntaxique.
+
+Relations sémantiques
+
+Relation simple
+On peut imaginer une version simple de la combinatoire des sèmes dans une unité : deux termes qui possèderaient les mêmes sèmes seraient synonymes. Ce principe est appliqué dans la recherche documentaire basée sur des mots-clés, notamment dans les moteurs de recherches actuels, sur l'Internet ou autre.
+
+Clusters et enchaînements
+Toutefois cette méthode trouve rapidement ses limites, puisqu'elle ne permet pas de distinguer par exemple entre "garage" et "coffre", les deux mots contenant des sèmes tels que "voiture" et "ranger". Weinreich a proposé un embryon de modèle relationnel entre les sèmes, en distinguant l'association additive ou cluster (agglomérat), dont la configuration est un cas particulier, de l'enchaînement (linking), lorsque l'association des termes constitue un nouveau cluster. Ainsi : "garçon" est un cluster composé des traits "enfant" et "mâle" (ces deux traits étant indépendants l'un de l'autre) ; "nain" est une configuration reliant "homme" et "petit", dans le sens "petit en tant qu'homme"; "garçon gentil" est un enchaînement entre les traits indépendants "enfant", "mâle" et "gentil"; "nain gentil" est un enchaînement entre la configuration ("homme petit") et le trait "gentil".
+
+Structure profonde complexe
+L'école de la sémantique générative va au-delà de la thèse de Weinreich en considérant que les mots, ou morphèmes, d'une langue, ne sont que les indices de surface d'une organisation sémantique profonde beaucoup plus complexe (on rejoint ici les domaines de la cognition et de l'intelligence artificielle). Mc Cawley fournit l'exemple de l'énoncé "il a presque cassé le vase", qui peut s'interpréter, soit comme "il a failli casser le vase", soit comme "il l'a à peu près cassé" : le modificateur "presque" s'appliquerait à des éléments différents de la structure profonde de "casser", défini par exemple comme "être cause, par un choc, qu'un objet se retrouve en morceaux".
+Si l'on souhaite pouvoir faire appréhender réellement le "sens" d'un énoncé à un programme informatique, il faut alors envisager une formalisation logique rigoureuse de cette structure sémantique profonde. Ceci reste une question ouverte et très difficile, surtout si l'on ne souhaite pas se cantonner à un domaine spécialisé, et devrait tenir compte notamment : de la conception générale du monde que peut se faire un être humain (que celle-ci soit "scientifiquement exacte" ou non) ; par exemple, nous considérons généralement qu'il existe des catégories de concepts appelées "animaux", "êtres humains", "outils", "actions", "modalités" etc. qui ont chacune un certain nombre de traits distinctifs communs, et sont liées sémantiquement.; du contexte de l'énonciation, de l'intention du locuteur, etc. (voir Pragmatique).
+
+Organisation sémantique de l'énoncé
+On peut se poser la question de savoir s'il est possible de réduire la totalité des énoncés possibles à un modèle sémantique unique, ou du moins à un petit nombre de modèles de base. Cette question est loin d'être tranchée. On peut mentionner entre autres les idées suivantes : l'articulation entre sujet logique et prédicat dans les énoncés assertifs, qui semblent avoir pour fonction de fournir un jugement de vérité sur l'attribution d'une propriété à un objet (ex : cette pomme est rouge, Pierre n'aime pas Marie). On peut toutefois discuter de l'objet de l'assertion (un élément particulier de l'énoncé, l'énoncé dans son ensemble), ce qui peut conduire à une analyse logique différente, basée sur la relation et les arguments.; la distinction (d'ordre psychologique) entre thème et rhème (ou : propos); l'opposition entre posé et présupposé; la multiplicité des points de vue ("éclatement du sens") que peut refléter un énoncé (ce qui rejoint la notion de polyphonie du texte de Mikhaïl Bakhtine).
+
+Sources
+Cet article est, pour l'essentiel, basé sur le chapitre Combinatoire sémantique du Nouveau dictionnaire encyclopédique des sciences du langage, de Oswald Ducrot et Jean-Marie Schaeffer, Ed. du Seuil (coll. Points), dans son édition de 1995.

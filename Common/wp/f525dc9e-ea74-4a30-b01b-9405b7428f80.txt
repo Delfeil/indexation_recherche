@@ -1,0 +1,25 @@
+PolySpot est un éditeur de logiciels de solutions "moteur de recherche" filiale de la société américaine CustomerMatrix Inc, proposant des solutions destinées aux DSI et départements cherchant à répondre aux problématiques Big Data.
+PolySpot est membre du mouvement 1 % pour la planète.
+
+Fonctionnalités
+PolySpot InfoWarehouse est une solution permettant de collecter puis enrichir des données structurées et informations non structurées au sein d'un entrepôt unique de données en vue de leur publication vers des applications de recherche.
+
+Applications: eDiscovery; Veille et intelligence économique; Business Intelligence étendue; Digital Asset Management; Recherche documentaire, gestion des expertises; Annuaires; Archivage, dématérialisation; Support utilisateurs; Recherche pour sites web ou Intranet; Application orientée recherche (SBA - Search Based Application).
+PolySpot Enterprise Search est une solution de recherche documentaire permettant aux utilisateurs d'obtenir une vision globale de l'information provenant de sources hétérogènes, sécurisées et stockées à l'intérieur ou à l'extérieur de l'entreprise. PolySpot Enterprise Search facilite l'accès aux documents aidant ainsi les utilisateurs à capitaliser sur le fonds d'information et à partager leurs connaissances. Les principales fonctions de PolySpot Enterprise Search sont : recherche plein texte, Social Search (ou moteur de recherche collaboratif), navigation par facettes, réglage de la pertinence, suggestions d'expressions.
+
+Connecteurs
+Grâce à une connectivité universelle, les solutions de PolySpot permettent d'accéder à des données pertinentes, qu'elles soient structurées ou non structurées, et quels que soient leurs formats et leur provenance : Microsoft SharePoint, IBM FileNet, EMC Documentum, Alfresco, OpenText, Liferay, Jahia, Jalios, Cindoc, Oracle, Lotus Notes, Hadoop, Twitter, Facebook, Dropbox, Google Drive, BlueKiwi etc.
+
+Langues
+PolySpot fonctionne avec plus de 50 langues différentes; au premier lieu desquelles on retrouve les langues occidentales "classiques" ainsi que l'arabe, le russe, le chinois ou le japonais par exemple.
+
+Sémantique
+Le moteur de recherche PolySpot dispose de fonctions sémantiques (extraction d'entités nommées : identification de personnes, lieux, organisation, produits...) et permet l'analyse des sentiments-de la tonalité des données indexées.
+
+Open Source
+Les solutions PolySpot sont ouvertes et bâties sur les composants Open source Apache Lucene - Solr, référence des technologies d'indexation (utilisé par Twitter ou LinkedIn par exemple), ainsi que sur MongoDB dont l'approche NoSQL permet de manipuler des quantités immenses d'informations.
+
+Historique
+Créé en 2001, la société a été intégrée en septembre 2013 dans la société américaine de marketing en mode SaaS, CustomerMatrix Inc, immatriculée dans l'état du Delaware. En 2011, la société avait réalisé deux levées de fonds successives d'un montant total de 2,5 millions d'euros auprès de Newfund et du fonds True Global Ventures. Le 30 décembre 2013, Newfund a démissionné de son mandat d'Administrateur de la société et le capital social a été réduit de 507.290 EUR à 206.120 EUR.
+
+Articles connexes: Big Data; Solr; Lucene; Moteur de recherche. Portail de l'informatique; Portail des entreprises; Portail de la France; Portail du logiciel.

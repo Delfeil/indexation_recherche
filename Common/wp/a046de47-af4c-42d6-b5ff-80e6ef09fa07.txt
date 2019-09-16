@@ -1,0 +1,25 @@
+La théorie du neurone grand-mère désigne, dans le domaine des neurosciences cognitives, l'idée que certains neurones du système nerveux central seraient spécialisés dans le traitement de stimuli complexes. De façon humoristique, on pourrait donc imaginer qu'il y aurait des neurones spécialisés pour reconnaître le visage de sa grand-mère.
+Le terme "neurone grand-mère" serait dû à Jerry Lettvin qui l'utilisa sur un ton ironique dans un article de 1967. On utilise aussi les expressions "neurone pontifical" (Charles Sherrington), "neurone cardinal" (Horace Barlow) ou "neurone gnostique" (Jerzy Konorski).
+L'origine de cette théorie s'ancre dans la découverte au sein du cortex visuel (la région du cerveau spécialisée dans la vision) de neurones sensibles à de simples barres claires sur fond sombre : lorsque l'on présente un tel stimulus dans une région du champ visuel, le taux de décharge de potentiels d'action de certains neurones augmente. Par la suite, on a montré qu'il existait des neurones sensibles à des contours, des formes plus complexes et enfin à des objets, voire à des visages (par exemple, en 2005, une équipe anglaise a montré que certains neurones répondaient spécifiquement à la présentation du visage de célébrités, tel Bill Clinton ou encore Jennifer Aniston). De là a émergé l'idée que les informations visuelles sont traitées hiérarchiquement dans le cerveau : différents neurones seraient spécifiques de propriétés de plus en plus complexes d'un stimulus et au sommet de la pyramide se trouverait donc le "neurone grand-mère" qui intègre les différentes informations des neurones inférieurs pour former la représentation du visage de sa grand-mère.
+Sous une forme plus ou moins développée, cette théorie s'inscrit dans l'approche dite "computo-représentationnelle de l'esprit".
+
+Point faible de la théorie
+Le principal point faible de cette théorie est que de manière absolue, chaque objet, individu, chose du monde qui nous entoure posséderaient son réseau de "neurones grand-mère" : le nombre de neurones dont il faudrait disposer serait alors inimaginable. La théorie en tant que réponse quant à la reconnaissance du monde qui nous entoure atteint alors très vite ses limites.
+
+Autre théorie
+Une théorie plus vraisemblable se base sur le fonctionnement en réseau du neurobiologiste Semir Zeki (en) et sur le principe de rétroaction des différents cortex visuelles.
+D'après S. Zeki, une fois les informations visuelles traitées par le cortex visuel V2, ces dernières sont traitées en parallèle par V3, V4 et V5 suivant leurs spécialisation, respectivement les formes en mouvement, couleurs et formes colorées et mouvement.
+Après ce traitement, les informations sont unifiées grâce au principe de rétroaction (ou feedback) des différents champs visuels.
+
+Principe de rétroaction
+Les principales rétroactions du système visuel sont les suivantes : synchronisation des signaux de forme et de mouvements (V4 V5).; retour des informations vers des aires cartographiques (V5 V1 et V2).; intégration des informations relatives à la forme et au mouvement (V4 et V5 V3).
+
+Exemple de rétroaction
+L'un des exemples flagrants du principe de rétroaction est le motif de Kanizsa.
+Les neurones de V2 possèdent une fonction d'analyse plus poussée, grâce à cela, ces cellules vont "imaginer" des lignes blanches entre les trois demi-cercles. (voir fonctionnement des champs récepteurs)
+Quant à V1, par lequel passe les informations d'abord, ces neurones n'ont pas la capacité "d'imaginer" ces lignes blanches.
+Nous avons alors l'illusion de voir un triangle car il existe un feedback de l'analyse des cellules de V2 vers celles de V1.
+
+Voir aussi
+
+Articles connexes: Approche computo-représentationnelle de l'esprit; Approche dynamique de la cognition; Théorie du liage temporel; Vision.

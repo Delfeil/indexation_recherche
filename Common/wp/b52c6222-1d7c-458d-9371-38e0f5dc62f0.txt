@@ -1,0 +1,12 @@
+En mathématiques, une filtration sur un ensemble est une suite de parties croissante ou décroissante pour l'inclusion. Un espace filtré est un ensemble muni d'une filtration compatible avec sa structure.
+Les filtrations sont utilisées notamment : en algèbre pour ramener par exemple l'étude d'un espace vectoriel de dimension infinie à celle d'une suite d'espaces de dimension finie,; en topologie pour décomposer un espace topologique à l'aide de CW-complexes finis,; en statistique exploratoire pour modéliser un dendogramme de données brutes, y appliquer la notion d'homologie persistante, et ouvrir la voie à l'analyse topologique de données; mais aussi en théorie des probabilités pour définir entre autres certaines classes de processus stochastiques, comme les martingales, ou encore les chaines de Markov.
+À partir d'une suite de parties il est possible de construire une filtration croissante et une filtration décroissante associées. Inversement, dans certaines catégories, les quotients successifs des termes de la filtration permettent de définir un gradué associé.
+
+Algèbre
+Une filtration d'un espace vectoriel est une suite de sous-espaces vectoriels croissante ou décroissante pour l'inclusion. Un drapeau est un cas particulier de filtration sur un espace vectoriel de dimension finie.
+Étant donné un endomorphisme sur un espace vectoriel, la suite des noyaux (respectivement, des images) des puissances itérées de cet endomorphisme constituent deux filtrations, respectivement croissante et décroissante, de l'espace vectoriel.
+Une filtration (A i) (-displaystyle (A-(i))) sur une algèbre est en général supposée compatible avec la multiplication : A i A j A i + j. (-displaystyle A-(i)-cdot A-(j)-subset A-(i+j).).
+
+Théorie des probabilités
+En théorie des probabilités, une filtration est une suite croissante (par inclusion) de tribus sur un ensemble. Cet ensemble est en général un espace probabilisé dont la tribu est engendrée par celles de la filtration.
+Ainsi, sur l'ensemble (-displaystyle -Omega) des suites à valeurs dans un ensemble (par exemple fini), pour tout entier naturel n (-displaystyle n) il est possible de définir la tribu F n (-displaystyle F-(n)) engendrée par les ensembles de suites ayant les mêmes n (-displaystyle n) premiers termes. La suite de ces tribus définit alors une filtration F (-displaystyle F) sur l'ensemble des parties de (-displaystyle -Omega).

@@ -1,0 +1,24 @@
+Un lien retour (aussi appelé lien entrant ou lien arrivant ; en anglais, inbound link, inlink ou backlink) est un hyperlien pointant vers un site ou une page Web. La qualité du lien retour et le nombre de liens retours pointant vers un site ou une page fournissent une indication de la réputation de ce site ou de cette page.
+Plus précisément, un lien retour correspond à n'importe quel lien reçu par un noeud du Web (page Web, annuaire, site Internet, ou Domaine de premier niveau) depuis un autre noeud du Web.
+Les liens retours ont des valeurs différentes pour les moteurs de recherche, en fonction du Pagerank de la page web sur laquelle ils sont publiés. C'est-à-dire qu'un lien vers une page web, publié sur une page dont le Pagerank est élevé, transmet plus de valeur à la page liée qu'un lien publié sur une page dont le Pagerank est faible. À l'inverse, les liens retours publiés sur des sites ayant une mauvaise réputation, ou les techniques frauduleuses utilisées pour obtenir plus de liens retours, peuvent altérer la réputation du site vers lequel ils pointent. Google Penguin est un filtre algorithmique utilisé par la firme Google depuis le 24 avril 2012 dont la mission est de détecter automatiquement les liens retours artificiels. Depuis le mois de septembre 2016, Google Penguin est désormais inclus dans l'algo de Google et il est en temps réel.
+
+Rôle
+Dans un premier temps, un lien retour permet à un webmaster d'envoyer en un clic un internaute d'une page web à une autre. En langage HTML, le lien se traduit par la syntaxe a href-"https:--www.wikipedia.org--"-a. Ce lien peut s'ouvrir dans le même onglet du navigateur, dans un nouvel onglet, ou dans une nouvelle fenêtre. Généralement, le webmaster va pointer un lien retour vers une page en rapport avec la page qu'il édite.
+Les moteurs de recherche Web exploitent cette information fournie par les webmasters pour déterminer l'importance d'une page Web : Une page qui compte beaucoup de liens retour (pertinents) va bénéficier d'un meilleur positionnement dans les moteurs de recherche. L'algorithme PageRank de Google prend en compte les liens retour pour déterminer le positionnement d'une page ou d'un site.
+Pour cette raison, les webmasters emploient souvent des techniques d'Optimisation pour les moteurs de recherche (SEO) afin d'accroître leur Pagerank à travers l'augmentation du nombre de liens retours pointant vers leur site Web.
+
+Audit des liens retour
+Les grands moteurs de recherche Web comme Google, Bing, Yahoo, Exalead et même Wikipédia proposent un opérateur ou un service spécifique pour déterminer le nombre de liens pointant vers une page ou un site Web particulier. Par exemple, saisir link:fr.wikipedia.org dans Google affiche un échantillon du nombre de pages recensées par ce moteur pointant vers http:--fr.wikipedia.org-. Google n'affiche pas tous les liens retour qu'il recense pour ne pas exposer les secrets des algorithmes de ses résultats de recherche.
+Un lien retour ou backlink sera toujours plus performant et mesuré avec beaucoup plus de considération par les moteurs de recherche si celui-ci est placé sur un site à forte notoriété.
+Pour juger de la qualité d'un lien retour, un ensemble de critères sont évalués. Les critères connus par les SEO aujourd'hui sont illustrés.
+
+Spécificités des moteurs de recherche: Google ne montre qu'une partie des liens retour existants pour une page web. Google a récemment ajouté un nouvel outil pour webmestres qui leur permet de voir plus de liens retour vers leurs sites Web.; Depuis le 21 novembre 2011, Yahoo!'s Site Explorer n'existe plus, c'était le seul service qui fournissait gratuitement la liste des liens retour répertoriés dans son index.
+
+Outils
+Certains sites spécialisés fournissent des informations sur les backlinks, notamment Google Outils pour les webmasters.
+Il existe de nombreux sites pour voir les liens retour dont bénéficie un site, les plus connus sont AHREFS, Majestic SEO, ou l'outil de Moz notamment.
+Des extensions et plugins pour navigateur web sont développés pour faciliter ces recherches. Exemples : SEOpen, SeoQuake (extensions pour Mozilla Firefox). Il existe aussi des outils anglophones et francophones, gratuits et payants, permettant d'obtenir des backlinks de grande qualité et améliorer le trafic et le PageRank de son site internet.
+
+Voir aussi
+
+Articles connexes: Référencement; Bombardement Google (en anglais Google Bombing); Ferme de liens; Netlinking; Optimisation pour les moteurs de recherche; Popularité de liens; PageRank. Portail d'Internet.

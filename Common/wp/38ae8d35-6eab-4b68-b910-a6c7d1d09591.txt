@@ -1,0 +1,6 @@
+Disconnect est une extension libre pour navigateur web chargée d'afficher et de bloquer les trackers (les boutons de Facebook, Google+, Twitter, l'audience d'un site Web, les publicités et bien d'autres) des pages web que l'internaute visite.
+Parallèlement à cette activité Disconnect propose un "multi-moteurs" de recherche avec toujours pour philosophie de préserver la vie privée de ses utilisateurs. Ce moteur de recherche est depuis le 27 avril 2015 le moteur de recherche par défaut de Tor Browser (depuis la version 45)
+
+Voir aussi
+
+Articles connexes: Ghostery; DuckDuckGo; Ixquick.

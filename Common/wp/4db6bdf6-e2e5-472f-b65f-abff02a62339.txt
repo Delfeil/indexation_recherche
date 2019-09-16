@@ -1,0 +1,10 @@
+Un système de recherche d'information (SRI) est un ensemble logiciel assurant l'ensemble des fonctions nécessaires à la recherche d'information.
+
+Éléments d'un SRI
+Le moteur de recherche est au coeur d'un tel système mais il n'en est qu'un composant. On peut notamment trouver : des fonctions d'acquisition de documents ou de notices,; des modules d'éditions,; des fonctions d'importation et d'exportation d'information,; des modules de gestion de vocabulaires, plan de classement ou thésaurus.
+Le principe d'un système de recherche est donc de pouvoir construire une base normalisée de documents qui permettent ensuite de retrouver rapidement l'un d'entre eux en faisant une recherche par le contenu. L'exemple le plus courant est bien sur celui le plus ancien : les documents textes, que l'on peut retrouver grâce à des mots clés.
+
+Exemples de SRI
+De nombreux SRI sont plutôt spécialisés dans la documentation. On parle alors de système de recherche documentaire, par exemple : 1965 : BOLD (Bibliographic On-Line Display) par System Development Corporation (en), une compagnie américaine,; 1969 : ORBIT (On line Retrieval Bibliographic Information Timeshared), toujours par SDC,; 1970 : Mistral, origine française par la Compagnie internationale pour l'informatique CII.; 1972 : Stairs, (STorage And Information Retrieval System) sur machine IBM 360.; 1972 : SPLEEN (Système de Programmation Logique des Etudes EcoNomiques) par le CDSH (Centre de Documentation en Sciences Humaines) du CNRS,; Texto.
+
+Articles connexes: Recherche d'information; Humanités numériques. Portail sciences de l'information et bibliothèques.

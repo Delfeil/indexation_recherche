@@ -1,0 +1,65 @@
+Le Portable Network Graphics (PNG) est un format ouvert d'images numériques, qui a été créé pour remplacer le format GIF, à l'époque propriétaire et dont la compression était soumise à un brevet. Le PNG est un format sans perte spécialement adapté pour publier des images simples comprenant des aplats de couleurs.
+Il a été normalisé par l'ISO (ISO-CEI 15948:2004).
+PNG est une spécification pour Internet et l'objet d'une Recommandation W3C et d'une RFC. Il a été créé pour contourner la licence existante sur le format GIF, le plus en vogue à la fin des années 1990, Unisys, propriétaire de deux brevets sur des algorithmes utilisés par la compression sous GIF ayant reclamé des royalties. PNG a alors été défini mais en augmentant les capacités de GIF.
+
+Utilisation
+Une image PNG avec un fond transparent, sur un fond blanc. La même image sur un fond en damier permet d'observer la transparence.
+Pour les images synthétiques
+PNG est particulièrement approprié lorsqu'il s'agit d'enregistrer des images synthétiques destinées au Web comme des graphiques, des icônes, des images représentant du texte (bonne conservation de la lisibilité), ou des images avec des dégradés. Le PNG surpasse régulièrement le format GIF en ce qui concerne la réduction de la taille des fichiers (avec une palette de couleurs bien choisie) ou la qualité (puisqu'il n'est pas limité à 256 couleurs).
+
+Pour les photos
+Les caractéristiques de PNG lui permettent d'enregistrer des photographies sans perte de données, au détriment de la taille du fichier qui reste logiquement très supérieure à celle de formats avec perte de données destinés aux photographies, comme JPEG ou JPEG 2000.
+
+Détails sur le format
+PNG permet principalement d'enregistrer les images matricielles sous différents formats : 1 bit donc deux couleurs; 2 bits en 4 couleurs basiques; 4 bits permettant de choisir parmi une palette de maximum 16 couleurs contenues dans le fichier; 8 bits en niveaux de gris (256 niveaux); 8 bits permettant de choisir parmi une palette de maximum 256 couleurs par canal contenues dans le fichier (équivalent au format GIF); 24 bits en 16 777 216 (couleurs vraies); 32 bits, soit 2 ou 4 294 967 296 couleurs.; 48 bits, soit 2 ou 281 474 976 710 656 couleurs. Voir l'article Image numérique pour l'explication de ces notions.
+Après l'application d'un filtre prédictif qui permet généralement d'obtenir de plus hauts niveaux de compression, le tout est compressé sans pertes suivant l'algorithme deflate (RFC 1951), généralement avec zlib, mais zopfli peut également être utilisé avec des applications comme advpng.
+Les composantes des pixels ou les entrées de palette sont données soit au format RVB (rouge, vert, bleu), soit au format RVBA (avec un canal alpha supplémentaire pour la translucidité). Dans ce cas, 8 ou 16 bits supplémentaires sont utilisés par pixel ou par entrée de palette, ce qui fait 16 bits pour une image en niveaux de gris, 32 bits pour une image en couleurs vraies et 64 bits pour une image en 4 canaux de 16 bits chacun.
+
+La translucidité
+La présence d'un canal alpha définissant différents niveaux de transparence le rend idéal pour la composition sur les pages web. Cette caractéristique est bien implémentée par la majorité des navigateurs web actuels. Internet Explorer 7 et supérieurs gèrent correctement le canal alpha.
+
+La transparence
+Lorsque l'image PNG utilise une palette de 256 couleurs maximum, il est possible d'utiliser une des couleurs pour la transparence.
+C'est le même comportement qu'avec le format GIF et cela fonctionne même avec Internet Explorer 6. Par conséquent, les images Web au format GIF peuvent être converties en cette version de PNG sans crainte d'incompatibilité avec la majorité des navigateurs web actuels (premier trimestre 2006), et sans souci de brevet (le brevet GIF est tombé en 2006 dans le domaine public).
+
+Autres comparaisons avec GIF
+Le PNG, d'ailleurs parfois appelé par récursivité PNG's Not GIF (PNG n'est pas GIF), peut faire tout ce que le format GIF peut faire et même plus, comme la translucidité. Il n'a cependant pas été prévu pour faire des images animées, mais le format dérivé MNG a été créé par ses auteurs à cet effet (voir également le format APNG).
+Les deux formats peuvent être entrelacés, mais PNG utilise l'algorithme Adam7 tandis que GIF affiche dans ce cas l'image ligne par ligne.
+
+Structure d'un fichier PNG
+
+Composition minimale d'un fichier PNG: 1) signature PNG - 8 octets; 2) chunk IHDR pour l'en-tête - 25 octets; 3) chunk IDAT pour les données - longueur variable; 4) chunk IEND pour la fin de fichier - 12 octets.
+Un chunk est un morceau ou un fragment d'information, ce terme anglais est utilisé dans de nombreux formats multimédias.
+Un fichier peut contenir plusieurs chunks de données IDAT ainsi qu'un chunk PLTE pour la palette à utiliser s'il s'agit d'une image dont les couleurs sont indexées.
+Un fichier peut également contenir d'autres chunks secondaires, dont des informations textuelles.
+
+Signature PNG
+Un fichier PNG commence par une signature de 8 octets représenté par les valeurs décimales suivantes: 137 80 78 71 13 10 26 10, ou en hexadécimal: 89 50 4E 47 0D 0A 1A 0A.
+La suite du fichier est décomposée en plusieurs parties de longueurs variables, appelées chunk.
+
+Nommage des chunks
+Il existe 18 chunks officiels, dont 4 principaux et 14 secondaires.
+La casse est importante dans les nom des chunks.
+Voici un tableau regroupant les chunks les plus utilisés.
+
+Composition d'un chunk
+Un chunk se décompose en 4 parties:
+LENGTH : La taille en octets du chunk, seulement ses datas. On ne prend pas en compte la taille, le type, ni le CRC.
+TYPE : Le nom du chunk (ex : "IHDR", "IDAT", "IEND",..).
+Si la première lettre est en majuscule il s'agit d'un chunk critique, sinon c'est un chunk auxiliaire.
+DATAS : Les informations relatives au chunk sur n octets (relatif à LENGTH).
+CRC : 4 octets de contrôle généré par l'algorithme suivant : x32+x26+x23+x22+x16+x12+x11+x10+x8+x7+x5+x4+x2+x+1. x étant la position du bit de poids faible.
+
+Exemple d'un chunk (pour une image de 800x600)
+IHDR : Hexadécimal : 0x00, 0x00, 0x00, 0x0D, 0x49, 0x48, 0x44, 0x52, 0x00, 0x00, 0x03, 0x20, 0x00, 0x00, 0x02, 0x58, 0x10, 0x06, 0x00, 0x00, 0x00, 0x15, 0x14, 0x15, 0x27.; Compréhensible : 13 - Taille - (0x00, 0x00, 0x00, 0x0D); IHDR - Types-Nom - (0x49, 0x48, 0x44, 0x52); 800 - Largeur - (0x00, 0x00, 0x03, 0x20); 600 - Hauteur - (0x00, 0x00, 0x02, 0x58); 16 - Profondeur de bits - (0x10); 6 - Type de Couleur - (0x06); 0 - Méthode de compression - (0x00); 0 - Méthode de filttrage - (0x00); 0 - Méthode d'entrelacement - (0x00); 353637671 - CRC - (0x15, 0x14, 0x15, 0x27).; 13 - Taille - (0x00, 0x00, 0x00, 0x0D); IHDR - Types-Nom - (0x49, 0x48, 0x44, 0x52); 800 - Largeur - (0x00, 0x00, 0x03, 0x20); 600 - Hauteur - (0x00, 0x00, 0x02, 0x58); 16 - Profondeur de bits - (0x10); 6 - Type de Couleur - (0x06); 0 - Méthode de compression - (0x00); 0 - Méthode de filttrage - (0x00); 0 - Méthode d'entrelacement - (0x00); 353637671 - CRC - (0x15, 0x14, 0x15, 0x27).
+
+Compression des données
+La méthode de compression 0 spécifiée dans IHDR (la seule possible au format PNG) fait référence à la compression Deflate-Inflate. La compression se fait sur les datas du chunk IDAT uniquement.
+
+En Programmation
+La compression peut être effectuée grâce à la bibliothèque zlib (C-C++). Il est aussi possible de générer le CRC grâce à cette bibliothèque.
+
+Voir aussi
+
+Articles connexes: Format ouvert; Image numérique; Image matricielle.
+Autres formats : GIF; JPEG; WebP; TIFF; BMP; APNG; JNG; MNG.

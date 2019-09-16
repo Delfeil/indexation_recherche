@@ -1,0 +1,9 @@
+La commutation de paquets, ou commutation par paquets, aussi appelée commutation d'étiquettes, est une technique de commutation utilisée dans le transfert de données dans les réseaux informatiques, une autre technique étant la commutation de circuits.
+
+Principe de fonctionnement
+Cette technique de commutation est fondée sur le découpage des données pour permettre une utilisation rationnelle du réseau. En effet, contrairement à la commutation de circuits les ressources ne sont réservées que durant leur utilisation effective (par exemple: le temps de transfert d'un paquet). Chaque paquet est composé d'un en-tête contenant des informations sur son contenu et sa destination, qui permet au commutateur d'aiguiller le paquet sur le réseau vers son point final.
+La décision de commutation repose donc sur un des champs de la PDU (Protocol Data Unit, terme générique d'origine ISO désignant une trame, une cellule, un paquet, un datagramme, un segment, etc.), appelé étiquette, à acheminer : le commutateur qui reçoit une PDU extrait l'étiquette et va rechercher dans sa table de commutation l'entrée qui correspond à l'interface sur laquelle il a reçu la PDU et à la valeur de l'étiquette. Ceci permet au commutateur de trouver le numéro de l'interface sur laquelle il va transmettre la PDU et, éventuellement, la nouvelle valeur de l'étiquette : dans un routeur, l'étiquette en question est l'adresse de destination contenue dans l'en-tête IP, et elle ne change pas en cours de route. Il en va de même dans un commutateur ethernet où l'étiquette est l'adresse MAC de destination ;; dans un commutateur X.25, FR, ATM, MPLS, il s'agit de mode connecté et l'étiquette correspond à une connexion, mais sa valeur change à chaque traversée de commutateur.
+
+Voir aussi
+
+Articles connexes: Commutation de circuits; Commutation téléphonique; Internet. Portail de l'informatique; Portail des télécommunications.

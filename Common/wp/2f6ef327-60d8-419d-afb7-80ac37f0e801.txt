@@ -1,0 +1,134 @@
+Une équation différentielle linéaire est un cas particulier d'équation différentielle pour lequel on peut appliquer des procédés de superposition de solutions, et exploiter des résultats d'algèbre linéaire. De nombreuses équations différentielles de la physique vérifient la propriété de linéarité. De plus, les équations différentielles linéaires apparaissent naturellement en perturbant une équation différentielle (non linéaire) autour d'une de ses solutions.
+Une équation différentielle linéaire scalaire se présente comme une relation entre une ou plusieurs fonctions inconnues et leurs dérivées, de la forme
+où a 0 (-displaystyle a-(0)), a 1 (-displaystyle a-(1)),.. a n (-displaystyle a-(n)), b (-displaystyle b) sont des fonctions numériques continues.
+Une équation différentielle linéaire vectorielle aura le même aspect, en remplaçant les a i (-displaystyle a-(i)) par des applications linéaires (ou souvent des matrices) fonctions de x et b par une fonction de x à valeurs vectorielles. Une telle équation sera parfois aussi appelée système différentiel linéaire.
+L'ordre de l'équation différentielle correspond au degré maximal de différentiation auquel une des fonctions inconnues y a été soumise, n dans l'exemple précédent. Il existe des méthodes générales de résolution pour les équations différentielles linéaires scalaires d'ordre 1 à coefficients variables ou d'ordre n à coefficients constants.
+
+Généralités sur l'équation différentielle linéaire scalaire
+Celle-ci s'écrit, sous sa forme la plus générale :
+où a 0 (-displaystyle a-(0)), a 1 (-displaystyle a-(1)),.. a n (-displaystyle a-(n)), b (-displaystyle b) sont des fonctions continues sur I un intervalle réel, à valeurs réelles ou complexes.
+
+Équation homogène
+Cette équation, appelée aussi équation sans second membre, s'écrit :
+Si on dispose de n "intégrales" (i.e. solutions) particulières linéairement indépendantes :
+en multipliant chaque équation respectivement par les constantes C 1 ,.. C n (-displaystyle C-(1),-ldots ,C-(n)), la fonction
+qui dépend de n constantes arbitraires satisfait l'équation : c'est l'intégrale générale de celle-ci.
+
+Équation non homogène
+Si, à cette fonction dépendant de n constantes arbitraires, est ajoutée une intégrale particulière de l'équation complète, la somme des deux satisfait l'équation complète : c'est l'intégrale générale de l'équation non homogène. Une autre méthode, celle de la variation des constantes, fournit directement (lorsqu'elle est praticable) l'intégrale générale.
+
+Cas de l'équation à coefficients constants
+L'équation s'écrit alors :
+En cherchant une solution de la forme y - e r x (-displaystyle y-e(rx)-,), on obtient l'équation caractéristique :
+Si les n (-displaystyle n) racines sont distinctes, cette équation fait apparaître les n (-displaystyle n) fonctions indépendantes suffisantes pour déterminer toutes les solutions de l'équation homogène. Une racine réelle correspond à une exponentielle tandis qu'une paire de racines complexes conjuguées se traduit par une exponentielle multipliée par une sinusoïde.
+Dans le cas de l'équation complète, il ne reste plus qu'à trouver une seule solution de celle-ci. C'est particulièrement simple dans le cas important d'un second membre sinusoïdal ou lorsque celui-ci peut être décomposé en sommes de sinusoïdes (voir Analyse spectrale). Pour d'autres types de seconds membres, la transformation de Laplace fournit un certain nombre de solutions.
+
+Équation différentielle linéaire vectorielle
+
+Écriture générale
+Soient I intervalle réel et E et F deux espaces vectoriels normés. Soient n + 1 fonctions a0, a1,.. an continues sur I à valeurs dans ℒ(E,F) et b une fonction continue sur I à valeurs dans F. L'équation
+est appelée équation différentielle linéaire d'ordre n sur I.
+Une solution de cette équation est une fonction y de classe Cn de I dans E telle que
+
+Principe de superposition
+L'équation homogène E0 associée à l'équation Eb ci-dessus est :
+Toute combinaison linéaire de solutions, sur un sous-intervalle J de I, de l'équation homogène E0, est elle aussi solution : l'espace S0 de ces solutions est un sous-espace vectoriel de l'espace des fonctions définies sur J.
+Étant donnée une solution y de Eb sur J, les autres sont les fonctions de la forme y + z avec z solution arbitraire de E0 sur J : l'espace Sb de ces solutions est un espace affine de direction S0.
+
+Forme résolue
+Sur tout intervalle où a n (x) (-displaystyle a-(n)(x)) est constamment inversible, l'équation se réécrit sous forme résolue (en posant c j (x) - (a n (x)) 1 a j (x) (-displaystyle c-(j)(x)--(a-(n)(x))(-1)-circ a-(j)(x)) et d (x) - (a n (x)) 1 (b (x)) (-displaystyle d(x)-(a-(n)(x))(-1)(b(x)))):
+On vérifie que c0, c1,.. cn-1 sont continues à valeurs dans les endomorphismes, ℒ(E).
+
+Réduction à l'ordre 1
+Toute équation différentielle (linéaire) peut être réduite à une équation (linéaire) d'ordre 1, à condition de modifier l'espace vectoriel en conséquence.
+On prend en effet comme nouveaux espaces vectoriels En et Fn, comme nouvelle fonction inconnue le vecteur: Y - (y , y ' ,.. y (n 1)) - (Y 0 ,.. Y n 1) (-displaystyle Y-(y,y',-dots ,y((n-1)))-(Y-(0),-dots ,Y-(n-1))).
+L'équation équivalente vérifiée par les composantes de Y est: (Y 0 ' - Y 1... Y n 2 ' - Y n 1 a n Y n 1 ' - a 0 Y 0 a 1 Y 1... a n 1 Y n 1 + b (-displaystyle (-begin(cases)Y'-(0)-Y-(1)---dots --Y'-(n-2)-Y-(n-1)--a-(n)-cdot Y'-(n-1)--a-(0)-cdot Y-(0)-a-(1)-cdot Y-(1)--ldots a-(n-1)-cdot Y-(n-1)+b-end(cases))-,).
+qui est bien une équation différentielle d'ordre 1, et qui reste sous forme résolue si l'équation de départ l'était.
+Par exemple, l'équation différentielle linéaire d'ordre deux, résolue et autonome
+à valeurs dans ℝ se transforme en équation du premier ordre à valeurs dans ℝ : la fonction inconnue de la nouvelle équation différentielle est une fonction x v(x) - (y(x), z(x)) de ℝ dans ℝ et l'équation s'écrit :
+où g est l'endomorphisme de ℝ défini par g(y, z) - (z, y). Autrement dit :
+c'est-à-dire que la dérivée de la fonction y est égale à z et la dérivée de z est égale à y, ce qui signifie que la dérivée seconde de y est égale à y. La nouvelle équation est bien équivalente à l'ancienne.
+
+Écriture matricielle
+Si E et F sont de dimension finie (sur le corps des réels par exemple) respectivement d et m, en fixant des bases de E et de F, une équation différentielle linéaire vectorielle peut s'écrire matriciellement. Soient n + 1 fonctions A 0 (-displaystyle A-(0)), A 1 (-displaystyle A-(1)),.. A n (-displaystyle A-(n)) continues sur l'intervalle réel I à valeurs dans l'espace des matrices Mm,d(ℝ) et b une fonction continue sur I à valeurs dans ℝ. On considère l'équation d'inconnue Y de classe C de I dans ℝ :
+Comme précédemment, on peut toujours se ramener à une équation linéaire d'ordre 1 sur des espaces augmentés :
+où A et B sont des fonctions continues sur I à valeurs dans l'espace des matrices carrées Mnm,nd(ℝ), et c une fonction continue sur I à valeurs dans ℝ. L'équation précédente est sous forme résolue si A est la matrice identité.
+
+Équation différentielle linéaire sous forme résolue
+L'équation d'ordre 1 sert de référence pour toute la théorie, puisque les équations d'ordre supérieur peuvent s'y ramener. La forme résolue, ou explicite, permet d'avoir de bons résultats théoriques d'existence et d'unicité.
+
+Écritures
+Écriture générale
+D'après ce qui précède, une équation différentielle linéaire d'ordre 1 sous forme résolue s'écrit
+Ici, b est une fonction continue d'un intervalle réel I à valeurs dans un espace vectoriel normé E, et a est une fonction continue de I à valeurs dans ℒ(E).
+Écriture matricielle
+Si E est un espace vectoriel réel de dimension finie d, alors en fixant une base de E, l'équation peut s'écrire matriciellement, avec une fonction A (-displaystyle A) continue sur I à valeurs dans l'espace des matrices carrées Md(ℝ) et B une fonction continue sur I à valeurs dans ℝ. L'équation devient
+Écriture en composantes
+L'écriture matricielle ci-dessus peut s'écrire sous la forme d'un système
+où les coefficients ai,j sont des fonctions à valeurs réelles.
+
+Existence et unicité des solutions
+Pour identifier complètement une solution de l'équation on peut imposer des conditions initiales, c'est-à-dire la valeur y0 de y au point x0. On appelle problème de Cauchy l'ensemble constitué par l'équation différentielle et la condition initiale
+Le théorème de Cauchy-Lipschitz permet d'affirmer que ce problème de Cauchy admet une solution unique. De plus, contrairement aux équations différentielles générales, la particularité des équations linéaires est que les solutions maximales sont toujours définies sur I entier.
+Autrement dit, si Sb désigne l'espace des solutions sur I de l'équation, l'application valeur en x0 :
+est bijective.
+En particulier pour b - 0, c'est donc un isomorphisme d'espaces vectoriels et l'espace vectoriel S0 est de même dimension que E.
+Si E est de dimension finie d, résoudre l'équation homogène revient donc à trouver d solutions y1,.., yd linéairement indépendantes, qui formeront alors une base de S0. Une telle base est appelée système fondamental de solutions. L'isomorphisme de Cauchy-Lipschitz a une conséquence surprenante : si en un point x, les vecteurs y1(x),.. yd(x) sont indépendants, alors en tout autre point x', les vecteurs y1(x'),.., yd(x') le sont également.
+Pour tester si d solutions sont linéairement indépendantes, il suffit donc de vérifier si d vecteurs de E sont indépendants. On calcule donc un déterminant adapté : le wronskien.
+
+Méthodes de résolution
+L'équation différentielle la plus simple est y' - b, qui consiste en un calcul de primitive. Sous certaines hypothèses, il est possible de se ramener à cette forme par changement de fonction. La résolution explicite des équations différentielles par des formules de quadrature, c'est-à-dire impliquant les fonctions usuelles et la primitivation, est cependant rarement possible.
+Les deux cas particuliers qui suivent n'en ont que plus d'importance.
+
+Équation différentielle linéaire scalaire d'ordre 1
+On considère l'équation y' - ay + b dans le cas où E est le corps des réels ou des complexes. Soit A une primitive de la fonction a. Alors le changement de fonction
+permet de ramener l'équation différentielle à un problème de calcul de primitive :
+Les solutions sont donc de la forme y (x) - e A (x) z (x) (-displaystyle y(x)-e(A(x))z(x)) où z est une primitive de la fonction x e A (x) b (x). (-displaystyle x-mapsto e(-A(x))b(x).)
+
+Équation différentielle linéaire d'ordre 1, à coefficients constants
+L'équation considérée est cette fois l'équation vectorielle y' - Ay + B, mais avec l'hypothèse que la matrice A est indépendante de x, d'où l'expression coefficients constants quand on considère le système associé. Le vecteur B, lui peut être variable.
+En faisant appel à la notion d'exponentielle d'endomorphisme, le changement de fonction
+permet de ramener, là encore, l'équation différentielle à un problème de calcul de primitive
+En particulier dans le cas homogène, c'est-à-dire si B - 0, la solution générale est z - constante donc les solutions de l'équation différentielle sont y(x) - ey0.
+Pour résoudre effectivement une telle équation, il est donc nécessaire, outre la primitivation, de faire un calcul d'exponentielle d'endomorphisme, ce qui fait intervenir les techniques de réduction.
+
+Cas général : résolvante
+Quand on revient à l'équation générale y' - A y + B où A et B sont variables, il est tentant de reprendre la formule de changement de fonction utilisée dans le cas scalaire. Malheureusement, la formule de dérivation des exponentielles de matrices ne s'étend pas en général à ce cas-là. Le seul point sur lequel achoppe la démonstration est la non-commutation de A(x) et de A'(x), de sorte que si cette condition est réalisée pour tout x (comme dans le cas où A est constante), la méthode fonctionne et on aboutit au même résultat que pour une équation scalaire. Mais cela ne procure pas de méthode générale.
+Il existe toutefois une solution formelle au problème. Étant donné a une fonction à valeurs dans ℒ(E), on note R(x, x0) la solution globale, fournie par le théorème de Cauchy-Lipschitz, du problème de Cauchy à valeurs dans l'espace vectoriel ℒ(E) :
+Autrement dit, la fonction de deux variables associée à l'application continue a de I dans ℒ(E) est l'application, appelée résolvante :
+caractérisée par :
+Elle fournit de ce fait la solution globale de tout problème de Cauchy à valeurs dans E homogène, c'est-à-dire de la forme
+par
+Ceci est une autre caractérisation de R, dont il résulte que
+en particulier chaque R(x, y) est inversible et
+On peut d'ailleurs construire R directement sans faire appel au théorème de Cauchy-Lipschitz, par une formule "explicite" bien que peu utile en pratique :
+Dans le cas d'une équation à coefficients constants, la résolvante est simplement
+Détails d'une construction directe de la résolvante
+Soient K un intervalle compact de I et M(x,) une fonction continue de K K dans ℒ(E). On définit l'opérateur L (-displaystyle (-mathcal (L))) de la manière suivante : L (M) (x ,) - x M (x , t) a (t) d t. (-displaystyle (-mathcal (L))(M)(x,-xi)--int -(-xi)(x)M(x,t)-circ a(t)-mathrm (d) t.) Cet opérateur est linéaire. On définit maintenant la fonction à valeurs dans ℒ(E) R (x ,) - n 0 L n (I d E). (-displaystyle R(x,-xi)--sum -(n-geq 0)(-mathcal (L))(n)(-mathrm (Id) -(E)).) (Cette série est normalement convergente car chaque terme est borné par a n (x) n - n ! (-displaystyle -a-(n)(x--xi)(n)-n!) et donc cette définition de R a un sens.) On remarque que: L (M) (x ,) - M (x ,) a donc R (x ,) - R (x ,) a (-displaystyle (-partial -over -partial -xi)(-mathcal (L))(M)(x,-xi)--M(x,-xi)-circ a(-xi)-quad (-text(donc))-quad (-partial -over -partial -xi)R(x,-xi)--R(x,-xi)-circ a(-xi)).
+et on montre par ailleurs (en explicitant les L n (I d E) (-displaystyle (-mathcal (L))(n)(-mathrm (Id) -(E)))) que pour tout entier naturel n,: x L n + 1 (I d E) (x ,) - a (x) L n (I d E) (x ,) donc x R (x ,) - a (x) R (x ,). (-displaystyle (-partial -over -partial x)(-mathcal (L))(n+1)(-mathrm (Id) -(E))(x,-xi)-a(x)-circ (-mathcal (L))(n)(-mathrm (Id) -(E))(x,-xi)-quad (-text(donc))-quad (-partial -over -partial x)R(x,-xi)-a(x)-circ R(x,-xi).).
+En appliquant les formules ci-dessus, on montre que R (x , y) R (y , z) (-displaystyle R(x,y)-circ R(y,z)) est indépendante de y donc égale à R (x , x) R (x , z) - I d E R (x , z) - R (x , z). (-displaystyle R(x,x)-circ R(x,z)--mathrm (Id) -(E)-circ R(x,z)-R(x,z).)
+La résolvante fournit non seulement les solutions de l'équation homogène y' - a-cdot y mais permet encore de ramener l'équation générale y' - a-cdot y + b à un calcul de primitive par changement de fonction : en posant
+on obtient en effet
+et
+
+Équation différentielle linéaire sous forme non résolue
+On a vu précédemment que les systèmes d'équations différentielles linéaires réelles, de dimension finie et d'ordre quelconque, peuvent s'écrire sous la forme matricielle: A y ' + B y - c , (-displaystyle Ay'+By-c,).
+où A et B sont des fonctions continues d'un intervalle réel I à valeurs dans l'espace des matrices Mm , n(ℝ) et c une fonction continue sur I à valeurs dans ℝ.
+Dans le cas où m - n et A est la matrice identité, le système est sous forme résolue et a été traité dans la section précédente. On peut se ramener à cette situation dans le cas plus général où m - n et la matrice A est inversible, en multipliant les deux membres de l'équation (-) par l'inverse A-1. Dans cette section, on s'intéresse au cas où la matrice A n'est pas inversible, au moins pour une valeur de I. On parle alors d'équations différentielles algébriques (en) linéaires. L'étude de ce problème a été initiée par Karl Weierstrass et Leopold Kronecker, dans le cas où les coefficients sont constants.
+
+Cas de l'équation à coefficients constants
+Dans le cas où les matrices A et B sont constantes (et c est une fonction continue à valeurs vectorielles), la recherche de solutions sous la forme y (x) - e x z (x) (-displaystyle y(x)-e(-lambda x)z(x)) amène à considérer le faisceau de matrices (en): (A + B , R). (-displaystyle -(-lambda A+B,- -lambda -in -mathbb (R) -).).
+On distingue alors trois cas selon le rang des matrices A+B et les dimensions du problème. Si rang(A+B) n pour tout ℝ, alors il existe une famille de vecteurs vℝ non nuls tels que y -ev est une solution de l'équation homogène, Ay' + By - 0. En particulier, pour tout choix de n+1 réels i, il existe une combinaison linéaire des yi qui est une solution non triviale de l'équation homogène avec donnée initiale nulle. Ainsi, pour toute solution de l'équation différentielle, il en existe une infinité possédant la même donnée initiale.; S'il existe ℝ, tel que le rang(A+B)-n-m (cas régulier), alors la paire de matrices (A,B) est équivalente à la paire matricielle suivante :. ((I a 0 0 N) , (M 0 0 I n a)) , (-displaystyle -left((-begin(pmatrix)I-(a)0--0N-end(pmatrix)),(-begin(pmatrix)M0--0I-(n-a)-end(pmatrix))-right),).
+où Ia est la matrice identité de taille a, NMn-a est nilpotente d'indice , et MMa, et N et M sont sous forme réduite de Jordan. L'indice est appelé indice de Kronecker. L'équation différentielle se réduit alors en un système de deux équations différentielles linéaires indépendantes : (y 1 ' + M y 1 - c 1 N y 2 ' + y 2 - c 2 (-displaystyle -left-((-begin(array)(l)y-(1)'+My-(1)-c-(1)--Ny-(2)'+y-(2)-c-(2)-end(array))-right.).
+La première équation est sous forme résolue et donc possède une unique solution pour toute donnée initiale. La seconde se résout après (-1) dérivations successives : y 2 - k - 0 1 (N) k c 2 (k). (-displaystyle y-(2)--sum -(k-0)(-nu -1)(-N)(k)c-(2)((k)).) Il existe donc une solution si c2 est suffisamment régulière et est compatible avec la donnée initiale. S'il existe ℝ, tel que le rang(A+B)-nm, alors une matrice de permutation permet de réécrire l'équation différentielle sous la forme du système. (A 1 y ' + B 1 y - c 1 A 2 y ' + B 2 y - c 2 (-displaystyle -left-((-begin(array)(l)A-(1)y'+B-(1)y-c-(1)--A-(2)y'+B-(2)y-c-(2)-end(array))-right.).
+où la première équation satisfait l'hypothèse du cas régulier précédent. Le système possède donc une solution pour une donnée initiale fixée si la première équation en possède une, et que celle-ci vérifie également la seconde.
+Résolution pratique
+On peut résoudre un problème régulier de la manière suivante. En utilisant la méthode du pivot de Gauss, on peut réécrire l'équation différentielle sous la forme: (A 1 0) y ' + (B 1 B 2) y - (c 1 c 2) (-displaystyle (-begin(pmatrix)A-(1)--0-end(pmatrix))y'+(-begin(pmatrix)B-(1)--B-(2)-end(pmatrix))y-(-begin(pmatrix)c-(1)--c-(2)-end(pmatrix))).
+où la matrice A1 est de rang plein par construction. On dérive alors la contrainte algébrique B2y-c2, et on injecte l'expression obtenue dans le système : (A 1 B 2) y ' + (B 1 0) y - (c 1 c 2 '). (-displaystyle (-begin(pmatrix)A-(1)--B-(2)-end(pmatrix))y'+(-begin(pmatrix)B-(1)--0-end(pmatrix))y-(-begin(pmatrix)c-(1)--c-(2)'-end(pmatrix)).).
+On réitère ensuite le processus jusqu'à ce que la matrice multipliant y' soit inversible, auquel cas on peut se ramener à une équation différentielle sous forme résolue. On obtient ainsi pour toute donnée initiale une unique solution possible à l'équation différentielle de départ, qui sera effectivement une solution si elle vérifie les contraintes algébriques obtenues au cours du processus (avant dérivation).
+Le nombre minimal d'étapes de la procédure précédente à effectuer correspond à l'indice de Kronecker. À la différence de ce dernier, cette notion d'indice appelée indice de différentiation s'étend au contexte linéaire à coefficients variables.
+
+Note et référence
+
+Voir aussi
+Système mécanique linéaire: Portail de l'analyse.

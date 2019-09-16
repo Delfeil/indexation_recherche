@@ -1,0 +1,47 @@
+L'effet McGurk est un phénomène illusoire perceptif qui montre une interférence entre l'audition et la vision lors de la perception de la parole. Cet effet suggère une multimodalité de la perception de la parole. L'effet McGurk (également appelé effet McGurk-MacDonald) se produit lorsque la vision et l'audition fournissent des signaux de parole incongrus. Deux types de phénomènes découlent de cette perception erronée : la fusion et la combinaison.
+
+Historique
+La découverte accidentelle de l'effet McGurk remonte aux années 1970 alors qu'Harry McGurk et John MacDonald, psychologues du développement à l'Université de Surrey en Angleterre, étudiaient la perception de la parole chez les enfants à différentes périodes de leur développement. Les sujets regardaient une présentation vidéo d'une mère qui parlait. La vidéo était couplée avec une présentation auditive venant d'un endroit différent dans la salle. La syllabe -ba- était entendu, mais la suite "ga" était présentée à l'écran. Lors du visionnement initial de la cassette, les chercheurs perçurent une troisième syllabe -da- qui se situait au niveau articulatoire entre les deux premières. Ainsi, selon l'effet McGurk, voir quelqu'un prononcer la syllabe -ga- alors qu'on entend la syllabe -ba- provoque l'illusion perceptuelle -da-. C'est après avoir testé des enfants et des adultes avec la vidéo que les chercheurs ont publié pour la première fois en 1976 dans le journal Nature l'illusion perceptuelle qu'ils avaient remarqué. Cet article est intitulé : Hearing Lips ans Seeing Voice.L'effet McGurk fut reproduit et réétudié par de nombreuses équipes de recherche par la suite.
+
+Complémentarité de l'audition et de la vision dans la perception de la parole
+La perception de la parole fut considérée pendant longtemps comme un processus exclusivement auditif. Durant la seconde moitié du XXe siècle, plusieurs études considéraient l'information visuelle comme une contribution essentielle dans la perception de la parole. En 1954, les chercheurs William H. Sumby et Irwin Pollack démontrèrent que l'intelligibilité d'un signal acoustique mêlé à du bruit ambiant est fortement améliorée par la lecture labiale. Celle-ci contribue également à la perception de la parole même si le bruit environnant augmente.Selon ces chercheurs, la lecture labiale est un atout et un moyen compensatoire pour les personnes souffrant d'une déficience auditive. Elle participe également à l'acquisition du langage oral chez les enfants sourds.La lecture labiale améliore la compréhension d'un signal de parole clair avec un contenu sémantique complexe. Elle peut améliorer la compréhension d'énoncés prononcés dans une langue étrangère par un locuteur avec un accent étranger et lorsqu'il y a une conversation entre plusieurs locuteurs dans un endroit avec du bruit ambiant.
+
+Phénomènes reliés à l'effet McGurk
+La fusion et la combinaison sont les deux types de phénomènes illusoires observés lors de l'effet McGurk. Chaque phénomène est associé à un type de consonnes (phonème). La séquence d'évènements de l'effet reste la même. Ainsi, les syllabes auditives de type CV (-ba-) sont couplées avec une présentation visuelle des mouvements articulatoires correspondants à une autre syllabe de type CV (-ga-) qui produit un conflit subtil entre la modalité visuelle et auditive. Ces modalités font alors une synthèse des différentes informations perçues. Ces phénomènes peuvent être utilisés, par exemple, dans la confection de programmes de reconnaissance vocale
+
+Fusion
+Le phénomène de fusion résulte de la simulation d'une production dite intermédiaire à la suite de la fusion d'une syllabe perçue et d'une syllabe entendue. Une syllabe commençant par une consonne vélaire (g,k,w) est présentée visuellement. Elle est couplée avec une syllabe commençant par une consonne bilabiale (p,b,m) qui est présentée sous forme sonore. La fusion des deux informations simule une production intermédiaire (ex.: -da-).
+L'exemple illustre le phénomène de fusion :
+-Vu : "ga" (consonne vélaire)
+-Entendu : -ba- (consonne bilabiale)
+-Perçu : -da - (résultat - phénomène de fusion)
+
+Combinaison
+Le phénomène de combinaison combine la présentation visuelle d'une syllabe commençant avec une consonne bilabiale avec l'écoute d'une syllabe commençant par une consonne vélaire. Il y a une addition des deux phénomènes. Une présentation visuelle d'une consonne bilabiale (p,b,m) est présentée. Elle est couplée avec la présentation auditive d'une consonne vélaire (g,k,w). Le sujet combine les informations vues et entendues. Il perçoit par exemple une combinaison du type -bga-.
+Voici un exemple qui illustre le phénomène de combinaison:
+-Vu : "ba" (bilabiale)
+-Entendu : -ga- (vélaire)
+-Perçu -bga- (Résultat de la combinaison)
+
+Caractéristiques de l'effet McGurk
+L'effet McGurk est un effet robuste. La structure syllabique, le contexte des mots ou des phrases n'influencent pas l'apparition des phénomènes (voir section 2) et ce, peu importe la longueur des mots ou des phrases.Par exemple la structure syllabique n'a pas d'importance, qu'elle soit CV, VCV ou même VC, une vélaire visuelle doublée d'une bilabiale à l'oral résultera toujours en la perception d'une fusion. L'effet est également applicable aux mots et aux phrases, tant que ceux-ci opposent une vélaire à une bilabiale.
+Syllabe:
+CV : Entendu:-ba-
+ Vu :-ga-
+ Perçu :-da-, V
+ VCV : Entendu:-aba-
+ Vu :-aga-
+ Perçu :-ada-
+Mot:
+ Entendu:-mail-
+ Vu :-deal-
+ Perçu :-nail-
+Phrase :
+ Entendu:- my bab pope me poo brive -
+ Vu : - my gag koke me koo grive -
+ Perçu : - my dad taught me to drive -
+L'effet McGurk est irrépressible. Un individu ne peut pas s'empêcher d'être sensible aux mécanismes phonatoires, même si son intention est contraire. Il sera sensible aux différents mécanismes malgré lui. Cette notion implique que l'esprit est cognitivement impénétrable et qu'il effectue ses traitements sans être affecté par d'autres domaines cognitifs (mémoire, raisonnement, mécanismes attentionnels, etc.) Ce processus d'analyse est donc au même terme qu'un réflexe rapide, obligatoire et inflexible.
+
+Modularité de l'effet
+L'effet McGurk est influencé par plusieurs variables dans différents contextes expérimentaux. Premièrement, plusieurs auteurs ont démontré que l'effet McGurk peut être influencé par l'orientation spatiale du visage du locuteur, plus précisément lorsque le visage est incliné.Deuxièmement, lorsque la désynchronisation temporelle des stimuli dépasse 200ms, l'effet McGurk est influencé.Troisièmement, la langue testée peut faire varier certains résultats. Cette variable renvoie aux propriétés des stimuli. Des études réalisées dans plusieurs langues (anglais, espagnol, malais, coréen, français, etc.) ont obtenu des résultats variables. Dans certaines langues, l'effet McGurk semble moins robuste. Par exemple, les locuteurs chinois et japonais sont peu sensibles à l'effet McGurk. Ces résultats pourraient être expliqués en termes culturels; il est considéré impoli de regarder le visage du locuteur et ce dans les deux cultures. La variabilité de l'effet pourrait être liée aux différences au niveau des systèmes phonétiques des langues, des différentes contraintes phonotactiques et des différences culturelles.
+En opposition, certaines variables n'ont pas d'influence sur l'effet McGurk. La séparation spatiale entre les stimuli auditifs et visuels n'influence pas la force de l'effet, tel que rapporté dans l'étude de Colin, Radeau, Deltenre et Morais en 2001.

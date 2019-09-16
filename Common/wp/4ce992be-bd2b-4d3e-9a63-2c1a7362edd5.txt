@@ -1,0 +1,12 @@
+L'Internet Engineering Task Force, abrégée IETF, littéralement traduit de l'anglais en "Détachement d'ingénierie d'Internet" est un groupe informel, international, ouvert à tout individu, qui participe à l'élaboration des standards Internet. L'IETF produit la plupart des nouveaux standards d'Internet.
+
+Structure
+L'IETF est un groupe informel, sans statut, sans membre, sans adhésion. Le travail technique est accompli dans une centaine de groupes de travail. En fait, un groupe est généralement constitué d'une liste de courrier électronique. L'IETF tient trois réunions par année.
+Les groupes de travail sont répartis dans une dizaine de domaines d'intérêt, chaque domaine ayant un ou deux directeurs. Ces directeurs de domaine nomment le ou les directeurs de chaque nouveau groupe de travail. Les directeurs de domaine font partie de l'Internet Engineering Steering Group (IESG). L'Internet Architecture Board (IAB) se charge de l'orientation à long terme d'Internet, et donc des activités données à l'IETF. L'IESG et l'IAB sont chapeautés par l'Internet Society (ISoc).
+
+Production
+Le but du groupe est généralement la rédaction d'un ou plusieurs Request for comments (RFC), nom donné aux documents de spécification à la base d'Internet.
+
+Voir aussi
+
+Articles connexes: Request for comments (RFC); Internet Society (ISoc): Internet Architecture Board (IAB); Internet Engineering Steering Group (IESG).; Internet Architecture Board (IAB); Internet Engineering Steering Group (IESG); Internet Corporation for Assigned Names and Numbers (ICANN): Internet Assigned Numbers Authority (IANA).; Internet Assigned Numbers Authority (IANA); Internet; Normes et standards industriels; Étiquette d'identification de langues IETF.

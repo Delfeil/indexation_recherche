@@ -1,0 +1,271 @@
+L'Extensible Markup Language (XML, "langage de balisage extensible" en français) est un métalangage informatique de balisage générique qui dérive du SGML. Cette syntaxe est dite "extensible" car elle permet de définir différents espaces de noms, c'est-à-dire des langages avec chacun leur vocabulaire et leur grammaire, comme XHTML, XSLT, RSS, SVG... Elle est reconnaissable par son usage des chevrons (,) encadrant les balises. L'objectif initial est de faciliter l'échange automatisé de contenus complexes (arbres, texte riche...) entre systèmes d'informations hétérogènes (interopérabilité). Avec ses outils et langages associés, une application XML respecte généralement certains principes : la structure d'un document XML est définie et validable par un schéma ;; un document XML est entièrement transformable dans un autre document XML.
+
+Historique
+Dan Connolly ajoute le Standard Generalized Markup Language à la liste des activités du World Wide Web Consortium lorsqu'il s'y joint en 1995. Les travaux débutent à la mi-1996 lorsque l'ingénieur Jon Bosak (en) de Sun Microsystems élabore une charte et recrute des collaborateurs. Bosak se fait connaître dans la petite communauté de personnes qui avaient de l'expérience à la fois dans le SGML et dans le Web.
+XML est compilé par un groupe de travail de onze membres, soutenu par environ 150 membres de divers groupes d'intérêt. Le débat technique a eu lieu sur la liste commune et les questions ont été résolues par consensus ou, lorsque cela a échoué, à la majorité des voix du groupe de travail. Les corédacteurs du cahier des charges étaient à l'origine Tim Bray, qui a notamment conduit l'informatisation du Oxford English Dictionary, et Michael Sperberg-McQueen, de l'Université de l'Illinois, qui était éditeur en chef de la DTD TEI ; accompagnés ensuite de Jean Paoli, de Microsoft, comme troisième coéditeur. James Clark servit comme responsable technique du groupe de travail, notamment en contribuant à l'élément vide "empty-" et au nom "XML". Tim Bray, dans son Annotated XML Specification (en) "la spécification XML annotée", explique plus longuement le contexte qui a rendu possible ce standard. Un compte rendu des décisions de conception et de leurs justifications ont été compilées par Michael Sperberg-McQueen, le 4 décembre 1997.
+Le groupe de travail XML ne s'est jamais rencontré face-à-face, la conception a été réalisée en utilisant courrier électronique et téléconférences hebdomadaires. Les principales décisions de conception ont été prises en une vingtaine de semaines de travail intense entre juillet et novembre 1996, lorsque le premier travail de spécification XML a été publié. D'autres travaux de conception sont poursuivis jusqu'en 1997, puis le XML 1.0 est devenu une recommandation W3C le 10 février 1998.
+
+XML et SGML
+L'objectif initial de XML est expliqué au début de la spécification du 10 février 1998 avec une phrase toujours d'actualité : "Son but est de permettre au SGML générique d'être transmis, reçu et traité sur le web de la même manière que l'est HTML aujourd'hui."(fr). SGML est un langage de balisage, employé dans les industries de la documentation et de l'édition. En adoptant cette syntaxe pour HTML, Tim Berners-Lee confrontait une technologie complexe à de plus en plus d'utilisateurs. L'objectif d'XML était de définir un langage aussi générique, mais plus simple : "XML has been designed for ease of implementation"(en), "XML a été conçu pour une facilité de mise en oeuvre"(fr).
+À la lumière des années passées, cette spécification a rempli l'objectif qu'elle se fixait, XML a été largement suivi et favorise l'interopérabilité. La disponibilité d'une syntaxe standard et d'outils de manipulation réduit significativement le coût du cycle de développement, permettant à des logiciels de modifier et de valider, sans connaissances préalables, des documents écrits dans ces langages. En effet, avant l'avènement du populaire langage généraliste de description de données qu'est XML, les concepteurs de logiciels avaient pour habitude de définir leurs propres formats de fichiers ou leurs propres langages pour partager les données entre programmes (à l'exception de quelques standards professionnels tels qu'EDIFACT), ce qui exigeait de concevoir et de programmer chaque fois des analyseurs syntaxiques spécialisés. Ces tâches et bien d'autres s'effectuent désormais avec des outils XML standardisées.
+Plusieurs décisions critiques ont contribué au succès du XML.
+
+Adoption de l'Unicode
+Par défaut, SGML était en ASCII (alphabet latin sans lettre accentuée). Il apportait un système d'encodage pour les autres signes, les entités de caractères que l'on trouve encore parfois en HTML (exemple : eacute; pour é). En 1996, apparaît la version 2.0 d'Unicode. XML adopte cet encodage par défaut.
+xml version-"1.0" encoding-"UTF-8"
+ -
+Grammaire plus simple
+SGML est orienté pour la saisie humaine de texte structuré, et autorise beaucoup de raccourcis. Ainsi HTML permet d'omettre certaines balises de fermeture, de raccourcir des attributs, de mélanger minuscules et majuscules. Ces possibilités compliquent le traitement automatique et sont interdites pour les applications de XML.
+!-- Exemple d'HTML 4, application de SGML, avec attribut minimisé,
+balises en minuscules et majuscules, balises fermantes optionnelles. --
+UL compact
+ LIItem 1
+ liItem 2-Li
+-ul
+!-- Exemple d'XHTML, application de XML. --
+ul compact-"compact"
+ liItem 1-li
+ liItem 2-li
+-ul
+Espace de noms
+SGML insiste surtout sur la validation, sur la conformité à un modèle contraignant. XML prévoit un usage plus souple de l'information structurée. Il spécifie un moyen de faire cohabiter plusieurs vocabulaires de balises dans un même document grâce à la définition d'espace de noms.
+xml version-"1.0" encoding-"UTF-8"
+xsl:transform
+ version-"1.0"
+ xmlns:xsl-"http:--www.w3.org-1999-XSL-Transform"
+ xmlns-"http:--www.w3.org-1999-xhtml"
+ xmlns:tei-"http:--www.tei-c.org-ns-1.0"
+
+ !-- Transformation XSLT (instructions XML avec le préfixe"xsl:) qui prend
+en entrée du TEI (noms avec préfixe"tei:) et donne en sortie du HTML (noms
+sans préfixe). --
+ xsl:template match-"tei:abbr"
+ abbr
+ xsl:apply-templates-
+ -abbr
+ -xsl:template
+-xsl:transform
+Bilan
+Paradoxalement, il reste un domaine où SGML persiste, les "HTML". Le W3C ne développe plus XHTML (version de HTML plus stricte, avec par exemple des balises obligatoirement fermées), et se consacre plutôt à HTML5, successeur d'HTML4, qui ajoute quelques balises sans imposer la conformité à XML. L'échec d'XHTML et le retour à HTML s'expliquent par la force des habitudes et la très importante base HTML déjà installée.
+Au-delà de HTML, le W3C avait d'autres projets exigeant une syntaxe plus facilement extensible. Ces directions ont permis une grande plasticité de XML lui offrant de nombreux usages. SGML était une technique de niche, Internet l'a simplifié et largement répandu.
+
+Versions
+La version 1.0 d'XML a été publiée le 10 février 1998.
+La version 1.1 d'XML a été publiée le 4 février 2004. Elle apporte des améliorations dans le support des différentes versions d'Unicode, permet l'usage de caractères de contrôle dans le texte (à l'exception du caractère 0), et organise les fins de ligne de façon compatible avec les technologies IBM.
+Le W3C recommande aux interpréteurs XML de reconnaître les deux versions, bien que la première version soit beaucoup plus répandue que la seconde.
+
+Comparaison avec d'autres formats
+Comparé aux langages plus haut, XML est une syntaxe générique et extensible. Il permet de structurer une grande variété de contenus, car son "langage" (vocabulaire et grammaire) peut être redéfini.
+Si le début de cet article était encodé en XML, il pourrait ressembler à ceci.
+article xmlns-"http:--docbook.org-ns-docbook"
+ titleExtensible Markup Language-title
+ para
+ acronymXML-acronym (Extensible Markup Language, "langage de
+balisage extensible")...
+ -para
+-article
+Dans ce code, chacun peut identifier des portions de texte (exemple : Extensible, XML...) et des mots clés encadrés de chevrons (,) : article, title, para... Ces mots sont définis dans l'espace de noms Docbook. Le document est ouvert par le mot-clé article, et clos par -article. Notez la barre oblique, elle signifie la fermeture de la balise article. En XML, une balise doit toujours être fermée. À l'intérieur de cet article, il y a un titre title, un paragraphe para, et un acronyme acronym.
+Ce qui est spécifique à XML, c'est le choix des chevrons pour identifier les balises, et l'obligation de les fermer. Les mots clés ne sont pas définis par la norme XML, mais par le vocabulaire choisi. En XHTML, l'élément racine aurait été html, en XSLT, cela peut être xsl:stylesheet ou xsl:transform. Ceci illustre la nature extensible d'XML. Ce n'est pas un jeu de noms réservés (exemple : echo, for, public, function, class...), mais plutôt des caractères réservés permettant de définir un "langage".
+Cet exemple illustre une autre spécificité de ce format. À part SGML, peu d'autres syntaxes permettent de séparer la définition sémantique de l'information (qu'est-ce qui est titre, lien, section...), de l'apparence qu'on souhaite lui donner (aujourd'hui un titre est souligné, demain on le voudra peut-être en bleu). Cela fait d'XML un excellent format pour conserver des textes ou des données, comme la comparaison ci-après à d'autres formats le montre.
+
+Formats binaires
+Les logiciels, surtout pour le grand public, aboutissent généralement à des fichiers. L'interopérabilité et la pérennité de ces fichiers est une préoccupation qui passe souvent après la performance. Par exemple, le format historique d'enregistrement du traitement de texte Microsoft Word (-.doc) n'est pas lisible par l'humain, le texte est difficile à extraire, le lien avec sa structuration (gras, italique...) est difficile à reconstruire. Théoriquement, seul le logiciel qui le produit est capable de le lire.
+
+RTF
+Afin de favoriser l'échange avec d'autres traitements de texte, Microsoft a proposé le format RTF (Rich Text Format "format texte riche") en 1987. Ce n'est pas un format binaire, les commandes sont inscrites en texte lisible, mais elles ne sont pas destinées à être écrites par un humain.
+On retrouve le besoin d'encadrer du contenu avec un marqueur (ici les accolades), d'attacher des propriétés à ces groupes. Ainsi, (-b XML) indique que les lettres XML sont en gras, bold : -b. Pour le titre, humains comme logiciels ne peuvent pas l'identifier par "-f2-fs36-b", ce code indique en fait l'apparence du paragraphe (gras, gros...). Ce format a montré qu'il pouvait fonctionner dans des logiciels, mais sa complexité croissante a montré ses limites. Il est difficilement extensible, et inutilisable pour structurer la sémantique d'un texte.
+
+TeX
+Donald Knuth, auteur de The Art of Computer Programming ("l'Art de la programmation"), s'est un jour (de 1977) indigné de la qualité d'impression de ses ouvrages. Il a alors développé TeX, une syntaxe très élaborée destinée à l'écriture humaine, spécialement puissante pour les équations mathématiques. RTF lui a repris ses séparateurs (-, (,)), mais pas son système de macros pour factoriser les commandes.
+-documentclass(a4paper, 11pt)(article)
+-title(Extensible Markup Language)
+-begin(document)
+ -maketitle
+-end(document)
+TeX reste le standard de l'édition scientifique de qualité, en particulier pour la mise en forme des équations complexes. Toutefois, cela reste un langage de programmation destiné à la mise en forme, davantage conçu pour l'apparence des documents que pour stocker ou transférer des données.
+
+Wiki
+Une syntaxe wiki sait aussi séparer le contenu de la présentation.
+Cependant, cette structuration repose ici sur des séquences de caractères particulières (--, "). Or, le nombre de caractères sans signification n'est pas indéfini. Un tel format peut être approprié pour un seul type de document, mais ce n'est pas une syntaxe générique et facilement extensible.
+
+Composants et syntaxe
+XML se présente en général comme une chaîne de caractères, séparant deux niveaux : du texte à destination des humains, et des balises à destination des machines. La structuration de ce texte par les balises produit un modèle informatique. D'un point de vue formel, un document XML est un arbre, articulant différents types de noeuds (texte, éléments, attributs, commentaires...). Il n'est pas indispensable de pénétrer le détail théorique de cette structure arborescente pour écrire du XML bien formé, toutefois, il est intéressant d'en comprendre le principe général, car c'est ce modèle qui explique les erreurs de syntaxe. Cette section présentera les différents composants du modèle XML, en insistant sur les contraintes imposées par leur définition, et en présentant différents types d'erreurs (malformations) qui produisent un document mal formé. Un document mal formé n'est plus du XML. Il casse toute la chaîne de traitement. Cette absence de rattrapage des erreurs peut parfois surprendre et décourager les débutants, mais c'est cette rigueur qui assure la qualité du format XML (notamment comparé en SGML). Heureusement, comme pour tout autre langage informatique, des logiciels d'édition assistent les utilisateurs pour éviter ces erreurs.
+xml version-"1.0" encoding-"UTF-8"
+xml-stylesheet href-"transformation.xsl" type-"text-xsl"
+mode ecran
+instruction pour le traitement
+!-- Commentaire --
+ex:collection
+ xml:lang-"fr"
+ xmlns:dc-"http:--purl.org-dc-elements-1.1-"
+ xmlns-"http:--www.w3.org-1999-xhtml"
+ xmlns:ex-"http:--exemple.org"
+
+ élémentTexte-élément
+ dc:titleAstérix le Gaulois-dc:title
+ ex:livre attribut-"valeur" type-"BD"
+ dc:titleAstérix chez les Belges-dc:title
+ !-- élément répété --
+ dc:creatorRené Goscinny-dc:creator
+ dc:creatorAlbert Uderzo-dc:creator
+ dc:description
+ bAstérix chez les Belges-b est un album de
+a href-"http:--fr.wikipedia.org-wiki-Bande-dessinée"bande dessinée-a de la
+série Astérix le Gaulois créée par René Goscinny et Albert Uderzo.
+br -!-- élément vide --
+ Cet album publié en 1979 est le dernier de la série écrite par René
+Goscinny.
+ -dc:description
+ -ex:livre
+-ex:collection
+
+Noeud document
+Un document XML a toujours une et une seule racine, le noeud document. Dans la syntaxe d'exploration d'un arbre XML, XPath, le noeud document est abrégé avec la barre oblique -, comme la racine de l'arborescence d'un système de fichiers Unix. La racine peut éventuellement comporter des enfants de type commentaire ou instruction de traitement, elle doit obligatoirement comporter un et un seul élément.
+xml version-"1.0" encoding-"UTF-8"
+itemPremier élément racine-item
+itemDeuxième élément racine - malformation-item: Malformation: Le fichier ci-dessus n'est pas un document XML bien formé car il comporte plus d'un élément racine.
+
+Noeud élément
+Un noeud élément est désigné par un nom qualifié au sein d'un espace de noms. Ce nom ne peut pas contenir !"%'-+,-;-@(-)' ou un espace et ne peut pas commencer par -. ou un chiffre. Un élément peut contenir des attributs et la plupart des autres noeuds : texte, éléments,.. (à l'exception du noeud document). Des éléments peuvent être imbriqués, mais pas entrecroisés. Cette définition formelle est à l'origine des particularités de XML comparé à d'autres formats : Répétable: Une même propriété peut être répétée. L'exemple montre comment indiquer qu'un livre a plusieurs auteurs dc:creator. Dans un format tabulaire, avec un nombre de colonnes défini, ce n'est pas impossible, mais moins spécifié. Ordonné: L'ordre des éléments est conservé. Quel que soit le langage employé, un outil XML doit permettre de distinguer le premier auteur du second (exemple : en XPath, -ex:collection-ex:livre-dc:creator(1) - "René Goscinny", -ex:collection-ex:livre-dc:creator(2) - "Albert Uderzo"). Hiérarchique: Les éléments XML sont imbriqués. Ceci rend ce format particulièrement adapté à représenter des arbres. L'exemple est limité à 2 niveaux (-ex:collection-ex:livre), une collection avec un titre (Astérix le Gaulois), et un exemple d'ouvrage de cette collection (Astérix chez les Belges). XML permet une récursivité complète. Par exemple, un livre, ou une thèse, peut être formaté très économiquement avec un élément section. La partie 2.3.5 correspondra à une structure d'imbrication XML -section(2)-section(3)-section(5). Mélangeable: XML est plus qu'un format de données, c'est un format de document, permettant de mélanger du texte et des éléments, pour par exemple représenter du texte riche. Dans l'exemple, le texte de la description dc:description est enrichi avec des balises XHTML (gras b, lien a). Qualifié: La qualification des noms contribue à la précision sémantique des contenus balisés. La notation xmlns-"URI", ou xmlns:prefix-"autre-URI", avec héritage hiérarchique, permet de rattacher tous les noms à une URI, et donc potentiellement à une documentation. Malformations : Quelques exemples d'XML mal formé : auteurnomBon-nom, prénomJean-auteur-prénom (la balise -prénom est fermée après la balise -auteur alors que cette dernière a été ouverte avant. Le prénom doit être logiquement à l'intérieur de la balise auteur, comme le nom.; siècleXXexposante-siècle, paraMalformations-label (paragraphe avec titre)-para La balise exposant doit être fermée à l'intérieur de l'élément siècle, la balise -label doit être ouverte avant d'être fermée à l'intérieur de l'élément para.; 1-balise-, balise- , balise!-, autre-balise,mal,nommée-, pas d'espace Ces noms d'éléments comportent des caractères interdits, en première position ou ailleurs.
+Balise
+Une balise est un nom commode pour désigner les constructions entre deux chevrons (,) dans un fichier XML. On distinguera les balises ouvrantes élément attribut-"valeur", les balises fermantes -élément (sans attributs et commençant par une barre oblique) et les balises vides élément attribut-"valeur"- (avec attributs possibles et terminant par une barre oblique). Il ne faut pas confondre les balises avec les éléments. Ces notations permettent de délimiter des éléments (ainsi que leurs attributs), mais les balises ne sont pas des noeuds dans le modèle abstrait du document.
+
+Noeud texte
+Un noeud texte n'a pas d'enfants, il est toujours contenu dans un élément. Ainsi dans le cas de texte mêlé (exemple : pdu texte en bgras-b dans un paragraphe-p), ce n'est pas le texte qui contient le gras, mais plutôt l'élément parent p qui contient plusieurs enfants : un noeud texte, un noeud élément b et un noeud texte (exemple : p-node(3)-" dans un paragraphe", p-b-node - "gras"). Encodage: Par défaut, le texte est traité comme de l'Unicode (UTF-8). XML permet de spécifier d'autres encodages dans le prologue pour des raisons historiques. Espaces: En XML, espaces et sauts de lignes sont équivalents, autrement dit, un document peut perdre son indentation en restant identique pour les traitements, sauf instructions particulières (exemple : bloc préformaté avec l'attribut @xml:space-"preserve"). Malformations: Comme tout langage informatique, XML est fondé sur des caractères qui ont un sens particulier pour la machine. La force de XML est d'avoir réduit le nombre de ces caractères au minimum, afin que le texte prime sur le métatexte (priorité des données sur les instructions). Dès qu'un analyseur XML (ex : navigateur Web) rencontre un chevron ouvrant , les caractères qui suivent sont interprétés comme une balise. Ceci pose évidemment des problèmes dans une inéquation mathématique if (a 10) print("Unité"). La balise 10)... n'ayant pas un nom d'élément correct (présence d'une espace, commence par un chiffre), un analyseur XML lèvera une erreur et s'arrêtera sans essayer d'être plus intelligent. C'est un problème pour tous les langages informatiques, qui introduisent alors des caractères d'échappement. Il faut au moins un caractère pour signaler que les caractères qui suivent doivent être interprétés autrement. En XML, c'est le rôle de l'esperluette qui introduit des entités. Une entité est un nom XML encadré d'une esperluette et d'un point virgule. Ce nom a les mêmes contraintes que pour les éléments (pas d'espaces, surtout des lettres...). Dans un noeud texte, le signe inférieur doit être remplacé par lt; (lesser than, "inférieur" en français). Du coup, l'esperluette acquiert elle aussi un statut particulier, et doit aussi être échappée. sujetMontaigne et La Boétie-sujet, ce texte produira une erreur XML, car et La Boétie n'est pas une entité bien formée. Les esperluettes d'un noeud texte doivent être remplacées par l'entité amp; (ampersand, "esperluette" en français). Mentionnons ici 3 autres entités nécessaires à XML, gt; (greater than, "supérieur" en français) pour , quot; (quote, "guillemet" en français) pour ", apos; (apostrophe) pour '.
+Attributs
+Un attribut est un nom et une valeur. Un nom d'attribut a les mêmes contraintes et possibilités de qualification qu'un nom d'élément. La valeur est un texte sans élément (ni autres noeuds). Un attribut est toujours porté par un élément (balise ouvrante). La valeur peut être vide element attribut--, mais pas nulle element attribut (cette écriture était permise en SGML, on la rencontre encore parfois en HTML, mais elle n'est pas acceptée en XML).
+Un attribut est unique. La répétition d'un attribut de même nom sur le même élément provoquera une erreur de l'interpréteur XML. L'ordre des attributs n'est pas significatif, et peut ne pas être conservé dans certains traitements. element attribut1-"valeur1" attribut2-"valeur2"- et element attribut2-"valeur2" attribut1-"valeur1"- sont équivalents pour un interpréteur XML, même s'ils sont écrits différemment. Malformations: élément onclick-"if (this.length 10) alert("Pourquoi ça marche pas ")"Valeurs d'attributs contenant des guillemets ou le signe supérieur-élément À l'intérieur d'une balise (entre les chevrons ouvrants et fermants), le chevron fermant et les guillemets ont une signification particulière dans la délimitation des valeurs d'attribut, et la fin de la balise ouvrante. Ces caractères doivent donc être échappées. À cette fin, XML prévoit les entités quot; pour " et gt; pour. élément répète-après-moi-"après moi" répète-après-moi-"parser error: attribute répète-après-moi redefined"- Les attributs ne sont pas répétables.
+
+Commentaires
+En XML, les commentaires sont délimités par !-- et --. Le contenu d'un commentaire ne sera pas interprété.
+!-- Cet élément n'est pas fermé mais cela est autorisé dans un commentaire --. Malformations: La chaîne de caractères -- ne peut apparaître dans le contenu d'un commentaire (un interpréteur XML considère que ce signal annonce la fin d'un commentaire).
+
+Prologue
+En XML, le prologue est constitué de la déclaration XML xml version-"1.0" encoding-"UTF-8", et de la déclaration de type de document (DOCTYPE). La déclaration XML est obligatoire à partir de la version 1.1. La déclaration DOCTYPE avait une grande importance en SGML. Elle attache le document traité par un interpréteur à son schéma (DTD, Document Type Definition, "Définition de type de document") afin de le valider et d'interpréter certains raccourcis (les entités). Désormais, il existe plusieurs langages de validation, et parfois plusieurs manières de les attacher. La déclaration DOCTYPE n'a plus la même importance.
+
+Instruction de traitement
+Une instruction de traitement est une possibilité un peu moins employée en XML que du temps de SGML. C'est une balise particulière qui s'ouvre par un chevron ouvrant et un point d'interrogation, et qui se ferme avec un point d'interrogation et un chevron fermant clé valeur. Les lettres accolées au chevron ouvrant forment la clé jusqu'au premier espace. La suite peut contenir des espaces, de la ponctuation et forme la valeur. Cette valeur n'a pas de syntaxe imposée par XML, ce sont les applications qui les interprètent pour leur besoin. Le W3C a cependant standardisé l'usage des instructions de traitement pour associer une feuille de style à un document XML, mais d'autres usages sont possibles. Elles peuvent être insérées à tout endroit entre les balises (mais pas dans une valeur d'attribut, ni entre chevrons au milieu d'une balise). Elles peuvent communiquer des instructions à destination des machines qui vont utiliser ce XML, sans que ce contenu soit considéré comme de l'information structurée par les balises. Ainsi par exemple, les instructions de traitements ne seront pas affichées par un navigateur, par contre, elles vont modifier leur comportement dans le traitement (et l'affichage) de cette information XML. Un éditeur XML peut aussi employer ce moyen pour associer un fichier XML à son schéma.
+xml version-"1.0" encoding-"UTF-8"
+xml-stylesheet href-"tei2html.xsl" type-"text-xsl"
+xml-model
+ href-"tei.rng"
+ type-"application-xml"
+ schematypens-"http:--relaxng.org-ns-structure-1.0"
+
+erreur
+TEI xmlns-"http:--www.tei-c.org-ns-1.0"
+ !--... --
+-TEI
+Sections d'échappement
+Une section d'échappement !(CDATA(...)) permet de contenir n'importe quel texte, avec tous les caractères spéciaux XML , sans qu'il soit nécessaire d'échapper ces caractères avec des entités. Elles sont souvent utilisées dans des documents qui contiennent des syntaxes informatiques avec de nombreux chevrons et esperluettes (ex : JavaScript). Ces sections d'échappement permettent de garder le texte original, en gardant conforme le flux XML.
+script!(CDATA(
+if (chars 140 mode -- tweet) (
+ div.innerHTML - 'bAttention !-b, le ((140e)) caractère est dépassé !';
+)
+))-script
+Document bien formé et valide
+Un document bien formé respecte les contraintes formelles définies ci-dessus, il n'a pas de malformations. À ce stade, XML n'est pas un langage, car il n'a pas de vocabulaire et très peu de grammaire, ce serait plutôt une ponctuation, ou mieux, un métalangage. Les spécifications ci-dessus n'interdisent pas de constituer des structures absurdes et inutilisables par des applications.
+phrase titre-livre-"XML idiot"
+ paragraphe
+ chapitre
+ toto
+ livre
+ titiInformatique sans bon sens n'est que ruine de l'âme et
+perte de temps.-titi
+ -livre
+ -toto
+ -chapitre
+ -paragraphe
+-phrase
+En général, les balises XML ne sont pas inventées librement, mais selon les prescriptions d'un schéma dans une syntaxe informatique (DTD, Relax-NG, Schematron...) qui définit le dictionnaire des noms d'éléments et d'attributs, ainsi que la grammaire de leurs articulations. Lorsqu'un document XML déclare suivre un schéma et être en accord avec celui-ci, il est dit valide. On dit aussi "valider contre un schéma". "Rendre valide" signifie la correction des erreurs dans un document XML qu'un schéma a repéré. C'est l'objet de la section suivante de montrer la quantité de langages pouvant employer la ponctuation XML, selon des schémas différents.
+
+Utilisations et langages dérivés
+SGML était une syntaxe générique, permettant de définir des langages spécialisés (ex : HTML), mais il était surtout destiné au balisage de documents. En simplifiant SGML, les concepteurs d'XML prévoyaient d'élargir l'usage des chevrons à bien d'autres emplois, par exemple, la programmation. Les premiers langages basés sur XML par le W3C dessinent plusieurs directions d'utilisation. 1999, RDF (Resource Description Framework, "Cadre de description de ressource"). Ce modèle abstrait vise à définir un réseau de métadonnées adapté au web, représentable en XML.; 1999, XSLT (eXtended Stylesheet Language Transformations, "Transformations par langage XML de feuilles de style"). Afin d'employer XML, il faut pouvoir le transformer. James Clark avait écrit un langage équivalent pour SGML (DSSSL, 1996). Avec XSLT, il propose une syntaxe XML, permettant par exemple de transformer un contenu XML vers HTML, ou XSL-FO.; 2000, XSL-FO (eXtended Stylesheet Language Formatting Object, "Formatage d'objet par langage XML de feuilles de style"). XSL-FO est un langage de description de document permettant de composer un livre, ou un document PDF. C'était un complément indispensable à XML pour les industries de l'édition.; Enfin, il fallait une nouvelle syntaxe schéma tenant compte des espaces de noms pour remplacer les DTD (ce qui deviendra XML Schema).
+Quelques mois après sa sortie, XML est donc utilisé pour encoder des données, programmer des transformations, représenter un objet imprimable et définir le schéma d'un document XML. Ceci annonce la variété des utilisations de cette syntaxe. Quelques années après, le catalogue est beaucoup plus important, couvrant des usages comme : langage de balisage ;; format de données ;; langage de description de format de document ;; langage de représentation ;; langage de programmation ;; protocole de communication.
+Ces catégories permettent une classification approximative des langages à base XML (ou acceptant une expression XML). La liste des langages ci-après repère quelques spécifications importantes dans le monde XML. Les succès et les critiques permettent aussi de montrer à quoi XML est bon, et là où il est moins adapté.
+
+Langages de balisage
+Le balisage de document est le métier initial d'XML. Les DTD SGML publiques comme TEI et Docbook l'ont adopté. XML aurait pu permettre l'apparition de nombreux autres schémas. On assiste plutôt à l'apparition de vocabulaires spécialisés, et combinables à l'exemple de la modularisation XHTML : XHTML (eXtensible HyperText Markup Language), langage de balisage hypertexte ;; Docbook, documentation technique, 1991 à 1997 O'Reilly, 1998 à... OASIS ;; TEI (Text Encoding Initiative), balisage de textes académiques, 1987, 1994, 1999, 2002, Text Encoding Initiative ;; EAD (Encoded Archival Description), description archivistique, 1993, 2002, Bibliothèque du Congrès ;; NITF (News Interchange Text Format), échange d'articles de presse, 2000, 2002, IPTC ;; NewsML (News Markup Language), balisage de dépêche de presse, 2000, 2002, IPTC.
+
+Formats de données
+XML s'est imposé comme format de référence pour l'échange de données, notamment de métadonnées. L'exemple d'un transfert d'informations entre base de données relationnelles permettra d'illustrer les avantages et limites de ce format pour cet usage.
+L'exportation d'une table peut se faire au format CSV. Mais ce format comporte vite des limites à grande échelle (Internet). Il n'est pas auto-documenté (encodage du texte, séparateurs, ordre et nom des colonnes). Il demande une documentation externe rarement automatisée entre les partenaires. Que faire lorsque les tables source et destination n'ont pas des structures identiques Pour cette raison, on peut préférer des échanges en SQL (à la fois langage de définition de données, langage de manipulation de données et langage de contrôle de données). Cependant, malgré de nombreux efforts de normalisation, SQL comporte beaucoup de risques d'incompatibilité entre les implémentations. XML est une solution plus robuste. On peut en constater l'efficacité sur Internet avec la syndication de contenu. Il n'y a pas d'exemple connu d'échange de métadonnées réparties sur autant de clients et de serveurs.
+Verbosité - Comparé à l'export CSV d'une table, XML réplique le nom de la colonne pour chaque cellule (une fois pour un attribut, deux fois pour un élément). Le poids du fichier généré est supérieur à celui d'un fichier CSV. Dans des contextes où la bande passante est coûteuse (exemple : téléphonie mobile) cela n'a pas semblé poser de problème (WML) car ces répétitions se compressent très bien (ZIP).
+Traitement lourd - Traiter du XML demande des bibliothèques spécialisées (interpréteur XML). Cela n'ajoute pas vraiment du temps de développement supplémentaire, du moins pour des équipes formées. Pour des petites tâches, un parseur ligne à ligne est parfois plus simple. Mais si la donnée se destine à se complexifier, à s'échanger plus largement, il vaut mieux choisir XML dès le départ.
+XML : données ou document - Cette section est l'occasion de marquer la distinction entre XML données et XML document. Il ne s'agit pas d'une différence dans la syntaxe, mais dans ses usages, ses outils et ses communautés d'utilisateurs. Par SGML, XML vient du document. On lui a reproché par exemple ne pas avoir (nativement) de typage fort. On rencontre un mouvement analogue mais contraire en SQL. C'est originalement un format de données, on lui demande de plus en plus de traiter du texte. (CMS LAMP). En ce qui concerne XML, cette opposition se traduit dans la direction des efforts de spécification (types de données XML Schema, XPath 2.0, XSLT 2.0) avec des réactions du monde documentaire (Relax NG). RDF (Resource Description Framework), réseaux de métadonnées, 1997 à 2006, W3C ;; RSS (Rich Site Summary, RDF Site Summary et Really Simple Syndication), 1999 à... Atom, syndication, 2003, IETF ;; OWL (Web Ontology Language), ontologies, W3C ;; GML (Geography Markup Language), données géographiques, Open Geospatial Consortium ;; Dublin Core, bibliographie ;; MODS (Metadata Object Description Schema), bibliographie, Bibliothèque du Congrès ;; METS (Metadata Encoding and Transmission Standard), échange de collection de fichiers, Bibliothèque du Congrès ;; BiblioML, bibliographie, Bibliothèque nationale de France ;; EbXML (Electronic Business using eXtensible Markup Language), commerce électronique, OASIS ;; XBRL (Extensible Business Reporting Language), données comptables ;; XMI (XML Metadata Interchange), échange de métadonnées.
+
+Langages de description de format de document
+Un processus XML complet comporte une étape de validation des documents. C'est le rôle d'un schéma de définir ces règles de validité. Faut-il que ce schéma soit en XML La question ne se posait pas en SGML, qui connaissait surtout les DTD, une syntaxe texte. Les limites rencontrées alors concernaient surtout la documentation des éléments et attributs déclarés (en). La documentation est très importante pour la réussite d'un standard XML. Celles de Docbook ou TEI constituent des livres complets, avec même des versions imprimées.
+Ces communautés ont attendu avec impatience ce que donnerait XML Schema. Les nombreux outils de documentation automatiques qui sont apparus, avec un simple jeu d'XSLT, prouvent l'intérêt d'XML comme langage de description de format de document. Cependant, pour des choses simples, XML Schema s'est avéré difficile. Est-ce l'effet de trop de concessions Toujours est-il que malgré le nombre d'éditeurs derrière le W3C, la communauté est très intéressée par Relax NG, de James Clark. Ce modèle accepte une syntaxe XML, et depuis 2003, propose aussi une forme compacte, textuelle, qui n'est pas XML.
+Autrement dit, il n'y a plus de réponse unique. Un schéma XML peut se définir dans un vocabulaire XML, ou autrement. L'évolution actuelle est de pouvoir combiner plusieurs langages de schémas, notamment le typage fort d'XML Schema, avec des motifs XPath pour Schematron, dans du Relax NG. DTD (Document Type Definition), description du modèle de document XML, ISO ;; XML Schema, langage de schéma XML, 2001, W3C ;; Relax NG (Regular Language for XML Next Generation), DSDL acceptant une forme XML et une syntaxe compacte, 2001, ISO ;; Schematron, validation par motifs, 2001, ISO ;; LOM (Learning Object Metadata), scorm 2004 spécifie que son fichier xml manifest doit être compatible avec le modèle de donnée SCORM LOM et le schéma XML.
+
+Langages de représentation
+Organisation d'un document au format OpenDocument : content.xml (contenu), styles.xml (apparence), meta.xml (à propos du document)
+On vante souvent XML pour sa faculté de séparer contenu, présentation et traitement. Attention, XML rend cette séparation possible, mais il n'interdit pas de tout mélanger, comme dans certaines pages XHTML sur Internet. En tous cas, ce format extensible a prouvé qu'il pouvait conserver la présentation des documents pour les applications les plus exigeantes. La variété des applications l'utilisant en est la preuve. MathML, formules mathématiques, 1999, 2001, 2003, W3C;; Office Open XML, documents bureautiques, Microsoft Office versions 2007 et 2008 ;; OpenDocument, documents bureautiques ;; SVG (Scalable Vector Graphics), graphiques vectoriels 2D, 2003, W3C ;; SMIL (Synchronized Multimedia Integration Language), intégration multimédia, 1998, 2005, W3C ;; XSL-FO (eXtensible Stylesheet Language - Formatting Objects), langage extensible de feuille de style-formatage d'objets, 2001, W3C ;; X3D, 3D multimédia, consortium Web3D.
+
+Langages de programmation
+Dans de nombreuses applications, il est parfois pratique de développer un langage spécialisé, à usage local. Avec un schéma, un dialecte XML dispose d'une grammaire (un peu comme BNF). En guise de compilateur, il suffit par exemple d'une transformation XSLT qui génère du code Java, comme pour une bibliothèque de balises (taglibs). Cet exemple montre comment la syntaxe XML permet de définir des langages de programmation.
+En théorie, la structure en arbre d'XML permet de représenter la hiérarchie d'un programme objets, ou l'imbrication des instructions d'un langage impératif. En pratique, les boucles sont le cas limite à partir duquel XML devient trop verbeux. Par contre, cette écriture est remarquablement adaptée aux syntaxes déclaratives (configuration, définition d'interface), et même, popularise les algorithmes fonctionnels (XSLT, logique d'une application web).
+Il en résulte que l'on trouve de plus en plus d'XML dans les logiciels. Dans certains frameworks de développement web, il est possible de monter une application complète et complexe, en n'éditant que du XML : XSLT (Extended Stylesheet Language Transformations), transformation de document XML, 1999, W3C ;; XQuery, requête et transformation XML, 2005, W3C ;; ANT, scripts de compilation, ASF ;; Servlet, serveur d'application Java, configuration et logique fonctionnelle, Sun Microsystems ;; Log4j, configuration d'une bibliothèque d'historique, 1996, 1999-2006, ASF ;; UIML (User Interface Markup Language), définition d'interface utilisateur graphique, 1997, OASIS ;; XUL (XML-based User interface Language), définition d'interface, 2000, Mozilla ;; XAML, définition d'interface, 2006, Windows Vista ;; MXML, Flex, définition d'interface, Macromedia ;; Apache XSP (eXtensible Server Pages), génération de documents XML côté serveur.
+
+Protocoles d'échanges
+Un protocole spécifie l'échange de contenus et d'instructions, entre un client et un serveur. HTTP est un modèle de protocole (qui n'est pas XML mais textuel). XML permet de baliser des contenus et d'écrire des instructions de programmation. L'universalisation de la connexion HTTP comme des interpréter XML explique pourquoi XML devient une solution courante pour créer un nouveau protocole. XForms, formulaires web, W3C ;; OAI (Open Archive Initiative), protocole d'archives ouvertes, 2000, 2002, OAI ;; SOAP, RPC par HTTP, W3C ;; WSDL, services web, W3C ;; WebDAV, lecture-écriture distante par HTTP, IETF ;; XMPP (Extensible Messaging and Presence Protocol), messagerie instantanée et présence, multimédia, IETF.
+
+Langages associés
+Les langages associés à XML sont des syntaxes qui ne sont pas en XML mais très attachées à XML. CSS illustrera bien la notion. Il peut être contenu dans un attribut (@xhtml:style), dans un élément (xhtml:style), ou relié à un document XML par une instruction de traitement (xml-stylesheet href-"common.css" type-"text-css"). XPath fournit un autre exemple de spécification entièrement destinée à XML, mais qui est justement sans éléments ou attributs, afin d'être associé à un langage XML (XSLT). CSS (Cascading Style Sheets) ;; DTD (Document Type Definition) ;; Espace de noms (Namespace) ;; SGML ;; XPath et XQuery, langages de requête. XQuery possède aussi une syntaxe XML, XQueryX.
+
+Outils et processus
+XML a prouvé qu'il était une syntaxe très générique de balisage, propre à de nombreux usages. Cette réussite s'explique par des implémentations concurrentes de nombreuses interfaces de programmation (API) précisément spécifiées. Un processus XML est essentiellement une chaîne de transmission de l'information. Pour l'édition XML de document, on peut isoler les étapes suivantes, presque canoniques : 1) Production - un document XML peut être produit par un humain ou résulter d'un export d'une source de données dans un autre format.; 2) Analyse - un parser lit le fichier XML pour construire un objet informatique, et vérifie que le document est bien formé.; 3) Inclusion - dans certains contextes, il est possible d'inclure des fichiers qui deviendront des noeuds.; 4) Validation - le document peut ensuite être validé, pour vérifier que sa structure est conforme à son schéma.; 5) Transformation - le document peut être enfin transformé dans un autre format, par exemple à destination d'un navigateur, un traitement de textes, ou un tableur.
+Cette succession canonique d'étapes illustre ce que peut être le tuyau (pipe) d'un processus XML standard.
+
+Production
+Une organisation qui a déjà son système d'informations, non basé sur XML, peut se demander comment produire du XML. Il existe de nombreuses manières de produire du XML : le traitement de texte - la plupart des logiciels bureautiques proposent un export XML, quand ils ne sont pas nativement XML (LibreOffice, Apache OpenOffice, Microsoft Word). Le plus simple est parfois d'enregistrer en HTML, récupérable moyennant un petit traitement. Il suffit de regarder les formats disponibles avec la fonctionnalité Enregistrer sous de son logiciel habituel ;; le SQL - la plupart des SGBD proposent un export XML ;; un éditeur XML est le meilleur moyen de faire produire par un humain un document correspondant exactement au schéma attendu.
+
+Analyse
+Pour entrer dans un processus, un document XML doit rentrer dans un interpréteur dédié. Les parsers les plus répandus sont : libxml2, l'interpréter XML libre du système d'exploitation linux, accessible en C, Python, PHP et en Ruby ;; Xerces, XML Java Parser, le parseur XML par défaut d'une machine virtuelle Java, accessible en Java ;; Expat, le parseur XML de James Clark, notamment embarqué par le navigateur Mozilla Firefox) ;; MSXML (Microsoft Core XML Services), le parseur XML Microsoft, 2000-2006, intégré au système d'exploitation Windows, accessible aux langages Microsoft, notamment en JavaScript sur le navigateur Internet Explorer.
+Il en existe beaucoup d'autres, en particulier en Java, adaptés à différents cas particuliers : ouvrir une API plus simple, accepter des documents mal formés comme HTML, traitements plus simples (notamment pour les documents longs).
+Une fois "xmlisé", un document est accessible à différents langages, selon des API standardisées. On distingue généralement l'approche en mémoire, comme le DOM, et l'approche en flux (génération d'événements), comme SAX. DOM, Document Object Model, constitue un objet en mémoire de la totalité d'un document XML. Cette API permet l'accès direct à tous les noeuds de l'arbre (éléments, texte, attributs), pour les lire, ou les modifier. Il est par exemple très utilisé sur les navigateurs web avec JavaScript. Cette norme est écrite par le W3C.; SAX, Simple API for XML, est une alternative intéressante à DOM pour le traitement de documents longs. Quand un document entre dans un interpréteur XML, du code SAX peut capturer des événements, comme l'ouverture et la fermeture d'une balise, afin par exemple, d'écrire dans une base de données. À l'inverse, il est possible de générer des événements SAX, par exemple à partir de la lecture d'une base de données, afin de produire un document consommé par une autre étape d'un processus XML.
+D'autres API existent, comme JDOM, dom4J (Java), ou StAX.
+
+Inclusion
+Un document XML peut être constitué de plusieurs fichiers, qui sont rassemblés au moment de l'analyse ci-dessus. Il y a deux normes actuellement concurrentes : les entités externes, issues de SGML, résolues a priori par un parseur validant, avant tout traitement du document ;; xinclude, un élément XML spécial, pouvant être traité comme une étape séparée.
+Les spécifications et les implémentations privilégient maintenant xinclude, bien que son adoption ait pu être discutée.
+Considérons l'exemple d'un catalogue de produits pour voir les effets de l'un et de l'autre. On aura chaque produit sous la forme d'un document XML, et un document maître qui assemble toutes les références. En entités, cela s'explique ainsi.
+!DOCTYPE catalogue (
+ !ENTITY article001 SYSTEM "articles-article001.xml"
+ !ENTITY article002 SYSTEM "articles-article002.xml"
+)
+!-- Un exemple d'inclusion par résolution d'entité externe --
+catalogue xmlns-"http:--exemple.net-ns"
+ titrecatalogue-titre
+ article001;
+ article002;
+-catalogue
+On remarquera que les entités sont déclarées en entête de document, puis appelées par une écriture du type entité;. Cette syntaxe est initialement prévue pour des raccourcis, afin de factoriser l'écriture de variables comme un nom de produit ou une société. Ce mécanisme a été étendu pour résoudre les problèmes d'encodage en ASCII avant l'Unicode. Ce sont les entités caractère comme eacute; - E9; - é. Pour le cas d'une inclusion d'un fichier, cela demande deux déclarations, celle du lien, celle de son appel.
+La résolution a priori des inclusions peut avoir des inconvénients, en particulier pour des documents maître très lourds que l'on peut vouloir travailler sans leur dépendances. Xinclude permet cela, ainsi que de générer ces relations automatiquement (XSLT).
+!-- Un exemple d'inclusion par xinclude --
+catalogue
+ xmlns-"http:--exemple.net-ns"
+ xmlns:xi-"http:--www.w3.org-2001-XInclude"
+
+ titrecatalogue-titre
+ xi:include href-"articles-article001.xml"-
+-catalogue
+XML peut se présenter sous d'autres formes qu'un fichier, par exemple à l'intérieur d'une base XML native. La nature purement arborescente du format permet potentiellement de constituer des structures très importantes, non pas seulement chaînées comme un tableau très long, mais articulées, avec branches et sous-branches.
+
+Validation
+La validation est l'opération automatique qui vérifie la conformité d'un document XML à son schéma. Elle a pour but de délivrer des messages comme il n'y a pas de titre au chapitre 5, ou bien, la date de fabrication est dans le futur. La précision et la convivialité de cette vérification dépendent de la syntaxe utilisée.
+En SGML, la validation s'effectuait toujours avant l'entrée d'un document XML dans un processus. On parlait de parser validant. Il n'y avait alors qu'un seul langage de validation (les DTDs) déclarés d'une seule manière à l'intérieur du document XML (la déclaration DOCTYPE, Type de document). La pratique a montré que la validation n'est pas toujours nécessaire, et même, contre performante. Dans d'autres cas, plusieurs étapes de validation peuvent être utiles, par exemple, une pour vérifier la structure de l'arbre XML, une autre pour vérifier les liens. L'évolution va vers une étape de validation distincte, déclarée à l'extérieur du document, et gérée selon les besoins du logiciel.
+Le déploiement actuel des librairies rend la validation XML nativement accessible à la plupart des systèmes, et dans la plupart des langages de programmation : libxml2, validation DTD et Relax NG (le support XML Schema est partiel, surtout pour le typage de données au sein de Relax NG) ;; Jing, un validateur qui n'est pas un parseur pour Relax NG et Schematron ;; MSXML (Microsoft Core XML Services), validation DTD et XML Schema ;; Xerces, validation DTD et XML Schema ;; XSLT, une transformation permettant une validation très précise sur un type de document, c'est couramment utilisé dans une application web pour rendre à l'utilisateur des messages plus conviviaux, cet outil suffit aussi pour utiliser une implémentation Schematron.
+
+Transformation
+La transformation est l'étape d'un processus XML qui prend un document dans un certain schéma pour le transposer dans un autre espace de noms. Soit un document textuel qui ne comporte que du contenu. Il sera nécessaire de lui ajouter au moins de la navigation avant de le diffuser sur Internet ; on en voudra aussi une version imprimée (PDF). La facilité de transformer un document XML, notamment avec XSLT, est une raison importante pour choisir ce format.
+
+Conclusion
+En 2001, on demandait à James Clark, un expert XML et SGML : What's the next step for XML "Quelle est l'étape suivante pour XML" Il répondit d'abord que cela revenait à demander quelle est l'étape suivante pour le texte ou pour les fichiers à lignes délimitées. Selon lui, à peine 3 ans après, la nouveauté ne viendrait plus du format, mais des applications. En effet en 2015, on ne constate aucun changement de fond dans la spécification XML. C'est devenu un format aussi universel qu'Unicode, comme un espéranto de l'informatique pour structurer des contenus.
+XML permet en effet de représenter beaucoup de structures différentes, il a par exemple contribué à généraliser et normaliser les structures en arbre, si bien qu'elles sont considérées aussi informatisables que les tables (SQL). Toutefois, les balises n'ont pas effacé toutes les syntaxes textuelles. On a par exemple vu se généraliser JSON, qui permet la représentation et l'échange de données hiérarchiques, comme des objets (au sens informatique). La vogue de JSON, qui n'en doutons pas restera longtemps, permet de mieux définir les spécificités de XML. JSON sépare strictement la structure arborescente, et les données contenues dans des feuilles. Ce modèle représente difficilement le texte riche, où par exemple un nom de personne indexé apparaît en plein milieu d'une phrase. JSON ne propose pas de syntaxe standardisée pour la validation et la documentation, ce sont souvent des structures adhoc. La force de XML, qui n'est pas la plus sollicitée hors de l'informatique du document, est dans la validation, ce qui contribue à standardiser des types de documents à grande échelle, ne serait-ce que le Web et HTML.
+
+Voir aussi
+
+Articles connexes
+Autres technologies et théories intéressant XML : Langages de balisage; SGML; Identificateur de fragment; Norme ISO-IEC 8859; Norme ISO-IEC 10646; CSS; XLink; OpenDocument, format pour les documents bureautiques basé sur XML; XML Configuration Access Protocol; MusicXML.

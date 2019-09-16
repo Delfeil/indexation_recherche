@@ -1,0 +1,57 @@
+Le grec ancien est l'étape historique de la langue grecque qui s'étend du IXe au IVe siècle av. J.-C.
+
+Dialectes
+À l'origine, il existait une grande variété de dialectes, regroupés en quatre groupes : arcadochypriote, occidental, éolien et ionien-attique. Parler du grec ancien n'a pas grand sens lorsqu'on veut se référer à un des idiomes antiques : dans les faits, cependant, le grec ancien désigne l'attique (dialecte du groupe ionien-attique), langue de l'Athènes antique. C'est en effet la langue dans laquelle est écrite la majorité de la littérature grecque classique. Pendant la période hellénistique et le brassage des populations hellénophones en résultant, la koinè, langue commune (c'est le sens de l'adjectif -koinós) issue de plusieurs dialectes du groupe ionien-attique, s'est progressivement imposée au détriment des dialectes, devenant ainsi la lingua franca de l'Antiquité, en concurrence avec le latin.
+La koinè est ensuite devenue langue officielle de l'Empire romain d'Orient avant de continuer d'évoluer pour donner naissance au grec moderne d'aujourd'hui.
+
+Écritures
+La première forme d'écriture attestée pour noter un dialecte grec est le linéaire B, un syllabaire sans rapport avec l'alphabet grec, servant à transcrire le mycénien, forme archaïque d'un dialecte arcadochypriote utilisée en Grèce continentale et en Crète entre environ 1550 et 1200 av. J.-C. Entre 800 et 200 av. J.-C., une écriture proche, le syllabaire chypriote, a été utilisée à Chypre pour transcrire le grec et l'étéochypriote (une langue non indo-européenne partiellement déchiffrée, peut-être apparentée au lemnien et à l'étrusque).
+Des écritures plus anciennes ont existé en Grèce, mais n'ont vraisemblablement pas servi à noter du grec : le linéaire A (entre 1800 et 1450 av. J.-C., en Crète et dans des îles Égéennes) ;; le crétois hiéroglyphique (entre 1750 et 1600 av.J.-C. en Crète) ;; le disque de Phaistos (datation discutée) comporte une écriture sans autre exemple ;; le syllabaire chypro-minoen, quelquefois appelé linéaire C, (entre 1500 et 1200 av. J.-C., à Chypre), peut-être dérivé du linéaire A et vraisemblablement à l'origine du syllabaire chypriote plus tardif. Il servait probablement à noter une forme primitive d'étéochypriote.
+Toutes ces écritures étaient vraisemblablement de nature syllabique.
+C'est ensuite l'alphabet grec, hérité des Phéniciens et de leur alphabet, qui a été utilisé sous différentes versions (dites épichoriques) à partir du IXe siècle av. J.-C. ou du VIIIe siècle av. J.-C. puis a été normalisé et imposé au reste du monde hellénophone par Athènes en 403 av. J.-C. En ajoutant des voyelles à cet abjad sémitique, les Grecs sont les inventeurs des alphabets occidentaux. En effet, emprunté par les Étrusques (cf. Alphabet étrusque), qui l'ont transmis aux Romains, il a donné naissance à l'alphabet latin mais aussi, sans passer par les Étrusques, à l'alphabet gotique, à l'alphabet cyrillique, à l'alphabet copte, etc.
+L'histoire de l'alphabet grec constitue un article séparé.
+
+Phonologie
+Le grec ancien est une langue à accent de hauteur possédant deux (ou trois, selon les interprétations) intonations : aiguë et circonflexe. Il se caractérise aussi par un système de consonnes aspirées et par un jeu d'oppositions de quantités vocaliques. Il existe plusieurs règles de sandhi, tant internes qu'externes.
+En passant de l'indo-européen commun au grec ancien, la langue a subi de nombreuses modifications phonétiques dont les plus flagrantes sont décrites par la loi de Grassmann, la loi d'Osthoff et la loi de Rix. On note d'autre part qu'il permet de restituer dans de nombreux cas la coloration des laryngales indo-européennes. Enfin, c'est une langue centum.
+
+Grammaire
+
+Morphologie
+Comme d'autres langues indo-européennes anciennes, le grec est hautement flexionnel. Outre l'utilisation de désinences, le grec se caractérise par des procédés hérités de l'indo-européen commun comme l'alternance vocalique et l'utilisation du redoublement.
+
+Système nominal
+Les noms possèdent cinq cas (nominatif, vocatif, accusatif, génitif et datif), trois genres (masculin, féminin et neutre, parfois réduits à une opposition animé-inanimé) et trois nombres (singulier, duel, pluriel et collectif pour les neutres). Le grec moderne n'utilise plus le datif, excepté dans quelques expressions comme en taxei, mais les autres cas sont généralement conservés.
+On compte trois grands types de déclinaisons, tant pour les noms que les adjectifs (type en - - -, type thématique en - et type athématique), lesquels possèdent plusieurs sous-types. Les pronoms suivent un système qui leur est propre et qui, ayant influencé les types nominaux, n'en sont pas très éloignés.
+
+Système verbal
+Les verbes ont trois voix (active, moyenne et passive), trois personnes et trois nombres. Il se conjugue selon six modes : quatre personnels (indicatif, impératif, subjonctif et optatif) et deux impersonnels (infinitif et participe). Il existe sept temps (présent, imparfait, aoriste, futur simple, parfait, plus-que-parfait, et futur antérieur, ces deux derniers étant rarement usés), qui n'existent toutefois pas à tous les modes.
+Outre le temps, le verbe exprime surtout trois aspects (imperfectif, perfectif et statique) et, comme toutes les langues, plusieurs modes de procès (inchoatif, itératif, fréquentatif, etc.). Seul l'indicatif marque toujours le temps ; aux autres modes, c'est l'aspect qui est généralement indiqué.
+Il existe deux grandes catégories de conjugaisons : les thématiques (ou verbes en -) et les athématiques (dits verbes en -): les verbes thématiques se caractérisent par la présence d'une voyelle avant la désinence, absente dans les verbes athématiques. Ces catégories se divisent en un grand nombre de sous-catégories. Le système verbal est très complexe car la flexion met en oeuvre de nombreux procédés comme l'alternance vocalique, la suffixation par le jeu de désinences, l'utilisation d'une voyelle thématique, celle de l'augment et du redoublement. À tous ces procédés s'ajoutent des modifications phonétiques importantes au sein d'un même paradigme.
+En sorte, il n'est pas exagéré de dire qu'il existe plus de verbes irréguliers que de verbes réguliers, si du moins on s'en tient à la définition de verbe irrégulier ayant cours dans la grammaire française.
+
+Syntaxe
+Tout ceci est donné à titre indicatif, car comme toute langue flexionnelle, le grec ancien s'accorde une grande liberté dans la place des groupes.
+Pour les verbes, le grec met souvent le verbe en fin de proposition, qu'elle soit principale ou subordonnée, mais bien moins systématiquement que le latin. Il existe une exception pour les impératifs et les verbes à tournure impersonnelle (comme le verbe "être" : "il-elle est", traduisible par "il y a" qui sont généralement en tête de proposition.
+Règle du génitif enclavé : le génitif se place sous l'article, soit entre l'article et le mot désignant le possesseur, soit après répétition de l'article. Dans le groupe nominal "le fils du citoyen" on écrira en grec : littéralement "le du citoyen fils" ; mais il est également possible de positionner le génitif après répétition de l'article, par exemple : "le fils le du citoyen". L'adjectif quant à lui, se place généralement soit entre l'article et le nom (: la petite fleur), ou bien après le nom avec une répétition de l'article (, littéralement "la fleur la petite").
+Pour les particularités de la négation en grec ancien : voir Négation (linguistique).
+Le grec ancien se caractérise également par le maintien d'une règle de l'indo-européen commun, qui stipule qu'un verbe dont le sujet est un nom neutre pluriel ne se conjugue pas au pluriel mais au singulier. Voir l'article consacré à la règle dite " ".
+
+Influence du grec ancien sur les langues modernes
+Les neuf premiers vers de l'Odyssée d'Homère.
+Mots savants et radicaux grecs
+Un grand nombre de mots en latin, français et anglais, pour ne citer que ceux-là, sont d'origine grecque, et la majorité des néologismes savants utilisés de par le monde est bâtie sur des radicaux grecs (souvent mêlés de radicaux latins). Seules quelques langues européennes, comme l'islandais, de manière systématique, et, dans une moindre mesure, l'allemand, le turc, le tchèque et le croate, n'utilisent pas ces radicaux mais traduisent par calque les termes savants grecs au moyen de radicaux qui leur sont propres.
+
+Mots courants
+Des mots comme "boutique", "caractère" ou "beurre" viendraient aussi du grec ancien. Passés par le latin et hérités comme tel dans la langue française (via d'autres langues, comme l'occitan), ils ont subi les mêmes modifications phonétiques que les autres mots hérités et sont maintenant très éloignés de leur étymon grec puisqu'il faut reconnaître derrière chacun d'entre eux : -apothếkê, -kharaktếr et -boútyron.
+
+Le dédale synchrone du cosmos politique
+Voici, pour illustrer l'omniprésence du grec dans les langues occidentales, un texte de Xenophón Zolótas dans lequel chaque mot (hormis les mots-outils) est d'origine grecque : Kyrié, sans apostropher ma rhétorique dans l'emphase et la pléthore, j'analyserai elliptiquement, sans nul gallicisme, le dédale synchrone du cosmos politique caractérisé par des syndromes de crise paralysant l'organisation systématique de notre économie. Nous sommes périodiquement sceptiques et neurasthéniques devant ces paroxysmes périphrastiques, cette boulimie des démagogues, ces hyperboles, ces paradoxes hypocrites et cyniques qui symbolisent une démocratie anachronique et chaotique. Les phénomènes fantastiques qu'on nous prophétise pour l'époque astronomique détrôneront les programmes rachitiques, hybrides et sporadiques de notre cycle atomique. Seule une panacée authentique et draconienne métamorphosera cette agonie prodrome de l'apocalypse et une genèse homologue du Phénix. Les économistes technocrates seront les stratèges d'un théâtre polémique et dynamique et non les prosélytes du marasme. Autochtones helléniques, dans une apologie cathartique, psalmodions les théorèmes de la démocratie thésaurisante et héroïque, soyons allergiques aux parasites allogènes dont les sophismes trop hyalins n'ont qu'une pseudodialectique. En épilogue à ces agapes, mon amphore à l'apogée, je prophétise toute euphorie et apothéose à Monsieur Giscard d'Estaing, prototype enthousiasmant de la néo-orthodoxie économique et symbole de la palingénésie de son ethnie gallique.
+Le grec ancien en France
+En France, l'enseignement du grec ancien est proposé dans quelques collèges et lycées. Les élèves peuvent le débuter dès la troisième ou la seconde et le passer en option pour le baccalauréat. Il s'apprend aussi dans l'enseignement supérieur pour que les universitaires puissent avoir accès aux textes originaux et en établir des éditions scientifiques.
+
+Le grec ancien en Suisse
+Le grec ancien est une option spécifique dans les établissements d'enseignements secondaires préparant à la maturité gymnasiale en Suisse, et peut être choisi comme sujet d'examen pour ce diplôme.
+
+Le grec ancien au Québec
+Au Québec, le grec ancien est toujours enseigné à l'Université Laval, l'Université de Montréal, l'Université Concordia et l'Université McGill au sein des premier et second cycles selon les universités. Anciennement une matière obligatoire du cours classique aux côtés du latin, son enseignement fut abandonné dans les années 60 après la création des cégeps.

@@ -1,0 +1,186 @@
+En mathématiques, les matrices sont des tableaux de nombres qui servent à interpréter en termes calculatoires et donc opérationnels les résultats théoriques de l'algèbre linéaire et même de l'algèbre bilinéaire. Toutes les disciplines étudiant des phénomènes linéaires utilisent les matrices. Quant aux phénomènes non linéaires, on en donne souvent des approximations linéaires, comme en optique géométrique avec les approximations de Gauss.
+
+Historique
+
+Histoire de la notion de matrice
+Bien que le calcul matriciel proprement dit n'apparaisse qu'au début du XIXe siècle, les matrices, en tant que tableaux de nombres, ont une longue histoire d'applications à la résolution d'équations linéaires. Le texte chinois Les Neuf Chapitres sur l'art mathématique, écrit vers le IIe siècle av. J.-C., est le premier exemple connu de l'utilisation de tableaux pour résoudre des systèmes d'équations, introduisant même le concept de déterminant. En 1545, Girolamo Cardano fait connaître cette méthode en Europe en publiant son Ars Magna. Le mathématicien japonais Seki Kōwa utilise indépendamment les mêmes techniques pour résoudre des systèmes d'équations en 1683. Aux Pays-Bas, Johan de Witt représente des transformations géométriques à l'aide de tableaux dans son livre de 1659, Elementa curvarum linearum. Entre 1700 et 1710, Leibniz montre comment utiliser les tableaux pour noter des données ou des solutions, et expérimente plus de 50 systèmes de tableaux à cet effet. En 1750, Gabriel Cramer publie la règle qui porte son nom.
+En 1850, le terme de "matrix" (qui sera traduit par matrice) est forgé (sur la racine latine mater) par James Joseph Sylvester, qui le voit comme un objet donnant naissance à la famille de déterminants actuellement appelés mineurs, c'est-à-dire les déterminants des sous-matrices obtenues en retirant des lignes et des colonnes. Dans un article de 1851, Sylvester précise : "Dans des articles antérieurs, j'ai appelé matrix un tableau rectangulaire de termes à partir desquels plusieurs systèmes de déterminants peuvent être engendrés, comme issus des entrailles d'un parent commun".
+En 1854, Arthur Cayley publie un traité sur les transformations géométriques utilisant les matrices de façon beaucoup plus générale que tout ce qui a été fait avant lui. Il définit les opérations usuelles du calcul matriciel (addition, multiplication et division) et montre les propriétés d'associativité et de distributivité de la multiplication. Jusque là, l'utilisation des matrices s'était essentiellement limité au calcul des déterminants ; cette approche abstraite des opérations sur les matrices est révolutionnaire. En 1858, Cayley publie son A Memoir on the Theory of Matrices, dans lequel il énonce et démontre le théorème de Cayley-Hamilton pour les matrices 22.
+Beaucoup de théorèmes ne sont d'ailleurs démontrés au début que pour de petites matrices : après Cauchy, Hamilton généralise le théorème aux matrices 44, et ce n'est qu'en 1898 que Frobenius, étudiant les formes bilinéaires, démontre le théorème en dimension quelconque. C'est aussi à la fin du XIXe siècle que Wilhelm Jordan établit la méthode d'élimination de Gauss-Jordan (généralisant la méthode de Gauss pour les matrices échelonnées). Au début du XXe siècle, les matrices occupent une place centrale en algèbre linéaire, en partie grâce au rôle qu'elles jouent dans la classification des systèmes de nombres hypercomplexes du siècle précédent.
+Un mathématicien anglais du nom de Cullis est le premier, en 1913, à utiliser la notation moderne des crochets (ou des parenthèses) pour représenter les matrices, ainsi que de la notation systématique A - (ai,j) pour représenter la matrice dont ai,j est le terme de la i-ème ligne et de la j-ème colonne.
+La formulation de la mécanique quantique au moyen de la mécanique matricielle, due à Heisenberg, Born et Jordan, amena à étudier des matrices comportant un nombre infini de lignes et de colonnes. Par la suite, von Neumann précisa les fondements mathématiques de la mécanique quantique, en remplaçant ces matrices par des opérateurs linéaires sur des espaces de Hilbert.
+
+Histoire des déterminants
+L'étude théorique des déterminants vient de plusieurs sources. Des problèmes de théorie des nombres amènent Gauss à relier à des matrices (ou plus précisément à leur déterminant) les coefficients d'une forme quadratique ainsi que les applications linéaires en dimension trois. Gotthold Eisenstein développe ces notions, remarquant en particulier qu'en notation moderne, le produit des matrices est non-commutatif. Cauchy est le premier à démontrer des résultats généraux sur les déterminants, en utilisant comme définition du déterminant de la matrice A - (ai,j) le résultat de la substitution, dans le polynôme a 1 a 2... a n i j (a j a i) (-displaystyle a-(1)a-(2)-cdots a-(n)-prod -(ij)(a-(j)-a-(i))-;), des puissances aj par ajk. Il montre aussi, en 1829, que les valeurs propres d'une matrice symétrique sont réelles. Jacobi étudie les "déterminants fonctionnels" (appelés par la suite jacobiens par Sylvester), utilisés pour décrire des transformations géométriques d'un point de vue infinitésimal ; les livres Vorlesungen über die Theorie der Determinanten de Leopold Kronecker et Zur Determinantentheorie de Karl Weierstrass, tous deux publiés en 1903, définissent pour la première fois les déterminants de manière axiomatique comme formes multilinéaires alternées.
+
+Autres utilisations mathématiques du mot "matrice"
+Deux mathématiciens notables au moins ont utilisé le mot dans un sens inhabituel.
+Bertrand Russell et Alfred North Whitehead, dans leur Principia Mathematica, utilisent le mot "matrice" dans le cadre de leur axiome de réductibilité (en). Cet axiome permet de réduire le type d'une fonction, les fonctions de type 0 étant identiques à leur extension (en) ; ils appellent "matrice" une fonction n'ayant que des variables libres. Ainsi, par exemple, une fonction (x, y) de deux variables x et y peut être réduite à une collection de fonctions d'une seule variable, par exemple y, en"considérant la fonction pour toutes les valeurs ai substituées à la variable x puis réduite à une "matrice" de valeurs en procédant de même pour y : bjai: (ai, bj).
+Alfred Tarski, dans son Introduction à la logique de 1946, utilise le mot "matrice" comme un synonyme de table de vérité.
+
+Définitions
+Une matrice à m lignes et n colonnes est un tableau rectangulaire de m n nombres, rangés ligne par ligne. Il y a m lignes, et dans chaque ligne n nombres.
+Plus formellement et plus généralement, soient I, J et K trois ensembles (K sera souvent muni d'une structure d'anneau ou même de corps commutatif).
+On appelle matrice de type (I, J) à coefficients dans K, toute famille d'éléments de K indexée par le produit cartésien I J, c'est-à-dire toute application A de I J dans K.
+Le plus souvent, comme dans toute la suite de cet article, les ensembles I et J sont finis et sont respectivement les ensembles de nombres entiers (1,.., m) et (1,.., n). Dans ce cas, on dit que la matrice a m lignes et n colonnes, ou qu'elle est de dimension ou taille (m, n). En notant ai,j l'image d'un couple (i, j) par l'application A, la matrice peut alors être notée
+ou plus simplement (ai,j) si le contexte s'y prête.
+On représente généralement une matrice sous la forme d'un tableau rectangulaire. Par exemple, est représentée ci-dessous une matrice A, à coefficients entiers, et de dimension (3,4) :
+Dans cette représentation, le premier coefficient de la dimension est le nombre de lignes, et le deuxième, le nombre de colonnes du tableau. Une matrice pour laquelle le nombre m de lignes est égal au nombre n de colonnes sera dite matrice carrée de taille (ou d'ordre) n. Une matrice ne comportant qu'une seule ligne et n colonnes est appelée matrice ligne de taille n. Une matrice comportant m lignes et une seule colonne est appelée matrice colonne de taille m.
+Pour repérer un coefficient d'une matrice, on indique son indice de ligne puis son indice de colonne, les lignes se comptant du haut vers le bas et les colonnes de la gauche vers la droite. Par exemple, on notera ai,j, les coefficients de la matrice A, i compris entre 1 et 3 désignant le numéro de la ligne sur laquelle figure le coefficient envisagé, et j compris entre 1 et 4 désignant son numéro de colonne ; ainsi a2,4-7.
+La disposition générale des coefficients d'une matrice A de taille (m,n) est donc la suivante
+Les coefficients a i , j (-displaystyle a-(i,j)) avec i - j (-displaystyle i-j) sont dits diagonaux, ceux avec i j (-displaystyle i-neq j) sont dits extradiagonaux.
+Une sous-matrice de A (-displaystyle A) est une matrice obtenue en sélectionnant une partie I (1 ,.. m) (-displaystyle I-subset -(1,-ldots ,m-)) de ses lignes et une partie J (1 ,.. n) (-displaystyle J-subset -(1,-ldots ,n-)) de ses colonnes ; on la note A I , J (-displaystyle A-(I,J)). On dit qu'une sous-matrice est principale si I - J (-displaystyle I-J) dans la définition précédente. La diagonale de A (-displaystyle A) est le vecteur
+où p :- min (m , n) (-displaystyle p:--min(m,n)).
+Pour effectuer certaines opérations, il peut être utile de travailler sur le système des lignes ou des colonnes d'une matrice. On pourra alors l'écrire sous une des formes suivantes
+L'ensemble des matrices à coefficients dans K possédant m lignes et n colonnes est noté M m , n (K) (-displaystyle M-(m,n)(K)) (ou parfois M (m , n , K) (-displaystyle M(m,n,K))).
+Lorsque m - n on note plus simplement M n (K) (-displaystyle M-(n)(K)).
+Soit K un ensemble et A - (a i , j) 1 i m , 1 j n M m , n (K) (-displaystyle A-(a-(i,j))-(1-leq i-leq m,- 1-leq j-leq n)-in M-(m,n)(K)) ; on appelle matrice transposée de A (-displaystyle A) la matrice A T - (a j , i) 1 j n , 1 i m M n , m (K) (-displaystyle A(-mathsf (T))-(a-(j,i))-(1-leq j-leq n,- 1-leq i-leq m)-in M-(n,m)(K)). Si K est un magma, A T - (a j , i) 1 j n , 1 i m M n , m (K o p) (-displaystyle A(-mathsf (T))-(a-(j,i))-(1-leq j-leq n,- 1-leq i-leq m)-in M-(n,m)(K(op))) où K o p (-displaystyle K(op)) est le magma opposé de K.
+Par exemple, avec la matrice A des exemples précédents, on a
+
+Espaces de matrices
+On suppose maintenant que K est muni d'une structure d'anneau ; les éléments de K seront appelés scalaires, par opposition aux matrices dont nous allons voir qu'elles peuvent être considérées comme des vecteurs.
+
+Addition et multiplication par un scalaire
+On définit sur M m , n (K) (-displaystyle M-(m,n)(K)) une loi de composition interne provenant de l'addition des scalaires : (a i , j) + (b i , j) - (c i , j) (-displaystyle (a-(i,j))+(b-(i,j))-(c-(i,j))), où c i , j - a i , j + b i , j (-displaystyle c-(i,j)-a-(i,j)+b-(i,j)).
+On ne peut additionner que deux matrices de même taille. Exemple :. (0 1 2 3 4 5 6 7) + (0 0 1 1 0 1 0 1) - (0 1 3 4 4 6 6 8) (-displaystyle (-begin(array)(l)(-begin(pmatrix)0123--4567---end(pmatrix))+(-begin(pmatrix)0011--0101---end(pmatrix))-(-begin(pmatrix)0134--4668---end(pmatrix))-end(array))).
+Pour chaque valeur du couple (m, n), l'espace M m , n (K) (-displaystyle M-(m,n)(K)) devient alors un groupe abélien, d'élément neutre la matrice nulle, celle dont tous les coefficients valent 0.
+On définit aussi une opération à droite de K sur chaque espace M m , n (K) (-displaystyle M-(m,n)(K)) en associant, à chaque scalaire dans K et à chaque matrice (a i , j) (-displaystyle (a-(i,j))) à coefficients dans K, la matrice (a i , j) - (a i , j) (-displaystyle (a-(i,j))-lambda -(a-(i,j)-lambda)) obtenue en effectuant la multiplication à droite, dans K, de tous les coefficients de la matrice initiale par (-displaystyle -lambda) : c'est la multiplication par un scalaire. Lorsque l'anneau est commutatif, la multiplication peut également s'effectuer à gauche.
+En reprenant toujours la matrice A du premier exemple : 2 A - (0 2 4 6 8 10 12 14 16 18 20 22) (-displaystyle 2A-(-begin(pmatrix)0246--8101214--16182022---end(pmatrix))).
+Les espaces M m , n (K) (-displaystyle M-(m,n)(K)) ainsi obtenus ont donc une structure de K-module à droite, et plus particulièrement de K-espace vectoriel, si K est un corps commutatif.
+
+Base canonique de l'espace des matrices
+Le K-module M m , n (K) (-displaystyle M-(m,n)(K)) est libre de rang mn,, c'est-à-dire qu'il possède une base de mn éléments : il suffit de considérer la base canonique (E i , j) 1 i m , 1 j n (-displaystyle (E-(i,j))-(1-leqslant i-leqslant m,- 1-leqslant j-leqslant n)). La matrice E i , j (-displaystyle E-(i,j)) est celle dont tous les coefficients sont nuls sauf celui d'indice (i , j) (-displaystyle (i,j)), qui vaut 1.
+Les coordonnées dans la base canonique d'une matrice A sont ses coefficients : A - 1 i n 1 j p a i , j E i , j (-displaystyle A--sum -(1-leqslant i-leqslant n -atop 1-leqslant j-leqslant p)a-(i,j)E-(i,j)). Exemple (cas commutatif) :.
+(0 1 2 4 3 1) - 0 (1 0 0 0 0 0) + 1 (0 1 0 0 0 0) + 2 (0 0 1 0 0 0) + 4 (0 0 0 1 0 0) + 3 (0 0 0 0 1 0) + 1 (0 0 0 0 0 1) (-displaystyle (-begin(pmatrix)012--431---end(pmatrix))-0-cdot (-begin(pmatrix)100--000---end(pmatrix))+1-cdot (-begin(pmatrix)010--000---end(pmatrix))+2-cdot (-begin(pmatrix)001--000---end(pmatrix))+4-cdot (-begin(pmatrix)000--100---end(pmatrix))+3-cdot (-begin(pmatrix)000--010---end(pmatrix))+1-cdot (-begin(pmatrix)000--001---end(pmatrix)))
+
+Produit matriciel
+On commence par définir le produit d'une matrice ligne par une matrice colonne. Soit n un nombre entier, L une matrice ligne, xi ses coefficients, C une matrice colonne, yi ses coefficients. On les suppose toutes deux de taille n. On définit alors le produit, considéré comme un scalaire ou une matrice de dimension (1, 1) :
+On remarque la condition de compatibilité sur les tailles des matrices (égalité du nombre de colonnes de la première avec le nombre de lignes de la deuxième). On définit maintenant plus généralement un produit entre deux matrices, la première, (xi,j) dans Mm,n(K), la deuxième, (yi,j) dans Mn,p(K), toujours avec une condition de compatibilité sur les tailles (et l'ordre des facteurs de la multiplication ne peut en général pas être changé). Le résultat obtenu est une matrice de Mm,p(K), dont les coefficients (zi,j) sont obtenus par : z i , j - 1 k n x i , k y k , j - x i , 1 y 1 , j + x i , 2 y 2 , j +... + x i , n y n , j (-displaystyle z-(i,j)--sum -(1-leq k-leq n)x-(i,k)y-(k,j)-x-(i,1)y-(1,j)+x-(i,2)y-(2,j)+-cdots +x-(i,n)y-(n,j)).
+À la lumière de l'exemple de la multiplication d'une matrice ligne par une matrice colonne, on peut reformuler cette définition en disant que ce coefficient est égal au produit de la ligne i de la première matrice par la colonne j de la deuxième, ce qui s'écrit de la manière suivante, si les Li sont les lignes de la première matrice, et les Cj les colonnes de la deuxième, le produit est : (L 1... L m) (C 1... C p) - (L 1 C 1 L 1 C 2... L 1 C p L 2 C 1 L 2 C 2... L 2 C p......... L m C 1 L m C 2... L m C p) (-displaystyle (-begin(pmatrix)L-(1)---vdots --L-(m)-end(pmatrix))(-begin(pmatrix)C-(1)-dots C-(p)-end(pmatrix))-(-begin(pmatrix)L-(1)C-(1)L-(1)C-(2)-dots L-(1)C-(p)--L-(2)C-(1)L-(2)C-(2)-dots L-(2)C-(p)---vdots -vdots -ddots -vdots --L-(m)C-(1)L-(m)C-(2)-dots L-(m)C-(p)---end(pmatrix))).
+Le produit matriciel est associatif, distributif à droite et à gauche par rapport à l'addition matricielle. En revanche, même lorsque les dimensions permettent de donner un sens à la question et même si l'anneau des scalaires est commutatif, un produit de matrices ne commute en général pas : AB n'est pas en général égal à BA, par exemple : A - (0 0 1 0) B - (1 0 0 0) A B - (0 0 1 0) B A - (0 0 0 0). (-displaystyle A-(-begin(pmatrix)00--10-end(pmatrix))-quad B-(-begin(pmatrix)10--00---end(pmatrix))-quad AB-(-begin(pmatrix)00--10---end(pmatrix))-quad BA-(-begin(pmatrix)00--00---end(pmatrix)).).
+Remarque : le produit de deux matrices non nulles peut être nul, comme l'exemple au-dessus.
+Il arrive même, selon les tailles respectives des matrices A et B, que l'un des deux produits existe et pas l'autre.
+La transposition et le produit matriciel sont compatibles au sens suivant : A M n , p (K) , B M p , q (K) , (A B) T - B T A T (-displaystyle -forall A-in M-(n,p)(K),- -forall B-in M-(p,q)(K),- -left(AB-right)(-mathsf (T))-B(-mathsf (T))-cdot A(-mathsf (T))).
+(même si l'anneau K n'est pas commutatif, en se rappelant que les matrices transposées ont leurs coefficients dans l'anneau opposé K).
+
+Matrice identité et inverse d'une matrice
+Pour chaque nombre entier n, on note In la matrice carrée de taille n dont les coefficients diagonaux sont égaux à 1 et dont les autres coefficients sont nuls ; elle est appelée matrice identité de taille n. I 1 - (1) I 2 - (1 0 0 1) I 3 - (1 0 0 0 1 0 0 0 1) I n - (i , j) 1 i n , 1 j n (-displaystyle I-(1)-(-begin(pmatrix)1-end(pmatrix))-quad I-(2)-(-begin(pmatrix)10--01-end(pmatrix))-quad I-(3)-(-begin(pmatrix)100--010--001-end(pmatrix))-quad I-(n)-(-delta -(i,j))-(1-leq i-leq n,1-leq j-leq n)).
+où i,j désigne le symbole de Kronecker.
+Sous réserve de compatibilité des tailles, les matrices In sont neutres à droite et à gauche pour la multiplication. A M m , n (K) , I m A - A I n - A. (-displaystyle -forall A-in M-(m,n)(K),- I-(m)-,A-A-,I-(n)-A.).
+Soit A une matrice de dimension (m, n). On dit que A est inversible à droite (respectivement à gauche) s'il existe une matrice B de taille (n, m) telle que AB - Im (respectivement BA - In). Elle est simplement dite inversible si elle l'est à la fois à droite et à gauche. Le sous-ensemble de Mn(K) constitué des matrices inversibles possède une structure de groupe pour le produit matriciel ; il est appelé groupe linéaire et noté GLn(K).
+Pour une matrice carrée à coefficients dans un anneau commutatif K, être inversible à droite ou à gauche ou avoir un déterminant inversible dans K (c'est-à-dire non nul si K est un corps) sont trois propriétés équivalentes.
+
+Algèbre des matrices carrées
+Lorsque l'anneau K est commutatif, l'ensemble M n (K) (-displaystyle M-(n)(K)) des matrices carrées de taille n est donc muni d'une structure de K-algèbre associative et unitaire avec l'addition matricielle, le produit par un scalaire et le produit matriciel.
+On appelle matrice scalaire une matrice de la forme I n (-displaystyle I-(n)-lambda) où est un élément de l'anneau K. I n a - (a 0... 0 0 a... 0......... 0 0... a) (-displaystyle I-(n)a-(-begin(pmatrix)a0-dots 0--0a-dots 0---vdots -vdots -ddots -vdots --00-dots a-end(pmatrix))).
+Ces matrices s'appellent matrices scalaires car elles se comportent comme des scalaires, vis-à-vis de la multiplication : K , A M n (K) , A (I n) - A. (-displaystyle -forall -lambda -in K,- -forall A-in M-(n)(K),- A(I-(n)-lambda)-A-lambda.).
+Lorsque K est commutatif, ou à défaut, lorsque est central dans K, c'est-à-dire lorsque commute avec tous les éléments de K, on a en outre : K , A M n (K) , (I n) A - A. (-displaystyle -forall -lambda -in K,- -forall A-in M-(n)(K),(-lambda I-(n))- A-A-lambda.).
+Réciproquement, toute matrice B (-displaystyle B) de M n (K) (-displaystyle M-(n)(K)) telle que A M n (K) , A B - B A (-displaystyle -forall A-in M-(n)(K),- AB-BA) est une matrice scalaire I n (-displaystyle I-(n)-lambda) où est central dans K (ceci se démontre en prenant pour A les matrices de la base canonique).
+Une matrice de la forme : (a 1 0... 0 0 a 2... 0......... 0 0... a n) (-displaystyle (-begin(pmatrix)a-(1)0-dots 0--0a-(2)-dots 0---vdots -vdots -ddots -vdots --00-dots a-(n)-end(pmatrix))).
+sera dite matrice diagonale.
+Outre le déterminant, une autre fonction à noter est la trace. Toutes deux apparaissent dans un objet plus général, le polynôme caractéristique, qui à son tour permet d'obtenir certaines caractérisations des matrices diagonalisables (c'est-à-dire semblables à une matrice diagonale), ou de la trigonalisation.
+
+Actions du groupe linéaire
+Il existe plusieurs manières de faire agir le groupe linéaire G L n (K) (-displaystyle GL-(n)(K)) sur les espaces de matrices, notamment : action par multiplication à gauche de G L m (K) (-displaystyle GL-(m)(K)) sur M m , n (K) (-displaystyle M-(m,n)(K)), qui à P et A, associe PA,; action (à droite) par multiplication à droite de G L n (K) (-displaystyle GL-(n)(K)) sur M m , n (K) (-displaystyle M-(m,n)(K)), qui à Q G L n (K) (-displaystyle Q-in GL-(n)(K)) et A M m , n (K) (-displaystyle A-in M-(m,n)(K)), associe A Q 1 (-displaystyle AQ(-1)),; action par conjugaison de G L n (K) (-displaystyle GL-(n)(K)) sur M n (K) (-displaystyle M-(n)(K)), qui à P G L n (K) (-displaystyle P-in GL-(n)(K)) et A M n (K) (-displaystyle A-in M-(n)(K)), associe P A P 1 (-displaystyle PAP(-1)).
+On décrit maintenant les résultats classiques sur ces actions, lorsque les scalaires forment un corps commutatif. Les deux premières actions sont souvent considérées simultanément ; on s'intéresse donc à la question : deux matrices A et B de dimension (m,n) étant données, existe-t-il des matrices P G L m (K) (-displaystyle P-in GL-(m)(K)) et Q G L n (K) (-displaystyle Q-in GL-(n)(K)) telles que A - P B Q 1 (-displaystyle A-PBQ(-1)) Si tel est le cas, les deux matrices A et B sont dites équivalentes. Le résultat principal est que deux matrices sont équivalentes si et seulement si elles ont même rang, ce qui s'exprime encore en disant que le rang est un invariant complet pour les doubles classes définies par les deux actions de multiplication à gauche et à droite. Par ailleurs, une matrice étant donnée, on peut trouver d'autres matrices privilégiées (les matrices échelonnées) dans la même orbite pour une de ces actions par la méthode du pivot de Gauss.
+Pour l'action par conjugaison, deux matrices carrées A et B de taille n dans la même orbite admettent une relation de la forme A - P B P 1 (-displaystyle A-PBP(-1)), pour une certaine matrice P inversible de taille n ; deux telles matrices sont dites semblables. La description d'un système complet d'invariants est plus délicate. On appelle ces invariants les invariants de similitude. D'un point de vue algorithmique, la réduction d'une matrice quelconque à une matrice sous une forme privilégiée se fait par un algorithme inspiré de celui du pivot de Gauss, voir théorème des facteurs invariants.
+
+Interprétations linéaires
+Un intérêt principal des matrices est qu'elles permettent d'écrire commodément les opérations habituelles de l'algèbre linéaire, avec une certaine canonicité.
+
+Coordonnées
+Le premier point est de remarquer que le K-module Kn s'identifie canoniquement à l'espace de matrices colonne M n , 1 (K) (-displaystyle M-(n,1)(K)) : si ei est le n-uplet de Kn dont tous les coefficients sont nuls, sauf le i-ème qui vaut 1, on lui associe la i-ème matrice colonne E i , 1 (-displaystyle E-(i,1)) de la base canonique de M n , 1 (K) (-displaystyle M-(n,1)(K)) (celle dont tous les coefficients sont nuls sauf le i-ème qui vaut 1), et on étend l'identification par linéarité ; la matrice associée à chaque n-uplet sera appelée matrice coordonnée canonique.
+D'autres identifications sont cependant possibles ; lorsqu'on peut parler de base (si l'anneau des scalaires est un corps, par exemple), on peut associer les matrices colonnes élémentaires à n'importe quelle base de l'espace Kn (ou plus généralement d'un K-module libre), puis à nouveau étendre par linéarité ; les matrices associées seront appelées matrices coordonnées dans la base envisagée.
+On peut juxtaposer les matrices coordonnées, dans une base fixée, de plusieurs n-uplets. On obtient ainsi la matrice coordonnée d'une famille de vecteurs. Le rang de la matrice est alors défini comme la dimension de la famille de ces vecteurs. En particulier la matrice d'une base dans une autre base est appelée matrice de passage entre ces deux bases, ou matrice de changement de base. Si X et X' sont les matrices coordonnées du même vecteur dans deux bases B et C, et que P est la matrice de la base C dans la base B, on a la relation (une matrice de passage est toujours inversible) : X - P X ' X ' - P 1 X (-displaystyle X-PX'-quad X'-P(-1)X).
+
+Applications linéaires
+Soient E et F deux espaces vectoriels de dimensions respectives n et m sur un corps commutatif K, B une base de E, C une base de F et une application linéaire de E dans F.
+On appelle matrice de dans le couple de bases (B, C) la matrice matB,C de Mm,n(K) telle que pour tout vecteur x de E, si l'on note y - (x), X - matB(x) et Y - matC(y), alors :
+Si est une deuxième application linéaire, de F dans un troisième espace vectoriel G de base D, alors, relativement aux bases B, C, D, la matrice de la composée est égale au produit des matrices de et. Plus précisément :
+L'application de L(E, F) dans Mm,n(K) qui à chaque associe sa matrice dans (B, C) est un isomorphisme d'espaces vectoriels.
+Pour toute matrice M de Mm,n(K), l'application X MX du K-espace vectoriel Mn,1(K) dans le K-espace vectoriel Mm,1(K) est linéaire. C'est un point clef du lien entre algèbre linéaire et matrices. En conséquence, il arrive souvent que l'on identifie la matrice M avec cette application linéaire. On parlera alors de noyau de la matrice, d'espaces propres de la matrice, d'image de la matrice, etc.
+Si B et B' sont deux bases de E, C et C' deux bases de F, P - matB(B') la matrice de passage de B vers B' et Q la matrice de passage de C vers C', alors les deux matrices M et M' d'une même application linéaire de E dans F, dans les couples de bases (B, C) et (B', C'), sont liées par : M' - QMP. On constate ainsi que deux matrices équivalentes sont deux matrices qui représentent la même application linéaire dans des bases différentes. En particulier, dans le cas d'un endomorphisme, si l'on impose B - C et B' - C', la formule précédente devient : M' - PMP et deux matrices semblables sont deux matrices qui représentent le même endomorphisme dans des bases différentes.
+
+Transposition
+Soient de nouveau E et F deux K-espaces vectoriels de dimensions finies, de bases respectives B et C, et une application linéaire de E dans F. L'application linéaire transposée : F- E- entre leurs duals est définie par
+Sa matrice dans le couple de bases duales (C-, B-) est liée à celle de dans (B, C) par :
+
+Remarque
+Lorsque l'anneau n'est pas commutatif, si l'on représente les vecteurs par des matrices colonne, l'algèbre linéaire n'est compatible avec le calcul matriciel que si les modules ou espaces vectoriels considérés sont à droite, comme dans les articles détaillés signalés ci-dessus, une application linéaire correspondant à la multiplication à gauche d'un vecteur colonne par la matrice qui la représente. Si l'on tient à avoir des modules ou espaces vectoriels à gauche, il faut représenter les vecteurs par des matrices ligne, une application linéaire étant cette fois représentée par la multiplication à droite d'un vecteur ligne par la matrice qui la représente.
+
+Systèmes d'équations linéaires
+En général, un système de m équations linéaires à n inconnues peut être écrit sous la forme suivante : (a 1 , 1 x 1 + a 1 , 2 x 2 +. + a 1 , n x n - b 1 a 2 , 1 x 1 + a 2 , 2 x 2 +. + a 2 , n x n - b 2..... a m , 1 x 1 + a m , 2 x 2 +. + a m , n x n - b m (-displaystyle -left-((-begin(matrix)a-(1,1)x-(1)+a-(1,2)x-(2)+...+a-(1,n)x-(n)-b-(1)--a-(2,1)x-(1)+a-(2,2)x-(2)+...+a-(2,n)x-(n)-b-(2)---vdots ---vdots --a-(m,1)x-(1)+a-(m,2)x-(2)+...+a-(m,n)x-(n)-b-(m)-end(matrix))-right.).
+Où x 1 , x n (-displaystyle x-(1),...,x-(n)) sont les inconnues et les nombres a i , j (-displaystyle a-(i,j)) sont les coefficients du système.
+Ce système peut s'écrire sous la forme matricielle : A x - b (-displaystyle Ax-b).
+avec : A - (a 1 , 1 a 1 , 2... a 1 , n a 2 , 1 a 2 , 2... a 2 , n......... a m , 1 a m , 2... a m , n) ; x - (x 1 x 2... x n) et b - (b 1 b 2... b m) ; (-displaystyle A-(-begin(pmatrix)a-(1,1)a-(1,2)-cdots a-(1,n)--a-(2,1)a-(2,2)-cdots a-(2,n)---vdots -vdots -ddots -vdots --a-(m,1)a-(m,2)-cdots a-(m,n)-end(pmatrix));-qquad x-(-begin(pmatrix)x-(1)--x-(2)---vdots --x-(n)-end(pmatrix))-quad (-text(et))-quad b-(-begin(pmatrix)b-(1)--b-(2)---vdots --b-(m)-end(pmatrix));).
+la théorie de la résolution des systèmes utilise les invariants liés à la matrice A (appelée matrice du système), par exemple son rang, et, dans le cas où A est inversible, son déterminant (voir l'article règle de Cramer).
+
+Interprétations bilinéaires
+Dans ce paragraphe, l'anneau K des scalaires sera supposé commutatif. Dans la plupart des applications, ce sera un corps commutatif.
+Le cas non commutatif existe aussi mais il faut prendre quelques précautions et les notations deviennent trop lourdes pour cet article.
+
+Matrice d'une forme bilinéaire
+Soient E un K-module libre et B - (e1,.. en) une base de E.
+Soit f : E E K (-displaystyle f:E-times E-to K) une forme bilinéaire. On définit la matrice de f (-displaystyle f) dans la base B par la formule suivante : m a t B f - (f (e i , e j)) 1 i n , 1 j n - (f (e 1 , e 1) f (e 1 , e 2)... f (e 1 , e n) f (e 2 , e 1) f (e 2 , e 2)... f (e 2 , e n)......... f (e n , e 1) f (e n , e 2)... f (e n , e n)) (-displaystyle mat-(B)-,f-(f(e-(i),e-(j)))-(1-leq i-leq n,- 1-leq j-leq n)-(-begin(pmatrix)f(e-(1),e-(1))f(e-(1),e-(2))-dots f(e-(1),e-(n))--f(e-(2),e-(1))f(e-(2),e-(2))-dots f(e-(2),e-(n))---vdots -vdots -ddots -vdots --f(e-(n),e-(1))f(e-(n),e-(2))-dots f(e-(n),e-(n))---end(pmatrix))).
+Dans le cas particulier où K - ℝ et f (-displaystyle f) est un produit scalaire, cette matrice est appelée matrice de Gram.
+La matrice m a t B f (-displaystyle mat-(B)-,f) est symétrique (respectivement antisymétrique) si et seulement si la forme bilinéaire f (-displaystyle f) est symétrique (respectivement antisymétrique).
+Soient x (-displaystyle x) et y (-displaystyle y) deux vecteurs de E. Notons X (-displaystyle X) et Y (-displaystyle Y) leurs coordonnées dans la base B et A - m a t B f (-displaystyle A-mat-(B)-,f). On a alors la formule : f (x , y) - t X A Y (-displaystyle f(x,y)-(-operatorname (t))-!XAY).
+Deux formes bilinéaires sont égales si et seulement si elles ont la même matrice dans une base donnée.
+
+Matrice d'une forme quadratique
+Lorsque K est un corps de caractéristique différente de 2, on appelle matrice d'une forme quadratique la matrice de la forme bilinéaire symétrique dont est issue la forme quadratique.
+
+Formule de changement de base
+Soient E un K-module libre et B, C deux bases de E. Soit f : E E K (-displaystyle f:E-times E-to K) une forme bilinéaire.
+Notons M - m a t B f (-displaystyle M-mat-(B)-,f) la matrice de f (-displaystyle f) dans la base B et M ' - m a t C f (-displaystyle M'-mat-(C)-,f) la matrice de f (-displaystyle f) dans la base C. Notons P - m a t B C (-displaystyle P-mat-(B-,C)) la matrice de passage. On a alors la formule de changement de base pour une forme bilinéaire (à ne pas confondre avec celle pour une application linéaire) : M ' - t P M P (-displaystyle M'-(-operatorname (t))-!PMP).
+
+Matrices congruentes
+Deux matrices carrées A et B sont dites congruentes s'il existe une matrice inversible P telle que: A - t P B P. (-displaystyle A-(-operatorname (t))-!PBP.).
+Deux matrices congruentes sont deux matrices qui représentent la même forme bilinéaire dans deux bases différentes.
+Lorsque K est un corps de caractéristique différente de 2, toute matrice symétrique est congruente à une matrice diagonale. L'algorithme utilisé s'appelle réduction de Gauss à ne pas confondre avec le pivot de Gauss.
+
+Catalogue partiel
+Une matrice est dite symétrique si elle est égale à sa transposée et antisymétrique si elle est opposée à sa transposée.
+Une matrice A à coefficients complexes est dite hermitienne si elle est égale à la transposée de sa matrice conjuguée A.
+Une matrice A est dite: orthogonale si elle est à coefficient réels et si A A - A A - I,; unitaire si elle est à coefficients complexes et si A A - A A - I.
+(Pour plus d'exemples, voir en bas de page : "Articles connexes" et palette "Matrices".)
+
+Décomposition d'une matrice
+On utilise abusivement le terme décomposition d'une matrice, qu'il s'agisse d'une véritable décomposition (en somme) comme dans la décomposition de Dunford ou d'une factorisation comme dans la plupart des autres décompositions.
+
+Réduction d'une matrice carrée: Réduire une matrice, c'est trouver une matrice qui lui est semblable la plus simple possible.; Une matrice diagonalisable est une matrice semblable à une matrice diagonale : A (-displaystyle A) est diagonalisable s'il existe une matrice inversible P (-displaystyle P) et une matrice diagonale D (-displaystyle D) telles que A - P 1 D P (-displaystyle A-P(-1)DP).; Sur un corps algébriquement clos, on dispose de la réduction de Jordan qui est optimale et il existe des décompositions intermédiaires comme la décomposition de Dunford qui utilise les sous-espaces caractéristiques ou celle de Frobenius qui utilise les sous-espaces cycliques.; Les polynômes d'endomorphismes jouent un rôle crucial dans les techniques de réduction.
+
+Décomposition LU: C'est une factorisation en produit de deux matrices triangulaires.; En lien avec le pivot de Gauss, c'est une méthode qui permet d'inverser une matrice.
+
+Décomposition QR: C'est un résultat sur les matrices à coefficients réels ou à coefficients complexes.; C'est une factorisation en produit d'une matrice orthogonale et d'une matrice triangulaire.; C'est une traduction matricielle du procédé de Gram-Schmidt.
+
+Décomposition polaire: C'est un résultat sur les matrices à coefficients réels ou à coefficients complexes.; C'est une factorisation en produit d'une matrice orthogonale et d'une matrice symétrique définie positive dans le cas réel, en produit d'une matrice unitaire et d'une matrice hermitienne définie positive dans le cas complexe.; On peut décomposer à droite ou à gauche.; On a unicité de la factorisation pour les matrices inversibles.
+
+Normes
+
+Normes d'algèbre
+Dans tout ce paragraphe, K - ℝ ou ℂ.
+Une norme matricielle est une norme d'algèbre sur l'algèbre Mn(K), c'est-à-dire une norme d'espace vectoriel qui est de plus sous-multiplicative.
+Le rayon spectral d'une matrice carrée A à coefficients complexes est le plus grand module de ses valeurs propres. Il est égal à la borne inférieure des normes matricielles de A.
+Sur Mn(K), toute norme N subordonnée à une norme sur K est une norme d'algèbre vérifiant de plus N(In) - 1 (la réciproque est fausse).
+
+Structure d'espace vectoriel euclidien
+L'espace vectoriel M m , n (R) (-displaystyle M-(m,n)(-mathbb (R))), canoniquement isomorphe à R m n (-displaystyle -mathbb (R) (mn)), hérite de sa structure euclidienne. Le produit scalaire se transcrit en
+où tr (-displaystyle -operatorname (tr)) désigne la trace (i.e., tr M - i - 1 n M i i (-displaystyle -textstyle -operatorname (tr) -,M--sum -(i-1)(n)M-(ii))) et les A i j (-displaystyle A-(ij)) (resp. B i j (-displaystyle B-(ij))) désignent les éléments de A (-displaystyle A) (resp. B (-displaystyle B)). La norme associée à ce produit scalaire est la norme de Frobenius ou norme de Hilbert-Schmidt :
+où (A) (-displaystyle -sigma (A)) est le vecteur des valeurs singulières de A (-displaystyle A) et 2 (-displaystyle --cdot --(2)) est la norme euclidienne.
+Si m - n 1 (-displaystyle m-n1), il ne s'agit pas d'une norme subordonnée, puisque I n F - n 1. (-displaystyle -I-(n)--(F)-(-sqrt (n))-neq 1.)
+L'inégalité de Cauchy-Schwarz s'écrit (comme pour tout produit scalaire) : pour tout A (-displaystyle A), B R m n (-displaystyle B-in -mathbb (R) (m-times n)), on a
+Cette inégalité peut être renforcée par l'inégalité de trace de von Neumann : pour tout A (-displaystyle A), B R m n (-displaystyle B-in -mathbb (R) (m-times n)), on a
+où (A) (-displaystyle -sigma (A)) est le vecteur des valeurs singulières de A (-displaystyle A), rangées en ordre décroissant. Elle a la même structure que l'inégalité de Ky Fan, laquelle suppose que les matrices sont carrées et symétriques (on peut alors remplacer (-displaystyle -sigma (-cdot)) par le vecteur des valeurs propres).
+L'espace vectoriel Mm,n(ℂ) est muni d'une structure similaire d'espace hermitien.
+
+Exponentielle d'une matrice
+Soit A M n (C) (-displaystyle A-in M-(n)(-mathbb (C))), Soit N (-displaystyle N) une norme d'algèbre et a n z n (-displaystyle -sum a-(n)z(n)) une série entière de rayon de convergence R (-displaystyle R).
+Alors si N (A) R (-displaystyle N(A)R), la série a n A n (-displaystyle -sum a-(n)A(n)) est absolument convergente. (On le montre en utilisant que N (A n) N (A) n (-displaystyle N(A(n))-leq N(A)(n)).)
+En particulier, on peut définir, pour toute matrice carrée complexe, la quantité: exp (A) - k - 0 + 1 k ! A k (-displaystyle -exp(A)--sum -(k-0)(+-infty)(-frac (1)(k!))A(k)).
+Le calcul effectif de cette exponentielle se fait par réduction de la matrice.
+L'exponentielle joue un rôle central dans l'étude des systèmes linéaires d'équations différentielles.
+
+Voir aussi
+
+Articles connexes: Conditionnement (analyse numérique); Formule du binôme pour deux matrices qui commutent; Matrice de rotation; Matrices liées aux problèmes de complémentarité linéaire : M-matrice, Matrice dégénérée, Matrice suffisante, P-matrice, P0-matrice, Q-matrice, Q0-matrice, R0-matrice, S-matrice, Z-matrice; Norme matricielle; Paire de matrices commutantes; Représentation de groupe; Tenseur.

@@ -1,0 +1,28 @@
+IPv4 (Internet Protocol version 4) est la première version d'Internet Protocol (IP) à avoir été largement déployée, et qui forme encore en 2017 la base de la majorité des communications sur Internet, avec l'IPv6. Elle est décrite dans la RFC 791 de septembre 1981, remplaçant la RFC 760, définie en janvier 1980.
+Chaque interface d'un hôte IPv4 se voit attribuer une ou plusieurs adresses IP codées sur 32 bits. Au maximum 4 294 967 296 (soit 2) adresses peuvent donc être attribuées simultanément en théorie (en pratique, un certain nombre ne sont pas utilisables).
+L'épuisement des adresses IPv4 a conduit au développement d'une nouvelle version d'IP, IPv6, et à la transition d'IPv4 vers IPv6 afin d'adopter cette nouvelle version. Le manque d'adresse IPv4 est dans un premier temps contourné grâce à l'utilisation de techniques de traduction d'adresses (NAT) ainsi que par l'adoption du système CIDR. Le nombre d'adresses IP Version 4 publiques est arrivé officiellement à saturation le 3 février 2011.
+
+Représentation d'une adresse IPv4
+Une adresse IPv4 est représentée sous la forme de quatre nombres entiers séparés par des points comme 193.43.55.67. Chacun des nombres représente un octet. La plage d'attribution s'étend de 0.0.0.0 à 255.255.255.255, sachant qu'il existe des contraintes empêchant l'utilisation de certaines adresses (réservée, masque, broadcast, etc.).
+Addresse Ipv4
+En-tête IPv4
+Version (4 bits) : Version d'IP utilisée. Ici, 4.
+Longueur de l'en-tête ou IHL (pour Internet Header Length) (4 bits) : Nombre de mots de 32 bits, soit 4 octets (ou nombre de lignes du schéma). La valeur est comprise entre 5 et 15, car il y a 20 octets minimum et on ne peut dépasser 40 octets d'option (soit en tout, 60 octets).
+Type de service ou ToS (pour Type of Service) (8 bits) : Ce champ permet de distinguer différentes qualités de service différenciant la manière dont les paquets sont traités. Composé de 3 bits de priorité (donc 8 niveaux) et trois indicateurs permettant de différencier le débit, le délai ou la fiabilité. Il se décline au fil des RFC. Au départ (RFC 791) nous avions : Le champ DSCP généralise ensuite le champ TOS (RFC 2474, décembre 1998) : En septembre 2001 (RFC 3168) le champ CU est utilisé pour la gestion des congestions :
+Longueur totale en octets ou Total Length (16 bits) : Nombre total d'octets du datagramme, en-tête IP comprise. Donc, la valeur maximale est (2)1 octets.
+Identification (16 bits) : Numéro permettant d'identifier les fragments d'un même paquet.
+Indicateurs ou Flags (3 bits) : 1) (Premier bit) actuellement inutilisé.; 2) (Deuxième bit) DF (Don't Fragment) : lorsque ce bit est positionné à 1, il indique que le paquet ne peut pas être fragmenté. Si le routeur ne peut acheminer ce paquet (taille du paquet supérieure à la MTU), il est alors rejeté.; 3) (Troisième bit) MF (More Fragments) : quand ce bit est positionné à 1, on sait que ce paquet est un fragment de données et que d'autres doivent suivre. Quand il est à 0, soit le fragment est le dernier, soit le paquet n'a pas été fragmenté.
+Fragment offset (13 bits) : Position du fragment par rapport au paquet de départ, en nombre de mots de 8 octets.
+Durée de vie ou TTL (pour Time To Live) (8 bits) : Initialisé par l'émetteur, ce champ est décrémenté d'une unité généralement à chaque saut de routeur. Quand TTL - 0, le paquet est abandonné et un message ICMP est envoyé à l'émetteur pour information.
+Protocole (8 bits) : Numéro du protocole au-dessus de la couche réseau : TCP - 6, UDP - 17, ICMP - 1. Ce champ permet d'identifier le protocole utilisé par le niveau supérieur : Internet Control Message Protocol ou ICMP est repéré par les bits 00000001, qu'on écrit souvent en hexadécimal avec 01; Transmission Control Protocol ou TCP par les bits 00000110, soit 06; User Datagram Protocol ou UDP par les bits 00010001, soit 17 en décimal.
+Somme de contrôle de l'en-tête ou Header Checksum (16 bits) : Complément à un de la somme complémentée à un de tout le contenu de l'en-tête afin de détecter les erreurs de transfert. Si la somme de contrôle est invalide, le paquet est abandonné sans message d'erreur.
+Adresse source (32 bits) : Adresse IP de l'émetteur sur 32 bits.
+Adresse destination (32 bits) : Adresse IP du récepteur 32 bits.
+Options (0 à 40 octets par mots de 4 octets) : Facultatif.
+Remplissage ou Padding : Champ de taille variable comprise entre 0 et 7 bits. Il permet de combler le champ option afin d'obtenir un en-tête IP multiple de 32 bits. La valeur des bits de bourrage est 0.
+Fragmentation
+Sur une interface déterminée, une trame a une taille maximale, appelée Maximum Transmission Unit ou MTU. Lorsque la longueur du paquet (datagramme) est supérieure, l'information sera fragmentée. La taille maximum supportée par IPv4 (car codée sur 16 bits) est de 65 535 octets mais les réseaux ne prennent généralement pas en charge de trames de telles longueurs, en général on trouve des MTU de l'ordre de 1 500 octets (Ethernet).
+
+Voir aussi
+
+Articles connexes: Adresse IP; Adresse compatible IPv4. Portail de l'informatique; Portail d'Internet; Portail des télécommunications.

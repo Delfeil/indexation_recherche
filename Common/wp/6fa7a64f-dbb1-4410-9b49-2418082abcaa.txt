@@ -1,0 +1,14 @@
+JScript est le nom générique de plusieurs implémentations, suivant le standard ECMAScript, créées par Microsoft, notamment celle partagée par Internet Explorer et WSH.
+Des implémentations particulières de ce type sont par exemple : JScript.Net, etc.
+L'extension de fichier typique des scripts JScript est.js.
+
+Utilisation
+Ce type d'implémentation ajoute des possibilités spécifiques au langage JavaScript sur la plateforme Windows, principalement en proposant une interaction avec les composants COM.
+Il permet aussi d'utiliser ce langage JavaScript en dehors du cadre d'une page web, soit sous forme de scripts d'un fonctionnement similaire aux scripts écrits en VBScript (cf. Windows Scripting Host) ou interprétés côté serveur avec la technologie ASP.
+
+Versions
+Les implémentations JScript sont des variantes propriétaires, initialement inspirées du langage originel JavaScript, avant la sortie de la première édition de la spécification normative ECMA-262.
+En 2011, la version la plus récente de JScript était JScript 9.0, développée pour le navigateur Windows Internet Explorer 9, basée sur la 5e édition de la spécification ECMA-262.
+La variante Managed JScript, annoncée en 2007 n'a finalement pas abouti.
+
+Voir aussi: JScript.NET. Portail de Microsoft; Portail de la programmation informatique.

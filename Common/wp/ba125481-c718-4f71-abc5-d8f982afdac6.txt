@@ -1,0 +1,15 @@
+Un onglet est, dans un fichier ou autre système de rangement, une petite excroissance porteuse d'une étiquette (typiquement, alphabétique) permettant un accès direct aisé aux documents. Ce terme est aussi utilisé par analogie pour évoquer certains composants d'interfaces utilisateur en informatique permettant d'avoir une interface plus riche dans une seule fenêtre.
+
+Utilisation
+Les onglets sont typiquement utilisés pour visualiser : des objets du même type, par exemple, différentes pages dans un navigateur web, ou différentes feuilles de calculs dans un tableur ;; des aspects différents d'un même objet, par exemple les différentes vues (Normal, HTML tags, Source, Preview) d'un document HTML dans un éditeur HTML.
+
+Navigation par onglets
+Firefox et ses onglets, ici au nombre de quatre ("Gmail - Inbox", "beez blog", "(Administration) : b...", "Va, vis et..."). Chacun de ces onglets contient une page ouverte précédemment.
+La navigation par onglets fait référence à l'utilisation des onglets dans les navigateurs (browsers) internet.
+Cette fonctionnalité permet de pallier le désagrément lié à l'ouverture de trop nombreuses fenêtres. En effet de nombreux internautes surfent parallèlement sur plusieurs sites ouvrant ainsi de nombreuses fenêtres de leur navigateur. Certains navigateurs donnent la possibilité d'ouvrir les pages dans différents onglets d'une même fenêtre : au lieu d'avoir plusieurs fenêtres, l'utilisateur a plusieurs onglets dans une même fenêtre, dont on peut lire le titre et ainsi surfer plus facilement.
+Pendant un temps, cette fonctionnalité a été un moyen de se distinguer du leader en termes de parts de marché Internet Explorer, le navigateur web de Microsoft. Popularisée par le navigateur Opera, elle a ensuite été reprise par Firefox et la suite Mozilla et par Safari (sur Macintosh). Depuis sa version 7 (octobre 2006), Internet Explorer inclut cette fonctionnalité.
+
+Disposition
+Les onglets peuvent se situer sur l'un des quatre côtés de la fenêtre.
+
+Articles connexes: Fenêtre.

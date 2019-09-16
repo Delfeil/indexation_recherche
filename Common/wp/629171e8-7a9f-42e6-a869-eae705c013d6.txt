@@ -1,0 +1,33 @@
+En droit, une personne morale est une entité dotée de la personnalité juridique, ce qui lui permet d'être directement titulaire de droits et d'obligations en lieu et place des personnes physiques ou morales qui la composent ou qui l'ont créée (par exemple : entreprises, associations...).
+La personne morale et la personne physique sont deux des principales entités pouvant avoir des droits et obligations.
+
+Notion
+La diversité des situations rend difficile l'élaboration d'une définition générale, mais on peut définir une personne morale comme une entité qui peut être titulaire de droits et d'obligations. Une personne morale est généralement constituée par un regroupement de personnes physiques ou morales qui souhaitent accomplir quelque chose en commun, mais il peut aussi s'agir d'un regroupement de biens ou d'une personne morale constituée par la volonté d'une seule personne. À la différence des personnes physiques, il existe plusieurs catégories nommées de personnes morales, de forme et de capacité juridique variables.
+De nombreux systèmes juridiques reconnaissent l'existence des personnes morales, mais les règles les concernant varient beaucoup de l'un à l'autre. Elles peuvent être créées à l'initiative de personnes privées ou par des autorités publiques. Dans le premier cas, elles sont soumises au droit privé et on parle alors généralement de "personnes morales de droit privé". Dans le second, elles sont la plupart du temps soumises à un régime de droit public et on parle dans ce cas de "personnes morales de droit public". Il existe aussi des personnes morales en droit international public (voir sur ce dernier point les sujets du droit international).
+La personnalité morale confère à la personne morale nombre d'attributs reconnus aux personnes physiques, comme le nom, un patrimoine ou un domicile. La personnalité morale permet notamment : d'agir en justice,; d'acquérir des biens meubles ou immeubles.
+La capacité juridique des personnes morales peut être plus ou moins étendue. Par exemple, en droit français, la loi du 1er juillet 1901 confère la personnalité morale aux associations déclarées. On parle de "petite personnalité" : cela permet à l'association d'encaisser des ressources (principalement les cotisations des membres, ou les éventuelles subventions publiques) et d'acquérir les bâtiments "strictement nécessaires à l'accomplissement du but qu'elle se propose".
+Toute personne morale est représentée par au moins une personne physique habilitée à l'engager (président par exemple), mais cette responsabilité peut être partagée entre de nombreux acteurs, particulièrement s'il s'agit d'engager un État tout entier. Dans ce cas, le pouvoir des différentes personnes peut être circonscrit à un domaine précis.
+
+En droit français
+Dans sa rédaction initiale, le code civil ignorait la personnalité morale, le droit français connaît actuellement des formes extrêmement diverses de personnes morales. La distinction la plus classique oppose les personnes morales de droit public et celles de droit privé.
+En droit français, une personne morale peut aussi être soumise à une forme de contrôle par une autre personne morale, comme dans le cas de la tutelle administrative.
+
+Personne morale de droit public
+Les personnes morales soumise au droit public sont investies d'une mission d'intérêt général et titulaires de prérogatives privées. Elles comprennent l'État, les collectivités territoriales (communes, départements, régions, collectivités d'outre mer) et les établissements publics (établissements d'assistance - hôpitaux, centres communaux d'aide sociale -, établissements culturels - universités, lycées -, certains établissements corporatifs - chambres de commerce et d'industrie, de métiers et de l'artisanat, ou d'agriculture).
+
+Personne morale de droit privé
+Les personnes morales soumises au droit privé regroupent des groupements extrêmement nombreux et diversifiés qui, pour la plupart, présentent cette particularité que leur existence suppose nécessairement qu'ils acquièrent la personnalité juridique. Toutes les branches du droit privé utilisent la notion de personne morale et chacune sécrète ses propres catégories. Si certaines présentent un caractère très général comme la société (société civile, société commerciale ou société agricole) et l'association, d'autres relèvent principalement, pour s'en tenir aux plus usuelles, du droit civil (fondations, syndicats de propriétaires), du droit commercial (groupements d'intérêt économique) ou du droit social (syndicats professionnels, comités d'entreprise et d'établissement et comité d'hygiène, de sécurité et des conditions de travail).
+
+Personne morale de droit mixte
+Existe une catégorie intermédiaire, les personnes morales de droit mixte, qui empruntent des éléments au droit public et au droit privé. Ainsi, certains établissements publics (entreprises nationalisées, services industriels et commerciaux) voient leur activité régie par le droit privé quand, à l'inverse, des personnes morales organiquement de droit privé sont investies de prérogatives de puissance publique (ordres professionnels, certaines associations).
+
+En droit québécois
+En droit québécois, les personnes morales possèdent la personnalité juridique, c'est-à-dire qu'elles peuvent être titulaires, de la même manière que les personnes physiques, de droits et d'obligations.
+Le Code civil du Québec divise les personnes morales en personnes morales de "droit public" ou de "droit privé". Si les personnes sont généralement soumises au droit public et les deuxièmes au droit privé, la grande partie des règles juridiques sont similaires pour les deux catégories, contrairement au droit français.
+Au Québec, la personnalité morale doit être prévue dans une loi. À titre d'exemple, les entités suivantes bénéficient de la personnalité morale : les sociétés par actions ;; les municipalités ;; les commissions scolaires ;; les syndics de copropriété ;; la plupart des sociétés d'État.
+
+En droit suisse
+
+Voir aussi
+
+Articles connexes: Droit des personnes: Personnalité juridique; Personnalité physique; Capacité juridique.; Personnalité juridique; Personnalité physique; Capacité juridique; Droit administratif; Droit des sociétés; Personne morale : en France, en Suisse. Portail du droit.

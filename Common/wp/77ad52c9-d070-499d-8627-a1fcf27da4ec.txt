@@ -1,0 +1,49 @@
+Marvin Lee Minsky, né le 9 août 1927 à New York et mort le 24 janvier 2016 à Boston, est un scientifique américain. Il a travaillé dans le domaine des sciences cognitives et de l'intelligence artificielle. Il est également cofondateur, avec l'informaticien John McCarthy du Groupe d'intelligence artificielle du Massachusetts Institute of Technology (MIT) et auteur de nombreuses publications aussi bien en intelligence artificielle qu'en philosophie comme La Société de l'Esprit (1986). Son dernier ouvrage, The Emotion Machine (2006), non publié en français, propose de nouveaux développements sur ces théories.
+
+Biographie
+Minsky a obtenu son PhD à l'université de Princeton en 1954, sous la direction de Albert William Tucker. Il a été le directeur de thèse de Manuel Blum.
+
+Travaux
+
+Perceptrons
+En 1969, dans Perceptrons, coécrit avec Seymour Papert pour critiquer Frank Rosenblatt, il a montré les limites des réseaux de neurones de type perceptron, notamment l'impossibilité de traiter des problèmes non linéaires ou de connexité. Ceci a eu pour conséquence de drainer l'essentiel des crédits de recherche vers l'intelligence artificielle symbolique.
+
+Approche multiple et frame
+Marvin Minsky défend l'idée que l'intelligence artificielle doit utiliser des approches multiples, notamment pour la représentation des connaissances, au lieu de se limiter à une seule approche qui serait censée être la meilleure. Les systèmes doivent disposer de "gestionnaires", capables de sélectionner les meilleures solutions à un problème donné.
+Pour représenter les connaissances, Marvin Minsky a développé le concept de frame et le Frame representation language.
+
+La Société de l'Esprit
+Dans La Société de l'Esprit, Marvin Minsky présente l'esprit comme une architecture d'agents élémentaires, indépendants, mais surtout hiérarchisés. Les agents les plus courants sont les lignes (K-lines), agents de mémoire à court terme servant à activer un ensemble d'agents donné. L'activation de lignes K peut par exemple permettre de retrouver une configuration particulière d'agents qui s'est avérée efficace.
+Les nèmes sont des agents représentant les connaissances, alors que les nomes sont des agents capables de traiter les connaissances. Les polynèmes permettent d'activer des agents représentant des aspects différents d'un même objet. Les paranomes permettent de manipuler simultanément différents modes de représentations des connaissances.
+Ces agents de base vont se combiner pour former des agencements de plus grande taille capables d'opérations complexes (frames, frame-arrays, transframes). Minsky introduit la notion de "cerveau B", dont le rôle est de surveiller et d'examiner non pas le monde extérieur, mais l'esprit lui-même (cerveau A), en corrigeant les erreurs ou en mettant fin à une activité mentale improductive (boucles, répétitions). Cette division de l'esprit en "niveaux de réflexion" fait l'objet de nouveaux développements dans les travaux plus récents de Minsky.
+Un système intelligent disposera de deux types d'agents, des spécialistes et des gestionnaires. Les spécialistes peuvent implémenter les techniques connues d'intelligence artificielle pour résoudre des problèmes précis (systèmes à base de règles, réseaux sémantiques, réseaux bayésiens). Les gestionnaires sont chargés de planifier, de sélectionner les spécialistes, d'évaluer les résultats obtenus.
+
+Machine à compteurs
+Minsky a aussi étudié les machines à compteurs, aussi appelées machines de Minsky.
+
+Roman
+Marvin Minsky est également le coauteur du Problème de Turing, roman de Science-fiction et thriller où il est question d'un jeune génie qui conçoit la première Intelligence artificielle forte en 2023. Le site de Marvin Minsky propose deux chapitres inédits que l'on peut télécharger.
+
+Publications
+
+En anglais: Neural Nets and the Brain Model Problem, Dissertation, Princeton University, 1954;
+Computation : Finite and Infinite Machines
+, Prentice Hall, 1967, 317 p.
+Semantic Information Processing
+, MIT Press, 1969, 448 p. - éditeur, auteur de l'introduction et des chapitres Descriptive Languages and Problem Solving et Matter, Mind, and Models; avec Seymour Papert,
+Perceptrons : An Introduction to Computational Geometry
+, MIT Press, 1969, 268 p. Artificial Intelligence, avec Seymour Papert, University of Oregon Press, 1972;
+Robotics : The First Authoritative Report from the Ultimate High-Tech Frontier
+, Doubleday, 1985, 317 p.
+The Society of Mind
+, Simon et Schuster, 1987, 336 p. avec Harry Harrison,
+The Turing Option
+, Warner Books, 1992, 422 p.
+The Emotion Machine : Commonsense Thinking, Artificial Intelligence, and the Future of the Human Mind
+, Simon et Schuster, 2007, 400 p.
+
+En français: avec Harry Harrison,
+Le problème de Turing
+("The Turing Option"), Robert Laffont, 1993, 466 p.
+La société de l'esprit
+("The Society of Mind"), InterÉditions, 1997, 654 p.

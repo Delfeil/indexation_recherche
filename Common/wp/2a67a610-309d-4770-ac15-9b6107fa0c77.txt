@@ -1,0 +1,23 @@
+La roue de Deming (de l'anglais Deming wheel) est une transposition graphique de la méthode de gestion de la qualité dite PDCA (plan-do-check-act). Si la paternité de cette méthode revient à Walter A. Shewhart, c'est le statisticien William Edwards Deming qui l'a fait connaître aux industriels japonais dans les années 1950 en la présentant sous l'appellation de cycle de Shewhart (the Shewhart cycle), lors d'une conférence devant 45 membres du Nippon Keidanren, l'organisation patronale japonaise. En 1980, Deming a modifié partiellement ce titre qui est devenu PDSA (plan-do-study-act).
+En réalité, Deming a rejeté cette appellation de "roue de Deming" et même l'appellation japonaise "PDCA", lui préférant le "Cycle de Shewhart" ou "PDSA".
+
+Moyen mnémotechnique
+La roue de Deming est un moyen mnémotechnique qui permet de repérer avec simplicité les étapes à suivre pour améliorer la qualité dans une organisation. Il ne faut pas faire comme ce vice-président d'une société d'ingénierie qui pensait que le sigle PDCA signifiait please don't change anything ("prière de ne rien changer").
+
+A quoi sert le cycle
+"Le cycle sert à transformer une idée en action et l'action en connaissance. Utiliser le cycle de façon correcte nécessite discipline et effort."
+
+Démarche d'utilisation
+La méthode comporte quatre étapes, chacune entraînant l'autre, et vise à établir un cercle vertueux. Sa mise en place doit permettre d'améliorer sans cesse la qualité d'un produit, d'une oeuvre, d'un service, etc. 1) Plan : préparer, planifier (ce que l'on va réaliser) ;; 2) Do : développer, réaliser, mettre en oeuvre (le plus souvent, on commence par une phase de test) ;; 3) Check : contrôler, vérifier ;; 4) Act (ou Adjust): agir, ajuster, réagir (si on a testé à l'étape do, on déploie lors de la phase act).
+Roue de Deming
+La première étape, Plan, consiste à planifier la réalisation. Elle se déroule généralement en trois phases : 1) Identification du problème à résoudre (par exemple à l'aide du QQOQCCP) ou du processus à améliorer ;; 2) Recherche des causes racines (par exemple à l'aide d'un diagramme de Pareto, d'un diagramme d'Ishikawa ou de la méthode des cinq pourquoi) ;; 3) Recherche de solutions avec écriture du cahier des charges et établissement d'un planning.
+L'étape do (en français "faire") est la construction, le développement, la réalisation de l'oeuvre.
+Elle est suivie de l'étape check (en français "vérifier"), qui consiste à contrôler l'aptitude de la solution mise en place à résoudre le problème ou à améliorer le processus. Sont employés à cet effet des moyens de contrôle divers, tels que les indicateurs de performance et les graphiques de contrôle.
+Puis l'étape act consiste à passer à l'action, c'est-à-dire mettre en oeuvre le changement étudié, ou bien reprendre le cycle à la première étape en utilisant la connaissance acquise au cours des cycles précédents.
+L'étape plan amène donc un nouveau projet à réaliser, donc une nouvelle planification à établir. Il s'agit donc d'un cycle que l'on représente à l'aide d'une roue. À chaque étape, la roue avance d'un quart de tour. Cette avancée représente l'action de progresser.
+De plus, pour éviter de "revenir en arrière", on représente une cale sous la roue, qui empêche celle-ci de redescendre et qui symbolise par exemple un système qualité, un système d'audits réguliers, ou un système documentaire qui capitalise les pratiques ou les décisions.
+
+De la méthode PDCA à la méthode OPDCA
+On a par la suite remplacé Act par Adjust ("adapter") - pour éviter toute confusion avec l'étape Do - et ajouté Observe ("observer") au tout début du cycle, d'où la nouvelle dénomination de "cycle OPDCA". L'étape Observe, inspirée de la méthode scientifique, met l'accent sur la nécessité de bien observer l'état de départ avant d'établir tout plan ou programme d'action.
+
+Voir aussi

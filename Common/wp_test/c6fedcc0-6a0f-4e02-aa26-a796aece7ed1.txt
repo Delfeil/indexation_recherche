@@ -1,0 +1,19 @@
+KartOO était un métamoteur de recherche à interface cartographique et interactive édité par KartOO S.A.
+Il est fermé depuis le 23 janvier 2010.
+
+Spécificité
+Comme tous les méta moteur de recherche, KartOO a été un moteur de recherche capable d'exécuter simultanément une recherche sur plusieurs moteurs et annuaire de recherche sur le web.
+KartOO avait la particularité de fournir une représentation cartographique (en carte heuristique) des résultats d'une recherche pour illustrer les liens entre les résultats de la recherche et permet donc de se rapprocher d'une vision spatialement représentée de ce qu'on cherche, via des graphes sémantiques. Les graphes sémantiques n'étaient pas visibles sur la carte des résultats, mais ils apparaissaient lorsque le curseur de la souris s'approchait d'un des résultats affichés. Ce mode de présentation favorisait la sérendipité et une recherche plus créative.
+Un travail d'ergonomie important a été effectué sur la nouvelle version du méta moteur et de nouvelles fonctionnalités ont été ajoutées ainsi qu'une technologie innovante (système de valences).
+La société éditrice de KartOO proposait également un autre moteur de recherche, Ujiko, avec une autre ergonomie dans la présentation des résultats et l'affinage des recherches.
+
+Caractéristiques du méta moteur
+KartOO fut un précurseur dans le domaine de l'illustration cartographique (en cartes heuristiques) des résultats d'une recherche. Il présentait les résultats d'une recherche : soit sous la forme d'une liste présentant le site Internet, son résumé et des extraits entiers contenant le mot cherché, pour lire le document dans le moteur de recherche, sans avoir à faire des aller-retour ou sous forme de liste classique, au choix.; soit sous forme cartographique, permettant de gagner du temps, car tous les résultats de la liste sont organisés sur une seule et même carte. Cette présentation facilite la navigation dans les résultats de la recherche et permet des recherches ciblées à l'aide de mots clés intuitifs proposés par KartOO. Sur la page affichée après chaque recherche, les sites étaient symbolisés par des sphères. Ces sphères étaient reliées entre elles par des liens (traits de couleur, la couleur symbolisant les mots clé présents de manière dominante dans ces sites). De nouvelles cartes étaient produits en quelque seconde quand l'utilisateur affinait sa recherche en surpondérant ou sous-pondérant un mot clé.
+Le principe de la cartographie utilisée sur KartOO est celui d'une des cartographies vendues par KartOO SA, appelée Knetworks.
+L'internaute pouvait donc trouver l'actualité, les images, les mots clés intuitifs en rapport avec la requête et le baromètre d'e-réputation. Ce baromètre permettait de savoir si le résultat de la requête avait une connotation positive ou négative à partir des dernières dépêches d'actualité. L'e-réputation d'un individu, d'un produit, d'une marque, d'un film pouvait être désormais connue rapidement et simplement.
+Par ailleurs, il était possible de poser sa question en "langage naturel", d'utiliser les guillemets et la syntaxe de saisie + et -.
+Le méta moteur présentait ses résultats en plusieurs versions linguistiques (français, anglais, américain et allemand).
+KartOO utilisait la technologie Flash et nécessitait donc le module d'extension Flash.
+
+Kartoo SA
+L'éditeur Kartoo SA était une entreprise française, basée à Clermont-Ferrand et spécialisée dans les logiciels de recherche et de visualisation d'information. Il a été créé en 2001 par Laurent Baleydier et Nicolas Baleydier. La société a été mise en liquidation judiciaire le 15 janvier 2010.

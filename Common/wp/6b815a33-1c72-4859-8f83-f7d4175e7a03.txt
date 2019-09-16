@@ -1,0 +1,19 @@
+La notion d'énaction est une façon de concevoir la cognition qui met l'accent sur la manière dont les organismes et esprits humains s'organisent eux-mêmes en interaction avec l'environnement.
+L'approche théorique de la cognition selon la notion d'énaction, nommée énactivisme (en), fut proposée par Gregory Bateson, Humberto Maturana, Francisco Varela, Evan Thompson, et Eleanor Rosch. Elle est proche de la cognition située et de la cognition incarnée et est conçue comme une alternative au cognitivisme, au computationnalisme et au dualisme de Descartes.
+
+L'énaction selon Francisco Varela
+Dans The Tree of Knowledge: The Biological Roots of Human Understanding, Francisco Varela et Humberto Maturana utilisent ce terme face au problème de comprendre comment notre existence -- la pratique de notre vie -- est couplée à un monde environnant qui apparaît empli de régularités qui à chaque instant sont le résultat de notre histoire biologique et sociale.... trouver une voie moyenne : pour comprendre la régularité du monde vécu dont nous faisons l'expérience à chaque instant, mais sans autre point de référence que nous-mêmes qui donnerait une certitude à nos descriptions et affirmations. En fait, tout le mécanisme d'auto-engendrement, comme descripteurs et observeurs, nous dit que notre monde, en tant que monde que nous présentons dans notre existence avec autrui, aura toujours précisément ce mélange de régularité et de changement, cette combinaison de solidité et de sable mouvant, si typique du vécu humain quand nous le regardons de près.
+- Francisco Varela et Humberto Maturana, Tree of Knowledge, p. 241 (traduction personnelle)
+Ainsi le monde n'est ni totalement objectif, une réalité donnée à laquelle nous accédons à travers des représentations, ni totalement subjectif, pure création ex nihilo d'un monde de représentations. Dire que la cognition est incarnée c'est prendre en considération le fait que chaque espèce a son propre Umwelt (environnement propre, selon Jacob von Uexküll) comme diraient les biosémioticiens. Un Umwelt spécifique à l'espèce (species-specific) a été enacté à travers l'évolution. L'évolution est comprise non comme un processus clairement finalisé mais comme "dérive naturelle" pour reprendre le terme de Francisco Varela.
+S'inspirant de la phénoménologie de Maurice Merleau-Ponty et de Martin Heidegger, Varéla entend concrétiser la relation entre l'expérience humaine et la science. À cet effet il souligne qu'un énorme héritage créé par la tradition bouddhiste a déjà affronté le nihilisme que l'Occident subit, plus ou moins depuis le "Dieu est mort" de Friedrich Nietzsche, qui annonce la perte de tout fondement absolu sans pour autant transformer cette perte en liberté existentielle. En effet en Occident, il est presque gratuit aujourd'hui de critiquer l'objectivisme, et ce qui en résulte est assez souvent une autre forme d'absolutisme , un relativisme absolu. Nous avons besoin selon Varela d'une "pensée planétaire", capable d'accueillir et de discuter avec l'incertitude, d'une "voie moyenne". Ses intuitions sont largement en résonance avec les engagements de la rationalité complexe défendue par Edgar Morin.
+
+Chercheurs professant des idées proches
+
+D'après Francisco Varela: Andy Clark; Rodney Brooks; Jerome Bruner; Hubert Dreyfus; Walter Freeman; Riccardo Manzotti; Teed Rockwell.
+. Fernando Flores; James J. Gibson; Edwin Hutchins; Mark Johnson; Joe L. Kincheloe; George Lakoff; Humberto Maturana; Charles Lenay.
+. Rafael E. Núñez; Jean Piaget; Richard Rorty; Ron Sun; Evan Thompson; Francisco Varela; Terry Winograd; Alva Noë.
+.
+D'après David Reid: Gregory Bateson; Stuart Kauffman; Maurice Merleau-Ponty.
+. Marvin Minsky; Lev Vygotsky.
+. Ludwig Wittgenstein.
+.

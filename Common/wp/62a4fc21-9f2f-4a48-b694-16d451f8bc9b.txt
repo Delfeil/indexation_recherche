@@ -1,0 +1,22 @@
+En mathématiques, si n est un entier naturel, alors un n-uplet ou n-uple est une collection ordonnée de n objets, appelés "composantes" ou "éléments" ou "termes" du n-uplet.
+En programmation informatique, on trouve une notion équivalente dans certains langages, tels que Python, OCaml ou MDX. Dans les langages fonctionnels, les tuples sont réalisés comme types produits ; dans les langages impératifs, on trouve des tuples nommés, où les composantes sont repérées par un nom, sous la forme de struct (C) ou record (Pascal).
+Note : l'utilisation du terme anglais tuple, abréviation de quin-tuple-sex-tuple-..., est courante dans des ouvrages de programmation en français.
+
+Définitions
+Pour n 0, si nous notons a1 le premier élément, a2 le deuxième élément,.., an le n-ième élément, le n-uplet s'écrit : (a1,a2,...,an).
+Le 0-uplet s'écrit.
+L'égalité des n-uplets se définit par: (a1,a2,...,an) - (b1, b2,...,bn) si et seulement si a1 - b1 et a2 - b2... et an - bn.
+Un n-uplet d'éléments d'un ensemble E est un élément de sa n-ième puissance cartésienne En : un 1-uplet est un élément de E, un 2-uplet est un couple (ou doublet) et un 3-uplet est un triplet ; un 4-uplet est un quadruplet, un 5-uplet est un quintuplet, etc.
+Plus généralement, si E1,.., En, sont des ensembles, alors l'ensemble des n-uplets (a1,a2,...,an) où a1 appartient à E1,.., an appartient à En, est le produit cartésien de ceux-ci, noté E1... En.
+
+Exemples: De manière générale, les coordonnées sont des n-uplets. En particulier, les points de l'espace vectoriel ordinaire sont représentés par des triplets de nombres réels.; Les nombres complexes peuvent se construire à partir de couples de nombres réels.; Un quaternion peut être représenté par un quadruplet de nombres réels.; En théorie des nombres, les mathématiciens s'intéressent notamment aux triplets, quadruplets, quintuplets, sextuplets, etc. de nombres premiers.; En informatique, les objets d'un type de données enregistrement (record) sont des n-uplets.; Un n-uplet constitue les paramètres d'une fonction.
+
+Formalisation
+D'après la définition par récurrence du produit cartésien de n ensembles, un n-uplet peut être défini à partir de la notion de couple, qui elle-même peut se définir en termes d'ensembles : (a1, a2,.. an) - ((... ((a1, a2), a3),.. an-1), an).
+(c'est-à-dire qu'un (n + 1)-uplet est un couple dont la première composante est un n-uplet). Autrement dit : 1) est un 0-uplet; 2) si x - (a1, a2,.. an) est un n-uplet, alors (x,an+1) est un (n+1)-uplet, et (a1, a2,.. an, an+1) - (x, an+1).
+La propriété caractéristique des n-uplets (la définition de l'égalité) se démontre immédiatement par récurrence à partir de celle des couples.
+On a choisi pour définir un n+1-uplet d'ajouter un élément "à la fin" d'un n-uplet : c'est arbitraire, et il est possible de commencer par le début, c'est-à-dire de définir un n+1-uplet comme un couple dont la seconde composante est un n-uplet. Ceci conduit à une définition différente mais qui a les mêmes propriétés.
+Il est enfin possible de définir un n-uplet comme une suite finie, c'est-à-dire une fonction définie sur un ensemble fini, (0,.., n - 1) ou (1,.., n).
+
+Article connexe
+Suite presque nulle: Portail des mathématiques.

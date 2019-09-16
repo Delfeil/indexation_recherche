@@ -1,0 +1,83 @@
+En mathématiques et plus précisément en arithmétique, la décomposition en produit de facteurs premiers, aussi connue comme la factorisation entière en nombres premiers, consiste à chercher à écrire un entier naturel non nul sous forme d'un produit de nombres premiers. Par exemple, si le nombre donné est 45, la factorisation en nombres premiers est 3 5, soit 3 3 5.
+Par définition, un nombre premier ne peut pas être décomposé en produit de plusieurs nombres premiers. On peut aussi dire qu'il est sa propre décomposition. Quant au nombre 1, c'est le produit vide.
+5 - 5 25 - 5 5 - 5 125 - 5 5 5 - 5 360 - 2 2 2 3 3 5 - 2 3 5 1 001 - 7 11 13 1 010 021 - 17 19 53 59
+La factorisation est toujours unique, en accord avec le théorème fondamental de l'arithmétique. L'écriture des nombres entiers en produits de facteurs premiers en facilite la manipulation dans des problèmes de divisibilité, de fraction ou de racine carrée.
+La recherche d'algorithmes de décomposition est d'une importance considérable en mathématiques, en cryptologie, en théorie de la complexité des algorithmes, et pour les calculateurs quantiques.
+
+Décomposition en produit de nombres premiers
+Le théorème fondamental de l'arithmétique permet d'affirmer que tout entier strictement positif possède une décomposition en facteurs premiers. C'est-à-dire qu'il peut s'écrire de manière unique comme le produit fini de nombres premiers à une puissance adéquate.
+Pour tout nombre entier naturel n supérieur ou égal à 1, il existe une suite finie unique (p1, k1)... (pr, kr) telle que : 1) les pi sont des nombres premiers tels que, si i j, alors pi pj ;; 2) les ki sont des entiers naturels non nuls ;; 3) n est le produit des nombres piki.
+Une définition plus formelle de la décomposition en facteurs premiers fait appel à la notion de valuation p-adique.
+Pour tout nombre premier p et tout entier naturel n non nul, on détermine le plus grand entier naturel k tel que pk divise n. Cet entier se note vp(n) et s'appelle valuation p-adique de l'entier n.
+Ainsi vp(1) - 0 pour tout nombre premier p, v3(45) - 2 et v5(45) - 1.
+Si l'on note alors P (-displaystyle (-mathcal (P))) l'ensemble de tous les nombres premiers, tout entier naturel non nul n peut s'écrire sous la forme du produit
+Les vp(n) étant nuls sauf un nombre fini d'entre eux, ce produit infini est en fait un produit fini. Cette écriture est unique, c'est-à-dire que, s'il existe une famille (p) p P (-displaystyle (-alpha -(p))-(p-in (-mathcal (P)))) d'entiers naturels, tous nuls sauf un nombre fini d'entre eux, telle que
+alors pour tout p, p - v p (n) (-displaystyle -alpha -(p)-v-(p)(n)). On appelle alors cette écriture la décomposition de n en produit de facteurs premiers.
+
+Utilisations élémentaires
+L'écriture d'un entier sous forme d'un produit de facteurs premiers permet de simplifier le travail sur les produits, les multiples et les diviseurs. Elle permet aussi de trouver des formes réduites pour des quotients ou des racines.
+
+Multiples et diviseurs
+On suppose par la suite que la décomposition de n en produit de facteurs premiers s'écrit
+L'entier m est un multiple de n si et seulement si la décomposition de m en produit de facteurs premiers contient au moins tous les pi élevés à une puissance k'i supérieure ou égale à ki.
+L'entier d est un diviseur de n si et seulement s'il existe r entiers k'i vérifiant 0 k'i ki tels qued - i - 1 r p i k i '. (-displaystyle d--prod -(i-1)(r)p-(i)(k'-(i)).)
+Sous cette forme, il est alors possible de faire l'inventaire de tous les diviseurs de n et d'en déterminer le nombre :
+Ainsi les diviseurs de 45 sont : 3 0 5 0 , 3 1 5 0 , 3 2 5 0 , 3 0 5 1 , 3 1 5 1 , 3 2 5 1 , (-displaystyle 3(0)5(0),3(1)5(0),3(2)5(0),3(0)5(1),3(1)5(1),3(2)5(1),) soit 6 diviseurs.
+Plus généralement, le nombre de diviseurs de l'entier n - i - 1 r p i k i (-displaystyle n--prod -(i-1)(r)p-(i)(k-(i))) est i - 1 r (k i + 1) , (-displaystyle -prod -(i-1)(r)(k-(i)+1),) car un diviseur est constitué en choisissant arbitrairement un exposant pour p1 parmi k1 + 1 valeurs (de 0 à k1), un exposant pour p2 parmi k2 + 1 valeurs, etc.
+La somme des diviseurs positifs de n est donnée par la formule (n) - i - 1 r p i k i + 1 1 p i 1. (-displaystyle -sigma (n)--prod -(i-1)(r)(-frac (p-(i)(k-(i)+1)-1)(p-(i)-1)).)
+
+PGCD et PPCM
+Le PGCD de deux nombres entiers a et b supérieurs ou égaux à 2 a pour décomposition en facteurs premiers le produit des facteurs premiers apparaissant à la fois dans la décomposition de a et de b munis du plus petit des exposants trouvés dans la décomposition de a et de b. Ainsi, s i a - 2 3 3 4 5 2 7 e t b - 2 2 3 5 7 3 11 a l o r s p g c d (a , b) - 2 2 3 4 7. (-displaystyle (-rm (si))-quad a-2(3)-times 3(4)-times 5(2)-times 7-quad (-rm (et))-quad b-2(2)-times 3(5)-times 7(3)-times 11-quad (-rm (alors))-quad (-rm (pgcd))(a,b)-2(2)-times 3(4)-times 7.)
+Le PPCM de deux nombres entiers a et b supérieurs ou égaux à 2 a pour décomposition en facteurs premiers le produit des facteurs premiers apparaissant dans a ou dans b munis du plus grand des exposants trouvés dans la décomposition de a et de b. Ainsi, s i a - 2 3 3 4 5 2 7 e t b - 2 2 3 5 7 3 11 a l o r s p p c m (a , b) - 2 3 3 5 5 2 7 3 11. (-displaystyle (-rm (si))-quad a-2(3)-times 3(4)-times 5(2)-times 7-quad (-rm (et))-quad b-2(2)-times 3(5)-times 7(3)-times 11-quad (-rm (alors))-quad (-rm (ppcm))(a,b)-2(3)-times 3(5)-times 5(2)-times 7(3)-times 11.)
+
+Décomposition et valuation
+L'écriture de la décomposition sous forme d'un produit infini permet de résumer ces calculs en travaillant seulement sur les valuations. Diviseur : d divise n si et seulement si, pour tout nombre premier p, vp(d) vp(n).; Produit : la décomposition en facteurs premiers de ab consiste à faire les somme de valuations :a b - p P p v p (a) + v p (b). (-displaystyle ab--prod -(p-in (-mathcal (P)))p(v-(p)(a)+v-(p)(b)).); PGCD :pgcd (a , b) - p P p min (v p (a) , v p (b)). (-displaystyle (-text(pgcd))(a,b)--prod -(p-in (-mathcal (P)))p(-min(v-(p)(a),v-(p)(b))).); PPCM : ppcm (a , b) - p P p max (v p (a) , v p (b)). (-displaystyle (-text(ppcm))(a,b)--prod -(p-in (-mathcal (P)))p(-max(v-(p)(a),v-(p)(b))).).
+
+Formes réduites
+La décomposition en produit de facteurs premiers peut se révéler utile pour réduire une fraction en fraction irréductible, pour la décomposer en éléments simples, pour réduire deux fractions au même dénominateur ou pour réduire des expressions contenant des racines carrées ou des racines n-ièmes.
+
+Fractions irréductibles
+Pour réduire une fraction sous forme irréductible, il faut simplifier le numérateur et le dénominateur de la fraction par le PGCD de ces deux nombres. Une écriture des nombres en produit de facteurs premiers rend plus évidente la simplification : 1827 1050 - 3 2 7 29 2 3 5 2 7 - 3 29 2 5 2 - 87 50 (-displaystyle (-frac (1827)(1050))-(-frac (3(2)-times 7-times 29)(2-times 3-times 5(2)-times 7))(-)(-frac (3-times 29)(2-times 5(2)))-(-frac (87)(50)))
+
+Fractions réduites au même dénominateur
+Pour réduire deux fractions au même dénominateur, on peut choisir comme dénominateur commun le PPCM des deux dénominateurs. Là aussi la décomposition en produits de facteurs premiers peut se révéler utile : 5 28 + 3 70 - 5 2 2 7 + 3 2 5 7 - 5 5 2 2 7 5 + 3 2 2 5 7 2 - 31 2 2 5 7 - 31 140 (-displaystyle (-frac (5)(28))+(-frac (3)(70))-(-frac (5)(2(2)-times 7))+(-frac (3)(2-times 5-times 7))(-)(-frac (5-times -color (Red)5)(2(2)-times 7-times -color (Red)(5)))+(-frac (3-times -color (Red)2)(2-times 5-times 7-times -color (Red)2))(-)(-dfrac (31)(2(2)-times 5-times 7))-(-dfrac (31)(140)))
+
+Fractions décomposées en élément simples
+Toute fraction peut s'écrire comme somme ou différence de fractions dont le dénominateur est une puissance de nombre premier. Sous cette forme, appelée décomposition en éléments simples, il est facile de connaitre un développement décimal périodique de la fraction connaissant les périodes de chacune des fractions élémentaires. La décomposition en éléments simples utilise l'identité de Bézout et la décomposition du dénominateur en facteurs premiers. 5 28 - 5 2 2 7 (-displaystyle (-frac (5)(28))(-)(-frac (5)(2(2)-times 7))) On cherche alors deux entiers a et b tels que 5 - a 2 2 + b 7 (-displaystyle 5-a-times 2(2)+b-times 7). On peut prendre a--4 et b-3 5 28 - 3 7 4 4 2 2 7 - 3 4 4 7 - 0 , 75 0 , 571428 - - 0 , 17 857142 - (-displaystyle (-frac (5)(28))(-)(-frac (3-times 7-4-times 4)(2(2)-times 7))(-)(-dfrac (3)(4))-(-dfrac (4)(7))-0,75-0,(-underline (571428))-0,17(-underline (857142)))
+
+Réduction de racines
+Tout entier supérieur ou égal à 2 est un carré si tous les exposants de sa décomposition en produit de facteurs premiers sont pairs. Tout entier supérieur ou égal à deux se décompose en produit d'un carré et d'un nombre dont la décomposition en produits de facteurs premiers ne contient que des exposants égaux à 1. Sous cette forme, il est possible d'écrire une racine carrée sous forme irréductible : 4752 - 2 4 3 3 11 - (2 2 3) 2 3 11 - 12 33. (-displaystyle (-sqrt (4752))-(-sqrt (2(4)-times 3(3)-times 11))-(-sqrt ((2(2)-times 3)(2)-times 3-times 11))-12(-sqrt (33)).)
+Cette propriété se généralise à des racines n-ièmes.
+
+Algorithmes de factorisation
+S'il existe un algorithme simple à mettre en place pour décomposer un nombre de taille raisonnable, cet algorithme se révèle rapidement inefficace, en termes de temps, pour des très grands nombres. La recherche d'algorithmes performants est donc un objectif de la théorie des nombres.
+
+Algorithme naïf
+Il s'agit tout simplement de balayer la liste des nombres premiers en testant si le nombre premier p divise n. Si oui, on recommence l'algorithme pour n-p, en ne testant que les diviseurs premiers encore envisageables. On s'arrête quand le nombre premier à tester devient supérieur à la racine carrée du nombre qu'il est censé diviser.
+Ainsi pour décomposer 2088 en produit de facteurs premiers
+2088. 2. (-displaystyle -,). 2 divise 2088 le quotient est 1044. 1044. 2. 2 divise 1044, le quotient est 522. 522. 2. 2 divise 522, le quotient est 261. 261. 3. 2 ne divise pas 261, mais 3 divise 261 et le quotient est 87. 87. 3. 3 divise 87 et le quotient est 29. 29. ni 3, ni 5 ne divisent 29 et 7 est plus grand que 29 (fin).
+2088 - 2 3 3 2 29 (-displaystyle 2088-2(3)-times 3(2)-times 29)
+
+Applications pratiques
+Soient deux grands nombres premiers donnés, il est facile d'en obtenir le produit. Par contre, il est beaucoup plus difficile de trouver les facteurs premiers de celui-ci. C'est ce que l'on appelle une fonction trappe. Ceci s'applique pour les systèmes modernes en cryptologie. Si une méthode rapide était trouvée pour résoudre le problème de la factorisation des nombres entiers, alors plusieurs systèmes cryptologiques importants seraient cassés, incluant l'algorithme à clé publique RSA et le générateur de nombres pseudo-aléatoires Blum Blum Shub. La mise au point d'un ordinateur quantique est une de ces méthodes.
+Bien que la factorisation soit une manière de casser ces systèmes, il peut exister d'autres manières de les casser qui n'impliquent pas la factorisation. Ainsi, il est possible que le problème de la factorisation entière soit vraiment difficile, mais ces systèmes peuvent quand même être cassés rapidement. Une exception rare est le générateur Blum Blum Shub. Il a été prouvé qu'il est exactement aussi difficile que la décomposition en produit de facteurs premiers : si vous pouvez casser le générateur en temps polynomial alors, vous pouvez factoriser les entiers en temps polynomial, et vice versa.
+
+État actuel de l'art
+Si un grand nombre à n-bit est le produit de deux nombres premiers qui sont probablement de la même taille, alors aucun algorithme n'est actuellement connu pour pouvoir le factoriser en temps polynomial. Ce qui veut dire qu'il n'existe pas d'algorithme connu pouvant le factoriser en temps O(n) quelle que soit la constante k. Il existe des algorithmes, néanmoins, qui sont aussi rapides que (e). En d'autres termes, les meilleurs algorithmes connus sont sous-exponentiels, mais super-polynômiaux. En particulier, le meilleur algorithme connu s'exécutant en temps asymptotique est le crible général de corps de nombres (GNFS).
+Pour un ordinateur ordinaire, GNFS est le meilleur algorithme connu pour les grands n. Pour un calculateur quantique, en revanche, Peter Shor a découvert un algorithme en 1994 qui le résout en temps polynomial. Ceci aura des implications significatives pour la cryptologie si un grand calculateur quantique est construit un jour. L'algorithme de Shor prend seulement O(n) de temps et O(n) d'espace. Les formes de l'algorithme sont connues pour utiliser seulement 2n qubits. En 2001, le premier calculateur quantique 7-qubit devint le premier à exécuter l'algorithme de Shor. Il factorisa le nombre 15.
+
+Difficulté et complexité
+On ne connaît pas exactement quelles classes de complexité contiennent le problème de la décomposition en produit de facteurs premiers. Le problème de décision de forme "N admet-il un facteur premier inférieur à M " est connu pour être à la fois NP et co-NP. Ceci parce que les réponses OUI et NON peuvent être données en temps polynomial si les facteurs premiers sont donnés : on peut vérifier leur primalité grâce au test de primalité AKS, puis vérifier que leur produit vaut N, et enfin vérifier si l'un des facteurs est inférieur à M.
+Le problème de la décomposition est connu comme étant dans BQP à cause de l'algorithme de Shor. Il est suspecté, comme le problème de l'isomorphisme de graphes, d'être strictement entre les classes P et NP-complet (ou co-NP-complet). S'il peut être démontré qu'il est NP-Complet ou co-NP-Complet, cela impliquerait NP - co-NP. Ce serait un résultat très surprenant, par conséquent la factorisation entière est largement suspectée d'être en dehors de ces classes. Beaucoup de personnes ont essayé de trouver des algorithmes en temps polynomial pour cela et ont échoué ; par conséquent, ce problème est largement suspecté d'être également en dehors de P.
+De manière intéressante, le problème de décision "N est-il un nombre composé " (ou de façon équivalente : "N est-il un nombre premier ") apparaît comme étant plus facile que le problème consistant à trouver les facteurs de N. Plus précisément, la question ci-dessus peut être résolue en temps polynomial (en nombre n des chiffres de N). De plus, il existe un nombre d'algorithmes probabilistes qui peuvent tester la primalité d'un nombre très rapidement si l'un d'eux est susceptible d'accepter une petite possibilité d'erreur. La facilité de test d'un nombre premier est une partie cruciale de l'algorithme RSA, comme il est nécessaire de trouver de grands nombres premiers à utiliser avec lui.
+
+But spécial
+Le temps d'exécution des algorithmes de factorisation à but spécial dépend des propriétés de ses facteurs inconnus : taille, forme spéciale, etc. De manière exacte, le temps d'exécution dépend de ce qui varie entre les algorithmes. Divisions successives; Algorithme rho de Pollard; Algorithme p-1 de Pollard; Factorisation en courbe elliptique de Lenstra; Congruence de carrés (Méthode de factorisation de Fermat); Crible spécial de corps de nombres (SNFS).
+
+But général
+Le temps d'exécution des algorithmes de factorisation à but général dépend seulement de la taille de l'entier à factoriser. Ceci est le type d'algorithme utilisé pour factoriser les nombres RSA. La plupart des algorithmes de factorisation à but général sont basés sur la méthode des congruence de carrés. Crible quadratique; Crible général de corps de nombres (GNFS).
+
+Voir aussi
+
+Article connexe
+Partition d'un entier qui correspond à la décomposition d'un entier additivement, qui, elle, n'est pas unique et dont le nombre de possibilités est objet d'étude.

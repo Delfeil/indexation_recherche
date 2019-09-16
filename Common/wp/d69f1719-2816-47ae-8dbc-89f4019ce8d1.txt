@@ -1,0 +1,34 @@
+Un fil d'Ariane (en anglais, breadcrumb, "miette de pain", voir section "étymologie" ci-dessous) est, en ergonomie et plus particulièrement de nos jours dans le domaine de la conception d'interfaces informatiques, une aide à la navigation sous forme de signalisation de la localisation du lecteur dans un document (très souvent, une page d'un site web). Leur but est de donner aux utilisateurs un moyen de garder une trace de leur emplacement à l'intérieur de programmes, documents ou pages Web.
+
+Étymologie
+Le nom fil d'Ariane provient de l'Ariane de la mythologie grecque, dont le fil sauva Thésée dans le Labyrinthe. Le terme anglais breadcrumb ("miette de pain") vient des traces formées de miettes de pain que laissèrent Hansel et Gretel dans le conte populaire bien connu des frères Grimm (tout comme dans l'histoire du Petit Poucet de Charles Perrault, plus connue des Français).
+
+Utilisation sur le Web
+Les fils d'Ariane apparaissent typiquement horizontalement en haut d'une page Web, usuellement sous une barre de titre ou les en-têtes de page. Ils fournissent des liens en arrière sur chaque étape (page) parcourue par l'utilisateur au fil de sa navigation à travers l'interface afin de pouvoir se positionner au sein du site et éventuellement revenir sur ses pas depuis le point d'entrée (de départ) du site Web.
+Les fils d'Ariane sont souvent générés automatiquement. Par exemple, un fil d'Ariane dans un site web graphique pourrait ressembler à ceci :
+ Accueil Émissions Jeunesse Téléachat
+Sur un site web, un fil d'Ariane représente l'arborescence des rubriques que le visiteur a traversées depuis la page d'accueil.
+Par exemple, l'annuaire libre dmoz utilise les fils d'Ariane (voir un exemple).
+
+Catégories de fils d'Ariane
+Il existe trois types de fils d'Ariane pour site web : Chemin (path) : les fils d'Ariane de chemin sont dynamiques et montrent le chemin que l'utilisateur a parcouru pour arriver jusqu'à cette page.; Emplacement (location) : les fils d'Ariane d'emplacement sont statiques et montrent où la page se situe dans la hiérarchie du site web.; Attribut (attribute) : les fils d'Ariane d'attribut donnent des informations sur la catégorie de la page courante.
+
+Une technique d'accessibilité des contenus Web
+Les fils d'Ariane du type emplacement sont une des techniques de base d'accessibilité des contenus Web : ils permettent en effet de répondre à l'un des critères de succès des Règles pour l'accessibilité des contenus Web (WCAG) 2.0, selon lequel "l'utilisateur dispose d'informations pour se situer dans un ensemble de pages Web".
+
+Global Positioning System (GPS)
+Les GPS et outils dérivés les plus sophistiqués peuvent garder une trace des déplacements effectués par un GPS en enregistrant les positions du voyageur à certains moments et en les présentant sur l'écran GPS par un fil d'Ariane de trace des marqueurs de position.
+
+Cookie crumb (miettes de biscuit)
+Certains commentateurs et programmeurs utilisent alternativement le terme de "cookie crumb" (ou certaines variantes) en tant que synonyme pour décrire la technique de navigation mentionnée précédemment, mais cet usage est considéré comme incorrect et le plus souvent représente une déformation de la métaphore originale de "breadcrumb". Cette mauvaise utilisation est de plus problématique car le "cookie crumb" est souvent utilisé pour décrire une date ou un paramètre à l'intérieur d'un fichier cookie (informatique).
+
+Critiques d'ergonomie
+Certains commentateurs critiquent les fils d'Ariane de type chemin parce qu'ils dupliquent les fonctionnalités qui existent déjà dans le navigateur, par exemple le bouton retour (back) et l'historique de navigation.
+De plus, dans un stockage hiérarchique, un fil d'Ariane ne fournit pas d'accès fixe au parent immédiat : l'utilisateur doit examiner le fil pour trouver l'emplacement du bon lien.
+Les fils d'Ariane de type emplacement ne sont pas nécessairement appropriés pour les sites dont le contenu est tellement riche qu'une seule catégorie ne suffit pas à décrire totalement une partie précise. C'est une situation courante dans les sites qui mettent en oeuvre le paradigme basé sur la recherche (par exemple Amazon). En général, là où une hiérarchie stricte n'est pas applicable, les fils d'Ariane d'emplacement ne sont pas appropriés.
+
+Source: (en) Cet article est partiellement ou en totalité issu de l'article de Wikipédia en anglais intitulé "Breadcrumb (navigation)".
+
+Voir aussi: Vous êtes ici; Utilisabilité; Ergonomie informatique.
+
+Liens externes (en anglais): Breadcrumb Navigation - Statistics par Heidi Adkisson, 2002.; Breadcrumb Navigation: Further Investigation of Usage par Bonnie Lida Rogers and Barbara Chaparro, 2003; Influence of Training and Exposure on the Usage of Breadcrumb Navigation par Spring S. Hull, 2004; Location, Path et Attribute Breadcrumbs par Keith Instone; Breadcrumb Navigation Deployment in Retail Web Sites par Sean Aery, 2007. Portail de l'informatique.

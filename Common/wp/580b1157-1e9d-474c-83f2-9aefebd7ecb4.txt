@@ -1,0 +1,61 @@
+Une interface en ligne de commande (en anglais command line interface, couramment abrégé CLI) est une interface homme-machine dans laquelle la communication entre l'utilisateur et l'ordinateur s'effectue en mode texte : l'utilisateur tape une ligne de commande, c'est-à-dire du texte au clavier pour demander à l'ordinateur d'effectuer une opération ;; l'ordinateur affiche du texte correspondant au résultat de l'exécution des commandes tapées ou à des questions qu'un logiciel pose à l'utilisateur.
+Une interface en ligne de commandes peut servir aussi bien pour lancer l'exécution de divers logiciels au moyen d'un interpréteur de commandes, que pour les dialogues avec l'utilisateur de ces logiciels. C'est l'interaction fondamentale entre un homme et un ordinateur (ou tout autre équipement informatique).
+Lorsqu'une interface est prête à recevoir une commande, elle l'indique par une invite de commande. Celle-ci, parfois désignée par l'anglicisme prompt, consiste en quelques caractères, en début de ligne (généralement, le nom de compte de l'utilisateur, et-ou l'unité logique par défaut, et-ou le chemin par défaut, et-ou date...), se terminant par un caractère bien connu (souvent ")", ou), invitant l'utilisateur à taper une commande.
+
+Historique
+L'interface en ligne de commande est la plus ancienne des interfaces conversationnelles développées sur des ordinateurs. Avant cela, les ordinateurs fonctionnaient en traitement par lots : on soumettait à l'ordinateur des données enregistrées sur une série de cartes perforées ou une bande perforée. Ces données indiquaient à l'ordinateur quels programmes lancer et de quelles informations ces programmes disposaient pour s'exécuter. Le résultat du traitement (réussi ou erroné) était imprimé sans qu'aucun dialogue avec l'utilisateur ne soit intervenu.
+L'apparition des télétypes dans les années 1960, puis, plus tard des consoles à partir des années 1970, qui sont des périphériques qui reçoivent et envoient des caractères à l'ordinateur, a permis le travail sur ordinateur sous la forme de sessions. Le dialogue entre l'utilisateur et l'ordinateur s'effectuait alors en ligne de commandes.
+À partir des années 1980, l'apparition de terminaux en mode graphique et des souris a permis le développement des interfaces graphiques, plus appréciés du grand public, peut être parce qu'elles ne nécessitent pas d'apprendre les noms de différentes commandes avant d'utiliser un ordinateur. Néanmoins, tout particulièrement sur les systèmes d'exploitation dérivés d'Unix, les interfaces en ligne de commandes restent encore de nos jours appréciées de certains informaticiens, étant donné la richesse de leurs possibilités.
+
+L'interface en lignes de commandes sous Unix
+L'une des particularités du système d'exploitation Unix, dont Linux est dérivé, est que, dès son origine, il a disposé de plus d'une centaine de logiciels, effectuant souvent des traitements très simple, tous utilisables en ligne de commandes.
+
+Syntaxe générale des commandes
+Les commandes élémentaires sous Unix sont de la forme :
+La commande apparaissant en début de ligne est presque toujours le nom d'un programme. Ce programme peut être une commande du système d'exploitation, un logiciel écrit par un utilisateur (souvent en langage C) ou un shell. Quelques rares commandes comme la commande cd (changement de dossier - répertoire) ne peuvent pas être traitées correctement par un logiciel spécifique. Elles sont dans ce cas directement exécutées par l'interpréteur de commandes.
+Certaines de ces commandes peuvent s'exécuter en tapant au clavier seulement leur nom. Mais la plupart des commandes acceptent des options (un tiret suivi d'une ou plusieurs lettres) qui permettent d'utiliser la commande autrement que dans son mode de fonctionnement par défaut. Enfin, bon nombre de commandes sont suivies d'un ou plusieurs noms de fichier, répertoire ou autre, avec lesquels elles vont travailler. Toutes les informations séparées par des espaces à droite du nom de la commande sont appelées arguments de la ligne de commandes.
+Le langage C a été conçu pour permettre de récupérer facilement les arguments de la ligne de commandes depuis le logiciel qui les utilise.
+Enfin, afin de savoir comment employer un logiciel, une documentation (Man pages) est à la disposition de l'utilisateur. Elle s'emploie en faisant précéder la commande par man.
+
+Option
+Une option en ligne de commande ou plus une option (que l'on appelle aussi parfois un flag) modifie le fonctionnement d'une commande. L'effet de l'option dépend de la commande. Généralement, les options suivent immédiatement le nom de la commande sur la ligne de commande, et sont séparées entre elles par des espaces.
+Le format des options est très variable. Le plus souvent, la syntaxe utilisée repose sur une convention plutôt que sur une exigence du système d'exploitation. Le plus souvent, sous Unix, les options sont introduites par - et sont sensibles à la casse. Les monogrammes sont fréquents, mais les programmes récents ont tendance à proposer des options dont les noms sont longs et plus clairs.
+Il est impossible de savoir a priori quelles options un programme reconnaît, à moins de consulter sa documentation. Cependant, il est d'usage courant (mais pas systématique) qu'un programme affiche un résumé de ses options lorsqu'il est lancé en ligne de commande avec l'une des options suivantes : -; -h; -; -h; -help; ou --help.
+
+Les redirections d'entrées-sorties
+Par défaut, les commandes conversationnelles récupèrent les données tapées par l'utilisateur au clavier. Le résultat de leur exécution s'affiche à l'écran. En cas d'erreur à l'exécution, les messages d'erreur apparaissent aussi à l'écran.
+Il est possible d'indiquer à l'interpréteur de commandes que des données en entrée ou en sortie doivent être récupérées-stockées dans des fichiers plutôt qu'au clavier et à l'écran. Pour cela, différents types de redirection des entrées-sorties sont disponibles : entree signifie que les données de la commande seront lues dans le fichier de nom entree plutôt qu'au clavier ;; sortie signifie que les données générées par la commande seront écrites dans le fichier de nom sortie plutôt qu'à l'écran. Si le fichier sortie existait déjà, son ancien contenu est effacé, sinon ce fichier est créé au lancement de la commande ;; sortie semblable au cas précédent sauf que si le fichier sortie existait déjà, son ancien contenu est conservé et les nouvelles données sont copiées à la suite ;; 2 erreur signifie que les messages d'erreur générés par la commande seront écrits dans le fichier de nom erreur plutôt qu'à l'écran. Si le fichier erreur existait déjà, son ancien contenu est effacé, sinon ce fichier est créé au lancement de la commande ;; 2 erreur semblable au cas précédent sauf que si le fichier erreur existait déjà, son ancien contenu est conservé et les nouveaux messages d'erreur sont copiés à la suite ;; 21 les messages d'erreurs sont fusionnés avec les données en sortie ;; 12 les données en sortie sont fusionnés avec les messages d'erreurs (cas rare).
+Exemples :
+affiche à l'écran les lignes du fichier monfichier classées par ordre alphabétique. Si le fichier monfichier n'existe pas, un message d'erreur apparaît à l'écran.
+mémorise dans le fichier resultat les lignes du fichier monfichier classées par ordre alphabétique. Si le fichier monfichier n'existe pas, un message d'erreur apparaît dans le fichier problemes.
+
+Enchaînement des commandes
+Les systèmes d'exploitation de type Unix permettent d'enchaîner l'exécution de plusieurs commandes. Les données en sortie d'une commande sont utilisées en entrée de la commande suivante sans qu'il soit nécessaire de recourir à des fichiers intermédiaires.
+La syntaxe générale est :
+Exemple : la commande find recherche dans tous les répertoires de l'ordinateur les fichiers de plus de 1000 kilooctets modifiés durant les 7 derniers jours et affiche leur chemin d'accès; la commande sort fait un tri alphabétique des données reçues en entrée; la commande tee envoie à la fois à l'écran et dans le fichier trace les données reçues en entrée; la commande less permet de visualiser un texte trop long pour tenir en entier à l'écran. On peut se déplacer dans ce texte en utilisant le clavier.
+En une seule ligne de commandes, la commande ci-dessus recherche dans tous les répertoires de l'ordinateur les fichiers de plus de 1000 kilooctets modifiés durant les 7 derniers jours, en affiche page par page avec possibilité de se déplacer dans la liste les chemins d'accès triés par ordre alphabétique, et mémorise également ces chemins d'accès dans le fichier trace.
+
+Les métacaractères
+Des métacaractères peuvent être utilisés dans les lignes de commandes pour exprimer des noms de fichiers qui possèdent une partie commune : signifie n'importe quel caractère; - signifie n'importe quel caractère, 0, une ou plusieurs fois; (c1-c2) signifie n'importe quel caractère de l'ensemble ordonné commençant par le caractère c1 et finissant par le caractère c2. Il peut aussi y avoir une liste de caractères entre les.; - signifie que le caractère qui le suit ne doit pas être traité comme un métacaractère; le caractère. en première position doit être précisé explicitement.
+Exemples : - signifie tous les fichiers du répertoire courant (sauf ceux dont le nom commence par un point); -usr-bin-vi- signifie tous les fichiers du répertoire -usr-bin dont le nom commence par vi; -dev-hd(abcd)(0-9) signifie tous les fichiers du répertoire -dev dont le nom commence par hda, hdb, hdc, hdd, suivi d'un chiffre unique; a signifie tous les fichiers du répertoire courant dont le nom comporte 3 caractères avec un a au milieu (et pas de point au début).
+
+Utilisation du résultat d'une commande comme argument d'une autre
+Les ' entourant une commande permettent d'utiliser le résultat de cette commande comme argument(s) dans la ligne de commande.
+Exemples :
+affiche une phrase contenant la date et l'heure courante. Pour cela, la commande date est exécutée 2 fois avec un format de sortie différent.
+affiche 2 + 2 - 4 après avoir fait le calcul.
+
+Autres particularités: le ; dans une ligne de commandes permet d'exécuter les unes après les autres, plusieurs commandes saisies sur la même ligne; la suite de caractères (qui signifient et) entre 2 morceaux d'une commande, a pour conséquence que la partie droite de la commande s'exécutera seulement si la partie gauche s'est bien déroulée; les suites de caractères (qui signifient ou) entre 2 morceaux d'une commande, a pour conséquence que la partie droite de la commande s'exécutera même si la partie gauche s'est mal déroulée. Selon la version d'Unix en vigueur, la partie droite pourra ne s'exécuter que si la partie gauche s'est mal exécutée (exemple de test : echo test1 echo test2).; le et à la fin d'une commande permet de lancer celle-ci en tâche de fond.
+
+L'interface en lignes de commandes MS-DOS
+MS-DOS a été créé au tout début des années 1980. Il fonctionne en ligne de commandes avec le même genre de syntaxe que les commandes Unix. Mais la liste des commandes disponibles sous MS-DOS est beaucoup plus réduite.
+Certaines commandes comme sort jouent le même rôle sous Unix et sous MS-DOS.
+D'autres commandes ont un nom différent dans les 2 systèmes d'exploitation. Ainsi, la commande find : permet de rechercher des fichiers sous Unix ;; permet de rechercher des chaînes de caractères dans un fichier sous MS-DOS, ce que fait la commande fgrep sous UNIX (ou grep -f sous Linux).
+Les lignes de commandes MS-DOS ont globalement la même syntaxe que les commandes Unix, mais les possibilités sont plus réduites.
+MS-DOS permet : l'utilisation des métacaractères - et ;; la redirection des entrées-sorties, sauf pour la sortie erreur ;; l'enchaînement des commandes grâce au.
+
+L'interface en lignes de commandes de Windows NT
+cmd.exe est l'interface en ligne de commande des systèmes d'exploitation de la famille Windows NT (incluant Microsoft Windows 2000, Microsoft Windows XP, Microsoft Windows Vista...). C'est une évolution de l'interface de MS-DOS.
+Avec Windows Vista, apparaît un nouvel environnement en ligne de commande Windows PowerShell, fonctionnant également sous Windows XP SP2.
+
+Articles connexes: Commandes Unix; Console Win32; Environnement en mode texte; Interpréteur de commandes. Portail de l'informatique.

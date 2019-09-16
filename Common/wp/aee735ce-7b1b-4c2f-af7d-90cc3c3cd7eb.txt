@@ -1,0 +1,36 @@
+Une carte son est une carte d'extension d'ordinateur. La principale fonction de cette carte est de gérer tous les sons émis - pour les envoyer vers les haut-parleurs - ou reçus par l'ordinateur. Elle se présente sous la forme d'un périphérique que l'on peut connecter à l'ordinateur sur un bus PCI, PCI Express, PCMCIA (pour ordinateur portable), USB ou Firewire.
+
+Historique
+Le début de la numérisation du son "grand public" peut être estimé à 1981, date de la création du CD. Le premier synthétiseur sur ordinateur personnel serait celui du Commodore 64 en 1982.
+En 1983 apparaît la norme MIDI, avec une connexion intégrée sur les Atari ST dès 1985.
+La première carte pour PC est commercialisée en 1987. C'est l'Ad Lib Personal Computer System, suivie de peu par celle de Creative Labs. La Sound Blaster sort en 1989, première d'une lignée. La carte Sound Blaster pro adopte la stéréophonie en 1992, la Sound Blaster 16, la qualité CD. Cette dernière comporte une table d'échantillons à la norme MIDI rendant la reproduction des différents instruments beaucoup plus fidèle.
+Les cartes son d'avant 1990 ne géraient que deux voix en sortie (stéréo). Depuis l'apparition de l'ère dite "multimédia", la carte son se complexifie, pouvant gérer aujourd'hui jusqu'à 8 sorties audio indépendantes (8 haut-parleurs : 2 avant droits, 2 avant gauches, 1 central, 2 arrière et un caisson de basses) pour rendre un effet de positionnement spatial.
+La norme MP3, créée en 1992 et diffusée en 1995, va grandement faciliter le stockage et la transmission des morceaux de musique.
+Depuis le de début des années 2000, les configurations informatiques classiques d'ordinateur de bureau ou portable ne disposent généralement plus d'une carte son séparée, elle fait partie de la carte mère.
+
+En résumé: 1981 : création du CD; 1982 : le premier synthétiseur sur un ordinateur personnel serait celui du Commodore 64; 1983 : nouvelle norme : MIDI; 1987 : 1re carte son pour PC commercialisée en 1987; 1989 : sortie du Sound Blaster; 1992 : adaptation de la stéréophonie pour la Sound Blaster Pro; 1992 : apparition du MP3; 1995 : 1re diffusion du MP3.
+
+Architecture
+Carte son Creative Labs Audigy 2 ZS
+La carte son repose généralement sur un processeur DSP (Digital Signal Processor) pour le traitement des signaux audio, qui communique avec le processeur central (CPU) via le bus d'extension de l'ordinateur (PCI ou PCI-E). Elle est équipée de convertisseurs analogique-numérique pour numériser des signaux externes (micro...), et de convertisseurs numérique-analogique pour restituer les signaux audibles vers les enceintes ou le casque. La plupart possèdent également une interface MIDI pour communiquer avec des synthétiseurs, également utilisée pour connecter un joystick.
+Les DSP des cartes son, étant spécialisés pour le traitement des signaux sonores, sont souvent appelés APU (Audio Processing Unit). Pour un besoin d'efficacité, les APU accèdent à la mémoire centrale (RAM) par un bus DMA pour ne pas avoir à surcharger le processeur central.
+Certaines cartes haut de gamme comportent plusieurs processeurs DSP, de la mémoire additionnelle, des entrées-sorties numériques, ou encore un boîtier de connexion externe (contenant les convertisseurs). D'autres, de bas de gamme, sont directement intégrées à la carte mère.
+Il faut savoir qu'une carte son fonctionne la plupart du temps en mode numérique, cela veut donc dire que le signal qui est lu l'est dans la plupart des cas sous forme numérique. L'unité de base d'une carte son est donc l'échantillon.
+Les cartes son sont généralement classées suivant deux critères principaux : la résolution et l'échantillonnage. La résolution correspond au niveau de détail d'un échantillon, plus la résolution est élevée, plus le son sera précis et fin. Actuellement les cartes son grand public fonctionnent en 16 ou 24 bits, cela signifie que lors de la numérisation, le signal analogique peut être codé sur 16 ou 24 bits, cela veut donc dire respectivement codé sur 65536 valeurs ou sur un petit peu plus de 16 millions de valeurs.
+Le deuxième critère de sélection est l'échantillonnage, à ce critère correspond une fréquence exprimée en hertz ou en kilohertz. Cette fréquence correspond au nombre d'échantillons qui seront produits à la seconde lors de l'échantillonnage. Les cartes son actuelles présentent des fréquences d'échantillonnage de l'ordre de 44100 Hz à 192 kHz. Plus l'échantillonnage est élevé, plus le son est détaillé.
+
+Les éléments de la Carte Son
+Voici la liste des principaux éléments d'une carte son.
+
+Électronique de la Carte Son: Le processeur spécialisé : l'APU (Audio Processing Unit, c'est un DSP (Digital Signal Processor) spécialisé dans le son), chargé de tous les traitements numériques du son (écho, réverbération, vibrato, chorus, tremolo, effets 3D, etc.) ;; Le convertisseur numérique-analogique appelé DAC (digital to analog converter) permettant de convertir les données audio de l'ordinateur en signal analogique vers un système de restitution sonore (enceintes, amplificateur, etc.) ;; Le convertisseur analogique-numérique appelé ADC (analog to digital converter) permettant de convertir le signal analogique des entrées en données audio numériques pouvant être traitées par l'ordinateur ;; Des amplificateurs opérationnels (OP-AMP) pour donner du volume en entrée et en sortie de la carte son.
+
+Les connecteurs d'Entrées-Sorties externes
+Les connecteurs de la carte son sont codés par couleurs comme définis dans la charte des PC. Ils sont aussi associés à des symboles avec des flèches, ronds et vagues de son qui correspondent à la fonction associée au connecteur.
+
+Les prises Jack
+
+Les autres prises: Une sortie numérique SPDIF (Sony Philips Digital Interface, noté également S-PDIF ou S-PDIF ou bien IEC 958 ou IEC 60958 depuis 1998). Il s'agit d'une sortie permettant d'envoyer les données sonores au format numérique à un amplificateur numérique au moyen d'un câble coaxial terminé par des connecteurs RCA.; Une interface MIDI, généralement de couleur or (ocre) permettant de connecter des instruments de musique et pouvant faire office de port de jeu (game port en anglais) pour le branchement d'une manette (joystick ou gamepad) possédant une prise D-SUB 15.
+
+Les connecteurs d'Entrées-Sorties internes: Connecteur CD-ROM - DVD-ROM, possédant un connecteur noir, permettant de connecter la carte son à la sortie audio analogique du CD-ROM à l'aide d'un câble CD audio ;; Entrée auxiliaire (AUX-In) possédant un connecteur blanc, permettant de connecter des sources audio internes telles qu'une carte tuner TV ;; Connecteur pour répondeur téléphonique (TAD, Telephone Answering Devices) possédant un connecteur vert ;.
+
+Voir aussi: Portail de l'informatique; Portail de la musique.

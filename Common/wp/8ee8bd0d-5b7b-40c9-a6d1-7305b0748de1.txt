@@ -1,0 +1,63 @@
+Portail de la Datascience
+Ce portail vise à rassembler les articles autour de la donnée, de la datascience, des technologies Big data, et de la DataViz (Data visualisation)
+modifier
+Statistique
+Base : Statistique descriptive Statistique inférentielle Anova Analyse des données Régression linéaire Régression polynomiale
+Méthode : ACP AFC ACM
+Loi et tests : Loi normale Test du Test d'hypothèse
+Divers : Tableau de contingence Tableau disjonctif complet Table de Burt Homoscédasticité Hétéroscédasticité Distance de Cook Régression des moindres carrés partiels Méthode de Ward Erreur quadratique moyenne Régression PLS Statistique multivariée
+modifier
+Outils informatique
+Hadoop Tableau Software
+Autour de Hadoop : Apache Drill Apache Flume Apache Hive Apache Kafka Apache Oozie Apache Pig Apache Spark Apache Sqoop Apache Zeppelin Apache ZooKeeper Cloudera Hortonworks MapR HBase Impala (Cloudera) MapReduce Presto (moteur de requête SQL) Hadoop YARN Elasticsearch Solr Hue (Hadoop)
+Langages : R (langage de programmation et environnement statistique) (Ggplot2) Scala (langage) Python (langage) (Scikit-learn) Julia (langage de programmation) SQL
+Divers : Vagrant Apache Mahout
+Jeux de données : Iris (jeu de données)
+Logiciels : Tanagra RStudio SAS SPSS Orange
+Bases de données : MongoDB Cassandra CouchDB HBase
+Formats de données : JSON XML CSV Tabulation-separated values Predictive Model Markup Language YAML
+Concepts : Data lake Datamart Datawarehouse
+modifier
+Machine Learning
+Apprentissage supervisé: Arbre de décision Boosting Forêts aléatoires k-NN
+Apprentissage semi supervisé:
+Apprentissage non supervisé: cartes de Kohonen
+Divers : Deep learning Apprentissage actif Perceptron Perceptron multicouche Réseau de neurones artificiels TF-IDF Regroupement hiérarchique QUEST (arbre de décision)
+modifier
+Théorie et Concepts
+Dilemme biais-variance Datamining Surapprentissage Données non structurées
+NoSQL NewSQL Traitement analytique en ligne
+Divers nettoyage des données : Flexion (linguistique) Lexème (linguistique) Nettoyage de données
+modifier
+DataViz
+Type de représentation : Dendrogramme Nuage de mots-clés Nuage de points Corrélogramme
+Logiciels : Business Objects Tableau Software Qlik
+Articles connexes : Carte heuristique
+modifier
+Divers
+Watson (intelligence artificielle) Loi de Zipf Claude Shannon Web scraping Intelligence collective Intelligence collective sur Internet test de turing Amazon Mechanical Turk
+Les Listes : Liste des projets autour du big data Glossaire de l'exploration de données
+modifier
+Sources de données
+Open data
+Généralistes
+INSEE Portail des données ouvertes de l'Union européenne data.gouv.fr Open data en France API Divers jeux de données AWS
+Spécialisées
+OpenStreetMap Open Food Facts
+modifier
+Petit monde Wikipédia
+Palettes et barres : Modèle:Palette Datascience Modèle:Palette Big data Modèle:Palette Statisticiens Modèle:Palette Apprentissage automatique
+Catégories : Catégorie:Science des données Catégorie:Écosystème Hadoop Catégorie:Exploration de données
+Boîtes : Modèle:Utilisateur Datascientist
+Articles à créer : Apache Tez, Apache beeline
+Articles à traduire : Apache Parquet
+Articles à relire, améliorer, modifier : Hadoop, Iris (jeu de données),Apache Beam, Apache Phoenix(quelques sections à traduire),Liste des projets autour du big data
+modifier
+Ailleurs que sur Wikipédia
+Autres projets:
+Wikibook : Programmation statistiques avec R Découvrir Scilab Apprendre à programmer avec Python
+Wikiquote : Big data
+Wiktionnaire : Big data Datamining
+Littérature Auteurs : Stéphane Tufféry
+Internet : wikistat.fr http:--www.jybaudot.fr-General-indexstats.html http:--factominer.free.fr-classical-methods-index-fr.html
+modifier: Portail des probabilités et de la statistique; Portail de l'informatique; Portail des bases de données.

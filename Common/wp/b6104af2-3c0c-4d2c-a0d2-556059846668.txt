@@ -1,0 +1,18 @@
+La néguentropie ou entropie négative, est un facteur d'organisation des systèmes physiques, et éventuellement sociaux et humains, qui s'oppose à la tendance naturelle à la désorganisation : l'entropie.
+
+Présentation
+Ce concept a été initialement introduit par le physicien autrichien Erwin Schrödinger en 1944 dans son ouvrage Qu'est-ce que la vie pour expliquer la présence de "l'ordre" à l'intérieur des êtres vivants et leur tendance à s'opposer au chaos et à la désorganisation qui régit les systèmes physiques, puis développé et mis en perspective à partir des travaux du mathématicien Claude Shannon par le physicien français Léon Brillouin dans son ouvrage La Science et la théorie de l'information (1956).
+L'entropie n'est certes pas citée dans le livre du physicien Sadi Carnot intitulé Réflexions sur la puissance motrice du feu, mais ses travaux repris ensuite par Lord Kelvin, introduisent ce concept.
+L'entropie est énoncée, dans le second principe de la thermodynamique de Lord Kelvin, comme spontanément croissante en système isolé. Sous cette condition, la notion de néguentropie est donc nécessairement limitée dans le temps ou l'espace ou ne peut s'appliquer qu'à un système ouvert.
+D'origine thermodynamique, la néguentropie est donc utilisée en systémique comme synonyme de la force de cohésion. Norbert Wiener la décrit ici socialement comme une traduction physique de l'information.
+On parle dans l'étude de système dynamique de dysentropie. Dans un tel système, une néguentropie partielle mène à un état d'auto-organisation de niveau supérieur par un phénomène de percolation.
+Bernard Stiegler et Michel Serres, qui défendent la néguentropie, se réfèrent au livre de Sadi Carnot.
+
+Exemple et application
+
+Physique et biologique
+Interprétation en termes d'énergie. On peut imager avec la cellule que la vie est une forme de néguentropie. Elle tend à conserver sa néguentropie, c'est-à-dire une organisation, une structure, une forme, un fonctionnement, et cela grâce à la consommation d'énergie, venant de l'extérieur de la cellule. Une cellule morte n'entretient plus cette néguentropie, donc elle se désagrège.
+Interprétation en terme d'information. Ce qui rend possible le maintien d'une structure "ordonnée" (capable de s'adapter en permanence à un environnement changeant) : ce sont les voies de communication sélectives entre le corps de la cellule et son environnement. Les membranes des cellules sont poreuses, mais seulement de façon sélective ; si une cellule perd cette capacité de sélection dans ses échanges avec son environnement, elle meurt rapidement, notamment sous l'effet de toxines dont elle ne peut plus se protéger.
+À une échelle beaucoup plus large, la planète Terre n'est pas un système isolé : elle reçoit de l'énergie, essentiellement solaire, réémet une partie vers l'univers, et, au passage, une partie est captée par les formes de vie sur Terre, contribuant à donner cette vision de néguentropie présentée par Schrödinger.
+
+Voir aussi: Adaptation; Émergence; Entropie; Exergie; Évolution biologique; Thermodynamique.

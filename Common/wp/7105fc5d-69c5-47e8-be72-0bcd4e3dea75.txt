@@ -1,0 +1,5 @@
+Un ordinateur hôte est un terme général pour décrire tout ordinateur relié à un réseau informatique, qu'il fournisse des services à d'autres systèmes ou utilisateurs (serveur informatique, ou "système hôte") ou soit un simple client.
+On utilise aussi le terme de système hôte pour désigner le système qui héberge un système virtuel par opposition à celui-ci. Le système virtuel utilise les ressources du système hôte. Cela s'appelle la virtualisation.
+Un périphérique est l'hôte d'une machine serveur quand il y est raccordé en tant que client.
+
+Articles connexes: Hyperviseur (installé sur l'ordinateur hôte dans le cas de virtualisation). Portail de l'informatique.

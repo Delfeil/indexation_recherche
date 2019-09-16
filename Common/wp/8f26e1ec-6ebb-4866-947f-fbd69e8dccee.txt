@@ -1,0 +1,17 @@
+Berkeley DB (BDB) est un moteur de base de données. Il est utilisé dans de nombreux environnements, sous Unix, GNU-Linux, Microsoft Windows et dans des systèmes embarqués.
+
+Histoire
+Depuis la version 2.0, Berkeley DB est disponible sous deux licences, une libre, certifiée par l'OSI et une licence commerciale. Les versions précédentes étaient sous licence BSD.
+Berkeley DB est développée par Sleepycat Software qui a été racheté en février 2006 par Oracle Corporation.
+
+Description
+Elle se présente sous la forme d'une bibliothèque écrite en C et offrant une interface publique (API). Des connecteurs existent pour de très nombreux langages de programmation : C, C++, Java, Perl, Python, Tcl, etc.
+La base n'est composée que d'enregistrements dont le format est librement déterminé par le programme appelant. Il n'y a pas de notion de table, et la base n'est pas interrogeable via un langage de manipulation de données comme SQL. Chaque enregistrement est composé d'une paire clé - valeur, la clé n'étant pas unique.
+
+Fonctionnalités
+Ses principales fonctionnalités sont : la gestion des transactions ;; la possibilité de verrouiller des enregistrements ;; une gestion simplifiée des sauvegardes et de la réplication. On peut effectuer des sauvegardes "à chaud", c.-à-d. sans arrêter la base ;; la gestion d'un système de cache mémoire interne ;; elle supporte de grosses capacités de données (jusqu'à 4 Go par enregistrement et 256 To par base) ;; les données peuvent être chiffrées (algorithme AES) ;; support des transactions Xa.
+La base de donnée est déclinée en trois versions : la version de base ;; une version optimisée pour Java, utilisée par exemple par Sun dans certains de ses produits ;; Berkeley DB XML, une surcouche ajoutant des nombreuses fonctionnalités XML comme le support de XML Query.
+
+Applications utilisant BDB: OpenLDAP, un serveur LDAP libre; Subversion, un système de gestion de versions; RPM; Asterisk; Citadel-UX, une suite collaborative pour le courrier électronique.; Bitcoin Core.
+
+Voir aussi: SQLite un moteur de base de données embarquées.

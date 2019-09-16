@@ -1,0 +1,59 @@
+Un moteur (du latin mōtor : "celui qui remue") est un dispositif permettant d'effectuer un mouvement qu'il soit spirituel (religion, syndicat, parti politique) ou physique (rotation, translation) à partir d'une énergie (électrique, thermique, etc.). Cet article ne traite que des moteurs générant un déplacement physique et tangible.
+
+Historique
+Les moteurs les plus anciens utilisent les forces naturelles, sans ajout de technologies ou presque : des moteurs utilisant une pression (voile, moulin à vent) ; des moteurs à élastique (arc, arbalète, catapulte à torsion, horloge à ressort) ; des moteurs utilisant la gravité (roue à aube sur cours d'eau ou sur réserve d'eau, clepsydre, catapulte à contrepoids, tournebroche à poids, horloge à poids).
+Le premier moteur vraiment indépendant de la nature, adaptable en situation, est la machine à vapeur. Ce moteur est basé sur une chaudière produisant de la vapeur d'eau grâce à la combustion d'un carburant, la vapeur comprimée est utilisée, lors de sa détente, pour mouvoir un piston dans un cylindre. Ce mouvement de translation est transformé en rotation par un jeu de bielles. Le couple résultant entraîne un volant d'inertie régulateur de couple puis, une machine ou des roues, via un mécanisme de transmission.
+À la fin du XIXe siècle, le moteur à combustion interne utilisant directement la chaleur dégagée par la combustion d'un carburant, fut développé et adapté aux premières automobiles. Ce moteur est comme la machine à vapeur, en général, équipé de bielles et pistons, avec comme exception le moteur Wankel qui lui n'a pas de bielles, mais des pistons rotatifs; toutefois la production de chaleur se fait à l'endroit même de la production de travail d'où l'appellation de moteur à combustion interne, en d'autre termes, la combustion du carburant produit directement un travail. Depuis, il poursuit ses progrès en termes de rendement et d'adaptation aux exigences de nos sociétés modernes en particulier aux nouvelles normes antipollution.
+Au milieu du XXe siècle, devant le besoin croissant de puissance pour propulser les avions militaires, les moteurs à réaction furent activement développés, en particulier, pendant la Seconde Guerre mondiale en parallèle avec les moteurs-fusée pour les missiles. Comme ces deux familles de moteurs ont des rapports poids - puissance (ou puissance massique) sans équivalent, malgré des rendements plutôt faibles, au XXIe siècle, ils sont toujours développés activement pour mouvoir avions et fusées.
+
+Transmission et stockage
+Il faut distinguer les moteurs, des organes de stockage ainsi que des systèmes ou organes de transmission.
+
+Transmission
+Un organe de transmission transmet un mouvement et une force : un arbre ;; une bielle ;; un cabestan ;; une chaîne ;; un engrenage.; un levier ;; une manivelle ;; un moufle ;; une poulie.
+Une transmission peut amplifier certains paramètres du mouvement au détriment d'autres, comme le couple au détriment de la vitesse exemple : un convertisseur de couple hydraulique. Elle peut ajouter plusieurs mouvements ou diviser un mouvement en plusieurs exemple un (pont d'automobile).
+
+Stockage
+Un organe de stockage va pouvoir absorber l'énergie d'un mouvement. Il pourra restituer cette énergie plus tard. Il y a toujours des pertes d'énergie dans le processus. Il est parfois difficile de distinguer un moteur d'un organe de stockage : la création d'un mouvement peut correspondre à une restitution après un stockage, comme pour les ressorts.
+
+Pertes
+Les organes de transmission ainsi que tous les organes de stockage consomment de l'énergie donc de la puissance qu'il ne peuvent pas eux-mêmes créer : par définition, seul un moteur (ou un engin similaire) ajoute de la puissance au mouvement.
+
+Classification
+
+Moteur à combustion
+comprenant : Combustion aérobie par utilisation de l'oxygène de l'air : moteur à combustion interne, moteur à explosion, moteur à allumage commandé, etc.; turboréacteur, statoréacteur, pulsoréacteur et moteur à ondes de détonation pulsées.; moteur à combustion interne, moteur à explosion, moteur à allumage commandé, etc.; turboréacteur, statoréacteur, pulsoréacteur et moteur à ondes de détonation pulsées.; Combustion anaérobie (utilisation d'un comburant embarqué) : moteur-fusée.; moteur-fusée.
+
+Moteur chimique sans combustion
+Dans ces moteurs, une réaction chimique est exploitée directement pour produire du travail ou du mouvement ; la chaleur est un sous-produit (utile ou nuisible, selon le cas) : flagelle et cil vibratile ;; muscle ;; moteur moléculaire.
+
+Moteur à champ
+
+Moteur à gravité
+Systèmes assimilés : roue à aube sur cours d'eau ou sur réserve d'eau ;; clepsydre ;; catapulte à contrepoids ; tournebroche et horloge à poids ;; moteur d'entraînement de lentille de phare ;; planeur, montgolfière ;; bathyscaphe: poussée d'Archimède.
+
+Moteur électromagnétique: moteur rotatif ;; moteur linéaire ;; électroaimant.; moteur ionique ;; accélérateur MHD.
+Un moteur MHD pour magnétohydrodynamique met en mouvement un fluide conducteur (ou ionisé) par le biais d'un champ magnétique et d'un champ électrique. Ceux-ci permettraient d'atteindre de très hautes vitesses dans l'air (proches de Mach 12 en air dense, franchissant ainsi le mur du son mais aussi le mur de la chaleur) et dans l'eau. Il n'existe cependant aucune application connue.
+
+Moteur à élastique
+
+Moteur à élastique solide
+On parle d'élastique ou de ressort : arc ;; arbalète ;; baliste ;; moteur à élastique de modèle réduit ou de jouet ;; ressort de montre, de chronomètre ou de métronome mécanique ;; horloge à balancier.
+
+Moteur à fluide élastique
+Un fluide compressible joue le rôle d'un élastique. Le stockage d'air comprimé est exactement équivalent à un élastique gazeux. Certains moteurs pneumatiques pourraient aussi être classés ici.
+
+Moteur à pression
+Ce moteur utilise comme source de mouvement la différence de pression entre deux sources : machine à vapeur: turbine à vapeur; moteur pop-pop.; turbine à vapeur; moteur pop-pop; moteur à air chaud: moteur Ericsson; moteur Stirling.; moteur Ericsson; moteur Stirling.
+
+Moteur à liquide
+Du fait de l'incompressibilité des liquides utilisés, on peut penser qu'un moteur à liquide est plutôt un organe de transmission qu'un moteur, car il n'ajoute pas de puissance. Dans un système hydraulique, le seul moteur qui fournit l'énergie au système est appelé la pompe hydraulique. pompe hydraulique ;; moteur hydraulique ;; vérin hydraulique.
+
+Moteur à air comprimé
+Un moteur à air comprimé est un composant d'un système pneumatique. On injecte de l'air préalablement comprimé dans une sorte de turbine, qui entraîne l'axe moteur. Le déplacement est obtenu par le changement de pression d'un gaz. Il existe plusieurs méthodes pour changer la pression d'un gaz, souvent utilisées en combinaison : mécanique : un compresseur permet d'augmenter la pression d'un fluide,; thermique : Les moteurs thermiques utilisent la variation très rapide de température d'un mélange inflammable qui a pour effet de créer une variation très rapide de pression.; chimique : la réaction exothermique d'un produit explosif crée une augmentation rapide de la pression.
+Mise en mouvement d'un solide : turbine ;; moulin à vent ou éolienne ;; Moteur à air comprimé ;; vérin pneumatique ;.
+Mise en mouvement d'un liquide : baromètre ;; pompe à liquide.
+Mise en mouvement du gaz : pompe à gaz ;; propulsion à réaction.; Combustion aérobie par utilisation de l'oxygène de l'air: moteur à combustion interne, Moteur à explosion, Moteur à allumage commandé, etc.; turboréacteur, statoréacteur, pulsoréacteur et moteur à ondes de détonation pulsées.; moteur à combustion interne, Moteur à explosion, Moteur à allumage commandé, etc.; turboréacteur, statoréacteur, pulsoréacteur et moteur à ondes de détonation pulsées.; Combustion anaérobie (utilisation d'un comburant embarqué) : moteur-fusée.; moteur-fusée.
+
+Moteur insolite
+Plusieurs personnes prétendent avoir fabriqué un "moteur magnétique" ou "moteur à aimants". Ce type de moteur, n'a non seulement aucune base théorique solide, mais n'a, de plus, jamais fait la preuve de son fonctionnement.

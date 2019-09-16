@@ -1,0 +1,35 @@
+Une licence, dans le droit français, est, en droit administratif, une autorisation, ou, en droit commercial, un contrat de licence.
+
+Licensing
+Le licensing est une forme d'alliance stratégique qui implique la vente d'un droit d'utilisation d'un certain savoir (la dénommée propriété intellectuelle) d'une façon déterminée. Cette propriété intellectuelle peut être enregistrée, par exemple sous la forme d'un brevet ou d'une marque commerciale, de dessins et modèles afin d'établir les droits du propriétaire. Ou bien celle-ci peut être présente dans l'entreprise sous forme de savoir-faire capitalisé en expérience opérationnelle.
+À des fins de licensing, le savoir-faire inclut tant les connaissances commerciales et administratives que les connaissances techniques. L'accord de licence est l'accord légal qui définit ce qui doit être transféré du cédant de licence au licencié et il en spécifie les conditions.
+En règle générale le licencié paie une somme au départ. À cela s'ajoute normalement des redevances dont le mode de calcul et le montant peuvent être très variables, selon l'industrie, le domaine technologique ou le contexte commercial. Une clause de paiement minimal est considérée comme essentielle et certaines entreprises autorisent le licencié à bénéficier d'un "état de grâce" avant de lancer la production et les ventes. Il y a également des entreprises qui font des accords de licence mutuels et ainsi elles peuvent se contenter d'échanger des licences plutôt que de les payer.
+D'après l'UNCTAD, le flux de royalties et de primes de licences s'élevait à 72 millions de dollars en 2001.
+Le licensing est souvent considéré comme une barrière ou une contrainte pour le commerce et un risque dans les investissements à l'étranger. Le licensing peut servir de cheval de Troie dans le sens où cela permet à une entreprise de pénétrer un marché étranger sur lequel elle n'aurait pas eu d'accès autrement. Le licensing peut générer des possibles nouveaux concurrents et cela est souvent considéré comme une alliance stratégique de dernier recours lorsque les autres solutions ne sont pas envisageables.
+
+Types de licence
+
+Licences d'exploitation des oeuvres de l'esprit
+Les licences d'exploitation des oeuvres de l'esprit sont des contrats passés entre des auteurs ou ayants droit et d'autres personnes à qui elles concèdent des droits dont ils ont acquis l'exclusivité au titre du droit d'auteur.
+
+Licence de libre diffusion
+Une licence de libre diffusion (parfois abrégé LLD) ou licence ouverte est une licence s'appliquant à une oeuvre de l'esprit par laquelle l'auteur concède certains des droits que lui offrent le droit d'auteur quant à l'utilisation, à la modification, à la rediffusion et à la réutilisation de l'oeuvre dans des oeuvres dérivées.
+
+Licence libre
+Une licence libre est une licence s'appliquant à une oeuvre de l'esprit par laquelle l'auteur concède tout ou partie des droits que lui confère le droit d'auteur, en laissant au minimum les possibilités de modification, de rediffusion et de réutilisation de l'oeuvre dans des oeuvres dérivées. Ces libertés peuvent être soumises à conditions, notamment l'application systématique de la même licence aux copies de l'oeuvre et aux oeuvres dérivées, principe nommé copyleft.
+
+Licence propriétaire
+La notion de licence propriétaire ou licence privative désigne toute licence qui n'est pas une licence libre.
+
+Licence de logiciel
+Une licence de logiciel est un contrat par lequel le titulaire des droits d'auteur sur un programme informatique définit avec son cocontractant (exploitant ou utilisateur) les conditions dans lesquelles ce programme peut être utilisé, diffusé ou modifié.
+
+Licence sur les données
+Il existe des licences spécifiques pour les jeux de données et les bases de données comme la Licence Ouverte ou l'Open Database License.
+
+Licences d'entrepreneur de spectacles
+Les licences d'entrepreneur de spectacles sont attribuées par un organisme administratif aux professionnels du spectacle vivant. À ne pas confondre avec les licences d'exploitation des oeuvres de l'esprit.
+
+Voir aussi
+
+Articles connexes: Propriété intellectuelle; Transfert de technologie; Franchise (réseau commercial). Portail du droit.

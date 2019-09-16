@@ -1,0 +1,26 @@
+Un cahier des charges (parfois abrégé en CDC) est un document qui doit être respecté lors de la réalisation d'un projet. Cette expression est ancienne ; elle était par exemple utilisée sous l'Ancien Régime pour préciser la manière dont le bois devait être coupé et sorti de la forêt. Il était défini par Chailland comme "détail des principales conditions de la vente et des obligations de l'adjudicataire, qui se lit aux marchands assemblés avant l'adjudication".
+Le cahier des charges prend des formes variables selon le type d'activité (production ou service récurrent, projet ponctuel...), selon le domaine d'activité principal concerné et selon la culture d'entreprise. Actuellement, dans le domaine du BTP, le cahier des charges en interne ne pourra recevoir aucune modification. Cependant le cahier des charges sert à formaliser les besoins et à les expliquer aux différents acteurs pour s'assurer que tout le monde soit d'accord. Il permet notamment de cadrer les missions des acteurs impliqués, dont celles du directeur de projet (côté maîtrise d'ouvrage) et-ou du chef de projet (côté maîtrise d'oeuvre).
+Il sert ensuite à sélectionner le prestataire ou soumissionnaire (dans le cas d'un appel d'offres), et à organiser la relation tout au long du projet. Il est considéré comme un référentiel partagé par le prestataire et l'équipe interne, et décliné dans les documents contractuels. Vers l'externe, c'est en outre un outil fondamental de communication du directeur de projet et-ou du chef de projet.
+C'est un document contractuel entre le client et le prestataire-vendeur, mais il ne constitue pas à lui seul le contrat commercial. Il permet aussi de remplir l'obligation générale d'information du vendeur ou du prestataire vis-à-vis de son client (code de la consommation, Livre Ier, titre Ier, chapitre Ier).
+
+Partie technique d'un cahier des charges
+La partie technique d'un cahier des charges doit se limiter à énumérer les contraintes techniques avérées.
+Les contraintes de base sont : économiques (les contraintes monétaires comme le budget de fonctionnement),; environnementales (le caractère recyclable du produit, etc.),. industrielles (par exemple, il doit être fabriqué au Canada),; matérielles (par exemple, il doit spécifier les morceaux qui peuvent être remplacés, comme des piles, il doit préciser le recours à tel ou tel serveur d'applications, la plate-forme de déploiement).
+L'erreur la plus courante est de confondre préférences et contraintes. Ceci cause des incompréhensions et des remises en causes qui peuvent affecter la réalisation du projet. Pour remédier à ce problème, il faut inclure tous les acteurs du projet pour définir les besoins.
+Les contraintes doivent être interprétées de façon que leur lecture soit l'expression des besoins techniques commandés et livrés. Leur interprétation doit être le résultat d'une analyse quantitative et qualitative du projet, dans son ensemble.
+On peut aussi faire appel à un consultant "assistance à maîtrise d'ouvrage" (AMO ou AMOA) pour valider la cohérence du cahier des charges.
+
+Cahier des charges dans les marchés publics
+
+En France
+Les cahiers des charges des marchés passés selon une procédure formalisée déterminent les conditions dans lesquelles les marchés sont exécutés.
+Ils comprennent des documents généraux et des documents particuliers :
+Les documents généraux sont : Les cahiers des clauses administratives générales, qui fixent les dispositions administratives applicables à une catégorie de marchés ;; Les cahiers des clauses techniques générales, qui fixent les dispositions techniques applicables à toutes les prestations d'une même nature.; Les cahiers des clauses administratives générales, qui fixent les dispositions administratives applicables à une catégorie de marchés ;; Les cahiers des clauses techniques générales, qui fixent les dispositions techniques applicables à toutes les prestations d'une même nature.
+Ces documents sont approuvés par un arrêté du ministre chargé de l'économie et des ministres intéressés. La référence à ces documents n'est pas obligatoire.
+Les documents particuliers sont : Les cahiers des clauses techniques particulières, qui fixent les dispositions techniques nécessaires à l'exécution des prestations de chaque marché,; Les cahiers des clauses administratives particulières, qui fixent les dispositions administratives propres à chaque marché.; Les cahiers des clauses techniques particulières, qui fixent les dispositions techniques nécessaires à l'exécution des prestations de chaque marché,; Les cahiers des clauses administratives particulières, qui fixent les dispositions administratives propres à chaque marché.
+
+Dans les autres pays
+
+Voir aussi
+
+Articles connexes: Cahier des charges fonctionnel.

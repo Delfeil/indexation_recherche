@@ -1,0 +1,18 @@
+Un stimulus dans le domaine de la psychologie expérimentale, de la physiologie et de la biologie, est un évènement de nature à déterminer une excitation détectable par une réaction chez un organisme vivant.
+
+Le schéma stimulus-réponse
+La psychophysique explore la relation entre les grandeurs physiques mesurables et les perceptions humaines, à travers la réaction de sujets obéissant à une consigne dans des conditions contrôlées. Les expériences répétées un nombre suffisant de fois et avec un nombre suffisant de sujets dégagent des règles de perception valables statistiquement pour l'ensemble de la population.
+Le béhaviorisme définit le conditionnement comme le mécanisme fondamental de l'apprentissage par lequel un stimulus (dit conditionné) devient associé à un autre stimulus (non-conditionné) à la suite d'associations répétées entre la présentation de l'un puis de l'autre stimulus. Cet apprentissage s'observe par le fait que le sujet réagit au stimulus conditionné par une réponse comportementale normalement associée au stimulus non-conditionné, c'est le "schéma stimulus-réponse".
+
+Stimulus par perception
+On distingue les stimulus par le sens qui les détecte : stimulus auditif, quand un son détermine l'excitation ;; stimulus visuel, quand on étudie la réaction à une image ou une lumière ;; stimulus tactile, avec des pressions ou des piqures sur la peau ;; stimulus thermique, avec une source de chaleur ;; stimulus olfactif avec une odeur.
+On étudie aussi la réaction à un événement exigeant une adaptation musculaire, avec les accélérations et la sensation de pesanteur. Les chocs électriques constituent des stimulus entièrement artificiels. Le temps intervient comme paramètre pour tous les stimulus, et est parfois aussi l'objet de la recherche.
+Les études psychophysiques cherchent à quantifier et à définir les seuils de perception de stimulus élémentaires, qui évitent autant que possible l'association à une signification.
+Outre les stimulus élémentaires les recherches psychologiques peuvent désigner comme stimulus des évênements complexes, comme des mots ou des images, qui évoquent des connaissances ou des sentiments.
+Un stimulus subliminal ou préconscient est un évènement capable de provoquer une réponse, mais que la personne auquel il est soumis n'identifie pas en tant qu'évènement.
+En physiologie, le stimulus peut être externe (ceux étudiés par la psychologie expérimentale) ou interne. Il s'agit alors de l'élévation du taux d'une substance dans l'organe ou dans l'organisme.
+En pharmacologie, on étudie l'effet de substances actives sur les perceptions des stimulus. C'est notamment le cas des études sur la douleur.
+
+Voir aussi
+
+Articles connexes: Perception; Sensation. Portail de la psychologie.

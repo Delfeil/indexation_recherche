@@ -1,0 +1,22 @@
+Niklaus Emil Wirth, professeur d'informatique, inventeur de plusieurs langages de programmation, est né le 15 février 1934, à Winterthour (Suisse).
+Il a un diplôme d'Elektroingenieur (ingénieur en électronique) de l'Eidgenössischen Technischen Hochschule (École polytechnique fédérale, EPF) de Zurich (Suisse), une maîtrise en sciences (MSc) de l'université Laval (de Québec) et un doctorat (PhD) de l'université de Californie à Berkeley (États-Unis) (son directeur était Harry Huskey).
+Il est professeur-assistant à l'université Stanford de 1963 à 1967, puis à l'université de Zurich. Il devient ensuite professeur d'informatique à l'EPF de Zurich.
+Niklaus Wirth a pris sa retraite en avril 1999.
+
+Langages
+De 1964 à 1967, il a travaillé dans le groupe IFIP2.1 dont la tâche était d'améliorer le langage ALGOL-60. Ce qui aboutit à l'ALGOL 68. La proposition de Wirth était moins ambitieuse, il s'agissait seulement d'une dérivation de l'ALGOL-60 (qui fut réalisée ensuite sous le nom d'ALGOL-W)
+En 1968, Wirth définit le PL360, un "assembleur de haut niveau" destiné d'abord aux IBM 360. Avec ce PL360, il réalisera son Algol W.
+De 1968 à 1972, déçu par Algol X devenu Algol 68, il travaille - seul cette fois - à Zurich sur son langage Pascal, basé sur ses travaux précédents de l'ALGOL-W.
+Pascal se veut didactique, simple, clair, efficace. Au plan didactique, il s'agit de privilégier l'analyse. Pour la clarté, il se rallie à la programmation structurée. Pour l'efficacité (dont Algol 60 pu manquer), il privilégie les mécanismes statiques, et ce qui permet la compilation en une passe (la déclaration précède toujours l'emploi).
+Wirth écrit avec Urs Amman un premier compilateur pour le CDC 6600 de l'EPF de Zurich, et en donne le code source à qui le lui demande, en particulier à l'université Laval.
+De 1972 à 1974, il met au point le PCode, un code intermédiaire généré par un compilateur (Pascal) indépendant de la machine, et exécutable sur n'importe quelle machine dotée de l'interpréteur adéquat. Cette stratégie facilite le portage des compilateurs (par exemple, sur l'Iris 80 par l'INRIA).
+Ce P-code sera la base du Pascal UCSD, de l'université de Californie à San Diego. Le principe en sera repris par Java puis Matlab.
+De 1973 à 1976, il travaille sur le langage Modula, un dérivé de Pascal permettant d'écrire un système d'exploitation complet.
+Machine Lilith de Niklaus Wirth
+De 1977 à 1981, il travaille sur le projet d'une station de travail puissante nommée Lilith. Dans le même temps, il met au point la deuxième version de Modula, Modula-2 qui est aussi le langage du système d'exploitation destiné à la machine Lilith, et pour lequel il définit un M-code. La distinction claire entre modules symboliques et modules systèmes apporte fiabilité et portabilité aux grosses applications.
+En 1984, il reçoit le prix Turing.
+En 1988, il met au point le langage Oberon, un dérivé de Modula avec la notion d'export des procédures. Une procédure est utilisable par n'importe quel programme. Comme Modula-2, Oberon comprend un système d'exploitation complet.
+En 1995, il énonce pour la première fois ce qui sera connu sous le nom de loi de Wirth.
+En 2007, il reçoit le prix d'excellence du SIGPLAN de l'ACM.
+
+Voir notamment: Notation syntaxique de Wirth. N. Wirth, J. W. Wells, E. H. Satterthwaite, 1968, The PL360 system - Stanford : Stanford University, Computer Science Department; Chion, Jean, 1973, Le langage Algol W;: Initiation aux algorithmes, Presses universitaires de Grenoble, 1973; N. Wirth, 1977, Introduction à la programmation systématique ; trad. par Olivier Lecarme - Paris : Masson (rééd 1981, 1983, 1986); K. Jensen et N. Wirth, 1980, PASCAL : manuel de l'utilisateur ; traduit par Ph. Kruchten et J. A. Hernandez - Paris : Eyrolles , plusieurs rééditions jusqu'en 1987; N. Wirth, 1985, Programmer en Modula-2 Lausanne : Presses Polytechniques Romandes , réed 1988, 1991; N. Wirth 1987, Algorithmes et structures de données trad. par J.A. Hernandez et P. Kruchten - 2e édition - Paris : Eyrolles , rééd 1989; M. Reiser et N. Wirth, 1992, Programming in Oberon : steps beyond Pascal and Modula : Addison-Wesley; N. Wirth, Jurg Gutknecht, 1992, Project OBERON : the design of an operating system and compiler, NY : ACM press; N. Wirth, 1995, Digital circuit design for computer science students : an introductory textbook, Berlin : Springer; N. Wirth, 1996, Compiler construction, Harlow, England : Addison-Wesley Pub. Co. (d'après un précédent Compilerbau).

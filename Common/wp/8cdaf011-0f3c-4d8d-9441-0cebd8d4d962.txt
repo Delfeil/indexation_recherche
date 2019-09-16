@@ -1,0 +1,49 @@
+Un système de traitement de l'information est un ensemble d'appareils (électriques, mécaniques ou biologiques) permettant de traiter automatiquement des informations.
+Les premiers systèmes permettant de traiter automatiquement des informations étaient des appareils mécaniques. Aujourd'hui il existe une panoplie d'appareils en électronique numérique permettant de traiter automatiquement des informations : ordinateur, console de jeu, distributeur automatique de billets, enregistreur vidéo personnel, GPS, téléphone portable ainsi que les appareils d'avionique, les systèmes d'arme et aussi les robots - ces derniers sont en plus dotés de capacité de mouvement.
+
+Description
+Un système de traitement de l'information est composé de quatre unités : l'unité d'entrée (anglais : input), qui permet de faire entrer les informations dans le système :. l'entrée des informations utilise notamment des procédés de numérisation. l'unité de stockage (anglais : storage) qui permet de conserver les informations ;; l'unité de traitement (anglais : processor) qui comme son nom l'indique va traiter les informations :. Les informations seront traitées en suivant scrupuleusement les instructions d'un programme informatique. l'unité de sortie (anglais : output) qui permet de faire sortir les résultats des traitements.
+Chaque unité est composé d'un ou de plusieurs appareils. (voir matériel informatique), les appareils s'échangent des informations selon des protocoles normalisés.
+Dans les appareils, les informations sont sous forme de nombres binaires (en base 2). Le système de numération binaire est utilisé du fait qu'il permet une grande fiabilité des résultats délivrés par les circuits électroniques numériques.
+
+Histoire
+Le concept de système de traitement de l'information est fondé sur le concept de calculateur universel programmable appelé machine de Turing inventé par Alan Turing en 1936. La thèse de Turing est aujourd'hui considérée comme l'article fondateur de l'informatique.
+La Pascaline est le premier calculateur mécanique. Il a été construit par Blaise Pascal en 1642.
+Le premier calculateur électronique à utiliser le système binaire est l'EDVAC. Construit en 1945, il occupait une salle de 45 m2, et pesait près de 8 tonnes.
+C'est l'invention du transistor en 1947 et celle du circuit intégré en 1958 qui ont permis la miniaturisation électronique des systèmes de traitement de l'information.
+La première console de jeu, l'Odyssey a été construite en 1973.
+
+Les informations à traiter
+Le premier type d'informations que les systèmes étaient capables de manipuler étaient des nombres, puis des textes, jusqu'à l'arrivée dans les années 1980 des systèmes multimédia, c'est-à-dire capables de manipuler divers types d'informations: images, sons, vidéos...
+Exemples d'informations : nombres : prix, poids, volume, température, vitesse, pression...; textes : courrier, publications, articles de presse...; images : plans, dessins, graphiques, diagrammes, cartes géographiques, photos, images 3D...; sons : paroles, chants, bruitages ou musique ,; vidéo : prises de vue, clips ou films ;. les instructions d'un programme informatique sont aussi des informations.
+Dans le système de traitement de l'information, les informations circulent sous forme de suite de bits (chiffres en base 2) et le octet groupés dans des fichiers ou des enregistrements (voir : électronique numérique).
+Un format désigne la manière dont les bits sont disposés à l'intérieur du fichier ou de l'enregistrement pour stocker l'information.
+
+Les protocoles
+Un protocole est un ensemble de règles normalisées qui, lorsqu'elles sont appliquées de manière commune par deux appareils, leur permettent de s'échanger des informations.
+Les règles établies par un protocole concernent autant le point de vue électronique (tensions, fréquences) que le point de vue informationnel (choix des informations, format) ainsi que le déroulement des opérations de communication (qui initie la communication, comment réagit le correspondant, combien de temps dure la communication...). Les protocoles sont utilisés en informatique et en télécommunication (téléphonie, télévision).
+
+Les unités
+Un système de traitement de l'information est composé de quatre unités : l'unité d'entrée (anglais : input), qui permet de faire entrer les informations dans le système ;; l'unité de stockage (anglais : storage) qui permet de conserver les informations ;; l'unité de traitement (anglais : processor) qui comme son nom l'indique va traiter les informations ;; l'unité de sortie' (anglais : output) qui permet de faire sortir les résultats des traitements.
+
+Unité d'entrée
+Les informations peuvent être introduites par une personne à l'aide d'un clavier et d'une souris, enregistrées à l'aide de différents appareils - microphone, caméra, scanner, appareil photo, ou apportées par des dispositifs de télécommunication (voir: réseau informatique).
+Les premiers appareils permettant d'introduire des informations étaient des lecteurs de cartes perforées. Un dispositif semblable à celui des pianos mécaniques. Cette technologie datant du XVIIIe siècle a été utilisée en informatique jusque dans les années 1980.
+La première étape des traitements consiste en la réception des informations en provenance des différents appareils. La numérisation est le procédé qui consiste à transformer une information provenant du monde réel en une suite de chiffres qui seront utilisés dans le système de traitement de l'information.
+
+Unité de stockage
+Les informations stockées peuvent être des informations qui viennent d'être entrées dans la machine, ou résultats d'un traitement.
+Les informations sont conservées dans des dispositifs de stockage tels que disque durs, DVD, CD-ROM ou mémoire flash.
+La possibilité de stocker des informations existe depuis les années 1960, auparavant les informations étaient traitées à mesure qu'elle étaient entrées.
+
+Unité de traitement
+Le système de traitement des informations effectue les traitements en suivant scrupuleusement les instructions d'un programme informatique.
+Les traitements peuvent consister à : à partir de certaines informations, d'obtenir d'autres informations, par exemple par calcul ;; transformer les informations ;; stocker les informations dans le système d'informations, en vue d'effectuer des traitements plus tard ;; extraire des informations préalablement stockées.
+Exemples de traitements : tri, classement, recherche ;; calculs de comptabilité, statistiques, analyses de physique ou d'économie ;; correction orthographique ;; reconnaissance de texte ;; reconnaissance vocale ;; traitement d'images tels que fausse couleur, négatif.
+Un composant électronique qui effectue des traitements s'appelle un processeur.
+
+Unité de sortie
+La sortie est l'étape finale des traitements qui consiste à faire sortir les résultats du système d'informations.
+Selon leur nature, les informations des résultats peuvent être restituées sur un écran, du papier par une imprimante ou un traceur, des enceintes audio ou tout autre appareil. Les informations peuvent aussi être transportées vers d'autres systèmes par des moyens de télécommunication (voir : réseau informatique).
+
+Articles connexes: Informatique; ordinateur; Système binaire. Portail de l'informatique.

@@ -1,0 +1,2 @@
+Alan Jay Perlis, né le 1er avril 1922 à Pittsburgh et mort le 7 février 1990, est un scientifique américain spécialiste de l'informatique.
+Il est connu pour son travail de pionnier dans les langages de programmation (notamment le langage Algol) et comme le premier récipiendaire du prix Turing. Ses épigrammes sur la programmation sont célèbres.

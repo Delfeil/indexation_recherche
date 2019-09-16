@@ -1,0 +1,14 @@
+Les cinq pourquoi est la base d'une méthode de résolution de problèmes proposée dans un grand nombre de systèmes de qualité.
+Il s'agit de poser la question pertinente commençant par un pourquoi afin de trouver la source, la cause principale de la défaillance. Cette méthode de travail est surtout faite pour trouver la cause principale du problème rencontré.
+Avec cinq questions commençant par "pourquoi", on essaie de trouver les raisons les plus importantes ayant provoqué la défaillance pour aboutir à la cause principale.
+
+Premier exemple
+Ma voiture ne démarre pas (le problème): 1) Pourquoi - La batterie n'est pas chargée.; 2) Pourquoi (la batterie n'est-elle pas chargée) - L'alternateur ne fonctionne pas.; 3) Pourquoi (...) - La courroie de l'alternateur est cassée.; 4) Pourquoi - J'ai dépassé la durée préconisée par le constructeur et la courroie était usée.; 5) Pourquoi - Je n'ai pas respecté les préconisations du constructeur (la cause première).
+
+Deuxième exemple
+Mes dépenses sont plus élevées que prévu (le problème): 1) Pourquoi - Je dois payer 10 % d'impôts en plus.; 2) Pourquoi (dois-je payer 10 % d'impôts en plus) - Je n'ai pas rendu ma déclaration à temps.; 3) Pourquoi (...) - Je n'avais pas toutes les informations nécessaires sur mon patrimoine.; 4) Pourquoi - Je n'ai pas fait évaluer par un expert certains biens hérités.; 5) Pourquoi - Je n'ai pas trouvé d'expert à temps. (la cause première).
+L'équipementier automobile Delphi a développé une méthode 5Wx3H (5 Whys, 3 Hows), qui interroge 5 fois le problème et ses causes successives, comme dans les exemples ci-dessus, mais en ajoutant une dimension supplémentaire, le "Comment"... Le questionnement d'un problème devient : 1) Pourquoi ce problème est-il apparu (recherche des causes d'apparition) Pourquoi Comment...; 2) Pourquoi ce problème n'a-t-il pas été détecté (recherche des causes de non détection) Pourquoi Comment...; 3) Pourquoi le système mis en place a-t-il permis l'apparition de ce problème (causes système, renvoyant au manque d'anticipation et aux méthodes de prévention type AMDEC) Pourquoi Comment...
+
+Voir aussi
+
+Articles connexes: Gestion de la qualité.

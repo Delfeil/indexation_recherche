@@ -1,0 +1,51 @@
+En électronique, un jack est normalement une connexion électrique coaxiale, ou bien l'embase, l'élément femelle recevant la prise. Dans certains cas, "jack" désigne alternativement l'un ou l'autre des éléments : fiche "mâle" ou prise "femelle", dans un ensemble de connecteurs appairés.
+
+Histoire
+L'invention du connecteur d'un quart de pouce (1-4), le jack de 6,35 mm, remonte à 1877, et à la mise au point des premiers centraux téléphoniques par Tivadar Puskas. Ce connecteur s'impose progressivement comme un standard pour établir une connexion sur une ligne téléphonique. Le contact se fait par deux ressorts métalliques qui pincent le cylindre de la prise. Derrière la pointe, un rétrécissement et un isolant permettent de garder le jack en position dans la prise, et de le ressortir aisément.
+Aujourd'hui, ce format de 6,35 mm est encore utilisé pour, notamment, les casques audio professionnels, les guitares électriques et les amplis. Un perfectionnement a été imaginé, avec un deuxième anneau d'isolant, permettant d'avoir 3 points de contacts, et de pouvoir transmettre un signal stéréo.
+Le jack de 3,5 mm apparaît dans les années 1960. C'est Sony qui est le premier à installer une telle prise sur un de ses produits avec la radio portable EFM-117J, en 1964. Mais ce connecteur s'impose vraiment pour les écouteurs sur les appareils mobiles, avec le premier Walkman en 1979, introduit à nouveau par Sony.
+Cette prise jack, dans ce format mini, connaît une nouvelle évolution avec les premières caméras numériques, puis avec les smartphones, où son emploi se généralise : la mise en place de 4 zones de contact différentes sur le même cylindre de 3,5 mm de diamètre, permet de faire passer, en plus du son en stéréo, un signal vidéo, celui d'un micro ou d'une télécommande.
+En avril 2016, LeEco présente 3 smartphones (Le 2, Le 2 Pro, Le Max 2) sans prise jack de 3,5 mm car remplacée par un branchement USB Type-C. LeEco considère que l'USB Type-C permet une meilleure qualité audio.
+En septembre 2016, Apple annonce lui aussi un smartphone sans prise jack de 3,5 mm, l'iPhone 7, Ce type de connecteur est considéré par Apple comme obsolète, 138 ans après sa création. Néanmoins Apple ne propose rien pour remplacer d'avoir plusieurs casques connectés ou branchés sur un seul appareil. Ce qui était facilement accessible auparavant sur la prise jack avec un simple adaptateur. De même le codage en braille qui était possible par cette prise est abandonné.
+
+Types de connecteurs
+L'appellation jack est utilisée pour désigner plusieurs types de connecteurs, notamment : le jack téléphonique de l'ancien répartiteur téléphonique manuel (standard téléphonique), qui est la prise correspondant à la fiche jack originelle de - (un quart de pouce, soit 6,35 mm) ;; les connecteurs de type RJ, tels RJ11, RJ25, RJ45, etc.
+Par abus de langage, l'ensemble (fiche + câble) se nomme aussi "jack". Notamment utilisé dans le monde musical, cette appellation est incorrecte bien qu'entrée dans le langage courant.
+
+Tailles
+Fiches jack par taille : 2,5 mm mono, 3,5 mm mono, 3,5 mm stéréo et 6,35 mm stéréo.
+Utilisé avec une taille, le jack est alors normalement la prise qui est appairée à la fiche jack de même dimension : jack - (soit 6,35 mm) ;; Jack 0.21 " (soit 5,33 mm) ; (norme JJ-031 spécifique pour les micros des casques d'aviation); jack 3,5 mm (miniature) ;; jack 2,5 mm (subminiature).
+Un jack de casque ou d'écouteur fait généralement partie de l'une de ces trois tailles standard de jack (le plus souvent de 3,5 mm), mais l'appellation peut recouvrir d'autres prises utilisées pour cet usage.
+Les trois formats continuent à coexister car leurs avantages sont variés : le jack -, quoique encombrant, est suffisamment robuste pour un usage sur scène (au bout d'une guitare, notamment) et garantit un meilleur contact électrique ; les deux autres sont moins coûteux et moins encombrants, au détriment de la robustesse et de la qualité.
+
+Points de contact
+Contacts des prises jack. Au-dessus : deux voies stéréo, au-dessous mono.
+(4) Anneaux isolants
+
+Contacts en 2 points
+Le contact 2 points est utilisé pour le transport d'un son monophonique ("mono"), il comporte alors deux contacts : une référence (sur le corps du jack) et un signal (sur la pointe).
+
+Contacts en 3 points
+Un connecteur jack 3 points peut être utilisé pour : un son stéréophonique ("stéréo"), qui sépare le canal gauche et le canal droit ;; une liaison symétrique monophonique (comme en XLR). Cette formule est très utilisée dans les équipements professionnels. Il peut être utilisé comme une liaison asymétrique stéréo, et inversement ;; pour la fonction "Insert" des tables de mixage professionnelles.
+Ces prises jack sont aussi appelées des connecteurs "TRS" pour "tip, ring, sleeve" ("pointe, anneau, manchon") qui sont les trois points d'un jack stéréo. Pour une liaison stéréo on a : Pointe : Canal gauche ; Anneau : Canal droit ; Manchon : masse.; Pour une liaison mono symétrique on a : Pointe : Point chaud ; Anneau : Point froid ; Manchon : masse.; Pour une liaison d'insert on a : Pointe : Send ; Anneau : Return ; Manchon : masse.
+Il est possible de retenir mnémoniquement le rôle du connecteur central grâce à l'initiale R des mots anglais "ring", "right" et "return".
+
+Contacts en 4 points
+Fiche jack stéréo + vidéo, stéréo + microphone ou stéréo + contrôle (4 contacts), utilisée principalement dans les caméras, les enregistreurs ou les baladeurs.
+Les fabricants ont proposé d'ajouter un quatrième point de contact sur ce connecteur. Ils ont alors subdivisé le manchon en deux parties.
+Ce quatrième contact peut véhiculer de la vidéo dans le cadre d'un câble audio-vidéo, ou le signal d'un micro dans le cadre de micro-casques utilisés notamment dans les téléphones portables.
+La connectique produite permet de réduire le nombre de connecteurs dans des produits de plus en plus compacts, voire de véhiculer des données supplémentaires en conservant une compatibilité avec des casques stéréo "standards".
+Cependant, les constructeurs ont effectué des choix différents dans le placement de leurs broches, limitant la compatibilité des appareils et des accessoires entre eux sans adaptateurs. En 2012, le site web LesNumeriques indique que "le câble de ces connecteurs est beaucoup moins standard selon les constructeurs, et on obtient à l'écoute toutes sortes de résultats forts disgracieux. D'où l'apparition d'adaptateurs."
+
+Connectique micro-casque
+Les différences portent notamment sur l'emplacement de la masse et du signal du micro.
+Ces accessoires disposent parfois de petites télécommandes sur le câble du casque de quelques boutons, parfois même un seul bouton servant à décrocher ou raccrocher le téléphone. Cette télécommande ne requiert pas de broche supplémentaire sur le connecteur, mais peut, dans le cas du bouton unique être effectué par shuntage du micro, lorsque la télécommande comprend plusieurs boutons (par exemple augmenter ou baisser le volume), les boutons shuntent le micro en alignant des résistances de valeurs différentes (par exemple 220 et 600 ohms pour les deux boutons du HTC Hero).
+Les appareils proposant des prises femelles à quatre contacts pour les micro-casques peuvent le plus souvent accueillir des casques sans micro n'exploitant que des prises mâles à 3 contacts. Les téléphones tels que le Samsung Galaxy S ou l'iPhone détectent la présence ou non d'un micro sur le casque en mesurant l'impédance aux bornes du connecteur du supposé micro et considèrent le micro présent au-delà de 1 600 ohms.
+Il existe deux grandes normes CTIA (The Wireless Association) et OMTP (Open Mobile Terminal Platform). La différence se situe au niveau des emplacements de la masse (GND) et du microphone (AUX) qui sont inversés. La norme CTIA est devenue la plus utilisée. En partant de la pointe on a les signaux suivants : Audio Gauche, Audio Droite, Masse, Microphone.
+
+Connectique audio-vidéo
+Les différences portent notamment sur l'emplacement de la masse et du signal vidéo.
+
+Voir aussi
+
+Articles connexes: Fiche banane; Prise RCA; XLR. Portail de la musique; Portail de l'électricité et de l'électronique.

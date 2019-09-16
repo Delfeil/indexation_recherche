@@ -1,0 +1,29 @@
+En statistique, la sensibilité (ou sélectivité) d'un test mesure sa capacité à donner un résultat positif lorsqu'une hypothèse est vérifiée. Elle s'oppose à la spécificité, qui mesure la capacité d'un test à donner un résultat négatif lorsque l'hypothèse n'est pas vérifiée. Ces notions sont d'une importance majeure en épidémiologie et en théorie de la détection du signal, notamment au travers des courbes ROC. Cet article présente ces notions dans le cadre de l'application en épidémiologie.
+En médecine, la sensibilité d'un test diagnostic est ainsi sa capacité à détecter tous les malades (avoir le moins de faux négatifs), tandis que la spécificité de ce test est sa capacité à ne détecter que les malades (avoir le moins de faux positifs).
+
+Sensibilité et spécificité (validité intrinsèque)
+
+Évaluation
+Lorsqu'un nouveau test ou un nouvel examen est en développement, il est impératif de mesurer sa validité intrinsèque (sa sensibilité et sa spécificité). À l'aide d'un groupe d'individus dont on sait déjà s'ils ont la maladie ou pas (la présence ou l'absence de la maladie ayant été établie par le test gold-standard), on mesure la capacité du test ou de l'examen à prédire si la maladie est présente.
+Le tableau 1 montre les résultats possibles lors de la mesure de la validité intrinsèque d'un test. Dans ce tableau, on observe que : VP (vrais positifs) représente le nombre d'individus malades avec un test positif,; FP (faux positifs) représente le nombre d'individus non malades avec un test positif,; FN (faux négatifs) représente le nombre d'individus malades avec un test négatif,; VN (vrais négatifs) représente le nombre d'individus non malades avec un test négatif.
+La sensibilité, ou la probabilité que le test soit positif si la maladie est présente, se mesure chez les malades seulement. Elle est donnée par VP VP + FN (-displaystyle (-frac (-text(VP))((-text(VP))+(-text(FN))))). Une mesure de la sensibilité s'accompagne toujours d'une mesure de la spécificité. Cette dernière se mesure chez les non-malades seulement. Ainsi, la spécificité, ou la probabilité d'obtenir un test négatif chez les non-malades, est donné par VN VN + FP (-displaystyle (-frac (-text(VN))((-text(VN))+(-text(FP))))).
+
+Interprétation
+Ensemble, la sensibilité et la spécificité d'un test donnent une appréciation de sa validité intrinsèque. Prises séparément, elles ne veulent rien dire. Par exemple, un test avec une sensibilité 95 % n'a aucune valeur si sa spécificité n'est que de 5 %. Dans cet exemple, le test est simplement positif chez 95 % des individus sans aucune corrélation avec la maladie. En effet, si la somme de la sensibilité et de la spécificité est égale à 100 % le test est sans aucune association avec la maladie.
+Le concept de sensibilité et de spécificité est utilisé pour les tests dichotomiques (oui-non, positif-négatif, etc.) alors que beaucoup de mesures de laboratoire donnent une valeur continue. Le seuil d'un test (la valeur à laquelle on décide qu'il devient positif) influence sa sensibilité et sa spécificité. Ainsi, si on abaisse ce seuil, le test sera plus sensible mais moins spécifique. La valeur de ce seuil dépend grandement de l'utilisation que l'on veut faire du test. Les tests très sensibles sont surtout utiles pour s'assurer qu'une maladie n'est pas présente (peu de faux négatifs) alors que ceux qui sont très spécifiques sont utiles pour s'assurer qu'une maladie est bien présente (peu de faux positifs).
+
+Validité prédictive (ou valeur prédictive, ou valeur diagnostique)
+
+Évaluation
+La valeur prédictive positive est la probabilité que la maladie soit présente lorsque le test est positif.
+La valeur prédictive négative est la probabilité que la maladie ne soit pas présente lorsque le test est négatif.
+Dans le tableau 1, la valeur prédictive positive est VP VP + FP (-displaystyle (-frac (-text(VP))((-text(VP))+(-text(FP))))) et la valeur prédictive négative est VN VN + FN (-displaystyle (-frac (-text(VN))((-text(VN))+(-text(FN))))). Un tel mode de calcul n'est valide que lorsque l'échantillon sur lequel on étudie le test ou l'examen est représentatif de la population dont il est extrait (cf paragraphe suivant).
+
+Interprétation
+Le concept de validité prédictive est très important puisqu'en situation clinique, c'est le résultat du test qui est disponible et c'est à partir de celui-ci que le médecin doit évaluer si la maladie est présente ou pas. Les valeurs prédictives dépendent de la prévalence de la maladie dans la population. Ainsi, pour une même sensibilité et spécificité, la valeur prédictive négative d'un test donné va s'améliorer d'autant que la maladie est rare (peu prévalente) et la valeur prédictive positive du même test va s'améliorer d'autant que la maladie est fréquente.
+Pour calculer les valeurs prédictives d'un test lorsque la représentativité de l'échantillon n'est pas certaine, on utilise des formulations reposant sur le théorème de Bayes, en utilisant la sensibilité et la spécificité calculées sur l'échantillon et la prévalence de l'affection à diagnostiquer.
+Lorsqu'un test a une bonne valeur prédictive positive, c'est surtout quand son résultat est positif qu'il est fiable. De la même manière, un test avec une bonne valeur prédictive négative est fiable lorsque son résultat est négatif. Par exemple, un test avec une bonne valeur prédictive négative et une mauvaise valeur prédictive positive donne une information valable s'il est négatif mais est difficile à interpréter si son résultat est positif.
+
+Voir aussi
+
+Articles connexes: Valeur prédictive; Précision et rappel; Faux négatif; Faux positif; Courbe ROC. Portail de la médecine; Portail des probabilités et de la statistique.

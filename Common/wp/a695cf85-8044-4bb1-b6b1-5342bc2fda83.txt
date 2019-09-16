@@ -1,0 +1,6 @@
+Harold (Hal) Abelson, né le 26 avril 1947, est un universitaire américain du MIT, membre fondateur de la Free Software Foundation et de Creative Commons.
+
+Biographie
+Harold Abelson a soutenu un Ph.D. en mathématiques au MIT en 1973, sous la direction de Dennis Sullivan.
+Personnalité du mouvement du logiciel libre il a également servi la cause de la culture libre au sein de l'organisme Public Knowledge.
+Il développe MIT-GNU Scheme dans le cadre de ses activités au sein du MIT puis le distribue en logiciel libre en l'intégrant au projet GNU.

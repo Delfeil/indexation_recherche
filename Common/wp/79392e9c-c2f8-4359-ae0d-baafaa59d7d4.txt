@@ -1,0 +1,14 @@
+TraceMonkey est un compilateur à la volée pour le moteur d'exécution JavaScript SpiderMonkey. TraceMonkey est un moteur d'enregistrement, de compilation à la volée et d'exécution de traces d'exécution de code JavaScript créé par la fondation Mozilla pour le moteur de rendu Gecko. Il a fait son apparition dans Mozilla Firefox 3.5.
+Il a été créé afin d'améliorer les performances d'exécution JavaScript du moteur SpiderMonkey et de permettre ainsi aux développeurs Web de proposer des applications Web autrefois impossibles à réaliser à cause des performances insuffisantes du JavaScript.
+
+Principe de fonctionnement
+TraceMonkey réalise la compilation à la volée d'arbre de traces. Les arbres de traces sont une structure de données utilisée pour tracer (enregistrer dans une trace) le code exécuté sur les points chauds, et le compiler. Quand les point chauds du code sont à nouveau exécutés, le code compilé est exécuté à la place.
+
+Mise en oeuvre
+Dans Firefox, l'interpréteur JavaScript s'appelle SpiderMonkey. Ce dernier a été modifié pour s'interfacer avec TraceMonkey, le moteur de traces. SpiderMonkey interprète le code JavaScript, surveille les exécutions de boucles et compte le nombre d'itérations. Lorsque le seuil du nombre d'exécution d'une itération est atteint, TraceMonkey enregistre les traces, les compile en code natif grâce à nanojit et les exécute.
+
+Réussites et limites
+Les développeurs de Mozilla assurent que TraceMonkey est le moteur JavaScript le plus rapide au monde, lorsqu'il parvient à rester sur les traces compilées. Malheureusement un certain nombre de conditions rendent difficile voire impossible l'utilisation de traces : Le code contenant beaucoup de branches de contrôle qui multiplie le nombre de traces,; Le code contenant beaucoup de combinaisons de types qui multiplie le nombre de traces,; Le code utilisant l'instruction eval qui peut générer tout type de code.
+Dans ces cas, l'exécution de code JavaScript se fait alors avec l'interpréteur SpiderMonkey, ce qui la rend beaucoup plus lente. Afin de pallier cela, Mozilla a lancé le projet JägerMonkey qui vise à utiliser un compilateur à la volée pour accélérer l'exécution du code situé hors des traces.
+
+Voir aussi: Tamarin, la machine virtuelle JavaScript devant équiper Mozilla Firefox 3.5 à l'origine, avant que TraceMonkey ne soit choisi à sa place. Cependant, nanojit, le composant de génération de code est utilisé dans TraceMonkey.; JägerMonkey le compilateur à la volée alternatif pour le moteur d'exécution JavaScript SpiderMonkey de Firefox.; V8, le moteur d'exécution Javascript à haute performance inclus dans Google Chrome, concurrent de TraceMonkey; SquirrelFish Extreme, le moteur d'exécution Javascript à haute performance inclus dans WebKit, concurrent de TraceMonkey. Portail de la programmation informatique; Portail des logiciels libres.

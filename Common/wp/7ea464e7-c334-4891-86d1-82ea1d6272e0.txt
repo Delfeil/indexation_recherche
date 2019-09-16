@@ -1,0 +1,15 @@
+Une image vectorielle est redimensionnable sans perte de qualité, contrairement à une image matricielle.
+Une image vectorielle (ou image en mode trait), en informatique, est une image numérique composée d'objets géométriques individuels, des primitives géométriques (segments de droite, arcs de cercle, courbes de Bézier, polygones, etc.), définis chacun par différents attributs (forme, position, couleur, remplissage, visibilité, etc.) et auxquels on peut appliquer différentes transformations (homothéties, rotations, écrasement, mise à l'échelle, extrusion, inclinaison, effet miroir, dégradé de formes, morphage, symétrie, translation, interpolation, coniques ou bien les formes de révolution). Elle se différencie en cela des images matricielles (ou images bitmap), qui sont constituées de pixels.
+
+Formats
+Il existe de nombreux formats de fichiers vectoriels. On peut citer Postscript, PDF, Illustrator, Flash, CGM ou SVG. Le logiciel de DAO Autocad a imposé ses formats de fichier DXF et DWG qui ont leurs propres caractéristiques.
+
+Application à la cartographie
+La représentation vectorielle est très utile pour l'établissement de cartes. En effet, le principe de couches, où différents plans se superposent, permet de superposer par exemple plusieurs informations comme les fleuves, les routes, le relief, etc. Les écritures peuvent être réduites et toujours lisibles avec précision. La propriété de changement d'échelle rapide et intacte de la représentation vectorielle correspond aux demandes de la cartographie. Ainsi l'utilisateur peut très vite observer avec précision et clarté la zone qui l'intéresse. Pendant très longtemps, les formats vectoriels cartographiques ne comprenaient que des droites, plus récemment, différentes approches des courbes ont commencé à être intégrées dans les logiciels SIG.
+
+Logiciels de dessin vectoriel
+Il existe de nombreux logiciels de dessin vectoriel : Fireworks ;; Flash ;; Illustrator ;; Denis draw ;; Draw ;; Micrografx Designer (en); Expression ;; Freehand ;; Inkscape (logiciel libre) ;; Karbon (logiciel libre) ;; Labography (logiciel libre), contient la fonction Prélude qui permet d'animer les "svg" puis d'exporter en "html" ou vidéo.; Libreoffice Draw (logiciel libre) ;; Microsoft Visio ;; Skencil (logiciel libre) ;; Sodipodi (logiciel libre) ;; Synfig dessin et animation vectoriel (logiciel libre) ;; Xara Xtreme ;; Xfig (logiciel libre).
+
+Bibliothèques open source: Open Clip Art Library.
+
+Voir aussi: Image matricielle; SVG; Vector Markup Language; Police vectorielle; Conception assistée par ordinateur; Comparaison des logiciels de dessin vectoriels (en). Portail de l'imagerie numérique.

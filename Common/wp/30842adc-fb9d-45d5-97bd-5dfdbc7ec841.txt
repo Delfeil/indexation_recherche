@@ -1,0 +1,76 @@
+Oracle Database est un système de gestion de base de données relationnelle (SGBDR) qui depuis l'introduction du support du modèle objet dans sa version 8 peut être aussi qualifié de système de gestion de base de données relationnel-objet (SGBDRO). Fourni par Oracle Corporation, il a été développé par Larry Ellison, accompagné entre autres, de Bob Miner et Ed Oates.
+
+Historique
+Software Development Laboratories a été créé en 1977. En 1979, l'entreprise change de nom en devenant Relational Software, Inc. (RSI) et introduit son produit Oracle V2 comme base de données relationnelle. La version 2 ne supportait pas les transactions mais implémentait les fonctionnalités SQL basiques de requête et jointure. Il n'y a jamais eu de version 1, pour des raisons de marketing, la première version a été la version 2. Celle-ci fonctionnait uniquement sur les systèmes Digital VAX-VMS.
+En 1983, RSI devient Oracle Corporation pour être plus représentative de son produit phare. La version 3 d'Oracle, entièrement ré-écrite en langage de programmation C, est publiée. Celle-ci supportait les transactions grâce aux fonctionnalités de commit et rollback. C'est aussi à partir de cette version que la plate-forme Unix est supportée.
+En 1984, la version 4 supporte la cohérence en lecture (read consistency).
+En 1985, la version 5 supporte les requêtes distribuées, dans le cadre de l'intégration du modèle client-serveur avec l'arrivée des réseaux au milieu des années 1980.
+En 1988, la version 6 supporte le PL-SQL, le verrouillage de lignes (row-level locking) et les sauvegardes à chaud (hot backups, lorsque la base de données est ouverte). Oracle met sur le marché son ERP Oracle Financials basé sur la base de données relationnelle Oracle Database.
+En 1992, la version 7 supporte les contraintes d'intégrité, les procédures stockées et les déclencheurs (triggers).
+En 1995, acquisition d'un puissant moteur multidimensionnel, commercialisé sous le nom d'Oracle Express.
+En 1997, la version 8 introduit le développement orienté objet, et les applications multimédia grâce aux services Oracle interMedia, renommé Oracle Multimedia (en) depuis la version 11g.
+En 1999, la version 8i d'Oracle est publiée dans le but d'affiner ses applications avec Internet (le i fait référence à Internet). La base de données comporte nativement une machine virtuelle Java.
+En 2001, la version 9i ajoute 400 nouvelles fonctionnalités et permet de lire et d'écrire des documents XML. Elle intègre le moteur OLAP : le moteur Oracle Express est dorénavant référencé au sein de l'option Oracle OLAP. Les données multidimensionnelles sont accessibles à partir du langage SQL.
+En 2003, la version 10g supporte les expressions rationnelles. Le g signifie grid ; un des atouts marketing de la 10g est en effet qu'elle supporte le grid computing.
+En novembre 2005, la version 10g Express Edition, complètement gratuite, est publiée, ainsi que la version 10g Release 2.
+En juillet 2007, la version 11g Linux et Windows.
+En septembre 2009, la version 11g Release 2 est publiée.
+En juillet 2013, la version 12c est publiée.
+
+Conventions sur les numéros de version
+Les numéros de version d'Oracle ont introduit une certaine confusion chez de nombreuses personnes.
+La nomenclature de version a changé au cours du temps, mais se base en général sur la convention suivante : version X.Y.Z.a où X.Y désigne la version majeure du produit : 8.1 pour 8i, 9.2 pour 9i Release 2, etc. Ceci n'est plus vrai en 10, où l'on a une version majeure (10g), déclinée en deux "releases". Au sein d'une même version majeure (8i, 9i ou 10g), les fonctionnalités générales du RDBMS sont censées être les mêmes.
+Le chiffre Z désigne quant à lui le niveau de correctif générique appliqué. Oracle délivre en général 3 ou 4 mises à jour ("patchset") pour une version majeure, mais cela reste très variable.
+Enfin, le chiffre a désigne un niveau de correctif spécifique à un système d'exploitation, ou une plateforme.
+Depuis la version 7, les versions majeures du SGBD Oracle ont été les suivantes : Oracle 7 : 7.1, 7.2, 7.3; Oracle 8 : 8.0.3, 8.0.4, 8.0.5, 8.0.6; Oracle 8i : 8.1.5 (Release 1), 8.1.6 (Release 2), 8.1.7 (Release 3); Oracle 9i : 9.0.1 (Release 1), 9.2.0 (Release 2); Oracle 10g : 10.1 (Release 1), 10.2 (Release 2); Oracle 11g : 11.1 (Release 1), 11.2 (Release 2); Oracle 12c : 12.1 (Release 1), 12.2 (Release 2).
+À partir de 2018, un rythme annuel de nouvelles versions est prévu : le numéro de version rappellera l'année, la prochaine version sera donc la 18 (au lieu de la 12.2.0.2 initialement prévue), la suivante la 19...
+
+Éditions et licences
+L'ensemble des environnements (développement, test, intégration, homologation, production...) utilisant le moteur de bases de données Oracle doivent être sous licence. On distingue deux modes de licences : Utilisateurs nommés : concrètement, nombre de personnes uniques se connectant aux bases de données. Ceci convient à des applications de gestion typique en mode client-serveur et aux environnements hors-production où le nombre d'utilisateurs est connu. On note qu'Oracle applique un nombre minimal d'utilisateurs par "licence processeur" (généralement 25).; Licence Processeur : en fonction de la puissance du serveur hébergeant les instances, un certain nombre de licences doit être acquis. Il faut prendre en compte deux notions : premièrement, la puissance est définie par un nombre de processeurs (CPU), et un nombre de coeurs par CPU. Deuxièmement un "core factor" s'applique en fonction de la puissance que délivre le constructeur des processeurs. Exemple : La majorité des processeurs Intel possède un facteur de 0,5 (cf : puces "multi-core" (Intel, AMD, SPARC, Power). Avec ces éléments on fait le calcul suivant : (nombre de CPU x nombre de coeurs par CPU x core factor). Et on obtient le nombre de "licences processeur" qu'il faut acquérir. Cette option est directement dédiée aux architectures trois tiers, où les applications positionnées au-dessus des bases de données, vont générer des requêtes par un nombre inconnu d'utilisateurs. C'est typiquement le cas lorsqu'une application est ouverte sur le Web et lorsque des milliers de personnes peuvent potentiellement accéder à la base (sites web).
+En version 10g, Oracle valorise le prix d'une licence selon 3 types : édition Entreprise : comprend toutes les fonctionnalités du produit,; édition Standard : limitations apportées aux fonctionnalités et sur le nombre de processeurs (4 maximum),; édition Standard One : limitations apportées aux fonctionnalités et sur le nombre de processeurs (2 maximum).
+On notera qu'en plus de ces licences, Oracle facture en sus certaines options selon les règles définies plus haut. Ainsi, les fonctionnalités suivantes doivent être spécifiquement achetées : Partitionning Oracle; OLAP; Oracle Advanced Security (ASO); Oracle Data Masking; Data Mining; Oracle RAC (en) Real Application Cluster (que en Enterprise Edition).
+
+À propos de la virtualisation
+Si un serveur Oracle est installé dans un environnement virtualisé (hors OracleVM) utilisant plusieurs serveurs physiques, c'est le nombre de processeurs de l'ensemble des machines physiques constituant le cluster qu'il faut licencier, car Oracle considère et à raison, que le SGBD peut utiliser tour à tour l'ensemble des processeurs de l'infrastructure. La plupart des personnes, dans les entreprises moyennes ou grosses, ont une ferme de serveurs VMWare. Si des produits Oracle soumis à licence sont utilisés, il faut impérativement analyser les besoins et les coût de licence. Par exemple, une ferme de 4 serveurs composés chacun de 4 processeurs Intel (CPU), tous composés de 2 coeurs sera "licenciée" pour 4-4-2-0,5 - 16 licences CPU - ce qui peut devenir prohibitif. C'est la raison pour laquelle, la technologie OracleVM reste conseillée, d'autant plus qu'elle offre des fonctionnalités égales.
+Certaines technologies de virtualisation (IBM, SUN et même Microsoft depuis peu) sont bien supportées par Oracle, mais il semble qu'il y ait un (gros) désaccord entre Oracle et VMWare. En effet les règles d'Oracle sur le licensing n'ont jamais changé, contrairement aux fonctionnalités de VMware.
+Sur les technologies de virtualisation supportées par Oracle, l'utilisation de VM permet d'optimiser le coût des licences par une meilleure utilisation de la charge CPU.
+
+Logiciels Oracle gratuits
+Oracle propose depuis fin 2005 une version totalement gratuite de la base, "Oracle Database Express Edition". Il s'agit d'une version 10g Standard Edition One, fortement limitée : en 2011, elle limite la taille totale de la base à 4Go (hors système, temporaire, segments d'annulation et autres fichiers), la SGA ne peut dépasser 1 Go et un seul processeur sera utilisé sur les machines qui en disposent de plusieurs. La version 11gR2 d'Oracle Express Edition présente les mêmes limitations, à part la taille des données utilisateur qui est portée à 11 Go.
+Oracle SQL Developer est lui aussi gratuit, cet outil développé en Java permet, via une interface graphique, de gérer les objets de la base, visualiser les sessions et de faire du SQL.
+
+Téléchargement des produits
+L'intégralité des produits Oracle, à savoir : la base de données (RDBMS) ;; le serveur d'application (IAS) ;; la suite collaborative (OCS) ;; l'environnement de développement (ODS) ;; la suite applicative (eBusiness suite).
+ainsi que les documentations associées, sont téléchargeables en version intégrale, sans limitation de durée, sur le site Oracle Technology Network
+
+Fonctionnalités
+
+Principales: SQL; PL-SQL, langages de programmation, utilisé pour créer des procédures, des fonctions et des déclencheurs.; Java, ce langage de programmation est aussi utilisable pour créer des triggers lors de l'insertion, la modification ou l'effacement d'éléments; Montage de la base de données sur plusieurs serveurs (grid en 10g, rac en 9i); Spatial, pour permettre la gestion de données géographiques; Partitionnement physiques des données en sous-ensembles pour optimiser les temps d'accès; Moteur OLAP intégré, stockant les cubes sous forme de BLOB (Binary Large Objects); Gestion de très grands volumes de données, taille maxi de 65 536 fichiers de 128 To chacun en utilisant les BigFiles de la version 10gR2 ou 10.2; Réplication des données selon différents modes synchrones ou asynchrones de tout ou partie d'une base de données : voir Oracle Data Guard (en) ou encore la solution Golden Gate (le couteau suisse d'Oracle tant il permet de faire de choses différentes à la fois).
+
+Fonctionnalités annexes: Partitionnement; Module Oracle Text; DBLink.
+
+Plate-formes prises en charge
+En octobre 2004, les plates-formes prises en charge pour Oracle 10g Release 1 étaient : HP-UX PA-RISC; HP-UX Itanium; HP Tru64; Linux x86; Linux Itanium; z-Linux; Mac OS X; Windows (32-bit); Windows (64-bit Itanium); Sun Solaris x86; Sun Solaris (SPARC) (64-bit).
+En mai 2006, les plates-formes suivantes sont prises en charge pour Oracle 10g Release 2 : HPUX Itanium; HPUX PA-RISC; Linux Itanium; Linux Power5; Linux x86-64 (Opteron - EM64T); Linux 32bits; Windows Itanium; Windows x86-64 (Opteron - EM64T); Windows 32bits; Solaris SPARC64; Solaris x86-64; IBM AIX5L; IBM z-OS (OS-390).
+En février 2012, les plates-formes suivantes sont prises en charge pour Oracle 11g Release 2 : HPUX Itanium; HPUX PA-RISC; Linux x86-64 (Opteron - EM64T); Linux 32bits; Windows x86-64 (Opteron - EM64T); Windows 32bits; Solaris SPARC64; Solaris x86-64; IBM AIX5L; IBM z-OS (OS-390).
+En juillet 2013, les plates-formes suivantes sont prises en charge pour Oracle 12c Release 1 : Linux x86-64; Solaris SPARC64; Solaris x86-64; Windows x86-64.
+
+Connecteurs: ODBC; JDBC; En Java, Oracle peut être utilisé de façon transparente avec le standard JDO.; En PHP, Oracle peut être utilisé de façon transparente avec le standard PDO.
+
+Outils de sauvegarde
+Mécanisme d'Archive log Oracle: RMAN (Recovery MANager) est un logiciel destiné aux sauvegardes et restaurations des bases de données Oracle.
+Il est fourni par Oracle depuis la version 8.0, en remplacement de "Enterprise Backup Utility" (en version 7.3.x d'Oracle).
+RMAN sauvegarde les données (datafiles), les journaux de transactions (archives), le fichier de contrôle (control file) et éventuellement le fichier de configuration d'instance (spfile).
+RMAN peut utiliser une base "catalogue" dans laquelle il stocke les informations concernant les données sauvegardées. Les données sauvegardées peuvent être envoyées sur disque, sur bande, ou à un logiciel de sauvegarde tiers (ex : Tivoli Storage Manager, EMC Legato Networker, etc.).
+
+Outils d'administration: Oracle Enterprise Manager (OEM) est un logiciel destiné aux administrateurs (DBAs). Il permet, via une interface graphique, de gérer des bases de données Oracle (sauvegardes Rman, supervision, etc.).
+En Oracle 9i, la console OEM est un client Java. Depuis Oracle 10g, OEM est orienté web, et se décline en plusieurs versions : une version simple nommée "Oracle Enterprise Manager Database Control" et une version permettant d'administrer plusieurs bases nommée "Oracle Enterprise Manager Grid Control". Il faut noter que l'utilisation de certaines fonctions (diagnostic et tuning) proposées dans l'interface implique la facturation d'options supplémentaires.
+
+Liste de records: Oracle est la première base de données à intégrer nativement JRE; Oracle est la première base de données à dépasser le million de transactions par minute au bench TPC-C, en novembre 2004 (1); En 2012, Oracle est la seule base de données à proposer un test TPC-H avec une taille de 30 To (2); En 2012, Oracle est la première base de données à atteindre 30 millions de transactions au test TPC-C (3).
+
+Certifications
+Il existe différents niveaux de certification autour des produits Oracle. Au niveau de la base de données (RDBMS) : Oracle Certified Associate (OCA); Oracle Certified Professional (OCP); Oracle Certified Master (OCM); Oracle Certified Expert (OCE); Oracle Certified Specialist (OCS).
+
+Voir aussi
+
+Articles connexes: Informix; Ingres; Teradata; Microsoft SQL Server; DB2; PostgreSQL; MySQL; Adaptive Server Enterprise.

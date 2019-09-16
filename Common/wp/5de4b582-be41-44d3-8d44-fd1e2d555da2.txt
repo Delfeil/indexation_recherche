@@ -1,0 +1,49 @@
+Les problèmes du prix du millénaire sont un ensemble de sept défis mathématiques réputés insurmontables, posés par l'Institut de mathématiques Clay en 2000. 1) Hypothèse de Riemann (constitue aussi l'un des problèmes de Hilbert); 2) Conjecture de Poincaré (résolue en 2003); 3) Problème P - NP; 4) Conjecture de Hodge; 5) Conjecture de Birch et Swinnerton-Dyer; 6) Équations de Navier-Stokes; 7) Équations de Yang-Mills.
+La résolution de chacun des problèmes est dotée d'un prix d'un million de dollars américains offert par l'institut. En 2017, six des sept problèmes demeurent non résolus.
+
+Description générale
+Chacun des défis consiste à : soit démontrer une hypothèse ou une conjecture qui n'a été ni confirmée ni rejetée faute d'une démonstration mathématique suffisamment rigoureuse ;; soit définir et expliciter l'ensemble des solutions de certaines équations.
+Chacune de ces solutions permettra de consolider les bases théoriques dans certains domaines des mathématiques dits fondamentaux, et constituera un important tremplin qui servira à approfondir les connaissances en mathématiques fondamentales.
+Si la solution proposée par publication pour résoudre l'un de ces problèmes est largement acceptée par la communauté des mathématiciens au bout de deux ans, alors l'Institut de mathématiques Clay remettra un million de dollars américains à la personne ou au groupe qui l'aura formulée.
+Le premier de ces problèmes fait partie des problèmes de Hilbert non résolus.
+Une description détaillée (en anglais) de chacun des sept problèmes, et de ce qui constituerait une solution acceptable, figure sur le site du Clay Mathematics Institute.
+
+Histoire
+Au début du XXe siècle, le mathématicien David Hilbert dressa une liste de 23 problèmes (l'hypothèse de Riemann, par exemple) dont la résolution serait d'un grand intérêt pour faire progresser les mathématiques. Dans le même esprit, le Clay Mathematics Institute, à la fin du XXe siècle, a décidé d'attribuer un prix d'un million de dollars américains à qui trouverait une solution satisfaisante à l'un des 7 problèmes posés.
+À ce jour, le seul des sept problèmes qui ait été résolu est la conjecture de Poincaré, démontrée par Grigori Perelman (cf. infra).
+
+Impact médiatique
+L'écho auprès des médias a été important, bien que les primes annoncées par le Clay Mathematics Institute ne représentent pas en réalité des montants si spectaculaires (l'ordre de grandeur des salaires des professeurs titulaires de chaires de mathématiques au sein des universités américaines importantes est au minimum de 130 000 dollars américains, donc la prime ne représente pas beaucoup plus de cinq et moins de dix années de revenus). Au sein de la communauté mathématique, l'unanimité ne s'est pas faite pour approuver l'existence de ces primes.
+
+Liste et résumé des problèmes
+
+Hypothèse de Riemann
+L'hypothèse de Riemann est une conjecture formulée en 1859 par le mathématicien allemand Bernhard Riemann. Elle dit que les zéros non triviaux de la fonction zêta de Riemann ont tous pour partie réelle 1-2. Sa démonstration améliorerait la connaissance de la répartition des nombres premiers.
+
+Conjecture de Poincaré
+Grigori Perelman a démontré cette conjecture en 2003, et sa démonstration a été récompensée par l'attribution de la médaille Fields en 2006, mais il l'a déclinée. En ce qui concerne le prix Clay, bien que ses articles n'aient pas été publiés dans des revues à comité de lecture, mais sur arXiv, un répertoire (partiellement) modéré dédié à l'archivage de prépublications principalement de physique et de mathématiques, l'Institut Clay a néanmoins annoncé, le 18 mars 2010, lui avoir décerné ce prix, considérant que les conditions de la validation de son travail avaient été réunies. Le 1er juillet 2010, l'Institut Clay a annoncé sur son site que Grigori Perelman avait refusé le prix. Parmi les raisons sous-jacentes à son choix, qu'il a dit être multiples, il a souhaité mettre en avant que son refus devait être vu comme une dénonciation de l'attitude de la communauté mathématique dans sa façon, qu'il considère injuste, d'attribuer ce type de récompense (selon ses propos rapportés par des médias russes. Il aurait en particulier indiqué qu'à ses yeux les contributions de Richard S. Hamilton étaient du même niveau d'importance que les siennes).
+
+Problème ouvert P - NP
+Savoir si P - NP est un des principaux problèmes ouverts de l'informatique théorique. Le mathématicien et vulgarisateur Keith Devlin le décrit comme le seul problème de la liste potentiellement accessible aux non-spécialistes, dans la mesure où sa description est accessible et une idée simple pourrait suffire à le résoudre.
+
+Conjecture de Hodge
+La conjecture de Hodge est une des grandes conjectures de géométrie algébrique. Elle établit un lien entre la topologie algébrique d'une variété algébrique complexe non singulière et sa géometrie décrite par des équations polynomiales qui définissent des sous-variétés. Elle provient d'un résultat du mathématicien W. V. D. Hodge qui, entre 1930 et 1940, a enrichi la description de la cohomologie de De Rham afin d'y inclure des structures présentes dans le cas des variétés algébriques (qui peuvent s'étendre à d'autres cas).
+Cette conjecture peut s'énoncer ainsi : il est possible de calculer la cohomologie d'une variété algébrique projective complexe à partir de ses sous-variétés.
+
+Conjecture de Birch et Swinnerton-Dyer
+La conjecture de Birch et Swinnerton-Dyer prédit que pour toute courbe elliptique sur le corps des rationnels, l'ordre d'annulation en 1 de la fonction L associée est égal au rang de la courbe. Elle prédit même la valeur du premier terme non nul dans le développement limité en 1 de cette fonction L.
+Ouverte depuis plus de quarante ans, la conjecture n'a été démontrée que dans des cas particuliers. Elle est largement reconnue comme un des problèmes mathématiques les plus difficiles et les plus profonds encore ouverts au début du XXIe siècle.
+
+Équations de Navier-Stokes
+En mécanique des fluides, les équations de Navier-Stokes sont des équations aux dérivées partielles non linéaires qui sont censées décrire le mouvement des fluides "newtoniens" (liquide et gaz visqueux ordinaires) dans l'approximation des milieux continus. La résolution de ces équations modélisant un fluide comme un milieu continu à une seule phase incompressible, même quand elle est possible, est ardue, et dans le cas général, la cohérence mathématique de ces équations non linéaires n'est pas démontrée. Mais elles permettent souvent par une résolution approchée de proposer une modélisation des courants océaniques et des mouvements des masses d'air de l'atmosphère pour les météorologistes, la simulation numérique du comportement des gratte-ciel ou des ponts sous l'action du vent pour les architectes et ingénieurs, des avions, trains ou voitures à grandes vitesse pour leurs bureaux d'études concepteurs, mais aussi l'écoulement de l'eau dans un tuyau et de nombreux autres phénomènes d'écoulement de divers fluides.
+Elles sont nommées d'après deux scientifiques du XIXe siècle, le mathématicien et ingénieur des ponts et chaussées Claude Navier et le physicien George Stokes, le choix oubliant le rôle intermédiaire du physicien Adhémar Barré de Saint-Venant. Pour un gaz peu dense, il est possible de déduire ces équations de celle de Boltzmann, décrivant un comportement moyen des particules dans le cadre de sa théorie cinétique des gaz.
+Ces équations sont donc fondamentales pour expliquer le comportement des fluides. Il existe des solutions partielles, mais aucune solution générale n'est encore proposée. Le prix récompense la démonstration de l'existence d'une solution régulière des équations en incompressible.
+
+Équations de Yang-Mills
+Une théorie de Yang-Mills est un type de théorie de jauge non abélienne, dont le premier exemple a été introduit dans les années 1950 par les physiciens Chen Ning Yang, et Robert Mills pour obtenir une description cohérente de l'interaction faible au sein des noyaux atomiques. Depuis, il a été réalisé que ce type de théorie, une fois incorporé dans le cadre de la théorie quantique des champs, permet une description de l'ensemble des interactions fondamentales de la physique des particules et est à la base conceptuelle du modèle standard.
+Son expression mathématique moderne fait appel aux outils de la géométrie différentielle et des espaces fibrés. Bien que la formulation et le cadre géométrique de la théorie de Yang-Mills classique soient bien connus depuis longtemps, deux propriétés fondamentales n'ont toujours pas été démontrées mathématiquement et font donc l'objet du prix du millénaire: d'une part l'existence d'une théorie quantique des champs cohérente, fondée sur une théorie de Yang-Mills ;; d'autre part l'existence d'un gap de masse (en) qui ne permet l'observation des gluons, particules élémentaires de la théorie quantique associés à toute théorie de Yang-Mills, que sous forme de combinaisons massives appelées boules de glu (glueball en anglais). Ce problème non résolu est intimement lié à celui du confinement de couleur qui affirme que seuls sont observables les états quantiques de charge de couleur nulle.
+En dehors de ces aspects associés à la physique quantique, la théorie de Yang-Mills classique est hautement non linéaire et les équations de Yang-Mills qui lui sont associées sont très difficiles à résoudre de façon exacte en dehors de cas particuliers. C'est cette non-linéarité, associée à une structure géométrique riche, qui donne aux théories de Yang-Mills toute leur complexité et en fait un sujet de recherche actif à la fois en mathématiques et en physique théorique.
+
+Voir aussi
+
+Articles connexes: Problèmes de Hilbert; Problèmes de Smale; Trois grands problèmes de l'Antiquité; Problèmes de Landau; Problèmes non résolus en mathématiques.

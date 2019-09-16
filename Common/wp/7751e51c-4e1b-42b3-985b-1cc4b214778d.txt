@@ -1,0 +1,17 @@
+Un hyperlien, ou lien hypertexte, ou lien web, ou simplement lien, est une référence dans un système hypertexte permettant de passer automatiquement d'un document consulté à un document lié. Les hyperliens sont notamment utilisés dans le World Wide Web pour permettre le passage d'une page Web à une autre à l'aide d'un clic.
+Il fut inventé par Ted Nelson en 1965 dans le cadre du projet Xanadu.
+
+Source et destination
+Un lien hypertexte ou hyperlien permet en cliquant dessus d'atteindre un autre endroit de la page, une autre page ou un autre site évalué comme pertinent par l'auteur. C'est un mode d'organisation d'un document. Il a une source (ou origine) et une destination (ou cible). L'activation de l'élément source d'un hyperlien permet de passer automatiquement à sa destination.
+La source d'un hyperlien est généralement un élément (mots, phrases, images) d'un document hypertexte. La destination peut être un autre élément du même document, il s'agit alors d'un hyperlien interne au document. La destination peut également être un autre document, voire un élément précis d'un autre document. Certains systèmes hypertextes ne garantissent pas que la destination existe : dans ce cas on risque de suivre des hyperliens dits brisés, cassés ou morts.
+Un hyperlien est bidirectionnel si sa destination est aussi la source réciproque du même lien. Sinon un lien est unidirectionnel et rien ne distingue un élément destination d'un quelconque autre élément. La destination d'un hyperlien n'est pas forcément un document hypertexte. Le cas échéant, le lien sera forcément unidirectionnel.
+
+World Wide Web
+Les hyperliens du World Wide Web se trouvent dans les pages web, plus précisément dans des documents écrits en HTML (Hypertext Markup Language). Les pages web utilisent la notation des URI (Uniform Resource Identifier) pour identifier les documents référencés.
+Les hyperliens du web sont unidirectionnels. Ceci a deux avantages pour le Web. Premièrement cela permet d'utiliser des documents non hypertextes (notamment des sons, des images, des documents à imprimer) comme destination. Deuxièmement cela permet d'établir des hyperliens vers toutes les ressources accessibles d'Internet, sans coordination avec le responsable du document de destination. Ce dernier n'a aucun contrôle sur les sources d'hyperliens pointant vers son document. Le défaut de cette non coordination est que les changements du document de destination risquent de rendre le lien obsolète sans que le responsable de la source ni de la destination ne s'en rendent compte. Le problème le plus visible apparaît lorsque le document de destination est supprimé : le lien est alors "brisé" ou "mort", il fait référence à un document disparu (erreur 404).
+Le problème du changement d'adresse d'une ressource peut être résolu par diverses approches. Les blogs utilisent le système du permalien. Les milieux documentaires utilisent la notion d'identifiant pérenne, pour lequel il existe différentes normes ; par exemple la Bibliothèque Nationale de France utilise le système ARK.
+La technique à la base des hyperliens du web est également utilisée pour inclure des images ou des sous-pages dans les pages Web. Une terminologie s'est développée pour différencier ces diverses applications de la technologie du web :
+
+Voir aussi
+
+Articles connexes: Droit de citation; Fair use; HTML; Identificateur de fragment; Hypertexte; Pictolink; Site web; URL, URI; World Wide Web; Lien rompu.

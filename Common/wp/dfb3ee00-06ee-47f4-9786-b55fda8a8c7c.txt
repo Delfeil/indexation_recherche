@@ -1,0 +1,17 @@
+SOAP (ancien acronyme de Simple Object Access Protocol) est un protocole de RPC orienté objet bâti sur XML.
+Il permet la transmission de messages entre objets distants, ce qui veut dire qu'il autorise un objet à invoquer des méthodes d'objets physiquement situés sur un autre serveur. Le transfert se fait le plus souvent à l'aide du protocole HTTP, mais peut également se faire par un autre protocole, comme SMTP.
+Le protocole SOAP est composé de deux parties : une enveloppe, contenant des informations sur le message lui-même afin de permettre son acheminement et son traitement ;; un modèle de données, définissant le format du message, c'est-à-dire les informations à transmettre.
+SOAP a été initialement défini par Microsoft et IBM, mais est devenu une référence depuis une recommandation du W3C, utilisée notamment dans le cadre d'architectures de type SOA (Service Oriented Architecture) pour les Services Web WS--.
+Le protocole SOAP emploie des métadonnées.
+SOAP n'est plus un acronyme depuis la version 1.2. En effet, SOAP v1.2 a été réécrit en fonction d'infosets XML, et non plus sous forme de sérialisations xml... comme il l'était en v1.1. La notion d'objet (spécifiée dans Simple Object Access Protocol) devient donc obsolète.
+
+Critiques techniques
+De nombreux commentateurs et spécialistes ont discuté des avantages et inconvénients de SOAP relatifs aux autres technologies, et relatifs aux contextes de son utilisation.
+
+Avantages: Utiliser SOAP via HTTP facilite la communication et évite les problèmes de proxys et pare-feu par rapport à des technologies plus anciennes.; SOAP est : assez ouvert pour s'adapter à différents protocoles de transport ;; indépendant de la plate-forme ;; indépendant du langage ;; extensible.; assez ouvert pour s'adapter à différents protocoles de transport ;; indépendant de la plate-forme ;; indépendant du langage ;; extensible.
+
+Inconvénients: En raison du nombre d'informations qu'impose le format XML, SOAP peut alourdir considérablement les échanges par rapport à des middlewares comme CORBA ou ICE, ce qui n'est pas forcément un handicap quand les volumes de données transités par SOAP sont faibles par rapport au volume total de données échangées.; SOAP décrit la manière dont les applications doivent communiquer entre elles, certains considèrent que le couplage reste fort entre le serveur et ses clients. Une modification de l'API implique ainsi une évolution côté client, contrairement à une architecture orientée ressources telle que REST.
+
+Voir aussi
+
+Articles connexes: CORBA; COM; Les Services Web WS--; Web Services Description Language (WSDL); Ajax (informatique); REST; XML-RPC, l'ancêtre de SOAP; Liste des spécifications des Services Web WS--; Action Message Format.

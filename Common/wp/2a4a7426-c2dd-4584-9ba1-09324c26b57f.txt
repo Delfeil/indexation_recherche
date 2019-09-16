@@ -1,0 +1,82 @@
+La topographie (du grec topos - lieu et graphein - dessiner) est la science qui permet la mesure puis la représentation sur un plan ou une carte des formes et détails visibles sur le terrain, qu'ils soient naturels (notamment le relief et l'hydrographie) ou artificiels (comme les bâtiments, les routes, etc.). Son objectif est de déterminer la position et l'altitude de n'importe quel point situé dans une zone donnée, qu'elle soit de la taille d'un continent, d'un pays, d'un champ ou d'un corps de rue.
+La topographie s'appuie sur la géodésie qui s'occupe de la détermination mathématique de la forme de la Terre (forme et dimensions de la Terre, coordonnées géographiques des points, altitudes, déviations de la verticale...). La topographie s'intéresse aux mêmes quantités, mais à une plus grande échelle, et elle rentre dans des détails de plus en plus fins pour établir des plans et cartes à différentes échelles. La cartographie proprement dite est l'art d'élaborer, de dessiner les cartes, avec souvent un souci artistique et ne doit pas être confondue avec la topographie.
+Mais la topographie, nom générique, n'est qu'un aspect des sciences dites géographiques, au répertoire desquelles nous trouvons la topométrie, la géodésie, la photogrammétrie, la géomatique, etc.
+Par extension, la topographie se dit aussi de la disposition ou du relief d'un lieu, voire de la description d'une personne dans son aspect physique et moral.
+La notion de géomètre est souvent utilisée à la place de topographe. La distinction provient de la notion de droit foncier, le topographe peut réaliser des relevés mais sans valeur contradictoire et encore moins légale (aspect du droit foncier).
+
+Histoire
+Théodolite en 1900.
+Les premières traces de mesures de la surface de la terre semblent dater des Égyptiens, pour la construction des pyramides, pour remettre en place les limites de cultures après les crues du Nil mais aussi pour délimiter les terres soumises à l'autorité du pharaon. De nombreuses stèles ont été retrouvées au Proche-Orient. Il semble, comme le précise Hérodote, que le peuple égyptien disposait déjà d'un cadastre.
+À partir de l'Empire romain, les arpenteurs ont été chargés de borner les terres, divisant les champs et mesurant ainsi le territoire en vue de l'application de l'impôt. Ils sont aussi chargés d'implanter les bâtiments et les routes. Les conquêtes des Romains et leurs constructions démontrent une grande pratique basée en partie sur l'angle droit. L'une des fonctions essentielles des arpenteurs romains fut la réalisation d'un cadastre. Une fois la prise de mesures réalisée sur le terrain, l'ensemble du plan était transcrit sur des plaques de marbre en deux exemplaires identiques dont l'une était destinée aux archives de l'État, formant ainsi un cadastre juridique et technique.
+En France pendant le Moyen Âge, les Mérovingiens, se contentent de maintenir l'organisation romaine. Les Carolingiens instaureront la taille, impôt au profit du roi, qui nécessite la restauration des documents terriers mais sans mesurages. C'est à la Renaissance que les premiers plans de ville sont réalisés.
+Mercator introduisit les premières projections sur globe et par ainsi les corrections de courbure de la terre sur les plans.
+On peut citer quelques topographes célèbres, Claude Chastillon (1559-1616) fut le topographe du roi de France Henri IV pour lequel il réalisa 544 gravures. Jean-Dominique Cassini IV (1748-1845) fut chargé de terminer la carte de France entamée par son père, qui ne fut achevée qu'en 1815.
+
+Les outils topographiques
+Télémètre laser et l'ordinateur de terrain utilisés pour des relevés topographiques, technologie "Field-Map". Tachéomètre moderne.
+La lunette est adaptée à la topographie au XVIIe siècle. À cette époque l'instrument essentiel de l'arpenteur est la planchette (ou goniographe). Cet instrument est uniquement composé d'une lunette et d'une planche en bois. C'est au XXe siècle que le théodolite apparaît. Il permet de mesurer des angles horizontaux et verticaux.
+Depuis les années 1950 et 1960, les techniques évoluent. Avec l'invention des distancemètres électroniques, le théodolite électronique ou le tachéomètre, permettent à la fois de mesurer les distances et les angles. Jusque là, la mesure des distances se faisait à l'aide de rubans gradués (dits chaînes d'arpenteurs) : ces inventions constituent donc une évolution très significative dans le travail des topographes de terrain, presque une révolution.
+Depuis les dernières décennies, l'apparition de l'électronique puis de l'informatique ont donné naissance à de nouvelles techniques de levé et de traitement des données : stations totales motorisées et télécommandées, positionnement par satellites (notamment GLONASS ou le plus connu : GPS), niveaux à code-barres, télémètre laser, etc.
+
+Le but de la topographie
+La topographie permet de mener des travaux à l'échelle d'une ville ou d'un pays en utilisant une représentation planimétrique (planimétrie) et altimétrique (altimétrie) identique sur l'ensemble de son territoire. Ces travaux peuvent être des constructions d'autoroutes, de ponts, de canaux, tunnels, etc.
+Les travaux de topographie sont menés par des géomètres, des topographes ou des géomètres-experts.
+Dans une perspective linguistique, la topographie sert à décrire l'espace d'un lieu. Elle fait partie de la typologie descriptive qui regroupe plusieurs types de descriptions selon l'objet décrit. Dans le domaine informatique, on parle par exemple de topographies de circuits intégrés, qui fait l'objet d'une protection intellectuelle via une loi propre au Canada.
+
+La topographie dans l'espace
+Exemple de carte topographique.
+Les cartes topographiques sont une représentation géométrique, en général plane, d'une partie de la Terre.
+En France on utilise la projection de Lambert, afin de déterminer avec précision des points, appelés points géodésiques, qui seront connus en coordonnées. À l'aide de cette projection, on peut déterminer la position virtuelle de n'importe quel point situé sur le sol français. Celle-ci sera très proche de sa position réelle, de l'ordre de quelques décimètres.
+Le système altimétrique français est le système IGN 69. Le niveau zéro du niveau général de la France (NGF) se situe au marégraphe de Marseille.
+Sur chaque carte, l'échelle de représentation est toujours présente. Un quadrillage indiquant les coordonnées peut aussi être représenté, ainsi que des lignes de niveaux (isohypse) représentant l'altimétrie.
+Un curvimètre mécanique.
+Les cartes peuvent ne faire figurer que certains éléments du territoire à différentes échelles. Il existe ainsi des cartes d'intérêt général pour les particuliers (notamment les cartes IGN) et d'autres adaptées aux besoins plus spécifiques des professionnels. Les cartes au 1-25000 présentent les courbes de niveaux, les forêts, les routes, les villes, etc. Elles sont utiles pour les randonnées. Les cartes adaptées aux travaux publics sont à l'échelle du chantier et indiquent l'emplacement des futures constructions et les évolutions en cours.
+Le service topographique national français s'appelle "Institut national de l'information géographique et forestière" (IGN), anciennement "Institut géographique national".
+Les cartes à plus grande échelle que sont les plans du cadastre sont, topographiquement, de qualités très inégales. Malgré le rattachement de tous au système Lambert, il reste imprudent de tirer des conclusions de discordances entre plan et terrain sans le conseil d'un professionnel.
+Le curvimètre est un des instruments utilisé pour la mesure des courbes sur les cartes. Instrument utile car il permet grâce à sa roue ou à sa bille de calculer les distances en les retraçant sur la carte mais en plus, les curvimètres sont dotés de graduations d'échelle ou d'une conversion électronique entre la distance mesurée et la distance réelle.
+Le planimètre sert à mesurer des surfaces sur des plans et des cartes.
+
+Les disciplines associées
+
+La topométrie
+La topométrie concourt à la connaissance des lieux sous forme numérique : le topomètre mesure pour établir un modèle numérique du terrain dont le plan n'est qu'une image dressée à une échelle donnée. Selon les textes, "la topométrie s'appuie sur les points géodésiques et les repères de nivellement pour représenter la planimétrie (projection des détails naturels, artificiels et conventionnels de la surface de la terre sur un plan tangent) et l'altimétrie (représentation du relief) à grandes échelles."
+
+La géodésie
+La géodésie est la science qui étudie les formes et les dimensions de la terre, mais aussi ses propriétés physiques, gravité, champ de pesanteur, et dont les travaux aboutissent à la représentation plane de vastes étendues. Selon les textes, "elle comprend l'établissement des canevas de références horizontaux et verticaux des 3 premiers ordres, l'astronomie de position, les mesures gravimétriques et la détermination du champ de pesanteur en utilisant des instruments conventionnels et électroniques, la photogrammétrie, l'inertiel, les satellites et autres moyens appropriés."
+
+La photogrammétrie
+C'est l'art permettant de déterminer et de représenter des objets à partir d'images numériques ou argentiques. On parle de photogrammétrie aérienne ou terrestre.
+
+La télédétection spatiale
+La télédétection englobe toutes les techniques de mesures sans contact, cependant on distingue habituellement cette discipline de la lasergrammétrie et la photogrammétrie.
+
+La lasergrammétrie
+Véritable innovation technologique, la lasergrammétrie ou relevé par scanneur laser 3D permet l'acquisition, sans contact d'objet, de grandes scènes complexes en trois dimensions. Les résultats sont de véritables présentations numériques des objets et scènes scannées par le levé de plusieurs millions de points tridimensionnels par seconde.
+Son utilisation apporte un gain de précision dans les mesures tout en offrant dans les plus brefs délais de nouvelles perspectives de résultats et de valorisation.
+Cette technologie est aussi bien connue sous le nom de Lidar (Light Detection and Ranging).
+
+L'hypsométrie
+L'hypsométrie consiste à déterminer en particulier la topographie des terres émergées, au dessus du niveau marin moyen, et complète de ce fait la bathymétrie qui s'intéresse, elle, à la topographie sous-marine.
+
+La bathymétrie
+La bathymétrie consiste à déterminer la forme des fonds aquatiques : étude des rivières, des rivages, par exemple pour des projets d'installations portuaires. Le géomètre-topographe est rarement amené à utiliser un sondeur bathymétrique, mais peut en exploiter les résultats couplés, par exemple, à des coordonnées GPS ou à un nuage (scan) de points 3D. La bathymétrie est plutôt du ressort des hydrographes. Le lidar (lidar bathymétrique) peut être utilisé, alors avec un laser bleu vert qui pénètre facilement l'eau si elle n'est pas turbide ni trop riche en plancton.
+
+L'astronomie
+Il est important de se rappeler le lien entre l'astronomie de position et la géodésie.
+
+La cartographie
+Dans cette rubrique, le terme cartographie s'entend pour la notion de représentation cartographique. La cartographie est la représentation conventionnelle sur support physique ou numérique de tous les détails naturels et artificiels et mouvements du terrain qui caractérisent une portion de la surface du sol.
+
+Système d'information géographique
+Un système d'information géographique (SIG) est un système d'information conçu pour recueillir, stocker, traiter, analyser, gérer et présenter tous les types de données spatiales et géographiques. L'acronyme SIG est parfois utilisé pour définir les "sciences de l'information géographiques" ou "études sur l'information géospatiales". Cela se réfère aux carrières ou aux métiers qui travaillent avec des systèmes d'information géographique et dans une plus large mesure avec les disciplines de la géo-informatique. Ce que l'on peut observer au-delà du simple concept de SIG a trait aux données de l'infrastructure spatiale.
+
+Voir aussi
+Images topographiques. Géographie mathématique; Géodésie; Photogrammétrie; Télédétection; Géomètre-expert; Géomètre-topographe; Géomatique; Topographie spéléologique; Topographie médicale.
+
+Les formations: École nationale des travaux publics de l'État (ENTPE); École nationale des sciences géographiques (ENSG); École spéciale des travaux publics, du bâtiment et de l'industrie (ESTP); École supérieure des géomètres et topographes (ESGT); Institut national des sciences appliquées de Strasbourg (INSA) (ex ENSAIS); École nationale supérieure de techniques avancées Bretagne (ENSTA Bretagne).
+
+Le matériel de topographie
+Lunette nadirale en station sur un coffrage. Tachéomètre ou station totale; Théodolite; Niveau optique; Lunettes Zénitale et Nadirale; Système GNSS : de type GPS ou bientôt Galileo, Glonass...; Scanner Laser, Lidar, Field-Map; Crapaud : Petit trépied métallique sur lequel on installe la mire afin d'en assurer la stabilité lors de la réalisation de relevés topographiques sur un terrain inégal.
+En spéléologie, les topographes utilisent également les éléments suivants : Compas; Inclinomètre; Décamètre.
+
+Les logiciels de topographie: AZIMUT : suite de logiciel pour applicatifs topographique dans MicroStation (SIG, calculs,...); AutoCAD : Logiciel de dessin industriel (utilisé dans de nombreux corps de métier c'est pourquoi il faut lui rajouter des applicatifs topographiques de calculs et d'aides au dessin).; Pythagoras : La référence des logiciels Topo par excellence. Englobe toutes ces fonctionnalités en un seul produit, avec une simplicité déconcertante.; CadOGéo : logiciel de calcul et de dessin compatible Autocad.; Covadis : Applicatif de calcul, de dessin et de projet pour AutoCAD.; DK-Mètre : Logiciel topographie, vrd, route et hydrologie.; KeaPolaris : Logiciel de topographie et VRD possédant son propre noyau graphique.; Majicad : Logiciel de topographie, en licence freeware, orienté sur la confection et mise à jour du plan cadastral; Mensura : logiciel de dessin, de calculs topographiques et de calculs VRD (terrassement, réseaux, routes, métré, vues 3d...); MicroStation : une alternative à AutoCAD.; Therion : logiciel de topographie souterraine. Fonctionne sur tous OS, dessin vectoriel.; Topocad : logiciel pour les levés topographiques, études de routes et de VRD.; TopStation (de JSInfo) : Logiciel de topographie, carto, SIG, codif, DMPC, Plan d'intérieur compensé PIC. Tri-plateforme : Autonome-AutoCAD-MicroStation.; Trimble Sketchup : Alternative à AutoCAD prévu pour la construction 3D; VisionPlus : logiciel de calcul et de dessin compatible à Autocad et Microstation.; Visual Topo : logiciel de topographie des grottes et cavités souterraines.

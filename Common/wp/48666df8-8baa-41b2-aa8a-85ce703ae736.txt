@@ -1,0 +1,2 @@
+JRuby est une implémentation de l'interpréteur de Ruby en Java développé par la JRuby team. C'est un logiciel libre à sources ouvertes, sous la triple licence CPL-GNU GPL-GNU LGPL.
+Il permet d'améliorer les applications existantes en Java en y apportant la souplesse et rapidité du prototypage et du développement du langage Ruby. Il est utilisé notamment dans le secteur bancaire, dans lequel Java est fortement implanté.

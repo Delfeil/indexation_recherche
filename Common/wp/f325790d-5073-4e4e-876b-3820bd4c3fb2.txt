@@ -1,0 +1,46 @@
+En informatique, un plugin ou plug-in, aussi nommé module d'extension, module externe, greffon, plugiciel, ainsi que add-in ou add-on en France, est un paquet qui complète un logiciel hôte pour lui apporter de nouvelles fonctionnalités.
+Le terme plugin provient de la métaphore de la prise électrique standardisée et désigne une extension prévue des fonctionnalités, par opposition aux ajouts non prévus initialement apportés à l'aide de correctifs (patchs).
+La plupart du temps, ces programmes sont caractérisés de la façon suivante : ils ne peuvent fonctionner seuls car ils sont uniquement destinés à apporter une fonctionnalité à un ou plusieurs logiciels ;; ils sont mis au point par des personnes n'ayant pas nécessairement de relation avec les auteurs du logiciel principal.
+
+Terminologie
+Le terme plugin ou plug-in (se prononçant) vient du verbe anglais to plug in qui signifie brancher.
+Ce terme étant un anglicisme, de nombreux termes français ont été proposés pour le remplacer : module d'extension (terme recommandé en France par la DGLFLF et par la Communauté française de Belgique), module externe, greffon ou encore plugiciel (terme proposé par l'Office québécois de la langue française en 1996 et approuvé par l'Académie française en 2009). La forme abrégée "extension" acceptée par la DGLFLF peut conduire à des confusions avec l'extension de nom de fichier, ou l'extension de logiciel, qui ont d'autres significations.
+
+Objectifs
+Tous les logiciels ne sont pas capables de fonctionner à l'aide de plugin, le logiciel en question doit être conçu pour pouvoir communiquer avec des programmes extérieurs selon certaines règles que ces derniers doivent respecter pour qu'ils puissent échanger des informations. Les objectifs des auteurs choisissant de concevoir ce genre de logiciel est de pouvoir ajouter des fonctionnalités sans avoir à tout reprogrammer et également de permettre aux utilisateurs d'ajouter leurs propres fonctionnalités de manière indépendante. Idéalement, cette indépendance inclut la possibilité pour le logiciel principal d'évoluer tout en restant compatible avec les plugins existants ; cette condition est cependant loin d'être toujours remplie.
+
+Avantages
+Avoir un aperçu concret d'une fonctionnalité qui sera ensuite éventuellement intégrée au logiciel principal dans une version améliorée.
+
+Architecture logicielle modulaire
+Le plugin peut aussi être la base d'une architecture logicielle modulaire comme c'est le cas pour la plate-forme Eclipse et les bundles OSGi.
+Dans les architectures logicielles statiques, la structure mise en oeuvre est définie avant le lancement du programme (par exemple, dans un fichier de configuration). À titre d'exemple, l'interpréteur du langage PHP peut charger des modules d'extensions (pour prendre en compte le format ZIP, pour permettre l'accès à une base MySQL, etc.) selon les besoins décrits dans le fichier d'initialisation (php.ini).
+Dans les architectures véritablement dynamiques, c'est l'application qui va elle-même recenser les plugins présents, bien souvent par examen de fichiers présents dans un répertoire dédié aux plugins. L'ajout et la suppression d'éléments dans le répertoire permet d'activer ou de désactiver les plugins correspondants. Certaines applications permettent le démarrage et l'arrêt d'un plugin alors qu'elles sont en fonctionnement. On parle alors de configuration à chaud ou hot-plug, essentiellement utilisée dans les serveurs pour gérer la tolérance aux pannes (système RAID). Ces changements peuvent être déclenchés par l'utilisateur ou à l'occasion d'un autre évènement au sein de l'application. Toutefois, ce type d'architecture devient vite complexe du fait des dépendances qui peuvent exister entre les plugins. Pour illustrer le concept d'architecture dynamique, on peut considérer les systèmes d'exploitation où les services systèmes sont comparables à des plugins ajoutés et retirés au noyau. On retrouve également la notion de dépendances, par exemple au niveau du lien entre un service HTTP et un service TCP-IP.
+
+Stand-alone
+Certains plug-ins peuvent aussi être utilisés comme logiciel à part entière, on dit alors qu'il sont Standalone.
+
+Exemples
+Parmi les plus fréquents se trouvent ceux ajoutant les supports de certains formats : Adobe Flash pour les animations Flash, surtout au format SWF ;; Java pour les applets Java, utilisant des fichiers au format class ;; QuickTime pour certains formats de sons et de vidéos; Google plugin pour la visualisation Google Earth.
+Microsoft proposait jusqu'à Windows XP des powertoys, qui sont des plugins pour Microsoft Windows.
+SPIP, Système de publication pour l'Internet, offre une grande variété de plugins développés par une communauté très active, faisant de ce système de publication un outil particulièrement apprécié des professionnels.
+Une partie des modules pour les navigateurs Web comme Firefox, Seamonkey (et autres de la famille Mozilla) sont souvent nommés comme étant des plugins mais ne le sont pas, il s'agit d'extensions.
+Nombreux logiciels pour la plateforme Gnome sont extensibles, via des plug-ins. Notamment, evince, eog, Nautilus et gedit, qui proposent tous une interface de programmation en Python pour ajouter des fonctionnalités au logiciel (de façon dynamique).
+Le lecteur multimédia VLC propose aussi une interface de programmation en Lua pour ajouter (dynamiquement) des fonctionnalités, comme le téléchargement automatique de sous-titres ou de paroles de chansons.
+
+Plug-in frameworks
+Les Frameworks ci-dessous sont organisés par langage de programmation et peuvent être utilisés par les développeurs pour ajouter des plug-in à leur application.
+
+C++: FxEngine Framework - Framework pour le traitement de flux de données (signal, image...); Qt Plug-Ins - Qt Framework de TrollTech.
+
+Delphi: TMS Plug-in Framework.
+
+Java: Java Plug-in Framework (JPF), Eclipse's plug-in; Rich Client Platform (RCP), Eclipse's plug-in.
+
+Python: Setuptools; Hive ERP Framework; Sprinkles; Envisage.
+
+.NET: AL Platform; Mono Add-ins; Code Project; NET Add-In Team Blog; Plux.NET; Managed Extensibility Framework; Visual Assist.
+
+Voir aussi
+
+Articles connexes: Extension (Mozilla); Extension (logiciel); Stand-alone. Portail d'Internet; Portail de l'informatique.

@@ -1,0 +1,101 @@
+En télécommunications, la 4G est la quatrième génération des standards pour la téléphonie mobile. Succédant à la 2G et la 3G, elle permet le "très haut débit mobile", c'est-à-dire des transmissions de données à des débits théoriques supérieurs à 100 Mbit-s, voire supérieurs à 1 Gbit-s (débit minimum défini par l'UIT pour les spécifications IMT-Advanced (en)). En pratique, les débits sont de l'ordre de quelques dizaines de Mbit-s selon le nombre d'utilisateurs, puisque la bande passante est partagée entre les terminaux actifs des utilisateurs présents dans une même cellule radio.
+Une des particularités de la 4G est d'avoir un "coeur de réseau" basé sur IP et de ne plus offrir de mode commuté (établissement d'un circuit pour transmettre un appel "voix"), ce qui signifie que les communications téléphoniques utilisent la voix sur IP (en mode paquet).
+
+Normes 4G: IMT-2000 : LTE,; WiMAX ;.; LTE,; WiMAX ;; IMT-Advanced : LTE-Advanced,; Gigabit WiMAX.; LTE-Advanced,; Gigabit WiMAX.
+L'organisme de normalisation UIT-R a établi, en 2008, les spécifications "IMT-Advanced (en)" (International Mobile Telecommunications Advanced) pour les normes 4G. La norme LTE-Advanced fait partie des technologies réseaux retenues dans le cadre de l'IMT-Advanced, avec le Gigabit WiMAX.
+Les normes LTE et WiMAX ont d'abord été considérées comme des normes de troisième génération ("3,9G"), spécifiées dans le cadre des technologies IMT-2000. Cependant, en décembre 2010, l'UIT a accordé aux normes LTE et WiMAX la possibilité commerciale d'être considérées comme des technologies "4G", du fait d'une amélioration sensible des performances comparées à celles des premiers systèmes "3G". Depuis lors, les réseaux mobiles WiMAX et LTE lancés partout dans le monde (par exemple : Proximus en Belgique, Swisscom en Suisse, Verizon, ATT et Sprint aux États-Unis, Orange, Bouygues Telecom, SFR et Free Mobile en France...) sont commercialisés sous l'appellation "4G".
+
+Historique de déploiement
+
+Europe
+L'Europe (via la CEPT) a fait le choix de réserver les bandes de fréquence des 800 MHz (issue du dividende numérique) et des 2 600 MHz pour les réseaux de téléphonie mobile 4G. Dans beaucoup de pays (dont la France) les opérateurs ont aussi la possibilité de réutiliser la bande de fréquence des 1 800 MHz initialement attribuée au GSM (2G) ; cette bande de fréquence était la plus utilisée dans les réseaux 4G-LTE européens fin 2012.
+La première commercialisation d'une offre mobile en 4G utilisant le standard LTE a été lancée dans les villes de Stockholm (Suède) et Oslo (Norvège) le 15 décembre 2009 par l'opérateur téléphonique Telia.
+La société HTC avait commercialisé aux États-Unis le premier téléphone compatible 4G WiMAX mobile (norme 802.16e) : le HTC Evo 4G, durant le premier semestre 2010, mais ce téléphone n'était pas compatible avec les réseaux 4G LTE européens. Samsung a commercialisé le premier smartphone compatible 4G LTE sous la référence SCH-R900 durant le second semestre 2010. La connexion aux réseaux peut également se faire depuis un ordinateur et une clé ou un "domino" 4G LTE.
+Les déploiements à grande échelle de la 4G LTE ont commencé en 2013 dans la plupart des pays européens.
+
+Portugal
+En mars 2012, les opérateurs télécoms portugais TMN, Optimus et Vodafone Portugal commercialisent leurs offres 4G LTE. Ils annoncent 80 % de la population couverte fin 2012.
+
+Suisse
+Le 29 novembre 2012, Swisscom lance officiellement la 4G-LTE dans 29 grandes villes et stations de sports d'hiver de Suisse : Arosa, Bâle, Berne, Bienne, Crans-Montana, Davos, Fribourg, Genève, Grindelwald, Gstaad, Interlaken, Lausanne, Loèche-les-Bains, Locarno, Lugano, Lucerne, Pontresina, Saas-Fee, Silvaplana, Sion, Saint-Gall, Saint-Moritz, Thoune, Verbier, Wengen, Winterthour, Zermatt, Zoug, Zurich. En décembre 2013, l'opérateur a raccordé environ 1400 communes, couvrant ainsi 85 % de la population.
+Le 1er juin 2013, Orange lance la 4G-LTE dans dix grandes villes de Suisse : Bâle, Berne, Bienne, Genève, Lausanne, Lugano, Lucerne, Saint-Gall, Winterthour, Zurich et annonce d'ores et déjà que 71 % de la population en bénéficiera d'ici la fin de l'année.
+Sunrise à lancé son réseau de quatrième génération le 19 juin 2013 et couvrait 22 % de la population. Le challenger numéro deux de Suisse couvrait 50 % de la population à fin octobre 2013. Il compte couvrir la totalité de la population en fin 2016 au plus tard. En novembre 2014, il couvrait plus de 80 % de la population.
+
+Italie
+Depuis décembre 2012, tous les fournisseurs d'accès italiens offrent des services 4G dans quelques grandes villes : TIM : Rome, Milan, Turin, Naples, Brindisi, Catanzaro, Gênes, Padoue, Palerme, Trieste, Vodafone : Rome, Milan, Turin, Naples, Bari, Gênes, Padoue, Palerme 3 Italia : Rome, Milan, Acuto Le fournisseur Wind prévoit quant à lui de déployer ses services 4G au second semestre 2013
+
+Belgique
+Proximus : Le 5 novembre 2012, Proximus (Belgacom) lance officiellement la 4G dans 5 grandes villes belges : Namur, Liège, Anvers, Gand et Louvain. Dans une moindre mesure, la 4G de Belgacom est également disponible à Mons, Wavre, Hasselt et Oud-Heverlee. Les premiers tests par les clients montrent une vitesse crête de 53 Mbit-s. Le 31 janvier 2014, Dominique Leroy, CEO de Belgacom, annonçait en conférence de presse que la 4G est offerte à tous les clients qu'ils soient postpay ou prepay. D'après Commsquare, un organisme indépendant qui se charge de tester les différents réseaux data, Proximus couvre 65 % de la population belge. Le débit maximum théorique est de 123 Mbit-s en débit descendant et certains utilisateurs atteignent 80 à 90 Mbit-s en pratique avec l'application speedtest. Proximus utilise majoritairement la fréquence 1 800 MHz pour sa 4G.
+Base : Le 1er octobre 2013, Base lance la 4G dans 15 villes belges. Le réseau a été renforcé depuis et était le 18 janvier 2014 disponible dans 203 localités. Les tests montrent une vitesse record d'environ 50 Mbit-s en téléchargement et de 20 Mbit-s en upload. Les MVNO tels que Mobile Vikings bénéficient également de la 4G sans augmentation de forfait.
+Orange : Orange annonce une commercialisation de son offre 4G dans le courant 2014.
+Terminaux Apple en Belgique : En revanche, la 4G était inutilisable sur les iPhone, car Apple n'avait initialement pas autorisé les réseaux 4G de Base et Proximus. En date du 24 janvier 2014, le Conseil des ministres belge a approuvé une modification de la loi Télécom qui interdit à un fabricant de téléphones ou de smartphones d'empêcher l'accès à la 4G aux consommateurs belges, quel que soit leur opérateur. Le 25 avril 2014, Apple débloque la 4G sur tous ses appareils mobiles en Belgique.
+
+France
+En France, l'ARCEP a attribué des licences 4G LTE aux opérateurs fin 2011, puis fin 2015. Les enchères de 2011 ont rapporté à l'État plus de 3,5 milliards d'euros ; celles de 2015 2,8 milliards.
+Le résultat du premier appel d'offres 4G pour la bande de fréquence des 2 600 MHz répartit les fréquences comme suit : Bouygues Telecom obtient 15 MHz duplex pour 228 011 012 ;; Free mobile obtient 20 MHz duplex pour 271 000 000 ;; Orange obtient 20 MHz duplex pour 287 118 501 ;; SFR obtient 15 MHz duplex pour 150 000 000. La SFR est le seul opérateur à ne pas avoir souscrit d'engagement à accueillir des opérateurs virtuels (MVNO) sur son réseau.
+Soit un total de 936 129 513.
+Le résultat du second appel d'offres 4G pour la bande des 800 MHz, libérée par l'arrêt de la télévision hertzienne analogique (1er dividende numérique), se répartit ainsi : Bouygues Telecom obtient 10 MHz duplex pour 683 087 000 ;; Orange obtient 10 MHz duplex pour 891 000 005 ;; SFR obtient 10 MHz duplex (2 blocs de 5 MHz) pour 1 065 000 000 ;; Free mobile n'obtient pas de fréquences dans cette bande mais a un droit d'accès théorique au roaming sur le réseau 800 MHz de SFR.
+Soit un total de 2 639 087 005.
+Répartition globale des fréquences affectées à la 4G en France fin 2011 : 30 % pour Orange, 25 % pour SFR, 25 % pour Bouygues, 20 % pour Free Mobile.
+L'Arcep a annoncé en juillet 2015 qu'un troisième appel d'offres 4G serait lancé pour la bande des 700 MHz, libérée par l'arrêt de la télévision hertzienne analogique (second dividende numérique) : 2 bandes duplex de 30 MHz (703 à 733 MHz et 758 à 788 MHz) découpées en 6 canaux de 2x5 MHz sont mises aux enchères : les dossiers de candidature ont été déposés auprès de l'ARCEP avant le 29 septembre 2015. Le 24 novembre 2015, 10 MHz duplex ont été attribués à Free mobile et à Orange et 5 MHz à SFR et Bouygues
+Ces fréquences seront disponibles et utilisables progressivement entre 2016 et 2019 selon les zones géographiques et à partir d'avril 2016 en région parisienne.
+Au cours du deuxième trimestre 2017, l'ARCEP a donné son autorisation à SFR et Bouygues Télécom pour développer leurs réseaux 4G respectifs sur la bande de fréquence des 2100 MHz. Jusque-là réservée à la 3G, cette nouvelle bande de fréquence autorisée en 4G permet de développer encore davantage un réseau en évolution perpétuelle.
+
+DROM-COM
+Les territoires d'outre-mers sont très en retard sur l'Hexagone en matière de technologie 4G. La fracture numérique entre le territoire continental et ses dépendances s'est développée sous les différents gouvernements. Toutefois, 5 ans après la métropole, il semble que ces régions vont enfin se voir accorder, en 2016, des licences via des appels à la candidature aux opérateurs locaux par l'état, organisés par l'ARCEP. Cependant, alors que l'attribution des licences dans la bande 700 MHz a eu lieu administrativement en métropole fin 2015, les DROM-COM risquent de se voir proposer seulement cinq bandes de fréquences : 800 MHz, 900 MHz, 1 800 MHz, 2 100 MHz et 2 600 MHz pour la 3G et la 4G.
+
+Développement 4G des opérateurs métropolitains: Orange France a ouvert pour ses clients "entreprises" un premier réseau expérimental 4G-LTE au mois de juin 2012 à Marseille puis, le 21 novembre 2012 à Lyon, Nantes et Lille. Depuis le 4 avril 2013, Bordeaux, La Rochelle, Chartres, Orléans, Dunkerque, Nancy, Metz, Clermont-Ferrand, Grenoble, Mulhouse et Annecy ont été ouvertes aux particuliers. La ville de Toulouse est couverte en juillet 2013. Orange annonçait pouvoir couvrir 40 % de la population française fin 2013. Le 28 novembre 2012, la 4G pour le "grand public" est officiellement lancée pour la première fois à Lyon par SFR, qui devient ainsi "le premier opérateur à proposer la 4G au public". SFR a déployé début 2013 son réseau 4G accessible au grand public à Lyon, puis Montpellier et dans le secteur de La Défense (Puteaux, Courbevoie) et l'étend, à l'instar d'Orange, dans les grandes agglomérations. L'opérateur prévoyait de couvrir entièrement la ville de Paris pour fin 2013. Environ 400 antennes étaient nécessaires pour couvrir Paris en 3G, il en faut moins pour la 4G, celle-ci exploitant des fréquences plus basses (800 MHz). Les fréquences 800 MHz permettent de couvrir de plus grandes zones ou encore de mieux pénétrer les bâtiments, réduisant le nombre d'antennes nécessaires pour couvrir le territoire. En décembre 2014, SFR annonce couvrir 50 % de la population en 4G et plus de 75 % de la population en "Très Haut Débit mobile". Bouygues Télécom se lance à son tour dans la 4G, le 12 mai 2013 en ouvrant un réseau dans six villes françaises : Lyon, Strasbourg, Issy-les-Moulineaux, Vanves, Malakoff et Toulouse. L'opérateur annonce une couverture de 63 % de la population française à partir du 1er octobre 2013 grâce à la réutilisation d'une partie de la bande de fréquence des 1 800 MHz utilisée auparavant pour la 2G. Il lance officiellement sa 4G sur la fréquence des 1 800 MHz, le 1er octobre 2013. À la suite de l'arrivée de Free dans la 4G, Bouygues Télécom réagit et propose alors une offre à 15 , déclarant ouvertement une guerre des prix à ses concurrents. Free Mobile a annoncé, le 3 décembre 2013, le lancement de son réseau 4G et l'intégration de la 4G à son forfait, sans modification du prix du forfait (19,99 -m et 15,99 -m pour les abonnés Freebox) avec un volume mensuel de data de 20 Go, mais avec au départ un faible nombre d'antennes 4G actives (800 mi-décembre 2013) comparé à ses concurrents alors que ce nombre d'antennes était plus important que celui de ses concurrents à leur propre lancement selon les chiffres de l'ANFR. Son réseau utilise la bande de fréquence des 2,6 GHz ainsi que la bande des 1800 MHz (bande 3 LTE) depuis octobre 2015 et la bande des 700 MHz (bande 28 LTE) depuis juillet 2016.
+Une fois les réseaux 4G déployés, des opérateurs virtuels, tel Virgin Mobile, ont lancé des abonnements 4G début 2014 à un prix voisin de 20 euros par mois.
+Au 2e trimestre 2014, il y avait 3,7 millions d'abonnés 4G LTE actifs en France.
+
+Espagne
+La filiale espagnole de Vodafone va lancer des services de téléphonie mobile 4G dans les sept plus grandes villes du pays le 29 mai 2013.
+Orange devrait aussi lancer des services 4G dans six grandes villes d'Espagne le 8 juillet 2013, il devrait être suivi de Yoigo quelques jours plus tard.
+
+Asie
+
+Chine populaire
+China Mobile doit lancer le premier réseau 4G chinois en août 2013. Chiffres: 200 000 stations d'émission 4G dans 150 endroits du pays
+
+Thaïlande
+La Thaïlande a fait le choix des bandes de fréquence 1 800 MHz et 2 300 MHz.
+
+Japon
+Alors que les réseaux mobiles LTE (Long Term Evolution) commencent à peine à être lancés en tant que réseaux commerciaux, l'opérateur japonais NTT DoCoMo se prépare déjà à expérimenter la génération suivante, LTE-Advanced, hors de ses laboratoires.
+L'opérateur DoCoMo a obtenu le feu vert du bureau des télécommunications rattaché au Ministère de l'Intérieur japonais pour mener des expérimentations LTE-Advanced sur le terrain via une pré-licence qui lui permettra d'exploiter des fréquences sur les villes de Yokosuka et Sagamihara.
+Ce pilote permettra de tester des équipements LTE-Advanced en intérieur comme en extérieur. DoCoMo a déjà réalisé une série d'expérimentations en simulant un environnement radio perturbé par des obstacles, modélisant des configurations telles qu'on peut les trouver dans les villes, mais dans ses centres RD, où il a déjà réussi à obtenir des débits descendant de 1 Gbit-s et montant de 200 Mbit-s.
+
+Corée du Sud
+Le 7 juillet 2008, la Corée du Sud avait annoncé un plan d'investissement de 60 milliards de Won (environ 40 M) afin de développer les technologies 4G et 5G avec pour objectif d'avoir une plus grande part de marché du secteur de la téléphonie mobile, et l'espoir de devenir une référence internationale. Les premiers réseaux 4G LTE du pays ont été ouverts commercialement en juillet 2011.
+
+Singapour
+Singapour est précurseur en termes de 4G. Le deuxième opérateur de télécommunications du pays, StarHub, a lancé début juillet 2012 son réseau 4G dans le Central Business District (CBD) ainsi qu'à l'aéroport. Dans la foulée, l'opérateur historique SingTel et le troisième opérateur M1 prévoient tous de lancer leur réseau 4G prochainement.
+
+États-Unis
+Les États-Unis ont fait le choix des bandes de fréquence duplex (FDD) 700 MHz et 1700-2 100 MHz (fréquences dites "AWS (en)").
+Aux États-Unis, la société Verizon Wireless a lancé une offre commerciale 4G LTE fin 2010 ; elle a déjà fin 2012, plus de 16 millions d'abonnés LTE ce qui en fait le leader mondial (par le nombre d'abonnés) devant le japonais NTT DoCoMo et les opérateurs coréens KT et SK Telecom. Le 2e opérateur américain ATT a lui aussi lancé une offre LTE mi 2011.
+
+Afrique
+
+Algérie
+La 4G est officiellement lancée le 26 septembre 2016, Les opérateurs pourront commencer la commercialisation de leurs offres de téléphonie mobile de quatrième génération (4G). Les décrets autorisant les trois opérateurs Djezzy, Mobilis et Ooredoo à exploiter les licences ont été publiés le 25 septembre 2016 au Journal officiel.
+
+Maroc
+Les trois principaux opérateurs marocains de téléphonie, à savoir Maroc Telecom (opérateur historique), Orange (deuxième licence) et Inwi proposent quasi simultanément depuis 2015, la 4G et par Maroc Telecom la 4G+ à leurs clients. Le réseau a d'abord été déployé dans les grandes villes (Casablanca, Marrakech, Rabat, Fès, Temara...) et sur les axes autoroutiers avant de s'étendre au reste du territoire.
+
+Madagascar
+L'opérateur historique Telma est le premier opérateur mobile à commercialiser une offre 4G-LTE à Madagascar. L'opérateur malgache a commencé à déployer son réseau 4G dans 50 villes du pays à compter du mois de juin 2015.
+L'opérateur télécom Orange Madagascar au cours d'une rencontre avec la presse au salon des Industries de Madagascar (SIM) en novembre 2016 au Forello Expo Tanjombato annonce la commercialisation de la 4G-LTE en 2017. Encore en phase de test technique et de respect du cahier des charges de l'autorité de régulation, cela ne serait plus qu'une simple question de temps pour signer ce dossier, et le lancement suivrait rapidement.
+4 mois après l'annonce au SIM, la 4G est enfin effective et accessible au grand public selon Michel Degland, Directeur général d'Orange Madagascar lors de la cérémonie officielle du lancement de la nouvelle connexion d'orange au dôme RTA Ankorondrano en mars 2017. Une soirée VIP où le staff d'Orange était présent pour accueillir les personnalités ministérielles, les dirigeants d'entreprises, et la presse.
+
+Cameroun
+Le leader de la téléphonie mobile du pays MTN a lancé le réseau MTN 4G TurboSpeed LTE en décembre 2015 dans quatre grandes villes du pays Yaoundé, Douala, Bamenda et Buéa.
+
+La Tunisie
+C'est le 29 mars 2016, que la Tunisie passe officiellement à la 4G. Les 3 opérateurs (Ooredoo, Tunisie Télécom et Orange Tn) lancent commercialement la 4G en Tunisie.
+
+Tableau récapitulatif des technologies de téléphonie mobile européennes
+
+Voir aussi
+
+Articles connexes: Téléphonie mobile; Réseau de téléphonie mobile; LTE; LTE Advanced; eNode B; 3G; UMTS; Liste des sigles de la téléphonie mobile.

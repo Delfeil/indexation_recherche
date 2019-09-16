@@ -1,0 +1,149 @@
+Le pair à pair (en anglais peer-to-peer, souvent abrégé "P2P") est un modèle de réseau informatique proche du modèle client-serveur mais où chaque client est aussi un serveur. Les termes "pair", "noeud", et "utilisateur" sont généralement utilisés pour désigner les entités composant un réseau P2P.
+Le pair à pair peut être centralisé (les connexions passant par un serveur central intermédiaire) ou décentralisé (les connexions se faisant directement). Il peut servir au partage de fichiers en pair à pair, au calcul distribué ou à la communication.
+
+Principe général
+Les systèmes pair-à-pair permettent à plusieurs ordinateurs de communiquer via un réseau, en y partageant simplement des objets - des fichiers le plus souvent, mais également des flux multimédia continus (streaming), le calcul réparti, un service comme la téléphonie sur IP...
+La particularité des architectures pair-à-pair réside dans le fait que les données puissent être transférées directement entre deux postes connectés au réseau, sans transiter par un serveur central. Il permet ainsi à tous les ordinateurs de jouer directement le rôle de client et serveur (voir client-serveur). On appelle souvent noeud les postes connectés par un protocole réseau pair-à-pair.
+L'utilisation d'un système pair-à-pair nécessite pour chaque noeud l'utilisation d'un logiciel particulier. Ce logiciel, qui remplit alors à la fois les fonctions de client et de serveur, est parfois appelé servent (de la contraction de "serveur" et de "client", due à Gnutella), ou plus communément, mais de façon réductrice, "client". C'est là l'origine du terme pair (de l'anglais : peer) que l'on trouve dans pair-à-pair : les communications et les échanges se font entre des noeuds qui ont la même responsabilité dans le système.
+En particulier, les systèmes de partage de fichiers pair-à-pair permettent de rendre les objets d'autant plus disponibles qu'ils sont populaires, et donc répliqués sur un grand nombre de noeuds. Cela permet alors de diminuer la charge (en nombre de requêtes) imposée aux noeuds partageant les fichiers populaires, ce qui facilite l'augmentation du nombre de noeuds et donc de fichiers dans le réseau. C'est ce qu'on appelle le passage à l'échelle.
+Le modèle pair-à-pair va bien plus loin que les applications de partage de fichiers : il permet en effet de décentraliser des services et de mettre à disposition des ressources dans un réseau, nommées objets. Tout noeud d'un réseau pair-à-pair peut alors proposer des objets et en obtenir sur le réseau.
+Les systèmes pair-à-pair permettent donc de faciliter le partage d'informations. Ils rendent aussi la censure ou les attaques légales ou pirates plus difficiles. Ces atouts font des systèmes pair-à-pair des outils de choix pour décentraliser des services qui doivent assurer une haute disponibilité tout en permettant de faibles coûts d'entretien. Toutefois, ces systèmes sont plus complexes à concevoir que les systèmes client-serveur.
+Des propositions utilisant le modèle pair-à-pair ont été faites pour ne plus utiliser de serveurs, entre autres pour : les DNS (Distributed DNS);; la mise à disposition de logiciels (distributions Linux comme la Mandriva, le système de mises à jour Microsoft Avalanche, World of Warcraft, etc.) ;; diffuser des contenus multimédias (streaming) ;; les logiciels de messagerie en ligne ;; la téléphonie (les premières versions de Skype).
+L'application la plus connue actuellement reste cependant le partage de fichiers par le biais de protocoles comme Bittorent, eDonkey, FastTrack (KaZaA), etc.
+Toutefois, les systèmes pair-à-pair décentralisés ont plus de difficultés que les systèmes client-serveur pour diffuser l'information et coordonner l'interconnexion des noeuds, donc assurer des faibles délais aux requêtes. C'est pourquoi sont apparus des systèmes pair-à-pair qui imposent une structure entre les noeuds connectés, afin de garantir des délais de communication faibles : il s'agit des systèmes décentralisés structurés. Ces systèmes s'inspirent de structures de graphes pour interconnecter les noeuds. Ils ont ainsi pu se passer de serveurs pour mieux répartir la charge entre les noeuds et optimiser ainsi : le trafic de contrôle reçu et envoyé par chaque noeud, ce qui revient à limiter le nombre de voisins auquel est connecté chaque noeud ;; le nombre de requêtes transmises à un noeud ;; la répartition de responsabilité pour l'accès aux objets partagés dans le réseau.
+Enfin, ces systèmes permettent souvent d'utiliser un routage proche de celui du graphe dont ils s'inspirent, diminuant ainsi le nombre de messages de requêtes transitant dans le réseau.
+Le pair-à-pair ne doit pas être confondu avec la notion de liaison point à point (Point-to-Point en anglais), ni avec le protocole point à point (PPP).
+
+Applications
+Le pair-à-pair ne s'est pas fait connaître en tant que principe, mais par les applications qui ont pu émerger selon ce nouveau modèle de réseau.
+
+Partage de fichiers
+L'application la plus répandue du pair-à-pair est le partage de fichiers. L'avènement des connexions à Internet à haut débit (ADSL notamment) sans limites de temps a contribué à cet essor. Le principe réparti de ces systèmes permet de tirer parti de l'asymétrie des connexions, et donc de télécharger à débit important un fichier à partir de plusieurs sources à débit limité.
+Chaque internaute est un pair du réseau et les ressources sont des fichiers. Chacun peut donc partager ses fichiers et télécharger les fichiers des autres. Ces systèmes s'avèrent très efficaces, y compris quand il s'agit d'échanger de gros volumes de données.
+Parmi les applications les plus utilisées, on peut distinguer BitTorrent, Torrent (Torrent) et eMule...
+
+Calcul distribué
+Une seconde application destinée au grand public ou à la recherche, mais toutefois moins répandue que le partage de fichier, est la possibilité pour les internautes de mettre à disposition une partie de leur puissance de calcul.
+Les ordinateurs d'aujourd'hui sont tellement puissants que la majeure partie du temps, une grande partie de leur processeur est disponible pour effectuer des calculs. Le projet BOINC a saisi cette opportunité pour créer un parc informatique réparti dans le monde afin d'utiliser cette puissance de calcul totale pour effectuer des calculs trop complexes pour être réalisés dans un laboratoire.
+Le projet BOINC demande donc au particulier de permettre l'usage de la puissance de calcul dont il n'a pas immédiatement besoin pour contribuer à la recherche sur le repliement des protéines (Folding@Home) et même la recherche d'intelligence extra-terrestre par analyse de spectre électromagnétique (SETI@home).
+
+Systèmes de fichiers répartis
+
+Autres applications
+Le concept de pair-à-pair est également décliné dans d'autres logiciels tels que TeamViewer, voire Skype, le célèbre logiciel de téléphonie.
+
+Architectures logicielles
+Les serveurs pair-à-pair fonctionnent dans la quasi-totalité des cas en mode synchrone : le transfert d'information est limité aux éléments connectés en même temps au réseau.
+Ils peuvent utiliser le protocole TCP comme couche de transport des données (il fonctionne en duplex, la réception des données est donc confirmée et leur intégrité est assurée).
+En revanche, certaines utilisations comme le continu (streaming) nécessitent l'emploi d'un protocole plus léger et plus rapide, comme UDP, bien que moins fiable, quitte à assurer elles-mêmes l'intégrité des données transmises. UDP est aussi le protocole le plus utilisé pour transmettre des messages entre serveurs dans les systèmes en partie centralisés.
+Les systèmes pair-à-pair se répartissent en plusieurs grandes catégories, selon leur organisation.
+
+Architecture centralisée
+Dans cette architecture, un client (un logiciel utilisé par les membres) se connecte à un serveur qui gère les partages, la recherche, l'insertion d'informations, bien que celles-ci transitent directement d'un utilisateur à l'autre.
+De telles architectures ne sont pas totalement pair-à-pair, car un serveur central intervient dans le processus, mais les transferts de fichiers sont effectivement répartis, la décentralisation n'est donc que partielle. C'est la solution la plus fragile, puisque la centralisation de serveur-s est indispensable au réseau. Ainsi, si ce point central disparaît, tout le réseau s'effondre. Cette disparition peut arriver à la suite d'une action en justice, comme ce fut le cas avec Napster et Audiogalaxy, d'une surcharge de requêtes, accidentelle ou à la suite d'une attaque informatique.
+
+Architecture décentralisée
+Une telle architecture permet de résister à de telles attaques, puisque le logiciel client ne se connecte pas à un unique serveur, mais à plusieurs. Le système est ainsi plus robuste, mais la recherche d'informations est plus difficile. Elle peut s'effectuer dans des systèmes décentralisés non structurés comme Gnutella, où la recherche nécessite un nombre de messages élevé, proportionnel au nombre d'utilisateurs du réseau (et exponentiel suivant la profondeur de recherche). Dans les systèmes décentralisés structurés, une organisation de connexion est maintenue entre les noeuds. La plupart sont basées sur les tables de hachage distribuées, permettant de réaliser des recherches en un nombre de messages croissant de façon logarithmique avec le nombre d'utilisateurs du réseau, comme CAN, Chord, Freenet, GNUnet, I2P, Tapestry, Pastry et Symphony.
+Une autre solution a été envisagée, consistant en l'utilisation de "super-noeuds". Ces éléments du réseau sont idéalement choisis en fonction de leur puissance de calcul et de leur bande passante, afin de réaliser des fonctions utiles au système, comme l'indexation des informations et le rôle d'intermédiaire dans les requêtes. Cette solution, rendant le système un peu moins robuste (les cibles à "attaquer" dans le réseau pour que le système devienne inopérant sont moins nombreuses que dans un système de type Gnutella, par exemple), est employée dans les systèmes FastTrack, comme KaZaA. Les noeuds du réseau peuvent alors devenir super-noeuds et vice-versa, selon les besoins du système ou de leur propre choix.
+De la même façon, le système eDonkey2000 utilise des serveurs fixes, plus vulnérables, car moins nombreux et moins souple que les super-noeuds FastTrack.
+
+Protocoles réseaux
+Les connexions se font par TCP-IP, le plus utilisé sur internet, qui intègre un contrôle de réception des données, ou par UDP lorsque l'application choisit de contrôler elle-même la bonne réception des données.
+Plusieurs systèmes pair-à-pair sont proposés sous forme de réseau sous-jacents. Les applications de l'utilisateur final peuvent alors fonctionner à l'aide de tels réseaux. Parmi eux, on trouve Mnet, Chord, Tapestry, Freenet, I2P (utilisé par iMule), Tor ou Koorde (en).
+
+Sécurité
+La plupart des questions de sécurité dans les réseaux P2P sont dues au partage de fichier. Les utilisateurs recherchent : l'anonymat (afin d'éviter d'éventuelles poursuites judiciaires) ;; le brouillage du protocole (afin d'éviter les filtrages du fournisseur d'accès internet) ;; le chiffrement ("on peut savoir qui je suis, mais pas ce que je télécharge").
+Afin d'assurer l'anonymat des utilisateurs, un ou plusieurs de ces concepts sont mis en pratique dans des applications pair-à-pair :
+
+Routage aléatoire
+Les requêtes passent par plusieurs noeuds afin de rendre leur traçage difficile. Ces noeuds faisant transiter les informations sont d'autres utilisateurs du réseau, différents fragments d'un même fichier passent donc par différentes machines, et y sont parfois recopiés, selon le protocole (mécanisme de cache), avant de parvenir à l'ordinateur final ayant demandé le téléchargement.
+Ce mécanisme de cache est souvent utilisé conjointement avec le chiffrement des données de façon que les intermédiaires ne puissent pas voir ce qui transite.
+Par exemple ce procédé est mis en oeuvre dans Freenet, I2P, Tor, StealthNet.
+
+Réseaux de confiance : "Ami à ami"
+Par exemple ce procédé est mis en oeuvre dans RetroShare, GNUnet, OneSwarm, Freenet, et le logiciel abandonné : WASTE.
+
+Chiffrement des échanges
+Par exemple ce procédé est mis en oeuvre dans Freenet, I2P, RetroShare et les logiciels abandonnés : Ants, stealthNet.
+
+Évolution
+
+Décentralisation
+On peut constater, dans l'évolution des technologies pair-à-pair une tendance à toujours plus de décentralisation. Illustration avec les logiciels de partage de fichiers connus :
+
+Instantanéité d'accès à la ressource
+Un des avantages de l'accès client-serveur est l'instantanéité avec laquelle on obtient la ressource. C'est pourquoi le téléchargement par http, ftp ou via les newsgroups sont encore utilisés bien qu'étant des systèmes typiquement client-serveur.
+L'usage des logiciels de transfert de fichiers, de l'époque de Napster à celle de BitTorrent, est d'attendre l'arrivée du fichier de plusieurs heures à plusieurs jours. Plusieurs initiatives tentent de combler cette lacune. C'est par exemple le cas de Freenet mais aussi de Wuala qui veut rendre l'accès aux fichiers stockés en réseau aussi rapide que l'accès à un fichier local.
+
+Optimisation par proximité géographique
+Proactive network Provider Participation for P2P ou P4P est un groupe de travail qui vise au développement de technologies permettant d'optimiser les échanges pair-à-pair. Ils partent du principe que des pairs proches géographiquement sont plus à même d'échanger des données.
+Remarque : Le P3P, malgré son nom, n'a rien à voir avec le P2P et n'en est pas une évolution. Il s'agit de la Platform for Privacy Preferences : une initiative du W3C qui vise à améliorer la sécurité des échanges sur le Web.
+
+Évolution de la recherche scientifique
+Le pair-à-pair et, de façon plus générale les systèmes distribués, sont le sujet de nombreuses recherches universitaires en informatique.
+
+Implications sociales
+
+Incitation au partage et à la coopération
+La coopération au sein d'une communauté est la clé du succès des systèmes de P2P. Ces systèmes atteignent en effet leur plein potentiel lorsqu'un grand nombre de noeuds proposent des ressources. Les réseaux P2P contiennent cependant un grand nombre d'utilisateurs qui se servent des ressources partagées sans en partager en retour. Cette manière de pratiquer le P2P peut avoir un impact profond sur le réseau et dans certains cas, causer l'effondrement de la communauté. Depuis, plusieurs mécanismes d'incitation ont été mis en place afin d'encourager les utilisateurs à partager autant qu'ils consomment.
+
+Considérations économiques
+La facilité d'utilisation du P2P fait de cette technologie le vecteur principal de streaming vidéo illégal, utilisé notamment pour la radiodiffusion d'évènements sportifs en direct. Au Royaume-Uni, la Premier League exprime à plusieurs reprises ses préoccupations concernant le streaming illégal d'événements sportifs.
+En 2014, le pays arrête l'une des têtes d'un réseau de sites de streaming sportif illégal en P2P qui aurait coûté 10 millions de livres à la télévision britannique.
+
+Propriété intellectuelle et partage illégal
+Bien que les réseaux P2P puissent être utilisés à des fins légitimes, ils sont fréquemment impliqués dans des affaires de partages illégaux de matériels protégés. Le P2P implique le transfert de données d'un utilisateur à un autre sans utiliser de serveur intermédiaire. Les sociétés de développement d'applications P2P ont été impliquées dans des affaires juridiques, principalement aux États-Unis sur des questions de droits d'auteur.
+Les deux principaux cas sont Grokster contre RIAA et MGM Studios Inc. contre Grokster. Dans les deux affaires, la technologie de partage de fichiers est jugée légale tant que les développeurs gardent la capacité d'empêcher le partage de contenu sous copyright. Pour établir la responsabilité pénale pour la violation du droit d'auteur sur les systèmes P2P, le gouvernement doit prouver que la défenderesse a violé le droit d'auteur à des fins personnelles ou financières.
+Il existe des exceptions légales permettant le téléchargement de documents sans l'autorisation de leurs auteurs. Ce sont généralement des rapports d'actualité ou des travaux de recherches et des travaux scientifiques.
+Des controverses se sont développées quant à la légitimité de l'utilisation du P2P au regard de la sécurité nationale et publique. Quand un fichier est téléchargé via un réseau P2P, il est impossible de savoir qui a créé le fichier et quels utilisateurs sont connectés au réseau à un moment donné. La fiabilité des sources est une menace pour la sécurité des systèmes P2P.
+
+Terminologie
+Pour traduire "peer-to-peer" en français, "poste-à-poste" est la recommandation officielle faite à la fois en France par la Commission générale de terminologie et de néologie et au Québec par l'OQLF, ces organismes reconnaissant cependant tous les deux l'expression "pair-à-pair" comme synonyme. Ce dernier reste très utilisé en français.
+D'autre part, l'OQLF recommande les traits d'union pour "poste-à-poste" et "pair-à-pair" lorsqu'ils sont utilisés comme substantifs, mais pas lorsqu'ils ont une valeur adjectivale ; l'organisme rappelle également que ces expressions sont invariables. Le terme de système pair-à-pair permet de nommer un ensemble constitué d'utilisateurs (en nombre pas forcément défini ni fixe, mais plutôt de manière générale), du protocole qui leur permet de communiquer (Gnutella, BitTorrent, CAN, etc.), et du fonctionnement du protocole entre ces machines ;; le terme de réseau pair-à-pair permet de désigner les machines et leur interconnexion à un moment donné, avec un nombre défini de machines - utilisateurs ;; le terme de noeud permet de désigner le logiciel présent sur une machine, donc souvent un utilisateur (mais éventuellement plusieurs) ;; le terme de lien désigne une connexion (souvent TCP) entre deux noeuds ;; le terme d'objet désigne ce qui est partagé dans un système pair-à-pair.
+
+Liste de logiciels pair-à-pair
+
+Logiciels sans dispositif de chiffrement des échanges de données
+Les réseaux P2P listés ci-dessous : disposent de plusieurs logiciels compatibles capables de fonctionner dessus ;; ne possèdent pas de fonctionnalités de contre-mesure destinées à masquer l'activité des pairs (en langage courant : "qui recherche quoi ") ;; ne permettent pas d'empêcher techniquement de découvrir les fichiers mis à disposition par les utilisateurs ("qui partage quoi ") ;; ne permettent pas d'empêcher techniquement (ex: chiffrement) de "voir" le contenu des transmissions de données entre les pairs ("qui télécharge quoi ").
+
+Réseau BitTorrent
+Le protocole BitTorrent est utilisé par de nombreux logiciels clients pour partager des fichiers.
+
+Réseau Gnutella
+Le réseau Gnutella a eu du succès au début des années 2000 puis son usage a fortement diminué du fait de la répression contre les infractions du droit d'auteur.
+
+Réseau Napster
+Le réseau Napster ne fonctionne plus à cette date (2013), son successeur OpenNap non plus.
+Certains des clients qui permettaient d'accéder à ce réseau étaient : mlmac ;; Poisoned (en) ;; lopster.
+
+Réseau FastTrack
+
+Réseau eDonkey2000
+Certains des clients qui permettaient d'accéder au réseau EDonkey2000 étaient :
+Catégorie:Client eDonkey
+
+Réseau MP2P (Manolito P2P)
+Ce réseau pair à pair a été créé par le programmeur espagnol Pablo Soto.
+Certains des clients permettant d'accéder à ce réseau sont : Piolet; Blubster.
+
+Réseau Direct Connect
+Il existe de nombreux logiciels clients capables d'accéder au réseau Direct Connect.
+
+Réseau Ares Galaxy
+Certains des clients permettant d'accéder au réseau Ares Galaxy sont : Ares (Galaxy ou Lite) ;; FileCroc.
+
+Logiciels avec dispositif de chiffrement des échanges de données: Infinit: Lancé en 2013. Logiciel client pour Mac et Windows.; Tudzu : sauvegarde entre amis. Lancé en 2012. Logiciel client pour Windows et Linux.
+
+Logiciels avec dispositif de chiffrement des échanges de données, et dispositif dit d'anonymat
+
+Autres logiciels
+Logiciels destinés au partage de fichiers en pair à pair : AllPeers (en) (extension BitTorrent pour Firefox, abandonnée) ;; Carracho (1999-2005) ;; DexterWire (variante de LimeWire) ;; Groove ;; Hotline (précédemment nommé Hotwire) et KDX (successeur à Hotline) ;; MojoNation (Mnet) ;; Soulseek ;; WinMX.
+Logiciels destinés à la fonction de messagerie instantanée (tchat) et fonctionnant en P2P : Pichat ;; Wambo (messagerie).; Tox (logiciel) (messagerie).
+Destinés à des usages très inhabituels : GPU : a Global Processing Unit (client Gnutella permettant de partager des ressources CPU).
+Divers protocoles de communication P2P : CAN ;; JXTA ;; JXMobile ;; Kademlia.; Tox (logiciel)Protocole (Protocole).
+Procédés de tables de hachage distribuées (DHT en anglais) : Chord ;; Pastry ;; FreePastry ;; Symphony ;; Tapestry.
+Non triés : Alpine network ("A peer based Open Source application and network infrastructure designed for decentralized information location-discovery.") ;; BWA : Business Workflow Analysis (en) (aussi connu sous le nom Business management systems p2p) ;; Evernet (2000-2002) ;; KoffeePhoto(partage de photos) ;; Peer-to-peer SIP (en) ;; PixVillage (partage de photos, 2004-2008) ;; Scribe (en) (projet de "scalable group communication system" 2001-2003) ;; Swarmcast (en) (TV, video).
+
+Voir aussi
+
+Articles connexes: Calcul parallèle; Économie circulaire; Grille informatique; Logiciel libre; P2P anonyme; Peer-to-peer web hosting; (en) The World of Peer-to-Peer, un wikibook.

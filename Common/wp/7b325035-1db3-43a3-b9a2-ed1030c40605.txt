@@ -1,0 +1,65 @@
+Donald Ervin Knuth , né le 10 janvier 1938 à Milwaukee au Wisconsin, est un informaticien et mathématicien américain de renom et professeur émérite en informatique à l'université Stanford (États-Unis) (en tant que "professeur émérite de l'art de programmer"). Il est un des pionniers de l'algorithmique et a fait de nombreuses contributions dans plusieurs branches de l'informatique théorique.
+Il est l'auteur d'une centaine d'articles et d'une dizaine de livres sur l'algorithmique et les mathématiques discrètes ; les 3 premiers volumes avec la partie déjà publiée du volume 4A (5 fascicules) de The Art of Computer Programming (TAOCP) demeurent des ouvrages de référence, ce qui est exceptionnel dans une science comme l'informatique, qui évolue très rapidement.
+Afin d'avoir une bonne qualité de mise en page pour la deuxième édition de son TAOCP, Knuth a créé deux logiciels libres, par la suite largement utilisés en typographie professionnelle et en mathématiques, TeX et Metafont. Son intérêt pour la typographie l'a également poussé à créer la police Computer Modern, police par défaut de TeX.
+
+Biographie
+
+Enfance et études
+Né à Milwaukee, dans le Wisconsin, Knuth a reçu son bachelor's degree summa cum laude et son master's degree (les deux simultanément, le jury considérant son travail de B.Sc. comme valant un M.Sc.) en mathématiques en 1960 du Case Institute of Technology (devenu depuis université Case Western Reserve). Sa première analyse d'algorithme remonte à l'été 1962. Il est alors impressionné par un ouvrage de l'informaticien Andreï Ershov.
+Knuth découvre à cette occasion un lien entre l'efficacité d'un algorithme de hachage et des mathématiques remontant à Ramanujan. Il obtient ensuite son Ph.D. (doctorat) en mathématiques au California Institute of Technology en 1963.
+
+Carrière universitaire
+En 1968, il devient membre de la faculté de l'université Stanford, où il recevra finalement un titre académique créé à son intention : Professor Emeritus of the Art of Computer Programming. En 1971, Knuth est le premier à recevoir le prix ACM Grace Murray Hopper Award. Il a reçu de nombreuses autres distinctions honorifiques, entre autres le prix Turing, la National Medal of Science, la médaille John von Neumann de l'IEEE, ainsi que le prix de Kyoto et la médaille Franklin. Il est élu membre associé de l'Académie des sciences française en 1992 et membre de la Royal Society en 2003. Il est marié à Nancy Jill Carter, et a deux enfants, John et Jennifer.
+
+Personnalité
+Chèque de récompense de 2,56 dollars de Donald Knuth pour avoir trouvé une erreur dans l'un de ses livres
+Knuth est une figure de l'informatique, connue pour son humour geek : il offre par exemple une prime de 2,56 dollars pour chaque faute typographique ou erreur découverte dans ses livres sous prétexte que "256 cents font un dollar hexadécimal" (pour les erreurs de son ouvrage 3:16 Bible Texts Illuminated la prime est cependant de 3,16 dollars). Les numéros de version de TeX convergent vers pi, c'est-à-dire que les versions se suivent de la sorte : 3, 3,1, 3,14, etc., les numéros de version de Metafont convergent eux vers e. Il a également mis en garde les utilisateurs d'un de ses logiciels ainsi : "Faites attention aux bogues dans ce code ; je n'ai fait que démontrer qu'il était correct, je ne l'ai pas essayé.".
+Knuth a cessé d'utiliser le courrier électronique en prétendant qu'il s'en était servi entre 1975 et le 1er janvier 1990, et que cela suffisait pour toute une vie. Il trouve plus efficace de tenir une correspondance en "mode batch", et y consacrer une journée tous les trois mois, en répondant par courrier "classique".
+
+Anecdotes
+Knuth apprécie la musique et aime en particulier jouer de l'orgue. Il en a fait construire un dans sa propre maison. Knuth fait allusion à son orgue dans l'index du volume 3 de The Art of Computer Programming : l'entrée Royalties, use of renvoie vers le graphique "organ-pipe arrangement".
+Il est marié à Nancy Jill Carter, qui a publié un livre sur la liturgie et réalisé les illustrations du livre sur les nombres surréels. Ils ont deux enfants. Avec elle, il collectionne les photographies de panneaux de signalisation routière (signalisation de danger de forme losangée) américains, s'intéressant aux plus surprenants.
+Knuth a publié son premier article dans un magazine scolaire en 1957. À forte teneur humoristique, celui-ci a été publié dans le numéro de juin 1957 du magazine américain MAD.
+À la suite d'un défaut de typographie sur le delta minuscule , Knuth a lancé un appel pour corriger cela et demandé de mettre à jour la police de caractères Computer Modern, disant qu'il "ne pouvait supporter d'écrire des documents utilisant ce symbole, maintenant il ne supporte pas de lire les documents qui l'utilisent toujours".
+
+Travaux
+Les travaux de Donald Knuth concernent particulièrement l'algorithmique et les mathématiques discrètes, mais il a aussi créé des logiciels très utilisés encore aujourd'hui, TeX et Metafont.
+
+Contributions aux mathématiques: Notation des puissances itérées de Knuth; Travaux sur les tableaux de Young.
+
+Contributions à l'algorithmique
+Don Knuth est le créateur de plusieurs algorithmes qui portent son nom, parmi lesquels : l'algorithme de Knuth-Morris-Pratt, algorithme de recherche de sous-chaîne ;; l'algorithme X de Knuth, algorithme récursif non-déterministe de parcours en profondeur et à retour sur trace ;; l'algorithme RSK ;; la complétion de Knuth-Bendix.
+
+Les logiciels TeX et Metafont
+La police de caractères Computer Modern
+Knuth est le créateur du système de composition de documents TeX et du système de création de polices Metafont.
+Mécontent de la façon dont étaient imprimés ses livres, il consacra plusieurs années de sa vie, à partir de 1977, à écrire un logiciel lui permettant d'obtenir un rendu correct des formules mathématiques pour la typographie professionnelle. Il s'agit d'un langage à balises tel que le SGML, qui permet de se concentrer sur la structure du document et laisser au compilateur le travail de mise en page. Le but de Knuth quand il a créé TeX était d'avoir un langage de description de contenu permettant d'obtenir un rendu de grande qualité avec un minimum d'efforts et qui serait indépendant de l'architecture matérielle. Fourni avec ses sources, TeX est l'un des premiers logiciels libres, ou presque. En effet, la seule restriction que Knuth imposait à toute modification est qu'elle ne prît pas le nom de TeX. Le logiciel fut donc repris et amélioré par Leslie Lamport pour devenir LaTeX.
+Metafont est un langage utilisé pour composer des polices matricielles qui fut utilisé par Knuth pour créer la police Computer Modern. Il a été développé en même temps que TeX. Le langage Metafont a lui aussi donné naissance à MetaPost qui permet de produire des figures PostScript à partir d'une description géométrique.
+
+Autres idées notables
+Knuth est à l'origine de nombreux concepts de programmation. Parmi ceux-ci on peut citer : les analyseurs de grammaires formelles LR(k) ;; la méthode des attributs sémantiques en compilation ;; le concept de programmation lettrée (literate programming).
+
+Ouvrages
+
+The Art of Computer Programming
+Knuth est connu comme l'auteur de l'ouvrage The Art of Computer Programming (TAOCP), une des références dans le domaine de l'informatique. Ce livre a établi un domaine : l'analyse d'algorithmes qui consiste à se servir des mathématiques pour étudier les performances (en temps, mémoire...) d'un algorithme sur l'ensemble de ses exécutions possibles.
+Au début du XXIe siècle, Knuth consacre désormais presque toute son énergie à achever les 7 volumes de TAOCP (la première édition du premier volume remonte à 1968 et seulement les trois premiers volumes ont paru, ainsi que trois fascicules du quatrième volume).
+
+Computers et Typesetting
+Il s'agit de l'ensemble constitué par : The TeXbook (Reading, Massachusetts: Addison-Wesley, 1984), TeX: The Program (Reading, Massachusetts: Addison-Wesley, 1986), The METAFONTbook (Reading, Massachusetts: Addison-Wesley, 1986), METAFONT: The Program (Reading, Massachusetts: Addison-Wesley, 1986), Computer Modern Typefaces (Reading, Massachusetts: Addison-Wesley, 1986),
+
+Autres livres
+Knuth est également l'auteur de 3:16 Bible Texts Illuminated (1991), dans lequel il tente d'examiner la Bible par une analyse du chapitre 3, verset 16 de chaque livre. Chaque verset est accompagné d'une calligraphie produite par un groupe de calligraphes dirigés par Hermann Zapf. L'ouvrage n'a pas été traduit en français.
+Le livre Éléments pour une histoire de l'informatique, édité par CLSI Publications (Stanford) et la Société mathématique de France (2011), regroupe divers articles de Donald Knuth sur l'histoire de l'informatique, choisis et traduits par Patrick Cégielski, et en partie réécrits à cette occasion.
+En collaboration avec Ronald Graham et Oren Patashnik, il a développé les sections mathématiques de TAOCP sous forme d'un manuel de cours de combinatoire, intitulé Concrete Mathematics.
+
+Autre
+Un texte présentant de manière ludique les nombres surréels de Conway : (en) Donald Ervin Knuth,
+Surreal Numbers: How Two Ex-Students Turned on to Pure Mathematics and Found Total Happiness : A Mathematical Novelette
+, Addison-Wesley Professional, 1974 ;; Traduction française de Daniel E. Loeb et Hélène Loeb, Les Nombres Surréels, ou comment deux anciens étudiants découvrirent les mathématiques pures et vécurent heureux. Une romance mathématique de D. E. Knuth lire en ligne.
+
+Récompenses et distinctions: ACM Prix Grace Murray Hopper, 1971; Prix Turing, 1974; Médaille nationale de la science, 1979; Docteur honoris causa de l'université Paris-Sud (Orsay), 1986; Médaille Franklin, 1988; Docteur honoris causa de l'université de Marne-la-Vallée, 1993; Médaille John von Neumann, 1995; Prix Harvey de l'Institut israélien de technologie, 1995; Prix Kyoto, 1996; Docteur honoris causa de l'université Bordeaux I, 2007; Prix Katayanagi, 2010; BBVA Foundation Frontiers of Knowledge Award, 2010; Stanford University School of Engineering (en) Hero Award, 2011.
+
+Voir aussi
+
+Articles connexes: Algorithme de Knuth-Morris-Pratt; Algorithme de Trabb Pardo-Knuth (en); Algorithme de Knuth-Bendix; Notation des flèches de Knuth; Prix Donald E. Knuth.

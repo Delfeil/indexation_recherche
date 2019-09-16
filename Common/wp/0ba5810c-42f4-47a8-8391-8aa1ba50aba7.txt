@@ -1,0 +1,13 @@
+Un idéogramme est un symbole graphique représentant un mot ou une idée utilisé dans certaines langues vivantes (comme le chinois et le japonais) ou anciennes (comme les hiéroglyphes de l'Égypte antique). Le terme de logogramme est aussi utilisé par les francophones.
+Il faut les différencier des pictogrammes qui représentent une chose concrète par un dessin et des phonogrammes qui représentent un son.
+
+Sinogrammes
+Contrairement à une idée reçue, tous les sinogrammes ne sont pas des idéogrammes, loin de là : les idéogrammes ne représentent qu'une petite partie des sinogrammes, la plus grande catégorie étant représentée par les idéo-phonogrammes, sorte de rébus comprenant une indication phonétique, et une indication sémantique.
+Par exemple, dans le mot suivant signifiant la Chine, soit zhōng guó ,
+le premier sinogramme (zhōng) est un idéogramme symbolisant le milieu (cf. l'Empire du Milieu) tandis que le second (guó, "pays") est un idéo-phonogramme composé d'un radical phonétique, (pour la finale -uo), et un indice visuel sur le sens, (pour l'idée d'enclos, de zone limitée dans l'espace).
+Les sinogrammes ont inspiré directement le langage construit Bliss, exclusivement idéographique (Charles Bliss ayant vécu en Chine pendant la seconde guerre mondiale).
+
+Hiéroglyphes
+Bien que les hiéroglyphes aient quasiment tous une origine pictographique, certains sont des idéogrammes. Quoi qu'il en soit, la majorité était utilisée comme caractère phonétique ou symbolique. Avec les simplifications des hiéroglyphes linéaires, et surtout, le passage au hiératique, les caractères perdent définitivement leur valeur figurative.
+
+Articles connexes: Hiéroglyphe; Logogramme; Pictogramme; Sinogramme; Lukasa. Portail de l'écriture.

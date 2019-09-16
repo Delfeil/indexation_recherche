@@ -1,0 +1,11 @@
+En mathématique et en informatique la similarité est un critère important pour l'identification de sous-groupe dans un groupe d'objets, de valeurs (numériques ou non), de données (connus ou reconnus) dans un "espace" ou système...
+Du point de vue mathématique, c'est par les différences de distance entre deux données qu'on mesure leur degré de similarité.
+
+Vocabulaire: En classification, on parle de clusterisation (ou Clustering) pour décrire le partitionnement de données, et un cluster est alors un ensemble de données ou d'éléments présentant des similarités. Le langage de description des objets d'une base de données doit permettre de définir la distance de cet objet par rapport aux autres. Une donnée et par suite la mesure de sa distance à d'autres objets peut être surpondérée ou sous-pondérée dans le système de calcul de distance entre objet, quand la donnée parait plus importante (ou moins) pour le problème considéré. La pondération se fait à dire d'expert ou au moyen d'un système expert. Ceci devient difficile quand le nombre d'attributs qui décrivent une donnée est important. D'autres systèmes de réduction de la complexité peuvent alors être utilisés.; Dans le champ de l'intelligence artificielle, la similarité est un des critères pour l'analyse informatique de clusters et pour le partitionnement de données (data clustering en anglais). Cette étape de classification automatique est nécessaire pour la mise en oeuvre des méthodes d'apprentissage automatique. Les logiciels experts cherchent aussi à prendre en compte le contexte, selon lequel la similarité peut varier (ex : dans trois contextes différent de température, l'eau, tout en restant H20 peut être présente sous forme de vapeur, de liquide ou de glace, neige ou givre et avoir un impact climatique très différent). Le logiciel fera un travail d'autant plus pertinent que les attributs des données seront utiles et pertinent dans le contexte.
+
+Algorithmes utilisant la similarité
+Il en existe plusieurs, visant le partitionnement des données, dont : la méthode des nuées dynamiques ;; le regroupement hiérarchique ;; l'algorithme EM ;; l'analyse en composantes principales.
+
+Voir aussi
+
+Articles connexes: Matrice de confusion; Indice et distance de Jaccard; Égalité (mathématiques); Identité (philosophie); Clustering; Apprentissage non supervisé.

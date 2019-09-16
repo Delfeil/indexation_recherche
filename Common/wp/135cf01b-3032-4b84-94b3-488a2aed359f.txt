@@ -1,0 +1,9 @@
+Le Palo Alto Research Center (abrégé en PARC), anciennement Xerox Palo Alto Research Center, est un centre de recherches en informatique situé à Palo Alto en Californie (États-Unis).
+
+Histoire
+Fondé en juillet 1970 par Jack Goldman et Bob Taylor, le laboratoire est initialement composé d'équipes en provenance de Berkeley Computer Corporation et d'étudiants et de collègues de Douglas Engelbart.
+Leurs recherches seront à l'origine des concepts d'informatique ubiquitaire, de VLSI et d'interface graphique, comme les icônes ou le WYSIWYG, popularisés par Apple avec le Macintosh et repris ensuite dans tous les systèmes d'exploitation grand public. Contrairement à la légende, la souris n'a pas été inventée au PARC mais, presque 10 ans auparavant, au Stanford Research Institute par Douglas Engelbart.
+Alan Kay y a travaillé sur le langage Smalltalk et sur la conceptualisation de l'ordinateur personnel moderne. Gregor Kiczales y a développé la programmation orientée aspect.
+Le PARC mit au point les premiers ordinateurs à interface graphique, le Dorado (Xerox 1132), machine Lisp destinée aux chercheurs, puis l'Alto, non commercialisé.
+Les idées des chercheurs du PARC, au début des années 1970, furent considérablement influencées par le travail précurseur de Joseph Carl Robnett Licklider, directeur de l'ARPA en 1963 et auteur des articles Man Computer Symbiosis et Man Computer Partnership.
+Une très grande partie de ces idées ont été reprises par Apple après que Steve Jobs et les ingénieurs d'Apple ont visité le PARC en 1979.

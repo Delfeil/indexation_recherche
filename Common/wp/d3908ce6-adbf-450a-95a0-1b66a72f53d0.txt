@@ -1,0 +1,14 @@
+Dans la conception d'un système d'information, la modélisation des données est l'analyse et la conception de l'information contenue dans le système.
+Il s'agit essentiellement d'identifier les entités logiques et les dépendances logiques entre ces entités. La modélisation des données est une représentation abstraite, dans le sens où les valeurs des données individuelles observées sont ignorées au profit de la structure, des relations, des noms et des formats des données pertinentes, même si une liste de valeurs valides est souvent enregistrée. Le modèle de données ne doit pas seulement définir la structure de données, mais aussi ce que les données veulent vraiment signifier (sémantique).
+
+Synthèse ou Analyse
+Alors qu'un terme souvent employé pour cette activité est "analyse des données", l'activité est en fait plus proche des idées et des méthodes de la synthèse (mise en relation de choses) que de la signification originelle du terme analyse (prendre les choses les unes après les autres). La raison en est que cette activité s'efforce de mettre les structures de données intéressantes dans un ensemble cohérent, inséparable, en éliminant les redondances de données inutiles, et en définissant des relations entre les structures de données qui ont des rapports entre elles.
+
+Merise
+Dans la méthodologie "Merise", le processus de développement du modèle de données implique d'analyser les types de données qui auront un sens dans le système d'information, et les relations entre différentes données de ce système. Ainsi le modélisateur doit s'exprimer avec des représentations des modèles de données qui guident le processus de développement du logiciel. Dans les premières phases du projet de développement du logiciel, il faut faire ressortir l'étude d'un modèle conceptuel de données. Celui-ci peut être détaillé dans un modèle logique de données quelquefois appelé modèle organisationnel de données. Dans des phases ultérieures, ce modèle peut être traduit en un modèle physique des données.
+
+Autres approches
+Une approche complètement différente est obtenue par l'utilisation de systèmes adaptables tels que les réseaux de neurones artificiels, qui peuvent créer des modèles de données implicites de façon autonome.
+Plusieurs techniques ont été développées pour la conception des modèles de données. Même si ces méthodologies sont censées guider les modélisateurs de données dans leur travail, deux personnes différentes employant la même méthodologie produiront souvent des résultats très différents. Les modèles les plus répandus sont : RM-T,; Les Diagrammes de Bachman,; L'approche Règles de gestion,; Le modèle entité-relation,; La modélisation rôle d'objet (Object role Modeling) ou Méthode d'Analyse de l'Information de Nijssen (NIAM),; La modélisation objet-relation,; Les réseaux de neurones artificiels.
+
+Voir aussi: Modèle (informatique).

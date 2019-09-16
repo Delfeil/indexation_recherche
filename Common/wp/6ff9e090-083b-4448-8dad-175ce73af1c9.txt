@@ -1,0 +1,30 @@
+Une carte réseau est matérialisée par un ensemble de composants électroniques soudés sur un circuit imprimé. L'ensemble constitué par le circuit imprimé et les composants soudés s'appelle une carte électronique, d'où le nom de carte réseau. La carte réseau assure l'interface entre l'équipement ou la machine dans lequel elle est montée et connectés sur le même réseau. Aujourd'hui on peut trouver des cartes réseau un peu partout, dans les ordinateurs, imprimantes, téléphones portables, consoles de jeux, télévisions... On n'utilise le terme "carte réseau" que dans le cas d'une carte électronique autonome prévue pour remplir ce rôle d'interface réseau. Ainsi, un ordinateur muni d'une interface réseau assurée par des composants soudés sur sa carte mère ne comporte pas, à proprement parler, de carte réseau.
+Les équipements communiquent sur le réseau au moyen de signaux qui doivent absolument respecter des normes.
+
+Média de transmission des informations
+Le média ou support de l'information peut être un réseau filaire. La carte réseau est, dans ce cas, munie d'un connecteur sur lequel on branche le câble réseau. Ce dernier est relié au réseau par l'intermédiaire d'une prise murale ou directement sur un équipement d'interconnexion de réseau comme un concentrateur (hub) ou un commutateur réseau (switch).
+La transmission sans fil (Wi-Fi) est ensuite apparue sur les marchés domestiques et professionnels. On s'affranchit alors complètement du réseau filaire qui est remplacé par un réseau utilisant les ondes électromagnétiques.
+Parmi les autres média de transmission, on peut citer la fibre optique, largement utilisée dans les interconnexions à grand débit ou à longue distance.
+
+Les standards
+Carte réseau avec interface 10BASE2 et RJ45.
+Il existe diverses normes qui régissent la première couche du modèle OSI (couche physique). Les couches supérieures du modèle sont gérées au niveau logiciel.
+On peut citer les normes Ethernet, Token Ring (anneaux à jetons)... Le standard Ethernet est le standard le plus répandu. On le trouve aussi bien en entreprise que chez le particulier. Pour le réseau sans fil, les standards Wi-Fi sont les plus courants.
+
+Le débit de transmission et le mode de communication
+Les débits s'expriment généralement en Mbit-s (mégabits par seconde : millions de bits par seconde). Cela mesure la capacité d'un équipement réseau à émettre et-ou recevoir un plus ou moins grand nombre de bits d'informations en une seconde.
+Les débits actuels du standard Ethernet sont : 10 Mbit-s ;; 100 Mbit-s (Fast Ethernet) ;; 1 000 Mbit-s parfois également noté 1 Gbit-s (gigabit Ethernet) ;; 10 000 Mbit-s (10 Gigabit Ethernet).
+Certaines cartes réseau peuvent communiquer en half duplex : dans ce cas, une carte peut seulement émettre ou recevoir des informations à un instant donné. Le mode full duplex, le plus répandu, permet à une carte réseau d'émettre et recevoir simultanément (ce qui permet un débit effectif double dans le cas optimal). Deux équipements réseau doivent communiquer dans le même débit. Un paramétrage de la carte réseau permet le plus souvent de forcer le débit ou de le positionner en 'auto-négociation' : dans ce cas, les cartes connectées négocient un débit commun dès l'établissement de la liaison physique (le branchement de la prise RJ45 par exemple).
+
+Types de cartes réseau
+
+Ordinateurs de bureau
+On peut relier les ordinateurs de bureau au réseau selon les types de cartes ci-dessous : Réseau filaire : Carte PCI ou PCI Express à insérer dans un connecteur PCI libre sur la carte mère.; De nombreux modèles de cartes mères disposent d'une interface réseau intégré. Dans ce cas, on branche directement le câble réseau sur le connecteur RJ45 fixé à la carte mère.; Boitier adaptateur USB-Ethernet.; Carte PCI ou PCI Express à insérer dans un connecteur PCI libre sur la carte mère.; De nombreux modèles de cartes mères disposent d'une interface réseau intégré. Dans ce cas, on branche directement le câble réseau sur le connecteur RJ45 fixé à la carte mère.; Boitier adaptateur USB-Ethernet. Réseau sans fil : Carte PCI équipée d'une antenne.; Carte PCI équipée d'une antenne.
+
+Ordinateurs portables
+Les ordinateurs portables ne disposant pas de connecteur PCI ou PCIe, d'autres solutions existent : Carte réseau au standard PC Card (appelé aussi PCMCIA) ;; Interface réseau (Wi-Fi ou Ethernet) déjà intégrée au portable.; Carte réseau connectée en USB.
+
+Les fabricants
+Les principaux fabricants de cartes réseau sont actuellement (2016): TP-LINK; D-Link; Asus; TRENDnet; Gigabyte Technology.
+
+Articles connexes: Connectique; RJ45; Commutateur réseau; Ethernet; Wi-Fi; Courants porteurs en ligne. Portail des réseaux informatiques; Portail des télécommunications.

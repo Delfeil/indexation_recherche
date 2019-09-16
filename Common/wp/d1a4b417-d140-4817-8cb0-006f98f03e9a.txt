@@ -1,0 +1,41 @@
+La veille technologique ou veille scientifique et technique consiste à s'informer de façon systématique sur les techniques les plus récentes et surtout sur leur mise à disposition commerciale (ce qui constitue la différence entre la technique et la technologique). Cette activité met en oeuvre des techniques d'acquisition, de stockage et d'analyse d'informations et leur distribution automatique aux différentes sections concernées de l'entreprise, à la manière d'une revue de presse. Ces informations peuvent concerner une matière première, un produit, un composant, un procédé, l'état de l'art et l'évolution de l'environnement scientifique, technique, industriel ou commercial de l'entreprise. Elle permet aux bureaux d'études d'être informés des baisses possibles de coût ou d'augmentation de qualité dans le cadre de l'analyse de la valeur. L'entité de production connaît mieux grâce à elle ses limites de production et sa concurrence future.
+Elle se pratique dans la légalité et le respect de la déontologie.
+
+Historique
+La veille technologique s'est développée en France depuis la fin des années 1980. En 1988, un "comité d'orientation stratégique de l'information scientifique et technique de la veille technologique" est créé par le Ministère de l'Enseignement supérieur et de la Recherche. La notion de "veille technologique" est alors définie. En 1989, l'union des industries chimiques a consacré un atelier de veille technologique. C'est lors du Xème plan (1989-1992) qu'a été pris en compte l'ensemble "veille technologique et politique des brevets". La définition la plus précise semble être celle de François Jakobiak, l'un des "pères" de la veille technologique en France, avec Henri Dou, créateur du Centre de Recherche Rétrospective de Marseille (CRRM), premier organisme français de recherche et de formation en matière de veille : "La veille technologique est l'observation et l'analyse de l'environnement scientifique, technique, technologique, suivies de la diffusion bien ciblée, aux responsables, des informations sélectionnées et traitées utiles à la prise des décisions stratégiques". En 1989, Henri Dou a créé le premier DEA d'information stratégique et de veille technologique à l'Université Aix-Marseille.
+Le terme de "veille technologique" sera ensuite précisé ou élargi en fonction de l'objet de la veille : "veille commerciale", "veille juridique", "veille presse", "veille informationnelle", "veille marketing"... Quant à la "veille stratégique".
+
+Place de la veille technologique dans l'intelligence économique
+La veille technologique ne doit pas être confondue avec l'espionnage industriel : elle récupère des informations ouvertes, accessibles à tous, et non pas internes à une entreprise,; elle ne s'intéresse pas aux seules informations provenant d'une entreprise cible.
+La veille stratégique englobe généralement la veille technologique. Mais la veille technologique est aussi considérée comme stratégique.
+La veille technologique fait partie des activités préparant un transfert de technologie. Elle s'intègre au concept d'intelligence économique.
+La veille technologique est utilisée principalement pour : Suivre les évolutions techniques; Dégager de nouveaux procédés ou matériaux de substitution; Anticiper sur la concurrence: on peut ainsi rester à la pointe du marché en acquérant toutes les nouvelles technologies qui permettent de disposer d'un avantage concurrentiel.; Diminuer les coûts de production; Augmenter la qualité des produits; Identifier les meilleures pratiques.
+
+Sources d'informations
+La veille peut s'alimenter de données provenant de tous types de sources, certaines méthodes de collecte ou certaines sources étant du domaine de compétence de spécialistes (publication de brevets) ou par des réseaux personnels.
+Une revue de veille technologique francophone est par exemple L'Usine nouvelle.
+
+Types de sources
+Les types de sources utilisés sont : Les sites d'actualités (par exemple pour l'informatique : Le Monde informatique ou Developpez.com ou bien pour l'aspect commercial : LSA); Les bases de dépôts de brevets : gratuites: Espacenet, Patentscope, UPSTO, The Lens, EAPATIS,.. ou payantes.; Les communiqués de presse des fournisseurs et des éditeurs; Les sites spécialisés; Les blogs d'expert; etc.
+
+Outils de surveillance classiques des sources d'information
+Pour se tenir informé des dernières modifications sur les sources, on utilise différents dispositifs de surveillance:
+
+Les outils pour chercher l'information
+
+Les outils pour traiter l'information
+
+Les outils pour diffuser l'information
+
+Les étapes de la veille technologique
+Il s'agit tout d'abord de définir précisément les objectifs de la veille technologique qui vont aussi nous permettre de : Rechercher des sources correspondantes à ces objectifs; Déterminer la méthode et les dispositifs de surveillance à utiliser.
+
+Analyse des informations
+Après avoir trouvé un certain nombre de sources d'informations, il s'agit de réfléchir à la pertinence et à la crédibilité des sources utilisées, de déterminer leur fiabilité. Cette étape est essentielle pour ne pas perdre du temps sur du contenu qui pour finir n'apportera rien. La veille technologique ne doit pas prendre trop de votre temps pour finalement, ne déboucher sur aucune décision, aucune amélioration.
+
+Utilisation des informations recueillies
+L'information recueillie doit aboutir à des actions concrètes telles que : Test et utilisation de nouveaux outils dans l'activité concernée; Rédaction de notes: nouvelles idées, éléments pour le futur, scénarios d'évolution...; Organisation de formations et séances d'information.
+
+Voir aussi
+
+Articles connexes: Automation industrielle; Convergence numérique; Croissance économique; Économie numérique; Économie post-industrielle; Histoire des techniques; Informatisation; Innovation; Intelligence artificielle; NBIC; Nouvelle économie; Nouvelles technologies; Numérique; Observatoire du numérique; Progrès technique; Prospective; Révolution informatique; Révolution numérique; Souveraineté numérique; Technique; Technologie; Transfert de technologie; Veille concurrentielle; Veille en entreprise; Veille stratégique.

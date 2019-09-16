@@ -1,0 +1,55 @@
+L'ingénierie des connaissances est une des dimensions de la gestion des connaissances au sein d'une organisation. Elle fait référence à l'ingénierie de systèmes complexes "intelligents" incorporant beaucoup de connaissances tels les systèmes experts.
+
+Dimensions
+L'exploitation des connaissances passe par cinq opérations : identification, création, stockage, partage et utilisation.
+L'ingénierie des connaissances se concentre sur l'identification, la création, le stockage et la mise à disposition des connaissances afin de rester neutre face aux outils de partage et d'utilisation.
+
+Identification
+L'identification des connaissances consiste en l'identification des connaissances critiques pour une organisation.
+Elle peut s'effectuer de manière individuelle sur base de questionnaires, d'interviews, etc., ou de manière collective en identifiant les départements, services, équipes.
+
+Collecte
+La collecte peut consister en un transfert de connaissances ou en un partage de connaissances, le tout en structurant correctement l'information : Transfert de connaissances : le tutorat ;; le parrainage.; le tutorat ;; le parrainage.; Partage de connaissances : les communautés de pratique ;; l'intervision (partant d'un problème) ;; le focus groupe (petits groupes);; le retour d'expérience.; les communautés de pratique ;; l'intervision (partant d'un problème) ;; le focus groupe (petits groupes);; le retour d'expérience.
+
+Structuration
+La structuration consiste à organiser les connaissances collectées en catégories, éventuellement en plusieurs niveaux hiérarchiques, pour en faciliter l'accès et la consultation. La structuration est une étape nécessaire pour pouvoir arriver à l'exploitation des données.
+
+L'exploitation des données
+La collecte et la structuration des données sont bien distinctes dans l'approche de la gestion des connaissances. Néanmoins, la collecte et la structuration ne suffisent pas pour parler d'une approche complète de gestion de connaissances. En effet, cette approche ne s'achève que lorsqu'on pourrait utiliser les données collectées et stockées pour atteindre les objectifs de l'organisme concerné.
+Ainsi, l'exploitation des données, connue aussi sous l'expression "Extraction des Connaissances à partir des Données" (ECD) (en anglais Knowledge Data Discovery, KDD) consiste à relier et à interpréter les faits pour en déduire des résultats et des conséquences utiles.
+L'extraction des connaissances à partir des données peut être réalisée suivant plusieurs méthodes, selon le domaine d'application et la nature des données brutes. Dans ce cadre, on distingue diverses méthodes :
+
+Exploration de données
+L'exploration de données (aussi appelé fouille de données, forage de données ou encore datamining pour les anglophones), est la pratique (par des moyens automatiques ou semi-automatiques) de la recherche et de l'exploration de grands ensembles de données ayant pour résultat la découverte de motifs significatifs et de règles. Pour faire cela, le data mining utilise des techniques informatiques empruntées à la statistique, et la reconnaissance de motifs récurrents dans de grandes masses de données récolté par un système d'information. Les résultats des analyses Data Mining ont pour but de connaître le comportement d'un usager, inférer puis prévoir son comportement. Ainsi, ce sont les résultats du datamining qui génèrent de la connaissance pour l'organisation (Knowledge Discovery). En entreprise, le data mining s'utilise principalement en: Marketing: la connaissance du client, son comportement plus précisément est essentiel pour: mieux cibler les clients, les fidéliser, améliorer les forces de vente, améliorer la relation client.; Gestion des risques: principalement dans le secteur bancaire et assurantiel. Il s'agit de connaître des clients ou partenaires à risque et mesurer ce risque. Cette information est indispensable pour la banque ou l'assurance car constitue le coeur de son métier.
+
+Intelligence artificielle
+L'intelligence artificielle peut se définir comme un traitement automatique des données basé sur des règles universelles pour la prise de décisions satisfaisantes au cas traité. Les méthodes d'ECD qui se basent sur l'intelligence artificielle ont évolué considérablement depuis l'apparition du web 2.0 et depuis le progrès de l'informatique notamment face à la multiplication des sources de données (Web, ERP, gestion de la relation client, etc.)
+
+Applications
+Les applications de l'ECD dépendent étroitement de la nature des données et des méthodes appliquées sur ces données. En effet, on distingue deux grandes familles d'application des données exploitées.
+
+Application préventive
+Elle consiste à exploiter les données pour la détection des fraudes afin de gérer et anticiper les risques et de définir des plans de maintenance préventive.
+
+Application amélioratrice
+À travers l'orientation de l'exploitation des données vers l'amélioration de l'organisation, la redéfinition et optimisation des stratégies : exemple : l'étude du comportement des clients dans le marché pour la commercialisation d'un produit.
+
+Création
+
+Stockage
+
+Qualité
+(temps...) L'information instantanée apporte une aide considérable à la prise de décision. Les outils collaboratifs proposent un partage transparent de l'information (au sein d'une communauté ou sans restriction).
+
+Outils
+Ils se développent en entreprise mais surtout au niveau mondial avec l'apparition de nouvelles applications. Dans le monde du travail, les outils collaboratifs sont omniprésents. Du partage des agenda aux doodle en passant par les outils de brainstorming et les messageries instantanées, les objectifs sont le partage instantané des données, la synchronisation des actions et des aides collaboratives à la décision.; Individuellement, les applications pour améliorer nos prises de décisions se multiplient. Le principe est simple, chacun peut partager les informations dont il dispose et consulter celles des autres utilisateurs. Ces outils sont souvent utilisés au travers des applications puisque le partage peut se faire en instantané et depuis n'importe quel endroit (les sites web sont toujours présents).
+Un exemple d'outil collaboratif récent est Waze qui compte plus de 60 millions d'utilisateurs dans le monde. Cette application permet de voir (grâce à la géolocalisation du téléphone) la vitesse des autres utilisateurs sur la route et de connaitre les zones de travaux ou la présence de radars. Ici, chacun peut profiter des informations des autres utilisateurs et vérifier leur véracité, elle est auto-régulée par les utilisateurs. Cet outil change complètement la manière d'appréhender les bouchons et de prendre des décisions au volant, le partage d'informations en temps réel est ici indispensable.
+
+Qualité
+La communauté scientifique internationale s'accorde pour identifier trois types de fraudes, connus sous l'acronyme FFP : Fabrication : consistant à forger de toutes pièces les données d'une recherche.; Falsification : altérer intentionnellement les données de façon à les rendre plus conformes aux hypothèses que le chercheur cherche à privilégier.; Plagiat : cela consiste à utiliser, voire s'approprier, les travaux ou les idées d'un autre à son insu et sans le créditer correctement.
+
+Voir aussi
+
+Articles connexes: Gestion des connaissances; Connaissance; Intelligence artificielle; Complexité; Système de gestion de contenu; Analyse décisionnelle des systèmes complexes; Wiki d'entreprise; Métadonnées et classification : schémas de classification.
+
+Concepts de gestion des documents: Cycle de vie (document); Dématérialisation; Document électronique; Editique; Enterprise Content Integration (ECI); Enterprise Content Management (ECM); Gestionnaire de document multimédia; Gestionnaire d'informations personnelles; Instruction assistée par ordinateur; Métadonnée; Reconnaissance optique de caractères; Relecture assistée par ordinateur; Signature numérique; Système d'archivage électronique (SAE); Valeur juridique des documents; Workflow.

@@ -1,0 +1,19 @@
+La magnétoencéphalographie (MEG) est une technique de mesure des champs magnétiques induits par l'activité électrique des neurones du cerveau. Cette technique est employée avec une visée clinique en neurologie (notamment pour l'étude de l'épilepsie) mais aussi en cardiologie, ainsi que dans la recherche en neurosciences cognitives.
+
+Principe et fonctionnement de la MEG
+Les champs magnétiques mesurés étant extrêmement faibles (de l'ordre de quelques femtoteslas), la MEG utilise un appareillage basé sur des magnétomètres à SQUID placé dans une pièce isolée magnétiquement par du mu-métal. En 2006, les magnétoencéphalographes peuvent mesurer le champ magnétique via environ 300 canaux (chaque canal étant associé à un SQUID et donc point de mesure autour de la tête).
+Les champs magnétiques induits par l'activité de neurones individuels étant bien plus faibles que le seuil de détection de la MEG, pour qu'un signal soit mesuré, il est nécessaire que l'activité électrique de plusieurs milliers de neurones soit synchrone. De plus, l'extraction des signaux générés par un stimulus nécessite souvent plusieurs itérations de ce stimulus afin de réduire, par moyennage, le bruit.
+
+Applications scientifiques
+
+En neurosciences cognitives
+
+Applications cliniques
+
+En neurologie
+La MEG n'a pas encore atteint le rang d'outil de routine clinique mais son usage se répand. Le principal domaine d'application de la MEG est le diagnostic pré-opératoire en épilepsie. En effet, les capacités de localisation de la MEG ainsi que sa commodité d'utilisation en font un outil de choix pour confirmer et localiser le (ou les) foyer(s) épileptogène(s) déclencheurs de la crise avant résection chirurgicale. En effet, la principale méthode employée, en 2006, reste l'implantation d'électrodes intracraniennes, ce qui nécessite pour ce seul diagnostic une opération chirurgicale délicate.
+Plus récemment, les études en MEG se sont portées vers le diagnostic précoce et le suivi de pathologies neurodégénératives (comme la maladie de Parkinson ou la maladie d'Alzheimer), l'étude des conséquences d'un traumatisme crânien ou d'une ischémie cérébrale transitoire et l'assistance aux neuro-chirurgiens dans la stratégie opératoire.
+
+En cardiologie
+
+Voir aussi: Elekta; Imagerie médicale. Portail de la médecine; Portail des neurosciences.

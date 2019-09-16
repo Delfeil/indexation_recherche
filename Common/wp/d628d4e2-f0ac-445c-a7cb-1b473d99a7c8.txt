@@ -1,0 +1,2 @@
+Le Special Interest Group on Computer Graphics and Interactive Techniques (SIGGRAPH) est le pôle d'intérêt commun de l'ACM dans le domaine du graphisme et de l'infographie.
+Fondé en 1969 par Andries van Dam, ce pôle organise tous les ans une conférence connue dans la communauté anglo-saxonne sous l'appellation SIGGRAPH.

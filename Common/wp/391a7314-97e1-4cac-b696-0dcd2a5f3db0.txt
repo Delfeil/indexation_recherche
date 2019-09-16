@@ -1,0 +1,13 @@
+La classification de la Bibliothèque du Congrès (en anglais Library of Congress Classification ou LCC) est un système de classification mis au point et utilisé par la Bibliothèque du Congrès. Il est également utilisé par plusieurs bibliothèques universitaires aux États-Unis et dans le monde. En France, elle est utilisée notamment par la bibliothèque de l'Institut national d'histoire de l'art (INHA), la bibliothèque Gernet-Glotz, la bibliothèque du musée de l'Homme.
+
+Organisation
+La LCC est organisée en classes, identifiées chacune par une lettre.
+Chaque catégorie peut être précisée par une ou deux lettres supplémentaires, puis par une série de chiffres. Par exemple : C : Sciences auxiliaires de l'histoire: CJ : Numismatique: CJ 1-4625 : Pièces de monnaie.; CJ 1-4625 : Pièces de monnaie.; CJ : Numismatique: CJ 1-4625 : Pièces de monnaie.; CJ 1-4625 : Pièces de monnaie.
+L'ensemble lettre(s)-chiffres forme un indice, et correspond à un sujet précis.
+
+Les classes de la LCC: A : Généralités; B : Philosophie. Psychologie. Religion; C : Sciences auxiliaires de l'histoire; D : Histoire du monde et histoire de l'Europe, l'Asie, l'Afrique, l'Australie, la Nouvelle-Zélande, etc.; E : Histoire des Amériques (généralités et États-Unis); F : Histoire des Amériques (autres pays d'Amérique); G : Géographie. Anthropologie. Loisir; H : Sciences sociales; J : Sciences politiques; K : Droit; L : Éducation; M : Musique et livres sur la musique; N : Beaux-Arts; P : Langage et littérature; Q : Sciences; R : Médecine; S : Agriculture; T : Technologie; U : Science militaire; V : Science navale; Z : Bibliographie. Bibliothéconomie. Ressources d'information.
+Les lettres I, O, W, X et Y ne sont pas utilisées.
+
+Voir aussi
+
+Articles connexes: BBK (classification); Classification décimale de Dewey; Classification décimale universelle.

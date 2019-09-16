@@ -1,0 +1,88 @@
+Les archives sont un ensemble de documents conservés pour pouvoir prouver des droits ou témoigner de certaines activités. Par métonymie, elles désignent également le lieu où l'on conserve ces documents (bâtiment ou local de conservation, ou encore l'institution chargée de leur conservation ou de leur gestion).
+En plus d'être des moyens de prouver et de garantir des droits, les archives peuvent constituer des sources pour l'historien ou pour quiconque veut connaître le passé. Dans la perspective de favoriser la recherche historique et la transparence des activités, les États ont progressivement organisé des services d'archives ouverts au public et fait obligation à leurs administrations de verser à ces services les documents produits par elles une fois échue leur durée d'utilité administrative.
+Les archives sont gérées et organisées par des archivistes.
+L'archivistique est la science qui régit les principes et les techniques relatifs à la gestion des archives. C'est une des disciplines participant aux sciences de l'information.
+
+Définitions et terminologie
+
+Étymologie et histoire du terme
+Le mot "archives" vient du bas latin archivum, signifiant "local d'archives, collection d'actes", qui lui-même vient du latin classique archīum "lieu où l'on conserve les archives" (IIe siècle) et du grec ancien archeíon signifiant "bâtiment administratif, magistrature" en relation avec les archontes (l'autorité, le gouvernement). Les archives ne sont donc pas, étymologiquement, des "choses très anciennes" comme expliqué dans le Trésor de la langue française.
+Comme en latin, la forme "archive" en ancien français est un masculin singulier (première attestation en 1282 dans le Royaume de Naples dirigé par Anjou), forme que l'on retrouve dès le XVe siècle dans les autres langues romanes (archieu en ancien provençal (att. 1411), archivo en espagnol (att. 1450), archivio en italien (att. 1483)) et en allemand (das Archiv est un singulier neutre).
+Les premières attestations en français sous la forme "archives" au féminin pluriel datent du XVe siècle comme "collection de pièces", ensuite comme "lieu où l'on conserve les archives".
+Dans le langage courant, "archives" signifie soit des vieux papiers ou de la paperasse plus ou moins inutile, soit des trésors oubliés.
+Dans le langage du web, "archives" se réfère à des pages anciennes plus forcément d'actualité.
+
+Définitions des "archives" en archivistique
+En archivistique actuelle francophone, le terme "archives" a trois acceptions : 1) tous les documents produits (créés et reçus) par un organisme dans le cadre d'une activité, quel que soit leur âge, leur type ou leur support ;; 2) les services et institutions qui se chargent de leur gestion (plus particulièrement des archives définitives) ;; 3) les espaces de conservation de ces documents (locaux d'archives, espaces informatiques dédiés).
+En anglais, plusieurs cultures distinguent les mots "records", qui désigne tout type de document, de "archives" ou "archives material", qui se réfère uniquement aux documents conservés à des fins historiques par des services spécialisés. Dans le contexte du "records management", le mot "records" a cependant une connotation juridique faisant qu'il s'applique aux seuls documents ayant été validés ou enregistrés et ayant de ce fait acquis une valeur probante. Or cette connotation est impossible à rendre en français de façon simple. C'est ce qui explique qu'il n'y a pas, dans le monde francophone, de consensus sur la traduction de l'expression "records management" et que les versions françaises des diverses normes internationales qui ont recours à celle-ci traduisent "records" par enregistrements, documents, documents d'archives, documents engageants, documents d'activité(s) ou informations documentées.
+
+"Archives" vs "archive"
+Le mot "archives" est rarement employé au singulier, au moins par les professionnels des archives. Pour un document d'archives, on parle d'article, de pièce ou de document original.
+Utilisé au singulier l'"archive" renvoie de plus en plus au système dans lequel est géré les archives.
+De bonnes archives, c'est-à-dire des archives accessibles et préservées de consultations désordonnées, doivent être dotées d'instruments de recherche qui en décrivent le contenu (répertoire ou inventaire).
+
+Histoire des archives
+
+Droits des archives
+Le droit des archives varie selon les pays et institutions et selon les époques. Il est constitué : d'une part de dispositions concernant les archives courantes et intermédiaires (cf. ci-dessous partie sur les trois âges) et relevant pour la plupart du droit civil et du droit pénal (durées légales de conservation, peines encourues en cas de vol ou de destruction, etc.),; d'autre part de textes spécifiques organisant la conservation et la communication des archives définitives par les services d'archives publics. En France, ces règles forment le livre II du code du patrimoine, dont l'article L. 211-1 définit les archives comme "l'ensemble des documents, quels que soient leur date, leur lieu de conservation, leur forme et leur support, produits ou reçus par toute personne physique ou morale et par tout service ou organisme public ou privé dans l'exercice de leur activité" (voir aussi Information classifiée en France).
+Le catalogue des sujets ("Schlagwortkatalog") de la Bibliothèque de l'université de Graz. La fiche montrée contient la référence à un texte de Hans Schleimer définissant les règles de classification de ce catalogue.
+Types d'archives
+En termes juridiques, il existe deux catégories d'archives : les archives publiques et les archives privées.
+
+Archives publiques
+Les archives comme institution : Archives Nationales des États-Unis à Washington.
+Les archives publiques sont les archives produites par les pouvoirs publics et par les organismes chargés d'une mission de service public (établissements publics, organismes consulaires, organismes de droit privé chargés d'une mission de service public, officiers ministériels). Le régime de communication des archives publiques, c'est-à-dire le délai à partir duquel elles peuvent être consultées, est fixé par la loi.
+Les archives publiques peuvent être internationales, nationales, régionales (départementales, provinciales, cantonales, etc.) ou locales (communales, municipales, bourgeoisiales, paroissiales, etc.).
+
+En France
+En France, elles sont conservées par les Archives nationales, les Archives diplomatiques, le Service historique de la Défense et le Centre des archives économiques et financières pour ce qui concerne l'État, et par les Archives régionales, départementales et municipales pour les collectivités territoriales. Les archives publiques en France sont dites "imprescriptibles", c'est-à-dire que la personne publique propriétaire ne peut pas en être dépossédée même si elle fait preuve de négligence.
+
+En Suisse
+Archives de l'Office des Nations Unies à Genève
+En Suisse, les archives nationales sont de la responsabilité essentiellement des Archives fédérales, fondées en 1798. Elles dépendent de la loi fédérale sur les archives.
+Toutefois, la plupart des archives publiques suisses sont de la responsabilité des différentes archives cantonales et gérées par les différentes lois cantonales en vigueur, notamment pour les archives communales.
+En raison du nombre d'organisations du système des Nations Unies basées à Genève, la Suisse abrite également plusieurs archives internationales.
+
+Au Canada
+Le Canada est l'un des premiers pays à avoir fusionné ses institutions d'archives, de bibliothèque patrimoniale et de bibliothèque publique. Ainsi, au niveau national, Bibliothèque et Archives du Canada (BAC), ou la Bibliothèque et Archives nationales du Québec (BAnQ) au niveau régional.
+
+Aux États-Unis
+Aux États-Unis, les archives publiques ou publics records sont seulement les archives émanant des services des États, comtés et services fédéraux ou à compétence fédérale.
+
+Au Royaume-Uni
+Au Royaume-Uni, les archives publiques ou publics records sont également les archives émanant des services de l'État, chaque entité administrative conservant elle-même ses documents d'archives publiques, ainsi que les dépendances de la couronne britannique. Les Archives du gouvernement sont versées au Public Record Office (National Archives).
+
+Archives privées
+Les archives privées peuvent provenir d'individus, de familles, d'associations ou d'entreprises.
+En droit français, les archives privées sont toutes les archives qui ne revêtent pas le caractère légal d'archives publiques ; on peut y rattacher ainsi les papiers de famille et les documents personnels, les archives d'entreprise, associatives, politiques, les archives d'avocat ou encore les archives religieuses. Elles peuvent être données, léguées ou confiées en dépôt à des services d'archives publics ou privés et leur communication peut obéir alors à des règles particulières fixées par leur propriétaire. La conséquence naturelle de ce principe est que les archives privées ne sont pas imprescriptibles, qu'elles peuvent faire l'objet d'une transaction. En France, certaines archives privées peuvent faire l'objet d'une mesure de classement comme "archives historiques". Elles restent propriétés de leur détenteurs originels, mais l'administration publique des archives doit être avisée de tout ce qui pourrait affecter leur intégrité (aliénation, restauration, etc.).
+La distinction entre les archives privées et les archives publiques est parfois difficile à établir. Les papiers d'un homme politique, par exemple, peuvent comporter des documents en rapport avec ses fonctions officielles, qui sont donc des archives publiques, et des documents découlant de ses activités de parlementaire et de responsable d'un parti, qui sont des archives privées.
+
+Archives d'entreprise
+Archives sous forme de dossier papier
+Les entreprises, comme tous les autres organismes du secteur privé ont plusieurs raisons ou obligations de conserver des archives : des raisons utilitaires (liées à la pérennité et efficience de leurs activités ou à une certification volontaire (écolabels, écosociolabels) impliquant la conservation d'archives) ;; des obligations légales ; le droit positif oblige les entreprises à conserver certains types de document pendant une durée donnée (en France, c'est le cas de certaines dispositions du code de commerce), soit parce qu'il leur faut, en cas de procès ou de contrôle, pouvoir prouver qu'elles ont fait ou dit ce qu'elles devaient au moment où elles le devaient ;; rarement, un musée interne ou un service d'archives historiques, confié à des archivistes de métier est créé et ouvert à des chercheurs extérieurs à l'entreprise, avec des préoccupations d'image de l'entreprise ou culturelles et patrimoniales. Quelques grandes banques et grands groupes industriels ont cette démarche. De plus en plus, des services d'archives publics recueillent des archives d'entreprises.
+Une part importante des sources de l'histoire de l'économie se trouve donc dans ces services dont le plus connu en France est les Archives nationales du monde du travail. En Belgique, plusieurs associations collaborent avec les archives publiques à la sauvegarde des archives d'entreprises, parmi lesquelles l'Association pour la valorisation des archives d'entreprises qui propose une série d'inventaires importants en ligne. En Suisse, l'Association des archivistes suisses (AAS) et les Archives économiques suisses à Bâle (SWA) ont formé un groupe de travail commun pour mettre en ligne les ressources existantes en matière d'archives d'entreprises (projet arCHeco).
+Les archives sont généralement purement utilitaires et conservées seulement aussi longtemps qu'elles sont des archives courantes ou intermédiaires, avant leur destruction une fois échue leur durée d'utilité administrative ou juridique. Leur gestion est confiée à des services de logistique interne, éventuellement renforcés par des sous-traitants externes, où elle est confondue avec des activités de documentation. Dans le meilleur des cas, cette gestion est rationalisée par des procédures de records management qui encadrent dès l'origine la production des documents, évitent les doublons et les destructions inconsidérées et assurent la traçabilité des documents durant leur durée de vie.
+
+Archives de fondations ou d'associations
+
+Archives ecclésiastiques
+
+Archivage
+L'archivage est un processus qui a pour but de garantir l'accessibilité sur le long terme des dossiers que l'on souhaite conserver pour des raisons juridiques, historiques ou culturelles (dossiers à valeur archivistique). Ce processus comprend le contrôle du cycle de vie des dossiers, leur évaluation pour déterminer lesquels conserver pendant combien de temps et à quel moment les éliminer ou les verser dans un système adéquat, leur versement dans un espace de stockage spécifique, leur préservation (conservation sur le long terme et sécurité), leur description, leur consultation (accès, diffusion) et leur valorisation.
+En plus de la gestion des archives proprement dites, l'archivage se préoccupe aussi d'organiser en amont le Records Management chez les producteurs, afin de contrôler l'intégralité du cycle de vie des dossiers jusqu'à leur élimination ou leur entrée dans le système d'archivage (par versement) et par conséquent la qualité de ceux-ci et de leurs métadonnées dès leur création.
+L'archivage intervient au plus tard quand le dossier devient inactif.
+
+Archives et technologies de l'information
+Le développement de la gestion informatique des données et des échanges au sein des entreprises bouleverse les distinctions traditionnelles et les pratiques d'archivage qui en résultaient. Comme documents produits à l'intérieur, les archives se distinguent aisément des ressources externes qui constituent la documentation. Cependant, des éléments provenant de la documentation peuvent être judicieusement joints aux archives proprement dites pour en permettre une meilleure utilisation ultérieure. L'informatique peut amener une confusion de cette distinction, même si les systèmes d'information permettent au contraire de l'optimiser.
+Avec les supports matériels, l'encombrement était la principale motivation de l'archivage : on ne pouvait pas "pousser les murs". Ce facteur n'est pas aussi déterminant avec les supports numériques : un faible investissement permet de différer sans cesse le classement des documents obsolètes, leur consultation restant de plus généralement toujours possible sans réelle perte d'efficacité. Si on y ajoute les risques de destruction et aussi d'obsolescence des supports, de graves interrogations sont apparues sur la préservation de la mémoire des activités contemporaines et futures.
+
+Enjeux éthiques et historiques
+Ils sont notamment liés au devoir de mémoire, au droit à la mémoire et donc à la qualité d'interprétation d'archives plus ou moins fiables et complètes et à la manière dont les médias pourront les utiliser. Des archives des plus sensibles, ou impliquant certains responsables, ou pouvant éclairer le comportement de leurs adversaires ont été détruites (en Pologne, certains auteurs de destructions d'archives expliquent aujourd'hui ce qu'ils ont détruit).
+Lors des grandes transitions démocratiques (fins de dictatures), l'accès aux archives et leur ouverture sont sources d'enjeux politiques et de pouvoir importants. Des organisations, à l'instar de Swisspeace - fondation suisse pour la paix, font du traitement du passé une de leurs missions en accompagnant les régimes lors des transitions démocratiques afin de promouvoir la paix.
+Selon Sonia Combe (qui a étudié les archives disponibles et ouvertes de la Stasi, du FBI, de la Gestapo ou du renseignement français), alors qu'en Pologne après la chute du régime du Général Jaruzelski, l'ouverture des archives a été retardée, des rumeurs et des listes en partie fausses de responsables ont rapidement circulé, alimentant des fantasmes. Dans ce pays, un service d'archives important a été créé (avec presque autant d'archivistes qu'en Allemagne), mais les archives n'étaient que partiellement ouvertes, et pas à tous (en Pologne, pour avoir accès aux archives, il fallait être déclaré "victime du communisme" pour avoir accès à son propre dossier).
+En RDA, sous la pression du public, et avec l'accord d'Helmut Kohl, l'ouverture des archives notamment de la Stasi a été rapide après la chute du régime. Celle-ci s'est faite plus lentement en Argentine, la présidente Cristina Kirchner ayant signé début janvier 2010 le décret no 4-2010, qui déclassifie l'ensemble des archives de la dictature militaire (1976-1983) (à l'exception de ceux concernant la guerre des Malouines et tout conflit interétatique), permettant leur utilisation par les magistrats.
+Plus récemment, et dans un autre contexte, le président Barack Obama a rouvert les archives partiellement fermées par le gouvernement Bush avant lui, tandis que l'ordre exécutif 13 526 du 29 décembre 2009 s'oppose à la classification indéfinie de documents.
+
+Voir aussi
+
+Articles connexes: Archivistique; Conseil international des archives; Document; Instrument de recherche (archives); Plan de classement.

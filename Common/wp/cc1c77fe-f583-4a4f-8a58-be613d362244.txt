@@ -1,0 +1,7 @@
+En topologie, une paire d'espaces est la donnée d'un espace topologique et d'une partie de celui-ci. Cette structure permet notamment de définir la notion de théorie homologique par des axiomes.
+
+Remarque préalable
+En réalité, il ne s'agit pas d'une paire au sens ensembliste du terme mais plutôt d'un couple. La dénomination traduit l'anglais topological pair.
+
+Catégorie
+Un morphisme entre deux paires d'espaces (X, A) et (Y, B) est une application continue f de X dans Y telle que f(A) est inclus dans B.

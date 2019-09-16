@@ -1,0 +1,59 @@
+En informatique, les langages de balisage représentent une classe de langages spécialisés dans l'enrichissement d'information textuelle. Ils utilisent des balises, unités syntaxiques délimitant une séquence de caractères ou marquant une position précise à l'intérieur d'un flux de caractères (par exemple un fichier texte).
+L'inclusion de balises permet de transférer à la fois la structure du document et son contenu. Cette structure est compréhensible par un programme informatique, ce qui permet un traitement automatisé du contenu.
+
+Éléments de syntaxe
+La caractéristique principale des langages de balisage est d'utiliser des balises. Le rôle des balises est de proposer une syntaxe pour délimiter une séquence de caractères ou pour marquer une position précise dans un flux de caractères.
+Un exemple en langage LaTeX : les balises -begin(document) et -end(document) délimitent le "document" ;; la balise -- marque un retour à la ligne.
+Selon les langages, les balises peuvent être différentes. En langage LaTeX, elles débutent par une barre oblique inverse.
+Dans les dérivés de XML, les balises marquent le début et la fin des "éléments". Elles sont formées de caractères unicode encadrés par les signes et. Ainsi table, Vidéo et B3 sont des balises syntaxiquement valides en XML. Les balises marquant la fin des éléments comportent une barre oblique après leur signe inférieur (-table). Des balises vides existent également et sont notées par une barre oblique avant le signe supérieur (br-).
+Selon les langages, d'autres spécificités syntaxiques des balises peuvent exister comme les attributs, les options...
+
+Utilisations
+Les balises ne sont qu'une particularité syntaxique du langage. Les langages les utilisant peuvent donc être d'usage multiple, de la programmation à l'annotation de documents.
+
+Langages de définition de documents
+Historiquement, les langages à base de balises servent surtout à structurer ou formater des documents.
+De par leur spécificité syntaxique d'utiliser des balises, ces langages facilitent l'annotation de texte. Il suffit en effet d'encadrer des portions de texte par des balises pour utiliser une fonctionnalité du langage. Par exemple en HTML il suffit d'encadrer un mot par les balises b et -b pour qu'il apparaisse en gras.
+Un simple éditeur de texte suffit ainsi à définir un document.
+Parmi les langages de définition de documents les plus populaires on compte DocBook, LaTeX, HTML ou les dérivés de TEI.
+
+Langages de description de types de documents
+Ces langages particuliers servent à définir des classes de documents valides selon un certain nombre de critères. Or ces critères peuvent parfois être exprimés également à l'aide de balises.
+Par exemple les DTD permettent de définir des classes de documents SGML ou XML. La DTD va imposer la structure des documents qui la respectent. Une DTD utilise des balises pour spécifier quels éléments et quels attributs sont autorisés.
+Les schémas XML sont un autre moyen de définir des classes de documents XML. Formant eux-mêmes une classe de documents XML, ils utilisent évidemment des balises XML.
+
+Langages procéduraux
+Dans ces langages, les balises intégrées dans le texte sont des instructions pour le programme qui va "lire" le texte.
+Ainsi, le langage TeX contient des instructions de formatage de document sous forme de balises. Par exemple la balise -vsize permet de spécifier la hauteur de la page à afficher.
+
+Autres utilisations
+Avec l'essor de XML, les outils de traitement des documents XML ont considérablement évolué. Il a donc été naturel d'utiliser XML lui-même pour définir d'autres langages à base de XML. Cette façon de voir a donné naissance à de nombreux langages de balisage (car à base de XML) et d'usages très hétéroclites. Exemples d'usages : transformation XML : XSLT ;; programmation : XSP ;; description d'images : SVG ;; affichage de formules mathématiques : MathML.
+
+Exemples importants
+
+Langages SGML
+Historiquement, les langages de balisage les plus utilisés sur le Web sont des applications dérivées de SGML.
+
+Langage HTML
+Le langage de balisage le plus couramment utilisé sur le World Wide Web est le HTML. En HTML, on utilise des balises pré-définies afin de préciser à l'intérieur d'un fichier texte des éléments tels que les titres, les paragraphes, les acronymes, les citations, etc.
+
+Les éléments de blocs et les éléments en-ligne
+On distingue les balises définissant un bloc des balises en-ligne par : le modèle de contenu : les éléments de bloc peuvent contenir à la fois des éléments de bloc, des éléments en-ligne et des données ; les éléments en-ligne ne peuvent contenir que des éléments en-ligne et des données. "L'idée inhérente à cette distinction structurelle, c'est que les éléments de bloc créent des structures "plus grandes" que les éléments en-ligne."; le formatage : "Par défaut, les éléments de bloc sont formatés différemment des éléments en-ligne. En général, les éléments de bloc commencent sur une nouvelle ligne tandis que les éléments en-ligne commencent sur la même ligne.".
+"Les feuilles de style fournissent les moyens de spécifier la restitution d'éléments arbitraires, y compris si l'élément est rendu comme étant de type bloc ou de type en-ligne."
+L'ensemble des citations est tiré de la spécification du standard HTML.
+
+Exemple: pLorem ipsum dolor sit amet, consectetuer adipiscing elit.-p.
+On délimite la phrase "Lorem ipsum dolor sit amet, consectetuer adipiscing elit." par la balise p (définissant un paragraphe) au moyen d'une balise d'ouverture (p) et d'une balise de fermeture (-p). Cette phrase est contenue dans l'élément p, lui-même obligatoirement contenu dans l'élément body (cet élément définit le début du corps du fichier HTML).
+
+Autres langages SGML: DocBook; TEI; WML.
+
+XML
+Extrait d'un document XML.
+Le XML pousse très loin la description sémantique d'un fichier, permettant de délimiter avec précision, par exemple dans une recette, les ingrédients, le temps-de-cuisson, les plats-nécessaires, etc. Afin d'exploiter un document XML écrit de cette façon, on utilise des feuilles XSLT permettant de transformer un document XML en un autre type de document XML.
+Toutefois, cette liberté dans le choix des balises permet à un fichier d'être écrit en XML sans pour autant délimiter des informations sémantiques : hors-contexte, la balise hy ne signifie rien, à moins de définir sa signification à l'intérieur d'un fichier de définition, appelé DTD, associé au fichier XML.
+Microsoft et The Document Foundation utilisent un format XML pour certains formats de fichier bureautique. Par exemple le suffixe.odt de LibreOffice cache une arborescence de fichiers XML zippés.
+Tous les langages dérivés de XML, appelés dialectes XML, sont des langages de balisage.
+
+Voir aussi
+
+Articles connexes: Tag (métadonnée); Langage de description de format de document; Langage de balisage léger; TeX et LaTeX; Wiki; SGML; VML; PostScript et PDF. Portail de l'informatique.

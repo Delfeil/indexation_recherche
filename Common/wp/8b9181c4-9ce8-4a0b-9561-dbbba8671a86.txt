@@ -1,0 +1,32 @@
+En imprimerie, et spécialement en typographie, la composition consiste à assembler les caractères pour former des lignes de texte. La composition consista pendant plusieurs siècles à assembler les caractères en plomb, puis elle fut mécanisée avec diverses machines, et elle se fait aujourd'hui de manière numérique.
+
+Historique
+
+Composition manuelle
+
+Composition
+La composition est le principe fondamental qui a régi l'imprimerie depuis Gutenberg, basé sur l'utilisation des caractères mobiles en alliage de plomb, d'antimoine et d'étain.
+L'ouvrier compositeur tient dans sa main gauche un composteur. La copie définitive du texte à composer est placée bien en vue du typographe, elle est corrigée et porte les mentions qui doivent régir exactement la typographie (capitales, ponctuations, romains, italiques, gras, etc.) selon le code préétabli qui est commun à la plupart des typographes. À défaut de ces mentions, il appartient au typographe de respecter de lui-même les règles typographiques. Il prend de sa main droite (on dit qu'il pioche, ou qu'il lève les caractères), dans la casse placée devant lui sur le rang, les caractères en plomb, et les place dans le composteur jusqu'à former une ou plusieurs lignes de texte à la longueur (justification) désirée, qui est ajustée de façon précise en ajoutant des espaces (les blancs qui séparent les mots). Les lignes sont ensuite déposées sur une galée, sorte de plateau, et enfin, lorsque la page est complète, solidement liées pour procéder à l'impression.
+La pratique du métier, l'expérience du typographe permettaient une composition rapide, mais qui restait limitée lorsque les besoins se sont considérablement accrus, tant dans l'édition que dans la presse. Aussi au XIXe siècle les tentatives de mécanisation de la composition se multiplient.
+
+Distribution
+La distribution représente l'opération inverse de la composition. Lorsque l'impression est terminée, il s'agit de remettre à leur place, dans leurs casses, les caractères, afin qu'ils puissent servir à une nouvelle composition. La quantité de caractères n'étant pas infinie, il fallait procéder à plusieurs compositions, impressions et distributions successives pour imprimer un ouvrage un tant soit peu important. Le typographe doit identifier chaque caractère, soit visuellement, soit par le toucher (le cran ménagé dans chaque caractère lui sert à le placer dans le bon sens), et le jeter dans le cassetin (division de la casse) correspondant. Toute erreur de distribution (un caractère placé dans un mauvais cassetin) peut être à l'origine de la faute appelée coquille.
+
+Composition mécanique
+Les diverses machines à composer inventées, dépassant rarement le stade du projet ou du prototype, se composent généralement d'un clavier qui libère les caractères correspondants et les range dans un composteur. La première difficulté est celle de la justification, qui doit se faire manuellement, ou par des mécanismes complexes qui nécessitent souvent un opérateur. L'autre problème réside dans le processus inverse de la composition, la distribution : le rangement des caractères qui ont servi à l'impression dans leurs cassetins respectifs. L'expérience du typographe, qui reconnait par le regard ou par le toucher chaque caractère, est difficilement reproductible, à moins de doter les caractères de crans supplémentaires ou d'ergots qui permettront à un nouveau mécanisme de les placer dans la bonne position, de les identifier, et de les diriger dans leur logement. Beaucoup de fabricants préfèrent se consacrer à la composition, et à la fonte de nouveaux caractères à chaque opération, envoyant à la fonte les caractères utilisés une fois. C'est ainsi que les machines à composer qui s'imposeront sont des composeuses-fondeuses, la Linotype et la Monotype.
+
+Photocomposition
+Dans la deuxième moitié du XXe siècle apparaît la photocomposition, avec l'essor de l'offset qui n'utilise plus le principe typographique. La composition se fait dans un environnement de bureau, devant un clavier proche de celui d'une machine à écrire.
+
+Composition informatique
+Avec l'avènement de l'informatique, la composition se fait désormais sur ordinateur, en utilisant un logiciel de traitement de texte ou de publication assistée par ordinateur (PAO), selon les besoins, entre les logiciels "grand public" et les logiciels professionnels spécialisés. Les règles de la composition et les règles typographiques, variables selon les pays, sont toujours de mise, mais les logiciels offrent des moyens de correction et peuvent régler les problèmes de césures, de veuves et d'orphelins. Les modifications de polices, de corps, d'interlignage, d'interlettrage, peuvent se faire instantanément.
+
+Composition et mise en page
+Il ne faut pas confondre composition et mise en page. La mise en page peut relever d'un principe préétabli auquel le compositeur devra se plier, ou être réalisée après la composition proprement dite : il s'agit alors de répartir les textes, les titres, les illustrations dans un but de lisibilité et d'esthétique. À l'inverse, lorsque le texte est composé à la suite, sans souci de mise en page, on parle de composition "au kilomètre".
+
+Correction
+Une fois la composition terminée, on tire une épreuve de correction, qui est remise au correcteur.
+
+Esthétique de la composition
+Une lézarde avec son signe de correction.
+Le travail du typographe ne se limite pas à juxtaposer des caractères en respectant scrupuleusement la copie. Selon la police utilisée, la justification et d'autres critères, il peut arriver que l'esthétique globale de la page présente des défauts qui ne sont pas dus à la copie : une lézarde résulte de la superposition fortuite d'espaces entre les mots sur plusieurs lignes successives, donnant l'impression d'une brisure de la page. Des césures de mots en fin de lignes successives présentent une gêne visuelle. Une ligne de début de paragraphe isolée en bas de page ou de colonne (une "veuve"), ou la dernière ligne d'un paragraphe rejetée en haut de page ou de colonne suivante (une "orpheline") sont également à proscrire. Pour remédier à ces divers défauts, le typographe doit faire varier les espacements de mots ou les interlignes, les réduire ou les augmenter afin de décaler la suite de la composition et parvenir à un bon équilibre visuel et obtenir ainsi un bon gris typographique.

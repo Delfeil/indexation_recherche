@@ -1,0 +1,48 @@
+Cet article traite d'une classe des langages de programmation. Pour la méthode consistant en la réduction du temps d'exécution d'un algorithme, voir programmation dynamique.
+On utilise le terme langage de programmation dynamique en informatique pour décrire une classe de langages de haut niveau qui exécutent au moment de l'exécution des actions que d'autres langages ne peuvent exécuter que durant la compilation. Ces actions peuvent inclure des extensions du programme, en ajoutant du code nouveau, en étendant des structures de données et en modifiant le système de types, cela pendant l'exécution du programme. Ces comportements peuvent être émulés dans pratiquement tous les langages de complexité suffisante, mais les langages dynamiques ne comportent pas de barrière, tel que le typage statique, empêchant d'obtenir directement ces comportements.
+Les concepts de langages dynamiques et de typage dynamique ne sont pas des concepts identiques , et un langage dynamique n'est pas nécessairement typé dynamiquement bien que la plupart des langages dynamiques le soient.
+
+Limitations et ambigüité de la définition
+La définition d'un langage dynamique est ambigüe car elle rend floue la distinction entre code et données comme celle entre compilation et runtime. Les machines virtuelles, la compilation à la volée, et la capacité de beaucoup de langages sur certains systèmes à modifier dynamiquement le code machine rend cette distinction caduque. En général, l'affirmation qu'un langage est dynamique est plus une affirmation sur la facilité d'utilisation des fonctionnalités dynamiques qu'une affirmation sur les autres capacités intrinsèques du langage.
+
+Implantation
+Il y a plusieurs mécanismes étroitement associés avec le concept de programmation dynamique. Aucun n'est essentiel à la classification du langage comme dynamique, mais beaucoup sont disponibles dans une grande variété de ces langages.
+
+Évaluation dynamique d'une expression
+Le langage de programmation Lisp a introduit le term Eval qui désigne l'évaluation d'une expression. Dans ce langage, Eval est un terme introduit avec le langage Lisp et dénote l'évaluation d'instructions, c'est-à-dire le fait d'exécuter des instructions qui sont représentées par des structures de données appelées S-expressions. Dans son sens moderne, eval dénote le mécanisme qui consiste à exécuter tout sortes d'instructions comme code source ou données qui ne sont pas du code machine.
+L'évaluation du code source d'un nouveau programme est partagée par beaucoup de langages qui contrairement à Lisp, font une distinction entre la lecture du code source et sa transformation en une forme interne, puis la transformation de la forme interne en action à exécuter. On appelle souvent ces langages "langages interprétés" quand le moyen standard d'exécution de programme est un eval
+
+Fonctions d'ordre supérieur
+Mais Eric Meijer et Peter Drayton avertissent que tout langage capable de charger du code exécutable au moment de l'exécution est capable d'une évaluation d'une manière ou d'une autre, même si ce code est sous la forme de bibliothèques partagées en code machine. Ils suggèrent que les fonctions d'ordre supérieur incarnent le sens véritable de la programmation dynamique, et que d'autres langages sont utilisés comme des pis-aller en substitut du support de véritables fonctions d'ordre supérieur. "
+
+Altération des objets au moment du runtime
+Dans un langage dynamique, on peut modifier dynamiquement un système d'objets ou de types. Cela signifie générer de nouveaux objets à partir d'une définition disponible au runtime, ou basée sur le mixin de plusieurs types ou objets. Cela peut aussi signifier l'alteration de l'arbre d'héritage et ainsi altérer la manière dont les types existants se comportent, notamment pour ce qui concerne l'appel de méthodes.
+
+Programmation fonctionnelle
+Les concepts de la programmation fonctionnelle sont une fonctionnalité de beaucoup de langages fonctionnels et dérive du Lisp.
+
+Fermetures lexicales
+La fermeture lexicale est un des concepts les plus utilisés de la programmation fonctionnelle. Elle permet de créer une nouvelle instance d'une fonction qui retient le contexte dans lequel elle a été créée. Un exemple simple en est la génération d'une fonction pour scanner le texte d'un mot :
+Notez que la fonction interne n'a pas de nom, et qu'elle est stockée dans la variable temp-function. Chaque fois que new-scanner est exécuté, il retourne une nouvelle fonction qui se souvient de la valeur du paramètre word qui a été passé quand il a été défini.
+Les fermetures lexicales sont un des concepts essentiels de la programmation fonctionnelle et beaucoup de langages supportent au moins ce degré de programmation fonctionnelle
+
+Continuations
+Certains langages dynamiques utilisent la notion de continuation. Une continuation représente un état d'exécution qui peut être réinvoqué. Par exemple, un analyseur syntaxique peut retourner un résultat intermédiaire et une continuation qui, lorsqu'elle est réinvoquée peut continuer à analyser l'entrée. Les continuations peuvent interagir de manière très complexe avec la portée, spécialement pour ce qui concerne les fermetures lexicales. Pour cette raison, de nombreux langages dynamiques ne fournissent pas de continuations.
+
+Réflexion
+La réflexion est présente dans de nombreux langages dynamiques. Elle implique typiquement l'introspection, c'est-à-dire l'analyse des types et des médatadonnées. Elle inclut aussi l'évaluation et la modification du programme comme données, telle que les fonctionnalités fournies pas le Lisp pour l'analyse de S-expressions, c'est l'intercession.
+
+Macros
+Un nombre limité de langages dynamiques fournissent des fonctionnalités qui combinent l'introspection de code et l'évaluation en une fonctionnalité qui s'appelle macro. La plupart des programmeurs aujourd'hui connaît les macros de C ou C++ qui sont une fonctionnalité statique.
+Elles ne causent que la substitution de chaînes dans le texte du programme avant sa compilation. Mais dans les langages dynamiques, les macros donnent accès au fonctionnement interne du compilateur et un accès total à l'interpréteur, machine virtuelle, ou runtime, permettant la définition d'extensions de langage qui peuvent optimiser le code généré ou de modifier la syntaxe du langage. En Lisp, on parle de macro hygiénique pour distinguer ces macros de celles qui sont substituées à la compilation comme du texte.
+
+Langages dynamiques: APL; Befunge; C (4.0); ChucK; ColdFusion; Curl; dBASE (dBL); ECMAScript: ActionScript; DMDScript; E4X; JavaScript; JScript.; ActionScript; DMDScript; E4X; JavaScript; JScript; Eiffel; Erlang; Forth; Groovy.
+. XTalkHyperCard-HyperTalk and Derivatives: HyperCard-HyperTalk; Revolution-Transcript; SuperCard-SuperTalk.; HyperCard-HyperTalk; Revolution-Transcript; SuperCard-SuperTalk; Io; Lisp: Common Lisp; Clojure; Dylan; Emacs Lisp; Logo; Lisp-Machine-Lisp; Scheme.; Common Lisp; Clojure; Dylan; Emacs Lisp; Logo; Lisp-Machine-Lisp; Scheme; Lua; Maude system.
+. Oberon; Objective Modula-2; Objective-C; Perl; PHP; Pliant; POP-11; Poplog; Pike; Prolog; Python; REALbasic; REBOL; Ruby; Scratch.
+. Smalltalk: Bistro; Self; Slate; Squeak; StrongTalk.; Bistro; Self; Slate; Squeak; StrongTalk; Snobol; SuperCollider; Tcl: XOTcl.; XOTcl; TeX macro language; VBScript; Visual Basic 9 or 10; Visual FoxPro; Windows PowerShell; xHarbour.
+.
+Le langage assembleur, le C, le C++, les premières versions de Java et le FORTRAN ne sont pas des langages de programmation dynamique.
+
+Voir aussi
+
+Articles connexes: Langage de script.

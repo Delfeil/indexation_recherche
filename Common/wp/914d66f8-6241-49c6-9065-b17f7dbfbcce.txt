@@ -1,0 +1,10 @@
+Mobipocket.com est une librairie numérique française vendant des livres électroniques aux formats PDF et PRC-MOBI.
+Cette entreprise a été rachetée en avril 2005 par Amazon.com avant que celui-ci ne lance son Kindle en 2007.
+
+Produits
+
+Mobipocket Creator
+Mobipocket.com a lancé Mobipocket Creator pour créer des livres électroniques au format PRC-MOBI (dont il est le créateur). Les fichiers PRC-MOBI sont des fichiers HTML compilés, leur extension de fichier est.mobi.
+
+Mobipocket Reader
+Le logiciel Mobipocket Reader permet de lire des livres électroniques au format PRC-MOBI. Il existe pour terminaux compatibles IBM PC, Palm sous Palm OS, PDA sous Windows Mobile, Nokia sous Symbian, BlackBerry sous BlackBerry OS. Le Mobipocket Reader est pré-installé sur le Cybook Gen3 de Bookeen, deux modèles de Irex, le Hanlin sous Linux de Jinke, et le Bebook de Endless Ideas.

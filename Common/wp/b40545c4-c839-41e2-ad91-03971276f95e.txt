@@ -1,0 +1,2 @@
+Nukumi est un système de gestion de contenu (ou Content management system, CMS) de microblogging en langage ruby sorti le 30 décembre 2004.
+Il s'agit certainement du premier logiciel de microblog.

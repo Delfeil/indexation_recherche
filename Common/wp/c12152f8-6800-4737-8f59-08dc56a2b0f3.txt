@@ -1,0 +1,5 @@
+Heello est un service internet de réseautage et de microblogging permettant d'envoyer et de lire des messages textuels, les pings et de partager des images et des vidéos.
+Le service a été lancé par Noah Everett, fondateur de TwitPic, le 10 août 2011, le lendemain du jour ou Twitter a mis à disposition des utilisateurs son propre service intégré de mise en ligne d'images, concurrençant ainsi Twitpic.
+Les deux principales différences entre Heello et Twitter, sont d'une part la possibilité dans Heello de créer des espaces d'échanges de pings privés multi-utilisateurs, les groupes, d'autre part la mise à jour automatique du flux des pings.
+
+Sources: (en) Cet article est partiellement ou en totalité issu de l'article de Wikipédia en anglais intitulé "Heello".

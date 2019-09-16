@@ -1,0 +1,30 @@
+Node.js est une plateforme logicielle libre et événementielle en JavaScript orientée vers les applications réseau qui doivent pouvoir monter en charge.
+Elle utilise la machine virtuelle V8 et implémente sous licence MIT les spécifications CommonJS.
+Node.js contient une bibliothèque de serveur HTTP intégrée, ce qui rend possible de faire tourner un serveur web sans avoir besoin d'un logiciel externe comme Apache ou lighttpd, et permettant de mieux contrôler la façon dont le serveur web fonctionne.
+Concrètement, node.js est un environnement d'assez bas niveau permettant d'exécuter du JavaScript non plus dans le navigateur web mais sur le serveur.
+Node.js est de plus en plus populaire comme plateforme serveur, elle est utilisée par Groupon, SAP, LinkedIn, Microsoft, Yahoo!, Walmart, Rakuten, Sage et PayPal.
+
+Historique
+Ryan Dahl, créateur de Node.js.
+Node.js a été créé par Ryan Lienhart Dahl en 2009. Son développement et sa maintenance sont effectués par l'entreprise Joyent (en). Dahl a eu l'idée de créer Node.js après avoir observé la barre de progression d'un chargement de fichier sous Flickr : le navigateur ne savait pas quel pourcentage du fichier était chargé et devait adresser une requête au serveur web. Dahl voulait développer une méthode plus simple. Le serveur web Mongrel de Ruby a été l'autre source d'inspiration pour Dahl. Dahl avait échoué dans plusieurs projets en C, Lua et Haskell, mais, quand le moteur V8 fut diffusé, il commença à s'intéresser à JavaScript. Même si son idée d'origine était d'utiliser des entrées et sorties non bloquantes, il en reviendra un peu dans son module système car cela provoquait des problèmes de chargement de bibliothèques externes.
+Node.js est utilisé au coeur du système d'exploitation Palm webOS.
+
+Forks
+Fin 2014, en désaccord avec le rôle de l'entreprise Joyent, plusieurs des développeurs principaux de node.js décident de forker celui-ci et crée alors io.js. Un an plus tard, ils décident de fusionner à nouveau avec node.js.
+En août 2017, node.js est à nouveau forké et plusieurs contributeurs créent alors ayo.js
+
+Exemple
+Voici un exemple d'implémentation du programme Hello World sous forme de serveur web :
+const (createServer) - require('http');
+
+const server - createServer((request, response) - (
+ response.writeHead(200, ('Content-Type': 'text-plain'));
+ response.end('Hello World-n');
+));
+
+server.listen(3000, - console.log('Adresse du serveur : http:--localhost:3000'));
+Trois points transparaissent dans ce code : un chargeur de module (require); la présence native d'une bibliothèque HTTP; l'aspect asynchrone du langage.
+
+Frameworks pour Node.js: Express; kraken.js; Hapi.js; Koa.js; TotalJS; Locomotive; TWEE.IO; Flatiron; diet.js; SailsJS; Nodal; Adonis; Trails; Strapi; RhapsodyJS; Compound.js; ThinkJS; Geddy; Meteor; DerbyJS; GeddyJS; TowerJS; Mean.js et Mean.io; Mojito; Feathers; Keystone; Knockout.js; SocketStream; seneca.js; Catberry; AllcountJS.; Flatiron; Connect; Socket.IO; Noda; RESTify; Frisby; Partial.js; Raddish; Fortune.js; percolator; Ionic; Devisjs (en).
+
+Outils pour Node.js: nCombo : framework pour le cloud; TestCafé; Browserify : outil pour utiliser les modules Node.js dans le navigateur; Babel; Mongoose : couche de persistance pour MongoDB; Grunt : outil d'automatisation des tâches; PM2 : outil de surveillance et d'automatisation de taches en cas de crash d'une application Node JS; memwatch-next : un paquet fournit par Node Package Manager (npm) pour la surveillance de l'utilisation de mémoire. Utile pour détecter les fuites de mémoires lentes.; Gulp (en) : outil d'automatisation des tâches (basé sur les streams); Bower : gestionnaire de paquet pour le web; Yeoman : générateur de site web utilisant Grunt et Bower; Unit.js : framework pour l'écriture des tests unitaires; Mocha (en) : runner pour exécuter les tests unitaires; Jasmine (en) : tests unitaires.

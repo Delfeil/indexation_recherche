@@ -1,0 +1,15 @@
+Dans les réseaux informatiques et les télécommunications, un protocole de communication est une spécification de plusieurs règles pour un type de communication particulier.
+Initialement, on nommait protocole ce qui est utilisé pour communiquer sur une même couche d'abstraction entre deux machines différentes. Par extension de langage, on utilise parfois ce mot aussi aujourd'hui pour désigner les règles de communication entre deux couches sur une même machine.
+Les protocoles de communication les plus utilisés sont les protocoles réseau.
+
+Concept
+Communiquer consiste à transmettre des informations, mais tant que les interlocuteurs ne lui ont pas attribué un sens, il ne s'agit que de données et pas d'information. Les interlocuteurs doivent donc non seulement parler un langage commun mais aussi maîtriser des règles minimales d'émission et de réception des données. C'est le rôle d'un protocole de s'assurer de tout cela. Par exemple, dans le cas d'un appel téléphonique : 1) L'interlocuteur apprend que vous avez quelque chose à transmettre (vous composez son numéro pour faire sonner son combiné) ;; 2) il indique qu'il est prêt à recevoir (il décroche et dit "Allô") ;; 3) il situe votre communication dans son contexte ("Je suis Marc. Je t'appelle pour la raison suivante...") ;; 4) un éventuel destinataire final peut y être identifié ("Peux-tu prévenir Michel que...") ;; 5) le correspondant s'assure d'avoir bien compris le message ("Peux-tu me répéter le nom ") ;; 6) les procédures d'anomalies sont mises en place ("Je te rappelle si je n'arrive pas à le joindre") ;; 7) les interlocuteurs se mettent d'accord sur la fin de la communication ("Merci de m'avoir prévenu").
+Cette métacommunication n'est autre que la mise en oeuvre de protocoles.
+Mais la communication ci-dessus a aussi implicitement enclenché un autre protocole, avec une autre couche de communication, en attendant d'avoir la tonalité pour composer le numéro de votre correspondant. Et les standards téléphoniques de départ et d'arrivée, pour leur part, se sont coordonnés entre eux aussi : autant de protocoles superposés et qui peuvent s'ignorer entre eux, puisque chacun concerne une couche d'abstraction et son homologue à distance.
+
+Exemple d'utilisation
+Lorsqu'on est en session X Window avec un ordinateur distant sur une ligne RNIS, la communication est payée au temps. On peut dans la plupart des cas déconnecter la session de bas niveau RNIS au bout de quelques secondes d'inactivité tout en maintenant la connexion de niveau supérieur TCP-IP. Ainsi lorsqu'un message TCP-IP est envoyé, le pilote RNIS réétablit la communication en moins de deux secondes, donnant l'illusion d'une continuité de liaison avec des prix bas. Pour TCP-IP, la liaison n'aura jamais semblé être coupée.
+
+Voir aussi
+
+Articles connexes: Interopérabilité; Internet Protocol; Suite des protocoles Internet; Protocole réseau. Portail de l'électricité et de l'électronique; Portail de l'informatique; Portail des télécommunications.

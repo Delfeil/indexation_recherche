@@ -1,0 +1,19 @@
+Un réseau invariant d'échelle (ou réseau sans échelle, ou encore scale-free network en anglais) est un réseau dont les degrés suivent une loi de puissance. Plus explicitement, dans un tel réseau, la proportion de noeuds de degré k est proportionnelle à k (-displaystyle k(-boldsymbol (--gamma))) pour k (-displaystyle k) grand, où (-displaystyle -gamma) est un paramètre (situé entre 2 et 3 pour la plupart des applications).
+Beaucoup de réseaux, comme le réseau du web, les réseaux sociaux et les réseaux biologiques semblent se comporter comme des réseaux invariants d'échelle, d'où l'importance de ce modèle.
+
+Définition
+Un réseau invariant d'échelle est un réseau dont la proportion de noeuds de degré k (-displaystyle k), noté P (k) (-displaystyle P(k)) suit la loi : P (k) k (-displaystyle P(k)- -sim - k(-boldsymbol (--gamma))).
+Le coefficient (-displaystyle -gamma), appelé exposant d'invariance d'échelle est strictement positif.
+
+Propriétés
+Exemple d'un réseau aléatoire selon le modèle Erdös-Rényi et d'un graphe invariant d'échelle
+Exemples de réseaux réels conjecturés invariants d'échelle
+De nombreux réseaux ont été décrits comme invariants d'échelle et certains sont présentés ici. Cependant cette caractérisation peut être remise en question, notamment à cause des éléments rares dans la queue de la distribution.
+Quelques exemples de réseaux conjecturés invariants d'échelle : Le réseau des citations dans les articles de recherche scientifique, étudiées par Derek Price, avec le modèle de Price (en).; Le réseau World Wide Web, dont l'étude, par Barabási et Albert a donné naissance au terme scale-free network. Dans ce cas une dichotomie est faite entre les hub qui sont les noeuds les plus reliés, et les autres noeuds.; Les réseaux de collaborations, comme celui des collaborations entre scientifiques (publications communes), entre entreprises, de films communs entre acteurs ou encore de relations sexuelles.; Les réseaux biologiques dans les cellules.
+
+Modèles de construction
+Plusieurs modèles ont été donnés pour expliquer l'émergence des réseaux invariant d'échelle, en particulier le modèle de Barabási-Albert (en).
+
+Voir aussi: (en) Cet article est partiellement ou en totalité issu de l'article de Wikipédia en anglais intitulé "Scale-free network".
+
+Article connexe: Réseau "petit monde", un autre type de réseau ayant des propriétés intéressantes pour modéliser des réseaux réels. Portail de l'informatique théorique.

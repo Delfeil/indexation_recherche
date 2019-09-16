@@ -1,0 +1,104 @@
+Les Libertés sur Internet sont les libertés légalement imposées par respect des droits fondamentaux relativement au réseau Internet.
+La liberté d'expression, le respect de la vie privée par le respect de la confidentialité de la communication, sont des exemples de ce qui est entendu par liberté sur internet. Reposant techniquement sur la Neutralité du réseau, elle est défendue notamment par un certain nombre d'associations qui militent pour.
+Internet, du fait même de sa structure, est un outil de communication et de liberté d'expression très puissant, et échappe ainsi, pour une large part, au contrôle étatique. Les gouvernements de nombreux pays, inquiets de la mise en péril de leurs pouvoirs par l'outil de communication offert par Internet, essayent d'y appliquer une politique de contrôle voire de censure.
+Les associations de défense d'un Internet libre s'inquiètent des mesures prises, depuis quelques années, par les gouvernements de différents pays - les événements du 11 septembre ayant parfois servi de prétexte à des mesures plus radicales.
+La cryptologie, et notamment la cryptographie asymétrique, est l'un des sujets les plus problématiques. Différents gouvernements ne veulent autoriser l'utilisation que d'un seul logiciel de cryptographie asymétrique dont ils auraient la clef. Des associations s'opposent à cette atteinte potentielle à la vie privée et exigent que les citoyens puissent utiliser comme ils l'entendent les logiciels de chiffrement, notamment le logiciel PGP ainsi que sa version libre GnuPG.
+Un des militants pour ces libertés sur Internet est Richard Stallman, l'initiateur du mouvement des logiciels libres, qui a déclaré "La vie privée est tout bonnement abolie lorsque les gouvernements surveillent ceux à qui vous parlez, où vous allez et ce que vous lisez".
+
+Conflits
+
+Cryptographie
+Ce conflit oppose donc les partisans de la vie privée et les gouvernements qui veulent assurer leur sécurité intérieure. La cryptographie permet au grand public de communiquer à l'insu des intermédiaires techniques et des autorités : ce qui laisse perplexe quelques gouvernements. La cryptographie, utilisée par une partie (même minime) de la population, peut compliquer sérieusement la tâche des infrastructures d'espionnage de masse ou de renseignement telles qu'Echelon.
+
+Le P2P et le Droit d'auteur
+L'émergence des réseaux pair à pair, qui permettent de diffuser très facilement et à moindre frais tous types de fichiers numériques, a fait naître un conflit entre les utilisateurs de ces réseaux et les ayants droit (industries du disque et du cinéma principalement mais également l'industrie du logiciel et du jeu vidéo). Il a fallu trouver un compromis entre la rétribution des ayants droit et la restriction des internautes à respecter le droit sans pour autant devoir brider l'internet et interdire des technologies.
+Ce conflit s'est traduit : aux États-Unis d'Amérique par l'adoption du Digital Millennium Copyright Act; en Europe par l'adoption de la directive EUCD; en France par l'adoption de la loi sur les Droit d'auteur et droits voisins dans la société de l'information.
+
+L'affaire ThePirateBay.org
+Manifestation de Stockholm contre la saisie des serveurs, le 3 juin, 2006.
+En 2006, le gouvernement des États-Unis d'Amérique aurait fait pression sur le gouvernement suédois pour faire saisir le serveur de The Pirate Bay qui est un annuaire de liens BitTorrent, proposant donc au téléchargement des milliers de fichiers dont la diffusion est illégale aux États-Unis. Cette saisie a fait scandale, le site étant légal en Suède. Une manifestation a eu lieu et l'opération de police dénoncée par le Parti pirate suédois.
+La volonté de fermer The Pirate Bay était guidée par une démarche symbolique. En effet, après la fermeture du site SuprNova, The Pirate Bay était le plus fréquenté des annuaires de liens BitTorrent.
+
+Liberté d'expression et censure
+
+Dans le monde
+L'ONG Reporters sans frontières a dénoncé ce qu'elle considère comme les "15 ennemis d'Internet" ((1)) : Arabie saoudite; Biélorussie; Birmanie; Chine : voir l'article détaillé Censure de l'Internet en République populaire de Chine; Corée du Nord; Cuba; Iran; Libye; Maldives; Népal; Ouzbékistan; Syrie; Turkménistan; Viêt Nam.
+les Cubains sont peu équipés en matériel informatique (3,3 ordinateurs pour 100 habitants, c'est-à-dire l'un des taux les plus faibles du monde) et il n'existe qu'un seul opérateur dans le pays, la société ETEC SA. L'ouverture d'une ligne internet est soumise à l'autorisation des autorités de l'île. L'utilisation d'internet ne doit pas "compromettre la sécurité d'État" ni aller contre "les lois et principes moraux du pays", des motifs suffisamment flous pour couper arbitrairement un accès à internet. Les cybercafés sont surveillés et trop coûteux pour la population. Les clients sont dans l'obligation de décliner leur identité. La recherche de mots-clés jugés "subversifs" par le régime entraîne la fermeture du programme. Les dissidents tels que Guillermo Fariñas (qui a reçu le Prix Cyberliberté de RSF en 2006) luttent pour la liberté d'expression et d'information sur internet.
+
+Saisie d'une partie des serveurs d'Indymedia
+En 2005, l'hébergeur d'Indymédia, dont les serveurs étaient à Londres, a été obligé, à la suite d'un mystérieux "accord de coopération policière" entre le gouvernement britannique et le Federal Bureau of Investigation (pourtant hors de sa juridiction) de livrer aux services secrets américains le disque dur sur lequel étaient stockés plusieurs sites d'Indymédia (notamment francophones) à cause semble-t-il de la publication de la photo de deux membres de la police secrète suisse qui tentaient d'infiltrer une manifestation antimondialiste. Plusieurs sites ont été inaccessibles pendant plusieurs jours et un long travail de restauration de leurs archives a dû être lancé. Un mois plus tard la situation semble se stabiliser, mais le plus inquiétant est le précédent que cela représente pour le principe de la liberté d'informer et sur la liberté sur le réseau.
+
+En France
+En France, aucune loi ne contraint directement la liberté d'expression plus que dans les autres médias. La liberté d'expression sur Internet se limite donc à la Liberté d'expression dans les textes de lois. Malgré cela , la nouvelle loi (no 2015-912 du 24 juillet 2015) relative au renseignement autorisent la surveillance de masse et individuelle sans consultation du pouvoir judiciaire. Sont donc interdits : la pédopornographie, l'incitation à la haine, le négationnisme, etc.
+La loi Loppsi, votée en mars 2011, permet à l'autorité administrative de demander le blocage de site à caractère pédopornographique, aux opérateurs de réseaux. Ceux-ci ont alors obligation de s'exécuter sans délais. Le fait que la liste des sites bloqués reste secrète vaut à cette loi d'être qualifié de "censure secrète du ministère de la police" par Benjamin Bayart. Jérémie Zimmermann redoute que cette loi ouvre la voie à tout type de censure y compris politique, la liste étant secrète il est impossible de vérifier quel type de contenu est effectivement bloqué.
+En novembre 2011 le dessinateur de la bande dessinée Pirate Sourcil, qu'il publie sur un blog a été contacté par la police, afin de demander qu'il auto-censure une planche qui aborde la pédophilie. L'auteur censure la dernière vignette de la planche, en apposant un bandeau montrant explicitement que la censure vient de la police française.
+Début 2012 le site Copwatch Nord-Paris IDF est bloqué, à la suite d'une décision de justice en référé demandé par Claude Guéant alors ministre de l'Intérieur.
+
+Cas des blogs
+Les blogs étant un phénomène récent ils n'ont pas encore donné lieu à une prise en compte de la part des gouvernements. Cependant quelques affaires ont exposé des blogeurs à la justice.
+
+Le magazine Mysterious Yanick D
+En 2000, la responsabilisation des hébergeurs de site Internet, quant aux informations contenues dans leurs serveurs, force les hébergeurs gratuits à effectuer une forme de censure. Les hébergeurs ne prennent plus de risques et effacent systématiquement les sites à la première plainte. Par exemple, le 30 mars 2000, iFrance ferme le blog "Mysterious Yanick D". IFrance communique sur la page d'accueil du fameux webzine que "Le site a été supprimé suite à une plainte. Le site est en cours de suppression pour non-conformité." (Détails)
+
+L'affaire Garfieldd
+Un proviseur homosexuel devait être révoqué au motif que son blog présentait des "photos et écrits à caractère pornographique" ce qui serait un "comportement incompatible avec l'exercice de la responsabilité d'un chef d'établissement". La blogosphère a soutenu le proviseur (beaucoup de blogs arboraient un bandeau "je soutiens Garfieldd" avec une image du célèbre chat Garfield en plus d'une opération de bombardement Google).
+Une pétition a été mise en place. Un blog (partial) a également suivi l'affaire.
+
+L'affaire MonPuteaux.com
+La Mairie de Puteaux a porté plainte contre Christophe Grébert, un putéolien auteur d'un blog ((2)) très critique de la politique de sa ville.
+
+Le journal de Max
+L'auteur du journal de Max dénigre son entreprise et ses collègues : cela peut être un motif de licenciement (loi sur la "loyauté" envers l'entreprise). Le blog étant un succès, son auteur a décidé d'en décliner un roman.
+
+Josh Wolf
+Voir (en) Josh Wolf et (fr) Josh Wolf
+
+Un début de considération politique des blogs
+Des groupes de blogueurs réclament le statut de journalisme. Reporters sans frontières a publié le "Guide pratique du blogger et du cyberdissident" ("téléchargeable gratuitement"). Renaud Donnedieu de Vabres, le ministre de la culture au moment du DADVSI, a déclaré "qu'il n'y aurait pas de véritable information sans véritable signature", ce qu'une partie de la blogosphère française a pris comme l'annonce d'une restriction de leur liberté de publier au profit de la presse reconnue.
+
+Lois régissant la Liberté sur Internet
+
+Dans le monde
+En mai 2011 l'ONU publie un rapport sur le droit à la liberté d'opinion et d'expression qui juge contraire à la convention internationale sur les droit civique et politique le fait de couper un accès internet, indépendamment des justifications invoquées, y compris celle de la violation des droits de la propriété intellectuelle.
+
+Aux États-Unis
+
+Le Global Internet Freedom Act
+Déclarant que les États-Unis d'Amérique s'engagent pour la liberté d'expression sur Internet et à combattre la censure des régimes répressifs notamment la Chine, la Birmanie, la Syrie.
+
+Le Digital Millenium Copyright Act
+Aux États-Unis d'Amérique, le conflit entre internautes utilisateurs de P2P et l'industrie du disque qui s'exprimait par le biais de la Recording Industry Association of America a donné lieu à l'adoption du DMCA.
+
+En Europe
+
+2001 : l'EUCD
+La directive européenne 2001-29-CE, aussi appelée EUCD, est l'adaptation européenne du DMCA américain.
+
+En France
+
+2001 : LSQ
+Novembre 2001, l'assemblée adopte la Loi sur la sécurité quotidienne (LSQ) proposée par le gouvernement Jospin qui, après les attentats du 11 septembre 2001, renforce considérablement les mesures de sécurité. Un certain nombre de mesures concerne l'Internet. En l'occurrence, la LSQ prévoit : la mise sous surveillance de l'internet par un accès facilité aux données de connexion que devront fournir les fournisseurs d'accès; la criminalisation de la cryptologie, tout du moins l'augmentation des peines lorsqu'elle a été utilisée pour un crime.
+
+2002 : LOPSI
+Décembre 2002, la Loi d'orientation et de programmation pour la sécurité intérieure (LOPSI) proposée par Nicolas Sarkozy est adoptée : elle entérine et prolonge la LSQ (exemple de critique : l'ère du soupçon).
+
+2003 : Loi sur l'économie numérique
+Janvier 2003 : Proposition d'un projet de Loi pour "la confiance dans l'économie numérique" (LEN) que certains accusent de sacrifier vie privée et liberté d'expression et d'information pour satisfaire aux intérêts des entreprises. Il propose d'imputer davantage de responsabilités aux intermédiaires techniques et aux hébergeurs, et risquant de les obliger à jouer le rôle de juge-censeur de proximité. Voir pour plus d'informations "LEN -EUCD même combat : vie privée et liberté des acteurs du Net en danger" , un article critique de cette loi par la Fédération Informatique et Libertés.
+
+Juillet 2006 : La Commission nationale de l'informatique et des libertés dispense les blogs de la déclaration obligatoire
+Depuis une délibération du 10 juillet 2006 (3)
+
+2006 : Loi sur les Droits d'Auteur et les Droits Voisins dans la Société de l'Information
+Adaptation au droit français de la directive européenne EUCD (Directive 2001-29-CE). Ce texte a été très controversé et a fait réagir de nombreuses organisations, notamment la Fondation pour le logiciel libre qui avait peur de voir restreinte la liberté de publier du Logiciel libre permettant de mettre à disposition sur un réseau du contenu numérique : Apache, Azureus, eMule, Linux. Pour protéger ces logiciels : la FSF, par le biais de l'initiative eucd.info (fer de lance de la contestation du DADVSI), a mis en place une réserve numérique qui héberge ces logiciels : http:--eucd.info-reserve
+L'adoption de ce projet de loi, par son contenu final, a laissé beaucoup de consternation et la contestation est encore très vive.
+
+2009 : loi Création et Internet
+
+Mai 2009 : Système Hérisson
+
+2011 : Loi d'orientation et de programmation pour la performance de la sécurité intérieure
+En 2009, reporter sans frontière dans son rapport sur internet émet des inquiétudes pour la France dans un article intitulé : Des logiciels-espions qui menacent les libertés.
+
+Quelques associations de défense des libertés sur Internet: Electronic Frontier Foundation; Liste des partis pirates; Amnesty International; Human Rights Watch; Fondation pour le logiciel libre; Global Internet Liberty Campaign; Ligue ODEBI; eucd.info; Reporters sans frontières; La Quadrature du Net.
+
+Articles connexes: Droit d'Internet; Vie privée et informatique; Big Brother Awards récompense les institutions, sociétés ou personnes s'étant distinguées par leur mépris du droit fondamental à la vie privée ou par leur promotion de la surveillance et du contrôle des individus.; Filtrage d'Internet; cnil.

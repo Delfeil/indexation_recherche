@@ -1,0 +1,18 @@
+Un annuaire web, répertoire web, annuaire Internet ou répertoire Internet est un site web proposant une liste classée de sites Web.
+Le classement se fait typiquement dans une arborescence de catégories, censée couvrir tout ou partie des centres d'intérêt des visiteurs. Chaque catégorie contient : des sous-catégories concernant des aspects plus pointus d'un sujet donné ;; des hyperliens vers les sites agrémentés d'une description.
+
+Types d'annuaires
+Un annuaire peut être généraliste, spécialisé (thématique) ou géographique : les généralistes n'excluent, a priori, aucun centre d'intérêt ;; les annuaires spécialisés et thématiques se penchent exclusivement sur les sites ou les pages Web traitant d'un certain sujet, ou destinés à un certain public ;; les annuaires géographiques enfin, peuvent à la fois se révéler généralistes ou spécialisés ; dans les deux cas, ils sont relatifs à un pays, une région, une localité.
+Contrairement aux moteurs de recherche, la classification dans les annuaires est réalisée par des humains. Trois modèles sont en concurrence : Le modèle "entreprise" : une société adopte cette activité afin de fournir ce service, souvent gratuitement pour ce qui est des annuaires généralistes. Ses revenus sont fondés sur la publicité et-ou la fourniture de services annexes.; Le modèle "communautaire" ou "collaboratif" : des volontaires prennent en responsabilité une partie de l'arborescence de l'annuaire, en fonction de leurs centres d'intérêt, de leurs compétences et de leur disponibilité. Ils sélectionnent les sites proposés dans la partie de l'annuaire, en fonction de la politique du projet. Open Directory Project est un exemple d'annuaire utilisant ce modèle.; Le modèle "communautaire-wiki pré-rempli par robot" : un robot aspire les contenus de données publiques publiées pour pré-remplir l'annuaire de données indexées et la communauté prend le relais pour classifier et réindexer les contenus informationnels et commerciaux. Comme chez Wikipédia, la vision est de se reposer sur la connaissance de chaque visiteur. Le modèle AboutUs.org est un exemple d'annuaire utilisant ce modèle pour recenser les noms de domaines existants dans le monde.
+
+Évolution et tendances
+Avec le développement des moteurs de recherche tels qu'AltaVista et Google, les annuaires Web ont perdu de leur intérêt pour les utilisateurs, particulièrement en ce qui concerne les annuaires généralistes. Ces derniers ont en effet beaucoup de mal à lutter face à la rapidité et la simplicité d'utilisation des moteurs de recherche modernes.
+Aujourd'hui les annuaires web sont régulièrement utilisés dans une optique SEO (Search Engine Optimisation) par les référenceurs professionnels ou amateurs car ils permettent d'obtenir des hyperliens pointant vers leurs sites Web. Le fait d'obtenir ces liens donne de la valeur à ces sites du point de vue des moteurs de recherches, ce qui est susceptible de favoriser leur positionnement dans les résultats de recherche.
+Au-delà de ça, un annuaire Web moderne bien modéré et suivi permet tout de même de trouver des sites de qualité puisqu'ils ont été acceptés au sein de l'annuaire après une vérification humaine, contrairement aux moteurs qui eux sont basés sur un algorithme.
+Après de nombreux abus, les ingénieurs des moteurs de recherche ont révisé leurs algorithmes de classement et accordent moins d'importance à cette technique de référencement, à l'exception d'annuaires spécialisés ou généraliste de qualité.
+
+Voir aussi
+
+Technologies: Adresse web; Moteur de recherche.
+
+Annuaires: Yahoo! était originellement un annuaire Web.; Open Directory Project (et sa catégorie "Répertoires" qui liste des annuaires Web).; AboutUs.org. Portail de l'informatique; Portail d'Internet.

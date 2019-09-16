@@ -1,0 +1,9 @@
+En mathématiques, et plus précisément en algèbre générale, une loi de composition interne ou loi interne (-displaystyle -star) sur un ensemble S est dite associative si pour tous x, y et z dans S, (x y) z - x (y z) (-displaystyle (x-star y)-star z-x-star (y-star z)). Des exemples de lois associatives incluent les lois d'addition et de multiplication des nombres réels, des nombres complexes et des matrices carrées, l'addition des vecteurs, et l'intersection, la réunion d'ensembles. Aussi, si M est un ensemble quelconque et S désigne l'ensemble de toutes les fonctions de M vers M, alors l'opération de composition des fonctions sur S est associative.; Un exemple de loi non associative est donné par le produit vectoriel sur un espace euclidien orienté de dimension 3. Un autre est la soustraction des nombres réels.
+En effet :
+(30 20) 10 - 10 10 - 0 (-displaystyle (30-20)-10-10-10-0)
+et
+30 (20 10) - 30 10 - 20 (-displaystyle 30-(20-10)-30-10-20)
+donc,
+(30 20) 10 30 (20 10) (-displaystyle (30-20)-10-neq 30-(20-10)): Un ensemble muni d'une loi interne associative et unifère est appelé un monoïde.
+
+Voir aussi: Alternativité; Commutativité; Monoïde; Demi-groupe; Groupe. Portail de l'algèbre.

@@ -1,0 +1,63 @@
+En arithmétique élémentaire, le plus grand commun diviseur ou PGCD de deux nombres entiers non nuls est le plus grand entier qui les divise simultanément.
+Par exemple, le PGCD de 20 et de 30 est 10, puisque leurs diviseurs communs sont 1, 2, 5 et 10.
+Cette notion s'étend aux entiers relatifs grâce aux propriétés de la division euclidienne. Elle se généralise aussi aux anneaux euclidiens comme l'anneau des polynômes sur un corps commutatif.
+Le PGCD s'applique sur tout anneau commutatif unitaire : l'existence d'un PGCD de deux éléments quelconques n'est plus garantie, mais c'est le cas pour des classes d'anneaux (plus générales que les seuls anneaux euclidiens) comme les anneaux factoriels. Un anneau pour lequel cette propriété d'existence est satisfaite est appelé anneau à PGCD.
+
+Notation
+Le PGCD de deux entiers a et b se note : PGCD(a, b). Par extension, le PGCD d'une famille d'entiers ai est noté PGCD(ai).
+
+PGCD d'une famille d'entiers
+Étant donnée une famille (finie ou infinie) d'entiers relatifs ai non tous nuls, l'ensemble des diviseurs communs aux ai est une partie finie et non vide de ℤ : finie, car un diviseur d'un entier non nul a est borné par a ;; non vide car contient 1.
+Cet ensemble admet donc un plus grand élément d, appelé le PGCD de la famille des ai.
+Par exemple, les diviseurs communs à 36, 48 et 60 sont 1, 3, 4 et 12 donc PGCD(36 ; 48 ; 60) - 12.
+
+Quelques précisions sur "plus grand"
+Usuellement, pour des nombres entiers, on considère uniquement des PGCD positifs et la notion de "plus grand" correspond bien à la notion d'ordre usuelle pour les nombres. Pour d'autres cas, le "plus grand" de PGCD ne correspond pas forcément à la relation d'ordre habituelle mais au préordre de divisibilité, donc à la définition suivante (équivalente, dans un anneau commutatif unitaire, à la définition par les idéaux - voir plus bas) : "Un PGCD de a et b est un diviseur d de a et de b tel que tout autre diviseur commun à a et b est aussi un diviseur de d."
+En ce sens, -3 et 3 sont tous deux des PGCD de 6 et 9. C'est cette définition qui est adoptée pour définir le PGCD dans un anneau commutatif quelconque, ou pour le PGCD de nombres rationnels. Pour le cas de nombres entiers, on préfère en général prendre le PGCD positif, ce qui permet de faire en sorte qu'il soit bien le plus grand au sens courant du terme. Et même, on ne précise pas qu'on souhaite le PGCD positif quand on désigne le PGCD comme unique.
+Évidemment, celui des deux PGCD qui est positif est également le plus grand diviseur au sens de la relation d'ordre habituelle sur les nombres, mais cette assertion n'aura plus de sens dans des anneaux plus généraux, comme les anneaux de polynômes - et encore, même dans l'anneau des entiers, elle est contredite dans le cas de PGCD(0, 0), que nous examinerons plus loin.
+Rappelons que le D de PGCD signifie toujours diviseur et non dénominateur. Lors de la réduction de fractions au même dénominateur, on peut être amené à chercher le plus petit commun dénominateur qui est en fait le PPCM des dénominateurs. L'emploi de cette expression n'est pas une erreur, c'est un cas particulier d'emploi du PPCM. L'expression "Plus grand commun dénominateur" est en revanche erronée.
+
+PGCD de fractions
+Dans ce paragraphe, on utilise la définition générale donnée plus haut : d est un PGCD de a et b si d divise a et b et d est divisible par tout élément divisant a et b.
+Premier point de vue : c'est le plus évident : on se place dans le corps ℚ des rationnels. Alors pour p1-q1 et q2-p2 deux rationnels non tous deux nuls, tout rationnel non nul est un PGCD de p1-q1 et q2-p2 (ℚ étant un corps, tout rationnel autre que 0 divise 1, et 1 divise tout rationnel). Par convention, on choisit 1 comme PGCD. Dans le cas où les deux fractions sont nulles, le PGCD vaut encore 0.
+Note : on montre que A est un corps si et seulement si A est un anneau unitaire dont les seuls idéaux sont (0) et A. On comprend facilement, avec la définition du paragraphe 2.1, que deux éléments non tous deux nuls de A admettent n'importe quel élément non nul de A comme PGCD, et on choisit 1 (le neutre de la seconde loi) par convention. La notion de PGCD n'a donc pas beaucoup d'intérêt dans un corps.
+Deuxième point de vue : il consiste à considérer qu'une fraction p-q en divise une autre p'-q' non pas s'il existe une fraction a-b telle que (p-q)(a-b) - p'-q' (toujours vrai si p ne vaut pas 0 : prendre a - qp' et b - pq') mais seulement s'il existe un entier c tel que (p-q)c - p'-q'.
+De façon analogue au paragraphe sur les idéaux, un PGCD de p1-q1 et q2-p2 est une fraction p-q telle que (p1-q1)ℤ + (p2-q2)ℤ - (p-q)ℤ. Mais attention, les objets manipulés ici ne sont pas des idéaux, ni des pseudo sous-anneaux de ℚ, seulement des sous-groupes.
+Finalement, on trouve p - PGCD(p1,p2) et q - PPCM(q1,q2).
+De même, on a PPCM(p1-q1,p2-q2) - PPCM(p1,p2)-PGCD(q1,q2).
+Le PGCD obtenu suivant le deuxième point de vue est également un PGCD possible quand on se place sur le corps Q. Les calculatrices et les logiciels de calcul choisissent l'un ou l'autre suivant le choix des programmeurs (par exemple Maple adopte le premier point de vue, la Casio Graph 100+ et la TI-92 le second).
+Un inconvénient du second point de vue est que le PGCD d'une famille infinie de rationnels n'existe pas toujours. Par exemple, la famille des fractions 1-n, n allant de 1 à l'infini parmi les entiers, n'admet pas de PGCD.
+
+Cas des réels
+On peut encore étendre les définitions précédentes avec des nombres réels : le premier point de vue conduit à un PGCD de 1 pour tout couple de réels non tous deux nuls.
+Le second point de vue dit que pour deux réels quelconques a et b, s'il existe un réel c tel que a - uc et b - vc avec u et v rationnels, on choisit PGCD(a,b) - cPGCD(u,v), suivant la définition des PGCD de rationnels vue ci-dessus (2e point de vue).
+Pour deux réels a et b tels que a-b soit irrationnel (si b - 0, on est dans la situation précédente) on est obligé de revenir au premier point de vue d'où PGCD(Pi,2) - 1 ; à noter que le PPCM présente le même problème, mais il est déterminé par PGCD(a,b)PPCM(a,b) - ab. (PPCM(Pi,2) - Pi2.)
+Chaque calculateur se plaçant dans la continuité de son comportement concernant les rationnels, Maple répond suivant le premier point de vue, la Casio Graph 100+ selon le second ; la Ti-92 n'a pas de réponse.
+
+Polynômes à coefficients réels
+Le PGCD dans l'anneau ℝ(X) vérifie la définition donnée plus haut. Mais cette fois, pour deux polynômes A et B non nuls, il y a une infinité de PGCD possibles : en effet, tout PGCD de A et B multiplié par un réel non nul est aussi un PGCD de A et B. Pour définir un PGCD unique il y a deux conventions possibles : ou bien on pose par convention que le PGCD doit être un polynôme unitaire, ou bien on choisit le polynôme dont le coefficient dominant est le PGCD des coefficients dominants de A et B, en employant la définition du paragraphe précédent pour les PGCD de réels.
+À titre d'exemple, le logiciel (propriétaire) de calcul formel Maple choisit la première option quand les polynômes sont à coefficients entiers, la seconde sinon, tandis que les calculatrices Casio optent toujours pour la seconde convention.
+Si l'on ne dispose pas de moyen automatisé (logiciel ou calculatrice), on peut toujours trouver "manuellement" le PGCD de 2 polynômes en transposant pour ces polynômes l'algorithme d'Euclide servant à trouver le PGCD de deux nombres entiers (voir ici comment on peut effectuer la division de deux polynômes).
+
+Dans les anneaux commutatifs
+La définition générale du PGCD dans un anneau (unitaire - ou même un pseudo-anneau) commutatif A est celle donnée plus haut, et s'étend à une famille quelconque (éventuellement infinie) : le plus grand commun diviseur d'une famille ai est le plus grand diviseur commun aux ai au sens de la divisibilité.
+L'existence du PGCD de deux éléments (tout comme du PPCM) est certaine dans un anneau factoriel, pas toujours dans d'autres anneaux.
+Par exemple, dans l'anneau ℤ(i3), 4 et 2 + 2i3 admettent 2 et 1 + i3 comme diviseurs, mais aucun élément divisible simultanément par 2 et 1 + i3 ne les divise.
+Le PGCD de a et b n'est pas toujours unique, mais deux quelconques PGCD de a et b sont, par définition, toujours associés, c'est-à-dire que chacun est divisible par l'autre.
+Dans un anneau principal, il existe des éléments u et v (non uniques) tels que PGCD(a, b) - au + bv (théorème de Bachet-Bézout).
+Dans un anneau euclidien, une forme de l'algorithme d'Euclide peut être utilisée pour calculer le PGCD.
+L'unicité peut dans certains cas être rétablie en posant une contrainte supplémentaire - comme la positivité dans le cas des entiers relatifs. Par exemple, dans l'anneau des polynômes à coefficients dans un corps commutatif, le PGCD est unique si l'on exige qu'il soit unitaire ou nul.
+
+Définition par les idéaux
+La définition de ce paragraphe est une reformulation de la précédente.
+Dans l'anneau commutatif unitaire A, on note (x) l'idéal principal engendré par l'élément x, i.e. l'ensemble des multiples de x par un élément de A. Alors : "d est un PGCD de a et b si et seulement si (d) est le plus petit idéal principal contenant a et b, autrement dit : contenant l'idéal (a) + (b)."
+Dans un anneau principal, cela équivaut à (a) + (b) - (d).
+Cette reformulation ne vaut pas dans un pseudo-anneau car l'ensemble des multiples de x peut alors être strictement inclus dans l'idéal engendré par x. Par exemple dans le pseudo-anneau 2ℤ, 2 est un PGCD de 8 et 12 mais l'idéal engendré par 4, strictement plus petit que celui engendré par 2, contient aussi 8 et 12.
+
+Anneaux non commutatifs
+Dans un anneau non commutatif, un élément peut admettre des "diviseurs à droite" et des "diviseurs à gauche". On peut dans certains cas définir un PGCD à droite et-ou un PGCD à gauche. Mais l'existence de l'un n'implique pas forcément celle de l'autre, et l'existence commune n'implique pas forcément l'égalité.
+Demander à un calculateur électronique le PGCD de deux matrices n'est pas forcément interprété au sens de l'algèbre linéaire. Par exemple, une TI-92 interrogée sur le PGCD de deux matrices de même taille répond en donnant la matrice composée des PGCD des éléments de même position des deux matrices.
+
+Voir aussi
+
+Articles connexes: Livre VII des Éléments d'Euclide; Nombres premiers entre eux.

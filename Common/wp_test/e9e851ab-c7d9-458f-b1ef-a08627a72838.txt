@@ -1,0 +1,10 @@
+L'Extranet est l'utilisation du réseau internet dans laquelle une organisation structure ce réseau pour s'interconnecter avec ses partenaires commerciaux ou ses parties prenantes.
+Par opposition, un réseau intranet, se limite au réseau interne à l'organisation, sans utiliser d'infrastructure tierce (publique).
+La liste de sécurité est l'ensemble des données regroupant les identifiants (nom d'utilisateur (login), adresse IP, adresses MAC, clefs logiques ou physiques) autorisés à se connecter.
+Réseau informatique à caractère commercial, constitué des intranets de plusieurs entreprises qui communiquent entre elles, à travers le réseau Internet, au moyen d'un serveur Web sécurisé. Par extension, désigne plus généralement les sites à accès sécurisé permettant à une entreprise de n'autoriser sa consultation qu'à certaines catégories d'intervenants externes, ses clients ou ses fournisseurs en général.
+Exemple de réseau Extranet : Le réseau automobile European Network Exchange (ENX) destiné à sécuriser les échanges de données entre constructeurs et sous-traitants automobiles en Europe.
+Il est supporté par des opérateurs (exemple : Telefónica, DT, Orange Business Services) qui assurent le transport, les interconnexions, garantissent la disponibilité d'une valeur minimum de la bande passante et qui minimisent le nombre de routeurs.
+
+Voir aussi
+
+Articles connexes: Internet; Intranet.

@@ -1,0 +1,8 @@
+Wheelmap.org est une carte interactive répertoriant les lieux publics accessibles pour les utilisateurs de fauteuils roulants, partout dans le monde. Elle a été initiée en 2010 par l'Allemand Raúl Krauthausen, un spécialiste en marketing et un entrepreneur social (avec Sozialhelden e.V. (de), une ONG située à Berlin). Un site internet existe, ainsi qu'une application pour iPhone et une application pour Android.
+
+Système Tricolore
+Un système de feux de circulation simples (tricolores) aident les visiteurs du site à organiser leur séjour en visualisant les lieux accessibles et ceux qui ne le sont pas.
+. pour les lieux totalement accessibles. - entrée: sans marches. Vert:. - pièces: sans marches. - toilettes (s'il y en a): accessible. pour les lieux accessibles en partie. - entrée: avec une marche ne pas dépassant une hauteur de 7cm. Jaune:. - pièces: seules les pièces les plus importantes sont démunies de marches. - toilettes (s'il y en a): pas d'accès. pour les lieux totalement inaccessibles. - entrée: avec marche dépassant une hauteur de 7cm. Rouge:. - pièces: les pièces les plus importants ne sont pas accessibles. - toilettes (s'il y en a): pas d'accès.
+Endroits non marqués (de couleur grise) montre les endroits qui restent à évaluer, tout le monde peut participer à changer leur statut, à l'actualiser et ajouter des photos.
+
+Distinctions: 2010 INCA (Innovative and Creative Application) Award; 2011 Vodafone's Smart Accessibility Award; 2011 Werkstatt N - Prix (Conseil de Développement Durable- Allemagne); 2012 World Summit Award (section mobile-inclusion et Empowerment); 2014 European Award for Social Entrepreneurship and Disability.

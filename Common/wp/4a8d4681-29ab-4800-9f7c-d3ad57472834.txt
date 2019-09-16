@@ -1,0 +1,11 @@
+P2P VoIP désigne l'utilisation conjointe des techniques de VoIP (voix sur réseau IP ou téléphonie sur Internet) sur un réseau peer-to-peer (poste-à-poste).
+Cette méthode permet de communiquer par la voix en utilisant le réseau Internet de poste à poste, c'est-à-dire sans l'aide d'un serveur central.
+
+Fonctionnement
+L'absence de serveur central permet aux communications d'être plus rapides puisque les utilisateurs sont directement connectés les uns aux autres, leur voix ne transitant pas sur un serveur intermédiaire. Cette technique est aussi censée être facile à utiliser pour les utilisateurs connectés à des réseaux utilisant un NAT ou un pare-feu.
+Skype est la première implémentation de ce type de technique. On notera toutefois qu'il utilise un serveur pour permettre l'authentification des utilisateurs.
+Teleo est un équivalent de Skype non compatible. Société créée en 2003, puis rachetée par Microsoft en 2005, leur technique est en cours d'intégration au sein des services de MSN Messenger.
+
+Standards ouverts
+Skype et Teleo sont des logiciels propriétaires et fermés, donc ils ne sont pas interopérables avec d'autres logiciels de VoIP utilisant des protocoles de communication standards ouverts tels que le SIP ou H.323.
+C'est pour combler ce manque que l'IETF est en train d'établir une (en) ébauche de recommandation (Internet-Draft) combinant le protocole SIP et la technique peer-to-peer.

@@ -1,0 +1,3 @@
+Encodage numérique, voir codage; Encodage sémantique, une "traduction" entre deux langages formels; Encodage one-hot.
+
+Voir aussi: Décodage; Codage; Codage des caractères; Transcodage; Cryptographie.

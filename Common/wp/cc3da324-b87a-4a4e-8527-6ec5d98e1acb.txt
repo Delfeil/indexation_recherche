@@ -1,0 +1,350 @@
+La classification décimale de Dewey (CDD) est un système visant à classer l'ensemble du fonds documentaire d'une bibliothèque, développé en 1876 par Melvil Dewey, un bibliographe américain. Elle a été complétée et perfectionnée par la classification décimale universelle (CDU) développée par Henri La Fontaine et Paul Otlet.
+Les dix classes retenues par la classification de Dewey correspondent à neuf disciplines fondamentales : philosophie, religion, sciences sociales, langues, sciences pures, techniques, beaux-arts et loisirs, littératures, géographie et histoire, auxquelles s'ajoute une classe "généralités". Dans la classification Dewey, il y a 10 classes, 100 divisions, 1000 sections.
+
+Principes : présentation des indices
+La CDD répartit les ouvrages dans dix classes. Chaque classe est elle-même divisée en dix divisions, chaque division en dix subdivisions et ainsi de suite. Aucun indice ne peut avoir moins de 3 chiffres ; dans ce cas précis, celui de gauche correspond à la classe, celui du milieu à la division et celui de droite à la subdivision. Prenons l'exemple de l'indice 537 (l'électricité) : 5 - Sciences pures, 53 - Physique (division des Sciences pures), 537 - électricité et électronique (division de la Physique). Le 0, qui doit toujours être mentionné, a une valeur de généralité : 500 - Généralités sur les sciences pures, 530 - Généralités sur la physique.
+Pour les indices dépassant 3 chiffres, un point doit séparer les trois premiers des suivants : 537 - Électricité et électronique, 537.2 - Électrostatique. Si l'indice dépasse 6 chiffres, on laisse un caractère d'espace (pas de point) entre le sixième et le septième chiffres : 944.081 6 (l'Histoire de France de 1939 à 1945). Plus la notion à exprimer est fine, plus l'indice est long.
+Sur l'étiquette collée sur le dos d'un livre et indiquant sa cote, on peut répartir l'indice sur plusieurs lignes, ce qui permet une meilleure lisibilité ; l'indice est suivi des premières lettres du nom de l'auteur ou du titre pour former la cote.
+La classification décimale de Dewey est souvent utilisée avec une Marguerite des couleurs dans les bibliothèques des écoles primaires (BCD) et dans les Centres de Documentation et d'Information (CDI) des collèges et des lycées.
+Contrairement à un usage largement répandu, y compris parmi les bibliothécaires, la prononciation correcte de Dewey est "douhi" et non pas "di ouai".
+
+Exemple de divisions successives: 600 - Techniques. (L'indice est 600, car il faut au moins trois chiffres): 640 - Vie domestique. (L'indice est 640, car il faut au moins trois chiffres): 641 - Alimentation: 641.5 - Cuisine. (Un point sépare le troisième et le quatrième chiffres): 641.57 - Cuisine pour les collectivités.; 641.57 - Cuisine pour les collectivités.; 641.5 - Cuisine. (Un point sépare le troisième et le quatrième chiffres): 641.57 - Cuisine pour les collectivités.; 641.57 - Cuisine pour les collectivités.; 641 - Alimentation: 641.5 - Cuisine. (Un point sépare le troisième et le quatrième chiffres): 641.57 - Cuisine pour les collectivités.; 641.57 - Cuisine pour les collectivités.; 641.5 - Cuisine. (Un point sépare le troisième et le quatrième chiffres): 641.57 - Cuisine pour les collectivités.; 641.57 - Cuisine pour les collectivités.; 640 - Vie domestique. (L'indice est 640, car il faut au moins trois chiffres): 641 - Alimentation: 641.5 - Cuisine. (Un point sépare le troisième et le quatrième chiffres): 641.57 - Cuisine pour les collectivités.; 641.57 - Cuisine pour les collectivités.; 641.5 - Cuisine. (Un point sépare le troisième et le quatrième chiffres): 641.57 - Cuisine pour les collectivités.; 641.57 - Cuisine pour les collectivités.; 641 - Alimentation: 641.5 - Cuisine. (Un point sépare le troisième et le quatrième chiffres): 641.57 - Cuisine pour les collectivités.; 641.57 - Cuisine pour les collectivités.; 641.5 - Cuisine. (Un point sépare le troisième et le quatrième chiffres): 641.57 - Cuisine pour les collectivités.; 641.57 - Cuisine pour les collectivités.
+
+Évolution
+Bien qu'ayant été considérablement améliorée au cours de vingt révisions majeures, la CDD reflète toujours l'organisation générale du savoir telle qu'on la concevait aux États-Unis à la fin du XIXe siècle. C'est pourquoi la philosophie et la religion, par exemple, qui représentaient environ 10 % de la production éditoriale à cette époque, a aujourd'hui encore une position disproportionnée dans la classification. C'est une source de critique de la CDD, qui relègue ainsi de nombreux ouvrages dans d'obscures subdivisions simplement parce qu'ils ne traitent pas de la pensée occidentale : ainsi les religions non-chrétiennes n'apparaissent que dans la division 290 (un dixième de l'espace consacré aux religions) et la littérature et l'histoire européennes sont dominantes par rapport aux autres (comme elles le sont dans les rayonnages de la Bibliothèque du Congrès des États-Unis). De même trouve-t-on ailleurs que dans l'histoire de la France des ouvrages sur l'histoire de l'islam en France ou le dictionnaire de la colonisation française, donnant l'impression d'un classement racial de l'histoire de France. Certaines divisions ou subdivisions sont également vacantes ou ne sont plus utilisées.
+La classification décimale universelle (CDU) est dérivée de la CDD.
+
+Marque déposée
+Depuis 1988, la classification de Dewey est un nom déposé par Online Computer Library Center (OCLC) qui a acheté les droits à la Forest Press Foundation, créée par Melvil Dewey pour poursuivre son oeuvre.
+
+Les deux premiers niveaux de la classification
+Ci-après sont détaillées les dix classes, divisées chacune en dix divisions des deux premiers niveaux.
+
+000 - Informatique, information, ouvrages généraux: 000 Généralités sur l'informatique, l'information, les ouvrages généraux; 010 Bibliographies; 020 Bibliothéconomie et sciences de l'information; 030 Encyclopédies générales; 040 (Vacant); 050 Publications en série d'ordre général; 060 Organisations générales et muséologie; 070 Médias documentaires, journalisme, édition; 080 Recueils généraux; 090 Manuscrits, livres rares, autres documents imprimés rares.
+
+100 - Philosophie, Parapsychologie et Occultisme, Psychologie: 100 Généralités sur la philosophie, la parapsychologie, l'occultisme, la psychologie; 110 Métaphysique; 120 Épistémologie, causalité, finalité, genre humain; 130 Parapsychologie et occultisme; 140 Les divers systèmes et écoles philosophiques; 150 Psychologie; 160 Logique; 170 Éthique; 180 Philosophie antique, médiévale, orientale; 190 Philosophie occidentale moderne et autres philosophies non orientales.
+
+200 - Religion: 200 Généralités sur les religions; 210 Philosophie et théorie de la religion; 220 Bible; 230 Christianisme. Théologie chrétienne; 240 Théologie morale et pratiques chrétiennes; 250 Églises locales et ordres religieux chrétiens; 260 Théologie sociale chrétienne. Ecclésiologie; 270 Histoire et géographie du christianisme et de l'Église; 280 Confessions et sectes chrétiennes; 290 Autres religions.
+
+300 - Sciences sociales: 300 Généralités sur les sciences sociales; 310 Statistiques générales; 320 Science politique; 330 Économie; 340 Droit; 350 Administration publique et science militaire; 360 Problèmes et services sociaux. Associations; 370 Éducation; 380 Commerce, communications, transports; 390 Coutumes, savoir-vivre, folklore.
+
+400 - Langues: 400 Généralités sur les langues; 410 Linguistique générale; 420 Langue anglaise. Anglo-saxon; 430 Langues germaniques. Allemand; 440 Langues romanes. Français; 450 Langues italienne, sarde, dalmate, roumain, langues rhéto-romanes; 460 Langues espagnole et portugaise; 470 Langues italiques. Latin; 480 Langues helléniques. Grec; 490 Autres langues.
+
+500 - Sciences de la nature et Mathématiques: 500 Généralités sur les sciences de la nature et les mathématiques; 510 Mathématiques; 520 Astronomie et sciences connexes; 530 Physique; 540 Chimie et sciences connexes; 550 Sciences de la Terre; 560 Paléontologie. Paléozoologie; 570 Sciences de la vie. Biologie; 580 Plantes. Botanique; 590 Animaux. Zoologie.
+
+600 - Technologie (Sciences appliquées): 600 Généralités sur la technologie; 610 Sciences médicales; 620 Art de l'ingénieur et activités connexes; 630 Agronomie, agriculture et activités connexes; 640 Économie domestique (arts ménagers). Vie familiale; 650 Gestion et services auxiliaires; 660 Génie chimique et techniques connexes; 670 Fabrication industrielle; 680 Fabrications de produits à usages particuliers; 690 Bâtiments.
+
+700 - Arts, Loisirs et Sports: 700 Généralités sur l'art; 710 Urbanisme. Art du paysage; 720 Architecture; 730 Arts plastiques. Sculpture; 740 Dessin. Arts décoratifs; 750 La peinture et les peintures; 760 Arts graphiques. Gravures; 770 Photographie et photographies; 780 Musique; 790 Loisirs et arts du spectacle. Sports.
+
+800 - Littérature (Belles-Lettres) et techniques d'écriture: 800 Généralités sur la littérature et les techniques d'écriture; 810 Littérature américaine de langue anglaise; 820 Littératures anglaise et anglo-saxonne; 830 Littérature des langues germaniques. Littérature allemande; 840 Littérature des langues romanes. Littérature française; 850 Littératures italienne, roumaine, rhéto-romane; 860 Littératures espagnole et portugaise; 870 Littératures des langues italiques. Littérature latine; 880 Littératures des langues helléniques. Littérature grecque; 890 Littératures des autres langues.
+
+900 - Géographie, Histoire et disciplines auxiliaires: 900 Généralités sur la géographie et l'Histoire; 910 Géographie et voyages; 920 Biographie, généalogie, emblèmes, insignes; 930 Histoire générale du monde ancien; 940 Histoire générale de l'Europe; 950 Histoire générale de l'Asie, Orient, Extrême-Orient; 960 Histoire générale de l'Afrique; 970 Histoire générale de l'Amérique du Nord; 980 Histoire générale de l'Amérique du Sud; 990 Histoire générale des autres aires géographiques.
+
+Tables auxiliaires
+
+Table 1 - Subdivisions communes
+Sommaire de la Table 1 (Tiré de la 22e édition, Volume 1, p. 198): 01 Philosophie et théorie. 02 Ouvrages divers. 03 Dictionnaires, encyclopédies, concordances. 04 Sujets particuliers. 05 Publications en série. 06 Organisations et gestion. 07 Étude et enseignement, recherche, sujets connexes. 08 Histoire et analyse en relation avec les catégories de personnes. 09 Étude historique, géographique, relative à des personnes.
+Les notations de la Table 1 ne sont jamais utilisées seules, au besoin, elles peuvent être utilisées avec tout indice des Tables générales. On doit insérer un point décimal entre le troisième et le quatrième chiffre de l'indice complet quand on ajoute une notation à un indice des Tables générales.
+Les subdivisions communes ne s'ajoutent qu'à un ouvrage qui couvre l'ensemble ou presque tout le sujet que représente l'indice des Tables générales.
+Si une notation des subdivisions communes de la Table 1 apparaît dans les Table 2 à Table 6 ainsi que dans les Tables générales il est possible d'utiliser toutes les subdivisions de cette notation de la Table 1. On peut aussi utiliser toute autre notation de la Table 1 même si elle n'apparaît pas dans la Table générale.
+Exemple : Enseignement de la religion au secondaire
+Démarche : Déterminer le sujet : Religion; Déterminer l'aspect : Enseignement au secondaire; 200 : Religion; 200.7 : Étude et enseignement, recherche, sujets connexes; 200.71 : Étude et enseignement; Lire note : Classer ici la religion considérée comme matière d'enseignement. Table 1-0712 : Enseignement secondaire; Donc 200.712.
+Exemple : Magazines sur l'élevage des chats
+Démarche : Déterminer le sujet: Élevage des chats; Déterminer l'aspect : Magazines; 600 : Technologie (Sciences appliquées); 630 : Agronomie, agriculture et techniques connexes; 636 : Élevage; 636.8 : Chats; 800 1-.808 Subdivisions communes. Table 1-05 : Publication en série - Magazines; Donc 636.800 5.
+Caractéristiques des subdivisions communes
+Les subdivisions communes comportent au moins deux chiffres dont le premier est un zéro (0).
+Les subdivisions communes ne s'emploient jamais seules. Elles servent à compléter un indice de base trouvé dans les Tables générales.
+La notation des subdivisions communes est toujours décimale.
+Les subdivisions communes de la Table 1 sont applicables à tous les indices sauf dans trois cas : si la subdivision crée une redondance dans la cote, s'il n'y a pas d'indice précis pour un sujet ou s'il est spécifiquement indiqué dans les Tables générales de ne pas en ajouter.
+Exemple de redondance :
+Une monographie traitant de l'histoire de Monaco.
+L'indice pour ce livre est 944.949. Cependant, le premier 9 de l'indice représente la classe Géographie, histoire et disciplines auxiliaires. Il devient donc inutile de lui ajouter la subdivision commune -09 (Étude historique et géographique), parce qu'une autre partie de l'indice l'indique déjà.
+Exemple d'un sujet n'ayant pas d'indice précis :
+Un périodique traitant de l'élevage des chiens de traîneaux.
+Quand on cherche dans l'index "chiens de traîneaux", l'index nous renvoie à la cote 636.73. À cette cote, on constate que l'intitulé est "Chiens de travail et chiens de berger. Ce n'est que dans une note qu'on nous précise "Y compris les chiens de traîneaux(...)". La cote 636.73 comprend donc les ouvrages sur les chiens de traîneaux, même si la cote n'est pas dédiée à ce sujet au départ. Le sujet de l'élevage des chiens de traîneaux n'a donc pas un indice précis qui lui est dédié, ce qui fait qu'on ne peut pas ajouter la subdivision commune -05 (Publications en séries).
+Table des priorités
+Il arrive qu'un ouvrage puisse demander plus d'une subdivision commune. Dans ce cas, sauf indication contraire, il faut suivre la table des priorités (Vol. 1, p. 198) pour déterminer dans quel ordre ces subdivisions seront placées dans la cote, ou même laquelle sera privilégiée au détriment de l'autre.
+Exemple : Périodique de l'enseignement de la gravure sur métal.
+Démarche : Déterminer le sujet : Gravure sur métal. Déterminer l'aspect 1 : Périodique. Déterminer l'aspect 2 : Enseignement. 765 : gravure sur métal. Table 1-07 : Étude et enseignement, recherche, sujets connexes. Table 1-05 : Publication en série. Voir la Table de priorité. -07 : et enseignement, recherche, sujets connexes vient avant -05 : Publication en série dans la Table de priorité. Donc on classe à -07 : et enseignement, recherche, sujets connexes et non à 05 : Publication en série. Donc 765.07.
+01 Philosophie et théorie
+Exemple : philosophie du judaïsme
+Démarche : Déterminer le sujet : Judaïsme; Déterminer les aspects ou les subdivisions du sujet : Philosophie; Trouver l'indice pour le sujet dans l'index (I) : 296 pour judaïsme; Trouver dans la table 1 (T 1) la subdivision correspondant à l'aspect : --01 Philosophie; Aller dans la table générale (TG) et toujours vérifier si l'indice n'est pas déjà construit avec les subdivisions. TG : 296 judaïsme, p. 274 (sommaire); 296.01-.09 subdivisions communes (indique comment il faut ajouter la subdivision); Indice final: 296.01.
+Exemple : philosophie de la chimie
+Démarche: Sujet : chimie,; Aspect : Philosophie, philosophie et théorie Table 1 01; Recherche dans l'index à chimie : 540; TG 540 p. 1033; Sommaire 540.1-.9 subdivisions communes; 1 Philosophie et théorie; Ne pas employer pour la chimie théorique; classer à 541.2; 540.1 (l'indice est déjà construit avec la subdivision Philosophie et théorie).
+-03 Dictionnaires, encyclopédies, concordances
+Exemple : Une encyclopédie des oiseaux
+Démarche : Sujet: Oiseaux; Aspect : Encyclopédies; Recherche dans l'index du sujet : 598; Se rendre dans la Table Générale à 598 p. 1245; 598 -Oiseaux; Compléter selon les indications sous 592-599. 592-599 groupes taxinomiques particuliers d'animaux; Sauf pour les modifications indiquées sous certaines rubriques, compléter les subdivisions précédées d'un- de la façon suivante : 01-08 Subdivisions communes; 598.03 Encyclopédie sur les oiseaux.
+-05 Publications en série
+Exemple : magazine sur la paléontologie
+Démarche : Sujet: Paléontologie; Aspect: publications en série; Recherche dans l'index le terme paléontologie : 560; 560 Paléontologie Paléozoologie; Recherche du sommaire de 560, table générale p. 1097; 560.1-.9 subdivisions communes ; paléontologie stratigraphique, paléoécologie; -05 Publications en série; 560.5 Publication en série sur la paléontologie.
+-07 Étude et enseignement, recherche, sujets connexes
+Exemple : programme d'enseignement en chirurgie
+Démarche : Sujet : Chirurgie; Aspect : Programme d'enseignement; Recherche du sujet dans l'index 617 pour chirurgie; Recherche de l'aspect dans l'index -071 T1 Étude et enseignement; Classer ici les programmes d'enseignement, l'étude (éducation), l'enseignement, la formation professionnelle. Toujours vérifier dans les Tables générales si l'indice n'est pas déjà construit avec les subdivisions. TG Sommaire : 617.001-.008 Subdivisions communes pour la chirurgie; 003-.007 Subdivisions communes pour la chirurgie; Indice final : 617.0071.
+09 Études historique, géographique, relative à des personnes)
+Exemple : livre portant sur le travail des enfants au XXe siècle
+Démarche : Sujet : travail des enfants; Aspect : XXe siècle; Recherche du sujet dans l'index : 331.31 pour Enfants (économie du travail); Recherche de l'aspect dans l'index : --0904 XXe siècle; Toujours vérifier dans les Tables générales si l'indice n'est pas déjà construit avec les subdivisions. TG : 331.31 Économie du travail par groupes d'âge, enfants, p. 427; Aucune autre indication nous concernant. On peut donc ajouter la subdivision commune -0904 concernant l'aspect. Indice final: 331.310 904.
+Y compris,
+Lorsque le sujet ne possède pas son indice propre, qu'il est inclus sous l'indice d'un autre sujet et qu'on trouve la mention Y compris, il ne faut pas ajouter de subdivisions communes.
+Exemples :
+1.Une encyclopédie portant sur les effets du climat en biophysique
+Démarche: Sujet : Climat; Aspect : Biophysique; Aspect : Encyclopédie; Table 1 : Encyclopédie 03; Recherche dans l'index le sujet climat Biophysique : 571.49; Recherche dans la Table générale, 571.49 p. 1114; 49 Biophysique du milieu; Y compris les effets du climat, des hautes altitudes; L'indice Dewey sera 571.49, puisque le sujet est compris dans l'indice de Biophysique du milieu, on ne peut ajouter la subdivision commune Encyclopédie. 500 : Sciences naturelles et mathématiques; 570 : Sciences de la vie Biologie; 571 : Physiologie et sujets connexes; 571.4 : Biophysique; 571.49 : Biophysique du milieu.
+2. un périodique sur les sandwichs sous-marins
+Démarche : Sujet : sandwichs sous-marins; Aspect : Périodique, publication en série 05 Table 1; Recherche dans l'index à sandwichs sous-marins, 641.84; Table générale 3, p. 379; 84 Sandwichs y compris les burritos, les roulés, les tacos ; les sandwichs sous-marins; L'indice Dewey sera 641.84, puisque le sujet ne possède pas son indice propre et qu'il est compris dans l'indice des Sandwichs, on n'ajoute pas la subdivision commune publications en série. 600 : Technologies (Sciences appliquées); 640 : Gestion du foyer et de la vie familiale; 641 : Nourriture et boisson; 641.8 : Préparation de catégories particulières de plats et préparation de boisson; 641.84 : Sandwichs.
+
+Table 2 - Subdivisions géographiques
+Introduction
+La Table 2 représente les subdivisions géographiques et en est la plus importante en termes de volume. Les notations de la Table 2 ne sont employées que lorsqu'il est clairement indiqué de le faire dans les tables générales ou tables auxiliaires contrairement à la Table 1, que l'on peut utiliser en tout temps sauf sur indication contraire ou lorsqu'il y a redondance.
+Les notations de la Table 2 sont employées principalement avec la notation 09, Table 1. Par exemple, l'enseignement des mathématiques dans les écoles primaires de Russie se classe à 372.70947 (372.7 Enseignement des mathématiques dans les écoles primaires + 09 Étude historique, géographique, relative à des personnes de la Table 1 + 47 Russie de la Table 2). Certains aspects géographiques sont déjà construits et ne nécessitent pas l'utilisation des tables auxiliaires. Par exemple, la philosophie orientale du Japon se classe à 181.12 (voir l'astérisque (-) au bas de la page indiquant de ne pas employer la notation 09, Table 1 pour l'étude historique, géographique, relative à des personnes et par conséquent il n'est pas non plus nécessaire d'utiliser la Table 2 pour préciser l'indice du pays).
+Parfois, les notations géographiques s'ajoutent directement à l'indice de base des tables générales mais seulement lorsqu'une note le précise. Par exemple, l'éducation des adultes en Nouvelle-Zélande se classe à 374.993 (374 Éducation des adultes + 374.9 Étude historique, géographique, relative à des personnes dont la note indique d'ajouter à l'indice de base 374.9 la notation 01-9, Table 2 soit 93 Nouvelle-Zélande).
+Sommaire
+-1 à -19 : Aires géographiques, régions, lieux en général ; océans et mers -2 à -22 : Personnes -3 à -39 : Monde antique -4 à -49 : Europe Europe de l'Ouest -5 à -59 : Asie Orient Extrême-Orient -6 à -69 : Afrique -7 à -79 : Amérique du Nord -8 à -89 : Amérique du Sud -9 à -99 : Autres parties du monde et mondes extraterrestres
+Comprendre la hiérarchie des notations géographiques de la Table 2
+Ex. La ville de Jonquière dans le Saguenay au Québec est classée à T2-714 164: 1) -71 : Canada; 2) -714 : Québec; 3) -714 1 : Région du nord du Québec; 4) -714 16 : Ville de Saguenay et Municipalité régional de comté Le Fjord-du-Saguenay; 5) -714 164 : Ville de Saguenay (y compris Chicoutimi, Jonquière).
+Exemples: Emploi des subdivisions communes après une notation géographique.
+Quand la notation géographique de Table 2 s'ajoute directement aux tables générales, il est possible d'ajouter sans restriction les subdivisions communes -01-09 de la Table 1.
+Ex. Un périodique sur les musées des beaux-arts de Paris: 1) Trouver l'indice de base pour le sujet principal : musées des beaux-arts.; 2) Selon l'index ce sujet se classe à : 708.; 3) Selon la table générale de l'indice 708, les musées dans diverses parties d'Europe se classent à 708.3 - 708.8.; 4) Une note indique d'ajouter à l'indice de base 708, le développement de -4 sous -43-48, Table 2.; 5) Selon la hiérarchie de la Table 2, la ville de Paris en France se classe à : -44361 donc le développement de -4 (on laisse tomber le 4) de -44361 - -4361.; 6) Alors, les musées des beaux-arts de Paris se classent à 708.4361.; 7) La rubrique ci-dessus nous indique qu'il est possible d'ajouter sans crainte une subdivision commune de la Table 1 à la suite d'une notation géographique.; 8) Les périodiques dans la Table 1 se classent à -05 donc il suffit d'ajouter -05 à 708.4361.
+Un périodique sur les musées des beaux-arts de Paris se classe donc à 708.436105: Addition des notations géographiques selon les notes d'addition.
+Il nous suffit de rajouter à l'indice de base la notation de la table2 et nous avons la réponse. Tout d'abord, il faut trouver notre sujet et notre aspect géographique
+Exemple : Les salaires au Canada
+Par la suite, il faut chercher dans l'index sous salaire et se rende à la table générale pour voir dans le sommaire de la table générale qu'il n'y a pas des subdivisions de construites et il faut la construire selon les indications qui sont à l'étude historique, géographique, relative à la personne concernant la rémunération
+Sujet : salaires Index- 331.29
+Par la suite, chercher dans l'index Canada.
+Aspect : Canada Index- T2-71
+Démarche à suive :
+Sujet : Étude historique, géographique, relative à des personnes concernant la rémunération Index -331.29
+Subdivision géographique : Canada Index-T2-71
+Dans la table générale
+À la page 420 du volume deux(trire de la 22e édition), il faut regarder dans le sommaire et nous pouvons constater qu'il n'y a pas de subdivision commune de construite.
+Il nous faut aller 331.29 de la page 427 du volume2 (la 22e édition) et nous avons une note qui nous dit ajouter à l'indice de base331.29 la notation 001-9 Table2
+Il nous suffit d'ajouter l'indice71 de la table2 qui est l'indice du Canada.
+Se classe donc à 331.2971: Indice d'une classe, d'une division ou d'une section qui se divise directement par lieu géographique.
+Cette catégorie se complète selon les indications de la table générale 930 - 990 Tout d'abord, il faut trouver notre sujet et notre subdivision géographique.
+Exemple : Histoire de Montréal
+Il faut chercher dans l'index du volume Histoire du Québec.
+'Index-971.4'
+Il faut chercher dans l'index Montréal (Québec).
+Index-T2-714 28
+Démarche à suivre:
+Sujet : Histoire du Québec Index- 971.4
+Aspect géographique : Montréal Index- T2-714 28
+Dans la table générale
+À la page 1022 du volume3 (la 22e édition) Quand nous nous rendons à la table générale dans le sommaire, il n'y a pas de subdivision pour la ville de Montréal. Il faut alors suivre les indications qui sont sous le Canada et celle qui se retrouve sous - 930-990.
+À la page 869 du volume3 (la 22e édition) , nous avons des indications qui nous disent ajouter à l'indice de base 9 la notation3-9 de la table2, et compléter de la façon suivante : qui est écrit dans le livre
+Se classe donc à 971.428: Addition d'une partie d'une notation de la table2.
+Comment additionner une partie de la table 2 Il faut tout d'abord trouver le sujet et la subdivision géographique.
+Exemple : Les galeries d'art de la ville de Québec
+Il faut commencer par chercher dans l'index galeries d'art.
+Index-708
+Par la suite, il faut chercher la ville de Québec dans l'index.
+Index-T2 - 714 471
+Démarche à suivre :
+Sujet : Galerie d'art Index -708
+Aspect géographique : Québec Index- T2-714 471
+Dans la table générale
+708 volume3 page 554 (la 22e édition) 708 Galeries, collection privée, musées des beaux-arts et des arts décoratifs. Ne pas employer pour l'histoire et l'analyse des beaux-arts et des arts décoratifs en relation avec les catégories de personnes ; classer sous 704.03-704.08.
+Collections générales d'arts Classer ici les rapports annuels relatifs aux acquisitions, aux activités, aux programmes, aux projets. Pour les collections et les expositions temporaires et itinérantes, voir707.4
+708.1 Amérique du Nord
+Pour les collections privées, les galeries, les musées en Amérique centrale, voir 708.972. (Option : pour mettre en évidence les collections privées, les galeries, les musées d'un pays autre que les États-Unis et au Canada ou pour leur attribuer un indice plus court, classer ces collections privées, ces galeries, ces musées à cet indice; dans ce cas, classer les collections privées, les galeries, les musées en Amérique du Nord à 708.97)
+708.11 Canada
+Ajouter à l'indice de base708.11 le développement de -71 sous -711-719. De la table2. Le développement-71 veut dire tout ce qui suit 71 nous le rajoutons pour compléter l'indice.
+Se classe donc à 708.114471: Addition des notations géographiques sans indication expresse ou formelle.
+Il n'y a pas d'indication pour la table 1.Il faut utiliser le -093-099 de la table 1.
+Exemple : Travail des femmes au Canada
+Il faut tout d'abord trouver le sujet.
+Il faut chercher dans l'index travail des femmes
+Index-331
+Il faut chercher dans l'index Canada
+Index-T2-71
+Sujet : Travail des femmes Index- 331 Aspect : Canada Index- T2-71
+Démarche à suivre :
+Table général
+331 page 410 volume 2 (Tirer de la 22e édition) Sommaire 331.4 Femmes au travail Il n'y a pas d'indication pour ajouter la table 2 alors il faut utiliser la table 1 -093-099 pour construire l'indice.
+Table 1 volume 1 page 226 (tirer de la 22e édition) Étude par continents, pays, localités; mondes extraterrestres. Histoire et analyse du sujet par lieux, par aspects particuliers Ajouter à l'indice de base-09 la notation 3-9, Table 2.
+Donc le travail des femmes au Canada se classe 331.40971: Addition de deux notations géographiques.
+C'est lorsqu'il y a deux notations géographiques de pays qui complètent le sujet.
+Exemple : Traités bilatéraux entre les Pays-Bas et le Viêt Nam: 1) Trouver l'indice de base pour le sujet: Traités bilatéraux; 2) Selon l'index le sujet se classe à 341.0266 dans la Table Générale.; 3) Il faut trouver les subdivisions : Pays-Bas qui se trouve à -492 dans la Table 2 et il y a le Viêt Nam qui se trouve à 597 dans la Table 2.; 4) Lorsque nous allons à la Table Générale de l'indice de base 341.0266, on nous indique d'ajouter à l'indice de base 341.0266 la notation 3-9, Table 2 ; ajouter ensuite 0 et compléter en ajoutant de nouveau la notation 3-9, Table 2.(p. 537, vol.2, éd.22); 5) De plus, on indique de donner la priorité dans la notation au pays cité le premier dans la Table 2 ou le pays qu'on veut mettre en priorité.(p. 537, vol.2, éd.22).
+Indice Dewey : 341.02664920597: Développement d'une notation de la Table 2 par une notation de la Table 2.
+C'est lorsqu'il faut développer notre subdivision géographique par une autre subdivision géographique.
+Exemple : Géographie des régions boisées des États-Unis: 1) Trouver l'indice de base pour le sujet : Géographie.; 2) Selon l'index le sujet se classe à 910 dans la Table Générale.; 3) Il faut trouver les subdivisions : États-Unis qui se trouve à -73 dans la Table 2 et il y a les régions boisées qui se trouve à -152 dans la Table 2.; 4) Lorsque nous allons à la Table Générale de l'indice de base 910, nous devons dans le sommaire de 913-919 pour : Géographie et voyage dans le monde antique et dans les continents, pays, localités du monde moderne, mondes extraterrestres.(p. 857, vol.3, éd.22); 5) On nous indique d'ajouter à l'indice de base 91 la notation 3-9, Table 2 et d'ajouter à 09 le développement de -1 sous la notation 11-18, Table 2.(p. 948, vol.3, éd.22).
+Indice Dewey : 917.30952: Addition d'une notation géographique aux subdivisions communes autres que -09.
+C'est lorsque la Table 1, nous demande de compléter par la Table 2.
+Exemple : Enseignement de la géologie en Allemagne: 1) Trouver l'indice de base pour le sujet : Géologie.; 2) Selon l'index le sujet se classe à 551 dans la Table Générale.; 3) Il faut trouver les subdivisions : Allemagne qui se trouve à -43 dans la Table 2 et il y a l'enseignement qui se trouve à -071 dans la Table 1.; 4) Lorsque nous allons à la Table Générale de l'indice de base 551, on indique dans le sommaire que les subdivisions communes se trouve à.01-09.; 5) Lorsque nous allons à la Table 1, on retrouve à -0701-0109, étude géographique. On indique d'ajouter à l'indice de base -0710 la notation 1-9, Table 2.(p. 209, vol.1, éd.22).
+Indice Dewey : 551.071043: Emploi des subdivisions communes après une notation géographique.
+C'est lorsqu'on ajoute à notre subdivision géographique une subdivision commune de la Table 1.
+Exemple : Périodique sur l'enseignement des adultes au Liban: 1) Trouver l'indice de base pour le sujet : Enseignement des adultes.; 2) Selon l'index le sujet se classe à 374 dans la Table Générale.; 3) Il faut trouver les subdivisions : Liban qui se trouve à -5692 dans la Table 2 et il y a les périodiques qui se trouvent à -05 dans la Table 1.; 4) Lorsque nous allons à la Table Générale de l'indice de base 374, nous devons regarder à : Étude historique, géographique, relatives à des personnes. On indique d'ajouter à l'indice de base 374.9, la notation 01-9, Table 2.(p. 839, vol.2, éd.22); 5) Vu qu'il faut ajouter une Subdivision Commune à ma notation géographique, celle-ci s'ajoutera directement aux Tables Générales, on ajoutera sans restrictions les Subdivisions Communes de la Table 1, -01-091.(p. 19, vol.1, éd.22).
+Indice Dewey : 374.9569205
+
+Table 3 - Subdivisions pour les arts, les littératures, les genres littéraires
+La Table 3 est utilisée afin de compléter un indice de classification pour les différentes littératures précédées par un - des Tables générales 810-890. Cette Table ne peut être utilisée seule. On n'utilise jamais la table 3 s'il n'y a aucune indication ou - devant l'indice principale. La Table 3 se divise en trois sous-tables: Table 3A pour l'analyse, la critique, la biographie, une oeuvre ou un recueil d'oeuvres d'un seul auteur; Table 3B pour l'analyse, la critique, la biographie, un recueil d'oeuvres de plus de deux auteurs ainsi que pour les techniques d'écriture d'un genre littéraire particulier; Table 3C pour d'autres éléments employés dans la construction d'indices de la Table 3B et selon les indications à 700.4, 791.4 et sous 808-809.
+
+Table 3A - Subdivisions pour les ouvrages par ou sur un seul auteur
+La Table 3A est utilisée avec la classe 800: La littérature. Elle sert à compléter par le genre littéraire propre à la littérature pour un auteur seulement. À la suite de cette classification, on doit également insérer l'indice d'époque pour l'auteur (l'époque où l'auteur publie le plus d'oeuvres) et par le Cutter-Sanborn, si l'auteur est connu.
+Genres littéraires particuliers de la table 3A:
+Pour la littérature générale d'une langue, employer les subdivisions.01-.09, selon les indications de la table 3 ex: recueil de littérature espagnole (860.8)
+-.1 Poésies
+-.2 Oeuvres dramatiques
+-.3 Fiction (incluant roman)
+-.4 Essais (incluant critique et histoire)
+-.5 Discours
+-.6 Genre épistolaire
+-.8 Écrits divers
+Principales étapes de construction d'une cote à l'aide de la table 3A: 1) Trouver dans la table générale l'indice pour la langue littéraire (810-890). Lire attentivement les directives. ex. Littérature française (840); 2) Trouver dans la table 3A le genre littéraire particulier. ex: Oeuvre dramatique (-.2); 3) Retourner à la table générale afin de voir s'il existe une table des périodes selon la langue littéraire et le pays de l'oeuvre à classer. ex: 1945-1999, Canada (54); 4) Compléter l'indice par le Cutter-Saborn de l'auteur et l'initiale du titre. Il s'agit d'inscrire la première lettre du nom de famille de l'auteur en majuscule, le cutter préétabli et par la première lettre du titre en minuscule (en ne portant pas attention à l'article précédant : la, le, Les, Du, De...). ex. Proulx qui a écrit Les Chats (P968c).
+Exemples
+Roman La part de l'autre, par Eric-Emmanuel Schmitt.
+Eric-Emmanuel Schmitt : Écrivain français Littérature française (840)
+La part de l'autre - roman fiction (843)
+Période littéraire de l'auteur : 2000 ---- 2000- (-.92)
+Cutter-Sanborn : Schmitt 355 ; La part de l'autre (S355p)
+Cote complète : 843.92 S355p
+Pièce de théâtre Les Belles-soeurs, par Michel Tremblay.
+Michel Tremblay : Écrivain français Littérature française (840)
+Les Belles-soeurs - pièce de théâtre oeuvre dramatique (842)
+Période littéraire de l'auteur (Pour le Canada) : 1960-2000 (période la plus prolifique) 1945-1999 (-.54)
+Cutter-Sanborn: Tremblay 789; Les Belles-soeurs (T789b)
+Cote complète: 842.54 T789b
+Poème d'Arthur Rimbaud
+Arthur Rimbaud: Écrivain français Littérature française (840)
+Poème Poésie (841)
+Période littéraire de l'auteur : 1860-1891 (période la plus prolifique) 1848-1899 (-.8)
+Cutter-Sanborn: Rimbaud 575; Poème (R575p)
+Cote complète: 841.8 R575p
+
+Table 3B - Subdivisions pour les oeuvres par ou sur plusieurs auteurs: Introduction.
+On utilise la Table 3B pour l'analyse, la critique, la biographie, des recueils d'oeuvres de deux auteurs et plus et aussi pour les techniques d'écriture d'une catégorie littéraire spécifique.
+La Table 3B est suivie et complétée par la Table 3C, qui elle, fournit des éléments supplémentaires pour permettre à la construction d'indices qui se retrouvent à l'intérieur de la Table 3B.
+Il y existe plusieurs étapes afin de construire un indice de la Table 3B (par ou sur plusieurs auteurs).
+Exemple 1 : La littérature anglaise 820
+Il faut tout d'abord aller dans la Table générale sous le 810-892 qui est l'indice de base pour la langue qui est identifiée par une note sous forme (..ajouter à l'indice de base 82..) ou dans une note complémentaire, sinon c'est l'indice de base qui est pour la littérature.
+Exemple 2 : Fiction anglaise 823
+Dans la Table 3B, il faut trouver une subdivision de genre littéraire, ex. Fiction, -3. Il faut ajouter cette subdivision à l'indice de base Ce genre littéraire, la fiction anglaise, qui est l'indice de base 823, sous l'indice de base 823 et sous cet indice de base nous y retrouvons une indication : Indice construit selon les indications sous 820.1-828 et au début de la Table 3.
+Si nous allons à 820.8-828 : Sauf pour les modifications indiquées sous certaines rubriques, compléter l'indice de base 82 selon les indications au début de la Table 3.
+Exemple 3 :Les odes dans la littérature américaines en anglais 811.043
+ La première étape est de spécifier quel est notre genre littéraire. Nous avons la littérature américaine qui se retrouve sous l'indice de base 810 : Littérature américaine en anglais. Nous avons alors une subdivision pour la littérature américaine en anglais 810.1-818 : Sauf pour les modifications figurant ci-dessous, compléter l'indice de base 81 selon les indications au début de la Table 3. Donc, nous inscrivons 81 et ensuite nous devons aller dans la Table 3B pour spécifier notre deuxième genre, les Odes.
+Nous allons voir notre index : pour trouver Odes -1043
+-1043 Odes- est précédé d'un astérisque qui renvoie à une indication : Compléter selon les indications sous -102-107 pour spécifier le genre (Recueils de textes) -08
+--Odes, littératures particulières T3B : -1043 Nous complétons selon les indications 811043 et mettons un point après les trois premiers chiffres : 811.043
+Exemple 4 Les odes dans la littérature américaines en anglais sur le thème de la mort (Recueil de textes)
+À la Table 3B -1043 nous avons odes avec une indication : Compléter selon les indications sous 102-107: Sauf pour les modifications apparaissant sous certaines rubriques, compléter comme suit les subdivisions précédées d'un -
+-08 Recueils de textes : Ajouter à 08 la notation 001-99, Table 3C. Donc nous avons comme indice de base : 811.04308
+Ensuite, nous allons à la Table 3C : pour trouver le thème de la mort : Indice de base -3548 Donc selon l'indication de construction, nous devons écrire 811.043083548
+Exemple 5 :Poésie estonienne du XIXe siècle : 894.54510901
+Premièrement nous devons vérifier notre genre littéraire, soit les littératures altaïques, ouraliennes, hyperboréennes, dravidiennes. Nous avons un sommaire qui comprend donc 894.5 : Littérature finno-ougriennes (Toujours en rapport avec notre poésie estonienne) Ensuite, nous allons à 894.545 Littérature estonienne qui est précédée d'un astéristique : Compléter l'indice de base selon les indications au début de la Table 3. Donc nous avons une littérature qui est sur plusieurs auteurs : Table 3B.
+Sous la Table 3B, nous devons chercher la Poésie qui est -1 (-102-107 Genres particuliers de poésie) Nous avons Histoire 09 : Ajouter à 09 la notation 001-99, Table 3C.
+Nous allons à la Table 3C pour notre période du XIXe siècle : -01-09 par période -01-09 Ajouter à 0 la notation de la Table des périodes pour une littérature particulière : XIXe siècle Donc : sous notre littérature estonienne nous avons des périodes : -1 pour jusqu'à 1861 Y compris le XIXe siècle. Donc : 894.5451 : Poésie 894.545109 : Histoire 894.5451090 : pour ajouter la période et finalement 894.54510901
+'Sommaire Table 3B': Les subdivisions de la Table 3B sont les suivantes :.
+
+Table 3C - Notations qui s'ajoutent sur indication dans la Table 3B, 700.4, 791.4, 808-809
+La Table 3C est utilisée pour d'autres éléments employés dans la construction d'indices dans la Table 3B.
+
+Sommaire: --001-009 Subdivisions communes; --01-09 Par périodes; --1 Mouvements et écoles, appartenances et tendances littéraires et artistiques; --2 Procédés littéraires; --3 Thèmes ou sujets particuliers dans les arts et la littérature; --4 Oeuvres sur des sujets particuliers étudiées du point de vue littéraire; --8 Littérature pour et - ou par des personnes appartenant à des groupes ethniques et nationaux; --9 Littérature pour et - ou par d'autres catégories particulières de personnes.
+La Table 3C débute directement à la fin de la Table 3B, lorsque l'on veut ajouter un thème précis à la subdivision. Pour débuter, il faut d'abord trouver l'indice de base qui correspond à un sujet dans la littérature. Exemple cité dans la Table 3B: Exemple: Les odes dans la littérature américaine anglaise, ayant pour thème la mort: Littérature américaine anglaise (810). Pour construire l'indice, allez dans la Table générale sous 810, pour la littérature américaine anglaise. Sous 810.1-818, se trouvent les subdivisions. Compléter l'indice de base 81 selon les indications au début de la Table 3. Dans la Table 3B -Odes (T3B--1043), l'astérisque indique de compléter selon les indications sous --102-107. L'indice de base est donc maintenant "811.043". Ajoutez ensuite le thème de la mort (T3C--3548) à l'indice de base. Allez à la Table 3C sous --35 Le genre humain. Dans la table des priorités, le Cycle de vie se situe sous --354. À --3548 se trouve la mort.; Littérature américaine anglaise (810). Pour construire l'indice, allez dans la Table générale sous 810, pour la littérature américaine anglaise. Sous 810.1-818, se trouvent les subdivisions. Compléter l'indice de base 81 selon les indications au début de la Table 3. Dans la Table 3B -Odes (T3B--1043), l'astérisque indique de compléter selon les indications sous --102-107. L'indice de base est donc maintenant "811.043". Ajoutez ensuite le thème de la mort (T3C--3548) à l'indice de base. Allez à la Table 3C sous --35 Le genre humain. Dans la table des priorités, le Cycle de vie se situe sous --354. À --3548 se trouve la mort.
+L'indice est donc "811.0433548". Exemple: Le comique dans la littérature pend d'oreilles (tribu amérindienne): Littérature pend d'oreilles (897.9435). L'indice se trouve à être déjà construit, il suffit de compléter l'indice de la littérature selon les indications au début de la Table 3. Table 3B - Ajouter à 09 la notation de la Table 3C -17 Comédie.; Littérature pend d'oreilles (897.9435). L'indice se trouve à être déjà construit, il suffit de compléter l'indice de la littérature selon les indications au début de la Table 3. Table 3B - Ajouter à 09 la notation de la Table 3C -17 Comédie.
+L'indice est donc "897.93450917": Exemple: Un recueil de poésie durant la période romantique: Recueil (808.8). Pour compléter l'indice de base, allez au sommaire dans la Table générale sous 808.8, pour les recueils de textes appartenant à plusieurs littératures. Sous 808.819, se trouve la Poésie présentant des caractéristiques particulières. Ajoutez à l'indice de base la caractéristique de la Table 3C, période romantique (T3C--145). Allez à la Table 3C sous --14 Classicisme et romantisme. Dans la table des priorités, le romantisme se situe sous --145.; Recueil (808.8). Pour compléter l'indice de base, allez au sommaire dans la Table générale sous 808.8, pour les recueils de textes appartenant à plusieurs littératures. Sous 808.819, se trouve la Poésie présentant des caractéristiques particulières. Ajoutez à l'indice de base la caractéristique de la Table 3C, période romantique (T3C--145). Allez à la Table 3C sous --14 Classicisme et romantisme. Dans la table des priorités, le romantisme se situe sous --145.
+L'indice est donc "808.819145"
+
+Table 4 - Subdivisions des langues et des familles de langues: Introduction:.
+Ces notations ne sont jamais employées seules. Elles sont employées avec les subdivisions des langues et des familles de langues lorsqu'une note l'indique, ou lorsque les indices de bases sont précédés d'un -, comme l'indiquent les explications sous 420-490. Pour utiliser la table 4, la langue doit être le sujet du document et non un aspect du sujet. Exemple: Dictionnaire français: notre sujet est la langue française et l'aspect du sujet est le dictionnaire. Sommaire: -01-09 Subdivisions communes; -1 Systèmes d'écriture, phonologie, phonétique de la langue standard; -2 Étymologie de la forme standard de la langue; -3 Dictionnaires de la forme standard de la langue; -5 Grammaire de la forme standard de la langue Syntaxe de la forme standard de la langue; -7 Variations historiques et géographiques, variations modernes non régionales; -8 Usages standard de la langue (Linguistique normative) Linguistique appliquée.; -01-09 Subdivisions communes; -1 Systèmes d'écriture, phonologie, phonétique de la langue standard; -2 Étymologie de la forme standard de la langue; -3 Dictionnaires de la forme standard de la langue; -5 Grammaire de la forme standard de la langue Syntaxe de la forme standard de la langue; -7 Variations historiques et géographiques, variations modernes non régionales; -8 Usages standard de la langue (Linguistique normative) Linguistique appliquée. Exemples:.
+Manuel de langue particulière
+Exemple : Manuel de français
+Pour classifier un manuel de langue particulière, on doit d'abord repérer l'indice de base de cette langue ainsi que la notation de la Table 4 pour les manuels de langue. L'index est un excellent moyen de repérer ces informations rapidement.
+Par exemple, pour classifier un manuel de français, l'index nous permet de repérer Français (Langue) : 440 ainsi que Manuels de langue ; approche formelle : T4-82. À partir de ces informations, on est en mesure de construire notre cote. Pour ce faire, il est important de se référer à la table générale, sous l'indice de votre langue.
+Dans le cas du français, la table générale nous donne une indication claire qui nous permet d'utiliser la Table 4 : "440.1-448 subdivisions pour le français : Ajouter à l'indice de base 44 la notation 01-8, Table 4". Il est important de se rappeler que sans cette consigne, il nous est impossible d'ajouter la notation pour le manuel de langue.
+Ainsi, selon cette indication, la cote d'un manuel de français serait 448.2 :
+44 - Indice de base pour le français.
+-82 - notation pour le manuel de langue, Table 4
+Calligraphie d'une langue particulière
+Exemple : Calligraphie thaïlandaise
+Sujet : Calligraphie 745.61, puis 745.6199
+Subdivision de la langue : Langue thaïlandaise T6-957
+D'abord, il faut trouver le sujet, ici c'est la calligraphie que l'on peut trouver à 745.61 avec l'index. Si on continue dans la même section, on peut s'apercevoir qu'il y a différent style de calligraphie : 745.619. Puisque le style de la Corée n'est pas présent, il faut chercher un peu plus loin, à 745.619 (calligraphie autre style). À cette cote, on peut lire : ajouter à l'indice de base 745.6199 le développement de -9 sous -91-99, Table 6.
+Donc la construction se fera ainsi de suite si on suit les étapes décrites ci-haut:
+1- 745.61 (pour la calligraphie)
+2- 745.6199 (pour les autres styles de calligraphies)
+3- 745.619957 (puis le 57 pour la langue coréenne)
+Dictionnaire de synonymes d'une langue particulière
+Exemple : Dictionnaire de synonymes grec
+Pour faire la recherche de la cote, premièrement, il faut déterminer le sujet de l'énoncé. Dans ce cas-ci, la langue grecque est notre sujet que l'on retrouve dans l'index sous : 480. Ensuite l'aspect de la langue est le dictionnaire de synonymes, que l'on retrouve dans l'index sous dictionnaires de synonymes pour les langues particulières : T4-31.
+Pour construire la cote, il faut se diriger à l'indice de notre langue 480 et trouver les indications pour intégrer notre subdivision. Les subdivisions se trouvent sous 481-488 avec les indications d'ajouter à l'indice de base 48 la notation 1-8, Table 4.
+L'indice final est donc 483.1.
+Phonétique d'une langue particulière
+Exemple : Phonétique de la langue roumaine
+Le sujet de cet énoncé est la langue roumaine que nous retrouvons dans l'index sous 459. L'aspect du sujet est la phonétique que nous retrouvons dans la Table 4 sous T4-158. Pour construire la cote, il faut se diriger à l'indice de notre langue (459) et trouver les indications pour intégrer notre subdivision. L'indication que nous retrouvons à.01-8 pour les subdivisions pour le roumain, nous indique d'ajouter à l'indice de base 459 la notation 01-8. Table 4.
+L'indice final est 459.158.
+Cas où la Table 4 ne peut pas être utilisée
+Exemple : L'orthographe de l'italien moyen
+Dans certains cas, on ne peut pas utiliser la Table 4, comme dans cet exemple.
+Tout d'abord, il faut trouver notre sujet, qui est la langue italienne que l'on peut retrouver dans l'index sous 450. Arriver à l'indice de base 450, pour les langues italiennes, sardes, dalmates, roumaines et rhéto-romanes, on se rend compte qu'il faut aller chercher un peu plus loin pour trouver notre sujet.
+À la cote 457 Variantes et variantes historiques et régionales, variantes et variations non régionales, on continu jusqu'à la cote 547.02 pour retrouver l'Italien moyen des années 1300-1600. Cependant, on ne peut pas le subdiviser, car il n'y a pas d'indication ou d'astérisque - pour le faire. Donc, quand il n'y a pas d'indications pour continuer la construction d'une cote, comme dans le cas présent, il faut arrêter et ne pas subdiviser selon la table 4.
+Ces exceptions ne se présentent que très rarement dans la table 4.
+
+Table 6 - Langues: Introduction: Ces notations ne sont jamais employées seules, mais avec les indices de la table générale et des autres tables auxiliaires qui comportent l'indication d'ajouter la notation de la table 6.
+Pour utiliser la table 6, la langue doit être un aspect du sujet et non le sujet du document. Exemple: Bible en français: notre sujet est la bible et l'aspect du sujet est la langue française. Sommaire: -1 Langues indo-européennes; -2 Anglais et vieil anglais (anglo-saxon); -3 Langues germaniques; -4 Langues romanes; -5 Italien, sarde, dalmate, roumain, rhéto-roman; -6 Espagnol et portugais; -7 Langues italiques; -8 Langues helléniques; -9 Autres langues.; -1 Langues indo-européennes; -2 Anglais et vieil anglais (anglo-saxon); -3 Langues germaniques; -4 Langues romanes; -5 Italien, sarde, dalmate, roumain, rhéto-roman; -6 Espagnol et portugais; -7 Langues italiques; -8 Langues helléniques; -9 Autres langues. Exemples:.
+Encyclopédie générale dans une langue particulière
+Exemple : Encyclopédie générale en espagnol
+Pour classifier une encyclopédie générale dans une langue particulière, on doit d'abord repérer l'indice de base pour une encyclopédie générale ainsi que la notation de la Table 6 pour la langue. L'index est un excellent moyen de repérer ces informations rapidement.
+Par exemple, pour classifier une encyclopédie générale en espagnol, l'index nous permet de repérer Encyclopédies : 030 ainsi qu'Espagnol (Langue) : T6-61. À partir de ces informations, on est en mesure de construire notre cote. Pour ce faire, il est important de se référer à la table générale, sous l'indice de notre sujet.
+Dans le cas d'encyclopédie, la table générale nous donne une indication claire qui nous permet d'utiliser la Table 6 : "036 Encyclopédies générales en espagnol et en portugais : Ajouter à l'indice de base 036 le développement de -6 sous la notation 61-69, Table 6". Il est important de se rappeler que sans cette consigne, il nous est impossible d'ajouter la notation pour la langue espagnole.
+Ainsi, selon cette indication, l'indice d'une encyclopédie générale en espagnol est 036.1 :
+036 - Encyclopédies générales en espagnol et en portugais
+-.1 - Le développement de -6 sous la notation 61-69, Table 6, pour Espagnol (T6-61)
+Publication en série générale dans une langue particulière
+Exemple : Publication en série générale en portugais
+Pour classifier une publication en série générale dans une langue particulière, on doit d'abord repérer l'indice de base pour une publication en série ainsi que la notation de la Table 6 pour la langue. L'index est un excellent moyen de repérer ces informations rapidement.
+Par exemple, pour classifier une publication en série générale en portugais, l'index nous permet de repérer Publication en série générale : 050 ainsi que Portugais (Langue) : T6-69. À partir de ces informations, on est en mesure de construire notre cote. Pour ce faire, il est important de se référer à la table générale, sous l'indice de notre sujet.
+Dans le cas d'une publication en série, la table générale nous donne une indication claire qui nous permet d'utiliser la Table 6 : "056 Publications en série d'ordre général en espagnol et en portugais "Ajouter à l'indice de base 056 le développement de -6 sous la notation 61-69, Table 6". Il est important de se rappeler que sans cette consigne, il nous est impossible d'ajouter la notation pour la langue portugaise.
+Ainsi, selon cette indication, l'indice d'une publication en série générale en portugais est 056.9 :
+056 - Publications en série d'ordre général en espagnol et en portugais
+-9 - Le développement de -6 sous la notation 61-69, Table 6, pour portugais (T6-69)
+Étude sociale d'un groupe linguistique
+Exemple : Étude sociale des hispanophones
+Le sujet de cet énoncé est les études sociales que nous retrouvons dans l'index sous 300. Pour ce qui est de l'aspect du sujet, nous avons les hispanophones, que nous retrouvons dans langue espagnole sous T6-61. Dans le sommaire de 300, nous pouvons retrouver à 305, groupes sociaux qui nous dirigent à 305.7 pour groupes linguistiques. L'indication que nous retrouvons à cet indice est d'ajouter à l'indice de base 305.7 la notation 1-9, Table 6.
+L'indice final est donc 305.761.
+Étude sociale d'un groupe linguistique d'une région particulière
+Exemple : Études sociales des francophones en Italie.
+Ceci est un exemple similaire au précédent sauf que pour le cas présent on lui ajoute un lieu. Nous déterminons le sujet de l'énoncé, qui est les études sociales dans la table générale sous 300. La langue française est l'aspect du sujet sous T6-41 et nous avons un aspect géographique, Italie, que nous retrouvons dans l'index T2-45. Comme dans l'exemple précédent, le sommaire de 300, nous dirige à 305.7 pour les groupes linguistiques. L'indication nous indique d'ajouter à l'indice de base 305.7 la notation 1-9, Table 6 et ajouter ensuite 0 et compléter l'indice obtenu en ajoutant la notation 1-9, Table 2.
+L'indice final est 305.741 045.
+Bible dans une langue particulière
+Exemple : Bible en allemand
+Le sujet de cet énoncé est la bible que nous retrouvons dans l'index sous 220. Pour ce qui est de l'aspect de notre sujet est la langue allemande dans la Table 6 sous T6 -31. Pour construire la cote, il faut se diriger à l'indice de notre sujet qui est 220. Ensuite pour ajouter notre aspect, nous nous dirigeons à.53-.59 pour versions en d'autres langues qui nous indiquent d'ajouter à l'indice de base 220.5 la notation 3-9 Table 6.
+L'indice final est donc 220.531
+Citation dans une langue particulière
+Exemple : Citations portugaises
+Sujet : Citation 080, puis 086
+Subdivision de la langue : T6-69
+Le sujet de cet exemple est la citation, à partir de l'index, on peut déterminer que l'indice de base de la citation est le 080. On peut également trouver la langue portugaise dans l'index sous T6-69.
+À partir de 080 qui est Recueils généraux où il faut classer les citations, il faut continuer un peu plus loin pour arriver jusqu'aux Recueils généraux en espagnol et en portugais. Ajouter à l'indice de base 086 le développement de -6 sous la notation 41-49 de la Table 6.
+Donc la construction se fera ainsi de suite si l'on suit les étapes décrites ci-haut:
+1- 080 (Pour les Recueils généraux)
+2- 086 (Pour les Recueils généraux en espagnol et en portugais)
+3- 086.9 (Pour l'ajout de la langue portugaise)
+Utilisation des tables 4 et 6
+Dans certains cas, les subdivisions des tables 4 et 6 peuvent être employées ensemble. Pour les documents qui comme sujet une langue à laquelle on doit ajouter un aspect particulier (Table 4) et qui nécessitent aussi l'ajout d'une deuxième langue en subdivision (Table 6). Exemple:.
+Livre lecture d'une langue particulière pour allophones
+Exemple : Livre de lecture allemand pour francophones
+Pour classifier un livre de lecture d'une langue particulière pour allophone, on doit d'abord repérer l'indice de base de cette langue, la notation de la Table 4 pour les livres de lecture ainsi que la notation de la Table 6 pour la langue des personnes à qui le livre s'adresse. L'index est un excellent moyen de repérer ces informations rapidement.
+Par exemple, pour classifier un livre de lecture allemand pour francophones, l'index nous permet de repérer Allemand (Langue) : 430, Livres de lecture : langues particulières : T4-86, ainsi que Français (Langue) : T6-41. À partir de ces informations, on est en mesure de construire notre cote. Pour ce faire, il est important de se référer à la table générale, sous l'indice de notre langue.
+Dans le cas de l'allemand, la table générale nous donne une indication claire qui nous permet d'utiliser d'abord la Table 4 : "430.1-438 Subdivisions pour l'allemand : Ajouter à l'indice de base 43 la notation 01-8, Table 4". Pour ajouter la notation de la Table 6, on doit se rendre sous la notation de la Table 4 pour les livres de lecture afin de trouver une indication qui nous permet d'ajouter la notation de la Table 6. "-864 Livres de lecture pour allophones : Ajouter à -864 la notation 2-9, Table 6." Il est important de se rappeler que sans ces consignes, il nous est impossible d'ajouter les notations des Tables 4 et 6.
+Ainsi, selon ces indications, l'indice d'un livre de lecture allemand pour francophones est 438.6441:
+43 - Indice de base pour l'allemand
+-864 - notation pour le livre de lecture pour allophones, Table 4.
+-41 - notation pour le français, Table 6.
+Dictionnaire bilingue
+Exemple: Dictionnaire français-italien, italien-français dans une bibliothèque francophone
+Sujet : Langue italienne : 45
+Subdivision de sujet : Dictionnaire de langue particulière : T4-32-39
+Subdivision de langue : Langue française : T6-41
+Tout d'abord, il faut trouver notre sujet principal, pour cet exemple, c'est la langue italienne. On peut le trouver à partir de l'index et sa cote est 45. Si on suit les instructions sous 450.458, il faut ajouter à l'indice de base 45 la notation 01-8 de la table 4 qui est dans le cas présent les dictionnaires bilingues sous T4-32-39. Quand on se dirige vers T4-32-39, on peut lire l'instruction suivante ; ajouter à -3 la notation de la notation 2-9, Table 6. Un dictionnaire bilingue sont les entrées sont les deux langues se classe à la langue où il sera le plus utilisé ; dans cet exemple, la bibliothèque est francophone, on va donc classer le dictionnaire français-italien, italien-français, à la langue italienne. Pour finir, on ajoute la subdivision de la langue suivante, la langue française T6-41.
+Donc la construction se fera ainsi de suite si on suit les étapes décrites ci-haut:
+1-45 (pour la langue italienne)
+2- 453 (on ajoute le 3 du dictionnaire bilingue)
+3- 453.41 (puis le 41 de la langue française)
+
+Limites du système
+Tout classement constitue un compromis entre l'objectif de simplifier la tâche du classificateur et celui de simplifier la tâche du chercheur. Dans le cas de la classification de Dewey, c'est le premier de ces deux facteurs qui a été privilégié : il n'est pas possible de se documenter sur un sujet sans savoir très précisément à quelle discipline le rattacher. Or cela pose problème lorsqu'un ouvrage traite précisément du lien entre deux disciplines. La bio-informatique, par exemple, sera-t-elle à chercher dans la section 500 ou 600 Et plus précisément 570 ou 620 Comme il n'est pas possible de répondre avec précision à cette question, la classification de Dewey se complètera utilement d'autres techniques comme : le KWIC (Key Word In Context); la recherche plein texte au moyen des outils informatiques appropriés.
+La principale critique de cette classification est qu'elle a été centrée sur l'état d'esprit de la fin du XIXe siècle aux États-Unis d'Amérique et qu'elle représente cet état d'esprit qui ne correspond plus à notre conception actuelle des connaissances.
+Ainsi, dans la classe 800 (Littérature), les deux premières divisions sont consacrées aux littératures en anglais (810 - Littérature américaine, 820 - Littératures anglaise et anglo-saxonnes), les six divisions suivantes aux littératures européennes (divisions 830 à 880) et une seule division aux littératures des autres langues (division 890).
+De même, dans la classe 200 (Religion), les religions chrétiennes sont surreprésentées (divisions 220 à 280) tandis que les autres religions sont classées dans une seule division (290).
+
+Voir aussi
+
+Articles connexes: Classification (science de l'information); BBK (classification); Classification de la Bibliothèque du Congrès; Classification décimale universelle.

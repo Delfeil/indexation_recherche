@@ -1,0 +1,12 @@
+En mathématiques, un endomorphisme linéaire ou endomorphisme d'espace vectoriel est une application linéaire d'un espace vectoriel dans lui-même.
+L'ensemble des endomorphismes d'un espace vectoriel E est habituellement noté End(E) ou L(E).
+
+Propriétés des endomorphismes
+Les endomorphismes vérifient les propriétés générales à toutes les applications linéaires ; par exemple : l'ensemble L(E, F) des applications linéaires d'un K-espace vectoriel dans un autre est un K-espace vectoriel muni de la loi d'addition des fonctions et de la multiplication externe par un scalaire de K, et donc, en particulier (puisque L(E) - L(E, E)), (L(E), +,) est un K-espace vectoriel. Lorsqu'on ajoute la loi de composition des applications, L(E) est une algèbre non commutative.
+Signalons la formule du binôme qui est vérifiée lorsque deux endomorphismes f et g de E commutent : (f + g) n - k - 0 n (n k) f k g n k. (-displaystyle (f+g)(n)--sum -(k-0)(n)((-binom (n)(k))f(k)-circ g(n-k)).)
+
+En dimension finie
+Lorsque l'espace vectoriel est de dimension finie, l'étude d'un endomorphisme se ramène immédiatement à celle de sa matrice par rapport à une base donnée. La matrice obtenue est une matrice carrée. Souvent, la même base de E est considérée au départ et à l'arrivée.
+
+Diagonalisation
+En dimension finie, la diagonalisation d'un endomorphisme consiste à trouver une base dans laquelle la matrice de l'endomorphisme s'écrit sous une forme diagonale. De manière générale, tous les endomorphismes ne sont pas diagonalisables, il est possible dans certains cas tout au plus de les trigonaliser. L'intérêt de la diagonalisation est de pouvoir étudier facilement un endomorphisme, de calculer aisément ses puissances n-ièmes, de rechercher ses racines carrées, etc. Portail de l'algèbre.

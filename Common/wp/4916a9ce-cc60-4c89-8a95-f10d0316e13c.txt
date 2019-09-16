@@ -1,0 +1,4 @@
+Twister est une plate-forme de micro-blogging en pair à pair. Sa structure totalement décentralisée permet de réduire ses chances de blocage, puisqu'il n'y a pas de point précis à attaquer. Le système utilise la cryptographie pour protéger les communications. Il est basé sur des protocoles similaires à ceux utilisés pour Bittorrent et Bitcoin et est considéré par certains comme un clone de Twitter.
+Ce logiciel permet aux mineurs (ce logiciel est basé sur le principe du réseau Bitcoin) d'envoyer des messages promotionnels lorsqu'ils trouvent des chaînes de bloc.
+
+Voir aussi

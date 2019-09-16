@@ -1,0 +1,41 @@
+Dans un système informatique, un firmware (ou micrologiciel, microcode, logiciel interne, logiciel embarqué ou encore microprogramme) est un programme intégré dans un matériel informatique (ordinateur, photocopieur, automate (API, APS), disque dur, routeur, appareil photo numérique, etc.) pour qu'il puisse fonctionner.
+
+Origine du terme
+Le mot anglais firmware est issu de firm ("résistant" ou "ferme", en anglais) et de software (logiciel, programme informatique). Firm est un état intermédiaire entre soft ("doux") et hard (référence au hardware ou matériel informatique). Le premier firmware était un microcode et l'usage a étendu le terme à toute forme de logiciel de base, stocké dans une mémoire morte résistant aux coupures d'électricité.
+
+Description
+Le firmware permet à un matériel informatique d'évoluer (via des mises à jour), d'intégrer de nouvelles fonctionnalités, sans avoir besoin de revoir complètement le design du hardware.
+La mémoire dans laquelle réside le firmware peut être : non volatile, stockant le programme et les données même lorsqu'elle n'est pas alimentée en électricité. C'est le cas le plus courant, avec des ROM, des EPROM ou une mémoire flash ;; volatile, donc effacée lorsqu'elle n'est plus alimentée en électricité. Dans ce cas, le firmware doit être chargé par un pilote à la mise sous tension, ce qui est peu pratique.
+Dans la plupart des cas, ce logiciel gère le fonctionnement interne du système électronique.
+D'une manière générale, le firmware cumule les avantages du logiciel, qu'il est possible de modifier, et du matériel, plus efficace. De son côté, le firmware interagit avec des composants matériels qui ne peuvent plus être modifiés une fois fabriqués, ce qui réduit la nécessité de le mettre à jour.
+On peut noter que : Le firmware des ordinateurs (BIOS ou EFI) est exécuté par son (ou ses) CPU interne (exemples : code de gestion de la carte mère, d'une carte vidéo ou SCSI) ;; Le firmware interne à chaque périphérique est exécuté par le matériel que celui-ci contient (exemples : lecteur DVD, IDE ou SCSI, employant des micro-contrôleurs ou circuits de diverses familles).
+Cependant, les deux cas précédents sont parfois réunis, par exemple, lorsque la ROM d'un périphérique contient une partie du BIOS de l'ordinateur ainsi que le firmware destiné à la gestion de ce périphérique. Accessoirement, cela permet de mesurer le degré d'indépendance d'un périphérique vis-à-vis du type de machine hôte car toute extension munie d'un BIOS pour PC n'est utilisable que sur une machine de ce type alors que celles qui n'emploient qu'un firmware sont indépendantes de la machine hôte. C'est par exemple le cas des lecteurs-graveurs CD-DVD IDE, lesquels sont conformes à la norme ATAPI et fonctionnent donc sur toute machine IDE (PC, Mac...)
+
+Architecture d'un firmware
+Architecture standard d'un firmware.
+Plusieurs architectures sont connues en fonction du champ d'application du firmware, en partant des ordinateurs ou des équipements de grande utilité, mais aussi en fonction du type de firmware. Les différentes architectures de firmware sont basées sur des bus entrées-sorties. Il est donc opportun de préciser qu'il n'existe pas d'architecture standard ni de modèle figé d'architecture des firmware.
+Les firmware, comme l'ensemble des systèmes à mémoire, se caractérisent généralement par la taille de la mémoire qui induit le temps de flashage, le flux de transfert et la méthode de mise à jour. Les firmware peuvent être classés en deux grandes familles : le type "binaire", compressé ou non, et le type archive.
+Dans les systèmes embarqués, le firmware est généralement organisé comme représenté sur la figure ci-contre. Au cours du processus de démarrage, le chargeur de démarrage - bootloader en anglais - est maintenu. Il peut être amorcé en premier lieu lorsque le système est sous tension. Le noyau de l'OS suit de près.
+Comme le bootloader fonctionne tout d'abord, il initialise le matériel nécessaire et prépare les environnements logiciels de fonctionnement. Dans les détails, il divise le processus de chargement en deux parties. L'étape 1 est étroitement liée au matériel.
+Dans l'espace restant, les programmes d'applications sont stockés et généralement organisés par le système de fichiers et la mémoire vive. Avant de démarrer l'étape 2, le bootloader vérifie habituellement un premier code de 4 ko chargé par le matériel selon le processus de démarrage décrit.
+Ensuite, l'étape 2 est chargée et démarrée. Cette étape permet de lancer les fonctions plus sophistiquées. Le bootloader initialise les différents besoins pour le matériel (ports, les entrées et les sorties). Il va ensuite charger et démarrer le noyau du système chargé de la gestion des ressources du système, tels que les différents processus, la gestion de la mémoire. Ainsi, le système est démarré et les programmes d'application peuvent fonctionner sur la base des valeurs d'initialisation.
+
+Mise à jour
+L'utilisateur final n'a, d'ordinaire, pas accès directement au firmware mais peut parfois le modifier par l'installation de mises à jour pour profiter d'améliorations ou de corrections de bug. Pour cela il faut que le firmware réside dans certains types de mémoires ROM "reprogrammables", le plus souvent il s'agit d'EEPROM ou, depuis le milieu des années 1990, de mémoire flash (c'est-à-dire des EEPROM rapides).
+
+Sécurité
+Les firmwares sont susceptibles d'être la cible d'actions malicieuses visant à rendre l'appareil inopérant ou à l'utiliser afin de s'introduire dans un réseau. Durant l'EUsecWest 2008, Rich Smith a mis en avant la possibilité de lancer une Attaque par déni de service permanent via une faille de sécurité sur les systèmes de mises à jour des firmwares des équipements faibles.
+Si une telle faille peut être exploitée afin de déployer une attaque par déni de service permanente, il est alors envisageable d'exploiter cette faille pour introduire une backdoor et s'introduire dans le système d'information. Ce sont souvent des équipements constamment en fonctionnement qui sont la cible de telles attaques.
+
+Exemples
+
+Les BIOS
+Les BIOS présents dans les ordinateurs de type PC sont des firmwares.
+
+EFI
+Les firmwares EFI (de l'anglais Extensible Firmware Interface) sont amenés à remplacer les BIOS sur les futures cartes mères des PC car ils possèdent une simplicité de programmation que le BIOS n'a pas.
+Son inconvénient est d'ajouter une couche supplémentaire entre le hardware et l'utilisateur, compensée par une plus grande rapidité des processeurs et des mémoires.
+
+Autres exemples: Open Firmware est un firmware présent dans les ordinateurs de type Macintosh basés sur un processeur PowerPC ;; Les programmes qui gèrent les composants d'un téléphone mobile, d'un lecteur de DVD, d'un baladeur MP3 ou d'une console de jeux ;; La gestion de l'injection électronique d'un moteur à explosion.; Un programme stocké dans une clef USB équipée d'un microprocesseur; Un programme stocké sur une machine à laver gérant les différents programmes; Le programme gérant la couche réseau d'une imprimante; Le programme faisant fonctionner la machine à voter ESF1.
+
+Voir aussi: Application portable. Portail de l'informatique.

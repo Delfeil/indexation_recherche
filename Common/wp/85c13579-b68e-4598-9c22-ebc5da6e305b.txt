@@ -1,0 +1,58 @@
+L'authentification unique (en anglais Single Sign-On : SSO) est une méthode permettant à un utilisateur d'accéder à plusieurs applications informatiques (ou sites web sécurisés) en ne procédant qu'à une seule authentification.
+
+Objectifs
+Les objectifs sont multiples : simplifier pour l'utilisateur la gestion de ses mots de passe : plus l'utilisateur doit gérer de mots de passe, plus il aura tendance à utiliser des mots de passe similaires ou simples à mémoriser, abaissant par la même occasion le niveau de sécurité que ces mots de passe offrent face aux risques de piratage ;; simplifier la gestion des données personnelles détenues par les différents services en ligne, en les coordonnant par des mécanismes de type méta-annuaire ;; simplifier la définition et la mise en oeuvre de politiques de sécurité.
+Il existe trois grandes classes d'approches pour la mise en oeuvre de systèmes d'authentification unique : les approches centralisées, les approches fédératives et les approches coopératives.
+
+Avantages
+Les avantages de l'authentification unique incluent : la réduction de la fatigue de mot de passe : manque de souplesse liée à l'utilisation de différentes combinaisons de nom d'utilisateur et de mot de passe ;; la réduction du temps passé à saisir le même mot de passe pour le même compte ;; la réduction du temps passé en support informatique pour des oublis de mots de passe ;; la centralisation des systèmes d'authentification ;; la sécurisation à tous les niveaux d'entrée-de sortie-d'accès aux systèmes sans sollicitation multiple des utilisateurs ;; la centralisation des informations de contrôles d'accès pour les tests de conformités aux différentes normes.
+Les technologies fournissant des SSO utilisent des serveurs centralisés d'authentification que tous les autres systèmes et applications et systèmes utilisent pour l'authentification, combinant ceux-ci avec des techniques logicielles pour s'assurer que les utilisateurs n'aient pas à entrer leurs identifiants plus d'une fois.
+
+Critiques
+Comme un SSO donne accès à de potentiellement nombreuses ressources une fois l'utilisateur authentifié (il a les "clés du château"), les pertes peuvent être lourdes si une personne mal intentionnée a accès à des informations d'identification des utilisateurs. Avec un SSO, une attention particulière doit donc être prêtée à ces informations, et des méthodes d'authentification forte devraient idéalement être combinées (par exemple, l'usage d'une carte à puce)
+
+Approches
+
+Approche centralisée
+Le principe de base est ici de disposer d'une base de données globale et centralisée de tous les utilisateurs ou d'un annuaire. Cela permet également de centraliser la gestion de la politique de sécurité. Un exemple de mise en oeuvre est le logiciel libre LemonLDAP::NG, un autre exemple est le logiciel libre Vulture (http:--www.vultureproject.org). Ces deux exemples de Web SSO conviennent à des utilisateurs d'applications Web. Il faut se tourner vers des logiciels payants lorsque le besoin est de mettre en oeuvre une solution de SSO dans une Entreprise à la fois pour des utilisateurs itinérants d'applications Web mais aussi pour des utilisateurs d'applications métiers à l'intérieur de l'Entreprise.
+Cette approche est principalement destinée à des services dépendant tous d'une même entité, par exemple à l'intérieur d'une société au sein de leur gestion des Middleware.
+
+Approche fédérative
+Dans cette approche, dont le système Liberty Alliance est le principal exemple, chaque service gère une partie des données d'un utilisateur (l'utilisateur peut donc disposer de plusieurs comptes), mais partage les informations dont il dispose sur l'utilisateur avec les services partenaires.
+Cette approche a été développée pour répondre à un besoin de gestion décentralisée des utilisateurs, où chaque service partenaire désire conserver la maîtrise de sa propre politique de sécurité, par exemple un ensemble de sites marchands indépendants d'un point de vue commercial et organisationnel.
+
+Approche coopérative
+L'approche coopérative, dont les systèmes Shibboleth et Central Authentication Service sont les principaux représentants, part du principe que chaque utilisateur dépend d'une des entités partenaires. Ainsi, lorsqu'il cherche à accéder à un service du réseau, l'utilisateur est authentifié par le partenaire dont il dépend. Comme dans l'approche fédérative, cependant, chaque service du réseau gère indépendamment sa propre politique de sécurité.
+
+Normes et outils pour l'authentification unique
+Quelle que soit la norme utilisée pour l'authentification unique, l'infrastructure sécurisée fait intervenir, entre le client et le serveur de service, un serveur d'authentification où est géré un identifiant (www.siteweb.pays- ou.siteweb.pays par exemple pour une authentification via un serveur OpenID).
+
+Serveur d'authentification-identification
+Même si l'authentification et l'identification sont deux choses différentes, il faut que ce serveur soit mis en place par un organisme lié aux transactions monétaires (particulier acheteur, professionnel). Aucune des sociétés de services internet vivant exclusivement de la publicité (payée par des professionnels) n'est actuellement capable de vérifier et de garantir les données saisies par les internautes ; de plus chacune a développé son propre système d'authentification : Yahoo avec YahooID ;; Microsoft avec Live ID ;; Google avec Google Account.
+L'état ou un organisme sous son autorité, voire une société commerciale offrant un service réel (connexion internet-téléphonie-site de commerce), sont les seuls à pouvoir garantir ces deux paramètres.
+Un standard Web pourrait venir d'une des trois implémentations classées par ordre d'ancienneté : Liberty Alliance implémenté par IBM dans leur produit et utilisé par Sun et Novell utilise que des jetons SAML ;; WS-Federation implémenté par Microsoft dans ses produits Active Directory Federation Services V2 (ADFS V2), Windows Identity Foundation (WIF) et Azure AppFabric Access Control qui gèrent tous les jetons SAML. À noter qu'ADFS V2 permet l'interopérabilité avec le protocole SAML et qu'Azure AppFabric Access Control permet l'interopérabilité avec Yahoo!, Live ID, Google, Facebook, ainsi qu'OpenID ;; OpenID implémenté-utilisé par les sociétés clés de l'Internet (Yahoo!, Myspace, Google, Microsoft...).
+Un autre standard pourrait être un système de gestion d'identité local : Sxipper : compatible OpenID et Firefox, il fonctionne sous Linux, Windows et MacOS.
+Le problème des serveurs d'authentification est que lors de la saisie des identifiants et autre données personnelles, les services web gratuits ou les sites de commerces doivent laisser le choix du prestataire d'authentification, en sachant que de nombreux internautes arrêtent toute transaction face à la difficulté de remplir un formulaire.
+
+Délégation d'authentification
+Ils évitent de se connecter en mode visuel grâce à l'utilisation d'API. Cette API permet à un service ("role consumer") d'utiliser un autre service ("service provider") utilisant un identifiant sans avoir à divulguer de couple identifiant-mot de passe. L'utilisateur tiers a ainsi accès de façon indirecte selon son groupe et son nom à un ensemble de fonctionnalités-données restreintes éventuellement par les droits d'accès dont il dispose.
+Ainsi on trouve comme protocoles de délégation : BBAuth (Browser-Based Authentication) mis en place par Yahoo! ;; AuthSub mis en place par Google ;; OpenAuth mis en place par AOL ;; FlickrAuth mis en place par Flickr ;; Facebook Auth mis en place par Facebook ;; Windows Live ID mis en place par Microsoft ;; OAuth en fonctionnant côté bureau et Internet.
+Les sociétés souhaitant ce standard (Google, Yahoo, MySpace) se sont regroupées dans la fondation OpenSocial, suivies par des sociétés comme LinkedIn, Bebo, PLaxo. Seul Facebook fait cavalier seul sans doute du fait que Facebook définit aussi un format standard d'échange de données personnelles sous le nom de FBML pour Facebook Markup Language.
+
+Stockage
+Les données sont stockées dans des bases d'utilisateurs variées : LDAP V3 (dont Active Directory), Postgresql, MySQL.
+
+Format de données et d'échange: L'adaptation du protocole DAP utilisé dans la norme X500 utilisé par les opérateurs téléphoniques sur TCP-IP a donné naissance à LDAP. Dans LDAP le format de données utilise un format non ASCII qui est une version allégée du Basic Encoding Rules (BER) appelée Lightweight Basic Encoding Rules (LBER). Le format d'échange a pour nom LDIF.
+
+Proxy
+Serveur faisant le lien entre un fournisseur de services et d'identités.
+
+Le service compatible
+Il permet en utilisant un identifiant unique d'éviter la saisie dans un formulaire d'informations nécessaire à créer un compte.
+
+Protocoles
+Différents protocoles ont été proposés pour échanger des informations liées à la sécurité, et notamment pour la mise en oeuvre de systèmes d'authentification unique dans un cadre de sites indépendants les uns des autres : SAML a été développé par le consortium OASIS et est un protocole ouvert ;; WS-Federation, proposé par Microsoft, constitue une solution concurrente ;; NuFW, basé sur des logiciels libres et qui permet de mettre en place une solution indépendante du protocole.
+
+Voir aussi
+
+Articles connexes: Identité nationale électronique sécurisée; LDAP; Kerberos; OpenID; Central Authentication Service; LemonLDAP::NG; Shibboleth; Liberty Alliance; Windows Live ID; NTLM; SAML; Social login; Authentification forte; OpenSSO.

@@ -1,0 +1,63 @@
+George Boole, né le 2 novembre 1815 à Lincoln (Royaume-Uni) et mort le 8 décembre 1864 à Ballintemple (Irlande), est un logicien, mathématicien et philosophe britannique. Il est le créateur de la logique moderne, fondée sur une structure algébrique et sémantique, que l'on appelle algèbre de Boole en son honneur.
+Il a aussi travaillé dans d'autres domaines mathématiques, des équations différentielles aux probabilités en passant par l'analyse. Autodidacte, il publia ses premiers travaux d'algèbre tout en exerçant son métier d'instituteur et de directeur d'école dans la région de Lincoln. Ses travaux lui valurent en 1844 la Royal Medal de la Royal Society, puis une chaire de mathématiques à l'université (Queen's College) de Cork en 1849.
+De 1844 à 1854, il crée une algèbre binaire, dite booléenne, n'acceptant que deux valeurs numériques : 0 et 1. Cette algèbre aura de nombreuses applications en téléphonie et en informatique, notamment grâce à Claude Shannon en 1938, près d'un siècle plus tard.
+
+Biographie
+
+Enfance
+George Boole est né à Lincoln le 2 novembre 1815. Son père, John Boole, est cordonnier, sa mère, Mary Ann Joyce, femme de chambre. Les revenus modestes de sa famille ne lui permettent pas d'effectuer sa scolarité dans des écoles prestigieuses. Il étudie donc dans des écoles locales. C'est son père, passionné par les sciences, les mathématiques et les instruments optiques qui lui transmet "l'amour de l'étude et des livres" et l'initie aux mathématiques.
+Ses capacités intellectuelles sont remarquables : il apprend le latin avec l'aide de William Brooke, un libraire, et de manière autonome l'allemand, le français et le grec. À l'âge de quatorze ans il traduit du grec un poème de Méléagre, "Ode au Printemps", publié dans le Lincoln Herald, un journal local. Son âge étant précisé dans l'article, un professeur écrit au journal estimant impossible qu'un jeune garçon soit capable d'une telle traduction. Cette première controverse et les critiques faites à sa traduction le poussent à intensifier ses efforts pour maîtriser les langues anciennes.
+
+Premiers emplois
+À seize ans, obligé de travailler pour soutenir sa famille, il devient enseignant adjoint dans une école de Doncaster. Il enseigne ensuite à Liverpool et à Waddington. En 1834, il revient à Lincoln et ouvre sa propre école. Bénéficiant d'une certaine réputation locale, l'allocution pour la présentation à Lincoln d'un buste d'Isaac Newton lui est confiée. Publié dans la Gazette Office en 1835, ce premier article scientifique de George Boole montre à la fois sa connaissance des oeuvres de Newton et, de par les critiques qu'il formule, un certain aplomb. En 1838, à la mort de Robert Hall, son ancien employeur à Waddington, George Boole lui succède à la tête de l'école.
+Pendant toute cette période il poursuit, en autodidacte, son apprentissage des mathématiques en débutant, à seize ans, par la lecture du Traité du calcul différentiel et du calcul intégral de Lacroix. Bénéficiant des moyens de l'Institut de mécanique de Lincoln fondé en 1834, dont son père est le premier conservateur, il se confronte aux oeuvres d'Isaac Newton (Principia), Pierre-Simon de Laplace (Mécanique céleste) et Joseph-Louis Lagrange (Mécanique analytique). Bien plus tard il estimera avoir perdu près de cinq ans à progresser lentement, tentant d'apprendre seul, sans professeur pour le guider.
+
+Premières publications mathématiques
+En 1839, il écrit son premier article de mathématiques (ce n'est pas le premier publié) qui trouve son origine dans la Mécanique analytique de Lagrange; au cours de sa lecture il prend des notes et envisage des améliorations.
+Il entre alors en contact avec D. F. Gregory, qui vient tout juste de créer le Cambridge Mathematical Journal (CMJ). Il lui soumet d'abord un autre article, lui aussi inspiré par ses lectures de Lagrange : "Researches on the Theory of Analytical Transformations, with a special application to the Reduction of the General Equation of the Second Order". D. F. Gregory lui répond, dans une lettre datée du 4 novembre 1839, qu'une fois quelques corrections apportées, il serait heureux de le publier ainsi que son article sur le calcul des variations qu'il lui a précédemment mentionné. Ces deux articles et deux autres sont publiés dans le volume 2 du CMJ. Influencé par Gregory, bénéficiant aussi de son soutien et de ses conseils, George Boole commence à publier régulièrement dans ce journal.
+En 1842 il commence à correspondre avec Auguste De Morgan, avec qui il devient ami. Suite à la publication de deux articles dans le volume 3 du CMJ, Arthur Cayley lui écrit une première lettre en 1844 pour complimenter son travail. C'est là aussi le début d'une longue amitié.
+
+Reconnaissance et premiers travaux en logique
+En 1844, après la publication d'un mémoire dans les Philosophical Transactions sur une approche algébrique de la théorie des équations différentielles, la Royal Society lui décerne une médaille.
+Il commence alors une série de travaux posant les bases de ce qu'on nommera plus tard l'algèbre de Boole. En 1847 sort Mathematical Analysis of Logic, puis An Investigation Into the Laws of Thought, on Which are Founded the Mathematical Theories of Logic and Probabilities en 1854. Boole y développe une nouvelle forme de logique, à la fois symbolique et mathématique. Le but : traduire des idées et des concepts en équations, leur appliquer certaines lois et retraduire le résultat en termes logiques. Pour cela, il crée une algèbre binaire, dite booléenne, n'acceptant que deux valeurs numériques : 0 et 1. Cette algèbre est définie par la donnée d'un ensemble E (non vide) muni de deux lois de composition interne (le ET et le OU) satisfaisant à un certain nombre de propriétés (commutativité, distributivité...). Les travaux de Boole, s'ils sont théoriques, n'en trouveront pas moins des applications primordiales dans des domaines aussi divers que les systèmes informatiques, la théorie des probabilités, les circuits téléphoniques, hydrauliques et pneumatiques, etc., grâce à des scientifiques comme Peirce, Frege, Russel, Turing et Shannon.
+
+Professeur à Cork
+En 1849, George Boole se voit proposer une chaire de professeur des mathématiques au Queen's College de Cork, en Irlande. Et en 1857, il est nommé membre de la Royal Society. Il s'intéresse ensuite aux équations différentielles à travers deux traités qui auront une influence certaine : Treatise on Differential Equations (1859) et Treatise on the Calculus of Finite Differences (1860).
+Il épouse le 11 septembre 1855 Mary Everest (en), elle-même mathématicienne autodidacte. Mary Everest était la nièce de sir George Everest, le responsable de la mission cartographique qui baptisa le mont Everest.
+George Boole meurt d'une pneumonie le 8 décembre 1864. Il avait pris froid après s'être rendu au College. Croyant au principe d'analogie, au sens de "soigner le mal par le mal", Mary l'avait alité et aspergé d'eau pour le guérir.
+
+Postérité
+George et Mary ont eu cinq filles : Mary, qui épousa le mathématicien Charles Howard Hinton (1853-1907) ;; Margaret, mère du physicien Geoffrey Ingram Taylor (1886-1975) ;; Alicia (1860-1940), mathématicienne qui collabora avec H.S.M. Coxeter ;; Lucy (1862-1904), première femme professeur de chimie au Royal Free Hospital de Londres ;; Ethel Lilian (1864-1960), écrivaine, musicienne et suffragette, qui se mariera avec Wilfrid M. Voynich en 1893.
+Un cratère de la Lune porte le nom de Boole.
+
+Publications
+
+Articles: "
+An Address on the Genius and Discoveries of Sir Isaac Newton
+", Gazette Office, 1835 ; "
+Researches on the Theory of Analytical Transformations, with a special application to the Reduction of the General Equation of the Second Order
+", Cambridge Mathematical Journal, vol. 2, 1841, p. 64-73 ; "
+On Certain Theorems in the Calculus of Variations
+", Cambridge Mathematical Journal, vol. 2, 1841, p. 97-102 ; "
+On the Integration of Linear Differential Equations with Constant Coefficients
+", Cambridge Mathematical Journal, vol. 2, 1841, p. 114-119; "
+Exposition of a General Theory of Linear Transformations, Part I
+", Cambridge Mathematical Journal, vol. 3, 1843, p. 1-20; "
+Exposition of a General Theory of Linear Transformations, Part II
+", Cambridge Mathematical Journal, vol. 3, 1843, p. 106-119; "
+Analytical Geometry
+", Cambridge Mathematical Journal, vol. 2, 1841, p. 179-188; "
+On a General Method in Analysis
+", Philosophical Transactions of the Royal Society, vol. 134, 1844, p. 225-282 ; "
+On the Application of the Theory of Probabilities to the Question of the Combination of Testimonies or Judgements
+", Transactions of the Royal Society of Edinburgh, vol. 21, 1857, p. 597-653.
+
+Ouvrages: 1847 : The Mathematical Analysis of Logic, being an Essay towards a Calculus of Deductive Reasoning George Boole (trad. Frédéric Gillot),
+Algèbre et logique d'après les textes originaux de G. Boole et W. J. Jevons
+, Blanchard, 1962 - Contient une adaptation française de The mathematical analysis of logic Voir aussi Daniel Parrochia,
+Qu'est-ce que penser-calculer
+, Vrin, coll. "Pré-Textes", 1992 et "
+L'analyse mathématique de la logique
+", Cahiers pour l'analyse, vol. 10 "La formalisation", 1969. 1854 : An Investigation of the Laws of Thought : On Which Are Founded the Mathematical Theories of Logic and Probabilities George Boole (trad. Souleymane Bachir Diagne),
+Les Lois de la pensée
+, Vrin, coll. "Mathesis", 1992 ; 1859 : A Treatise on Differential Equations; 1860 : A Treatise on the Calculus of Finite Differences.

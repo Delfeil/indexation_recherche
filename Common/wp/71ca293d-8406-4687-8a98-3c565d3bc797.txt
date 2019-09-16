@@ -1,0 +1,12 @@
+Theodor Holm Nelson (né le 17 juin 1937 à Chicago) est un sociologue américain, pionnier de l'histoire des technologies de l'information. Il est considéré comme l'inventeur du terme hypertexte (1965).
+Né dans un milieu d'artistes (son père Ralph Nelson était un acteur et réalisateur américain, connu notamment pour son film Charly, et sa mère Celeste Holm une comédienne révélée par Le Mur invisible (Gentleman's Agreement d'Elia Kazan), Nelson obtient une maîtrise de philosophie au Swarthmore College, près de Philadelphie en 1959.
+Après un master de sociologie à l'université Harvard en 1963, Nelson va adopter une démarche à la fois sociologique et philosophique dans ses recherches sur l'information, les ordinateurs et les interfaces homme-machine.
+Imaginant une machine qui permettrait de stocker des données et de les mettre à disposition de tous, partout, il met en place en 1960 le projet Xanadu et tente, avec plus ou moins de succès, de mettre en application ce qu'il nomme "le projet original de l'hypertexte".
+Le principe de l'hypertexte a été repris par de nombreux pionniers de l'informatique, comme Douglas Engelbart pour mettre au point une interface homme-machine dans les années 1960, Bill Atkinson, chez Apple, pour développer HyperCard, ou encore Tim Berners-Lee en 1989, pour définir les bases du World Wide Web.
+Actuellement professeur à l'université d'Oxford en Angleterre, il a lancé en 2005 le projet Transliterature. Il a été fait "officier des Arts et Lettres" en 2001 par le ministre français de la Culture Catherine Tasca pour son travail sur Xanadu et l'hypermédia et a reçu le Trophée du Forum mondial e-Démocratie, le 28 septembre 2005.
+
+Projets: Projet Xanadu; ZigZag; TrueLit.
+
+Évocations: Serial Experiments Lain cite Ted Nelson en tant que précurseur du Wired, une forme avancée du World Wide Web dans la série.
+
+Voir aussi

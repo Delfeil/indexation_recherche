@@ -1,0 +1,13 @@
+Un hypermédia est une extension de l'hypertexte à des données multimédias, qui ajoute aux informations de type texte, d'autres médias comme des images, sons, vidéos ou encore des données multimédia. Le terme "hypermédia" a été cité pour la première fois par Ted Nelson en 1965.
+
+Applications
+Grâce à ce procédé, toutes les formes d'informations sont reliées et permettent une navigation non-linéaire et interactive dans un ensemble de données textuelles, iconographiques et sonores. Dans les applications basées sur le Web, l'information est présentée selon une approche hypermédia. Il est également possible de lancer des applications web comme une messagerie web, des jeux en lignes ou des blogs, à partir de l'interface Web. Dès lors, il n'est pas surprenant de constater que beaucoup de travaux de recherches sur les hypermédias ont été réalisés ou sont en cours de développement, comme la chaire de recherche du Canada sur la littérature et les arts numériques et la chaire de recherche sur les écritures numériques.
+
+Évolution de l'hypermédia
+Selon l'historien François Jarrige, ces dernières années ont vu émerger ce qu'il convient de nommer une "révolution numérique". La popularisation de l'ordinateur et l'avènement du Web au début des années 1990 nous ont fait pleinement rentrer dans l'ère de l'informatique grand public. L'usage de ces technologies s'impose tant dans la vie domestique que professionnelle.
+Cette évolution touche également le domaine éducatif, pour preuve l'apparition des TICE (technologies de l'information, et de la communication appliquées à l'enseignement). En effet, avec cette évolution, on assiste à l'apparition de nouveaux besoins dans la formation et l'enseignement : d'une part, ces besoins se manifestent dans trois directions : les personnes, les lieux et les moments ; c'est ce qu'on peut simplifier en disant : "tous, tout le temps, partout" ; d'autre part, les apprenants ont de plus en plus besoin d'un apprentissage centré sur eux-mêmes, ils demandent que leur vision soit prise en compte. L'une des réponses à l'émergence des nouveaux besoins dans le domaine éducatif ainsi que dans la formation est l'utilisation des hypermédias.
+
+La recherche hyper-médiatique
+Des recherches se sont attachées à l'étude des relations image et son dans les hypermédias ainsi que leur interaction et leur fusion. Notons par exemple la thèse de Hervé Zénouda intitulée "Images et sons dans les hypermédias - de la correspondance à la fusion", où il présente les différentes manifestations de l'image et du son dans le contexte hypermédias ainsi que leur diverses formes d'interaction et de simulation.
+
+Article connexe: Hyperlien. Portail de l'informatique; Portail des TIC pour l'enseignement.

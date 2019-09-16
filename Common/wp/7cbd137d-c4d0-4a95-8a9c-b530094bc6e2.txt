@@ -1,0 +1,107 @@
+Intel Corporation est une entreprise américaine fondée le 18 juillet 1968 par Gordon Moore, Robert Noyce et Andrew Grove. Elle est le premier fabricant mondial de semi-conducteurs si on se base sur le chiffre d'affaires. Elle fabrique des microprocesseurs - c'est d'ailleurs elle qui a créé le premier microprocesseur x86 -, des cartes mères, des mémoires flash et des processeurs graphiques notamment.
+
+Historique
+
+Historique de l'entreprise
+Le 18 juillet 1968, Gordon Moore, Robert Noyce et Andrew Grove, trois docteurs en chimie et en physique issus du monde de l'électronique numérique, décident de quitter leur précédente entreprise Fairchild Semiconductor (société de conception et fabrication de circuits intégrés inventés par Robert Noyce) pour cofonder la société Intel à Santa Clara.
+En 1971, trois ans à peine après sa fondation, Intel invente pour son premier gros client japonais, le fabricant de calculatrices Busicom, le microprocesseur (l'Intel 4004 de Marcian Hoff, 4 bits et 2 300 transistors).
+Intel commercialise en produit phare la série des microprocesseurs dite x86 utilisée par les compatibles PC depuis 1981 avec pour produit le plus vendu la série des Pentium.
+En 1974, Intel ouvre son premier centre de design et développement à l'extérieur des États-Unis à Haïfa en Israël. Le fondeur, par sa démarche, commence à intéresser des constructeurs réfléchissant à des machines moins coûteuses et moins encombrantes face au quasi monopole IBM sur les mainframes (IBM n'était alors menacé que sur le segment de marché moins important des mini-ordinateurs).
+En 1985, le premier complexe Intel (FAB8) de fabrication de microprocesseurs et mémoires à l'extérieur des États-Unis devient opérationnel à Har Hotzvim à Jérusalem. En 1977, lors d'une école d'été de l'AFCET, François Anceau explique qu'Intel, qui a d'abord utilisé à son profit, puis éliminé commercialement à partir du 80386 les secondes sources de ses processeurs possède tout pour devenir un géant de l'envergure d'une IBM
+Pendant les années 1980, Intel n'était pas le géant qu'on connaît en 2015 Il n'était par exemple que le 10e plus grand fabricant de circuits intégrés en 1987, loin derrière l'industrie japonaise avec à leur tête NEC Semiconductors. C'est dans les années 1990 qu'elle devient le plus gros fabricant de microprocesseurs et de circuits intégrés avec l'avènement du marché des micro-ordinateurs compatibles PC à base de microprocesseurs x86 pentium puis la gamme des Pentium. Intel devient alors no 1 en développement et industrialisation de microprocesseurs et contribue par ses produits à la très forte hausse des sociétés de technologie de la seconde partie des années 1990.
+En mars 2003, Intel crée la plateforme Centrino (aussi appelé "Centrino Mobile Technology"). Après plusieurs évolutions liées essentiellement à l'évolution des processeurs, Intel lance la plateforme Centrino 2 en septembre 2009.
+En 2005, les concurrents juste derrière Intel sont dans l'ordre le Coréen Samsung, l'Américain Texas Instruments, le Japonais Toshiba et la société franco-italienne STMicroelectronics.
+Intel est cotée au Nasdaq sous le sigle INTC. Sa capitalisation boursière s'élève à 121 milliards USD (en date du 18 décembre 2006) avec pour principal concurrent Advanced Micro Devices (AMD).
+Le 10 janvier 2006, Apple munit sa gamme iMac de microprocesseurs Intel Core Duo.
+Le 2 février 2006 Intel lance le label Viiv conçue pour simplifier l'accès et la gestion des nouveaux contenus numériques : jeux, photos, musiques, film et télévision. Sur compatible PC, elle fonctionne en association avec Windows Media Center. Viiv constitue un ensemble de recommandations qui vont donner droit à un logo, que les constructeurs pourront placer sur leurs machines afin que les utilisateurs sachent que celles-ci sont bien adaptées à une utilisation multimédia.
+Toutefois ce logo est à double tranchant, car il signifie aussi que la gestion des droits numériques (DRM) et la technologie NGSCB (ex-Palladium) qui l'accompagne (qui permet un effacement automatique des contenus et logiciels non autorisés) sont également présents, ce qui peut prohiber l'usage, voire la simple conservation sur son disque dur, de logiciels ou contenus de source hasardeuse, le tout sans préjudice de sanctions ultérieures éventuelles. Ce qui explique sans doute une des raisons de l'échec commercial de ce label.
+Le 6 septembre 2006, Apple équipe ses iMac de Core 2 Duo.
+Le 3 juin 2009, Intel annonce l'acquisition de Wind River éditeur du système d'exploitation temps réel VxWorks, au coût d'environ 884 millions USD.
+Le 19 août 2010, Intel rachète l'entreprise de sécurité McAfee pour 7,68 milliards USD (5,97 milliards d'euros).
+Le 14 septembre 2010, Intel lance officiellement AppUp, une plate-forme stockant des applications pour les ordinateurs équipés de puces Atom.
+Via un communiqué de presse, Intel annonce le 19 octobre 2010 6 à 8 milliards d'investissements dans des sites de production de nouvelle génération.
+En 2013, Intel prend la 4e position dans le classement des entreprises mondiales les plus innovantes par Booz et Company car l'entreprise a dépensé 10,1 milliards de dollars en 2013 en Recherche et développement, soit environ 19% de son chiffre d'affaires.
+En avril 2014, Intel annonce un investissement de 4,1 milliards d'euros pour moderniser son usine de microprocesseurs à Kiryat Gat (sud d'Israël). En décembre 2014 Intel annonce un investissement d'1,6 milliard de dollars sur 15 ans dans son usine de Chengdu. L'objectif pour l'entreprise est de se positionner sur le marché du mobile.
+En janvier 2015 Intel engage 25 millions de dollars dans l'entreprise de lunettes connectées Vuzix, poursuivant ainsi son investissement dans l'informatique portable.
+Le 1er juin 2015, Intel annonce le rachat de l'entreprise américaine Altera, employant 3 000 personnes, spécialisée dans les composants électroniques reprogrammables, pour 16,7 milliards de dollars. En octobre 2015, Intel acquiert les microprocesseurs pour mobile de VIA Technologies pour un montant estimé à 100 millions de dollars.
+En avril 2016. Intel annonce 12.000 licenciements d'ici 2017 dans le cadre d'une restructuration visant à diversifier son activité.
+Suite à la fermeture du site de Toulouse 280 emplois sont menacés.
+En août 2016, Intel annonce qu'il va produire des puces d'architecture ARM dans ses propres usines de fabrication grâce à un accord avec ARM Ltd. Ceci confirme l'échec de sa propre gamme de produits à destination des smartphones.
+En septembre 2016, Intel fait l'acquisition de Movidus spécialisé dans l'analyse d'image en temps réel afin de renforcer sa position dans le secteur de la réalité virtuelle de haute technologie.. Le même mois, Intel annonce la vente d'une participation de 51 % dans McAfee au fonds d'investissement TPG pour un montant débattu mais estimé à 1,1 milliard de dollars, soit une importante moins-value par rapport à son acquisition de McAfee en 2010 pour environ 7,7 milliards de dollars.
+En 2017, le groupe Intel a annoncé le rachat de la société israélienne Mobileye, spécialisée dans les capteurs intelligents pour l'automobile, pour un montant de 14,3 milliards d'euros.
+
+Historique des microprocesseurs produits
+Le 3 janvier 2006, Intel met un terme à la marque Pentium, apparue en 1993, pour laisser place au Core. Lequel sera décliné en Solo pour les processeurs simple coeur et Duo pour les puces double coeurs. La marque Pentium a été reprise avec les Pentium E (Conroe), sortis le 3 juin 2007.
+En mars 2006, Intel annonce la sortie début 2007 d'un processeur quadri-coeurs : le Clovertown.
+Le 27 juillet 2006, Intel lance ses nouveaux processeurs basés sur la nouvelle Intel Core Architecture : les Core 2 Duo. Les processeur à coeurs Conroe pour les ordinateurs de bureau, à coeurs Merom pour les ordinateurs portables et à coeurs Woodcrest pour les stations de travail et serveurs. Avec cette architecture Intel met fin aux problèmes de surchauffe connus avec Prescott.
+Fin novembre 2006, Intel commercialise son premier quadri-coeurs. Ce nouveau processeur apparaîtra sous le nom de Core 2 Quad QX6700. D'autres quadri-coeurs arriveront début 2007.
+En janvier 2007 Intel annonce sa nouvelle famille de processeurs du nom de Penryn, qui consiste en un die-shrink de l'architecture Conroe des Core 2 Duo, prévu pour sortir dans le courant de l'année, et annonce que son prochain grand saut d'architecture aura lieu en 2008 avec sa prochaine architecture au nom de Nehalem. Cette dernière fera de nouveau appel à l'Hyper threading.
+En mai 2007, Intel présente sa nouvelle génération pour plate-forme mobile Centrino appelé Santa Rosa. Cela apporte plusieurs améliorations comme le passage du FSB des Merom à 800 MHz, ainsi que de nouveaux systèmes conçus par Intel, visant à augmenter l'autonomie des ordinateurs portables.
+Fin 2007 apparaît la première génération de puces à 45 nm : Wolfdale héritera de l'architecture Conroe double coeur (die shrink) avec un cache de niveau 2 augmenté à 6 Mio (ainsi que de la nouvelle instruction SSE4). Le Yorkfield sera un die shrink du Kentsfield avec 2x6 Mio de cache de niveau 2.
+Au premier janvier 2008, Intel annonce faire le ménage parmi ses marques. Core 2 Quad et Core 2 Duo deviennent Core 2, les Pentium D et Pentium Dual Core deviendront Pentium.
+La firme annonce ensuite : Fin 2008, les marques Core i7 et Core i5, avec des modèles gravés en 45 nm (architecture Nehalem). Début 2010, lors du CES de Las Vegas ses nouvelles gammes de puces Core i3, i5 et i7, en 32 nm (architecture Nehalem). Début 2011, les microprocesseurs i3, i5, i7 qu'elle nomme de seconde génération, toujours en 32 nm mais avec la nouvelle architecture Sandy Bridge. Ils possèdent un contrôleur graphique intégré (HD Graphics 2000 ou 3000). En avril 2012, les microprocesseurs i3, i5, i7 qu'elle nomme de troisième génération, gravés en 22 nm et utilisant la nouvelle architecture Ivy Bridge. Ils possèdent eux aussi un contrôleur graphique intégré (HD Graphics 2500 ou 4000). En juin 2013, les microprocesseurs i3, i5, i7 en 22 nm ("quatrième génération") inaugurant l'architecture Haswell et possédant toujours un contrôleur graphique intégré (HD Graphics 4600). En août 2015, les microprocesseurs i3, i5, i7 en 14 nm ("cinquième génération") d'architecture Broadwell possédant un nouveau contrôleur graphique intégré (Intel Iris Pro). En août 2015, les microprocesseurs i3, i5, i7 ("sixième génération") en 14 nm d'architecture Skylake. Leur contrôleur graphique intégré est l'Intel HD Graphics 530.; En mai 2017, un microprocesseur i9 d'architecture Skylake est annoncé à la vente.
+
+Acquisitions
+
+Concurrence
+Intel domine très largement le marché des processeurs pour serveurs, avec une part de marché qui dépasse en 2015 les 95%.
+Le principal concurrent d'Intel est AMD, autre entreprise concevant et construisant des microprocesseurs. Les processeurs d'AMD sont compatibles avec les processeurs Intel puisqu'ils utilisent le même jeu d'instructions : un programme conçu pour fonctionner sur un processeur Intel fonctionne également avec un processeur AMD et inversement. Ces deux entreprises se partagent presque totalement le marché des processeurs x86.
+La relation entre les deux entreprises est complexe : en 1982, Intel a accordé à AMD une licence pour produire les processeurs 8086 et 8088, afin de renforcer la position de son architecture sur le marché. À la suite d'une bataille légale, AMD obtient en 1995 le droit de produire des processeurs basés sur l'architecture IA-32, initialement développée par Intel. AMD conçut en 2003 l'architecture 64 bits AMD64, totalement compatible avec l'IA-32, ce qui lui permit d'atteindre une part de près de 25 % sur le marché des microprocesseurs x86. Cette architecture fut adoptée par Intel quelques années plus tard après le demi-échec de sa propre formule 64 bits Itanium, incompatible avec IA-32. En mars 2012, la part de marché d'AMD dans ce marché s'élevait à environ 19 %, celle d'Intel à 80 %.
+D'autres entreprises ont produit des processeurs compatibles Intel, notamment VIA Technologies.
+Durant les années 2010, les processeurs ARM concurrencent les processeurs Intel par le bas, basse puissance de calcul et basse consommation électrique. Dans l'électronique embarquée des smartphones par exemple, ces puces chauffant peu sont très utilisées.
+Par ailleurs, les géants d'Internet (Google, Facebook, Amazon, Alibaba...) lancent depuis 2015 des initiatives afin d'amoindrir leur dépendance à Intel.
+
+Abus de position dominante
+Intel fut plusieurs fois poursuivi pour abus de position dominante, notamment au Japon en 2005 et en Corée du Sud en 2006 pour être finalement condamnée à une amende d'1,06 milliards d'euros par la Commission européenne en mai 2009.
+Le 4 novembre 2009 le ministre de la justice de l'État de New York, Andrew Cuomo, a annoncé qu'il poursuivait le numéro un des micro-processeurs Intel pour pratiques anticoncurrentielles, l'accusant d'exercer des pressions sur les fabricants d'ordinateurs pour que ceux-ci utilisent ses produits.
+Le procureur général de New York a déposé une plainte contre Intel, l'accusant de "corruption et de coercition pour maintenir sa position sur le marché". Le procureur affirme notamment que des fabricants (Dell, HP...) ont reçu des commissions pour ne pas commercialiser de PC utilisant des puces d'AMD, le concurrent d'Intel. Hewlett Packard a par ailleurs subi des pressions lorsqu'il a évoqué l'idée de promouvoir des produits AMD.
+Afin d'éviter toute nouvelle attaque, Intel concède à payer à AMD 1,25 milliard de dollars en 2009 afin que le CO de AMD (Leonardo Travassos) n'engage pas de nouveaux procès antitrust dans le monde.
+
+Siège social
+Le siège social à Santa Clara.
+Le siège social qui porte le nom de Robert Noyce est basé à Santa Clara dans la Silicon Valley en Californie aux États-Unis.
+
+Produits
+Croissance du nombre de transistors dans les microprocesseurs Intel par rapport à la loi de Moore.
+Microprocesseurs x86
+L'architecture x86 fut créée par Intel. La marque Pentium est utilisée depuis 1993.; La marque Celeron est utilisée depuis 1998 pour les microprocesseurs d'entrée de gamme.; La marque Xeon est utilisée depuis 1998 pour les microprocesseurs destinés aux serveurs et stations de travail.; La marque Atom est utilisée depuis 2008 pour les microprocesseurs destinés aux netbooks, nettops, tablettes électroniques et ordiphones.; La marque Core M est utilisée depuis 2014 pour les microprocesseurs destinés aux ultrabooks.
+Une partie des architectures x86 Intel
+Tic-tac
+La stratégie tic-tac (en anglais Tick-Tock) est utilisée de 2007 à 2015. Elle consiste à alterner les nouvelles microarchitectures (tac) à finesse de gravure inchangée et les nouvelles finesses de gravure (tic) à architecture inchangée. En pratique les die shrink ne sont pas exempts de nouvelles fonctions.
+
+Microprocesseurs IA64: Série des Itanium (architecture EPIC).
+
+Microprocesseurs ARM: Processeurs ARM pour assistant personnel (PDA), dont XScale.
+
+Chipsets
+
+Cartes mères
+Intel produit des cartes mères à base de ses chipsets. En janvier 2013, Intel annonce l'arrêt de ses ventes de cartes mères pour ordinateur de bureau.
+
+Mémoire vive
+
+Mémoire flash
+En janvier 2006, Intel et Micron créent une coentreprise, IMFT (en), dans le but d'unir leurs forces de développement et de production de mémoire NAND (mémoire flash). Aujourd'hui, IMFT est l'une des entreprises les plus puissantes et innovantes dans ce domaine.
+
+SSD
+
+Logos:
+Logo Intel du 18 juillet 1968 au 29 décembre 2005;
+Logo Intel Inside de 1991 au 29 décembre 2005;
+Logo Intel depuis le 30 décembre 2005.
+Le premier logo Intel est resté inchangé pendant 37 ans. À partir de 1991, malgré l'apparition du slogan "Intel Inside", il est encore le logo de la société. Ce dernier ne sera redessiné que le 30 décembre 2005.
+
+Recherche et développement
+En 2015, Intel investit 50 millions de dollars pour financer les travaux de recherche et développement que le groupe veut mener, dans le domaine de l'informatique quantique, en lien avec un institut de recherche universitaire QuTech aux Pays-Bas.
+
+Sites de production
+Intel possède ses propres usines contrairement à son principal concurrent, AMD.
+Intel possède 6 usines de fabrication de Wafer (en Arizona, au Nouveau-Mexique, en Oregon, en Irlande, en Israël et en Chine) et 3 usines d'assemblage final et de test (en Chine, au Viêt Nam et en Malaisie).
+
+Sponsoring (Commandite)
+Le 11 décembre 2013, Intel devient sponsor (commanditaire) du FC Barcelone après avoir passé un accord de 5 millions d'euros par année jusqu'en 2018.
+En 2016, Intel collabore avec Lady Gaga.
+
+Voir aussi
+
+Articles connexes: Centrino; AMD.

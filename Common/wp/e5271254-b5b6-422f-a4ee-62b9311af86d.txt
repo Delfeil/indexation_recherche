@@ -1,0 +1,56 @@
+En informatique, une routine est une entité informatique qui encapsule une portion de code (une séquence d'instructions) effectuant un traitement spécifique bien identifié (asservissement, tâche, calcul, etc.) relativement indépendant du reste du programme, et qui peut être réutilisé dans le même programme, ou dans un autre. Dans ce cas, on range souvent la routine dans une bibliothèque pour la rendre disponible à d'autres projets de programmation, tout en préservant l'intégrité de son implémentation.
+Les routines permettent de diviser un problème en décomposant le programme à réaliser en portions de code plus faciles à produire, à utiliser, à gérer et à entretenir. Les instructions réalisant la routine sont encapsulées à l'intérieur de celle-ci et le programmeur peut faire appel à la routine sans se préoccuper des détails internes à celle-ci ; la routine joue le rôle d'une boite noire dans les routines qui l'emploient.
+
+Sortes de routines
+En programmation informatique, on retrouve les routines sous deux formes principales :
+Une routine est effective seulement si elle retourne au moins une valeur à la routine appelante ou (inclusif) si elle a un effet sur son environnement (lecture d'un capteur, écriture sur un actionneur, altération d'une variable globale, etc.).
+
+Cas particuliers
+
+Déclaration
+Dans la plupart des langages de programmation, la déclaration (et par conséquent la définition) d'une routine comporte en général : un mot-clé (procedure, function, action, etc.) dans le cas d'une routine dans un langage les distinguant clairement ;; l'identifiant de la routine (nom donné par le programmeur à la routine) ;; la description des paramètres indiquant pour chacun (s'il y a des paramètre) : l'identifiant (nom) du paramètre ;; le type (explicite ou implicite) du paramètre (dans le cas d'une routine dans un langage typé).; l'identifiant (nom) du paramètre ;; le type (explicite ou implicite) du paramètre (dans le cas d'une routine dans un langage typé).; un corps contenant le code réalisant l'opération dévolue à cette routine.
+En plus, dans le cas d'une fonction, la déclaration d'une routine comporte aussi : le type de la routine (dans le cas d'une fonction d'un langage typé), c'est-à-dire le type de sa valeur de retour ;; l'affectation, dans le corps de la routine, d'un résultat à sa valeur de retour.
+Dans certains langages qui le permettent, ce qui est rare aujourd'hui (2016), on précise le mode d'échange associé à chaque paramètre : un paramètre en entrée permet à la routine de recevoir un argument, mais d'y écrire ;; un paramètre en sortie permet à la routine d'écrire dans l'argument ;; un paramètre à modifier permet à la routine de recevoir un argument et d'y écrire.
+Selon le langage de programmation considéré, tous ces éléments n'apparaissent pas forcément.
+La signature (profil) de la routine qui permet au traducteur (compilateur, interpréteur, etc.) de vérifier qu'on l'emploie de façon cohérente utilise habituellement : le type de la routine ;; l'identifiant de la routine ;; la liste des spécifications des paramètres.
+
+Paramètres
+Dans les implémentations actuelles (2013) des langages de programmation, une copie des arguments provenant de la routine appelante est reçue dans les paramètres de la routine appelée (routine invoquée) au lieu de travailler sur les véritables variables de la routine appelante, ce qui n'était pas toujours vrai dans les années 1960 (par exemple, en FORTRAN IV).
+Cependant, les routines demandent souvent l'adresse mémoire des variables de la routine appelante (arguments) plutôt que leurs valeurs. Ce mécanisme utilise un pointeur (ou une référence, en C++, Perl ou PHP). Normalement, par souci de modularité, une routine ne renvoie pas de valeur par modification des variables de la routine appelante (arguments). Par exemple, en Fortran, c'est formellement interdit par les spécifications du langage et détecté par les compilateurs. Une fonction peut renvoyer un seul résultat par sa valeur de retour. Ce résultat peut, entre autres, être : de grande taille, comme une chaîne de caractères en PL-I ou une structure en C ;; une adresse en mémoire ;; un simple code d'erreur (par exemple 0 si l'opération s'est bien terminé).
+
+Corps de la routine
+Le corps de la routine comprend : la définition des variables locales à la routine, certaines de ces variables n'existant que le temps de son exécution;; la séquence des instructions à exécuter.
+
+Exemple générique
+Soit à écrire 3 nombres par ordre croissant, on aura par exemple :
+Code. Explication. programme p1;. ----------------------------------------------; fonction min(réel a, b) : réel; début: -- Déterminer la valeur minimale. si a b alors: min :- a. sinon: min :- b. fin min. ----------------------------------------------; fonction max(réel a, b) : réel; début: -- Déterminer la valeur maximale en utilisant la fonction min. max :- (a+b - min(a,b)). fin max.
+.
+S'utilisant comme en mathématiques, les fonctions min et max définies ici : ont un profil du style (réel, réel)réel : avec 2 réels, elles en produisent un troisième, distinct ou non ;; ont les paramètres a et b (noms internes aux routines des valeurs fournies) ;; retournent leur valeur par l'affectation à min (ou max, selon le nom de la routine).
+La routine max : exploite la routine min par la relation a+b - min(a,b)+max(a,b).
+. ----------------------------------------------; action classeETsort(réel a, b, c); -- Variables locales à la procédure. réel inf, sup ; début: -- inf reçoit la plus petite valeur. inf:- min(a, min(b, c)); -- sup reçoit la plus grande valeur. sup:- max(a, max(b, c)); -- Afficher le triplet ordonné. écrire (inf, a+b+c-inf-sup, sup). fin classeETsort.
+.
+La procédure (ou l'action) classeETsort : a pour profil (réel, réel, réel), et a, b, c désignent les paramètres (noms internes des valeurs à traiter) ;; reçoit, lors de son appel par la routine principale, une copie des arguments (ou valeurs externes) r1, r2 et r3 dans ses aux paramètres a, b, c ;; passe directement les résultats à l'extérieur ;; comporte les variables locales inf et sup (pour la mémorisation de valeurs intermédiaires).
+. -- Variables globales au programme. réel r1, r2, r3.
+. début: -- Lire les 3 valeurs à trier. lire(r1); lire(r2); lire(r3); -- Trier les 3 valeurs et les afficher; -- en utilisant la procédure classeETsort. classeETsort(r1, r2, r3). fin p1.
+La routine principale du programme : utilise la routine lire, qui est un exemple d'action initialisant la variable indiquée, pour lire auprès de l'utilisateur du programme, les valeurs à trier; utilise la procédure classeETsort pour afficher les valeurs triées.
+Les routines lire (dans la routine principale) et écrire (dans la routine classeETsort) sont supposées prédéfinies ;
+.
+Exemple de fonction
+int max(int a, int b)
+(
+ return a b a : b;
+)
+...
+printf("%d", max(123,456)); max est une fonction en C ayant pour paramètres a et b de type int et renvoie un int. Les accolades (et) délimitent le corps de la fonction.
+On remarque que le nom de la fonction décrit bien l'opération qu'elle effectue (elle renvoie la valeur maximale entre a et b). Ce n'est pas une obligation du langage, mais constitue une bonne pratique de programmation : le nom de la fonction n'a d'importance que mnémotechnique, son comportement ne dépendant que des instructions dans son corps (donc ici entre accolades). Dans certains langages, le nom de la fonction a une importance particulière. Par exemple, en C++, les constructeurs et destructeurs doivent porter le nom de la classe correspondante.
+La dernière ligne du programme montre l'utilisation de la fonction max (on parle "d'appel de fonction") en argument de la fonction printf : max(123, 456).
+.
+Implémentation
+Tous les langages de programmation n'implémentent pas les deux formes de routines. Les langages qui implémentent les deux formes de routines réservent un mot-clef pour les distinguer lors de leur déclaration.
+Avec certains langages de programmation, les deux concepts sont proches, la distinction ne se faisant que dans le fait de retourner ou non une valeur ou lorsqu'une procédure tient lieu de fonction avec des résultats multiples ou si une fonction réalise des opérations d'entrée-sortie.
+Par contre, dans le cas de langages n'admettant, au côté des procédures, que des fonctions pures, les deux concepts sont très distinct.
+Par exemple, en langage C-C++ ou en Lisp toutes les routines sont des fonctions ; c'est pourquoi la documentation du langage ne parle que de fonction. Par contre, afin d'avoir l'équivalent de la procédure et pour convertir facilement des programmes écrits dans des langages ayant des procédures, le langage langage C-C++ fournit le type void qui permet de déclarer une fonction qui ne retourne rien, ce qui en fait une procédure. En langage C-C++, la valeur de retour de certaines fonctions, telles que printf (écriture sur le flux de sortie stdout) ou scanf (lecture sur le flux d'entrée stdin), qui rend compte de leur exécution, est plus souvent négligées par la routine qui l'utilise; elles jouent donc essentiellement un rôle d'instruction, comme une procédure.
+En Algol W, toute routine renvoie une valeur, qu'on peut utiliser ou non, ce qui ressemble à l'approche du langage C. PL-I ne considère une procédure que comme une fonction dont le résultat n'est pas mémorisé, ce qui ressemble aussi à l'approche du langage C.
+Par contre, les langages comme Fortran, Algol 60, BASIC, Pascal, Modula 2 distinguent clairement les deux concepts en utilisant des mots-clefs.
+
+Voir aussi: Sous-programme; Fonction (mathématiques); Méthode (informatique); Module (programmation); Programmation fonctionnelle; Fonction récursive; Fonction réentrante. Portail de la programmation informatique.

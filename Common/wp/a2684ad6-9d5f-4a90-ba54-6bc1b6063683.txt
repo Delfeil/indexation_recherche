@@ -1,0 +1,103 @@
+Le C (C sharp en anglais) est un langage de programmation orienté objet, commercialisé par Microsoft depuis 2002 et destiné à développer sur la plateforme Microsoft.NET.
+Il est dérivé du C++ et très proche du Java dont il reprend la syntaxe générale ainsi que les concepts, y ajoutant des notions telles que la surcharge des opérateurs, les indexeurs et les délégués. Il est utilisé notamment pour développer des applications web sur la plateforme ASP.NET.
+
+Présentation
+C est un langage de programmation orientée objet, fortement typé, dérivé de C et C++, ressemblant au langage Java. Il est utilisé pour développer des applications web, ainsi que des applications de bureau, des services web, des commandes, des widgets ou des bibliothèques de classes. En C, une application est un lot de classes où une des classes comporte une méthode Main, comme cela se fait en Java.
+C est destiné à développer sur la plateforme.NET, une pile technologique créée par Microsoft pour succéder à COM.
+Les exécutables en C sont subdivisés en assemblies, en namespaces, en classes et en membres de classe. Un assembly est la forme compilée, qui peut être un programme (un exécutable) ou une bibliothèque de classes (une dll). Un assembly contient le code exécutable en MSIL, ainsi que les symboles. Le code MSIL est traduit en langage machine au moment de l'exécution par la fonction just-in-time de la plateforme.NET.
+
+Plateforme.NET
+C est destiné à développer sur la plateforme.NET. Le coeur de cette pile technologique est le framework.NET, composé de: Les environnements ASP.NET et Winforms qui servent à exécuter des applications web, resp. de bureau conçus pour la plateforme.NET.; Une bibliothèque de classes qui permet de manipuler des fichiers, manipuler des tableaux ou des structures en arbres, accéder à Internet, créer des interfaces graphiques, accéder à des bases de données, accéder au registre Windows et beaucoup d'autres choses. La plupart des fonctionnalités sont offertes par des classes de l'espace de noms System. Le Common Language Runtime (abr. CLR) est le runtime utilisé par les langages de la plateforme.NET (C, Visual Basic.NET, J, etc.), les services fournis par la CLR sont le lancement et l'exécution de programmes, le ramasse-miettes et la gestion d'exceptions. Un programme pour la plateforme.NET est tout d'abord compilé en une forme intermédiaire, le MSIL, puis ce code MSIL est transformé en code machine qui sera exécuté par la CLR. Ce code machine est appelé managed code parce que son exécution est sous le contrôle de la CLR.
+Un autre produit de la plateforme.NET est l'environnement de développement Visual Studio.NET, outil généralement utilisé pour programmer en C.
+
+Caractéristiques
+C est un langage dérivé du C++, il apporte un typage sûr, ainsi que les possibilités d'encapsulation, d'héritage et de polymorphisme des langages orientés objet. En C tous les types sont des objets. Le langage comporte un ramasse-miettes et un système de gestion d'exceptions.
+Le typage sûr signifie notamment que les opérations suivantes sont refusées : utilisation de variable non initialisée, tentative d'accéder au-delà des limites d'un tableau, conversions de type dont les résultats ne sont pas prévisibles, dépassement des limites lors d'opérations arithmétiques.
+Beaucoup de possibilités de Java se retrouvent dans C et il y a une forte ressemblance entre un code écrit en C et le code équivalent en Java.
+En C les variables peuvent être d'un type référence ou d'un type valeur. Les types valeur sont les types primitifs, les énumérations, les struct et les types nullable. Les types référence sont les classes, les interfaces, les tableaux et les delegate. Types primitifs:
+Les types primitifs sont sbyte, short, int, long, byte, ushort, uint, ulong, char, float, double, decimal et bool. class:
+Les constructions la plus fondamentale du langage C sont les classes. Celles-ci peuvent contenir des constantes, des champs, des propriétés, des indexeurs, des méthodes, des événements, des opérateurs, des constructeurs, des destructeurs ou des sous-classes. Les classes élémentaires sont string et object. struct:
+Les struct sont similaires aux classes, mais ce sont des types valeurs et ils ne peuvent pas être hérités. delegate:
+Un delegate est une référence à une méthode qui comporte certains paramètres. Les delegates permettent d'assigner des méthodes à des variables et les passer en paramètre. enum:
+Un type énuméré est un type valeur qui comporte un lot de constantes. Chaque type énuméré a un type sous-jacent : un type primitif déterminé en fonction des valeurs des constantes. type nullable:
+Les nullable sont des types primitifs qui peuvent en plus avoir la valeur null. Chaque type primitif T a un type nullable associé T. Par exemple une variable de type int peut contenir un int ou null.
+
+Syntaxe
+Exemple de code :
+using System;
+
+class HelloWorld
+(
+ public static void Main
+ (
+ Console.WriteLine("hello world!");
+)
+): Mots clé:
+Les mots clé de C 1.0 sont :
+abstract class event if new readonly
+as const explicit implicit null ref
+base continue extern in object return
+bool decimal false int operator sbyte
+break default finally interface out sealed
+byte delegate fixed internal override short
+case do float is params sizeof
+catch double for lock private stackalloc
+char else foreach long protected static
+checked enum goto namespace public string
+
+struct throw typeof unchecked using volatile
+switch true uint unsafe virtual while
+this try ulong ushort void
+Les mots clés ajoutés entre C 2.0 et 6.0 :
+add dynamic join select
+alias equals let set
+ascending from nameof value
+async get on var
+await global orderby where
+by group partial when
+descending into remove yield
+
+Différences avec le C++
+Le langage compte un certain nombre de changements par rapport au C-C++ ; On notera particulièrement les points suivants : La manipulation directe de pointeurs ne peut se faire qu'au sein d'un code marqué unsafe, et seuls les programmes avec les permissions appropriées peuvent exécuter des blocs de code unsafe. La plupart des manipulations de pointeurs se font via des références sécurisées, dont l'adresse ne peut être directement modifiée, et la plupart des opérations de pointeurs et d'allocations sont contrôlées contre les dépassements de mémoire. Les pointeurs ne peuvent pointer que sur des types de valeurs, les types objets, manipulés par le ramasse-miettes, ne pouvant qu'être référencés.; Les objets ne peuvent pas être explicitement détruits. Le ramasse-miettes s'occupe de libérer la mémoire lorsqu'il n'existe plus aucune référence pointant sur un objet. Toutefois, pour les objets gérant des types non managés, il est possible d'implémenter l'interface IDisposable pour spécifier des traitements à effectuer au moment de la libération de la ressource.; L'héritage multiple de classes est interdit, mais une classe peut implémenter un nombre illimité d'interfaces, et une interface peut hériter de plusieurs interfaces.; Le C est beaucoup plus typé que le C++ ; les seules conversions implicites sont celles entre les différentes gammes d'entiers et celles d'un type dérivé à un type parent. Aucune conversion implicite n'a lieu entre booléens et entiers, entre membres d'énumération et entiers, ni de pointeurs sur un type void (quoique pour ce dernier point l'utilisation de références sur le type Object permette d'obtenir le même effet). Les conversions définies par l'utilisateur peuvent être définies comme implicites ou explicites.; La syntaxe pour la déclaration des tableaux n'est pas la même : int a - new int(5) remplace int a(5). Car il s'agit d'une allocation dynamique, int a étant la déclaration d'une référence (nulle si non initialisée). L'allocation manuelle d'un tableau sur la pile reste cependant possible avec le mot clé stackalloc.; Les membres d'une énumération sont rassemblés dans leur propre espace de noms.; Le C ne gère pas les templates, mais cette fonctionnalité a été remplacée par les types génériques apparus avec C 2.0.; Les propriétés ont été introduites, et proposent une syntaxe spécifique pour l'accès aux données membres (ainsi que la facilitation de l'accès simultané par plusieurs threads).; La réflexion totale des types est disponible.; Les délégués, qui sont des listes de pointeurs sur fonctions, sont utilisés notamment pour la programmation événementielle.
+
+Différences avec le Java
+Bien que le C soit similaire à Java, il existe des différences notables, par exemple : Java n'autorise pas la surcharge des opérateurs ;; Java a des exceptions vérifiées, alors que les exceptions du C ne sont pas vérifiées, comme en C++ ;; Java permet la génération automatique de la documentation HTML à partir des fichiers sources à l'aide des descriptions Javadoc-syntax, tandis que le C utilise des descriptions basées sur le XML ;; Java n'a pas de langage préprocesseur ;; C supporte les indexeurs, les méthodes déléguées, et les événements (là où Java se contente du patron de conception Observateur) ;; C ne supporte pas les implémentations anonymes d'interfaces et de classes abstraites ;; C ne supporte que les classes internes statiques ;; C supporte les structures en plus des classes (les structures sont des types valeur : on stocke le contenu et non l'adresse) ;; C utilise une syntaxe intégrée au langage (DllImport) et portable pour appeler une bibliothèque native, tandis que Java utilise Java Native Interface ;; C supporte la généricité, et la machine.NET a été modifiée pour permettre cela (Java la supporte également, mais son implémentation a été réalisée dans le compilateur javac sans changer le bytecode Java). Plus de détails sur l'aspect théorique de cette réalisation peuvent être trouvés dans la référence, diapositives 70 à 89.
+
+Histoire
+C'est en septembre 2000 que la plateforme.NET et C sont présentés au public. C devient le langage de facto de cette plateforme, il a par ailleurs été utilisé pour implémenter une partie de la plateforme.NET. versions:
+
+C 2.0
+Microsoft mit à disposition du public en octobre 2005, après une longue période de beta-tests, la version 2.0 de la bibliothèque.NET, accompagnée d'une nouvelle version de la quasi-totalité des outils associés. C ne fait pas exception à la règle et sort donc en version 2.0, avec les ajouts suivants : Les classes partielles, permettant de répartir l'implémentation d'une classe sur plusieurs fichiers.; Les types génériques, qui ne sont pas une simple copie des templates C++. Par exemple, on trouvera dans les génériques C la restriction de types (pour spécifier les types utilisables dans une généralisation). Par contre, il est impossible d'utiliser des expressions comme paramètres pour la généralisation.; Un nouvel itérateur qui permet l'utilisation de coroutines via le mot-clé yield, équivalent du yield que l'on trouve en Python.; Les méthodes anonymes avec des règles de fermeture configurables.; Les types "nullables", c'est-à-dire la possibilité de spécifier qu'un type de valeur peut être nul. Ceux-ci sont déclarés avec le caractère point d'interrogation suivant le nom du type, comme ceci : int i - null;.; Le nouvel opérateur double point d'interrogation utilise deux opérandes et retourne le premier non nul. Il a été introduit pour spécifier une valeur par défaut pour les types "nullables".
+À titre de référence, les spécifications complètes des nouveautés introduites dans la version 2.0 sont disponibles dans les liens externes.
+Anders Hejlsberg, le père de Delphi, s'est exprimé sur l'implémentation des génériques dans C, Java et C++ dans cette interview (en).
+La fonctionnalité des types nullables fut corrigée quelques semaines seulement avant la sortie publique de la version 2.0, car il a été mis en lumière que si la valeur de la variable était bien nulle, cette variable n'était pas nulle au sens traditionnel du terme, c'est-à-dire qu'il ne s'agit pas d'une référence vide. Ainsi, la conversion d'un type primitif de valeur nulle en objet donnait une référence non nulle vers une valeur nulle. Il fallut donc, pour corriger ce problème, corriger le noyau du CLR et effectuer de nombreuses vérifications et corrections sur tous les produits de la gamme.NET 2.0 (Visual Studio 2005, SQL Server 2005, C et VB.NET).
+
+C 3.0
+Le C 3.0 fut présenté au salon PDC 2005. La version finale est disponible depuis le 19 novembre 2007 au téléchargement sur le site de Microsoft (en). Les principales nouveautés sont les suivantes : L'ajout des mots-clefs select, from et where pour permettre la formation et l'exécution de requêtes SQL, XML, ou directement sur des collections. Cette fonctionnalité fait partie du programme Language Integrated Query (LINQ) (en).; Nouvelle possibilité d'initialisation d'un objet : À la place de Client c - new Client; c.Nom - "Dupont";, on peut utiliser Client c - new Client(Nom - "Dupont");; Expressions lambda : ListeTrucs.Where(delegate(Truc x) (return x.Size 10;)); devient ListeTrucs.Where(x - x.Size 10);; Inférence du type des variables locales : string s - "Dupont" peut être remplacé par var s - "Dupont"; Introduction des types anonymes : var x - new (Nom - "Dupont") peut être utilisé à la place de class --anonymous (private string -nom; public string Nom (get (return -nom;) set (-nom - value;))) --anonymous x - new --anonymous; x.Nom - "Dupont";; Les arbres d'expressions (expression trees) : permettent la compilation du code sous formes d'arbres d'objets facilement analysables et manipulables.; Méthodes étendues : permet d'ajouter des méthodes à une classe en y ajoutant un premier paramètre this.
+Une présentation du C 3.0 et de LINQ peut être trouvée sur la page du centre de développement de.NET Framework.
+Le code compilé en C 3.0 est entièrement compatible avec celui du 2.0, étant donné que les améliorations apportées ne sont que purement syntaxiques ou ne consistent qu'en des raccourcis compensés au moment de la compilation. Les nouveautés introduites dans les bibliothèques de la version 3.5 (LINQ, etc.) ne sont cependant pas utilisables avec les versions précédentes de C.
+Cette version exige Windows XP ou une version supérieure (Vista ou Windows 7). Elle n'est pas disponible pour Windows 2000.
+
+C 4.0
+La version 4 du langage apporte plusieurs nouveautés : le typage dynamique des variables à l'aide du mot clé dynamic ;; les arguments nommés et facultatifs ;; le support de la covariance et de la contravariance pour les interfaces et les délégués génériques.
+Le framework.NET 4.0 est sorti le 12 avril 2010, accompagné de Visual Studio 2010. Il propose entre autres : la nouvelle bibliothèque parallèle : Task Parallel Library ;; une version optimisée de la plate-forme entité d'accès aux bases de données (Entity Framework) via l'utilisation de LINQ ;; la version parallèle de LINQ appelée PLINQ.
+
+C 5.0
+La version 5 du langage permet de programmer plus simplement des programmes asynchrones grâce à l'ajout des mots clés async et await.
+Le comportement des closures dans la boucle foreach a été modifié. Il n'est désormais plus nécessaire d'introduire une variable locale dans une boucle foreach pour éviter les problèmes de closure.
+À noter également les informations relatives à l'appelant permettant de connaître le nom de la méthode qui a appelé une propriété.
+
+C 6.0
+La sixième version du C apporte plusieurs modifications, notamment :
+Les propriétés implémentées automatiquement (ou propriétés automatiques) sont apparues en C 3, pour simplifier la déclaration de propriétés qui se contentent d'encapsuler l'accès à des champs. Bien qu'elles permettent de rendre le code plus concis, elles présentent un inconvénient : il n'est pas possible de les initialiser au niveau de la déclaration, il faut forcément le faire dans le constructeur. De plus, il n'est pas possible de faire des propriétés automatiques en lecture seule, puisqu'elles n'ont pas de mutateur (setter) et on ne pourrait donc pas leur affecter de valeur.
+C 6 remédie à ce problème en permettant d'initialiser les propriétés automatiques au niveau de la déclaration.
+
+Standardisation
+Le C a été normalisé par l'ECMA (ECMA-334) en décembre 2001 et par l'ISO-CEI (ISO-CEI 23270) en 2003.
+Les modifications survenues dans la Version 2.0 ont été normalisées par l'ECMA (ECMA-334) en juin 2006 et par l'ISO-CEI (ISO-CEI 23270:2006) en septembre 2006.
+Microsoft a ouvert le code source de certaines bibliothèques utilisées par le C en octobre 2007 sous la licence Microsoft Reference Source License (MS-RSL).
+
+Nom du langage
+Le standard ECMA 334 et l'ISO 23270 définissent le nom du langage comme le caractère Unicode 0043 (C majuscule) suivi du caractère 0023. Il est prononcé "C sharp".
+
+Quelques Livres: C et.NET - Gérard Leblanc - 2002 - Éditions Eyrolles - ; C et.NET Version 2 - Gérard Leblanc - 2006 - Éditions Eyrolles - ; C Tête la première - Andrew Stellman, Jennifer Greene - 2008 - Éditions Digit Books - ; Introduction à C - Pierre-Yves Saumont, Antoine Mirecourt - 2001 - Éditions Eyrolles - ; Le guide de survie C - Gilles Tourreau - 2010 - Éditions Pearson Education - ; (en) C 2005 Programmer's Reference - Adrian Kingsley-Hughes, Kathie Kingsley-Hughes - 2006 - Édition Wrox - ; (en) C Essentials, 2nd Edition - Ben Albahari, Peter Drayton, Brad Merrill - 2002 - Édition O'Reilly Media - ; (en) Professional C, 3rd Edition - Simon Robinson, Christian Nagel, Karli Watson, Jay Glynn, Morgan Skinner, Bill Evjen - 2004 - Édition Wrox -. Portail de Microsoft; Portail de la programmation informatique; Portail de l'informatique.

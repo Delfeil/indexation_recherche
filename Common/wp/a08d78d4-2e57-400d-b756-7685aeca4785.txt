@@ -1,0 +1,19 @@
+Le microblog ou microblogue est un dérivé concis du blog typique du web 2.0 ou web social. Développé à partir de 2006 aux États-Unis, il permet des publications plus courtes que dans les blogs classiques, qu'il s'agisse de textes courts, d'images ou de vidéos embarquées. Les flux d'agrégation sont plus légers que dans les blogs traditionnels et peuvent contenir tout le message. La diffusion peut être restreinte par l'éditeur à un cercle de personnes désirées.
+Le but des microblogs est de diffuser plus fréquemment des informations en se limitant au minimum utile, à mi-chemin entre messageries instantanées et blogs. Comme les blogs, ils autorisent un archivage web ; comme les messageries instantanées, ils permettent la diffusion en temps réel d'informations jugées pertinentes par leurs éditeurs.
+
+Historique
+Des outils de type microblog existaient dès les années 1990, avant même l'apparition du terme "blog". Les premiers moteurs revendiquant une spécialisation dans ce type de service ont été nommés "tumblelog" le 12 avril 2005 par Why the lucky stiff, un écrivain prolifique ayant participé au langage de programmation Ruby, lorsqu'il décrivait Anarchaia de Christian Neukirchen. Jason Kottke réutilisa ce terme le 19 octobre 2005.
+Ce type de blog a ensuite été appelé "microblog" vers 2006. Il devint très populaire avec le service Twitter, créant une forme extrême de microblog en limitant les publications à 140 caractères de texte, un format proche de celui des SMS en téléphonie mobile. Ce service supporte tout de même les liens hypertexte et Tumblr, un microblog plus classique.
+
+Les services de microblogage
+Twitter est sans doute le service de microblogage le plus connu en Occident avec 241 millions d'utilisateurs en 2013.
+D'autres services existent tels identi.ca, Heello, Jaiku (racheté par Google Inc. en 2007), Soup, Tumblr, Yammer, Sina Weibo, Tencent Weibo ou Tencent Q-Zone (zh) (623 millions d'utilisateurs).
+Par ailleurs, de nombreux sites internet ou réseaux sociaux populaires tels que Facebook ont développé leur propre service de microblogage.
+Le phénomène s'internationalise depuis le début de l'année 2007 avec l'apparition de réseaux de microblogage locaux tels Frazr (France, Allemagne, Espagne), Bloggino (France) ou Zuosa (Chine).
+
+Services décentralisés
+À partir des années 2010 sont apparues des plateformes de microbloggage en pair à pair, offrant davantage d'anonymat et une indépendance face aux sociétés utilisant souvent les données personnelles à des fins commerciales. On peut citer : Cuckoo ;; Juick (ru), basé sur XMPP ;; Megaphone (en) ;; Pump.io (dérivé du moteur d'identi.ca) ;; Salut à Toi (ou SàT), basé sur XMPP ;; Twister, basé sur les réseaux DHT (notamment utilisé par bittorrent) et bitcoin.; Mastodon.
+
+Voir aussi
+
+Articles connexes: Les concepts apparentés Web 2.0, Blog et Micro-forum; Les technologies libres et décentralisées : StatusNet (en php, anciennement appelé Laconica) utilisant OpenMicroBlogging, Nukumi (en Ruby), juick.com, basé sur XMPP, Movim ((1), également basé sur XMPP).; Les plateformes de microblogage en place : Twitter, identi.ca, Jaiku (racheté puis fermé en 2012 par Google), Soup, Tumblelog.

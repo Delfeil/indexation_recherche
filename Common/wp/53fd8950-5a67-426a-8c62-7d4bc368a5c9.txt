@@ -1,0 +1,56 @@
+Les interactions homme-machines (IHM) définissent les moyens et outils mis en oeuvre afin qu'un humain puisse contrôler et communiquer avec une machine. Les ingénieurs en ce domaine étudient la façon dont les humains interagissent avec les ordinateurs ou entre eux à l'aide d'ordinateurs, ainsi que la façon de concevoir des systèmes qui soient ergonomiques, efficaces, faciles à utiliser ou plus généralement adaptés à leur contexte d'utilisation.
+L'amélioration de l'ergonomie de l'interface homme-machine a notamment pour objectif d'optimiser l'aménagement du poste de travail et de limiter ainsi les risques du travail sur écran (troubles musculosquelettiques, fatigue oculaire, syndrome d'épuisement professionnel, stress, stress numérique...).
+
+Introduction
+Le domaine d'interactions homme-machine, appelé IHM, s'intéresse à la conception et au développement de systèmes interactifs en prenant en compte ses impacts sociétaux et éthiques. L'homme interagit avec les ordinateurs qui l'entourent, cette interaction nécessite des médiatrices qui facilitent la communication entre l'homme et la machine. La facilitation de l'utilisation de dispositifs devient de plus en plus importante avec le nombre croissant d'interfaces numériques dans la vie quotidienne. L'IHM a pour but de trouver les moyens le plus efficaces, les plus accessibles et les plus intuitifs pour les utilisateurs afin de compléter une tache le plus rapidement et le plus précisément possible. L'IHM est pluridisciplinaire, elle bénéficie des sciences cognitives, linguistiques et de psychologie aussi bien que de la vision par ordinateur et que de l'électronique.
+
+Historique
+Éditeur de hypertexte à Brown University (1969)
+L'histoire de l'interaction homme-machine est aussi vieille que l'histoire de l'informatique. En 1945, Vannevar Bush décrit un système électronique imaginaire qui permet la recherche d'information et qui invente les concepts de navigation, indexation, annotation. En 1963, Ivan Sutherland a créé Sketchpad qui est considéré comme l'ancêtre des interfaces graphiques modernes. En 1964, Douglas Engelbart invente la souris pour facilement désigner des objets sur son écran. Dans les années 1970 et 80, les laboratoires de Xerox ont révolutionné les systèmes interactifs avec la sortie de Xerox Star et la présentation de What you see is what you get. Au début des années 1990, Robert Cailliau et Tim Berners-Lee inventent un système hypertexte qui entourera la planète, World Wide Web. En 1991, Mark Weiser présente sa vision de l'Informatique ubiquitaire qui envisage des écrans et des ordinateurs multiples capables de communiquer entre eux pour permettre l'utilisateur à accéder à l'information en toute circonstance. Cette vision préfigure clairement l'avènement des assistant personnels, Tablet PC et smartphones d'aujourd'hui.
+
+Les différentes techniques
+Une IHM ancienne : à chaque mécanisme son contrôle.
+Il existe de nombreuses manières pour qu'un humain puisse interagir avec les machines qui l'entourent. Ces manières sont très dépendantes des dispositifs d'interactions et des forces ou compétences que l'être humain ne peut étendre qu'extérieurement.
+
+Informatique
+L'informatique a évolué très rapidement avec ses débuts dans les années 1940 jusqu'à aujourd'hui.
+
+Organes d'entrée
+Les premiers ordinateurs étaient utilisés sous forme de traitement par lots et toutes les entrées (programmes et données) étaient alimentés en entrée par des cartes perforées, des rubans perforés ou des bandes magnétiques. Il y avait un clavier pour interagir avec le système (console système).
+Avec l'arrivée de la micro-informatique on a commencé à utiliser des cassette audio et des claviers, puis des disquettes et des souris informatique avant de passer aux écrans tactiles. Un système de pointage tel que la souris permet d'utiliser un ordinateur avec le paradigme WIMP qui s'appuie sur les interfaces graphiques pour organiser la présentation d'informations à l'utilisateur.
+
+Organes de sortie
+Les premiers organes de sorties ont été les imprimantes, les perforateurs de cartes et les perforateurs de ruban secondés ensuite par bandes magnétique. La console système était équipée d'une imprimante remplacée par un écran plus tard.
+Avec l'arrivée de la micro-informatique on a utilisé d'abord des cassette audio, puis des disquettes avant d'utiliser des CD puis des DVD.
+
+Organes interactifs
+Certaines techniques tentent de rendre l'interaction plus naturelle : la reconnaissance automatique de la parole ou de gestes permettent d'envoyer des informations à un ordinateur ;; la synthèse vocale permet d'envoyer un signal audio compréhensible par l'être humain ;; les gants de données offrent une interaction plus directe que la souris ;; les visiocasques essayent d'immerger l'être humain dans une réalité virtuelle, ou d'augmenter la réalité ;; les tables interactives permettent un couplage fort entre la manipulation directe par l'être humain sur une surface et le retour d'information.
+
+Automatisme
+Dans le domaine de l'automatisation, les écrans tactiles sont des IHMs très populaire afin de centraliser le contrôle d'un procédé sur un seul écran. Ainsi, il est possible d'afficher plusieurs informations et de mettre à la disposition de l'opérateur des commandes qui affecteront le procédé. Les IHMs permettent aussi de remplacer des stations de boutons. Ils sont surtout utilisés en complément avec un API (automate programmable industriel) pour avoir un affichage des états des entrées-sorties et des alarmes du système.
+En informatique industrielle, les automates sont encore très souvent pilotés par des baies équipées de boutons poussoirs et de voyants. Les systèmes autonomes de type véhicules automatiques et drones tendent à peu à peu à intégrer une "interface adaptative" voire une intelligence artificielle embarquée.
+
+Automobile
+Dans l'automobile, l'homme a, d'abord, interagi avec de simples moyens mécaniques ; l'évolution de l'informatique et de la robotique fait que de plus en plus de capteurs et d'informations sont disponibles pour le conducteur qui doit choisir l'action à effectuer par l'intermédiaire : du volant ;; de la pédale de frein ;; d'interrupteurs divers (éclairage, régulateur de vitesse, etc.).
+
+Paradigmes d'interfaces
+L'ancêtre de nos souris
+On peut observer que les IHM sont de plus en plus déconnectées de l'implémentation réelle des mécanismes contrôlés. Dans son article The Myth of Metaphor, Alan Cooper distingue trois grands paradigmes d'interface : 1) le paradigme technologique : l'interface reflète la manière dont le mécanisme contrôlé est construit. Comme le montre la photo de baie électronique ci-contre, cela conduit à des outils très puissants mais destinés à des spécialistes qui savent comment fonctionne la machine à piloter.; 2) le paradigme de la métaphore qui permet de mimer le comportement de l'interface sur celui d'un objet de la vie courante et donc déjà maîtrisé par l'utilisateur. Exemple : la notion de document.; 3) le paradigme idiomatique qui utilise des éléments d'interface au comportement stéréotypé, cohérent et donc simple à apprendre mais pas nécessairement calqué sur des objets de la vie réelle.
+
+Modes d'interaction
+Un gant de données
+L'interaction est dite multimodale si elle met en jeu plusieurs modalités sensorielles et motrices. Un système interactif peut contenir un ou plusieurs de ces modes d'interaction : Mode parlé : commandes vocales, guides vocaux...; Mode écrit : entrées par le clavier et la tablette graphique, affichage du texte sur l'écran...; Mode gestuel : désignation 2D ou 3D (souris, gants de données , écran tactile), retour d'effort...; Mode visuel : graphiques, images, animations...
+
+Les périphériques IHM
+Un moniteur graphique
+D'un point de vue organique, on peut distinguer trois types d'IHM : Les interfaces d'acquisition : boutons, molettes, joysticks, clavier d'ordinateur, clavier MIDI, télécommande, capteur de mouvement, microphone avec la reconnaissance vocale, etc.; Les interfaces de restitution : écrans, témoins à LED, voyants d'état du système, haut parleur, etc.; Les interfaces combinées : écrans tactiles, multi-touch et les commandes à retour d'effort.
+
+Prospective : un maillon d'une situation plus vaste
+Ce domaine évolue vers une interface plus large et pervasive de type "humain-environnement". Il serait sot de nier l'importance de la communication efficace entre l'homme et la machine, aussi bien que l'inverse. Ma prévision est toutefois que la vraie révolution des prochaines décennies viendra davantage encore de ce que les hommes ont à se dire par l'intermédiaire des machines
+- James Cannavino, The Next Generation of Interactive Technologies (Juillet 1989).
+L'immersion dans les mondes virtuels devrait également être rendue plus "réaliste".
+Des jeux comme Le Deuxième Monde, Everquest ou Wolfenstein: Enemy Territory, où plusieurs joueurs évoluent en immersion globale dans un paysage commun, donnent une idée des nouvelles relations que peuvent mettre en place des interfaces réalistes.
+
+Associations et Conférences Scientifiques
+La plus grande association d'IHM est le pôle d'intérêt commun SIGCHI de l'Association for Computing Machinery (ACM). SIGCHI organise les conférences Conference on Human Factors in Computing Systems (CHI) (1), MobileHCI, TEI et plusieurs autres.
+En France, Association Francophone d'Interaction Homme-Machine (AFIHM) (2) organise la Conférence francophone IHM tous les ans. L'AFIHM parraine diverses manifestations et en particulier des Écoles d'été et les Rencontres Jeunes Chercheurs en Interaction (RJC-IHM).

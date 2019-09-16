@@ -1,0 +1,17 @@
+Le graphe d'une fonction f de E dans F est le sous-ensemble G de EF formé par les couples d'éléments liés par la correspondance :
+
+Fonctions numériques
+Cet ensemble est appelé le graphe de f parce qu'il permet d'en donner une représentation graphique dans le cas usuel où E et F sont des ensembles de réels : en effet, on peut alors parfois représenter E et F sur deux axes sécants, chaque couple de G peut alors être représenté par un point dans le plan, muni d'un repère défini par les deux axes. On parle aussi de courbe représentative de la fonction.
+Si E est le plan ℝ et F est l'ensemble des réels ℝ, le graphe de la fonction est une surface gauche dans l'espace euclidien à 3 dimensions.
+Il est possible alors de se ramener à une représentation plane en considérant des courbes de niveau, c'est-à-dire en dessinant dans le plan de départ une carte altimétrique du relief de la surface gauche.
+Dans le cas des fonctions complexes, E est le plan complexe C et F est aussi l'ensemble des complexes C. Le besoin de 4 dimensions rend la représentation graphique plus compliquée. Plusieurs méthodes existent, soit en utilisant deux graphes en 3 dimensions (parties réelle et imaginaire, module et argument), soit en utilisant un graphe en 2 dimensions associé à la coloration de régions.
+
+Tests des verticales et des horizontales: Test de la droite verticale: Une partie G de EF est le graphe d'une fonction de E dans F si et seulement si pour tout élément x de E, G((x)F) est un singleton ou vide. C'est le graphe d'une application de E dans F si et seulement si pour tout x dans E, G((x)F) est un singleton. Test de la droite horizontale: Une fonction de E dans F de graphe G est injective si et seulement si pour tout élément y de F, G(E(y)) est un singleton ou vide. Elle est surjective si et seulement si pour tout y dans F, G(E(y)) est non vide.
+Une partie G de EF est donc le graphe d'une bijection de E dans F si et seulement si pour tout x dans E, G((x)F) est un singleton et pour tout y dans F, G(E(y)) est un singleton.
+
+Topologie
+Lorsque E et F sont des espaces topologiques, F étant séparé, si l'application f est continue alors son graphe est fermé dans EF. La réciproque est fausse, comme en témoigne l'application de ℝ dans ℝ qui à x associe 0 si x 0 et 1-x si x 0. Elle est vraie cependant si F est compact (ou même seulement quasi-compact). Ces deux implications se généralisent aux fonctions multivaluées.
+
+Voir aussi
+
+Articles connexes: Relation binaire, pour une définition plus générale dans le cadre de la théorie des ensembles; Étude de fonction; Représentation graphique d'une fonction mathématique; Système de coordonnées; Théorème du graphe fermé.

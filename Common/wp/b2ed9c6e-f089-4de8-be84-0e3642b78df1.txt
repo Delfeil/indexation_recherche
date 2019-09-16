@@ -1,0 +1,10 @@
+Bruit
+Dans les sciences de l'information et des bibliothèques, on parle de bruit lorsque des réponses non-pertinentes sont proposées par le système d'interrogation de la base de données. Ces réponses sont mêlées à des réponses pertinentes mais ces dernières risquent de ne pas être vues par l'utilisateur. Cela peut arriver notamment avec les catalogues de bibliothèque. Les causes du bruit peuvent être multiples : l'utilisateur n'utilise pas assez de termes dans sa requête ;; l'utilisateur formule une requête comprenant trop de termes coordonnés par ou.
+Soit un ensemble N de documents, A est un sous-ensemble de N et comporte les réponses pertinentes pour la recherche d'un usager, B est le sous-ensemble de N constitué des réponses obtenues. Plus A est inférieur à B, plus le bruit est grand et le taux de précision est faible.
+
+Silence
+Dans les sciences de l'information et des bibliothèques, on parle de silence lorsque des réponses pertinentes ne sont pas proposées par le système d'interrogation de la base de données, alors qu'elles existent. Cela peut arriver notamment avec les catalogues de bibliothèque. Les causes du silence peuvent être multiples : l'utilisateur formule une requête comprenant trop de termes coordonnés par et ;; l'indexation de la base est insuffisante ;; l'indexation de la base suit un langage rigide et compliqué que l'utilisateur ne connaît pas (exemple : indexation et recherche à partir seulement d'un thesaurus).
+Soit un ensemble N de documents, A est un sous-ensemble de N et comporte les réponses pertinentes pour la recherche d'un usager, B est le sous-ensemble de N constitué des réponses obtenues. Plus A est supérieur à B, plus le silence est grand et le taux de rappel est faible.
+
+Bruit et silence
+Sur une même requête, on peut rencontrer du bruit et du silence. Des documents intéressants sont mal indexés (silence) et des documents inutiles répondent à l'équation de recherche. Par exemple, si un utilisateur tape Viking, les documents indexés avec le mot Normands peuvent ne pas apparaître (silence) et certains parlant des sondes spatiales apparaître (bruit). Portail sciences de l'information et bibliothèques.

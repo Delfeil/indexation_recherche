@@ -1,0 +1,47 @@
+Le web squared (aussi appelé web au carré ou web carré) est une étape intermédiaire entre le web 2.0 et le futur web 3.0. Il étend la portée du web 2.0 pour lui trouver des domaines d'application dans le monde réel.
+
+Définitions
+Pour définir le Web Squared, il faut d'abord revenir aux sources. La première étape, le web 1.0 se définit comme étant une plateforme pour les documents. Le web 2.0, terme pour la première fois abordé en 2004, puis utilisé surtout dans les années 2006-2007, est désigné comme étant un changement majeur dans les usages de l'internet, car il repose sur l'intelligence collective des données, le web étant la plateforme pour les individus.
+Par anticipation, le web 3.0 a été défini. Il s'agit du web comme plateforme pour les données.
+Cependant, pour Tim O'Reilly (auteur et éditeur, un des leaders du monde de l'internet) et John Battelle (entrepreneur, auteur et journaliste reconnu) ; dans leur article "Web Squared: Web 2.0 Five Years On" ; il y aurait une étape intermédiaire, une évolution du web 2.0, qu'ils ont appelé "le web squared".
+L'idée étant d'étendre la portée du web 2.0 au-delà de la frontière des ordinateurs, du web et des utilisateurs, des individus, pour lui trouver des domaines d'application dans le monde réel, directement sur le terrain.
+Le web squared, peut être qualifié de web exponentiel. Alors que l'intelligence collective des hommes est le point central du web 2.0, le web squared exploite l'intelligence collective des données.
+Concrètement, quand les systèmes génèrent des données par leur activité, le web squared permet de les capter et de les connecter à des outils capables de les traiter afin de les transformer en informations disponibles pour les internautes.
+Le web squared est souvent confondu avec le web des données, il s'agit finalement de la même chose.
+On peut également s'appuyer sur cette source "The Evolving Web In 2009: Web Squared Emerges To Refine Web 2.0", de Dion Hinchcliffe, pour compléter la définition du web squared.
+Le Web Squared, ou Web, est donc présenté comme un complément du Web 2.0, une étape qui va nous mener vers le prochain stade majeur, le fameux Web 3.0, qui est encore mal défini.
+Dans son article, Dion Hinchcliffe explique l'évolution du web et définit les grands axes du Web Squared avec ce tableau.
+Pour comprendre les grands axes du Web Squared, il est important de définir les deux termes suivants.
+
+Implied Metadata
+Le terme d'Implied Metadata correspond à des métadonnées qui sont générées automatiquement et des systèmes auto-apprenants qui les traite. Explications :
+De nos jours, le web est une mine d'or d'informations, voire en surabondance d'informations, puisqu'on parle d'infobésité.
+Dans le cadre du web squared, pour traiter cette masse d'informations, on va utiliser des métadonnées, qui sont des données permettant de traiter d'autres données.
+Par exemple, le contenu d'une photo ne peut être reconnue par les ordinateurs (à part certains logiciels de reconnaissance faciale).
+Par conséquent, pour avoir plus d'informations, des appareils vont associés des données à ces photos, comme la position GPS, le type d'appareil photo, etc.
+Ces données pourront être par la suite collectées et exploitées par des applications, comme FlickR, où il est possible de parcourir les photos de la communauté en fonction de l'endroit géographique de la prise, du type d'appareil, etc.
+On peut donc analyser de nombreuses informations sans que l'utilisateur ait eu à les saisir, d'où la notion d'implied metadata.
+Mais l'exploitation de ces données peut aller plus loin avec des systèmes auto-apprenants, capables de générer des métadonnées à partir de recoupements. Ces techniques sont utilisées par exemple par des logiciels de reconnaissance faciale qui reconnaissent des visages à partir de 2 ou 3 exemples fournis.
+Ainsi, il est possible de trouver de nombreux autres domaines d'application grâce à l'exploitation de données potentiellement fournies par des capteurs.
+On voit bien là l'évolution : alors qu'au stade du Web 2.0, on assiste seulement à une collecte des données (data), le web squared est ici différent : on utilise ces données, voir on les recoupe avec d'autres, à des fins d'utilisations diverses.
+
+Data Ecosystems
+L'organisation du data a aussi évolué. Au stade du web squared, on parle de Data Ecosystems : ce sont des bases de connaissances structurées, ouvertes et universelles.
+Les écosystèmes de données permettent de relier entre elles des bases de connaissances qui étaient auparavant cloisonnées. Pour comprendre le fonctionnement de ces Data Ecosystems, il faut d'abord expliquer deux notions les composant : les Linked Data et les Data Sets.
+Le terme Linked Data est utilisé pour décrire une méthode de partage et de connexion de données entre elles, qu'on connaît avec les URL. Mais cette méthode est limitée, car ne permet que de lier deux données entre elles.
+Une nouvelle idée est donc de proposer une alternative plus souple et surtout plus puissant qui repose sur 4 principes : Utiliser des URIs (qui est l'ensemble des Uniform Ressource Locators- emplacement précis, ex : http:--www.wikipedia.org, et des Uniform Ressource Name c'est-à-dire l'identification d'un nom dans un espace de noms : ex : livre ayant l'isbn (International Standard Book Number) isbn:0-395-36341-1, ne suggère aucun emplacement ;; Utiliser des adresses http pour un accès universel (aussi bien pour les utilisateurs que pour les machines) ;; Structurer les informations sur la ressource à l'aide de métalangage;; Lier ces informations à d'autres données (via des URIs).
+Les Data Sets sont des groupes de données qui sont connectées entre eux, grâce aux Linked Data, chaque donnée enrichit les autres et multiplie ainsi la valeur du tout.
+L'objectif des Data Ecosystems est donc de créer une gigantesque base de bases de données, une méta base de données qui les regroupe toutes. L'idée étant que l'on puisse créer de la valeur en liant des données de différents horizons (médicales, culturelles, etc.).
+Linked Data et Data Sets ne sont qu'un exemple d'initiatives concourant à la création de Data Ecosystems mais il en existe d'autres comme le format CommonTag qui vise à standardiser l'utilisation des tags.
+Le web sémantisé n'est donc pas pour tout de suite, mais les différents grands acteurs se mettent en rang pour terminer cette conversion au plus vite.
+
+Pourquoi le "Web squared"
+Ce terme permet de simplifier tous les termes techniques qui s'y cachent (Information Shadow, Liked Data, Implied Metadata, etc.), dans le but de faire comprendre son fonctionnement, et le basculement que nous sommes en train de vivre, au plus grand nombre.
+Nous arrivons actuellement vers la fin de ce que le web peut nous offrir en termes de partage de documents - contenus, de même que pour les interactions sociales, bien qu'il existe encore de nombreux services et domaines d'application à trouver dans ces deux domaines, mais le plus gros est déjà fait.
+Actuellement, nous sommes déjà en train de vivre la prochaine grosse étape du web : le web en temps réel, la réalité augmentée, les objets communicants, les écosystèmes de données sont des innovations en cours de maturation qui vont complètement bouleverser notre façon de communiquer, consommer, travailler, nous divertir...
+Pour marquer cette itération, nous avons besoin d'éduquer le marché (utilisateurs, annonceurs, opérateurs, pouvoirs publics...) et pour cela il faut pouvoir capitaliser sur un terme simple : le Web (Web Squared).
+Par conséquent, on peut dire que tout reste à faire. Le travail de démocratisation ne fait que commencer, il nous faut le temps de se familiariser avec ces différentes notions, d'en tester les applications pour bien appréhender la (r)évolution qui approche.
+
+Voir aussi
+
+Articles connexes: Internet; Web 2.0; Web 3.0; Métadonnée.

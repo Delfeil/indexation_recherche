@@ -1,0 +1,28 @@
+L'Exchangeable image file format ou EXIF est une spécification de format de fichier pour les images utilisées par les appareils photographiques numériques. Il a été établi par le Japan Electronic Industry Development Association (JEIDA). Cette spécification repose sur des formats existants tels que JPEG, TIFF version 6.0 et RIFF format de fichier audio WAVE, en y ajoutant des balises de métadonnées. L'Exif n'est pas supporté avec les formats JPEG 2000 ou PNG.
+Les données EXIF constituent un remplacement commode du petit carnet qui accompagnait, à l'époque de la photographie chimique, les photographes méticuleux. Sur les appareils numériques, elles sont bien entendu conservées automatiquement avec chaque photo.
+La première version des spécifications date d'octobre 1995 et la dernière version 2.3 a été publiée en avril 2010.
+Les balises de métadonnées définies dans le format EXIF standard couvrent un large éventail de données, dont : Information de la date et de l'heure. Les appareils numériques enregistrent la date et l'heure de la prise de vue et l'insèrent dans les métadonnées ;; Les réglages de l'appareil. Cela comprend des informations statiques telles que la marque et le modèle de l'appareil et des informations variables telles que l'orientation, l'ouverture, la vitesse d'obturation, la longueur de focale, la sensibilité....
+GPS Solmeta Geotagger N2 Kompass pour Nikon D300. Des informations géographiques provenant d'un éventuel système GPS connecté à l'appareil. En 2008, de plus en plus d'appareils gèrent cette fonction. Certains photographes utilisent un système classique pour localiser leurs déplacements puis ajoutent manuellement aux métadonnées les coordonnées géographiques correspondant aux données temporelles de la photographie ;; Description et information des droits d'auteur.
+
+Programmes
+Les données Exif sont incorporées au fichier d'image lui-même. Les récents programmes de retouche et traitement d'images (par exemple Photoshop) reconnaissent les données Exif et les conservent lors de la modification du fichier, ce qui n'était pas le cas avec certaines anciennes versions publiées avant 2003.
+Le format Exif est essentiellement destiné à être généré lors de la création du fichier et à n'être jamais modifié ensuite : en effet, certains éléments peuvent être endommagés en cas de modification d'autres éléments. Il est donc recommandé pour ajouter ou modifier des métadonnées (titre, mot clé, etc.) d'utiliser un autre format comme XMP ou IPTC.
+Il existe néanmoins des programmes éditeurs de données EXIF comme EXIFManager, EXIFTool, Geosetter, Konvertor ou autres.
+Par exemple, le logiciel exiftool (en), qui propose aussi une bibliothèque Perl, permet de supprimer ou d'éditer les données Exif en ligne de commande sous Linux. La commande exiftool -all- -.jpg supprimera toutes les méta-données des images jpeg présentes dans le dossier courant.
+
+Développement
+La spécification EXIF n'est plus maintenue car il n'y a pas d'entité publique ou de personne officielle derrière EXIF.
+
+Robustesse
+Les logiciels ne conservent pas tous intégralement les informations EXIF. Certains logiciels, surtout s'ils sont anciens, ne gèrent pas la présence des informations EXIF qui sont donc supprimées lors du traitement d'une photo. La mise à jour du logiciel denis-draw 8.0 interprète correctement les informations d'orientations des fichiers exif, quand elles sont lues dans un fichier Jpeg. Par ailleurs, la plupart des logiciels (tels Photoshop ou Paint Shop Pro) permettent une suppression volontaire des EXIF. Enfin, les informations EXIF ne sont pas forcément exactes car il est possible de les modifier à volonté avec un logiciel spécialisé comme ExifTools.
+On peut citer les cas suivants : L'importation en mode Camera Raw dans Photoshop d'un CR2 de Canon fait perdre l'information sur la focale de l'objectif.
+Plusieurs revues photographiques et ouvrages spécialisés dans le traitement d'image recensent ces particularités
+
+Exemple
+Le tableau suivant montre les données EXIF d'une photographie prise avec un appareil numérique type. Le nom de l'auteur et les informations de copyright ne sont pas fournis par l'appareil et ont été précisés postérieurement, lors des différentes étapes du traitement de l'image.
+
+Liste des principales métadonnées EXIF
+
+Voir aussi
+
+Articles connexes: Photographie numérique; Traitement d'images; XMP; Format de fichier; IPTC; Le wikilivre de photographie; Métadonnées TIFF; Métadonnées JFIF.

@@ -1,0 +1,51 @@
+Aide de Wikipédia Modifier un article, une section, un titre, etc. Niveau débutant Les catégories sont un système de classement thématique des articles de Wikipédia, présent en bas de chaque page. Pour ajouter, modifier ou supprimer des catégories avec l'Editeur visuel, voir le guide de l'EV, section "modifier des catégories".
+Chaque article est classé, selon son sujet, dans une ou plusieurs catégories. Par exemple, l'article Nobeoka, consacré à une ville japonaise de la Préfecture de Miyazaki, est classé dans la Catégorie:Ville du Japon et dans la Catégorie:Municipalité de la préfecture de Miyazaki.
+Les catégories sont elles-mêmes classées dans d'autres catégories, thématiquement plus larges. Par exemple, la Catégorie:Municipalité de la préfecture de Miyazaki est classée dans la Catégorie:Préfecture de Miyazaki, cette dernière étant elle-même classée dans la Catégorie:Préfecture du Japon.
+De proche en proche, on accède à des catégories couvrant des domaines de plus en plus vastes, comme la Catégorie:Géographie. Il est possible de connaître l'arborescence des catégories à partir d'une catégorie donnée grâce à l'outil Spécial:ArbreCatégorie
+
+Présentation d'une page de catégorie
+Comme les articles, les pages de catégorie possèdent une page de discussion et un historique associé, ainsi qu'un onglet modifier et de suivi. Leur titre est toujours précédé du préfixe "Catégorie:". Comme les articles, les catégories peuvent recevoir des liens interlangue.
+Aspect d'une catégorie (partie supérieure de la page) : Aspect d'une catégorie (partie inférieure de la page) :
+L'affichage d'une catégorie se présente en trois zones successives, encadrées par un titre et un pied de page : 1) L'exposé du thème : le thème est essentiellement défini par le titre de la page. Il peut être complété par un bref texte descriptif en "en-tête" (ou exposé du thème sur l'image ci-contre), pouvant définir le contenu de la catégorie, le classement ou expliciter le titre, à l'aide de liens vers un article, un portail ou une catégorie connexes (exemple Catégorie:Distribution de l'énergie électrique).; 2) La liste des sous-catégories : c'est l'ensemble des catégories qui ont pour catégorie mère cette catégorie, classées alphabétiquement. Elles ne sont pas modifiables directement sur cette page. Pour apparaître à l'écran, cette zone doit contenir au moins une sous-catégorie.; 3) La liste des articles : c'est l'ensemble des articles qui ont un lien direct avec cette catégorie, classés alphabétiquement. Cette liste regroupe l'ensemble des articles ne pouvant être inclus dans l'une ou l'autre des sous-catégories. Comme pour la zone des sous-catégories, on ne peut intervenir directement sur ces liens. Pour apparaître à l'écran, cette zone doit contenir au moins un article. Dans certains cas, la page comporte aussi une zone contenant des vignettes et des liens vers des fichiers multimédia.; 4) Le pied de page : il contient les catégories mères de la catégorie. Elles sont directement modifiables par l'onglet "modifier".
+
+Structure du réseau de catégories
+Les éléments suivants expliquent les grandes lignes de l'organisation des catégories de la Wikipédia francophone. Il ne doit pas exister de catégorie isolée. Toutes doivent être reliées entre elles de manière hiérarchique. Ce réseau structuré est appelé arborescence. Malgré ce nom d'arborescence, le réseau ne s'apparente pas à un arbre avec des branches et des ramifications de plus en plus fines : une feuille peut en effet se trouver sur plusieurs branches ! Pour rester dans les métaphores, il ressemble plutôt au delta d'un fleuve : dans un delta, l'eau se jette dans la mer en passant par différents canaux qui s'entrecroisent.; La catégorie la plus générale de Wikipédia est appelée Catégorie:Accueil. C'est la seule à n'être pas catégorisée.; Quand deux catégories sont reliées entre elles, on désigne l'une par "catégorie mère" et l'autre par "sous-catégorie".; Les catégories ont des profils variés. Elles peuvent avoir une ou plusieurs catégories mères. Elles peuvent avoir plusieurs, une seule ou aucune sous-catégorie.; Une catégorie vide, sans article ni sous-catégorie, n'a aucune raison d'exister. Ces catégories sont supprimées lors d'opérations de maintenance.
+Exemple de catégorisation de Catégorie:Mammifère préhistorique.
+Recherches
+
+Arbre des catégories: L'outil Spécial:ArbreCatégorie permet de connaître facilement toutes les sous-catégories d'une catégorie donnée.
+
+Recherche d'une catégorie
+Il existe plusieurs méthodes et plusieurs outils pour rechercher une catégorie. La catégorie d'accueil est l'équivalent de la page d'accueil pour les catégories. Elle présente une série de catégories clés pour faciliter la navigation.; Une catégorie peut être trouvée via l'habituelle fonction "rechercher" située en haut à droite de chaque page : il faut précéder sa recherche du préfixe "Catégorie:". Par exemple on recherchera "Catégorie:Géographie".; Dans le moteur de recherche avancé de Wikipédia, vérifiez que la case "Catégorie" est bien cochée, puis recherchez la catégorie que vous désirez.; On peut choisir la catégorie la plus large dont on est sûr de l'existence (exemple : Catégorie:Musique), visualiser la page puis se déplacer dans les sous-catégories et les catégories mères jusqu'à trouver celle qui convient.
+
+Catégorie et Recherche avancée
+Pour effectuer des recherches avancées, vous pouvez utiliser tous les avantages apportés par le classement des articles en catégories et utiliser les outils tels que "incategory", CatScan, ou CatScan2. Pour cela, voir Aide:Recherche avancée.
+
+Catégorisation des articles
+Les articles doivent être associés aux bonnes catégories. Ces tâches de classement font partie du travail de création de Wikipédia. Elles participent aussi à la qualité de l'encyclopédie.
+Les auteurs d'un article ont une bonne connaissance de leur sujet. Ils sont les mieux placés pour classer leur article dans la bonne catégorie. Pour classer l'article, il suffit d'ajouter la catégorie dans le code de l'article, sans intervenir sur la page de la catégorie. L'ajout d'une catégorie à un article met à jour la page de la catégorie.
+A placer en bas de la page d'un article, la syntaxe de base en édition est : ((Catégorie:Nom de la catégorie)).
+Par exemple, le marqueur de la catégorie "Théorie de la musique" aura la forme suivante : ((Catégorie:Théorie de la musique)).
+Ainsi, le placer sur un article comme ceci, a eu pour effet de faire apparaître automatiquement l'article Classification de la musique dans la Catégorie:Théorie de la musique.
+
+Ordre de tri
+Chaque page est triée par défaut sous la première lettre de son nom complet. "La Petite Sirène" est ainsi classée par défaut à "L".
+Jusqu'en octobre 2013, une limitation technique imposait d'enlever les accents dans la clé de tri. Ce n'est plus nécessaire depuis une correction technique approuvée en septembre 2013.
+Les espaces typographiques sont traitées comme telles, et non comme des tirets bas (symboles de soulignement). Des caractères d'espacement différents sont également traités distinctement.
+Une page dont le titre commence par un nombre est classée selon son premier chiffre et non sa valeur. "1 chien", "11 chiens" et "112 chiens" apparaissent tous dans la section "1" (et non dans les sections "1", "10", et "100"). Cela a pour effet de classer "112 chiens" avant "2 chiens" dans la page de catégorie.
+Si une page doit être classée sur la base d'un nom alternatif (clé de tri), il est possible de l'indiquer dans la balise de catégorie :
+Par exemple pour placer l'article Albert Einstein dans la catégorie "Lauréat du prix Nobel de physique" et voir l'article trié comme "Einstein, Albert", vous pouvez taper :
+La clé de tri n'est pas visible pour les lecteurs. Elle n'affecte que l'ordre dans lequel les pages s'affichent dans la page de la catégorie mentionnée.
+Il est souvent souhaitable d'indiquer le système utilisé pour les clés de tri dans la page de description de la catégorie.
+
+Clé de tri par défaut
+Il est possible de positionner une clé de tri par défaut différente du nom de la page en utilisant le mot magique ((DEFAULTSORT)) de la manière suivante :
+Si plusieurs DEFAULTSORT sont présents dans une page (même "cachés" dans des modèles), seul le dernier d'entre eux est pris en compte pour l'ensemble des catégories.
+Voir aussi Aide:CatégorisationParticularité : les clefs de tri et Aide:SyntaxePlacer une catégorie
+
+Faire un lien vers une catégorie
+Il peut être utile dans une discussion de faire un lien vers une catégorie sans inclure la page dans la catégorie, il faut dans ce cas utiliser une des méthodes suivantes : taper le code de catégorisation en ajoutant ":" entre "((" et "Catégorie:", par exemple ((:Catégorie:Musique)) donne le lien Catégorie:Musique ;; utiliser le modèle ((Catégorie)), par exemple ((CatégorieMusique)) donne le lien catégorie "Musique".
+
+Voir aussi
+
+Articles connexes: Wikipédia:Conventions sur les catégories; Catégorie:Accueil : les catégories principales classées par thèmes; Projet:Catégories : projet pour l'amélioration de la catégorisation; Articles sans catégories : mise à jour manuelle; Pages sans catégories : mise à jour automatique; Aide:Catégorie-Glossaire; Spécial:ArbreCatégorie outil Wikipédia de représentation arborescente de catégories.

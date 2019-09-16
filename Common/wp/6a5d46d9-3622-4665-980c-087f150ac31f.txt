@@ -1,0 +1,78 @@
+L'International Standard Serial Number (ISSN) ou Numéro international normalisé des publications en série est un numéro international qui permet d'identifier de manière unique une publication en série. Il concerne donc les journaux, les revues et les collections de monographies, quel que soit le support. Au-delà de son rôle d'identification des titres, l'ISSN est un outil essentiel pour la gestion des périodiques pour l'archivage électronique, le catalogage, la distribution, la gestion des abonnements et la numérisation. Les monographies emploient quant à elles la numérotation ISBN. L'ISSN est normalisé par le texte ISO 3297:2007 (ICS no 01.140.20) et dépend du comité technique ISO-TC46 (Information et documentation). Initialement publié en 1975, le texte officiel a été révisé en 1986, 1998 et 2007. Cette norme peut être commandée sur le site de l'ISO.
+
+Présentation
+Un numéro ISSN se présente sous la forme de deux groupes de quatre chiffres séparés par un tiret, précédés de l'acronyme "ISSN" lui-même. Le huitième chiffre est un chiffre de contrôle calculé en fonction d'un algorithme modulo 11 sur la base des 7 précédents chiffres, ce peut être un "X" si le résultat du calcul est égal à 10, en vue d'éviter toute ambiguïté. Comme la valeur du dernier chiffre est totalement dépendante de celles des sept premiers, il existe 10 millions d'ISSN possibles (10 puissance 7) dont un peu moins de 2 millions ont déjà été attribués (en juin 2017), soit 20 % de toutes les combinaisons.
+Exemple : Pour le numéro ISSN (à 7 chiffres) ISSN 0395-203 quelle est-la clé de contrôle
+Soit au total 114 dont le reste de la division euclidienne par 11 est 4. La clé de contrôle est donc 11 - 4 - 7. L'ISSN au complet est : ISSN 0395-2037 (Il s'agit de l'ISSN du quotidien Le Monde).
+C'est un code numérique qui n'a aucune signification intrinsèque (contrairement aux chiffres d'un ISBN). Un ISSN est lié à : un titre; une période (année-année); une langue; un support (papier ou électronique).
+Chaque fois que l'un de ces quatre paramètres change, l'ISSN change aussi. Si une publication change de titre puis reprend son ancien titre, il faudra alors trois ISSN distincts car les périodes seront distinctes.
+L'ISSN est associé au titre de la publication ; si celui-ci est modifié de manière significative, un nouvel ISSN doit être attribué sans qu'il annule pour autant le numéro précédent. Par exemple : ISSN 1273-9006 : France-observateur (1954-1964); ISSN 0029-4713 : Le Nouvel observateur (Paris) (1964-).
+
+Principes généraux
+
+Attribution
+L'ISSN (International Standard Serial Number) identifie toutes les ressources continues, quel que soit leur support, imprimé ou électronique : journaux ;; publications annuelles (rapports, annuaires, répertoires...) ;; revues ;; magazines ;; collections ; sites web ; bases de données ;; blogs ; etc.
+L'ISSN identifie la publication en tant que telle, en référence à son titre et à son support. Ainsi, on aura toujours le même ISSN pour : tous les fascicules d'un périodique ;; tous les numéros d'un magazine ;; tous les CD-Rom d'une série ; etc.
+Si la publication est déclinée sur différents supports (publication électronique, publication en braille, etc.), il faut un numéro ISSN par support.
+
+ISSN de presse écrite
+Le "p-ISSN" (en anglais : press ISSN) est l'ISSN par défaut, qui concerne la presse écrite.
+
+ISSN électronique
+Le "e-ISSN" (ou eISSN, en anglais electronic ISSN) est l'ISSN qui concerne la presse électronique (en ligne).
+
+ISSN de liaison
+Révisée en septembre 2007, la norme ISO 3297 prévoit désormais l'attribution d'un ISSN de liaison, ou ISSN-L , à toute ressource continue. Répondant à un vrai besoin, l'ISSN-L permet d'identifier sans ambiguïté une ressource donnée indépendamment de son support. Par exemple, l'ISSN-L fera le lien entre la version imprimée d'un quotidien et sa version internet.
+
+Réseau ISSN
+
+Centre international de l'ISSN
+Le Réseau ISSN a été établi de façon formelle en 1975. Le Centre international de l'ISSN (CIEPS) a été officiellement créé à Paris en 1976, en vertu d'un accord signé entre l'UNESCO et la France, État hôte du Centre international.
+Cet accord est repris dans une loi et un décret ayant rang de traité multilatéral, dont l'UNESCO est dépositaire.
+Le CIEPS coordonne l'activité des pays membres, il est responsable du maintien et de l'édition du Registre international de l'ISSN. Il est également chargé d'attribuer des ISSN aux publications internationales, ainsi qu'aux publications éditées dans les pays ne disposant pas de Centre national ISSN.
+Le Centre international de l'ISSN a fêté ses 40 ans en 2015.
+
+Centres francophones
+L'attribution d'un ISSN est de la compétence du Centre national ISSN dont dépend l'éditeur qui en fait la demande. Si un pays ne dispose pas de Centre national ISSN, c'est le Centre international de l'ISSN qui procède à l'attribution de l'ISSN. Il existe 13 centres francophones sur les 88 centres que compte le réseau en 2014 : Europe : France, Belgique, Suisse, Luxembourg ;; Afrique : Bénin, Maroc, Tunisie, Sénégal, Mali, Algérie, Burkina Faso, Maurice ;; Amérique : Canada.
+En France, l'ISSN est attribué gratuitement par la Bibliothèque nationale de France.
+
+Services associés
+
+Registre de l'ISSN
+Publié par le Centre international de l'ISSN, le Registre international de l'ISSN répertorie tous les ISSN attribués à des publications en série. C'est la source de référence la plus complète au monde en matière d'identification de publications en série.
+Depuis ses débuts, plus d'1,8 million d'ISSN ont été attribués par le Réseau ISSN.
+
+ISSN Premium
+ISSN Premium est un service du Centre international de l'ISSN permettant la vérification de listes de titres-ISSN et l'extraction sur mesure d'une partie des données du Registre de l'ISSN.
+
+LTWA
+LTWA , "List of Title Word Abbreviations", soit en français "Liste d'abréviations de mots de titres" est une liste qui contient toutes les abréviations normalisées utilisées pour les mots des titres de revue dans les citations scientifiques. Basée sur la norme ISO 4, elle est tenue à jour par le Centre international de l'ISSN.
+Exemple : Titre : Journal international de biologie moléculaire Titre abrégé : J. int. biol. mol.
+La LTWA comprend plus de 56 000 mots et leurs abréviations dans 65 langues.
+
+ROAD
+ROAD, Directory of Open Access scholarly Resources, est un nouveau service mis en ligne par le Centre international de l'ISSN en collaboration avec le Secteur de la Communication et de l'Information de l'UNESCO. ROAD est disponible en version béta depuis décembre 2013.
+ROAD donne accès gratuitement à un sous-ensemble de notices bibliographiques qui décrivent des ressources scientifiques en accès libre identifiées par un ISSN : des revues, des monographies, des comptes rendus de conférences, et des dépôts d'archives universitaires. Ces notices, créées par les Centres ISSN (88 Centres nationaux dans le monde + le Centre international de l'ISSN), sont enrichies par des métadonnées concernant la couverture d'une ressource par des bases d'indexation, des registres et des indicateurs de performance.
+Ceux-ci sont actuellement au nombre de 15 : EconLit, PsycINFO, Scopus, Catalogo (Latindex), DOAJ, The Keepers Registry, SJR, SNIP, CAB Abstracts, Global Health, Linguistics Abstracts, MEDLINE, PubMed Central (PMC), ATLA Religion Database et ATLA Catholic Periodical and Literature Index.
+
+Identifiants associés
+
+ISSN et DOI
+La norme ISO 3297:2007 précise le lien entre ISSN et DOI. Grâce aux métadonnées, l'ISSN identifie de manière précise un titre de périodique tandis qu'un DOI au niveau d'un titre de périodique électronique crée un lien permanent vers la page de titre de cette ressource. Les métadonnées enregistrées par l'éditeur lorsqu'il crée un DOI pour une revue sont uniquement le titre, le titre abrégé, l'ISSN et l'URL.
+Exemple : l'éditeur Wiley publie la revue Abacus. L'ISSN de la version électronique de cette revue est 1467-6281, utilisé comme suffixe dans le DOI correspondant 10.1111-(ISSN)14676281. Ce DOI est utilisé dans l'adresse de la revue sur le site public de Wiley : http:--onlinelibrary.wiley.com-journal-10.1111-(ISSN)1467-6281.
+
+ISSN et codes à barres
+La norme ISO 3297:2007 précise également le lien entre ISSN et EAN. Un préfixe spécifique est ajouté à l'ISSN à 7 chiffres (sans la clé de contrôle). Un suffixe peut être ajouté par l'éditeur et une clé de contrôle complète l'identifiant qui est matérialisé par un code à barres sur les publications imprimées. Il est géré au niveau international par GS1 International , organisme situé à Bruxelles. Pour les publications en série, le code à barres EAN 13 est structuré de la façon suivante : les 3 premiers chiffres correspondent au préfixe 977 attribué aux publications en série, les 7 chiffres suivants correspondent à l'ISSN (sans le tiret et sans le caractère de contrôle final), les 11e et 12e caractères sont variables et peuvent être utilisés par l'éditeur pour exprimer des informations complémentaires (changement de prix par exemple), le 13e caractère est une clé de contrôle calculée selon le modulo 10.
+Le code EAN 13 peut être complété par un additif de 2 ou 5 caractères indiquant habituellement le numéro de la livraison.
+
+Partenariats
+
+The Keepers Registry
+The Keepers Registry est un service en ligne qui a pour objectif de recenser les modalités d'archivage des revues électroniques scientifiques. Celui-ci permet de savoir si une revue électronique est conservée de façon pérenne ou si elle court le risque d'être perdue.
+Développé par Edina à l'Université d'Edimbourg en partenariat avec le Centre international de l'ISSN, ce service a pour origine un projet financé par JISC, "Piloting an E-journals Preservation Registry Service" (PEPRS). Le nom "The Keepers" (Les Gardiens) désigne les organisations qui gèrent des programmes d'archivage pérenne pour les revues électroniques.
+Le Registre international de l'ISSN joue un rôle clé de données d'autorité auxquelles sont associées les métadonnées fournies par chacune des organisations d'archivage, concernant les contenus qu'elles traitent.
+
+Latindex
+Latindex est une initiative lancée en 1997 par l'Université Nationale Autonome du Mexique (UNAM) pour promouvoir la visibilité et la diffusion des revues et journaux scientifiques latino-américains, et améliorer la qualité des journaux et revues publiés dans la région. Aujourd'hui, Latindex est un réseau régional qui compte 23 pays membres en Amérique Latine, aux Caraïbes ainsi que l'Espagne et le Portugal.
+
+Voir aussi

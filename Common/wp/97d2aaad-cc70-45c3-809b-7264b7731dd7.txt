@@ -1,0 +1,102 @@
+Un neurone formel est une représentation mathématique et informatique d'un neurone biologique. Le neurone formel possède généralement plusieurs entrées et une sortie qui correspondent respectivement aux dendrites et au cône d'émergence du neurone biologique (point de départ de l'axone). Les actions excitatrices et inhibitrices des synapses sont représentées, la plupart du temps, par des coefficients numériques (les poids synaptiques) associés aux entrées. Les valeurs numériques de ces coefficients sont ajustées dans une phase d'apprentissage. Dans sa version la plus simple, un neurone formel calcule la somme pondérée des entrées reçues, puis applique à cette valeur une fonction d'activation, généralement non linéaire. La valeur finale obtenue est la sortie du neurone.
+Le neurone formel est l'unité élémentaire des réseaux de neurones artificiels dans lesquels il est associé à ses semblables pour calculer des fonctions arbitrairement complexes, utilisées pour diverses applications en intelligence artificielle.
+Mathématiquement, le neurone formel est une fonction à plusieurs variables et à valeurs réelles.
+
+Le neurone formel de McCulloch et Pitts
+
+Historique
+Le premier modèle mathématique et informatique du neurone biologique est proposé par Warren McCulloch et Walter Pitts en 1943. En s'appuyant sur les propriétés des neurones biologiques connues à cette époque, issues d'observations neurophysiologiques et anatomiques, McCulloch et Pitts proposent un modèle simple de neurone formel. Il s'agit d'un neurone binaire, c'est-à-dire dont la sortie vaut 0 ou 1. Pour calculer cette sortie, le neurone effectue une somme pondérée de ses entrées (qui, en tant que sorties d'autres neurones formels, valent aussi 0 ou 1) puis applique une fonction d'activation à seuil : si la somme pondérée dépasse une certaine valeur, la sortie du neurone est 1, sinon elle vaut 0 (cf les sections suivantes).
+McCulloch et Pitts étudiaient en fait l'analogie entre le cerveau humain et les machines informatiques universelles. Ils montrèrent en particulier qu'un réseau (bouclé) constitué des neurones formels de leur invention a la même puissance de calcul qu'une machine de Turing.
+Malgré la simplicité de cette modélisation, ou peut-être grâce à elle, le neurone formel dit de McCulloch et Pitts reste aujourd'hui un élément de base des réseaux de neurones artificiels. De nombreuses variantes ont été proposées, plus ou moins biologiquement plausibles, mais s'appuyant généralement sur les concepts inventés par les deux auteurs. On sait néanmoins aujourd'hui que ce modèle n'est qu'une approximation des fonctions remplies par le neurone réel et, qu'en aucune façon, il ne peut servir pour une compréhension profonde du système nerveux.
+
+Formulation mathématique
+On considère le cas général d'un neurone formel à m (-displaystyle m) entrées, auquel on doit donc soumettre les m (-displaystyle m) grandeurs numériques (ou signaux, ou encore stimuli) notées x 1 (-displaystyle x-(1)) à x m (-displaystyle x-(m)). Un modèle de neurone formel est une règle de calcul qui permet d'associer aux m (-displaystyle m) entrées une sortie : c'est donc une fonction à m (-displaystyle m) variables et à valeurs réelles.
+Neurone formel avec 2 entrées et une fonction d'activation à seuil
+Dans le modèle de McCulloch et Pitts, à chaque entrée est associé un poids synaptique, c'est-à-dire une valeur numérique notée de w 1 (-displaystyle w-(1)) pour l'entrée 1 (-displaystyle 1) jusqu'à w m (-displaystyle w-(m)) pour l'entrée m (-displaystyle m). La première opération réalisée par le neurone formel consiste en une somme des grandeurs reçues en entrées, pondérées par les coefficients synaptiques, c'est-à-dire la somme: w 1 x 1 +... + w m x m - j - 1 m w j x j. (-displaystyle w-(1)x-(1)+-ldots +w-(m)x-(m)--sum -(j-1)(m)w-(j)x-(j).).
+À cette grandeur s'ajoute un seuil w 0 (-displaystyle w-(0)). Le résultat est alors transformé par une fonction d'activation non linéaire (parfois appelée fonction de sortie), (-displaystyle -varphi). La sortie associée aux entrées x 1 (-displaystyle x-(1)) à x m (-displaystyle x-(m)) est ainsi donnée par: (w 0 + j - 1 m w j x j) (-displaystyle -varphi -left(w-(0)+-sum -(j-1)(m)w-(j)x-(j)-right)),.
+qu'on peut écrire plus simplement : (j - 0 m w j x j) (-displaystyle -varphi -left(-sum -(j-0)(m)w-(j)x-(j)-right)),.
+en ajoutant au neurone une entrée fictive x 0 (-displaystyle x-(0)) fixée à la valeur 1 (-displaystyle 1).
+Dans la formulation d'origine de McCulloch et Pitts, la fonction d'activation est la fonction de Heaviside (fonction en marche d'escalier), dont la valeur est 0 ou 1. Dans ce cas, on préfère parfois définir la sortie par la formule suivante: (j - 1 m w j x j w 0) (-displaystyle -varphi -left(-sum -(j-1)(m)w-(j)x-(j)-w-(0)-right)),.
+qui justifie le nom de seuil donné à la valeur w 0 (-displaystyle w-(0)). En effet, si la somme j - 1 m w j x j (-displaystyle -sum -(j-1)(m)w-(j)x-(j)) dépasse w 0 (-displaystyle w-(0)) la sortie du neurone est 1, alors qu'elle vaut 0 dans le cas contraire : w 0 (-displaystyle w-(0)) est donc le seuil d'activation du neurone, si on considère que la sortie 0 correspond à un neurone "éteint".
+
+Variantes du neurone de McCulloch et Pitts
+La plupart des neurones formels utilisés actuellement sont des variantes du neurone de McCulloch et Pitts dans lesquelles la fonction de Heaviside est remplacée par une autre fonction d'activation. Les fonctions les plus utilisées sont : la fonction sigmoïde ;; la fonction tangente hyperbolique ;; la fonction identité ;; la fonction rectifieur : f(x) - max(0, x) ;; La moyenne de la moyenne ou f(x,y)-1-2((x+y)-2)+x) , x - poids du synapse actuel, y - x attendu; dans une moindre mesure, certaines fonctions linéaires par morceaux.
+Ces choix sont motivés par des considérations théoriques et pratiques issues de la combinaison des neurones formels en un réseau de neurones formels.
+
+Propriétés importantes de la fonction d'activation
+Les propriétés de la fonction d'activation influent en effet sur celle du neurone formel et il est donc important de bien choisir celle-ci pour obtenir un modèle utile en pratique.
+Quand les neurones sont combinés en un réseau de neurones formels, il est important par exemple que la fonction d'activation de certains d'entre eux ne soit pas un polynôme sous réserve de limiter la puissance de calcul du réseau obtenu. Un cas caricatural de puissance limitée correspond à l'utilisation d'une fonction d'activation linéaire, comme la fonction identité : dans une telle situation le calcul global réalisé par le réseau est lui aussi linéaire et il est donc parfaitement inutile d'utiliser plusieurs neurones, un seul donnant des résultats strictement équivalents.
+Cependant, les fonctions de type sigmoïde sont généralement bornées. Dans certaines applications, il est important que les sorties du réseau de neurones ne soient pas limitées a priori : certains neurones du réseau doivent alors utiliser une fonction d'activation non bornée. On choisit généralement la fonction identité.
+Il est aussi utile en pratique que la fonction d'activation présente une certaine forme de régularité. Pour calculer le gradient de l'erreur commise par un réseau de neurones, lors de son apprentissage, il faut que la fonction d'activation soit dérivable. Pour calculer la matrice hessienne de l'erreur, ce qui est utile pour certaines analyses d'erreur, il faut que la fonction d'activation soit dérivable deux fois. Comme elles comportent généralement des points singuliers, les fonctions linéaires par morceaux sont relativement peu utilisées en pratique.
+
+La fonction sigmoïde
+La fonction sigmoïde (aussi appelée fonction logistique ou fonction en S) est définie par :
+f s i g (x) - 1 1 + e x (-displaystyle f-(sig)(x)-(-frac (1)(1+e(-x))))
+Elle possède plusieurs propriétés qui la rendent intéressante comme fonction d'activation.
+Elle n'est pas polynômiale
+Elle est indéfiniment continûment dérivable et une propriété simple permet d'accélérer le calcul de sa dérivée. Ceci réduit le temps calcul nécessaire à l'apprentissage d'un réseau de neurones. On a en effet
+d d x f s i g (x) - f s i g (x) (1 f s i g (x)) (-displaystyle (-frac (d)(dx))f-(sig)(x)-f-(sig)(x)-left(1-f-(sig)(x)-right)).
+On peut donc calculer la dérivée de cette fonction en un point de façon très efficace à partir de sa valeur en ce point.
+De plus, la fonction sigmoïde renvoie des valeurs dans l'intervalle (0 ; 1) (-displaystyle (0;1)), ce qui permet d'interpréter la sortie du neurone comme une probabilité. Elle est aussi liée au modèle de régression logistique et apparaît naturellement quand on considère le problème de la séparation optimale de deux classes de distributions gaussiennes avec la même matrice de covariance.
+Cependant, les nombres avec lesquels travaillent les ordinateurs rendent cette fonction difficile à programmer.
+En effet, e 60 10 26 (-displaystyle e(-60)-simeq 10(-26)), et avec la précision des nombres à virgule des ordinateurs, 1 10 26 - 1 (-displaystyle 1-10(-26)-1), et donc f s i g (60) - 1 (-displaystyle f-(sig)(60)-1).
+Lorsque vous essayez de coder un réseau de neurones en commettant cette erreur, après apprentissage, quelles que soient les valeurs que vous mettrez en entrée de votre réseau, vous obtiendrez toujours le même résultat.
+Il existe heureusement de nombreuses solutions pour tout de même utiliser f s i g (x) - 1 1 + e x (-displaystyle f-(sig)(x)-(-frac (1)(1+e(-x)))) dans votre programme, et certaines d'entre elles sont dépendantes d'un langage. Elle reviennent toutes à utiliser une représentation des nombres flottants, plus précise que l'IEEE754. Parfois, normaliser les entrées entre 0 et 1 peut suffire à régler le problème.
+
+La fonction tangente hyperbolique
+La fonction tangente hyperbolique, définie par
+tanh (x) - e x e x e x + e x (-displaystyle -tanh(x)-(-frac (e(x)-e(-x))(e(x)+e(-x))))
+est aussi très utilisée en pratique, car elle partage avec la fonction sigmoïde certaines caractéristiques pratiques : non polynomiale; indéfiniment continûment dérivable; calcul rapide de la dérivée par la formule. d d x tanh (x) - 1 (tanh (x)) 2 (-displaystyle (-frac (-mathrm (d))(-mathrm (d) x))-tanh(x)-1--left(-tanh(x)-right)(2)).
+On ne peut pas cependant lui donner une interprétation probabiliste aussi claire.
+
+Autres neurones formels
+Le développement des réseaux de neurones artificiels a conduit à l'introduction de modèles différents de celui de McCulloch et Pitts. La motivation n'était pas de mieux représenter les neurones réels, mais plutôt d'utiliser les propriétés de certaines constructions mathématiques pour obtenir des réseaux plus efficaces (par exemple avec un apprentissage plus simple, ou encore utilisant moins de neurones).
+Comme le neurone de McCulloch et Pitts, les neurones présentés dans cette section possèdent m (-displaystyle m) entrées numériques.
+
+Neurone à base radiale
+Un neurone à base radiale est construit à partir d'une fonction du même nom. Au lieu de réaliser une somme pondérée de ses entrées, un tel neurone compare chaque entrée à une valeur de référence et produit une sortie d'autant plus grande (proche de 1) que les entrées sont proches des valeurs de références.
+Chaque entrée x i (-displaystyle x-(i)) est donc associée à une valeur c i (-displaystyle c-(i)). La comparaison entre les deux jeux de valeurs se fait généralement au sens de la norme euclidienne. Plus précisément, le neurone commence par calculer la grandeur suivante: x c - i - 1 m (x i c i) 2 (-displaystyle -left--mathbf (x) --mathbf (c) -right--(-sqrt (-sum -(i-1)(m)-left(x-(i)-c-(i)-right)(2)))).
+Il est parfaitement possible d'utiliser une autre norme que la norme euclidienne, et plus généralement une distance quelconque, pour comparer les vecteurs x - (x 1 ,.. x m) (-displaystyle -mathbf (x) --left(x-(1),-ldots ,x-(m)-right)) et c - (c 1 ,.. c m) (-displaystyle -mathbf (c) --left(c-(1),-ldots ,c-(m)-right)).
+Le neurone transforme ensuite la valeur obtenue grâce à une fonction d'activation. Sa sortie est donc finalement donnée par: (x c) (-displaystyle -varphi -left(-left--mathbf (x) --mathbf (c) -right--right)).
+La fonction calculée par le neurone est dite à base radiale car elle possède une symétrie radiale autour du point de référence c (-displaystyle -mathbf (c)) : si on réalise une rotation quelconque autour de ce point, la sortie du neurone reste inchangée.
+En pratique, il est très courant d'utiliser une fonction d'activation gaussienne définie par: (u) - exp (u 2) (-displaystyle -varphi (u)--exp -left(--beta u(2)-right)).
+Le paramètre (-displaystyle -beta) peut être interprété comme l'inverse de la sensibilité du neurone : plus il est grand, plus il faut que les entrées soient proches des valeurs de références pour que la sortie du neurone soit proche de 1.
+
+Neurone Sigma-Pi
+Un neurone Sigma-Pi est obtenu en remplaçant la somme pondérée des entrées du modèle de McCulloch et Pitts par une somme pondérée de produits de certaines entrées.
+Considérons par exemple le cas de deux entrées. La sortie d'un neurone de McCulloch et Pitts s'écrit sous la forme (w 0 + w 1 x 1 + w 2 x 2) (-displaystyle -varphi -left(w-(0)+w-(1)x-(1)+w-(2)x-(2)-right)), alors que celle d'un neurone Sigma-Pi est donnée par: (w 0 + w 1 x 1 + w 2 x 2 + w 12 x 1 x 2) (-displaystyle -varphi -left(w-(0)+w-(1)x-(1)+w-(2)x-(2)+w-(12)x-(1)x-(2)-right)),.
+la différence résidant donc dans la présence du terme produit x 1 x 2 (-displaystyle x-(1)x-(2)).
+Dans le cas général à m (-displaystyle m) entrées, on obtient une sortie de la forme suivante: (w 0 + j - 1 p w j k I j x k) (-displaystyle -varphi -left(w-(0)+-sum -(j-1)(p)w-(j)-prod -(k-in I-(j))x-(k)-right)).
+Dans cette formule, p (-displaystyle p) est un entier quelconque qui désigne le nombre de produits d'entrées utilisés. L'ensemble I j (-displaystyle I-(j)) est un sous-ensembles de (1 ,.. m) (-displaystyle -(1,-ldots ,m-)) qui précise les entrées à multiplier entre elles pour obtenir le terme numéro j (-displaystyle j). Selon cette notation, l'exemple donné plus haut pour 2 entrées correspond à p - 3 (-displaystyle p-3) (3 termes dans la somme), I 1 - (1) (-displaystyle I-(1)--(1-)) (entrée 1 utilisée seule), I 2 - (2) (-displaystyle I-(2)--(2-)) (entrée 2 utilisée seule) et I 3 - (1 , 2) (-displaystyle I-(3)--(1,2-)) (produit des entrées 1 et 2).
+La formulation utilisée montre qu'il existe de nombreuses possibilités pour construire un neurone Sigma-Pi pour un nombre donné d'entrées. Ceci est lié à la croissance exponentielle avec le nombre d'entrées du nombre de sous-ensembles d'entrées utilisables pour construire un neurone Sigma-Pi : il existe en effet 2 m (-displaystyle 2(m)) combinaisons possibles (en considérant la combinaison vide comme celle correspondant au seuil w 0 (-displaystyle w-(0))). En pratique, quand m (-displaystyle m) devient grand (par exemple à partir de 20), il devient quasi impossible d'utiliser tous les termes possibles et il faut donc choisir les produits à privilégier. Une solution classique consiste à se restreindre à des sous-ensembles de k (-displaystyle k) entrées pour une valeur faible de k (-displaystyle k).
+La formulation générale de ces neurones est aussi à l'origine du nom Sigma-Pi qui fait référence aux lettres grecques capitales Sigma et Pi utilisées en mathématiques pour représenter respectivement la somme et le produit.
+
+Calcul logique neuronal
+Le neurone de McCulloch et Pitts (dans sa version d'origine) peut réaliser des calculs logiques élémentaires.
+
+Fonctions logiques calculables
+Considérons par exemple un neurone formel à deux entrées dont on fixe les poids synaptiques à 1. En fonction de la valeur du seuil, le neurone réalise une fonction logique, telle le OU logique ou le ET logique. On remarque en effet que la sortie du neurone est donnée par: H (x 1 + x 2 + w 0) (-displaystyle H-left(x-(1)+x-(2)+w-(0)-right)),.
+où H (-displaystyle H) désigne la fonction de Heaviside. En fonction des valeurs des entrées, on a donc les résultats suivants :
+On distingue quatre cas, selon la valeur de w 0 (-displaystyle w-(0)).
+Si le w 0 (-displaystyle w-(0)) est positif ou nul, la sortie du neurone vaut toujours 1 (en accord avec la définition de la fonction de Heaviside).
+Si 1 w 0 0 (-displaystyle -1-leq w-(0)0), la table devient :
+et le neurone calcule donc un OU logique.
+Si 2 w 0 1 (-displaystyle -2-leq w-(0)-1), la table devient :
+et le neurone calcule donc un ET logique.
+Enfin, si w 0 2 (-displaystyle w-(0)-2), le neurone donne toujours un résultat nul.
+Par le même type de raisonnement, on constate qu'un neurone à une entrée peut n'avoir aucun effet (neurone identité) ou réaliser un NON logique.
+Par linéarité de la somme pondérée, si on multiplie en même temps les poids synaptiques et le seuil d'un neurone par un nombre positif quelconque, le comportement du neurone est inchangé, et la modification est totalement indiscernable. En revanche, si on multiplie tout par un nombre négatif, le comportement du neurone est inversé, puisque la fonction d'activation est croissante.
+En combinant des neurones de McCulloch et Pitts, c'est-à-dire en utilisant les sorties de certains neurones comme entrées pour d'autres neurones, on peut donc réaliser n'importe quelle fonction logique. Quand on autorise en outre des connexions formant des boucles dans le réseau, on obtient un système avec la même puissance qu'une machine de Turing.
+
+Limitations
+Un neurone seul ne peut pas cependant représenter n'importe quelle fonction logique, mais seulement des fonctions logiques monotones. L'exemple le plus simple de fonction non calculable directement est le OU exclusif, en raison de son caractère non monotone.
+Démonstration
+On peut donner une démonstration élémentaire de cette propriété. Étudions en effet les propriétés que devraient vérifier les poids d'un neurone calculant la fonction OU exclusif. Comme le OU exclusif de 0 et 0 vaut 0, on doit avoir H (w 0) - 0 (-displaystyle (H(w-(0))-0)), soit donc: w 0 0 (1) (-displaystyle (w-(0)0)-;(1)),.
+par définition de la fonction de Heaviside. Quand l'une des deux entrées du neurone vaut 0 et l'autre 1, la sortie doit être 1. Cela implique donc H (w 1 + w 0) - 1 (-displaystyle (H(w-(1)+w-(0))-1)), soit donc: w 1 + w 0 0 (2) (-displaystyle (w-(1)+w-(0)-geq 0)-;(2)).
+De même, on doit avoir: w 2 + w 0 0 (3) (-displaystyle (w-(2)+w-(0)-geq 0)-;(3)).
+Enfin, quand les deux entrées valent 1, la sortie vaut 0, soit donc H (w 1 + w 2 + w 0) - 0 (-displaystyle (H(w-(1)+w-(2)+w-(0))-0)), ce qui implique: w 1 + w 2 + w 0 0 (4) (-displaystyle (w-(1)+w-(2)+w-(0)0)-;(4)).
+En ajoutant les équations (1) et (4), on obtient: w 1 + w 2 + 2 w 0 0 (5) (-displaystyle (w-(1)+w-(2)+2w-(0)0)-;(5)),.
+alors que l'ajout des équations (2) et (3) donne: w 1 + w 2 + 2 w 0 0 (6) (-displaystyle (w-(1)+w-(2)+2w-(0)-geq 0)-;(6)). Les deux équations (5) et (6) ne peuvent être vérifiées simultanément ce qui montre qu'aucune valeur des poids ne peut permettre à un neurone de McCulloch et Pitts de représenter la fonction OU exclusif.
+Voir aussi
+
+Articles connexes: ADALINE; Algèbre de Boole; Automate; Perceptron; Réseau de neurones. Portail des neurosciences.

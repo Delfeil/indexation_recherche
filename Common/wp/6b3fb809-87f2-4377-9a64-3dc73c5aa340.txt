@@ -1,0 +1,154 @@
+Un smartphone, ordiphone ou téléphone intelligent, est un téléphone mobile disposant en général d'un écran tactile et d'un appareil photographique numérique, et des fonctions d'un assistant numérique personnel et de certaines fonctions d'un ordinateur portable.
+La saisie des données se fait le plus souvent par le biais d'un écran tactile ou, plus rarement d'un clavier ou d'un stylet.
+Selon le principe d'un ordinateur, il peut exécuter divers logiciels-applications grâce à un système d'exploitation spécialement conçu pour mobiles, et donc en particulier fournir des fonctionnalités en plus de celles des téléphones mobiles classiques comme : l'agenda, la télévision, le calendrier, la navigation sur le Web, la consultation et l'envoi de courrier électronique, la géolocalisation, le dictaphone-magnétophone, la calculatrice, la boussole, l'accéléromètre, le gyromètre la messagerie vocale visuelle, la cartographie numérique, etc. Les appareils les plus sophistiqués bénéficient de la reconnaissance vocale et de la synthèse vocale.
+Il est possible de personnaliser son smartphone en y installant des applications additionnelles telles que des jeux ou des utilitaires via un magasin d'applications en ligne différent pour chaque système d'exploitation. Il est nécessaire d'avoir une connexion à Internet par l'intermédiaire d'un réseau de téléphonie mobile ou d'un réseau Wi-Fi pour pouvoir utiliser leur potentiel.
+À partir de fin 2007, année de commercialisation de l'iPhone (première génération), ce marché s'étend considérablement jusqu'à dépasser en quelques années celui des téléphones mobiles classiques. En 2014, les ventes mondiales annuelles de smartphones dépassaient le milliard d'unités.
+
+Terminologie
+Plusieurs dénominations sont utilisées : en Europe, on utilise "smartphone" ou, de manière tout à fait exceptionnelle (dans certains textes administratifs par exemple), "ordiphone", ou "terminal de poche" ; au Canada francophone "téléphone intelligent" (en anglais, "smart" signifie "intelligent" mais, tout aussi bien, élégant - comme l'élégance d'une solution -, malin, astucieux).
+Les termes officiels en France sont "terminal de poche" et "ordiphone", un mot-valise formé à partir des mots "ordinateur" et "téléphone". Au Québec, "téléphone intelligent" est recommandé avec comme synonymes "ordiphone" , "téléphone-ordinateur", ou "téléphone-assistant personnel" même si ces derniers sont très peu utilisés.
+Le terme de "photophone" est parfois employé pour désigner un smartphone capable de prendre des photographies numériques, alors que les anglophones utilisent parfois le terme camera phone. Cette pratique est désignée sous le nom de phonéographie.
+Pour désigner un téléphone mobile basique (ne disposant pas des fonctionnalités avancées d'un smartphone), au Canada, on suggère le terme "téléphone polyvalent". Dans le monde anglophone, c'est le terme feature phone qui est parfois utilisé.
+
+Histoire
+
+Les débuts
+Le premier smartphone, l'IBM Simon, fut conçu en 1992 puis commercialisé en août 1994. Dès 1990, la norme GSM, 2G est développée. En 1992, le GSM est utilisé dans sept pays de l'Europe avec un débit réel de 9,6 kbit-s. Puis, au début des années 2000, le Edge permet un débit réel de 177 kbit-s. Dès 2006, la 3G, puis la 3,5 G sont développées, permettant un débit crête en réception de 3,6 Mbit-s étendu ensuite à 14 puis 42 Mbit-s (HSPA+). En 2013, La 4G est présente dans plusieurs dizaines de pays dont la France.
+Les principaux fabricants de téléphones de l'époque se lancent dans l'aventure (comme Nokia, le leader à cette époque, LG ou Samsung), ainsi que de nouvelles sociétés spécialisées dans les smartphones (comme BlackBerry avec le BlackBerry). L'OS de référence est alors Symbian utilisé principalement par Nokia et Ericsson.
+L'année 2001 a vu le lancement du WA3050 de Sagem qui fut l'un des premiers à combiner les fonctions d'un téléphone mobile et d'un PDA tactile. Il était compatible avec la nouvelle norme de téléphonie mobile de l'époque, le GPRS.
+Nokia, avec sa série des Communicator, commercialise des appareils pliants à deux écrans et à clavier mécanique complet, mais fait l'impasse sur l'écran tactile : Nokia 9000 Communicator en 1996, Nokia 9110 en 1998, Nokia 9210 Communicator en 2001, Nokia 9210i en 2002, Nokia 9500 Communicator et Nokia 9300 Communicator en 2005, Nokia E90 Communicator en 2007.
+En 2005, HTC est choisi par Microsoft comme partenaire pour le développement de Windows Mobile et a, depuis cette date, toujours proposé des téléphones utilisant ce système d'exploitation.
+En août 2005, Google rachète la startup Android qui développe un système d'exploitation pour smartphone, lequel commencera à équiper de nombreux constructeurs (comme Samsung ou HTC) à partir de 2008.
+
+Depuis 2007 : la révolution tactile
+Un iPhone première génération (2007).
+En 2007, Apple, lance son premier téléphone, l'iPhone, pionnier des smartphones avec interface tactile multipoint, sensible aux doigts de l'utilisateur. L'appareil fonctionne comme un ordinateur avec un système d'exploitation et des applications. L'écran de 3,5 pouces offre 480 320 pixels. Son succès commercial sera à l'origine de la généralisation des smartphones à écrans tactiles chez tous les fabricants.
+En 2008, alors qu'Apple sort l'iPhone 3G (apparition de l'App Store), les concurrents sortent leurs modèles : RIM sort le Blackberry Storm, premier modèle tactile de la marque. Android fait également ses débuts avec le HTC G1. Et Sony Ericsson avec le Xperia X1.
+En 2009, Samsung se lance dans la bataille avec le Samsung Galaxy i7500, lui aussi sous Android. HTC sort le premier Windows Mobile multipoint : le HTC HD2. Cette année est une époque charnière où les téléphones à touches cohabitent avec la progression commerciale des téléphones tactiles, imposée par la plupart des marques. Pour Sony Ericsson c'est le dernier pari sur les téléphones non tactiles avec la sortie du Smartphone Walkman W995, rivalisant avec les Smartphones tactiles de Nokia comme le Nokia 5800 XpressMusic ou le Nokia N86. Sony Ericsson par la suite se consacrera uniquement au marché du tactile ; un modèle précurseur de cette tendance sorti en 2009 est le Satio.
+En 2010 sort l'iPhone 4, plus puissant, équipé d'un nouveau design, d'un meilleur appareil photo, et d'un écran de 960 640 pixels. Plusieurs modèles phares sortent sous Android, comme les Nexus One et Nexus S de Google, mais surtout le Samsung Galaxy S, qui reprend plusieurs codes de l'iPhone. Il sera un grand succès. Samsung lance également l'OS Bada avec le Samsung Wave. Microsoft remplace Windows Mobile par un nouvel OS, Windows Phone 7.
+Des modèles d'entrée de gamme connaissent à leur tour un bon succès, comme le BlackBerry Curve en 2010, ou le Samsung Galaxy Ace en 2011. Ainsi, les smartphones prennent le dessus sur les téléphones classiques, et une course à la performance se met en place, qui n'est pas sans rappeler celle des PC au tournant du XXIe siècle. Les processeurs sont désormais double coeur, voire quatre coeurs, avec des fréquences qui atteignent 1,5 GHz. iOS, Android et Windows Phone 7 se livrent une bataille sans merci pour devenir le système d'exploitation de référence.
+Samsung Galaxy i7500
+En 2011 arrive le Samsung Galaxy S II, qui grâce à son processeur double coeur est beaucoup plus performant que son prédécesseur. En fin d'année, Samsung sort le Galaxy Note, la première phablette avec un écran de 5,3 pouces (1 280 800 p). Nokia se lance sur les Windows Phone avec le Lumia 800.
+2012 est marquée par le match Samsung Galaxy S III - iPhone 5. Google et LG frappent fort également avec le Nexus 4. La diversité des smartphones augmente toujours, avec des écrans plus grands tout en produisant toujours de petits écrans. La résolution (pixels par pouce) continue d'augmenter. De façon générale, plus le smartphone a un grand écran plus la batterie est lourde.
+En 2013, alors que les écrans 1 920 1 080 pixels se généralisent sur le haut de gamme, on constate un nivellement par le haut sur le haut de gamme sous Android : le Samsung Galaxy S4, le HTC One, le Sony Xperia Z, le LG G2, et le Google Nexus 5 ont des niveaux de performance très proches. L'iPhone se dote d'un lecteur d'empreintes digitales. Wiko devient une référence sur l'entrée de gamme. Google relance Motorola avec les Moto X et Moto G. Et Microsoft rachète Nokia. Toutefois, à la fin 2013 le marché des smartphones arriverait peu à peu à saturation (baisse de la croissance de la production, concurrence élevée, grandes diversités des modèles).
+En 2014 sort l'iPhone 6 et l'iPhone 6 Plus qui disposent d'écran de 4,7 et 5,5 pouces. Le succès est total pour Apple. Dans le même temps, les ventes de Samsung reculent. Le LG G3 a un écran 5,5 pouces avec 2 560 1 440 p. Microsoft relance Windows Phone 8 avec une nouvelle version Denim, et une nouvelle gamme Lumia dont le porte étendard, le Nokia Lumia 930 est enfin à la hauteur des hauts de gamme. La marque Nokia disparaît en fin d'année.
+En 2015, l'apparence de l'écran est nouveau par l'absence de 2 bordures sur les 4 côtés de l'appareil ainsi que l'écran courbé à l'extrémité de 2 côtés. Cette innovation arrive avec le S6 Edge+ 5,7 pouces. Une bordure c'est du non affichage car c'est le contour de l'écran. Au fil du temps les bordures sont de plus en plus fines. La firme sort en juin, le LG G4, ça apporte des améliorations et évolutions par rapport au précédent modèle. En septembre, sort l'iPhone 6S, avec quelques changements par rapport à son ancien iPhone 6.
+2016 est marquée par l'arrivée du premier capteur "dual pixel AF" sur le S7 et S7 Edge. Ce type de capteur permet notamment un autofocus beaucoup plus rapide que ceux d'avant, Le LG G5 est le premier smartphone modulaire, avec deux capteurs photos à l'arrière.
+2017...
+
+Les photophones
+Les smartphones permettent de faire d'aussi belles photos qu'un appareil photo compact si la luminosité est suffisante. Il existe de nombreuses applications de retouche photos. Dès 2010, l'évolution technique a permis un usage massif de l'appareil photo du smartphone. En particulier, la pratique du selfie (de l'anglais self : soi, soi-même) : les personnes se prennent elles-mêmes en photo, soit dans un miroir avec leur appareil - smartphone dans la main, soit avec des capteurs photographiques installés du côté de l'écran.
+
+Protection des données personnelles
+Samsung Galaxy
+Les smartphones, et notamment leurs applications téléchargeables, transmettent en temps réel aux sections marketing des fournisseurs de services des données personnelles des usagers, le plus souvent sans leur consentement. Ces données sont savamment analysées, mettant ainsi en oeuvre un véritable profilage et une segmentation des usagers. "C'est comme ça qu'on peut tout tracer, en regardant quelles sont les applications téléchargées par le mobinaute, leur fréquence d'utilisation ainsi que le temps qu'il y passe".
+Il est de plus impossible de désactiver a posteriori le traçage de l'usager qui ne peut donc exercer aucun droit à l'oubli. Il est aussi impossible d'effacer l'identifiant unique d'un smartphone. Une part importante des producteurs d'applications ne fournirait pas de règles de confidentialité : 45 sur 101 applications testées lors d'une enquête du Wall Street journal.
+Une application sur Android, la publicité ciblée, basée sur le lieu où se trouve l'utilisateur, rapporterait de deux à cinq fois plus que la publicité classique. Au point que certaines régies publicitaires souhaitent aussi récolter des renseignements comme l'"origine ethnique (voir marketing ethnique), les revenus, l'orientation sexuelle et les opinions politiques".
+La protection des données personnelles est un réel enjeu pour les utilisateurs de smartphones. Selon Médiamétrie, en 2012, la France compte près de 24 millions d'utilisateurs de smartphones soit 41,2 % des Français.
+Pour mieux comprendre le comportement des détenteurs de smartphones, la CNIL a demandé en 2011 à Médiamétrie de réaliser une enquête auprès de 2 315 utilisateurs de smartphones. Il en est ressorti que parmi les personnes interrogées : 89 % stockent des données de contact ou des coordonnées,; 86 % des données multimédias (photos-vidéos 75 %, agenda 52 %, notes 41 %...); 40 % des possesseurs de smartphone stockent des données à caractère secret (coordonnées bancaires 7 %, codes secrets 17 %, codes d'accès aux immeubles 17 %, informations médicales 3 %...).; 64 % ne voient pas l'intérêt ou pensent qu'il n'est pas possible d'installer un antivirus sur son smartphone (20 % des personnes équipées Android en ont déjà installé un).; 51 % pensent que les données d'un téléphone mobile ne sont pas enregistrées ni transmises sans leur accord.; 46 % que les informations de localisation via le téléphone mobile ne sont pas transmises sans leur accord.; Près d'une personne sur deux vérifie au moment de télécharger une application, les données auxquelles elle a accès... mais 71 % ne lisent pas ou rarement les conditions d'utilisation.
+Les prochaines études de la CNIL seront destinées à analyser et comprendre cet écosystème pour recommander aux constructeurs et développeurs d'application des bonnes pratiques leur permettant d'offrir des produits et services clairs sur leurs conditions d'utilisation et plus respectueux de la vie privée.
+L'un de ses objectifs futurs est de sensibiliser les utilisateurs de smartphones pour les aider à mieux sécuriser et maîtriser leurs données personnelles.
+Dans les années à venir, la protection des données personnelles va devenir un enjeu majeur pour les utilisateurs de smartphones avec l'arrivée de nouvelles fonctionnalités comme le paiement mobile par la technologie sans-fil NFC.
+
+Technique
+
+Systèmes d'exploitation
+Il existe plusieurs systèmes d'exploitation dédiés aux smartphones.
+Au premier trimestre 2011, 428 millions de téléphones mobiles (dont 23,6 % étaient des smartphones, 101 millions) sont vendus dans le monde, +19 % par rapport à la même période en 2010 (+85 % pour les smartphones). Au troisième trimestre 2011, 117 millions de smartphone sont vendus.
+Fin 2013, la part de marché d'Android atteignait 81 %.
+En France mi 2013, selon l'ARCEP, le nombre d'abonnés actifs à un opérateur de réseau mobile croissait de 6,1 % par rapport à mi-2012, atteignant 72,5 millions (soit 114 % de pénétration). Entre janvier et août 2010 en France, en comparaison avec l'année précédente, les ventes de non-smartphones ont baissé de 9 % tandis que les ventes de smartphones croissent de 138 %. Au premier trimestre 2011, le taux d'équipement des Français en smartphone est de 31,4 %.
+D'autres systèmes d'exploitation existaient aussi comme : MeeGo, développé par Intel et Nokia ;; Bada, développé par Samsung, abandonné en 2013 ;; WebOS, développé par Palm, puis HP, puis LG.
+Nombre de ces systèmes utilisaient en 2010 le moteur de rendu HTML WebKit intégré dans un navigateur pour l'affichage des sites sur la toile. Il équipait certains Blackberry, Nokia travaillait à son intégration sur Symbian et il était la référence sur Android (jusqu'aux versions 4.x) et iOS.
+Fin 2013, un nouveau système d'exploitation, basé sur Ubuntu, a été créé par Mark Shuttleworth. Il est déjà fonctionnel en 2013 et est compatible avec les Galaxy Nexus et Nexus 4.
+
+Normes de communication haut débit
+Les smartphones ont besoin d'une connexion à haut débit vers un réseau de téléphonie mobile pour tirer parti de toutes les fonctionnalités (push mail, VoIp, accès internet, etc.). À ce jour, plusieurs normes de réseaux mobiles coexistent : GPRS (ou 2.5 G) ;; EDGE (ou 2.75 G);; 3G ou UMTS;; HSDPA (ou 3G+ ou 3.5 G);; HSUPA et HSPA+ (ou 3.75 G).; LTE et LTE Advanced (ou 4G).
+La plupart des modèles proposent en plus une connexion Wi-Fi permettant de se connecter à Internet par l'intermédiaire d'un réseau privé, d'une box internet ou d'une borne Wi-Fi.
+
+Records
+Le smartphone le plus fin en avril 2014 est le Gionee Elife S5.5 avec 5,5 mm d'épaisseur.
+
+Dispositifs techniques annexes
+De manière parfois encore expérimentale, des smartphones (et certaines tablettes) peuvent maintenant recevoir des optiques ou dispositifs électroniques complémentaires (généralement associés à une application logicielle) pouvant leur ajouter une ou des fonctions supplémentaires (ex : boîte de Petri améliorée, microscopie, enregistreur et analyseur de cris de chiroptères, analyseur biochimique capable de détecter diverses maladies à partir d'une simple goutte de sang...)
+
+Batteries
+Les accumulateurs nickel-cadmium et nickel-hydrure métallique sensibles à l'effet mémoire ont été les principales batteries utilisées dans les smartphones avant d'être progressivement remplacées dans les années 1990 par celles à lithium-ion sans mémoire mais plus coûteuses et dont l'autonomie a tendance à baisser face à l'augmentation de la consommation énergétique d'un smartphone.
+Un mobile inintelligent (par exemple, le Nokia 1209 (78 g), BL-5CA, 700 mAh, 3,7 V, 2,6 Wh, 19 g, 100 70 pixels, 1,45 pouce, 89 ppp en largeur et 79 ppp en hauteur) a moins d'énergie stockée qu'un téléphone intelligent (iPhone, 3,5 pouces sorti en France fin 2007, 1 400 mAh, 5,2 Wh ou iPhone 6, 5,5 pouces 1280-720 pixels, sorti en France en septembre 2014, 2 915 mAh, 10,8 Wh) (LG G4, 5,5 pouces 2560-1440 pixel, sortie en milieu 2015, 3000 mAh). En effet, un smartphone dont l'écran est allumé, consomme plus d'énergie et le processeur consomme davantage d'énergie. L'écran est un des principaux consommateurs d'énergie d'un smartphone, d'où une augmentation nécessaire de la réserve d'énergie avec l'augmentation des dimensions et résolutions de l'écran. Les téléphones portables basiques (non tactile) ont quasiment tous des écrans plus petits et de moindre définition que les écrans de smartphones.
+La batterie pèse 45,2 g pour le S5 (145 g), 5,1 pouces, sorti en avril 2014.
+L'augmentation de la quantité d'énergie stockée au sein du mobile entre 2006 à 2017, c'est principalement pour faire face à l'augmentation de la surface d'affichage ainsi qu'une augmentation du temps d'allumage de l'écran. En effet, le temps passé à regarder l'écran d'un smartphone est supérieur à la durée de visionnage de l'écran d'un non smartphone. C'est l'écran qui consomme le plus d'énergie d'un smartphone.
+
+Coques
+Les téléphones de milieu et d'entrée de gamme ont généralement des coques dorsales et frontales en plastique (à l'exception de l'écran en verre de protection Gorilla Glass, ce châssis est le plus souvent en polycarbonate). Le plastique a l'avantage d'être peu cher et offre une réception réseau optimale tout en rendant invisible l'antenne de l'extérieur mais la conductivité thermique est mauvaise. Le haut de gamme (existe avec coque tout en plastique comme en 2011, le S2) ont des coques avec des métaux généralement anodisés (aluminium, magnésium), malléables afin de créer des design plus originaux, à l'esthétique plus valorisée et offrant une meilleure dissipation thermique mais ils sont plus lourds et chers, marquent plus les rayures, ont généralement une coque monobloc à batterie inamovible et amoindrissent la réception réseau (cf. antennagate).
+Il existe des coques molles ou dures qui s'ajoutent à la coque d'origine et des films transparents pour écran afin d'augmenter la protection contre les chutes et les rayures.
+
+Chargeur
+Le volume du chargeur est le même entre un chargeur pour mobile basiques (non tactile) (sortie du chargeur pour Nokia 1209 : 5 V, 350 mAh soit 1,75 Wh) et pour un smartphone. Mais l'intensité du courant en sortie du chargeur est supérieure et le voltage identique, pour les chargeurs de smartphones.
+
+Économie
+
+Marché mondial (2009-2015)
+Les ventes de téléphones mobiles en 2011 atteignent 1,6 milliard.
+Il s'est vendu 444,5 millions de mobiles au 3e trimestre 2012.
+Au troisième trimestre 2011, Nokia est le premier avec 106,5 millions d'appareils téléphoniques, Samsung 87,2 millions, LG 21,1 millions, ZTE 17,6 millions et le 5e Apple avec 17,1 millions.
+Au troisième trimestre 2012, Samsung est le premier avec 105,4 millions d'appareils téléphoniques, Nokia 82,9 millions, Apple 26,9 millions, LG 14 millions et le 5e ZTE avec 13,7 millions.
+Au dernier trimestre 2011, Apple a largement battu son record de revenus depuis que la firme existe avec 62 millions d'appareils vendus dont 37 millions de smartphones (premier). Le deuxième est Samsung avec 36,5 millions mais en 2011 avec une gamme plus large qu'Apple, il a vendu 97,4 millions (19,9 %) de smartphones en 2011, pour Apple c'est 93 millions.
+Au troisième trimestre 2012, il s'est vendu 179,7 millions de smartphones, soit une croissance de 45,3 % en un an (123,7 millions au 3e trimestre 2011). Ce trimestre, les smartphones représentent 28,8 % des appareils téléphoniques vendus, 624 millions.
+
+Marché chinois (2011)
+Le marché chinois est devenu le premier marché mondial au troisième trimestre 2011 avec 23,9 millions d'unités vendues pendant cette période, contre 23,3 millions aux États-Unis.
+Les grandes marques comme Samsung, Apple ou Nokia sont concurrencés par des entreprises locales telles que Xiaomi, Lenovo, Coolpad ou encore Huawei. Ce dernier veut imposer ses smartphones en Occident.
+Avec le temps, les industriels chinois ont su améliorer et retoucher ces téléphones auparavant mal accueillis. Pour deux fois moins cher qu'un iPhone ou un Samsung, ils se sont peu à peu fait une place.
+
+Marché français (2008-2015)
+Les opérateurs de téléphonie Orange, SFR, Bouygues Telecom et Free Mobile proposent les produits suivants : Acer; iPAQ (Compaq); HTC-Qtek-SPV; iPhone; LG; Motorola; Nokia; Palm (racheté par HP en 2010, puis abandonné); Samsung; Sony; Wiko; Huawei Technologies; ZTE.
+En 2015, 58 % de la population française âgée de 12 ans et plus possède un smartphone :
+En 2016, les ventes de smartphones sont en baisse en France pour la première fois.
+
+Marché américain (2010-2011)
+Le marché du smartphone aux États-Unis était dominé en 2010 - 2011 par trois principaux systèmes d'exploitation, BlackBerry, Google Android et Apple iOS. Mais les parts de marché fluctuent rapidement.
+Voici un instantané de février 2011 des parts de marché des OS de smartphones en circulation : BlackBerry OS : 28,9 %; Android : 33 %; iOS : 25,2 %; Microsoft : 7,7 %; Palm : 2,8 %.
+Les firmes Apple et Samsung dominent le marché américain des smartphones. Au quatrième trimestre 2014, les deux versions d'iPhone 6 représentent 50 % des ventes de smartphones ; le Galaxy S5 : 26 %, LG : 11 % et les autres marques : 5 %.
+
+Marché européen
+En 2010, une proportion de 22 % des mobiles vendus sont des smartphones puis 45 % en décembre 2011.
+Au premier semestre 2013 les ventes de mobiles chutent en Europe : diminution de 4,2 % des ventes (téléphones mobiles et smartphones). Android possède désormais 69 % des parts du marché, alors que les parts du marché iOS ont baissé de 5 % (20 % contre 25 % en 2012).
+Au premier trimestre 2013, d'après IDC, Samsung est le constructeur no 1 avec 14,3 millions de smartphones vendus et 45 % de part de marché. Apple no 2 (6,2 millions de smartphones vendus et 20 % de part de marché), et Sony no 3 avec 3,2 millions de smartphones vendus et 10 % de part de marché.
+
+Usages professionnels
+En entreprise, les smartphones sont utilisés notamment par des dirigeants, des commerciaux itinérants, des fonctions marketing et relation client ainsi que des professions nomades.
+
+Critiques et préoccupations sociales ou environnementales
+
+Environnement naturel
+Les smartphones sont des appareils extrêmement sophistiqués, dont le bilan environnemental est lourd : usage de métaux rares (plus de 45 métaux dans les cartes électroniques), création de déchets dangereux et une forte demande en énergie (à la production et durant l'utilisation) : Leur empreinte environnementale est ainsi supérieure à celle de leurs prédécesseurs. Les écrans tactiles des smartphones nécessitent, pour leur fabrication, de l'indium qui est un métal rare.
+La démocratisation massive des smartphones, tout comme le "besoin" de remplacement relativement fréquent, soulève donc des interrogations d'ordre écologique et de soutenabilité du développement. La course à l'innovation et la publicité entraînent en pratique un renouvellement fréquent, qui fait parler d'obsolescence, voire d'obsolescence programmée.
+Le dessin animé pédagogique américain L'Histoire des choses (2007) détaille le cycle des produits de consommation tels que les smartphones. Il décrit les multiples conséquences à la fois sur l'environnement naturel, les travailleurs, les consommateurs, l'économie. Un deuxième film a été réalisé par la même association, décrivant plus précisément le secteur de l'électronique grand public (The story of electronics).
+Pour éviter la surproduction de déchets électroniques, des sites Internet comme iFixit aux États-Unis ou SOSav en France, permettent aux utilisateurs de réparer eux-mêmes leur smartphone.
+Le nombre de mobiles en circulation devrait atteindre 10 milliards en 2012.
+
+Problèmes légaux entre fabricants
+Le développement de la taille du marché du smartphone associé à la réduction du nombre de fabricants (concentration d'un marché) donne lieu à de gigantesques batailles de brevets :
+
+Aspects sociaux et psychosociaux
+Une partie des utilisateurs reconnaissent souffrir d'une dépendance au smartphone qui peut être de type dépendance à Internet ou liée à un besoin compulsif de consulter son portable (selon une étude britannique de 2014, chaque utilisateur regarde son smartphone en moyenne 221 fois par jour).
+
+Espace de stockage interne disponible
+L'espace de stockage interne du smartphone annoncé par les fabricants indique la quantité de mémoire totale (libre et occupée). L'espace occupé par le système d'exploitation et les applications n'est pas annoncé. Une étude comparative a été menée en 2014, détaillant pour quelques modèles de smartphones l'espace de stockage libre.
+Il se peut que les applications présentes sur une carte mémoire externe (ajout de mémoire) ne fonctionnent pas mais marchent en mémoire interne.
+La plupart des appareils sous Android peuvent augmenter le volume de stockage avec l'ajout d'une carte microSD mais cet accroissement se limite au plus à l'ajout d'une carte de 128 Go en 2014. Les iPhone ne peuvent pas recevoir de carte, donc le choix de la capacité de stockage est important. Une étude menée par l'application IceCream et Ondevice Research, sur 1 000 sondés aux États-Unis et au Royaume-Uni montre que : 45 % des utilisateurs d'iPhone avouent se retrouver à court d'espace libre au moins une fois dans l'année, 22 % au moins une fois par mois, 12 % au moins une fois par semaine et 8 % quotidiennement.
+Le coût de stockage au Go a une forte tendance à la baisse. Cependant, tout le monde n'a pas les moyens de s'acheter un smartphone avec 128Go de mémoire. De plus en plus d'utilisateurs couplent ainsi leur stockage interne du smartphone avec du stockage externe en ligne. On parle alors de stockage Cloud pour votre smartphone afin de libérer de la place sur ce dernier. Il existe différentes solutions pour le stockage de votre smartphone en ligne comme le backup, la synchronisation ou encore le stockage "cold".
+
+Impossibilité de mise à niveau du système d'exploitation
+En 2013, une grande partie des smartphones ne permettent pas la mise à niveau du système d'exploitation vers la version la plus récente, privant les utilisateurs de nouvelles fonctionnalités, mais surtout les privant de corrections de bugs, notamment ceux corrigeant des vulnérabilités informatiques.
+En dehors de la fuite en avant pour cause de compétitivité économique, ceci peut être expliqué par des contraintes technologiques, mais laisse toutefois des doutes concernant les objectifs des fabricants, tentés de fidéliser des clients par la contrainte. La majorité des smartphones premier prix ne permettent même pas la mise à niveau vers la version du système d'exploitation sortie juste après (par exemple de Android v4.1 vers v4.2). Dans les cas où la technique ne justifie pas de telles impossibilités, on parle d'obsolescence programmée.
+Début 2014, Google contraint les fabricants à utiliser des versions d'Android plus récentes (voir historique des versions d'Android). Un système d'exploitation alternatif basé sur Android, CyanogenMod, permet de mettre à niveau quelques smartphones vers une version plus récente.
+
+Conditions de fabrication
+En novembre 2014, l'émission Cash investigation, diffusée sur France 2 a enquêté sur les dessous "opaques" de la fabrication des téléphones intelligents. Ainsi, le reportage démontre que les sous-traitants de certains industriels, comme le chinois Huawei, emploient des populations asiatiques pouvant inclure des enfants, dans des conditions de travail difficiles. Elle révèle également qu'au Congo, des enfants travaillent 12 heures par jour pour 5,5 euros, pour l'extraction du tantale des condensateurs. Enfin, l'enquête dénonce le financement de guerres en Afrique - des entreprises asiatiques achetant de manière illégale des minerais aux rebelles contrôlant les mines - et le rejet dans la nature, du fait de la fabrication de la plupart des téléphones des grands fabricants, de milliers de tonnes de produits toxiques par an, dévastant des villes entières et causant de nombreux cancers. Pour Olivier Chicheportiche, c'est "la communication des fabricants qui vole en éclats" au-delà des scandales révélés par l'émission d'investigation.
+
+Réparabilité
+Afin d'améliorer la durée de vie des smartphones, et couper court aux accusations d'obsolescence programmée, il est préférable de choisir un appareil présentant un bon niveau de réparabilité. Deux entreprises évaluent le niveau de réparabilité des smartphones : iFixit et SOSav. Par ailleurs, les smartphones modulaires présentent un meilleur niveau de réparabilité, comme le LG G5.
+
+Voir aussi
+
+Articles connexes: Consommation énergétique d'un smartphone; Dépendance au smartphone; Tablette tactile; Vie privée et informatique.

@@ -1,0 +1,41 @@
+Tapestry est un framework libre qui facilite la création d'applications web Java basées sur Java EE (anciennement J2E) à partir de composants.
+
+Historique
+Initialement créé par Howard Lewis Ship, le projet Tapestry a été intégré par la fondation Apache comme sous-projet Jakarta puis il a évolué pour devenir un projet Apache à part entière. Tapestry dispose d'une architecture à base de composants avec des idées que l'on retrouve notamment dans le framework d'Apple WebObjects.
+
+Caractéristiques
+Tapestry utilise XML-HTML pour le rendu des pages et implémente la logique en Java en suivant le motif de conception MVC: Template Tapestry, Pages-Composants Java, Services Java. Il met l'accent sur la simplicité d'utilisation. Par une forte connectivité entre les éléments de la page Web (Template) et le code sous-jacent (Pages-Composants Java), il évite au développeur d'écrire d'énormes blocs de code de liaison, en utilisant le paradigme convention plutôt que configuration.
+Une application Tapestry s'appuie sur des Pages qui sont configurées par des Composants. Une Page comprend deux parties: Un XML (.tml) et une classe Java (.java). Le XML permet l'insertion de Tag HTML des composants Tapestry natifs ou d'autres bibliothèques tiers. Par exemple, un simple lien d'une page à une autre correspond au composant PageLink.
+
+Un exemple simple d'une page Tapestry
+Cet exemple montre la partie internationalisation des pages de Tapestry avec la variable mentionné dans (message:title) qui sera reprise à partir des fichiers.properties associé en fonction de la langue positionné dans votre navigateur et un lien vers la page par défaut du site (index).
+Le pseudo-HTML de la page du site (vue): Exemple.tml
+t:layout title-"(message:title)"
+ xmlns:t-"http:--tapestry.apache.org-schema-tapestry-5-1-0.xsd"
+ xmlns:p-"tapestry:parameter"
+
+ p(message:text)-p
+
+ t:pagelink page-"index"(message:index)-t:pagelink
+-t:layout
+La classe Java qui implémente le comportement de la page (contrôle):
+package org.exemples.pages;
+
+public class Exemple(
+
+)
+Données du fichier fr.properties en français:
+title: Exemple
+text: Ceci est juste un test
+index: Début
+Données du fichier en.properties en anglais:
+title: my little example
+text: This is only a test
+index: Mainpage
+Fonctionnalités: Routage des requêtes HTTP (ou dispatching); Les patrons de pages (ou templates), essentiellement en XHTML.; Validation des saisies dans les formulaires web; Persistance des données dans les sessions des utilisateurs ou autres enregistrements.
+
+Applications utilisant Tapestry: Exemples d'applications.
+
+Bibliothèque des composants Tapestry: Composants de base; Modules de la communauté Tapestry; Tapestry5 Wiki Modules; Tapestry Component World; Tapestry5-jQuery : permet une pré-migration vers le futur Tapestry 5.4 avec du Javascript JQuery sans PrototypeJS.
+
+Voir aussi: Comparaison des frameworks d'applications web; Modèle-Vue-Contrôleur; Inversion de contrôle; ASM (logiciel); WebObjects.

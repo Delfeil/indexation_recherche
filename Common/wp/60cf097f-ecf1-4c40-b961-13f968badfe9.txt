@@ -1,0 +1,36 @@
+Dennis MacAlistair Ritchie, né le 9 septembre 1941 à Bronxville dans l'État de New York et trouvé mort le 12 octobre 2011 à Berkeley Heights dans le New Jersey, est un des pionniers de l'informatique moderne, inventeur du langage C et codéveloppeur de Unix. Il est parfois désigné par dmr, son adresse électronique aux Laboratoires Bell.
+Au début des années 1970, programmeur aux Laboratoires Bell, il travaille avec Ken Thompson au développement d'Unix. Le langage B de Thompson étant trop limité pour les besoins du nouveau système, Ritchie est amené à créer sur les mêmes bases le langage C. Par la suite, avec l'aide de Brian Kernighan, il promeut le langage et rédige notamment le livre de référence The C Programming Language.
+Il reçoit conjointement avec Ken Thompson le prix Turing de l'ACM en 1983 pour leur travail sur le système Unix.
+
+Biographie
+Dennis Ritchie nait en 1941 à Bronxville dans l'État de New York. Son père, Alistair E. Ritchie, est un scientifique des Laboratoires Bell et connu pour le livre The Design of Switching Circuits sur la théorie des commutation de circuits, dont il est co-auteur. Dennis Ritchie étudie la physique ainsi que les mathématiques appliquées à Harvard, y obtenant un doctorat.
+En 1967, il commence à travailler également aux Laboratoires Bell, où son père fait lui-même carrière. Un an plus tard, en 1968, il soutient sa thèse, nommé Program Structure and Computational Complexity, à Harvard sous la supervision de Patrick C. Fischer (en). Ritchie n'obtiendra cependant jamais son doctorat.
+En 1978, Ritchie co-écrit avec Brian Kernighan The C programming language, un livre sur le langage C. C'est l'une de ses contributions les plus célèbres, puisque le livre est encore aujourd'hui connu sous le nom de KR, les initiales des deux auteurs.
+Ritchie travaille également dans les années suivantes avec Ken Thompson sur le système d'exploitation UNIX. Ritchie est notamment le contributeur principal du portage d'UNIX sur différentes machines et plateformes.
+En 1983, Ritchie et Thompson reçoivent le prix Turing pour leurs travaux sur la théorie d'un système d'exploitation générique et l'implémentation du modèle sur le système UNIX. Le prix de Ritchie est par ailleurs intitulé "Reflections on Software Research". En 1990, Ritchie et Thompson seront de nouveaux récompensés, par la médaille Richard W. Hamming de l'IEEE pour le système UNIX et le langage C.
+Le 21 avril 1999, Thompson et Ritchie reçoivent la National Medal of Technology and Innovation de 1998, par le président américain Bill Clinton, toujours pour l'invention d'UNIX et du langage C. Ces inventions ont, d'après le jury, "permis d'énormes avancées dans l'informatique matérielle et logicielle et les réseaux et a stimulé la croissance de toute l'industrie, confortant le leadership des États-Unis dans le domaine des systèmes d'informations".
+De santé précaire, après le traitement d'un cancer de la prostate et de problèmes cardiaques, il meurt à l'âge de 70 ans à son domicile de Berkeley Heights dans l'État du New Jersey où, vivant seul, il est retrouvé le mercredi 12 octobre 2011, inerte. La date de sa mort n'est pas connue avec certitude, mais pourrait se situer autour du 8 ou 9 octobre, selon les sources inspirées par les proches. Son décès aura été totalement occulté par celui de Steve Jobs, quelques jours avant, alors que tous les ordinateurs sous Mac OS sont fondés sur les travaux de Ritchie sur UNIX.
+
+C et Unix
+Ken Thompson (à gauche) et Dennis Ritchie (à droite).
+Dennis Ritchie est connu comme étant le créateur du langage C, un développeur clé du système d'exploitation Unix, et le coauteur du livre The C Programming Language, communément appelé K-R ou KR (en référence aux deux auteurs : Kernighan et Ritchie).
+Son invention du langage C et sa participation au développement d'Unix au côté de Ken Thompson ont fait de lui un pionnier de l'informatique moderne. Le langage C reste au début du XXIe siècle un des langages les plus utilisés, tant dans le développement d'applications que de systèmes d'exploitation. Unix a aussi eu une grande influence en établissant des concepts qui sont désormais totalement incorporés dans l'informatique moderne.
+Il déclare que le langage C "semblait être une bonne chose à faire" et que "n'importe qui à (sa) place aurait fait la même chose", bien que son collègue des laboratoires Bell Bjarne Stroustrup, créateur du C++, réponde que "si Dennis avait décidé de consacrer cette décennie à des mathématiques ésotériques, Unix aurait été mort-né".
+À la suite du succès d'Unix, Dennis continue ses recherches dans les systèmes d'exploitation et les langages de programmation, tout en contribuant à des projets tels que les systèmes d'exploitation Plan 9 et Inferno, et le langage de programmation Limbo.
+Il est corécipiendaire avec Ken Thompson du Japan Prize de 2011.
+
+Publications: (en) Brian Wilson Kernighan et Dennis MacAlistair Ritchie,
+The C Programming Language
+, New Jersey, États-Unis, Prentice Hall, 1988 (1re éd. 1978, 228 p.), 274 p. - dit "le Kernighan and Ritchie" ou en abrégé "le KR". Parmi les traductions de cet ouvrage, en plus de vingt-cinq langues, se trouvent : Brian Wilson Kernighan, Dennis MacAlistair Ritchie, Jean-François Groff (traducteur) et Éric Mottier (traducteur),
+Le langage C - Norme ANSI - Cours et exercices
+, Paris, Dunod, coll. "Sciences Sup", 2004, 280 p. (de) Brian Wilson Kernighan et Dennis MacAlistair Ritchie,
+Programmieren in C. ANSI C (2. A.). Mit dem C - Reference Manual
+, Hanser Fachbuch, 1990, 284 p. Brian Wilson Kernighan, Dennis MacAlistair Ritchie, Jean-François Groff (traducteur) et Éric Mottier (traducteur),
+Le langage C - Norme ANSI - Cours et exercices
+, Paris, Dunod, coll. "Sciences Sup", 2004, 280 p. (de) Brian Wilson Kernighan et Dennis MacAlistair Ritchie,
+Programmieren in C. ANSI C (2. A.). Mit dem C - Reference Manual
+, Hanser Fachbuch, 1990, 284 p.
+
+Honneurs: 1983 : prix Turing, de l'ACM; 1990 : IEEE Richard W. Hamming Medal, de l'IEEE; 1998 : National Medal of Technology and Innovation, du Président des États-Unis; 2011 : prix japonais par The Japan Prize Foundation.
+
+Voir aussi: Notices d'autorité : Fichier d'autorité international virtuel International Standard Name Identifier Bibliothèque nationale de France (données) Système universitaire de documentation Bibliothèque du Congrès Gemeinsame Normdatei Bibliothèque nationale de la Diète Bibliothèque royale des Pays-Bas WorldCat.

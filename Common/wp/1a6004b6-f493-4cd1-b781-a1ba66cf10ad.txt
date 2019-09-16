@@ -1,0 +1,49 @@
+L'HyperText Transfer Protocol Secure, plus connu sous l'abréviation HTTPS - littéralement "protocole de transfert hypertexte sécurisé" - est la combinaison du HTTP avec une couche de chiffrement comme SSL ou TLS.
+HTTPS permet au visiteur de vérifier l'identité du site web auquel il accède, grâce à un certificat d'authentification émis par une autorité tierce, réputée fiable (et faisant généralement partie de la liste blanche des navigateurs internet). Il garantit théoriquement la confidentialité et l'intégrité des données envoyées par l'utilisateur (notamment des informations entrées dans les formulaires) et reçues du serveur. Il peut permettre de valider l'identité du visiteur, si celui-ci utilise également un certificat d'authentification client.
+HTTPS est généralement utilisé pour les transactions financières en ligne : commerce électronique, banque en ligne, courtage en ligne, etc. Il est aussi utilisé pour la consultation de données privées, comme les courriers électroniques, par exemple.
+Depuis le début des années 2010, le HTTPS s'est également généralisé sur les réseaux sociaux.
+Par défaut, les serveurs HTTPS sont connectés au port TCP 443.
+En janvier 2017 Google Chrome et Mozilla Firefox ont commencé à identifier et signaler les sites Web qui recueillent des informations sensibles sans utiliser le protocole HTTPS. Ce changement a pour but d'augmenter de manière significative l'utilisation du HTTPS. En février 2017, le protocole de sécurité HTTPS était utilisé par environ 16,28 % de l'Internet français.
+
+Historique
+
+Principe de fonctionnement
+
+HTTPS et piratage
+La sécurité des informations transmises par le protocole HTTPS est basée sur l'utilisation d'un algorithme de chiffrement, et sur la reconnaissance de validité du certificat d'authentification du site visité.
+Partant du principe que les internautes précisent rarement le type de protocole dans les URL (le protocole HTTP étant historiquement sélectionné par défaut) et se contentent de suivre des liens, un chercheur en sécurité informatique, connu sous le pseudonyme de Moxie Marlinspike, a développé une attaque du type Attaque de l'homme du milieu ("Man in the middle" en anglais), afin de contourner le chiffrement de HTTPS. Le pirate se positionne entre le client et le serveur et change les liens https: en http:, ainsi le client envoie ses informations en clair via le protocole HTTP et non HTTPS. Ce type d'attaque a été présenté par Marlinspike à la Blackhat Conference 2009. Durant cette conférence, Marlinspike a non seulement présenté le fonctionnement de l'attaque, mais également quelques statistiques d'utilisation. Il a réussi à récupérer plusieurs centaines d'identifiants, informations personnelles et numéros de cartes bancaires en 24 heures, aucune personne ne se doutant de l'attaque en cours.
+Une autre attaque de type Man in the middle a pu être mise en oeuvre en juillet 2011, par l'obtention frauduleuse de certificats valides auprès de l'ancienne autorité de certification DigiNotar, piratée. Cette attaque fut utilisée pour mettre en place de faux sites Google (certificat frauduleux pour les domaines -.google.com) et ainsi espionner la consultation de plusieurs comptes GMail d'utilisateurs iraniens.
+En septembre 2011, Duong et Rizzo, deux chercheurs en sécurité informatique, ont présenté à la Ekoparty Security Conference un nouveau type d'attaque, basé cette fois sur le décryptage des paquets transmis sur le réseau. Cette attaque utilise une vulnérabilité du chiffrement Cipher Block Chaining du protocole TLS 1.0, connue de longue date. Pour exploiter cette vulnérabilité, il s'agit d'insérer dans la page consultée un code Javascript communiquant la valeur du cookie de session à un sniffer de paquets réseau, afin de l'utiliser pour décrypter le reste de la communication.
+Seuls les sites supportant la version de chiffrement TLS 1.0 sont affectés par cette vulnérabilité ; cependant à la date de septembre 2011, cela concerne l'immense majorité des sites du fait de la réticence des sites et navigateurs à mettre en application les versions TLS 1.1 et 1.2.
+
+HTTPS et NSA
+En septembre 2013, plusieurs journaux révèlent, grâce aux documents fournis par Edward Snowden, que la NSA, via son programme Bullrun, cherche à casser ou affaiblir le protocole HTTPS ou ses mises en oeuvre par les constructeurs de matériel et de logiciel, rendant accessible en clair aux services américains de nombreuses communications pourtant chiffrées.
+Fin 2013, une vulnérabilité visant tous les appareils Apple sous iOS 6 - 7 et Mac OS X 10.9 a été corrigée par la firme, permettant à ceux qui ont eu le moyen de l'exploiter de corrompre le chiffrement HTTPS ou plus particulièrement les technologies TLS - SSL. Certaines rumeurs laissent entendre que cette vulnérabilité aurait été utilisée par la NSA dans leur programme DROPOUT JEEP.
+
+HSTS
+HTTP Strict Transport Security (HSTS) est un mécanisme de politique de sécurité proposé, permettant à un serveur web de déclarer à un agent utilisateur (comme un navigateur web) compatible, qu'il doit interagir avec lui en utilisant une connexion sécurisée (comme HTTPS). La politique est donc communiquée à l'agent utilisateur par le serveur, via la réponse HTTP, dans le champ d'entête nommé "Strict-Transport-Security". La politique spécifie une période de temps durant laquelle l'agent utilisateur doit accéder au serveur uniquement de façon sécurisée.
+
+Redirection de http vers https
+La redirection de http vers https est optionnelle ; elle diffère d'un serveur à un autre : Apache Webserver.
+Pour l'administrateur du serveur , Il doit faire la redirection dans le fichier https.conf en utilisant la configuration suivante :
+RewriteEngine On
+RewriteCond %(HTTPS) off
+RewriteRule (.-) https:--%(HTTP-HOST)%(REQUEST-URI)
+Pour le webhosting, il doit faire le réglage à l'aide d'un fichier.htaccess à l'aide de la configuration suivante :
+RewriteEngine On
+RewriteCond %(HTTPS) off
+RewriteRule (.-) https:--%(HTTP-HOST)%(REQUEST-URI): Nginx.
+Pour le serveur Nginx , il faut ajouter dans la configuration la ligne en gras suivante :
+server (
+listen 80;
+server-name nazev-domeny.cz www.nazev-domeny.cz;
+rewrite https:--server-namerequest-uri permanent;
+)
+server (
+listen 443;
+server-name my.domain.com;
+ssl on;
+(....)
+)
+
+Articles connexes: HTTP; SSL; SSH; HSTS; Suite cryptographique. Portail de l'informatique; Portail d'Internet; Portail de la sécurité informatique; Portail des télécommunications.

@@ -1,0 +1,15 @@
+Une architecture cognitive est un processus calculatoire artificiel qui tente de simuler le comportement d'un système cognitif (généralement celui d'un humain), ou qui agit intelligemment sous respect d'une certaine définition. Le terme architecture implique une approche qui tente de modéliser les propriétés internes du système cognitif représenté et non seulement le comportement extérieur.
+
+Catégorisation des architectures cognitives
+Les prochaines sous-sections présentent plusieurs critères pour catégoriser les architectures cognitives.
+
+Niveau de spécification
+Certaines architectures cognitives sont spécifiées avec beaucoup de détails, alors que d'autres non. ACT-R est un exemple d'architecture très détaillée; il possède même une implémentation informatique.
+
+Fondations sur des recherches en psychologie expérimentale
+Les architectures cognitives tentent parfois de reproduire avec fidélité le comportement cognitif de l'humain d'après des résultats expérimentaux (capacité de la mémoire de travail à traiter un nombre limité de dimensions d'un problème à la fois, oubli, etc.).
+Plus d'une centaine de modèles (modélisation des connaissances pour une tâche) ont été réalisés avec ACT-R tel que la simulation du comportement humain pour résoudre le problème de la tour de Hanoi. Pour de nombreux modèles, des comparaisons ont été effectuées entre la simulation et des humains pour s'assurer de la justesse des simulations.
+
+Quelques architectures cognitives célèbres: ACT-R, développé par John R. Anderson et ses collègues.; Soar, développé sous la supervision de Allen Newell à l'Université du Michigan.; Copycat, par Douglas Hofstadter et Melanie Mitchell à l'Université de l'Indiana.; ALifeE, par Toni Conde à l'École polytechnique fédérale de Lausanne (EPFL)(1).; DUAL, développé à New Bulgarian University et Boicho Kokinov.; Psi développé sous la supervision de Dietrich Dörner (en) à Otto-Friedrich University à Bamberg, Allemagne.
+
+Applications: Les environnements informatiques pour l'apprentissage humain. Portail de l'informatique.

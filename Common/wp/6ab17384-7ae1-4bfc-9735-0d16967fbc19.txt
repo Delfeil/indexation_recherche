@@ -1,0 +1,46 @@
+Un catalogue de bibliothèque est destiné à faciliter la recherche des livres qui sont contenus dans une bibliothèque, ou de plusieurs bibliothèques dans le cas des catalogues collectifs et des catalogues virtuels. Dans sa version informatisée, la plus courante, le catalogue est une base de données signalant tout ou partie des documents disponibles dans une ou plusieurs bibliothèques. Le catalogue est destiné à identifier les documents décrits dans des notices et à faciliter leur recherche ou leur localisation. Le catalogage consiste à analyser le document en tant que support. Le catalogage fait partie des deux opérations intellectuelles nécessaire à la constitution d'un catalogue : le catalogage qui est une description physique et l'indexation qui est une description intellectuelle.
+Traditionnellement, le catalogue, instrument de recherche documentaire, est distinct de l'inventaire, liste des documents possédés par la bibliothèque classés par ordre d'entrée et destinée à attester la propriété de la bibliothèque sur ces documents. Cette distinction a beaucoup perdu de sa pertinence avec l'informatisation des catalogues, la même base de données servant à produire à la fois l'inventaire et les différents accès publics du catalogue.
+
+Terminologie
+
+Types de catalogues: Un catalogue local décrit les documents d'une seule bibliothèque.; Un catalogue commun référence les documents de plusieurs bibliothèques relevant d'un même organisme, comme une bibliothèque centrale et des bibliothèques de quartier.; Un catalogue collectif décrit les collections de plusieurs bibliothèques indépendantes, par exemple le Sudoc.; Un catalogue virtuel est un outil permettant d'interroger plusieurs catalogues simultanément (voir plus bas).
+
+Types de catalogages: Le catalogage courant consiste à traiter au fur et à mesure les documents entrés récemment dans les collections.; Le catalogage rétrospectif consiste à alimenter le catalogue avec les notices de documents anciens n'ayant pas encore été catalogués auparavant.; La rétroconversion consiste à mettre dans un catalogue informatisé les notices existant sous une forme traditionnelle.
+
+Les différents accès
+Un catalogue peut permettre plusieurs accès différents aux documents.
+
+Auteur
+Le catalogue alphabétique auteurs permet une recherche par nom d'auteur. Lorsque le catalogue n'est pas informatisé, il est de coutume de classer à leur titre dans ce catalogue les documents n'ayant pas d'auteur identifiable. Le catalogue est alors appelé alphabétique auteurs et titres d'anonymes.
+
+Sujet
+Le catalogue alphabétique matières permet un accès par le sujet, exprimé sous forme de vedette-matière. C'est le plus difficile à réaliser et le plus susceptible de produire du silence. Il ne concerne que les ouvrages documentaires.
+Le catalogue systématique permet un accès par le sujet, exprimé selon les formes du plan de classement utilisé, par exemple la Classification décimale de Dewey. Ce type de catalogue est très rare en France, y compris lorsque le catalogue est informatisé.
+
+Tous les mots de la notice
+L'accès par tous les mots de la notice n'est possible que dans les catalogues informatisés. Très efficace et intuitif, il peut générer du bruit, si la recherche est mal formulée ou si les notices sont riches (présence de résumés).
+
+Les différents supports
+
+Registres et catalogues imprimés
+Les premiers catalogues étaient des registres manuscrits. La deuxième moitié du XIXe et le début du XXe siècle ont été la grande période de publication des catalogues imprimés des grandes bibliothèques. En pratiquant l'échange de ces catalogues, les grandes bibliothèques avaient ainsi accès à leurs collections, mais aussi à celles de leurs homologues. Le principal défaut du catalogue imprimé est qu'il ne peut être mis à jour qu'en publiant des suppléments, qui rendent la recherche de plus en plus fastidieuse au fur et à mesure de leur parution. Ainsi, quand le National Union Catalog (catalogue des livres d'avant 1956) a cessé son édition papier en 1981, il avait accumulé 528 000 pages en 754 volumes, soit 40 mètres linéaires.
+
+Catalogues sur fiches
+Catalogue thématique de la bibliothèque de l'université de Graz.
+Les catalogues sur fiches sont apparus en France, lors de la Révolution, lorsque le catalogue d'une partie des bibliothèques départementales ou districales issues des confiscations des bibliothèques religieuses et de nobles émigrés a été réalisé sur le verso des cartes à jouer dont l'usage était proscrit pour des raisons politiques (présence d'images de rois et de reines). Les cartes comportant un as étaient utilisées des deux côtés si la description le nécessitait.
+Au cours du XIXe siècle, les conservateurs bénévoles des bibliothèques publiques, municipalisées en 1804, privilégient les registres et c'est à partir de la fin du siècle que les fiches, mieux adaptées aux grandes collections et à l'accès direct, se sont progressivement imposées.
+Généralisées dans la seconde moitié du XXe siècle, elles ont fortement régressé du fait de l'informatisation, mais sont encore en usage dans les bibliothèques non informatisées, en particulier les plus petites. Leur mise à jour, appelée intercalation est relativement facile. En revanche, il faut réaliser une fiche pour chacun des accès, ce qui est couteux en temps de travail. Il est aussi très couteux de les dupliquer pour les rendre consultable hors de la bibliothèque qui les produit et donc très rarement réalisé. Les fiches sont rangées dans des tiroirs et, lorsqu'un lecteur en consulte un, il est indisponible pour les autres.
+Le format habituel d'une fiche de catalogue est 75 125 mm (format à l'italienne), éventuellement percé d'un trou au milieu du bas, pour retenir toutes les fiches d'un tiroir par une tringle. La faible surface disponible oblige à normaliser l'information de façon à ce qu'elle occupe le moins de place possible : c'est la notice au format ISBD, dite pavé ISBD, qui n'est pas toujours facile à lire pour un non-initié.
+À la suite de l'informatisation des bibliothèques, certains établissements ont procédé à la numérisation des fiches de catalogue afin d'offrir un accès à travers un outil informatique, on parle alors de CIPAC (Card-Image Public Access Catalogue).
+
+Catalogues informatisés
+L'informatisation des catalogues des bibliothèques a commencé dans les années 1960. La structuration des données se fait habituellement selon un format MARC, modèle conçu par Henriette Avram à la Bibliothèque du Congrès. À la différence des catalogues non-informatisés, il n'y a plus qu'une seule base de données, qui permet une recherche selon les différents accès titre, auteur et sujet et qui tient également lieu d'inventaire. Les catalogues informatisés permettent de créer de nouveaux accès, comme la recherche portant sur tous les mots de la notice (recherche plein-texte). Ils permettent également de construire des équations de recherche en utilisant des opérateurs booléens.
+L'interface publique du catalogue est généralement appelée Online public access catalog (OPAC). L'usage d'écrans d'ordinateurs rend l'ensemble du catalogue consultable simultanément par tous les utilisateurs de la bibliothèque. Les catalogues sont désormais très souvent accessibles hors les murs de la bibliothèque par Internet. La norme Z39.50 permet d'interroger simultanément plusieurs OPAC, via une interface Web.
+
+Catalogues interactifs
+Une nouvelle tendance est le catalogue interactif qui permet de passer à la consultation de livres en ligne, de documents rares, fragiles, ou non-empruntables. Grâce aux technologies Web, le catalogue interactif permet à l'internaute de feuilleter directement en ligne le document grâce à une bibliothèque numérique.
+L'autre intérêt est la convergence avec le multimédia qui permet de dramatiser les univers des livres interactifs. En effet, le feuilletage est complété par du son, des animations interactives ou non, des vidéos sur simple clic.
+
+Voir aussi
+
+Articles connexes: Bibliographie; Online public access catalog; Notice bibliographique; Système intégré de gestion de bibliothèque (SIGB); Instrument de recherche (l'équivalent pour les archives).

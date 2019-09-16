@@ -1,0 +1,111 @@
+En linguistique, l'interrogation est un acte de langage par laquelle l'émetteur d'un énoncé adresse au destinataire (réel ou fictif) de celui-ci une demande d'information portant sur son contenu. Une phrase interrogative est couramment appelée "question".
+
+Types d'interrogation
+
+Interrogation totale
+L'interrogation totale concerne la phrase entière et appelle une réponse totale, comme "oui", "non", "sûrement"...
+Une telle question totale porte en fait très souvent sur un élément partiel, mis en relief par divers moyens ou non : ex.: Pierre est-il allé à Paris Est-ce à Paris qu'il est allé - Oui (- à Paris). Les autres informations présentes dans la question sont alors présupposées : dans l'exemple ci-dessus, on présuppose qu'on sait que Pierre est allé quelque part.
+
+Interrogations partielles
+L'interrogation partielle appelle une réponse autre que oui-non, portant sur un seul élément de la phrase.
+L'interrogation partielle présuppose donc toujours les autres informations qui ne sont pas questionnées, triviales ou non : ex.: Par quel bus viens-tu au boulot (nous savons que tu viens en bus). ex.: De quelle marque est ton téléphone (tu as un téléphone, ton téléphone a une marque)
+Une question partielle ouverte ne fournit pas la liste des réponses attendues. Elle comporte toujours un mot interrogatif. ex. Tu veux quoi
+Une question partielle fermée (alternative) propose une liste de réponses attendues : ex.:Tu veux du café ou du thé
+On essaie parfois de fermer les interrogations totales : ex.: Alors, tu veux du thé oui ou non
+Et il reste possible de poser des questions entrouvertes, en ouvrant une liste non limitée de réponses possibles : ex.: Tu veux (quoi) du café, du thé...
+
+Interro-négation
+
+Question rhétorique
+
+Question-tag
+On appelle question-tag une question qui ne commence pas par un pronom interrogatif, ce qui implique forcement une inversion entre le sujet et le verbe dans la phrase. Exemple : Est-il grand ou petit ; Travaille-t-il à mi-temps.
+
+Interrogation directe et indirecte
+On a une interrogation indirecte lorsque la phrase est formulée sans point d'interrogation. Exemple : Je me demande si le train aura du retard.
+
+Sémantique de l'interrogation
+
+Un acte illocutoire
+
+Question et réponse
+
+Les questions orientées
+
+Les questions impératives
+Une question impérative est un type de question suggérant un acte comme réponse. Exemple : Pouvez-vous me passer le sel.
+
+Marquage de l'interrogation
+
+Absence de marquage
+Dans de rares langues, il n'existe aucun marquage formel de l'interrogation ; l'interprétation d'une phrase interrogative comme telle dépend alors entièrement du contexte.
+
+Marquage prosodique
+Dans un très grand nombre de langues, l'interrogation s'accompagne d'une intonation prosodique distinctive ; dans certains cas, elle peut en être l'unique marque. Par exemple, en italien ou en roumain, la prosodie est le moyen principal d'exprimer l'interrogation. Le français a également cette possibilité, mais la limite largement au registre familier Tu viens Nous irons au cinéma ce soir
+
+Marquage par alternative
+Question du type "tu viens ou tu ne viens pas".
+
+Marquage par défaut
+"Absence of declarative morphemes", cf WALS n 116
+
+Marquage par outil interrogatif
+
+Particules interrogatives
+De nombreuses langues marquent l'interrogation par une particule dédiée, de place variable selon les langues. Exemples : En japonais, la particule ka se place à la fin d'une phrase interrogative.; En polonais, la particule czy se place au début d'une phrase interrogative.; Le finnois utilise un enclitique -ko ou -kö (selon les règles de l'harmonie vocalique), qui s'attache après l'élément sur lequel porte l'interrogation, placé en tête de phrase.; Le français utilise le subordonnant si pour introduire une proposition subordonnée interrogative.; En français vernaculaire québécois on ajoute, dans la langue orale, la particule tu après le verbe d'une phrase interrogative tout en gardant le pronom personnel exerçant la fonction de sujet (mais ce pronom personnel n'est pas déplacé après le verbe -ni uni à celui-ci à l'aide d'un trait d'union- comme le requiert l'inversion interrogative du français standard), comme dans "On y va tu ou on reste à la maison". Puisque le tu qui suit le verbe n'est pas un pronom personnel exerçant la fonction de sujet ayant été déplacé après le verbe dans la proposition interrogative, on ne le lie pas au verbe à l'aide d'un trait d'union lorsqu'on transcrit le discours oral. Ainsi, on écrira "Tu viens tu" plutôt que "-Tu viens-tu".; En arabe, il y a plusieurs pronoms utilisables pour demander une question. La phrase peut être purement nominale sans pour autant perdre sa signification de base. En plus, la personne appelée peut être représentée par un pronom attaché directement au verbe, ou séparé dans le cas de la phrase purement nominale.; En turc, la question totale est marquée (en plus de l'intonation) par la particule mu-mü-m-mi (selon l'harmonie vocalique avec le mot qui précède). Cette particule se place après le radical du verbe et supporte les suffixes verbaux de personne et de temps.
+
+Locutions interrogatives
+Des locutions figées peuvent s'employer comme particule interrogative. C'est le cas en français, qui utilise couramment est-ce que en tête de phrase pour introduire une interrogation globale, et l'emploie également après un interrogatif pour une interrogation partielle (qu'est-ce que, où est-ce que, quand est-ce que... et avec une substitution de pronom relatif dans qui est-ce qui).
+Des locutions sont couramment employées comme questions-tags. Le français utilise ainsi les expressions n'est-ce pas ou pas vrai pour obtenir confirmation.
+
+Adjectifs et pronoms interrogatifs
+En français : qui, quoi, quel, lequel, où, quand, comment, pourquoi, combien...
+
+Marquage morphologique
+Certaines langues possèdent un mode verbal spécifique destiné à marquer l'interrogation.
+
+Marquage syntaxique
+L'inversion de l'ordre des mots par mise du verbe en première position est employée pour marquer l'interrogation dans un certain nombre de langues d'Europe. C'est la méthode habituelle dans les langues germaniques. Le français la connaît également ; c'est la forme préférentielle de l'interrogation dans un registre soutenu.
+De nombreuses langues tendent à placer un interrogatif en tête de phrase. La grammaire générative a modélisé cette propriété sous le nom de mouvement-wh.
+
+Interrogation en français
+
+Marquage de la phrase interrogative
+La phrase interrogative française présente quelques caractéristiques : une interrogation directe se termine toujours à l'écrit par un point d'interrogation;; une interrogation possède, à l'oral, une intonation caractéristique ascendante (en l'absence de mot interrogatif) ou autre.; les interrogations présentent des formes et des prononciations très variées, classant des registres de langue (stigmatisés, familiers, standard, formel...) : Qu'est-ce Qu'est-ce que c'est C'est quoi Qu'est-ce (que) c'est que ça Quelle personne est-ce (que c'est) Quel genre de personne est-elle C'est quoi comme personne Elle est comment Comment qu'elle est : Souvent, surtout dans le français formel, le sujet est inversé, c'est-à-dire placé après le verbe : Où es-tu Lorsque le sujet est un groupe nominal ou un pronom autre que ce ou un pronom personnel, ce sujet est placé avant le verbe et est repris par un pronom personnel de 3e personne. On parle alors d'inversion complexe (ex: Luc a-t-il rencontré quelqu'un De qui Luc t'a-t-il parlé).; La locution adverbiale est-ce que est souvent utilisée pour rétablir l'ordre sujet-verbe (ex: Est-ce que tu as rencontré quelqu'un Où est-ce que tu es).; Souvent, surtout dans le français formel, le sujet est inversé, c'est-à-dire placé après le verbe : Où es-tu Lorsque le sujet est un groupe nominal ou un pronom autre que ce ou un pronom personnel, ce sujet est placé avant le verbe et est repris par un pronom personnel de 3e personne. On parle alors d'inversion complexe (ex: Luc a-t-il rencontré quelqu'un De qui Luc t'a-t-il parlé).; La locution adverbiale est-ce que est souvent utilisée pour rétablir l'ordre sujet-verbe (ex: Est-ce que tu as rencontré quelqu'un Où est-ce que tu es).; les interrogations comportent fréquemment un mot interrogatif (pronom, déterminant, adverbe, est-ce que...).
+
+Interrogation totale et partielle
+
+Interrogation totale (voir Types d'interrogation ci-dessus)
+
+Interrogation partielle (voir Types d'interrogation ci-dessus)
+
+Mots interrogatifs
+La vaste gamme des mots interrogatifs permet de faire porter, aussi finement que nécessaire mais souvent avec des ambiguïtés, l'interrogation sur l'identité, ou les propriétés définitoires (la catégorisation), ou les qualités accessoires, ou la quantité (nombre, taille) d'une entité (personne, objet, groupes de personnes, d'objets, lieu, moment...). L'"objet" visé peut être déjà catégorisé ou non ; il peut appartenir à un ensemble connu ou non.
+ex: (comparer) Qui est-ce Quelle est cette personne Laquelle de ces personnes est-ce Quel genre de personne est-ce Combien sont-elles
+
+Pronoms interrogatifs
+Un pronom interrogatif permet de demander l'identité de la personne ou de la chose concernée par le reste de la phrase. Les pronoms interrogatifs peuvent être simples, renforcés ou composés.
+
+Forme simple
+Les formes simples des pronoms interrogatifs varient selon le caractère animé ou inanimé du référent, et la fonction du pronom.
+ex: Qui as-tu rencontré ex: Avec qui iras-tu à la piscine
+ex: Avec l'autorisation de qui as-tu fait cela Tu as eu cette idée en fumant quoi Pour arriver à quoi
+
+Forme renforcée
+À chaque forme simple correspond une forme renforcée qui est une locution pronominale interrogative.
+ex: Qui est-ce que tu as rencontré ex: Avec qui est-ce que tu iras à la piscine
+
+Forme composée
+La forme composée varie selon le genre, le nombre et la fonction du référent, et peut se contracter avec les prépositions à et de. Elle a une valeur anaphorique, car elle reprend un groupe nominal.
+ex: J'ai acheté deux livres. Lequel (de ces livres) veux-tu lire
+ex: Tu as beaucoup d'amis. Avec lequel (d'entre eux) iras-tu à la piscine
+
+Déterminants interrogatifs
+Le déterminant interrogatif quel est variable en genre et en nombre, contrairement à combien de.
+ex: Quel livre as-tu lu Quelle est ton opinion
+ex: Combien de livres as-tu lu
+
+Adverbes interrogatifs
+Les adverbes interrogatifs où, quand, comment, combien et pourquoi sont utilisés lorsque l'interrogation porte sur les circonstances. Les adverbes interrogatifs possèdent aussi des formes renforcées où est-ce que, quand est-ce que, etc.
+ex: Où vas-tu
+ex: Où est-ce que tu vas

@@ -1,0 +1,26 @@
+Un acronyme est un mot formé des initiales (Otan, ovni, Medef) ou des éléments initiaux (Benelux, radar) de plusieurs mots, éventuellement composés (sida), et se prononçant comme un mot normal et non pas lettre par lettre. Ainsi sont exclus la plupart des mots-valises - motel, progiciel, etc. - car ils contiennent des éléments qui ne sont pas initiaux dans les mots d'origine : hôtel, logiciel, ainsi que les sigles que l'on prononce par leurs lettres initiales (SNCF, EDF).
+
+Usage
+Un acronyme peut s'écrire, selon le cas : comme les autres sigles, entièrement en capitales, sans points de séparation, s'il est constitué d'initiales. Par exemple l'ADEME, l'ENA, le TAF ou la FIFA ;; comme un nom propre, muni d'une majuscule, s'il n'est pas uniquement constitué d'initiales. Par exemple : Benelux, Tuponia ou Afssaps ;; comme un nom commun, en minuscules, s'il est lexicalisé. Par exemple : laser, ovni, radar, sida, pacs, etc..
+Certaines entreprises créent des acronymes qui "sonnent" bien puis cherchent a posteriori une signification pour chacune des lettres. Ce sont des cas particuliers de rétroacronymie. Un des cas les plus célèbres est celui du nylon, créé en 1938, qui a donné lieu à des rétroacronymies.
+L'acronyme peut également être formé en abrégeant les mots par leur syllabe initiale (par exemple Benelux).
+L'acronyme peut également être utilisé comme moyen mnémotechnique. Par exemple, dans l'aviation, l'acronyme ACHEVER est parfois utilisé pour lister tout ce qu'il ne faut pas oublier de vérifier avant de décoller : A pour Atterrisseur - C pour Commandes, Compensateur, Carburation (réchauffage froid), Carburation (mélange plein riche), Contact - H pour Huile, Harnais - E pour Essence - V pour Verrière, Volets - E pour Électricité, Extincteur - R pour Réglage, Radio(6).
+Les acronymes ne portent pas la marque du pluriel, sauf lorsqu'ils ont été lexicalisés comme des noms communs : des radars, des lasers.
+
+Dérivation
+L'acronyme peut être lexicalement "dérivé" et servir de racine à de nouveaux termes lexicaux (noms, adjectifs et verbes), par ajout de préfixes ou de suffixes : ufologie, smicard, onusien. Dans ce cas, des diacritiques peuvent, au besoin, être ajoutés au radical des dérivés : médefiste. Ils peuvent participer à la formation de nouveaux jargons (abusivement selon certains auteurs) ou se diffuser largement dans le vocabulaire employé par le grand-public, parfois dans le monde entier.
+
+Usage littéraire
+Des écrivains se sont rapidement approprié ce procédé pour en jouer : Raymond Queneau modifie leur graphie : achélème (acronymisation de HLM, qui est le sigle de "habitation à loyer modéré") ;; d'autres auteurs inventent des acronymes originaux (en ne suivant pas exactement leur règle de formation et en insérant parfois des lettres supplémentaires sans signification) : par exemple le SDREDRERARLO, le Syndicat des empêcheurs de rire en rond à l'opéra, pour R. Ducharme.
+
+Problèmes posés
+Un même acronyme peut avoir des sens nombreux et très différents selon l'époque et le pays.
+Comme pour la tendance aux néologismes, l'apparition rapide d'un grand nombre d'acronymes rend plus difficile encore le travail des outils de reconnaissance, traduction et traitement automatique des langues, notamment quand des acronymes sont détournés avec un changement de sens qui a par exemple une fonction humoristique ou dénonciative.
+
+Records
+L'acronyme russe Niiomtplaboparmbetzhelbetrabsbomonimonkonotdtekhstromont (en cyrillique :) est le plus long du monde (56 lettres mais 54 en alphabet cyrillique) et signifie : "Laboratoire pour des opérations de couverture, de renfort, de béton et de béton armé pour les constructions composites-monolithiques et monolithiques du Département de la technologie des opérations du bâtiment assemblé de l'Institut de recherche scientifique de l'Organisation pour la mécanisation de bâtiment et l'aide technique de l'Académie du bâtiment et de l'architecture de l'Union des républiques socialistes soviétiques".
+Le plus ancien des acronymes est INRI, acronyme dit titulus crucis, de l'expression latine Iesvs Nazarenvs, Rex Ivdaeorvm généralement traduit par : "Jésus le Nazaréen, roi des Juifs". Sa première trace archéologique date du IVe siècle avec l'inscription conservée à Rome, à la basilique Sainte-Croix-de-Jérusalem.
+
+Voir aussi
+
+Articles connexes: Abréviation; Mot-valise; Rétronymie; Sigle; Acronyme postal de la Seconde Guerre mondiale.

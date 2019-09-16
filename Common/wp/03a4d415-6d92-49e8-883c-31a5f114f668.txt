@@ -1,0 +1,15 @@
+Le partitionnement de données (ou data clustering en anglais) est une des méthodes d'analyse des données. Elle vise à diviser un ensemble de données en différents "paquets" homogènes, en ce sens que les données de chaque sous-ensemble partagent des caractéristiques communes, qui correspondent le plus souvent à des critères de proximité (similarité informatique) que l'on définit en introduisant des mesures et classes de distance entre objets.
+Pour obtenir un bon partitionnement, il convient d'à la fois : minimiser l'inertie intra-classe pour obtenir des grappes (cluster en anglais) les plus homogènes possibles ;; maximiser l'inertie inter-classe afin d'obtenir des sous-ensembles bien différenciés.
+
+Vocabulaire
+La communauté scientifique francophone utilise différents termes pour désigner cette technique. Le mot anglais clustering est communément employé. On parle également souvent de méthodes de regroupement. On distingue souvent les méthodes "hiérarchiques" et "de partition"
+
+Intérêt et applications
+Le partitionnement de données est une méthode de classification non supervisée (différente de la classification supervisée où les données d'apprentissage sont déjà étiquetées), et donc parfois dénommée comme telle.
+Applications : on en distingue généralement trois sortes : la segmentation d'une base de données ; elle peut servir à discrétiser une base de données. La segmentation peut aussi permettre de condenser ou compresser les données d'une base de données spatiales (c'est-à-dire réduire la taille des paquets de données à traiter, dans l'ensemble de données considéré) ; par exemple, dans une image aérienne ou satellitaire un SIG peut traiter différemment les forêts, champs, prairies, routes, zones humides, etc. ici considérés comme des sous-espaces homogènes. Un traitement plus fin pouvant ensuite être appliqué à des sous-ensemble de ces classes (ex. forêt de feuillus, de résineux, artificielles, naturelles, etc.). OLAP est une méthode qui facilite l'indexation de telles bases ;; la classification (en sous-groupes, sous-populations au sein de la base de données), par exemple d'une base de données clients, pour la gestion de la relation client ;; l'extraction de connaissances, qui se fait généralement sans objectif a priori (facteur de sérendipité, utile pour la génération d'hypothèse ou modélisation prédictive), pour faire émerger des sous-ensembles et sous-concepts éventuellement impossibles à distinguer naturellement.
+
+Algorithmes
+Il existe de multiples méthodes de partitionnement des données, parmi lesquelles : Les méthodes basées centroïdes telles que les algorithmes des k-moyennes ou k-médoïdes ;; Les méthodes de regroupement hiérarchique ;; Des algorithmes de maximisation de l'espérance (EM) ;; Des algorithmes basés sur la densité tels que DBSCAN ou OPTICS ;; Des méthodes connexionnistes telles que les cartes auto adaptatives.
+Ces méthodes sont implémentées au sein de nombreux logiciels de fouille de données.
+
+Voir aussi

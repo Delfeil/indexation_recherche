@@ -1,0 +1,98 @@
+Un élément meta (ou métaélément, ou balise meta, ou meta tag par analogie avec l'anglais) est une information sur la nature et le contenu d'une page web, ajoutée dans l'en-tête de la page au moyen de marqueurs HTML.
+L'élément meta est un type d'élément HTML (comme l'élément link...) destiné à fournir des métadonnées structurées sur une page web. Cet élément doit être placé dans la section head d'un document HTML, entre les marques head et -head. Il est invisible à la lecture et peut avoir diverses utilisations.
+L'une des premières utilisations a été de servir de clé d'accès supplémentaire pour les outils de recherche d'information (moteurs de recherche). Les mots-clés ont alors permis aux robots des moteurs de recherche d'indexer les pages web dans les bases de données suivant différentes entrées.
+Cependant, tous les moteurs de recherche n'emploient pas des balises meta. D'autre part, il existe d'autres utilisations possibles (classifications, travail collaboratif...).
+
+Paramétrages
+La structure des métaéléments est beaucoup plus simple que celle de tous les autres éléments HTML, avec seulement deux attributs nécessaires pour fonctionner : L'attribut name indique le type de contenu d'information dans la balise; l'attribut content fait référence au contenu de l'information.
+Les premiers attributs sont codifiés par un numéro limité et exprimés par un mot spécifique, les seconds sont variables et sont contextualisés en fonction du site ou de la page auxquels ils font référence.
+
+Utilisations
+Nous indiquons ici trois catégories d'utilisations, traditionnellement identifiées en ingénierie des connaissances (voir Les trois composantes de la gestion des connaissances).
+
+Utilisation dans la recherche d'information
+Optimisation des moteurs de recherche
+Les métaéléments fournissent de l'information sur une page web donnée, le plus souvent pour aider les moteurs de recherche à les catégoriser correctement. Ils sont insérés dans le document HTML, mais, le plus souvent, ne sont pas directement visibles pour un utilisateur qui visite le site.
+Ils ont fait l'objet d'un champ de recherche marketing connu sous le nom d'optimisation des moteurs de recherche (Search Engine Optimization, SEO), dans lequel on explore différentes méthodes pour fournir au site web d'un utilisateur un meilleur rang dans les moteurs de recherche. Dans le milieu des années 1990 et jusqu'à 1999, les moteurs de recherche s'appuyaient sur les métadonnées pour classifier correctement une page web et les webmasters apprenaient rapidement l'importance commerciale qu'il y avait à placer le bon métaélément, puisque cela menait fréquemment à un rang élevé dans les moteurs de recherche - et ainsi apportait un gros trafic sur le site web.
+Comme le trafic sur les moteurs de recherche prenait de plus en plus d'importance dans les plans de marketing en ligne, les consultants ont été amenés à étudier comment les moteurs de recherche percevaient un site web. Ces consultants utilisaient diverses techniques (légitimes et autres) pour améliorer le rang pour trouver des clients.
+Les métaéléments ont aujourd'hui perdu de leur efficacité sur les pages de résultats des moteurs de recherche par rapport aux années 1990, et leur utilité a considérablement diminué alors que les robots des moteurs de recherche sont devenus plus sophistiqués. En 2009, Google a même expliqué qu'il ne tenait plus compte des métadonnées "keywords" dans le classement de ses résultats. Ceci est dû en partie à la re-occurrence presque infinie (key stuffing) des métaéléments et-ou aux tentatives, de la part de consultants en installation de sites web peu scrupuleux, de manipuler (spamdexing) ou de modifier les algorithmes sur le rang d'un moteur de recherche. Alors que l'optimisation d'un site web peut améliorer le rang d'un moteur de recherche, les consommateurs de tels services devraient prendre soin de n'employer que des fournisseurs fiables.
+Les principaux robots des moteurs de recherche ont plus d'aptitude à quantifier des facteurs tels que le volume des liens entrants de sites web sans rapport, la quantité et la qualité du contenu, la précision technique du code source, l'orthographe, les hyperliens en fonction par rapport aux liens inactifs, le volume et la cohérence des recherches et-ou du trafic des internautes, le temps passé sur le site web, les visites, revisites, clics, caractéristiques techniques, l'unicité, la redondance, la pertinence, le champ de revenu pour la publicité, freshness, géographie, la langue et d'autre caractéristiques intrinsèques.
+Influence sur la performance de visibilité
+Des travaux académiques, par exemple ceux de Zhang et Dimitroff, en 2004, ont abouti à la conclusion que "les pages web comportant des éléments de métadonnées obtiennent une meilleure performance de visibilité que celles qui n'ont pas d'éléments de métadonnées".
+Google n'utilise pas d'éléments de mots-clés HTML pour l'indexation. On a rapporté une citation de Monika Henziger, directeur de recherche de Google, en 2002, qui disait : "Actuellement nous ne faisons pas confiance aux métadonnées".
+D'autres moteurs de recherche ont développé des techniques pour pénaliser les sites web considérés comme "truquant le système". Par exemple, un site web qui répète le même meta keyword plusieurs fois peut voir son rang décroître par un moteur de recherche qui essaie d'éliminer cette pratique, bien que cela soit improbable. Il est plus probable qu'un moteur de recherche va ignorer complètement l'élément meta keyword, et la plupart le font sans se préoccuper du nombre de mots utilisés dans l'élément.
+
+Utilisation dans le travail collaboratif
+En plus des systèmes complètement automatisés comme les moteurs de recherche, les métadonnées fournies par des auteurs de sites web peuvent être utilisées dans les cas où le contenu de la page a été validé comme fiable par un lecteur.
+Cette pratique s'appelle le partage de signets. Le partage de signets peut avoir une finalité sociale (social bookmarking en anglais) ou professionnelle (collaborative bookmarking). Il existe des outils capables de faire du partage de signets.
+
+Utilisation dans les classifications
+Les éléments meta sont largement utilisés dans les classifications : Thésaurus; Taxonomies; Ontologies.
+etc.
+Plus le niveau de formalisation et de structuration du schéma de classification employé est élevé, plus les éléments meta, alliés aux éléments de lien (élément link) ont de valeur ajoutée.
+
+Attributs
+
+Avertissement
+La liste d'attributs ci-dessous est donnée à titre informatif.
+Il n'existe pas de normalisation sur l'utilisation des attributs, sauf peut-être, pour le gouvernement des États-Unis, le standard Dublin Core (attributs commençant par "DC" dans la liste ci-dessous).
+L'Union européenne n'a pas encore défini de standard sur l'utilisation des métaéléments. Seul un groupe de travail (composé en majorité d'organismes américains), en 2002, a suggéré l'utilisation de métadonnées pour les documents électroniques émanant de la Commission européenne (voir Communication par l'internet de la Commission européenne).
+En France, les webmestres emploient en général les métaéléments par rapport à des communautés relativement restreintes (limitées aux entreprises et leurs partenaires, ou à un domaine particulier de l'entreprise).
+
+Valeur des attributs
+La liste suivante n'est pas exhaustive : Description; Keywords; Robots; Revisit; CreateDate; Expires; Language; Last-Update; revision; Contact; ContactPhoneNumber; contactNetworkAddress; Author-Corporate; Author-Personal; Author Publish; Publisher Email; dateofLastModification; Generator; Owner; Content-language; Content-Type; Date; Last-Modified; Title; Refresh; viewport.
+Éléments du Dublin Core (non officiel) : DC.Coverage; DC.Contributors; DC.Creator; DC.Date; DC.Description; DC.Language; DC.Publisher; DC.Title.
+Autres : htdig-email-subject; htdig-email; htdig-keywords; htdig-notification-date; MathDMV.author; MathDMV.Contact; MathDMV.Update; WW96ObjectType.
+
+Métaéléments et éléments de données
+Les métaéléments fournissent une description surtout statique de la nature et du contenu de la page web.
+Il existe des correspondances entre les métaéléments des pages web, utilisés par le langage HTML, et les éléments de données manipulés par les systèmes informatiques avec les autres langages de balisage (XML) et par Java, qui accèdent non seulement aux ressources web, mais aussi à tous les types de ressources informatiques quel que soit le système concerné (voir Utilisations des métadonnées par types de ressources et Utilisations des métadonnées par types d'applications).
+Cette description dynamique se fait par l'intermédiaire des éléments link, par la commande :
+qui relie le préfixe DC au schéma situé sur http:--purl.org-dc-elements-1.1-.
+Si par exemple on prend le Dublin Core qualifié (rappel : non officiel dans l'Union européenne), on constate que les métaéléments peuvent être des éléments de données ou bien des raffinements d'éléments de données.
+Pour plus d'informations, consulter : Recording qualified Dublin Core metadata in HTML meta elements, sur le site du Dublin Core Metadata Initiative.
+
+Description des principaux attributs et de leurs utilisations
+
+L'attribut keywords (mot-clé)
+L'attribut keywords a été popularisé par les moteurs de recherche comme Infoseek ou AltaVista en 1995, et sa popularité a augmenté rapidement jusqu'à ce qu'il devienne l'un des éléments meta les plus utilisés. Vers fin 1997 en informatique, cependant, les fournisseurs de moteurs de recherche ont réalisé que l'information enregistrée dans les éléments meta, tout particulièrement l'attribut keywords, n'était pas souvent fiable et pouvait induire en erreur, et au pire, pouvait entraîner les utilisateurs dans des sites spam (des webmestres peu scrupuleux pouvaient placer facilement de faux keywords dans leurs métaéléments pour attirer les gens vers leur site).
+Les moteurs de recherche ont commencé à diminuer le support sur les métadonnées fournies par les métaéléments en 1998, et vers le début des années 2000, la plupart des moteurs de recherche ne s'appuyaient plus du tout sur les métaéléments. En juillet 2002, AltaVista, l'un des derniers moteurs de recherche à offrir encore un support, a finalement arrêté de les prendre en compte. Les nouveaux moteurs de recherche tels que Google et FAST ont toujours analysé les attributs keywords : Google a déclaré publiquement qu'il utilise largement l'attribut keywords comme une méthode de détection des sites web de spam (avril 2007).
+
+L'attribut news-keywords
+L'attribut news-keywords a été introduit en 2012 par Google pour aider à classifier les thématiques des articles référencés dans Google Actualités. Elle n'a un impact que pour ce moteur spécialisé (et donc uniquement pour les sites qui font partie des sources prises en compte).
+
+L'attribut description
+L'attribut description contient une description concise du contenu d'une page web. À la différence de l'attribut keyword, il est reconnu par la plupart des principaux moteurs de recherche, comme Yahoo et Windows Live Search ; Google s'y réfère lorsqu'une information sur la page est demandée (par exemple avec la requête related:).
+Cette balise permet donc aux auteurs de la page de fournir plus d'information que le moteur de recherche ne pourrait en donner automatiquement à partir du contenu de la page. La description est souvent, mais pas toujours, affichée sur les pages de résultat du moteur de recherche, de sorte qu'il peut avoir un impact sur les taux de clics. Au début des années 2000, les commentateurs de l'industrie ont "suggéré" que les principaux moteurs de recherche considèrent aussi les mots-clés situés dans l'attribut description lorsqu'ils classent les pages. Mais en ce qui concerne Google, la balise meta description n'est pas prise en compte dans l'algorithme de classement. Mais grâce à l'impact sur le taux de clics dans les pages de résultats, cette balise aide indirectement à un bon référencement.
+
+L'attribut robots
+L'attribut robots est utilisé pour contrôler si les robots d'indexation du moteur de recherche sont autorisés à indexer une page, ou non, et s'ils doivent suivre les liens d'une page, ou non.
+Par exemple : la valeur noindex empêche une page d'être indexée,; la valeur nofollow empêche les liens d'être suivis par les robots d'indexation,; la valeur noarchive empêche le moteur de recherche d'archiver (mettre en cache) une page.
+D'autres valeurs sont disponibles pour influencer l'indexation des pages des moteurs de recherche, et la façon dont ces pages apparaissent dans les résultats de recherche. Pour Google, ces valeurs sont index, follow, all, none, nosnippet, nocache, notranslate, noimageindex, noodp, noydir et unavailable-after. L'attribut robots est supporté par plusieurs moteurs de recherche majeurs.
+
+L'attribut lang
+Si l'attribut lang est proposé à un moteur uniquement anglophone, paramétré pour refuser les sites d'autres langues, il peut être refusé.
+
+L'attribut coverage
+Voir aussi : Couverture (métadonnée)
+
+L'attribut refresh (redirections)
+On peut utiliser des éléments Meta refresh pour demander à l'agent utilisateur de rafraîchir automatiquement une page web après un intervalle de temps donné. Il est aussi possible de spécifier une URL alternative et d'utiliser cette technique pour rediriger l'utilisateur vers un site différent. Cependant : Ces redirections et rafraîchissements seront ignorés par une partie des agents utilisateurs (robot d'indexation) et pourront être désactivés dans d'autres (navigateur web).; Les rafraîchissement et redirections automatiques gérées de cette manière (côté client) sont explicitement interdites par les normes d'accessibilité des contenus web. En effet, le changement de page non sollicité et non anticipable par l'utilisateur peut le désorienter, et provoque une perte irréparable d'information si son mode d'accès (lecteur d'écran, loupe d'écran, accès clavier, etc.) entraîne un temps de consultation plus long que celui qui est ainsi imposé.
+
+Messages d'en-tête http
+Les éléments meta de la forme :
+meta http-equiv-"name" content-"bar"
+peuvent être utilisés comme rappel de l'en-tête http.
+Par exemple :
+meta http-equiv-"expires" content-"Wed, 21 Jun 2006 14:25:27 GMT"
+voudrait dire au navigateur web que la page "expire" le 21 juin 2006 14:25:27 GMT et qu'il peut cacher la page jusqu'à ce moment.
+
+Alternative aux métaéléments
+Une alternative aux métaéléments pour un accès amélioré à un sujet à l'intérieur d'un site web est l'utilisation d'un index "back-of-book-style" dans le site web. Voir des exemples dans les sites web de la Société australienne d'indexeurs et la Société américaine d'indexeurs.
+En 1994, Aliweb, qui était pratiquement le premier moteur de recherche, utilisait aussi un fichier d'index pour fournir le type d'information que l'on trouve communément dans les attributs de mots-clés meta.
+
+Voir aussi
+
+Articles connexes
+Structuration: Resource Description Framework (RDF); Élément HTML; Métadonnée; Dublin Core (non officiel).
+Recherche d'information: Moteur de recherche; Optimisation pour les moteurs de recherche; Référencement.

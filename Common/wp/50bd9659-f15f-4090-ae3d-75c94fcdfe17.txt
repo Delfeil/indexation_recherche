@@ -1,0 +1,32 @@
+En mathématiques, et plus précisément en algèbre générale, étant donné deux ensembles E et F, une loi de composition (ou loi tout court) sur E est soit une application de F E dans E, soit une application de E F dans E. Autrement dit, c'est une opération binaire pour laquelle l'ensemble E est stable.
+On distingue deux types de loi de composition : si F - E, on parle de loi de composition interne ;; si F E, on parle de loi de composition externe.
+En pratique, de nombreux auteurs utilisent "loi de composition" comme synonyme de "loi de composition interne" (par exemple Bourbaki et Lang).
+Les lois de composition internes et externes servent à définir les structures algébriques, qui occupent une place privilégiée en algèbre générale.
+
+Définition détaillée
+Une loi de composition - : E F G, avec G - E ou G - F, est une application de E F dans G qui associe à chaque couple (x, y) de E F, un élément de G noté habituellement "x - y" (au lieu de la notation fonctionnelle "- (x, y)") et appelé composé de x et de y, ou encore produit de x et y.
+x et y sont parfois qualifiés d'opérandes, car une loi n'est autre qu'une fonction binaire, donc un cas particulier d'opération (i.e. de fonction n-aire).
+G doit être égal à E ou à F. Plus précisément : si E - F - G, la loi - : E E E est appelée loi de composition interne dans E ;; si E F et G - F, la loi - : E F F est appelée loi de composition externe à gauche sur F ou loi de composition externe, et E est alors le domaine des opérateurs ;; si E F et G - E, la loi - : E F E est appelée loi de composition externe à droite sur E de domaine F.
+
+Lois de composition internes
+
+Résumé
+Les lois de composition internes (parfois appelées "lois internes") sont des applications de E E E. Elles servent à définir les structures algébriques étudiées en algèbre générale : les groupes, les anneaux, les corps, etc.
+Une loi de composition interne peut avoir différentes propriétés: commutativité, associativité, etc.
+
+Exemples de lois de composition internes commutatives: l'addition dans N (-displaystyle -mathbb (N)), Z (-displaystyle -mathbb (Z)), Q (-displaystyle -mathbb (Q)), R (-displaystyle -mathbb (R)) ou C (-displaystyle -mathbb (C)); la multiplication dans N (-displaystyle -mathbb (N)), Z (-displaystyle -mathbb (Z)), Q (-displaystyle -mathbb (Q)), R (-displaystyle -mathbb (R)) ou C (-displaystyle -mathbb (C)).; toute loi d'un groupe abélien; toute loi additive d'un anneau; toute loi additive d'un corps; toute loi additive d'un espace vectoriel; toute loi multiplicative d'un anneau commutatif; toute loi multiplicative d'un corps commutatif.
+
+Autres exemples de lois de composition internes: la soustraction dans Z (-displaystyle -mathbb (Z)), Q (-displaystyle -mathbb (Q)), R (-displaystyle -mathbb (R)) ou C (-displaystyle -mathbb (C)); la division dans Q (-displaystyle -mathbb (Q) (-)), R (-displaystyle -mathbb (R) (-)) ou C (-displaystyle -mathbb (C) (-)); la multiplication des matrices; la composition de fonctions; toute loi d'un groupe; toute loi multiplicative d'un anneau; toute loi multiplicative d'un corps.
+
+Lois de composition externes
+
+Résumé
+Les lois de composition externes (parfois appelées "lois externes") sont des applications de F E E. Elles servent elles aussi à définir les structures algébriques étudiées en algèbre générale.
+Mais contrairement à une loi de composition interne, une loi de composition externe fait intervenir des éléments de l'extérieur, appelés opérateurs ou scalaires. Une loi de composition externe peut donc être vue comme une opération de F sur E. On dit alors que "F opère sur E".
+
+Exemples de lois de composition externes: L'exponentiation entière des réels est une loi de R N (-displaystyle -mathbb (R) -times -mathbb (N)) dans R (-displaystyle -mathbb (R)).; Pour tout K-espace vectoriel E, la multiplication d'un vecteur par un scalaire est une loi de KE dans E.
+
+Notations
+Il existe plusieurs notations pour les lois de composition : la plus courante est la notation infixe ; elle nécessite le recours à des parenthèses pour préciser l'ordre d'exécution des opérations, s'il y en a plusieurs :. x y (-displaystyle x-y); le symbole de la loi est parfois omis, la multiplication est par exemple souvent notée par simple juxtaposition : x y (-displaystyle xy). la notation préfixe, ou polonaise, se passe de parenthèses :. x y (-displaystyle -xy), parfois x , y (-displaystyle -x,y). la notation suffixe, ou polonaise inverse, se passe aussi de parenthèses :. x y (-displaystyle xy-), parfois x , y (-displaystyle x,y-).
+
+Voir aussi: Loi de composition interne; Opération binaire; Structure algébrique; Algèbre générale; Algèbre universelle.

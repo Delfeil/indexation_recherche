@@ -1,0 +1,24 @@
+Richard Wesley Hamming, né le 11 février 1915 à Chicago (Illinois) et décédé le 7 janvier 1998 à Monterey (Californie) est un mathématicien célèbre à qui on doit les codes de Hamming et la distance de Hamming. Il reçut le Prix Turing en 1968.
+
+Biographie
+
+Études
+Richard Hamming obtient licence à l'université de Chicago en 1937, sa maîtrise à l'université du Nebraska en 1939 et son doctorat à l'université de l'Illinois en 1942.
+
+Guerre et projet Manhattan
+Il était professeur à l'Université de Louisville lorsque la Seconde Guerre mondiale débuta et il quitta son poste pour rejoindre le projet Manhattan en 1945, programmant l'un des premiers calculateurs digitaux pour calculer les solutions des équations fournies par les physiciens du projet. L'objectif du programme était de découvrir si la détonation d'une arme nucléaire pouvait mettre en feu l'atmosphère. Les calculs montrèrent que ça ne serait pas le cas, ce qui permit aux États-Unis de procéder à un essai atmosphérique au Nouveau-Mexique puis de lancer deux bombes sur le Japon.
+
+Laboratoires Bell
+De 1946 à 1976, il travaille pour les Laboratoires Bell où il collabore avec Claude Shannon.
+
+Travaux
+
+Recherches
+
+Services
+Il a été le fondateur de l' "Association for Computing Machinery" dont il fut aussi le président.
+
+Distinctions: 1968 : prix Turing décerné par l'ACM pour son travail sur la théorie des codes; 1988 : médaille Richard Hamming décernée par l'IEEE pour sa contribution exceptionnelle à l'informatique; 1996 : prix de la recherche fondamentale de la Fondation Eduard Rhein (en) pour le code de Hamming et la distance de Hamming.
+La médaille Richard Hamming est décernée par l'IEEE, pour honorer les contributions exceptionnelles à l'informatique et aux technologies de l'information.
+
+Citations: "Les machines devraient travailler. Les gens devraient penser" (Machines should work. People should think(réf. nécessaire)).; "Il y a des longueurs d'onde que les gens ne peuvent pas voir, il y a des bruits que les gens ne peuvent pas entendre, et peut-être que les ordinateurs ont des pensées que les gens ne peuvent pas avoir." (There are wavelengths that people cannot see, there are sounds that people cannot hear, and maybe computers have thoughts that people cannot think(réf. nécessaire).).

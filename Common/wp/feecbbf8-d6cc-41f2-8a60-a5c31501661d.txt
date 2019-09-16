@@ -1,0 +1,54 @@
+En mathématiques, plus particulièrement en algèbre, une extension d'un corps commutatif K est un corps L qui contient K comme sous-corps.
+Par exemple, ℂ, le corps des nombres complexes, est une extension de ℝ, le corps des nombres réels, lequel est lui-même une extension de ℚ, le corps des nombres rationnels.
+On note parfois L-K pour indiquer que L est une extension de K.
+
+Définition
+Soit K un corps. Une extension de K est un couple (L, j) où L est un corps et j un morphisme de corps de K dans L (les morphismes de corps étant systématiquement injectifs).
+On montre qu'il existe un sur-corps N de K et un isomorphisme de corps f : N L tels que la restriction de f à K soit égale à j. Ainsi l'extension (L, j) peut être identifiée à l'extension (N, i) avec l'inclusion i. Pour cette raison, les extensions d'un corps sont généralement considérées comme des sur-corps. Cependant, certaines constructions d'extensions ne sont pas naturellement des sur-corps (par exemple le corps de rupture) et la définition d'extension ci-dessus permet plus de souplesse.
+Une sous-extension de L-K est un sous-corps de L contenant K. Si V est un sous-ensemble de L, alors on définit le corps K(V) comme le plus petit sous-corps de L contenant K et V. Il est constitué des éléments de L pouvant être obtenus à partir d'éléments de K et de V grâce à un nombre fini d'additions, de multiplications et d'inversions, ou encore : pouvant être obtenus en appliquant à des éléments de V une fraction rationnelle (à plusieurs variables) à coefficients dans K. Si L - K(V), on dit que L est engendré par V.
+Morphismes d'extensions. Si E, F sont des extensions de K, un morphisme (ou K-morphisme) de E dans F est un morphisme d'anneaux qui vaut l'identité sur K. Un tel morphisme est toujours injectif car son noyau est un idéal propre de E. Un isomorphisme de K-extensions est un K-morphisme surjectif (donc bijectif) entre deux extensions de K.; Un automorphisme de K-extensions est un K-morphisme surjectif (donc bijectif) d'une extension de K dans elle-même.
+
+Extension algébrique
+Si L est une extension de K, alors un élément de L qui est une racine d'un polynôme non nul sur K est dit algébrique sur K. Dans le cas contraire, l'élément est dit transcendant sur K. Dans le cas où L - ℂ et K - ℚ, on parle de nombre algébrique et de nombre transcendant.
+Si tout élément de L est algébrique sur K, l'extension L-K est dite algébrique.
+
+Degré d'une extension
+Si L-K est une extension de corps, alors L est un espace vectoriel sur K, où l'addition vectorielle est l'addition dans L et la multiplication par un scalaire K L L est la restriction à KL de la multiplication dans L.
+La dimension du K-espace vectoriel L est appelée le degré de l'extension et est notée (L:K). On dit que L-K est une extension finie si le degré est fini (sinon on dit que c'est une extension infinie). Par exemple, (ℂ:ℝ)-2 et l'extension ℂ-ℝ est donc finie. Par contre, puisque ℝ contient des nombres transcendants, l'extension ℝ-ℚ est infinie (on peut même montrer que son degré est égal au cardinal de ℝ).
+Si M est une extension de L qui est elle-même une extension de K, alors M est une extension de K et on a :
+En effet, si (mi)iI est une L-base de M et (lj)jJ une K-base de L, alors la famille des produits mi lj, indexée par I J, est une K-base de M.
+En particulier si les extensions M-L et L-K sont finies, alors l'extension M-K est finie. Et réciproquement.
+
+Extension simple
+On a vu plus haut la notion d'extension engendrée. Une extension engendrée par un seul élément est appelée extension simple. Elle est finie si et seulement si elle est engendrée par un élément algébrique. En conséquence, si M-K est finie, alors M-K est algébrique.
+Par exemple, ℂ est une extension simple de ℝ car elle est engendrée par i, l'unité imaginaire. L'extension ℝ-ℚ, n'étant ni finie, ni purement transcendante, n'est pas simple.
+
+Extension radicielle
+Une extension L-K est dite radicielle si tout élément x de L est une racine d'un élément de K, c'est-à-dire que xn K pour une puissance convenable de x. Alors K est de caractéristique positive p, et xpm K pour un entier naturel m convenable.
+
+Extension normale
+Une extension L-K est dite normale si elle est algébrique et si pour tout élément x de L, le polynôme minimal de x sur K a toutes ses racines dans L.
+
+Extension séparable
+Un élément algébrique d'une extension L-K est dit séparable sur K s'il annule un polynôme séparable à coefficients dans K (c'est-à-dire un polynôme premier avec son dérivé, ou de façon équivalente, un polynôme qui n'a pas de racine multiple dans une clôture algébrique de K). Une extension algébrique est dite séparable si tous ses éléments sont séparables sur K. Toute extension algébrique d'un corps parfait est séparable. Toute extension finie séparable est simple (la réciproque est cependant manifestement fausse).
+Toute extension finie est extension radicielle d'une extension séparable.
+
+Extension de Galois
+Une extension finie L-K est dite "de Galois" ou "galoisienne" si elle est normale et séparable. Le groupe des automorphismes de l'extension est fini, d'ordre le degré (L:K) de l'extension. Ce groupe est appelé le groupe de Galois de l'extension.
+Par exemple, ℂ-ℝ est de Galois, son groupe de Galois est le groupe cyclique d'ordre 2.
+
+Extension transcendante
+Une extension qui n'est pas algébrique est dite transcendante. Par exemple, ℝ-ℚ est transcendante car est un nombre transcendant. Le corps des fractions rationnelles K(X) est une extension transcendante de K.
+
+Extension transcendante pure
+On dit que des éléments x1,.. xn de L sont algébriquement indépendants sur K, ou que l'ensemble (x1,.. xn) est algébriquement libre sur K, s'il n'existe pas de polynôme non nul P(X1,.. Xn) dans K(X1,.. Xn) tel que P(x1,.. xn) - 0. Un ensemble d'éléments de L est dit algébriquement libre sur K si tous ses sous-ensembles finis le sont.
+Si L est engendré par une famille d'éléments algébriquement indépendants sur K, l'extension est dite purement transcendante. Cela équivaut à dire que L est le corps des fractions d'un anneau de polynômes (à plusieurs indéterminées, éventuellement une infinité) à coefficients dans K. Dans ce cas, la fermeture algébrique de K dans L est réduite à K.
+Toute extension est extension algébrique d'une extension purement transcendante.
+
+Degré de transcendance
+Une famille d'éléments de L est appelée une base de transcendance si elle est algébriquement indépendante sur K et si elle n'est strictement contenue dans aucune famille algébriquement indépendante de L. Les bases de transcendance "existent" (cf. lemme de Zorn) et ont toutes le même cardinal, appelé le degré de transcendance de L sur K.
+Par exemple, le degré de transcendance de l'extension ℝ-ℚ est égal à la puissance du continu, c'est-à-dire au cardinal de ℝ.
+Les extensions algébriquement closes d'un corps sont caractérisées (à isomorphisme près) par leur degré de transcendance.
+
+Extension de type fini
+Une extension L-K engendrée par une famille finie est dite de type fini. Toute extension finie est de type fini. L'extension ℂ-ℚ n'est pas de type fini. Si L-K est de type fini, alors L est une extension finie d'un corps de fractions rationnelles K(X1,.. Xn) à plusieurs variables. Les extensions de type fini interviennent en géométrie algébrique, ce sont exactement les corps de fonctions rationnelles sur les variétés algébriques intègres. Elles sont de degré de transcendance fini.

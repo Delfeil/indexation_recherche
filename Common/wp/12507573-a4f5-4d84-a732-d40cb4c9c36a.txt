@@ -1,0 +1,35 @@
+En informatique, un terminal est une variété de périphérique réseau placé à l'extrémité d'un noeud. Le terminal est un point d'accès de communication entre l'homme, la machine, ou un réseau de machine. Dans un réseau décentralisé de type client-serveur il correspond aujourd'hui à l'association minimale d'un périphérique de saisie (clavier) ou de pointage (souris) et d'un moniteur reliés à l'unité centrale. Sous Unix et en génie logiciel, il désigne par abus de langage une fenêtre d'invite de commande contenant un shell Unix.
+
+Histoire
+Avant l'arrivée de la micro-informatique et des ordinateurs individuels (PC ou Macintosh) sur les bureaux, jusque dans les années 1980, le coût et la place requise pour un ordinateur étaient tels que l'ordinateur était dans une pièce et les périphériques dans une autre. Les terminaux étaient soit des pupitres de commande (périphérique d'entrées-sorties, combinaison d'un clavier, d'un panneau de contrôle ou d'une imprimante) ou des périphériques de sortie et d'enregistrement (imprimante, perforatrice, enregistreur-lecteur de bande magnétique, etc.) reliés à l'ordinateur distant. Plusieurs opérateurs utilisaient le même ordinateur en partage.
+Les terminaux sont reliés à un serveur, un ordinateur qui se chargera de traiter les entrées de l'utilisateur et de renvoyer aux terminaux les informations résultant des traitements. La communication entre un serveur et un terminal peut emprunter différents supports (liaison téléphonique, réseaux informatiques...).
+
+Appareils
+Le terminal en tant que matériel informatique existe sous différente forme et propose à l'utilisateur différentes fonctions.
+
+Terminaux de type console
+Le mot console admet deux usages en informatique : Traditionnellement, il désigne un terminal de commande physique utilisé pour les opérations de contrôle et de maintenance d'un ordinateur. On parle alors de console système (system console en anglais). On peut voir la console un peu comme un ordinateur sans mémoire ni capacité de stockage et avec juste une carte réseau, à l'image des boîtes d'accès à l'internet que l'on connecte sur une télévision. Pour l'anecdote, une console est parfois limité à l'affichage de 80 caractères maximum par ligne, limite héritée... des cartes perforées qui codaient chaque caractère sur une colonne de trous (les cartes à 80 colonnes étaient les plus répandues).; Couramment, il représente une interface en ligne de commande qui occupe tout l'écran et qui n'est généralement pas mise en oeuvre par une interface graphique. C'est l'IHM par défaut du système d'exploitation. On peut aussi trouver une console système en mode graphique avec certains serveurs dédiés.
+
+Terminaux avec imprimante
+Terminal portable Texas Instruments Silent Writer 700. La connexion au central se faisait par modem acoustique, l'affichage des résultats par une imprimante thermique.
+Les premiers terminaux ne comportaient pas toujours d'écran ; ils étaient alors équipés d'une imprimante, qui servait de sortie sur papier.
+
+Terminaux en mode texte
+Les terminaux en mode texte présentent les sorties uniquement sous forme textuelle et disposent simplement d'un clavier pour les entrées. Un exemple de terminal texte qui fut répandu en France est le Minitel, lequel est relié aux serveurs par l'intermédiaire de la ligne téléphonique. Dans le monde informatique, le VT100 de DEC a été énormément utilisé, et est devenu un standard de fait.
+
+Terminaux passifs
+Les terminaux passifs ne possèdent pas de moyens de traitement autonomes. Ils se contentent d'accepter ce que l'utilisateur frappe au clavier ou transmet comme ordre à la souris, de le transmettre à un ordinateur et d'imprimer les réponses de l'ordinateur ou de les afficher sur un écran.
+
+Terminaux en mode graphique
+Les terminaux en mode graphique sont capables de présenter les sorties sous la forme d'une interface graphique. En plus d'un clavier, ils disposent d'un dispositif de pointage (souris). Pour cela, ils utilisent, par exemple, le protocole X Window pour ceux connectés à des serveurs Unix ou le protocole RDP pour ceux reliés à des serveurs Windows Terminal Server.
+Le Projet MILLE a mis au point un système de terminaux graphiques appelé Mille-Xterm. Il s'agit d'une infrastructure qui permet un déploiement massif et centralisé de terminaux graphiques. Il s'agit d'une solution entièrement libre (Open source) qui a été développée à partir du système LTSP en ajoutant les composantes nécessaires pour outrepasser les limites de ce dernier.
+
+Logiciels
+Le terminal en tant que logiciel est un émulateur qui modélise le fonctionnement d'un appareil réel cité dans la section "appareils" de cet article.
+
+Émulateurs de terminaux
+Les émulateurs de terminaux (ou terminaux virtuels, ou pseudo terminal) sont en fait des logiciels qui simulent le fonctionnement d'une console physique (qu'elle soit en mode texte ou graphique).
+Parmi les émulateurs de terminaux en mode texte, on peut entre autres citer (pour les systèmes Unix) xterm, gterm, konsole, Eterm, aterm ou encore rxvt.
+VNC est un protocole de terminal virtuel graphique. TightVNC en est une mise en oeuvre.
+GNU Screen permet de multiplexer des terminaux virtuels en mode texte.
+Les consoles possèdent aussi un terminal.

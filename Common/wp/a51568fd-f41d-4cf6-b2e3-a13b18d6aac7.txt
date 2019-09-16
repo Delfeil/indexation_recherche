@@ -1,0 +1,22 @@
+Gordon Earle Moore, né le 3 janvier 1929 à San Francisco est un docteur en chimie et en physique, un chef d'entreprise américain. Il est le cofondateur avec Robert Noyce et Andrew Grove de la société Intel en 1968, premier fabricant mondial de microprocesseurs. Il est connu pour avoir publié une loi empirique portant son nom, la loi de Moore, le 19 avril 1965 dans le magazine Electronics (en).
+
+Biographie
+Il naît le 3 janvier 1929 à San Francisco en Californie.
+Il est diplômé d'un Bachelor of Science en chimie de l'université de Californie à Berkeley en 1950 puis d'un doctorat en chimie et en physique du California Institute of Technology en 1954.
+Il épouse Betty, étudiante rencontrée à l'université.
+Il rejoint William Shockley (un de ses camarades d'université, Prix Nobel pour l'invention du transistor) au laboratoire Shockley Semiconductor Laboratory (en) de la société Beckman Instruments, puis la quitte pour fonder la société Fairchild Semiconductor avec sept collaborateurs de son ex-employeur surnommés les 8 traîtres aux États-Unis : lui-même, Robert Noyce, Sheldon Roberts (en), Eugene Kleiner (en), Victor Grinich (en), Julius Blank (en), Jean Hoerni et Jay Last (en).
+En 1958, Robert Noyce devient la figure la plus éminente de toute la Silicon Valley en inventant les circuits intégrés en silicium qui ont révolutionné l'électronique moderne et la Silicon Valley.
+En 1965, il annonce la loi de Moore qui veut que le nombre de transistors intégrés dans les circuits intégrés en silicium double tous les 2 ans jusqu'à ce que les transistors parviennent à la taille d'un atome en 2015.
+Siège social de Intel Corporation à Santa Clara dans la Silicon Valley au nom de Robert Noyce, inventeur des circuits intégrés
+En 1968, à la suite d'un désaccord sur la stratégie de leur entreprise, Gordon Moore qui devine les formidables potentialités de l'invention de Robert Noyce quitte Fairchild Semiconductor pour fonder avec ce dernier la société Intel à Santa Clara dans la Silicon Valley en Californie. Ils parviennent par leur simple notoriété à trouver l'avance de 2,5 millions de dollars nécessaires à leur nouvelle entreprise (Société estimée à 125 milliards d'euros à la Bourse de New York en 2002).
+Croissance du nombre de transistors dans les microprocesseurs Intel par rapport à la loi de Moore. En vert, la fausse hypothèse voulant que ce nombre double tous les 18 mois.
+Intel produit sa première puce en 1969 avec un chiffre d'affaires de 3 000 dollars. Moore recrute alors un jeune homme de 33 ans, Andrew Grove, le futur PDG et associé cofondateur d'Intel.
+Ils fabriquent dans un premier temps des circuits intégrés et des mémoires avant que Marcian Hoff, un des ingénieurs d'Intel invente le microprocesseur avec le Intel 4004 x86 en 1971 qui devient le fer de lance de l'entreprise et la propulse constructeur no 1 mondial de circuits intégrés de type microprocesseur jusqu'à ce jour (classement des 20 premiers fabricants de semi-conducteurs).
+Moore est d'abord vice-président de Intel, puis président à partir de 1975. Il devient président du conseil d'administration à partir de 1979.
+Les prévisions de la loi de Moore se révèlent relativement justes avec des chiffres qui donnent le vertige : en 2006, les microprocesseurs Core 2 d'Intel à 64 bits fonctionnent à plus de 3,20 GHz et dépassent les 80 millions de transistors.
+En 2006, sa fortune personnelle acquise avec Intel est estimée à 3,7 milliards de dollars, ce qui le classe à la 183e place des plus importantes fortunes personnelles de la planète.
+Il est entré en 1996 au Musée National d'Histoire Américaine (NMAH), aux côtés de Seymour Cray, Roland Moreno, Tim Berners-Lee et Robert E. Kahn. En 2002, une équipe d'ornithologues dédient, à lui et à son épouse, une nouvelle espèce d'oiseau découverte au Brésil, la Chevêchette des Moore (Glaucidium mooreorum).
+
+Voir aussi
+
+Articles connexes: Intel; Loi de Moore.

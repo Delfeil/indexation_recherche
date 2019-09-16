@@ -1,0 +1,49 @@
+Ruby on Rails, également appelé RoR ou Rails, est un framework web libre écrit en Ruby. Il suit le motif de conception modèle-vue-contrôleur (MVC). Il propose une structure qui permet de développer plus vite et plus intuitivement. Cependant, il impose un grand niveau d'abstraction dans la programmation qui apporte en contre-partie l'économie d'écrire soi-même la plupart des routines obligatoires d'une application web.
+
+Philosophie
+Rails est basé sur deux principes fondamentaux : Ne vous répétez pas : tenter autant que possible de n'avoir des éléments de l'application qu'à un seul endroit. L'architecture MVC et la métaprogrammation en Ruby peuvent faciliter cela ;; Convention plutôt que configuration : ne préciser les éléments de configuration que s'ils ne respectent pas les conventions établies. Rails exploite cela en proposant des comportements par défaut pour la plupart de ses fonctionnalités. Cette vision sera conservée, même après la fusion avec Merb et la future modularisation du framework.
+Au démarrage d'un projet Rails, peu d'éléments de configuration sont présents. Il ne contient généralement que l'identifiant et le mot de passe d'accès à la base de données, incontournables en MySQL par exemple. Toutefois on peut commencer un projet sans rien configurer, avec l'utilisation par défaut de SQLite.
+Les fichiers de configuration sont de type YAML.
+
+Histoire
+La première version de Ruby on Rails date de juillet 2004. Le framework a été extrait de Basecamp, un outil de gestion de projets développé par David Heinemeier Hansson.
+La première version stable (1.0) est sortie le 14 décembre 2005.
+À partir de cette date, Ruby on Rails a marqué le monde du développement web. On a vu pousser un ensemble de frameworks web Rails-like (notamment CakePHP, Symfony et CodeIgniter dans le monde PHP).
+Une preview release de la version 2.0 a été annoncée le 30 septembre 2007. Rails 2.0 apporte principalement : les ressources qui fournissent une architecture REST ;; une différenciation plus claire entre les formats et les convertisseurs (un fichier.rhtml devient un fichier.html.erb, c'est-à-dire un fichier interprété par eruby et dont le résultat est de l'HTML) ;; la possibilité d'utiliser des modèles comme URL (par exemple redirect-to(person)) ;; la gestion d'authentification HTTP basique ;; une protection contre les attaques CSRF ;; l'interception plus simple d'exceptions génériques ;; le cache du résultat de certaines requêtes SQL ;; une simplification de l'écriture de migration ;; le déplacement dans des plugins de tous les act-as-- et des modules de base de données propriétaires ;; le début de l'abandon de SOAP au profit de REST ;; un nouveau système pour le déboguer qui remplace les breakpoints.
+Rails 2.3 apporte l'usage du middleware Rack qui permet de gérer des requêtes de niveau serveur, et intègre un reverse proxy. Une autre modification importante est la gestion des formulaires enfants d'un objet parent (nested form).
+Rails 3 est la rencontre entre Rails et Merb. À la suite d'une réécriture complète, agnostique (l'API générale est déconnectée d'une bibliothèque particulière). La version 3.0 est sortie le 29 août 2010.
+La version 4 est sortie le 25 juin 2013 et conseille l'usage de Ruby 2.
+
+L'architecture modèle-vue-contrôleur
+Rails fournit des outils pour construire une architecture MVC : Les modèles sont les classes assurant la gestion des données. En général la structure de ces classes est déterminée automatiquement par Rails à partir d'une base de données. Les relations entre les tables sont explicitement spécifiées (has-many belongs-to). Spécifier ces relations permet à ActiveRecord de précharger des éléments de classes enfants ou parent.; Les vues correspondent à la manière d'afficher les informations à l'utilisateur. Il s'agit généralement d'une combinaison de code HTML et de Ruby dans des fichiers.html.erb. Il est aussi possible de les programmer en Ruby pur avec Builder. Enfin il existe une multitude de plugins de systèmes d'écriture de HTML simplifié, le plus connu est le HAML.; Les contrôleurs réagissent aux actions des utilisateurs, ils vont chercher les données dans la base et les mettent à disposition des vues.
+Rails permet de créer rapidement des squelettes d'un contrôleur ou d'un modèle ou d'une vue. Il s'agit généralement de code de type échafaudage (ou scaffold) qui assurent des opérations courantes sur le modèle comme l'ajout, la modification et la suppression d'enregistrements. Ces bouts de codes initiaux peuvent être adapté aux besoins spécifiques de l'application.
+Rails propose également ActionMailer pour la gestion d'envoi ou réception de courriels et ActionWebService pour SOAP et XML-RPC, ainsi que ActiveRessource pour une interrogation par Web Service de type RESTful.
+
+Rails et Ajax
+Ajax permet de réaliser des pages dynamiques avec JavaScript et XML - JSON pour envoyer des requêtes au serveur sans recharger la page dans le navigateur. Rails offre plusieurs méthodes afin de simplifier l'utilisation d'Ajax. L'apport des RJS est de permettre la génération de code JavaScript, depuis un code Ruby.
+
+Serveur Web
+Rails peut fonctionner avec WEBrick, le serveur HTTP fourni avec Ruby. Cette méthode est souvent utilisée pour le développement et les tests. En production, Apache, lighttpd ou encore nginx avec Mongrel ou thin sont recommandés. Il est également possible d'utiliser Unicorn, très performant dans un environnement dédié.
+L'usage de FastCGI n'est plus recommandé à partir de la release 2.3. En effet la bibliothèque initiale mod-ruby avec Apache a été retravaillée, et l'interface avec Apache utilise maintenant Passenger. Passenger est aussi disponible pour nginx.
+
+Gestion de courriels (envoi et réception)
+Les courriels sont générés au niveau des vues. On peut ainsi créer une vue au format texte, et une vue HTML, envoyées dans le même courriel.
+La gestion des pièces jointes est aussi supportée et facile d'emploi.
+En ce qui concerne la gestion des courriels entrants, il est possible de créer un utilisateur virtuel dans Postfix ou sendmail. Mais le plus aisé est de contrôler une boîte mail par IMAP avec la bibliothèque native de ruby. La gestion des pièces jointes des courriels entrants utilise le même principe que les courriels générés.
+
+Bases de données
+Plusieurs systèmes de gestion de base de données sont supportés : SQLite, MySQL, MariaDB, PostgreSQL, DB2, Oracle, Microsoft SQL Server et MongoDB.
+Par défaut, SQLite3 est utilisé.
+
+Distribution
+Ruby on Rails est distribué par RubyGems : gem install rails. Le code source est également disponible sur git.
+La distribution Instant Rails propose une version pré-configurée pour Microsoft Windows de Ruby, Rails, Apache et MySQL.
+Le projet Locomotive proposait une installation simplifiée pour Mac OS X. Mais RoR est inclus dans les versions client et serveur de Mac OS X 10.5.
+Ruby on Rails est également inclus dans de nombreuses distributions GNU-Linux.
+RVM permet d'installer plusieurs versions de Ruby et de Rails sur la même machine. Bundler permet de gérer finement les gems d'un projet et de savoir ce qu'il est possible de mettre à jour sans casser l'application. Lorsque la mise à jour casse quelque chose dans la compatibilité et les dépendances, l'installateur averti l'usager. Si une recette manuelle est connue pour la migration, elle sera expliquée.
+
+Éditeurs: Vim: rails.vim.; rails.vim; GNU Emacs: Rinari, un mode Rails pour Emacs.; meta-mode, un multi-mode majeur pour Emacs qui s'adapte localement à l'environnement dans lequel vous évoluez.; Un mode arborescent pointer-cliquer-éditer qui permet de naviguer très rapidement, par exemple dans une architecture MVC.; Rinari, un mode Rails pour Emacs.; meta-mode, un multi-mode majeur pour Emacs qui s'adapte localement à l'environnement dans lequel vous évoluez.; Un mode arborescent pointer-cliquer-éditer qui permet de naviguer très rapidement, par exemple dans une architecture MVC.; TextMate; Aquamacs; NetBeans; Redcar; Aptana; RubyMine (en); Visual Studio Code; Sublime Text; Atom; Cloud9: Cloud IDE.; Cloud IDE.
+
+Voir aussi
+
+Articles connexes: Ruby; Modèle-vue-contrôleur; Ajax; Radiant CMS et Redmine, des SGC utilisant RoR.

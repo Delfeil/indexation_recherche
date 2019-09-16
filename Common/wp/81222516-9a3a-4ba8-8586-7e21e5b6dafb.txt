@@ -1,0 +1,3 @@
+Un ordinateur renforcé (Rugged computer en anglais) est un ordinateur destiné à être utilisé dans des conditions difficiles voire hostiles et à résister à différentes agressions extérieures telles que des chocs, des projections de liquides, des poussières ou des températures extrêmes.
+Ils sont particulièrement usités dans le monde industriel et de la recherche appliquée pour être embarqués dans des engins de transport (aéronefs, marine, etc.), notamment pour réaliser des phases de tests.
+Les ordinateurs renforcés concernent plutôt la gamme des ordinateurs portables, des tablettes PC ou des assistants personnels (PDA), mais existent également dans le monde PC en général, conçus pour être installés dans des baies, ou racks: on parle alors de 'PC rackable'.

@@ -1,0 +1,8 @@
+Searx est un métamoteur de recherche libre, disponible sous licence publique générale Affero version 3, ayant pour but de protéger la vie privée de ses utilisateurs. Searx s'est inspiré du projet Seeks. Contrairement à ce dernier cependant, il ne dispose pas de possibilité de retransmettre les meilleurs résultats en pair-à-pair. Searx peut être utilisé au travers d'une instance publique mais il peut aussi être installé pour disposer de sa propre instance.
+
+Fonctionnement
+Searx assure la confidentialité de base en mélangeant les requêtes avec des recherches sur d'autres plateformes sans en stocker les données. Les requêtes sont effectuées en utilisant une requête POST sur chaque navigateur (sauf chrome-). Par conséquent, ils ne figurent ni dans les journaux du système, ni dans l'historique des URL consultées. Dans le cas des utilisateurs de Chrome- il y a une exception, searchx utilise la barre de recherche pour effectuer des requêtes GET. Searx peut être ajouté à la barre de recherche de votre navigateur et peut donc être défini comme moteur de recherche par défaut.
+
+Voir aussi
+
+Articles connexes: Nutch; Seeks; YaCy.

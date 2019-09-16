@@ -1,0 +1,17 @@
+Un texte est une série orale ou écrite de mots perçus comme constituant un ensemble cohérent, porteur de sens et utilisant les structures propres à une langue (conjugaisons, construction et association des phrases...). Un texte n'a pas de longueur déterminée sauf dans le cas de poèmes à forme fixe comme le sonnet ou le haïku.
+L'étude formelle des textes s'appuie sur la linguistique, qui est l'approche scientifique du langage.
+
+Étymologie
+"Texte" est issu du mot latin "textum", dérivé du verbe "texere" qui signifie "tisser". Le mot s'applique à l'entrelacement des fibres utilisées dans le tissage, voir par exemple Ovide : "Quo super iniecit textum rude sedula Baucis - (un siège) sur lequel Baucis empressée avait jeté un tissu grossier" ou au tressage (exemple chez Martial "Vimineum textum - panier d'osier tressé"). Le verbe a aussi le sens large de construire comme dans "basilicam texere - construire une basilique" chez Cicéron.
+Le sens figuré d'éléments de langage organisés et enchaînés apparaît avant l'Empire romain : il désigne un agencement particulier du discours. Exemple : "epistolas texere - composer des épîtres" - Cicéron (Ier siècle av. J.-C.) ou plus nettement chez Quintilien (Ier siècle apr. J.-C.) : "verba in textu jungantur - l'agencement des mots dans la phrase".
+Les formes anciennes du Moyen Âge désignent au XIIe siècle le volume qui contient le texte sacré des Évangiles, puis au XIIIe siècle. le texte original d'un livre saint ou des propos de quelqu'un. Au XVIIe siècle le mot s'applique au passage d'un ouvrage pris comme référence et au début du XIXe siècle le mot texte a son sens général d'"écrit".
+
+Texte littéraire
+Un texte répond de façon plus ou moins pertinente à des critères qui en déterminent la qualité littéraire. On retient en particulier la structure d'ensemble, la syntaxe et la ponctuation, l'orthographe lexicale et grammaticale, la pertinence et la richesse du vocabulaire, la présence de figures de style, le registre de langue et la fonction recherchée (narrative, descriptive, expressive, argumentative, injonctive, poétique). C'est l'objet de l'analyse littéraire.
+
+En informatique
+En informatique, la notion de texte s'oppose à la notion de données binaires, on parle alors : de texte brut dans un protocole de télécommunication ;; de document texte si le logiciel utilisé permet de formater le texte ;; ou encore de texte formaté ou riche lorsque les indications de formats sont données en texte brut (exemple : Rich Text Format) ;; de fichier texte dans un fichier qui ne contient que des caractères sans mise en forme autre que les sauts de lignes et le choix des caractères.
+
+Voir aussi
+
+Articles connexes: Texte de loi; Fichier texte. Portail de la littérature; Portail de l'écriture.

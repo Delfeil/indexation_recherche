@@ -1,0 +1,48 @@
+En mathématiques, plus précisément en arithmétique et en algèbre générale, la distributivité d'une opération par rapport à une autre est une généralisation de la propriété élémentaire : "le produit d'une somme est égal à la somme des produits".
+Par exemple, dans l'expression 2 (5 + 3) - (25) + (23), le facteur 2 est distribué à chacun des deux termes de la somme 5 + 3. L'égalité est alors bien vérifiée : à gauche 2 8 - 16, à droite 10 + 6 - 16.
+Cette propriété est vraie pour tout triplet (x, y, z) d'entiers naturels, d'entiers relatifs, de nombres rationnels, de nombres réels ou de nombres complexes : x (y + z) - (x y) + (x z).
+On parle alors de distributivité de la multiplication par rapport à l'addition.
+En algèbre générale, la distributivité est généralisée à d'autres opérations que l'addition et la multiplication. Une loi de composition interne est distributive par rapport à une autre loi interne dans un ensemble E si pour tout triplet (x, y, z) d'éléments de E, on a les propriétés suivantes : x (y z) - (x y) (x z) (distributivité à gauche); (x y) z - (x z) (y z) (distributivité à droite).
+Une illustration géométrique de la distributivité
+
+Distributivité en arithmétique
+En arithmétique, les deux opérations considérées lorsqu'on parle de distributivité sont l'addition et la multiplication. La multiplication est distributive par rapport à l'addition : x (y + z) - (x y) + (x z).
+mais l'addition n'est pas distributive par rapport à la multiplication : x + (y z) (x + y) (x + z).
+
+Distributivité en calcul élémentaire
+Si les facteurs d'un produit sont des sommes, on peut effectuer les produits terme à terme puis effectuer la somme. Cette propriété est souvent utilisée, en calcul mental ou en informatique, pour calculer un produit d'entiers de façon efficace. Exemple 1: 235 99 - 235 (100 - 1) - 23 500 - 235 - 23 265.
+De même, la multiplication par les nombres uniformes 9, 99, 999, etc. se ramène à une soustraction en utilisant la distributivité. Exemple 2: 458 592 - (400 + 50 + 8) (500 + 90 + 2) - 200 000 + 36 000 + 800 + 25 000 + 4 500 + 100 + 4000 + 720 + 16 - 271 136.
+
+Distributivité à droite et à gauche
+Pour les entiers naturels, les entiers relatifs, les nombres rationnels, les nombres réels ou les nombres complexes, l'addition et la multiplication sont des opérations commutatives. On dit alors que la multiplication est distributive par rapport à l'addition, sans préciser "à gauche" ou "à droite", car la distributivité à gauche implique la distributivité à droite (et réciproquement) du fait de la commutativité du produit.
+Preuve: x (y + z) - (x y) + (x z); (y + z) x - (x y) + (x z) (par commutativité de la multiplication dans le membre de gauche); (y + z) x - (y x) + (x z) (par commutativité de la multiplication dans la 1re somme du membre de droite); (y + z) x - (y x) + (z x) (par commutativité de la multiplication dans la 2e somme du membre de droite).
+Par contre, (x + y) - z - x - z + y - z (-displaystyle (x+y)-z-x-z+y-z) mais z - (x + y) z - x + z - y (-displaystyle z-(x+y)-neq z-x+z-y) et la division sera dite seulement distributive à droite par rapport à l'addition.
+
+Entiers de Gauss
+Parmi les nombres complexes, un cas intéressant est celui des entiers de Gauss, qui s'écrivent sous la forme z - n + mi avec n et m entiers. On utilise la distributivité de la multiplication complexe pour montrer par exemple que (1 + i) - 1 + 2i + i - 2i, c'est-à-dire que 1 + i est une racine carrée de 2i. Plus généralement, on montre que le produit de deux entiers de Gauss est un entier de Gauss.
+
+Distributivité en algèbre générale
+En algèbre générale, on étudie les structures algébriques, c'est-à-dire des ensembles munis de lois de composition ayant certaines propriétés. Dans ce cadre, la distributivité se généralise aux cas où : les deux lois de composition interne ne sont pas obligatoirement l'addition et la multiplication ;; au moins une opération n'est pas commutative ;; la première opération est une loi de composition interne et la seconde opération est une loi de composition externe.
+Anneaux et corps commutatifs
+La distributivité de la seconde loi de composition interne sur la première loi de composition interne est une propriété des anneaux commutatifs et des corps commutatifs. Par exemple, dans un anneau A muni de deux lois internes notées + et , la loi est distributive par rapport à +.
+
+Anneaux ℤ-nℤ
+Les anneaux quotients de ℤ héritent de l'addition et de la multiplication des entiers relatifs, et ces lois induites vérifient la distributivité de la multiplication par rapport à l'addition.
+
+Quaternions
+La distributivité de la multiplication sur la division reste valable pour les quaternions de Hamilton, bien que la multiplication des quaternions ne soit pas commutative.
+
+Anneaux non commutatifs
+Certaines identités remarquables utilisant la distributivité ne sont pas valides pour les anneaux non commutatifs, comme les anneaux de matrices ou les anneaux non commutatifs de polynômes.
+
+Espaces vectoriels
+Dans la définition d'un espace vectoriel, la multiplication externe par des scalaires est distributive par rapport à l'addition des vecteurs. Ici, on a affaire à une loi de composition externe et non interne, mais la propriété de distributivité reste valable.
+
+Ensemble des parties d'un ensemble
+Soit P (E) (-displaystyle (-mathcal (P))(E)) l'ensemble des parties d'un ensemble E. On munit P (E) (-displaystyle (-mathcal (P))(E)) de deux lois de composition interne : la réunion et l'intersection. Dans ce cas, les deux lois de composition interne sont distributives l'une par rapport à l'autre. Autrement dit, pour tout triplet (A, B, C) d'éléments de P (E) (-displaystyle (-mathcal (P))(E)) : A (B C) - (A B) (A C); A (B C) - (A B) (A C).
+La réunion A B est la plus petite partie de P(E) contenant A et B, et l'intersection A B est la plus grande partie contenue simultanément dans A et dans B.
+
+Treillis
+Un treillis est un ensemble E partiellement ordonné dans lequel toute paire (x, y) admet une borne supérieure xy et une borne inférieure xy. On dit que E est un treillis distributif si les deux lois de composition interne sont distributives l'une par rapport à l'autre. Dans ce cas, pour tout triplet (x, y, z) d'éléments de E, on a : x (y z) - (x y) (x z); x (y z) - (x y) (x z).
+
+Articles connexes: Associativité; François-Joseph Servois (le premier à employer l'adjectif "distributif" en mathématiques).

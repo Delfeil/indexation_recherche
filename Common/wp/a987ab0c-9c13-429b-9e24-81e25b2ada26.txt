@@ -1,0 +1,21 @@
+L'électronique numérique est un domaine scientifique s'intéressant aux systèmes électroniques dont les états parcourent un ensemble fini de possibilités. Le déterminisme dans les changements d'état (transitions) permet de disposer de systèmes qui se comportent de manière stable et fiable. Elle permet en particulier de s'affranchir de parasites et autre déformations.
+Ce type d'électronique est opposé à l'électronique analogique, qui, elle, traite des systèmes électroniques opérant sur des grandeurs (tension, courant, charge) variant de manière continue.
+
+Système binaire
+Pour éviter les confusions de lecture que peuvent créer les parasites, une des méthodes possibles est de minimiser les ambiguïtés en minimisant le nombre d'états distincts que peut prendre un signal. Ce minimum possible est 2.
+Le système numérique permettant 2 états différents par numéro se nomme "binaire". Les états peuvent être notés FAUX - VRAI ou 0 - 1 par exemple. Ils peuvent correspondre à des tensions 0V - +Vcc ou -Vcc - +Vcc par exemple.
+Les transitions entre états résultent de portes logiques réalisant des opérations ou fonctions logiques telles le ET, le OU, etc. (voir algèbre de Boole).
+On utilise ce type d'électronique pour réaliser des circuits de commutation qui, en raison de leur simplicité, ont le mérite de présenter de très faibles coûts et, donc permettent la réalisation de systèmes logiques très complexes pour des prix dérisoires.
+En fonction de leur gamme de tolérance et, aussi longtemps qu'on continue à pouvoir distinguer un état 0 d'un état 1, la fréquence du signal d'horloge peut être augmentée.
+
+Technologies les plus courantes: Transistor-Transistor logic (TTL): N'est plus utilisé aujourd'hui; Complementary metal oxide semi-conductor (CMOS): technologie actuelle la plus courante.
+
+Histoire et applications actuelles
+La principale application de l'électronique numérique est probablement la création d'ordinateurs, et l'histoire des ordinateurs donne une bonne idée de l'histoire de l'électronique numérique.
+Aujourd'hui les énormes progrès dans la technologie des circuits intégrés font qu'il est possible de créer des composants d'une complexité extra ordinaire. Cependant les couts associés à la fabrication de tels composants (en millions d'euros) sont dissuasifs.
+Les circuits logiques programmables (CPLD, FPGA), font qu'il est maintenant possible de créer des circuits logiques assez complexes pour un coût initial fortement moins élevé (des milliers d'euros). Les FPGA sont d'ailleurs souvent utilisés pour prototyper les circuits intégrés avant leur fabrication finale.
+Les techniques de conception numériques ont aussi fortement évolué. Autrefois, des schémas étaient dessinés à la main, puis par ordinateur. Maintenant, on utilise des langages de description de matériel tels que Verilog ou VHDL, qui sont digérés par des compilateurs appelés synthétiseurs, qui génèrent des netlist, c'est-à-dire des fichiers décrivant la connectivité entre des portes logiques.
+
+Voir aussi
+
+Articles connexes: Logique combinatoire; Logique séquentielle; Simulateur logique; Circuits statiques et dynamiques; Circuit intégré; Circuit logique programmable.

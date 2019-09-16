@@ -1,0 +1,40 @@
+Une donnée statistique est une information codifiée, figée et transmissible
+
+Typologie
+Une donnée statistique peut être une donnée à caractère quantitatif ou qualitatif.
+
+Données quantitatives
+Les données quantitatives sont des données qui peuvent être mesurées (taille, poids...) ou repérées (température...) Exemples de propriétés physiques quantitatives : Le point de fusion, (par exemple, le fer fond à une température de 1 535 C), le point d'ébullition, la masse volumique, la viscosité, la solubilité, la conductivité électrique, la conductivité thermique...
+
+Caractère mesurable et caractère repérable
+Lorsque le caractère d'une entité est mesurable, il est fait choix d'une unité de mesure appropriée. Chaque entité est alors définie par le nombre d'unités qu'elle contient. Exemple: Pour une population étudiée du point de vue de sa taille, si une personne mesure 1,75 m et si l'on choisit le centimètre pour unité de mesure, alors la valeur de sa taille est 175.
+Lorsque le caractère est seulement repérable, des conventions déterminent une échelle numérique dans laquelle chaque entité a une position également définie par un nombre. Exemple: Si l'on étudie la répartition des températures dans une région selon l'échelle thermométrique centésimale, une ville dont la température est de 17 C est repérée par le nombre 17.
+
+Caractère discret et caractère continu
+Les caractères quantitatifs se subdivisent eux-mêmes en deux espèces : Certains caractères ne peuvent prendre que des valeurs entières, par exemple le nombre des enfants d'une famille, le nombre de pièces d'un logement. Un tel caractère est qualifié de "discret". La valeur d'autres caractères peut varier d'aussi peu que l'on voudra dans un intervalle fini ou infini, par exemple la taille d'une personne, le poids d'un enfant. Un tel caractère est dit "continu".
+Données qualitatives
+Les données qualitatives sont des données auxquelles on ne peut pas attribuer une valeur ou une caractéristique. Exemples de propriétés physiques qualitatives : La couleur, la texture, le goût, l'odeur, l'état et la ductilité. Certains considèrent que toute donnée qui ne peut être qualifiée de quantitative est par défaut une donnée qualitative.
+
+Données connues et données utiles
+Les données qui intéressent un statisticien correspondent à des objets ou des événements qui apparaissent, se transforment, représentent le présent puis le passé. De plus apparaissent de façon plus ou moins cachée et évidente de nouveaux éléments dont la connaissance serait nécessaire. De ce fait, des données existantes et connues peuvent cesser d'apporter une information utile, tandis que des informations ont pu émerger qui représentent un caractère utile voire primordial, mais ne sont pas encore appréhendées et donc "connues" par l'analyste statistique. Le stock de données à disposition doit souvent être renouvelé de façon dynamique.
+
+Production
+
+Problématique de la collecte
+
+Collecte directe : comptage et inventaire
+
+Collecte indirecte : enquête et échantillonnage
+
+Problématique de la mesure
+
+Problématique de la notation
+
+Problématique de l'évaluation et de l'estimation
+
+Problématique du traitement
+Les données brutes collectées peuvent faire l'objet de traitements utiles à des fins de représentation, d'analyse, ou d'interprétation. Les transformations opérées peuvent être de plusieurs ordres: 1) Le regroupement des données, en cas de dispersion ou de ventilation trop importante : ainsi des données ventilées par Catégories socio-professionnelles détaillées (80 postes) peuvent être regroupées via des tables de conversion en 8 classes principales.; 2) Des changements dans la formulation des données : Dans un fichier listant une population d'individus, la date de naissance peut être convertie en âge courant.; 3) Les données brutes provenant de sources différentes peuvent être codifiées de manière différentes : ainsi le statut marital (marié, célibataire, veuf, divorcé, vie maritale) doit faire l'objet d'une recodification commune pour autoriser un traitement consolidé.; 4) Création de nouvelles données : Il s'agit de balayer les données brutes en les filtrant puis en les fusionnant et-ou en les regroupant selon des critères pertinents. Ceci pour donner lieu à la création de nouvelles données, propres à alimenter d'autres traitements, analyses ou représentations. Ainsi des données concernant l'historique journalier des ventes de tous les produits vers tous les clients peuvent être traitées pour établir un ensemble de données caractérisant les achats annuels de chacun des clients.
+
+Représentation
+
+Voir aussi: Variable aléatoire; Visualisation de données; Science des données. Portail des sciences; Portail de la philosophie; Portail des probabilités et de la statistique.

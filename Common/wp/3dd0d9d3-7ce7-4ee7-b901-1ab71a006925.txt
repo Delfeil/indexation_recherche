@@ -1,0 +1,24 @@
+En tant que notion, un réseau social représente un groupement qui a un sens : la famille, les collègues, un groupe d'amis, une communauté, etc. Il s'agit d'un agencement de liens entre des individus et-ou des organisations.
+Un domaine académique, l'analyse des réseaux sociaux, les étudie en se fondant sur la théorie des réseaux, l'usage des graphes et l'analyse sociologique.
+L'anthropologue australien John Arundel Barnes (en) a introduit l'expression en 1954.
+L'expression "réseau social" dans l'usage habituel renvoie généralement à celle de "médias sociaux", qui recouvre les différentes activités qui intègrent technologie, interaction sociale entre individus ou groupes d'individus, et la création de contenu. Andreas Kaplan et Michael Haenlein les définissent comme "un groupe d'applications en ligne qui se fondent sur la philosophie et la technologie du net et permettent la création et l'échange du contenu généré par les utilisateurs".
+
+Applications en sciences sociales
+Les études sur l'urbanisation de l'École de Manchester autour de Max Gluckman, réalisées principalement en Zambie durant les années 1960 ont les premières utilisé la théorie des réseaux sociaux en sciences sociales. La sociométrie, visant à quantifier les relations sociales, a enchaîné le pas. Des universitaires comme Harrison White ou Mark Granovetter ont élargi l'usage de l'analyse des réseaux sociaux, et elle sert maintenant pour étudier divers phénomènes de la vie courante en sciences sociales.
+La théorie des réseaux sociaux est un champ très actif dans le milieu universitaire et plusieurs outils d'analyse des réseaux sociaux sont disponibles en ligne et sont relativement faciles à employer pour présenter simplement un graphe de réseau social (c.f. article détaillé).
+La théorie de la diffusion des innovations explore les réseaux sociaux et leur rôle pour influencer la diffusion de nouvelles idées et pratiques.
+Les systèmes socio-techniques sont vaguement liés à l'analyse de réseaux et se concentrent sur les relations parmi les individus, les institutions, les objets et les technologies.
+Dans l'interactionnisme structural, la notion de réseau social est utilisée pour formaliser des interactions et ce qu'elles forment.
+
+Règle des 150
+La psychologie évolutionniste forme l'hypothèse qu'il existe un nombre maximal de personnes qu'un individu puisse reconnaître et dont il puisse interpréter les réactions.
+Selon l'anthropologue britannique Robin Dunbar, un être humain peut entretenir une relation humaine stable avec au plus 148 personnes, un nombre généralement arrondi à 150. C'est la taille maximale d'un village, plus précisément d'"écovillage". Au delà de ce nombre, limité par les capacités et l'organisation cérébrales, des institutions structurées par des règles doivent intervenir.
+La "règle de 150", aussi appelée "nombre de Dunbar" limite la taille d'un réseau social. Si le groupe est plus nombreux, la relation de confiance s'en trouve affectée.
+Des économistes formulent différemment l'hypothèse de la taille maximale d'une communauté. Il leur semble plus difficile de déceler les passagers clandestins ou resquilleurs ((en) "freeriders"), des individus qui tirent avantage de la vie en communauté sans contribuer eux-mêmes à ses dépenses communes, dans un grand groupe.
+
+Degrés de séparation
+Visualisation "graphique" du principe des six degrés de séparation.
+L'effet du petit monde est l'hypothèse que la longueur de la chaîne des connaissances sociales requise pour lier une personne arbitrairement choisie à n'importe quelle autre sur Terre est généralement courte. Le concept a engendré l'expression célèbre des "six degrés de séparation" après l'expérience du petit monde de 1967, réalisée par le psychologue Stanley Milgram. Il conclut qu'en moyenne, il n'y a que six intermédiaires entre deux êtres humains sur la terre.
+
+Réseaux sociaux sur Internet
+Hors du domaine des sciences sociales, l'expression "réseaux sociaux" renvoie à l'usage social d'internet ainsi qu'aux services de réseautage social, qui peuvent se définir comme l'ensemble des moyens en ligne mis en oeuvre pour relier des personnes physiques ou morales entre elles. Il recouvre les applications Web connues sous le nom de "service de réseautage social en ligne", avec de multiples objectifs et vocations. Elles servent à constituer un réseau social virtuel en reliant par des liens hypertexte ou des bases de données des identités virtuelles dont les créateurs employent ensemble une variété d'outils dans le but de faciliter, par exemple, la gestion des carrières professionnelles, la distribution et la visibilité artistique ou les rencontres privées.

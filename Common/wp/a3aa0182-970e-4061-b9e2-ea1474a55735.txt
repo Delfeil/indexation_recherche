@@ -1,0 +1,9 @@
+Une page satellite (en anglais, doorway page) est une page web destinée à améliorer la place d'un site donné sur les moteurs de recherche en proposant de nombreux liens vers le site en question, associés à des combinaisons de mots clés conçues pour obtenir un score élevé lors de l'évaluation par les algorithmes des moteurs de recherche. Le visiteur qui atterrit sur une telle page se verra le plus souvent redirigé automatiquement.
+Une page satellite comporte un ou plusieurs mots clés de manière très répétitive au détriment du rédactionnel qui reste en général très pauvre ou sans intérêt.
+Elle est placée seule ou dans un site, mais elle reste orpheline. On l'utilise comme un hameçon uniquement pour capter des visiteurs ou pour tromper les moteurs de recherche.
+
+Réactions
+L'utilisation de pages satellites est généralement perçue par les sociétés responsables de moteurs de recherche comme du référencement abusif. Lorsque ce genre de pratique est détectée, la réaction va souvent d'un réajustement du classement du site concerné à son exclusion pure et simple de la base de données du moteur.
+
+Utilisations célèbres
+En janvier 2005, le site web allemand de la marque BMW a été banni pendant deux jours de la base de données du moteur de recherche Google pour l'utilisation de ce procédé. Portail d'Internet.

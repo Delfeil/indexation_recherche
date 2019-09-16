@@ -1,0 +1,18 @@
+Seeks est un moteur de recherche libre, disponible sous licence publique générale Affero version 3. Il se présente, entre autres, sous la forme d'un proxy web, qui intercepte les requêtes faites à d'autres moteurs de recherche, les soumet aux moteurs activés dans la configuration, recueille et recoupe les résultats pour ensuite les présenter à l'utilisateur.
+Sa particularité réside dans le fait qu'il récupère les résultats localement et permet leur partage dans un réseau pair à pair. Cette fonctionnalité est toutefois partiellement implémentée.
+Le coté métamoteur est utilisable et permet de fédérer une communauté d'utilisateurs afin d'obtenir rapidement des résultats d'une part, et de permettre une collaboration entre utilisateurs d'autre part une fois la partie pair à pair mise en oeuvre.
+Il ne faut pas confondre Seeks, objet de cette page, avec le méta-moteur de recherche seek.fr qui est une marque déposée d'une société commerciale.
+
+Fonctionnement
+
+Métamoteur
+Le métamoteur recueille et réordonne les résultats fournis par les moteurs de recherche classiques. L'ordre final proposé est le résultat d'un compromis entre tous les résultats proposés, l'expérience de l'utilisateur et les recommandations faites par ses pairs.
+En outre, Seeks permet : une recherche étendue (demande de la page suivante aux moteurs de recherche),; un "regroupement intelligent" (la fonction "cluster"), qui regroupe dans des cadres les résultats par similarités (en se basant sur les mots contenus dans les descriptions),; un classement par titre,; un classement par URL,; un classement par type,; une mise en valeur des mots les plus discriminants de la description de chaque résultat,; une détection automatique de la langue.
+
+Réseau pair à pair
+Seeks se base sur une table de hachage distribuée, pour le stockage de résultats à fournir lors des requêtes. Ce sont les requêtes elles-mêmes qui servent de clés pour le stockage des résultats à fournir. Seeks génère un halo de clés par requêtes (correspondant à un ensemble de requêtes associées), les mêmes clés menant toujours aux mêmes emplacements dans la table de hachage. Cela rend possible une mise en relation des utilisateurs qui émettent des requêtes similaires.
+La technologie utilisée par Seeks est basée sur Chord.
+
+Mise en oeuvre
+Seeks s'utilise de plusieurs manières : en configurant son navigateur web pour utiliser le proxy que seeks fournit (celui-ci voit toute la navigation de l'utilisateur et peut l'utiliser pour le classement des résultats proposés),; en utilisant Seeks via son plugin HTTP; en passant par un site présentant un formulaire de recherche (node) : le site peut utiliser le proxy, ou le serveur HTTP.
+Seeks a été créé par Emmanuel Benazera et son développement a débuté en septembre 2009.

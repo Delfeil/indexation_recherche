@@ -1,0 +1,13 @@
+Les googlebots sont des robots d'indexation utilisés par le moteur de recherche Google afin de recenser et indexer les pages web.
+La chaîne de caractères permettant de les identifier en tant que User-Agent est, selon la tâche qu'ils effectuent, l'une des trois suivantes : Googlebot-2.1 (+http:--www.google.com-bot.html); Mozilla-5.0 (compatible; Googlebot-2.1; +http:--www.google.com-bot.html); Googlebot-Image-1.0.
+
+Version mobile
+Il existe trois versions du user-agent de Googlebot en version mobile : Pour les téléphones à clapet (feature-phone): SAMSUNG-SGH-E250-1.0 Profile-MIDP-2.0 Configuration-CLDC-1.1 UP.Browser-6.2.3.3.c.1.101 (GUI) MMP-2.0 (compatible; Googlebot-Mobile-2.1; +http:--www.google.com-bot.html); DoCoMo-2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile-2.1; +http:--www.google.com-bot.html).; SAMSUNG-SGH-E250-1.0 Profile-MIDP-2.0 Configuration-CLDC-1.1 UP.Browser-6.2.3.3.c.1.101 (GUI) MMP-2.0 (compatible; Googlebot-Mobile-2.1; +http:--www.google.com-bot.html); DoCoMo-2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile-2.1; +http:--www.google.com-bot.html); Pour les smartphones: Mozilla-5.0 (iPhone; CPU iPhone OS 6-0 like Mac OS X) AppleWebKit-536.26 (KHTML, like Gecko) Version-6.0 Mobile-10A5376e Safari-8536.25 (compatible; Googlebot-2.1; +http:--www.google.com-bot.html).; Mozilla-5.0 (iPhone; CPU iPhone OS 6-0 like Mac OS X) AppleWebKit-536.26 (KHTML, like Gecko) Version-6.0 Mobile-10A5376e Safari-8536.25 (compatible; Googlebot-2.1; +http:--www.google.com-bot.html).
+Google utilise un autre type de robot, dénommé Mediabot, qui analyse le contenu des pages intégrant un encart AdSense afin de fournir une publicité pertinente par rapport au contexte.
+
+Maîtrise du crawl
+Dans Google Outils pour les webmasters, la fonction "Analyser comme Googlebot" permet de voir une page du site telle qu'elle est indexée par le Googlebot.
+
+Voir aussi
+
+Articles connexes: Robot d'indexation; Google; Mediabot.

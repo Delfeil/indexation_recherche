@@ -1,0 +1,108 @@
+L'architecture informatique ajax (acronyme d'asynchronous Javascript and XML) permet de construire des applications Web et des sites web dynamiques interactifs sur le poste client en se servant de différentes technologies ajoutées aux navigateurs web entre 1995 et 2005.
+Ajax combine JavaScript, les CSS, JSON, XML, le DOM et le XMLHttpRequest afin d'améliorer maniabilité et confort d'utilisation des applications internet riches (abr. RIA) : DOM et JavaScript permettent de modifier l'information présentée dans le navigateur en respectant sa structure ;; l'objet XMLHttpRequest sert au dialogue asynchrone avec le serveur Web ;; XML structure les informations transmises entre serveur Web et navigateur.
+Outre le XML, les échanges de données entre client et serveur peuvent utiliser d'autres formats, tels que JSON.
+Les applications ajax fonctionnent sur tous les navigateurs Web courants : Google Chrome, Safari, Mozilla Firefox, Internet Explorer, Konqueror, Opera, etc.
+
+Principe
+Dialogue entre serveur et navigateur.
+Dans une application Web, la méthode classique de dialogue entre un navigateur et un serveur est la suivante : lors de chaque manipulation faite par l'utilisateur, le navigateur envoie une requête contenant une référence à une page Web, puis le serveur Web effectue des calculs, et envoie le résultat sous forme d'une page Web à destination du navigateur. Celui-ci affichera alors la page qu'il vient de recevoir. Chaque manipulation entraîne la transmission et l'affichage d'une nouvelle page. L'utilisateur doit attendre l'arrivée de la réponse pour effectuer d'autres manipulations.
+En utilisant ajax, le dialogue entre le navigateur et le serveur se déroule la plupart du temps de la manière suivante : un programme écrit en langage de programmation JavaScript, incorporé dans une page web, est exécuté par le navigateur. Celui-ci envoie en arrière-plan des demandes au serveur Web, puis modifie le contenu de la page actuellement affichée par le navigateur Web en fonction du résultat reçu du serveur, évitant ainsi la transmission et l'affichage d'une nouvelle page complète.
+La méthode classique de dialogue utilise des mécanismes propres au World Wide Web, qui sont incorporés dans tous les navigateurs ainsi que les robots d'indexation, et ne nécessite pas de programmation. Au contraire, le fonctionnement d'V nécessite de programmer en JavaScript les échanges entre le navigateur et le serveur Web. Il nécessite également de programmer les modifications à effectuer dans la page Web à la réception des réponses, sans quoi les dialogues se font à l'insu de l'utilisateur.
+En ajax, comme le nom l'indique, les demandes sont effectuées de manière asynchrone : le navigateur Web continue d'exécuter le programme JavaScript alors que la demande est partie, il n'attend pas la réponse envoyée par le serveur Web et l'utilisateur peut continuer à effectuer des manipulations pendant ce temps.
+
+Histoire
+Le web a été créé en 1989, et popularisé dans les années 1990.
+Le langage de programmation JavaScript est apparu pour la première fois en 1996, dans le navigateur Web Netscape Navigator.
+L'interface de programmation Document Object Model (abr. DOM) a été normalisée par le W3C en 1998.
+XMLHttpRequest est initialement un composant ActiveX créé en 1998 par Microsoft pour leur application web Outlook Web Access, puis il a été ajouté à la norme ECMAScript relative au langage JavaScript et mis en oeuvre sur la plupart des navigateurs du marché entre 2002 et 2005.
+Le terme ajax a été introduit par Jesse James Garrett (informaticien américain), le 18 février 2005, dans un article sur le site Web Adaptive Path. Depuis, il a rapidement gagné en popularité.
+
+Technologies utilisées
+La méthode ajax consiste à utiliser de manière conjointe diverses technologies normalisées ouvertes et disponibles sur la plupart des navigateurs du marché. JavaScript est un langage de programmation incorporé dans les navigateurs. Les programmes écrits dans ce langage sont exécutés par le navigateur. Il est utilisé en particulier pour exploiter le XMLHttpRequest et le DOM. C'est la clé de voûte de l'ajax.; HTML et CSS pour la présentation. Les CSS (sigle de Cascading Style Sheets) est un format de données utilisé pour créer des feuilles de styles attachées aux pages web. Il est utilisé dans les applications Web pour dissocier le contenu - changeant - des pages web de leur présentation qui est constante. Il permet de réaliser des économies sur les communications entre le serveur et le navigateur web et mettre en place une charte graphique.; Le DOM (sigle de "Document Object Model") pour l'affichage dynamique et l'interaction avec les données. C'est une collection d'objets où chaque objet représente un élément structurel ou visuel d'une page web ou d'un document XML. Il est utilisé à partir d'un langage de programmation orientée objet tel que JavaScript pour inspecter et modifier le contenu des pages Web.; Le XMLHttpRequest est un objet de programmation, utilisé dans les programmes en langage JavaScript pour assurer la communication entre le navigateur et un serveur Web. Il est utilisé pour la communication asynchrone : envoyer les requêtes vers le serveur et déclencher des opérations lors de la réception de réponses de celui-ci.; XML (sigle de Extensible Markup Language) est un langage de balisage et JSON (sigle de JavaScript Object Notation) est un format de données inspirée de la syntaxe du langage JavaScript. Ils sont utilisés pour structurer les informations envoyées par le serveur Web. Le format XML est accompagné de XSLT pour sa manipulation.
+
+Ajax et applications Web classiques
+Les applications Web classiques permettent aux utilisateurs d'effectuer des choix (suivre un lien, remplir et valider un formulaire) à la suite de quoi une requête est envoyée au serveur Web. Le serveur répondra à la requête en envoyant une page Web. Une page web est envoyée en réponse à chaque manipulation, et la transmission de la page web entre le serveur et le navigateur provoque un temps de latence d'autant plus grand que la page est riche en contenu et en présentation (tableaux, couleurs, polices de caractères...).
+Dans les applications Web en ajax, une page Web est envoyée une seule fois. La page envoyée contiendra un programme écrit en langage JavaScript. Lors des manipulations effectuées sur la page par l'utilisateur, le programme en JavaScript envoie des requêtes au serveur Web, le serveur répondra aux requêtes en envoyant un document au format XML, ce document ne contient pas d'information de présentation et le nombre d'informations qu'il contient est souvent réduit, d'où des temps de latence plus réduits que ceux d'une application Web classique.
+L'utilisation de JavaScript permet de provoquer des requêtes lors de manipulation qui autrement n'en provoqueraient pas (du fait des mécanismes utilisés). Ce qui permet de mettre en oeuvre des fonctionnalités qui se rencontrent uniquement dans les Rich Internet Applications.
+Les feuilles de style CSS sont en outre utilisées dans les différentes pages d'une application Web Ajax, dans le but de diminuer le temps de latence lors de l'envoi initial de la page. Les informations de présentation sont extraites des différentes pages Web de l'application, et placées dans une feuille de style unique, utilisée pour les différentes pages de l'application.
+
+Concurrence
+D'autres systèmes existent pour afficher du contenu dynamique au sein d'une page Web : Flash et Flex (Adobe Systems) ;; JavaFX et Applet Java (Sun Microsystems - Oracle) ;; Silverlight, technologie développé par Microsoft et abandonnée ;; XForms, un standard de formulaire proposé par le W3C (mis de côté).
+
+Avantages et inconvénients
+Ajax vise à : diminuer les temps de latence ;; éviter le rechargement de la page ;; apporter de nouvelles fonctionnalités ;; augmenter la réactivité de l'application Web.
+Les applications Web qui possèdent ces qualités sont appelées rich Internet applications (RIA).
+Par rapport à des produits concurrents permettant de réaliser des RIA, tels que Adobe Flex ou Microsoft Silverlight, qui nécessitent l'installation d'un plug-in sur chaque navigateur sur lequel cette technologie va être utilisée, Ajax fait usage de technologies présentes de série sur la plupart des navigateurs Web sur le marché.
+JavaScript est un langage de programmation qui peut être utilisé pour réaliser et répandre des virus informatiques et des logiciels malveillants. Certains logiciels de lutte contre les logiciels malveillants peuvent interdire préventivement l'exécution de tout programme écrit en JavaScript. Pour la même raison, les entreprises peuvent parfois interdire l'exécution des programmes écrits en JavaScript, conformément à leur politique de sécurité informatique. Ces interdictions empêchent les applications Web en ajax de fonctionner.
+Les robots d'indexation, utilisés par les moteurs de recherche, exploitent les mécanismes intégrés du World wide web - ceux exploités par les applications classiques - et n'exécutent pas tous les programmes en JavaScript. Par conséquent, le contenu des pages créées par un programme JavaScript ne sera pas ajouté à l'index du moteur de recherche. Le même problème se pose avec les produits concurrents comme Adobe Flex et Microsoft Silverlight.
+
+Programmation et ajax
+Pour faciliter l'utilisation de ces technologies, de nombreux frameworks ont été mis en place. Il s'agit en général d'un ensemble de bibliothèques javascript permettant de réaliser les traitements asynchrones et d'offrir une ergonomie avancée grâce à une palette d'objets graphiques aboutis.
+Dans un souci d'industrialisation, nombre de ces frameworks ont été couplés à des frameworks de conception web.
+On estime à plus de cinq cents le nombre de frameworks JavaScript actuels. Les principaux sont dans l'article Frameworks Ajax.
+
+Open Ajax
+IBM a créé Open Ajax Initiative, un groupe de promotion de cette technologie avec des partenaires tels que 24SevenOffice (en), Adobe Systems, BEA Systems, Borland, the Dojo Foundation, Fondation Eclipse, Google, Ilog, Yahoo!, Laszlo Systems, Mozilla Corporation, Novell, Openwave Systems, SAP, Oracle, Red Hat, Tibco, Zend Technologies et Zimbra.
+Le premier résultat de cette initiative est l'Ajax Toolkit Framework (ATF), un projet qui vise à proposer des outils pour le développement d'applications Ajax dans l'outil de développement Eclipse. Ce projet s'appuie entre autres sur la contribution initiale d'IBM et divers frameworks AJAX open source (tels que Dojo ou Rico).
+
+Exemples
+Exemple d'une requête ajax en utilisant la bibliothèque jQuery :
+Le code d'index.html est écrit en HTML5. On y déclare un formulaire permettant la saisie de deux nombres.
+!-- Fichier index.html --
+
+!DOCTYPE html
+html lang-"fr"
+ head
+ meta charset-"UTF-8"
+ title-title
+ link rel-"stylesheet" media-"screen" href-"style.css"
+ script src-"http:--code.jquery.com-jquery-1.6.2.min.js"-script !-- Les sources de la bibliothèque JQuery --
+ script src-"script.js"-script !-- La source qui contient le code d'envoi en ajax --
+ -head
+ body
+ form method-"post" action-"add.php" !-- Formulaire envoyé par la méthode POST --
+ fieldset
+ legendChoisissez deux nombres entiers-legend
+ plabela - input name-"a" type-"number" required-label-p !-- Premier nombre --
+ plabelb - input name-"b" type-"number" required-label-p !-- Deuxième nombre --
+ -fieldset
+ fieldset
+ legendReacute;sultat-legend
+ p id-"result"-p !-- Le résultat sera placé ici --
+ -fieldset
+ pbuttonSoumettre-button-p !-- Bouton de soumission --
+ -form
+ -body
+-html
+La soumission du formulaire provoque l'envoi des deux nombres au serveur. Lorsque la réponse du serveur a été reçue, on l'insère dans une balise prévue à cet effet.
+-- Fichier script.js
+
+(document).ready(OnReady); -- Abonne le callback à exécuter lorsque tout le DOM est chargé
+function OnReady(
+ ("form").submit(OnSubmit); -- Abonne un callback à l'évènement "submit" du formulaire
+)
+function OnSubmit(
+.ajax((
+ type: (this).attr("method"), -- Récupère la méthode d'envoi du formulaire, ici "POST"
+ url: (this).attr("action"), -- Récupère l'url du script qui reçoit la requête, ici "add.php"
+ data: (this).serialize, -- Fabrique la "query string" contenant les deux nombres
+ success: OnSuccess -- Callback qui récupère la réponse du serveur
+));
+ return false; -- Annule l'envoi classique du formulaire
+)
+function OnSuccess(result)(
+ ("result").html(result); -- Insère le résultat dans la balise d'id "result"
+)
+Le serveur calcule la somme de ces nombres et renvoie le résultat.
+php
+
+-- Fichier add.php
+
+a - filter-input(INPUT-POST, "a", FILTER-VALIDATE-INT);
+b - filter-input(INPUT-POST, "b", FILTER-VALIDATE-INT);
+echo a + b; -- Envoie au client le résultat du calcul de a + b
+L'envoi des nombres au serveur se fait de manière asynchrone par l'objet ajax du navigateur.
+
+Voir aussi: AJAJ.
+
+Articles connexes: XMLHttpRequest; JavaScript; Cadre d'Application AJAX; Conception de site Web; DHTML.

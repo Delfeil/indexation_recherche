@@ -1,0 +1,15 @@
+Le bas-de-casse, dans la typographie des écritures bicamérales, est l'ensemble des caractères dits minuscules (parce qu'ils sont rangés en bas de la casse). Par opposition, les lettres de grand format, d'un tracé souvent différent de celui des minuscules, sont appelées capitales (et non majuscules).
+
+Description
+Dans certaines polices, il existe des chiffres bas-de-casse, ou chiffres elzéviriens. Si les chiffres capitale occupent tous le même espace vertical (de la ligne de base à la hauteur de capitale), certains chiffres bas-de-casse présentent des jambages (pour le 3, 4, 5, 7 et 9) ou des hampes (6 et 8), les autres (0, 1 et 2) ayant la hauteur d'x.
+Exemple de rendu avec les polices Hoefler Text, Georgia, Corbel, ou Monofur : 0123456789.
+
+Origine des minuscules de l'alphabet latin
+À l'origine, les caractères latins n'existaient qu'en capitales. Cependant, au Ier siècle apparaît une écriture plus enlevée, la Rustica. Petit à petit, l'écriture se fait plus rapide, avec une déformation des traits droits et une simplification.
+Bientôt se distinguent deux formes pour chacun des caractères : la forme originale (la capitale) ;; la forme cursive (la minuscule).
+Celles-ci ne tardent pas à se voir distinguées par des usages spécifiques. Les minuscules s'arrondissent et atteignent leur "perfection" avec l'onciale. Enfin, avec la minuscule caroline, elles acquièrent leur prééminence.
+Aujourd'hui, les capitales sont plus employées pour des usages spécifiques selon les langues, par exemple : en tant que majuscules en français, à l'initiale des noms propres et en allemand, à l'initiale de tous les substantifs.
+
+Voir aussi
+
+Article connexe: Capitale et majuscule. Portail de l'écriture; Portail de l'édition.

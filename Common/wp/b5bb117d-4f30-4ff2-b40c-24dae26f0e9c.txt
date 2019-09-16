@@ -1,0 +1,30 @@
+Exalead est une solution logicielle créée en 2000 et spécialisée dans les infrastructures permettant le développement d'applications pour les entreprises sur une base de moteur de recherche. En 2010, la société est rachetée par Dassault Systèmes.
+
+Historique
+L'entreprise Exalead est fondée en 2000 par d'anciens développeurs d'AltaVista, François Bourdoncle et Patrice Bertin.
+L'objectif est de mettre à disposition des organisations la technologie de recherche Web sous forme de logiciel pour l'accès et le traitement à l'information métier.
+Le 2 août 2006, Exalead sortait la bêta d'une nouvelle interface web, puis le 10 octobre 2006, la passait en version grand public. À la fin décembre 2006, plus de 8 074 618 964 pages sont indexées.
+Ce moteur web grand public est la vitrine technologique d'Exalead. Mais le coeur de métier d'Exalead demeure le moteur d'indexation pour les entreprises.
+Entre avril et mai 2007, Exalead lance, en version bêta, la possibilité d'inclure ou d'exclure des recherches les blogs ou les forums, la recherche sur Wikipédia et la recherche de vidéos.
+Exalead a reçu en 2008 le prix Afdel de l'éditeur logiciel français ayant eu la plus forte croissance.
+Exalead fait partie du programme français Quaero au sein duquel elle est responsable du projet de moteur de recherche.
+Le 9 juin 2010, Dassault Systèmes annonce le rachat d'Exalead pour environ 135 millions d'euros.
+Fin septembre 2011, l'entreprise a indiqué qu'elle venait de doubler son index de référencement, passant de 8 à 16 milliards de pages.
+En 2012, Exalead SA a procédé à la dissolution de sa filiale de distribution espagnole. Exalead a de plus cédé sa filiale de distribution américaine Exalead Inc. à la société Dassault Systèmes Americas Corp.
+Début 2014, la société a annoncé sa dissolution sans liquidation en vertu de l'article 1844-5 du Code Civil, entraînant transmission universelle de son patrimoine au profit de son associé unique Dassault Systèmes SA. Depuis cette disparition, les anciens salariés d'Exalead ont essaimé dans de nombreuses startups.
+
+Fonctionnalités
+
+Gammes de produits
+La gamme de produits d'Exalead repose sur une plate-forme commune appelée CloudView et s'articule autour de : Exalead OneCall est dédiée à l'interaction client; Exalead OnePart sert l'ingéniérie et les concepteurs industriels pour la recherche des données 2D-3D et de l'information connexe; Exalead CloudView aide au développements d'applications analytiques métiers.
+
+Exalead et la concurrence
+De nombreuses innovations caractérisent le moteur de recherche pour le Web d'Exalead mais il reste encore peu utilisé et méconnu du grand public, loin derrière les géants du secteurs Google, Bing, et Yahoo!. Cependant, Exalead n'est pas qu'un portail de recherche. Sa principale source de revenus provient du B2B.
+
+Logos:
+Ancien logo;
+Logo depuis octobre 2010.
+.
+Voir aussi
+
+Articles connexes: Moteur de recherche; Liste de moteurs de recherche; François Bourdoncle.

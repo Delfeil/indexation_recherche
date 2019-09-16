@@ -1,0 +1,5 @@
+L'OpenMicroBlogging est un protocole ouvert permettant à différent services de microblog d'inter-opérer. Cela ressemble un peu à la manière dont les serveurs Jabber communiquent entre eux. L'OpenMicroBlogging utilise les protocoles OAuth et Yadis de façon à ne pas dépendre d'une autorité centrale d'authentification et de sécurité.
+
+Histoire
+La première implémentation du protocole OpenMicroBlogging a été réalisée par la société StatusNet. identi.ca est le premier service à supporter ce protocole.
+La deuxième implémentation du protocole OpenMicroBlogging est le logiciel OpenMicroBlogger.

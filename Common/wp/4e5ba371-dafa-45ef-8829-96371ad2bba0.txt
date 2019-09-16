@@ -1,0 +1,26 @@
+Un télémètre laser est un appareil permettant de mesurer les distances. Un rayon laser est projeté sur une cible qui renvoie à son tour le rayon lumineux. Le boîtier électronique calcule le déphasage entre l'émission et la réception.
+
+Principe de fonctionnement
+Un rayon modulé en fréquence est projeté sur une cible. La cible renvoie ce rayon vers l'appareil. Le temps mis par le rayon pour revenir est mesuré et la distance séparant l'utilisateur de la cible est calculée.
+
+Diverses applications
+
+Contrôle de vitesse
+Un principe voisin est utilisé par les forces de l'ordre pour effectuer des contrôles de vitesse.
+"Le cinémomètre (...) met en oeuvre des trains d'impulsions de rayonnement infrarouge émis par un laser. Lorsque le faisceau rencontre une cible en mouvement (véhicule), une fraction du faisceau est renvoyée vers le cinémomètre (faisceau réfléchi). La mesure de la vitesse des véhicules ciblés est déterminée à partir de la variation de l'intervalle entre les impulsions réfléchies par le véhicule. Plus le véhicule s'éloigne rapidement, plus le temps séparant deux impulsions réfléchies successives augmente (effet Doppler)"(1)
+
+Dans les armées
+La technologie a permis de développer des systèmes d'aides à la conduite du tir avec l'élaboration de télémètre laser couplé à un ordinateur balistique dont le but est de calculer la correction à appliquer à l'angle et à l'orientation du canon en fonction de la distance, la direction et la vitesse du but, au type de munition présent dans la culasse puisqu'un canon peut tirer plusieurs types d'obus, la vitesse et la direction du char tireur, la vitesse et la direction du vent, etc. Il suffit d'envoyer une signature laser sur la cible et de tirer.
+Avec ce principe, on connaît la distance séparant le tireur du but. Il suffit de renouveler le processus après un temps donné t et de calculer la différence des deux temps 1 et 2. On obtient ainsi un temps v qui n'est rien d'autre que le temps image de la distance parcourue pendant un temps donné t. Avec les informations déduites du calcul simple de la distance par rapport au temps, on obtient la vitesse.
+
+En forêt
+En forêt, il est difficile de s'assurer que le rayon soit bien reflété par la cible voulue. Un système anti-feuille doté d'un réflecteur spécial est alors utilisé. Le rayon du laser ne se reflète que sur ce réflecteur, ce qui permet des mesures précises même dans les sous-bois. Ce système est utilisé par exemple lors des inventaires forestiers.
+
+Défauts du télémètre laser
+Des problèmes dus à la réfraction de la lumière lorsque le rayon traverse une plaque de verre ou de plastique, ou un nuage plus ou moins chargé d'eau, ou aux différences de température des couches d'eau lorsqu'on se trouve en possession d'un sonar ou ASDIC, altèrent les données obtenues. Visuellement, lorsqu'on plonge un objet rectiligne dans l'eau, il paraît "cassé" à l'endroit de séparation entre l'air et l'eau. Ce phénomène est lié à la différence de vitesse de la lumière (ou de l'onde employée, sonore ou lumineuse) dans les différentes couches traversées par ce rayon ou onde. Ainsi, si le rayon traverse plusieurs couches (sèche, humide, brouillard puis fumée par exemple) l'évaluation de la distance est peu fiable.
+En combat, une parade à l'utilisation du télémètre laser est de lancer des grenades fumigènes dans la direction du tireur, ce qui rend inopérant son système laser. Soit le tireur utilise les données précédemment obtenues, dont la fiabilité diminue avec le temps (un ou plusieurs paramètres peuvent évoluer), soit il attend que la fumée se dissipe (pour voir la cible masquée derrière le rideau de fumée et-ou pouvoir se servir à nouveau de son télémètre) en risquant une réplique de la part de l'adversaire (qui ne voit plus non plus son ennemi), soit il se passe de télémètre et effectue la surélévation et la correction lui-même.
+Des parades électroniques existent, consistant à brouiller l'onde reçue. Elles rendent le résultat totalement invraisemblable, et le tireur peut comprendre que la cible est en train de brouiller l'onde.
+
+D'autres principes de mesure de distance: 1) calculer l'angle de réflexion avec lequel revient le faisceau laser; 2) calculer le déphasage de l'onde lumineuse; 3) créer un laser qui émet une onde modulée à une fréquence moins élevée que la lumière (de l'ordre de 100 kHz) et observer le délai (différence de temps) entre le signal émis et celui qui revient. C'est le principe utilisé actuellement (début du XXIe siècle) dans les télémètres laser conçus pour le bâtiment et les travaux publics.
+
+Voir aussi: Camera temps de vol; Mise au point télémétrique; Lidar; Scanner 3D.

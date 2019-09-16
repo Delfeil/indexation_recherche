@@ -1,0 +1,6 @@
+Eurêkoi est un réseau coopératif de réponses en ligne à des questions. Ce service est animé par un réseau de 130 bibliothécaires de France et de Belgique. Tout internaute peut poser des questions gratuitement et obtenir une réponse en moins de 72h.
+Il s'agit d'un service de référence virtuel asynchrone : les bibliothécaires répondent par courriel en maximum trois jours ouvrés aux questions posées par les internautes, via un formulaire proposé sur les sites web des bibliothèques participantes ou sur le site.
+Depuis juin 2011, le réseau est également présent sur Facebook, où il répond directement aux questions au sein d'un groupe dédié.
+Eurêkoi est constitué de 26 bibliothèques situées en France et 21 bibliothèques de la Fédération Wallonie-Bruxelles.
+Eurêkoi est un service public proposé par la Bibliothèque Publique d'information du Centre Pompidou à Paris pour le Ministère de la Culture et de la Communication en partenariat avec le Service de la lecture publique de la Fédération Wallonie-Bruxelles.
+Depuis le 25 février 2015, le réseau a changé de nom pour devenir Eurêkoi. (il s'appelait BiblioSésame)

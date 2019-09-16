@@ -1,0 +1,16 @@
+Le crochet de Lie est une loi de composition interne (,) sur un espace vectoriel, qui lui confère une structure d'algèbre de Lie. Le commutateur (u, v) - uv - vu de deux endomorphismes en constitue l'un des exemples les plus simples.
+Le nom de crochet de Lie, ou simplement crochet, est souvent employé pour le crochet de Lie de deux champs de vecteurs sur une variété différentielle.
+
+Définition générale
+Soit V un espace vectoriel sur un corps commutatif K. Un crochet de Lie est une loi de composition interne sur V (c'est-à-dire que le crochet de Lie de deux vecteurs est encore un vecteur : x , y V , (x , y) V (-displaystyle -forall x,y-in V,-quad (x,y)-in V)), vérifiant les propriétés suivantes : 1) bilinéarité : x , x ' , y V , K , (x + x ' , y) - (x , y) + (x ' , y) (-displaystyle -forall x,x',y-in V,-lambda ,-mu -in K,(-lambda x+-mu x',y)--lambda (x,y)+-mu (x',y)),; x , y , y ' V , K , (x , y + y ') - (x , y) + (x , y ') (-displaystyle -forall x,y,y'-in V,-lambda ,-mu -in K,(x,-lambda y+-mu y')--lambda (x,y)+-mu (x,y')) ;.; 2) x , x ' , y V , K , (x + x ' , y) - (x , y) + (x ' , y) (-displaystyle -forall x,x',y-in V,-lambda ,-mu -in K,(-lambda x+-mu x',y)--lambda (x,y)+-mu (x',y)),; 3) x , y , y ' V , K , (x , y + y ') - (x , y) + (x , y ') (-displaystyle -forall x,y,y'-in V,-lambda ,-mu -in K,(x,-lambda y+-mu y')--lambda (x,y)+-mu (x,y')) ;; 4) l'application bilinéaire (,) est alternée : x V , (x , x) - 0 (-displaystyle -forall x-in V,-quad (x,x)-0) ;; 5) relation de Jacobi : x , y , z V , (x , (y , z)) + (y , (z , x)) + (z , (x , y)) - 0. (-displaystyle -forall x,y,z-in V,(x,(y,z))+(y,(z,x))+(z,(x,y))-0.). Remarques:
+Toute application multilinéaire alternée est antisymétrique (et la réciproque est vraie si la caractéristique du corps est différente de 2). Tout crochet de Lie est donc antisymétrique : x , y V , (x , y) - (y , x) (-displaystyle -forall x,y-in V,(x,y)--(y,x)).
+Si l'on combine la bilinéarité avec l'antisymétrie (x + x ' , y) - (y , x + x ') (-displaystyle (-lambda x+x',y)--(y,-lambda x+x')) on peut ne vérifier la linéarité que sur une seule composante :(x + x ' , y) - (x , y) + (x ' , y) (-displaystyle (-lambda x+x',y)--lambda (x,y)+(x',y)).
+Muni d'un crochet de Lie, un espace vectoriel devient une algèbre de Lie.
+
+Crochet de Lie de deux champs de vecteurs
+Soit V une variété différentielle et X et Y deux champs de vecteurs sur V. On note X. f la dérivée de la fonction f dans la direction du champ X. Le crochet de Lie de X et Y est l'unique champ de vecteur, noté (X,Y), tel que, pour toute fonction f indéfiniment dérivable,: (X , Y) f - X (Y f) Y (X f) (-displaystyle (X,Y)-cdot f-X-cdot (Y-cdot f)-Y-cdot (X-cdot f)).
+On montre en effet qu'un champ de vecteurs Z peut être caractérisé par la façon dont il dérive les applications. On vérifie en outre que l'application (,) définit bien un crochet de Lie sur les champs de vecteurs.
+Lorsque deux champs de vecteurs ont un crochet nul, on dit qu'ils commutent.
+
+Voir aussi
+Groupe de Lie: Portail de l'algèbre.

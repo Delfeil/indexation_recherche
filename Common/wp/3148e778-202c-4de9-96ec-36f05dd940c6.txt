@@ -1,0 +1,44 @@
+Un CD-ROM (acronyme de Compact Disc - Read Only Memory), parfois écrit cédérom, est un disque optique utilisé pour stocker des données sous forme numérique destinées à être lues par un ordinateur ou un lecteur compatible (salon, console de jeu, etc.).
+Le CD-ROM est une évolution du CD audio original, qui était destiné aux données numériques musicales prévues pour un lecteur de CD de chaîne Hi-fi ou de baladeur. Grâce à leur grande capacité de stockage et leur compacité, les cédéroms ont supplanté les disquettes dans la distribution des logiciels et autres données informatiques.
+
+Historique
+Le disque compact (CD), inventé par Philips en 1979, est lancé commercialement pour l'audio en 1982 par Philips et Sony. En 1984, les spécifications du Compact Disc ont été étendues (avec l'édition du Yellow Book) afin de lui permettre de stocker des données numériques.
+
+Étymologie
+CD-ROM est l'abréviation de l'anglais Compact Disc Read-Only Memory, soit disque compact à mémoire morte (non modifiable). L'abréviation CD est communément utilisée en français, bien que ce soit l'abréviation de Compact Disc et qu'en français la traduction disque compact soit recommandée. Le logo Compact Disc Digital Audio est commun sur les disques compacts.
+
+Francisation
+Le terme cédérom, francisation officielle de CD-ROM, provient simplement de la lecture phonétique de ce mot anglais. Depuis lors (1996), le cédérom et son orthographe anglaise cd-rom sont considérés comme des noms communs en français, et prennent donc un s au pluriel.
+
+Du support aux contenus
+Par extension, le terme cédérom est employé pour qualifier le type de programmes diffusés sur le support CD-ROM. On parle de cédéroms culturels ou éducatifs, aujourd'hui progressivement remplacés par des programmes sur DVD-ROM.
+Après une vague de popularité importante au milieu des années 1990, l'industrie des contenus interactifs sur disque optique est en déclin, subissant la dure concurrence de la diffusion par internet.
+
+Description
+
+Fonctionnement
+Les données du CD-ROM sont lues sur la surface du disque par un laser, les bits de données étant stockés sous forme d'alternance creux-bosses (une alternance équivaut à 1 et une continuité équivaut à 0) et chaque fichier ayant des coordonnées sur le disque. L'information captée par le laser est transmise à l'ordinateur par une connexion interne de type SCSI, IDE, SATA, ou par un port externe USB ou E-SATA.
+
+Espace de stockage
+Un CD-ROM ne contient que des données non modifiables : il peut être lu par un lecteur de disque optique (lecteur CD), mais ne peut être écrit que par un graveur.
+C'est un disque optique en matière plastique (polycarbonate), d'environ 12 cm de diamètre pour 1,2 mm d'épaisseur. Cela en fait un support très léger, pouvant contenir 650 ou 700 Mo de données informatiques, soit respectivement 74 ou 80 minutes d'enregistrement audio dans le format de données des disques compacts originaux (16 bits, stéréo, non compressé, avec un échantillonnage de 44 100 Hz).
+On trouve également des disques de capacités supérieures, mais leur lecture peut poser des problèmes.
+
+Types de lecture: La lecture à vitesse linéaire constante (notée CLV soit constant linear velocity) est le mode de fonctionnement des premiers lecteurs de cédéroms, fondé sur le fonctionnement des lecteurs de CD audio. Lorsqu'un disque tourne, la vitesse linéaire (et non de rotation) des pistes situées au centre est moins importante que celle des pistes situées sur l'extérieur, aussi il est nécessaire d'adapter la vitesse de rotation du disque en fonction de la position radiale de la tête de lecture. Ceci permet, la densité étant la même sur l'ensemble du disque, d'avoir un débit binaire constant tout au long de la lecture, condition nécessaire pour la lecture de flux audio.; La lecture à vitesse de rotation angulaire constante (notée CAV pour constant angular velocity), comme sur les anciens tourne-disques, est plus simple à mettre en oeuvre. Elle implique une vitesse linéaire plus importante à la périphérie du disque, la densité d'information étant égale sur l'ensemble du disque (contrairement aux disques vinyles) et la vitesse de débit binaire est supérieure à l'extérieur du disque.; En pratique, les lectures modernes utilisent un mélange des deux : les pistes intérieures sont lues à la vitesse angulaire constante maximale du lecteur puis à partir d'un certain point, le lecteur passe en vitesse linéaire constante, l'électronique de traitement devenant alors le facteur limitatif.
+
+Vitesse de lecture
+À l'origine, la vitesse de lecture du lecteur de cédérom correspondait à la vitesse de lecture d'un CD audio, c'est-à-dire un débit de 150 ko-s. Cette vitesse a par la suite été prise comme référence et notée 1x. Les générations suivantes de lecteurs de cédéroms ont été caractérisées par des multiples de cette valeur.
+
+Standard
+Le standard décrit la façon selon laquelle les informations doivent être stockées sur un cédérom, selon l'usage que l'on désire en faire. Un standard est référencé dans un document appelé book (en français, "livre") auquel une couleur a été affectée.
+Le standard du cédérom s'appelle Yellow book (livre jaune), mis au point en 1984, comprend deux modes : CD-ROM Mode 1 : utilisé pour stocker des données avec un mode de correction d'erreurs (ECC, pour Error Correction Code) permettant d'éviter les pertes de données dues à une détérioration du support ; CD-ROM Mode 2 : permettant de stocker des données graphiques, vidéo ou audio compressées, les erreurs de lecture sur ce type de contenus n'entrainant alors que des artefacts de lecture mais n'empêche pas le fonctionnement, moins de données de correction d'erreur sont présentes permettant une plus grande capacité de stockage. Pour pouvoir lire ce type de CD-ROM, un lecteur doit être compatible Mode 2.
+Organisation des données
+Les données sont gravées sur le CD-ROM suivant différents systèmes de fichiers : ISO 9660 et ses extensions : Rock Ridge,; Joliet,; El Torito ;.; Rock Ridge,; Joliet,; El Torito ;; UDF (ou ISO 13346) permettant l'écriture par paquet ;; Mount Rainier, extension d'UDF.
+Il existe aussi des images des systèmes de fichiers propres aux systèmes d'exploitation hôtes, comme HFS pour Mac OS.
+
+Limitations
+Comme tout support d'informations numériques, le CD-ROM permet une bonne conservation théorique des données, et en tant que "disque lu sans contact" (par le laser du lecteur), il n'est pas soumis à une usure mécanique directe. Par ailleurs, en tant que disque optique, les données qu'il contient ne peuvent pas être affectées par un champ magnétique.
+Cependant, le CD-ROM enregistrable s'avère modérément fiable. En effet, s'il est censé conserver les données durant une centaine d'années, il semblerait que cet argument ait été battu en brèche, que la réalité se rapprocherait plutôt des dix voire cinq ans, même en entourant le produit de protections adaptées. Son matériau polymère est en effet sensible aux rayonnements ultraviolets émis par la lumière, à la chaleur, à l'humidité, et aux rayures de surface (frottements durant les manipulations) qui entraînent rapidement des erreurs de lecture, puis une impossibilité totale de lecture.
+
+Temps d'accès
+Il représente le temps moyen pour aller d'une partie du CD-ROM à une autre.

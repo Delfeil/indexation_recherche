@@ -1,0 +1,13 @@
+Eugene Cook Bingham est un professeur américain (né le 8 décembre 1878 à Cornwall (Vermont) et décédé le 6 novembre 1945), directeur du département chimie du Lafayette College.
+Pionnier de la rhéologie, c'est notamment en se penchant sur le comportement hydraulique des peintures, en 1922, qu'il renouvela les idées de Maxwell sur les semi-fluides, ouvrant la voie à l'étude des lois viscoplastiques les plus générales. La loi de Bingham est la première loi de comportement d'un "fluide à seuil", c'est-à-dire d'un fluide qui ne se déforme qu'après avoir vaincu sa cohésion.
+
+Biographie sommaire
+Bingham soutient sa thèse de doctorat vers 1905 à l'Université Johns Hopkins, puis il part compléter sa formation pendant une année en Europe : il visite les universités de Berlin, de Leipzig et de Cambridge. De 1906 à 1915 il est professeur de chimie au Richmond College dans le Vermont ; en 1916 il est recruté comme physicien assistant par le National Bureau of Standards, qui le charge de caractériser la rhéologie des fluides visqueux. Simultanément, il enseigne au Lafayette College d'Easton (Pennsylvanie), et conservera cet emploi jusqu'à sa mort, en 1945.
+En tant que président de l'American Chemical Society (1922), il milite pour l'adoption du système métrique aux Etats-Unis.
+Bingham est également connu pour avoir participé à la construction du sentier des Appalaches.
+
+Publication: E. C. Bingham,
+Fluidity and Plasticity
+, New York, McGraw-Hill, 1922, p. 219.
+
+Voir aussi: Médaille Bingham; Markus Reiner, l'un des pères de la rhéologie avec E. C. Bingham.

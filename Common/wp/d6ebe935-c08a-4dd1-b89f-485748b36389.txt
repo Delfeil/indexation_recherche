@@ -1,0 +1,31 @@
+Verticrawl est un logiciel de moteur de recherche. Lancé en 1999, sa conception technique permet l'indexation plein texte dans plus de 220 formats de fichier dont Office, Pdf, vidéo et web. En tant que moteur de recherche sémantique, il est capable de reconnaître 68 langues.
+En 2005, La solution de recherche est devenue totalement webservice à vocation SiteSearch. L'outil est donc destiné à une utilisation en ligne ou hors ligne de recherche pour site web. Les activités de gestion de contenu, les sites marchands ou les SEO (optimisation des moteurs de recherche) l'utilisent pour mettre en oeuvre une fonction élaborée de recherche sur site.
+
+Fonctions d'indexation
+Outre les fonctions de crawling web, Verticrawl peut nativement indexer les protocoles https, ftps, news avec ou sans authentification. Étant dédié à une indexation sélective de contenu, l'exploitation de règles d'indexation spécifiques permet la collecte de données sélective, c'est-à-dire le crawling vertical (d'où son nom VERTICRAWL).
+Le logiciel peut indexer des catalogues produits via des formats éditeur ou directement sur les serveurs de base de données.
+Une interface d'administration permet à chaque client de consulter l'ensemble des processus et les données indexées.
+
+Fonctions de recherche
+Les fonctions de recherche sont mises à disposition sous forme d'API de dialogue avec le centre serveur. Chaque API dispose de trois formats (HTML, XML ou PHP) qui couvrent 99 % des besoins d'intégration des recherches sur site. Une aide en ligne contenant des scripts open source rendent l'intégration simple et rapidement opérationnelle. moteur de recherche sémantique; plan de site automatique; table des matières automatique (index sémantique); correction orthographique; suggestion de recherche associées; auto-completion; screenshot automatique (image des documents indexés); logiciel de régie publicitaire multimédia et contextuelle nommé Answord.
+Ces fonctions sont toutes interfaçables y compris avec des applicatifs web2.0 ou AJAX. Le design de résultats d'un moteur de recherche est entièrement paramétrable.
+
+Answord
+En 2012, Answord est mis en place sur 123-emploi.com en mode autonome et permet la mise en place d'espaces contextuels autour de l'emploi.
+
+Principales fonctions d'administration: Multi bases d'indexation; Architecture set and forget; Paramétrage des périodes de crawl; Statistiques de recherche avec géolocalisation et analyse comportementale; Paramétrage des API.
+
+Clients et utilisateurs
+Essentiellement des entreprises utilisant internet comme vecteur de leur activité. Il s'agit surtout de collectivités, de PME, de sociétés de référencement pour l'optimisation des moteurs de recherche (SEO) et de sites de commerce électronique.
+
+Qu'est ce que le Webservice - SaaS
+À l'inverse d'un logiciel installé, le web service supprime toute contrainte d'infrastructure et de mise à jour du logiciel. Le principe de licence en mode ASP (commercialisé par un fournisseur d'applications en ligne), et maintenant SaaS (Software as a Service), garantit une évolution constante du produit ainsi qu'une disponibilité réelle du logiciel pour le client, sans installation. Dans le cas des moteurs de recherche, les ressources techniques sont bien plus complexes à mettre en oeuvre que pour un logiciel classique (disponibilité, charge serveur, coût de l'infrastructure).
+De même, le prix de licence est alors beaucoup plus attractif que pour un logiciel dit end-user, installé sur un serveur ou un ordinateur.
+
+Évolutions
+Verticrawl a intégré des fonctions de data-mining couplées au système de crawl pour extraire des données non structurées directement dans les pages web. E-miner peut collecter des liens en javascript (par exemple), reconnaître un prix, des informations techniques issues d'une fiche produit (sur un site marchand), etc.
+Les données ainsi collectées sont exportables au format xml ou de base de données pour un système de veille marketing, de comparaison de prix, etc.
+Depuis 2015, Verticrawl propose gratuitement des modules intégrables dans les CMS afin de simplifier l'intégration et les dialogues entre le site et les APIs de recherche. Le 1er de cette série est Drupal sur lequel vous pouvez télécharger les modules.
+
+Identité du crawler
+Le robot porte le nom suivant VerticrawlBot suivi d'un identifiant de client. Il est référencé dans la Webcrawler Database (1) et respecte les règles d'indexation ders fichiers robots.txt ou des balises méta robots.

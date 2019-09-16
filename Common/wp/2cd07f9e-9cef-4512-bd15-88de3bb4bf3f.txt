@@ -1,0 +1,9 @@
+Un suffixe est un affixe qui est placé après le thème morphologique d'un mot.
+La suffixation est le mécanisme de dérivation par ajout d'un affixe à la fin du radical d'un morphème. Ajouter un suffixe à la fin d'un mot le change en un autre mot, par exemple lorsque le suffixe "-iste" est ajouté au mot social, il crée le mot socialiste.
+
+Suffixes en français
+Il existe plusieurs suffixes en français, dont certains ne donnent pas le même sens à un nouveau mot.
+
+Suffixes en anglais
+ Inflectional suffixes do not change the word class of the word after inflection.(1) Inflectional suffixes in modern English include:
+Derivational suffixes can be divided into two categories, namely class-changing derivation and class-maintaining derivation. Derivational suffixes in modern English include:

@@ -1,0 +1,10 @@
+Un conteneur de servlets (Servlet container en anglais) ou conteneur web (web container en anglais) est un logiciel qui exécute des servlets. Parfois, ils sont appelés moteur web ou moteur de servlets.
+Le logiciel le plus connu est Tomcat de la fondation Apache.
+
+Conteneurs web non-commerciaux: Java System Application Server (1) développé par Sun.; Jakarta Tomcat est un projet de la Apache Software Foundation qui utilise le serveur de conteneur Catalina.; Jetty; Jaminid; Enhydra; jo! (2); Winstone; tjws (3).
+
+Conteneurs web commerciaux: Java System Application Server(4); Java System Web Server; Caucho's Resin Server (5); BEA WebLogic Server or Weblogic Express (6); Borland Enterprise Server; Oracle Application Server (7); WebSphere d'IBM; Macromedia JRun; IronFlare Orion Application Server (8).
+
+Conteneurs du monde du libre: JBoss; JOnAS; WebObjects; GlassFish; LiteWebServer (9).
+
+Article connexe: Conteneur. Portail de l'informatique.

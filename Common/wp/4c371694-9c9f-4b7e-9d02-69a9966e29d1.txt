@@ -1,0 +1,11 @@
+En mathématiques, plus précisément en algèbre, un élément neutre (ou élément identité) d'un ensemble pour une loi de composition interne est un élément de cet ensemble qui laisse tous les autres éléments inchangés lorsqu'il est composé avec eux par cette loi. Un magma possédant un élément neutre est dit unifère.
+
+Définition
+Soit (E ,) (-displaystyle (E,-star)) un magma. Un élément e (-displaystyle e) de E (-displaystyle E) est dit : neutre à gauche si x E , e x - x (-displaystyle -forall x-in E,- e-star x-x) ;; neutre à droite si x E , x e - x (-displaystyle -forall x-in E,- x-star e-x) ;; neutre s'il est neutre à droite et à gauche.
+
+Exemples
+Un élément neutre est relatif à la loi considérée : 0 est l'élément neutre de l'addition arithmétique, ainsi que du "ou" binaire ;; 1 est l'élément neutre de la multiplication arithmétique, ainsi que du "et" binaire ;; La matrice unité d'ordre n est l'élément neutre de la multiplication des matrices carrées d'ordre n ;; Le mot vide est l'élément neutre de la concaténation des chaînes de caractères.
+
+Propriétés: Il est possible que l'élément neutre à gauche (resp. à droite) ne soit pas unique. Par exemple, considérons un ensemble E contenant au moins deux éléments. On peut définir une loi G sur E par la formule G(x, y) - x et une loi D par la formule D(x, y) - y. Pour la loi G, tout élément est neutre à droite et aucun n'est neutre à gauche. Pour la loi D, tout élément est neutre à gauche et aucun n'est neutre à droite.; En revanche, s'il existe un élément neutre à gauche et un élément neutre à droite, alors l'ensemble admet un unique élément neutre et en outre, tout élément neutre à gauche (resp. à droite) lui est égal. En effet, pour tous éléments eg neutre à gauche et ed neutre à droite, on a : ed - eged - eg. Dans cette situation - en particulier lorsque G est un groupe -, l'unique élément neutre de G est couramment appelé le neutre de G.; Dans un groupe, le neutre est le seul élément idempotent, c'est-à-dire le seul élément x tel que x x - x.
+
+Voir aussi: Anneau unifère; Élément absorbant; Élément symétrique; Inverse; Monoïde; Quasigroupe. Portail de l'algèbre.

@@ -1,0 +1,50 @@
+En programmation informatique, un type de donnée, ou simplement type, définit les valeurs que peut prendre une donnée, ainsi que les opérateurs qui peuvent lui être appliqués.
+
+Types de données
+
+Types prédéfinis
+Tous les langages de programmation offrent des types de base correspondant aux données qui peuvent être traitées directement - à savoir : sans conversion ou formatage préalable - par le processeur. Ces types de base sont souvent : Type booléen : valeurs vrai ou faux - ou respectivement 1 ou 0 ;; Type entier signé ou non signé : valeurs codées sur 8 bits, 16 bits, 32 bits voire 64 bits. Les caractères sont parfois assimilés à des entiers codés sur 8 ou 16 bits (exemples : C et Java). Type réel en virgule flottante.
+Les langages permettant un accès direct à la mémoire du système offrent par ailleurs le type pointeur, et un type octet.
+Beaucoup proposent également un type prédéfini, string, pour les chaînes de caractères. Les langages de haut niveau peuvent également supporter nativement des types correspondant à d'autres structures de données.
+
+Types paramétrés
+Par exemple la déclaration des pointeurs ou des tableaux en langage C nécessite de préciser le type qui doit servir de base aux données manipulées. La programmation générique étend cette pratique pour permettre à l'utilisateur de créer ses propres types paramétrés.
+
+Types énumérés
+Des langages permettent au développeur de définir des types spécifiques à son application. Les types énumérés correspondent à des ensembles "finis" de valeurs possibles pour une variable. Le code suivant illustre la définition d'un nouveau type, suivie de la déclaration d'une variable typée :
+type couleur : (rouge, bleu, vert);
+var c : couleur; -- La variable c, du type couleur, peut prendre les valeurs
+ -- rouge, bleu ou vert uniquement.
+Remarques: Par construction, tout type de donnée informatique est de domaine fini, c'est-à-dire en bijection avec un sous-ensemble strict (noté arbitrairement ici : S) de l'ensemble des entiers (naturels). Par exemple, un type entier peut être défini sur 32 bits, soit une plage de valeurs entières variant de 0 à 2-1 pour un type non signé, ou une plage de -2 à +2-1 pour un type signé.; Le caractère "fini" d'un type énuméré (dit aussi : énumératif) s'assimile ici à un ensemble de valeurs (homogènes ou non) en bijection avec une partie stricte (notée arbitrairement ici : P) de S. En pratique, le cardinal de P est plutôt de l'ordre de la dizaine (exemple : palette de couleurs), voire du millier (exemple : plage des ports logiciels standards).
+
+Types composés
+Les types composés (struct en C, record en Pascal) permettent de grouper plusieurs champs de types distincts dans une même variable (qui contient alors des "sous-variables").
+En programmation orientée objet, on nomme classe un type composé associé à du code spécifique - la définition des méthodes de la classe - propre à la manipulation de variables de ce type.
+
+Types hiérarchiques
+La programmation orientée objet étend le paradigme précédent en organisant hiérarchiquement les classes de telle manière qu'une variable d'une sous-classe puisse être utilisée de manière transparente à la place de n'importe quelle classe située à un niveau supérieur dans la hiérarchie définie.
+
+Types opaques
+Un type opaque est un type incomplètement défini et-ou dont la nature est masquée. Le développeur ne peut ni en examiner le contenu, ni le modifier, et doit simplement le stocker et le transmettre. À cet effet, seule la taille d'un type opaque est réellement connue.
+Typiquement, les données opaques sont des handles (terminologie Windows), des descripteurs de fichier (terminologie Unix), des clés, des pointeurs vers des structures masquées (ex. FILE- de la bibliothèque standard du C), etc. La seule notion cruciale, c'est qu'une variable opaque est fournie via une fonction dédiée de création (de type constructeur), transmise telle quelle aux fonctions utilisatrices (souvent via un passage par référence), et enfin détruite via une fonction de libération (de type destructeur).
+La possibilité - ou non - d'avoir des types opaques est totalement dépendante du langage de programmation utilisé.
+
+Typage
+
+Typage statique et typage dynamique
+On parle de typage statique quand la majorité des vérifications de type sont effectuées au moment de la compilation.
+Au contraire, on parle de typage dynamique quand ces vérifications sont effectuées pendant l'exécution.
+
+Typage explicite et typage implicite
+Avec un typage explicite, c'est à l'utilisateur d'indiquer lui-même les types qu'il utilise, par exemple lors des déclarations de variables ou de fonctions.
+Par exemple, en langage C, le typage est explicite :
+int i - 0; -- cette déclaration indique explicitement que
+ -- la variable i est de type entier
+Au contraire, avec un système de typage implicite, le développeur laisse au compilateur ou au runtime le soin de déterminer tout seul les types de données utilisées, par exemple par inférence.
+Par exemple, en Objective Caml, le typage est implicite :
+let i - 0 ;; (- le compilateur détermine automatiquement que
+ la variable i est de type entier -)
+Typage fort et typage faible
+La sûreté du typage est destinée à prévenir les erreurs de type, à savoir : l'emploi d'une variable dont le format est incompatible. La définition d'un langage fortement typé est assez floue : soit elle est à rapprocher de celle de langage à typage statique : le compilateur assure la détection au plus tôt des erreurs de type ;; soit on juge de la force du typage d'un langage selon les conversions de type implicites qu'il autorise.
+
+Voir aussi: Structure de données; Théorie des types; Critères communs; Haskell; OCaml. Portail de l'informatique.

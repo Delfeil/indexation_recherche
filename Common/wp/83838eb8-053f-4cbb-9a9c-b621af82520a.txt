@@ -1,0 +1,111 @@
+Advanced Micro Devices (AMD) est un fabricant américain de semi-conducteurs, microprocesseurs, cartes graphiques basé à Sunnyvale. La compagnie a été fondée le 1er mai 1969 par un groupe d'ingénieurs et de dirigeants de Fairchild Semiconductor. Les cofondateurs d'AMD sont Jerry Sanders, Edwin Turney (en), John Carey, Sven Simonsen, Jack Gifford (en), Frank Botte, Jim Giles et Larry Stenger. La flèche du logotype de la compagnie dirigée vers la droite symbolise sa croissance dans le "droit chemin" ("The right way").
+En 2006, AMD pointe à la 8e place des 20 plus grands fabricants de semi-conducteurs, derrière Intel, Samsung, Texas Instruments, Toshiba, STMicroelectronics, Renesas et Hynix. Au premier trimestre 2007, la chute d'AMD, dans ce classement, est vertigineuse puisque la société pointe à la 18e place. Il est par contre le deuxième fournisseur de microprocesseurs pour ordinateur PC, à architecture x86, après Intel.
+Le 25 décembre 2009 marque le retour de la firme sur le marché des semi-conducteurs puisque l'action du constructeur américain frôle la barre symbolique des 10 à 9,95 alors que sa valeur n'était que de 1,86 début 2009, ce qui représente une augmentation de 435 % en un an.
+AMD occupe également la deuxième place sur le marché des cartes-graphiques derrière Nvidia et la troisième place sur le marché des GPU derrière Intel et Nvidia depuis l'acquisition d'ATI.
+De 2011 a 2014 AMD connait des années terribles à cause de l'échec de l'architecture bulldozer mais est en partie sauvé par la division GPU , jusqu'à l'arrivée de Lisa Su en tant que PDG qui réorganisa et relança la société grâce aux GPU Radeon RX et aux CPU AMD RYZEN.
+
+Historique
+AMD est créée le 1 mai 1969 avec un capital de 100 000 chez l'un des cofondateurs, Jerry Sanders. Il dira aux débuts de la société : "D'abord les personnes, les produits et les profits suivront." Durant la même année, elle s'installe à Sunnyvale en Californie. Le premier circuit intégré die est produit la même année, c'est l'AM9300, un registre à décalage MSI à 4 bits.
+En 1972, le premier produit créé par la société voit le jour : il s'agit de l'AM2501. La même année, la première unité de production hors des États-Unis est mise en route à Penang en Malaisie.
+En 2003, AMD et Fujitsu créent la société commune Spansion, qui regroupe leurs activités de mémoire flash. AMD restant l'actionnaire majoritaire avec une participation de 60 %. Courant 2005, AMD et Fujitsu vendent leur participation dans Spansion. Cette dernière opère donc, maintenant, comme une société indépendante.
+Le 25 juillet 2006, AMD rachète ATI Technologies pour 5,4 milliards de dollars.
+
+Capacité de production
+Les principales usines de production de processeurs à Dresde en Allemagne.
+Les principales usines de production de processeurs AMD étaient situées à Dresde en Allemagne. De nouvelles usines sont en construction à Dresde et vers New York et des partenariats avec Chartered Semiconductor Manufacturing (en) ont été signés. À la suite des difficultés financières d'AMD, à la fin de 2008, les activités de production physique des processeurs ont été partiellement cédées à des fonds d'investissement pour former GlobalFoundries. Cette nouvelle filiale, détenue à 40 % par AMD, reprend toutes les usines actuelles et futures d'AMD qui devient donc un développeur sans usine.
+
+Situation financière
+Historique du chiffre d'affaires et des profits d'AMD.
+Croissance du chiffre d'affaires en 2007 : +6 % par rapport à l'année 2006. Pour un total de 6,013 milliards de dollars. Pertes record de 3,4 milliards de dollars.
+
+Processeurs x86
+Processeur AMD 8080 (AMD AM9080ADC - C8080A) produit en 1977.
+Processeurs 32 bits
+
+Anciens
+AMD a fabriqué ses premiers microprocesseurs x86 sous licence, comme avec le 8086 par exemple. Les processeurs qui suivirent, les 80286, 80386 et Am486, étaient également des copies quasi identiques des modèles Intel. Néanmoins, ils avaient régulièrement des fréquences plus élevées pour des prix inférieurs ou comparables, ce qui en faisait des processeurs à bons rapports qualité-prix. Cela permit à AMD de devenir un concurrent sérieux d'Intel.
+
+K5
+Le premier K5 est sorti en 1995 sous le nom de "K5 PR75", cadencé à 75 MHz.
+Voici les processeurs lancés à la commercialisation :
+L'AMD K5 est un microprocesseur x86, construit par AMD, présenté pour la première fois en 1995. Il remplaça l'Am5x86, et fut suivi par le K6. Il est comparable au Cyrix 6x86 : tous deux possèdent une architecture interne en RISC. Tous les modèles ont 4,3 millions de transistors. Aucun K5 ne supporte les instructions MMX.
+
+K6
+AMD-K6-2-300
+AMD a créé les microprocesseurs K5, K6, K6-2 et K6-III, qui étaient considérés comme des clones de leur équivalent chez Intel, mais vendus moins chers (moins performants à fréquence égale pour tous les calculs en virgule flottante, mais un peu plus en calcul entier).
+
+K7
+AMD Athlon Classic SlotA
+AMD a lancé sur le marché les Athlon et les Duron, des processeurs compatibles x86, en 1999. C'est grâce à ces processeurs qu'AMD a accru sa notoriété sur le marché et a pu revenir sur le devant de la scène (après que Cyrix eut abandonné début 1999). L'Athlon était en effet relativement plus performant que tous ses concurrents et vendu à un prix particulièrement compétitif. Contrairement aux K6, les calculs en virgule flottante étaient très performants, ce qui permit d'en faire un processeur de choix pour les jeux vidéo et pour l'utilisation d'applications multimédia intensives.
+En mai 2002, AMD annonce qu'il abandonne la fabrication des processeurs Duron, pour se concentrer sur les Athlon et les processeurs 64 bits.
+
+Processeurs 64 bits
+
+Anciens
+
+K8
+La série 64 bits d'AMD, baptisée AMD64, commence sa carrière début 2003 avec l'Opteron, destiné aux serveurs et aux stations de travail. Il faut attendre l'automne 2003 pour avoir une version de bureau, nommée Athlon 64 et Athlon FX (en fait un Opteron monoprocesseur renommé). Comparativement à l'Itanium d'Intel, la particularité de l'AMD64 était de demeurer totalement compatible avec l'architecture antérieure à 32 bits, et ainsi de supporter toutes les applications existantes. Intel a reconnu l'intérêt de cette approche en adoptant les extensions de AMD64 pour ses nouveaux processeurs.
+Pour sa part, Intel lance en 2005 la série d'instructions Intel 64 ou EM64T notamment dans les Pentium 4 6xx.
+Pour activer le mode à 64 bits, il faut un système d'exploitation adapté. Linux et quelques autres Unix furent les premiers, rejoint par Windows XP Professionnel Édition x64.
+Une particularité importante de l'AMD64 est l'intégration du contrôleur mémoire dans l'unité centrale (2004), alors que cette fonction était traditionnellement dévolue au chipset. Tous ces éléments permettent un gain significatif de performances, même en mode à 32 bits. L'AMD64 est une architecture de choix pour les joueurs, plus performante en général qu'un Pentium 4 de la même gamme. La stratégie d'AMD pour concurrencer son adversaire, dont les bénéfices seuls suffisent à dépasser ses revenus, consiste à dominer le marché de la vente au détail (relativement négligée par Intel) en offrant les meilleurs prix quelle que soit la gamme demandée. Leurs processeurs suivent cette stratégie, considérant que la majorité de leurs acheteurs, connaissant bien le marché de l'informatique, utilisent une seule application à la fois (ex : jeu, calcul) demandant énormément de puissance "brute", domaine où excellent les AMD. À l'opposé, grâce à l'Hyper-Threading, les processeurs Intel ont l'avantage dans le multimédia, où les connaissances en informatique des utilisateurs sont plus faibles, et qui demandent surtout une grande visibilité du fabricant.
+Le 30 mars 2006, AMD annonce l'embauche de Samuel Naffziger et de huit autres développeurs-clés qui oeuvraient chez son concurrent Intel au développement du processeur 64 bits Itanium - une puce haute performance pour les serveurs - qui rencontre des difficultés depuis son lancement en 2001. Cette défection n'aide pas Intel à relancer l'Itanium, dont l'histoire chaotique a provoqué un certain embarras chez ses concepteurs (IBM, Bull, Hewlett-Packard et Sun Microsystems), tandis qu'AMD devrait profiter de l'expérience acquise par les transfuges pour étoffer son offre 64-bit (Opteron, notamment).
+2006 : AMD fait un pas symbolique, car ses futurs processeurs 64 bits quadri-coeurs seront installés dans les serveurs Dell, firme connue pour favoriser Intel. Les rumeurs vont déjà bon train quant à la mise en place de puces AMD dans les ordinateurs Dell. Cela tend à prouver que la puissance des CPU d'AMD est reconnue, alors qu'Intel lance ses architectures Conroe (pour PC de bureau), Merom (pour portable) et Woodcrest (pour serveurs), architectures qui marquent un tournant dans la politique d'Intel qui n'a quasiment fait qu'augmenter la fréquence de ses processeurs durant toute la période des Pentium 4, sans grande amélioration de performances. Depuis fin 2006, les ordinateurs Dell proposent des processeurs AMD.; En août 2006, AMD achète le fabricant de cartes graphiques ATI pour 5,4 milliards USD. L'alliance de ces deux acteurs majeurs de l'industrie permettra de proposer aux consommateurs des solutions d'ordinateurs intégrant processeur, chipset et puce graphique, c'est-à-dire des ordinateurs complets et très compacts pouvant servir dans les téléphones mobiles ou dans les véhicules.
+AMD se livre à un vrai face à face avec Intel. La sortie en fin novembre 2006 du Core 2 Quad chez Intel est un désavantage pour AMD, qui ne commercialisera ses quad-core qu'en automne 2007. En attendant, pour avoir une offre à son catalogue, AMD a sorti la plate-forme 4x4. Elle est composée de deux Athlon dual-core, montés sur une carte mère bi-processeur.
+
+K10
+L'architecture K10 a été officiellement lancée le 10 septembre 2007, lors du lancement de l'Opteron sur l'architecture Barcelona K10, premier processeur possédant quatre coeurs de manière native sur un "die" unique, contrairement à Intel qui proposait à l'époque des processeurs à quatre coeurs grâce à deux "dies" mis côte à côte. Cet Opteron de troisième génération est fabriqué avec une technologie SOI issue d'un partenariat avec IBM et gravé en 65 nm.
+Des modifications importantes ont eu lieu par rapport au K8 surtout au niveau des caches. En effet, le K10 Barcelona possède trois niveaux de cache : le cache de niveau 1 (L1) est de 64 Kb par coeur, couplé à un cache de niveau 2 (L2) de 512 Kb, et enfin avec un cache partagé de niveau 3 de 2 Mo. Le procédé de victim-cache permet d'éviter de stocker les informations présentes dans le L1 sur le L2 (contrairement à Intel) et ainsi gagner en place. Les caches de niveau 2 et de niveau 3 sont censés être intelligents, ainsi si des informations doivent être utilisées par plusieurs coeurs, elles seront stockées sur le cache partagé de niveau 3, par contre si elles n'ont pas besoin d'être utilisées par plusieurs coeurs, elles seront stockées sur le cache de niveau 2.
+Une optimisation du prefetch du contrôleur mémoire permet de ne pas être forcé d'utiliser de la mémoire FBDIMM (pour les Opteron), et on peut utiliser de la mémoire non-ECC aussi bien qu'ECC (2 x 72 bits). Le contrôleur mémoire bénéficie pour la première fois d'un domaine d'alimentation complètement séparé du processeur, permettant au Crossbar Switch de voir sa fréquence augmenter d'environ 200 MHz, et le processeur pourra répondre au bus HyperTransport même quand la mémoire travaillera. Cependant, le contrôleur mémoire reste prévu uniquement pour de la DDR2.
+AMD introduit aussi avec le K10 le Power Now sur les desktop, permettant de moduler la fréquence de chaque coeur de manière totalement indépendante, ainsi que le contrôleur mémoire et les différents caches.
+Les architectures K10 Barcelona et Phenom possèdent environ 463 millions de transistors pour les coeurs et environ 140 millions pour les caches mémoires, soit un total de plus de 600 millions de transistors. Les K10 possèdent douze niveaux de pipelines, contre seize niveaux chez Intel avec l'architecture Core 2.
+Le Phenom possède en plus du Barcelona le bus HyperTransport 3.0. Ce processeur est le nouveau CPU grand public d'AMD, il est sorti le 19 novembre 2007. Au lancement seul les Phenom X4 9500 (2,2 GHz) et 9600 (2,3 GHz), représentant l'offre quad-core native d'AMD, sont disponibles. Le Phenom X3 (tri-coeurs)est quant à lui sorti durant le premier trimestre 2008, comme le Phenom X2, dual-core. Un nouvel Athlon 64 X2, dépourvu de cache L3, a ensuite fait son apparition (Rana).
+Pour les Opterons, la série 1000 basée sur un Barcelona mono-core, le Budapest, devrait sortir d'ici peu.
+Les Phenom sont compatibles avec le Socket AM2 et les chipset R6XX (AMD), ils doivent toutefois être placés sur une carte-mère basée sur un chipset R7XX (AMD) pour bénéficier de l'Hypertransport 3.0.
+En janvier 2009, AMD lance les Phenom II (dont l'architecture est parfois appelée "K10.5", K 10 et demi), en introduisant la gravure 45 nm et une taille de mémoire cache de 8 Mo. Ces processeurs connaîtront un succès bien supérieur à celui des Phenom en raison de leurs performances supérieures, leur propension à l'overclocking et leur meilleur maîtrise de la chaleur. Mais cette offre arrivera bien trop tard vis à vis de l'avance de son concurrent.
+En janvier 2011, AMD lance les Llanos, des processeurs d'architectures K10 et Fusion, gravés en 32 nm et intégrant le northbridge et un circuit graphique.
+
+Actuels
+
+Bobcat
+
+K15
+Il s'agit de la première architecture grand public d'AMD basée sur le CMT (Clustered Multi Thread) et ayant comme nom de code K15. Ces processeurs sont sortis au deuxième semestre 2011. Cette architecture (CMT), consiste en une refonte importante des anciennes architectures d'AMD et de leurs acquis, afin de mutualiser au maximum les ressources au sein d'une même puce (mémoire cache, unités de calcul...) pour obtenir un meilleur rendement et ainsi monter en fréquence tout en diminuant la consommation énergétique.
+
+K12
+Il s'agit d'un projet lancé à la suite du rachat d'ATI Technologies. Le but serait de fusionner le processeur graphique dans le processeur central pour diminuer encore une fois de plus les coûts et la consommation en énergie. En pratique, cela consiste à inclure le northbridge et un circuit graphique plutôt gros dans le processeur. Celui-ci emportant aussi des coeurs de processeur habituels, qui seront de microarchitecture distincte (K10, Bobcat, Bulldozer...). Le premier de ces APU (Accelerated processing unit) est sur le marché (2011), et utilise deux coeurs Bobcat.
+
+Anecdote
+Dans le nom des architectures des processeurs x86 d'AMD : Kxx, le "K" fait référence à une bande dessinée des DC Comics : Superman. En effet, le "K" désigne la kryptonite verte qui affaiblit Superman représenté ici par le géant Intel.
+
+Les sockets AMD
+Les sockets AMD par ordre chronologique : Socket 7; Slot A; Socket A; Socket 754; Socket 939; Socket 940; Socket AM2; Socket F; Socket AM2+; Socket AM3; Socket AM3+; Socket FM1; Socket FM2; Socket G34; Socket AM4.
+
+Autres technologies et plateformes
+
+Processeurs Alchemy
+L'Alchemy est un processeur RISC, d'architecture MIPS, spécialisé dans le traitement multimédia et destiné aux baladeurs. Dans ces dernières versions il intègre des DSPs lui permettant de s'affranchir de quelques composants lors de son intégration. Ceci lui donne l'avantage de réduire le volume occupé, de moins consommer et d'obtenir un système complet moins cher. Selon AMD, il est ainsi capable de gérer tout type de format audio et de format vidéo, en apportant un maximum de qualité.
+
+AMD Live!
+AMD Live! est la réponse d'AMD à Intel et son Viiv : ce label définit le standard du PC de salon intégrant un processeur AMD et les périphériques graphiques et de communication permettant le support de toutes les fonctions multimedia du salon.
+Description de la certification: Processeur : Athlon 64 X2, Athlon 64 FX-60 ou Opteron; Socket : AM2; Graphique : Double GPU de type SLI ou CrossFire; Disque dur SATA; Graveur dvd multiformat; Clavier sans fil; Télécommande.
+Le terminal DDREAM est la première "set-up Box", certifiée AMD Live!
+
+Plateforme AMD Quad FX
+Il s'agit d'une offre proposée par AMD pour contrer l'offre d'Intel. Elle se composait de deux processeurs FX (par exemple des FX-72) pour combiner des configurations incluant quatre cores.
+Plus efficaces que les quad-core d'Intel, elles ne connurent pas le succès espéré avec pour principale cause son prix excessivement élevé. Les configurations de base pouvaient atteindre les 1 500 USD sans compter la mémoire, les disques durs, etc.
+La plateforme AMD Quad FX était par contre considérée comme la configuration ultime et pouvait être couplée à une plateforme QUAD-SLI composée de deux cartes graphiques Nvidia 7950 GX2.
+En 2013 AMD fut le premier constructeur de microprocesseurs à proposer au grand public un processeur (FX 9590) dont sa fréquence atteint 5 GHz au maximum avec son "turbo" (4,7 GHz de base sans overclocking automatique) dans les situations les plus favorable et seulement au prix d'un explosion de la consommation et de la chaleur à dissiper. AMD a été très optimiste a fourni des informations techniques fausse longtemps, tout comme il annoncé une révolution avant d'admettre son échec sur cette architecture.
+
+Processeurs Geode
+Le Geode est un type de processeur très basse consommation d'AMD. En réalité, il s'agit d'un véritable système sur une puce regroupant à peu près toutes les fonctionnalités attendues d'un ordinateur dans une seule puce consommant très peu d'énergie.
+
+Pacifica-AMD-V
+Il s'agit d'une technologie de virtualisation matérielle similaire au VT-x (anciennement nommé Vanderpool d'Intel) et intégrée aux derniers processeurs d'AMD.
+Comme chez Intel avec le VT-d, AMD propose l'équivalent : "Virtualisation E-S", qui permet au système invité d'utiliser une carte d'extension physique directement sans passer par l'hyperviseur (le système hôte). Ceci pour utiliser pleinement les performances de ces cartes, comme une carte graphique 3D qui peut être utilisée à 100 % de ses capacités par le système d'exploitation invité et ainsi éviter la perte de temps machine lors d'affichage 3D temps réel.
+
+Collaboration et Partenariats
+AMD s'est associé avec THATIC (Tianjin Haiguang Advanced Technology Investment Co., Ltd) pour co-fonder d'une entreprise en Chine. En obtenant un accord de licence pour l'échange de licence pour les serveurs sur le marché chinois.
+
+Voir aussi
+
+Articles connexes: Liste des microprocesseurs AMD; Liste des microprocesseurs AMD Sempron; Liste des microprocesseurs AMD Athlon 64; Liste des microprocesseurs AMD Athlon XP; Performance Rating; Chipset AMD; Radeon.

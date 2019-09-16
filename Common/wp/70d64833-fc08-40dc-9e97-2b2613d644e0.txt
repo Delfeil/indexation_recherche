@@ -1,0 +1,68 @@
+Le Scalable Vector Graphics (en français "graphique vectoriel adaptable"), ou SVG, est un format de données conçu pour décrire des ensembles de graphiques vectoriels et basé sur XML. Ce format inspiré directement du VML et du PGML est spécifié par le World Wide Web Consortium.
+
+Historique
+SVG a été développé à partir de 1999 par un groupe de sociétés au sein du W3C après la mise en concurrence des propositions Precision Graphics Markup Language (PGML) proposé par Adobe à partir de PostScript et Vector Markup Language (VML) proposé par Microsoft à partir de Rich Text Format (RTF). À cette base se sont ajoutées différentes influences, en particulier les feuilles de style en cascade (CSS).
+En septembre 2001, le W3C publie la "Scalable Vector Graphics (SVG) 1.0 Specification, W3C Recommendation". En janvier 2003, le standard évolue vers la recommandation en version 1.1 avec une seconde édition en août 2011, qui est la version actuelle.
+En parallèle apparaît en décembre 2008 la recommandation "Scalable Vector Graphics (SVG) Tiny 1.2 Specification" dont le but est d'être utilisable sur les appareils mobiles (téléphone mobile, assistant personnel...). Il se présente comme un sous ensemble du "SVG 1.1 Full".
+La version 2 du langage est en cours de définition au sein du W3C.
+
+SVG : le dessin et les cartes
+Le SVG est très utilisé dans le monde de la cartographie et du téléphone mobile.
+
+Caractéristiques
+Les coordonnées, dimensions et structures des objets vectoriels sont indiquées sous forme numérique dans le document XML. Un système spécifique de style (CSS ou XSL) permet d'indiquer les couleurs et les polices de caractères à utiliser. Ce format gère quelques formes géométriques de base (rectangles, ellipses, etc.), mais aussi des chemins (paths), qui utilisent les courbes de Bézier et permettent ainsi d'obtenir presque n'importe quelle forme. Le remplissage peut se faire à l'aide de dégradés (gradients) de couleurs de motifs (pattern) qui sont des objets SVG quelconques, ou de filtres (appelés shaders en imagerie 3D). On peut également appliquer des motifs le long des chemins (markers) et utiliser les fonctions de remplissage. Le canal alpha, pour la transparence, est géré à tous les niveaux.
+Comme dans tout document XML, les objets sont organisés sous forme d'arbre. Le format permet l'intégration d'animations, ou la manipulation des objets graphiques par programmation, notamment grâce à des scripts qui peuvent être intégrés dans le SVG.
+SVG peut être inclus dans d'autres documents XML, comme des documents XHTML ou des documents XML devant être traités par XSL-FO. Respectant la norme XML, une image SVG peut également être manipulée par l'intermédiaire du modèle Document Object Model (DOM).
+SVG peut être visualisé nativement avec certains navigateurs web, ou avec un plug-in (voir : les navigateurs SVG).
+Certains environnements graphiques l'utilisent pour la gestion et l'affichage d'icônes, et d'interface, comme X.org, GNOME, KDE ou certains téléphones portables.
+Des logiciels graphiques permettent de modifier facilement chaque forme, par exemple en déplaçant des points, ou en changeant la couleur des traits... Il en est de même pour le texte qui peut être modifié sans toucher aux formes, ce qui facilite grandement la modification de schémas.
+
+Exemples
+Le code suivant permet d'afficher un rectangle, un segment, un cercle et un texte :
+Il est possible d'utiliser le format SVG pour des images plus complexes (illustration de la Tectonique des plaques).
+
+Mises en oeuvre
+Le support du SVG est possible à différents niveaux : plugin dans le navigateur, au niveau applicatif (navigateur ou logiciel d'édition SVG), au niveau de l'environnement de bureau (KDE, par exemple) ou du "matériel" (téléphone).
+
+Logiciel d'édition
+Manipulation d'image SVG avec Inkscape.
+Certains éditeurs visuels sont fournis avec un éditeur en mode texte. Parfois ce mode texte supporte la complétion et la coloration syntaxique pour aider à écrire du SVG.
+
+Mode textuel XML: Spket IDE (gratuit pour une utilisation non commerciale) supporte JavaScript (coloration) et le SVG. Existe sous forme de plugin ou non pour Eclipse.; XMLSpy (gratuit ou commercial) sous Windows; oXygen (commercial) supporte XSLT et le rendu SVG.
+
+Mode graphique: Inkscape (logiciel libre sous Licence GNU) et ses deux ancêtres ; Sodipodi et Gill (logiciels libres), supportent complètement SVG (les animations n'étant cependant pas encore supportées); Adobe Illustrator; Karbon14 (logiciel libre); CorelDraw import création - export édition; Skencil (anciennement nommé Sketch), est un éditeur vectoriel permettant l'import-export SVG.; GIMP Logiciel libre de dessin et animation orienté bitmap, gérant l'import et l'export des paths au format SVG, et la transformation d'images au format SVG, vers un bitmap grâce à la bibliothèque librsvg; ImageMagick permet la manipulation et la conversion de fichiers SVG par scripts, en ligne de commande et dans de nombreux langages.; FontForge : logiciel libre d'édition de fontes, permet d'importer-exporter les fontes SVG ainsi que les chemins SVG pour créer des fontes dans différents formats.; OpenOffice.org Draw, logiciel libre de dessin vectoriel, gère le format SVG dans sa version 2.3 (exportation uniquement).; Gournal et Notelab, deux logiciels libres de prises de notes (au stylet, doigts sur tablettes, ainsi qu'a à la souris et au clavier) qui utilisent le format SVG comme format de sauvegarde.; Scribus importe SVG; svg-edit éditeur libre utilisé notamment par BlueGriffon ou en ligne par Framavectoriel; Denis-Draw; Skitch permet d'enregistrer sous format SVG; Blender importe le SVG; DRAW SVG, éditeur en ligne libre avec une interface aussi en SVG et de nombreuses fonctionnalités.; Labography : permet l'ouverture et l'édition du format SVG.
+
+Éditeurs incluant des graphiques SVG: Scribus : logiciel libre de mise en page qui permet d'insérer et de manipuler des illustrations au format SVG.; Dia : logiciel libre d'édition de diagrammes qui utilise des objets au format SVG et permet l'export des diagrammes au format SVG.; Fritzing : logiciel libre de dessin de circuits imprimés qui utilise SVG pour l'image des composants et permet l'export au format SVG.; MediaWiki : logiciel libre de documentation collaboratif (notamment utilisé par Wikipédia) qui accepte les illustrations au format SVG, comme on peut le voir sur cette page.; FreeMind : logiciel libre qui se décrit comme une application du concept des cartes mentales à l'interface homme-machine. Les cartes ainsi créées peuvent être exportées au format SVG.; CaRMetal exporte au format SVG.; GeoGebra exporte au format SVG.; Scilab exporte au format SVG.; Matlab, et GNU-Octave (via Gnuplot) supportent l'export des figures et des animations au format SVG.; Maple et Mathematica supportent l'export des formules, des feuilles de travail, des figures et des animations au format SVG.; DOT Graph, outil d'affichage de graphes en ligne de commande, supporte l'export au format SVG.
+
+Logiciel de vectorisation
+La création d'un document image vectorielle à partir d'une image raster peut s'effectuer de différentes manières qui correspondent à des usages différents. Elle peut être réalisée de manière simple et automatique quand il ne s'agit que de conserver l'apparence d'une image "au trait". La création d'un document image vectorielle peut nécessiter le recours à un logiciel spécialisé avec, éventuellement, l'intervention d'un opérateur, s'il s'agit de créer un document image vectoriel où les composantes de l'image (les segments composant les tracés par exemple) peuvent avoir des significations différentes. C'est le cas de la vectorisation d'une carte scannée comportant des objets dont il est intéressant de conserver la différenciation : limite de cours d'eau, limites de voirie, limites de forêts, etc. Adobe Illustrator - Live Trace (CS3+), Image Trace (CS6+); Labography : moteur de vectorisation d'une image Bitmap en vectoriel.; Autotrace; Potrace ; Inkscape via Potrace ; CorelTrace (Suite Graphique CorelDraw); Vector Magic.
+
+Logiciel de rastérisation: PixJet, Adobe Illustrator, CorelDRAW, Inkscape etc.
+
+En ligne: FileFormat.info - SVG PNG, JPEG, TIFF.; OnlineConvert - SVG BMP, EPS, GIF, HDR, ICO, JPEG, PNG, SVG, TGA, TIFF, WBMP, WebP.; SVGConv - SVG JPEG, PNG, GIF, BMP, TGA, TIFF, PDF, PS, EPS. Traitement par lots.
+
+Environnements graphiques supportant SVG
+Des environnements graphiques utilisent le format SVG : X.Org, GNOME et KDE, ainsi que de nombreux téléphones cellulaires, tels que les Sony Ericsson. Acorn RISC OS incluent également un support natif d'un format vectoriel nommé Acorn Draw, proche de SVG.
+
+Les navigateurs SVG
+Le rendu SVG est supporté nativement par certains navigateurs Web ou par ajout d'un plugin s'occupant de la gestion du rendu à l'intérieur d'une balise HTML de nom object.
+
+Support natif du SVG: Le moteur de rendu Gecko (Firefox et SeaMonkey, Flock, Liferea) a depuis 2005 un support partiel des spécifications SVG 1.1 Full. Le site de Mozilla informe sur les modules SVG supportés et en cours d'implantation pour Firefox.; Le moteur KHTML-WebKit (Konqueror, Safari, ABrowse, Google Chrome, Opera) supporte depuis 2006 partiellement le SVG 1.1 Full. La version Safari concernée sur Mac est la version 3.0, la version iPhone supporte aussi le SVG.; Internet Explorer 9 supporte nativement le SVG 1.1 depuis sa sortie et le rendu SVG est accéléré par le GPU.; Le moteur de recherche WINDEX - logiciel d'indexation plein-texte supporte le format SVG.
+
+Support SVG par plugin
+Les plugin pour SVG ne sont plus maintenus actuellement, du moins pour le navigateur Internet Explorer. Seul reste maintenu le plugin KSVG. Adobe proposait un plugin gratuit appliquant la norme 1.0-1.1-. Le support pour ce plugin s'est terminé le 2 janvier 2009, suite à l'acquisition par Adobe, en 2005, de Macromédia et de sa technologie concurrente Flash. Ce plugin fonctionnait alors pour plusieurs plates-formes (Internet Explorer de Windows, Safari sur Mac OS).; Renesis Player (de Examotion GmbH) propose un support pour Windows (Internet Explorer) intégrant une partie de JavaScript et le full SVG 1.2. Le support partiel pose des problèmes de rendu et d'interactivité (évènements claviers).; Corel a mis fin au développement de son SVG Viewer plugin pour Internet Explorer.; Le consortium SVG Map a mis à disposition le 6 septembre 2007 un plugin encore en développement pour Internet Explorer (nommé SVG Map Profile 1.0 puis Tiling and Layering Module for SVG Tiny 1.2).; KSVG est un plugin développé par KDE pour le navigateur Konqueror (Linux). La version 2 du moteur de rendu KSVG appelé KSVG2 doit être incorporée au niveau de KDE et non plus du navigateur.; Google met au point une bibliothèque qui a pour but d'obtenir le rendu d'un contenu en SVG via le plugin Flash dans Internet Explorer (à partir d'IE 6 jusqu'aux versions récentes). Ce projet en version de développement, mais tout à fait fonctionnel, porte pour nom SVG Web. Il s'agit d'un projet placé sous la licence libre Apache License 2.0.; Chrome Frame est un plugin développé par Google pour Internet Explorer qui remplace son moteur HTML par celui de Chrome, permettant ainsi l'affichage du SVG.
+
+Visualisateurs de vignettes SVG: ShareCAD.org visionneuse gratuite en ligne.; ABViewer permet la visualisation, l'édition et la conversion des fichiers SVG.; Nautilus de l'environnement de bureau libre GNOME permet la visualisation de vignettes des fichiers SVG (Linux, Solaris, BSD).; Dolphin et Konqueror de l'environnement de bureau libre KDE permettent la visualisation de vignettes des fichiers SVG (Linux, Solaris, BSD).; Le gratuiciel RENESIS Player fournit un visualisateur ainsi qu'un visualisateur de vignettes pour l'explorateur de fichiers Windows.
+
+Support mobile
+La mise en oeuvre du rendu SVG pour les périphériques mobiles (PDA, téléphones portables) est faite de façon native (Ikivo, Bitflash Adobe), ou par logiciel de navigation (navigateurs Java Sun, Opera Mini et iPhone Safari).
+La norme supportée par ces périphériques dépend du fabricant de téléphone et de la version installée. La plupart des versions supportent la norme SVG Tiny 1.1 et parfois 1.1+ avec le support de module annexe (gradient et opacité).
+Nokia supporte le rendu SVG en interne pour ses plates-formes des Nokia S60 ou en s'appuyant sur Java et les normes JSR 226, Java ME pour la plate-forme des S60 (3e édition Pack 1). D'autres séries comme le 6280 supportent aussi le SVG.
+La plupart des téléphones Sony Ericsson phones commencent à supporter le SVG Tiny 1.1 comme le K700 et le 1.1+ comme le K750.
+Les périphériques supportant la plate-forme java ME et la norme JSR 226 supportent aussi un rendu SVG 1.1+
+SVG est aussi supporté par des modèles fabriqués par Motorola, Samsung, LG ou Siemens.
+
+Critiques
+La norme SVG ne permet pas de créer des points d'articulations, tels des noeuds dans un graphe. La notion de pointeur n'existe pas en SVG, ce qui rend la description de scènes dynamiques complexe.
+SVG n'a pas hérité de toutes les propriétés de son parent direct VML, tel le dégradé "GradientTitle", l'ombre de type "Perspective", l'"Extrusion" 3D, l'auto stroke-fill, l'auto fill-darken, l'auto fit text-ajust, etc. Autant de lacunes. Des alternatives factices rendent les fichiers SVG beaucoup plus lourds et plus lents à l'affichage.
+Enfin, SVG n'est en majorité supporté par les navigateurs que dans sa version 1.1, ce qui ne permet pas d'employer de contrôle de flot (flowRoot, flowRegion) et ne permet donc pas par exemple de faire du texte qui s'adapte à son conteneur et qui effectue des retours à la ligne automatiquement.

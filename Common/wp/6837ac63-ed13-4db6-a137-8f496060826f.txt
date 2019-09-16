@@ -1,0 +1,72 @@
+En mathématiques, et plus particulièrement en algèbre linéaire, la réduction d'endomorphisme a pour objectif d'exprimer des matrices et des endomorphismes sous une forme plus simple, par exemple pour faciliter les calculs. Cela consiste essentiellement à trouver une décomposition de l'espace vectoriel en une somme directe de sous-espaces stables sur lesquels l'endomorphisme induit est plus simple. Moins géométriquement, cela correspond à trouver une base de l'espace dans laquelle l'endomorphisme s'exprime simplement.
+
+Premier aperçu
+Les deux premières sous-sections ci-dessous effleurent des notions essentielles approfondies plus loin. Les deux suivantes évoquent des cas particuliers.
+
+Endomorphisme et vecteur propre
+L'espace vectoriel sur lequel s'applique l'endomorphisme possède des propriétés différentes selon les cas. Lorsque l'espace est de dimension finie, la structure du corps détermine l'essentiel des propriétés de réduction. Cette approche, qui fait intervenir l'anneau des polynômes associé au corps, est analysée dans l'article polynôme d'endomorphisme. Le cas le plus simple est celui où le corps est algébriquement clos, c'est-à-dire que tout polynôme non constant admet au moins une racine. C'est le cas des nombres complexes. Alors la réduction est particulièrement efficace. La notion de valeur propre devient le bon outil dans ce contexte. Lorsqu'il existe une base de vecteurs propres, on parle de diagonalisation.
+
+Deux obstacles à la diagonalisation
+Il y a deux obstacles qui empêchent que tout endomorphisme en dimension finie soit diagonalisable.
+Le premier apparaît si le corps n'est pas algébriquement clos (par exemple si c'est le corps des réels). Dans ce cas, les facteurs premiers du polynôme caractéristique (ou du polynôme minimal) de l'endomorphisme u peuvent être de degré supérieur ou égal à 2. Ce cas est traité dans le "Cas non trigonalisable" ci-dessous, la méthode la plus simple pour éliminer ce premier obstacle étant de scinder les polynômes, par extension des scalaires.
+Lorsque son polynôme caractéristique (ou son polynôme minimal) est scindé, u se décompose en sous-espaces caractéristiques où l'endomorphisme est la somme d'une homothétie et d'un endomorphisme nilpotent. Les endomorphismes nilpotents non nuls constituent le second obstacle, plus intrinsèque. Leur décomposition en sous-espaces cycliques fournit cependant une réduction de Jordan, qui constitue une trigonalisation de u sous la forme la plus simple possible.
+
+Endomorphisme normal
+Tout endomorphisme normal d'un espace hermitien est diagonalisable dans une base orthonormée, ou encore : toute matrice normale est diagonalisable (sur ℂ) avec matrice de passage unitaire : c'est un corollaire du théorème de décomposition de Schur (dans un espace euclidien, ou pour la diagonalisation sur ℝ d'une matrice normale réelle, on a le même résultat sous réserve que toutes les valeurs propres soient réelles).
+Dans ce contexte, l'exception nilpotente est donc absente. La réduction est plus simple et les techniques algorithmiques associées plus rapides.
+Toute matrice hermitienne - en particulier, toute matrice symétrique réelle (qui représente une forme bilinéaire symétrique) - étant normale, elle est donc diagonalisable en base orthonormée.
+
+Analyse fonctionnelle et opérateur linéaire
+Plus généralement, sur un espace de Hilbert complexe, tout opérateur compact normal possède une base hilbertienne propre.
+Les opérateurs différentiels, comme le laplacien ou le d'alembertien, sont la clé d'importants problèmes en physique, qui peuvent se représenter comme une équation linéaire, mais dans un espace de dimension infinie. Dans ce contexte, l'approche générale de Jordan est vouée à l'échec puisque les polynômes ne s'appliquent pas. L'approche novatrice de Hilbert, qui ne limite plus l'analyse à un point particulier (la fonction solution de l'équation), ouvre une nouvelle branche des mathématiques devenue essentielle au siècle dernier : l'analyse fonctionnelle. La physique moderne, aussi bien sous sa forme quantique que sous sa forme relativiste, utilise largement cette vision des choses.
+
+Cas général de la dimension finie
+Dans toute cette section, E désigne un espace vectoriel sur un corps K, et sa dimension, supposée finie, est notée n.
+
+Réduction et sous-espaces propres
+Il existe un premier candidat naturel pour une réduction, elle correspond à une décomposition en sous-espaces propres.
+Un vecteur propre est un vecteur non nul dont l'image par u est colinéaire au vecteur d'origine. Le rapport de colinéarité est appelé valeur propre. L'ensemble constitué des vecteurs propres de valeur propre , et du vecteur nul, est appelé le sous-espace propre de u associé à la valeur propre.
+La décomposition en sous-espaces propres possède de bonnes propriétés : Les sous-espaces propres sont en somme directe.; La restriction de l'endomorphisme au sous-espace propre associé à la valeur propre est l'homothétie de rapport.
+Les propriétés recherchées pour une réduction optimale sont "presque" rassemblées.
+
+Diagonalisation
+Endomorphisme diagonalisable en dimension 3 sur les nombres réels : un cube est transformé en parallélépipède.
+Il suffirait en effet d'une propriété supplémentaire : que la somme directe des sous-espaces propres soit l'espace vectoriel entier. On dit alors que u est diagonalisable. Les cinq propositions suivantes sont équivalentes : u est diagonalisable.; La somme des sous-espaces propres est l'espace entier.; Il existe une base de vecteurs propres.; La somme des dimensions des sous-espaces propres est égale à la dimension de l'espace entier.; La matrice de u dans n'importe quelle base est diagonalisable.
+
+Diagonalisation et polynôme caractéristique
+Il existe d'autres propriétés importantes associées à cette définition. Elles proviennent essentiellement d'une approche polynomiale sur l'endomorphisme. Le polynôme caractéristique de u est, en dimension finie, un outil puissant d'analyse des endomorphismes. Il est défini comme le déterminant de XId - u. Comme le déterminant s'annule si et seulement si le noyau de l'application linéaire associée n'est pas réduit au vecteur nul, le polynôme possède comme racines les valeurs propres de l'endomorphisme. Une première propriété simple relie diagonalisabilité et polynôme caractéristique : Si le polynôme caractéristique de u possède n racines distinctes alors u est diagonalisable.
+C'est une condition suffisante (d'après le Réduction et sous-espaces propres, ou comme corollaire de la condition nécessaire et suffisante ci-dessous), mais non nécessaire (en dimension 1, une homothétie a une unique valeur propre, alors qu'elle est clairement diagonalisable).
+Pour formuler une condition nécessaire et suffisante à partir du polynôme caractéristique, deux définitions supplémentaires sont nécessaires : la multiplicité algébrique m d'une valeur propre est son ordre de multiplicité en tant que racine du polynôme caractéristique ;; la multiplicité géométrique d de est la dimension du sous-espace propre associé.
+On a toujours
+(la seconde inégalité est immédiate et la première s'obtient en complétant une base du sous-espace propre et en calculant le polynôme caractéristique par blocs). Or d'après le Diagonalisation ci-dessus, u est diagonalisable si et seulement si la somme des d est égale à n. On en déduit la condition nécessaire et suffisante : u est diagonalisable si et seulement si la multiplicité géométrique de chaque valeur propre est égale à sa multiplicité algébrique et si le polynôme caractéristique P(X) est scindé, c'est-à-dire de la forme.
+
+Endomorphisme diagonalisable et polynôme minimal
+L'approche par le polynôme caractéristique offre des premiers résultats mais le calcul de ce polynôme, ainsi que de la dimension des sous-espaces propres, est souvent lourd.
+Le polynôme minimal a mêmes facteurs premiers que le polynôme caractéristique. Sa spécificité s'exprime dans la condition nécessaire et suffisante suivante : "u est diagonalisable si et seulement si son polynôme minimal est scindé sur K et à racines simples."
+Trigonalisation optimale
+À défaut d'être diagonalisable, l'endomorphisme (ou la matrice) est trigonalisable sur K si et seulement si son polynôme caractéristique est scindé sur K (ou, ce qui est équivalent, si son polynôme minimal l'est). Dans ce cas, on peut même les "réduire" de façon plus fine.
+Pour que le polynôme minimal soit scindé, il suffit que le corps soit algébriquement clos, comme le corps des complexes. Si le polynôme n'est pas scindé, comme certains polynômes sur le corps des réels, on applique le "Cas non trigonalisable" ci-dessous.
+
+Décomposition de Dunford
+Lorsque le polynôme est scindé, la décomposition de Dunford s'applique : "Si le polynôme minimal de u est scindé alors u est la somme d'un endomorphisme diagonalisable et d'un endomorphisme nilpotent qui commutent."
+Dans ce contexte, le polynôme minimal s'écrit sous la forme
+Les noyaux E - Ker(u - Id) sont appelés les sous-espaces de E caractéristiques de u.
+Les quatre propriétés suivantes résument l'essentiel des propriétés associées à la décomposition de Dunford : Les tels que n 0 sont les valeurs propres de u.; L'espace E est somme directe des sous-espaces caractéristiques.; Les sous-espaces caractéristiques sont stables par u. La restriction de u à E est la somme d'une homothétie de rapport et d'un endomorphisme nilpotent d'ordre n.; Les projecteurs sur les sous-espaces caractéristiques s'expriment sous forme de polynômes d'endomorphisme de u.
+
+Réduction et endomorphisme nilpotent
+Pour continuer à réduire u, il faut ensuite, sur chaque sous-espace caractéristique E réduire l'endomorphisme nilpotent associé.
+Pour un endomorphisme nilpotent, l'unique valeur propre est 0, donc l'unique sous-espace propre est le noyau. En conséquence, le seul endomorphisme nilpotent diagonalisable est l'endomorphisme nul.
+Les endomorphismes nilpotents disposent néanmoins d'une réduction : on dit qu'un sous-espace vectoriel de E est cyclique pour un endomorphisme u s'il est engendré par une famille de la forme (x, u(x), u(x),..), et l'on a : "Si u est nilpotent alors E est somme directe de sous-espaces cycliques pour u."
+Réduction de Jordan
+Ces sous-espaces (stables par l'homothétie) dont le sous-espace caractéristique E est la somme directe sont appelés les sous-espaces de Jordan. Un sous-espace de Jordan pour u est un sous-espace vectoriel de E possédant une base (e1, e2,.. ep) telle que : K i (2 , p) u (e i) - e i + e i 1 e t u (e 1) - e 1. (-displaystyle -exists -lambda -in K-;-forall i-in (2,p)-;u(e-(i))--lambda e-(i)+e-(i-1)-quad (-rm (et))-quad u(e-(1))--lambda e-(1).) Cette définition permet de décrire une réduction de Jordan pour u :; Si le polynôme minimal de u est scindé alors E est somme directe de sous-espaces de Jordan, et il n'existe aucune décomposition de E en somme directe de sous-espaces, stables par u et non réduits au vecteur nul, comportant plus de composantes qu'une décomposition de Jordan.
+
+Cas non trigonalisable
+La décomposition de Frobenius est la plus adaptée lorsque le polynôme n'est pas scindé et qu'on ne veut pas modifier le corps.
+Une autre approche possible consiste à étendre les scalaires : on plonge le corps K dans sa clôture algébrique K puis le K-espace E dans le produit tensoriel E - K K E. Un endomorphisme de E se prolonge alors de façon unique à E. Le point de vue matriciel est alors avantageux puisqu'on conserve la même matrice pour l'endomorphisme initial ou son prolongement : elle est simplement considérée comme matrice de Mn(K). Dans le cas où K est le corps des réels, cette opération s'appelle la complexification.
+
+Utilisation de la réduction en dimension finie
+La diagonalisation est souvent la meilleure approche pour les problèmes concrets. Les matrices diagonalisables étant denses dans l'espace des matrices à coefficients complexes, l'imprécision des données initiales fait qu'une matrice correspondant à un problème réel est toujours diagonalisable.
+En statistique, la diagonalisation permet de faire une analyse en composantes principales.
+La réduction des matrices (diagonalisation ou réduction de Jordan) permet un calcul des puissances de cette matrice ainsi que de son exponentielle. Par ailleurs, le calcul de exp(tA) est particulièrement utile pour résoudre les systèmes différentiels linéaires à coefficients constants.
+
+Voir aussi: Portail de l'algèbre.

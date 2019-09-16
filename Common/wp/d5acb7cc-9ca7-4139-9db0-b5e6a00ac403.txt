@@ -1,0 +1,27 @@
+Le design numérique (également appelé design d'interaction ou design interactif) définit les structures et comportements de systèmes interactifs.
+
+Genèse
+La société de l'information et la communication numérique définissent une nouvelle industrie et de nouveaux paradigmes économiques qui ont un impact direct sur le rôle du designer. Dans ce contexte, la question de l'offre et de la conception des produits prend un rôle central.
+Le design de produit industriel évolue et devient design numérique. Il est la continuation, l'application des processus innovants de création de design industriel sur les produits et services issus des technologies de l'information et de la communication.
+
+Application
+Ces produits et services, visibles ou invisibles sont l'hybridation de réseaux, d'information, d'espaces, d'actions et de personnes. Leurs formes sont autant immatérielles (web, logiciel, système opératif, système de communication) que matérielles (téléphone, PDA, ordinateur, télévision, Blog d'entreprise (blogdget), NéoObjets, système domotique, etc.) Ce nouveau design s'inscrit dans les enjeux majeurs de la conception de services : créer de la relation, de la simplicité, du désir, de l'appropriation et des pratiques possibles. Il applique la démarche sensible d'analyse, de proposition et de création du design aux nouvelles questions humaines, culturelles, économiques, politiques et technologiques posées par l'industrie numérique. Le designer est un intégrateur, un point de convergence des forces d'une équipe interdisciplinaire au service du produit ou du service. Le designer numérique est une force de proposition et de création.
+Dans ce contexte, il est porteur des démarches d'innovations non technologiques, par ses capacités à imaginer, à mettre en scène et à représenter des usages et des pratiques possibles issus des technologies en les configurant en produits ou services utilisables et désirables. Le design numérique est la synthèse créative et sensible des composantes d'un projet. Un système équilibrés entre les producteurs, le produit et les utilisateurs qui répond aux nouveaux enjeux culturels, sociaux et industriels.
+
+Spécificités du design numérique
+Le designer numérique intervient dans une équipe interdisciplinaire (marketing, responsable éditorial, ingénieur, graphiste, etc.) de manière globale et contextuelle pour transformer une idée originale ou une technologie en un produit. Pour cela, il conçoit le style, l'ossature et prévoit l'utilisation future du produit : ce que cela fait,; ce que l'on voit,; ce que l'on ressent et; la manière dont on l'utilise.
+Cette création du Look et Feel, est une incarnation de l'acte de design, passe par la résolution des étapes spécifiques suivantes :
+
+Situation
+Le design numérique consiste en premier lieu à identifier le contexte et les utilisateurs d'un dispositif numérique. Il est ensuite de définir les architectures et les caractéristiques fonctionnelles du service. Cette complexité est représentée dans des scénarios d'usages illustrés, des cahiers de positionnement, des chartes éditoriales, des chartes de service et des chartes fonctionnelles (illustrations, arborescences, cartes, schémas).
+
+Interaction
+Le designer intervient ensuite sur la définition et la construction des interactions, c'est-à-dire des relations du service ou du programme avec un utilisateur défini. Celles-ci se construisent par une maîtrise des systèmes cognitifs, des technologies et des syntaxes de l'interactivité et des représentations qui y sont associées (interactivité fonctionnelle, immersive, contextuelle, sensorielle, etc.).
+
+Représentation
+Le designer crée ensuite les représentations, les formes faisant exister de façon identifiable l'esthétique du programme, du service ou d'un objet interactif connecté. Cette intervention nécessite la transformation de l'ensemble des éléments fonctionnels et des interactions du projet en objet appropriable par un utilisateur. Cette étape incarne l'existence et la raison du projet.
+Dans un projet numérique l'interface cristallise le potentiel, l'utilisation et la personnalité du produit, elle est à ce titre un enjeu de création et de différenciation qui est indissociable du produit dans son ensemble. L'interface est consubstantielle au produit numérique et l'aboutissement et l'agrégation du processus de design numérique. À ce titre, on peut avancer que le design interactif est aux actions interactives homme-machine-réseau-contenu, ce que le design produit est pour l'industrie manufacturière.
+
+Voir aussi
+
+Articles connexes: Conception d'une automobile; Conception assistée par ordinateur; Fabrication assistée par ordinateur; Simulation informatique; Analyse fonctionnelle (conception); Hackathon.

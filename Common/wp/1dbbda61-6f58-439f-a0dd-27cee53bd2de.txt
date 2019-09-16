@@ -1,0 +1,16 @@
+Un WikiSIG est un système d'information géographique (SIG) collaboratif reposant sur les principes de fonctionnement d'un wiki.
+
+Origine et définition du concept
+Le concept de WikiSIG a été introduit en 2006 par le professeur Stéphane Roche, du département des sciences géomatiques de l'Université Laval. "Un WikiSIG est un SIG construit en ligne (sur l'Internet) par des interventions collectives, lesquelles supposent des interactions entre les participants, puis la fusion et la traçabilité de leurs contributions dans des représentations géospatiales cohérentes et ouvertes à l'enrichissement; ces représentations géospatiales constituent l'expression des connaissances collectives sur un territoire ou sur ou un phénomène spatialisé donné".
+
+Principes du WikiSIG
+Basé sur le travail collaboratif, le WikiSIG permet de dépasser l'usage individuel et autonome des SIG en créant des occasions pour les usagers de travailler ensemble autour d'une même carte ou d'une même base de données d'informations géographiques, dans le but de prendre des décisions collectives sur un même territoire.
+Le système de gestion de contenu de type "wiki" favorise une construction dynamique et collective d'informations géographiques par la confrontation des savoirs et des points de vue de chacun des intervenants.
+Cette approche dite de géocollaboration permet de partager la compréhension d'un même territoire, dans une dynamique d'amélioration continue, avec des échanges dépassant le simple partage ou échange de données géographiques.
+
+Spécificités du WikiSIG
+Contrairement à des applications de cartographie collaborative comme openstreetmap ou wikimapia, le WikiSIG assure la traçabilité documentée des étapes de conception de la carte, tant au niveau de la composante géométrique (forme et localisation), graphique, qu'attributaire. Toutes les actions des utilisateurs sont archivées, versionnées et consultables dynamiquement grâce à l'"historique" des contenus. L'archivage des actions permet de raconter chronologiquement, ou par contributeur, l'histoire de la carte (ou du projet), y compris "en train de se faire", offrant ainsi la possibilité de suivre son évolution dans le temps. La carte passe ainsi du statut de produit fini à celui de processus, elle est en mesure de devenir un outil de lecture des dynamiques de construction des savoirs spatialisés et de traçabilité des représentations spatiales.
+
+Voir aussi
+
+Articles connexes: géocollaboration; système d'information géographique; Processus collaboratif pair à pair; Plate-forme collaborative; Portail collaboratif; Web 2.0; Coworking; Crowdsourcing; Production communautaire; openstreetmap; wikimapia.

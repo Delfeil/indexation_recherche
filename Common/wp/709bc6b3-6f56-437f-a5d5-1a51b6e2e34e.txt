@@ -1,0 +1,13 @@
+En informatique, une barre d'outils en anglais : toolbar est un élément de base des interfaces graphiques (un widget) qui regroupe en une barre plusieurs boutons. Il s'agit donc d'une rangée d'icônes regroupées en un bloc, qui dans la plupart des logiciels, peuvent être retirées ou ajoutées de l'interface graphique.
+La première barre d'outils est apparue sur le Xerox Alto en 1973.
+
+Exemples de barres d'outils
+Les barres d'outils sont présentes, par exemple, dans les logiciels de traitement de texte (comme Microsoft Word et OpenOffice.org Writer) et les navigateurs web (comme Mozilla Firefox et Internet Explorer). Il existe, pour ces deux derniers logiciels, bon nombre de programmes permettant d'ajouter des barres d'outils : Google Toolbar; Windows Live Toolbar; Yahoo! Toolbar; Wikipedia Toolbar (en) qui n'est ni plus développée ni maintenue ni compatible avec les versions récentes de Mozilla Firefox; etc.
+
+Danger des barres d'outils
+Bien que certaines barres d'outils provenant d'origines tierces sont sécuritaires et ajoutent des fonctionnalités intéressantes aux programmes où elles sont installées, d'autres barres d'outils tierces sont malveillantes. Une fois installées, ces barres malveillantes introduisent des chevaux de Troie qui agissent comme des portes dérobées. Ces portes dérobées sont souvent utilisées par des logiciels malveillants pour bombarder l'utilisateur d'annonces publicitaires intempestives.
+Les barres d'outils malveillantes sont souvent difficiles à désinstaller et ne peuvent être désinstallées que par des informaticiens expérimentés. Voir article en anglais consacré à la concurrence féroce entre toolbars.
+
+Voir aussi
+
+Articles connexes: Logiciel espion; Aide sur la barre d'outils d'édition de Wikipédia. Portail de l'informatique.

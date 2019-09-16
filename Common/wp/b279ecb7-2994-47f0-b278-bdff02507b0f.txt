@@ -1,0 +1,299 @@
+C++ est un langage de programmation compilé, permettant la programmation sous de multiples paradigmes comme la programmation procédurale, la programmation orientée objet et la programmation générique. Le langage C++ n'appartient à personne et par conséquent n'importe qui peut l'utiliser sans besoin d'une autorisation ou obligation de payer pour avoir le droit d'utilisation. C++ est l'un des langages de programmation les plus populaires, avec une grande variété de plates-formes matérielles et de systèmes d'exploitation.
+Le langage C++ est normalisé par l'ISO. Sa première normalisation date de 1998 (ISO-CEI 14882:1998). Le standard a ensuite été amendé par l'erratum technique de 2003 ISO-CEI 14882:2003. Le standard actuel a été ratifié et publié par l'ISO en septembre 2011 sous le nom de ISO-IEC 14882:2011 (aussi appelé C++11). Une mise à jour mineure a été publiée en 2014 sous le nom de ISO-CEI 14882:2014. Le prochain standard devrait être publié en 2017.
+En langage C, ++ est l'opérateur d'incrémentation, c'est-à-dire l'augmentation de la valeur d'une variable de 1. C'est pourquoi C++ porte ce nom : cela signifie que C++ est un niveau au-dessus de C. Il existe de nombreuses bibliothèques C++ en plus de la bibliothèque standard de C++ (C++ Standard Library) qui est incluse dans la norme. Par ailleurs, C++ permet l'utilisation de l'ensemble des bibliothèques C existantes.
+
+Histoire
+Bjarne Stroustrup, l'inventeur du C++.
+Bjarne Stroustrup a développé C++ au cours des années 1980, alors qu'il travaillait dans le laboratoire de recherche Bell d'ATT. L'idée de créer un nouveau langage vient de l'expérience en programmation de Stroustrup pour sa thèse de doctorat. Il s'agissait en l'occurrence d'améliorer le langage C. Il l'avait d'ailleurs nommé C with classes ("C avec des classes"). Stroustrup trouvait que Simula avait des fonctionnalités très utiles pour le développement de gros programmes mais qu'il était trop lent pour être utilisé en pratique (cela était dû à un problème d'implémentation du compilateur Simula), tandis que BCPL était rapide mais de trop bas niveau et non adapté au développement de gros logiciels. Quand Stroustrup commença à travailler aux laboratoires Bell, on lui demanda d'analyser le noyau UNIX en vue de faire du calcul distribué. Se rappelant sa thèse, Stroustrup commença à améliorer le langage C avec des fonctionnalités similaires à celle de Simula. C fut choisi parce qu'il est rapide, portable et d'usage général. En outre, il était une bonne base pour le principe original et fondateur de C++ : "vous ne payez pas pour ce que vous n'utilisez pas". Dès le départ, le langage ajoutait à C la notion de classe (avec encapsulation des données), de classe dérivée, de vérification des types renforcés (typage fort), d'"inlining", et d'argument par défaut.
+Comme Stroustrup développait C avec classes, il écrivit CFront, un compilateur qui générait du code source C à partir de code source C avec classes. La première commercialisation se fit en octobre 1985. En 1983, le nom du langage passa de C avec classes à celui de "C++". Parmi les nouvelles fonctionnalités qui furent ajoutées au langage, il y avait les fonctions virtuelles, la surcharge des opérateurs et des fonctions, les références, les constantes, le contrôle du typage amélioré et les commentaires en fin de ligne. En 1985 fut publiée la première édition de The C++ Programming Language, apportant ainsi une référence importante au langage qui n'avait pas encore de standard officiel. En 1989, c'est la sortie de la version 2.0 de C++. Parmi les nouvelles fonctionnalités, il y avait l'héritage multiple, les classes abstraites, les fonctions membres statiques, les fonctions membres constantes, et les membres protégés. En 1990, The Annotated C++ Reference Manual ("ARM") fut publié apportant les bases du futur standard. Les ajouts de fonctionnalités tardifs qu'il comportait couvraient les modèles, les exceptions, les espaces de noms, les nouvelles conversions et le type booléen.
+Comme le langage C++ évoluait, la bibliothèque standard évoluait de concert. La première addition à la bibliothèque standard de C++ concernait les flux d'entrées-sorties qui apportaient les fonctionnalités nécessaires au remplacement des fonctions C traditionnelles telles que printf et scanf. Ensuite, parmi les additions les plus importantes, il y avait la Standard Template Library. Après des années de travail, un comité réunissant l'ANSI et l'ISO standardisa C++ en 1998 (ISO-CEI 14882:1998), l'année où le comité de standardisation se réunissait à Sophia Antipolis dans le sud de la France. Pendant quelques années après la sortie officielle du standard, le comité traita le rapport de problèmes et publia une version corrigée du standard C++ en 2003.
+Personne ne possède le langage C++. Il est libre de droits ; cependant, le document de standardisation n'est quant à lui pas disponible gratuitement.
+
+Fonctionnalités introduites
+On peut considérer que C++ "est du C" avec un ajout de fonctionnalités. Cependant, certains programmes syntaxiquement corrects en C ne le sont pas en C++, à commencer bien sûr par ceux qui font usage d'identificateurs correspondant à des mots-clefs en C++.
+Les fonctionnalités ajoutées sont : le typage des "prototypes" de fonctions (repris dans ANSI C85) ;; les déclarations reconnues comme instructions (repris dans C99) ;; les opérateurs new et delete pour la gestion d'allocation mémoire ;; le type de données bool (booléen) ;; les références et ;; les variables et les fonctions const (repris par C à la fin des années 1980) ;; les fonctions inline (repris dans C99) ;; les paramètres par défaut dans les fonctions ;; les référentiels lexicaux (espaces de noms) et l'opérateur de résolution de portée :: les classes, ainsi que tout ce qui y est lié : l'héritage, les fonctions membres, les fonctions membres virtuelles, les constructeurs et le destructeur ;; la surcharge des opérateurs ;; les templates ;; la gestion d'exceptions ;; l'identification de type pendant l'exécution (RTTI : run-time type information) ;; le commentaire sur une ligne introduit par -- (existant dans BCPL, repris dans C99) ;; l'inférence de type auto (C++11) ;; les références de rvalue (C++11) ;; les fonctions lambda (C++11).
+La compilation d'un programme en C++ effectue également un contrôle plus minutieux du typage.
+
+Bibliothèque standard
+La bibliothèque standard de C++ est en grande partie un sur-ensemble des fonctions disponibles dans la bibliothèque standard de C. Elle englobe la Standard Template Library (STL) qui met à la disposition du programmeur des outils puissants comme les collections (conteneurs) et les itérateurs.
+À l'origine, la STL était une bibliothèque développée par Alexander Stepanov qui travaillait pour Hewlett-Packard. Dans la norme, celle-ci n'est pas appelée STL, car elle est considérée comme faisant partie de la bibliothèque standard du C++. Toutefois, beaucoup de personnes l'appellent encore de cette manière pour distinguer d'une part, les fonctions d'entrées-sorties comprises dans cette bibliothèque et, d'autre part, celles fournies par la bibliothèque C.
+Comme en C, l'utilisation d'une bibliothèque se fait par l'intermédiaire de la directive include (suivie du nom du fichier d'en-tête), et certaines d'entre elles (cmath, thread, etc.) nécessitent d'être liées explicitement.
+
+Programmation orientée objet
+Exemple de hiérarchie de classes type stream.
+Le langage C++ utilise les concepts de la programmation orientée objet et permet entre autres : la classification (classes) ; l'encapsulation ;; des relations entre les classes : la composition de classes (composition dans un diagramme de classes),; l'association de classes (en) (association dans un diagramme de classes),; l'agrégation de classes (agrégation dans un diagramme de classes),; la dépendance (dépendance dans un diagramme de classes),; l'héritage simple et multiple (héritage dans un diagramme de classes) ;.; la composition de classes (composition dans un diagramme de classes),; l'association de classes (en) (association dans un diagramme de classes),; l'agrégation de classes (agrégation dans un diagramme de classes),; la dépendance (dépendance dans un diagramme de classes),; l'héritage simple et multiple (héritage dans un diagramme de classes) ;.; l'encapsulation ;; des relations entre les classes : la composition de classes (composition dans un diagramme de classes),; l'association de classes (en) (association dans un diagramme de classes),; l'agrégation de classes (agrégation dans un diagramme de classes),; la dépendance (dépendance dans un diagramme de classes),; l'héritage simple et multiple (héritage dans un diagramme de classes) ;.; la composition de classes (composition dans un diagramme de classes),; l'association de classes (en) (association dans un diagramme de classes),; l'agrégation de classes (agrégation dans un diagramme de classes),; la dépendance (dépendance dans un diagramme de classes),; l'héritage simple et multiple (héritage dans un diagramme de classes) ;; le polymorphisme ;; l'abstraction ;; la généricité ;; la méta-programmation.
+
+Encapsulation
+L'encapsulation permet de faire abstraction du fonctionnement interne (c'est-à-dire, la mise en oeuvre) d'une classe et ainsi de ne se préoccuper que des services rendus par celle-ci. C++ met en oeuvre l'encapsulation en permettant de déclarer les membres d'une classe avec le mot réservé public, private ou protected. Ainsi, lorsqu'un membre est déclaré : public, il sera accessible depuis n'importe quelle fonction ;; private, il sera uniquement accessible d'une part, depuis les fonctions qui sont membres de la classe et, d'autre part, depuis les fonctions autorisées explicitement par la classe (par l'intermédiaire du mot réservé friend) ;; protected, il aura les mêmes restrictions que s'il était déclaré private, mais il sera en revanche accessible par les classes filles.
+C++ n'impose pas l'encapsulation des membres dans leurs classes. On pourrait donc déclarer tous les membres publics, mais en perdant une partie des bénéfices apportés par la programmation orientée objet. Il est de bon usage de déclarer toutes les données privées, ou au moins protégées, et de rendre publiques les méthodes agissant sur ces données. Ceci permet de cacher les détails de la mise en oeuvre de la classe.
+
+"Hello, world"
+Voici l'exemple de Hello world donné dans The C++ Programming Language, Third Edition de Bjarne Stroustrup :
+includeiostream
+
+int main
+(
+ std::cout "Hello, new world!-n";
+)
+Dans l'exemple ci-dessus, le code source std::cout "Hello, new world!-n" envoie la chaîne de caractères "Hello, new world!-n" à l'objet global cout, définie dans l'espace de noms standard std, grâce à l'opérateur de l'objet cout.
+
+Espace de noms
+En C++, le mot clef namespace permet de définir et de nommer des espaces de noms (namespaces), notion déjà présente en langage C ; en effet, le corps d'une routine, d'une structure de contrôle de flux d'exécution, d'une structure de données ou d'une section de code (délimitée par les accolades (et)) constitue un espace de noms. En C++, le corps d'une classe, à l'instar du corps d'une structure de données, constitue aussi un espace de noms.
+Dans différents espaces de noms, on peut ainsi définir des entités (routines, variables, etc.) ayant le même identificateur. L'ambiguïté est résolue en utilisant le nom de l'espace de nom devant l'opérateur de portée (::) pour indiquer l'espace de noms dans lequel on veut accéder. Notez que l'espace de noms global du programme n'a pas de nom. Pour accéder à une entité globale, cachée par une entité locale par exemple, on utilise l'opérateur de portée précédé d'aucun nom.
+
+Directive using
+Il est possible de spécifier un espace de noms précis à utiliser afin d'éviter d'avoir à recourir à l'opérateur de résolution de portée. Pour cela, le mot-clé using est utilisé avec cette syntaxe :
+using namespace nom-du-namespace;
+-- ou
+using nom-d-un-symbole;
+Ainsi, pour utiliser la variable cout définie dans le namespace standard sans utiliser l'opérateur de résolution de portée, il est possible d'écrire using namespace std; ou using std::cout;. Cela est valable pour tous les espaces de noms. Cette instruction se place en général avant le début du code source proprement dit :
+includeiostream
+using namespace std;
+
+int main
+(
+ cout "Hello, new world!" endl;
+)
+Il est aussi possible, et conseillé, d'importer un symbole particulier, ou de placer cette instruction dans une fonction afin de limiter la portée :
+includeiostream
+
+int main
+(
+ using std::cout;
+ cout "Hello, new world!" -- std::cout est disponible sans utilisation de std::
+ std::endl; -- mais pas std::endl
+)
+
+void foo
+(
+ std::cout "Hello, new world!" -- std::cout n'est plus disponible sans utilisation de std::
+ std::endl;
+)
+Le mot-clé using peut aussi être utilisé dans les classes. Si une classe B hérite d'une classe A, elle peut grâce à ce mot-clé passer des membres protected de A en public dans B, ou encore démasquer une fonction membre de A qui le serait par une fonction membre de B de même nom :
+include cstdlib -- EXIT-SUCCESS
+
+include iostream -- cout
+
+using namespace std; -- cout
+
+---- ------------------------------------------------------------
+--! Déclaration de la classe de base A.
+class A
+(
+ protected:
+ void f;
+ public:
+ void g;
+);
+
+---- --------------------------------------------
+--! Définition de la méthode A::f
+void A::f
+(
+ cout "Methode A::f-n";
+)
+
+---- --------------------------------------------
+--! Définition de la méthode A::g
+void A::g
+(
+ cout "Methode A::g-n";
+)
+
+---- ------------------------------------------------------------
+--! Déclaration de la classe B hérité de A.
+class B: public A
+(
+ public:
+ using A::f; -- rend public A::f
+);
+
+---- ------------------------------------------------------------
+--! Déclaration de la classe C hérité de A.
+class C: public A
+(
+ public:
+ void g(int Val); -- masque A::g
+);
+
+---- --------------------------------------------
+--! Définition de la méthode C::g(int Val)
+void C::g(int Val)
+(
+ cout "Methode C::g-n";
+)
+
+---- ------------------------------------------------------------
+--! Déclaration de la classe D héritée de A.
+class D: public A
+(
+ public:
+ void g(int Val); -- masque A::g
+ using A::g; -- démasque A::g
+);
+
+---- --------------------------------------------
+--! Définition de la méthode D::g(int Val)
+void D::g(int Val)
+(
+ cout "Methode D::g(int)-n";
+)
+
+---- ------------------------------------------------------------
+int main
+(
+ --! Définition des objets.
+ A a; B b; C c; D d;
+
+if 0
+ a.f; -- impossible car f est protégée dans A
+endif
+ a.g;
+
+ b.f; -- possible car A::f est publique dans B.
+
+if 0
+ c.g; -- impossible car A::g est masquée par C::g(int) dans C
+endif
+ c.g(6); -- possible car C::g(int Val) est masquée par C::g(int) dans C
+
+ d.g; -- possible car A::g est démasquée dans D
+ d.g(5); -- possible car D::g est démasquée dans D
+
+ return EXIT-SUCCESS;
+)
+Le programme ci-dessus affiche :
+Methode A::g
+Methode A::f
+Methode C::g
+Methode A::g
+Methode D::g(int)
+Il est aussi possible de définir un nouveau nom pour un namespace :
+namespace po - boost::program-options;
+-- on peut alors écrire po::option au lieu de boost::program-options::option
+Déclaration et définition de classe
+Il est d'usage de séparer prototype (déclaration) et implémentation (définition) de classe dans deux fichiers : la déclaration se fait dans un fichier d'en-tête (dont l'extension varie selon les préférences des développeurs : sans extension dans le standard, h comme en C, hh ou.hpp ou.hxx pour différencier le C++ du C) alors que la définition se fait dans un fichier source (d'extension également variable : c comme en C, cc ou.cpp ou.cxx pour différencier le C++ du C).
+
+Déclaration de classe
+Exemple de la déclaration d'une classe comportant des attributs privés et des méthodes publiques :
+-- messageinternet.hpp
+includestring
+
+class MessageInternet
+(
+ private:
+ const std::string m-sujet, m-expediteur, m-destinataire; -- attributs
+
+ public:
+ MessageInternet(
+ const std::string sujet,
+ const std::string expediteur,
+ const std::string destinataire); -- constructeur
+ MessageInternet; -- destructeur
+ const std::string get-sujet const; -- méthode
+ const std::string get-expediteur const; -- méthode
+ const std::string get-destinataire const; -- méthode
+);
+Définition de classe
+Le nom d'une méthode déclarée par une classe doit nécessairement être précédé du nom de la classe suivi de l'opérateur de résolution de portée ::.
+Exemple de définition des méthodes d'une classe (celle déclarée précédemment) :
+-- messageinternet.cpp
+include "messageinternet.hpp"
+
+-- constructeur
+MessageInternet::MessageInternet(
+ const std::string sujet,
+ const std::string expediteur,
+ const std::string destinataire):
+ m-sujet(sujet), m-expediteur(expediteur), m-destinataire(destinataire)
+(
+
+)
+
+-- destructeur (pour libérer les ressources acquises ; dans notre cas il n'y a rien à faire)
+MessageInternet::MessageInternet
+(
+
+)
+
+const std::string MessageInternet::get-sujet const
+(
+ return m-sujet;
+)
+
+const std::string MessageInternet::get-expediteur const
+(
+ return m-expediteur;
+)
+
+const std::string MessageInternet::get-destinataire const
+(
+ return m-destinataire;
+)
+Templates
+Les templates permettent d'écrire des fonctions et des classes en paramétrant le type de certains de leurs constituants (type des paramètres ou type de retour pour une fonction, type des éléments pour une classe collection par exemple). Les templates permettent d'écrire du code générique, c'est-à-dire qui peut servir pour une famille de fonctions ou de classes qui ne diffèrent que par le type de leurs constituants.
+
+Paramètres des templates
+Les paramètres peuvent être de différentes sortes : types simples, tels que les classes ou les types élémentaires (int, float, etc.) ;; tableaux de taille constante, dont la taille, déduite par le compilateur, peut être utilisée dans l'instanciation du template ;; constantes scalaires, c'est-à-dire de type entier (int, char, bool), mais pas flottant (float, double) car leur représentation binaire ne fait pas partie de la norme du langage ;; templates, dont la définition doit être passée en paramètre, ce qui permet notamment de s'appuyer sur la définition abstraite, par exemple, d'une collection ;; pointeurs ou références, à condition que leur valeur soit définie à l'édition de liens ;; méthode d'une classe, dont la signature et la classe doivent être aussi passées en paramètres ;; attribut d'une classe, dont le type et la classe doivent être aussi passés en paramètres.
+
+Utilité des templates
+En programmation, il faut parfois écrire de nombreuses versions d'une même fonction ou classe suivant les types de données manipulées. Par exemple, un tableau de int ou un tableau de double sont très semblables, et les fonctions de tri ou de recherche dans ces tableaux sont identiques, la seule différence étant le type des données manipulées. En résumé, l'utilisation des templates permet de "paramétrer" le type des données manipulées.
+Les avantages des templates sont : des écritures uniques pour les fonctions et les classes ;; moins d'erreurs dues à la réécriture ;; performances améliorées grâce à la spécialisation en fonction des types de données.
+
+Exemple de templates
+Dans la bibliothèque standard C++, on trouve de nombreux templates. On citera à titre d'exemple, les entrées-sorties, les chaînes de caractères ou les conteneurs. Les classes string, istream, ostream et iostream sont toutes des instanciations de type char.
+Les fonctions de recherche et de tri sont aussi des templates écrits et utilisables avec de nombreux types.
+includestring
+
+-- fonction pouvant être appelée avec tous types copiables et ordonnés par l'opérateur
+templatetypename T
+T max(T a, T b)
+(
+ return a b b: a;
+)
+
+int main
+(
+ int i - max(3, 5);
+ char c - max('e', 'b');
+ std::string s - max(std::string("hello"), std::string("world"));
+ float f - maxfloat(1, 2.2f); -- type paramétré donné explicitement (obligatoire avec ces paramètres de types différents)
+)
+Dans la ligne float f - maxfloat(1, 2.2f);, on doit explicitement donner le type float pour le type paramétré T car le compilateur ne déduit pas le type de T lorsqu'on passe en même temps un int (1) et un float (2.2f).
+
+Spécialisation des templates
+Un template donné peut avoir plusieurs instanciations possibles selon les types donnés en paramètres. Si un seul paramètre est spécialisé, on parle de spécialisation partielle. Ceci permet par exemple : de choisir un type de calcul selon qu'un type est un entier, un flottant, une chaîne de caractères, etc. Spécialisons l'exemple précédent pour le cas des pointeurs de chaines de caractères :.
+template
+const char- max(const char- a, const char- b)
+(
+ return strcmp(a, b) 0 a: b;
+): d'effectuer au moment de la compilation des calculs arithmétiques, si et seulement si tous les arguments sont connus à ce moment. Un exemple classique est le calcul de la fonction factorielle :.
+templatesize-t N
+struct CalcCompileTime
+(
+ static const size-t Fact - N - CalcCompileTimeN - 1::Fact;
+);
+
+template
+struct CalcCompileTime0
+(
+ static const size-t Fact - 1;
+);
+SFINAE
+Le mécanisme décrit par l'abréviation SFINAE (Substitution Failure Is Not an Error) permet de surcharger un template par plusieurs classes (ou fonctions), même si certaines spécialisations, par exemple, ne peuvent pas être utilisées pour tous les paramètres de templates. Le compilateur, lors de la substitution, ignore alors les instanciations inapplicables, au lieu d'émettre une erreur de compilation.
+
+Polymorphisme et méthodes virtuelles
+Le polymorphisme d'inclusion est mis en oeuvre à l'aide du mécanisme des méthodes virtuelles en C++. Une méthode est rendue virtuelle par le placement du mot-clé virtual devant la déclaration de la méthode dans la classe. Lorsqu'une méthode virtuelle est appelée, l'implémentation de la méthode exécutée est choisie en fonction du type réel de l'objet. L'appel n'est donc résolu qu'à l'exécution, le type de l'objet ne pouvant pas a priori être connu à la compilation.
+Le mot-clé virtual indique au compilateur que la méthode déclarée virtuelle est susceptible d'être redéfinie dans une classe dérivée. Il suffit alors de dériver une classe et de définir une nouvelle méthode de même signature (même nom, paramètres compatibles - voir la notion de covariance). Ainsi l'appel de cette méthode sur un objet accédé en tant qu'objet de la classe de base mais appartenant en réalité à la classe dérivée donnera lieu à l'appel de la méthode définie dans la classe dérivée.
+Il est généralement conseillé d'utiliser le mot-clé virtual devant la déclaration du destructeur de la classe de base, afin que la classe dérivée soit également appelée lorsque le programme utilise un pointeur d'instance de la classe de base au lieu d'un pointeur d'instance de la classe dérivée si et seulement si la classe de base peut être utilisée pour manipuler des classes dérivées.
+Ce type de polymorphisme (le polymorphisme d'inclusion) est dit dynamique. Le mécanisme de la surcharge qui est un polymorphisme ad hoc est de type statique. Dans les deux cas il faut appliquer une logique (par exemple : le nombre et le type des paramètres) pour résoudre l'appel. Dans le cas de la surcharge, la logique peut être entièrement calculée à la compilation. Ce calcul permet des optimisations rendant le polymorphisme statique plus rapide que sa version dynamique. La liaison dynamique de méthodes issues du mécanisme des méthodes virtuelles induit souvent une table cachée de résolution des appels, la table virtuelle. Cette table virtuelle augmente le temps nécessaire à l'appel de méthode à l'exécution par l'ajout d'une indirection supplémentaire.
+Le choix entre liaison dynamique et surcharge (polymorphisme dynamique et statique) est typiquement un problème de calculabilité des appels, ayant souvent pour conséquence finale un choix entre expressivité et performance.
+
+Construction
+Un programme C++ peut être produit avec des outils qui automatisent le processus de construction. Les plus utilisés sont : make ;; Ant (génération portable en XML) ;; SCons (génération portable en Python) ;; CMake (génération de Makefile portable).
+
+Environnements de développement: Anjuta DevStudio ;; C++ Builder ;; CLion (en) ;; Code::Blocks (open-source) ;; Dev-C++ et son extension RAD WxDev-C++ ;; Eclipse avec le plugin CDT (open-source) ;; Emacs (libre) ;; KDevelop ;; NetBeans (open-source) ;; QtCreator (open-source) ;; Sun Studio ;; Vim ;; Microsoft Visual C++ ;; Xcode.
+
+Compilateurs: GCC pour GNU Compiler Collection (libre, multilangage et multiplateforme : UNIX, Windows, DOS, etc.) ;; Clang ;; Microsoft Visual C++ (Windows) ;; Borland C++ Builder (Windows) ;; Intel C++ Compiler (Windows, Linux, MacOS) ;; Open64 (en) compilateur opensource d'AMD (Linux) ;; Digital Mars C-C++ compiler (Windows) ;; Comeau C++ Compiler ;; Open Watcom ;.
+
+Bibliothèques: Boost ;; Qt ;; Gtkmm ;; wxWidgets ;; SFML ;; OpenCV ;; SDLmm, surcouche C++ à la SDL ;; LLVM.

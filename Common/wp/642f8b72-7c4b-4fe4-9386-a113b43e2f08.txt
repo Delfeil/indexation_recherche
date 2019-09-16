@@ -1,0 +1,28 @@
+Web Map Service ou WMS est un protocole de communication standard qui permet d'obtenir des cartes de données géoréférencées à partir de différents serveurs de données. Cela permet de mettre en place un réseau de serveurs cartographiques à partir desquels des clients peuvent construire des cartes interactives. Le WMS est décrit dans des spécifications maintenues par l'Open Geospatial Consortium.
+
+Fonctionnement
+Un service WMS sert à retourner une image visualisable sur un écran d'ordinateur. Le serveur produit des cartes aux formats image comme le JPEG, le PNG ou le GIF, ou sous forme d'éléments vecteurs comme le SVG. Le WMS s'oppose au WFS qui traite les données elles-mêmes.
+L'OGC définit trois opérations disponibles dans un service WMS : GetCapabilities retourne les méta-données qui décrivent le contenu du service et les paramètres acceptés,; GetMap retourne une image d'une carte dont les paramètres géospatiaux et dimensionnels sont correctement représentés,; GetFeatureInfo retourne des informations sur un objet représenté sur la carte.
+Les WMS peuvent être appelés en utilisant un navigateur web standard en soumettant des demandes directement dans l'URL. Le contenu d'une telle URL dépend de l'opération souhaitée. En particulier, lorsqu'on demande une carte, l'URL doit contenir les informations que l'on désire voir sur la carte : Couches à tracer parmi celles disponibles.; Styles des couches.; Système de référence à utiliser.; Taille de l'image produite.; Etendue de la carte souhaitée.
+Quand deux cartes ou plus sont produites avec la même localisation géographique, on obtient une carte composée. L'utilisation de formats d'image supportant la transparence (comme le GIF ou PNG) permet d'améliorer la superposition et la lisibilité des cartes. En outre, différentes cartes peuvent être demandées sur différents serveurs. Le WMS permet ainsi la création d'un réseau de serveurs rendant disponibles un ensemble de cartes.
+Un WMS n'est pas habituellement appelé directement à travers un navigateur web. Le plus souvent, il est appelé par une application cliente qui fournit à l'utilisateur des commandes interactives.
+
+Construction d'une URL WMS
+
+Composition de l'URL
+Une URL WMS se présente de la façon suivante : http:--host-path(name-value) où name-value correspond à une liste de paramètres. C'est cette liste qu'il faut paramétrer pour obtenir une image d'une carte.
+
+Liste des paramètres disponibles: VERSION est le numéro de version du protocole WMS.; REQUEST correspond à un des trois types d'opérations possibles : GetCapabilities, GetMap, GetFeatureInfo.; OUTPUTFORMAT correspond au format de sortie de l'image (exemple : image-png).; BBOX pour l'étendue de la carte (longitude min,latitude min, longitude max, latitude max : attention en version 1.3.0 : latitude min,longitude min, latitude max, longitude max).; WIDTH pour la largeur de l'image.; HEIGHT pour la hauteur de l'image.; LAYERS est la liste des couches désirées.; SRS est le système de projection utilisée (CRS à partir de la version 1.3.0).; SERVICE nom du service OGC (WMS donc); STYLES liste des styles utilisés pour chacune des LAYERS.
+
+Exemples d'URL
+Cette URL retourne un fichier contenant la description du service, c'est-à-dire, le type de service, les versions compatibles du service, le système de projection utilisée et les différentes couches disponibles pour cette carte. Chaque couche est accompagnée de son étendue maximale et de son système de projection.
+Cette URL retournant une carte.
+Les paramètres utilisés ici sont :
+SERVICE-WMS
+VERSION-1.1.1
+SRS-EPSG:4326
+BBOX : longitude min,latitude min,longitude max, latitude max
+WIDTH : l'image fera "600" pixels de large sur HEIGHT "400" pixels de haut
+LAYERS : les couches retenues sont la couche nommée 0 et la couche nommée1
+STYLES
+FORMAT-image-png

@@ -1,0 +1,75 @@
+Standard Generalized Markup Language ("langage de balisage généralisé normalisé" - SGML) est un langage de description à balises, de norme ISO (ISO 8879:1986).
+
+Historique
+En 1969, Charles Goldfarb (en), qui est alors chef de projet chez IBM, fait lancer par cette compagnie un langage descriptif, ou Generalized Markup Language (Charles Goldfarb, Edward Mosher et Raymond Lorie), destiné à encapsuler l'ancien langage Script trop lié physiquement aux possibilités techniques des imprimantes. L'ensemble est commercialisé sous le nom de DCF (Document Composition Facility). Un fichier spécial nommé le profile, ainsi qu'une bibliothèque de macros, indiquent comment seront interprétées les marques.
+Goldfarb, que ce langage rend vite célèbre, quitte alors cette compagnie pour développer un successeur de GML appelé SGML (Standard Generalized Markup Language), publié en 1986 comme norme ISO (ISO 8879:1986).
+Les Communautés européennes s'associent à ce développement novateur dès 1984 et adoptent alors le SGML comme standard pour leurs très nombreuses publications officielles, dans le cadre du projet FORMEX (Formalized Exchange of Electronic Publications). Elles développent aussi Mark-It, le premier parser SGML qui ne souffre pas de restrictions par rapport aux spécifications les plus avancées du SGML.
+L'un des principes fondamentaux sur lequel repose le SGML est la séparation complète entre la structure logique d'un document (titres, chapitres, paragraphes, illustrations...), qui est identifiée par des balises insérées dans le document lui-même, et sa mise en page, qui dépend du support de présentation (livre, journal, écran, graphique même) et qui est définie en dehors du document dans une ou plusieurs feuilles de style (police, style, taille et couleur des caractères, alignement et espacement des paragraphes...).
+SGML rationalise les systèmes documentaires d'IBM ; plus de 90 % de la documentation est écrite en GML. Il a beaucoup facilité en France le travail des avionneurs, Airbus reprenant ainsi la documentation de la SNECMA aussitôt affichable sous ses propres normes, et récupérée à leur tour par ses propres clients qui les affichaient à leurs normes ; ou par des arsenaux livrant facilement à leurs clients (armée de l'air, marine et armée de terre, et parfois armées étrangères) des documentations à ces normes personnalisées sans aucun surcoût.
+Ce langage devient notamment un standard de représentation au CERN, qui a besoin d'unifier de façon rigoureuse la présentation des documents de ses équipes mais sans pour autant les déconcentrer en leur imposant des détails techniques de typographie. L'INRIA réalisera un des premiers éditeurs SGML, appelé Grif, avec une interface voisine de celle de Word.
+HTML, créé par Tim Berners-Lee pour le World Wide Web, est une application de SGML.
+
+Normalisation
+Depuis la mise en place de la norme ISO 8879 1986 SGML, lorsqu'on analyse un document, il apparaît comme étant composé de trois parties : Sa structure qui sera déclarée par des DTD ;; Sa présentation qui sera traitée par des feuilles de style ;; Ses données qui seront rédigées dans des instances (document balisés selon une DTD).;
+
+Document Type Definition
+La DTD (Définition de Type de Document en français) définit la structure du document : elle décrit les relations entre les éléments ;; elle nomme chaque élément par rapport à la structure.
+Chaque DTD définit une classe de documents à laquelle sont rattachées toutes les instances similaires.
+
+Feuille de style
+Une feuille de style décrit comment sera publié le document. Cela permet, par exemple, de décrire une feuille de style pour le papier (format A4) et une feuille de style pour les écrans (format 4-3) ; l'avantage étant de pouvoir, par exemple, créer une feuille de style pour les écrans (format 16-9) sans réécrire ni la structure ni les instances et bénéficier d'un niveau de réutilisation maximal. Les nouveaux supports matériels ne nécessitent plus que la création de la feuille de style correspondante.
+
+Instance
+Une instance est un document ou une partie de document balisée selon une DTD. Toutes les instances d'une même DTD appartiennent à la même classe de document.
+
+Diverses informations: Un document SGML doit contenir une référence à une DTD.; XML, norme servant à décrire des documents structurés, a été créé à partir de SGML. Il s'agit en fait d'une version simplifiée de SGML ("profil" figé de la norme, DTD optionnelle, syntaxe particulière pour les éléments vides) et plus adaptée au Web (support natif des différents codages internationaux). Il existe une application de SGML appelée HyTime (en) qui permet de décrire des liens entre documents SGML.; Il existe en outre un langage d'écriture de feuilles de style pour des documents SGML appelé DSSSL (en).
+
+Différences entre le GML ou HTML et une instance SGML bien formée
+On notera et cela distinguera les avantages et inconvénients de chaque classe de document : 1) que le premier élément ouvre et ferme automatiquement les balises et permet de réduire la taille du document par rapport au deuxième qui nécessite la fermeture systématique de chaque balise ;; 2) que le premier élément ne pourra pas être extrait et réinclus dans un document de niveau hiérarchique différent sans de lourdes modifications alors que le deuxième le permet sans aucune intervention.
+Dans le HTML et le GML il manque la dissociation complète entre les 3 parties : le contenu (instance), la présentation (feuille de style), et la structure (DTD).
+Pour illustrer les différences, trois exemples : Le premier illustre la fermeture implicite des langages HTML et GML. On remarquera la fermeture automatique des balises d'en-tête (h1, h2, h3) et des balises de paragraphe (p).; Le deuxième présente la forme normale qui aurait dû être employée et dans laquelle chaque balise est fermée.; Le troisième est la structure telle qu'elle devrait être présentée dans sa forme normale SGML sans hiérarchie dans la balise d'en-tête. C'est la structure même du document qui implémente la hiérarchie.
+
+Un exemple d'extrait de document GML ou HTML avec fermeture implicite
+h1Titre A de niveau 1
+ pIntroduction
+ h2Titre A de niveau 2
+ pDescription des éléments du titre A de niveau 2
+ h2Titre B de niveau 2
+ pDescription des éléments du titre B de niveau 2
+
+ h3Titre A de niveau 3
+ pDescription des éléments du titre A de niveau 3
+ h1Titre B de niveau 1
+ pConclusion
+Un exemple d'extrait de document GML ou HTML avec fermeture codée dans le document
+h1Titre A de niveau 1-h1
+ pIntroduction-p
+ h2Titre A de niveau 2-h2
+ pDescription des éléments du titre A de niveau 2-p
+ h2Titre B de niveau 2-h2
+ pDescription des éléments du titre B de niveau 2-p
+
+ h3Titre A de niveau 3-h3
+ pDescription des éléments du titre A de niveau 3-p
+ h1Titre B de niveau 1-h1
+ pConclusion-p
+Un exemple d'extrait d'instance SGML
+HTitre A de niveau 1
+ PIntroduction-P
+ HTitre A de niveau 2
+ PDescription des éléments du titre A de niveau 2-P
+ -H
+ HTitre B de niveau 2
+ PDescription des éléments du titre B de niveau 2-P
+
+ HTitre A de niveau 3
+ PDescription des éléments du titre A de niveau 3-P
+ -H
+ -H
+ -H
+ HTitre B de niveau 1
+ PConclusion-P
+ -H
+Voir aussi
+
+Articles connexes: Langage de balisage; Generalized Markup Language (GML); Document Type Definition (DTD); Norme ISO-IEC 8859; Norme ISO-IEC 10646; XML est une simplification du SGML.

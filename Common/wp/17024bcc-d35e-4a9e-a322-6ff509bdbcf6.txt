@@ -1,0 +1,37 @@
+Le terme solution vient du grec lusis. D'une manière générale, il désigne une action permettant de surmonter un problème. On le retrouve dans plusieurs domaines : mathématiques, chimie, informatique, etc.
+
+Sciences et techniques
+
+Chimie
+En chimie, une solution est un mélange homogène résultant de la dissolution d'un ou plusieurs soluté(s) (espèce chimique dissoute) dans un solvant.
+Un sol est une solution colloïdale d'apparence liquide.
+
+Informatique
+En informatique, une solution est un logiciel dédié à une problématique de gestion des ressources. Trouver la solution d'un problème c'est trouver le chemin entre l'état initial et l'état final. L'optimisation de la solution consiste à trouver un chemin plus court pour effectuer le même ensemble de tâche. (voir Algorithme de Dijkstra)
+
+Mathématiques (et pédagogie scolaire)
+En mathématiques, une solution est un ensemble d'objets (souvent des nombres) respectant des conditions données ; on parle par exemple des solutions d'une équation ; et en pédagogie, de la solution d'un problème.
+
+Minéralogie
+En minéralogie, une solution solide est un solide homogène dont la composition peut varier continûment entre (au moins) deux compositions extrêmes appelées pôles.
+
+Pharmacie
+En pharmacie galénique, une solution est une forme galénique de médicament.
+
+Sciences humaines
+
+Histoire
+La solution finale désigne le plan d'extermination des juifs par l'Allemagne nazie.
+
+Mémétique
+La solution culturelle désigne en mémétique jouxtelienne, une réponse culturelle souvent partielle, aux contraintes actuelle d'une situation (mentale, sociale, physique).
+
+Praxéologie
+En praxéologie (science de l'action), une solution est une action permettant de surmonter un problème.
+
+Culture
+
+Cinéma: Solution est un film iranien (1978).
+
+Jeux vidéo
+Une solution ou "soluce" est l'ensemble des indications permettant de finir un jeu vidéo sans s'attarder sur les différentes énigmes qui le composent.

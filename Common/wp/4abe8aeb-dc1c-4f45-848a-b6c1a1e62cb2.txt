@@ -1,0 +1,3 @@
+Network Control Program (NCP) est un protocole de communication poste-à-poste opérationnel en 1970 et adopté entre 1971 et 1972 pour le transfert de données via le réseau Arpanet. Ce protocole devint obsolète et fut remplacé en 1983 par la suite des protocoles TCP-IP connu également sous le nom d'Internet.
+
+Voir aussi: Histoire d'Internet; TCP. Portail de l'informatique; Portail des télécommunications.

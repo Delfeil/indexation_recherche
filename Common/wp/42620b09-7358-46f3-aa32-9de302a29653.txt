@@ -1,0 +1,5 @@
+Roger F. Tomlinson (né le 17 novembre 1933 à Cambridge, mort le 9 février 2014) est un géographe britannique, à l'origine du concept de système d'information géographique.
+Il s'est établi au Canada en 1957.
+Il a reçu la Médaille d'or de la Société géographique royale du Canada pour son rôle dans la mise au point des systèmes d'information géographique. Il est reconnu comme étant le "père des SIG".
+
+Ouvrages: The application of electronic computing methods and techniques to the storage, compilation, and assessment of mapped data. (Thèse).; 1968 : A Geographic Information System for Regional Planning (Un système d'information géographique pour l'aménagement du territoire).; 1976 : Computer handling of geographical data: an examination of selected geographic information systems, Roger F. Tomlinson, H. W. Calkins, Duane Francis Marble; 1977 : Geographic Information Systems, Methods and Equipment for Land Use Planning, Hugh W. Calkins, Roger F. Tomlinson,; 2007 : Thinking about GIS: Geographic Information System Planning for Managers,

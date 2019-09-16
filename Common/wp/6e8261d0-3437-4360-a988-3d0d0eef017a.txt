@@ -1,0 +1,20 @@
+En informatique, le concept d'abstraction identifie et regroupe des caractéristiques et traitements communs applicables à des entités ou concepts variés ; une représentation abstraite commune de tels objets permet d'en simplifier et d'en unifier la manipulation.
+
+Programmation
+
+Généralités
+Un langage informatique est déjà une abstraction en lui-même, puisqu'il fait correspondre à un langage ésotérique (le langage machine s'écrit en binaire, c'est-à-dire composé uniquement de zéros et de uns) un autre langage mieux adapté à la compréhension humaine.
+Une des abstractions est la généralisation du code pour le détacher au maximum du contexte. L'un des outils les plus connus de l'abstraction informatique est la variable, notamment la variable d'environnement.
+Par exemple, sous Windows XP, le chemin du système est généralement C:-WINDOWS-system32. Mais il ne s'agit que d'un cas particulier, ce pourrait très bien être D:-OS-XP. En revanche, la variable d'environnement pour les fichiers système est %WINDIR% (ou %SYSTEMROOT%). Cette variable d'environnement est une valeur abstraite dont C: est une application possible.
+Beaucoup d'erreurs de programmes viennent du fait que lesdits programmes utilisent des valeurs concrètes au lieu de valeurs abstraites (comme les variables d'environnement). Tant que l'utilisateur installe ses programmes "comme tout le monde", cela ne pose pas de problème. Mais au moindre écart, l'édifice s'écroule.
+Différentes couches de logiciel
+On nomme aussi couche d'abstraction matérielle une couche logicielle accédant au matériel informatique. En effet, l'hétérogénéité des différents composants, utilisant souvent des normes spécifiques, nécessiterait sans cette couche de développer spécifiquement pour chaque matériel une nouvelle implémentation du code (c'est pour cela que l'assembleur n'est pas portable). DirectX fournit par exemple une suite d'outils théoriquement compatibles avec tout type de matériels.
+Plus généralement, on nomme couche d'abstraction toute couche logicielle cachant au développeur l'implémentation de la couche inférieure, lui évitant de fournir une implémentation différente selon les spécificités de la couche inférieure. L'inconvénient de la couche d'abstraction est la moindre optimisation, induite par justement la présence de couches intermédiaires. Ceci reste une limitation théorique, non pratique : dans l'absolu, un code hautement abstrait pourrait être aussi véloce que du bon assembleur (puisque dans tous les cas, la machine exécute finalement du langage machine, pas du C ou du HTML). Dans la pratique, cependant, il n'existe pas de tel "compilateur 100 %".
+
+Programmation orientée objet
+Dans le contexte orienté objet, l'abstraction est un mécanisme, ou une pratique, servant à réduire le code d'un niveau de détail. Autrement dit, l'abstraction permet de regrouper un certain nombre de classes selon des caractéristiques communes.
+Par exemple, dans un logiciel de dessin vectoriel :
+Ainsi, puisque toutes les figures ont un point d'origine, une hauteur, une largeur, une aire et un périmètre, nous pouvons les regrouper en une super-classe. Grâce au polymorphisme nous pourrons définir le comportement précis de chacun des types de figures simplement en faisant référence à la classe Forme, sans se soucier de ce que cette figure est réellement.
+
+Web
+La distinction concret-abstrait existe aussi pour la redaction de code HTML. Le cas le plus célèbre est celui des entités "physiques" et des entités "logiques", notamment i-em et b-strong. Le premier élément de chaque paire renvoie à une valeur concrète (mise en italique-mise en gras) alors que le second élément renvoie à une valeur abstraite (emphase-forte emphase) qui, dans le domaine visuel (écran, projection, impression) se traduit par une mise en italique-en gras. Mais pas par exemple dans un média oral ou Braille. Cette nécessité d'abstraire le code est la raison pour laquelle les éléments i et b sont déconseillés (ils ont d'ailleurs disparu en XHTML 2.0). Portail de la programmation informatique.

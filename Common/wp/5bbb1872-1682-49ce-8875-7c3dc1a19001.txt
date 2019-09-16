@@ -1,0 +1,17 @@
+Sinequa est l'éditeur de Sinequa ES, une plateforme de Cognitive Search et Analytics. Sinequa est l'un des premiers éditeurs de moteurs de recherche d'entreprise indépendants.
+
+Services
+Sinequa propose une plateforme de Cognitive Search et Analytics offrant un accès unifié à l'information (Unified Information Access (en)) permettant une recherche sémantique dans les données de plus de 150 progiciels du marché (portails, email, CMS, CRM, ERP, GED...) et des données non structurées comme les documents textes, vidéos et audio. Elle propose une recherche globale au travers de l'ensemble des données présentes dans l'entreprise tout en respectant les droits d'accès. Sa capacité d'analyse en profondeur de très gros volumes de données fait de Sinequa ES une des solutions dans le marché émergeant de l'Analyse du Big Data en temps réel.
+Le plateforme logicielle Sinequa ES offre une connectivité vers de nombreuses sources d'information d'entreprise (SharePoint, Livelink, Documentum, Filenet, SAP, Notes, Alfresco, etc.) par l'intermédiaire d'une technologie de collecte propre. Sinequa intégre la compréhension des langues naturelles grâce au Natural Language Processing (NLP), synthétisée au sein d'une technologie brevetée de moteur de recherche qui allie les technologies full-text morphosyntaxique, statistique, sémantique et structurée.
+Cette solution a permis à Sinequa de figurer dans le Magic Quadrant du Gartner dans la catégorie Enterprise Search 2015 en tant que "Leader", puis dans le ForresterWave - "Big Data Search et Knowledge Discovery" du cabinet Forrester.
+
+Clients
+La solution Sinequa est utilisée par plus de 250 entreprises dans de nombreux secteurs d'activité en France et à l'international avec des clients comme Airbus, AstraZeneca, Biogen, Siemens , Bouygues Construction , Saint-Gobain , le Crédit agricole ou encore Atos.
+
+Fonctionnalités principales de Sinequa ES
+Les principales fonctionnalités sont les suivantes : recherche de documents par analyse linguistique et sémantique et navigation par facettes ;; interfaçage avec outils collaboratifs, localisation automatique d'expertises ;; architecture GRID pour offrir une grande scalabilité ;; connectivité (+150 connecteurs) et gestion associée des droits d'accès ;; administration en client léger.
+Sinequa traite 21 langues du point de vue linguistique : anglais, français, allemand, espagnol, italien, néerlandais, polonais, portugais, grec, russe, arabe, japonais, chinois traditionnel et simplifié, suédois, danois, finnois, coréen et thaï.
+Sinequa ES permet l'extraction d'entités nommées, incluant les lieux, les personnes citées, les entreprises, les adresses postales, les montants, les dates et les entités définies par l'utilisateur (appelées également Text Mining Agents). Ces entités sont alors employées pour le filtrage dynamique des réponses suivant des critères additionnels, pour une lecture facilitée dans un mode de prévisualisation, ou encore pour la production de tableaux de bord statistiques.
+Les applications de Sinequa ES sont multiples, parmi lesquelles : La gestion des connaissance (détection d'expertise) ;; Business Intelligence étendue ;; Vue Client à 360 ;; Archivage légal.
+
+Liens et références: Portail de l'informatique; Portail des entreprises; Portail de la France.

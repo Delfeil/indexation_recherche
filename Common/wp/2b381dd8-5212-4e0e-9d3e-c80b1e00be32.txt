@@ -1,0 +1,81 @@
+En informatique, une application web (aussi appelée web app, de l'anglais) est une application manipulable grâce à un navigateur web. De la même manière que les sites web, une application web est généralement placée sur un serveur et se manipule en actionnant des widgets à l'aide d'un navigateur web, via un réseau informatique (Internet, intranet, réseau local, etc.).
+Les messageries web, les systèmes de gestion de contenu, les wikis et les blogs sont des applications web.
+Les moteurs de recherches, les logiciels de commerce électronique, les jeux en ligne, les logiciels de forum peuvent être sous forme d'application web.
+Des appareils réseau tels que les routeurs sont parfois équipés d'une application web dans leur micrologiciel.
+Les applications web font partie de l'évolution des usages et de la technologie du Web appelée Web 2.0.
+
+Étymologie
+Application web est un raccourci de logiciel applicatif dans la technologie du World Wide Web.
+Un logiciel applicatif est un logiciel qui met en application (automatise) les principes propres à une activité.
+Le World Wide Web (traduction littérale, toile d'araignée mondiale) est une technologie de partage de documents hypertextes.
+
+La technique de base
+Dans la technologie client-serveur, utilisée pour le World Wide Web, le navigateur Web envoie au serveur des requêtes relatives à des pages Web. Le serveur répond aux demandes en envoyant les pages au navigateur Web. Le navigateur affiche alors les pages à l'utilisateur.
+Les applications Web utilisent cette technique pour mettre en oeuvre leur interface graphique. Celle-ci est composée de pages créées de toutes pièces par le logiciel lors de chaque requête. Chaque hyperlien contenu dans la page provoque l'envoi d'une nouvelle requête, qui donnera en résultat une nouvelle page. À la différence d'un site web statique où les pages sont des fichiers préalablement enregistrés.
+Les pages Web contiennent divers widgets tels des boutons poussoirs, des icônes et des zones de texte, permettant la manipulation de l'application. Chaque manipulation d'un bouton poussoir provoque l'envoi d'une nouvelle requête. Les pages Web peuvent contenir des applets.
+Contrairement à d'autres logiciels, une application Web mise en place sur un serveur est immédiatement utilisable par le consommateur sans procédure d'achat et d'installation sur son propre ordinateur, du moment que l'ordinateur du consommateur est équipé d'un navigateur Web et d'une connexion réseau. Ceci évite des interventions des administrateurs système, interventions qui sont souvent plus coûteuses que le logiciel lui-même. L'application Web est souvent mise à disposition du consommateur par l'éditeur du logiciel sur ses propres serveurs - technique appelée Software as a Service.
+L'usage du navigateur Web comme partie client - un logiciel qui est disponible sur de nombreux systèmes d'exploitation - assure la portabilité d'une application Web.
+
+Histoire
+Le World Wide Web est un système de documentation hypertexte créé en 1993 pour les besoins du Centre européen pour la recherche nucléaire (CERN). Le premier navigateur Web (NCSA Mosaic) a été créé la même année par le National Center for Supercomputing Applications (NCSA).
+Le World Wide Web a permis aux utilisateurs de se partager des documents et des images plus rapidement que via le courrier électronique et plus facilement que via le partage de fichiers.
+Le nombre grandissant de documents publiés a rendu rapidement les moteurs de recherche nécessaires pour les retrouver : l'utilisateur entre un mot clé, le serveur Web effectue la recherche, puis envoie le résultat sous forme d'un document.
+Les moteurs de recherche ont été mis en oeuvre par extension du serveur Web. En 1995, le NCSA publie la norme industrielle CGI, qui spécifie quelles sont les modalités d'extension d'un serveur Web, dans le but de le brancher avec un logiciel applicatif - par exemple un moteur de recherche.
+La technologie des applications Web a évolué très rapidement entre 1994 et 2000, où plusieurs logiciels de serveurs Web réservés à cet usage sont sortis sur le marché un après l'autre, ainsi que des améliorations des navigateurs Web.
+Les premières applications Web souffraient d'une maniabilité et d'une ergonomie inférieure aux applications client. Est appelée Rich Internet Application une application Web qui offre une maniabilité et une ergonomie équivalente à une application client. Le terme Rich Internet Application est apparu la première fois dans une publication de Macromedia en 2002.
+
+Utilisations
+Système de gestion de contenu
+La technologie des applications web permet de nombreux usages. Les usages populaires sont les moteurs de recherche, le webmail, le commerce électronique et les jeux en ligne.
+Un moteur de recherche est une application web qui recherche des documents.
+Un webmail est une application web pour recevoir et envoyer du courrier électronique.
+Un système de gestion de contenu est une application web qui présente des documents. La présentation des documents est similaire à celle d'un site web, cependant les documents sont générés par le logiciel lors de chaque demande. Le système de gestion de contenu effectue les traitements nécessaires à la mise en forme et la présentation des documents. Un weblog est un système de gestion de contenu où des éléments de contenu sont présentés dans l'ordre chronologique de leur date de création. Un wiki (de l'hawaïen wikiwiki qui signifie vite) est un système de gestion de contenu qui vise à simplifier la création collaborative des documents. Il autorise plusieurs personnes à effectuer des modifications simultanées, et est équipé d'espaces de discussion. Un site web marchand est un système de gestion de contenu, ou le contenu sont des annonces concernant des produits. Il est utilisé pour la vente par correspondance. Les visites et les opérations d'achat sont enregistrées à des fins de marketing. Les sites web marchands sont utilisés aussi bien pour la vente des produits d'une société que pour des ventes entre particuliers ou des ventes aux enchères.
+Un jeu par navigateur est un jeu vidéo réalisé sous la forme d'une application web.
+Un logiciel de forum permet des discussions ouvertes entre des utilisateurs : un utilisateur écrit un message, et ce message peut être lu par tous les autres utilisateurs. Les logiciels de forums sont parfois réalisés sous forme d'application web.
+La messagerie instantanée (anglais chat) permet l'échange instantané de messages texte entre différents utilisateurs. Les logiciels de messagerie instantanée sont parfois réalisés sous forme d'application web. Les messages peuvent être transmis à un autre utilisateur du logiciel, ou un téléphone portable via le short message service (abrégé SMS).
+Google Maps est une application web qui permet de consulter des cartes géographiques du monde entier.
+Facebook est une application web qui permet à chaque utilisateur de se constituer un réseau social (amis, associés, personnes qui partagent les mêmes centres d'intérêt).
+
+Technologie
+Dans la technologie la plus courante, l'application web s'oriente autour d'un serveur web sur lequel est branché le logiciel applicatif, le tout parfois accompagné d'un serveur de base de données. L'ensemble est appelé serveur d'applications.
+Le code source du logiciel applicatif est placé directement dans des pages web. Ces pages sont stockées par le serveur. Lorsque le client demande une page, le serveur web va rechercher la page, puis exécute les instructions qu'elle contient. Ces instructions peuvent faire appel au serveur de base de données. Le serveur web transmet la page avec le résultat de l'exécution au client.
+La transmission des informations entre le client et le serveur se fait selon le protocole HTTP, protocole également utilisé pour les sites web. Ce qui permet d'utiliser le même logiciel client - un navigateur web.
+Les applications web font souvent usage du mécanisme des cookies : en réponse à une requête, le serveur envoie une information de repérage au client (le cookie). Puis le client va lui renvoyer cette information lors de la prochaine requête. Le mécanisme est utilisé pour identifier le client et suivre les manipulations.
+Les pages web peuvent en outre contenir des applets. Ce sont des morceaux de code source qui seront exécutés par le navigateur web après transmission de la page - contrairement à la majorité du code source qui est exécuté par le serveur web avant la transmission. ActiveX, Java, Adobe Flash et Silverlight sont des technologies utilisées pour les applets.
+Le logiciel client - le navigateur web - est identique à celui utilisé pour consulter un site web. Les logiciels nécessaires pour exécuter les applets sont inclus dans les navigateurs - parfois sous forme de complément - plugin.
+
+Logiciel serveur
+Le logiciel serveur reçoit les demandes provenant du navigateur web, et effectue les traitements, puis envoie le résultat du traitement au client.
+En 1991, le National Center for Supercomputing Applications publie la norme industrielle CGI, qui spécifie par quel biais un logiciel de serveur web peut être branché à un logiciel applicatif. Cette norme est initialement destinée à permettre la réalisation de moteurs de recherche.
+PHP, développé par Rasmus Lerdorf, est un interprète qui peut être branché à un serveur web. L'interprète permet d'exécuter des logiciels écrits en langage PHP et incorporés dans des pages web. Le résultat de l'exécution est envoyé au serveur web, qui le transmettra au client.
+WebObjects, développé par Apple, est un logiciel de serveur web qui exécute le code source contenu dans les pages, code source écrit en langage Java.
+ASP est une technologie développée par Microsoft, composée d'un interprète, qui se branche sur le logiciel serveur web Internet Information Services. L'interprète exécute le code source contenu dans les pages, code source écrit en langage VBScript.
+JSP est une technologie développée par Sun Microsystems, composée d'un logiciel de serveur web auquel peut se brancher un logiciel applicatif écrit en langage Java. Le logiciel applicatif est composé de pages web contenant du code source préalablement compilé.
+ASP.Net est une technologie développée par Microsoft en remplacement de ASP, composée d'un logiciel qui se branche sur le logiciel de serveur web Internet Information Services et qui exécute le logiciel applicatif. Le logiciel applicatif est composé de pages contenant du code source écrit dans un langage qui utilise le framework de programmation.Net (Visual Basic.NET ou C), le logiciel applicatif est préalablement compilé.
+LAMP (Linux - Apache - MySQL - PHP) est une suite de logiciels open source qui, utilisés ensemble, permettent de réaliser des serveurs d'application. Par définition, cette suite est composée du système d'exploitation Linux, du logiciel serveur web Apache, de l'interprète PHP, et du système de gestion de base de données MySQL.
+Wamp - (néologisme basé sur LAMP)- (Windows - Apache - MySQL - PHP) est une suite de logiciels qui, utilisés ensemble, permettent de réaliser des serveurs d'application. Par définition, cette suite est composée du système d'exploitation Windows, du logiciel serveur web Apache, de l'interprète PHP, et du système de gestion de base de données MySQL.
+Les logiciels de serveur d'application sont également utilisés pour réaliser des services web.
+
+Navigateur web
+Le navigateur web est le logiciel qui affiche les résultats envoyés par le serveur, reçoit les manipulations de l'utilisateur et les transmet au serveur.
+Une applet est un morceau de logiciel incorporé dans une page web, et exécuté par le navigateur web de l'ordinateur client. Lorsque l'utilisateur actionne un widget placé dans une page web, l'applet peut alors modifier la présentation de la page (technique appelée DHTML), afficher des messages ou envoyer des requêtes au serveur d'applications.
+JavaScript, initialement appelé LiveScript est un langage de programmation pour les applets, développé par Netscape. Les applets écrites dans ce langage sont exécutées par un interprète inclus dans le navigateur web. De nombreux navigateurs web ont un interprète Javascript.
+Les premiers navigateurs web équipés d'un interprète Javascript présentaient des différences de dialecte qui font qu'une applet écrite pour un interprète en particulier n'est pas toujours comprise par un autre interprète. Pour pallier ce problème, Ecma International publie en 1999 la norme industrielle ECMA-262 ECMAScript qui spécifie la syntaxe que doivent comprendre les interprètes Javascript.
+Le Document Object Model (abrégé DOM) est un ensemble d'objets normalisé qui représente la page affichée, ainsi que le navigateur web. Le DOM est l'interface de programmation utilisée dans les applets pour effectuer des modifications sur la page.
+La méthode Ajax consiste à utiliser de manière conjointe des technologies telles que JavaScript, CSS, XML, le DOM et le XMLHttpRequest dans le but de réaliser des applications Web qui offrent une maniabilité et un confort d'utilisation supérieur à ce qui se faisait jusqu'alors - les Rich Internet Application (abr. RIA).
+Java est un langage de programmation développé par Sun Microsystems, qui peut être utilisé pour les applets. Les applets écrites dans ce langage sont préalablement compilées, et exécutées par un logiciel branché au navigateur web, le plug-in Java (traduction littérale : qui se branche dessus). Voir environnement d'exécution Java.
+ActiveX est une technologie développée par Microsoft ou des composants logiciel peuvent être inclus en tant qu'applet dans des pages web. Cette technologie nécessite un système d'exploitation Windows sur l'ordinateur client.
+Flash est une technologie développée par Adobe. Un logiciel branché au navigateur, le plug-in Flash permet d'afficher des animations, des images vectorielles, des vidéos, et exécuter des applets. Il comporte un interprète pour des applets en langage de programmation ActionScript, un langage similaire à Javascript. Cette technologie est d'usage courant pour les jeux vidéo en ligne.
+
+Création
+Les applications web sont souvent créées par des équipes composées à la fois de développeurs et de designers. Le développement nécessite la connaissance des différents langages utilisés dans les technologies du Web : HTML pour la présentation des pages, CSS pour la charte graphique, JavaScript, Java ou ActionScript pour les automatismes exécutés par le client, ainsi qu'un langage tel que Java, PHP, C ou VBScript pour les automatismes exécutés par le serveur.
+Les applications web sont faites d'un ensemble de composants logiciels et de pages "porteuses" ; les composants sont regroupés dans des bibliothèques logicielles (voir servlets). Un logiciel serveur web prévu à cet effet (serveur d'applications web) exécute un composant donné lors de la réception de chaque requête. ASP.NET, Websphere, JBoss ou Apache Tomcat sont des logiciels serveurs d'application web.
+Une application web est typiquement utilisée simultanément par plusieurs usagers ; elle est équipée de mécanismes de contrôle d'accès logique, ceux-ci sont basés sur les mécanismes de contrôle d'accès propre au serveur d'application web et au système d'exploitation. Ils utilisent parfois des mécanismes existants tels que l'authentification unique (Single sign-on).
+Pour les travaux de construction, les ingénieurs utilisent des environnements de développement intégré qui aident à la fois à la programmation informatique et la conception de site Web tels que Visual Studio ou Eclipse.
+
+Sécurité
+La sécurité d'une application web est étroitement liée à l'environnement qui l'héberge. Des failles telles le cross-site scripting peuvent mettre l'application en péril si le développeur n'a pas pris de précaution pour sécuriser son code. Différentes façons d'attaquer une application peuvent être utilisées, par exemple l'injection SQL ou JavaScript.
+
+Voir aussi
+
+Articles connexes: Application Web Monopage (SPA); Site web; Service Web; AJAX; Interface Web; Application en flux; Page web dynamique. Portail du logiciel; Portail des réseaux informatiques; Portail d'Internet.

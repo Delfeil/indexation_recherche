@@ -1,0 +1,18 @@
+Dans le domaine de la programmation informatique, la compilation à la volée, aussi connue sous le nom de traduction dynamique (just-in-time compilation ou JIT compilation en anglais), est une technique visant à améliorer la performance de systèmes bytecode-compilés par la traduction de bytecode en code machine natif au moment de l'exécution. La compilation à la volée se fonde sur deux anciennes idées : la compilation de bytecode et la compilation dynamique.
+
+Description
+Dans un système bytecode-compilé, le code source est compilé ou bien traduit lors de l'exécution dans une représentation intermédiaire que l'on appelle le bytecode. C'est le cas des langages Limbo, Smalltalk, Perl, PHP, Python, Ruby, Lua, GNU Common Lisp ou Java entre autres. Le bytecode n'est pas un code machine pour un ordinateur en particulier, on dit qu'il est portable entre différentes architectures. Le bytecode est ensuite interprété ou bien exécuté par une machine virtuelle.
+Un environnement de compilation dynamique est un environnement dans lequel le compilateur peut être utilisé durant l'exécution. Par exemple, la plupart des systèmes Common Lisp ont une fonction compile qui peut créer de nouvelles fonctions compilées durant l'exécution. Alors qu'elle peut être avantageuse pour du débogage interactif, la compilation dynamique s'avère moins utile pour un système déployé.
+Dans un environnement de compilation à la volée, la compilation est la première étape, réduisant le code source à une représentation intermédiaire optimisable appelée bytecode. Celui-ci est déployé sur le système cible. Lorsque le code est exécuté, le compilateur à la volée le traduit en code machine natif. Ceci peut être fait sur un fichier ou sur une fonction. Les fonctions peuvent être compilées juste avant leur exécution (d'où l'expression "à la volée").
+Le but est de combiner les avantages de la compilation native et du bytecode.
+Normalement, la compilation est faite en avance de temps (ahead-of-time), c'est-à-dire qu'elle est réalisée statiquement avant la livraison du logiciel, et avant son installation, ce qui gèle les capacités du logiciel. En particulier, l'analyse du code source original, l'optimisation dirigée par les profils (profile-guided optimization ou PGO) sont accomplies statiquement à la compilation, bien avant le déploiement.
+La compilation à la volée s'adapte dynamiquement à la charge de travail courante du logiciel en compilant le code "chaud", c'est-à-dire le code le plus utilisé à un moment donné. La compilation du bytecode en code machine est beaucoup plus rapide que depuis le code source. Le bytecode déployé est portable, à l'inverse du code machine pour une architecture donnée. Les compilateurs de bytecode en code machine sont plus faciles à écrire, parce que le compilateur du bytecode a déjà fait la plupart du travail.
+
+Histoire
+La compilation à la volée a été introduite dans le début des années 1980 par l'implémentation commerciale de Smalltalk : VisualWorks. Actuellement, elle est aussi utilisée dans LLVM, la machine virtuelle.NET de Microsoft ou la plupart des implémentations de la machine virtuelle Java.
+
+Voir aussi
+
+Articles connexes: Translation de code; Compilateur.
+
+Sources: L. Peter Deutsch et Allan M. Schiffman, "Efficient Implementation of the Smalltalk-80 System", 11th Annual Symposium on Principles of Programming Languages, Jan 1984, pp. 297-302; Free Online Dictionary of Computing entry. Portail de l'informatique.

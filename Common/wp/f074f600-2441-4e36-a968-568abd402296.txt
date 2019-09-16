@@ -1,0 +1,24 @@
+Une application f est dite injective ou est une injection si tout élément de son ensemble d'arrivée a au plus un antécédent par f, ce qui revient à dire que deux éléments distincts de son ensemble de départ ne peuvent pas avoir la même image par f.
+Lorsque les ensembles de départ et d'arrivée de f sont tous les deux égaux à la droite réelle ℝ, f est injective si et seulement si son graphe intersecte toute droite horizontale en au plus un point.
+Si une application injective est aussi surjective, elle est dite bijective.
+
+Définition formelle
+Une application f : X Y est injective si pour tout y Y, il existe au plus un x X tel que f(x) - y, ce qui s'écrit :
+L'implication précédente équivaut à sa contraposée :
+
+Exemple concret
+Prenons le cas d'une station de vacances où un groupe de touristes doit être logé dans un hôtel. Chaque façon de répartir ces touristes dans les chambres de l'hôtel peut être représentée par une application de l'ensemble des touristes, X, vers l'ensemble des chambres, Y (à chaque touriste est associée une chambre). L'hôtelier souhaite que l'application soit surjective, c'est-à-dire que chaque chambre soit occupée. Cela n'est possible que s'il y a au moins autant de touristes que de chambres.; Les touristes souhaitent que l'application soit injective, c'est-à-dire que chacun d'entre eux ait une chambre individuelle. Cela n'est possible que si le nombre de touristes ne dépasse pas le nombre de chambres.; Ces contraintes ne sont compatibles que si le nombre de touristes est égal au nombre de chambres. Dans ce cas, il sera possible de répartir les touristes de telle sorte qu'il y en ait un seul par chambre, et que toutes les chambres soient occupées : l'application sera alors à la fois injective et surjective ; on dira qu'elle est bijective.
+
+Exemples et contre-exemples
+Considérons l'application f : ℝ ℝ définie par f(x) - 2x + 1. Cette application est injective (et même bijective), puisque pour tous nombres réels arbitraires x et x', si 2x + 1 - 2x' + 1 alors 2x - 2x', soit x - x'.
+En revanche, l'application g : ℝ ℝ définie par g(x) - x n'est pas injective, parce que (par exemple) g(1) - 1 - g(1).
+D'autre part, si nous définissons l'application h : ℝ+ ℝ par la même relation que g,mais avec l'ensemble de définition restreint à l'ensemble des réels positifs, alors l'application h est injective. Une explication est que, pour des réels positifs arbitraires donnés x et x', si x - x', alors x - x', ainsi x - x'.
+
+Propriétés: Une application f : X Y est injective si et seulement si X est l'ensemble vide ou s'il existe une application g : Y X telle que gf soit égale à l'application identité sur X, c'est-à-dire si et seulement si X est vide ou f est inversible à gauche.; Si l'application composée gf est injective alors f est injective.; Si f et g sont toutes les deux injectives, alors gf est injective.; S'il existe une surjection f telle que gf soit injective, alors g est injective (en effet, de g(y) - g(y') on déduit, pour x et x' des antécédents de y et y' par f (il en existe, par surjectivité de f) : g(f(x)) - g(f(x')) donc, par injectivité de gf : x - x' puis, en appliquant f : y - y').; f : X Y est injective si et seulement si, pour toutes applications g,h : Z X, lorsque fg - fh, alors g - h. En d'autres termes, les applications injectives sont précisément les monomorphismes de la catégorie des ensembles.; Pour toute application f : X Y, les trois propriétés suivantes sont équivalentes :. 1) f est injective; 2) tout sous-ensemble A de X est l'image réciproque de son image directe : f(f(A)) - A; 3) pour tous sous-ensembles A et B de X, on a f(A B) - f(A) f(B). Toute application h : Z Y peut être décomposée comme h - fg pour une injection f et une surjection g convenables. Cette décomposition est unique à un isomorphisme près, et f peut être choisie égale à l'injection canonique, de l'image h(Z) de h, dans l'ensemble d'arrivée Y de h.; Si f : X Y est injective, alors Y a au moins autant d'éléments que X, au sens des cardinaux.; Si on note E F la propriété "il existe une injection de l'ensemble E dans l'ensemble F", alors vérifie les propriétés d'une relation d'ordre sur les cardinaux. La réflexivité et la transitivité ont été traitées au cours des exemples précédents, et l'antisymétrie est l'objet du théorème de Cantor-Bernstein.; Un morphisme d'un groupe X dans un groupe Y est injectif si et seulement si son noyau est réduit au sous-groupe trivial du groupe X.
+
+Histoire
+Le terme "injection" a été créé par MacLane en 1950 tandis que l'adjectif "injectif" apparaît deux ans plus tard, en 1952, dans les
+Foundations of Algebraic Topology
+d'Eilenberg et Steenrod.
+
+Voir aussi: Surjection; Bijection. Portail des mathématiques.

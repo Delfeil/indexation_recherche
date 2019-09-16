@@ -1,0 +1,15 @@
+L'Apache Software Foundation (fondation Apache) est une organisation à but non lucratif qui développe des logiciels open source sous la licence Apache, dont le renommé serveur web Apache HTTP Server. Elle a été créée en juin 1999 dans le Delaware aux États-Unis.
+La fondation Apache est une communauté décentralisée de développeurs qui travaillent sur ses projets open source. Les projets Apache sont caractérisés par un mode de développement collaboratif fondé sur le consensus ainsi que par une licence de logiciel ouverte et pragmatique. Chaque projet est dirigé par une équipe de contributeurs auto-désignée et on ne devient membre de la fondation qu'après avoir contribué activement aux projets Apache.
+Les objectifs principaux de la fondation sont de protéger juridiquement le travail des contributeurs et d'empêcher que la marque Apache soit utilisée illégalement.
+
+Projets de la fondation: ActiveMQ (en); Ant; Axis, sous-projet d'Apache Web Services; Derby, sous-projet d'Apache DB; Camel; Cassandra; CloudStack (en); Cocoon; Commons; Cordova; DB; Apache Beam; Directory; Excalibur (en); Felix (en), implémentation d'OSGi; Forrest (en); Geronimo; Gump (en); Hadoop; Apache HTTP Server; Ivy; Jackrabbit (en); James (en); JMeter; Kafka; Karaf; Lenya; Apache Logging Services; Lucene; Mahout; Maven, outil pour la gestion et l'automatisation de production des projets logiciels.; NiFi; mod perl; MyFaces; Apache OFBiz; Apache OpenOffice; Apache Portable Runtime (APR); Portals; SpamAssassin; Spark; ServiceMix; Struts; Subversion; Tapestry; TCL; Tika; Tinkerpop; Tomcat; Velocity; Apache Web Services; Apache XML; XMLBeans (en); XML Graphics.
+
+Histoire
+L'histoire de la fondation Apache est intimement liée au serveur web Apache, dont le projet est né en 1995 sur les bases du NCSA HTTPd daemon.
+Au départ, un groupe de huit développeurs travaillait dessus : Brian Behlendorf, Roy Fielding, Rob Hartill, David Robinson, Cliff Skolnick, Randy Terbush, Robert S. Thau et Andrew Wilson avec des contributions de Eric Hagberg, Frank Peters et Nicolas Pioch.
+La première version a été publiée en avril 1995. En 1999, les membres du Groupe Apache ont créé la fondation pour permettre de soutenir le serveur Apache. Elle est composée de 132 membres à ce jour.
+
+Incubateur de projets Apache
+L'incubateur de projets Apache est une passerelle de validation pour tout logiciel libre susceptible de devenir un projet à part entière de la fondation Apache. Le "projet incubateur" en lui-même est créé en octobre 2002 pour fournir un processus de validation et un ticket d'entrée dans la fondation. Toute donation de code source par une organisation externe ou tout projet externe désireux d'intégrer la fondation doivent passer par l'incubateur de projets Apache.
+
+Anciens projets: Apache Jakarta.

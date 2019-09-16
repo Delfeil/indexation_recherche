@@ -1,0 +1,41 @@
+Raytheon est une entreprise américaine qui est spécialisée principalement dans les domaines des systèmes de défense et d'électronique et dans l'aérospatiale. Elle fut fondée en 1922 à Cambridge (Massachusetts) et son siège est actuellement à Waltham (Massachusetts). En 2012, elle se classe au sixième rang mondial des ventes de matériel militaire.
+
+Histoire de Raytheon
+Un missile de croisière Tomahawk Block IV pendant un test de vol pour l'U.S. Navy NAWS China Lake, Californie (10 novembre 2002)
+Les débuts de la société
+En 1922, deux anciens colocataires du MIT Laurence K. Marshall et Vannevar Bush, avec le scientifique Charles G. Smith, créent l'American Appliance Company à Cambridge. Leur préoccupation de départ était les nouvelles technologies de réfrigération, puis bientôt l'électronique. Le premier produit de la compagnie fut un convertisseur à l'hélium fait à partir des premières recherches astronomiques de Charles Smith sur l'étoile Zeta Puppis. Le tube à électron fut nommé Raytheon ("la lumière des dieux") et fut utilisé comme un redresseur, un type de convertisseur alternatif - continu permettant de brancher une radio au courant électrique domestique au lieu de piles énormes et encombrantes et ainsi d'éliminer le coût élevé de ces piles de courte durée de vie.
+À la suite d'un litige, avec une firme du même nom en Indiana, la compagnie change de nom en 1925 pour Raytheon Manufacturing Company et commence à commercialiser son redresseur, sous la marque Raytheon, avec un grand succès commercial. En 1928, Raytheon fusionne avec Q.R.S. Company, un fabricant américain de prises électriques et de tubes à électrons, et garde son nom, Raytheon Manufacturing Company. En 1933, elle se diversifie avec l'acquisition d'Acme-Delta Company, un producteur de transformateurs, d'équipement électrique, et d'électronique pour l'automobile. Dans les années 1930, Raytheon est déjà l'une des plus grandes compagnies au monde pour la fabrication de convertisseurs.
+
+La Seconde Guerre mondiale
+Au début de la Seconde Guerre mondiale, des chercheurs britanniques inventent le magnétron, un tube à électron spécialisé qui génère des micro-ondes qui augmentent nettement les capacités des radars pour détecter les avions ennemis. Les compagnies américaines furent donc sollicitées par le gouvernement américain pour perfectionner et produire industriellement le magnétron pour équiper les systèmes de radar au sol, embarqués dans les airs et sur les mers, avec le soutien du laboratoire des radiations, récemment mis sur pied pour étudier les radars à micro-ondes, au MIT Raytheon reçut un contrat pour construire ses machines. Quelques mois après avoir eu le contrat, Raytheon a déjà commencé à construire les magnétron en série pour les radars portables et les grands systèmes. À la fin de la guerre en 1945, la compagnie était à l'origine de 80 % des magnétrons produits. Raytheon fut aussi pionnière dans la production de systèmes radars embarqués pour les bateaux, en particulier pour la détection de sous-marins.
+Les recherches de Raytheon sur le magnétron révélèrent le potentiel des micro-ondes pour préparer la nourriture. Et, en 1945, un ingénieur de Raytheon Percy Spencer inventa le four à micro-ondes en découvrant que le magnétron pouvait rapidement cuire la nourriture. En 1947, la compagnie sortit le four à micro-ondes Radarange pour un usage commercial.
+Sa taille critique dans le domaine des missiles fut atteinte à l'occasion des acquisitions des branches spécialisées de Texas Instruments et de Hughes Aircraft. Mais là ne s'arrête pas sa mainmise sur le secteur de la défense car son champ d'action touche de très nombreux segments (électronique embarquée, systèmes navals, contrôle aérien, radars, simulation, logistique).
+Toutefois, au début du millénaire, on assistait à une cession d'une partie de son empire. Ainsi l'AIS (Aircraft Interation Systems issue du rachat d'E-Systems) et Hawker Beechcraft (aviation générale) seront cédés pour renforcer sa position financière.
+
+Géant du micro-ondes
+Pour le grand public, Raytheon restera comme le créateur de la technologie des micro-ondes. En effet, l'un de ses ingénieurs, Percy Spencer (1894-1970), ayant ressenti une étrange sensation à proximité d'un radar en activité et constaté la fonte d'une barre de chocolat à l'intérieur de sa poche, il a décidé d'approfondir le sujet. Le premier aliment passant par cette voie fut le banal pop-corn et le second concernait un oeuf qui finira par exploser au visage des expérimentateurs.
+En 1946, le concept se révélant viable, Raytheon brevetait cette technologie de cuisson. L'année suivante, on assistait à la mise sur le marché du premier four à micro-ondes. Ce dernier présentait un caractère monstrueux au regard des standards actuels (1,8 m de haut, masse de 340 kg et puissance de 3 000 W). Refroidi par un circuit d'eau, sa pollution aux radiations était trois fois supérieures à celle des micro-ondes actuels.
+
+Essor des transistors
+À la suite de l'invention des transistors en 1947 par les Laboratoires Bell, Norman Krim, vice-président de Raytheon, soutient l'industrialisation de ce composant, faisant de Raytheon le leader du marché. Dans la première moitié des années 1950, Raytheon fabrique ainsi la moitié des transistors vendus dans le monde.
+Cela inclut la fabrication du CK703 (1948, premier transistor commercialisé), du CK718 (1952, premier transistor fabriqué de manière industrielle), du CK722 (1953, premier transistor accessible au grand public et destiné aux électroniciens amateurs).
+Grâce à son expérience dans cette technologie, Raytheon peut alors commercialiser des radios portatives pour un prix accessible au public, dès le milieu des années 1950.
+
+Histoire récente
+En novembre 2014, Raytheon acquiert l'entreprise américaine de cybersécurité Blackbird Technologies pour 420 millions de dollars. En avril 2015, Raytheon acquiert l'entreprise de cybersécurité Websense pour 1,9 milliard de dollars au fonds d'investissement Vista Equity Partners. En octobre 2015, Raytheon se renforce à nouveau dans la cybersécurité avec le rachat de Stonesoft, filiale finlandaise d'Intel dédiée à la sécurité informatique.
+
+Structure de la compagnie
+
+Divisions opérationnelles
+Raytheon est composée de six divisions opérationnelles principales: Integrated Defense Systems - basé à Tewksbury, Massachusetts: Australia's Air Warfare Destroyer (AWD), Joint Land-Attack Cruise Missile Defense Elevated Netted Sensor System (JLENS), Patriot Air and Missile Defense System, Terminal High Altitude Area Defense (THAAD), et le programme de Destroyer de classe Zumwalt.; Intelligence and Information Systems - basé à Garland (Texas) : Cybersecurity, ISR and environmental solutions.; Missile Systems - basé à Tucson (Arizona) : Advanced Medium-Range Air-to-Air Missile (AMRAAM), Phalanx, Standard Missile-3 (SM-3), et Tomahawk.; Network Centric Systems - basé à McKinney (Texas) : Active Protection System (APS), Joint Precision Approach and Landing System (JPALS), et Navy Multiband Terminal (NMT).; Raytheon Technical Services Company LLC - basé à Reston, Virginie; Space and Airborne Systems - basé à El Segundo, Californie: Active Electronically Scanned Array (AESA) radar, Airborne Stand-off Radar (ASTOR), AN-SPY-6 et Common Sensor Payload.
+Les divisions de Raytheon sont organisées avec un ensemble de directions internationales: Raytheon Australie; Raytheon Canada Limited; Raytheon Microelectronics en Espagne; Raytheon System Limited au Royaume-Uni; et ThalesRaytheonSystems, en France.
+
+Centres de développement stratégique
+Ces dernières années, Raytheon se développe dans de nouveaux champs d'expertise et redéfinit ses activités centrales. Raytheon a identifié quatre 'centres de profit stratégique' pour recadrer ses moyens et son expertise : Homeland Security; National missile defense; Precision Engagement; Renseignement, Surveillance, Reconnaissance (ISR); Process Improvement (Raytheon Lean6).
+
+Production d'armes à uranium
+Plusieurs brevets déposés par la compagnie Raytheon évoquent l'utilisation d'uranium appauvri dans les missiles et autres projectiles de la compagnie.
+
+Voir aussi
+
+Articles connexes: Complexe militaro-industriel des États-Unis; Usine Raytheon de Tucson; Radar AN-APG-79 produit par Raytheon; M982 Excalibur, obus produit par Raytheon.

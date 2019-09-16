@@ -1,0 +1,45 @@
+Apache Tomcat est un conteneur web libre de servlets et JSP Java EE. Issu du projet Jakarta, c'est un des nombreux projets de l'Apache Software Foundation. Il implémente les spécifications des servlets et des JSP du Java Community Process, est paramétrable par des fichiers XML et des propriétés, et inclut des outils pour la configuration et la gestion. Il comporte également un serveur HTTP.
+
+Environnement
+Tomcat est un serveur HTTP à part entière. De plus, il gère les servlets et les JSP (par un compilateur Jasper compilant les pages JSP pour en faire des servlets). Tomcat a été écrit en langage Java. Il peut donc s'exécuter via la machine virtuelle Java sur n'importe quel système d'exploitation la supportant.
+Catalina est le conteneur de servlets utilisé par Tomcat. Il est conforme aux spécifications servlet de Oracle Corporation et les JavaServer Pages (JSP). Coyote est le connecteur HTTP de Tomcat, compatible avec le protocole HTTP 1.1 pour le serveur web ou conteneur d'application. Jasper est le moteur JSP d'Apache Tomcat. Tomcat 5.x utilise Jasper 2, qui est une implémentation de la spécification JavaServer Pages 2.3 de Sun Microsystems. Jasper parse les fichiers JSP afin de les compiler en code Java en tant que servlets (gérés par Catalina). Pendant son exécution, Jasper est capable de détecter et recompiler automatiquement les fichiers JSP modifiés.
+
+État de développement
+Concepts architecturaux de Tomcat.
+Les membres de la fondation Apache et des volontaires indépendants développent et maintiennent Tomcat. Les utilisateurs ont accès au code source et aux binaires sous la Apache Software License. La première version de Tomcat était la 3.0. En 2005, la version 5.x est sortie, implémentant les servlets 2.4 et les JSP 2.0. Depuis sa version 4.x, Tomcat utilise le serveur de conteneur Catalina.
+L'architecture du logiciel se compose ainsi : Un serveur (server), soit tomcat en cours d'exécution ; Des services, intermédiaires collectant différents canaux de transmissions vers un traitement ; Un moteur (engine), qui pour chaque service traite les requêtes des collecteurs et renvoie les réponses ;.; Un moteur (engine), qui pour chaque service traite les requêtes des collecteurs et renvoie les réponses ;; Des hôtes (host), qui relient une adresse réseau avec le serveur ;; Des connecteurs (connector), qui interprètent un canal et protocole de communication réseau à disposition des clients. Le connecteur HTTP est le plus typique ;; Des contextes (context), qui sont les applications web.; Des services, intermédiaires collectant différents canaux de transmissions vers un traitement ; Un moteur (engine), qui pour chaque service traite les requêtes des collecteurs et renvoie les réponses ;.; Un moteur (engine), qui pour chaque service traite les requêtes des collecteurs et renvoie les réponses ;; Des hôtes (host), qui relient une adresse réseau avec le serveur ;; Des connecteurs (connector), qui interprètent un canal et protocole de communication réseau à disposition des clients. Le connecteur HTTP est le plus typique ;; Des contextes (context), qui sont les applications web.
+Le contexte est le lieu privilégié pour situer un service informatique que l'on veut rendre sur un réseau. Les autres modules sont mis en oeuvre par le logiciel Tomcat lui-même.
+
+Principe de fonctionnement
+Tomcat est souvent utilisé en association avec un autre serveur web plus généraliste, en général Apache, mais ce peut être aussi IIS : Le serveur web s'occupe des pages web traditionnelles (.html, php par exemple); Il délègue à Tomcat les pages relevant spécifiquement d'une application web Java (Servlet, JSP...).
+On peut utiliser le module mod jk pour réaliser la communication entre Apache et Tomcat. Techniquement, Apache communique alors avec Tomcat sur le port 8009 (via le protocole ajp13).
+Pour l'administration à distance, Tomcat inclut des applications accessibles par HTTP.
+
+Arborescence de répertoires
+L'installation par défaut de Tomcat comprend les répertoires suivants : bin : scripts et exécutables pour différentes tâches comme le démarrage et l'arrêt, notamment le fichier catalina.sh qui permet le lancement et l'arrêt du serveur tomcat.; common : classes communes que Catalina et les applications Web utilisent.; conf : fichiers de configuration au format XML et les DTD que ces fichiers XML utilisent.; lib : le répertoire contenant les bibliothèques logicielles (fichiers.jar).; logs : journaux des applications Web et de Catalina, notamment le fichier catalina.out.; server : classes utilisées seulement par Catalina.; shared : classes partagées par toutes les applications Web.; webapps : répertoire contenant les applications web (fichiers.war).; work : fichiers et répertoires temporaires (le cache).
+
+Historique
+Le projet Tomcat a été lancé comme implémentation de référence des servlets par James Duncan Davidson, architecte logiciel chez Sun. Il a contribué à rendre le projet libre et a joué un rôle majeur dans sa donation par Sun à la fondation Apache.
+Davidson aspirait dès le départ à rendre le projet libre. Comme la plupart des projets libres sont associés à un livre O'Reilly avec un animal en couverture, il a souhaité donner un nom d'animal au projet. Il a choisi le nom Tomcat ("matou") car cet animal représentait quelque chose qui peut prendre soin de lui-même. Son souhait de voir une couverture d'animal s'est finalement concrétisé lorsque O'Reilly a publié un livre sur Tomcat avec un félin en couverture.
+Bien qu'étant une implémentation de JEE moins complète que la plupart de ses concurrents, et même grâce à cette légèreté, Tomcat domine rapidement le marché des serveurs Java. Il représentait en 2014 la moitié des utilisations de tels serveurs, loin devant JBoss et Jetty. En 2016, son utilisation baisse à 42%
+
+Fonctionnalités des versions
+
+Tomcat 3.x (version initiale): implémente les spécifications Servlet 2.2 et JSP 1.1 ;; rechargement des servlets ;; fonctionnalités HTTP de base.
+
+Tomcat 4.x: implémente les spécifications Servlet 2.3 et JSP 1.2 ;; nouveau conteneur de servlets Catalina ;; nouveau moteur JSP Jasper ;; connecteur Coyote ;; Java Management Extensions (JMX), JSP et administration Struts.
+
+Tomcat 5.x: implémente les spécifications Servlet 2.4 et JSP 2.0 ;; ramasse-miettes réduit, performances et extensibilité améliorées ;; wrappers natifs Windows et Unix ;; analyse JSP plus rapide.
+
+Tomcat 6.x: implémente les spécifications Servlet 2.5 et JSP 2.1 ;; support de Java 5 ;; amélioration de l'utilisation mémoire.
+
+Tomcat 7.x: implémente les spécifications Servlet 3.0, JSP 2.2 et EL 2.2;; support de Java 6 ;; amélioration de la détection et de la prévention des fuites de mémoire; mode hébergé simplifié.
+
+Tomcat 8.x: implémente les spécifications Servlet 3.1, JSP 2.3, EL 3.0 et WebSocket 1.0;; support de Java 7 ;; amélioration des performances: la version par défaut des connecteurs est désormais basée sur des entrées-sorties Java non bloquantes (Asynchronous I-O) à la place des versions bloquantes (Blocking I-O); amélioration de la sécurité.
+
+Tomcat 9.x
+Sont annoncés par la fondation Apache : implémente Servlet 4.0 et WebSocket 1.1; support de Java SE 8 et +.; Améliorations de la stabilité de nombreuses API (javax, EL 3.0, Jasper 2, JSP 2.3...).
+
+Voir aussi
+
+Articles connexes: Apache HTTP Server : autre logiciel serveur HTTP; WAR (format de fichier) : Le type de fichier utilisé pour déployer une application; JOnAS : ce produit inclut un tomcat.

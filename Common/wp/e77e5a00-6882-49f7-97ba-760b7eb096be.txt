@@ -1,0 +1,55 @@
+En télécommunications, le signal transportant une information doit passer par un moyen de transmission entre un émetteur et un récepteur. Le signal est rarement adapté à la transmission directe par le canal de communication choisi, hertzien, filaire, ou optique. La modulation peut être définie comme le processus par lequel le signal est transformé de sa forme originale en une forme adaptée au canal de transmission, par exemple en faisant varier les paramètres d'amplitude et d'argument (phase-fréquence) d'une onde sinusoïdale appelée porteuse. Le dispositif qui effectue cette modulation, en général électronique, est un modulateur (voir modem). L'opération inverse permettant d'extraire le signal de la porteuse est la démodulation.
+Cette page permet de classifier les divers types de modulation, objets d'articles détaillés disponibles, en résumant leurs usages et principes.
+
+Introduction
+
+But
+La modulation et la démodulation sont deux étapes dans la communication d'une information entre deux utilisateurs. Par exemple, pour faire communiquer deux utilisateurs de courriels par une ligne téléphonique, des logiciels, un ordinateur, des protocoles, un modulateur et un démodulateur sont nécessaires. La ligne téléphonique est le canal de transmission, sa bande passante est réduite, il est affecté d'atténuation et de distorsions. La modulation convertit les informations binaires issues des protocoles et des logiciels, en tension et courant dans la ligne. Le type de modulation employé doit être adapté d'une part au signal (dans ce cas numérique), aux performances demandées (taux d'erreur), et aux caractéristiques de la ligne.
+La modulation permet donc de translater le spectre du message dans un domaine de fréquences qui est plus adapté au moyen de propagation et d'assurer après démodulation la qualité requise par les autres couches du système.
+Le but des modulations analogiques est d'assurer la qualité suffisante de transmission d'une information analogique (voix, musique, image) dans les limites du canal utilisé et de l'application.
+Le but des modulations numériques est d'assurer un débit maximum de données binaires, avec un taux d'erreur acceptable par les protocoles et correcteurs amont et aval. Dans l'empilement des protocoles OSI (architecture standard des télécommunications numériques), la modulation est l'élément principal de la couche physique.
+Un modem est un ensemble modulateur et démodulateur combiné permettant une liaison bidirectionnelle.
+
+Exemples
+La première modulation fut la coupure d'amplitude par tout-ou-rien, inventée par Samuel Morse pour les liaisons télégraphiques filaires, mais de même que la transmission directe de la voix par un fil téléphonique, ce ne sont pas à proprement parler des modulations puisque le courant dans le fil est simplement l'image de la sortie du microphone ou du manipulateur.
+À la découverte des ondes radio, la modulation d'amplitude de l'onde porteuse fut le premier système utilisé, soit en radiotélégraphie (CW), soit en radiotéléphonie (AM). Les premières transmissions de télévision étaient également en AM, complétées ensuite par des méthodes de réduction de bande (réduction d'une bande latérale) puis par l'adjonction d'une sous-porteuse de transmission de la couleur.
+Les émissions de la bande "FM" utilisent la modulation de fréquence pour la voie monophonique et une sous-porteuse pour la transmission du son stéréophonique et des données "RDS".
+Les modems des réseaux domestiques ou professionnels combinent des modulations analogiques et numériques d'une sous-porteuse pour acheminer les données.
+
+Systèmes de modulation
+Quand plusieurs informations ou signaux indépendants passent dans un même canal, en utilisant diverses modulations ou sous-porteuses, on parle de "système de modulation".
+Ainsi en télévision, le son est transmis par la modulation d'amplitude d'une première porteuse, l'image par modulation d'amplitude à bande latérale réduite sur une porteuse principale, et la composante couleur par modulation de fréquence ou de phase d'une sous-porteuse. On parlera alors de système PAL par exemple
+
+Multiplexage
+Le processus de modulation peut inclure des transmissions multiplexées à travers un moyen de propagation commun, c'est-à-dire des transmissions simultanées de messages différents ayant des spectres disjoints durant la propagation.
+Un des types de multiplexage est le multiplexage par division de fréquence, processus dans lequel chaque message module une porteuse haute-fréquence, et toutes les porteuses sont transmises simultanément à travers le même médium.
+Un exemple de multiplex est la transmission de télévision analogique satellitaire : chaque canal est modulé en fréquence par le signal vidéo, celui-ci contenant à la fois une sous-porteuse du système couleur (PAL en Europe) et un multiplex des sous-porteuses des divers programmes de son TV et radios.
+
+Codification
+Les sigles internationaux tels qu'utilisés dans les normes et agences des fréquences sont utilisés dans ce qui suit. Certains sigles français équivalents existent et sont indiqués.
+
+Modulations analogiques
+un signal audio modulant en AM ou FM une porteuse.
+En modulation analogique, la modulation est appliquée à la porteuse ou aux sous-porteuse proportionnellement au signal à transmettre, en modifiant l'amplitude ou l'argument de l'onde sinusoïdale.
+
+Modulations d'amplitude: Modulation d'amplitude à deux bandes latérales (AM). 1) La modulation d'amplitude issue directement de la multiplication de l'onde porteuse par le signal (Double Side Band) est constituée spectralement de la porteuse (de fréquence fC), encadrée par deux bandes latérales (fC-fM, fC+fM) reproduisant le spectre décalé du signal. C'est la modulation la plus simple, utilisée couramment en radiodiffusion GO, PO et OC; 2) Pour augmenter l'efficacité en puissance de l'émission, la porteuse peut être éliminée grâce à un modulateur équilibré, c'est la DSB-SC (suppressed carrier double sideband), modulation d'amplitude à porteuse supprimée, peu utilisée sauf en multiplex de deux bandes latérales indépendantes.; 3) La DSB-SC ne permet pas de restituer la phase du signal, il faut une porteuse résiduelle pour restituer exactement la porteuse à la démodulation : c'est le but de la DSB-RC (reduced carrier double sideband), modulation d'amplitude à porteuse réduite. Modulation d'amplitude à bande latérale unique (BLU). 1) La modulation à bande latérale unique (BLU ouSSB) correspond à une modulation d'amplitude dont seule une bande latérale, supérieure ou inférieure est conservée, elle est appelée BLS (USB) ou BLI (LSB) selon la bande transmise. La BLU est utilisée en radiotéléphonie HF et VHF et en modulation de multiplex hertziens.; 2) Pour permettre la restitution de phase du signal, une porteuse résiduelle est ajoutée en SSB-RC (bande latérale unique à porteuse réduite).; 3) En modulation à bande latérale réduite (VSB) une des bandes latérales est tronquée pour réduire l'occupation spectrale, tout en permettant la transmission de la composante continue du signal : c'est la modulation utilisée en télévision hertzienne (terrestre).
+
+Modulations angulaires (ou d'argument)
+Les modulations de fréquence et de phase modifient l'argument (ou angle) de l'onde sinusoïdale. L'onde résultante garde une amplitude constante, permettant d'utiliser des amplificateurs non linéaires et diminuant l'influence des perturbations additives (bruit impulsions et interférences). 1) La modulation de fréquence (FM) permet de restituer la composante continue du signal, elle est utilisée en radiodiffusion haute fidélité (bande "FM"), en diffusion de télévision par satellite, et en transmission analogique d'images (radiofacsimilé, SSTV).; 2) La modulation de phase (PM) est utilisée en radiotéléphonie VHF et UHF. Une modulation de phase précédée d'un filtrage étant équivalente à une modulation de fréquence, c'est aussi une autre façon de moduler en fréquence en radiotéléphonie.
+
+Modulations analogiques multiples
+De nombreux schémas complexes combinant des modulations analogiques ont été développés pour des besoins précis. Ainsi la modulation analogique de deux porteuses en quadrature est utilisée pour la transmission des composantes de couleur sur la sous-porteuse du systèmes PAL, ou la modulation simultanée en phase et amplitude dans le système NTSC.
+
+Modulations numériques
+En modulation numérique, les paramètres de la porteuse, amplitude ou angle (argument), sont commutés entre plusieurs valeurs discrètes selon les codes binaires à transmettre.
+
+Modulations élémentaires: La modulation en tout-ou-rien (OOK (en): On Off Keying) avec des durées variables est celle qui est utilisée en télégraphie (code Morse). Elle est aussi appelée pour des raisons historiques CW. Elle est particulièrement adaptée à la reconnaissance auditive par un opérateur. Dans le cas où cette modulation est effectuée à la main, on parle aussi de manipulation.; En modulation par commutation d'amplitude (ASK ou Amplitude-shift keying), l'amplitude est commutée entre plusieurs valeurs discrètes.; En FSK (ou Frequency-shift keying) et en PSK (ou Phase-shift keying) ce sont respectivement la fréquence et la phase qui sont commutées.; En APK (ou QAM), la phase et l'amplitude prennent différentes valeurs discrètes.
+Selon le nombre de niveaux possibles, on ajoutera un chiffre devant le code : ainsi un 8xPSK correspond a la commutation entre 8 valeurs de phase, permettant de transmettre des mots de 3 bits (8 valeurs) à chaque temps de commutation.
+
+Modulations complexes
+Des combinaisons plus complexes sont utilisées pour optimiser le débit vis-à-vis de la bande passante. Ainsi, la combinaison de deux modulations d'amplitude et de phase simultanément sur une même porteuse permet de doubler le débit binaire. Les appellations sont complexes et nombreuses combinant un chiffre définissant le nombre d'états possibles et les lettres des modulations individuelles utilisées. Par exemple le 8xQPSK comporte 8 états (2) et permet de transmettre 3 bits simultanés par modulation de deux porteuses en quadrature.
+Des cas particuliers sont fréquemment utilisés pour obtenir certains avantages précis : ainsi le MSK ou minimum shift keying est une modulation numérique de fréquence d'indice de modulation précis et de largeur spectrale minimale.
+Si une sous-porteuse est modulée puis module ensuite une porteuse, les appellations se compliquent encore : Ainsi AFSK est une modulation de fréquence d'une sous-porteuse. Une modulation AFSK-PM combine la modulation de phase d'une porteuse par une sous-porteuse modulée en fréquence.
+Un autre type de modulation complexe est l'OFDMA, utilisée dans les dernières générations de réseaux mobile, qui combine le multiplexage en fréquence (milliers de sous-porteuses orthogonales), le multiplexage temporel, et la modulation indépendante de chaque sous porteuse en QPSK ou en QAM.
+
+Voir aussi: Couche physique; Pile de protocoles; Radiotéléphonie; Télévision; Débit de symboles.

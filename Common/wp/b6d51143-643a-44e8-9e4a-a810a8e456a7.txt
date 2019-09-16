@@ -1,0 +1,23 @@
+Le protocole d'exclusion des robots est une ressource de format texte qui peut être placée à la racine d'un site web, et qui contient une liste des ressources du site qui ne sont pas censées être indexées par les robots d'indexation des moteurs de recherche. Par convention, les robots consultent robots.txt avant d'indexer un site Web. Sur le serveur Web, cette ressource est fréquemment enregistrée dans un fichier texte appelé robots.txt.
+
+Usages
+L'usage de robots.txt permet d'éviter que des ressources sans intérêt public se retrouvent dans la page de résultats d'un moteur de recherche. En outre, le fait que les robots n'accèdent pas à ces ressources allège le travail du serveur HTTP et le trafic sur le réseau informatique.
+Il est important de comprendre qu'il ne s'agit là que d'une indication sur ce que doivent faire les robots bienveillants, ce n'est en aucun cas un élément de sécurité. En effet, certains robots ignorent ce fichier, soit délibérément parce qu'ils cherchent des informations privées (des adresses électroniques par exemple, pour y envoyer du courrier indésirable), soit parce que le robot est trop simple pour gérer ce standard.
+De manière facultative, ce fichier peut contenir l'adresse d'un plan du site dédié aux moteurs de recherche appelé "sitemap" dont le format est le XML.
+
+Exemples
+Autoriser tous les robots à accéder au site :
+User-agent: -
+Disallow:
+Interdire l'accès au site à tous les robots :
+User-agent: -
+Disallow: -
+Pour interdire à tous les robots, sauf Googlebot, l'accès à un dossier en particulier, par exemple http:--example.org-forum-.
+User-agent: -
+Disallow: -forum
+
+User-agent: googlebot
+Disallow:
+Voir aussi
+
+Articles connexes: Robot d'indexation; Humans.txt.

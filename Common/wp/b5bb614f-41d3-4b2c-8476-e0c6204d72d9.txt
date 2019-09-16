@@ -1,0 +1,3 @@
+Une droite vectorielle (ou plus simplement une droite) est un espace vectoriel D, sur un corps K, de dimension 1. Autrement dit, D est un espace vectoriel engendré par un seul vecteur non nul.
+Tout vecteur non nul v de D forme une base de D : D - K v (-displaystyle D--mathbf (K) v).
+Par exemple, le corps K est lui-même une droite vectorielle sur K. Comme les K-espaces vectoriels sont classifiés par leur dimension, toute droite vectorielle est isomorphe à K. Un isomorphisme explicite est ici donné par la multiplication de v par un scalaire : K D v. (-displaystyle (-begin(matrix)-mathbf (K) -rightarrow D---lambda -mapsto -lambda v-end(matrix))-,.).

@@ -1,0 +1,30 @@
+Semantic MediaWiki est une extension du logiciel MediaWiki, qui permet d'ajouter des annotations sémantiques aux pages d'un wiki. Les annotations qui ont été ajoutées peuvent ensuite être utilisées pour réaliser des recherches sémantiques, pour agréger des pages entre elles, structurer leur contenu de différentes manières, par exemple, sur un plan géographique, un calendrier, un graphe, ou enfin exporter ces données pour qu'elles puissent être consommées par des applications tierces, avec entre autres, les formats de sérialisation de RDF, CSV...
+
+Auteurs
+Semantic MediaWiki a été initialement créé par Markus Krötzsch, Denny Vrandečić et Max Völkel. La première version est sortie en 2005. Aujourd'hui, bien que Krötzsch et Vrandečić restent les premiers contributeurs, l'extension possède plus de 30 développeurs, et est partiellement financée par l'institut AIFB de l'université de Karlsruhe.
+
+Syntaxe de base
+Semantic MediaWiki permet de définir deux types de données : les relations, liant une page à une autre,; les attributs, spécifiant une donnée d'une page.
+Toutes les annotations utilisent comme structure de base un triplet "sujet, prédicat, objet".
+Par exemple, une page à propos de Paris peut contenir le fait qu'il s'agisse de la capitale de la France, information encodée à l'aide de cette syntaxe :
+qui aurait donc un sens équivalent à "Paris" "est la capitale de la" "France".
+Des données comme la population de Paris peuvent aussi être encodées, à l'aide d'une syntaxe identique :
+qui aurait donc un sens équivalent à "Paris" "a une population de" "2 101 816". La différence entre relations et attributs se fait sur la page définissant la propriété.
+Ainsi, en utilisant les outils de Semantic MediaWiki permettant d'exécuter certaines requêtes, une page peut être créée, listant toutes les villes dont la population dépasse 2 millions d'habitants. Paris apparaîtrait dans une telle liste, de façon automatique (au côté d'autres villes comme Berlin, etc.).
+
+Utilisation
+L'extension Semantic MediaWiki est utilisée par près de 1 800 wikis publics et actifs, sans compter un nombre inconnu de wiki privés.
+
+Wikis publics
+Parmi les wikis publics les plus notables on trouve, le wiki de Metacafe, de SNPedia, Metavid, MetaBase, le Math Images Project, la Sunlight Foundation, ou la "Chickipedia" de Break.com. Et dans la langue de Molière Domotiki.eu
+
+Wikis privés
+Semantic MediaWiki est utilisé par un nombre indéterminé d'entreprises, d'administration et d'organisations. On peut néanmoins citer le département RD de Johnson et Johnson ainsi que l'université de médecine de Duke aux États-Unis.
+
+Sous-produits et extensions
+Il existe diverses extensions open-source pour MediaWiki qui utilisent les données fournies par SMW. Les plus connues sont : Semantic Forms - Permet d'utiliser des formulaires créés par les utilisateurs pour ajouter et éditer des pages qui utilisent des annotations sémantiques. Semantic Forms fournit les classiques boîtes combo, checkboxes, radio boutons, zone de texte avec auto-complétion pour permettre de restreindre et-ou proposer des valeurs aux utilisateurs; Semantic Result Formats - Propose un large éventail de formats pour représenter des données sémantiques (graphes, calendriers, fonctions mathématiques...); Semantic Maps - Affiche des points d'intérêt sur une carte, en fonction de données sémantiques géographiques, avec l'aide de services de cartographies en ligne dont OpenStreetMap.
+
+Communauté
+Les utilisateurs et développeurs de SMW ont organisé trois évènements officiels jusqu'à la date d'écriture: Une réunion entre utilisateurs à Cambridge (Massachusetts) en novembre 2008.; Une rencontre plus informelle à Stanford (Californie), en mars 2009.; Le "SMW Camp", qui a duré deux jours a Karlsruhe (Allemagne), en novembre 2009.; Des conférences bisannuelles ont lieu au printemps sur le continent américain, à l'automne sur le continent européen.
+
+Articles connexes: Wiki sémantique; Web sémantique.

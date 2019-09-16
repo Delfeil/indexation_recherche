@@ -1,0 +1,12 @@
+Un jeu de données (en anglais dataset ou data set) est un ensemble de valeurs (ou données) où chaque valeur est associée à une variable (ou attribut) et à une observation. Une variable décrit l'ensemble des valeurs décrivant le même attribut et une observation contient l'ensemble des valeurs décrivant les attributs d'une unité (ou individu statistique).
+
+Forme d'un jeu de données
+Un jeu de données peut avoir une structure tabulaire, par exemple un fichier CSV, une structure d'arbre, comme dans un fichier JSON ou XML, ou encore une structure de graphe, comme dans le RDF.
+Lorsque les données sont tabulaires, en principe, chaque ligne correspond à une observation et chaque colonne à une variable.
+
+Typologie
+En statistiques et en économétrie, on distingue les séries temporelles (ou série chronologique) dans lesquelles on observe une unité statistique à différentes périodes, les données en coupe pour lesquelles on observe plusieurs unités statistiques pour une période donnée et les données de panel pour lesquelles on observe plusieurs unités statistiques à différentes périodes.
+
+Exemples: Le fichier Fantoir est un jeu de données rassemblant l'ensemble des voies, des lieux-dits et des ensembles immobiliers en France.; Le quartet d'Anscombe est un ensemble de jeux de données artificiels créés par Francis Anscombe pour montrer l'importance de la visualisation de données.; Le Penn World Table est un jeu de données permettant des comparaisons internationales du produit intérieur brut réel.; Le jeu de données Iris.
+
+Articles connexes: Donnée (statistique); Donnée (informatique); Structure de données; Base de données; Format de données; Traitement de données; Visualisation de données. Portail de l'informatique; Portail des probabilités et de la statistique; Portail des bases de données.

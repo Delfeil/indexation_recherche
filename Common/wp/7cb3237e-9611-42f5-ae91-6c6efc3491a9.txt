@@ -1,0 +1,16 @@
+En mathématiques, un espace gradué est un espace vectoriel ou plus généralement un groupe abélien muni d'une décomposition en somme directe de sous-espaces, indexée par un ensemble d'entiers (naturels ou relatifs) ou par un groupe cyclique. Une graduation est la donnée d'une telle décomposition.
+Une graduation facilite souvent les calculs, notamment en algèbre homologique, en ne travaillant qu'avec des éléments homogènes en chaque degré, ce qui permet par exemple de se ramener dans bien des cas à des espaces de dimension finie.
+Le gradué associé à une filtration est l'espace obtenu comme somme des quotients de termes consécutifs.
+La graduation peut être compatible avec d'autres structures, comme la multiplication dans une algèbre graduée, ou la différentielle dans un complexe de chaines.
+
+Vocabulaire
+Étant donné un espace gradué: E - i E i , (-displaystyle E--bigoplus -(i)E-(i)-,,).
+tout élément x (-displaystyle x) de E (-displaystyle E) se décompose de manière unique comme une somme finie d'éléments x i (-displaystyle x-(i)) appelées composantes et appartenant chacune à l'espace E i (-displaystyle E-(i)) correspondant.
+Un élément (non nul) d'un espace gradué est dit homogène s'il n'a qu'une composante non nulle. L'indice i (-displaystyle i) correspondant est appelé le degré.
+
+Gradué associé à une filtration
+Étant donné une filtration croissante (F i) (-displaystyle (F-(i))) d'un groupe abélien, le gradué associé s'écrit : E - i F i - F i 1 (-displaystyle E--bigoplus -(i)F-(i)-F-(i-1)).
+Le gradué associé à une filtration décroissante (F i) (-displaystyle (F-(i))) s'écrit : E - i F i 1 - F i (-displaystyle E--bigoplus -(i)F-(i-1)-F-(i)).
+
+Article connexe
+Algèbre différentielle graduée (en): Portail de l'algèbre.

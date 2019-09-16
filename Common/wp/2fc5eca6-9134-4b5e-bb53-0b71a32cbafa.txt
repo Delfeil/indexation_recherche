@@ -1,0 +1,25 @@
+L'avionique est l'ensemble des équipements électroniques, électriques et informatiques qui aident au pilotage des aéronefs et des astronefs dans l'espace aérien ou extraplanétaire dont les conditions de pression, température, humidité sont inhabituelles pour les systèmes électriques, électromécaniques et informatiques classiques.
+
+Enjeux
+
+Enjeux d'aide au pilotage
+Ils concernent autant la facilité à piloter de gros avions, ou en situation complexe que les gains que peuvent apporter l'avionique aux compagnies.
+
+Enjeux de sûreté
+L'avionique et ses systèmes d'automates temporisés ou fonctionnant en "temps réel" doivent être source de sécurité de deux points de vue; du point de vue de l' immunité de l'avionique, et de son innocuité selon Laarouchi). La mémorisation (via la "boite noire" notamment) permet l'analyse de défaillance et l'amélioration des systèmes. Les enjeux de sécurité en vol ont fait l'objet de nombreux travaux de recherche, d'interopérabilité, de modélisation et d'évaluation (notamment basée sur les retours d'expérience et l'analyse des risques
+Elle doit aussi parallèlement limiter sa vulnérabilité et améliorer la vérifiabilité de son opérationnalité ainsi que sa résilience des systèmes (par la redondance des systèmes de secours) ou la résolution rapide de problèmes liés par exemple aux parasites et décharges électromagnétiques, dans un contexte technique changeant avec des avions de ligne toujours plus gros et plus rapides où l'on tend à passer d'équipements électriques embarqués fonctionnant à faibles tensions (115V AC et 28V DC) à des sysèmes fonctionnant à des tensions plus élevées. Ces systèmes doivent aussi être insensibles aux virus informatiques ou tentatives malveillantes d'intrusion.
+
+Les éléments de l'avionique
+Ce sont notamment : les supports de radiocommunication aéronautique et de manière générale les systèmes de communication (UHF, VHF, HF) utilisés entre l'avion et la terre, entre avions, ou entre différents éléments de l'avion (capteurs, sondes...); les systèmes de navigation (TACAN, VOR, GPS, centrale à inertie, etc.) et les logiciels embarqués, dits "enfouis" (embedded software) de plus en plus conçus comme des entités autonomes capables de remplir de manière asynchrone des missions indépendantes (éventuellement critique), sans intervention humaine, en réponse et interaction directe avec l'environnement intérieur et-ou extérieur (environnement physique ou informatique) ;; les radars (anti-collision, météo, ou les radars de détection pour les avions militaires); le pilote automatique; l'ILS (système électronique permettant l'atterrissage par mauvais temps).; les systèmes de génération et distribution électrique; les contrôles de vol à commande électrique et électronique; les instruments de navigation, de contrôles moteur, et de paramètres de vol.
+Dans les avions modernes (Airbus A320, Boeing 777, Mirage 2000, F-16, etc.), l'avionique comprend également des commandes de vol électriques : ce système commande les surfaces d'action (volets, ailerons, etc.) de l'avion en fonction des demandes du pilote, selon des lois mathématiques de pilotage et en tenant compte des capacités de l'avion.
+Par analogie avec les pratiques de l'aéronautique, l'avionique regroupe tout ce qui est électrique, électronique, puissance, numérique, logiciel, capteurs et actionneurs à bord.
+
+Tendances et prospective
+Depuis le début de l'aviation l'avionique tend à sécuriser le vol, puis à se substituer si nécessaire ou quand celui-ci le désire au pilote, ce que permet l'avionique modulaire intégrée, par exemple développée par l'ONERA en France
+Une standardisation des méthodes de modélisation, de test de mise à l'épreuve et de vérifications, etc. rejoint la standardisation de l'interopérabilité informatique, qui continue à se faire dans le cadre du contrôle international du risque aérien
+Les engins doivent être plus silencieux et plus économes en énergie ; l'équivalent des smartgrids se développe dans le domaine de l'avionique qui évolue vers l'intégration de nombreux logiciels enfouis dans les systèmes embarqués distribués et vers une approche de type intelligence ambiante et une capacité de gestion du big data
+Des interfaces homme-machine améliorées, sécurisées et multimodales développées pour l'avionique pourraient aussi demain bénéficier à de nombreux domaines (du domaine militaire à celui de l'aide aux handicapés en passant par la commande vocale).
+
+Voir aussi
+
+Articles connexes: Liste des Instruments de bord; Avionique modulaire intégrée; Loi de Paschen; Tension de claquage et Isolation électrique; Architecture distribuée; Logiciels enfouis; Gyroscope.

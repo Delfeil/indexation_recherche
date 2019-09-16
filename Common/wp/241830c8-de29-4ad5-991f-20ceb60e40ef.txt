@@ -1,0 +1,18 @@
+Les données de référence, aussi appelées données maîtres ou en anglais master data, sont des données partagées par l'ensemble des processus qui soutiennent l'activité courante d'une entreprise (ou plus généralement d'une organisation) et ses prises de décision.
+Ces données sont utilisées tant dans les applications opérationnelles (effectuant les différentes opérations courantes) que dans les applications de support (création-production de rapports, etc.).
+
+Typologies des données de référence
+Les typologies de données de référence sont variables selon les entreprises ou les organisations. Dans une entreprise commerciale, on trouvera généralement les types de données suivants : Configuration des produits et services ;; Organisation (unités, filiales, partenaires), et employés ;; Tiers : Clients ;; Fournisseurs ;.; Clients ;; Fournisseurs ;; Parc installé en clientèle ;; Structure des plans comptables.
+
+Gestion des données de référence
+Les données de référence sont en général partagées entre plusieurs applications en même temps. Garantir la pérennité, l'unicité, l'intégrité et la fiabilité de ces données est donc une tâche critique qui fait l'objet d'une discipline de l'informatique : la gestion des données de référence ou MDM (Master Data Management).
+Les données de référence peuvent être classées de manière hiérarchique (catalogue de produits, plan comptable, découpe géographique en continent, pays et zone géographique) et liées les unes aux autres (produits acceptables pour un client donné, lien entre un fournisseur et une rubrique du schéma comptable, etc.). Il ne faut pas les confondre avec les métadonnées, qui sont des données à propos des données.
+Disposer d'une gestion des données de référence dans laquelle ces données sont partagées de façon optimale permet d'augmenter la résilience du système d'information. La gestion des données de référence est considérée comme une des trois briques du système d'information durable.
+
+Exemple illustratif : données opérationnelles, référentielles et métadonnées
+Considérons une application de facturation chez un fournisseur de matériel de bureau. Cette application utilise différents types de données : la liste des articles achetés par le client ainsi que la quantité de chaque article. Cette liste varie à chaque commande en fonction de ce dont le client a besoin. Ce sont donc des données qui varient à chaque transaction-opération, donc des données opérationnelles ;; le nom, l'adresse de facturation-livraison du client, le numéro et la description des articles sont des données qui varient peu avec le temps (l'adresse ne change que quand le client déménage) et qui ne dépendent pas de la transaction (le nom du client sera le même sur toutes ses commandes) qui sont critiques à l'opération de facturation (sans elles, impossible de créer une facture ou de l'envoyer). Elles peuvent être organisées par des relations hiérarchiques (l'adresse se trouve dans une ville, qui se trouve dans une zone géographique, qui se trouve dans un pays, qui se trouve dans un continent) ou liées à d'autres données (liste des articles achetables pour les clients français, mais pas par les clients allemands). Ce sont donc des données de référence.
+L'utilisation de ces données de référence est distribuée dans l'entreprise puisque les données de référence sur les produits offerts par l'entreprise sont aussi utilisées par l'application de gestion des stocks et celle de commande (sur Internet par exemple). De même, les données sur les clients sont utilisées par des applications de gestion des contentieux (SAV), de livraison, etc.
+
+Voir aussi
+
+Articles connexes: Gestion des données de référence; Vidéo sur la gouvernance des référentiels de données.

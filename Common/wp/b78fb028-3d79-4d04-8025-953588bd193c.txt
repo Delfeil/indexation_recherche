@@ -1,0 +1,50 @@
+Le stockage désigne l'action de stocker, de mettre en stock.
+
+Matières Stockées
+
+Stockage de liquide
+
+Types de contenus
+Les produits de stockages liquides accueillent des contenus de compositions diverses qui ont généralement une base aqueuse.
+Par définition, l'eau en fait partie sous différents degrés de pureté (Eau potable, Eaux usées...).
+Certains déchets retrouvés dans les industries, le BTP ou encore l'agriculture doivent également être stockés pour supprimer les risques de pollution qu'ils représentent. On y retrouve les lixiviats, digestat ; effluents industriels ou agricoles mais aussi les boues d'épurations. Ces différents éléments sont généralement traités puis rejetés dans la nature ou bien réutilisés dans le cadre d'activités agricoles en tant qu'engrais.
+
+Utilisation
+Le stockage des liquides a des objectifs différents qui dépendent du contenu stocké :
+On peut stocker un liquide : pour stabiliser sa composition. pour attendre sa stabilisation; temporairement, en attente de traitement.
+
+Moyens de stockages
+Citernes (Voir Citerne, Citerne souple et Cuves)
+
+Stockage de solide
+
+Types de stockage
+Par stockage on peut entendre :
+
+Agricole: Stockage des pommes de terre; Stockage des céréales; Stockage du vin: Cave à vin.
+
+Énergie: Stockage d'énergie; Stockage du pétrole et du gaz; Unité flottante de stockage et de déchargement; Stockage d'hydrogène; Stockage Dihydrogène: voir Dihydrogène; Méthode de stockage de liquides cryogéniques; Stockage de l'électricité: Voir Électricité.
+
+Climat - Effet de serre: Stockage du carbone : On parle de puits de carbone (le "lieu" de capture et stockage plus ou moins long et stable du carbone).
+Depuis les années 1990 surtout, on parle aussi d'actions visant à augmenter le stockage, Séquestration du dioxyde de carbone et Séquestration géologique du dioxyde de carbone, par capture, et piégeage du carbone (en tant que CO2 et gaz à effet de serre susceptible de mettre les équilibres climatique en péril).
+Les concepts de stockage et séquestration font plutôt référence à des "réservoirs et des mécanismes naturels" ou semi-naturels (sols prairiaux et agricoles par exemple, et la notion de séquestration est souvent associée à l'idée d'augmentation des capacités naturelles de stockage du carbone), alors que ceux de "piégeage" et "capture" évoquent "des technologies visant à créer des réservoirs artificiels". Tous ces concepts sont étudiés par le GIEC dans ses rapport.
+
+Physique des particules: Anneau de stockage.
+
+Astronautique: Plateforme de stockage externe.
+
+En informatique: Stockage d'information; Réseau de stockage SAN; Stockage en réseau NAS; Baie de stockage.
+
+Centre de stockage: Entreposage libre-service; Garde-meuble.
+
+Énergie: Société mahoraise de stockage des produits pétroliers.
+
+Déchets: Centre d'enfouissement : voir Enfouissement; Stockage des déchets radioactifs en couche géologique profonde; Centre de stockage de l'Aube; Centre de stockage de Morvilliers; Centre de stockage de la Manche; Centre de stockage des déchets ultimes.
+
+Conteneur: Bac de stockage : voir Bac; Baril; Camion-citerne; Citerne Souple.
+
+Agricole: Silo (stockage).
+
+Énergie: Gazomètre.
+
+Informatique: Disque dur; Disquette; Cassette (support de stockage).

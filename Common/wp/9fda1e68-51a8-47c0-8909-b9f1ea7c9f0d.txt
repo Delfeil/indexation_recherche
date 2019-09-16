@@ -1,0 +1,25 @@
+L'acronyme ADELE (Administration électronique), était utilisé pour communiquer sur les travaux menés par l'Agence pour le développement de l'administration électronique (ADAE) qui était un service gouvernemental français, intégré depuis 2005 dans la Direction générale de la modernisation de l'État.
+
+Initiatives
+L'ensemble des sujets que couvre l'administration étant trop vaste pour être géré d'un seul tenant, il a été nécessaire de segmenter en thématiques correspondant à des portefeuilles de projets ayant une cohérence.
+Les initiatives sont de trois types : les initiatives du socle commun ;; les initiatives relatives aux nouveaux services ;; les initiatives sectorielles correspondant à des fonctions spécifiques de chaque ministère.
+Exemples d'initiatives : archivage électronique ;; identité numérique ;; données géographiques.
+
+Plate-forme de développement
+Le module ADELE 128 est une plate-forme technique pour le développement collaboratif, plus connue sous le nom d'Admisource.
+L'objectif de cette plate-forme est de favoriser la capitalisation des savoir-faire et la mutualisation des initiatives pour le développement des systèmes d'information dans les administrations.
+La plate-forme collaborative de services destinés aux organismes publics, vise le développement des composants logiciels réutilisables et des méthodes concourant au déploiement des systèmes d'information de l'administration électronique. Cette plate-forme est notamment composée d'un entrepôt d'informations pour la diffusion de la connaissance relative aux méthodes, chartes, guides, etc. et d'un espace de développement collaboratif qui sera également un point d'entrée pour le référencement des logiciels et composants réutilisables.
+L'espace de développement adopte le modèle de SourceForge.net. Le fournisseur de ce modèle VA Software semble s'éloigner des principes originaux du logiciel libre.
+
+Relations avec ObjectWeb
+Des contacts ont été pris avec le consortium ObjectWeb sur des partenariats possibles : sur les aspects techniques liés aux outils (GForge dans les deux cas) mais surtout sur l'articulation entre les projets middleware et les applications métiers, dans la mesure où, que ce soit en France ou dans l'Union européenne, on commence à entendre beaucoup parler d'architectures de référence.
+
+Référentiels
+Il existe trois référentiels en étroite relation : Le Référentiel général d'interopérabilité (RGI) ;; Le Référentiel général de sécurité (RGS) ;; Le Référentiel général d'accessibilité des administrations (RGAA).
+Le socle technique est constitué par les éléments techniques du socle de services minimum (par exemple les serveurs et les logiciels).
+Les services d'échange entre le socle et les services applicatifs désignent : les interfaces applicatives (services web) ;; les fonctions d'interopérabilité (protocoles associés) ;; l'annuaire d'objets techniques (UDDI).
+
+Les principes ADELE
+Les principes ADELE qui guident vers la cible à atteindre : Simplifier la vie de l'usager dans sa relation à l'Administration; Améliorer l'efficience du service public; Valoriser l'agent public dans sa mission.
+
+Voir aussi: DGME; Schéma directeur ADELE; Référentiel général d'interopérabilité; Cadre commun d'interopérabilité; Sécurité des données pour l'interopérabilité informatique.; MAREVA.

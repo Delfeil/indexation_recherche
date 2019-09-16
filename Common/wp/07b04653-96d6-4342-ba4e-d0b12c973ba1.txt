@@ -1,0 +1,4 @@
+Okapi BM25 est une méthode de pondération utilisée en recherche d'information. Elle est une application du modèle probabiliste de pertinence, proposé en 1976 par Robertson et Jones.
+La méthode est plus simplement dénommée BM25, le terme "Okapi" faisant référence au nom du système de recherche de l'université de Londres où il a été implémenté initialement.
+
+Voir aussi: TF-IDF; Modèle probabiliste.

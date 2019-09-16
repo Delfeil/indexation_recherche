@@ -1,0 +1,9 @@
+Steve Bourne (né le 7 janvier 1944) est un informaticien britannique, connu surtout pour être l'auteur du shell sh (Bourne shell), qui est au fondement des interfaces en ligne de commandes pour UNIX.
+Il est diplômé en mathématiques et en informatique. Il a travaillé à l'Université de Cambridge, au laboratoire d'informatique. À cette époque, il a écrit un compilateur pour ALGOL68 baptisé ALGOL68C. Puis il a passé neuf ans aux laboratoires Bell, avec l'équipe d'UNIX version 7. Il développe, en 1975, le Bourne shell, qui devient, les années suivantes, le shell par défaut d'UNIX 7, à la place du Thompson shell. Il est l'auteur de The UNIX system (1983), le second livre sur UNIX, destiné à un large public.
+Après les Bell Labs, Bourne a travaillé pour Silicon Graphics, Digital Equipment Corporation, Sun Microsystems, et Cisco systems. Il a été président de l'ACM (Association for Computing Machinery) et a contribué à la création d'ACM Queue, la revue de l'ACM. Actuellement, il occupe un poste à El Dorado Ventures, en Californie.
+
+Publications: Steve Bourne (trad. Michel Dupuy),
+Le Système UNIX
+, Dunod (réimpr. mai 1991), 398 p.
+
+Liens: (en) About Steve Bourne; (en) Introduction au shell UNIX par S. Bourne; (en) Interview with S. Bourne. Portail de l'informatique.

@@ -1,0 +1,27 @@
+Fujitsu (, Fujitsū kabushiki-gaisha) est une entreprise japonaise spécialisée dans les domaines suivants : conception et fabrication de produits tels que des semi-conducteurs, des ordinateurs, des tablettes tactiles, des périphériques informatiques (Imprimantes, scanneurs, écrans LCD, etc.) et des écrans plasma ;; robotique ;; télécommunications ;; conception de logiciels ;; fourniture de services informatiques ;; service conseil.
+
+Description
+Fujitsu est le troisième fournisseur mondial de services informatiques et arrive au premier rang dans ce domaine sur le marché japonais. Elle fait partie des cinq plus grands fabricants de semi-conducteurs au Japon.
+En matière de Recherche et Développement, Fujitsu emploie 1 500 chercheurs dans ses laboratoires situés au Japon, aux USA, en Chine et en Grande-Bretagne. À cet effectif, s'ajoute plus de 14 000 ingénieurs affectés au développement de nouveaux produits à travers la planète. Plus de 32 000 brevets ont été déposés par Fujitsu.
+En mars 2006, Fujitsu employait 158 000 collaborateurs répartis dans le monde.
+
+Historique
+Fujitsu est créé en 1935 à la suite de la séparation par la société Fuji Electric de sa division Communications. La nouvelle société prend le nom de Fuji Tsushinki Manufacturing Corporation. En 1962, la société prend officiellement le nom de Fujitsu Limited.
+En 1990, Fujitsu rachète 80 % du constructeur britannique International Computers Limited.
+En 1997 Fujitsu prend le contrôle de la société Amdahl Corporation.
+Une alliance entre Fujitsu Computers Europe, filiale européenne de la division informatique du groupe, et le groupe allemand Siemens, a donné naissance le 1er octobre 1999 à Fujitsu Siemens Computers, une coentreprise détenue à concurrence de 50-50 par les deux créateurs, spécialisée dans la fabrication d'ordinateurs personnels, d'ordinateurs portables et de serveurs. L'usine d'Augsbourg, en Bavière, est l'unique usine de production de Fujitsu Siemens.
+En 2002, Fujitsu annonce la suppression de 16 000 emplois.
+En 2007, l'entreprise lance une OPA sur GFI Informatique au prix de 8,50 par action. L'opération échoue.
+En 2009 (1er avril), Fujitsu rachète les parts détenues par Siemens dans l'entreprise Fujitsu Siemens Computers, qui devient Fujitsu Technology Solutions.
+En 2009, Toshiba acquiert les activités de disques durs de Fujitsu.
+L'usine d'Augsbourg est modernisée et accueille à partir de 2011 à la suite du tremblement de terre une partie de la production d'une usine proche de Fukushima. Ce site est le dernier site européen de production de micro-ordinateurs.
+En octobre 2016, Fujitsu annonce la suppression de 1 900 postes au Royaume-Uni.
+
+Produits: Disques durs; Imprimantes; Scanneurs; Processeurs SPARC64 et ARM (Cortex A15); Équipements de télécommunications.
+
+Linux
+Bien que Fujitsu recommande une version récente de Windows pour ses ordinateurs portables, il est également possible d'installer le système d'exploitation Linux.
+C'est un membre de l'OSDL depuis 2001, supportant ainsi le modèle de développement Open Source. "Fujitsu fournit les consommateurs avec confiance aux dernières solutions basés sur Linux et continuera de faire comme cela", a déclaré Akira Ozora, Manager de la division Linux chez Fujitsu Limited.
+Depuis mai 2003, la société Red Hat est son partenaire afin de renforcer les serveurs Linux Intel de Fujitsu avec sa distribution destinée aux entreprises (Red Hat Enterprise Linux). Fujitsu a également été présent à l'exposition LinuxWorld de 2005 et de 2006.
+
+Articles connexes: FM-7; FM Towns; FM Towns Marty; Fujitsu Celsius (en); Kawasaki Frontale.

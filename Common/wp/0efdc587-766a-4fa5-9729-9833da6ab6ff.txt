@@ -1,0 +1,14 @@
+Un mot clé ou mot-clé, mot clef, mot-clef est un mot ou un groupe de mots qui a une importance particulière permettant de caractériser le contenu d'un document et permettant une recherche d'informations. Une liste de mots-clés permet ainsi de définir les thématiques représentées dans un document.
+Dans le cadre de la recherche d'information, on assimile fréquemment les termes de recherche et de mot-clé : c'est en réalité un abus de langage, sauf si l'outil de recherche d'information contient un thésaurus dans lequel les termes de recherche saisis par les utilisateurs sont reliés aux mots-clés effectivement utilisés pour indexer les documents.
+
+Mot-clé (info-documentation)
+Une liste de mots-clés permet de définir les thématiques principales et secondaires représentées dans un document. Selon l'usage qu'on en fait et le but poursuivi, le mot-clef a une fonction différente : pour les documentalistes, il est utilisé pour caractériser le contenu d'un document ; pour le demandeur, il va permettre de désigner les thèmes et notions du sujet étudié et traduire l'objet de la recherche. Le mot-clef peut avoir une utilité pour la lecture sélective et l'interrogation de base de données.
+Pour qu'un mot-clé soit pertinent et fonctionne, il faut qu'il soit reconnu par un outil de recherche dans un index déjà constitué.
+
+Mot-clé (recherche internet)
+Dans une recherche Internet, un mot clé est un terme pertinent utilisé pour trouver les pages Web correspondantes. Le terme a été popularisé aux débuts du développement des moteurs de recherche internet : Il était impossible de poser des questions en langage naturel pour trouver les pages appropriées, mais les recherches donnaient les meilleurs résultats si les recherches portaient sur quelques mots clés choisis. Ces "mots clés" reflétaient l'essence du thème recherché ; ils étaient susceptibles d'être présents sur tous les sites référencés par le moteur de recherche.
+Les mots-clés sont toujours utilisés aujourd'hui. Bien des moteurs de recherche modernes ont des méthodes (basées sur des algorithmes de recherche tenus secrets) pour déterminer quels mots dans un champ de recherche sont importants et doivent être traités. Les mots communs tels que les articles (a, un, le) et les conjonctions (et, ou, mais) ne sont pas traités comme mots clés car il serait inefficace de procéder ainsi. Presque chaque page en langue française sur Internet contient l'article "le", il n'y a donc aucun sens à le chercher. Un mot clé doit donc être pertinent et être porteur de sens.
+
+Voir aussi: Mot vide; Indexation matière; Indexation automatique de documents; Moteur de recherche; Descripteur.
+
+ Liens externes: Petit dictionnaire des concepts info-documentaires. Portail sciences de l'information et bibliothèques.

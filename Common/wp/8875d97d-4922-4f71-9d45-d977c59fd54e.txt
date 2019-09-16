@@ -1,0 +1,19 @@
+Ixquick, de la société Surfboard Holding BV, est un métamoteur de recherche sur le Web. Sa spécificité est le respect de la vie privée de l'utilisateur : Ixquick affirme ne conserver aucune trace numérique des recherches effectuées, pas même l'adresse IP.
+Ixquick fournit un service proxy, Ixquick Proxy, qui est incorporé dans les moteurs de recherche Ixquick et Startpage , ce qui donne la possibilité d'ouvrir un résultat de recherche individuellement via proxy. En février 2016 le site est à la position 9722 du classement Alexa en progression de 54 places sur les trois derniers mois.
+
+Fonctionnalités
+Il interroge simultanément 10 moteurs et sites Web : AOL, AlltheWeb, Altavista, Ask-Teoma, Bing, EntireWeb, Gigablast, Google, Open Directory, Wikipédia. Les résultats affichés constituent une synthèse de tous ceux renvoyés par les services de recherche interrogés.
+Les recherches peuvent s'effectuer dans 4 types d'élément : Web, annuaire téléphonique, vidéos et images.
+Le service est disponible en 18 langues et est personnalisable.
+
+Startpage
+En 2009, la société a lancé Startpage, limité aux résultats de recherche de Google, mais au nom plus facilement mémorisable que Ixquick et offrant beaucoup plus de possibilités dans la page des recherches avancées (notamment la langue, le format de fichier recherché, la région des pages recherchées, un critère de date, on peut comparer celle de Ixquick et celle de Startpage). Startpage, comme Ixquick, n'enregistre pas les adresses IP des internautes et offre les mêmes garanties de confidentialité. Le site startpage.com est à la position 4 117 du classement Alexa en février 2016.
+Ixquick fusionne avec Startpage le 26 mars 2016.
+
+Startmail
+En juin 2013, la société a annoncé le lancement prochain de Startmail, un service ultra-sécurisé et confidentiel de courriels.
+
+Voir aussi
+
+Articles connexes: Liste de moteurs de recherche.
+Sites web similaires : DuckDuckGo; Disconnect.

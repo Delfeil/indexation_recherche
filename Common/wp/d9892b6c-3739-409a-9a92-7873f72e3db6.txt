@@ -1,0 +1,3 @@
+Le Exterior Gateway Protocol ou EGP est un protocole de routage dans Internet. Décrit pour la première fois en octobre 1982 dans la RFC 827, il a été formalisé deux ans plus tard dans la RFC 904. EGP est un protocole permettant le routage entre différents systèmes autonomes de routage.
+La version 3 d'EGP a été utilisée au début d'Internet. Aujourd'hui, ce protocole est obsolète et remplacé par BGP.
+EGP est aussi utilisé pour désigner, de façon générale, les protocoles de routage extérieur, c'est-à-dire entre deux systèmes autonomes différents, et par opposition aux protocoles de routage interne. Portail de l'informatique; Portail des télécommunications.

@@ -1,0 +1,60 @@
+Abaque (d'abacus en latin et d'abax en grec signifiant "table à poussière", et de abaq en hébreu signifiant "poussière") est le nom donné à tout instrument mécanique plan facilitant le calcul.
+
+Liste d'abaques
+Dans la famille des abaques, on peut classer : l'abaque couvert de sable sur lequel on dessine : l'abaque grec; l'abaque-compteur utilisant des galets ou des jetons : abaque égyptien ou romain; l'abaque avec des boules coulissant sur des tiges : la grande famille des bouliers; l'abaque formé d'un plateau et de réglettes mobiles, connu sous le nom de bâtons de Napier.
+
+Aperçu sur l'histoire des abaques
+Dans l'histoire de la numération, l'écriture des nombres ne facilitait pas, en général, les calculs. Les géomètres et les comptables ont donc eu besoin d'instruments les aidant à calculer.
+
+Cailloux
+Le moyen le plus simple consiste à utiliser des cailloux disposés sur le sol. En Abyssinie (ancien nom de l'Éthiopie) par exemple, il était d'usage pour les guerriers partant au combat de déposer un caillou sur un tas, caillou qu'il retirait en revenant du combat. Le nombre de cailloux non retirés permettait de déterminer le nombre de morts au combat. Ce moyen extrêmement simple possédait cependant ses limites. Il fallut compléter le dispositif.
+Mais fort longtemps encore, l'unité de calcul fut le caillou ou le galet, calculus en latin (même lorsqu'on lui substituait des batonnets plus aisés à dessiner, ce qui conduira plus tard à l'invention des chiffres écrits). Ce terme latin est d'ailleurs à l'origine du mot calcul (encore utilisé dans son sens originel en médecine).
+On voit donc se développer successivement ou simultanément plusieurs tables ou abaques : Cet instrument était utilisé par des peuples très largement séparés comme les Étrusques, les Grecs, les Égyptiens, les Indiens, les Chinois et les Mexicains et l'on peut penser qu'il a été inventé indépendamment dans différents endroits.
+Il apparaît difficile de déclarer une seule et unique civilisation comme l'ayant inventé de manière absolue.
+
+Abaque grec
+Le mot abaque, chez les grecs abax, akos (tablettes servant à calculer) devient abacus chez les romains. Il était constitué d'une table recouverte de sable sur laquelle on dessinait à l'aide d'un stylet, les calculs pouvant être effacés au fur et à mesure en lissant avec la main.
+De cet abaque originel à bâtons, naitront les chiffres phéniciens, puis d'un côté les chiffres grecs et romains nés de l'adaptation à leur alphabet respectif des abaques améliorés par les phéniciens, et de l'autre côté les chiffres sémitiques assyriens puis indiens (qui noteront le zéro par un point), puis arabo-indiens (où le zéro devient un rond) et tardivement les chiffres arabo-européens modernes.
+L'abaque gréco-phénicien est finalement assez semblable avec les systèmes de comptage à bâtons utilisés depuis toujours par ceux qui ne savent pas compter, ou souhaitent mesurer le temps à l'aide de bâtons qu'on n'efface pas, mais qu'on peut rayer, souligner, entourer... Ce système originel universellement connu est encore utilisé couramment aujourd'hui pour compter les points dans un jeu, car il est plus rapide et plus efficace que de rayer et réécrire tous les chiffres.
+
+Abaque chinois
+Les chinois et les japonais font avec l'abaque non seulement des opérations simples, mais même les extractions des racines carrées. L'inconvénient du procédé est que la vérification est impossible.
+
+Abaque indien
+
+Abaque mexicain
+
+Abaque romain
+Reconstitution d'un abaque romain
+Il s'agit d'une table, partagée en plusieurs colonnes, chaque colonne représente une puissance de 10. On dispose d'autre part de galets que l'on dépose dans les colonnes de son choix. Les Romains ne possédaient pas une écriture en numération décimale. Cependant, leur pratique de l'abaque montre qu'ils en possédaient le principe. Par la suite, l'abaque s'est enrichi de cases situées au-dessus de chaque colonne et représentant 5 unités de la puissance de 10 associée.
+Le principe de l'addition et de la soustraction est simple à comprendre. Le transfert des retenues s'effectue en remplaçant 10 galets d'une colonne par un galet de la colonne suivante (et réciproquement).
+La multiplication était un peu plus compliquée. On pouvait au choix, additionner autant de fois qu'il le fallait le nombre de départ, ou bien utiliser la pratique de la duplication avec la méthode de multiplication égyptienne.
+
+Abaque romain portable
+Jusqu'au Ier siècle, l'abaque était donc un meuble difficilement transportable. L'idée est alors venue de construire une plaquette métallique, de remplacer les colonnes par des rainures parallèles et de faire glisser dans ces rainures des boutons de même taille. On se rapproche alors du boulier.
+On dispose ainsi d'un abaque portatif constitué de gauche à droite de sept colonnes de 4+1 boutons (4 unaires et 1 quinaire pour compter les as en base 10), d'une colonne de 5+1 boutons (5 unaires et 1 sénaire pour compter les onces, c'est-à-dire les douzièmes d'as) et d'une colonne de 4 boutons (pour les subdivisions de l'once).
+
+Gerbert d'Aurillac et la querelle abaciste contre algoriste
+Lorsqu'au Xe siècle, Gerbert d'Aurillac (qui deviendra plus tard le pape Sylvestre II) rapporte les chiffres arabes de son séjour de trois ans en Catalogne, au monastère de Ripoll, où ont été traduits des manuscrits arabes. Il les introduit dans un nouvel abaque, utilisant les chiffres. Cet abaque disparaîtra rapidement après sa mort.
+Lors des croisades (XIe - XIIIe siècle), l'Occident se familiarise bon gré mal gré avec le calcul algorithmique. Les clercs revenus des croisades avec le système d'écriture décimale furent les éléments moteurs de son installation en France. Les chiffres arabes et les calculs qu'ils rendent possibles sont décrits dans le Liber abaci de Léonard de Pise.
+Le système de calcul par l'abaque - essentiellement les tables à jetons, en France - perdurera néanmoins jusqu'à la révolution française. Il oppose ainsi les abacistes, favorables au calcul avec abaque, et les algoristes, développant les calculs algorithmiques décrits par les arabes. On peut à ce sujet évoquer le titre anglais de Chancelier de l'Échiquier pour le ministre des finances en Angleterre, échiquier signifiant abaque, le calcul des impôts se faisant encore jusqu'au XVIIIe siècle à l'aide d'un abaque.
+L'abaque disparaît après la Révolution, avec l'apparition du système métrique et du papier bon marché, ainsi que le développement de nouvelles méthodes, ne nécessitant plus de rayer les chiffres en cours de calcul, dans la méthode algorithmique.
+
+De la révolution française à nos jours
+Soroban japonais
+La numération décimale se répand pour tous les calculs mais montre ses limites et ses faiblesses pour les calculs un peu complexes. Il faut maintenant faire mieux. Pour effectuer plus simplement des produits, des quotients, calculer des sinus et des cosinus, on invente des tables numériques, puis des règles à calcul. Dans le milieu professionnel, les abaques ou tables de correspondances se multiplient. Mais le calcul à la main reste fastidieux. On cherche à l'automatiser. On rentre alors dans le calcul automatique que l'on date en général de l'invention de la Pascaline (Blaise Pascal, 1646).
+
+Galerie:
+Margarita Philosophica, gravure de l'édition de 1508;
+Abaque en bois, probablement à Strasbourg;
+"Rechnung auff der Linihen und Federn...", 1525;
+Les pages de titre des deux arithmétiques allemandes éditées la même année (1514) :celle de Köbel (à gauche), et celle de Böschenteyn;
+Page de titre du deuxième livre d'Adam Riese;
+Illustration de "The ground of artes" (1545) du mathématicien anglais Robert Recorde (1510-1558);
+Peter Apian 1544;
+Livre de calcul, 2. Dépenses (1522);
+Exemple de pièce d'abaque en métal, recto verso.
+
+Voir aussi
+
+Articles connexes: Connaissance technique; Soroban; Boulier; SuanPan; Stchoty; Calcul mental; Anzan.

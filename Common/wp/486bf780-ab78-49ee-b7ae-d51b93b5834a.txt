@@ -1,0 +1,62 @@
+Claude Elwood Shannon (30 avril 1916 à Petoskey, Michigan - 24 février 2001 à Medford, Massachusetts) est un ingénieur en génie électrique et mathématicien américain. Il est l'un des pères, si ce n'est le père fondateur, de la théorie de l'information.
+
+Biographie
+
+Enfance et études
+Les parents de Claude Shannon étaient Claude Elwood Shannon et Mabel Catherine Wolf.
+Il étudie le génie électrique et les mathématiques à l'université du Michigan dont il est diplômé en 1936. Il utilise notamment l'algèbre de Boole pour sa maîtrise soutenue en 1938 au Massachusetts Institute of Technology (MIT). Il y explique comment construire des machines à relais en utilisant l'algèbre de Boole pour décrire l'état des relais (1 : fermé, 0 : ouvert). Il obtient un PhD en mathématiques au MIT en 1940.
+
+Période laboratoires Bell
+Shannon travaille vingt ans au MIT, de 1958 à 1978. Parallèlement à ses activités académiques, il travaille aussi aux laboratoires Bell de 1941 à 1972.
+En 1949 il se marie avec Mary Elizabeth Moore, avec qui il aura trois enfants.
+
+Maladie et mort
+Souffrant de la maladie d'Alzheimer dans les dernières années de sa vie, Claude Shannon est mort à 84 ans le 24 février 2001 à Medford dans le Massachusetts.
+
+Personnalité
+Claude Shannon est connu non seulement pour ses travaux dans les télécommunications, mais aussi pour l'étendue et l'originalité de ses hobbies, comme la jonglerie, la pratique du monocycle et l'invention de machines farfelues : une souris mécanique sachant trouver son chemin dans un labyrinthe, un robot jongleur, un joueur d'échecs (roi tour contre roi), etc. L'un de ces "gadgets" présente toutefois un grand intérêt conceptuel, comme le montrent Philippe Boulanger et Alain Cohen dans Le Trésor des paradoxes (Éditions Belin, 2007) : "Claude Shannon voulut élaborer une "Machine inutile", sans finalité : on la met en marche en appuyant, comme sur tout dispositif électromécanique, sur une touche "on" ; mais les choses prennent alors une tournure surprenante, car cette mise sous tension déclenche un mécanisme provoquant aussitôt l'arrêt du gadget en mettant l'interrupteur sur "off" ! Ce type de comportement insolite caractérise les situations ubiquitaires où la communication réside paradoxalement dans l'absence de communication, l'utilité dans l'absence d'utilité. Exemples : "La mode, c'est ce qui se démode" (Jean Cocteau).
+
+Travaux
+Pendant la Seconde Guerre mondiale, Shannon travaille pour les services secrets de l'armée américaine, en cryptographie, chargé de localiser de manière automatique dans le code ennemi les parties signifiantes cachées au milieu du brouillage. Son travail est exposé dans un rapport secret (déclassifié dans les années 1980 seulement), qui donne naissance après-guerre à un article, A Mathematical Theory of Communications (1948), qui fut repris en 1949 sous forme de livre publié par l'université de l'Illinois avec les commentaires de Warren Weaver, coordonnateur (Mattelart et Mattelart, 2004) dans les services secrets. Cet ouvrage est centré autour de la problématique de la transmission du signal.
+
+Le schéma de Shannon
+Modèle de Shannon - Communication.
+Pour décrire la communication entre machines, l'article de 1948 et le livre de 1949 commencent tous deux par un "schéma", appelé schéma de Shannon ou modèle de Shannon et Weaver. Le schéma modélise la communication entre machines :
+Ce schéma est la traduction "civile" d'un schéma préalable, utilisé dans le contexte militaire : source encodeur signal décodeur destinataire, dans un contexte de brouillage.
+Conçu pour décrire la communication entre machines, ce schéma modélise imparfaitement la communication humaine. Pourtant, son succès est foudroyant, et il a participé largement à la création d'un champ disciplinaire : les SIC. Shannon s'étonna de ce phénomène et s'en dissocia. L'une des explications de ce succès est le fait qu'il se fond parfaitement dans une approche béhavioriste des médias. De plus, ce schéma dit canonique donne une cohérence et une apparence de scientificité.
+
+Shannon : l'unité de mesure
+Dans l'article comme dans le livre, il popularise l'utilisation du mot bit comme mesure élémentaire de l'information numérique. John Tukey fut néanmoins le premier à utiliser le terme. Plus précisément, le bit désigne un chiffre binaire permettant de coder une quantité d'information. Ainsi, il faut au moins un bit (ou 1 Shannon) pour coder deux états (par exemple "pile" et "face", ou plus généralement 0 et 1) et deux bits permettent de coder quatre états (00, 01, 10, 11). Les 26 lettres de l'alphabet nécessitent au minimum 5 bits car : (2 4 - 16) 26 (2 5 - 32) (-displaystyle (2(4)-16)26-leq (2(5)-32))
+Plus généralement, si P est le nombre d'états possibles, le nombre de bits minimum n nécessaire pour les coder tous vérifie :
+2 (n 1) P 2 n (-displaystyle 2((n-1))P-leq 2(n)) (autrement dit, n est le plafond du logarithme binaire de P : n - (l o g 2 P) (-displaystyle n--lceil log-(2)P-rceil))
+Dans un cas idéal où toute l'information disponible est utilisée, P - 2 n (-displaystyle P-2(n)).
+
+La relation de Shannon
+Dans le domaine des télécommunications, la relation de Shannon permet de calculer la valence (ou nombre maximal d'états) en milieu perturbé :
+Soit S le signal, N le bruit :
+n - 1 + S N (-displaystyle n-(-sqrt (1+(-frac (S)(N)))))
+On a alors le débit maximal :
+H log 2 (1 + S N) (-displaystyle -displaystyle H(-log)-(2)(1+(-frac (S)(N))))
+Ce résultat est indépendant de la vitesse d'échantillonnage et du nombre de niveau d'un échantillon (la valence).
+
+Entropie au sens de Shannon
+Un apport essentiel des travaux de Shannon concerne la notion d'entropie. Si l'on considère N événements de probabilité p1, p2... pN, indépendants les uns des autres, alors leur entropie de Shannon est définie comme :
+Entropie - i - 1 N p i log 2 (p i) (-displaystyle --sum -(i-1)(N)p-(i)-log -(2)(p-(i)))
+Il a par ailleurs : établi un rapport entre augmentation d'entropie et gain d'information ;; montré l'équivalence de cette notion avec l'entropie de Ludwig Boltzmann en thermodynamique.
+La découverte du concept ouvrait ainsi la voie aux méthodes dites d'entropie maximale (voir probabilité), donc au scanner médical, à la reconnaissance automatique des caractères et à l'apprentissage automatique.
+
+Théorèmes
+Son nom est associé à plusieurs théorèmes, le théorème d'échantillonnage de Nyquist-Shannon sur l'échantillonnage (aussi appelé critère de Shannon), le premier théorème de Shannon sur la limite théorique de la compression, le deuxième théorème de Shannon sur la capacité d'un canal de transmission.
+
+En dehors de la théorie de l'information
+En 1981, Claude Shannon a commencé à écrire un article intitulé Scientific Aspects of Juggling, sur l'art de la jonglerie. Cet article était prévu pour être publié dans Scientific American, mais ce ne fut finalement pas le cas. Néanmoins, cette ébauche a servi de base à la formalisation des mouvements de jonglerie par le siteswap.
+Au jeu d'échecs, il a estimé le nombre de parties différentes possibles ayant un sens échiquéen (nombre à distinguer du nombre, beaucoup plus élevé, de parties possibles que permettent les règles du jeu). Ce nombre est estimé à 10 et porte le nom de nombre de Shannon.
+
+Hommages
+Le prix Claude Shannon est décerné par l'association pour la théorie de l'information de l'IEEE depuis 1972, pour honorer les contributions importantes à ce domaine.
+L'année 2016 marque le centenaire de sa naissance. La Société Mathématique de France annonce une conférence de Josselin Garnier à la Bibliothèque nationale de France : Claude Shannon et l'avènement de l'ère numérique (13 avril 2016) et l'Institut Henri-Poincaré organise avec le Conservatoire national des arts et métiers l'exposition temporaire : Claude Shannon : le magicien des codes.
+Dans son roman, La Théorie de l'information (2012), Aurélien Bellanger rend hommage au travail de Shannon. Claude Shannon est un personnage central du livre de James Gleick L'information : L'histoire - La théorie - Le déluge (Cassini, 2015, pour la traduction française)
+
+Voir aussi
+
+Articles connexes: Théorème d'échantillonnage de Nyquist-Shannon; Théorie de l'information; Communication; Message (communication); Inférence bayésienne; Cybernétique; Norbert Wiener; Nombre de Shannon.

@@ -1,0 +1,30 @@
+Nginx (prononcé) est un logiciel libre de serveur Web (ou HTTP) ainsi qu'un proxy inverse écrit par Igor Sysoev, dont le développement a débuté en 2002 pour les besoins d'un site russe à très fort trafic (Rambler). Une partie de la documentation a été traduite du russe vers l'anglais.
+Ses sources sont disponibles sous une licence de type BSD.
+
+Particularités
+
+Serveur asynchrone
+Nginx est un système asynchrone (en) par opposition aux serveurs synchrones où chaque requête est traitée par un processus dédié. Au lieu d'exploiter une architecture parallèle et un multiplexage temporel des tâches par le système d'exploitation, Nginx utilise les changements d'état pour gérer plusieurs connexions en même temps ; le traitement de chaque requête est découpé en de nombreuses mini-tâches et permet ainsi de réaliser un multiplexage efficace entre les connexions. Afin de tirer parti des ordinateurs multiprocesseurs, plusieurs processus peuvent être démarrés. Ce choix d'architecture se traduit par des performances très élevées, mais également par une charge et une consommation de mémoire particulièrement faibles comparativement aux serveurs HTTP classiques, tels qu'Apache.
+
+Modularité
+Nginx est très modulaire : un noyau minimal et des modules, nombreux, venant compléter les fonctions de base. Chaque module peut agir comme un filtre sur le contenu en entrée, en sortie ou intermédiaire (proxy) par le biais de nombreuses callbacks. Ainsi, à titre d'exemple, un contenu dynamique peut être compressé à la volée par le module "gzip" avant envoi.
+Ces modules sont liés au serveur lors de la compilation. Nginx ne supporte pas les bibliothèques dynamiques partagées. Tengine, le fork de nginx de Taobao a ajouté cette fonctionnalité, qui n'a pas été reportée sur nginx.
+
+Optimisations
+Le noyau s'appuie sur des structures de données minimales, mais optimales, visant à réduire le nombre d'appels système, en particulier pour tout ce qui a trait à l'allocation de mémoire. Différents mécanismes de signalisation peuvent être utilisés afin d'exploiter au mieux le système d'exploitation (par exemple : epoll sous Linux et kqueue sous BSD). L'architecture asynchrone soulage l'ordonnanceur du système d'exploitation et favorise l'utilisation des caches ou du-des processeur(s).
+
+Divers
+Un processus maître contrôle le ou les processus serveurs, de cette façon il est possible de changer la configuration ou de mettre à jour le fichier exécutable du serveur sans avoir à arrêter le service HTTP.
+
+Plates-formes prises en charge
+Nginx fonctionne sous les systèmes d'exploitation GNU-Linux, BSD, Mac OS X et Solaris ; à partir de la version avancée 0.7.52, Nginx est également disponible pour Microsoft Windows.
+
+Utilisations
+Outre le fait d'être un serveur HTTP, Nginx peut être configuré pour être un proxy inverse (en anglais : reverse proxy) Web et un serveur proxy de messagerie électronique (IMAP - POP3). L'utilisation la plus fréquente de Nginx est de le configurer comme un serveur Web classique pour servir des fichiers statiques et comme un proxy pour les requêtes dynamiques typiquement acheminées en utilisant une interface FastCGI vers un ou des serveurs applicatifs avec un mécanisme de répartition de charge.
+Nginx est également capable de diffuser, selon le même principe que lighttpd avec mod-flv-streaming, du contenu vidéo par streaming vers un lecteur Flash sans avoir à recourir à Flash Media Server. Pour cela, il comporte un module optionnel http-glv-module de streaming de fichier vidéo flv et plusieurs modules de streaming qui peuvent diffuser une vidéo encodée en H.264. Il permet également de diffuser du mp4 grâce à son module optionnel http-mp4-module.
+Il est aussi très utilisé en production pour servir des applications en Ruby on Rails grâce au module Phusion Passenger. La plupart des sites en Ruby on Rails à fort trafic utilisent Nginx (par exemple basecamp ou encore LinuxFr.org).
+
+Popularité
+Nginx était peu connu, excepté en Russie, avant qu'Aleksandar Lazic ne commence la traduction anglaise en 2006. Depuis, le nombre de domaines gérés par Nginx est en constante augmentation. En juin 2007, Google le considérait comme le 3e serveur (4 % d'utilisation) parmi les serveurs web les plus fréquentés, après Apache (66 %) et IIS de Microsoft (23 %).; En décembre 2008, selon Netcraft, avec plus de 3,3 millions de domaines, Nginx apparaît pour la première fois, au rang de quatrième serveur HTTP le plus utilisé au monde (juste devant lighttpd).; En mars 2009, cette tendance est confirmée : Apache 66,65 %, IIS18,68 % et Nginx 3,06 % (alors que lighttpd n'obtient plus que 0,99 %, et est aussi dépassé par Google Web Server à 1,56 %).; En novembre 2010, Nginx est d'après Netcraft le troisième serveur le plus utilisé sur les sites web mondiaux avec 6,04 % de part de marché, derrière les 22,70 % d'IIS et les 59,36 % d'Apache.; En juillet 2011, ces chiffres restent globalement stables : 64,66 % pour Apache, 16,82 % pour IIS, 6,55 % pour Nginx, 4,61 % pour Google Web Server.; En janvier 2012, Nginx dépasse légèrement IIS, avec 12,18 % contre 12,14 %.; En avril 2013, Nginx continue sa progression, avec 12,91 % des sites actifs, alors que Apache passe à 54,37 %, IIS reste stable à 12,13 % et Google Web Server passe à 8,12 %.; En mai 2015, concernant les sites actifs Nginx est utilisé sur 13,81 %, Apache 50,98 %, IIS 10,83 % et Google s'est effondré à 2,42 %. Sur le millions de sites les plus visités, l'écart s'est creusé avec IIS. nginx obtient 21,64 % des sites derrière Apache HTTPD à 48,83 %, tandis qu'IIS n'obtient que 12,13 % des sites sur ce critère.; En avril 2016, Nginx est utilisé sur 17% des sites actif, contre 49% à Apache, 10% à IIS, et un peu moins de 8% à Google. En ce qui concerne le million de sites les plus visités, Il totalise plus de 25% des sites et est en augmentation constante, derrière Apache à 45% et devant IIS à 11%.; En février 2017, Nginx est utilisé par 19,22% du total des domaines français enregistrés.
+
+Voir aussi

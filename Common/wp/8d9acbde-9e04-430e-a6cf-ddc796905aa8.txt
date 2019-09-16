@@ -1,0 +1,20 @@
+Le terme systèmes d'armes désigne l'ensemble des dispositifs mécaniques, électroniques et-ou logiciels permettant aux militaires la réalisation d'une mission et la mise en oeuvre d'un armement de façon autonome (identification, localisation, désignation d'objectif, préparation du tir, tir, guidage...) ou coordonnée (communication, liaison de données tactiques...). Il peut être fixe ou embarqué sur un véhicule terrestre, navire ou aéronef militaires.
+Les systèmes d'armes sont par exemple utilisés pour le guidage d'un missile ou un chargement de munition.
+Un armement est qualifié de système d'arme lorsqu'il intègre différents équipements pour fonctionner (capteurs, électronique, communication...). Aujourd'hui la majorité des armes de guerre, peuvent être considérées comme des systèmes d'armes.
+
+Histoire
+Batterie de missiles S-75 Dvina avec son radar au centre et ses 6 rampes de lancement.
+Les premiers systèmes d'armes apparaissent avec les premiers radars au début de la Seconde Guerre mondiale, notamment pour la défense anti-aérienne. Un des premiers exemple, au début des années 1940, est l'utilisation conjointe par la Luftwaffe d'un canon anti-aérien guidé par un Radar Würzburg, ce regroupement cohérent (portée de détection et portée des armements) est perfectionné au sein de la Ligne Kammhuber par l'ajout d'un Radar Freya, celui-ci, moins précis mais de portée de détection plus grande assure la surveillance pour plusieurs batteries anti-aérienne. Ces composants sont reliés par un réseau de communication (téléphone ou radio) et équipés de radios à onde courte permettant la coordination et le guidage des chasseurs.
+Après la Seconde Guerre mondiale et la conception des premiers missiles anti-aérien, le principe d'associer radars et batteries anti-aériennes se développe, avec par exemple, vers la fin des années 1950, le système soviétique S-75 Dvina.
+
+Composants
+Les systèmes d'armes peuvent être composés de différents éléments également appelés sous-systèmes : Capteurs (Radar, optronique...); Moyens de communication (radio, Liaison 16, communications satellites...); Système d'information permettant la coordination avec d'autres unités (gestion de l'espace aérien, gestion de la mission...); Système de conduite de tir permettant l'utilisation des bombes, missiles ou d'un canon (calcul de domaine de tir, de trajectoire, guidage...); Les dispositifs mécaniques permettant l'éjection ou le tir de l'armement; Munitions (bombe, obus, missile); Dispositif de guerre électronique (contre-mesure et brouilleur, mesures de soutien électronique...).
+Ces équipements peuvent être construits par différents industriels. L'industriel chargé de la construction du système d'arme est appelé intégrateur ou architecte système.
+
+Missions
+Un système d'arme ne se cantonne pas seulement à l'utilisation d'un armement mais également à toutes les phases d'une opération militaire tel que la planification, coordination, reconnaissance et identification (ISTAR) mettant en oeuvre différents équipements et capteurs.
+
+Exemples
+Schéma d'architecture du système Aegis
+Pour un avion de chasse moderne ou un navire de guerre, le système d'arme désigne l'ensemble des capteurs, système informatique de gestion de la mission et armements dont il est équipé. Les systèmes destinés au pilotage de l'aéronef ou à la navigation ne font pas partie du système d'armes. Toutefois, sur un aéronef militaire moderne, et en particulier lorsque l'équipage est réduit au seul pilote, les systèmes de visualisation affichent conjointement des informations en provenance du système d'armes et des systèmes de pilotage et navigation.
+Pour les armements terrestres, on désigne comme système d'arme l'ensemble des véhicules, capteurs, informatique de contrôle et armements conçus pour réaliser une mission. Il peut s'agir d'un seul véhicule comme pour un char de combat ou plusieurs véhicules pour un système de défense sol-air (exemple système SAMP-T).
