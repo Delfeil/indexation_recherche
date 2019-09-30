@@ -69,6 +69,10 @@ public class Token implements Comparable<Token>
 	public int compareTo(Token token)
 	{	int result = 0;
 		//TODO méthode à compléter (TP1-ex1)
+		result = this.type.compareTo(token.getType());
+		if(result == 0) {
+			result = this.docId - token.getDocId();
+		}
 		return result;
 	}
 	
@@ -79,6 +83,7 @@ public class Token implements Comparable<Token>
 	public String toString()
 	{	String result = null;
 		//TODO méthode à compléter (TP1-ex2)
+		result = "(" + this.type + ", " + this.docId + ")";
 		return result;
 	}
 	
@@ -86,6 +91,10 @@ public class Token implements Comparable<Token>
 	public boolean equals(Object o)
 	{	boolean result = false;
 		//TODO méthode à compléter (TP1-ex2)
+		if(o instanceof Token ) {
+			Token token = (Token) o;
+			result = (0 == this.compareTo(token));
+		}
 		return result;
 	}
 	
@@ -104,9 +113,24 @@ public class Token implements Comparable<Token>
 	public static void main(String[] args) throws Exception 
 	{	// test de compareTo
 		// TODO méthode à compléter (TP1-ex1)
+		Token t = new Token("test", 1);
+		Token t2 = new Token("test", 1);
+		Token t3 = new Token("test", 2);
+		Token t4 = new Token("bonjour", 3);
+		System.out.println("t = t2?: "+ t.compareTo(t2));
+		System.out.println("t = t2?: "+ t.compareTo(t3));
+		System.out.println("t = t2?: "+ t.compareTo(t4));
 		
 		// test de equals et toString
 		// TODO méthode à compléter (TP1-ex2)
-				
+		String s = "bonjour";
+		System.out.println("t = t2?: "+ t.equals(t2));
+		System.out.println("t = t2?: "+ t.equals(t3));
+		System.out.println("t = t2?: "+ t.equals(t4));
+		System.out.println("t = t2?: "+ t.equals(s));
+		System.out.println("t = t2?: "+ t.equals(12));
+		
+		System.out.println(t + ", " + t2 + ", " + t3 + ", " + t4);
+		
 	}
 }

@@ -5,6 +5,7 @@ import indexation.content.Token;
 import java.io.File;
 import java.io.Serializable;
 import java.io.UnsupportedEncodingException;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -71,6 +72,11 @@ public class Tokenizer implements Serializable
 	public List<String> tokenizeString(String string)
 	{	List<String> result = null;
 		//TODO méthode à compléter (TP1-ex3)
+		//TODO tester
+		String regex = "([^a-zA-Z0-9]|\\p{Blank})";
+		regex = "\\W*\\s*\\W\\s*\\W*|\\W*\\s*\\p{Punct}\\s*\\W*|\\W*\\s*\\s\\s*\\W*";
+		regex = "\\W+|\\s+"
+		result = Arrays.asList(string.split(regex));
 		return result;
 	}
 	
@@ -89,6 +95,8 @@ public class Tokenizer implements Serializable
 	public static void main(String[] args) throws Exception 
 	{	// test de tokenizeString
 		// TODO méthode à compléter (TP1-ex3)
+		Tokenizer tokenizer = new Tokenizer();
+		System.out.println(tokenizer.tokenizeString("Salut, |b0nj0ur  \\| comment ca.vas?"));
 		
 		// test de tokenizeDocument
 		// TODO méthode à compléter (TP1-ex4)
