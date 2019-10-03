@@ -1,1 +1,4 @@
 /.metadata/
+*.class
+.vscode
+Index1/.settings
