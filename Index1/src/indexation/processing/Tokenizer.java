@@ -95,15 +95,29 @@ public class Tokenizer implements Serializable
 	 * 		La liste de types correspondant.
 	 */
 	public List<String> tokenizeString(String string)
-	{	List<String> result = null;
+	{	List<String> result = new ArrayList<String>();
 		//TODO méthode à compléter (TP1-ex3)
 		//TODO tester
-		String regex = "([^a-zA-Z0-9]|\\p{Blank})";
-		regex = "\\W*\\s*\\W\\s*\\W*|\\W*\\s*\\p{Punct}\\s*\\W*|\\W*\\s*\\s\\s*\\W*";
-		regex = "\\W+|\\s+"
-			// regex = "\\W*\\s*\\W\\s*\\W*|\\W*\\s*\\p{Punct}\\s*\\W*|\\W*\\s*\\s\\s*\\W*";
-		String regex = "\\W+|\\s+";
-		result = Arrays.asList(string.split(regex));
+		// String regex = "([^a-zA-Z0-9]|\\p{Blank})";
+		// regex = "\\W*\\s*\\W\\s*\\W*|\\W*\\s*\\p{Punct}\\s*\\W*|\\W*\\s*\\s\\s*\\W*";
+		// regex = "\\W+|\\s+"
+		// regex = "\\W*\\s*\\W\\s*\\W*|\\W*\\s*\\p{Punct}\\s*\\W*|\\W*\\s*\\s\\s*\\W*";
+		// String regex = "\\W+|\\s+|\\p{Punct}+\\p{Space}+\\p{Blank}*|\\p{Space}+\\p{Blank}*";
+			// Si la chaine à tokeniser n'est pas vide
+		if(string.length()>0) {
+				// Séparation des mots 
+			String regex = "\\p{Space}+([\\p{Punct}&&[^']&&[^-]]|(?<![a-zA-Z])('|-)|('|-)(?![a-zA-Z]))*|([\\p{Punct}&&[^']&&[^-]]|(?<![a-zA-Z])('|-)|('|-)(?![a-zA-Z]))+\\p{Space}*";
+			result = new ArrayList<String>(Arrays.asList(string.split(regex)));
+			System.out.println(result.get(0));
+			// if(result.get(0).equals("")) {
+			// 		// Gestion du cas où la chaine de char commence par un caractère non alphanumérique ex: "-Cas 1"
+			// 		//Si c'est le cas, le split retourne [, Cas, 1] -> Enlever le premier élément de la liste.
+			// 	result.remove(0);
+			// }
+			while(result.contains("")) {
+				result.remove("");
+			}
+		}
 		return result;
 	}
 	
@@ -123,12 +137,14 @@ public class Tokenizer implements Serializable
 	{	// test de tokenizeString
 		// TODO méthode à compléter (TP1-ex3)
 		Tokenizer tokenizer = new Tokenizer();
-		System.out.println(tokenizer.tokenizeString("Salut, |b0nj0ur  \\| comment ça.vas?"));
+		// System.out.println(tokenizer.tokenizeString("-_ç(Salut, |b0nj0ur  \\| comment ça.vas?"));
+		System.out.println(tokenizer.tokenizeString("-Bonjour . comment ça vas?'\n"));
 		
 		// test de tokenizeDocument
 		// TODO méthode à compléter (TP1-ex4)
 		List<Token> tokens = new ArrayList<Token>();
-		File document = new File("./Common/wp/001f1107-8e72-4250-8b83-ef02eeb4d4a4.txt");
+		// File document = new File("./Common/wp/001f1107-8e72-4250-8b83-ef02eeb4d4a4.txt");
+		File document = new File("./Common/wp/c8b1e439-57a3-4dd7-b7a8-98fc11ab3f7d.txt");
 		Tokenizer tknz = new Tokenizer();
 		tknz.tokenizeDocument(document, 1, tokens);
 		System.out.println(tokens);
