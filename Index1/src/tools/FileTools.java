@@ -24,7 +24,8 @@ public class FileTools
 	 */
 	public static String getCorpusFolder()
 	{	String corpusName = Configuration.getCorpusName();
-		String result = ".." + File.separator + "Common" + File.separator + corpusName;
+		// String result = ".." + File.separator + "Common" + File.separator + corpusName;
+		String result = "." + File.separator + "Common" + File.separator + corpusName;
 		return result;
 	}
 	

@@ -2,9 +2,13 @@ package indexation.processing;
 
 import indexation.content.Token;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.Serializable;
 import java.io.UnsupportedEncodingException;
+import java.text.Normalizer.Form;
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.TreeSet;
 
@@ -45,6 +49,16 @@ public class Normalizer implements Serializable
 	 */
 	public void normalizeTokens(List<Token> tokens)
 	{	//TODO méthode à compléter (TP1-ex7)
+		Iterator<Token> it = tokens.iterator(); 
+		while(it.hasNext()) {
+			Token token = it.next();
+			String normalised = this.normalizeType(token.getType());
+			if(normalised == null) {
+				it.remove();
+			} else {
+				token.setType(normalised);
+			}
+		}
 	}
 	
 	/**
@@ -60,6 +74,11 @@ public class Normalizer implements Serializable
 	public String normalizeType(String string)
 	{	String result = null;
 		//TODO méthode à compléter (TP1-ex6)
+		if(string != null && !string.equals("")) {
+			result = string.toLowerCase();
+			result = java.text.Normalizer.normalize(result, Form.NFD)
+				.replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
+		}
 		//TODO méthode à modifier  (TP4-ex14)
 		//TODO méthode à modifier  (TP5-ex8)
 		return result;
@@ -132,10 +151,18 @@ public class Normalizer implements Serializable
 	public static void main(String[] args) throws Exception 
 	{	// test de normalizeType
 		//TODO méthode à compléter (TP1-ex6)
-		
+		Normalizer norm = new Normalizer();
+		System.out.println(norm.normalizeType("StriNg") + ", " + norm.normalizeType("") + ", " + norm.normalizeType("sTrïng"));
 		// test de normalizeTokens
 		//TODO méthode à compléter (TP1-ex7)
-		
+		List<Token> tokens = new ArrayList<Token>();
+		Tokenizer toknize = new Tokenizer();
+		File document = new File("./Common/wp/001f1107-8e72-4250-8b83-ef02eeb4d4a4.txt");
+		toknize.tokenizeDocument(document, 0, tokens);
+		System.out.println(tokens);
+		System.out.println("----------------------------------");
+		norm.normalizeTokens(tokens);
+		System.out.println(tokens);
 		// test de loadStopWords
 		//TODO méthode à compléter (TP5-ex7)
 	}

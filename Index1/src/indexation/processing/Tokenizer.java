@@ -10,6 +10,7 @@ import java.io.FileNotFoundException;
 import java.io.InputStreamReader;
 import java.io.Serializable;
 import java.io.UnsupportedEncodingException;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
@@ -50,9 +51,18 @@ private static final long serialVersionUID = 1L;
 		String corpus = FileTools.getCorpusFolder();
 		System.out.println(corpus);
 		File f = new File(corpus);
-		String[] fl = f.list();
-		System.out.println(fl);
-
+		System.out.println(f.getPath());
+		// return result;
+		String[] files = f.list();
+		Arrays.sort(files);
+		int docId = 0;
+		for(String file:files) {
+			// System.out.println(file);
+			File document = new File(f.getPath() + File.separator + file);
+			this.tokenizeDocument(document, docId, tokens);
+			docId++;
+		}
+		result = tokens.size();
 		return result;
 	}
 
@@ -107,7 +117,8 @@ private static final long serialVersionUID = 1L;
 	public List<String> tokenizeString(String string)
 	{	List<String> result = new ArrayList<String>();
 		//TODO méthode à compléter (TP1-ex3)
-		//TODO tester
+		// On Séparer la chaine de caractère passée en argument Pour chaques groupes de caractères non alpha numérique ou d'espaces
+
 		// String regex = "([^a-zA-Z0-9]|\\p{Blank})";
 		// regex = "\\W*\\s*\\W\\s*\\W*|\\W*\\s*\\p{Punct}\\s*\\W*|\\W*\\s*\\s\\s*\\W*";
 		// regex = "\\W+|\\s+"
@@ -116,9 +127,11 @@ private static final long serialVersionUID = 1L;
 		// Si la chaine à tokeniser n'est pas vide
 		if(string.length()>0) {
 			// Séparation des mots
-			String regex = "\\p{Space}+([\\p{Punct}&&[^']&&[^-]]|(?<![a-zA-Z])('|-)|('|-)(?![a-zA-Z]))*|([\\p{Punct}&&[^']&&[^-]]|(?<![a-zA-Z])('|-)|('|-)(?![a-zA-Z]))+\\p{Space}*";
+			// String regex = "\\p{Space}+([\\p{Punct}&&[^']&&[^-]]|(?<![a-zA-Z])('|-)|('|-)(?![a-zA-Z]))*|([\\p{Punct}&&[^']&&[^-]]|(?<![a-zA-Z])('|-)|('|-)(?![a-zA-Z]))+\\p{Space}*";
+			String regex = "\\p{Space}+|\\p{Punct}+";
+			// String regex = "\\p{Space}+([\\p{Punct}&&[^']&&[^-]]|(?<![a-zA-Z])('|-)|('|-)(?![a-zA-Z]))*|([\\p{Punct}&&[^']&&[^-]]|(?<![a-zA-Z])('|-)|('|-)(?![a-zA-Z]))+\\p{Space}*";
 			result = new ArrayList<String>(Arrays.asList(string.split(regex)));
-			System.out.println(result.get(0));
+			// System.out.println(result.get(0));
 			// if(result.get(0).equals("")) {
 			// 		// Gestion du cas où la chaine de char commence par un caractère non alphanumérique ex: "-Cas 1"
 			// 		//Si c'est le cas, le split retourne [, Cas, 1] -> Enlever le premier élément de la liste.
@@ -162,7 +175,8 @@ private static final long serialVersionUID = 1L;
 		// test de tokenizeCorpus
 		// TODO méthode à compléter (TP1-ex5)
 		List<Token> tokens5 = new ArrayList<Token>();
-		Configuration.setCorpusName("wp_est");
-		tokenizer.tokenizeCorpus(tokens5);
+		Configuration.setCorpusName("wp_test");
+		int result = tokenizer.tokenizeCorpus(tokens5);
+		System.out.println("Nopmbre de tokens trouvés: " + result);
 	}
 }
