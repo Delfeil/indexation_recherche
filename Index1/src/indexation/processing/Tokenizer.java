@@ -1,6 +1,8 @@
 package indexation.processing;
 
 import indexation.content.Token;
+import tools.Configuration;
+import tools.FileTools;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -14,6 +16,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
+
+
 /**
  * Objet segmentant des textes
  * en utilisant tous les caractères
@@ -21,8 +25,8 @@ import java.util.Scanner;
  */
 public class Tokenizer implements Serializable
 {	/** Class id (juste pour éviter le warning) */
-	private static final long serialVersionUID = 1L;
-	
+private static final long serialVersionUID = 1L;
+
 	////////////////////////////////////////////////////
 	//	TRAITEMENT
 	////////////////////////////////////////////////////
@@ -31,34 +35,40 @@ public class Tokenizer implements Serializable
 	 * tokens obtenus via la liste passée en
 	 * paramètre. La méthode renvoie aussi le
 	 * nombre de documents traités.
-	 * 
+	 *
 	 * @param tokens
 	 * 		Liste de tokens résultant du traitement.
 	 * @return
 	 * 		Nombre de documents traités.
-	 * 
-	 * @throws UnsupportedEncodingException 
+	 *
+	 * @throws UnsupportedEncodingException
 	 * 		Problème de décodage lors de la lecture d'un document.
 	 */
 	public int tokenizeCorpus(List<Token> tokens) throws UnsupportedEncodingException
 	{	int result = 0;
 		//TODO méthode à compléter (TP1-ex5)
+		String corpus = FileTools.getCorpusFolder();
+		System.out.println(corpus);
+		File f = new File(corpus);
+		String[] fl = f.list();
+		System.out.println(fl);
+
 		return result;
 	}
-	
+
 	/**
 	 * Méthode qui segmente le document
 	 * spécifié, et renvoie le résultat
-	 * en complétant la liste passée en 
+	 * en complétant la liste passée en
 	 * paramètre.
-	 * 
+	 *
 	 * @param document
 	 * 		Fichier contenant le document à traiter.
 	 * @param docId
 	 * 		Numéro du document à traiter.
 	 * @param tokens
 	 * 		La liste de tokens à compléter.
-	 * 
+	 *
 	 * @throws UnsupportedEncodingException
 	 * 		Problème de décodage lors de la lecture d'un document.
 	 */
@@ -84,11 +94,11 @@ public class Tokenizer implements Serializable
 			fnfe.printStackTrace();
 		}
 	}
-	
+
 	/**
 	 * Renvoie la liste des tokens pour
 	 * la chaîne de caractères spécifiée.
-	 * 
+	 *
 	 * @param string
 	 * 		Chaîne de caractères à traiter.
 	 * @return
@@ -103,9 +113,9 @@ public class Tokenizer implements Serializable
 		// regex = "\\W+|\\s+"
 		// regex = "\\W*\\s*\\W\\s*\\W*|\\W*\\s*\\p{Punct}\\s*\\W*|\\W*\\s*\\s\\s*\\W*";
 		// String regex = "\\W+|\\s+|\\p{Punct}+\\p{Space}+\\p{Blank}*|\\p{Space}+\\p{Blank}*";
-			// Si la chaine à tokeniser n'est pas vide
+		// Si la chaine à tokeniser n'est pas vide
 		if(string.length()>0) {
-				// Séparation des mots 
+			// Séparation des mots
 			String regex = "\\p{Space}+([\\p{Punct}&&[^']&&[^-]]|(?<![a-zA-Z])('|-)|('|-)(?![a-zA-Z]))*|([\\p{Punct}&&[^']&&[^-]]|(?<![a-zA-Z])('|-)|('|-)(?![a-zA-Z]))+\\p{Space}*";
 			result = new ArrayList<String>(Arrays.asList(string.split(regex)));
 			System.out.println(result.get(0));
@@ -120,26 +130,26 @@ public class Tokenizer implements Serializable
 		}
 		return result;
 	}
-	
+
 	////////////////////////////////////////////////////
 	//	TEST
 	////////////////////////////////////////////////////
 	/**
 	 * Test des méthodes de cette classe.
-	 * 
+	 *
 	 * @param args
 	 * 		Pas utilisé.
-	 * 
-	 * @throws Exception 
+	 *
+	 * @throws Exception
 	 * 		Problème quelconque rencontré.
 	 */
-	public static void main(String[] args) throws Exception 
+	public static void main(String[] args) throws Exception
 	{	// test de tokenizeString
 		// TODO méthode à compléter (TP1-ex3)
 		Tokenizer tokenizer = new Tokenizer();
 		// System.out.println(tokenizer.tokenizeString("-_ç(Salut, |b0nj0ur  \\| comment ça.vas?"));
 		System.out.println(tokenizer.tokenizeString("-Bonjour . comment ça vas?'\n"));
-		
+
 		// test de tokenizeDocument
 		// TODO méthode à compléter (TP1-ex4)
 		List<Token> tokens = new ArrayList<Token>();
@@ -151,5 +161,8 @@ public class Tokenizer implements Serializable
 
 		// test de tokenizeCorpus
 		// TODO méthode à compléter (TP1-ex5)
+		List<Token> tokens5 = new ArrayList<Token>();
+		Configuration.setCorpusName("wp_est");
+		tokenizer.tokenizeCorpus(tokens5);
 	}
 }
