@@ -96,6 +96,7 @@ public class IndexEntry implements Serializable, Comparable<IndexEntry>
 	public int compareTo(IndexEntry entry)
 	{	int result = 0;
 		//TODO méthode à compléter (TP1-ex9)
+		result = this.getTerm().compareTo(entry.getTerm());
 		return result;
 	}
 	
@@ -106,6 +107,11 @@ public class IndexEntry implements Serializable, Comparable<IndexEntry>
 	public String toString()
 	{	String result = null;
 		//TODO méthode à compléter (TP1-ex9)
+		result = "<" + this.getTerm() + " [" + this.getFrequency() + "] ( ";/*  + this.getPostings() + ")>"; */
+		for (Posting p : this.getPostings()) {
+			result = result + p + " ";
+		}
+		result = result + ")>";
 		return result;
 	}
 	
@@ -113,6 +119,10 @@ public class IndexEntry implements Serializable, Comparable<IndexEntry>
 	public boolean equals(Object o)
 	{	boolean result = false;
 		//TODO méthode à compléter (TP1-ex9)
+		if(o != null) {
+			IndexEntry entry = (IndexEntry) o;
+			result = this.compareTo(entry)==0;
+		}
 		return result;
 	}
 	
@@ -131,7 +141,19 @@ public class IndexEntry implements Serializable, Comparable<IndexEntry>
 	public static void main(String[] args) throws Exception 
 	{	// test de equals
 		// TODO méthode à compléter (TP1-ex9)
-				
+		Posting p = new Posting(4);
+		Posting p1 = new Posting(6);
+		Posting p3 = new Posting(2);
+		IndexEntry entry = new IndexEntry("bonjour");
+		entry.addPosting(p3);
+		entry.addPosting(p);
+		entry.addPosting(p1);
+		IndexEntry entry2 = new IndexEntry("bonjour");
+		IndexEntry entry3 = new IndexEntry("salut");
+		System.out.println(entry);
+		System.out.println(entry.equals(entry2));
+		System.out.println(entry.equals(entry3));
+
 		// test de compareTo
 		// TODO méthode à compléter (TP1-ex9)
 				

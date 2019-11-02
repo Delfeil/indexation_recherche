@@ -83,6 +83,11 @@ public class Posting implements Serializable, Comparable<Posting>
 	public int compareTo(Posting posting)
 	{	int result = 0;
 		//TODO méthode à compléter (TP1-ex8)
+		// Soit p1 le posting actuel (this) et p2 le posting auquel on compare p1
+		// Si p1 a un docId plus petit que p2 -> return <0 
+		// Si p1 a un docId identique à p2 -> return =0 
+		// Si p1 a un docId plus grand que p2 -> return >0 
+		result = this.getDocId() - posting.getDocId();
 		return result;
 	}
 	
@@ -93,6 +98,7 @@ public class Posting implements Serializable, Comparable<Posting>
 	public String toString()
 	{	String result = null;
 		//TODO méthode à compléter (TP1-ex8)
+		result = Integer.toString(this.getDocId());
 		//TODO méthode à modifier  (TP6-ex3)
 		return result;
 	}
@@ -101,6 +107,10 @@ public class Posting implements Serializable, Comparable<Posting>
 	public boolean equals(Object o)
 	{	boolean result = false;
 		//TODO méthode à compléter (TP1-ex8)
+		if(o != null) {
+			Posting p = (Posting) o;
+			result =this.compareTo(p)==0;
+		}
 		return result;
 	}
 	
@@ -119,7 +129,11 @@ public class Posting implements Serializable, Comparable<Posting>
 	public static void main(String[] args) throws Exception 
 	{	// test de compareTo
 		// TODO méthode à compléter (TP1-ex8)
-		
+		Posting p = new Posting(4);
+		Posting p1 = new Posting(6);
+		Posting p3 = new Posting(2);
+		Posting p4 = new Posting(4);
+		System.out.println("p: "+ p + ", p1: " + p1 + ", " + Integer.toString(p.compareTo(p1)) + " " + p.equals(p4));
 		// test de equals
 		// TODO méthode à compléter (TP1-ex8)
 

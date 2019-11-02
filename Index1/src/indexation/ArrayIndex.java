@@ -1,6 +1,10 @@
 package indexation;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 import indexation.content.IndexEntry;
+import indexation.content.Posting;
 
 /**
  * Objet représentant un index sous
@@ -21,6 +25,7 @@ public class ArrayIndex extends AbstractIndex
 	 */
 	public ArrayIndex(int size)
 	{	//TODO méthode à compléter (TP1-ex10)
+		this.data = new IndexEntry[size];
 	}
 	
 	////////////////////////////////////////////////////
@@ -32,12 +37,14 @@ public class ArrayIndex extends AbstractIndex
 	@Override
 	public void addEntry(IndexEntry indexEntry, int rank)
 	{	//TODO méthode à compléter (TP1-ex12)
+		this.data[rank] = indexEntry;
 	}
 	
 	@Override
 	public IndexEntry getEntry(String term)
 	{	IndexEntry result = null;
 		//TODO méthode à compléter (TP1-ex13)
+		result =this.data[Arrays.binarySearch(this.data, term)];
 		return result;
 	}
 	
@@ -45,6 +52,7 @@ public class ArrayIndex extends AbstractIndex
 	public int getSize()
 	{	int result = 0;
 		//TODO méthode à compléter (TP1-ex14)
+		result = this.data.length;
 		return result;
 	}
 	
@@ -68,6 +76,9 @@ public class ArrayIndex extends AbstractIndex
 	@Override
 	public void print()
 	{	//TODO méthode à compléter (TP1-ex11)
+		for (IndexEntry entry : data) {
+			System.out.println(entry);
+		}
 	}
 
 	////////////////////////////////////////////////////
@@ -85,17 +96,34 @@ public class ArrayIndex extends AbstractIndex
 	public static void main(String[] args) throws Exception 
 	{	// test du constructeur
 		//TODO méthode à compléter (TP1-ex10)
-		
+		ArrayIndex ai = new ArrayIndex(5);
 		// test de print
 		//TODO méthode à compléter (TP1-ex11)
+		IndexEntry entry = new IndexEntry("barque");
+		IndexEntry entry2 = new IndexEntry("bateau");
+		Posting p = new Posting(4);
+		Posting p1 = new Posting(6);
+		Posting p3 = new Posting(2);
+		entry.addPosting(p);
+		entry.addPosting(p1);
+		entry2.addPosting(p1);
+		entry2.addPosting(p3);
 		
 		// test de addEntry
 		//TODO méthode à compléter (TP1-ex12)
+		ai.addEntry(entry, 0);
+		ai.addEntry(entry2, 1);
+		ai.addEntry(entry, 2);
+		ai.addEntry(entry, 3);
+		ai.addEntry(entry, 4);
+		ai.print();
 		
 		// test de getEntry
 		//TODO méthode à compléter (TP1-ex13)
+		System.out.println(ai.getEntry("bateau"));
 		
 		// test de getSize
 		//TODO méthode à compléter (TP1-ex14)
+		System.out.println(ai.getSize());
 	}
 }
