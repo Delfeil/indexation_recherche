@@ -44,7 +44,9 @@ public class ArrayIndex extends AbstractIndex
 	public IndexEntry getEntry(String term)
 	{	IndexEntry result = null;
 		//TODO méthode à compléter (TP1-ex13)
-		result =this.data[Arrays.binarySearch(this.data, term)];
+		IndexEntry term_search = new IndexEntry(term);
+		// System.out.println(Arrays.binarySearch(this.data, term_search));
+		result =this.data[Arrays.binarySearch(this.data, term_search)];
 		return result;
 	}
 	
@@ -100,22 +102,25 @@ public class ArrayIndex extends AbstractIndex
 		// test de print
 		//TODO méthode à compléter (TP1-ex11)
 		IndexEntry entry = new IndexEntry("barque");
-		IndexEntry entry2 = new IndexEntry("bateau");
+		IndexEntry entry1 = new IndexEntry("bateau");
+		IndexEntry entry2 = new IndexEntry("gondolle");
+		IndexEntry entry3 = new IndexEntry("navire");
+		IndexEntry entry4 = new IndexEntry("voilier");
 		Posting p = new Posting(4);
 		Posting p1 = new Posting(6);
 		Posting p3 = new Posting(2);
 		entry.addPosting(p);
 		entry.addPosting(p1);
-		entry2.addPosting(p1);
-		entry2.addPosting(p3);
+		entry1.addPosting(p1);
+		entry1.addPosting(p3);
 		
 		// test de addEntry
 		//TODO méthode à compléter (TP1-ex12)
 		ai.addEntry(entry, 0);
-		ai.addEntry(entry2, 1);
-		ai.addEntry(entry, 2);
-		ai.addEntry(entry, 3);
-		ai.addEntry(entry, 4);
+		ai.addEntry(entry1, 1);
+		ai.addEntry(entry2, 2);
+		ai.addEntry(entry3, 3);
+		ai.addEntry(entry4, 4);
 		ai.print();
 		
 		// test de getEntry
