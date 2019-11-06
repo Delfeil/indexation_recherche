@@ -54,13 +54,17 @@ public class Builder
 		}
 		Iterator<Token> itt = tokens.iterator();
 		String currType = "";
+		int currDocId = -1;
 		while(itt.hasNext()) {
 			Token token = itt.next();
-			if(token.getType().equals(currType)) {
+			if(token.getType().equals(currType) && token.getDocId() == currDocId) {
 				itt.remove();
-			} else {
+			} else if(token.getType().equals(currType) && token.getDocId() != currDocId) {
+				currDocId = token.getDocId();
+			} else if(!token.getType().equals(currType)) {
 				result +=1;
 				currType = token.getType();
+				currDocId = token.getDocId();
 			}
 		}
 		return result;
