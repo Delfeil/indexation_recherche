@@ -6,6 +6,7 @@ import indexation.content.IndexEntry;
 import indexation.content.Posting;
 import indexation.content.Token;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
@@ -48,6 +49,20 @@ public class Builder
 	private int filterTokens(List<Token> tokens)
 	{	int result = 0;
 		//TODO méthode à compléter (TP2-ex1)
+		if(tokens == null || tokens.size()==0) {
+			return result;
+		}
+		Iterator<Token> itt = tokens.iterator();
+		String currType = "";
+		while(itt.hasNext()) {
+			Token token = itt.next();
+			if(token.getType().equals(currType)) {
+				itt.remove();
+			} else {
+				result +=1;
+				currType = token.getType();
+			}
+		}
 		return result;
 	}
 	
@@ -131,7 +146,22 @@ public class Builder
 	public static void main(String[] args) throws Exception 
 	{	// test de filterTokens
 		//TODO méthode à compléter (TP2-ex1)
-		
+		Token t5 = new Token("barque", 0);
+		Token t4 = new Token("barque", 4);
+		Token t1 = new Token("bateau", 1);
+		Token t2 = new Token("bateau", 2);
+		Token t3 = new Token("bateau", 2);
+		List<Token> tokens = new ArrayList<Token>();
+		tokens.add(t5);
+		tokens.add(t4);
+		tokens.add(t1);
+		tokens.add(t2);
+		tokens.add(t3);
+		System.out.println(tokens);
+		Builder b = new Builder();
+		int nb_tokens = b.filterTokens(tokens);
+		System.out.println("nb tokens: " + nb_tokens + " \n " + tokens);
+
 		// test de buildPostings
 		//TODO méthode à compléter (TP2-ex2)
 		
