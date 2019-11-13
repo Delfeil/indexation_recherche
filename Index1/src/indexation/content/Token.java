@@ -71,7 +71,7 @@ public class Token implements Comparable<Token>
 		//TODO méthode à compléter (TP1-ex1)
 		result = this.type.compareTo(token.getType());
 		if(result == 0) {
-			result = this.docId - token.getDocId();
+			result = ((Integer)this.docId).compareTo(token.getDocId());
 		}
 		return result;
 	}

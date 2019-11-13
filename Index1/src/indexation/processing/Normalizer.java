@@ -153,6 +153,7 @@ public class Normalizer implements Serializable
 		//TODO méthode à compléter (TP1-ex6)
 		Normalizer norm = new Normalizer();
 		System.out.println(norm.normalizeType("StriNg") + ", " + norm.normalizeType("") + ", " + norm.normalizeType("sTrïng"));
+		System.out.println(norm.normalizeType("être"));
 		// test de normalizeTokens
 		//TODO méthode à compléter (TP1-ex7)
 		List<Token> tokens = new ArrayList<Token>();

@@ -1,12 +1,18 @@
 package indexation.processing;
 
 import indexation.AbstractIndex;
+import indexation.ArrayIndex;
+import indexation.HashIndex;
+import indexation.TreeIndex;
 import indexation.AbstractIndex.LexiconType;
 import indexation.content.IndexEntry;
 import indexation.content.Posting;
 import indexation.content.Token;
+import tools.Configuration;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
@@ -31,6 +37,28 @@ public class Builder
 	public AbstractIndex buildIndex(List<Token> tokens, LexiconType lexiconType)
 	{	AbstractIndex result = null;
 		//TODO méthode à compléter (TP2-ex3)
+		System.out.println("Sorting tokens...");
+		int nb_tokens = tokens.size();
+		Collections.sort(tokens);
+		System.out.println(nb_tokens + " tokens sorted");
+		System.out.println("Filtering tokens...");
+		int nb_terms = this.filterTokens(tokens);
+		int nb_tokens_after_filter = tokens.size();
+		System.out.println(nb_tokens_after_filter + " tokens remaining, corresponding to " + nb_terms + " terms");
+		switch(lexiconType) {
+			case ARRAY:
+			result = new ArrayIndex(nb_terms);
+			break;
+			case HASH:
+			result = new HashIndex(nb_terms);
+			break;
+			case TREE:
+			result = new TreeIndex();
+			break;
+		}
+		System.out.println("Building posting lists...");
+		int nb_postings = this.buildPostings(tokens, result);
+		System.out.println(nb_postings + " postings listed, lexicon type="+lexiconType);
 		//TODO méthode à modifier  (TP2-ex8)
 		return result;
 	}
@@ -108,6 +136,35 @@ public class Builder
 	private int buildPostings(List<Token> tokens, AbstractIndex index)
 	{	int result = 0;
 		//TODO méthode à compléter (TP2-ex2)
+		
+		//On parcours tous les postings
+			//Pour chaque posting, on regarde si il y a une entry déjà présente dans l'index
+				//SI il y a une entry -> on ajoute le posting
+				//Sinon -> On crée l'entry et on lui ajoute le posting et on le place dans l'index
+		IndexEntry iEntry = null;
+		String prev_token_type = "";
+		int nb_token = -1;
+		for (Token token : tokens) {
+			if(!prev_token_type.equals(token.getType())) {
+				prev_token_type = token.getType();
+				nb_token++;
+			}
+			if(index instanceof ArrayIndex) {
+				ArrayIndex ai = (ArrayIndex) index;
+				iEntry = ai.getEntries()[nb_token];
+			} else {
+				iEntry = index.getEntry(token.getType());
+			}
+			if(iEntry == null) {
+				iEntry = new IndexEntry(token.getType());
+				iEntry.addPosting(new Posting(token.getDocId()));
+				index.addEntry(iEntry, nb_token);
+				result++;
+			} else {
+				iEntry.addPosting(new Posting(token.getDocId()));
+				result++;
+			}
+		}
 		return result;
 	}
 	
@@ -155,12 +212,14 @@ public class Builder
 		Token t1 = new Token("bateau", 1);
 		Token t2 = new Token("bateau", 2);
 		Token t3 = new Token("bateau", 2);
+		Token t6 = new Token("tram", 3);
 		List<Token> tokens = new ArrayList<Token>();
 		tokens.add(t5);
 		tokens.add(t4);
 		tokens.add(t1);
 		tokens.add(t2);
 		tokens.add(t3);
+		tokens.add(t6);
 		System.out.println(tokens);
 		Builder b = new Builder();
 		int nb_tokens = b.filterTokens(tokens);
@@ -168,9 +227,32 @@ public class Builder
 
 		// test de buildPostings
 		//TODO méthode à compléter (TP2-ex2)
+		HashIndex hi = new HashIndex(2);
+		ArrayIndex ai = new ArrayIndex(3);
+		System.out.println( "tokens: " + tokens.size() + ", " + b.buildPostings(tokens, hi));
+		System.out.println("index: ");
+		hi.print();
+		System.out.println( "tokens: " + tokens.size() + ", " + b.buildPostings(tokens, ai));
+		System.out.println("index: ");
+		ai.print();
 		
 		// test de buildIndex
 		//TODO méthode à compléter (TP2-ex3)
+		Tokenizer tokenizer = new Tokenizer();
+		List<Token> tokens3 = new ArrayList<Token>();
+
+		Configuration.setCorpusName("wp_test");
+		int result = tokenizer.tokenizeCorpus(tokens3);
+		// System.out.println("Nombre de tokens trouvés: " + result);
+		Normalizer normalizer = new Normalizer();
+		normalizer.normalizeTokens(tokens3);
+
+		AbstractIndex indexArray = b.buildIndex(tokens3, LexiconType.ARRAY);
+		// indexArray.print();
+		// AbstractIndex indexHash = b.buildIndex(tokens3, LexiconType.HASH);
+		// indexHash.print();
+		// AbstractIndex indexTree = b.buildIndex(tokens3, LexiconType.TREE);
+		// indexTree.print();
 		
 		// test de filterTokens
 		//TODO méthode à compléter (TP6-ex4)

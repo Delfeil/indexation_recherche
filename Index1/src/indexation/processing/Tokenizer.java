@@ -137,6 +137,7 @@ private static final long serialVersionUID = 1L;
 			// 		//Si c'est le cas, le split retourne [, Cas, 1] -> Enlever le premier élément de la liste.
 			// 	result.remove(0);
 			// }
+			// System.out.println(result);
 			while(result.contains("")) {
 				result.remove("");
 			}
@@ -161,8 +162,8 @@ private static final long serialVersionUID = 1L;
 		// TODO méthode à compléter (TP1-ex3)
 		Tokenizer tokenizer = new Tokenizer();
 		// System.out.println(tokenizer.tokenizeString("-_ç(Salut, |b0nj0ur  \\| comment ça.vas?"));
-		System.out.println(tokenizer.tokenizeString("-Bonjour . comment ça vas?'\n"));
-
+		System.out.println(tokenizer.tokenizeString("< -Bonjour . comment ça vas?'\n"));
+		
 		// test de tokenizeDocument
 		// TODO méthode à compléter (TP1-ex4)
 		List<Token> tokens = new ArrayList<Token>();
