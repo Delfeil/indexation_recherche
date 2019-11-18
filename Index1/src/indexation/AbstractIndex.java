@@ -1,9 +1,11 @@
 package indexation;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.io.UnsupportedEncodingException;
@@ -226,6 +228,17 @@ public abstract class AbstractIndex implements Serializable
 	public static AbstractIndex read() throws IOException, ClassNotFoundException
 	{	AbstractIndex result = null;
 		//TODO méthode à compléter (TP2-ex11)
+		long start = System.currentTimeMillis();
+		String index_file = FileTools.getIndexFile();
+		System.out.println("Loading the index... " + index_file);
+		File file = new File(index_file);
+		FileInputStream fis = new FileInputStream(file);
+		ObjectInputStream ois = new ObjectInputStream(fis);
+		result = (AbstractIndex) ois.readObject();
+		ois.close();
+		long end = System.currentTimeMillis();
+		System.out.println("Index loaded, duration="+ (end-start) +" ms");
+		
 		return result;
 	}
 	
@@ -291,5 +304,7 @@ public abstract class AbstractIndex implements Serializable
 		
 		// test de read
 		//TODO méthode à compléter (TP2-ex11)
+		AbstractIndex indexRead = AbstractIndex.read();
+		indexRead.print();
 	}
 }

@@ -45,7 +45,7 @@ public class ArrayIndex extends AbstractIndex
 	{	IndexEntry result = null;
 		//TODO méthode à compléter (TP1-ex13)
 		IndexEntry term_search = new IndexEntry(term);
-		this.print();
+		// this.print();
 		// System.out.println("Search term in index: " + term_search);
 		// System.out.println(Arrays.binarySearch(this.data, term_search));
 		result =this.data[Arrays.binarySearch(this.data, term_search)];
