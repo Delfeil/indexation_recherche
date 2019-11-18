@@ -3,6 +3,8 @@ package tools;
 import indexation.content.Posting;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import query.DocScore;
@@ -123,6 +125,15 @@ public class FileTools
 	public static List<String> getFileNamesFromPostings(List<Posting> postings)
 	{	List<String> result = null;
 		//TODO méthode à compléter  (TP2-ex6)
+		String folder_name = FileTools.getCorpusFolder();
+		File f = new File(folder_name);
+		String[] files = f.list();
+		Arrays.sort(files);
+		if(files.length > 0 && postings != null && postings.size() >0)
+			result = new ArrayList<String>();
+		for (Posting posting : postings) {
+			result.add(files[posting.getDocId()]);
+		}
 		return result;
 	}
 	
@@ -171,7 +182,13 @@ public class FileTools
 	public static void main(String[] args) throws Exception 
 	{	// test de getFileNamesFromPostings
 		//TODO méthode à compléter  (TP2-ex6)
-		
+		Configuration.setCorpusName("wp");
+		List<Posting> postings = new ArrayList<Posting>();
+		postings.add(new Posting(1));
+		postings.add(new Posting(2));
+		postings.add(new Posting(3));
+		List<String> list_files = FileTools.getFileNamesFromPostings(postings);
+		System.out.println(list_files);
 		// test de getPostingsFromFileNames
 		//TODO méthode à compléter  (TP4-ex1)
 		

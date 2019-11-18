@@ -1,5 +1,10 @@
 import java.io.IOException;
 
+import indexation.AbstractIndex;
+import indexation.AbstractIndex.LexiconType;
+import indexation.AbstractIndex.TokenListType;
+import tools.Configuration;
+
 /**
  * Classe permettant de tester
  * notre indexation.
@@ -18,12 +23,14 @@ public class Test1
 	 */
 	public static void main(String[] args) throws IOException, ClassNotFoundException
 	{	// configuration de l'index
-		//TODO méthode à compléter (TP2-ex5) 
+		//TODO méthode à compléter (TP2-ex5)
+		Configuration.setCorpusName("wp");
 		//TODO méthode à compléter (TP4-ex14)
 		//TODO méthode à compléter (TP5-ex10)
 		
 		// test de l'indexation
-		//TODO méthode à compléter (TP2-ex5) 
+		//TODO méthode à compléter (TP2-ex5)
+		Test1.testIndexation();
 		
 		// test du chargement d'index
 		//TODO méthode à compléter (TP2-ex11)
@@ -46,7 +53,17 @@ public class Test1
 	 */
 	private static void testIndexation() throws IOException
 	{	//TODO méthode à compléter (TP2-ex5)
+		// AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.LINKED, LexiconType.ARRAY);
+		// AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.ARRAY, LexiconType.ARRAY);
+		AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.LINKED, LexiconType.HASH);
+		// AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.ARRAY, LexiconType.HASH);
+		// AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.LINKED, LexiconType.TREE);
+		// AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.ARRAY, LexiconType.TREE);
+		
+		// index.print();
+
 		//TODO méthode à compléter (TP2-ex10)
+		index.write();
 	}
 	
 	////////////////////////////////////////////////////

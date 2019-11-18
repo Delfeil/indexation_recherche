@@ -49,9 +49,9 @@ private static final long serialVersionUID = 1L;
 	{	int result = 0;
 		//TODO méthode à compléter (TP1-ex5)
 		String corpus = FileTools.getCorpusFolder();
-		System.out.println(corpus);
+		// System.out.println(corpus);
 		File f = new File(corpus);
-		System.out.println(f.getPath());
+		// System.out.println(f.getPath());
 		// return result;
 		String[] files = f.list();
 		Arrays.sort(files);

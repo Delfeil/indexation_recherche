@@ -1,13 +1,23 @@
 package indexation;
 
+import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 import indexation.content.IndexEntry;
+import indexation.content.Token;
+import indexation.processing.Builder;
 import indexation.processing.Normalizer;
 import indexation.processing.Tokenizer;
+import tools.Configuration;
+import tools.FileTools;
 
 /**
  * Objet représentant un index sous
@@ -39,6 +49,48 @@ public abstract class AbstractIndex implements Serializable
 	public static AbstractIndex indexCorpus(TokenListType tokenListType, LexiconType lexiconType) throws UnsupportedEncodingException, FileNotFoundException
 	{	AbstractIndex result = null;
 		//TODO méthode à compléter (TP2-ex4)
+		String folder = FileTools.getCorpusFolder();
+		Tokenizer tokenizer = new Tokenizer();
+		Normalizer normalizer = new Normalizer();
+		Builder builder = new Builder();
+			// Normalizer et Builder doivent être stockés dans les champs appropriés d’Index,
+			// pour être utilisés ultérieurement. Une fois l’index créé, il doit être affiché.
+		List<Token> tokens = null;
+		switch(tokenListType) {
+			case ARRAY:
+				tokens = new ArrayList<Token>();
+			break;
+			case LINKED:
+				tokens = new LinkedList<Token>();
+			break;
+		}
+		long tot_start = System.currentTimeMillis(); 
+
+		System.out.println("Tokenizing corpus...");
+		long start = System.currentTimeMillis();
+		int nb_tokens = tokenizer.tokenizeCorpus(tokens);
+		long end = System.currentTimeMillis();
+		System.out.println(nb_tokens + " tokens were found, Durée mesurée : "+
+			(end - start) + " ms");
+
+		System.out.println("Normalizing tokens...");
+		start = System.currentTimeMillis();
+		normalizer.normalizeTokens(tokens);
+		end = System.currentTimeMillis();
+		System.out.println(tokens.size() +
+			" tokens remaining after normalization Building index, duration="+
+			(end-start)+ "ms");
+		
+		System.out.println("Building index...");
+		start = System.currentTimeMillis();
+		result = builder.buildIndex(tokens, lexiconType);
+		end = System.currentTimeMillis();
+		System.out.println("There are "+ result.getSize() +
+			" entries in the index, token list="+ tokenListType+
+			", duration="+ (end-start)+ "ms");
+
+		long tot_end = System.currentTimeMillis();
+		System.out.println("Total duration="+(tot_end-tot_start)+" ms");
 		//TODO méthode à modifier  (TP2-ex8)
 		return result;
 	}
@@ -187,6 +239,18 @@ public abstract class AbstractIndex implements Serializable
 	 */
 	public void write() throws IOException
 	{	//TODO méthode à compléter (TP2-ex10)
+		String index_file = FileTools.getIndexFile();
+		System.out.println("Writing the index... " + index_file);
+		long start = System.currentTimeMillis();
+
+		File file = new File(index_file);
+		FileOutputStream fos = new FileOutputStream(file);
+		ObjectOutputStream oos = new ObjectOutputStream(fos);
+		oos.writeObject(this);
+		oos.close();
+
+		long end = System.currentTimeMillis();
+		System.out.println("Index written, duration="+ (end-start)+" ms");
 	}
 
 	////////////////////////////////////////////////////
@@ -212,9 +276,18 @@ public abstract class AbstractIndex implements Serializable
 	public static void main(String[] args) throws Exception 
 	{	// test de indexCorpus
 		//TODO méthode à compléter (TP2-ex4)
-		
+		Configuration.setCorpusName("wp_test");
+		AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.LINKED, LexiconType.ARRAY);
+		// AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.ARRAY, LexiconType.ARRAY);
+		// AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.LINKED, LexiconType.HASH);
+		// AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.ARRAY, LexiconType.HASH);
+		// AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.LINKED, LexiconType.TREE);
+		// AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.ARRAY, LexiconType.TREE);
+		// index.print();
+
 		// test de write
 		//TODO méthode à compléter (TP2-ex10)
+		index.write();
 		
 		// test de read
 		//TODO méthode à compléter (TP2-ex11)

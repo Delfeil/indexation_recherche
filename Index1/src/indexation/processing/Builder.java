@@ -37,14 +37,25 @@ public class Builder
 	public AbstractIndex buildIndex(List<Token> tokens, LexiconType lexiconType)
 	{	AbstractIndex result = null;
 		//TODO méthode à compléter (TP2-ex3)
+
 		System.out.println("Sorting tokens...");
 		int nb_tokens = tokens.size();
+		long start = System.currentTimeMillis();
 		Collections.sort(tokens);
-		System.out.println(nb_tokens + " tokens sorted");
+		long end = System.currentTimeMillis();
+		System.out.println(nb_tokens + " tokens sorted, duration="
+			+(end-start)+" ms");
+		
+		
 		System.out.println("Filtering tokens...");
+		start = System.currentTimeMillis();
 		int nb_terms = this.filterTokens(tokens);
+		end = System.currentTimeMillis();
 		int nb_tokens_after_filter = tokens.size();
-		System.out.println(nb_tokens_after_filter + " tokens remaining, corresponding to " + nb_terms + " terms");
+		System.out.println(nb_tokens_after_filter +
+		" tokens remaining, corresponding to " + nb_terms +
+		" terms, duration="+(end-start)+" ms");
+		
 		switch(lexiconType) {
 			case ARRAY:
 			result = new ArrayIndex(nb_terms);
@@ -57,8 +68,11 @@ public class Builder
 			break;
 		}
 		System.out.println("Building posting lists...");
+		start = System.currentTimeMillis();
 		int nb_postings = this.buildPostings(tokens, result);
-		System.out.println(nb_postings + " postings listed, lexicon type="+lexiconType);
+		end = System.currentTimeMillis();
+		System.out.println(nb_postings +
+			" postings listed, lexicon type="+lexiconType + ", duration="+(end-start)+" ms");
 		//TODO méthode à modifier  (TP2-ex8)
 		return result;
 	}
