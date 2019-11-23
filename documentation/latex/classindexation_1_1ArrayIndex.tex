@@ -1,0 +1,95 @@
+\hypertarget{classindexation_1_1ArrayIndex}{}\section{Référence de la classe indexation.\+Array\+Index}
+\label{classindexation_1_1ArrayIndex}\index{indexation.\+Array\+Index@{indexation.\+Array\+Index}}
+
+
+Graphe d\textquotesingle{}héritage de indexation.\+Array\+Index\+:
+% FIG 0
+
+
+Graphe de collaboration de indexation.\+Array\+Index\+:
+% FIG 1
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classindexation_1_1ArrayIndex_a793141160f09fb4d93f2a62151b90b1f}{Array\+Index} (int size)
+\item 
+\mbox{\Hypertarget{classindexation_1_1ArrayIndex_a83c79429c120a4955c299cbac7f66d5a}\label{classindexation_1_1ArrayIndex_a83c79429c120a4955c299cbac7f66d5a}} 
+void {\bfseries add\+Entry} (\hyperlink{classindexation_1_1content_1_1IndexEntry}{Index\+Entry} index\+Entry, int rank)
+\item 
+\mbox{\Hypertarget{classindexation_1_1ArrayIndex_a2ef8f14f97f27e43963eeda6008091a9}\label{classindexation_1_1ArrayIndex_a2ef8f14f97f27e43963eeda6008091a9}} 
+\hyperlink{classindexation_1_1content_1_1IndexEntry}{Index\+Entry} {\bfseries get\+Entry} (String term)
+\item 
+\mbox{\Hypertarget{classindexation_1_1ArrayIndex_a616d4476fdbae0a54e9a936c6afcf139}\label{classindexation_1_1ArrayIndex_a616d4476fdbae0a54e9a936c6afcf139}} 
+int {\bfseries get\+Size} ()
+\item 
+\hyperlink{classindexation_1_1content_1_1IndexEntry}{Index\+Entry} \mbox{[}$\,$\mbox{]} \hyperlink{classindexation_1_1ArrayIndex_af83b1f92ab5c523376f11443407374ba}{get\+Entries} ()
+\item 
+void \hyperlink{classindexation_1_1ArrayIndex_aa5639c426c9b0c833be7826ed01f1222}{print} ()
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques statiques}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classindexation_1_1ArrayIndex_ae1fcca43891bb344ae97dbf32c065808}{main} (String\mbox{[}$\,$\mbox{]} args)  throws Exception  	
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Objet représentant un index sous la forme d\textquotesingle{}un fichier inverse simple, dont le lexique est stocké dans un tableau. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{classindexation_1_1ArrayIndex_a793141160f09fb4d93f2a62151b90b1f}\label{classindexation_1_1ArrayIndex_a793141160f09fb4d93f2a62151b90b1f}} 
+\index{indexation\+::\+Array\+Index@{indexation\+::\+Array\+Index}!Array\+Index@{Array\+Index}}
+\index{Array\+Index@{Array\+Index}!indexation\+::\+Array\+Index@{indexation\+::\+Array\+Index}}
+\subsubsection{\texorpdfstring{Array\+Index()}{ArrayIndex()}}
+{\footnotesize\ttfamily indexation.\+Array\+Index.\+Array\+Index (\begin{DoxyParamCaption}\item[{int}]{size }\end{DoxyParamCaption})}
+
+Construit un nouvel index vide, de la taille indiquée en paramétre.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em size} & Taille de l\textquotesingle{}index (expriée en nombre de termes). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classindexation_1_1ArrayIndex_af83b1f92ab5c523376f11443407374ba}\label{classindexation_1_1ArrayIndex_af83b1f92ab5c523376f11443407374ba}} 
+\index{indexation\+::\+Array\+Index@{indexation\+::\+Array\+Index}!get\+Entries@{get\+Entries}}
+\index{get\+Entries@{get\+Entries}!indexation\+::\+Array\+Index@{indexation\+::\+Array\+Index}}
+\subsubsection{\texorpdfstring{get\+Entries()}{getEntries()}}
+{\footnotesize\ttfamily \hyperlink{classindexation_1_1content_1_1IndexEntry}{Index\+Entry} \mbox{[}$\,$\mbox{]} indexation.\+Array\+Index.\+get\+Entries (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Renvoie le tableau correspondant au lexique de cet index.
+
+\begin{DoxyReturn}{Renvoie}
+Lexique sous forme de tableau d\textquotesingle{}entrées. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classindexation_1_1ArrayIndex_ae1fcca43891bb344ae97dbf32c065808}\label{classindexation_1_1ArrayIndex_ae1fcca43891bb344ae97dbf32c065808}} 
+\index{indexation\+::\+Array\+Index@{indexation\+::\+Array\+Index}!main@{main}}
+\index{main@{main}!indexation\+::\+Array\+Index@{indexation\+::\+Array\+Index}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void indexation.\+Array\+Index.\+main (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Test des méthodes de cette classe.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em args} & Pas utilisé.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Problème quelconque rencontré. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classindexation_1_1ArrayIndex_aa5639c426c9b0c833be7826ed01f1222}\label{classindexation_1_1ArrayIndex_aa5639c426c9b0c833be7826ed01f1222}} 
+\index{indexation\+::\+Array\+Index@{indexation\+::\+Array\+Index}!print@{print}}
+\index{print@{print}!indexation\+::\+Array\+Index@{indexation\+::\+Array\+Index}}
+\subsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void indexation.\+Array\+Index.\+print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Affiche le contenu de l\textquotesingle{}index. 
+
+La documentation de cette classe a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+Index1/src/indexation/Array\+Index.\+java\end{DoxyCompactItemize}

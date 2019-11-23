@@ -1,0 +1,119 @@
+\hypertarget{classindexation_1_1content_1_1Posting}{}\section{Référence de la classe indexation.\+content.\+Posting}
+\label{classindexation_1_1content_1_1Posting}\index{indexation.\+content.\+Posting@{indexation.\+content.\+Posting}}
+
+
+Graphe d\textquotesingle{}héritage de indexation.\+content.\+Posting\+:
+% FIG 0
+
+
+Graphe de collaboration de indexation.\+content.\+Posting\+:
+% FIG 1
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classindexation_1_1content_1_1Posting_a3f69124d394ca8dba1dd17e9ffd025cd}{Posting} (int doc\+Id)
+\item 
+\hyperlink{classindexation_1_1content_1_1Posting_a5e496e0ae1259f6c32b1c1e41d5f97e0}{Posting} (int doc\+Id, int frequency)
+\item 
+int \hyperlink{classindexation_1_1content_1_1Posting_a28e341b0a61e7bf6beaa3af24f90af29}{get\+Doc\+Id} ()
+\item 
+int \hyperlink{classindexation_1_1content_1_1Posting_ae5d70192b6076e0832f4a19a0346fbbb}{get\+Frequency} ()
+\item 
+\mbox{\Hypertarget{classindexation_1_1content_1_1Posting_a488e4c92b863f005b9a029402c07891b}\label{classindexation_1_1content_1_1Posting_a488e4c92b863f005b9a029402c07891b}} 
+int {\bfseries compare\+To} (\hyperlink{classindexation_1_1content_1_1Posting}{Posting} posting)
+\item 
+\mbox{\Hypertarget{classindexation_1_1content_1_1Posting_a45ca4379eebb4fb1acba7fde82ef8f18}\label{classindexation_1_1content_1_1Posting_a45ca4379eebb4fb1acba7fde82ef8f18}} 
+String {\bfseries to\+String} ()
+\item 
+\mbox{\Hypertarget{classindexation_1_1content_1_1Posting_a9f16fb27b71047e5f5fcd13f1d6e0bac}\label{classindexation_1_1content_1_1Posting_a9f16fb27b71047e5f5fcd13f1d6e0bac}} 
+boolean {\bfseries equals} (Object o)
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques statiques}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classindexation_1_1content_1_1Posting_ac2aea89ea4c889116561a86b6aa0a11b}{main} (String\mbox{[}$\,$\mbox{]} args)  throws Exception  	
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Représente un posting, c\textquotesingle{}est à dire ici \+: simplement le numéro du document contenant un token donné. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{classindexation_1_1content_1_1Posting_a3f69124d394ca8dba1dd17e9ffd025cd}\label{classindexation_1_1content_1_1Posting_a3f69124d394ca8dba1dd17e9ffd025cd}} 
+\index{indexation\+::content\+::\+Posting@{indexation\+::content\+::\+Posting}!Posting@{Posting}}
+\index{Posting@{Posting}!indexation\+::content\+::\+Posting@{indexation\+::content\+::\+Posting}}
+\subsubsection{\texorpdfstring{Posting()}{Posting()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily indexation.\+content.\+Posting.\+Posting (\begin{DoxyParamCaption}\item[{int}]{doc\+Id }\end{DoxyParamCaption})}
+
+Construit un nouveau posting à partir du numéro de document passé en paramètre. ~\newline
+ {\bfseries Note \+:} À utiliser à partir du TP 1.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em doc\+Id} & Numéro du document concerné. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classindexation_1_1content_1_1Posting_a5e496e0ae1259f6c32b1c1e41d5f97e0}\label{classindexation_1_1content_1_1Posting_a5e496e0ae1259f6c32b1c1e41d5f97e0}} 
+\index{indexation\+::content\+::\+Posting@{indexation\+::content\+::\+Posting}!Posting@{Posting}}
+\index{Posting@{Posting}!indexation\+::content\+::\+Posting@{indexation\+::content\+::\+Posting}}
+\subsubsection{\texorpdfstring{Posting()}{Posting()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily indexation.\+content.\+Posting.\+Posting (\begin{DoxyParamCaption}\item[{int}]{doc\+Id,  }\item[{int}]{frequency }\end{DoxyParamCaption})}
+
+Construit un nouveau posting à partir du numéro de document et de la fréquence passés en paramètre. ~\newline
+ {\bfseries Note \+:} À utiliser dans le TP 6
+
+
+\begin{DoxyParams}{Paramètres}
+{\em doc\+Id} & Numéro du document concerné. \\
+\hline
+{\em frequency} & Fréquence du terme dans ce document. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classindexation_1_1content_1_1Posting_a28e341b0a61e7bf6beaa3af24f90af29}\label{classindexation_1_1content_1_1Posting_a28e341b0a61e7bf6beaa3af24f90af29}} 
+\index{indexation\+::content\+::\+Posting@{indexation\+::content\+::\+Posting}!get\+Doc\+Id@{get\+Doc\+Id}}
+\index{get\+Doc\+Id@{get\+Doc\+Id}!indexation\+::content\+::\+Posting@{indexation\+::content\+::\+Posting}}
+\subsubsection{\texorpdfstring{get\+Doc\+Id()}{getDocId()}}
+{\footnotesize\ttfamily int indexation.\+content.\+Posting.\+get\+Doc\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Renvoie le doc\+Id associé à ce posting.
+
+\begin{DoxyReturn}{Renvoie}
+Entier représentant le doc\+Id de ce posting. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classindexation_1_1content_1_1Posting_ae5d70192b6076e0832f4a19a0346fbbb}\label{classindexation_1_1content_1_1Posting_ae5d70192b6076e0832f4a19a0346fbbb}} 
+\index{indexation\+::content\+::\+Posting@{indexation\+::content\+::\+Posting}!get\+Frequency@{get\+Frequency}}
+\index{get\+Frequency@{get\+Frequency}!indexation\+::content\+::\+Posting@{indexation\+::content\+::\+Posting}}
+\subsubsection{\texorpdfstring{get\+Frequency()}{getFrequency()}}
+{\footnotesize\ttfamily int indexation.\+content.\+Posting.\+get\+Frequency (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Renvoie la fréquence du terme dans le document correspondant à ce posting.
+
+\begin{DoxyReturn}{Renvoie}
+Nombre d\textquotesingle{}occurrences du terme dans le document. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classindexation_1_1content_1_1Posting_ac2aea89ea4c889116561a86b6aa0a11b}\label{classindexation_1_1content_1_1Posting_ac2aea89ea4c889116561a86b6aa0a11b}} 
+\index{indexation\+::content\+::\+Posting@{indexation\+::content\+::\+Posting}!main@{main}}
+\index{main@{main}!indexation\+::content\+::\+Posting@{indexation\+::content\+::\+Posting}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void indexation.\+content.\+Posting.\+main (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Test des méthodes de cette classe.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em args} & Pas utilisé.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Problème quelconque rencontré. \\
+\hline
+\end{DoxyExceptions}
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+Index1/src/indexation/content/Posting.\+java\end{DoxyCompactItemize}

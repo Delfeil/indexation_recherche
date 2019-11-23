@@ -1,0 +1,121 @@
+\hypertarget{classindexation_1_1processing_1_1PorterStemmer}{}\section{Référence de la classe indexation.\+processing.\+Porter\+Stemmer}
+\label{classindexation_1_1processing_1_1PorterStemmer}\index{indexation.\+processing.\+Porter\+Stemmer@{indexation.\+processing.\+Porter\+Stemmer}}
+
+
+Graphe d\textquotesingle{}héritage de indexation.\+processing.\+Porter\+Stemmer\+:
+% FIG 0
+
+
+Graphe de collaboration de indexation.\+processing.\+Porter\+Stemmer\+:
+% FIG 1
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classindexation_1_1processing_1_1PorterStemmer_ae05007f6966f59f250490c1f1da18ea7}\label{classindexation_1_1processing_1_1PorterStemmer_ae05007f6966f59f250490c1f1da18ea7}} 
+String {\bfseries stem\+Type} (String string)
+\item 
+void \hyperlink{classindexation_1_1processing_1_1PorterStemmer_a707458b373324b9949c3e81b1f35161f}{add} (char ch)
+\item 
+void \hyperlink{classindexation_1_1processing_1_1PorterStemmer_acbf12a93895c42d6387c3d33cbccdfe0}{add} (char\mbox{[}$\,$\mbox{]} w, int w\+Len)
+\item 
+String \hyperlink{classindexation_1_1processing_1_1PorterStemmer_a67d818639497e0dad6ced251e5562be8}{get\+Result\+Buffer\+As\+String} ()
+\item 
+int \hyperlink{classindexation_1_1processing_1_1PorterStemmer_a1009cbe95a2ba30b6665848e8b0d6208}{get\+Result\+Length} ()
+\item 
+char \mbox{[}$\,$\mbox{]} \hyperlink{classindexation_1_1processing_1_1PorterStemmer_a8a549225c6b843fb730000e2d291913c}{get\+Result\+Buffer} ()
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques statiques}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classindexation_1_1processing_1_1PorterStemmer_a893422ac6f517cc2e2f1f12f049918a4}{main} (String\mbox{[}$\,$\mbox{]} args)  throws Exception  	
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Objet racinisant les tokens à l\textquotesingle{}aide des règles définies par Porter. Cette classe inclut du code source développé par Porter en domaine public, et disponible à l\textquotesingle{}adresse suivante \+: \href{https://tartarus.org/martin/PorterStemmer/java.txt}{\tt Porter Stemmer Java code} 
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classindexation_1_1processing_1_1PorterStemmer_a707458b373324b9949c3e81b1f35161f}\label{classindexation_1_1processing_1_1PorterStemmer_a707458b373324b9949c3e81b1f35161f}} 
+\index{indexation\+::processing\+::\+Porter\+Stemmer@{indexation\+::processing\+::\+Porter\+Stemmer}!add@{add}}
+\index{add@{add}!indexation\+::processing\+::\+Porter\+Stemmer@{indexation\+::processing\+::\+Porter\+Stemmer}}
+\subsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void indexation.\+processing.\+Porter\+Stemmer.\+add (\begin{DoxyParamCaption}\item[{char}]{ch }\end{DoxyParamCaption})}
+
+Add a character to the word being stemmed. When you are finished adding characters, you can call stem(void) to stem the word.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em ch} & ... \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classindexation_1_1processing_1_1PorterStemmer_acbf12a93895c42d6387c3d33cbccdfe0}\label{classindexation_1_1processing_1_1PorterStemmer_acbf12a93895c42d6387c3d33cbccdfe0}} 
+\index{indexation\+::processing\+::\+Porter\+Stemmer@{indexation\+::processing\+::\+Porter\+Stemmer}!add@{add}}
+\index{add@{add}!indexation\+::processing\+::\+Porter\+Stemmer@{indexation\+::processing\+::\+Porter\+Stemmer}}
+\subsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void indexation.\+processing.\+Porter\+Stemmer.\+add (\begin{DoxyParamCaption}\item[{char \mbox{[}$\,$\mbox{]}}]{w,  }\item[{int}]{w\+Len }\end{DoxyParamCaption})}
+
+Adds w\+Len characters to the word being stemmed contained in a portion of a char\mbox{[}\mbox{]} array. This is like repeated calls of \hyperlink{classindexation_1_1processing_1_1PorterStemmer_a707458b373324b9949c3e81b1f35161f}{add(char ch)}, but faster.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em w} & ... \\
+\hline
+{\em w\+Len} & ... \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classindexation_1_1processing_1_1PorterStemmer_a8a549225c6b843fb730000e2d291913c}\label{classindexation_1_1processing_1_1PorterStemmer_a8a549225c6b843fb730000e2d291913c}} 
+\index{indexation\+::processing\+::\+Porter\+Stemmer@{indexation\+::processing\+::\+Porter\+Stemmer}!get\+Result\+Buffer@{get\+Result\+Buffer}}
+\index{get\+Result\+Buffer@{get\+Result\+Buffer}!indexation\+::processing\+::\+Porter\+Stemmer@{indexation\+::processing\+::\+Porter\+Stemmer}}
+\subsubsection{\texorpdfstring{get\+Result\+Buffer()}{getResultBuffer()}}
+{\footnotesize\ttfamily char \mbox{[}$\,$\mbox{]} indexation.\+processing.\+Porter\+Stemmer.\+get\+Result\+Buffer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a reference to a character buffer containing the results of the stemming process. You also need to consult \hyperlink{classindexation_1_1processing_1_1PorterStemmer_a1009cbe95a2ba30b6665848e8b0d6208}{get\+Result\+Length()} to determine the length of the result.
+
+\begin{DoxyReturn}{Renvoie}
+... 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classindexation_1_1processing_1_1PorterStemmer_a67d818639497e0dad6ced251e5562be8}\label{classindexation_1_1processing_1_1PorterStemmer_a67d818639497e0dad6ced251e5562be8}} 
+\index{indexation\+::processing\+::\+Porter\+Stemmer@{indexation\+::processing\+::\+Porter\+Stemmer}!get\+Result\+Buffer\+As\+String@{get\+Result\+Buffer\+As\+String}}
+\index{get\+Result\+Buffer\+As\+String@{get\+Result\+Buffer\+As\+String}!indexation\+::processing\+::\+Porter\+Stemmer@{indexation\+::processing\+::\+Porter\+Stemmer}}
+\subsubsection{\texorpdfstring{get\+Result\+Buffer\+As\+String()}{getResultBufferAsString()}}
+{\footnotesize\ttfamily String indexation.\+processing.\+Porter\+Stemmer.\+get\+Result\+Buffer\+As\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+After a word has been stemmed, it can be retrieved by \hyperlink{classindexation_1_1processing_1_1PorterStemmer_a67d818639497e0dad6ced251e5562be8}{get\+Result\+Buffer\+As\+String()}, or a reference to the internal buffer can be retrieved by get\+Result\+Buffer and get\+Result\+Length (which is generally more efficient.)
+
+\begin{DoxyReturn}{Renvoie}
+... 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classindexation_1_1processing_1_1PorterStemmer_a1009cbe95a2ba30b6665848e8b0d6208}\label{classindexation_1_1processing_1_1PorterStemmer_a1009cbe95a2ba30b6665848e8b0d6208}} 
+\index{indexation\+::processing\+::\+Porter\+Stemmer@{indexation\+::processing\+::\+Porter\+Stemmer}!get\+Result\+Length@{get\+Result\+Length}}
+\index{get\+Result\+Length@{get\+Result\+Length}!indexation\+::processing\+::\+Porter\+Stemmer@{indexation\+::processing\+::\+Porter\+Stemmer}}
+\subsubsection{\texorpdfstring{get\+Result\+Length()}{getResultLength()}}
+{\footnotesize\ttfamily int indexation.\+processing.\+Porter\+Stemmer.\+get\+Result\+Length (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the length of the word resulting from the stemming process.
+
+\begin{DoxyReturn}{Renvoie}
+... 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classindexation_1_1processing_1_1PorterStemmer_a893422ac6f517cc2e2f1f12f049918a4}\label{classindexation_1_1processing_1_1PorterStemmer_a893422ac6f517cc2e2f1f12f049918a4}} 
+\index{indexation\+::processing\+::\+Porter\+Stemmer@{indexation\+::processing\+::\+Porter\+Stemmer}!main@{main}}
+\index{main@{main}!indexation\+::processing\+::\+Porter\+Stemmer@{indexation\+::processing\+::\+Porter\+Stemmer}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void indexation.\+processing.\+Porter\+Stemmer.\+main (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Test des méthodes de cette classe.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em args} & Pas utilisé.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Problème quelconque rencontré. \\
+\hline
+\end{DoxyExceptions}
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+Index1/src/indexation/processing/Porter\+Stemmer.\+java\end{DoxyCompactItemize}

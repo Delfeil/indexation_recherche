@@ -1,0 +1,98 @@
+\hypertarget{classquery_1_1RankingQueryEngine}{}\section{Référence de la classe query.\+Ranking\+Query\+Engine}
+\label{classquery_1_1RankingQueryEngine}\index{query.\+Ranking\+Query\+Engine@{query.\+Ranking\+Query\+Engine}}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classquery_1_1RankingQueryEngine_aad15deb15e9e5b2dbc78421f311b94be}{Ranking\+Query\+Engine} (\hyperlink{classindexation_1_1AbstractIndex}{Abstract\+Index} index)
+\item 
+List$<$ \hyperlink{classquery_1_1DocScore}{Doc\+Score} $>$ \hyperlink{classquery_1_1RankingQueryEngine_ac69937232cafd9108d96ef3657735682}{process\+Query} (String query, int k)
+\item 
+\hyperlink{classindexation_1_1AbstractIndex}{Abstract\+Index} \hyperlink{classquery_1_1RankingQueryEngine_a8fef863acbc5aeea67f3d1eac48c06d1}{get\+Index} ()
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques statiques}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classquery_1_1RankingQueryEngine_ab83cc958288fcdfede4ae5d9a3bdf0fa}{main} (String\mbox{[}$\,$\mbox{]} args)  throws Exception  	
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Objet capable de traiter une requête de type sac-\/de-\/mots. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{classquery_1_1RankingQueryEngine_aad15deb15e9e5b2dbc78421f311b94be}\label{classquery_1_1RankingQueryEngine_aad15deb15e9e5b2dbc78421f311b94be}} 
+\index{query\+::\+Ranking\+Query\+Engine@{query\+::\+Ranking\+Query\+Engine}!Ranking\+Query\+Engine@{Ranking\+Query\+Engine}}
+\index{Ranking\+Query\+Engine@{Ranking\+Query\+Engine}!query\+::\+Ranking\+Query\+Engine@{query\+::\+Ranking\+Query\+Engine}}
+\subsubsection{\texorpdfstring{Ranking\+Query\+Engine()}{RankingQueryEngine()}}
+{\footnotesize\ttfamily query.\+Ranking\+Query\+Engine.\+Ranking\+Query\+Engine (\begin{DoxyParamCaption}\item[{\hyperlink{classindexation_1_1AbstractIndex}{Abstract\+Index}}]{index }\end{DoxyParamCaption})}
+
+Initialise ce moteur de requête avec l\textquotesingle{}index passé en paramètre, qui sera considéré comme index de référence lors de l\textquotesingle{}évaluation des requêtes reçues.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em index} & Index de référence. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classquery_1_1RankingQueryEngine_a8fef863acbc5aeea67f3d1eac48c06d1}\label{classquery_1_1RankingQueryEngine_a8fef863acbc5aeea67f3d1eac48c06d1}} 
+\index{query\+::\+Ranking\+Query\+Engine@{query\+::\+Ranking\+Query\+Engine}!get\+Index@{get\+Index}}
+\index{get\+Index@{get\+Index}!query\+::\+Ranking\+Query\+Engine@{query\+::\+Ranking\+Query\+Engine}}
+\subsubsection{\texorpdfstring{get\+Index()}{getIndex()}}
+{\footnotesize\ttfamily \hyperlink{classindexation_1_1AbstractIndex}{Abstract\+Index} query.\+Ranking\+Query\+Engine.\+get\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Renvoie l\textquotesingle{}index associé à ce moteur.
+
+\begin{DoxyReturn}{Renvoie}
+Index associé à ce moteur. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classquery_1_1RankingQueryEngine_ab83cc958288fcdfede4ae5d9a3bdf0fa}\label{classquery_1_1RankingQueryEngine_ab83cc958288fcdfede4ae5d9a3bdf0fa}} 
+\index{query\+::\+Ranking\+Query\+Engine@{query\+::\+Ranking\+Query\+Engine}!main@{main}}
+\index{main@{main}!query\+::\+Ranking\+Query\+Engine@{query\+::\+Ranking\+Query\+Engine}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void query.\+Ranking\+Query\+Engine.\+main (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Test des méthodes de cette classe.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em args} & Pas utilisé.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Problème quelconque rencontré. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classquery_1_1RankingQueryEngine_ac69937232cafd9108d96ef3657735682}\label{classquery_1_1RankingQueryEngine_ac69937232cafd9108d96ef3657735682}} 
+\index{query\+::\+Ranking\+Query\+Engine@{query\+::\+Ranking\+Query\+Engine}!process\+Query@{process\+Query}}
+\index{process\+Query@{process\+Query}!query\+::\+Ranking\+Query\+Engine@{query\+::\+Ranking\+Query\+Engine}}
+\subsubsection{\texorpdfstring{process\+Query()}{processQuery()}}
+{\footnotesize\ttfamily List$<$\hyperlink{classquery_1_1DocScore}{Doc\+Score}$>$ query.\+Ranking\+Query\+Engine.\+process\+Query (\begin{DoxyParamCaption}\item[{String}]{query,  }\item[{int}]{k }\end{DoxyParamCaption})}
+
+Traite la requête passée en paramètre et renvoie la liste ordonnée des
+\begin{DoxyCode}
+k 
+\end{DoxyCode}
+ documents les plus pertinents, sous dorme d\textquotesingle{}objets \hyperlink{classquery_1_1DocScore}{Doc\+Score}. La valeur zéro pour
+\begin{DoxyCode}
+k 
+\end{DoxyCode}
+ signifie qu\textquotesingle{}on veut tous les documents du corpus.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em query} & Requête à traiter. \\
+\hline
+{\em k} & Nombre maximum de documents à renvoyer, ou zéro pour tous les documents. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Liste ordonnée des documents sélectionnés, avec leurs scores. 
+\end{DoxyReturn}
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+Index1/src/query/Ranking\+Query\+Engine.\+java\end{DoxyCompactItemize}

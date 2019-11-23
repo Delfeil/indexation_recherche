@@ -1,0 +1,92 @@
+\hypertarget{classperformance_1_1GroundTruth}{}\section{Référence de la classe performance.\+Ground\+Truth}
+\label{classperformance_1_1GroundTruth}\index{performance.\+Ground\+Truth@{performance.\+Ground\+Truth}}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classperformance_1_1GroundTruth_a252664255620a45da73c1346116e03b7}{Ground\+Truth} ()  throws Parser\+Configuration\+Exception, S\+A\+X\+Exception, I\+O\+Exception 	
+\item 
+List$<$ String $>$ \hyperlink{classperformance_1_1GroundTruth_ac20e5c5f3051088a957b5dd516bbf9c5}{get\+Queries} ()
+\item 
+List$<$ \hyperlink{classindexation_1_1content_1_1Posting}{Posting} $>$ \hyperlink{classperformance_1_1GroundTruth_aa82e45150e7c33fd11aaccba56f0f1ed}{get\+Posting\+List} (int query\+Id)
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques statiques}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classperformance_1_1GroundTruth_a5708e978b3a80a3c512ca00bfaca37da}{main} (String\mbox{[}$\,$\mbox{]} args)  throws Exception  	
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Classe utilisée pour représenter une vérité terrain, i.\+e. une séquence de requêtes d\textquotesingle{}évaluation, chacune accompagnée de sa liste de documents pertinents. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{classperformance_1_1GroundTruth_a252664255620a45da73c1346116e03b7}\label{classperformance_1_1GroundTruth_a252664255620a45da73c1346116e03b7}} 
+\index{performance\+::\+Ground\+Truth@{performance\+::\+Ground\+Truth}!Ground\+Truth@{Ground\+Truth}}
+\index{Ground\+Truth@{Ground\+Truth}!performance\+::\+Ground\+Truth@{performance\+::\+Ground\+Truth}}
+\subsubsection{\texorpdfstring{Ground\+Truth()}{GroundTruth()}}
+{\footnotesize\ttfamily performance.\+Ground\+Truth.\+Ground\+Truth (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Parser\+Configuration\+Exception, S\+A\+X\+Exception, I\+O\+Exception}
+
+Initialise la vérité terrain à partir du fichier X\+ML spécifié dans la configuration.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Parser\+Configuration\+Exception} & Problème lors de la lecture de la vérité terrain. \\
+\hline
+{\em I\+O\+Exception} & Problème lors de la lecture de la vérité terrain. \\
+\hline
+{\em S\+A\+X\+Exception} & Problème lors de la lecture de la vérité terrain. \\
+\hline
+\end{DoxyExceptions}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classperformance_1_1GroundTruth_aa82e45150e7c33fd11aaccba56f0f1ed}\label{classperformance_1_1GroundTruth_aa82e45150e7c33fd11aaccba56f0f1ed}} 
+\index{performance\+::\+Ground\+Truth@{performance\+::\+Ground\+Truth}!get\+Posting\+List@{get\+Posting\+List}}
+\index{get\+Posting\+List@{get\+Posting\+List}!performance\+::\+Ground\+Truth@{performance\+::\+Ground\+Truth}}
+\subsubsection{\texorpdfstring{get\+Posting\+List()}{getPostingList()}}
+{\footnotesize\ttfamily List$<$\hyperlink{classindexation_1_1content_1_1Posting}{Posting}$>$ performance.\+Ground\+Truth.\+get\+Posting\+List (\begin{DoxyParamCaption}\item[{int}]{query\+Id }\end{DoxyParamCaption})}
+
+Renvoie la liste de postings associée à larequête d\textquotesingle{}évaluation dont le numéro est spécifié en paramètre.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em query\+Id} & Numéro de la requête concernée. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Liste de liste de postings. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classperformance_1_1GroundTruth_ac20e5c5f3051088a957b5dd516bbf9c5}\label{classperformance_1_1GroundTruth_ac20e5c5f3051088a957b5dd516bbf9c5}} 
+\index{performance\+::\+Ground\+Truth@{performance\+::\+Ground\+Truth}!get\+Queries@{get\+Queries}}
+\index{get\+Queries@{get\+Queries}!performance\+::\+Ground\+Truth@{performance\+::\+Ground\+Truth}}
+\subsubsection{\texorpdfstring{get\+Queries()}{getQueries()}}
+{\footnotesize\ttfamily List$<$String$>$ performance.\+Ground\+Truth.\+get\+Queries (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Renvoie les requêtes d\textquotesingle{}évaluation associées à cette vérité terrain.
+
+\begin{DoxyReturn}{Renvoie}
+Une liste de chaînes de caractères correspondant chacune à une requête. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classperformance_1_1GroundTruth_a5708e978b3a80a3c512ca00bfaca37da}\label{classperformance_1_1GroundTruth_a5708e978b3a80a3c512ca00bfaca37da}} 
+\index{performance\+::\+Ground\+Truth@{performance\+::\+Ground\+Truth}!main@{main}}
+\index{main@{main}!performance\+::\+Ground\+Truth@{performance\+::\+Ground\+Truth}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void performance.\+Ground\+Truth.\+main (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Test des méthodes de cette classe.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em args} & Pas utilisé.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Problème quelconque rencontré. \\
+\hline
+\end{DoxyExceptions}
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+Index1/src/performance/Ground\+Truth.\+java\end{DoxyCompactItemize}

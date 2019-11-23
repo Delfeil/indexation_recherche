@@ -1,0 +1,248 @@
+\hypertarget{classtools_1_1Configuration}{}\section{Référence de la classe tools.\+Configuration}
+\label{classtools_1_1Configuration}\index{tools.\+Configuration@{tools.\+Configuration}}
+\subsection*{Fonctions membres publiques statiques}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classtools_1_1Configuration_aba2fd018e507593a824d6f4c41271089}{set\+Corpus\+Name} (String corpus\+Name)
+\item 
+static String \hyperlink{classtools_1_1Configuration_add970179543dd47b7f67980e0fbd84d9}{get\+Corpus\+Name} ()
+\item 
+static void \hyperlink{classtools_1_1Configuration_a1520b6e7f8a9a2f303813c73838d5a24}{set\+Filtering\+Stop\+Words} (boolean filterin\+Stop\+Words)
+\item 
+static boolean \hyperlink{classtools_1_1Configuration_ab64c49265c65926e4fdd088a4e5c5059}{is\+Filtering\+Stop\+Words} ()
+\item 
+static void \hyperlink{classtools_1_1Configuration_abe7544ea6ecb6c021fb2ac309bc59fbf}{set\+Stemming\+Tokens} (boolean stemming\+Tokens)
+\item 
+static boolean \hyperlink{classtools_1_1Configuration_a13b2348432050da67f4bf348972b9420}{is\+Stemming\+Tokens} ()
+\item 
+static void \hyperlink{classtools_1_1Configuration_a6641e3670ab246bfda71d332407f161f}{set\+Computing\+Scores} (boolean computing\+Scores)
+\item 
+static boolean \hyperlink{classtools_1_1Configuration_a4fc9e233e37fe826479bb43cce4a2f7a}{is\+Computing\+Scores} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Permet de convertir les noms de fichiers en postings, et inversement. 
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classtools_1_1Configuration_add970179543dd47b7f67980e0fbd84d9}\label{classtools_1_1Configuration_add970179543dd47b7f67980e0fbd84d9}} 
+\index{tools\+::\+Configuration@{tools\+::\+Configuration}!get\+Corpus\+Name@{get\+Corpus\+Name}}
+\index{get\+Corpus\+Name@{get\+Corpus\+Name}!tools\+::\+Configuration@{tools\+::\+Configuration}}
+\subsubsection{\texorpdfstring{get\+Corpus\+Name()}{getCorpusName()}}
+{\footnotesize\ttfamily static String tools.\+Configuration.\+get\+Corpus\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Renvoie le nom du corpus à traiter par l\textquotesingle{}index.
+
+\begin{DoxyReturn}{Renvoie}
+Noms du corpus \+:
+\begin{DoxyCode}
+wp 
+\end{DoxyCode}
+ ,
+\begin{DoxyCode}
+wp\_test 
+\end{DoxyCode}
+ ou
+\begin{DoxyCode}
+springer 
+\end{DoxyCode}
+ . 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtools_1_1Configuration_a4fc9e233e37fe826479bb43cce4a2f7a}\label{classtools_1_1Configuration_a4fc9e233e37fe826479bb43cce4a2f7a}} 
+\index{tools\+::\+Configuration@{tools\+::\+Configuration}!is\+Computing\+Scores@{is\+Computing\+Scores}}
+\index{is\+Computing\+Scores@{is\+Computing\+Scores}!tools\+::\+Configuration@{tools\+::\+Configuration}}
+\subsubsection{\texorpdfstring{is\+Computing\+Scores()}{isComputingScores()}}
+{\footnotesize\ttfamily static boolean tools.\+Configuration.\+is\+Computing\+Scores (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Indique si les scores doivent être calculés (
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ ) ou pas (
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ ).
+
+\begin{DoxyReturn}{Renvoie}
+Calculer les scores (
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ ) ou pas (
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ ). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtools_1_1Configuration_ab64c49265c65926e4fdd088a4e5c5059}\label{classtools_1_1Configuration_ab64c49265c65926e4fdd088a4e5c5059}} 
+\index{tools\+::\+Configuration@{tools\+::\+Configuration}!is\+Filtering\+Stop\+Words@{is\+Filtering\+Stop\+Words}}
+\index{is\+Filtering\+Stop\+Words@{is\+Filtering\+Stop\+Words}!tools\+::\+Configuration@{tools\+::\+Configuration}}
+\subsubsection{\texorpdfstring{is\+Filtering\+Stop\+Words()}{isFilteringStopWords()}}
+{\footnotesize\ttfamily static boolean tools.\+Configuration.\+is\+Filtering\+Stop\+Words (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Indique si les mots-\/vides doivent être filtrés (
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ ) ou pas (
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ ).
+
+\begin{DoxyReturn}{Renvoie}
+Filtrer les mots-\/vides (
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ ) ou pas (
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ ). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtools_1_1Configuration_a13b2348432050da67f4bf348972b9420}\label{classtools_1_1Configuration_a13b2348432050da67f4bf348972b9420}} 
+\index{tools\+::\+Configuration@{tools\+::\+Configuration}!is\+Stemming\+Tokens@{is\+Stemming\+Tokens}}
+\index{is\+Stemming\+Tokens@{is\+Stemming\+Tokens}!tools\+::\+Configuration@{tools\+::\+Configuration}}
+\subsubsection{\texorpdfstring{is\+Stemming\+Tokens()}{isStemmingTokens()}}
+{\footnotesize\ttfamily static boolean tools.\+Configuration.\+is\+Stemming\+Tokens (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Indique si les tokens doivent être racinisés (
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ ) ou pas (
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ ).
+
+\begin{DoxyReturn}{Renvoie}
+Raciniser les tokens (
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ ) ou pas (
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ ). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtools_1_1Configuration_a6641e3670ab246bfda71d332407f161f}\label{classtools_1_1Configuration_a6641e3670ab246bfda71d332407f161f}} 
+\index{tools\+::\+Configuration@{tools\+::\+Configuration}!set\+Computing\+Scores@{set\+Computing\+Scores}}
+\index{set\+Computing\+Scores@{set\+Computing\+Scores}!tools\+::\+Configuration@{tools\+::\+Configuration}}
+\subsubsection{\texorpdfstring{set\+Computing\+Scores()}{setComputingScores()}}
+{\footnotesize\ttfamily static void tools.\+Configuration.\+set\+Computing\+Scores (\begin{DoxyParamCaption}\item[{boolean}]{computing\+Scores }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Permet d\textquotesingle{}indiquer si les scores doivent être calculés (
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ ) ou pas (
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ ).
+
+
+\begin{DoxyParams}{Paramètres}
+{\em computing\+Scores} & Calculer les scores (
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ ) ou pas (
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ ). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtools_1_1Configuration_aba2fd018e507593a824d6f4c41271089}\label{classtools_1_1Configuration_aba2fd018e507593a824d6f4c41271089}} 
+\index{tools\+::\+Configuration@{tools\+::\+Configuration}!set\+Corpus\+Name@{set\+Corpus\+Name}}
+\index{set\+Corpus\+Name@{set\+Corpus\+Name}!tools\+::\+Configuration@{tools\+::\+Configuration}}
+\subsubsection{\texorpdfstring{set\+Corpus\+Name()}{setCorpusName()}}
+{\footnotesize\ttfamily static void tools.\+Configuration.\+set\+Corpus\+Name (\begin{DoxyParamCaption}\item[{String}]{corpus\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Permet à l\textquotesingle{}utilisateur de spécifier le nom du corpus à traiter par l\textquotesingle{}index.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em corpus\+Name} & Noms du corpus \+:
+\begin{DoxyCode}
+wp 
+\end{DoxyCode}
+ ,
+\begin{DoxyCode}
+wp\_test 
+\end{DoxyCode}
+ ou
+\begin{DoxyCode}
+springer 
+\end{DoxyCode}
+ . \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtools_1_1Configuration_a1520b6e7f8a9a2f303813c73838d5a24}\label{classtools_1_1Configuration_a1520b6e7f8a9a2f303813c73838d5a24}} 
+\index{tools\+::\+Configuration@{tools\+::\+Configuration}!set\+Filtering\+Stop\+Words@{set\+Filtering\+Stop\+Words}}
+\index{set\+Filtering\+Stop\+Words@{set\+Filtering\+Stop\+Words}!tools\+::\+Configuration@{tools\+::\+Configuration}}
+\subsubsection{\texorpdfstring{set\+Filtering\+Stop\+Words()}{setFilteringStopWords()}}
+{\footnotesize\ttfamily static void tools.\+Configuration.\+set\+Filtering\+Stop\+Words (\begin{DoxyParamCaption}\item[{boolean}]{filterin\+Stop\+Words }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Permet d\textquotesingle{}indiquer si les mots-\/vides doivent être filtrés (
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ ) ou pas (
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ ).
+
+
+\begin{DoxyParams}{Paramètres}
+{\em filterin\+Stop\+Words} & Filtrer les mots-\/vides (
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ ) ou pas (
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ ). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classtools_1_1Configuration_abe7544ea6ecb6c021fb2ac309bc59fbf}\label{classtools_1_1Configuration_abe7544ea6ecb6c021fb2ac309bc59fbf}} 
+\index{tools\+::\+Configuration@{tools\+::\+Configuration}!set\+Stemming\+Tokens@{set\+Stemming\+Tokens}}
+\index{set\+Stemming\+Tokens@{set\+Stemming\+Tokens}!tools\+::\+Configuration@{tools\+::\+Configuration}}
+\subsubsection{\texorpdfstring{set\+Stemming\+Tokens()}{setStemmingTokens()}}
+{\footnotesize\ttfamily static void tools.\+Configuration.\+set\+Stemming\+Tokens (\begin{DoxyParamCaption}\item[{boolean}]{stemming\+Tokens }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Permet d\textquotesingle{}indiquer si les tokens doivent être racinisés (
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ ) ou pas (
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ ).
+
+
+\begin{DoxyParams}{Paramètres}
+{\em stemming\+Tokens} & Raciniser les tokens (
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ ) ou pas (
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ ). \\
+\hline
+\end{DoxyParams}
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+Index1/src/tools/Configuration.\+java\end{DoxyCompactItemize}

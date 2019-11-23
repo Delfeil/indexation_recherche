@@ -1,0 +1,215 @@
+\hypertarget{classindexation_1_1AbstractIndex}{}\section{Référence de la classe indexation.\+Abstract\+Index}
+\label{classindexation_1_1AbstractIndex}\index{indexation.\+Abstract\+Index@{indexation.\+Abstract\+Index}}
+
+
+Graphe d\textquotesingle{}héritage de indexation.\+Abstract\+Index\+:
+% FIG 0
+
+
+Graphe de collaboration de indexation.\+Abstract\+Index\+:
+% FIG 1
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{enumindexation_1_1AbstractIndex_1_1LexiconType}{Lexicon\+Type}
+\item 
+enum \hyperlink{enumindexation_1_1AbstractIndex_1_1TokenListType}{Token\+List\+Type}
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classindexation_1_1AbstractIndex_a59f18d6fd0058eb6201e80007b47b5d0}{get\+Document\+Number} ()
+\item 
+abstract \hyperlink{classindexation_1_1content_1_1IndexEntry}{Index\+Entry} \hyperlink{classindexation_1_1AbstractIndex_ac3cc691b8c4b0aa10a751dde392d4372}{get\+Entry} (String term)
+\item 
+abstract void \hyperlink{classindexation_1_1AbstractIndex_a5735044875083cfc83718736de08a383}{add\+Entry} (\hyperlink{classindexation_1_1content_1_1IndexEntry}{Index\+Entry} index\+Entry, int rank)
+\item 
+abstract int \hyperlink{classindexation_1_1AbstractIndex_af91f53c51dd6be20ca9efd6d278e0855}{get\+Size} ()
+\item 
+\hyperlink{classindexation_1_1processing_1_1Tokenizer}{Tokenizer} \hyperlink{classindexation_1_1AbstractIndex_ab0d97bf1aca48cb7bf868925bf0e7802}{get\+Tokenizer} ()
+\item 
+\hyperlink{classindexation_1_1processing_1_1Normalizer}{Normalizer} \hyperlink{classindexation_1_1AbstractIndex_a91c4f942e7925ddf9cb45fa975ebd418}{get\+Normalizer} ()
+\item 
+void \hyperlink{classindexation_1_1AbstractIndex_acc16c6dc977652450998ae0126bc8666}{write} ()  throws I\+O\+Exception 	
+\item 
+abstract void \hyperlink{classindexation_1_1AbstractIndex_abaec78736f3d43deae9be1a391aa5ef6}{print} ()
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques statiques}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classindexation_1_1AbstractIndex}{Abstract\+Index} \hyperlink{classindexation_1_1AbstractIndex_abb41052bf0a6c7eb66a77f7d6264839c}{index\+Corpus} (\hyperlink{enumindexation_1_1AbstractIndex_1_1TokenListType}{Token\+List\+Type} token\+List\+Type, \hyperlink{enumindexation_1_1AbstractIndex_1_1LexiconType}{Lexicon\+Type} lexicon\+Type)  throws Unsupported\+Encoding\+Exception, File\+Not\+Found\+Exception 	
+\item 
+static \hyperlink{classindexation_1_1AbstractIndex}{Abstract\+Index} \hyperlink{classindexation_1_1AbstractIndex_a8b65827cefdf090da742b502b2907fe3}{read} ()  throws I\+O\+Exception, Class\+Not\+Found\+Exception 	
+\item 
+static void \hyperlink{classindexation_1_1AbstractIndex_a9a0d9a2b47af161ebf168a121f9e7f2f}{main} (String\mbox{[}$\,$\mbox{]} args)  throws Exception  	
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Objet représentant un index sous la forme d\textquotesingle{}un fichier inverse simple. Les classes filles différent dans la structure de données qu\textquotesingle{}elles utilisent pour représenter le lexique. 
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classindexation_1_1AbstractIndex_a5735044875083cfc83718736de08a383}\label{classindexation_1_1AbstractIndex_a5735044875083cfc83718736de08a383}} 
+\index{indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}!add\+Entry@{add\+Entry}}
+\index{add\+Entry@{add\+Entry}!indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}}
+\subsubsection{\texorpdfstring{add\+Entry()}{addEntry()}}
+{\footnotesize\ttfamily abstract void indexation.\+Abstract\+Index.\+add\+Entry (\begin{DoxyParamCaption}\item[{\hyperlink{classindexation_1_1content_1_1IndexEntry}{Index\+Entry}}]{index\+Entry,  }\item[{int}]{rank }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Ajoute une entrée dans l\textquotesingle{}index, à la suite de celles qui y sont déjà stockées.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em index\+Entry} & L\textquotesingle{}entrée à ajouter à l\textquotesingle{}index. \\
+\hline
+{\em rank} & Le numéro de l\textquotesingle{}entrée dans le lexique. Cette information n\textquotesingle{}est utile que dans le cas où le lexique est un tableau. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classindexation_1_1AbstractIndex_a59f18d6fd0058eb6201e80007b47b5d0}\label{classindexation_1_1AbstractIndex_a59f18d6fd0058eb6201e80007b47b5d0}} 
+\index{indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}!get\+Document\+Number@{get\+Document\+Number}}
+\index{get\+Document\+Number@{get\+Document\+Number}!indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}}
+\subsubsection{\texorpdfstring{get\+Document\+Number()}{getDocumentNumber()}}
+{\footnotesize\ttfamily int indexation.\+Abstract\+Index.\+get\+Document\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Renvoie la taille du corpus indexé, exprimée en nombre de documents.
+
+\begin{DoxyReturn}{Renvoie}
+Nombre de documents dans le corpus indexé. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classindexation_1_1AbstractIndex_ac3cc691b8c4b0aa10a751dde392d4372}\label{classindexation_1_1AbstractIndex_ac3cc691b8c4b0aa10a751dde392d4372}} 
+\index{indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}!get\+Entry@{get\+Entry}}
+\index{get\+Entry@{get\+Entry}!indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}}
+\subsubsection{\texorpdfstring{get\+Entry()}{getEntry()}}
+{\footnotesize\ttfamily abstract \hyperlink{classindexation_1_1content_1_1IndexEntry}{Index\+Entry} indexation.\+Abstract\+Index.\+get\+Entry (\begin{DoxyParamCaption}\item[{String}]{term }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Renvoie l\textquotesingle{}entrée correspondant au terme passé en paramètre. Si une telle entrée n\textquotesingle{}existe pas, alors la méthode renvoie
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ .
+
+
+\begin{DoxyParams}{Paramètres}
+{\em term} & Terme à rechercher. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Entrée associéée au terme. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classindexation_1_1AbstractIndex_a91c4f942e7925ddf9cb45fa975ebd418}\label{classindexation_1_1AbstractIndex_a91c4f942e7925ddf9cb45fa975ebd418}} 
+\index{indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}!get\+Normalizer@{get\+Normalizer}}
+\index{get\+Normalizer@{get\+Normalizer}!indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}}
+\subsubsection{\texorpdfstring{get\+Normalizer()}{getNormalizer()}}
+{\footnotesize\ttfamily \hyperlink{classindexation_1_1processing_1_1Normalizer}{Normalizer} indexation.\+Abstract\+Index.\+get\+Normalizer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Renvoie le normalisateur utilisé lors de la construction de cet index.
+
+\begin{DoxyReturn}{Renvoie}
+Normalisateur utilisé lors de l\textquotesingle{}indexation. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classindexation_1_1AbstractIndex_af91f53c51dd6be20ca9efd6d278e0855}\label{classindexation_1_1AbstractIndex_af91f53c51dd6be20ca9efd6d278e0855}} 
+\index{indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}!get\+Size@{get\+Size}}
+\index{get\+Size@{get\+Size}!indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}}
+\subsubsection{\texorpdfstring{get\+Size()}{getSize()}}
+{\footnotesize\ttfamily abstract int indexation.\+Abstract\+Index.\+get\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Renvoie la taille de cet index (exprimée en nombre de termes).
+
+\begin{DoxyReturn}{Renvoie}
+Un entier correspondant au nombre de termes dans cet index. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classindexation_1_1AbstractIndex_ab0d97bf1aca48cb7bf868925bf0e7802}\label{classindexation_1_1AbstractIndex_ab0d97bf1aca48cb7bf868925bf0e7802}} 
+\index{indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}!get\+Tokenizer@{get\+Tokenizer}}
+\index{get\+Tokenizer@{get\+Tokenizer}!indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}}
+\subsubsection{\texorpdfstring{get\+Tokenizer()}{getTokenizer()}}
+{\footnotesize\ttfamily \hyperlink{classindexation_1_1processing_1_1Tokenizer}{Tokenizer} indexation.\+Abstract\+Index.\+get\+Tokenizer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Renvoie le tokéniseur utilisé lors de la construction de cet index.
+
+\begin{DoxyReturn}{Renvoie}
+Tokéniseur utilisé lors de l\textquotesingle{}indexation. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classindexation_1_1AbstractIndex_abb41052bf0a6c7eb66a77f7d6264839c}\label{classindexation_1_1AbstractIndex_abb41052bf0a6c7eb66a77f7d6264839c}} 
+\index{indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}!index\+Corpus@{index\+Corpus}}
+\index{index\+Corpus@{index\+Corpus}!indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}}
+\subsubsection{\texorpdfstring{index\+Corpus()}{indexCorpus()}}
+{\footnotesize\ttfamily static \hyperlink{classindexation_1_1AbstractIndex}{Abstract\+Index} indexation.\+Abstract\+Index.\+index\+Corpus (\begin{DoxyParamCaption}\item[{\hyperlink{enumindexation_1_1AbstractIndex_1_1TokenListType}{Token\+List\+Type}}]{token\+List\+Type,  }\item[{\hyperlink{enumindexation_1_1AbstractIndex_1_1LexiconType}{Lexicon\+Type}}]{lexicon\+Type }\end{DoxyParamCaption}) throws Unsupported\+Encoding\+Exception, File\+Not\+Found\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Méthode de classe permettant la création d\textquotesingle{}un index prenant la forme d\textquotesingle{}un fichier inverse.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em token\+List\+Type} & Type de liste à utiliser pour stocker les tokens lors de l\textquotesingle{}indexation. \\
+\hline
+{\em lexicon\+Type} & Type de structure de données utilisée pour stocker le lexique. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Index représentant le corpus.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Unsupported\+Encoding\+Exception} & Problème de décodage lors de la lecture d\textquotesingle{}un document. \\
+\hline
+{\em File\+Not\+Found\+Exception} & Problème de lecture de fichier \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classindexation_1_1AbstractIndex_a9a0d9a2b47af161ebf168a121f9e7f2f}\label{classindexation_1_1AbstractIndex_a9a0d9a2b47af161ebf168a121f9e7f2f}} 
+\index{indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}!main@{main}}
+\index{main@{main}!indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void indexation.\+Abstract\+Index.\+main (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Test des méthodes de cette classe.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em args} & Pas utilisé.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Problème quelconque rencontré. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classindexation_1_1AbstractIndex_abaec78736f3d43deae9be1a391aa5ef6}\label{classindexation_1_1AbstractIndex_abaec78736f3d43deae9be1a391aa5ef6}} 
+\index{indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}!print@{print}}
+\index{print@{print}!indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}}
+\subsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily abstract void indexation.\+Abstract\+Index.\+print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Affiche le contenu de l\textquotesingle{}index. \mbox{\Hypertarget{classindexation_1_1AbstractIndex_a8b65827cefdf090da742b502b2907fe3}\label{classindexation_1_1AbstractIndex_a8b65827cefdf090da742b502b2907fe3}} 
+\index{indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}!read@{read}}
+\index{read@{read}!indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}}
+\subsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily static \hyperlink{classindexation_1_1AbstractIndex}{Abstract\+Index} indexation.\+Abstract\+Index.\+read (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws I\+O\+Exception, Class\+Not\+Found\+Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Lecture d\textquotesingle{}un index dans le fichier configuré. On utilise simplement le mécanisme de sérialisation de Java.
+
+\begin{DoxyReturn}{Renvoie}
+L\textquotesingle{}index lu dans le fichier.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & Problème lors de la lecture de l\textquotesingle{}index. \\
+\hline
+{\em Class\+Not\+Found\+Exception} & Problème lors de la lecture de l\textquotesingle{}index. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classindexation_1_1AbstractIndex_acc16c6dc977652450998ae0126bc8666}\label{classindexation_1_1AbstractIndex_acc16c6dc977652450998ae0126bc8666}} 
+\index{indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}!write@{write}}
+\index{write@{write}!indexation\+::\+Abstract\+Index@{indexation\+::\+Abstract\+Index}}
+\subsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily void indexation.\+Abstract\+Index.\+write (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws I\+O\+Exception}
+
+Enregistrement de cet index dans le fichier configuré. On utilise simplement le mécanisme de sérialisation de Java.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & Problème lors de l\textquotesingle{}écriture de l\textquotesingle{}index. \\
+\hline
+\end{DoxyExceptions}
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+Index1/src/indexation/Abstract\+Index.\+java\end{DoxyCompactItemize}

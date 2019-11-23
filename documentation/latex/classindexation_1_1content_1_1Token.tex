@@ -1,0 +1,117 @@
+\hypertarget{classindexation_1_1content_1_1Token}{}\section{Référence de la classe indexation.\+content.\+Token}
+\label{classindexation_1_1content_1_1Token}\index{indexation.\+content.\+Token@{indexation.\+content.\+Token}}
+
+
+Graphe d\textquotesingle{}héritage de indexation.\+content.\+Token\+:
+% FIG 0
+
+
+Graphe de collaboration de indexation.\+content.\+Token\+:
+% FIG 1
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classindexation_1_1content_1_1Token_a076e80bfca62758aa3245cc894db81c0}{Token} (String type, int doc\+Id)
+\item 
+String \hyperlink{classindexation_1_1content_1_1Token_ab0814c24d102e076c026a2adf23aeb30}{get\+Type} ()
+\item 
+void \hyperlink{classindexation_1_1content_1_1Token_a8236aaf47af22ca342d273c64f760730}{set\+Type} (String type)
+\item 
+int \hyperlink{classindexation_1_1content_1_1Token_a5fa3c07cbb4eccb95bcd600a183c098e}{get\+Doc\+Id} ()
+\item 
+\mbox{\Hypertarget{classindexation_1_1content_1_1Token_ae66c1c191ed4be27cec139a9d4cf24ae}\label{classindexation_1_1content_1_1Token_ae66c1c191ed4be27cec139a9d4cf24ae}} 
+int {\bfseries compare\+To} (\hyperlink{classindexation_1_1content_1_1Token}{Token} token)
+\item 
+\mbox{\Hypertarget{classindexation_1_1content_1_1Token_a1dcd2a2abd34a3eb7ceb99a7859193df}\label{classindexation_1_1content_1_1Token_a1dcd2a2abd34a3eb7ceb99a7859193df}} 
+String {\bfseries to\+String} ()
+\item 
+\mbox{\Hypertarget{classindexation_1_1content_1_1Token_a31fac4bdd386a23177bde9c0517eb1cb}\label{classindexation_1_1content_1_1Token_a31fac4bdd386a23177bde9c0517eb1cb}} 
+boolean {\bfseries equals} (Object o)
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques statiques}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classindexation_1_1content_1_1Token_aa26f4b5926b907410512e7d6925f8b27}{main} (String\mbox{[}$\,$\mbox{]} args)  throws Exception  	
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Représente un token, i.\+e. un couple (mot,numéro) de document. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{classindexation_1_1content_1_1Token_a076e80bfca62758aa3245cc894db81c0}\label{classindexation_1_1content_1_1Token_a076e80bfca62758aa3245cc894db81c0}} 
+\index{indexation\+::content\+::\+Token@{indexation\+::content\+::\+Token}!Token@{Token}}
+\index{Token@{Token}!indexation\+::content\+::\+Token@{indexation\+::content\+::\+Token}}
+\subsubsection{\texorpdfstring{Token()}{Token()}}
+{\footnotesize\ttfamily indexation.\+content.\+Token.\+Token (\begin{DoxyParamCaption}\item[{String}]{type,  }\item[{int}]{doc\+Id }\end{DoxyParamCaption})}
+
+Crée un nouveau token à partir du type et du numéro de document passés en paramètres.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em type} & Type dont le token est une occurrence. \\
+\hline
+{\em doc\+Id} & Numéro du document concerné. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classindexation_1_1content_1_1Token_a5fa3c07cbb4eccb95bcd600a183c098e}\label{classindexation_1_1content_1_1Token_a5fa3c07cbb4eccb95bcd600a183c098e}} 
+\index{indexation\+::content\+::\+Token@{indexation\+::content\+::\+Token}!get\+Doc\+Id@{get\+Doc\+Id}}
+\index{get\+Doc\+Id@{get\+Doc\+Id}!indexation\+::content\+::\+Token@{indexation\+::content\+::\+Token}}
+\subsubsection{\texorpdfstring{get\+Doc\+Id()}{getDocId()}}
+{\footnotesize\ttfamily int indexation.\+content.\+Token.\+get\+Doc\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Renvoie le doc\+Id associé à ce token.
+
+\begin{DoxyReturn}{Renvoie}
+Entier représentant le doc\+Id de ce token. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classindexation_1_1content_1_1Token_ab0814c24d102e076c026a2adf23aeb30}\label{classindexation_1_1content_1_1Token_ab0814c24d102e076c026a2adf23aeb30}} 
+\index{indexation\+::content\+::\+Token@{indexation\+::content\+::\+Token}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!indexation\+::content\+::\+Token@{indexation\+::content\+::\+Token}}
+\subsubsection{\texorpdfstring{get\+Type()}{getType()}}
+{\footnotesize\ttfamily String indexation.\+content.\+Token.\+get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Renvoie le type associé à ce token.
+
+\begin{DoxyReturn}{Renvoie}
+Chaîne de caractères représentant le type de ce token. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classindexation_1_1content_1_1Token_aa26f4b5926b907410512e7d6925f8b27}\label{classindexation_1_1content_1_1Token_aa26f4b5926b907410512e7d6925f8b27}} 
+\index{indexation\+::content\+::\+Token@{indexation\+::content\+::\+Token}!main@{main}}
+\index{main@{main}!indexation\+::content\+::\+Token@{indexation\+::content\+::\+Token}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void indexation.\+content.\+Token.\+main (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Test des méthodes de cette classe.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em args} & Pas utilisé.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Problème quelconque rencontré. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classindexation_1_1content_1_1Token_a8236aaf47af22ca342d273c64f760730}\label{classindexation_1_1content_1_1Token_a8236aaf47af22ca342d273c64f760730}} 
+\index{indexation\+::content\+::\+Token@{indexation\+::content\+::\+Token}!set\+Type@{set\+Type}}
+\index{set\+Type@{set\+Type}!indexation\+::content\+::\+Token@{indexation\+::content\+::\+Token}}
+\subsubsection{\texorpdfstring{set\+Type()}{setType()}}
+{\footnotesize\ttfamily void indexation.\+content.\+Token.\+set\+Type (\begin{DoxyParamCaption}\item[{String}]{type }\end{DoxyParamCaption})}
+
+Modifie le type associé à ce token.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em type} & Chaîne de caractères représentant le nouveau type de ce token. \\
+\hline
+\end{DoxyParams}
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+Index1/src/indexation/content/Token.\+java\end{DoxyCompactItemize}

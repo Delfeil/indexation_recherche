@@ -1,0 +1,108 @@
+\hypertarget{classindexation_1_1processing_1_1Normalizer}{}\section{Référence de la classe indexation.\+processing.\+Normalizer}
+\label{classindexation_1_1processing_1_1Normalizer}\index{indexation.\+processing.\+Normalizer@{indexation.\+processing.\+Normalizer}}
+
+
+Graphe d\textquotesingle{}héritage de indexation.\+processing.\+Normalizer\+:
+% FIG 0
+
+
+Graphe de collaboration de indexation.\+processing.\+Normalizer\+:
+% FIG 1
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classindexation_1_1processing_1_1Normalizer_aef2c6986e93cb879a710a01c06d92d8c}{Normalizer} ()  throws File\+Not\+Found\+Exception, Unsupported\+Encoding\+Exception 	
+\item 
+void \hyperlink{classindexation_1_1processing_1_1Normalizer_a83b6aafd2e8ed00107c9fcb677190005}{normalize\+Tokens} (List$<$ \hyperlink{classindexation_1_1content_1_1Token}{Token} $>$ tokens)
+\item 
+String \hyperlink{classindexation_1_1processing_1_1Normalizer_ac8fd460c8d0bd9e58605d8eb857c3603}{normalize\+Type} (String string)
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques statiques}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classindexation_1_1processing_1_1Normalizer_a0fa449e8e4a59891a0c395d581c19307}{main} (String\mbox{[}$\,$\mbox{]} args)  throws Exception  	
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Objet normalisant des tokens en supprimant les signes diacritiques et en les passant en minuscules. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{classindexation_1_1processing_1_1Normalizer_aef2c6986e93cb879a710a01c06d92d8c}\label{classindexation_1_1processing_1_1Normalizer_aef2c6986e93cb879a710a01c06d92d8c}} 
+\index{indexation\+::processing\+::\+Normalizer@{indexation\+::processing\+::\+Normalizer}!Normalizer@{Normalizer}}
+\index{Normalizer@{Normalizer}!indexation\+::processing\+::\+Normalizer@{indexation\+::processing\+::\+Normalizer}}
+\subsubsection{\texorpdfstring{Normalizer()}{Normalizer()}}
+{\footnotesize\ttfamily indexation.\+processing.\+Normalizer.\+Normalizer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws File\+Not\+Found\+Exception, Unsupported\+Encoding\+Exception}
+
+Initialise le normalisateur, en fonction de la configuration de \hyperlink{}{Configuration}.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em File\+Not\+Found\+Exception} & Problème lors de l\textquotesingle{}accès au fichier de mots vides. \\
+\hline
+{\em Unsupported\+Encoding\+Exception} & Problème lors de l\textquotesingle{}accès au fichier de mots vides. \\
+\hline
+\end{DoxyExceptions}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classindexation_1_1processing_1_1Normalizer_a0fa449e8e4a59891a0c395d581c19307}\label{classindexation_1_1processing_1_1Normalizer_a0fa449e8e4a59891a0c395d581c19307}} 
+\index{indexation\+::processing\+::\+Normalizer@{indexation\+::processing\+::\+Normalizer}!main@{main}}
+\index{main@{main}!indexation\+::processing\+::\+Normalizer@{indexation\+::processing\+::\+Normalizer}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void indexation.\+processing.\+Normalizer.\+main (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Test des méthodes de cette classe.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em args} & Pas utilisé.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Problème quelconque rencontré. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classindexation_1_1processing_1_1Normalizer_a83b6aafd2e8ed00107c9fcb677190005}\label{classindexation_1_1processing_1_1Normalizer_a83b6aafd2e8ed00107c9fcb677190005}} 
+\index{indexation\+::processing\+::\+Normalizer@{indexation\+::processing\+::\+Normalizer}!normalize\+Tokens@{normalize\+Tokens}}
+\index{normalize\+Tokens@{normalize\+Tokens}!indexation\+::processing\+::\+Normalizer@{indexation\+::processing\+::\+Normalizer}}
+\subsubsection{\texorpdfstring{normalize\+Tokens()}{normalizeTokens()}}
+{\footnotesize\ttfamily void indexation.\+processing.\+Normalizer.\+normalize\+Tokens (\begin{DoxyParamCaption}\item[{List$<$ \hyperlink{classindexation_1_1content_1_1Token}{Token} $>$}]{tokens }\end{DoxyParamCaption})}
+
+Nettoie les tokens reçus en paramètres.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em tokens} & Liste de tokens à traiter. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classindexation_1_1processing_1_1Normalizer_ac8fd460c8d0bd9e58605d8eb857c3603}\label{classindexation_1_1processing_1_1Normalizer_ac8fd460c8d0bd9e58605d8eb857c3603}} 
+\index{indexation\+::processing\+::\+Normalizer@{indexation\+::processing\+::\+Normalizer}!normalize\+Type@{normalize\+Type}}
+\index{normalize\+Type@{normalize\+Type}!indexation\+::processing\+::\+Normalizer@{indexation\+::processing\+::\+Normalizer}}
+\subsubsection{\texorpdfstring{normalize\+Type()}{normalizeType()}}
+{\footnotesize\ttfamily String indexation.\+processing.\+Normalizer.\+normalize\+Type (\begin{DoxyParamCaption}\item[{String}]{string }\end{DoxyParamCaption})}
+
+Nettoie le type de token reçu en paramètre. S\textquotesingle{}il ne correspond pas à un terme, c\textquotesingle{}est la valeur
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ qui est renvoyée.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em string} & La chaîne à traiter \+: un type associé à un token. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+La chaîne après traitement \+: un terme (ou
+\begin{DoxyCode}
+null 
+\end{DoxyCode}
+ ). 
+\end{DoxyReturn}
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+Index1/src/indexation/processing/Normalizer.\+java\end{DoxyCompactItemize}

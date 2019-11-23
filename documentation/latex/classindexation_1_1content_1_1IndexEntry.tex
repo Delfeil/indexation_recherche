@@ -1,0 +1,128 @@
+\hypertarget{classindexation_1_1content_1_1IndexEntry}{}\section{Référence de la classe indexation.\+content.\+Index\+Entry}
+\label{classindexation_1_1content_1_1IndexEntry}\index{indexation.\+content.\+Index\+Entry@{indexation.\+content.\+Index\+Entry}}
+
+
+Graphe d\textquotesingle{}héritage de indexation.\+content.\+Index\+Entry\+:
+% FIG 0
+
+
+Graphe de collaboration de indexation.\+content.\+Index\+Entry\+:
+% FIG 1
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classindexation_1_1content_1_1IndexEntry_ae3c75a7b7264b700a79865a3faa530d1}{Index\+Entry} (String term)
+\item 
+String \hyperlink{classindexation_1_1content_1_1IndexEntry_aeeaadb85fdb94031de944c67bb80ed2d}{get\+Term} ()
+\item 
+List$<$ \hyperlink{classindexation_1_1content_1_1Posting}{Posting} $>$ \hyperlink{classindexation_1_1content_1_1IndexEntry_abb6f82fd284de007234cbfb5c3c1ec13}{get\+Postings} ()
+\item 
+void \hyperlink{classindexation_1_1content_1_1IndexEntry_a91dd96b253668c16155fa48e8a040eed}{add\+Posting} (\hyperlink{classindexation_1_1content_1_1Posting}{Posting} posting)
+\item 
+int \hyperlink{classindexation_1_1content_1_1IndexEntry_a238cb00163e65a41cf34229ea11d1c15}{get\+Frequency} ()
+\item 
+\mbox{\Hypertarget{classindexation_1_1content_1_1IndexEntry_a2c12b8fcca4fc49490e6c86b0895ed34}\label{classindexation_1_1content_1_1IndexEntry_a2c12b8fcca4fc49490e6c86b0895ed34}} 
+int {\bfseries compare\+To} (\hyperlink{classindexation_1_1content_1_1IndexEntry}{Index\+Entry} entry)
+\item 
+\mbox{\Hypertarget{classindexation_1_1content_1_1IndexEntry_a7513699d767faf46a6ba91d1d3a53173}\label{classindexation_1_1content_1_1IndexEntry_a7513699d767faf46a6ba91d1d3a53173}} 
+String {\bfseries to\+String} ()
+\item 
+\mbox{\Hypertarget{classindexation_1_1content_1_1IndexEntry_af14cdff0c449996069e03706da82171c}\label{classindexation_1_1content_1_1IndexEntry_af14cdff0c449996069e03706da82171c}} 
+boolean {\bfseries equals} (Object o)
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques statiques}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classindexation_1_1content_1_1IndexEntry_a9f8de2f0eb50d5f6480bf4acdb579b29}{main} (String\mbox{[}$\,$\mbox{]} args)  throws Exception  	
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Représente une entrée de l\textquotesingle{}index, comprenant un terme, une liste de postings et la fréquence du terme exprimée en documents. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{classindexation_1_1content_1_1IndexEntry_ae3c75a7b7264b700a79865a3faa530d1}\label{classindexation_1_1content_1_1IndexEntry_ae3c75a7b7264b700a79865a3faa530d1}} 
+\index{indexation\+::content\+::\+Index\+Entry@{indexation\+::content\+::\+Index\+Entry}!Index\+Entry@{Index\+Entry}}
+\index{Index\+Entry@{Index\+Entry}!indexation\+::content\+::\+Index\+Entry@{indexation\+::content\+::\+Index\+Entry}}
+\subsubsection{\texorpdfstring{Index\+Entry()}{IndexEntry()}}
+{\footnotesize\ttfamily indexation.\+content.\+Index\+Entry.\+Index\+Entry (\begin{DoxyParamCaption}\item[{String}]{term }\end{DoxyParamCaption})}
+
+Crée une nouvelle entrée d\textquotesingle{}index, à partir du terme passé en paramètre.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em term} & Terme inséré dans l\textquotesingle{}index. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classindexation_1_1content_1_1IndexEntry_a91dd96b253668c16155fa48e8a040eed}\label{classindexation_1_1content_1_1IndexEntry_a91dd96b253668c16155fa48e8a040eed}} 
+\index{indexation\+::content\+::\+Index\+Entry@{indexation\+::content\+::\+Index\+Entry}!add\+Posting@{add\+Posting}}
+\index{add\+Posting@{add\+Posting}!indexation\+::content\+::\+Index\+Entry@{indexation\+::content\+::\+Index\+Entry}}
+\subsubsection{\texorpdfstring{add\+Posting()}{addPosting()}}
+{\footnotesize\ttfamily void indexation.\+content.\+Index\+Entry.\+add\+Posting (\begin{DoxyParamCaption}\item[{\hyperlink{classindexation_1_1content_1_1Posting}{Posting}}]{posting }\end{DoxyParamCaption})}
+
+Ajoute le posting spécifié à la liste associée à cette entrée de l\textquotesingle{}index, et incrémente la fréquence associée.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em posting} & \hyperlink{classindexation_1_1content_1_1Posting}{Posting} à ajouter à la liste de cette entrée. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classindexation_1_1content_1_1IndexEntry_a238cb00163e65a41cf34229ea11d1c15}\label{classindexation_1_1content_1_1IndexEntry_a238cb00163e65a41cf34229ea11d1c15}} 
+\index{indexation\+::content\+::\+Index\+Entry@{indexation\+::content\+::\+Index\+Entry}!get\+Frequency@{get\+Frequency}}
+\index{get\+Frequency@{get\+Frequency}!indexation\+::content\+::\+Index\+Entry@{indexation\+::content\+::\+Index\+Entry}}
+\subsubsection{\texorpdfstring{get\+Frequency()}{getFrequency()}}
+{\footnotesize\ttfamily int indexation.\+content.\+Index\+Entry.\+get\+Frequency (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Renvoie la fréquence associée à cette entrée de l\textquotesingle{}index, exprimée en nombre de documents.
+
+\begin{DoxyReturn}{Renvoie}
+La fréquence de cette entrée, en nombre de documents. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classindexation_1_1content_1_1IndexEntry_abb6f82fd284de007234cbfb5c3c1ec13}\label{classindexation_1_1content_1_1IndexEntry_abb6f82fd284de007234cbfb5c3c1ec13}} 
+\index{indexation\+::content\+::\+Index\+Entry@{indexation\+::content\+::\+Index\+Entry}!get\+Postings@{get\+Postings}}
+\index{get\+Postings@{get\+Postings}!indexation\+::content\+::\+Index\+Entry@{indexation\+::content\+::\+Index\+Entry}}
+\subsubsection{\texorpdfstring{get\+Postings()}{getPostings()}}
+{\footnotesize\ttfamily List$<$\hyperlink{classindexation_1_1content_1_1Posting}{Posting}$>$ indexation.\+content.\+Index\+Entry.\+get\+Postings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Renvoie la liste de postings associée à cette entrée de l\textquotesingle{}index.
+
+\begin{DoxyReturn}{Renvoie}
+La liste de postings de cette entrée. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classindexation_1_1content_1_1IndexEntry_aeeaadb85fdb94031de944c67bb80ed2d}\label{classindexation_1_1content_1_1IndexEntry_aeeaadb85fdb94031de944c67bb80ed2d}} 
+\index{indexation\+::content\+::\+Index\+Entry@{indexation\+::content\+::\+Index\+Entry}!get\+Term@{get\+Term}}
+\index{get\+Term@{get\+Term}!indexation\+::content\+::\+Index\+Entry@{indexation\+::content\+::\+Index\+Entry}}
+\subsubsection{\texorpdfstring{get\+Term()}{getTerm()}}
+{\footnotesize\ttfamily String indexation.\+content.\+Index\+Entry.\+get\+Term (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Renvoie le terme associé à cette entrée de l\textquotesingle{}index.
+
+\begin{DoxyReturn}{Renvoie}
+Le terme de cette entrée. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classindexation_1_1content_1_1IndexEntry_a9f8de2f0eb50d5f6480bf4acdb579b29}\label{classindexation_1_1content_1_1IndexEntry_a9f8de2f0eb50d5f6480bf4acdb579b29}} 
+\index{indexation\+::content\+::\+Index\+Entry@{indexation\+::content\+::\+Index\+Entry}!main@{main}}
+\index{main@{main}!indexation\+::content\+::\+Index\+Entry@{indexation\+::content\+::\+Index\+Entry}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void indexation.\+content.\+Index\+Entry.\+main (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Test des méthodes de cette classe.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em args} & Pas utilisé.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Problème quelconque rencontré. \\
+\hline
+\end{DoxyExceptions}
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+Index1/src/indexation/content/Index\+Entry.\+java\end{DoxyCompactItemize}

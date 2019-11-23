@@ -1,0 +1,95 @@
+\hypertarget{classperformance_1_1RankingEvaluator}{}\section{Référence de la classe performance.\+Ranking\+Evaluator}
+\label{classperformance_1_1RankingEvaluator}\index{performance.\+Ranking\+Evaluator@{performance.\+Ranking\+Evaluator}}
+
+
+Graphe d\textquotesingle{}héritage de performance.\+Ranking\+Evaluator\+:
+% FIG 0
+
+
+Graphe de collaboration de performance.\+Ranking\+Evaluator\+:
+% FIG 1
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classperformance_1_1RankingEvaluator_a2846c356fd89389971de6071fe9af1ff}{Ranking\+Evaluator} ()  throws Parser\+Configuration\+Exception, S\+A\+X\+Exception, I\+O\+Exception 	
+\item 
+List$<$ Map$<$ \hyperlink{enumperformance_1_1AbstractEvaluator_1_1MeasureName}{Measure\+Name}, Float $>$ $>$ \hyperlink{classperformance_1_1RankingEvaluator_a416bd329b92e6372d03d07246095303f}{evaluate\+Engine} (\hyperlink{classquery_1_1RankingQueryEngine}{Ranking\+Query\+Engine} engine)  throws File\+Not\+Found\+Exception, Unsupported\+Encoding\+Exception 	
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques statiques}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classperformance_1_1RankingEvaluator_a395ea5af4738ea8c7bb8017402e4209d}{main} (String\mbox{[}$\,$\mbox{]} args)  throws Exception  	
+\end{DoxyCompactItemize}
+\subsection*{Membres hérités additionnels}
+
+
+\subsection{Description détaillée}
+Classe utilisée pour évaluer la performance d\textquotesingle{}un index vectoriel sur un jeu de requêtes prédéfinies, pour lesquelles on connait la vérité terrain. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{classperformance_1_1RankingEvaluator_a2846c356fd89389971de6071fe9af1ff}\label{classperformance_1_1RankingEvaluator_a2846c356fd89389971de6071fe9af1ff}} 
+\index{performance\+::\+Ranking\+Evaluator@{performance\+::\+Ranking\+Evaluator}!Ranking\+Evaluator@{Ranking\+Evaluator}}
+\index{Ranking\+Evaluator@{Ranking\+Evaluator}!performance\+::\+Ranking\+Evaluator@{performance\+::\+Ranking\+Evaluator}}
+\subsubsection{\texorpdfstring{Ranking\+Evaluator()}{RankingEvaluator()}}
+{\footnotesize\ttfamily performance.\+Ranking\+Evaluator.\+Ranking\+Evaluator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Parser\+Configuration\+Exception, S\+A\+X\+Exception, I\+O\+Exception}
+
+Initialise un évaluateur vectoriel pour la vérité terrain spécifiée dans la configuration.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Parser\+Configuration\+Exception} & Problème lors de la lecture de la vérité terrain \\
+\hline
+{\em I\+O\+Exception} & Problème lors de la lecture de la vérité terrain \\
+\hline
+{\em S\+A\+X\+Exception} & Problème lors de la lecture de la vérité terrain \\
+\hline
+\end{DoxyExceptions}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classperformance_1_1RankingEvaluator_a416bd329b92e6372d03d07246095303f}\label{classperformance_1_1RankingEvaluator_a416bd329b92e6372d03d07246095303f}} 
+\index{performance\+::\+Ranking\+Evaluator@{performance\+::\+Ranking\+Evaluator}!evaluate\+Engine@{evaluate\+Engine}}
+\index{evaluate\+Engine@{evaluate\+Engine}!performance\+::\+Ranking\+Evaluator@{performance\+::\+Ranking\+Evaluator}}
+\subsubsection{\texorpdfstring{evaluate\+Engine()}{evaluateEngine()}}
+{\footnotesize\ttfamily List$<$Map$<$\hyperlink{enumperformance_1_1AbstractEvaluator_1_1MeasureName}{Measure\+Name},Float$>$ $>$ performance.\+Ranking\+Evaluator.\+evaluate\+Engine (\begin{DoxyParamCaption}\item[{\hyperlink{classquery_1_1RankingQueryEngine}{Ranking\+Query\+Engine}}]{engine }\end{DoxyParamCaption}) throws File\+Not\+Found\+Exception, Unsupported\+Encoding\+Exception}
+
+Evalue le moteur de recherche spécifié avec la vérité terrain précédemment chargée, et enregistre et renvoie les performances.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em engine} & Moteur de recherche à évaluer. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Liste de maps contenant les performances calculées pour les requêtes. Chaque map correspond à des valeurs moyennes pour une valeur de k donnée. Ces moyennes sont obtenues en considérant toutes les requêtes d\textquotesingle{}évaluation.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Unsupported\+Encoding\+Exception} & Problème à l\textquotesingle{}enregistrement des performances. \\
+\hline
+{\em File\+Not\+Found\+Exception} & Problème à l\textquotesingle{}enregistrement des performances. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classperformance_1_1RankingEvaluator_a395ea5af4738ea8c7bb8017402e4209d}\label{classperformance_1_1RankingEvaluator_a395ea5af4738ea8c7bb8017402e4209d}} 
+\index{performance\+::\+Ranking\+Evaluator@{performance\+::\+Ranking\+Evaluator}!main@{main}}
+\index{main@{main}!performance\+::\+Ranking\+Evaluator@{performance\+::\+Ranking\+Evaluator}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void performance.\+Ranking\+Evaluator.\+main (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Test des méthodes de cette classe.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em args} & Pas utilisé.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Problème quelconque rencontré. \\
+\hline
+\end{DoxyExceptions}
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+Index1/src/performance/Ranking\+Evaluator.\+java\end{DoxyCompactItemize}

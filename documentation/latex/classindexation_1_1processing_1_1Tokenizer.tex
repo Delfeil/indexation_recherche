@@ -1,0 +1,112 @@
+\hypertarget{classindexation_1_1processing_1_1Tokenizer}{}\section{Référence de la classe indexation.\+processing.\+Tokenizer}
+\label{classindexation_1_1processing_1_1Tokenizer}\index{indexation.\+processing.\+Tokenizer@{indexation.\+processing.\+Tokenizer}}
+
+
+Graphe d\textquotesingle{}héritage de indexation.\+processing.\+Tokenizer\+:
+% FIG 0
+
+
+Graphe de collaboration de indexation.\+processing.\+Tokenizer\+:
+% FIG 1
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classindexation_1_1processing_1_1Tokenizer_a6efa197da7bf96fe0758c421d23a3a7f}{tokenize\+Corpus} (List$<$ \hyperlink{classindexation_1_1content_1_1Token}{Token} $>$ tokens)  throws Unsupported\+Encoding\+Exception 	
+\item 
+void \hyperlink{classindexation_1_1processing_1_1Tokenizer_a00533ab9f9ad07d38e17364a4227d5f1}{tokenize\+Document} (File document, int doc\+Id, List$<$ \hyperlink{classindexation_1_1content_1_1Token}{Token} $>$ tokens)  throws Unsupported\+Encoding\+Exception 	
+\item 
+List$<$ String $>$ \hyperlink{classindexation_1_1processing_1_1Tokenizer_a3987c2977e98439758035b5b9f2c7e89}{tokenize\+String} (String string)
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques statiques}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classindexation_1_1processing_1_1Tokenizer_ab24de26039cb3c92fc4697f86fc4b0e3}{main} (String\mbox{[}$\,$\mbox{]} args)  throws Exception 	
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Objet segmentant des textes en utilisant tous les caractères non alphanumériques comme séparateurs. 
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classindexation_1_1processing_1_1Tokenizer_ab24de26039cb3c92fc4697f86fc4b0e3}\label{classindexation_1_1processing_1_1Tokenizer_ab24de26039cb3c92fc4697f86fc4b0e3}} 
+\index{indexation\+::processing\+::\+Tokenizer@{indexation\+::processing\+::\+Tokenizer}!main@{main}}
+\index{main@{main}!indexation\+::processing\+::\+Tokenizer@{indexation\+::processing\+::\+Tokenizer}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void indexation.\+processing.\+Tokenizer.\+main (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Test des méthodes de cette classe.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em args} & Pas utilisé.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Problème quelconque rencontré. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classindexation_1_1processing_1_1Tokenizer_a6efa197da7bf96fe0758c421d23a3a7f}\label{classindexation_1_1processing_1_1Tokenizer_a6efa197da7bf96fe0758c421d23a3a7f}} 
+\index{indexation\+::processing\+::\+Tokenizer@{indexation\+::processing\+::\+Tokenizer}!tokenize\+Corpus@{tokenize\+Corpus}}
+\index{tokenize\+Corpus@{tokenize\+Corpus}!indexation\+::processing\+::\+Tokenizer@{indexation\+::processing\+::\+Tokenizer}}
+\subsubsection{\texorpdfstring{tokenize\+Corpus()}{tokenizeCorpus()}}
+{\footnotesize\ttfamily int indexation.\+processing.\+Tokenizer.\+tokenize\+Corpus (\begin{DoxyParamCaption}\item[{List$<$ \hyperlink{classindexation_1_1content_1_1Token}{Token} $>$}]{tokens }\end{DoxyParamCaption}) throws Unsupported\+Encoding\+Exception}
+
+Tokenize tout le corpus et renvoie les tokens obtenus via la liste passée en paramètre. La méthode renvoie aussi le nombre de documents traités.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em tokens} & Liste de tokens résultant du traitement. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Nombre de documents traités.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Unsupported\+Encoding\+Exception} & Problème de décodage lors de la lecture d\textquotesingle{}un document. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classindexation_1_1processing_1_1Tokenizer_a00533ab9f9ad07d38e17364a4227d5f1}\label{classindexation_1_1processing_1_1Tokenizer_a00533ab9f9ad07d38e17364a4227d5f1}} 
+\index{indexation\+::processing\+::\+Tokenizer@{indexation\+::processing\+::\+Tokenizer}!tokenize\+Document@{tokenize\+Document}}
+\index{tokenize\+Document@{tokenize\+Document}!indexation\+::processing\+::\+Tokenizer@{indexation\+::processing\+::\+Tokenizer}}
+\subsubsection{\texorpdfstring{tokenize\+Document()}{tokenizeDocument()}}
+{\footnotesize\ttfamily void indexation.\+processing.\+Tokenizer.\+tokenize\+Document (\begin{DoxyParamCaption}\item[{File}]{document,  }\item[{int}]{doc\+Id,  }\item[{List$<$ \hyperlink{classindexation_1_1content_1_1Token}{Token} $>$}]{tokens }\end{DoxyParamCaption}) throws Unsupported\+Encoding\+Exception}
+
+Méthode qui segmente le document spécifié, et renvoie le résultat en complétant la liste passée en paramètre.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em document} & Fichier contenant le document à traiter. \\
+\hline
+{\em doc\+Id} & Numéro du document à traiter. \\
+\hline
+{\em tokens} & La liste de tokens à compléter.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Unsupported\+Encoding\+Exception} & Problème de décodage lors de la lecture d\textquotesingle{}un document. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classindexation_1_1processing_1_1Tokenizer_a3987c2977e98439758035b5b9f2c7e89}\label{classindexation_1_1processing_1_1Tokenizer_a3987c2977e98439758035b5b9f2c7e89}} 
+\index{indexation\+::processing\+::\+Tokenizer@{indexation\+::processing\+::\+Tokenizer}!tokenize\+String@{tokenize\+String}}
+\index{tokenize\+String@{tokenize\+String}!indexation\+::processing\+::\+Tokenizer@{indexation\+::processing\+::\+Tokenizer}}
+\subsubsection{\texorpdfstring{tokenize\+String()}{tokenizeString()}}
+{\footnotesize\ttfamily List$<$String$>$ indexation.\+processing.\+Tokenizer.\+tokenize\+String (\begin{DoxyParamCaption}\item[{String}]{string }\end{DoxyParamCaption})}
+
+Renvoie la liste des tokens pour la chaîne de caractères spécifiée.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em string} & Chaîne de caractères à traiter. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+La liste de types correspondant. 
+\end{DoxyReturn}
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+Index1/src/indexation/processing/Tokenizer.\+java\end{DoxyCompactItemize}

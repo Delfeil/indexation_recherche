@@ -1,0 +1,176 @@
+\hypertarget{classtools_1_1FileTools}{}\section{Référence de la classe tools.\+File\+Tools}
+\label{classtools_1_1FileTools}\index{tools.\+File\+Tools@{tools.\+File\+Tools}}
+\subsection*{Fonctions membres publiques statiques}
+\begin{DoxyCompactItemize}
+\item 
+static String \hyperlink{classtools_1_1FileTools_a7858c30aa9831f703fe073b1f0ec2a4d}{get\+Corpus\+Folder} ()
+\item 
+static String \hyperlink{classtools_1_1FileTools_ab0cdb1cc0faef239c785d61607959b2c}{get\+Ground\+Truth\+File} ()
+\item 
+static String \hyperlink{classtools_1_1FileTools_a20238076992e33ac38b17cb439def559}{get\+Index\+File} ()
+\item 
+static String \hyperlink{classtools_1_1FileTools_a988c52caadc199f691faef3a30fd6dda}{get\+Term\+Count\+File} ()
+\item 
+static String \hyperlink{classtools_1_1FileTools_a31f4a714b7f3290c892e41fc8aa0004f}{get\+Stop\+Words\+File} ()
+\item 
+static String \hyperlink{classtools_1_1FileTools_a967fdb1dad8e97ddc7f9a709e6ad0493}{get\+Performance\+File} ()
+\item 
+static List$<$ String $>$ \hyperlink{classtools_1_1FileTools_a162f195efa760e0c0edcce9edf5053e3}{get\+File\+Names\+From\+Postings} (List$<$ \hyperlink{classindexation_1_1content_1_1Posting}{Posting} $>$ postings)
+\item 
+static List$<$ String $>$ \hyperlink{classtools_1_1FileTools_ad9fd6276d74325a0f76909a7e8e98c08}{get\+File\+Names\+From\+Doc\+Scores} (List$<$ \hyperlink{classquery_1_1DocScore}{Doc\+Score} $>$ doc\+Scores)
+\item 
+static List$<$ \hyperlink{classindexation_1_1content_1_1Posting}{Posting} $>$ \hyperlink{classtools_1_1FileTools_aaecce00a830429064064ad2e67fb9c6e}{get\+Postings\+From\+File\+Names} (List$<$ String $>$ file\+Names)
+\item 
+static void \hyperlink{classtools_1_1FileTools_a4ca7adceaf54c47b855151d240150961}{main} (String\mbox{[}$\,$\mbox{]} args)  throws Exception  	
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Permet de convertir les noms de fichiers en postings, et inversement. 
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classtools_1_1FileTools_a7858c30aa9831f703fe073b1f0ec2a4d}\label{classtools_1_1FileTools_a7858c30aa9831f703fe073b1f0ec2a4d}} 
+\index{tools\+::\+File\+Tools@{tools\+::\+File\+Tools}!get\+Corpus\+Folder@{get\+Corpus\+Folder}}
+\index{get\+Corpus\+Folder@{get\+Corpus\+Folder}!tools\+::\+File\+Tools@{tools\+::\+File\+Tools}}
+\subsubsection{\texorpdfstring{get\+Corpus\+Folder()}{getCorpusFolder()}}
+{\footnotesize\ttfamily static String tools.\+File\+Tools.\+get\+Corpus\+Folder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Renvoie le chemin vers le dossier racine du corpus.
+
+\begin{DoxyReturn}{Renvoie}
+Chemin du dossier racine du corpus. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtools_1_1FileTools_ad9fd6276d74325a0f76909a7e8e98c08}\label{classtools_1_1FileTools_ad9fd6276d74325a0f76909a7e8e98c08}} 
+\index{tools\+::\+File\+Tools@{tools\+::\+File\+Tools}!get\+File\+Names\+From\+Doc\+Scores@{get\+File\+Names\+From\+Doc\+Scores}}
+\index{get\+File\+Names\+From\+Doc\+Scores@{get\+File\+Names\+From\+Doc\+Scores}!tools\+::\+File\+Tools@{tools\+::\+File\+Tools}}
+\subsubsection{\texorpdfstring{get\+File\+Names\+From\+Doc\+Scores()}{getFileNamesFromDocScores()}}
+{\footnotesize\ttfamily static List$<$String$>$ tools.\+File\+Tools.\+get\+File\+Names\+From\+Doc\+Scores (\begin{DoxyParamCaption}\item[{List$<$ \hyperlink{classquery_1_1DocScore}{Doc\+Score} $>$}]{doc\+Scores }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Renvoie la liste des noms de fichier correspondant aux objets
+\begin{DoxyCode}
+DocScore 
+\end{DoxyCode}
+ passés en paramètres.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em doc\+Scores} & Liste d\textquotesingle{}objets
+\begin{DoxyCode}
+DocScore 
+\end{DoxyCode}
+ . \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Liste de noms de fichiers. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtools_1_1FileTools_a162f195efa760e0c0edcce9edf5053e3}\label{classtools_1_1FileTools_a162f195efa760e0c0edcce9edf5053e3}} 
+\index{tools\+::\+File\+Tools@{tools\+::\+File\+Tools}!get\+File\+Names\+From\+Postings@{get\+File\+Names\+From\+Postings}}
+\index{get\+File\+Names\+From\+Postings@{get\+File\+Names\+From\+Postings}!tools\+::\+File\+Tools@{tools\+::\+File\+Tools}}
+\subsubsection{\texorpdfstring{get\+File\+Names\+From\+Postings()}{getFileNamesFromPostings()}}
+{\footnotesize\ttfamily static List$<$String$>$ tools.\+File\+Tools.\+get\+File\+Names\+From\+Postings (\begin{DoxyParamCaption}\item[{List$<$ \hyperlink{classindexation_1_1content_1_1Posting}{Posting} $>$}]{postings }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Renvoie la liste des noms de fichier correspondant aux postings passés en paramètres.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em postings} & Liste de postings. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Liste de noms de fichiers. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtools_1_1FileTools_ab0cdb1cc0faef239c785d61607959b2c}\label{classtools_1_1FileTools_ab0cdb1cc0faef239c785d61607959b2c}} 
+\index{tools\+::\+File\+Tools@{tools\+::\+File\+Tools}!get\+Ground\+Truth\+File@{get\+Ground\+Truth\+File}}
+\index{get\+Ground\+Truth\+File@{get\+Ground\+Truth\+File}!tools\+::\+File\+Tools@{tools\+::\+File\+Tools}}
+\subsubsection{\texorpdfstring{get\+Ground\+Truth\+File()}{getGroundTruthFile()}}
+{\footnotesize\ttfamily static String tools.\+File\+Tools.\+get\+Ground\+Truth\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Renvoie le chemin vers le fichier (X\+ML) de la vérité terrain.
+
+\begin{DoxyReturn}{Renvoie}
+Chemin du fichier (X\+ML) de la vérité terrain. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtools_1_1FileTools_a20238076992e33ac38b17cb439def559}\label{classtools_1_1FileTools_a20238076992e33ac38b17cb439def559}} 
+\index{tools\+::\+File\+Tools@{tools\+::\+File\+Tools}!get\+Index\+File@{get\+Index\+File}}
+\index{get\+Index\+File@{get\+Index\+File}!tools\+::\+File\+Tools@{tools\+::\+File\+Tools}}
+\subsubsection{\texorpdfstring{get\+Index\+File()}{getIndexFile()}}
+{\footnotesize\ttfamily static String tools.\+File\+Tools.\+get\+Index\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Renvoie le chemin vers le fichier contenant l\textquotesingle{}index.
+
+\begin{DoxyReturn}{Renvoie}
+Chemin du fichier (binaire) de l\textquotesingle{}index. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtools_1_1FileTools_a967fdb1dad8e97ddc7f9a709e6ad0493}\label{classtools_1_1FileTools_a967fdb1dad8e97ddc7f9a709e6ad0493}} 
+\index{tools\+::\+File\+Tools@{tools\+::\+File\+Tools}!get\+Performance\+File@{get\+Performance\+File}}
+\index{get\+Performance\+File@{get\+Performance\+File}!tools\+::\+File\+Tools@{tools\+::\+File\+Tools}}
+\subsubsection{\texorpdfstring{get\+Performance\+File()}{getPerformanceFile()}}
+{\footnotesize\ttfamily static String tools.\+File\+Tools.\+get\+Performance\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Renvoie le chemin vers le fichier (texte) dans lequel on enregistre les mesures de performance.
+
+\begin{DoxyReturn}{Renvoie}
+Chemin du fichier (texte) des performances. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtools_1_1FileTools_aaecce00a830429064064ad2e67fb9c6e}\label{classtools_1_1FileTools_aaecce00a830429064064ad2e67fb9c6e}} 
+\index{tools\+::\+File\+Tools@{tools\+::\+File\+Tools}!get\+Postings\+From\+File\+Names@{get\+Postings\+From\+File\+Names}}
+\index{get\+Postings\+From\+File\+Names@{get\+Postings\+From\+File\+Names}!tools\+::\+File\+Tools@{tools\+::\+File\+Tools}}
+\subsubsection{\texorpdfstring{get\+Postings\+From\+File\+Names()}{getPostingsFromFileNames()}}
+{\footnotesize\ttfamily static List$<$\hyperlink{classindexation_1_1content_1_1Posting}{Posting}$>$ tools.\+File\+Tools.\+get\+Postings\+From\+File\+Names (\begin{DoxyParamCaption}\item[{List$<$ String $>$}]{file\+Names }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Renvoie la liste des postings correspondant aux noms de fichier passés en paramètres.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em file\+Names} & Liste de noms de fichiers. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Liste de postings. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtools_1_1FileTools_a31f4a714b7f3290c892e41fc8aa0004f}\label{classtools_1_1FileTools_a31f4a714b7f3290c892e41fc8aa0004f}} 
+\index{tools\+::\+File\+Tools@{tools\+::\+File\+Tools}!get\+Stop\+Words\+File@{get\+Stop\+Words\+File}}
+\index{get\+Stop\+Words\+File@{get\+Stop\+Words\+File}!tools\+::\+File\+Tools@{tools\+::\+File\+Tools}}
+\subsubsection{\texorpdfstring{get\+Stop\+Words\+File()}{getStopWordsFile()}}
+{\footnotesize\ttfamily static String tools.\+File\+Tools.\+get\+Stop\+Words\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Renvoie le chemin vers le fichier (texte) des mots-\/vides.
+
+\begin{DoxyReturn}{Renvoie}
+Chemin du fichier (texte) des mots-\/vides. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtools_1_1FileTools_a988c52caadc199f691faef3a30fd6dda}\label{classtools_1_1FileTools_a988c52caadc199f691faef3a30fd6dda}} 
+\index{tools\+::\+File\+Tools@{tools\+::\+File\+Tools}!get\+Term\+Count\+File@{get\+Term\+Count\+File}}
+\index{get\+Term\+Count\+File@{get\+Term\+Count\+File}!tools\+::\+File\+Tools@{tools\+::\+File\+Tools}}
+\subsubsection{\texorpdfstring{get\+Term\+Count\+File()}{getTermCountFile()}}
+{\footnotesize\ttfamily static String tools.\+File\+Tools.\+get\+Term\+Count\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Renvoie le chemin vers le fichier (C\+SV) de décompte des termes.
+
+\begin{DoxyReturn}{Renvoie}
+Chemin du fichier (C\+SV) de décompte. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtools_1_1FileTools_a4ca7adceaf54c47b855151d240150961}\label{classtools_1_1FileTools_a4ca7adceaf54c47b855151d240150961}} 
+\index{tools\+::\+File\+Tools@{tools\+::\+File\+Tools}!main@{main}}
+\index{main@{main}!tools\+::\+File\+Tools@{tools\+::\+File\+Tools}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void tools.\+File\+Tools.\+main (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Test des méthodes de cette classe.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em args} & Pas utilisé.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Problème quelconque rencontré. \\
+\hline
+\end{DoxyExceptions}
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+Index1/src/tools/File\+Tools.\+java\end{DoxyCompactItemize}

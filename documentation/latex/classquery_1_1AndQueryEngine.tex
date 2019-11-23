@@ -1,0 +1,88 @@
+\hypertarget{classquery_1_1AndQueryEngine}{}\section{Référence de la classe query.\+And\+Query\+Engine}
+\label{classquery_1_1AndQueryEngine}\index{query.\+And\+Query\+Engine@{query.\+And\+Query\+Engine}}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classquery_1_1AndQueryEngine_a93d427a9690250f1ab77b9b821420c37}{And\+Query\+Engine} (\hyperlink{classindexation_1_1AbstractIndex}{Abstract\+Index} index)
+\item 
+List$<$ \hyperlink{classindexation_1_1content_1_1Posting}{Posting} $>$ \hyperlink{classquery_1_1AndQueryEngine_a41f8316a47cc313b95839959ec4de38a}{process\+Query} (String query)
+\item 
+\hyperlink{classindexation_1_1AbstractIndex}{Abstract\+Index} \hyperlink{classquery_1_1AndQueryEngine_a1ed58d50e47acd0e0aa5fae1cb91668c}{get\+Index} ()
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques statiques}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classquery_1_1AndQueryEngine_a3a269d6715d08630d6324c5488461225}{main} (String\mbox{[}$\,$\mbox{]} args)  throws Exception  	
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Objet capable de traiter une requête booléenne sur un index. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{classquery_1_1AndQueryEngine_a93d427a9690250f1ab77b9b821420c37}\label{classquery_1_1AndQueryEngine_a93d427a9690250f1ab77b9b821420c37}} 
+\index{query\+::\+And\+Query\+Engine@{query\+::\+And\+Query\+Engine}!And\+Query\+Engine@{And\+Query\+Engine}}
+\index{And\+Query\+Engine@{And\+Query\+Engine}!query\+::\+And\+Query\+Engine@{query\+::\+And\+Query\+Engine}}
+\subsubsection{\texorpdfstring{And\+Query\+Engine()}{AndQueryEngine()}}
+{\footnotesize\ttfamily query.\+And\+Query\+Engine.\+And\+Query\+Engine (\begin{DoxyParamCaption}\item[{\hyperlink{classindexation_1_1AbstractIndex}{Abstract\+Index}}]{index }\end{DoxyParamCaption})}
+
+Initialise ce moteur de recherche avec l\textquotesingle{}index passé en paramètre, qui sera considéré comme index de référence lors de l\textquotesingle{}évaluation des requêtes reçues.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em index} & Index de référence. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classquery_1_1AndQueryEngine_a1ed58d50e47acd0e0aa5fae1cb91668c}\label{classquery_1_1AndQueryEngine_a1ed58d50e47acd0e0aa5fae1cb91668c}} 
+\index{query\+::\+And\+Query\+Engine@{query\+::\+And\+Query\+Engine}!get\+Index@{get\+Index}}
+\index{get\+Index@{get\+Index}!query\+::\+And\+Query\+Engine@{query\+::\+And\+Query\+Engine}}
+\subsubsection{\texorpdfstring{get\+Index()}{getIndex()}}
+{\footnotesize\ttfamily \hyperlink{classindexation_1_1AbstractIndex}{Abstract\+Index} query.\+And\+Query\+Engine.\+get\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Renvoie l\textquotesingle{}index associé à ce moteur.
+
+\begin{DoxyReturn}{Renvoie}
+Index associé à ce moteur. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classquery_1_1AndQueryEngine_a3a269d6715d08630d6324c5488461225}\label{classquery_1_1AndQueryEngine_a3a269d6715d08630d6324c5488461225}} 
+\index{query\+::\+And\+Query\+Engine@{query\+::\+And\+Query\+Engine}!main@{main}}
+\index{main@{main}!query\+::\+And\+Query\+Engine@{query\+::\+And\+Query\+Engine}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void query.\+And\+Query\+Engine.\+main (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [static]}}
+
+Test des méthodes de cette classe.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em args} & Pas utilisé.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Problème quelconque rencontré. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classquery_1_1AndQueryEngine_a41f8316a47cc313b95839959ec4de38a}\label{classquery_1_1AndQueryEngine_a41f8316a47cc313b95839959ec4de38a}} 
+\index{query\+::\+And\+Query\+Engine@{query\+::\+And\+Query\+Engine}!process\+Query@{process\+Query}}
+\index{process\+Query@{process\+Query}!query\+::\+And\+Query\+Engine@{query\+::\+And\+Query\+Engine}}
+\subsubsection{\texorpdfstring{process\+Query()}{processQuery()}}
+{\footnotesize\ttfamily List$<$\hyperlink{classindexation_1_1content_1_1Posting}{Posting}$>$ query.\+And\+Query\+Engine.\+process\+Query (\begin{DoxyParamCaption}\item[{String}]{query }\end{DoxyParamCaption})}
+
+Traite la requête passée en paramètre et renvoie la liste des documents concernés.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em query} & Requête à traiter. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Liste des documents concernés. 
+\end{DoxyReturn}
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+Index1/src/query/And\+Query\+Engine.\+java\end{DoxyCompactItemize}
