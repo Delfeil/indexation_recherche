@@ -42,6 +42,8 @@
 
     - __AbstractIndex.___indexCorpus_____: Réalise la construction de l'index (voir Construction de l'Index)
 
+    - __AbstractIndex___write_____: Sérialise un index pour le placer dans un fichier compressé
+
   - __ArrayIndex__: Version de l'index inverse avec un Tableau d'__IndexEntry__
 
     /indexation/ArrayIndex.java
@@ -117,3 +119,14 @@ listes de postings.
       - Reçoit une liste de postings
       - Renvoie la liste des noms de fichier correspondant aux docIds
 
+    - __FileTools.___getIndexFile_____: Désérialise un fichier index et le tranforme en un __Index__
+
+---
+
+### Configuration
+
+- __Configuration__
+
+    ./src/tools/Configuration.java
+
+    - __Configuration.___setCorpusName___: spécifier le nom du corpus à traiter par l'index.
