@@ -118,4 +118,32 @@ public class Configuration
 	public static boolean isComputingScores()
 	{	return computingScores;
 	}
+
+	////////////////////////////////////////////////////
+	//	SCILENCE
+	////////////////////////////////////////////////////
+	/** Indique s'il faut Afficher ou cacher les différents prints */
+	private static boolean scilence = false;
+	
+	/**
+	 * Permet d'indiquer si les scores doivent être
+	 * calculés ({@code true}) ou pas ({@code false}).
+	 * 
+	 * @param scilence
+	 * 		Calculer les scores ({@code true}) ou pas ({@code false}).
+	 */
+	public static void setScilence(boolean scilence)
+	{	Configuration.scilence = scilence;
+	}
+	
+	/**
+	 * Indique si les scores doivent être
+	 * calculés ({@code true}) ou pas ({@code false}).
+	 * 
+	 * @return
+	 * 		Calculer les scores ({@code true}) ou pas ({@code false}).
+	 */
+	public static boolean isScilence()
+	{	return scilence;
+	}
 }

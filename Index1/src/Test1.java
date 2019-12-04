@@ -1,9 +1,15 @@
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 import indexation.AbstractIndex;
 import indexation.AbstractIndex.LexiconType;
 import indexation.AbstractIndex.TokenListType;
+import indexation.content.Posting;
+import query.AndQueryEngine;
 import tools.Configuration;
+import tools.FileTools;
 
 /**
  * Classe permettant de tester
@@ -30,15 +36,17 @@ public class Test1
 		
 		// test de l'indexation
 		//TODO méthode à compléter (TP2-ex5)
-		Test1.testIndexation();
+		// Test1.testIndexation();
 		
 		// test du chargement d'index
 		//TODO méthode à compléter (TP2-ex11)
-		AbstractIndex index_loaded = AbstractIndex.read();
+		// AbstractIndex index_loaded = AbstractIndex.read();
 		
 		// test du traitement de requêtes
 		//TODO méthode à compléter (TP3-ex6)
-		
+		// Test1.testQuery();
+		Test1.testQueryies();
+
 		// test de l'évaluation de performance
 		//TODO méthode à compléter (TP4-ex9)
 	}
@@ -80,6 +88,20 @@ public class Test1
 	 */
 	private static void testQuery() throws IOException, ClassNotFoundException
 	{	//TODO méthode à compléter (TP3-ex6)
+		Configuration.setCorpusName("wp");
+		AbstractIndex index = AbstractIndex.read();
+		AndQueryEngine aqe = new AndQueryEngine(index);
+
+		List<String> queryes = new ArrayList<String>();
+		queryes.add("recherche");
+		queryes.add("recherche ET INFORMATION");
+		queryes.add("recherche ET INFORMATION ET Web");
+		List<Posting> rq1 = aqe.processQuery(queryes.get(0));
+		System.out.println(rq1+"\nFiles:\n"+FileTools.getFileNamesFromPostings(rq1));
+		List<Posting> rq2 = aqe.processQuery(queryes.get(1));
+		System.out.println(rq2+"\nFiles:\n"+FileTools.getFileNamesFromPostings(rq2));
+		List<Posting> rq3 = aqe.processQuery(queryes.get(2));
+		System.out.println(rq3+"\nFiles:\n"+FileTools.getFileNamesFromPostings(rq3));
 		//TODO méthode à compléter (TP3-ex12)
 		
 		//TODO méthode à compléter (TP5-ex11)
@@ -97,5 +119,52 @@ public class Test1
 	private static void testEvaluation()
 	{	//TODO méthode à compléter (TP4-ex9)
 		//TODO méthode à compléter (TP6-ex16)
+	}
+
+	private static void testQueryies() throws IOException {
+		Configuration.setCorpusName("wp");
+		Configuration.setScilence(true);
+		List<AbstractIndex> lIndexs = new ArrayList<AbstractIndex>();
+		System.out.println("Build Indexes");
+		System.out.println("Construction ArrayIndex");
+		long start = System.currentTimeMillis();
+		lIndexs.add(AbstractIndex.indexCorpus(TokenListType.LINKED, LexiconType.ARRAY));
+		long end = System.currentTimeMillis();
+		System.out.println("ArrayIndex construit: "+(end-start)+"ms");
+		
+		System.out.println("Construction HashIndex");
+		start = System.currentTimeMillis();
+		lIndexs.add(AbstractIndex.indexCorpus(TokenListType.LINKED, LexiconType.HASH));
+		end = System.currentTimeMillis();
+		System.out.println("HashIndex construit: "+(end-start)+"ms");
+		
+		System.out.println("Construction TreeIndex");
+		start = System.currentTimeMillis();
+		lIndexs.add(AbstractIndex.indexCorpus(TokenListType.LINKED, LexiconType.TREE));
+		end = System.currentTimeMillis();
+		System.out.println("TreeIndex construit: "+(end-start)+"ms");
+		
+		String[] queries2 = {"recherche d'information", "modèle de travail", "microsoft windows", "contrôle des connaissances", "berners-lee", "système de notation", "internet mondial", "points forts", "moteur de recherche", "réseaux sociaux"};
+
+		System.out.println("Testing queries");
+		Iterator<AbstractIndex> iIndex = lIndexs.iterator();
+		AndQueryEngine aqe = null;
+		List<Posting> res = null;
+		Boolean silent = true;
+		while (iIndex.hasNext()) {
+			AbstractIndex index = iIndex.next();
+			aqe = new AndQueryEngine(index);
+			start = System.currentTimeMillis();
+			for (int i = 0; i < 1000; i++) {
+				for (String query : queries2) {
+					res = aqe.processQuery(query);
+				}
+			}
+			end = System.currentTimeMillis();
+	
+			System.out.println("Test:");
+			System.out.println("Type d'index: " + index.getClass().getName());
+			System.out.println("Durée: " + (end-start) + " ms");
+		}
 	}
 }

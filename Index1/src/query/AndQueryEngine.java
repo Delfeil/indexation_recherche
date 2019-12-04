@@ -46,6 +46,19 @@ public class AndQueryEngine
 	public List<Posting> processQuery(String query)
 	{	List<Posting> result = null;
 		//TODO méthode à compléter (TP3-ex5)
+		Boolean scilence = Configuration.isScilence();
+		if(!scilence) {
+			System.out.println("Processing query \"" + query + "\"");
+		}
+		long start = System.currentTimeMillis();
+		List<List<Posting>> llp = new ArrayList<List<Posting>>();
+		this.splitQuery(query, llp);
+		result = this.processConjunctions(llp);
+		long end = System.currentTimeMillis();
+		if(!scilence) {
+			System.out.println("Query processed, returned "+
+				result.size()+" postings, duration="+(end-start)+" ms");
+		}
 		return result;
 	}
 	
@@ -58,6 +71,9 @@ public class AndQueryEngine
 		public int compare(List<Posting> l1, List<Posting> l2)
 		{	int result = -1;
 			//TODO méthode à compléter  (TP3-ex3)
+			Integer ll1 = l1.size();
+			Integer ll2 = l2.size();
+			result = ll1.compareTo(ll2);
 			return result;
 		}
 	};
@@ -143,8 +159,18 @@ public class AndQueryEngine
 	 * 		Intersection de toutes les listes de postings.
 	 */
 	private List<Posting> processConjunctions(List<List<Posting>> lists)
-	{	List<Posting> result = null;
+	{	List<Posting> result = lists.get(0);
 		//TODO méthode à compléter (TP3-ex4)
+		lists.sort(COMPARATOR);
+		Iterator<List<Posting>> itlp = lists.iterator();
+		if(itlp.hasNext()) {
+			result = itlp.next();
+		}
+		while(itlp.hasNext()) {
+			if(result.isEmpty())
+				return result;
+			result = this.processConjunction(result, itlp.next());
+		}
 		//TODO méthode à modifier  (TP4-ex11)
 		return result;
 	}
@@ -181,7 +207,7 @@ public class AndQueryEngine
 	{	// test de splitQuery
 		// TODO méthode à compléter (TP3-ex1)
 
-		Configuration.setCorpusName("wp");
+		Configuration.setCorpusName("wp_test");
 		AbstractIndex index = AbstractIndex.read();
 
 		AndQueryEngine aqe = new AndQueryEngine(index);
@@ -200,11 +226,28 @@ public class AndQueryEngine
 		
 		// test de COMPARATOR
 		// TODO méthode à compléter (TP3-ex3)
+		System.out.println(
+			COMPARATOR.compare(postings.get(0), postings.get(0))
+		);
 		
+		System.out.println(
+			COMPARATOR.compare(postings.get(0), postings.get(1))
+		);
+
+		System.out.println(
+			COMPARATOR.compare(postings.get(1), new ArrayList<Posting>())
+		);
+
+		// System.out.println(
+		// 	COMPARATOR.compare(null, postings.get(0))
+		// );
+
 		// test de processConjunctions
 		// TODO méthode à compléter (TP3-ex4)
+		System.out.println(aqe.processConjunctions(postings));
 		
 		// test de processQuery
 		// TODO méthode à compléter (TP3-ex5)
+		System.out.println(aqe.processQuery(query));
 	}
 }

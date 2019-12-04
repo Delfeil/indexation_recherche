@@ -50,6 +50,7 @@ public abstract class AbstractIndex implements Serializable
 	 */
 	public static AbstractIndex indexCorpus(TokenListType tokenListType, LexiconType lexiconType) throws UnsupportedEncodingException, FileNotFoundException
 	{	AbstractIndex result = null;
+		Boolean scilence = Configuration.isScilence();
 		//TODO méthode à compléter (TP2-ex4)
 		String folder = FileTools.getCorpusFolder();
 		Tokenizer tokenizer = new Tokenizer();
@@ -68,31 +69,45 @@ public abstract class AbstractIndex implements Serializable
 		}
 		long tot_start = System.currentTimeMillis(); 
 
-		System.out.println("Tokenizing corpus...");
+		if(!scilence) {
+			System.out.println("Tokenizing corpus...");
+		}
 		long start = System.currentTimeMillis();
 		int nb_tokens = tokenizer.tokenizeCorpus(tokens);
 		long end = System.currentTimeMillis();
-		System.out.println(nb_tokens + " tokens were found, Durée mesurée : "+
-			(end - start) + " ms");
+		if(!scilence) {
+			System.out.println(nb_tokens + " tokens were found, Durée mesurée : "+
+				(end - start) + " ms");
+		}
 
-		System.out.println("Normalizing tokens...");
+		if(!scilence) {
+			System.out.println("Normalizing tokens...");
+		}
 		start = System.currentTimeMillis();
 		normalizer.normalizeTokens(tokens);
 		end = System.currentTimeMillis();
-		System.out.println(tokens.size() +
-			" tokens remaining after normalization Building index, duration="+
-			(end-start)+ "ms");
+		if(!scilence) {
+			System.out.println(tokens.size() +
+				" tokens remaining after normalization Building index, duration="+
+				(end-start)+ "ms");
+		}
 		
-		System.out.println("Building index...");
+		if(!scilence) {
+			System.out.println("Building index...");
+		}
 		start = System.currentTimeMillis();
 		result = builder.buildIndex(tokens, lexiconType);
 		end = System.currentTimeMillis();
-		System.out.println("There are "+ result.getSize() +
-			" entries in the index, token list="+ tokenListType+
-			", duration="+ (end-start)+ "ms");
+		if(!scilence) {
+			System.out.println("There are "+ result.getSize() +
+				" entries in the index, token list="+ tokenListType+
+				", duration="+ (end-start)+ "ms");
+		}
 
 		long tot_end = System.currentTimeMillis();
-		System.out.println("Total duration="+(tot_end-tot_start)+" ms");
+		if(!scilence) {
+			System.out.println("Total duration="+(tot_end-tot_start)+" ms");
+		}
 		//TODO méthode à modifier  (TP2-ex8)
 
 		result.tokenizer = tokenizer;
