@@ -117,3 +117,11 @@ listes de postings.
       - Reçoit une liste de postings
       - Renvoie la liste des noms de fichier correspondant aux docIds
 
+
+----
+
+### Requêtes
+
+- __AndQueryEngine__:
+
+    

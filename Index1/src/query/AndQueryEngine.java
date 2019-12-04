@@ -2,9 +2,15 @@ package query;
 
 import indexation.AbstractIndex;
 import indexation.content.Posting;
+import indexation.processing.Normalizer;
+import indexation.processing.Tokenizer;
+import tools.Configuration;
 
+import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
 
 /**
  * Objet capable de traiter une
@@ -73,6 +79,16 @@ public class AndQueryEngine
 	 */
 	private void splitQuery(String query, List<List<Posting>> result)
 	{	//TODO méthode à compléter (TP3-ex1)
+		Tokenizer tokenizer = this.index.getTokenizer();
+		Normalizer normalizer = this.index.getNormalizer();
+		List<String> tokensS = tokenizer.tokenizeString(query);
+		for (String term : tokensS) {
+			if(term.equals("ET")) {
+				continue;
+			}
+			term = normalizer.normalizeType(term);
+			result.add(this.index.getEntry(term).getPostings());
+		}
 		//TODO méthode à modifier  (TP4-ex10)
 	}
 	
@@ -91,8 +107,28 @@ public class AndQueryEngine
 	 * 		Le résultat de ET sur ces deux listes.
 	 */
 	private List<Posting> processConjunction(List<Posting> list1, List<Posting> list2)
-	{	List<Posting> result = null;
+	{	List<Posting> result = new ArrayList<Posting>();
 		//TODO méthode à compléter (TP3-ex2)
+		
+		ListIterator<Posting> it1 = list1.listIterator();
+		ListIterator<Posting> it2 = list2.listIterator();
+		Posting p1, p2 = null;
+		while(it1.hasNext() && it2.hasNext()) {
+			p1 = it1.next();
+			p2 = it2.next();
+			if(p1.equals(p2)) {
+				result.add(p1);
+			} else {
+				// On recule l'itérator avec le plus gros docId
+				int id1 = p1.getDocId();
+				int id2 = p2.getDocId();
+				if(id1 < id2) {
+					it2.previous();
+				} else {
+					it1.previous();
+				}
+			}
+		}
 		//TODO méthode à modifier  (TP4-ex12)
 		return result;
 	}
@@ -144,9 +180,23 @@ public class AndQueryEngine
 	public static void main(String[] args) throws Exception 
 	{	// test de splitQuery
 		// TODO méthode à compléter (TP3-ex1)
+
+		Configuration.setCorpusName("wp");
+		AbstractIndex index = AbstractIndex.read();
+
+		AndQueryEngine aqe = new AndQueryEngine(index);
+
+		List<List<Posting>> postings = new ArrayList<List<Posting>>();
+
+		String query = "recherche ET INFORMATION ET Web";
+
+		aqe.splitQuery(query, postings);
+		System.out.println(postings);
 		
 		// test de processConjunction
 		// TODO méthode à compléter (TP3-ex2)
+		System.out.println(aqe.processConjunction(postings.get(0), postings.get(1)));
+		
 		
 		// test de COMPARATOR
 		// TODO méthode à compléter (TP3-ex3)

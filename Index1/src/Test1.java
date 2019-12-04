@@ -24,7 +24,7 @@ public class Test1
 	public static void main(String[] args) throws IOException, ClassNotFoundException
 	{	// configuration de l'index
 		//TODO méthode à compléter (TP2-ex5)
-		Configuration.setCorpusName("wp_test");
+		Configuration.setCorpusName("wp");
 		//TODO méthode à compléter (TP4-ex14)
 		//TODO méthode à compléter (TP5-ex10)
 		

@@ -94,6 +94,9 @@ public abstract class AbstractIndex implements Serializable
 		long tot_end = System.currentTimeMillis();
 		System.out.println("Total duration="+(tot_end-tot_start)+" ms");
 		//TODO méthode à modifier  (TP2-ex8)
+
+		result.tokenizer = tokenizer;
+		result.normalizer = normalizer;
 		return result;
 	}
 	
