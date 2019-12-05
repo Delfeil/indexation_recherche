@@ -42,7 +42,7 @@ public class FileTools
 	 */
 	public static String getGroundTruthFile()
 	{	String corpusName = Configuration.getCorpusName();
-		String result = ".." + File.separator + "Common" + File.separator + corpusName + "_reference.xml";
+		String result = "." + File.separator + "Common" + File.separator + corpusName + "_reference.xml";
 		return result;
 	}
 	
