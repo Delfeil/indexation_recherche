@@ -1,8 +1,11 @@
 package tools;
 
 import indexation.content.Posting;
+import indexation.content.Token;
+import indexation.processing.Tokenizer;
 
 import java.io.File;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -162,8 +165,17 @@ public class FileTools
 	 * 		Liste de postings.
 	 */
 	public static List<Posting> getPostingsFromFileNames(List<String> fileNames)
-	{	List<Posting> result = null;
+	{	List<Posting> result = new ArrayList<Posting>();
 		//TODO méthode à compléter  (TP4-ex1)
+		String folder_name = FileTools.getCorpusFolder();
+		File f = new File(folder_name);
+		String[] files = f.list();
+		List<String> filesList = Arrays.asList(files);
+		
+		for (String file_name : fileNames) {
+			int docId = filesList.indexOf(file_name);
+			result.add(new Posting(docId));
+		}
 		return result;
 	}
 
@@ -191,6 +203,11 @@ public class FileTools
 		System.out.println(list_files);
 		// test de getPostingsFromFileNames
 		//TODO méthode à compléter  (TP4-ex1)
+		List<String> files = new ArrayList<String>();
+		files.add("0a0ff29e-66a2-4cd5-844f-170267e3d493.txt");
+		files.add("0a81916b-0849-4084-b6e4-d5e69c73ad1d.txt");
+		files.add("0ad87a98-842c-4bbf-9b42-f224ff3d0e55.txt");
+		System.out.println(FileTools.getPostingsFromFileNames(files));
 		
 		// test de getFileNamesFromDocScores
 		//TODO méthode à compléter  (TP6-ex12)
