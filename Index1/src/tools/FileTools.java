@@ -207,6 +207,7 @@ public class FileTools
 		files.add("0a0ff29e-66a2-4cd5-844f-170267e3d493.txt");
 		files.add("0a81916b-0849-4084-b6e4-d5e69c73ad1d.txt");
 		files.add("0ad87a98-842c-4bbf-9b42-f224ff3d0e55.txt");
+		
 		System.out.println(FileTools.getPostingsFromFileNames(files));
 		
 		// test de getFileNamesFromDocScores
