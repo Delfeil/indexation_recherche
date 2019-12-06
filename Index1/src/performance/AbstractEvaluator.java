@@ -33,6 +33,7 @@ public abstract class AbstractEvaluator
 	 */
 	public AbstractEvaluator() throws ParserConfigurationException, SAXException, IOException
 	{	//TODO méthode à compléter  (TP4-ex4)
+		this.groundTruth = new GroundTruth();
 	}
 	
 	/**
