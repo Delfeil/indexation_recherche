@@ -76,9 +76,7 @@ public class GroundTruth
 					// System.out.println("là");
 					files.add(documentNode.getTextContent());
 				}
-				this.postingLists.add(
-					FileTools.getPostingsFromFileNames(files)
-				);
+				this.postingLists.add(FileTools.getPostingsFromFileNames(files));
 			}
 		}
 		System.out.println(")");

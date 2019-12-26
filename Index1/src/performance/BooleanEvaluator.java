@@ -3,6 +3,7 @@ package performance;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -10,7 +11,10 @@ import javax.xml.parsers.ParserConfigurationException;
 
 import org.xml.sax.SAXException;
 
+import indexation.AbstractIndex;
+import indexation.content.Posting;
 import query.AndQueryEngine;
+import tools.Configuration;
 
 /**
  * Classe utilisée pour évaluer la performance
@@ -75,6 +79,16 @@ public class BooleanEvaluator extends AbstractEvaluator
 	public static void main(String[] args) throws Exception 
 	{	// test de evaluateQueryAnswer
 		//TODO méthode à compléter  (TP4-ex5)
+		Configuration.setCorpusName("springer");
+		AbstractIndex index = AbstractIndex.read();
+		AbstractEvaluator evaluator = new BooleanEvaluator();
+		AndQueryEngine aqe = new AndQueryEngine(index);
+		String query = evaluator.groundTruth.getQueries().get(0);
+		List<Posting> answer = aqe.processQuery(query);
+		System.out.println(answer);
+		Map<MeasureName, Float> evaluation = new HashMap<MeasureName, Float>();
+		evaluation = evaluator.evaluateQueryAnswer(0, answer);
+		System.out.println(evaluation);
 		
 		// test de evaluateQueryAnswers
 		//TODO méthode à compléter  (TP4-ex6)

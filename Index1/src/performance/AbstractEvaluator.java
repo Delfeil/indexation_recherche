@@ -3,6 +3,8 @@ package performance;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
@@ -88,6 +90,31 @@ public abstract class AbstractEvaluator
 	protected Map<MeasureName,Float> evaluateQueryAnswer(int queryId, List<Posting> answer)
 	{	 Map<MeasureName,Float> result = null;
 		//TODO méthode à compléter  (TP4-ex5)
+			//  Récupération des donnée terrain
+		List<String> requests = this.groundTruth.getQueries();
+		String request = requests.get(queryId);
+		List<Posting> groud_truth_result = this.groundTruth.getPostingList(queryId);
+		Iterator<Posting> ansi = answer.iterator();
+		int tp, fn, fp;
+		tp = fn = fp = 0;
+		while (ansi.hasNext()) {
+			Posting ansp = ansi.next();
+			
+			if(groud_truth_result.contains(ansp)) {
+				tp++;
+			} else {
+				fp++;
+			}
+		}
+		fn = groud_truth_result.size() - tp;
+			// Calcul de la précision
+		result = new HashMap<MeasureName,Float>();
+		float acc = tp / (tp+fp);
+		float rec = tp / (tp+fn);
+		float f_mesure = 2*((acc*rec)/(acc+rec));
+		result.put(MeasureName.PRECISION, acc);
+		result.put(MeasureName.RECALL, rec);
+		result.put(MeasureName.F_MEASURE, f_mesure);
 		return result;
 	}
 	

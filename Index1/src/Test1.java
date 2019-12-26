@@ -30,13 +30,14 @@ public class Test1
 	public static void main(String[] args) throws IOException, ClassNotFoundException
 	{	// configuration de l'index
 		//TODO méthode à compléter (TP2-ex5)
-		Configuration.setCorpusName("wp");
+		// Configuration.setCorpusName("wp");
+		Configuration.setCorpusName("springer");
 		//TODO méthode à compléter (TP4-ex14)
 		//TODO méthode à compléter (TP5-ex10)
 		
 		// test de l'indexation
 		//TODO méthode à compléter (TP2-ex5)
-		// Test1.testIndexation();
+		Test1.testIndexation();
 		
 		// test du chargement d'index
 		//TODO méthode à compléter (TP2-ex11)
@@ -45,7 +46,7 @@ public class Test1
 		// test du traitement de requêtes
 		//TODO méthode à compléter (TP3-ex6)
 		// Test1.testQuery();
-		Test1.testQueryies();
+		// Test1.testQueryies();
 
 		// test de l'évaluation de performance
 		//TODO méthode à compléter (TP4-ex9)
