@@ -3,6 +3,7 @@ package performance;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -12,6 +13,8 @@ import javax.xml.parsers.ParserConfigurationException;
 import org.xml.sax.SAXException;
 
 import indexation.AbstractIndex;
+import indexation.AbstractIndex.LexiconType;
+import indexation.AbstractIndex.TokenListType;
 import indexation.content.Posting;
 import query.AndQueryEngine;
 import tools.Configuration;
@@ -80,14 +83,22 @@ public class BooleanEvaluator extends AbstractEvaluator
 	{	// test de evaluateQueryAnswer
 		//TODO méthode à compléter  (TP4-ex5)
 		Configuration.setCorpusName("springer");
-		AbstractIndex index = AbstractIndex.read();
+		// AbstractIndex index = AbstractIndex.read();
+		
+		// AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.LINKED, LexiconType.HASH);
 		AbstractEvaluator evaluator = new BooleanEvaluator();
-		AndQueryEngine aqe = new AndQueryEngine(index);
-		String query = evaluator.groundTruth.getQueries().get(0);
-		List<Posting> answer = aqe.processQuery(query);
-		System.out.println(answer);
+		// AndQueryEngine aqe = new AndQueryEngine(index);
+		String query = evaluator.groundTruth.getQueries().get(1);
+		// System.out.println(query);
+		// List<Posting> answer = aqe.processQuery(query);
+		List<Posting> answer = new ArrayList<Posting>();
+		for (int i = 15; i < 21; i++) {
+			Posting p =new Posting(i);
+			answer.add(p);
+		}
+		// System.out.println(answer);
 		Map<MeasureName, Float> evaluation = new HashMap<MeasureName, Float>();
-		evaluation = evaluator.evaluateQueryAnswer(0, answer);
+		evaluation = evaluator.evaluateQueryAnswer(1, answer);
 		System.out.println(evaluation);
 		
 		// test de evaluateQueryAnswers
