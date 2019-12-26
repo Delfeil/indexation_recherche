@@ -3,6 +3,7 @@ package performance;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -106,7 +107,7 @@ public abstract class AbstractEvaluator
 			}
 		}
 		fn = groud_truth_result.size() - tp;
-		System.out.println("tp: " + tp +", fn: " + fn + ", fp: " + fp);
+		// System.out.println("tp: " + tp +", fn: " + fn + ", fp: " + fp);
 			// Calcul de la précision
 		result = new HashMap<MeasureName,Float>();
 		float acc = 0;
@@ -140,9 +141,39 @@ public abstract class AbstractEvaluator
 	 * 		contient les valeurs moyennes.
 	 */
 	protected List<Map<MeasureName,Float>> evaluateQueryAnswers(List<List<Posting>> answers)
-	{	List<Map<MeasureName,Float>> result = null;
+	{	List<Map<MeasureName,Float>> results = new ArrayList<Map<MeasureName,Float>>();
 		//TODO méthode à compléter  (TP4-ex6)
-		return result;
+		Map<MeasureName,Float> result = null;
+		Map<MeasureName, Float> moyennes = new HashMap<MeasureName, Float>();
+		moyennes.put(MeasureName.PRECISION, 0.0f);
+		moyennes.put(MeasureName.F_MEASURE, 0.0f);
+		moyennes.put(MeasureName.RECALL, 0.0f);
+		for (int i = 0; i < answers.size(); i++) {
+			System.out.println("index: "+i);
+			List<Posting> answer = answers.get(i);
+			result = this.evaluateQueryAnswer(i, answer);
+			results.add(result);
+			moyennes.put(MeasureName.PRECISION,
+				moyennes.get(MeasureName.PRECISION) + result.get(MeasureName.PRECISION)
+			);
+			moyennes.put(MeasureName.F_MEASURE,
+				moyennes.get(MeasureName.F_MEASURE) + result.get(MeasureName.F_MEASURE)
+			);
+			moyennes.put(MeasureName.RECALL,
+				moyennes.get(MeasureName.RECALL) + result.get(MeasureName.RECALL)
+			);
+		}
+		moyennes.put(MeasureName.PRECISION,
+			moyennes.get(MeasureName.PRECISION)/answers.size()
+		);
+		moyennes.put(MeasureName.F_MEASURE,
+			moyennes.get(MeasureName.F_MEASURE)/answers.size()
+		);
+		moyennes.put(MeasureName.RECALL,
+			moyennes.get(MeasureName.RECALL)/answers.size()
+		);
+		results.add(moyennes);
+		return results;
 	}
 	
 	////////////////////////////////////////////////////
