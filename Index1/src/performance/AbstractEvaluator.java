@@ -151,7 +151,6 @@ public abstract class AbstractEvaluator
 		moyennes.put(MeasureName.F_MEASURE, 0.0f);
 		moyennes.put(MeasureName.RECALL, 0.0f);
 		for (int i = 0; i < answers.size(); i++) {
-			System.out.println("index: "+i);
 			List<Posting> answer = answers.get(i);
 			result = this.evaluateQueryAnswer(i, answer);
 			results.add(result);

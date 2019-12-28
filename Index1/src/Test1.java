@@ -1,12 +1,17 @@
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
 import indexation.AbstractIndex;
 import indexation.AbstractIndex.LexiconType;
 import indexation.AbstractIndex.TokenListType;
 import indexation.content.Posting;
+import performance.BooleanEvaluator;
+import performance.GroundTruth;
+import performance.AbstractEvaluator.MeasureName;
 import query.AndQueryEngine;
 import tools.Configuration;
 import tools.FileTools;
@@ -37,7 +42,7 @@ public class Test1
 		
 		// test de l'indexation
 		//TODO méthode à compléter (TP2-ex5)
-		Test1.testIndexation();
+		// Test1.testIndexation();
 		
 		// test du chargement d'index
 		//TODO méthode à compléter (TP2-ex11)
@@ -50,6 +55,7 @@ public class Test1
 
 		// test de l'évaluation de performance
 		//TODO méthode à compléter (TP4-ex9)
+		Test1.testEvaluation();
 	}
 	
 	////////////////////////////////////////////////////
@@ -119,6 +125,36 @@ public class Test1
 	 */
 	private static void testEvaluation()
 	{	//TODO méthode à compléter (TP4-ex9)
+		try {
+			AbstractIndex index = AbstractIndex.read();
+			AndQueryEngine aqe = new AndQueryEngine(index);
+			BooleanEvaluator evaluator = new BooleanEvaluator();
+			GroundTruth gTruth = evaluator.getGroundTruth();
+			List<String> queries =  gTruth.getQueries();
+			List<Map<MeasureName,Float>> evaluations = evaluator.evaluateEngine(aqe);
+
+			//Gestion des arrondis
+			DecimalFormat df = new DecimalFormat("0.00");
+
+			System.out.println(MeasureName.PRECISION + "\t" + MeasureName.RECALL + "\t" + MeasureName.F_MEASURE);
+			for (int i = 0; i < evaluations.size(); i++) {
+				Map<MeasureName,Float> evaluation = evaluations.get(i);
+				if(i == queries.size()) {
+					System.out.println("––––––––––––––––––––––––––––––––––––––-");
+					System.out.println(df.format(evaluation.get(MeasureName.PRECISION)) + "\t" +
+						df.format(evaluation.get(MeasureName.RECALL)) + "\t" + df.format(evaluation.get(MeasureName.F_MEASURE))
+					);
+				} else {
+					String query = queries.get(i); 
+					System.out.println(df.format(evaluation.get(MeasureName.PRECISION)) + "\t" +
+						df.format(evaluation.get(MeasureName.RECALL)) + "\t" + df.format(evaluation.get(MeasureName.F_MEASURE)) + "\t" + query
+					);
+				}
+			}
+		} catch (Exception e) {
+			//TODO: handle exception
+			e.printStackTrace();
+		}
 		//TODO méthode à compléter (TP6-ex16)
 	}
 
