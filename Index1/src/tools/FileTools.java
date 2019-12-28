@@ -109,7 +109,7 @@ public class FileTools
 			options = options + "_stem";
 		if(Configuration.isComputingScores())
 			options = options + "_score";
-		String result = "data" + File.separator + corpusName + options + "_stopwords.txt";
+		String result = "data" + File.separator + corpusName + options + "_performance.txt";
 		return result;
 	}
 	

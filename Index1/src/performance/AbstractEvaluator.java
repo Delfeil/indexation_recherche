@@ -2,6 +2,7 @@ package performance;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -14,6 +15,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import org.xml.sax.SAXException;
 
 import indexation.content.Posting;
+import tools.FileTools;
 
 /**
  * Classe utilisée pour mettre en commun les méthodes
@@ -193,5 +195,11 @@ public abstract class AbstractEvaluator
 	 */
 	protected void writePerformances(List<Map<MeasureName,Float>> values) throws FileNotFoundException, UnsupportedEncodingException
 	{	//TODO méthode à compléter  (TP4-ex7)
+		String performanceFile = FileTools.getPerformanceFile();
+		PrintWriter writer = new PrintWriter(performanceFile);
+		for (Map<MeasureName,Float> value : values) {
+			writer.println(value.get(MeasureName.PRECISION) + "\t" + value.get(MeasureName.RECALL) + "\t" + value.get(MeasureName.F_MEASURE));
+		}
+		writer.close();
 	}
 }

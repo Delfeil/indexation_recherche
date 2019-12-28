@@ -63,7 +63,14 @@ public class BooleanEvaluator extends AbstractEvaluator
 	 */
 	public List<Map<MeasureName,Float>> evaluateEngine(AndQueryEngine engine) throws FileNotFoundException, UnsupportedEncodingException
 	{	List<Map<MeasureName,Float>> result = null;
-		//TODO méthode à compléter  (TP4-ex7)
+		//TODO méthode à compléter  (TP4-ex8)
+		List<String> queries =  this.groundTruth.getQueries();
+		List<List<Posting>> answers = new ArrayList<List<Posting>>();
+		for (int i = 0; i < queries.size(); i++) {
+			answers.add(engine.processQuery(queries.get(i)));
+		}
+		result = this.evaluateQueryAnswers(answers);
+		this.writePerformances(result);
 		return result;
 	}
 	
@@ -85,7 +92,7 @@ public class BooleanEvaluator extends AbstractEvaluator
 		Configuration.setCorpusName("springer");
 		
 		// AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.LINKED, LexiconType.HASH);
-		AbstractEvaluator evaluator = new BooleanEvaluator();
+		BooleanEvaluator evaluator = new BooleanEvaluator();
 		String query = evaluator.groundTruth.getQueries().get(1);
 		// System.out.println(query);
 		List<List<Posting>> answers = new ArrayList<List<Posting>>();
@@ -111,14 +118,19 @@ public class BooleanEvaluator extends AbstractEvaluator
 		// for (int i = 0; i < queries.size(); i++) {
 		// 	answers.add(aqe.processQuery(queries.get(i)));
 		// }
-
-		System.out.println(evaluator.evaluateQueryAnswers(answers));
 		
+		List<Map<MeasureName,Float>> evaluations = evaluator.evaluateQueryAnswers(answers);
+		System.out.println(evaluations);
 		
 		// test de writePerformances
 		//TODO méthode à compléter  (TP4-ex7)
-		
+		evaluator.writePerformances(evaluations);
+
 		// test de evaluateEngine
 		//TODO méthode à compléter  (TP4-ex8)
+		AbstractIndex index = AbstractIndex.read();
+		AndQueryEngine aqe = new AndQueryEngine(index);
+		evaluations = evaluator.evaluateEngine(aqe);
+		System.out.println(evaluations);
 	}
 }
