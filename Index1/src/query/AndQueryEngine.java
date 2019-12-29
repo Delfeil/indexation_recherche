@@ -1,6 +1,7 @@
 package query;
 
 import indexation.AbstractIndex;
+import indexation.content.IndexEntry;
 import indexation.content.Posting;
 import indexation.processing.Normalizer;
 import indexation.processing.Tokenizer;
@@ -95,16 +96,40 @@ public class AndQueryEngine
 	 */
 	private void splitQuery(String query, List<List<Posting>> result)
 	{	//TODO méthode à compléter (TP3-ex1)
+		Boolean scilence = Configuration.isScilence();
+		if(!scilence) {
+			System.out.print("Normalizing:");
+		}
+			// on tokénize la requête
 		Tokenizer tokenizer = this.index.getTokenizer();
 		Normalizer normalizer = this.index.getNormalizer();
 		List<String> tokensS = tokenizer.tokenizeString(query);
 		for (String term : tokensS) {
-			if(term.equals("ET")) {
+				// la normalisation du type donne le terme (ou null)
+			term = normalizer.normalizeType(term);
+			if(term == null || term.equals("ET")) {
 				continue;
 			}
-			term = normalizer.normalizeType(term);
-			result.add(this.index.getEntry(term).getPostings());
+				// on récupère l'entrée associée au terme dans l'index
+			IndexEntry entry = this.index.getEntry(term);
+			int nb_postings = 0;
+			if(entry == null) {
+					// si pas dans l'index, on utilise une liste vide
+				result.add(new ArrayList<Posting>());
+			} else {
+					// sinon, on prend sa liste de postings
+				List<Posting> postings = this.index.getEntry(term).getPostings();
+				result.add(postings);
+				nb_postings = postings.size();
+			}
+			if(!scilence) {
+				System.out.print(" \"" + term + "\"(" + nb_postings + ")");
+			}
 		}
+		if(!scilence) {
+			System.out.println("");
+		}
+
 		//TODO méthode à modifier  (TP4-ex10)
 	}
 	
@@ -146,6 +171,7 @@ public class AndQueryEngine
 			}
 		}
 		//TODO méthode à modifier  (TP4-ex12)
+		System.out.println("Processing conjunction: (" + list1.size() + ") AND (" + list2.size() + ") >> (" + result.size() + ")");
 		return result;
 	}
 
@@ -159,9 +185,16 @@ public class AndQueryEngine
 	 * 		Intersection de toutes les listes de postings.
 	 */
 	private List<Posting> processConjunctions(List<List<Posting>> lists)
-	{	List<Posting> result = lists.get(0);
+	// {	List<Posting> result = lists.get(0);
+	{	List<Posting> result = new ArrayList<Posting>();
+		Boolean scilence = Configuration.isScilence();
 		//TODO méthode à compléter (TP3-ex4)
 		lists.sort(COMPARATOR);
+		System.out.print("Ordering posting list:");
+		for (int i = 0; i < lists.size(); i++) {
+			System.out.print(" ("+lists.get(i).size() + ")");
+		}
+		System.out.println("");
 		Iterator<List<Posting>> itlp = lists.iterator();
 		if(itlp.hasNext()) {
 			result = itlp.next();
