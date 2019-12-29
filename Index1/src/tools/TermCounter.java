@@ -3,6 +3,7 @@ package tools;
 import indexation.content.Token;
 
 import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
 import java.util.List;
@@ -38,8 +39,13 @@ public class TermCounter
 		lTokens.add(new Token("chapeau", 10));
 		lTokens.add(new Token("chat", 12));
 		lTokens.add(new Token("chat", 4));
-		System.out.println(termCounter.countTerms(lTokens));
-		
+
+		Map<String,Integer> counts = termCounter.countTerms(lTokens);
+		System.out.println(counts);
+
+		String termCountFile = FileTools.getTermCountFile();
+		termCounter.writeCounts(counts, termCountFile);
+
 		//TODO méthode à compléter (TP5-ex4)
 	}
 	
@@ -73,9 +79,8 @@ public class TermCounter
 			Integer count = result.get(token.getType());
 			if(count == null) {
 				count = 0;
-			} else {
-				count++;
 			}
+			count++;
 			result.put(token.getType(), count);
 		}
 		return result;
@@ -96,5 +101,10 @@ public class TermCounter
 	 */
 	private static void writeCounts(Map<String,Integer> counts, String fileName) throws FileNotFoundException, UnsupportedEncodingException
 	{	//TODO méthode à compléter (TP5-ex2)
+		PrintWriter writer = new PrintWriter(fileName);
+		for (Map.Entry<String,Integer> type : counts.entrySet()) {
+			writer.println("\""+type.getKey() + "\"," + type.getValue());
+		}
+		writer.close();
 	}
 }
