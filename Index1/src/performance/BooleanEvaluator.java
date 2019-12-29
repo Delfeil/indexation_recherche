@@ -93,21 +93,21 @@ public class BooleanEvaluator extends AbstractEvaluator
 		
 		// AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.LINKED, LexiconType.HASH);
 		BooleanEvaluator evaluator = new BooleanEvaluator();
-		String query = evaluator.groundTruth.getQueries().get(1);
+		// String query = evaluator.groundTruth.getQueries().get(1);
 		// System.out.println(query);
-		List<List<Posting>> answers = new ArrayList<List<Posting>>();
-		List<Posting> answer = new ArrayList<Posting>();
-		for (int j = 15; j < 21; j++) {
-			Posting p =new Posting(j);
-			answer.add(p);
-		}
-		for (int i = 0; i < 25; i++) {
-			answers.add(answer);
-		}
+		// List<List<Posting>> answers = new ArrayList<List<Posting>>();
+		// List<Posting> answer = new ArrayList<Posting>();
+		// for (int j = 15; j < 21; j++) {
+		// 	Posting p =new Posting(j);
+		// 	answer.add(p);
+		// }
+		// for (int i = 0; i < 25; i++) {
+		// 	answers.add(answer);
+		// }
 		// System.out.println(answer);
-		Map<MeasureName, Float> evaluation = new HashMap<MeasureName, Float>();
-		evaluation = evaluator.evaluateQueryAnswer(1, answer);
-		System.out.println(evaluation);
+		// Map<MeasureName, Float> evaluation = new HashMap<MeasureName, Float>();
+		// evaluation = evaluator.evaluateQueryAnswer(1, answer);
+		// System.out.println(evaluation);
 		
 		// test de evaluateQueryAnswers
 		//TODO méthode à compléter  (TP4-ex6)
@@ -119,18 +119,31 @@ public class BooleanEvaluator extends AbstractEvaluator
 		// 	answers.add(aqe.processQuery(queries.get(i)));
 		// }
 		
-		List<Map<MeasureName,Float>> evaluations = evaluator.evaluateQueryAnswers(answers);
-		System.out.println(evaluations);
+		// List<Map<MeasureName,Float>> evaluations = evaluator.evaluateQueryAnswers(answers);
+		// System.out.println(evaluations);
 		
 		// test de writePerformances
 		//TODO méthode à compléter  (TP4-ex7)
-		evaluator.writePerformances(evaluations);
+		// evaluator.writePerformances(evaluations);
 
 		// test de evaluateEngine
 		//TODO méthode à compléter  (TP4-ex8)
-		AbstractIndex index = AbstractIndex.read();
-		AndQueryEngine aqe = new AndQueryEngine(index);
-		evaluations = evaluator.evaluateEngine(aqe);
-		System.out.println(evaluations);
+		// AbstractIndex index = AbstractIndex.read();
+		// AndQueryEngine aqe = new AndQueryEngine(index);
+		// evaluations = evaluator.evaluateEngine(aqe);
+		// System.out.println(evaluations);
+
+
+		///////////////////////DEBUG TEST
+		AbstractIndex indexdEBUG = AbstractIndex.read();
+		AndQueryEngine engine = new AndQueryEngine(indexdEBUG);
+		List<String> queries =  evaluator.groundTruth.getQueries();
+		List<Posting> answerDebug = engine.processQuery(queries.get(21));
+		for (int i = 0; i < queries.size(); i++) {
+			System.out.println(queries.get(i) + ", i: " + i);
+		}
+		System.out.println(queries.get(21));
+		Map<MeasureName, Float> evaluation = evaluator.evaluateQueryAnswer(21, answerDebug);
+		System.out.println(evaluation);
 	}
 }

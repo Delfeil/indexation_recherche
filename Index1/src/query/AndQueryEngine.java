@@ -10,6 +10,7 @@ import tools.Configuration;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 
@@ -147,6 +148,35 @@ public class AndQueryEngine
 	 * @return
 	 * 		Le résultat de ET sur ces deux listes.
 	 */
+	// private List<Posting> processConjunction(List<Posting> list1, List<Posting> list2)
+	// { List<Posting> result = new LinkedList<Posting>();
+	// Iterator<Posting> it1 = list1.iterator();
+	// Iterator<Posting> it2 = list2.iterator();
+
+	// // on fusionne le début des listes
+	// Posting posting1 = null;
+	// Posting posting2 = null;
+	// while((it1.hasNext() || posting1!=null) && (it2.hasNext() || posting2!=null))
+	// { if(posting1==null)
+	// posting1 = it1.next();
+	// if(posting2==null)
+	// posting2 = it2.next();
+	// int comp = posting1.compareTo(posting2);
+	// // posting1 < posting2
+	// if(comp<0)
+	// posting1 = null;
+	// // posting1 == posting2
+	// else if(comp==0)
+	// { result.add(posting1);
+	// 	posting1 = null;
+	// 	posting2 = null;
+	// 	}
+	// 	// posting1 > posting2
+	// 	else if(comp>0)
+	// 	posting2 = null;
+	// }
+	// 	return result;
+	// }
 	private List<Posting> processConjunction(List<Posting> list1, List<Posting> list2)
 	{	List<Posting> result = new ArrayList<Posting>();
 		//TODO méthode à compléter (TP3-ex2)
@@ -155,12 +185,17 @@ public class AndQueryEngine
 		ListIterator<Posting> it2 = list2.listIterator();
 		Posting p1, p2 = null;
 		while(it1.hasNext() && it2.hasNext()) {
+				// On parcours les 2 liste list1 et list2
+				// On arrète si on arrive à la fin d'une des 2 listes
 			p1 = it1.next();
 			p2 = it2.next();
+			// System.out.println("processConjunction: p1: " + p1 + ", p2: " + p2);
 			if(p1.equals(p2)) {
+				// Si on as un même docId dans les 2 listes
+				// O l'ajoute dans la liste des résultats
 				result.add(p1);
 			} else {
-				// On recule l'itérator avec le plus gros docId
+				// Sinon, on recule l'itérator avec le plus gros docId
 				int id1 = p1.getDocId();
 				int id2 = p2.getDocId();
 				if(id1 < id2) {

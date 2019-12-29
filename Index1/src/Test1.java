@@ -37,12 +37,13 @@ public class Test1
 		//TODO méthode à compléter (TP2-ex5)
 		// Configuration.setCorpusName("wp");
 		Configuration.setCorpusName("springer");
+		Configuration.setStemmingTokens(true);
 		//TODO méthode à compléter (TP4-ex15)
 		//TODO méthode à compléter (TP5-ex10)
 		
 		// test de l'indexation
 		//TODO méthode à compléter (TP2-ex5)
-		// Test1.testIndexation();
+		Test1.testIndexation();
 		
 		// test du chargement d'index
 		//TODO méthode à compléter (TP2-ex11)

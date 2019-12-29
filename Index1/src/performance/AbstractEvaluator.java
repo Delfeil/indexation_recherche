@@ -94,35 +94,50 @@ public abstract class AbstractEvaluator
 	{	 Map<MeasureName,Float> result = null;
 		//TODO méthode à compléter  (TP4-ex5)
 			//  Récupération des donnée terrain
-		List<String> requests = this.groundTruth.getQueries();
-		String request = requests.get(queryId);
+		// List<String> requests = this.groundTruth.getQueries();
+		// String request = requests.get(queryId);
 		List<Posting> groud_truth_result = this.groundTruth.getPostingList(queryId);
-		Iterator<Posting> ansi = answer.iterator();
-		Float tp, fn, fp;
-		tp = fn = fp = 0.0f;
-		while (ansi.hasNext()) {
-			Posting ansp = ansi.next();			
-			if(groud_truth_result.contains(ansp)) {
-				tp++;
-			} else {
-				fp++;
-			}
-		}
-		fn = groud_truth_result.size() - tp;
+
+			// on pourrait plutot utiliser la méthode processConjunction
+			// du moteur de recherche, mais ici, la vitesse n'est pas une priorité
+		List<Posting> inter = new ArrayList<Posting>(groud_truth_result);
+		inter.retainAll(answer);
+
+		int tp = inter.size();
+		int fp = answer.size() - tp;
+		int fn = groud_truth_result.size() - tp;
+
+		// Iterator<Posting> ansi = answer.iterator();
+		// Float tp, fn, fp;
+		// tp = fn = fp = 0.0f;
+		// while (ansi.hasNext()) {
+		// 	Posting ansp = ansi.next();			
+		// 	if(groud_truth_result.contains(ansp)) {
+		// 		tp++;
+		// 	} else {
+		// 		fp++;
+		// 	}
+		// }
+		// fn = groud_truth_result.size() - tp;
+
 		// System.out.println("tp: " + tp +", fn: " + fn + ", fp: " + fp);
+			
 			// Calcul de la précision
 		result = new HashMap<MeasureName,Float>();
 		float acc = 0;
-		if(tp+fp != 0) {
-			acc = tp / (tp+fp);
+		// if(tp+fp != 0) {
+		if(!answer.isEmpty()) {
+			acc = tp /(float) (tp+fp);
 		}
 		float rec = 1;
-		if(tp+fn != 0) {
-			rec = tp / (tp+fn);
+		// if(tp+fn != 0) {
+		if(!groud_truth_result.isEmpty()) {
+			rec = tp /(float) (tp+fn);
 		}
 		float f_mesure = 0;
-		if(acc + rec != 0.0) {
-			f_mesure = 2*((acc*rec)/(acc+rec));
+		// if(acc + rec != 0.0) {
+		if(acc!= 0 && rec != 0) {
+			f_mesure = ((2*acc*rec)/(acc+rec));
 		}
 		result.put(MeasureName.PRECISION, acc);
 		result.put(MeasureName.RECALL, rec);

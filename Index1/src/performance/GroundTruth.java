@@ -39,6 +39,7 @@ public class GroundTruth
 	public GroundTruth() throws ParserConfigurationException, SAXException, IOException
 	{	//TODO méthode à compléter  (TP4-ex3)
 
+			// Initalisation des listes
 		this.queries = new ArrayList<String>();
 		this.postingLists = new ArrayList<List<Posting>>();
 

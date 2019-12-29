@@ -8,6 +8,7 @@ import java.io.File;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 import query.DocScore;
@@ -170,7 +171,8 @@ public class FileTools
 		String folder_name = FileTools.getCorpusFolder();
 		File f = new File(folder_name);
 		String[] files = f.list();
-		List<String> filesList = Arrays.asList(files);
+		List<String> filesList = new ArrayList<String>(Arrays.asList(files));
+		Collections.sort(filesList);
 		
 		for (String file_name : fileNames) {
 			int docId = filesList.indexOf(file_name);
