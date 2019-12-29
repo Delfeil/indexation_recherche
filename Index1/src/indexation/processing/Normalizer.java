@@ -80,6 +80,9 @@ public class Normalizer implements Serializable
 				.replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
 		}
 		//TODO méthode à modifier  (TP4-ex14)
+		if(this.stemmer != null) {
+			result = this.stemmer.stemType(string);
+		}
 		//TODO méthode à modifier  (TP5-ex8)
 		return result;
 	}
