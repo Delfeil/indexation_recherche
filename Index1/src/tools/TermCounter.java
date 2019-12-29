@@ -1,11 +1,17 @@
 package tools;
 
+import indexation.AbstractIndex;
+import indexation.content.IndexEntry;
+import indexation.content.Posting;
 import indexation.content.Token;
+import indexation.processing.Normalizer;
+import indexation.processing.Tokenizer;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.ArrayList;
@@ -46,6 +52,9 @@ public class TermCounter
 		String termCountFile = FileTools.getTermCountFile();
 		termCounter.writeCounts(counts, termCountFile);
 
+		Configuration.setCorpusName("wp_test");
+		termCounter.processCorpus();
+
 		//TODO méthode à compléter (TP5-ex4)
 	}
 	
@@ -61,6 +70,46 @@ public class TermCounter
 	 */
 	public static void processCorpus() throws FileNotFoundException, UnsupportedEncodingException
 	{	//TODO méthode à compléter (TP5-ex3)
+		long totStart = System.currentTimeMillis();
+
+			// Tokenization
+		System.out.println("Tokenizing corpus");
+		long start = System.currentTimeMillis();
+		Tokenizer tokenizer = new Tokenizer();
+		List<Token> tokens = new LinkedList<Token>(); 
+		int countTokens = tokenizer.tokenizeCorpus(tokens);
+		long end = System.currentTimeMillis();
+		System.out.println(countTokens + "tokens were found, duration=" + (end-start) + " ms");
+
+			// Normalization
+		System.out.print("Normalizing tokens ");
+		start = System.currentTimeMillis();
+		Normalizer normalizer = new Normalizer();
+		normalizer.normalizeTokens(tokens);
+		end = System.currentTimeMillis();
+		System.out.println(tokens.size() + " tokens remaining after normalization, duration=" + (end-start) + " ms");
+		
+			// Counting terms
+		System.out.println("Counting terms");
+		start = System.currentTimeMillis();
+		TermCounter termCounter = new TermCounter();
+		Map<String,Integer> termsCount = termCounter.countTerms(tokens);
+		end = System.currentTimeMillis();
+		System.out.println("There are "+termsCount.size()+" distinct terms in the corpus, duration=" + (end-start) + " ms");
+		
+		// Recording counts
+		start = System.currentTimeMillis();
+		String countFile = FileTools.getTermCountFile();
+		System.out.println("Recording counts in "+countFile);
+		termCounter.writeCounts(termsCount, countFile);
+		end = System.currentTimeMillis();
+		System.out.println("Counts recorded, duration=" + (end-start) + " ms");
+
+			// Stop words
+		String stopWordsFile = FileTools.getStopWordsFile();
+		System.out.println("Stop-words file: " + stopWordsFile);
+		long totEnd = System.currentTimeMillis();
+		System.out.println("Total duration=" + (totEnd-totStart) + " ms");
 	}
 	
 	/**
