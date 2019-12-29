@@ -4,8 +4,11 @@ import indexation.content.Token;
 
 import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  * Objet comptant les occurrences de termes
@@ -26,7 +29,18 @@ public class TermCounter
 	 * 		Problème de décodage lors de la lecture d'un document.
 	 */
 	public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException
-	{	//TODO méthode à compléter (TP5-ex4)
+	{	
+		//TODO méthode à tester (TP5-ex1)
+		TermCounter termCounter = new TermCounter();
+		List<Token> lTokens = new ArrayList<Token>();
+		lTokens.add(new Token("chat", 1));
+		lTokens.add(new Token("bateau", 6));
+		lTokens.add(new Token("chapeau", 10));
+		lTokens.add(new Token("chat", 12));
+		lTokens.add(new Token("chat", 4));
+		System.out.println(termCounter.countTerms(lTokens));
+		
+		//TODO méthode à compléter (TP5-ex4)
 	}
 	
 	/**
@@ -53,8 +67,17 @@ public class TermCounter
 	 * 		Map associant son nombre d'occurrences à chaque terme.
 	 */
 	private static Map<String,Integer> countTerms(List<Token> tokens)
-	{	Map<String,Integer> result = null;
+	{	Map<String,Integer> result = new HashMap<String, Integer>();
 		//TODO méthode à compléter (TP5-ex1)
+		for (Token token : tokens) {
+			Integer count = result.get(token.getType());
+			if(count == null) {
+				count = 0;
+			} else {
+				count++;
+			}
+			result.put(token.getType(), count);
+		}
 		return result;
 	}
 	
