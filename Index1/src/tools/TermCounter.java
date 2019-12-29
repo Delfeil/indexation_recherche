@@ -37,25 +37,31 @@ public class TermCounter
 	 */
 	public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException
 	{	
-		//TODO méthode à tester (TP5-ex1)
-		TermCounter termCounter = new TermCounter();
-		List<Token> lTokens = new ArrayList<Token>();
-		lTokens.add(new Token("chat", 1));
-		lTokens.add(new Token("bateau", 6));
-		lTokens.add(new Token("chapeau", 10));
-		lTokens.add(new Token("chat", 12));
-		lTokens.add(new Token("chat", 4));
+		//TODO Test (TP5-ex1)
+		// TermCounter termCounter = new TermCounter();
+		// List<Token> lTokens = new ArrayList<Token>();
+		// lTokens.add(new Token("chat", 1));
+		// lTokens.add(new Token("bateau", 6));
+		// lTokens.add(new Token("chapeau", 10));
+		// lTokens.add(new Token("chat", 12));
+		// lTokens.add(new Token("chat", 4));
+		
+		//TODO Test (TP5-ex2)
+		// Map<String,Integer> counts = termCounter.countTerms(lTokens);
+		// System.out.println(counts);
+		
+		//TODO Test (TP5-ex3)
+		// String termCountFile = FileTools.getTermCountFile();
+		// termCounter.writeCounts(counts, termCountFile);
 
-		Map<String,Integer> counts = termCounter.countTerms(lTokens);
-		System.out.println(counts);
-
-		String termCountFile = FileTools.getTermCountFile();
-		termCounter.writeCounts(counts, termCountFile);
-
-		Configuration.setCorpusName("wp_test");
-		termCounter.processCorpus();
-
+		// Configuration.setCorpusName("wp_test");
+		// termCounter.processCorpus();
+		
 		//TODO méthode à compléter (TP5-ex4)
+		Configuration.setCorpusName("springer");
+		Configuration.setStemmingTokens(true);
+		TermCounter termCounter = new TermCounter();
+		termCounter.processCorpus();
 	}
 	
 	/**
