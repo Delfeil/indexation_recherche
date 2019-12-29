@@ -3,16 +3,20 @@ package indexation.processing;
 import indexation.content.Token;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.InputStreamReader;
 import java.io.Serializable;
 import java.io.UnsupportedEncodingException;
 import java.text.Normalizer.Form;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Scanner;
 import java.util.TreeSet;
 
 import tools.Configuration;
+import tools.FileTools;
 
 /**
  * Objet normalisant des tokens
@@ -141,6 +145,19 @@ public class Normalizer implements Serializable
 	 */
 	private void loadStopWords() throws FileNotFoundException, UnsupportedEncodingException
 	{	//TODO méthode à compléter (TP5-ex7)
+		String stop_word_file = FileTools.getStopWordsFile();
+		if (stop_word_file==null) {
+			return;
+		}
+		File file = new File(stop_word_file);
+		FileInputStream fis = new FileInputStream(file);
+		InputStreamReader isr = new InputStreamReader(fis,"UTF-8");
+		Scanner scanner = new Scanner(isr);
+		while (scanner.hasNext()) {
+			String stopWord = scanner.next();
+			this.stopWords.add(stopWord);
+		}
+		scanner.close();
 	}
 	
 	////////////////////////////////////////////////////
@@ -159,7 +176,7 @@ public class Normalizer implements Serializable
 	{	// test de normalizeType
 		//TODO méthode à compléter (TP1-ex6)
 		Normalizer norm = new Normalizer();
-		System.out.println(norm.normalizeType("StriNg") + ", " + norm.normalizeType("") + ", " + norm.normalizeType("sTrïng"));
+		System.out.println(norm.normalizeType("StriNg") + ", " + norm.normalizeType(" ") + ", " + norm.normalizeType("sTrïng"));
 		System.out.println(norm.normalizeType("être"));
 		// test de normalizeTokens
 		//TODO méthode à compléter (TP1-ex7)
@@ -173,5 +190,10 @@ public class Normalizer implements Serializable
 		System.out.println(tokens);
 		// test de loadStopWords
 		//TODO méthode à compléter (TP5-ex7)
+		System.out.println("----------------------------------");
+		Configuration.setFilteringStopWords(true);
+		Configuration.setCorpusName("wp_test");
+		Normalizer normalizerStopWords = new Normalizer();
+		System.out.println(normalizerStopWords.stopWords);
 	}
 }
