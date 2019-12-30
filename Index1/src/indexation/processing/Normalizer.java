@@ -92,6 +92,7 @@ public class Normalizer implements Serializable
 			result = stemmer.stemType(result);
 		}
 		//TODO méthode à modifier  (TP5-ex8)
+		// System.out.println(this.stopWords);
 		if(result!=null && this.stopWords.contains(result)) {
 			result = null;
 		}

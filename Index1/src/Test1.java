@@ -36,10 +36,11 @@ public class Test1
 	{	// configuration de l'index
 		//TODO méthode à compléter (TP2-ex5)
 		// Configuration.setCorpusName("wp");
-		Configuration.setCorpusName("springer");
-		Configuration.setStemmingTokens(true);
+		Configuration.setCorpusName("wp");
 		//TODO méthode à compléter (TP4-ex15)
+		// Configuration.setStemmingTokens(true);
 		//TODO méthode à compléter (TP5-ex10)
+		Configuration.setFilteringStopWords(true);
 		
 		// test de l'indexation
 		//TODO méthode à compléter (TP2-ex5)
@@ -56,7 +57,7 @@ public class Test1
 
 		// test de l'évaluation de performance
 		//TODO méthode à compléter (TP4-ex9)
-		Test1.testEvaluation();
+		// Test1.testEvaluation();
 	}
 	
 	////////////////////////////////////////////////////
