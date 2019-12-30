@@ -1,12 +1,17 @@
 package query;
 
 import indexation.AbstractIndex;
+import indexation.ArrayIndex;
 import indexation.content.IndexEntry;
 import indexation.content.Posting;
+import indexation.processing.Normalizer;
+import indexation.processing.Tokenizer;
 import tools.Configuration;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.TreeSet;
 
@@ -47,8 +52,23 @@ public class RankingQueryEngine
 	 * 		Liste ordonnée des documents sélectionnés, avec leurs scores.
 	 */
 	public List<DocScore> processQuery(String query, int k)
-	{	List<DocScore> result = null;
+	{	List<DocScore> result = new LinkedList<DocScore>();
 		//TODO méthode à compléter (TP6-ex11)
+		Boolean scilence = Configuration.isScilence();
+		if(!scilence) {
+			System.out.println("Processing query \"" + query + "\"");
+		}
+		long start = System.currentTimeMillis();
+		// List<List<Posting>> llp = new ArrayList<List<Posting>>();
+		List<IndexEntry> lie = new LinkedList<IndexEntry>();
+		this.splitQuery(query, lie);
+		this.sortDocuments(lie, k, result);
+		// result = this.processConjunctions(llp);
+		long end = System.currentTimeMillis();
+		if(!scilence) {
+			System.out.println("Query processed, returned "+
+				result.size()+" postings, duration="+(end-start)+" ms\n");
+		}
 		return result;
 	}
 	
@@ -69,6 +89,42 @@ public class RankingQueryEngine
 	 */
 	private void splitQuery(String query, List<IndexEntry> result)
 	{	//TODO méthode à compléter (TP6-ex10)
+		if(result==null) {
+			result = new LinkedList<IndexEntry>();
+		}
+		Boolean scilence = Configuration.isScilence();
+		if(!scilence) {
+			System.out.print("Normalizing:");
+		}
+			// on tokénize la requête
+		Tokenizer tokenizer = this.index.getTokenizer();
+		Normalizer normalizer = this.index.getNormalizer();
+		List<String> tokensS = tokenizer.tokenizeString(query);
+		for (String term : tokensS) {
+				// la normalisation du type donne le terme (ou null)
+			term = normalizer.normalizeType(term);
+			if(term == null || term.equals("ET")) {
+				continue;
+			}
+				// on récupère l'entrée associée au terme dans l'index
+			IndexEntry entry = this.index.getEntry(term);
+			int nb_postings = 0;
+			if(entry != null) {
+					// si pas dans l'index, on utilise une liste vide
+					// sinon, on prend sa liste de postings
+				List<Posting> postings = this.index.getEntry(term).getPostings();
+				nb_postings = postings.size();
+				result.add(entry);
+			}
+			if(!scilence) {
+				System.out.print(" \"" + term + "\"(" + nb_postings + ")");
+			}
+		}
+		if(!scilence) {
+			System.out.println("");
+		}
+
+		//TODO méthode à modifier  (TP4-ex10)
 	}
 	
 	////////////////////////////////////////////////////

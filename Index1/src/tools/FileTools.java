@@ -9,6 +9,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 
 import query.DocScore;
@@ -153,6 +154,15 @@ public class FileTools
 	public static List<String> getFileNamesFromDocScores(List<DocScore> docScores)
 	{	List<String> result = null;
 		//TODO méthode à compléter  (TP6-ex12)
+		String folder_name = FileTools.getCorpusFolder();
+		File f = new File(folder_name);
+		String[] files = f.list();
+		Arrays.sort(files);
+		if(files.length > 0 && docScores != null && docScores.size() >0)
+			result = new ArrayList<String>();
+		for (DocScore docScore : docScores) {
+			result.add(files[docScore.getDocId()]);
+		}
 		return result;
 	}
 	
@@ -213,5 +223,11 @@ public class FileTools
 		
 		// test de getFileNamesFromDocScores
 		//TODO méthode à compléter  (TP6-ex12)
+		List<DocScore> docScores = new LinkedList<DocScore>();
+		docScores.add(new DocScore(1, 4));
+		docScores.add(new DocScore(2, 2));
+		docScores.add(new DocScore(3, 6));
+		list_files = FileTools.getFileNamesFromDocScores(docScores);
+		System.out.println(list_files);
 	}
 }
