@@ -3,6 +3,7 @@ package performance;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
@@ -10,8 +11,11 @@ import javax.xml.parsers.ParserConfigurationException;
 
 import org.xml.sax.SAXException;
 
+import indexation.AbstractIndex;
+import indexation.content.Posting;
 import query.DocScore;
 import query.RankingQueryEngine;
+import tools.Configuration;
 
 /**
  * Classe utilisée pour évaluer la performance
@@ -57,6 +61,18 @@ public class RankingEvaluator extends AbstractEvaluator
 	private List<Map<MeasureName,Float>> evaluateQueryAnswers(List<List<DocScore>> answers, int k)
 	{	List<Map<MeasureName,Float>> result = null;
 		//TODO méthode à compléter  (TP6-ex14)
+		
+		
+		List<List<Posting>> llpoAnswers = new LinkedList<List<Posting>>();
+		for (List<DocScore> docScores : answers) {
+			List<Posting> lpoAnswers = new LinkedList<Posting>();
+			for (int i = 0; i < k; i++) {
+				DocScore docScore = docScores.get(i);
+				lpoAnswers.add(new Posting(docScore.getDocId()));
+			}
+			llpoAnswers.add(lpoAnswers);
+		}
+		result = this.evaluateQueryAnswers(llpoAnswers);
 		return result;
 	}
 
@@ -101,7 +117,16 @@ public class RankingEvaluator extends AbstractEvaluator
 	public static void main(String[] args) throws Exception 
 	{	// test de evaluateQueryAnswers
 		//TODO méthode à compléter  (TP6-ex14)
-		
+		Configuration.setCorpusName("springer");
+		AbstractIndex index  = AbstractIndex.read();
+		RankingQueryEngine rqe = new RankingQueryEngine(index);
+		List<List<DocScore>> answers = new LinkedList<List<DocScore>>();
+		answers.add(rqe.processQuery("panneaux solaires électricité", 10));
+		answers.add(rqe.processQuery("recherche d’information sur le Web", 10));
+		answers.add(rqe.processQuery("roman", 10));
+		RankingEvaluator re = new RankingEvaluator();
+		re.evaluateQueryAnswers(answers, 5);
+
 		// test de evaluateEngine
 		//TODO méthode à compléter  (TP6-ex15)
 	}

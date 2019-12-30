@@ -13,6 +13,8 @@ import performance.BooleanEvaluator;
 import performance.GroundTruth;
 import performance.AbstractEvaluator.MeasureName;
 import query.AndQueryEngine;
+import query.DocScore;
+import query.RankingQueryEngine;
 import tools.Configuration;
 import tools.FileTools;
 import tools.TermCounter;
@@ -37,7 +39,7 @@ public class Test1
 	{	// configuration de l'index
 		//TODO méthode à compléter (TP2-ex5)
 		// Configuration.setCorpusName("wp");
-		Configuration.setCorpusName("springer");
+		Configuration.setCorpusName("wp");
 		//TODO méthode à compléter (TP4-ex15)
 		// Configuration.setStemmingTokens(true);
 		//TODO méthode à compléter (TP5-ex10)
@@ -119,6 +121,7 @@ public class Test1
 		//TODO méthode à compléter (TP3-ex12)
 		
 		//TODO méthode à compléter (TP5-ex11)
+		/*
 		Configuration.setCorpusName("springer");
 		System.out.println("\n--------------Evaluation springer-------------\n");
 		Test1.testEvaluation();
@@ -132,8 +135,24 @@ public class Test1
 		Configuration.setFilteringStopWords(true);
 		System.out.println("\n--------------Evaluation springer_stem_stopwords-------------\n");
 		Test1.testEvaluation();
+		*/
 		
 		//TODO méthode à compléter (TP6-ex13)
+		Configuration.setCorpusName("wp");
+		AbstractIndex index = AbstractIndex.read();
+		RankingQueryEngine rqe = new RankingQueryEngine(index);
+		// AndQueryEngine aqe = new AndQueryEngine(index);
+		int k = 5;
+		List<String> queryes = new ArrayList<String>();
+		queryes.add("roman");
+		queryes.add("recherche d’information sur le Web");
+		queryes.add("panneaux solaires électricité");
+		List<DocScore> result1 = rqe.processQuery(queryes.get(0), k);
+		System.out.println(result1+"\nFiles:\n"+FileTools.getFileNamesFromDocScores(result1));
+		List<DocScore> result2 = rqe.processQuery(queryes.get(1), k);
+		System.out.println(result2+"\nFiles:\n"+FileTools.getFileNamesFromDocScores(result2));
+		List<DocScore> result3 = rqe.processQuery(queryes.get(2), k);
+		System.out.println(result3+"\nFiles:\n"+FileTools.getFileNamesFromDocScores(result3));
 	}
 	
 	////////////////////////////////////////////////////
