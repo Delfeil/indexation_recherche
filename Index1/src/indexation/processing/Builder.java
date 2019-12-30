@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -54,8 +55,9 @@ public class Builder
 		if(!scilence) {
 			System.out.println("Filtering tokens...");
 		}
+		List<Integer> frequencies = new LinkedList<Integer>();
 		start = System.currentTimeMillis();
-		int nb_terms = this.filterTokens(tokens);
+		int nb_terms = this.filterTokens(tokens, frequencies);
 		end = System.currentTimeMillis();
 		int nb_tokens_after_filter = tokens.size();
 		if(!scilence) {
@@ -79,13 +81,14 @@ public class Builder
 			System.out.println("Building posting lists...");
 		}
 		start = System.currentTimeMillis();
-		int nb_postings = this.buildPostings(tokens, result);
+		int nb_postings = this.buildPostings(tokens, frequencies, result);
 		end = System.currentTimeMillis();
 		if(!scilence) {
 			System.out.println(nb_postings +
 				" postings listed, lexicon type="+lexiconType + ", duration="+(end-start)+" ms\n");
 		}
 		//TODO méthode à modifier  (TP2-ex8)
+		//TODO méthode à modifier  (TP6-ex6)
 		return result;
 	}
 	
@@ -364,5 +367,22 @@ public class Builder
 		System.out.println( "tokens: " + tokens6.size() + ", " + b.buildPostings(tokens6, freqencies, ai));
 		System.out.println("index: ");
 		ai.print();
+		
+		// TODO méthode à compléter (TP6-ex6)
+		Tokenizer tokenizer = new Tokenizer();
+		List<Token> tokens3 = new ArrayList<Token>();
+
+		Configuration.setCorpusName("wp_test");
+		int result = tokenizer.tokenizeCorpus(tokens3);
+		// System.out.println("Nombre de tokens trouvés: " + result);
+		Normalizer normalizer = new Normalizer();
+		normalizer.normalizeTokens(tokens3);
+
+		AbstractIndex indexArray = b.buildIndex(tokens3, LexiconType.ARRAY);
+		indexArray.print();
+		AbstractIndex indexHash = b.buildIndex(tokens3, LexiconType.HASH);
+		indexHash.print();
+		AbstractIndex indexTree = b.buildIndex(tokens3, LexiconType.TREE);
+		indexTree.print();
 	}
 }
