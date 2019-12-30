@@ -55,7 +55,7 @@ public class Builder
 		if(!scilence) {
 			System.out.println("Filtering tokens...");
 		}
-		List<Integer> frequencies = new LinkedList<Integer>();
+		List<Integer> frequencies = new ArrayList<Integer>();
 		start = System.currentTimeMillis();
 		int nb_terms = this.filterTokens(tokens, frequencies);
 		end = System.currentTimeMillis();
@@ -252,6 +252,7 @@ public class Builder
 			//Pour chaque posting, on regarde si il y a une entry déjà présente dans l'index
 				//SI il y a une entry -> on ajoute le posting
 				//Sinon -> On crée l'entry et on lui ajoute le posting et on le place dans l'index
+		/*
 		IndexEntry iEntry = null;
 		String prev_token_type = "";
 		int nb_token = -1;
@@ -277,6 +278,31 @@ public class Builder
 				result++;
 			}
 			index_token++;
+		}
+		*/
+			// -------Version Correction---------
+		int i=0;
+		IndexEntry entry = null;
+
+			// On traite chaque tokens séparément
+		Iterator<Token> itTok = tokens.iterator();
+		Iterator<Integer> itFreq = frequencies.iterator();
+		while (itTok.hasNext()) {
+			Token token = itTok.next();
+			int frequency = itFreq.next();
+			String type = token.getType();
+				// Si besoin, on crée un enouvelle entrée
+			if(entry==null || !entry.getTerm().equals(type)) {
+				entry = new IndexEntry(type);
+				index.addEntry(entry, 1);
+				i++;
+			}
+
+				// Dans tous les cas, on met à jours la liste des postings
+			int docId = token.getDocId();
+			Posting posting = new Posting(docId, frequency);
+			entry.addPosting(posting);
+			result++;
 		}
 		return result;
 	}

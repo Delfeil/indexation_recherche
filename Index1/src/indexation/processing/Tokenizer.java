@@ -55,6 +55,7 @@ private static final long serialVersionUID = 1L;
 		// return result;
 		String[] files = f.list();
 		Arrays.sort(files);
+		result = files.length;
 		int docId = 0;
 		for(String file:files) {
 			// System.out.println(file);
@@ -62,7 +63,7 @@ private static final long serialVersionUID = 1L;
 			this.tokenizeDocument(document, docId, tokens);
 			docId++;
 		}
-		result = tokens.size();
+		// result = tokens.size();
 		return result;
 	}
 

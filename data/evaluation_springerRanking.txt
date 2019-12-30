@@ -1,0 +1,1482 @@
+--------------Evaluation springer-------------
+
+Loading the index... data\springer_index.data
+Index loaded, duration=11564  ms
+
+Reading ground truth file .\Common\springer_reference.xml
+Found 25 queries (14 23 4 5 4 3 8 14 6 24 19 16 23 65 17 15 27 22 21 7 15 14 8 16 24)
+Processing query "Arthroscopic treatment of cruciate ligament injuries"
+Normalizing: "arthroscopic"(83) "treatment"(2092) "of"(7667) "cruciate"(54) "ligament"(99) "injuries"(256)
+Ordering posting list: (54) (83) (99) (256) (2092) (7667)
+Processing conjunction: (54) AND (83) >> (15)
+Processing conjunction: (15) AND (99) >> (14)
+Processing conjunction: (14) AND (256) >> (3)
+Processing conjunction: (3) AND (2092) >> (0)
+Query processed, returned 0 postings, duration=9 ms
+
+Processing query "Complications of arthroscopic interventions"
+Normalizing: "complications"(693) "of"(7667) "arthroscopic"(83) "interventions"(138)
+Ordering posting list: (83) (138) (693) (7667)
+Processing conjunction: (83) AND (138) >> (1)
+Processing conjunction: (1) AND (693) >> (0)
+Query processed, returned 0 postings, duration=2 ms
+
+Processing query "Pathophysiology and prophylaxis  of arthrofibrosis"
+Normalizing: "pathophysiology"(54) "and"(7238) "prophylaxis"(93) "of"(7667) "arthrofibrosis"(12)
+Ordering posting list: (12) (54) (93) (7238) (7667)
+Processing conjunction: (12) AND (54) >> (0)
+Query processed, returned 0 postings, duration=2 ms
+
+Processing query "HIV Epidemiology, Risk Assessment"
+Normalizing: "hiv"(72) "epidemiology"(24) "risk"(823) "assessment"(332)
+Ordering posting list: (24) (72) (332) (823)
+Processing conjunction: (24) AND (72) >> (1)
+Processing conjunction: (1) AND (332) >> (0)
+Query processed, returned 0 postings, duration=5 ms
+
+Processing query "Patient-controlled analgesia indications and limits"
+Normalizing: "patient"(1664) "controlled"(277) "analgesia"(74) "indications"(247) "and"(7238) "limits"(52)
+Ordering posting list: (52) (74) (247) (277) (1664) (7238)
+Processing conjunction: (52) AND (74) >> (0)
+Query processed, returned 0 postings, duration=5 ms
+
+Processing query "Priming with non-depolarizing muscle relaxants"
+Normalizing: "priming"(5) "with"(5703) "non"(624) "depolarizing"(5) "muscle"(246) "relaxants"(21)
+Ordering posting list: (5) (5) (21) (246) (624) (5703)
+Processing conjunction: (5) AND (5) >> (0)
+Query processed, returned 0 postings, duration=2 ms
+
+Processing query "Complications after laparoscopic cholecystectomy"
+Normalizing: "complications"(693) "after"(2209) "laparoscopic"(73) "cholecystectomy"(25)
+Ordering posting list: (25) (73) (693) (2209)
+Processing conjunction: (25) AND (73) >> (18)
+Processing conjunction: (18) AND (693) >> (7)
+Processing conjunction: (7) AND (2209) >> (6)
+Query processed, returned 6 postings, duration=6 ms
+
+Processing query "Heparin induced thrombocytopenia, diagnosis and management"
+Normalizing: "heparin"(52) "induced"(342) "thrombocytopenia"(25) "diagnosis"(1188) "and"(7238) "management"(396)
+Ordering posting list: (25) (52) (342) (396) (1188) (7238)
+Processing conjunction: (25) AND (52) >> (15)
+Processing conjunction: (15) AND (342) >> (12)
+Processing conjunction: (12) AND (396) >> (0)
+Query processed, returned 0 postings, duration=6 ms
+
+Processing query "Diagnostic in Lyme disease"
+Normalizing: "diagnostic"(689) "in"(6983) "lyme"(6) "disease"(1252)
+Ordering posting list: (6) (689) (1252) (6983)
+Processing conjunction: (6) AND (689) >> (2)
+Processing conjunction: (2) AND (1252) >> (2)
+Processing conjunction: (2) AND (6983) >> (2)
+Query processed, returned 2 postings, duration=8 ms
+
+Processing query "Treatment of acute myocardial infarction"
+Normalizing: "treatment"(2092) "of"(7667) "acute"(617) "myocardial"(224) "infarction"(161)
+Ordering posting list: (161) (224) (617) (2092) (7667)
+Processing conjunction: (161) AND (224) >> (124)
+Processing conjunction: (124) AND (617) >> (68)
+Processing conjunction: (68) AND (2092) >> (20)
+Processing conjunction: (20) AND (7667) >> (20)
+Query processed, returned 20 postings, duration=13 ms
+
+Processing query "Catheter ablation and cardiac mapping"
+Normalizing: "catheter"(122) "ablation"(57) "and"(7238) "cardiac"(378) "mapping"(30)
+Ordering posting list: (30) (57) (122) (378) (7238)
+Processing conjunction: (30) AND (57) >> (14)
+Processing conjunction: (14) AND (122) >> (13)
+Processing conjunction: (13) AND (378) >> (2)
+Processing conjunction: (2) AND (7238) >> (2)
+Query processed, returned 2 postings, duration=8 ms
+
+Processing query "Diagnostic approach in injuries of the shoulder"
+Normalizing: "diagnostic"(689) "approach"(411) "in"(6983) "injuries"(256) "of"(7667) "the"(7631) "shoulder"(77)
+Ordering posting list: (77) (256) (411) (689) (6983) (7631) (7667)
+Processing conjunction: (77) AND (256) >> (16)
+Processing conjunction: (16) AND (411) >> (1)
+Processing conjunction: (1) AND (689) >> (1)
+Processing conjunction: (1) AND (6983) >> (1)
+Processing conjunction: (1) AND (7631) >> (1)
+Processing conjunction: (1) AND (7667) >> (1)
+Query processed, returned 1 postings, duration=14 ms
+
+Processing query "Differential diagnosis in infertility"
+Normalizing: "differential"(278) "diagnosis"(1188) "in"(6983) "infertility"(25)
+Ordering posting list: (25) (278) (1188) (6983)
+Processing conjunction: (25) AND (278) >> (1)
+Processing conjunction: (1) AND (1188) >> (1)
+Processing conjunction: (1) AND (6983) >> (1)
+Query processed, returned 1 postings, duration=6 ms
+
+Processing query "Approach of the correction of deformities in orthopedics"
+Normalizing: "approach"(411) "of"(7667) "the"(7631) "correction"(101) "of"(7667) "deformities"(48) "in"(6983) "orthopedics"(8)
+Ordering posting list: (8) (48) (101) (411) (6983) (7631) (7667) (7667)
+Processing conjunction: (8) AND (48) >> (0)
+Query processed, returned 0 postings, duration=5 ms
+
+Processing query "Treatment of squamous cell carcinoma"
+Normalizing: "treatment"(2092) "of"(7667) "squamous"(89) "cell"(537) "carcinoma"(267)
+Ordering posting list: (89) (267) (537) (2092) (7667)
+Processing conjunction: (89) AND (267) >> (57)
+Processing conjunction: (57) AND (537) >> (53)
+Processing conjunction: (53) AND (2092) >> (12)
+Processing conjunction: (12) AND (7667) >> (12)
+Query processed, returned 12 postings, duration=8 ms
+
+Processing query "Associated diseases with insulin dependent diabetes mellitus"
+Normalizing: "associated"(630) "diseases"(481) "with"(5703) "insulin"(30) "dependent"(190) "diabetes"(61) "mellitus"(41)
+Ordering posting list: (30) (41) (61) (190) (481) (630) (5703)
+Processing conjunction: (30) AND (41) >> (8)
+Processing conjunction: (8) AND (61) >> (8)
+Processing conjunction: (8) AND (190) >> (7)
+Processing conjunction: (7) AND (481) >> (2)
+Processing conjunction: (2) AND (630) >> (1)
+Processing conjunction: (1) AND (5703) >> (1)
+Query processed, returned 1 postings, duration=7 ms
+
+Processing query "Therapy in chronic low back pain"
+Normalizing: "therapy"(1453) "in"(6983) "chronic"(526) "low"(595) "back"(117) "pain"(542)
+Ordering posting list: (117) (526) (542) (595) (1453) (6983)
+Processing conjunction: (117) AND (526) >> (30)
+Processing conjunction: (30) AND (542) >> (26)
+Processing conjunction: (26) AND (595) >> (16)
+Processing conjunction: (16) AND (1453) >> (6)
+Processing conjunction: (6) AND (6983) >> (5)
+Query processed, returned 5 postings, duration=6 ms
+
+Processing query "Treatment of ventricular tachycardia"
+Normalizing: "treatment"(2092) "of"(7667) "ventricular"(232) "tachycardia"(84)
+Ordering posting list: (84) (232) (2092) (7667)
+Processing conjunction: (84) AND (232) >> (51)
+Processing conjunction: (51) AND (2092) >> (17)
+Processing conjunction: (17) AND (7667) >> (17)
+Query processed, returned 17 postings, duration=6 ms
+
+Processing query "Indication for implantable cardioverter defibrillator (ICD)"
+Normalizing: "indication"(231) "for"(4738) "implantable"(55) "cardioverter"(27) "defibrillator"(33) "icd"(68)
+Ordering posting list: (27) (33) (55) (68) (231) (4738)
+Processing conjunction: (27) AND (33) >> (22)
+Processing conjunction: (22) AND (55) >> (17)
+Processing conjunction: (17) AND (68) >> (12)
+Processing conjunction: (12) AND (231) >> (3)
+Processing conjunction: (3) AND (4738) >> (3)
+Query processed, returned 3 postings, duration=7 ms
+
+Processing query "Diagnostic in acute and chronic myocarditis"
+Normalizing: "diagnostic"(689) "in"(6983) "acute"(617) "and"(7238) "chronic"(526) "myocarditis"(18)
+Ordering posting list: (18) (526) (617) (689) (6983) (7238)
+Processing conjunction: (18) AND (526) >> (4)
+Processing conjunction: (4) AND (617) >> (3)
+Processing conjunction: (3) AND (689) >> (0)
+Query processed, returned 0 postings, duration=6 ms
+
+Processing query "Cause of dysphagia"
+Normalizing: "cause"(455) "of"(7667) "dysphagia"(16)
+Ordering posting list: (16) (455) (7667)
+Processing conjunction: (16) AND (455) >> (2)
+Processing conjunction: (2) AND (7667) >> (2)
+Query processed, returned 2 postings, duration=2 ms
+
+Processing query "Treatment of sensorineural hearing loss (SNHL)"
+Normalizing: "treatment"(2092) "of"(7667) "sensorineural"(28) "hearing"(85) "loss"(365) "snhl"(4)
+Ordering posting list: (4) (28) (85) (365) (2092) (7667)
+Processing conjunction: (4) AND (28) >> (3)
+Processing conjunction: (3) AND (85) >> (3)
+Processing conjunction: (3) AND (365) >> (3)
+Processing conjunction: (3) AND (2092) >> (2)
+Processing conjunction: (2) AND (7667) >> (2)
+Query processed, returned 2 postings, duration=6 ms
+
+Processing query "Complications of surgical repair of aortic aneurysm"
+Normalizing: "complications"(693) "of"(7667) "surgical"(869) "repair"(155) "of"(7667) "aortic"(126) "aneurysm"(72)
+Ordering posting list: (72) (126) (155) (693) (869) (7667) (7667)
+Processing conjunction: (72) AND (126) >> (33)
+Processing conjunction: (33) AND (155) >> (13)
+Processing conjunction: (13) AND (693) >> (5)
+Processing conjunction: (5) AND (869) >> (1)
+Processing conjunction: (1) AND (7667) >> (1)
+Processing conjunction: (1) AND (7667) >> (1)
+Query processed, returned 1 postings, duration=6 ms
+
+Processing query "Treatment of psychosomatical patients"
+Normalizing: "treatment"(2092) "of"(7667) "psychosomatical"(1) "patients"(3389)
+Ordering posting list: (1) (2092) (3389) (7667)
+Processing conjunction: (1) AND (2092) >> (1)
+Processing conjunction: (1) AND (3389) >> (0)
+Query processed, returned 0 postings, duration=5 ms
+
+Processing query "New approach in cruciate ligament surgery"
+Normalizing: "new"(806) "approach"(411) "in"(6983) "cruciate"(54) "ligament"(99) "surgery"(1006)
+Ordering posting list: (54) (99) (411) (806) (1006) (6983)
+Processing conjunction: (54) AND (99) >> (50)
+Processing conjunction: (50) AND (411) >> (0)
+Query processed, returned 0 postings, duration=1 ms
+
+Reading ground truth file .\Common\springer_reference.xml
+Found 25 queries (14 23 4 5 4 3 8 14 6 24 19 16 23 65 17 15 27 22 21 7 15 14 8 16 24)
+Evaluating the search engine class query.RankingQueryEngine
+Processing query "Arthroscopic treatment of cruciate ligament injuries" with RankingQueryEngine
+Normalizing: "arthroscopic"(83) "treatment"(2092) "of"(7667) "cruciate"(54) "ligament"(99) "injuries"(256)
+Query processed, returned 7823 postings, duration=22 ms
+
+Processing query "Complications of arthroscopic interventions" with RankingQueryEngine
+Normalizing: "complications"(693) "of"(7667) "arthroscopic"(83) "interventions"(138)
+Query processed, returned 7823 postings, duration=9 ms
+
+Processing query "Pathophysiology and prophylaxis  of arthrofibrosis" with RankingQueryEngine
+Normalizing: "pathophysiology"(54) "and"(7238) "prophylaxis"(93) "of"(7667) "arthrofibrosis"(12)
+Query processed, returned 7823 postings, duration=5 ms
+
+Processing query "HIV Epidemiology, Risk Assessment" with RankingQueryEngine
+Normalizing: "hiv"(72) "epidemiology"(24) "risk"(823) "assessment"(332)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Patient-controlled analgesia indications and limits" with RankingQueryEngine
+Normalizing: "patient"(1664) "controlled"(277) "analgesia"(74) "indications"(247) "and"(7238) "limits"(52)
+Query processed, returned 7823 postings, duration=9 ms
+
+Processing query "Priming with non-depolarizing muscle relaxants" with RankingQueryEngine
+Normalizing: "priming"(5) "with"(5703) "non"(624) "depolarizing"(5) "muscle"(246) "relaxants"(21)
+Query processed, returned 7823 postings, duration=3 ms
+
+Processing query "Complications after laparoscopic cholecystectomy" with RankingQueryEngine
+Normalizing: "complications"(693) "after"(2209) "laparoscopic"(73) "cholecystectomy"(25)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Heparin induced thrombocytopenia, diagnosis and management" with RankingQueryEngine
+Normalizing: "heparin"(52) "induced"(342) "thrombocytopenia"(25) "diagnosis"(1188) "and"(7238) "management"(396)
+Query processed, returned 7823 postings, duration=3 ms
+
+Processing query "Diagnostic in Lyme disease" with RankingQueryEngine
+Normalizing: "diagnostic"(689) "in"(6983) "lyme"(6) "disease"(1252)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Treatment of acute myocardial infarction" with RankingQueryEngine
+Normalizing: "treatment"(2092) "of"(7667) "acute"(617) "myocardial"(224) "infarction"(161)
+Query processed, returned 7823 postings, duration=3 ms
+
+Processing query "Catheter ablation and cardiac mapping" with RankingQueryEngine
+Normalizing: "catheter"(122) "ablation"(57) "and"(7238) "cardiac"(378) "mapping"(30)
+Query processed, returned 7823 postings, duration=3 ms
+
+Processing query "Diagnostic approach in injuries of the shoulder" with RankingQueryEngine
+Normalizing: "diagnostic"(689) "approach"(411) "in"(6983) "injuries"(256) "of"(7667) "the"(7631) "shoulder"(77)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Differential diagnosis in infertility" with RankingQueryEngine
+Normalizing: "differential"(278) "diagnosis"(1188) "in"(6983) "infertility"(25)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Approach of the correction of deformities in orthopedics" with RankingQueryEngine
+Normalizing: "approach"(411) "of"(7667) "the"(7631) "correction"(101) "of"(7667) "deformities"(48) "in"(6983) "orthopedics"(8)
+Query processed, returned 7823 postings, duration=4 ms
+
+Processing query "Treatment of squamous cell carcinoma" with RankingQueryEngine
+Normalizing: "treatment"(2092) "of"(7667) "squamous"(89) "cell"(537) "carcinoma"(267)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Associated diseases with insulin dependent diabetes mellitus" with RankingQueryEngine
+Normalizing: "associated"(630) "diseases"(481) "with"(5703) "insulin"(30) "dependent"(190) "diabetes"(61) "mellitus"(41)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Therapy in chronic low back pain" with RankingQueryEngine
+Normalizing: "therapy"(1453) "in"(6983) "chronic"(526) "low"(595) "back"(117) "pain"(542)
+Query processed, returned 7823 postings, duration=3 ms
+
+Processing query "Treatment of ventricular tachycardia" with RankingQueryEngine
+Normalizing: "treatment"(2092) "of"(7667) "ventricular"(232) "tachycardia"(84)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Indication for implantable cardioverter defibrillator (ICD)" with RankingQueryEngine
+Normalizing: "indication"(231) "for"(4738) "implantable"(55) "cardioverter"(27) "defibrillator"(33) "icd"(68)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Diagnostic in acute and chronic myocarditis" with RankingQueryEngine
+Normalizing: "diagnostic"(689) "in"(6983) "acute"(617) "and"(7238) "chronic"(526) "myocarditis"(18)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Cause of dysphagia" with RankingQueryEngine
+Normalizing: "cause"(455) "of"(7667) "dysphagia"(16)
+Query processed, returned 7823 postings, duration=6 ms
+
+Processing query "Treatment of sensorineural hearing loss (SNHL)" with RankingQueryEngine
+Normalizing: "treatment"(2092) "of"(7667) "sensorineural"(28) "hearing"(85) "loss"(365) "snhl"(4)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Complications of surgical repair of aortic aneurysm" with RankingQueryEngine
+Normalizing: "complications"(693) "of"(7667) "surgical"(869) "repair"(155) "of"(7667) "aortic"(126) "aneurysm"(72)
+Query processed, returned 7823 postings, duration=3 ms
+
+Processing query "Treatment of psychosomatical patients" with RankingQueryEngine
+Normalizing: "treatment"(2092) "of"(7667) "psychosomatical"(1) "patients"(3389)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "New approach in cruciate ligament surgery" with RankingQueryEngine
+Normalizing: "new"(806) "approach"(411) "in"(6983) "cruciate"(54) "ligament"(99) "surgery"(1006)
+Query processed, returned 7823 postings, duration=3 ms
+
+
+----------------Evaluation AndQueryEngine------------
+PRECISION       RECALL  F_MEASURE
+0,00    0,00    0,00    Arthroscopic treatment of cruciate ligament injuries
+0,00    0,00    0,00    Complications of arthroscopic interventions
+0,00    0,00    0,00    Pathophysiology and prophylaxis  of arthrofibrosis
+0,00    0,00    0,00    HIV Epidemiology, Risk Assessment
+0,00    0,00    0,00    Patient-controlled analgesia indications and limits
+0,00    0,00    0,00    Priming with non-depolarizing muscle relaxants
+0,83    0,62    0,71    Complications after laparoscopic cholecystectomy
+0,00    0,00    0,00    Heparin induced thrombocytopenia, diagnosis and management
+0,50    0,17    0,25    Diagnostic in Lyme disease
+0,35    0,29    0,32    Treatment of acute myocardial infarction
+1,00    0,11    0,19    Catheter ablation and cardiac mapping
+1,00    0,06    0,12    Diagnostic approach in injuries of the shoulder
+0,00    0,00    0,00    Differential diagnosis in infertility
+0,00    0,00    0,00    Approach of the correction of deformities in orthopedics
+0,33    0,24    0,28    Treatment of squamous cell carcinoma
+1,00    0,07    0,12    Associated diseases with insulin dependent diabetes mellitus
+1,00    0,19    0,31    Therapy in chronic low back pain
+0,53    0,41    0,46    Treatment of ventricular tachycardia
+0,33    0,05    0,08    Indication for implantable cardioverter defibrillator (ICD)
+0,00    0,00    0,00    Diagnostic in acute and chronic myocarditis
+0,50    0,07    0,12    Cause of dysphagia
+1,00    0,14    0,25    Treatment of sensorineural hearing loss (SNHL)
+1,00    0,12    0,22    Complications of surgical repair of aortic aneurysm
+0,00    0,00    0,00    Treatment of psychosomatical patients
+0,00    0,00    0,00    New approach in cruciate ligament surgery
+––––––––––––––––––––––––––––––––––––––-
+0,38    0,10    0,14
+
+----------------Evaluation RankingQueryEngine------------
+PRECISION       RECALL  F_MEASURE
+0,56    0,04    0,07    Arthroscopic treatment of cruciate ligament injuries
+0,48    0,06    0,11    Complications of arthroscopic interventions
+0,48    0,10    0,16    Pathophysiology and prophylaxis  of arthrofibrosis
+0,49    0,14    0,20    HIV Epidemiology, Risk Assessment
+0,51    0,18    0,25    Patient-controlled analgesia indications and limits
+0,49    0,23    0,29    Priming with non-depolarizing muscle relaxants
+0,47    0,26    0,30    Complications after laparoscopic cholecystectomy
+0,46    0,28    0,32    Heparin induced thrombocytopenia, diagnosis and management
+0,45    0,31    0,33    Diagnostic in Lyme disease
+0,44    0,34    0,35    Treatment of acute myocardial infarction
+0,44    0,37    0,37    Catheter ablation and cardiac mapping
+0,43    0,38    0,37    Diagnostic approach in injuries of the shoulder
+0,42    0,41    0,38    Differential diagnosis in infertility
+0,41    0,42    0,38    Approach of the correction of deformities in orthopedics
+0,40    0,44    0,38    Treatment of squamous cell carcinoma
+0,38    0,45    0,38    Associated diseases with insulin dependent diabetes mellitus
+0,37    0,46    0,38    Therapy in chronic low back pain
+0,36    0,47    0,37    Treatment of ventricular tachycardia
+0,35    0,47    0,37    Indication for implantable cardioverter defibrillator (ICD)
+0,34    0,49    0,36    Diagnostic in acute and chronic myocarditis
+0,34    0,51    0,37    Cause of dysphagia
+0,33    0,52    0,37    Treatment of sensorineural hearing loss (SNHL)
+0,32    0,53    0,37    Complications of surgical repair of aortic aneurysm
+0,31    0,53    0,36    Treatment of psychosomatical patients
+0,31    0,54    0,36    New approach in cruciate ligament surgery
+––––––––––––––––––––––––––––––––––––––-
+0,30    0,55    0,36
+java.lang.IndexOutOfBoundsException: Index: 26, Size: 25
+        at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+        at java.util.ArrayList.get(ArrayList.java:433)
+        at Test1.testEvaluation(Test1.java:204)
+        at Test1.testQuery(Test1.java:129)
+        at Test1.main(Test1.java:62)
+
+--------------Evaluation springer_stopwords-------------
+
+Loading the index... data\springer_filter_index.data
+Index loaded, duration=9214  ms
+
+Reading ground truth file .\Common\springer_reference.xml
+Found 25 queries (14 23 4 5 4 3 8 14 6 24 19 16 23 65 17 15 27 22 21 7 15 14 8 16 24)
+Processing query "Arthroscopic treatment of cruciate ligament injuries"
+Normalizing: "arthroscopic"(83) "cruciate"(54) "ligament"(99) "injuries"(256)
+Ordering posting list: (54) (83) (99) (256)
+Processing conjunction: (54) AND (83) >> (15)
+Processing conjunction: (15) AND (99) >> (14)
+Processing conjunction: (14) AND (256) >> (3)
+Query processed, returned 3 postings, duration=1 ms
+
+Processing query "Complications of arthroscopic interventions"
+Normalizing: "complications"(693) "arthroscopic"(83) "interventions"(138)
+Ordering posting list: (83) (138) (693)
+Processing conjunction: (83) AND (138) >> (1)
+Processing conjunction: (1) AND (693) >> (0)
+Query processed, returned 0 postings, duration=1 ms
+
+Processing query "Pathophysiology and prophylaxis  of arthrofibrosis"
+Normalizing: "pathophysiology"(54) "prophylaxis"(93) "arthrofibrosis"(12)
+Ordering posting list: (12) (54) (93)
+Processing conjunction: (12) AND (54) >> (0)
+Query processed, returned 0 postings, duration=0 ms
+
+Processing query "HIV Epidemiology, Risk Assessment"
+Normalizing: "hiv"(72) "epidemiology"(24) "risk"(823) "assessment"(332)
+Ordering posting list: (24) (72) (332) (823)
+Processing conjunction: (24) AND (72) >> (1)
+Processing conjunction: (1) AND (332) >> (0)
+Query processed, returned 0 postings, duration=1 ms
+
+Processing query "Patient-controlled analgesia indications and limits"
+Normalizing: "controlled"(277) "analgesia"(74) "indications"(247) "limits"(52)
+Ordering posting list: (52) (74) (247) (277)
+Processing conjunction: (52) AND (74) >> (0)
+Query processed, returned 0 postings, duration=7 ms
+
+Processing query "Priming with non-depolarizing muscle relaxants"
+Normalizing: "priming"(5) "non"(624) "depolarizing"(5) "muscle"(246) "relaxants"(21)
+Ordering posting list: (5) (5) (21) (246) (624)
+Processing conjunction: (5) AND (5) >> (0)
+Query processed, returned 0 postings, duration=7 ms
+
+Processing query "Complications after laparoscopic cholecystectomy"
+Normalizing: "complications"(693) "laparoscopic"(73) "cholecystectomy"(25)
+Ordering posting list: (25) (73) (693)
+Processing conjunction: (25) AND (73) >> (18)
+Processing conjunction: (18) AND (693) >> (7)
+Query processed, returned 7 postings, duration=1 ms
+
+Processing query "Heparin induced thrombocytopenia, diagnosis and management"
+Normalizing: "heparin"(52) "induced"(342) "thrombocytopenia"(25) "management"(396)
+Ordering posting list: (25) (52) (342) (396)
+Processing conjunction: (25) AND (52) >> (15)
+Processing conjunction: (15) AND (342) >> (12)
+Processing conjunction: (12) AND (396) >> (0)
+Query processed, returned 0 postings, duration=10 ms
+
+Processing query "Diagnostic in Lyme disease"
+Normalizing: "diagnostic"(689) "lyme"(6)
+Ordering posting list: (6) (689)
+Processing conjunction: (6) AND (689) >> (2)
+Query processed, returned 2 postings, duration=1 ms
+
+Processing query "Treatment of acute myocardial infarction"
+Normalizing: "acute"(617) "myocardial"(224) "infarction"(161)
+Ordering posting list: (161) (224) (617)
+Processing conjunction: (161) AND (224) >> (124)
+Processing conjunction: (124) AND (617) >> (68)
+Query processed, returned 68 postings, duration=1 ms
+
+Processing query "Catheter ablation and cardiac mapping"
+Normalizing: "catheter"(122) "ablation"(57) "cardiac"(378) "mapping"(30)
+Ordering posting list: (30) (57) (122) (378)
+Processing conjunction: (30) AND (57) >> (14)
+Processing conjunction: (14) AND (122) >> (13)
+Processing conjunction: (13) AND (378) >> (2)
+Query processed, returned 2 postings, duration=7 ms
+
+Processing query "Diagnostic approach in injuries of the shoulder"
+Normalizing: "diagnostic"(689) "approach"(411) "injuries"(256) "shoulder"(77)
+Ordering posting list: (77) (256) (411) (689)
+Processing conjunction: (77) AND (256) >> (16)
+Processing conjunction: (16) AND (411) >> (1)
+Processing conjunction: (1) AND (689) >> (1)
+Query processed, returned 1 postings, duration=15 ms
+
+Processing query "Differential diagnosis in infertility"
+Normalizing: "differential"(278) "infertility"(25)
+Ordering posting list: (25) (278)
+Processing conjunction: (25) AND (278) >> (1)
+Query processed, returned 1 postings, duration=1 ms
+
+Processing query "Approach of the correction of deformities in orthopedics"
+Normalizing: "approach"(411) "correction"(101) "deformities"(48) "orthopedics"(8)
+Ordering posting list: (8) (48) (101) (411)
+Processing conjunction: (8) AND (48) >> (0)
+Query processed, returned 0 postings, duration=1 ms
+
+Processing query "Treatment of squamous cell carcinoma"
+Normalizing: "squamous"(89) "cell"(537) "carcinoma"(267)
+Ordering posting list: (89) (267) (537)
+Processing conjunction: (89) AND (267) >> (57)
+Processing conjunction: (57) AND (537) >> (53)
+Query processed, returned 53 postings, duration=0 ms
+
+Processing query "Associated diseases with insulin dependent diabetes mellitus"
+Normalizing: "associated"(630) "diseases"(481) "insulin"(30) "dependent"(190) "diabetes"(61) "mellitus"(41)
+Ordering posting list: (30) (41) (61) (190) (481) (630)
+Processing conjunction: (30) AND (41) >> (8)
+Processing conjunction: (8) AND (61) >> (8)
+Processing conjunction: (8) AND (190) >> (7)
+Processing conjunction: (7) AND (481) >> (2)
+Processing conjunction: (2) AND (630) >> (1)
+Query processed, returned 1 postings, duration=1 ms
+
+Processing query "Therapy in chronic low back pain"
+Normalizing: "chronic"(526) "low"(595) "back"(117) "pain"(542)
+Ordering posting list: (117) (526) (542) (595)
+Processing conjunction: (117) AND (526) >> (30)
+Processing conjunction: (30) AND (542) >> (26)
+Processing conjunction: (26) AND (595) >> (16)
+Query processed, returned 16 postings, duration=2 ms
+
+Processing query "Treatment of ventricular tachycardia"
+Normalizing: "ventricular"(232) "tachycardia"(84)
+Ordering posting list: (84) (232)
+Processing conjunction: (84) AND (232) >> (51)
+Query processed, returned 51 postings, duration=1 ms
+
+Processing query "Indication for implantable cardioverter defibrillator (ICD)"
+Normalizing: "indication"(231) "implantable"(55) "cardioverter"(27) "defibrillator"(33) "icd"(68)
+Ordering posting list: (27) (33) (55) (68) (231)
+Processing conjunction: (27) AND (33) >> (22)
+Processing conjunction: (22) AND (55) >> (17)
+Processing conjunction: (17) AND (68) >> (12)
+Processing conjunction: (12) AND (231) >> (3)
+Query processed, returned 3 postings, duration=1 ms
+
+Processing query "Diagnostic in acute and chronic myocarditis"
+Normalizing: "diagnostic"(689) "acute"(617) "chronic"(526) "myocarditis"(18)
+Ordering posting list: (18) (526) (617) (689)
+Processing conjunction: (18) AND (526) >> (4)
+Processing conjunction: (4) AND (617) >> (3)
+Processing conjunction: (3) AND (689) >> (0)
+Query processed, returned 0 postings, duration=1 ms
+
+Processing query "Cause of dysphagia"
+Normalizing: "cause"(455) "dysphagia"(16)
+Ordering posting list: (16) (455)
+Processing conjunction: (16) AND (455) >> (2)
+Query processed, returned 2 postings, duration=1 ms
+
+Processing query "Treatment of sensorineural hearing loss (SNHL)"
+Normalizing: "sensorineural"(28) "hearing"(85) "loss"(365) "snhl"(4)
+Ordering posting list: (4) (28) (85) (365)
+Processing conjunction: (4) AND (28) >> (3)
+Processing conjunction: (3) AND (85) >> (3)
+Processing conjunction: (3) AND (365) >> (3)
+Query processed, returned 3 postings, duration=1 ms
+
+Processing query "Complications of surgical repair of aortic aneurysm"
+Normalizing: "complications"(693) "surgical"(869) "repair"(155) "aortic"(126) "aneurysm"(72)
+Ordering posting list: (72) (126) (155) (693) (869)
+Processing conjunction: (72) AND (126) >> (33)
+Processing conjunction: (33) AND (155) >> (13)
+Processing conjunction: (13) AND (693) >> (5)
+Processing conjunction: (5) AND (869) >> (1)
+Query processed, returned 1 postings, duration=1 ms
+
+Processing query "Treatment of psychosomatical patients"
+Normalizing: "psychosomatical"(1)
+Ordering posting list: (1)
+Query processed, returned 1 postings, duration=0 ms
+
+Processing query "New approach in cruciate ligament surgery"
+Normalizing: "new"(806) "approach"(411) "cruciate"(54) "ligament"(99)
+Ordering posting list: (54) (99) (411) (806)
+Processing conjunction: (54) AND (99) >> (50)
+Processing conjunction: (50) AND (411) >> (0)
+Query processed, returned 0 postings, duration=1 ms
+
+Reading ground truth file .\Common\springer_reference.xml
+Found 25 queries (14 23 4 5 4 3 8 14 6 24 19 16 23 65 17 15 27 22 21 7 15 14 8 16 24)
+Evaluating the search engine class query.RankingQueryEngine
+Processing query "Arthroscopic treatment of cruciate ligament injuries" with RankingQueryEngine
+Normalizing: "arthroscopic"(83) "cruciate"(54) "ligament"(99) "injuries"(256)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Complications of arthroscopic interventions" with RankingQueryEngine
+Normalizing: "complications"(693) "arthroscopic"(83) "interventions"(138)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Pathophysiology and prophylaxis  of arthrofibrosis" with RankingQueryEngine
+Normalizing: "pathophysiology"(54) "prophylaxis"(93) "arthrofibrosis"(12)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "HIV Epidemiology, Risk Assessment" with RankingQueryEngine
+Normalizing: "hiv"(72) "epidemiology"(24) "risk"(823) "assessment"(332)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Patient-controlled analgesia indications and limits" with RankingQueryEngine
+Normalizing: "controlled"(277) "analgesia"(74) "indications"(247) "limits"(52)
+Query processed, returned 7823 postings, duration=7 ms
+
+Processing query "Priming with non-depolarizing muscle relaxants" with RankingQueryEngine
+Normalizing: "priming"(5) "non"(624) "depolarizing"(5) "muscle"(246) "relaxants"(21)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Complications after laparoscopic cholecystectomy" with RankingQueryEngine
+Normalizing: "complications"(693) "laparoscopic"(73) "cholecystectomy"(25)
+Query processed, returned 7823 postings, duration=8 ms
+
+Processing query "Heparin induced thrombocytopenia, diagnosis and management" with RankingQueryEngine
+Normalizing: "heparin"(52) "induced"(342) "thrombocytopenia"(25) "management"(396)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Diagnostic in Lyme disease" with RankingQueryEngine
+Normalizing: "diagnostic"(689) "lyme"(6)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Treatment of acute myocardial infarction" with RankingQueryEngine
+Normalizing: "acute"(617) "myocardial"(224) "infarction"(161)
+Query processed, returned 7823 postings, duration=7 ms
+
+Processing query "Catheter ablation and cardiac mapping" with RankingQueryEngine
+Normalizing: "catheter"(122) "ablation"(57) "cardiac"(378) "mapping"(30)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Diagnostic approach in injuries of the shoulder" with RankingQueryEngine
+Normalizing: "diagnostic"(689) "approach"(411) "injuries"(256) "shoulder"(77)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Differential diagnosis in infertility" with RankingQueryEngine
+Normalizing: "differential"(278) "infertility"(25)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Approach of the correction of deformities in orthopedics" with RankingQueryEngine
+Normalizing: "approach"(411) "correction"(101) "deformities"(48) "orthopedics"(8)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Treatment of squamous cell carcinoma" with RankingQueryEngine
+Normalizing: "squamous"(89) "cell"(537) "carcinoma"(267)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Associated diseases with insulin dependent diabetes mellitus" with RankingQueryEngine
+Normalizing: "associated"(630) "diseases"(481) "insulin"(30) "dependent"(190) "diabetes"(61) "mellitus"(41)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Therapy in chronic low back pain" with RankingQueryEngine
+Normalizing: "chronic"(526) "low"(595) "back"(117) "pain"(542)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Treatment of ventricular tachycardia" with RankingQueryEngine
+Normalizing: "ventricular"(232) "tachycardia"(84)
+Query processed, returned 7823 postings, duration=7 ms
+
+Processing query "Indication for implantable cardioverter defibrillator (ICD)" with RankingQueryEngine
+Normalizing: "indication"(231) "implantable"(55) "cardioverter"(27) "defibrillator"(33) "icd"(68)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Diagnostic in acute and chronic myocarditis" with RankingQueryEngine
+Normalizing: "diagnostic"(689) "acute"(617) "chronic"(526) "myocarditis"(18)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Cause of dysphagia" with RankingQueryEngine
+Normalizing: "cause"(455) "dysphagia"(16)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Treatment of sensorineural hearing loss (SNHL)" with RankingQueryEngine
+Normalizing: "sensorineural"(28) "hearing"(85) "loss"(365) "snhl"(4)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Complications of surgical repair of aortic aneurysm" with RankingQueryEngine
+Normalizing: "complications"(693) "surgical"(869) "repair"(155) "aortic"(126) "aneurysm"(72)
+Query processed, returned 7823 postings, duration=8 ms
+
+Processing query "Treatment of psychosomatical patients" with RankingQueryEngine
+Normalizing: "psychosomatical"(1)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "New approach in cruciate ligament surgery" with RankingQueryEngine
+Normalizing: "new"(806) "approach"(411) "cruciate"(54) "ligament"(99)
+Query processed, returned 7823 postings, duration=1 ms
+
+
+----------------Evaluation AndQueryEngine------------
+PRECISION       RECALL  F_MEASURE
+0,00    0,00    0,00    Arthroscopic treatment of cruciate ligament injuries
+0,00    0,00    0,00    Complications of arthroscopic interventions
+0,00    0,00    0,00    Pathophysiology and prophylaxis  of arthrofibrosis
+0,00    0,00    0,00    HIV Epidemiology, Risk Assessment
+0,00    0,00    0,00    Patient-controlled analgesia indications and limits
+0,00    0,00    0,00    Priming with non-depolarizing muscle relaxants
+0,71    0,62    0,67    Complications after laparoscopic cholecystectomy
+0,00    0,00    0,00    Heparin induced thrombocytopenia, diagnosis and management
+0,50    0,17    0,25    Diagnostic in Lyme disease
+0,29    0,83    0,43    Treatment of acute myocardial infarction
+1,00    0,11    0,19    Catheter ablation and cardiac mapping
+1,00    0,06    0,12    Diagnostic approach in injuries of the shoulder
+0,00    0,00    0,00    Differential diagnosis in infertility
+0,00    0,00    0,00    Approach of the correction of deformities in orthopedics
+0,21    0,65    0,31    Treatment of squamous cell carcinoma
+1,00    0,07    0,12    Associated diseases with insulin dependent diabetes mellitus
+0,69    0,41    0,51    Therapy in chronic low back pain
+0,37    0,86    0,52    Treatment of ventricular tachycardia
+0,33    0,05    0,08    Indication for implantable cardioverter defibrillator (ICD)
+0,00    0,00    0,00    Diagnostic in acute and chronic myocarditis
+0,50    0,07    0,12    Cause of dysphagia
+0,67    0,14    0,24    Treatment of sensorineural hearing loss (SNHL)
+1,00    0,12    0,22    Complications of surgical repair of aortic aneurysm
+1,00    0,06    0,12    Treatment of psychosomatical patients
+0,00    0,00    0,00    New approach in cruciate ligament surgery
+––––––––––––––––––––––––––––––––––––––-
+0,37    0,17    0,16
+
+----------------Evaluation RankingQueryEngine------------
+PRECISION       RECALL  F_MEASURE
+0,52    0,04    0,07    Arthroscopic treatment of cruciate ligament injuries
+0,44    0,06    0,11    Complications of arthroscopic interventions
+0,45    0,10    0,16    Pathophysiology and prophylaxis  of arthrofibrosis
+0,45    0,13    0,19    HIV Epidemiology, Risk Assessment
+0,45    0,17    0,23    Patient-controlled analgesia indications and limits
+0,46    0,23    0,28    Priming with non-depolarizing muscle relaxants
+0,44    0,26    0,30    Complications after laparoscopic cholecystectomy
+0,45    0,29    0,32    Heparin induced thrombocytopenia, diagnosis and management
+0,44    0,32    0,33    Diagnostic in Lyme disease
+0,44    0,35    0,35    Treatment of acute myocardial infarction
+0,42    0,37    0,35    Catheter ablation and cardiac mapping
+0,40    0,38    0,36    Diagnostic approach in injuries of the shoulder
+0,39    0,40    0,36    Differential diagnosis in infertility
+0,40    0,42    0,37    Approach of the correction of deformities in orthopedics
+0,38    0,43    0,37    Treatment of squamous cell carcinoma
+0,38    0,45    0,37    Associated diseases with insulin dependent diabetes mellitus
+0,36    0,46    0,37    Therapy in chronic low back pain
+0,35    0,47    0,36    Treatment of ventricular tachycardia
+0,34    0,47    0,36    Indication for implantable cardioverter defibrillator (ICD)
+0,33    0,48    0,35    Diagnostic in acute and chronic myocarditis
+0,33    0,50    0,36    Cause of dysphagia
+0,32    0,51    0,36    Treatment of sensorineural hearing loss (SNHL)
+0,32    0,52    0,36    Complications of surgical repair of aortic aneurysm
+0,31    0,53    0,36    Treatment of psychosomatical patients
+0,31    0,54    0,36    New approach in cruciate ligament surgery
+––––––––––––––––––––––––––––––––––––––-
+0,30    0,54    0,35
+java.lang.IndexOutOfBoundsException: Index: 26, Size: 25
+        at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+        at java.util.ArrayList.get(ArrayList.java:433)
+        at Test1.testEvaluation(Test1.java:204)
+        at Test1.testQuery(Test1.java:132)
+        at Test1.main(Test1.java:62)
+
+--------------Evaluation springer_stem-------------
+
+Loading the index... data\springer_stem_index.data
+Index loaded, duration=10450  ms
+
+Reading ground truth file .\Common\springer_reference.xml
+Found 25 queries (14 23 4 5 4 3 8 14 6 24 19 16 23 65 17 15 27 22 21 7 15 14 8 16 24)
+Processing query "Arthroscopic treatment of cruciate ligament injuries"
+Normalizing: "arthroscop"(100) "treatment"(2132) "of"(7667) "cruciat"(54) "ligament"(144) "injuri"(465)
+Ordering posting list: (54) (100) (144) (465) (2132) (7667)
+Processing conjunction: (54) AND (100) >> (17)
+Processing conjunction: (17) AND (144) >> (16)
+Processing conjunction: (16) AND (465) >> (6)
+Processing conjunction: (6) AND (2132) >> (2)
+Processing conjunction: (2) AND (7667) >> (2)
+Query processed, returned 2 postings, duration=3 ms
+
+Processing query "Complications of arthroscopic interventions"
+Normalizing: "complic"(940) "of"(7667) "arthroscop"(100) "intervent"(380)
+Ordering posting list: (100) (380) (940) (7667)
+Processing conjunction: (100) AND (380) >> (3)
+Processing conjunction: (3) AND (940) >> (0)
+Query processed, returned 0 postings, duration=1 ms
+
+Processing query "Pathophysiology and prophylaxis  of arthrofibrosis"
+Normalizing: "pathophysiolog"(152) "and"(7238) "prophylaxi"(93) "of"(7667) "arthrofibrosi"(12)
+Ordering posting list: (12) (93) (152) (7238) (7667)
+Processing conjunction: (12) AND (93) >> (0)
+Query processed, returned 0 postings, duration=1 ms
+
+Processing query "HIV Epidemiology, Risk Assessment"
+Normalizing: "hiv"(72) "epidemiolog"(101) "risk"(900) "assess"(643)
+Ordering posting list: (72) (101) (643) (900)
+Processing conjunction: (72) AND (101) >> (5)
+Processing conjunction: (5) AND (643) >> (1)
+Processing conjunction: (1) AND (900) >> (0)
+Query processed, returned 0 postings, duration=5 ms
+
+Processing query "Patient-controlled analgesia indications and limits"
+Normalizing: "patient"(4214) "control"(784) "analgesia"(74) "indic"(982) "and"(7238) "limit"(471)
+Ordering posting list: (74) (471) (784) (982) (4214) (7238)
+Processing conjunction: (74) AND (471) >> (5)
+Processing conjunction: (5) AND (784) >> (0)
+Query processed, returned 0 postings, duration=1 ms
+
+Processing query "Priming with non-depolarizing muscle relaxants"
+Normalizing: "prime"(11) "with"(5703) "non"(624) "depolar"(13) "muscl"(307) "relax"(83)
+Ordering posting list: (11) (13) (83) (307) (624) (5703)
+Processing conjunction: (11) AND (13) >> (0)
+Query processed, returned 0 postings, duration=6 ms
+
+Processing query "Complications after laparoscopic cholecystectomy"
+Normalizing: "complic"(940) "after"(2209) "laparoscop"(78) "cholecystectomi"(25)
+Ordering posting list: (25) (78) (940) (2209)
+Processing conjunction: (25) AND (78) >> (18)
+Processing conjunction: (18) AND (940) >> (9)
+Processing conjunction: (9) AND (2209) >> (6)
+Query processed, returned 6 postings, duration=1 ms
+
+Processing query "Heparin induced thrombocytopenia, diagnosis and management"
+Normalizing: "heparin"(55) "induc"(474) "thrombocytopenia"(25) "diagnosi"(1188) "and"(7238) "manag"(452)
+Ordering posting list: (25) (55) (452) (474) (1188) (7238)
+Processing conjunction: (25) AND (55) >> (15)
+Processing conjunction: (15) AND (452) >> (1)
+Processing conjunction: (1) AND (474) >> (1)
+Processing conjunction: (1) AND (1188) >> (0)
+Query processed, returned 0 postings, duration=1 ms
+
+Processing query "Diagnostic in Lyme disease"
+Normalizing: "diagnost"(770) "in"(6983) "lyme"(6) "diseas"(1585)
+Ordering posting list: (6) (770) (1585) (6983)
+Processing conjunction: (6) AND (770) >> (2)
+Processing conjunction: (2) AND (1585) >> (2)
+Processing conjunction: (2) AND (6983) >> (2)
+Query processed, returned 2 postings, duration=5 ms
+
+Processing query "Treatment of acute myocardial infarction"
+Normalizing: "treatment"(2132) "of"(7667) "acut"(632) "myocardi"(224) "infarct"(181)
+Ordering posting list: (181) (224) (632) (2132) (7667)
+Processing conjunction: (181) AND (224) >> (130)
+Processing conjunction: (130) AND (632) >> (69)
+Processing conjunction: (69) AND (2132) >> (21)
+Processing conjunction: (21) AND (7667) >> (21)
+Query processed, returned 21 postings, duration=2 ms
+
+Processing query "Catheter ablation and cardiac mapping"
+Normalizing: "cathet"(137) "ablat"(62) "and"(7238) "cardiac"(378) "map"(49)
+Ordering posting list: (49) (62) (137) (378) (7238)
+Processing conjunction: (49) AND (62) >> (15)
+Processing conjunction: (15) AND (137) >> (14)
+Processing conjunction: (14) AND (378) >> (2)
+Processing conjunction: (2) AND (7238) >> (2)
+Query processed, returned 2 postings, duration=2 ms
+
+Processing query "Diagnostic approach in injuries of the shoulder"
+Normalizing: "diagnost"(770) "approach"(568) "in"(6983) "injuri"(465) "of"(7667) "the"(7631) "shoulder"(85)
+Ordering posting list: (85) (465) (568) (770) (6983) (7631) (7667)
+Processing conjunction: (85) AND (465) >> (26)
+Processing conjunction: (26) AND (568) >> (1)
+Processing conjunction: (1) AND (770) >> (1)
+Processing conjunction: (1) AND (6983) >> (1)
+Processing conjunction: (1) AND (7631) >> (1)
+Processing conjunction: (1) AND (7667) >> (1)
+Query processed, returned 1 postings, duration=7 ms
+
+Processing query "Differential diagnosis in infertility"
+Normalizing: "differenti"(591) "diagnosi"(1188) "in"(6983) "infertil"(27)
+Ordering posting list: (27) (591) (1188) (6983)
+Processing conjunction: (27) AND (591) >> (5)
+Processing conjunction: (5) AND (1188) >> (2)
+Processing conjunction: (2) AND (6983) >> (2)
+Query processed, returned 2 postings, duration=1 ms
+
+Processing query "Approach of the correction of deformities in orthopedics"
+Normalizing: "approach"(568) "of"(7667) "the"(7631) "correct"(309) "of"(7667) "deform"(118) "in"(6983) "orthoped"(49)
+Ordering posting list: (49) (118) (309) (568) (6983) (7631) (7667) (7667)
+Processing conjunction: (49) AND (118) >> (0)
+Query processed, returned 0 postings, duration=1 ms
+
+Processing query "Treatment of squamous cell carcinoma"
+Normalizing: "treatment"(2132) "of"(7667) "squamou"(89) "cell"(774) "carcinoma"(345)
+Ordering posting list: (89) (345) (774) (2132) (7667)
+Processing conjunction: (89) AND (345) >> (80)
+Processing conjunction: (80) AND (774) >> (77)
+Processing conjunction: (77) AND (2132) >> (18)
+Processing conjunction: (18) AND (7667) >> (18)
+Query processed, returned 18 postings, duration=6 ms
+
+Processing query "Associated diseases with insulin dependent diabetes mellitus"
+Normalizing: "associ"(774) "diseas"(1585) "with"(5703) "insulin"(30) "depend"(533) "diabet"(86) "mellitu"(41)
+Ordering posting list: (30) (41) (86) (533) (774) (1585) (5703)
+Processing conjunction: (30) AND (41) >> (8)
+Processing conjunction: (8) AND (86) >> (8)
+Processing conjunction: (8) AND (533) >> (7)
+Processing conjunction: (7) AND (774) >> (1)
+Processing conjunction: (1) AND (1585) >> (1)
+Processing conjunction: (1) AND (5703) >> (1)
+Query processed, returned 1 postings, duration=4 ms
+
+Processing query "Therapy in chronic low back pain"
+Normalizing: "therapi"(1502) "in"(6983) "chronic"(546) "low"(597) "back"(120) "pain"(601)
+Ordering posting list: (120) (546) (597) (601) (1502) (6983)
+Processing conjunction: (120) AND (546) >> (30)
+Processing conjunction: (30) AND (597) >> (16)
+Processing conjunction: (16) AND (601) >> (16)
+Processing conjunction: (16) AND (1502) >> (7)
+Processing conjunction: (7) AND (6983) >> (6)
+Query processed, returned 6 postings, duration=2 ms
+
+Processing query "Treatment of ventricular tachycardia"
+Normalizing: "treatment"(2132) "of"(7667) "ventricular"(232) "tachycardia"(96)
+Ordering posting list: (96) (232) (2132) (7667)
+Processing conjunction: (96) AND (232) >> (60)
+Processing conjunction: (60) AND (2132) >> (20)
+Processing conjunction: (20) AND (7667) >> (20)
+Query processed, returned 20 postings, duration=1 ms
+
+Processing query "Indication for implantable cardioverter defibrillator (ICD)"
+Normalizing: "indic"(982) "for"(4738) "implant"(447) "cardiovert"(27) "defibril"(54) "icd"(68)
+Ordering posting list: (27) (54) (68) (447) (982) (4738)
+Processing conjunction: (27) AND (54) >> (27)
+Processing conjunction: (27) AND (68) >> (17)
+Processing conjunction: (17) AND (447) >> (16)
+Processing conjunction: (16) AND (982) >> (4)
+Processing conjunction: (4) AND (4738) >> (4)
+Query processed, returned 4 postings, duration=2 ms
+
+Processing query "Diagnostic in acute and chronic myocarditis"
+Normalizing: "diagnost"(770) "in"(6983) "acut"(632) "and"(7238) "chronic"(546) "myocard"(18)
+Ordering posting list: (18) (546) (632) (770) (6983) (7238)
+Processing conjunction: (18) AND (546) >> (4)
+Processing conjunction: (4) AND (632) >> (3)
+Processing conjunction: (3) AND (770) >> (0)
+Query processed, returned 0 postings, duration=1 ms
+
+Processing query "Cause of dysphagia"
+Normalizing: "caus"(1136) "of"(7667) "dysphagia"(17)
+Ordering posting list: (17) (1136) (7667)
+Processing conjunction: (17) AND (1136) >> (4)
+Processing conjunction: (4) AND (7667) >> (4)
+Query processed, returned 4 postings, duration=0 ms
+
+Processing query "Treatment of sensorineural hearing loss (SNHL)"
+Normalizing: "treatment"(2132) "of"(7667) "sensorineur"(29) "hear"(87) "loss"(381) "snhl"(4)
+Ordering posting list: (4) (29) (87) (381) (2132) (7667)
+Processing conjunction: (4) AND (29) >> (3)
+Processing conjunction: (3) AND (87) >> (3)
+Processing conjunction: (3) AND (381) >> (3)
+Processing conjunction: (3) AND (2132) >> (2)
+Processing conjunction: (2) AND (7667) >> (2)
+Query processed, returned 2 postings, duration=3 ms
+
+Processing query "Complications of surgical repair of aortic aneurysm"
+Normalizing: "complic"(940) "of"(7667) "surgic"(913) "repair"(167) "of"(7667) "aortic"(126) "aneurysm"(99)
+Ordering posting list: (99) (126) (167) (913) (940) (7667) (7667)
+Processing conjunction: (99) AND (126) >> (37)
+Processing conjunction: (37) AND (167) >> (15)
+Processing conjunction: (15) AND (913) >> (4)
+Processing conjunction: (4) AND (940) >> (1)
+Processing conjunction: (1) AND (7667) >> (1)
+Processing conjunction: (1) AND (7667) >> (1)
+Query processed, returned 1 postings, duration=3 ms
+
+Processing query "Treatment of psychosomatical patients"
+Normalizing: "treatment"(2132) "of"(7667) "psychosomat"(41) "patient"(4214)
+Ordering posting list: (41) (2132) (4214) (7667)
+Processing conjunction: (41) AND (2132) >> (16)
+Processing conjunction: (16) AND (4214) >> (13)
+Processing conjunction: (13) AND (7667) >> (13)
+Query processed, returned 13 postings, duration=11 ms
+
+Processing query "New approach in cruciate ligament surgery"
+Normalizing: "new"(808) "approach"(568) "in"(6983) "cruciat"(54) "ligament"(144) "surgeri"(1009)
+Ordering posting list: (54) (144) (568) (808) (1009) (6983)
+Processing conjunction: (54) AND (144) >> (52)
+Processing conjunction: (52) AND (568) >> (0)
+Query processed, returned 0 postings, duration=1 ms
+
+Reading ground truth file .\Common\springer_reference.xml
+Found 25 queries (14 23 4 5 4 3 8 14 6 24 19 16 23 65 17 15 27 22 21 7 15 14 8 16 24)
+Evaluating the search engine class query.RankingQueryEngine
+Processing query "Arthroscopic treatment of cruciate ligament injuries" with RankingQueryEngine
+Normalizing: "arthroscop"(100) "treatment"(2132) "of"(7667) "cruciat"(54) "ligament"(144) "injuri"(465)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Complications of arthroscopic interventions" with RankingQueryEngine
+Normalizing: "complic"(940) "of"(7667) "arthroscop"(100) "intervent"(380)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Pathophysiology and prophylaxis  of arthrofibrosis" with RankingQueryEngine
+Normalizing: "pathophysiolog"(152) "and"(7238) "prophylaxi"(93) "of"(7667) "arthrofibrosi"(12)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "HIV Epidemiology, Risk Assessment" with RankingQueryEngine
+Normalizing: "hiv"(72) "epidemiolog"(101) "risk"(900) "assess"(643)
+Query processed, returned 7823 postings, duration=6 ms
+
+Processing query "Patient-controlled analgesia indications and limits" with RankingQueryEngine
+Normalizing: "patient"(4214) "control"(784) "analgesia"(74) "indic"(982) "and"(7238) "limit"(471)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Priming with non-depolarizing muscle relaxants" with RankingQueryEngine
+Normalizing: "prime"(11) "with"(5703) "non"(624) "depolar"(13) "muscl"(307) "relax"(83)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Complications after laparoscopic cholecystectomy" with RankingQueryEngine
+Normalizing: "complic"(940) "after"(2209) "laparoscop"(78) "cholecystectomi"(25)
+Query processed, returned 7823 postings, duration=6 ms
+
+Processing query "Heparin induced thrombocytopenia, diagnosis and management" with RankingQueryEngine
+Normalizing: "heparin"(55) "induc"(474) "thrombocytopenia"(25) "diagnosi"(1188) "and"(7238) "manag"(452)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Diagnostic in Lyme disease" with RankingQueryEngine
+Normalizing: "diagnost"(770) "in"(6983) "lyme"(6) "diseas"(1585)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Treatment of acute myocardial infarction" with RankingQueryEngine
+Normalizing: "treatment"(2132) "of"(7667) "acut"(632) "myocardi"(224) "infarct"(181)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Catheter ablation and cardiac mapping" with RankingQueryEngine
+Normalizing: "cathet"(137) "ablat"(62) "and"(7238) "cardiac"(378) "map"(49)
+Query processed, returned 7823 postings, duration=8 ms
+
+Processing query "Diagnostic approach in injuries of the shoulder" with RankingQueryEngine
+Normalizing: "diagnost"(770) "approach"(568) "in"(6983) "injuri"(465) "of"(7667) "the"(7631) "shoulder"(85)
+Query processed, returned 7823 postings, duration=3 ms
+
+Processing query "Differential diagnosis in infertility" with RankingQueryEngine
+Normalizing: "differenti"(591) "diagnosi"(1188) "in"(6983) "infertil"(27)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Approach of the correction of deformities in orthopedics" with RankingQueryEngine
+Normalizing: "approach"(568) "of"(7667) "the"(7631) "correct"(309) "of"(7667) "deform"(118) "in"(6983) "orthoped"(49)
+Query processed, returned 7823 postings, duration=7 ms
+
+Processing query "Treatment of squamous cell carcinoma" with RankingQueryEngine
+Normalizing: "treatment"(2132) "of"(7667) "squamou"(89) "cell"(774) "carcinoma"(345)
+Query processed, returned 7823 postings, duration=3 ms
+
+Processing query "Associated diseases with insulin dependent diabetes mellitus" with RankingQueryEngine
+Normalizing: "associ"(774) "diseas"(1585) "with"(5703) "insulin"(30) "depend"(533) "diabet"(86) "mellitu"(41)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Therapy in chronic low back pain" with RankingQueryEngine
+Normalizing: "therapi"(1502) "in"(6983) "chronic"(546) "low"(597) "back"(120) "pain"(601)
+Query processed, returned 7823 postings, duration=5 ms
+
+Processing query "Treatment of ventricular tachycardia" with RankingQueryEngine
+Normalizing: "treatment"(2132) "of"(7667) "ventricular"(232) "tachycardia"(96)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Indication for implantable cardioverter defibrillator (ICD)" with RankingQueryEngine
+Normalizing: "indic"(982) "for"(4738) "implant"(447) "cardiovert"(27) "defibril"(54) "icd"(68)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Diagnostic in acute and chronic myocarditis" with RankingQueryEngine
+Normalizing: "diagnost"(770) "in"(6983) "acut"(632) "and"(7238) "chronic"(546) "myocard"(18)
+Query processed, returned 7823 postings, duration=3 ms
+
+Processing query "Cause of dysphagia" with RankingQueryEngine
+Normalizing: "caus"(1136) "of"(7667) "dysphagia"(17)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Treatment of sensorineural hearing loss (SNHL)" with RankingQueryEngine
+Normalizing: "treatment"(2132) "of"(7667) "sensorineur"(29) "hear"(87) "loss"(381) "snhl"(4)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Complications of surgical repair of aortic aneurysm" with RankingQueryEngine
+Normalizing: "complic"(940) "of"(7667) "surgic"(913) "repair"(167) "of"(7667) "aortic"(126) "aneurysm"(99)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Treatment of psychosomatical patients" with RankingQueryEngine
+Normalizing: "treatment"(2132) "of"(7667) "psychosomat"(41) "patient"(4214)
+Query processed, returned 7823 postings, duration=3 ms
+
+Processing query "New approach in cruciate ligament surgery" with RankingQueryEngine
+Normalizing: "new"(808) "approach"(568) "in"(6983) "cruciat"(54) "ligament"(144) "surgeri"(1009)
+Query processed, returned 7823 postings, duration=2 ms
+
+
+----------------Evaluation AndQueryEngine------------
+PRECISION       RECALL  F_MEASURE
+1,00    0,14    0,25    Arthroscopic treatment of cruciate ligament injuries
+0,00    0,00    0,00    Complications of arthroscopic interventions
+0,00    0,00    0,00    Pathophysiology and prophylaxis  of arthrofibrosis
+0,00    0,00    0,00    HIV Epidemiology, Risk Assessment
+0,00    0,00    0,00    Patient-controlled analgesia indications and limits
+0,00    0,00    0,00    Priming with non-depolarizing muscle relaxants
+0,83    0,62    0,71    Complications after laparoscopic cholecystectomy
+0,00    0,00    0,00    Heparin induced thrombocytopenia, diagnosis and management
+0,50    0,17    0,25    Diagnostic in Lyme disease
+0,33    0,29    0,31    Treatment of acute myocardial infarction
+1,00    0,11    0,19    Catheter ablation and cardiac mapping
+1,00    0,06    0,12    Diagnostic approach in injuries of the shoulder
+0,50    0,04    0,08    Differential diagnosis in infertility
+0,00    0,00    0,00    Approach of the correction of deformities in orthopedics
+0,39    0,41    0,40    Treatment of squamous cell carcinoma
+1,00    0,07    0,12    Associated diseases with insulin dependent diabetes mellitus
+1,00    0,22    0,36    Therapy in chronic low back pain
+0,45    0,41    0,43    Treatment of ventricular tachycardia
+0,25    0,05    0,08    Indication for implantable cardioverter defibrillator (ICD)
+0,00    0,00    0,00    Diagnostic in acute and chronic myocarditis
+0,75    0,20    0,32    Cause of dysphagia
+1,00    0,14    0,25    Treatment of sensorineural hearing loss (SNHL)
+1,00    0,12    0,22    Complications of surgical repair of aortic aneurysm
+0,46    0,38    0,41    Treatment of psychosomatical patients
+0,00    0,00    0,00    New approach in cruciate ligament surgery
+––––––––––––––––––––––––––––––––––––––-
+0,46    0,14    0,18
+
+----------------Evaluation RankingQueryEngine------------
+PRECISION       RECALL  F_MEASURE
+0,64    0,04    0,08    Arthroscopic treatment of cruciate ligament injuries
+0,48    0,07    0,12    Complications of arthroscopic interventions
+0,48    0,11    0,18    Pathophysiology and prophylaxis  of arthrofibrosis
+0,52    0,16    0,23    HIV Epidemiology, Risk Assessment
+0,53    0,20    0,27    Patient-controlled analgesia indications and limits
+0,54    0,25    0,32    Priming with non-depolarizing muscle relaxants
+0,52    0,29    0,34    Complications after laparoscopic cholecystectomy
+0,51    0,32    0,36    Heparin induced thrombocytopenia, diagnosis and management
+0,49    0,34    0,36    Diagnostic in Lyme disease
+0,48    0,38    0,38    Treatment of acute myocardial infarction
+0,48    0,40    0,40    Catheter ablation and cardiac mapping
+0,47    0,43    0,41    Diagnostic approach in injuries of the shoulder
+0,45    0,44    0,41    Differential diagnosis in infertility
+0,44    0,45    0,41    Approach of the correction of deformities in orthopedics
+0,43    0,49    0,42    Treatment of squamous cell carcinoma
+0,43    0,50    0,42    Associated diseases with insulin dependent diabetes mellitus
+0,41    0,51    0,42    Therapy in chronic low back pain
+0,40    0,53    0,42    Treatment of ventricular tachycardia
+0,39    0,54    0,41    Indication for implantable cardioverter defibrillator (ICD)
+0,37    0,55    0,41    Diagnostic in acute and chronic myocarditis
+0,37    0,56    0,40    Cause of dysphagia
+0,36    0,57    0,41    Treatment of sensorineural hearing loss (SNHL)
+0,35    0,58    0,40    Complications of surgical repair of aortic aneurysm
+0,35    0,60    0,41    Treatment of psychosomatical patients
+0,35    0,61    0,41    New approach in cruciate ligament surgery
+––––––––––––––––––––––––––––––––––––––-
+0,34    0,62    0,41
+java.lang.IndexOutOfBoundsException: Index: 26, Size: 25
+        at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+        at java.util.ArrayList.get(ArrayList.java:433)
+        at Test1.testEvaluation(Test1.java:204)
+        at Test1.testQuery(Test1.java:136)
+        at Test1.main(Test1.java:62)
+
+--------------Evaluation springer_stem_stopwords-------------
+
+Loading the index... data\springer_filter_stem_index.data
+Index loaded, duration=8008  ms
+
+Reading ground truth file .\Common\springer_reference.xml
+Found 25 queries (14 23 4 5 4 3 8 14 6 24 19 16 23 65 17 15 27 22 21 7 15 14 8 16 24)
+Processing query "Arthroscopic treatment of cruciate ligament injuries"
+Normalizing: "arthroscop"(100) "cruciat"(54) "ligament"(144) "injuri"(465)
+Ordering posting list: (54) (100) (144) (465)
+Processing conjunction: (54) AND (100) >> (17)
+Processing conjunction: (17) AND (144) >> (16)
+Processing conjunction: (16) AND (465) >> (6)
+Query processed, returned 6 postings, duration=5 ms
+
+Processing query "Complications of arthroscopic interventions"
+Normalizing: "complic"(940) "arthroscop"(100) "intervent"(380)
+Ordering posting list: (100) (380) (940)
+Processing conjunction: (100) AND (380) >> (3)
+Processing conjunction: (3) AND (940) >> (0)
+Query processed, returned 0 postings, duration=1 ms
+
+Processing query "Pathophysiology and prophylaxis  of arthrofibrosis"
+Normalizing: "pathophysiolog"(152) "prophylaxi"(93) "arthrofibrosi"(12)
+Ordering posting list: (12) (93) (152)
+Processing conjunction: (12) AND (93) >> (0)
+Query processed, returned 0 postings, duration=4 ms
+
+Processing query "HIV Epidemiology, Risk Assessment"
+Normalizing: "hiv"(72) "epidemiolog"(101) "risk"(900) "assess"(643)
+Ordering posting list: (72) (101) (643) (900)
+Processing conjunction: (72) AND (101) >> (5)
+Processing conjunction: (5) AND (643) >> (1)
+Processing conjunction: (1) AND (900) >> (0)
+Query processed, returned 0 postings, duration=1 ms
+
+Processing query "Patient-controlled analgesia indications and limits"
+Normalizing: "control"(784) "analgesia"(74) "indic"(982) "limit"(471)
+Ordering posting list: (74) (471) (784) (982)
+Processing conjunction: (74) AND (471) >> (5)
+Processing conjunction: (5) AND (784) >> (0)
+Query processed, returned 0 postings, duration=1 ms
+
+Processing query "Priming with non-depolarizing muscle relaxants"
+Normalizing: "prime"(11) "non"(624) "depolar"(13) "muscl"(307) "relax"(83)
+Ordering posting list: (11) (13) (83) (307) (624)
+Processing conjunction: (11) AND (13) >> (0)
+Query processed, returned 0 postings, duration=1 ms
+
+Processing query "Complications after laparoscopic cholecystectomy"
+Normalizing: "complic"(940) "laparoscop"(78) "cholecystectomi"(25)
+Ordering posting list: (25) (78) (940)
+Processing conjunction: (25) AND (78) >> (18)
+Processing conjunction: (18) AND (940) >> (9)
+Query processed, returned 9 postings, duration=86 ms
+
+Processing query "Heparin induced thrombocytopenia, diagnosis and management"
+Normalizing: "heparin"(55) "induc"(474) "thrombocytopenia"(25) "manag"(452)
+Ordering posting list: (25) (55) (452) (474)
+Processing conjunction: (25) AND (55) >> (15)
+Processing conjunction: (15) AND (452) >> (1)
+Processing conjunction: (1) AND (474) >> (1)
+Query processed, returned 1 postings, duration=1 ms
+
+Processing query "Diagnostic in Lyme disease"
+Normalizing: "diagnost"(770) "lyme"(6)
+Ordering posting list: (6) (770)
+Processing conjunction: (6) AND (770) >> (2)
+Query processed, returned 2 postings, duration=9 ms
+
+Processing query "Treatment of acute myocardial infarction"
+Normalizing: "acut"(632) "myocardi"(224) "infarct"(181)
+Ordering posting list: (181) (224) (632)
+Processing conjunction: (181) AND (224) >> (130)
+Processing conjunction: (130) AND (632) >> (69)
+Query processed, returned 69 postings, duration=18 ms
+
+Processing query "Catheter ablation and cardiac mapping"
+Normalizing: "cathet"(137) "ablat"(62) "cardiac"(378) "map"(49)
+Ordering posting list: (49) (62) (137) (378)
+Processing conjunction: (49) AND (62) >> (15)
+Processing conjunction: (15) AND (137) >> (14)
+Processing conjunction: (14) AND (378) >> (2)
+Query processed, returned 2 postings, duration=1 ms
+
+Processing query "Diagnostic approach in injuries of the shoulder"
+Normalizing: "diagnost"(770) "approach"(568) "injuri"(465) "shoulder"(85)
+Ordering posting list: (85) (465) (568) (770)
+Processing conjunction: (85) AND (465) >> (26)
+Processing conjunction: (26) AND (568) >> (1)
+Processing conjunction: (1) AND (770) >> (1)
+Query processed, returned 1 postings, duration=1 ms
+
+Processing query "Differential diagnosis in infertility"
+Normalizing: "differenti"(591) "infertil"(27)
+Ordering posting list: (27) (591)
+Processing conjunction: (27) AND (591) >> (5)
+Query processed, returned 5 postings, duration=0 ms
+
+Processing query "Approach of the correction of deformities in orthopedics"
+Normalizing: "approach"(568) "correct"(309) "deform"(118) "orthoped"(49)
+Ordering posting list: (49) (118) (309) (568)
+Processing conjunction: (49) AND (118) >> (0)
+Query processed, returned 0 postings, duration=0 ms
+
+Processing query "Treatment of squamous cell carcinoma"
+Normalizing: "squamou"(89) "carcinoma"(345)
+Ordering posting list: (89) (345)
+Processing conjunction: (89) AND (345) >> (80)
+Query processed, returned 80 postings, duration=8 ms
+
+Processing query "Associated diseases with insulin dependent diabetes mellitus"
+Normalizing: "associ"(774) "insulin"(30) "depend"(533) "diabet"(86) "mellitu"(41)
+Ordering posting list: (30) (41) (86) (533) (774)
+Processing conjunction: (30) AND (41) >> (8)
+Processing conjunction: (8) AND (86) >> (8)
+Processing conjunction: (8) AND (533) >> (7)
+Processing conjunction: (7) AND (774) >> (1)
+Query processed, returned 1 postings, duration=1 ms
+
+Processing query "Therapy in chronic low back pain"
+Normalizing: "chronic"(546) "low"(597) "back"(120) "pain"(601)
+Ordering posting list: (120) (546) (597) (601)
+Processing conjunction: (120) AND (546) >> (30)
+Processing conjunction: (30) AND (597) >> (16)
+Processing conjunction: (16) AND (601) >> (16)
+Query processed, returned 16 postings, duration=1 ms
+
+Processing query "Treatment of ventricular tachycardia"
+Normalizing: "ventricular"(232) "tachycardia"(96)
+Ordering posting list: (96) (232)
+Processing conjunction: (96) AND (232) >> (60)
+Query processed, returned 60 postings, duration=5 ms
+
+Processing query "Indication for implantable cardioverter defibrillator (ICD)"
+Normalizing: "indic"(982) "implant"(447) "cardiovert"(27) "defibril"(54) "icd"(68)
+Ordering posting list: (27) (54) (68) (447) (982)
+Processing conjunction: (27) AND (54) >> (27)
+Processing conjunction: (27) AND (68) >> (17)
+Processing conjunction: (17) AND (447) >> (16)
+Processing conjunction: (16) AND (982) >> (4)
+Query processed, returned 4 postings, duration=1 ms
+
+Processing query "Diagnostic in acute and chronic myocarditis"
+Normalizing: "diagnost"(770) "acut"(632) "chronic"(546) "myocard"(18)
+Ordering posting list: (18) (546) (632) (770)
+Processing conjunction: (18) AND (546) >> (4)
+Processing conjunction: (4) AND (632) >> (3)
+Processing conjunction: (3) AND (770) >> (0)
+Query processed, returned 0 postings, duration=1 ms
+
+Processing query "Cause of dysphagia"
+Normalizing: "caus"(1136) "dysphagia"(17)
+Ordering posting list: (17) (1136)
+Processing conjunction: (17) AND (1136) >> (4)
+Query processed, returned 4 postings, duration=5 ms
+
+Processing query "Treatment of sensorineural hearing loss (SNHL)"
+Normalizing: "sensorineur"(29) "hear"(87) "loss"(381) "snhl"(4)
+Ordering posting list: (4) (29) (87) (381)
+Processing conjunction: (4) AND (29) >> (3)
+Processing conjunction: (3) AND (87) >> (3)
+Processing conjunction: (3) AND (381) >> (3)
+Query processed, returned 3 postings, duration=2 ms
+
+Processing query "Complications of surgical repair of aortic aneurysm"
+Normalizing: "complic"(940) "surgic"(913) "repair"(167) "aortic"(126) "aneurysm"(99)
+Ordering posting list: (99) (126) (167) (913) (940)
+Processing conjunction: (99) AND (126) >> (37)
+Processing conjunction: (37) AND (167) >> (15)
+Processing conjunction: (15) AND (913) >> (4)
+Processing conjunction: (4) AND (940) >> (1)
+Query processed, returned 1 postings, duration=2 ms
+
+Processing query "Treatment of psychosomatical patients"
+Normalizing: "psychosomat"(41)
+Ordering posting list: (41)
+Query processed, returned 41 postings, duration=1 ms
+
+Processing query "New approach in cruciate ligament surgery"
+Normalizing: "new"(808) "approach"(568) "cruciat"(54) "ligament"(144)
+Ordering posting list: (54) (144) (568) (808)
+Processing conjunction: (54) AND (144) >> (52)
+Processing conjunction: (52) AND (568) >> (0)
+Query processed, returned 0 postings, duration=1 ms
+
+Reading ground truth file .\Common\springer_reference.xml
+Found 25 queries (14 23 4 5 4 3 8 14 6 24 19 16 23 65 17 15 27 22 21 7 15 14 8 16 24)
+Evaluating the search engine class query.RankingQueryEngine
+Processing query "Arthroscopic treatment of cruciate ligament injuries" with RankingQueryEngine
+Normalizing: "arthroscop"(100) "cruciat"(54) "ligament"(144) "injuri"(465)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Complications of arthroscopic interventions" with RankingQueryEngine
+Normalizing: "complic"(940) "arthroscop"(100) "intervent"(380)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Pathophysiology and prophylaxis  of arthrofibrosis" with RankingQueryEngine
+Normalizing: "pathophysiolog"(152) "prophylaxi"(93) "arthrofibrosi"(12)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "HIV Epidemiology, Risk Assessment" with RankingQueryEngine
+Normalizing: "hiv"(72) "epidemiolog"(101) "risk"(900) "assess"(643)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Patient-controlled analgesia indications and limits" with RankingQueryEngine
+Normalizing: "control"(784) "analgesia"(74) "indic"(982) "limit"(471)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Priming with non-depolarizing muscle relaxants" with RankingQueryEngine
+Normalizing: "prime"(11) "non"(624) "depolar"(13) "muscl"(307) "relax"(83)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Complications after laparoscopic cholecystectomy" with RankingQueryEngine
+Normalizing: "complic"(940) "laparoscop"(78) "cholecystectomi"(25)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Heparin induced thrombocytopenia, diagnosis and management" with RankingQueryEngine
+Normalizing: "heparin"(55) "induc"(474) "thrombocytopenia"(25) "manag"(452)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Diagnostic in Lyme disease" with RankingQueryEngine
+Normalizing: "diagnost"(770) "lyme"(6)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Treatment of acute myocardial infarction" with RankingQueryEngine
+Normalizing: "acut"(632) "myocardi"(224) "infarct"(181)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Catheter ablation and cardiac mapping" with RankingQueryEngine
+Normalizing: "cathet"(137) "ablat"(62) "cardiac"(378) "map"(49)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Diagnostic approach in injuries of the shoulder" with RankingQueryEngine
+Normalizing: "diagnost"(770) "approach"(568) "injuri"(465) "shoulder"(85)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Differential diagnosis in infertility" with RankingQueryEngine
+Normalizing: "differenti"(591) "infertil"(27)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Approach of the correction of deformities in orthopedics" with RankingQueryEngine
+Normalizing: "approach"(568) "correct"(309) "deform"(118) "orthoped"(49)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Treatment of squamous cell carcinoma" with RankingQueryEngine
+Normalizing: "squamou"(89) "carcinoma"(345)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Associated diseases with insulin dependent diabetes mellitus" with RankingQueryEngine
+Normalizing: "associ"(774) "insulin"(30) "depend"(533) "diabet"(86) "mellitu"(41)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Therapy in chronic low back pain" with RankingQueryEngine
+Normalizing: "chronic"(546) "low"(597) "back"(120) "pain"(601)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Treatment of ventricular tachycardia" with RankingQueryEngine
+Normalizing: "ventricular"(232) "tachycardia"(96)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Indication for implantable cardioverter defibrillator (ICD)" with RankingQueryEngine
+Normalizing: "indic"(982) "implant"(447) "cardiovert"(27) "defibril"(54) "icd"(68)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Diagnostic in acute and chronic myocarditis" with RankingQueryEngine
+Normalizing: "diagnost"(770) "acut"(632) "chronic"(546) "myocard"(18)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Cause of dysphagia" with RankingQueryEngine
+Normalizing: "caus"(1136) "dysphagia"(17)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Treatment of sensorineural hearing loss (SNHL)" with RankingQueryEngine
+Normalizing: "sensorineur"(29) "hear"(87) "loss"(381) "snhl"(4)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "Complications of surgical repair of aortic aneurysm" with RankingQueryEngine
+Normalizing: "complic"(940) "surgic"(913) "repair"(167) "aortic"(126) "aneurysm"(99)
+Query processed, returned 7823 postings, duration=2 ms
+
+Processing query "Treatment of psychosomatical patients" with RankingQueryEngine
+Normalizing: "psychosomat"(41)
+Query processed, returned 7823 postings, duration=1 ms
+
+Processing query "New approach in cruciate ligament surgery" with RankingQueryEngine
+Normalizing: "new"(808) "approach"(568) "cruciat"(54) "ligament"(144)
+Query processed, returned 7823 postings, duration=2 ms
+
+
+----------------Evaluation AndQueryEngine------------
+PRECISION       RECALL  F_MEASURE
+0,33    0,14    0,20    Arthroscopic treatment of cruciate ligament injuries
+0,00    0,00    0,00    Complications of arthroscopic interventions
+0,00    0,00    0,00    Pathophysiology and prophylaxis  of arthrofibrosis
+0,00    0,00    0,00    HIV Epidemiology, Risk Assessment
+0,00    0,00    0,00    Patient-controlled analgesia indications and limits
+0,00    0,00    0,00    Priming with non-depolarizing muscle relaxants
+0,78    0,88    0,82    Complications after laparoscopic cholecystectomy
+1,00    0,07    0,13    Heparin induced thrombocytopenia, diagnosis and management
+0,50    0,17    0,25    Diagnostic in Lyme disease
+0,29    0,83    0,43    Treatment of acute myocardial infarction
+1,00    0,11    0,19    Catheter ablation and cardiac mapping
+1,00    0,06    0,12    Diagnostic approach in injuries of the shoulder
+0,80    0,17    0,29    Differential diagnosis in infertility
+0,00    0,00    0,00    Approach of the correction of deformities in orthopedics
+0,19    0,88    0,31    Treatment of squamous cell carcinoma
+1,00    0,07    0,12    Associated diseases with insulin dependent diabetes mellitus
+0,69    0,41    0,51    Therapy in chronic low back pain
+0,33    0,91    0,49    Treatment of ventricular tachycardia
+0,25    0,05    0,08    Indication for implantable cardioverter defibrillator (ICD)
+0,00    0,00    0,00    Diagnostic in acute and chronic myocarditis
+0,75    0,20    0,32    Cause of dysphagia
+0,67    0,14    0,24    Treatment of sensorineural hearing loss (SNHL)
+1,00    0,12    0,22    Complications of surgical repair of aortic aneurysm
+0,29    0,75    0,42    Treatment of psychosomatical patients
+0,00    0,00    0,00    New approach in cruciate ligament surgery
+––––––––––––––––––––––––––––––––––––––-
+0,43    0,24    0,21
+
+----------------Evaluation RankingQueryEngine------------
+PRECISION       RECALL  F_MEASURE
+0,64    0,05    0,09    Arthroscopic treatment of cruciate ligament injuries
+0,48    0,08    0,13    Complications of arthroscopic interventions
+0,52    0,13    0,19    Pathophysiology and prophylaxis  of arthrofibrosis
+0,53    0,19    0,25    HIV Epidemiology, Risk Assessment
+0,54    0,23    0,29    Patient-controlled analgesia indications and limits
+0,51    0,25    0,31    Priming with non-depolarizing muscle relaxants
+0,49    0,28    0,33    Complications after laparoscopic cholecystectomy
+0,47    0,31    0,34    Heparin induced thrombocytopenia, diagnosis and management
+0,48    0,34    0,36    Diagnostic in Lyme disease
+0,45    0,35    0,36    Treatment of acute myocardial infarction
+0,45    0,39    0,38    Catheter ablation and cardiac mapping
+0,44    0,41    0,39    Diagnostic approach in injuries of the shoulder
+0,42    0,43    0,39    Differential diagnosis in infertility
+0,41    0,44    0,39    Approach of the correction of deformities in orthopedics
+0,41    0,47    0,40    Treatment of squamous cell carcinoma
+0,39    0,48    0,39    Associated diseases with insulin dependent diabetes mellitus
+0,39    0,49    0,40    Therapy in chronic low back pain
+0,38    0,51    0,40    Treatment of ventricular tachycardia
+0,37    0,53    0,40    Indication for implantable cardioverter defibrillator (ICD)
+0,36    0,54    0,40    Diagnostic in acute and chronic myocarditis
+0,36    0,56    0,40    Cause of dysphagia
+0,36    0,58    0,41    Treatment of sensorineural hearing loss (SNHL)
+0,35    0,58    0,40    Complications of surgical repair of aortic aneurysm
+0,34    0,58    0,40    Treatment of psychosomatical patients
+0,33    0,59    0,39    New approach in cruciate ligament surgery
+––––––––––––––––––––––––––––––––––––––-
+0,33    0,60    0,39
+java.lang.IndexOutOfBoundsException: Index: 26, Size: 25
+        at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+        at java.util.ArrayList.get(ArrayList.java:433)
+        at Test1.testEvaluation(Test1.java:204)
+        at Test1.testQuery(Test1.java:139)
+        at Test1.main(Test1.java:62)

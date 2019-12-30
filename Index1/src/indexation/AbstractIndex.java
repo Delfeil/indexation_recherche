@@ -77,7 +77,7 @@ public abstract class AbstractIndex implements Serializable
 		docNbr = tokenizer.tokenizeCorpus(tokens);
 		long end = System.currentTimeMillis();
 		if(!scilence) {
-			System.out.println(docNbr + " tokens were found, Durée mesurée : "+
+			System.out.println(tokens.size() + " tokens were found, Durée mesurée : "+
 				(end - start) + "  ms\n");
 		}
 

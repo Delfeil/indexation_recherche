@@ -3,6 +3,7 @@ package performance;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -63,12 +64,14 @@ public class RankingEvaluator extends AbstractEvaluator
 		//TODO méthode à compléter  (TP6-ex14)
 		
 		
-		List<List<Posting>> llpoAnswers = new LinkedList<List<Posting>>();
+		List<List<Posting>> llpoAnswers = new ArrayList<List<Posting>>();
 		for (List<DocScore> docScores : answers) {
-			List<Posting> lpoAnswers = new LinkedList<Posting>();
-			for (int i = 0; i < k; i++) {
-				DocScore docScore = docScores.get(i);
-				lpoAnswers.add(new Posting(docScore.getDocId()));
+			List<Posting> lpoAnswers = new ArrayList<Posting>();
+			if(docScores.size()>0) {
+				for (int i = 0; i < k; i++) {
+					DocScore docScore = docScores.get(i);
+					lpoAnswers.add(new Posting(docScore.getDocId()));
+				}
 			}
 			llpoAnswers.add(lpoAnswers);
 		}
@@ -99,6 +102,28 @@ public class RankingEvaluator extends AbstractEvaluator
 	public List<Map<MeasureName,Float>> evaluateEngine(RankingQueryEngine engine) throws FileNotFoundException, UnsupportedEncodingException
 	{	List<Map<MeasureName,Float>> result = null;
 		//TODO méthode à compléter  (TP6-ex15)
+		System.out.println("Evaluating the search engine " + engine.getClass());
+		AbstractIndex index = engine.getIndex();
+		int docNbr = index.getDocumentNumber();
+		
+			// on traite chaque requête d'évaluation
+		List<List<DocScore>> answers = new ArrayList<List<DocScore>>();
+		List<String> queries = groundTruth.getQueries();
+		for(String query: queries) {
+			List<DocScore> answer = engine.processQuery(query,0);
+			answers.add(answer);
+		}
+			
+			// on calcule les performances correspondant aux réponses
+		result = new ArrayList<Map<MeasureName,Float>>();
+		for(int k=1;k<=docNbr;k++) {
+			// System.out.println("k="+k + "/" + docNbr);
+			List<Map<MeasureName,Float>> temp = evaluateQueryAnswers(answers,k);
+			Map<MeasureName,Float> meanVals = temp.get(temp.size()-1);
+			result.add(meanVals);
+		}
+		
+		writePerformances(result);
 		return result;
 	}
 	
@@ -119,15 +144,17 @@ public class RankingEvaluator extends AbstractEvaluator
 		//TODO méthode à compléter  (TP6-ex14)
 		Configuration.setCorpusName("springer");
 		AbstractIndex index  = AbstractIndex.read();
+		System.out.println(index.getDocumentNumber());
 		RankingQueryEngine rqe = new RankingQueryEngine(index);
-		List<List<DocScore>> answers = new LinkedList<List<DocScore>>();
-		answers.add(rqe.processQuery("panneaux solaires électricité", 10));
-		answers.add(rqe.processQuery("recherche d’information sur le Web", 10));
-		answers.add(rqe.processQuery("roman", 10));
+		// List<List<DocScore>> answers = new ArrayList<List<DocScore>>();
+		// answers.add(rqe.processQuery("panneaux solaires électricité", 10));
+		// answers.add(rqe.processQuery("recherche d’information sur le Web", 10));
+		// answers.add(rqe.processQuery("roman", 10));
 		RankingEvaluator re = new RankingEvaluator();
-		re.evaluateQueryAnswers(answers, 5);
+		// re.evaluateQueryAnswers(answers, 5);
 
 		// test de evaluateEngine
 		//TODO méthode à compléter  (TP6-ex15)
+		re.evaluateEngine(rqe);
 	}
 }

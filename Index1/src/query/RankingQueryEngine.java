@@ -52,15 +52,15 @@ public class RankingQueryEngine
 	 * 		Liste ordonnée des documents sélectionnés, avec leurs scores.
 	 */
 	public List<DocScore> processQuery(String query, int k)
-	{	List<DocScore> result = new LinkedList<DocScore>();
+	{	List<DocScore> result = new ArrayList<DocScore>();
 		//TODO méthode à compléter (TP6-ex11)
 		Boolean scilence = Configuration.isScilence();
 		if(!scilence) {
-			System.out.println("Processing query \"" + query + "\"");
+			System.out.println("Processing query \"" + query + "\" with RankingQueryEngine");
 		}
 		long start = System.currentTimeMillis();
 		// List<List<Posting>> llp = new ArrayList<List<Posting>>();
-		List<IndexEntry> lie = new LinkedList<IndexEntry>();
+		List<IndexEntry> lie = new ArrayList<IndexEntry>();
 		this.splitQuery(query, lie);
 		this.sortDocuments(lie, k, result);
 		// result = this.processConjunctions(llp);
@@ -89,9 +89,6 @@ public class RankingQueryEngine
 	 */
 	private void splitQuery(String query, List<IndexEntry> result)
 	{	//TODO méthode à compléter (TP6-ex10)
-		if(result==null) {
-			result = new LinkedList<IndexEntry>();
-		}
 		Boolean scilence = Configuration.isScilence();
 		if(!scilence) {
 			System.out.print("Normalizing:");
@@ -144,9 +141,7 @@ public class RankingQueryEngine
 		//TODO méthode à compléter (TP6-ex7)
 		int tf = posting.getFrequency();
 		if(tf >0) {
-			result = 1.0F + (float) Math.log10(tf);
-		} else if(tf ==0) {
-			result =0;
+			result = 1 + (float) Math.log10(tf);
 		}
 		return result;
 	}
@@ -224,6 +219,21 @@ public class RankingQueryEngine
 			// On finalise le calcul de la même manière pour la norme de la requête q
 		queryNorm = (float)Math.sqrt(queryNorm);
 
+			// on termine le calcul des scores et on ordonne les documents
+		for(int i=0;i<scores.length;i++){
+			if(norms[i]==0) {
+				scores[i] = 0;
+			} else {
+				scores[i] = scores[i] / (norms[i]*queryNorm);
+			}
+			DocScore docScore = new DocScore(i, scores[i]);
+			orderedIds.add(docScore);
+		}
+		
+			// on garde tout si k vaut zéro
+		if(k==0) {
+			k = orderedIds.size();
+		}
 			// On finalise le calcul des scores des documents
 		Iterator<DocScore> it = orderedIds.descendingIterator();
 		int i=0;
@@ -287,7 +297,9 @@ public class RankingQueryEngine
 		// test de sortDocuments
 		//TODO méthode à compléter (TP6-ex9)
 		AndQueryEngine engine = new AndQueryEngine(index);
-		List<Posting> results = engine.processQuery("recherche ET INFORMATION ET Web");
+		List<DocScore> results = rEngine.processQuery("recherche ET INFORMATION ET Web", 10);
+		System.out.println("----------TP6 ex9-----------");
+		System.out.println(results);
 		// rEngine.sortDocuments(queryEntries, 10, );
 
 		// test de splitQuery

@@ -223,7 +223,7 @@ public class FileTools
 		
 		// test de getFileNamesFromDocScores
 		//TODO méthode à compléter  (TP6-ex12)
-		List<DocScore> docScores = new LinkedList<DocScore>();
+		List<DocScore> docScores = new ArrayList<DocScore>();
 		docScores.add(new DocScore(1, 4));
 		docScores.add(new DocScore(2, 2));
 		docScores.add(new DocScore(3, 6));

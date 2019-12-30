@@ -82,7 +82,7 @@ public class TermCounter
 		System.out.println("Tokenizing corpus");
 		long start = System.currentTimeMillis();
 		Tokenizer tokenizer = new Tokenizer();
-		List<Token> tokens = new LinkedList<Token>(); 
+		List<Token> tokens = new ArrayList<Token>(); 
 		int countTokens = tokenizer.tokenizeCorpus(tokens);
 		long end = System.currentTimeMillis();
 		System.out.println(countTokens + "tokens were found, duration=" + (end-start) + " ms\n");

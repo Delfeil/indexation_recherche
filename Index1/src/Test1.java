@@ -11,6 +11,7 @@ import indexation.AbstractIndex.TokenListType;
 import indexation.content.Posting;
 import performance.BooleanEvaluator;
 import performance.GroundTruth;
+import performance.RankingEvaluator;
 import performance.AbstractEvaluator.MeasureName;
 import query.AndQueryEngine;
 import query.DocScore;
@@ -38,8 +39,7 @@ public class Test1
 	public static void main(String[] args) throws IOException, ClassNotFoundException
 	{	// configuration de l'index
 		//TODO méthode à compléter (TP2-ex5)
-		// Configuration.setCorpusName("wp");
-		Configuration.setCorpusName("wp");
+		// Configuration.setCorpusName("springer");
 		//TODO méthode à compléter (TP4-ex15)
 		// Configuration.setStemmingTokens(true);
 		//TODO méthode à compléter (TP5-ex10)
@@ -47,17 +47,19 @@ public class Test1
 		
 		// test de l'indexation
 		//TODO méthode à compléter (TP2-ex5)
-		Test1.testIndexation();
+		// Test1.testIndexation();
 		// TermCounter.processCorpus();
 		
 		
 		// test du chargement d'index
 		//TODO méthode à compléter (TP2-ex11)
 		// AbstractIndex index_loaded = AbstractIndex.read();
+		// System.out.println(index_loaded);
+		// System.out.println(index_loaded.getEntry("the"));
 		
 		// test du traitement de requêtes
 		//TODO méthode à compléter (TP3-ex6)
-		// Test1.testQuery();
+		Test1.testQuery();
 		// Test1.testQueryies();
 
 		// test de l'évaluation de performance
@@ -78,8 +80,8 @@ public class Test1
 	{	//TODO méthode à compléter (TP2-ex5)
 		// AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.LINKED, LexiconType.ARRAY);
 		// AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.ARRAY, LexiconType.ARRAY);
-		AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.LINKED, LexiconType.HASH);
-		// AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.ARRAY, LexiconType.HASH);
+		// AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.LINKED, LexiconType.HASH);
+		AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.ARRAY, LexiconType.HASH);
 		// AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.LINKED, LexiconType.TREE);
 		// AbstractIndex index = AbstractIndex.indexCorpus(TokenListType.ARRAY, LexiconType.TREE);
 		
@@ -121,7 +123,7 @@ public class Test1
 		//TODO méthode à compléter (TP3-ex12)
 		
 		//TODO méthode à compléter (TP5-ex11)
-		/*
+		
 		Configuration.setCorpusName("springer");
 		System.out.println("\n--------------Evaluation springer-------------\n");
 		Test1.testEvaluation();
@@ -135,8 +137,8 @@ public class Test1
 		Configuration.setFilteringStopWords(true);
 		System.out.println("\n--------------Evaluation springer_stem_stopwords-------------\n");
 		Test1.testEvaluation();
-		*/
 		
+		/*
 		//TODO méthode à compléter (TP6-ex13)
 		Configuration.setCorpusName("wp");
 		AbstractIndex index = AbstractIndex.read();
@@ -148,11 +150,12 @@ public class Test1
 		queryes.add("recherche d’information sur le Web");
 		queryes.add("panneaux solaires électricité");
 		List<DocScore> result1 = rqe.processQuery(queryes.get(0), k);
-		System.out.println(result1+"\nFiles:\n"+FileTools.getFileNamesFromDocScores(result1));
+		System.out.println(result1+"\nFiles:\n"+FileTools.getFileNamesFromDocScores(result1) + "\n");
 		List<DocScore> result2 = rqe.processQuery(queryes.get(1), k);
-		System.out.println(result2+"\nFiles:\n"+FileTools.getFileNamesFromDocScores(result2));
+		System.out.println(result2+"\nFiles:\n"+FileTools.getFileNamesFromDocScores(result2) + "\n");
 		List<DocScore> result3 = rqe.processQuery(queryes.get(2), k);
-		System.out.println(result3+"\nFiles:\n"+FileTools.getFileNamesFromDocScores(result3));
+		System.out.println(result3+"\nFiles:\n"+FileTools.getFileNamesFromDocScores(result3) + "\n");
+		*/
 	}
 	
 	////////////////////////////////////////////////////
@@ -168,28 +171,48 @@ public class Test1
 			AbstractIndex index = AbstractIndex.read();
 			AndQueryEngine aqe = new AndQueryEngine(index);
 			BooleanEvaluator evaluator = new BooleanEvaluator();
+			
 			GroundTruth gTruth = evaluator.getGroundTruth();
 			List<String> queries =  gTruth.getQueries();
-			List<Map<MeasureName,Float>> evaluations = evaluator.evaluateEngine(aqe);
-
+			List<List<Map<MeasureName,Float>>> lEvaluations = new ArrayList<List<Map<MeasureName,Float>>>();
+			// List<Map<MeasureName,Float>> aqeEvaluations = evaluator.evaluateEngine(aqe);
+			lEvaluations.add(evaluator.evaluateEngine(aqe));
+			RankingQueryEngine rqe = new RankingQueryEngine(index);
+			RankingEvaluator rEvaluator = new RankingEvaluator();
+			// List<Map<MeasureName,Float>> rEvaluations = rEvaluator.evaluateEngine(rqe);
+			lEvaluations.add(rEvaluator.evaluateEngine(rqe));
+			
 			//Gestion des arrondis
 			DecimalFormat df = new DecimalFormat("0.00");
-
-			System.out.println(MeasureName.PRECISION + "\t" + MeasureName.RECALL + "\t" + MeasureName.F_MEASURE);
-			for (int i = 0; i < evaluations.size(); i++) {
-				Map<MeasureName,Float> evaluation = evaluations.get(i);
-				if(i == queries.size()) {
-					System.out.println("––––––––––––––––––––––––––––––––––––––-");
-					System.out.println(df.format(evaluation.get(MeasureName.PRECISION)) + "\t" +
-						df.format(evaluation.get(MeasureName.RECALL)) + "\t" + df.format(evaluation.get(MeasureName.F_MEASURE))
-					);
+			int j=0;
+			for (List<Map<MeasureName,Float>> evaluations : lEvaluations) {
+				if(j==0) {
+					System.out.println("\n----------------Evaluation AndQueryEngine------------");
 				} else {
-					String query = queries.get(i); 
-					System.out.println(df.format(evaluation.get(MeasureName.PRECISION)) + "\t" +
-						df.format(evaluation.get(MeasureName.RECALL)) + "\t" + df.format(evaluation.get(MeasureName.F_MEASURE)) + "\t" + query
-					);
+					System.out.println("\n----------------Evaluation RankingQueryEngine------------");
+				}
+				System.out.println(MeasureName.PRECISION + "\t" + MeasureName.RECALL + "\t" + MeasureName.F_MEASURE);
+				j++;
+				for (int i = 0; i < evaluations.size(); i++) {
+					Map<MeasureName,Float> evaluation = evaluations.get(i);
+					if(i == queries.size()) {
+						System.out.println("––––––––––––––––––––––––––––––––––––––-");
+						System.out.println(df.format(evaluation.get(MeasureName.PRECISION)) + "\t" +
+							df.format(evaluation.get(MeasureName.RECALL)) + "\t" + df.format(evaluation.get(MeasureName.F_MEASURE))
+						);
+					} else {
+						String query = queries.get(i); 
+						System.out.println(df.format(evaluation.get(MeasureName.PRECISION)) + "\t" +
+							df.format(evaluation.get(MeasureName.RECALL)) + "\t" + df.format(evaluation.get(MeasureName.F_MEASURE)) + "\t" + query
+						);
+					}
 				}
 			}
+
+			
+			
+
+
 		} catch (Exception e) {
 			//TODO: handle exception
 			e.printStackTrace();
