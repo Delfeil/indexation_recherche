@@ -59,7 +59,7 @@ public class AndQueryEngine
 		long end = System.currentTimeMillis();
 		if(!scilence) {
 			System.out.println("Query processed, returned "+
-				result.size()+" postings, duration="+(end-start)+" ms");
+				result.size()+" postings, duration="+(end-start)+" ms\n");
 		}
 		return result;
 	}

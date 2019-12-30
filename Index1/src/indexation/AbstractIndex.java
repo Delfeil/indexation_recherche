@@ -77,7 +77,7 @@ public abstract class AbstractIndex implements Serializable
 		long end = System.currentTimeMillis();
 		if(!scilence) {
 			System.out.println(nb_tokens + " tokens were found, Durée mesurée : "+
-				(end - start) + " ms");
+				(end - start) + "  ms\n");
 		}
 
 		if(!scilence) {
@@ -106,7 +106,7 @@ public abstract class AbstractIndex implements Serializable
 
 		long tot_end = System.currentTimeMillis();
 		if(!scilence) {
-			System.out.println("Total duration="+(tot_end-tot_start)+" ms");
+			System.out.println("Total duration="+(tot_end-tot_start)+"  ms\n");
 		}
 		//TODO méthode à modifier  (TP2-ex8)
 
@@ -255,7 +255,7 @@ public abstract class AbstractIndex implements Serializable
 		result = (AbstractIndex) ois.readObject();
 		ois.close();
 		long end = System.currentTimeMillis();
-		System.out.println("Index loaded, duration="+ (end-start) +" ms");
+		System.out.println("Index loaded, duration="+ (end-start) +"  ms\n");
 		
 		return result;
 	}
@@ -281,7 +281,7 @@ public abstract class AbstractIndex implements Serializable
 		oos.close();
 
 		long end = System.currentTimeMillis();
-		System.out.println("Index written, duration="+ (end-start)+" ms");
+		System.out.println("Index written, duration="+ (end-start)+"  ms\n");
 	}
 
 	////////////////////////////////////////////////////

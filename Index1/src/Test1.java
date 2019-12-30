@@ -15,6 +15,7 @@ import performance.AbstractEvaluator.MeasureName;
 import query.AndQueryEngine;
 import tools.Configuration;
 import tools.FileTools;
+import tools.TermCounter;
 
 /**
  * Classe permettant de tester
@@ -36,15 +37,17 @@ public class Test1
 	{	// configuration de l'index
 		//TODO méthode à compléter (TP2-ex5)
 		// Configuration.setCorpusName("wp");
-		Configuration.setCorpusName("wp");
+		// Configuration.setCorpusName("springer");
 		//TODO méthode à compléter (TP4-ex15)
 		// Configuration.setStemmingTokens(true);
 		//TODO méthode à compléter (TP5-ex10)
-		Configuration.setFilteringStopWords(true);
+		// Configuration.setFilteringStopWords(true);
 		
 		// test de l'indexation
 		//TODO méthode à compléter (TP2-ex5)
-		Test1.testIndexation();
+		// Test1.testIndexation();
+		// TermCounter.processCorpus();
+		
 		
 		// test du chargement d'index
 		//TODO méthode à compléter (TP2-ex11)
@@ -52,7 +55,7 @@ public class Test1
 		
 		// test du traitement de requêtes
 		//TODO méthode à compléter (TP3-ex6)
-		// Test1.testQuery();
+		Test1.testQuery();
 		// Test1.testQueryies();
 
 		// test de l'évaluation de performance
@@ -97,10 +100,11 @@ public class Test1
 	 */
 	private static void testQuery() throws IOException, ClassNotFoundException
 	{	//TODO méthode à compléter (TP3-ex6)
+		/*
 		Configuration.setCorpusName("wp");
 		AbstractIndex index = AbstractIndex.read();
 		AndQueryEngine aqe = new AndQueryEngine(index);
-
+		
 		List<String> queryes = new ArrayList<String>();
 		queryes.add("recherche");
 		queryes.add("recherche ET INFORMATION");
@@ -111,9 +115,23 @@ public class Test1
 		System.out.println(rq2+"\nFiles:\n"+FileTools.getFileNamesFromPostings(rq2));
 		List<Posting> rq3 = aqe.processQuery(queryes.get(2));
 		System.out.println(rq3+"\nFiles:\n"+FileTools.getFileNamesFromPostings(rq3));
+		*/
 		//TODO méthode à compléter (TP3-ex12)
 		
 		//TODO méthode à compléter (TP5-ex11)
+		Configuration.setCorpusName("springer");
+		System.out.println("\n--------------Evaluation springer-------------\n");
+		Test1.testEvaluation();
+		Configuration.setFilteringStopWords(true);
+		System.out.println("\n--------------Evaluation springer_stopwords-------------\n");
+		Test1.testEvaluation();
+		Configuration.setFilteringStopWords(false);
+		Configuration.setStemmingTokens(true);;
+		System.out.println("\n--------------Evaluation springer_stem-------------\n");
+		Test1.testEvaluation();
+		Configuration.setFilteringStopWords(true);
+		System.out.println("\n--------------Evaluation springer_stem_stopwords-------------\n");
+		Test1.testEvaluation();
 		
 		//TODO méthode à compléter (TP6-ex13)
 	}
@@ -203,7 +221,7 @@ public class Test1
 	
 			System.out.println("Test:");
 			System.out.println("Type d'index: " + index.getClass().getName());
-			System.out.println("Durée: " + (end-start) + " ms");
+			System.out.println("Durée: " + (end-start) + " ms\n");
 		}
 	}
 }

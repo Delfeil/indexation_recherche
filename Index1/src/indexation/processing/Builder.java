@@ -47,7 +47,7 @@ public class Builder
 		long end = System.currentTimeMillis();
 		if(!scilence) {
 			System.out.println(nb_tokens + " tokens sorted, duration="
-				+(end-start)+" ms");
+				+(end-start)+" ms\n");
 		}
 		
 		
@@ -61,7 +61,7 @@ public class Builder
 		if(!scilence) {
 			System.out.println(nb_tokens_after_filter +
 				" tokens remaining, corresponding to " + nb_terms +
-				" terms, duration="+(end-start)+" ms");
+				" terms, duration="+(end-start)+" ms\n");
 		}
 		
 		switch(lexiconType) {
@@ -83,7 +83,7 @@ public class Builder
 		end = System.currentTimeMillis();
 		if(!scilence) {
 			System.out.println(nb_postings +
-				" postings listed, lexicon type="+lexiconType + ", duration="+(end-start)+" ms");
+				" postings listed, lexicon type="+lexiconType + ", duration="+(end-start)+" ms\n");
 		}
 		//TODO méthode à modifier  (TP2-ex8)
 		return result;

@@ -85,7 +85,7 @@ public class TermCounter
 		List<Token> tokens = new LinkedList<Token>(); 
 		int countTokens = tokenizer.tokenizeCorpus(tokens);
 		long end = System.currentTimeMillis();
-		System.out.println(countTokens + "tokens were found, duration=" + (end-start) + " ms");
+		System.out.println(countTokens + "tokens were found, duration=" + (end-start) + " ms\n");
 
 			// Normalization
 		System.out.print("Normalizing tokens ");
@@ -93,7 +93,7 @@ public class TermCounter
 		Normalizer normalizer = new Normalizer();
 		normalizer.normalizeTokens(tokens);
 		end = System.currentTimeMillis();
-		System.out.println(tokens.size() + " tokens remaining after normalization, duration=" + (end-start) + " ms");
+		System.out.println(tokens.size() + " tokens remaining after normalization, duration=" + (end-start) + " ms\n");
 		
 			// Counting terms
 		System.out.println("Counting terms");
@@ -101,7 +101,7 @@ public class TermCounter
 		TermCounter termCounter = new TermCounter();
 		Map<String,Integer> termsCount = termCounter.countTerms(tokens);
 		end = System.currentTimeMillis();
-		System.out.println("There are "+termsCount.size()+" distinct terms in the corpus, duration=" + (end-start) + " ms");
+		System.out.println("There are "+termsCount.size()+" distinct terms in the corpus, duration=" + (end-start) + " ms\n");
 		
 		// Recording counts
 		start = System.currentTimeMillis();
@@ -109,13 +109,13 @@ public class TermCounter
 		System.out.println("Recording counts in "+countFile);
 		termCounter.writeCounts(termsCount, countFile);
 		end = System.currentTimeMillis();
-		System.out.println("Counts recorded, duration=" + (end-start) + " ms");
+		System.out.println("Counts recorded, duration=" + (end-start) + " ms\n");
 
 			// Stop words
 		String stopWordsFile = FileTools.getStopWordsFile();
 		System.out.println("Stop-words file: " + stopWordsFile);
 		long totEnd = System.currentTimeMillis();
-		System.out.println("Total duration=" + (totEnd-totStart) + " ms");
+		System.out.println("Total duration=" + (totEnd-totStart) + " ms\n");
 	}
 	
 	/**
