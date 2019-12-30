@@ -37,7 +37,7 @@ public class Test1
 	{	// configuration de l'index
 		//TODO méthode à compléter (TP2-ex5)
 		// Configuration.setCorpusName("wp");
-		Configuration.setCorpusName("wp_test");
+		Configuration.setCorpusName("springer");
 		//TODO méthode à compléter (TP4-ex15)
 		// Configuration.setStemmingTokens(true);
 		//TODO méthode à compléter (TP5-ex10)

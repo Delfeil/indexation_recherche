@@ -5,7 +5,10 @@ import indexation.content.IndexEntry;
 import indexation.content.Posting;
 import tools.Configuration;
 
+import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
+import java.util.TreeSet;
 
 /**
  * Objet capable de traiter une
@@ -129,6 +132,51 @@ public class RankingQueryEngine
 	 */
 	private void sortDocuments(List<IndexEntry> queryEntries, int k, List<DocScore> docScores)
 	{	//TODO méthode à compléter (TP6-ex9)
+		TreeSet<DocScore> orderedIds = new TreeSet<DocScore>();
+		int docNbr = this.index.getDocumentNumber();
+			// Score des documents (produits scalaire entre les doc et la requête)
+		float scores[] = new float[docNbr];
+		Arrays.fill(scores, 0);
+			// Normes de document d
+		float norms[] = new float[docNbr];
+		Arrays.fill(norms, 0);
+			// Norme de la requête q
+		float queryNorm = 0;
+		for (IndexEntry entry : queryEntries) {
+				// On traite chaques term t de la requête q
+			float idf = this.processIdf(entry);
+			float stq = idf;
+				// Mise à jours de la norme de la requête
+			queryNorm = queryNorm + (float)Math.pow(stq, 2);
+				// Liste des postings associés au terme t
+			List<Posting> postings = entry.getPostings();
+			for (Posting posting : postings) {
+					// On traite chaque document d de la liste des postings
+					// On calcul le score individuel du terme pour le document
+				float std = processWf(posting) * idf;
+				int docId = posting.getDocId();
+					// Mise à jours du score du document d (produit scalaire entre d et q)
+				scores[docId] = scores[docId] + stq*std;
+				norms[docId] = norms[docId] + (float)Math.pow(std, 2);
+			}
+		}
+
+			// On finalise le calcul des normes des documents d
+		for (int i = 0; i < norms.length; i++) {
+			norms[i] = (float)Math.sqrt(norms[i]);
+		}
+			// On finalise le calcul de la même manière pour la norme de la requête q
+		queryNorm = (float)Math.sqrt(queryNorm);
+
+			// On finalise le calcul des scores des documents
+		Iterator<DocScore> it = orderedIds.descendingIterator();
+		int i=0;
+		while (i<k && it.hasNext()) {
+			DocScore dScore = it.next();
+			docScores.add(dScore);
+			i++;
+		}
+	
 	}
 	
 	////////////////////////////////////////////////////
@@ -182,7 +230,10 @@ public class RankingQueryEngine
 
 		// test de sortDocuments
 		//TODO méthode à compléter (TP6-ex9)
-		
+		AndQueryEngine engine = new AndQueryEngine(index);
+		List<Posting> results = engine.processQuery("recherche ET INFORMATION ET Web");
+		// rEngine.sortDocuments(queryEntries, 10, );
+
 		// test de splitQuery
 		//TODO méthode à compléter (TP6-ex10)
 		
