@@ -244,6 +244,37 @@ public class Builder
 	private int buildPostings(List<Token> tokens, List<Integer> frequencies, AbstractIndex index)
 	{	int result = 0;
 		//TODO méthode à compléter (TP6-ex5)
+		
+		//On parcours tous les postings
+			//Pour chaque posting, on regarde si il y a une entry déjà présente dans l'index
+				//SI il y a une entry -> on ajoute le posting
+				//Sinon -> On crée l'entry et on lui ajoute le posting et on le place dans l'index
+		IndexEntry iEntry = null;
+		String prev_token_type = "";
+		int nb_token = -1;
+		int index_token =0;
+		for (Token token : tokens) {
+			if(!prev_token_type.equals(token.getType())) {
+				prev_token_type = token.getType();
+				nb_token++;
+			}
+			if(index instanceof ArrayIndex) {
+				ArrayIndex ai = (ArrayIndex) index;
+				iEntry = ai.getEntries()[nb_token];
+			} else {
+				iEntry = index.getEntry(token.getType());
+			}
+			if(iEntry == null) {
+				iEntry = new IndexEntry(token.getType());
+				iEntry.addPosting(new Posting(token.getDocId(), frequencies.get(index_token)));
+				index.addEntry(iEntry, nb_token);
+				result++;
+			} else {
+				iEntry.addPosting(new Posting(token.getDocId(), frequencies.get(index_token)));
+				result++;
+			}
+			index_token++;
+		}
 		return result;
 	}
 	
@@ -325,5 +356,13 @@ public class Builder
 		System.out.println("nb tokens: " + nb_tokens6 + " \n " + tokens6 + " \n " + freqencies);
 		// test de buildPostings
 		//TODO méthode à compléter (TP6-ex5)
+		HashIndex hi = new HashIndex(2);
+		ArrayIndex ai = new ArrayIndex(3);
+		System.out.println( "tokens: " + tokens6.size() + ", " + b.buildPostings(tokens6, freqencies, hi));
+		System.out.println("index: ");
+		hi.print();
+		System.out.println( "tokens: " + tokens6.size() + ", " + b.buildPostings(tokens6, freqencies, ai));
+		System.out.println("index: ");
+		ai.print();
 	}
 }
