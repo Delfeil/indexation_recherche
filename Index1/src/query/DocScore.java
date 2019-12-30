@@ -1,6 +1,7 @@
 package query;
 
 import java.text.NumberFormat;
+import java.util.Locale;
 
 /**
  * Classe représentant un couple (docId,score).
@@ -61,6 +62,12 @@ public class DocScore implements Comparable<DocScore>
 	public int compareTo(DocScore docScore)
 	{	int result = 0;
 		//TODO méthode à compléter (TP6-ex2)
+		result = (int)Math.signum(score - docScore.score);
+		// Float scoreFloat = (Float) this.score;
+		// result = scoreFloat.compareTo((Float)docScore.getScore());
+		if(result == 0) {
+			result = docId - docScore.docId;
+		}
 		return result;
 	}
 	
@@ -68,14 +75,20 @@ public class DocScore implements Comparable<DocScore>
 	//	OBJECT
 	////////////////////////////////////////////////////
 	/** Format utilisé lors de l'affichage du score, pour le limiter à 4 décimales */
-	private static NumberFormat NUMBER_FORMAT;
+	private static NumberFormat NUMBER_FORMAT = NumberFormat.getInstance(Locale.ENGLISH);
 	{	//TODO bloc statique à compléter (TP6-ex1)
+		NUMBER_FORMAT.setMaximumFractionDigits(4);
+		NUMBER_FORMAT.setMinimumFractionDigits(4);
 	}
 	
 	@Override
 	public String toString()
 	{	String result = null;
 		//TODO méthode à compléter (TP6-ex1)
+		// NumberFormat format = NUMBER_FORMAT.getInstance();
+		// format.setMaximumFractionDigits(4);
+		// format.setMinimumFractionDigits(4);
+		result = this.docId + " (" + NUMBER_FORMAT.format(score) + ")";
 		return result;
 	}
 	
@@ -83,6 +96,10 @@ public class DocScore implements Comparable<DocScore>
 	public boolean equals(Object o)
 	{	boolean result = false;
 		//TODO méthode à compléter (TP6-ex2)
+		if(o != null && o instanceof DocScore) {
+			DocScore docScore = (DocScore) o;
+			result = (0 == this.compareTo(docScore));
+		}
 		return result;
 	}
 	
@@ -101,9 +118,14 @@ public class DocScore implements Comparable<DocScore>
 	public static void main(String[] args) throws Exception 
 	{	// test de toString
 		// TODO méthode à compléter (TP6-ex1)
-		
+		DocScore dScore = new DocScore(10, 1.4564541874F);
+
+		System.out.println(dScore);
+
 		// test de compareTo et equals
 		// TODO méthode à compléter (TP6-ex2)
-				
+		DocScore dScore2 = new DocScore(10, 1.2648F);
+		System.out.println(dScore.equals(dScore2));
+		
 	}
 }
