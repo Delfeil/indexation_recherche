@@ -3,6 +3,7 @@ package query;
 import indexation.AbstractIndex;
 import indexation.content.IndexEntry;
 import indexation.content.Posting;
+import tools.Configuration;
 
 import java.util.List;
 
@@ -103,6 +104,9 @@ public class RankingQueryEngine
 	private float processIdf(IndexEntry entry)
 	{	float result = 0;
 		//TODO méthode à compléter (TP6-ex8)
+		int D = this.index.getDocumentNumber();
+		float df = entry.getFrequency();
+		result = (float) Math.log10(D/df);
 		return result;
 	}
 	
@@ -158,7 +162,9 @@ public class RankingQueryEngine
 	public static void main(String[] args) throws Exception 
 	{	// test de processWf
 		//TODO méthode à compléter (TP6-ex7)
-		RankingQueryEngine rEngine = new RankingQueryEngine(null);
+		Configuration.setCorpusName("wp_test");
+		AbstractIndex index = AbstractIndex.read();
+		RankingQueryEngine rEngine = new RankingQueryEngine(index);
 
 		Posting p1 = new Posting(10, 4);
 		Posting p2 = new Posting(10, 0);
@@ -168,7 +174,12 @@ public class RankingQueryEngine
 
 		// test de processIdf
 		//TODO méthode à compléter (TP6-ex8)
-		
+		IndexEntry iEntry = new IndexEntry("term");
+		iEntry.addPosting(p1);
+		iEntry.addPosting(p2);
+
+		System.out.println(rEngine.processIdf(iEntry));
+
 		// test de sortDocuments
 		//TODO méthode à compléter (TP6-ex9)
 		

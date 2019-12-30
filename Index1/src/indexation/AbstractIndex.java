@@ -52,6 +52,7 @@ public abstract class AbstractIndex implements Serializable
 	{	AbstractIndex result = null;
 		Boolean scilence = Configuration.isScilence();
 		//TODO méthode à compléter (TP2-ex4)
+		int docNbr;
 		String folder = FileTools.getCorpusFolder();
 		Tokenizer tokenizer = new Tokenizer();
 		Normalizer normalizer = new Normalizer();
@@ -73,10 +74,10 @@ public abstract class AbstractIndex implements Serializable
 			System.out.println("Tokenizing corpus...");
 		}
 		long start = System.currentTimeMillis();
-		int nb_tokens = tokenizer.tokenizeCorpus(tokens);
+		docNbr = tokenizer.tokenizeCorpus(tokens);
 		long end = System.currentTimeMillis();
 		if(!scilence) {
-			System.out.println(nb_tokens + " tokens were found, Durée mesurée : "+
+			System.out.println(docNbr + " tokens were found, Durée mesurée : "+
 				(end - start) + "  ms\n");
 		}
 
@@ -112,6 +113,7 @@ public abstract class AbstractIndex implements Serializable
 
 		result.tokenizer = tokenizer;
 		result.normalizer = normalizer;
+		result.docNbr = docNbr;
 		return result;
 	}
 	
