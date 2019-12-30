@@ -82,6 +82,12 @@ public class RankingQueryEngine
 	private float processWf(Posting posting)
 	{	float result = 0;
 		//TODO méthode à compléter (TP6-ex7)
+		int tf = posting.getFrequency();
+		if(tf >0) {
+			result = 1.0F + (float) Math.log10(tf);
+		} else if(tf ==0) {
+			result =0;
+		}
 		return result;
 	}
 	
@@ -152,7 +158,14 @@ public class RankingQueryEngine
 	public static void main(String[] args) throws Exception 
 	{	// test de processWf
 		//TODO méthode à compléter (TP6-ex7)
+		RankingQueryEngine rEngine = new RankingQueryEngine(null);
+
+		Posting p1 = new Posting(10, 4);
+		Posting p2 = new Posting(10, 0);
 		
+
+		System.out.println(rEngine.processWf(p1) + ", " + rEngine.processWf(p2));
+
 		// test de processIdf
 		//TODO méthode à compléter (TP6-ex8)
 		
