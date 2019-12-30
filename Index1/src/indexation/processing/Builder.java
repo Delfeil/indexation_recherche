@@ -144,6 +144,35 @@ public class Builder
 	private int filterTokens(List<Token> tokens, List<Integer> frequencies)
 	{	int result = 0;
 		//TODO méthode à compléter (TP6-ex4)
+		int count = 0;
+			// on passe chaque paire de tokens consécutifs en revue
+		Iterator<Token> it = tokens.iterator();
+		Token t1 = null;
+		while (it.hasNext()) {
+			Token t2 = it.next();
+			if(t1 == null) {
+				result = 1;
+				count = 1;
+			} else {
+					// si deux tokens consécutifs sont identiques,
+					// on supprime le second
+				if(t1.equals(t2)) { 
+					it.remove();
+					count++;
+				} else {
+					frequencies.add(count);
+					count = 1;
+				}
+					// on compte les termes
+				String type1 = t1.getType();
+				String type2 = t2.getType();
+				if(!type1.equals(type2)) {
+					result++;
+				}
+			}
+			t1 = t2;
+		}
+		frequencies.add(count);
 		return result;
 	}
 	
@@ -253,27 +282,27 @@ public class Builder
 
 		// test de buildPostings
 		//TODO méthode à compléter (TP2-ex2)
-		HashIndex hi = new HashIndex(2);
-		ArrayIndex ai = new ArrayIndex(3);
-		System.out.println( "tokens: " + tokens.size() + ", " + b.buildPostings(tokens, hi));
-		System.out.println("index: ");
-		hi.print();
-		System.out.println( "tokens: " + tokens.size() + ", " + b.buildPostings(tokens, ai));
-		System.out.println("index: ");
-		ai.print();
+		// HashIndex hi = new HashIndex(2);
+		// ArrayIndex ai = new ArrayIndex(3);
+		// System.out.println( "tokens: " + tokens.size() + ", " + b.buildPostings(tokens, hi));
+		// System.out.println("index: ");
+		// hi.print();
+		// System.out.println( "tokens: " + tokens.size() + ", " + b.buildPostings(tokens, ai));
+		// System.out.println("index: ");
+		// ai.print();
 		
 		// test de buildIndex
 		//TODO méthode à compléter (TP2-ex3)
-		Tokenizer tokenizer = new Tokenizer();
-		List<Token> tokens3 = new ArrayList<Token>();
+		// Tokenizer tokenizer = new Tokenizer();
+		// List<Token> tokens3 = new ArrayList<Token>();
 
-		Configuration.setCorpusName("wp_test");
-		int result = tokenizer.tokenizeCorpus(tokens3);
-		// System.out.println("Nombre de tokens trouvés: " + result);
-		Normalizer normalizer = new Normalizer();
-		normalizer.normalizeTokens(tokens3);
+		// Configuration.setCorpusName("wp_test");
+		// int result = tokenizer.tokenizeCorpus(tokens3);
+		// // System.out.println("Nombre de tokens trouvés: " + result);
+		// Normalizer normalizer = new Normalizer();
+		// normalizer.normalizeTokens(tokens3);
 
-		AbstractIndex indexArray = b.buildIndex(tokens3, LexiconType.ARRAY);
+		// AbstractIndex indexArray = b.buildIndex(tokens3, LexiconType.ARRAY);
 		// indexArray.print();
 		// AbstractIndex indexHash = b.buildIndex(tokens3, LexiconType.HASH);
 		// indexHash.print();
@@ -282,7 +311,18 @@ public class Builder
 		
 		// test de filterTokens
 		//TODO méthode à compléter (TP6-ex4)
-		
+		System.out.println("\n-------------- test TP6 ex4 ----------------\n");
+		List<Token> tokens6 = new ArrayList<Token>();
+		tokens6.add(t5);
+		tokens6.add(t4);
+		tokens6.add(t1);
+		tokens6.add(t2);
+		tokens6.add(t3);
+		tokens6.add(t6);
+		System.out.println(tokens6);
+		List<Integer> freqencies = new ArrayList<Integer>();
+		int nb_tokens6 = b.filterTokens(tokens6, freqencies);
+		System.out.println("nb tokens: " + nb_tokens6 + " \n " + tokens6 + " \n " + freqencies);
 		// test de buildPostings
 		//TODO méthode à compléter (TP6-ex5)
 	}

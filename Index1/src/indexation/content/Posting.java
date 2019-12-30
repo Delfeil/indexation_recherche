@@ -98,8 +98,9 @@ public class Posting implements Serializable, Comparable<Posting>
 	public String toString()
 	{	String result = null;
 		//TODO méthode à compléter (TP1-ex8)
-		result = Integer.toString(this.getDocId());
+		result = "<" + Integer.toString(this.getDocId());
 		//TODO méthode à modifier  (TP6-ex3)
+		result += " [" + Integer.toString(this.frequency) + "]>";
 		return result;
 	}
 	
