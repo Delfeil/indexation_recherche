@@ -172,6 +172,17 @@ public abstract class AbstractIndex implements Serializable
 	 * 		Entrée associéée au terme.
 	 */
 	public abstract IndexEntry getEntry(String term);
+
+	/**
+	 * REnvoie les entrées commençant par le prefix passé en paramètre.
+	 * Si une telle entrée n'existe pas, alors la méthode renvoie {@code null}
+	 * 
+	 * @param prefix
+	 * 		Préfixe des termes des entrées àchercher
+	 * @return
+	 * 		Entrées associées au prefix
+	 */
+	public abstract List<IndexEntry> getEntriesStartingWith(String prefix);
 	
 	/**
 	 * Ajoute une entrée dans l'index, à la suite de celles

@@ -242,6 +242,23 @@ public class AndQueryEngine
 		//TODO méthode à modifier  (TP4-ex11)
 		return result;
 	}
+
+	/***
+	 * qui calcule l’union (ensembliste) des deux listes passées en paramètres. 
+	 * 
+	 * @param list1
+	 * 		Liste triée 
+	 * @param list2
+	 * 		Liste triée
+	 * @return
+	 * 		Liste tiée correspondant à l'union des deux listes list1 et list2
+	 * 
+	 */
+	private List<Posting> processUnion(List<Posting> list1, List<Posting> list2) {
+		//TODO méthode à compléter (TPexam-ex4)
+		List<Posting> result = new ArrayList<Posting>();
+		return result;
+	}
 	
 	////////////////////////////////////////////////////
 	//	INDEX

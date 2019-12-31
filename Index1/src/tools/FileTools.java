@@ -109,8 +109,6 @@ public class FileTools
 			options = options + "_filter";
 		if(Configuration.isStemmingTokens())
 			options = options + "_stem";
-		if(Configuration.isComputingScores())
-			options = options + "_score";
 		String result = "data" + File.separator + corpusName + options + "_performance.txt";
 		return result;
 	}

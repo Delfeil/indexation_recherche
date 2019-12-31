@@ -90,34 +90,6 @@ public class Configuration
 	public static boolean isStemmingTokens()
 	{	return stemmingTokens;
 	}
-	
-	////////////////////////////////////////////////////
-	//	SCORES
-	////////////////////////////////////////////////////
-	/** Indique s'il faut ou pas calculer les scores */
-	private static boolean computingScores = false;
-	
-	/**
-	 * Permet d'indiquer si les scores doivent être
-	 * calculés ({@code true}) ou pas ({@code false}).
-	 * 
-	 * @param computingScores
-	 * 		Calculer les scores ({@code true}) ou pas ({@code false}).
-	 */
-	public static void setComputingScores(boolean computingScores)
-	{	Configuration.computingScores = computingScores;
-	}
-	
-	/**
-	 * Indique si les scores doivent être
-	 * calculés ({@code true}) ou pas ({@code false}).
-	 * 
-	 * @return
-	 * 		Calculer les scores ({@code true}) ou pas ({@code false}).
-	 */
-	public static boolean isComputingScores()
-	{	return computingScores;
-	}
 
 	////////////////////////////////////////////////////
 	//	SCILENCE

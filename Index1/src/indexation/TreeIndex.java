@@ -1,5 +1,7 @@
 package indexation;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -7,85 +9,83 @@ import indexation.content.IndexEntry;
 import indexation.content.Posting;
 
 /**
- * Objet représentant un index sous
- * la forme d'un fichier inverse simple,
- * dont le lexique est stocké dans un arbre
- * de recherche.
+ * Objet représentant un index sous la forme d'un fichier inverse simple, dont
+ * le lexique est stocké dans un arbre de recherche.
  */
-public class TreeIndex extends AbstractIndex
-{	/** Class id (juste pour éviter le warning) */
+public class TreeIndex extends AbstractIndex {
+	/** Class id (juste pour éviter le warning) */
 	private static final long serialVersionUID = 1L;
-	
+
 	/**
-	 * Construit un nouvel index vide,
-	 * de la taille indiquée en paramètre.
+	 * Construit un nouvel index vide, de la taille indiquée en paramètre.
 	 */
-	public TreeIndex()
-	{	//TODO méthode à compléter (TP1-ex10)
+	public TreeIndex() { // TODO méthode à compléter (TP1-ex10)
 		this.data = new TreeMap<String, IndexEntry>();
 	}
-	
+
 	////////////////////////////////////////////////////
-	//	DONNÉES
+	// DONNÉES
 	////////////////////////////////////////////////////
 	/** Lexique et postings de l'index */
-	private TreeMap<String,IndexEntry> data;
-	
+	private TreeMap<String, IndexEntry> data;
+
 	@Override
-	public void addEntry(IndexEntry indexEntry, int rank)
-	{	//TODO méthode à compléter (TP1-ex12)
+	public void addEntry(IndexEntry indexEntry, int rank) { // TODO méthode à compléter (TP1-ex12)
 		this.data.put(indexEntry.getTerm(), indexEntry);
 	}
-	
+
 	@Override
-	public IndexEntry getEntry(String term)
-	{	IndexEntry result = null;
-		//TODO méthode à compléter (TP1-ex13)
+	public IndexEntry getEntry(String term) {
+		IndexEntry result = null;
+		// TODO méthode à compléter (TP1-ex13)
 		result = this.data.get(term);
 		return result;
 	}
-	
+
 	@Override
-	public int getSize()
-	{	int result = 0;
-		//TODO méthode à compléter (TP1-ex14)
+	public List<IndexEntry> getEntriesStartingWith(String prefix) {
+		List<IndexEntry> result = new ArrayList<IndexEntry>();
+		// TODO méthode à compléter (TPexam-ex3)
+		return result;
+	}
+
+	@Override
+	public int getSize() {
+		int result = 0;
+		// TODO méthode à compléter (TP1-ex14)
 		result = this.data.size();
 		return result;
 	}
 
 	////////////////////////////////////////////////////
-	//	AFFICHAGE
+	// AFFICHAGE
 	////////////////////////////////////////////////////
 	/**
 	 * Affiche le contenu de l'index.
 	 */
 	@Override
-	public void print()
-	{	//TODO méthode à compléter (TP1-ex11)
-		for (Map.Entry<String, IndexEntry> it : this.data.entrySet()){
+	public void print() { // TODO méthode à compléter (TP1-ex11)
+		for (Map.Entry<String, IndexEntry> it : this.data.entrySet()) {
 			IndexEntry entry = it.getValue();
 			System.out.println(entry);
 		}
 	}
 
 	////////////////////////////////////////////////////
-	//	TEST
+	// TEST
 	////////////////////////////////////////////////////
 	/**
 	 * Test des méthodes de cette classe.
 	 * 
-	 * @param args
-	 * 		Pas utilisé.
+	 * @param args Pas utilisé.
 	 * 
-	 * @throws Exception 
-	 * 		Problème quelconque rencontré.
+	 * @throws Exception Problème quelconque rencontré.
 	 */
-	public static void main(String[] args) throws Exception 
-	{	// test du constructeur
-		//TODO méthode à compléter (TP1-ex10)
+	public static void main(String[] args) throws Exception { // test du constructeur
+																// TODO méthode à compléter (TP1-ex10)
 		TreeIndex ti = new TreeIndex();
 		// test de print
-		//TODO méthode à compléter (TP1-ex11)
+		// TODO méthode à compléter (TP1-ex11)
 		IndexEntry entry = new IndexEntry("barque");
 		IndexEntry entry2 = new IndexEntry("bateau");
 		Posting p = new Posting(4);
@@ -97,17 +97,17 @@ public class TreeIndex extends AbstractIndex
 		entry2.addPosting(p3);
 
 		// test de addEntry
-		//TODO méthode à compléter (TP1-ex12)
+		// TODO méthode à compléter (TP1-ex12)
 		ti.addEntry(entry, 0);
 		ti.addEntry(entry2, 1);
 		ti.print();
-		
+
 		// test de getEntry
-		//TODO méthode à compléter (TP1-ex13)
+		// TODO méthode à compléter (TP1-ex13)
 		System.out.println(ti.getEntry("bateau"));
-		
+
 		// test de getSize
-		//TODO méthode à compléter (TP1-ex14)
+		// TODO méthode à compléter (TP1-ex14)
 		System.out.println(ti.getSize());
 	}
 }

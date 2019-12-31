@@ -1,8 +1,6 @@
 package indexation.processing;
 
 import indexation.AbstractIndex;
-import indexation.ArrayIndex;
-import indexation.HashIndex;
 import indexation.TreeIndex;
 import indexation.AbstractIndex.LexiconType;
 import indexation.content.IndexEntry;
@@ -67,12 +65,6 @@ public class Builder
 		}
 		
 		switch(lexiconType) {
-			case ARRAY:
-			result = new ArrayIndex(nb_terms);
-			break;
-			case HASH:
-			result = new HashIndex(nb_terms);
-			break;
 			case TREE:
 			result = new TreeIndex();
 			break;
@@ -207,12 +199,7 @@ public class Builder
 				prev_token_type = token.getType();
 				nb_token++;
 			}
-			if(index instanceof ArrayIndex) {
-				ArrayIndex ai = (ArrayIndex) index;
-				iEntry = ai.getEntries()[nb_token];
-			} else {
-				iEntry = index.getEntry(token.getType());
-			}
+			iEntry = index.getEntry(token.getType());
 			if(iEntry == null) {
 				iEntry = new IndexEntry(token.getType());
 				iEntry.addPosting(new Posting(token.getDocId()));
@@ -385,14 +372,11 @@ public class Builder
 		System.out.println("nb tokens: " + nb_tokens6 + " \n " + tokens6 + " \n " + freqencies);
 		// test de buildPostings
 		//TODO méthode à compléter (TP6-ex5)
-		HashIndex hi = new HashIndex(2);
-		ArrayIndex ai = new ArrayIndex(3);
-		System.out.println( "tokens: " + tokens6.size() + ", " + b.buildPostings(tokens6, freqencies, hi));
+		TreeIndex ti = new TreeIndex();
+		System.out.println( "tokens: " + tokens6.size() + ", " + b.buildPostings(tokens6, freqencies, ti));
 		System.out.println("index: ");
-		hi.print();
-		System.out.println( "tokens: " + tokens6.size() + ", " + b.buildPostings(tokens6, freqencies, ai));
+		ti.print();
 		System.out.println("index: ");
-		ai.print();
 		
 		// TODO méthode à compléter (TP6-ex6)
 		Tokenizer tokenizer = new Tokenizer();
