@@ -93,7 +93,7 @@ private static final long serialVersionUID = 1L;
 			List<String> ls = new ArrayList<String>();
 			while(scanner.hasNextLine()) {
 				String line = scanner.nextLine();
-				ls.addAll(this.tokenizeString(line));
+				ls.addAll(this.tokenizeString(line, true));
 			}
 			Iterator<String> is = ls.iterator();
 			while(is.hasNext()) {
@@ -115,33 +115,64 @@ private static final long serialVersionUID = 1L;
 	 * @return
 	 * 		La liste de types correspondant.
 	 */
-	public List<String> tokenizeString(String string)
+	public List<String> tokenizeString(String string, Boolean removeJokers)
 	{	List<String> result = new ArrayList<String>();
-		//TODO méthode à compléter (TP1-ex3)
-		// On Séparer la chaine de caractère passée en argument Pour chaques groupes de caractères non alpha numérique ou d'espaces
+		String temp[] = null;
+		if(removeJokers) {
 
-		// String regex = "([^a-zA-Z0-9]|\\p{Blank})";
-		// regex = "\\W*\\s*\\W\\s*\\W*|\\W*\\s*\\p{Punct}\\s*\\W*|\\W*\\s*\\s\\s*\\W*";
-		// regex = "\\W+|\\s+"
-		// regex = "\\W*\\s*\\W\\s*\\W*|\\W*\\s*\\p{Punct}\\s*\\W*|\\W*\\s*\\s\\s*\\W*";
-		// String regex = "\\W+|\\s+|\\p{Punct}+\\p{Space}+\\p{Blank}*|\\p{Space}+\\p{Blank}*";
-		// Si la chaine à tokeniser n'est pas vide
-		if(string.length()>0) {
-			// Séparation des mots
-			// String regex = "\\p{Space}+([\\p{Punct}&&[^']&&[^-]]|(?<![a-zA-Z])('|-)|('|-)(?![a-zA-Z]))*|([\\p{Punct}&&[^']&&[^-]]|(?<![a-zA-Z])('|-)|('|-)(?![a-zA-Z]))+\\p{Space}*";
-			String regex = "\\p{Space}+|\\p{Punct}+";
-			// String regex = "\\p{Space}+([\\p{Punct}&&[^']&&[^-]]|(?<![a-zA-Z])('|-)|('|-)(?![a-zA-Z]))*|([\\p{Punct}&&[^']&&[^-]]|(?<![a-zA-Z])('|-)|('|-)(?![a-zA-Z]))+\\p{Space}*";
-			result = new ArrayList<String>(Arrays.asList(string.split(regex)));
-			// System.out.println(result.get(0));
-			// if(result.get(0).equals("")) {
-			// 		// Gestion du cas où la chaine de char commence par un caractère non alphanumérique ex: "-Cas 1"
-			// 		//Si c'est le cas, le split retourne [, Cas, 1] -> Enlever le premier élément de la liste.
-			// 	result.remove(0);
-			// }
-			// System.out.println(result);
-			while(result.contains("")) {
-				result.remove("");
+			//TODO méthode à compléter (TP1-ex3)
+			// On Séparer la chaine de caractère passée en argument Pour chaques groupes de caractères non alpha numérique ou d'espaces
+			
+			// String regex = "([^a-zA-Z0-9]|\\p{Blank})";
+			// regex = "\\W*\\s*\\W\\s*\\W*|\\W*\\s*\\p{Punct}\\s*\\W*|\\W*\\s*\\s\\s*\\W*";
+			// regex = "\\W+|\\s+"
+			// regex = "\\W*\\s*\\W\\s*\\W*|\\W*\\s*\\p{Punct}\\s*\\W*|\\W*\\s*\\s\\s*\\W*";
+			// String regex = "\\W+|\\s+|\\p{Punct}+\\p{Space}+\\p{Blank}*|\\p{Space}+\\p{Blank}*";
+			// Si la chaine à tokeniser n'est pas vide
+
+			if(string.length()>0) {
+
+				// ----------CORRECTION-----------
+				temp = string.split("[^\\pL\\pN]");
+					// on traite chaque segment
+				// for(String tmp: temp) {
+				// 		// si le segment traité n'est pas vide
+				// 	if(!tmp.isEmpty()) {
+				// 		// on le rajoute à la liste résultat
+				// 		result.add(tmp);
+				// 	}
+				// }
+
+				/*
+				// Séparation des mots
+				// String regex = "\\p{Space}+([\\p{Punct}&&[^']&&[^-]]|(?<![a-zA-Z])('|-)|('|-)(?![a-zA-Z]))*|([\\p{Punct}&&[^']&&[^-]]|(?<![a-zA-Z])('|-)|('|-)(?![a-zA-Z]))+\\p{Space}*";
+				String regex = "\\p{Space}+|\\p{Punct}+";
+				// String regex = "\\p{Space}+([\\p{Punct}&&[^']&&[^-]]|(?<![a-zA-Z])('|-)|('|-)(?![a-zA-Z]))*|([\\p{Punct}&&[^']&&[^-]]|(?<![a-zA-Z])('|-)|('|-)(?![a-zA-Z]))+\\p{Space}*";
+				result = new ArrayList<String>(Arrays.asList(string.split(regex)));
+				// System.out.println(result.get(0));
+				// if(result.get(0).equals("")) {
+				// 		// Gestion du cas où la chaine de char commence par un caractère non alphanumérique ex: "-Cas 1"
+				// 		//Si c'est le cas, le split retourne [, Cas, 1] -> Enlever le premier élément de la liste.
+				// 	result.remove(0);
+				// }
+				// System.out.println(result);
+				*/
 			}
+		} else {
+			if(string.length()>0) {
+				temp = string.split("[^\\pL\\pN\\*]");
+			}
+		}
+			// on traite chaque segment
+		for(String tmp: temp) {
+			// si le segment traité n'est pas vide
+			if(!tmp.isEmpty()) {
+				// on le rajoute à la liste résultat
+				result.add(tmp);
+			}
+		}
+		while(result.contains("")) {
+			result.remove("");
 		}
 		return result;
 	}
@@ -163,8 +194,12 @@ private static final long serialVersionUID = 1L;
 		// TODO méthode à compléter (TP1-ex3)
 		Tokenizer tokenizer = new Tokenizer();
 		// System.out.println(tokenizer.tokenizeString("-_ç(Salut, |b0nj0ur  \\| comment ça.vas?"));
-		System.out.println(tokenizer.tokenizeString("< -Bonjour . comment ça vas?'\n"));
-		
+		System.out.println(tokenizer.tokenizeString("< -Bonjour . comment ça vas?'\n", true));
+		System.out.println(tokenizer.tokenizeString("La fleur", true));
+		System.out.println(tokenizer.tokenizeString("La fleur", false));
+		System.out.println(tokenizer.tokenizeString("La* fleur", true));
+		System.out.println(tokenizer.tokenizeString("La* fleur", false));
+		/*
 		// test de tokenizeDocument
 		// TODO méthode à compléter (TP1-ex4)
 		List<Token> tokens = new ArrayList<Token>();
@@ -180,5 +215,6 @@ private static final long serialVersionUID = 1L;
 		Configuration.setCorpusName("wp_test");
 		int result = tokenizer.tokenizeCorpus(tokens5);
 		System.out.println("Nopmbre de tokens trouvés: " + result);
+		*/
 	}
 }

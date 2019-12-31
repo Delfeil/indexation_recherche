@@ -104,7 +104,7 @@ public class AndQueryEngine
 			// on tokénize la requête
 		Tokenizer tokenizer = this.index.getTokenizer();
 		Normalizer normalizer = this.index.getNormalizer();
-		List<String> tokensS = tokenizer.tokenizeString(query);
+		List<String> tokensS = tokenizer.tokenizeString(query, false);
 		for (String term : tokensS) {
 				// la normalisation du type donne le terme (ou null)
 			term = normalizer.normalizeType(term);
