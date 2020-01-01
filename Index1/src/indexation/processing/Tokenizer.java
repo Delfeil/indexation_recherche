@@ -163,12 +163,14 @@ private static final long serialVersionUID = 1L;
 				temp = string.split("[^\\pL\\pN\\*]");
 			}
 		}
-			// on traite chaque segment
-		for(String tmp: temp) {
-			// si le segment traité n'est pas vide
-			if(!tmp.isEmpty()) {
-				// on le rajoute à la liste résultat
-				result.add(tmp);
+		if(temp != null) {
+				// on traite chaque segment
+			for(String tmp: temp) {
+				// si le segment traité n'est pas vide
+				if(!tmp.isEmpty()) {
+					// on le rajoute à la liste résultat
+					result.add(tmp);
+				}
 			}
 		}
 		while(result.contains("")) {
