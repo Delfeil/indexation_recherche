@@ -257,6 +257,43 @@ public class AndQueryEngine
 	private List<Posting> processUnion(List<Posting> list1, List<Posting> list2) {
 		//TODO méthode à compléter (TPexam-ex4)
 		List<Posting> result = new ArrayList<Posting>();
+		ListIterator<Posting> it1 = list1.listIterator();
+		ListIterator<Posting> it2 = list2.listIterator();
+		Posting p1, p2 = null;
+		while(it1.hasNext() && it2.hasNext()) {
+				// On parcours les 2 listes en même temps
+			p1 = it1.next();
+			p2 = it2.next();
+			if(p1.equals(p2)) {
+				// Si on as un même docId dans les 2 listes
+				// On l'ajoute dans la liste des résultats
+				result.add(p1);
+			} else {
+					// Sinon, on ajoute le docId le plus petit
+					// Et on vance dans la liste avec le docId le plus petit
+				if(p1.compareTo(p2)<0) {
+					result.add(p1);
+					it2.previous();
+				} else {
+					result.add(p2);
+					it1.previous();
+				}
+
+			}
+		}
+			// Si on termine une liste, on ajoute tout le reste de la 2ème liste dans les résultats
+		if(it1.hasNext()) {
+			while(it1.hasNext()) {
+				p1 = it1.next();
+				result.add(p1);
+			}
+		}
+		if(it2.hasNext()) {
+			while(it2.hasNext()) {
+				p2 = it2.next();
+				result.add(p2);
+			}
+		}
 		return result;
 	}
 	
@@ -291,7 +328,7 @@ public class AndQueryEngine
 	public static void main(String[] args) throws Exception 
 	{	// test de splitQuery
 		// TODO méthode à compléter (TP3-ex1)
-
+		/*
 		Configuration.setCorpusName("wp_test");
 		AbstractIndex index = AbstractIndex.read();
 
@@ -334,5 +371,19 @@ public class AndQueryEngine
 		// test de processQuery
 		// TODO méthode à compléter (TP3-ex5)
 		System.out.println(aqe.processQuery(query));
+		*/
+
+		AndQueryEngine aqe = new AndQueryEngine(null);
+		List<Posting> list1 = new ArrayList<Posting>();
+		list1.add(new Posting(10));
+		list1.add(new Posting(11));
+		list1.add(new Posting(40));
+		list1.add(new Posting(75));
+		List<Posting> list2 = new ArrayList<Posting>();
+		list2.add(new Posting(5));
+		list2.add(new Posting(11));
+		list2.add(new Posting(65));
+
+		System.out.println(aqe.processUnion(list1, list2));
 	}
 }

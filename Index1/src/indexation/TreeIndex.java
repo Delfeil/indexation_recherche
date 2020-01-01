@@ -1,8 +1,11 @@
 package indexation;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.SortedMap;
+import java.util.SortedSet;
 import java.util.TreeMap;
 
 import indexation.content.IndexEntry;
@@ -46,6 +49,21 @@ public class TreeIndex extends AbstractIndex {
 	public List<IndexEntry> getEntriesStartingWith(String prefix) {
 		List<IndexEntry> result = new ArrayList<IndexEntry>();
 		// TODO méthode à compléter (TPexam-ex3)
+		IndexEntry tmpEntry = new IndexEntry(prefix);
+		SortedMap<String, IndexEntry> temp = data.tailMap(prefix);
+		
+		boolean goOn = true;
+		for (Map.Entry<String, IndexEntry> mapEntry : temp.entrySet()) {
+			if(!goOn) {
+				continue;
+			}
+			IndexEntry entry = mapEntry.getValue();
+			goOn = entry.getTerm().startsWith(prefix);
+			if(goOn) {
+				result.add(entry);
+			}
+		}
+		
 		return result;
 	}
 
@@ -109,5 +127,8 @@ public class TreeIndex extends AbstractIndex {
 		// test de getSize
 		// TODO méthode à compléter (TP1-ex14)
 		System.out.println(ti.getSize());
+		
+		// TODO méthode à compléter (exam-ex3)
+		System.out.println(ti.getEntriesStartingWith("ba"));
 	}
 }
