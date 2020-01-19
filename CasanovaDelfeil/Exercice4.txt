@@ -1,0 +1,63 @@
+Un tableau récapitulatif des deux indexation est disponible dans le fichier BuildIndex4.ods
+
+Nous observons que l'indexation en menant une phase de Conversion prends plus de temps  à partir de la phase de Conversion,
+en augmentant le nombre de token significativement à partir e cette phase.
+Celà impate les étapes suivantes en ralongeant la durée de traitement.
+
+De plus le fichier généré après l'écriture de l'index est bien plus volumineux dasn le cas de l'index avec Conversion que celui sans.
+
+
+
+
+
+
+-------------------------Résultat des logs--------------
+Construction de l'index sans Conversion
+
+Tokenizing corpus...
+631928 tokens were found, Durée mesurée : 737  ms
+
+Normalizing tokens...
+352716 tokens remaining after normalization Building index, duration=1017ms
+Building index...
+Sorting tokens...
+352716 tokens sorted, duration=459 ms
+
+Filtering tokens...
+156832 tokens remaining, corresponding to 38143 terms, duration=89 ms
+
+Building posting lists...
+156832 postings listed, lexicon type=TREE, duration=76 ms
+
+There are 38143 entries in the index, token list=LINKED, duration=624ms
+Total duration=2379  ms
+
+Writing the index... data/wp_test_filter_index.data
+Index written, duration=2310  ms
+
+
+------------- Construction de l'index avec Conversion
+Tokenizing corpus...
+631928 tokens were found, Durée mesurée : 853  ms
+
+Normalizing tokens...
+352716 tokens remaining after normalization Building index, duration=1137ms
+
+Converting tokens...
+2803608 tokens in total after conversion, duration=1247ms
+
+Building index...
+Sorting tokens...
+2803608 tokens sorted, duration=4036 ms
+
+Filtering tokens...
+1311016 tokens remaining, corresponding to 335591 terms, duration=523 ms
+
+Building posting lists...
+1311016 postings listed, lexicon type=TREE, duration=468 ms
+
+There are 335591 entries in the index, token list=LINKED, duration=5029ms
+Total duration=8269  ms
+
+Writing the index... data/wp_test_filter_index.data
+Index written, duration=18887  ms
